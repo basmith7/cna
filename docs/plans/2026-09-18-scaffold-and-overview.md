@@ -72,8 +72,11 @@ def validate_all(data_dir: pathlib.Path) -> list[str]   # error strings, [] == p
 def strip_markdown(md: str) -> str
 def normalize(text: str) -> list[str]
 def ngrams(tokens: list[str], n: int = 8) -> set[tuple[str, ...]]
-def load_allowlist(path: pathlib.Path) -> set[tuple[str, ...]]
+def strip_asciidoc(adoc: str) -> str
+def load_allowlist_text(text: str, n: int = 8) -> set[tuple[str, ...]]
+def load_allowlist(path: pathlib.Path = ALLOWLIST, n: int = 8) -> set[tuple[str, ...]]
 def find_overlaps(rules_md: str, source_grams: set, allow: set, n: int = 8) -> list[tuple[str, ...]]
+def source_ngrams(n: int = 8) -> set[tuple[str, ...]]   # all 65 sections, via fetch
 
 # check_coverage.py
 def parse_badges(md: str) -> list[dict]             # [{"kind": "spi"|"spi-ref"|"spi-omit", "cases": [...], "reason": str|None, "line": int}]
@@ -143,7 +146,7 @@ def test_extraction_log_has_format_section():
 ```bash
 cd /home/basmith7/Projects/cna
 python3 -m venv .venv
-.venv/bin/pip install pytest jsonschema Pillow
+.venv/bin/pip install pytest jsonschema referencing Pillow
 .venv/bin/python -m pytest tests/test_repo_hygiene.py -q
 ```
 
@@ -297,6 +300,7 @@ the PR that adds or substantially rewrites the file.
 ```
 pytest>=8
 jsonschema>=4.23
+referencing>=0.35
 Pillow>=10
 ```
 
@@ -344,7 +348,7 @@ git commit -m "Scaffold: licence split, README with legal posture, extraction lo
 
 **Files:**
 - Create: `tools/sources.json`, `tools/fetch.py`, `tests/test_fetch.py`
-- Modify: `tools/learn_page.py:14-33` (replace its private `scan()` with `fetch.scan_page`)
+- Modify: `tools/learn_page.py` (replace its private `IA` constant and `scan()` function with `fetch.scan_page`; keep `ROOT`, `OUT`, `CACHE`)
 
 **Interfaces:**
 - Produces: `fetch.CACHE`, `fetch.load_sources()`, `fetch.scan_page(page)`, `fetch.source_section(n)`, `fetch.all_source_sections()` as declared in the file map. `fetch._download(url, dest)` is the single network call so tests can monkeypatch it.
@@ -471,8 +475,7 @@ def load_sources() -> dict:
 
 
 def _download(url: str, dest: pathlib.Path) -> None:
-    """The only network call in this module; tests replace it."""
-    pathlib.Path(dest).parent.mkdir(parents=True, exist_ok=True)
+    """The only network call in this module; tests replace it. Callers create the parent dir."""
     urllib.request.urlretrieve(url, dest)
 
 
@@ -481,6 +484,7 @@ def scan_page(page) -> pathlib.Path:
     page = f"{int(page):04d}"
     dest = CACHE / f"p{page}.jpg"
     if not dest.exists():
+        dest.parent.mkdir(parents=True, exist_ok=True)
         _download(load_sources()["archive_org"]["page_url_template"].format(page=page), dest)
     return dest
 
@@ -490,6 +494,7 @@ def source_section(n: int) -> pathlib.Path:
     src = load_sources()["source_text"]
     dest = CACHE / "source" / src["commit"] / f"section-{n:02d}.adoc"
     if not dest.exists():
+        dest.parent.mkdir(parents=True, exist_ok=True)
         _download(src["raw_url_template"].format(commit=src["commit"], nn=f"{n:02d}"), dest)
     return dest
 
@@ -549,7 +554,7 @@ Expected: 4 passed
 
 Copy the printed sha256 into `tools/sources.json` → `files["The Campaign for North Africa_jp2.zip"].sha256` (replace `null`). Leave the other two `sha256: null` (their SHA-1s are archive.org's; we only use the jp2 pages).
 
-In `tools/learn_page.py`, delete the `IA = (...)` constant and the `scan()` function (lines 21–33) and replace with:
+In `tools/learn_page.py`, delete **only** the `IA = (...)` constant (the two-line string starting `IA = ("https://archive.org/download/…`) and the `def scan(page):` function that follows it (`grep -n 'IA = \|^def scan' tools/learn_page.py` shows both). Keep `ROOT`, `OUT` and `CACHE` — `build()` uses `OUT`. In their place put:
 
 ```python
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
@@ -578,7 +583,7 @@ git commit -m "Pin archive.org item and source-text commit; add tools/fetch.py"
 - Create: `data/README.md`, `data/schema/common.schema.json`, `data/schema/spi-cases.schema.json`, `data/schema/errata-patch.schema.json`, `tests/test_schemas.py`
 
 **Interfaces:**
-- Produces: `$defs` in `common.schema.json` that every later table schema `$ref`s by `common.schema.json#/$defs/<name>`: `caseRef`, `scanRef`, `sourceRef`, `sources`, `hexId`, `hexside`, `side`, `weather`, `unitType`, `unitClass`, `supplyType`, `phase`, `terrain`.
+- Produces: `$defs` in `common.schema.json` that every later table schema `$ref`s by `common.schema.json#/$defs/<name>`: `caseRef`, `scanRef`, `sourceRef`, `sources`, `hexId`, `hexside`, `side`, `nation`, `weather`, `unitType`, `unitClass`, `supplyType`, `phase`, `terrain`.
 - Produces: the `spi-cases.json` shape consumed by Tasks 4, 5, 7.
 
 - [ ] **Step 1: Write the failing test**
@@ -648,12 +653,22 @@ def test_errata_patch_schema_requires_table_and_ops():
                 "patches": [{"op": "replace", "path": "/rows/3/cost", "value": 6}]})
     with pytest.raises(jsonschema.ValidationError):
         v.validate({"id": "E-001", "patches": []})
+
+
+def test_errata_patch_value_required_for_add_and_replace_only():
+    v = validator("errata-patch.schema.json")
+    base = {"id": "E-001", "table": "terrain-effects", "affects": ["8.37"], "sources": ["CNA1979:8.37"], "summary": "x"}
+    v.validate(dict(base, patches=[{"op": "remove", "path": "/rows/3"}]))
+    with pytest.raises(jsonschema.ValidationError):
+        v.validate(dict(base, patches=[{"op": "replace", "path": "/rows/3/cost"}]))
+    with pytest.raises(jsonschema.ValidationError):
+        v.validate(dict(base, patches=[{"op": "add", "path": "/rows/3/cost"}]))
 ```
 
 - [ ] **Step 2: Run to verify it fails**
 
 Run: `.venv/bin/python -m pytest tests/test_schemas.py -q`
-Expected: failures (schema files missing). If `referencing` is not importable, it ships with `jsonschema>=4.18`; re-run `.venv/bin/pip install -r requirements-dev.txt`.
+Expected: failures (schema files missing).
 
 - [ ] **Step 3: Write common.schema.json**
 
@@ -673,7 +688,7 @@ Expected: failures (schema files missing). If `referencing` is not importable, i
               "description": "Map sheet letter + RRCC as printed, e.g. C4023"},
     "hexside": {"type": "object", "required": ["a", "b"], "additionalProperties": false,
                 "properties": {"a": {"$ref": "#/$defs/hexId"}, "b": {"$ref": "#/$defs/hexId"}},
-                "description": "Unordered pair, stored with a < b"},
+                "description": "Unordered pair; convention a < b (checked by check_data once a table uses it)"},
     "side": {"enum": ["cw", "axis"]},
     "nation": {"enum": ["cw", "it", "de"]},
     "weather": {"enum": ["normal", "hot", "sandstorm", "rainstorm"]},
@@ -737,7 +752,8 @@ Expected: failures (schema files missing). If `referencing` is not importable, i
     "summary": {"type": "string", "minLength": 1, "description": "Our paraphrase of the correction"},
     "patches": {"type": "array", "minItems": 1, "items": {
       "type": "object", "required": ["op", "path"],
-      "properties": {"op": {"enum": ["add", "remove", "replace"]}, "path": {"type": "string", "pattern": "^/"}, "value": {}}
+      "properties": {"op": {"enum": ["add", "remove", "replace"]}, "path": {"type": "string", "pattern": "^/"}, "value": {}},
+      "if": {"properties": {"op": {"enum": ["add", "replace"]}}}, "then": {"required": ["value"]}
     }}
   }
 }
@@ -848,7 +864,7 @@ git commit -m "Data conventions: ID grammar, enums, hex convention, schemas for 
 
 **Interfaces:**
 - Consumes: `fetch.all_source_sections()`, `fetch.load_sources()`.
-- Produces: `gen_spi_cases.parse_anchors(text)`, `gen_spi_cases.build_cases(section_texts)`; the generated `data/spi-cases.json` (≈1,700 cases) used by the data and coverage checks.
+- Produces: `gen_spi_cases.parse_anchors(text)`, `gen_spi_cases.build_cases(section_texts)`; the generated `data/spi-cases.json` (1,738 cases at the pinned commit, 976 of them in §1–32) used by the data and coverage checks.
 
 Facts about the source (verified 2026-09-18 at the pinned commit): anchors are lines like `[#8_11]`, sometimes with trailing whitespace; one malformed anchor `[#17.6]` in section 17 (treat `.` as `_`); a few anchors are duplicated across files (keep the first); `_0` is the section heading; one digit after `_` is a primary case, two digits a secondary case.
 
@@ -934,6 +950,8 @@ def parse_anchors(adoc_text: str) -> list[dict]:
         if anchor in seen:
             continue
         seen.add(anchor)
+        if len(case) == 2 and case.endswith("0"):
+            raise ValueError(f"anchor [#{anchor}]: SPI numbering has no two-digit case ending in 0")
         kind = "section" if case == "0" else "primary" if len(case) == 1 else "secondary"
         out.append({"id": f"{section}.{case}", "section": section, "kind": kind, "anchor": anchor})
     return out
@@ -977,15 +995,15 @@ Expected: 3 passed
 ```bash
 .venv/bin/python tools/fetch.py sections >/dev/null
 .venv/bin/python tools/gen_spi_cases.py
-.venv/bin/python - <<'EOF'
+.venv/bin/python - <<'PYEOF'
 import json; d=json.load(open('data/spi-cases.json')); c=d['cases']
 print(len(c), 'cases;', sum(x['kind']=='section' for x in c), 'sections;', sorted({x['section'] for x in c})==list(range(1,66)))
 print([x['id'] for x in c if x['section']==17 and x['kind']=='primary'])
-EOF
+PYEOF
 grep -c '"id"' data/spi-cases.json
 ```
 
-Expected: ≈1,730 cases, 65 sections, `True`; section 17 primaries include `17.6`. Inspect that no value in the file is prose (`grep -v '"label": ""' data/spi-cases.json | grep label` prints nothing).
+Expected: `1738 cases; 65 sections; True` (exact, at the pinned commit); section 17 primaries include `17.6`. Inspect that no value in the file is prose (`grep -v '"label": ""' data/spi-cases.json | grep label` prints nothing).
 
 - [ ] **Step 6: Commit**
 
@@ -1005,7 +1023,7 @@ git commit -m "Generate canonical SPI case list from pinned source anchors"
 - Consumes: `data/schema/*.schema.json`, `data/spi-cases.json`, `data/tables/*.json`, `data/errata/*.json`.
 - Produces: `check_data.validate_all(data_dir) -> list[str]`; CLI exits 1 with the errors printed if the list is non-empty.
 
-Rules enforced: (1) every schema is valid 2020-12; (2) `spi-cases.json` validates; (3) every `tables/<x>.json` has a `schema/<x>.schema.json` and validates against it; (4) every `errata/*.json` validates against `errata-patch.schema.json`, its `table` exists, and its `id` matches its filename; (5) every string matching `CNA1979:…` anywhere in `tables/` or `errata/` names a case in `spi-cases.json`.
+Rules enforced: (1) every schema is valid 2020-12; (2) `spi-cases.json` validates; (3) every `tables/<x>.json` has a `schema/<x>.schema.json` and validates against it; (4) every `errata/*.json` validates against `errata-patch.schema.json`, its `table` exists, its `id` matches its filename, and every `affects` id is a known case; (5) every string matching `CNA1979:…` anywhere in `tables/` or `errata/` names a case in `spi-cases.json`.
 
 - [ ] **Step 1: Write the failing tests**
 
@@ -1075,6 +1093,15 @@ def test_errata_must_target_existing_table_and_match_filename(tmp_path):
     errs = check_data.validate_all(d)
     assert any("E-002.json" in e and "table 'missing'" in e for e in errs)
     assert any("E-002.json" in e and "id E-001" in e for e in errs)
+
+
+def test_errata_affects_must_name_known_cases(tmp_path):
+    patch = {"id": "E-001", "table": "demo", "affects": ["8.37", "9.99"], "sources": ["CNA1979:8.37"],
+             "summary": "x", "patches": [{"op": "replace", "path": "/rows/0/cost", "value": 3}]}
+    d = make_data(tmp_path, tables={"demo.json": {"rows": [{"cost": 2, "sources": ["CNA1979:8.37"]}]}},
+                  errata={"E-001.json": patch})
+    errs = check_data.validate_all(d)
+    assert any("E-001.json" in e and "affects unknown case 9.99" in e for e in errs)
 ```
 
 - [ ] **Step 2: Run to verify it fails**
@@ -1163,6 +1190,10 @@ def validate_all(data_dir: pathlib.Path) -> list[str]:
             errors.append(f"errata/{p.name}: table '{patch['table']}' does not exist")
         for ref in sorted(_case_refs(patch) - {f"CNA1979:{k}" for k in known}):
             errors.append(f"errata/{p.name}: unknown case reference {ref}")
+        affects = patch.get("affects")
+        if isinstance(affects, list):  # otherwise the schema error above already covers it
+            for c in sorted(set(map(str, affects)) - known):
+                errors.append(f"errata/{p.name}: affects unknown case {c}")
     return errors
 
 
@@ -1182,7 +1213,7 @@ if __name__ == "__main__":
 - [ ] **Step 4: Run tests to verify they pass**
 
 Run: `.venv/bin/python -m pytest tests/test_check_data.py -q`
-Expected: 6 passed. Also run `.venv/bin/python tools/check_data.py` → `check_data: OK (0 errors)`.
+Expected: 7 passed. Also run `.venv/bin/python tools/check_data.py` → `check_data: OK (0 errors)`.
 
 - [ ] **Step 5: Commit**
 
@@ -1200,7 +1231,7 @@ git commit -m "Add data gate: schema validation and case-reference integrity"
 
 **Interfaces:**
 - Consumes: `fetch.all_source_sections()`.
-- Produces: `check_overlap.strip_markdown`, `normalize`, `ngrams`, `load_allowlist`, `find_overlaps`; CLI `python3 tools/check_overlap.py [--n 8] [rules_dir]` exits 1 on any hit.
+- Produces: `check_overlap.strip_markdown`, `strip_asciidoc`, `normalize`, `ngrams`, `load_allowlist`, `load_allowlist_text`, `find_overlaps`, `source_ngrams`; CLI `python3 tools/check_overlap.py [--n 8] [path ...]` (default: `rules/`, `rulings/`, `README.md`, `data/README.md` — everything the site renders as our prose) exits 1 on any hit.
 
 Normalisation is shared for both sides: lowercase; `’`→`'`; drop everything but `[a-z0-9']`; tokens split on whitespace. Markdown stripping removes YAML frontmatter, badge lines (`::: …`), heading markers, emphasis, table pipes, link targets, inline code ticks. AsciiDoc stripping removes anchor lines, heading markers, `*[8.11]*` case labels, `<<8_37,8.37>>` cross-refs (keeping the visible number), and `====` block fences. The allowlist is one phrase per line; a phrase of ≥8 words allows every 8-gram inside it.
 
@@ -1260,10 +1291,11 @@ Expected: ModuleNotFoundError for `check_overlap`.
 
 ```python
 #!/usr/bin/env python3
-"""Overlap gate: fail if any N-word run (default 8) in rules/**/*.md also occurs in the
-source transcription. A control against verbatim copying only.
+"""Overlap gate: fail if any N-word run (default 8) in our prose — rules/, rulings/, and the
+READMEs the site renders — also occurs in the source transcription. A control against verbatim
+copying only.
 
-  python3 tools/check_overlap.py [--n 8] [rules_dir]
+  python3 tools/check_overlap.py [--n 8] [path ...]     # each path a .md file or a directory
 """
 import argparse
 import pathlib
@@ -1347,12 +1379,14 @@ def source_ngrams(n: int = 8) -> set[tuple[str, ...]]:
 
 def main(argv: list[str]) -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("rules_dir", nargs="?", default=str(ROOT / "rules"))
+    ap.add_argument("paths", nargs="*", default=[str(ROOT / "rules"), str(ROOT / "rulings"),
+                                                 str(ROOT / "README.md"), str(ROOT / "data" / "README.md")])
     ap.add_argument("--n", type=int, default=8)
     a = ap.parse_args(argv)
-    files = sorted(pathlib.Path(a.rules_dir).rglob("*.md"))
+    files = sorted({f for p in map(pathlib.Path, a.paths)
+                    for f in (p.rglob("*.md") if p.is_dir() else [p] if p.is_file() else [])})
     if not files:
-        print("check_overlap: OK (no rules files)")
+        print("check_overlap: OK (no files)")
         return
     grams, allow = source_ngrams(a.n), load_allowlist(n=a.n)
     total = 0
@@ -1379,7 +1413,7 @@ the campaign for north africa the desert war 1940 1943
 - [ ] **Step 4: Run tests to verify they pass**
 
 Run: `.venv/bin/python -m pytest tests/test_check_overlap.py -q`
-Expected: 6 passed. Then `.venv/bin/python tools/check_overlap.py` → `check_overlap: OK (no rules files)`.
+Expected: 6 passed. Then `.venv/bin/python tools/check_overlap.py` → `check_overlap: OK (0 shared 8-word runs)` (it scans `README.md` and `data/README.md`, which exist by now; `rules/` and `rulings/` are empty or absent). This is the first real run — it downloads the 65 source sections (~1 MB) into `~/.cache/cna-scans/source/`.
 
 - [ ] **Step 5: Commit**
 
@@ -1567,7 +1601,7 @@ if __name__ == "__main__":
 - [ ] **Step 4: Run tests to verify they pass**
 
 Run: `.venv/bin/python -m pytest tests/test_check_coverage.py -q`
-Expected: 5 passed. Then `.venv/bin/python tools/check_coverage.py --sections 1-32` → `coverage: 0 / N (…)` with N ≈ 900 and exit 0.
+Expected: 5 passed. Then `.venv/bin/python tools/check_coverage.py --sections 1-32` → `coverage: 0 / 976 (primary 0, omitted 0, uncovered 976)` and exit 0.
 
 - [ ] **Step 5: Commit**
 
@@ -1688,24 +1722,17 @@ npm init -y >/dev/null
 npm install -D vitepress markdown-it
 ```
 
-Then edit `package.json` to exactly:
+Then set the metadata and scripts without touching the `devDependencies` npm just wrote:
 
-```json
-{
-  "name": "cna-living-rules",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "site:dev": "vitepress dev site",
-    "site:build": "vitepress build site",
-    "site:preview": "vitepress preview site",
-    "test:site": "node --test site/.vitepress/*.test.mjs"
-  },
-  "devDependencies": {
-    "markdown-it": "<keep the version npm wrote>",
-    "vitepress": "<keep the version npm wrote>"
-  }
-}
+```bash
+node -e '
+const fs = require("fs"); const p = JSON.parse(fs.readFileSync("package.json"));
+const out = { name: "cna-living-rules", private: true, type: "module",
+  scripts: { "site:dev": "vitepress dev site", "site:build": "vitepress build site",
+             "site:preview": "vitepress preview site", "test:site": "node --test site/.vitepress/*.test.mjs" },
+  devDependencies: p.devDependencies };
+fs.writeFileSync("package.json", JSON.stringify(out, null, 2) + "\n");'
+cat package.json     # expect exactly: name, private, type, scripts, devDependencies {markdown-it, vitepress}
 ```
 
 `site/.vitepress/spi-badge.test.mjs`:
@@ -1829,7 +1856,6 @@ export default defineConfig({
       '/rules/': [
         { text: 'Rules', items: [
           { text: 'Overview', link: '/rules/00-overview' },
-          { text: 'Glossary', link: '/rules/glossary' },
         ] },
       ],
     },
@@ -1927,8 +1953,12 @@ jobs:
       - run: python tools/check_data.py
       - run: python tools/check_overlap.py
       - name: Coverage report
-        run: python tools/check_coverage.py --sections 1-32 --markdown | tee coverage.md
-      - if: github.event_name == 'pull_request'
+        run: |
+          status=0
+          python tools/check_coverage.py --sections 1-32 --markdown > coverage.md || status=$?
+          cat coverage.md
+          exit "$status"
+      - if: ${{ always() && github.event_name == 'pull_request' }}
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           header: coverage
@@ -1968,6 +1998,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install -r requirements-dev.txt
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/cna-scans/source
+          key: source-${{ hashFiles('tools/sources.json') }}
+      - run: python tools/fetch.py sections > /dev/null
+      - run: python tools/check_data.py && python tools/check_overlap.py    # same gates as ci; a direct push to main cannot publish past them
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: npm }
       - uses: actions/configure-pages@v5
@@ -1993,7 +2032,7 @@ jobs:
 .venv/bin/python -c "import yaml" 2>/dev/null || .venv/bin/pip install pyyaml
 .venv/bin/python -c "import yaml,sys; [yaml.safe_load(open(f)) for f in ['.github/workflows/ci.yml','.github/workflows/deploy.yml']]; print('yaml ok')"
 # the exact command sequence CI runs:
-.venv/bin/python -m pytest -q && .venv/bin/python tools/check_data.py && .venv/bin/python tools/check_overlap.py && .venv/bin/python tools/check_coverage.py --sections 1-32 --markdown | head -3 && npm run test:site && npm run site:build
+.venv/bin/python -m pytest -q && .venv/bin/python tools/check_data.py && .venv/bin/python tools/check_overlap.py && .venv/bin/python tools/check_coverage.py --sections 1-32 --markdown > /dev/null && npm run test:site && npm run site:build
 ```
 
 Expected: `yaml ok`, then every command exits 0. (Do not add pyyaml to requirements; it was only for this check.)
@@ -2126,8 +2165,8 @@ a forward or back **position**; both sides plot, then fire, **barrages**;
 the non-phasing side may **retreat before assault**; both sides secretly
 assign strength to **anti-armour fire** or **close assault**; anti-armour
 fire is resolved simultaneously; close assaults are resolved one at a time
-in the order Player A chooses, and Player A reveals afterwards which of
-them were only **probes**.
+in the order the phasing player chooses, who then reveals which of them
+were only **probes**.
 
 ## The currency: Capability Points
 
@@ -2188,8 +2227,8 @@ player's movement, paying CP from the same allowance.
 
 Combat strength is computed, not read off the counter. **Raw points** are
 rating × TOE Strength Points committed; **Actual points** are raw ÷ 10,
-rounded to the nearest whole number, and anything under five raw counts as
-nothing. All contributions against one target are summed before dividing,
+rounded to the nearest whole number with halves rounding up (11.4 → 11,
+11.5 → 12), and anything under five raw counts as nothing. All contributions against one target are summed before dividing,
 so a lone small unit contributes almost nothing and concentration is
 enforced by arithmetic.
 
@@ -2261,12 +2300,18 @@ primary citation lives in the system file that restates the case.*
 
 ```bash
 rm -f rules/.gitkeep
+.venv/bin/python - <<'PYEOF'
+import json
+known = {c['id'] for c in json.load(open('data/spi-cases.json'))['cases']}
+refs = {c for line in open('rules/00-overview.md') if line.startswith('::: spi-ref') for c in line.split()[2:]}
+print('missing:', sorted(refs - known))
+PYEOF
 .venv/bin/python tools/check_overlap.py
 .venv/bin/python tools/check_coverage.py --sections 1-32
 npm run site:build
 ```
 
-Expected: `check_overlap: OK (0 shared 8-word runs)`; `coverage: 0 / N …` with **no** `ERROR` lines (every `spi-ref` case exists); site builds. If the overlap gate prints a run, rewrite that sentence and re-run.
+Expected: `missing: []`; `check_overlap: OK (0 shared 8-word runs)`; `coverage: 0 / 976 …` with **no** `ERROR` lines; site builds. If a case is reported missing, replace it with its section id (e.g. `6.0`); if the overlap gate prints a run, rewrite that sentence and re-run.
 
 - [ ] **Step 3: Append the EXTRACTION.md entry**
 
@@ -2316,7 +2361,7 @@ the SPI case that introduces the idea, for cross-reference only.
 
 | Term | Meaning | Where | See |
 |---|---|---|---|
-| **Actual points** | Combat strength after conversion: raw points ÷ 10, rounded to nearest; below five raw = zero. All comparison and table lookups use Actual points. | Combat | 11.3 |
+| **Actual points** | Combat strength after conversion: raw points ÷ 10, rounded to nearest with halves up; below five raw = zero. All comparison and table lookups use Actual points. | Combat | 11.3 |
 | **Anti-armour fire** | The combat step in which assigned TOE points shoot at armour-class targets, resolved simultaneously by both sides before close assault. | Combat | 14.0 |
 | **Attachment** | The link between a unit and a parent formation. Governs who it may stack and assault with and which HQ it draws on; changed in the Organisation Phase. | Organisation | 18.0 |
 | **Barrage** | Indirect fire by gun-class units (and some others) at a hex, plotted secretly, resolved before assault. Targets are chosen by class, not by unit. | Combat | 12.0 |
@@ -2340,7 +2385,7 @@ the SPI case that introduces the idea, for cross-reference only.
 | **Parent formation** | A division, brigade or similar whose attached units share a CPA source and an HQ. | Organisation | 6.15 |
 | **Patrol** | Reconnaissance by the phasing player in the last phase of the half, allowed only if no assault was made. | Combat | 16.0 |
 | **Phasing player** | The player whose half of the stage it is. The other player is the non-phasing player. | Sequence of play | 5.2 |
-| **Pinned** | A barrage result that stops a unit moving, including retreating before assault, for the rest of the segment. | Combat | 12.6 |
+| **Pinned** | A barrage result: for the rest of the Combat Segment the unit may not move (so may not retreat before assault), fire anti-armour, or close assault. | Combat | 12.6 |
 | **Player A / Player B** | The first and second player in an Operations Stage, as chosen by the Initiative holder. | Sequence of play | 5.2 |
 | **Position** | A gun-class or armour-class unit's declared stance for the segment, forward or back, which trades fire flexibility for vulnerability. | Combat | 11.0 |
 | **Probe** | A close assault the attacker designates in advance as limited, revealed after resolution, with reduced consequences. | Combat | 15.0 |
@@ -2352,8 +2397,8 @@ the SPI case that introduces the idea, for cross-reference only.
 | **Reserve** | A status chosen in the Reserve Designation Phase. A Reserve unit does not move in the first cycle but, once released, may move in later cycles regardless of distance to the enemy. | Organisation | 18.0 |
 | **Retreat before assault** | The non-phasing player's option to withdraw a threatened unit, at CP cost, after barrages and before force assignment. | Combat | 13.0 |
 | **Stacking Points** | The measure of how much may occupy one hex; each unit has a stacking value and each hex a limit. | Stacking and ZOC | 9.0 |
-| **Supply Unit** | In the Land Game, an abstract dump holding fuel and ammunition points. Units draw on one within half their CPA of movement. | Abstract logistics and air | 32.1 |
-| **TOE Strength Point** | The unit of a unit's strength — roughly a company or a battery. Removed by combat and breakdown, restored by replacements and repair. | Units and state | 3.4 |
+| **Supply Unit** | In the Land Game, an abstract dump holding fuel and ammunition points. A unit may draw on one that lies within half its CPA. | Abstract logistics and air | 32.1 |
+| **TOE Strength Point** | The unit of a unit's strength — roughly a company or a battery. Destroyed by combat; put out of action (not destroyed) by breakdown; restored by replacements and repair. | Units and state | 3.4 |
 | **Training** | The process, in the Organisation Phase, by which replacements and units improve morale before use. | Organisation | 20.0 |
 | **Type** | A unit's functional category — infantry, tank, reconnaissance, anti-tank, anti-aircraft, artillery, engineer, and support and transport types — governing what it may do. | Units and state | 3.21 |
 | **Weather** | Normal, hot, sandstorm or rainstorm, rolled once per stage; modifies movement, breakdown, construction and supply. | Special | 29.0 |
@@ -2368,15 +2413,15 @@ the system file wins and this table is corrected.*
 
 - [ ] **Step 2: Link the Glossary from the Overview, then verify every "See" case exists and the gates pass**
 
-In `rules/00-overview.md`, change the table row `| Glossary | Defined terms | §2, §3 |` to `| [Glossary](./glossary.md) | Defined terms | §2, §3 |`.
+In `rules/00-overview.md`, change the table row `| Glossary | Defined terms | §2, §3 |` to `| [Glossary](./glossary.md) | Defined terms | §2, §3 |`. In `site/.vitepress/config.mts`, add `{ text: 'Glossary', link: '/rules/glossary' },` directly after the Overview sidebar item.
 
 ```bash
-.venv/bin/python - <<'EOF'
+.venv/bin/python - <<'PYEOF'
 import json,re
 known={c['id'] for c in json.load(open('data/spi-cases.json'))['cases']}
 seen=re.findall(r'\| (\d{1,2}\.\d{1,2}) \|\n', open('rules/glossary.md').read())
 print('missing:', sorted(set(seen)-known))
-EOF
+PYEOF
 .venv/bin/python tools/check_overlap.py
 .venv/bin/python tools/check_coverage.py --sections 1-32
 npm run site:build
@@ -2398,7 +2443,7 @@ Expected: `missing: []` (if a case is missing, replace it with the nearest secti
 - [ ] **Step 4: Commit**
 
 ```bash
-git add rules/glossary.md rules/00-overview.md EXTRACTION.md
+git add rules/glossary.md rules/00-overview.md site/.vitepress/config.mts EXTRACTION.md
 git commit -m "Rules: authored Glossary"
 ```
 
@@ -2430,4 +2475,5 @@ State the pass/fail of each command above verbatim, the case count in `data/spi-
 - **Scaffold (Process 1):** licences/README/EXTRACTION → T1; `sources.json` with pinned item + hashes and tonicebrian commit → T2; `data/README.md` + schemas → T3; `spi-cases.json` from anchors, IDs and labels only → T4; VitePress phase 1 → T9; CI with two gates + coverage comment → T10 (gates T5, T6; report T7). Rulings process file → T8 (spec: "fork policy is written in `rulings/README.md`").
 - **Overview + glossary (Process 2):** T11, T12, with `EXTRACTION.md` entries and the primer link.
 - **Deliberately deferred to step 3+ (per spec):** `data/tables/*`, `data/errata/*`, `sequence-of-play.json`, NJHarman seed import, "Changes from the original" page, client-side original viewer, container styling (phase 2).
+- **Deviation noted:** the badge markdown plugin and a minimal badge style are built in site phase 1 (spec puts badges in phase 2) because without a block rule the single-line `::: spi` syntax renders as literal text in the Overview; the phase-2 work (styling, changes page, coverage page, original viewer) is untouched.
 - **Deviation noted:** `sources.json` records archive.org's published SHA-1 for three files plus a locally computed SHA-256 for the jp2 zip only (T2 step 6), since that is the one file we read.
