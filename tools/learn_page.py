@@ -14,24 +14,21 @@ those crops are SPI material and are git-ignored.
 
 Usage: python3 tools/learn_page.py   (then open docs/learn/index.html)
 """
-import html, math, os, pathlib, urllib.request
+import html, math, os, pathlib, sys
 
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs" / "learn"
 CACHE = pathlib.Path(os.path.expanduser("~/.cache/cna-scans"))
-IA = ("https://archive.org/download/campaign-for-north-africa/The%20Campaign%20for%20North%20Africa_jp2.zip/"
-      "The%20Campaign%20for%20North%20Africa_jp2%2FThe%20Campaign%20for%20North%20Africa_{page}.jp2&ext=jpg")
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from fetch import scan_page  # noqa: E402
 
 
 def scan(page):
     """jp2 index (0-based); XML page n == jp2 n-1."""
-    CACHE.mkdir(parents=True, exist_ok=True)
-    p = CACHE / f"p{page}.jpg"
-    if not p.exists():
-        urllib.request.urlretrieve(IA.format(page=page), p)
-    return Image.open(p)
+    return Image.open(scan_page(page))
 
 
 # ---------------------------------------------------------------- table crops
