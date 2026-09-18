@@ -39,6 +39,14 @@ def _case_refs(obj) -> set[str]:
     return set()
 
 
+def _load_json(path: pathlib.Path, label: str, errors: list[str]):
+    try:
+        return json.loads(path.read_text())
+    except (OSError, json.JSONDecodeError) as e:
+        errors.append(f"{label}: invalid JSON: {e}")
+        return None
+
+
 def validate_all(data_dir: pathlib.Path) -> list[str]:
     errors: list[str] = []
     schema_dir = data_dir / "schema"
@@ -52,7 +60,9 @@ def validate_all(data_dir: pathlib.Path) -> list[str]:
     reg = _registry(schema_dir)
 
     cases_path = data_dir / "spi-cases.json"
-    cases = json.loads(cases_path.read_text())
+    cases = _load_json(cases_path, "spi-cases.json", errors)
+    if cases is None:
+        return errors
     errors += _validate(cases, schema_dir / "spi-cases.schema.json", reg, "spi-cases.json")
     known = {c["id"] for c in cases.get("cases", [])}
 
@@ -62,13 +72,17 @@ def validate_all(data_dir: pathlib.Path) -> list[str]:
         if not schema.exists():
             errors.append(f"tables/{p.name}: no schema (expected schema/{schema.name})")
             continue
-        tables[p.stem] = json.loads(p.read_text())
+        tables[p.stem] = _load_json(p, f"tables/{p.name}", errors)
+        if tables[p.stem] is None:
+            continue
         errors += _validate(tables[p.stem], schema, reg, f"tables/{p.name}")
         for ref in sorted(_case_refs(tables[p.stem]) - {f"CNA1979:{k}" for k in known}):
             errors.append(f"tables/{p.name}: unknown case reference {ref}")
 
     for p in sorted((data_dir / "errata").glob("*.json")) if (data_dir / "errata").is_dir() else []:
-        patch = json.loads(p.read_text())
+        patch = _load_json(p, f"errata/{p.name}", errors)
+        if patch is None:
+            continue
         errors += _validate(patch, schema_dir / "errata-patch.schema.json", reg, f"errata/{p.name}")
         if patch.get("id") and patch["id"] != p.stem:
             errors.append(f"errata/{p.name}: id {patch['id']} does not match filename")

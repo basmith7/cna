@@ -70,3 +70,18 @@ def test_errata_affects_must_name_known_cases(tmp_path):
                   errata={"E-001.json": patch})
     errs = check_data.validate_all(d)
     assert any("E-001.json" in e and "affects unknown case 9.99" in e for e in errs)
+
+
+def test_malformed_table_json_fails(tmp_path):
+    d = make_data(tmp_path, tables={})
+    (d / "tables" / "demo.json").write_text("{not json")
+    errs = check_data.validate_all(d)
+    assert any("demo.json" in e and "invalid JSON" in e for e in errs)
+    assert not any("Traceback" in e or "JSONDecodeError" in str(type(e)) for e in errs)
+
+
+def test_malformed_spi_cases_json_fails(tmp_path):
+    d = make_data(tmp_path)
+    (d / "spi-cases.json").write_text("{not json")
+    errs = check_data.validate_all(d)
+    assert any("spi-cases.json" in e and "invalid JSON" in e for e in errs)
