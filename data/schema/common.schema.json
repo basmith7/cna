@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "common.schema.json",
+  "title": "Shared definitions for CNA Living Rules data",
+  "$defs": {
+    "caseRef": {"type": "string", "pattern": "^CNA1979:[1-9][0-9]?\\.[0-9]{1,2}$",
+                "description": "SPI 1979 rules case, e.g. CNA1979:8.37; section.0 is the section itself"},
+    "scanRef": {"type": "string", "pattern": "^scan:p[0-9]{1,4}$",
+                "description": "archive.org jp2 index (0-based), as used by tools/fetch.py"},
+    "sourceRef": {"oneOf": [{"$ref": "#/$defs/caseRef"}, {"$ref": "#/$defs/scanRef"}]},
+    "sources": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/sourceRef"}},
+    "hexId": {"type": "string", "pattern": "^[A-E][0-9]{4}$",
+              "description": "Map sheet letter + RRCC as printed, e.g. C4023"},
+    "hexside": {"type": "object", "required": ["a", "b"], "additionalProperties": false,
+                "properties": {"a": {"$ref": "#/$defs/hexId"}, "b": {"$ref": "#/$defs/hexId"}},
+                "description": "Unordered pair; convention a < b (checked by check_data once a table uses it)"},
+    "side": {"enum": ["cw", "axis"]},
+    "nation": {"enum": ["cw", "it", "de"]},
+    "weather": {"enum": ["normal", "hot", "sandstorm", "rainstorm"]},
+    "unitType": {"enum": ["infantry", "tank", "recce", "anti-tank", "anti-aircraft", "artillery",
+                          "engineer", "aircraft", "ground-support", "recovery", "dummy-tank", "truck", "hq"]},
+    "unitClass": {"enum": ["infantry", "armor", "gun", "truck"]},
+    "supplyType": {"enum": ["ammo", "fuel", "stores", "water"]},
+    "phase": {"enum": ["initiative-declaration", "weather", "organisation", "arrival", "cw-fleet",
+                       "reserve-designation", "movement-combat", "truck-convoy", "rail", "repair", "patrol"],
+              "description": "SPI phases A–L of an Operations Stage (there is no I)"},
+    "terrain": {"enum": ["clear", "rough", "desert", "road", "track", "escarpment", "pass", "sea"],
+                "description": "Seed list; extended in the movement PR when the Terrain Effects Chart is transcribed"}
+  }
+}
