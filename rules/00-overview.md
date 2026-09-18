@@ -209,7 +209,7 @@ The rules are organised by system, not by SPI section:
 
 | File | System | Draws on SPI |
 |---|---|---|
-| Glossary | Defined terms | §2, §3 |
+| [Glossary](./glossary.md) | Defined terms | §2, §3 |
 | Units and state | Unit characteristics, TOE, cohesion, morale | §3, §6.2, §17 |
 | Sequence of play | The turn and the stage in full | §5, §7 |
 | Capability points | CPA, costs, disorganisation | §6 |

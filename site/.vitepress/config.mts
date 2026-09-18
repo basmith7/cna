@@ -29,6 +29,7 @@ export default defineConfig({
       '/rules/': [
         { text: 'Rules', items: [
           { text: 'Overview', link: '/rules/00-overview' },
+          { text: 'Glossary', link: '/rules/glossary' },
         ] },
       ],
     },

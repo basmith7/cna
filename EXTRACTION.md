@@ -22,3 +22,10 @@ the PR that adds or substantially rewrites the file.
 - How we expressed it: a system-model summary (time → stage shape → currency → units → movement → combat → loops → roles), tables for the phase list and file map, no procedures — every mechanic here is restated in full in its system file; SPI's team roles reduced to advisory; all citations as `spi-ref`.
 - Errata applied: none (no values stated).
 - Rulings raised: none.
+
+## rules/glossary.md — 2026-09-18
+- Source cases read: 2.0 (term list), 3.21, 3.22, 3.3, 5.1, 5.2, 6.11–6.26, 7.1, 8.0, 8.2, 8.37, 9.0, 10.0, 11.0, 11.3, 12.0, 12.6, 13.0, 14.0, 15.0, 15.5, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 29.0, 32.1
+- Mechanics identified: the vocabulary an engine needs as state and enums — CP/CPA, cohesion (DP/RP), TOE points, raw/actual conversion, unit type vs class, reserve/reaction/continual movement, the combat step names, initiative, weather, ZOC, stacking, supply unit.
+- How we expressed it: one table, our short definitions, each pointing to the system file that owns the full rule; SPI's glossary prose was not reused, and SPI's role definitions were reduced to the Overview's one paragraph.
+- Errata applied: none.
+- Rulings raised: none.
