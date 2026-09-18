@@ -1,0 +1,47 @@
+name: ci
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  gates:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install -r requirements-dev.txt
+      - run: python -m pytest -q
+      - name: Cache pinned source text
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/cna-scans/source
+          key: source-${{ hashFiles('tools/sources.json') }}
+      - run: python tools/fetch.py sections > /dev/null
+      - run: python tools/check_data.py
+      - run: python tools/check_overlap.py
+      - name: Coverage report
+        run: |
+          status=0
+          python tools/check_coverage.py --sections 1-32 --markdown > coverage.md || status=$?
+          cat coverage.md
+          exit "$status"
+      - if: ${{ always() && github.event_name == 'pull_request' }}
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: coverage
+          path: coverage.md
+
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npm run test:site
+      - run: npm run site:build
