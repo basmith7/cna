@@ -30,12 +30,13 @@ jobs:
           python tools/check_coverage.py --sections 1-32 --markdown > coverage.md || status=$?
           cat coverage.md
           exit "$status"
-      - if: ${{ always() && github.event_name == 'pull_request' }}
+      - if: ${{ always() && github.event_name == 'pull_request' && hashFiles('coverage.md') != '' }}
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           header: coverage
           path: coverage.md
 
+  # Runs in parallel with gates on purpose: the site build consumes only markdown, not generated data.
   site:
     runs-on: ubuntu-latest
     steps:
