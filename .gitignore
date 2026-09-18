@@ -4,3 +4,4 @@ site/.vitepress/cache/
 site/.vitepress/dist/
 docs/learn/*.jpg
 .claude/worktrees/
+__pycache__/
