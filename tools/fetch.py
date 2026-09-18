@@ -22,8 +22,14 @@ def load_sources() -> dict:
 
 
 def _download(url: str, dest: pathlib.Path) -> None:
-    """The only network call in this module; tests replace it. Callers create the parent dir."""
-    urllib.request.urlretrieve(url, dest)
+    """The only network call in this module; tests replace it. Callers create the parent dir.
+
+    Downloads to a .part sibling and atomically renames on success, so an interrupted
+    transfer never leaves a partial file at dest.
+    """
+    part = dest.with_suffix(dest.suffix + ".part")
+    urllib.request.urlretrieve(url, part)
+    os.replace(part, dest)
 
 
 def scan_page(page) -> pathlib.Path:

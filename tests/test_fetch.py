@@ -54,6 +54,19 @@ def test_all_source_sections_covers_1_to_65(tmp_path, monkeypatch):
     assert paths[0].name == "section-01.adoc" and paths[-1].name == "section-65.adoc"
 
 
+def test_download_writes_via_part_file_then_renames(tmp_path, monkeypatch):
+    dest = tmp_path / "out.txt"
+
+    def fake_urlretrieve(url, part_path):
+        assert str(part_path).endswith(".txt.part")
+        pathlib.Path(part_path).write_text("content")
+
+    monkeypatch.setattr(fetch.urllib.request, "urlretrieve", fake_urlretrieve)
+    fetch._download("http://example/x", dest)
+    assert dest.read_text() == "content"
+    assert not dest.with_suffix(dest.suffix + ".part").exists()
+
+
 def test_verify_zip_creates_missing_cache_dir(tmp_path, monkeypatch):
     content = b"fake zip bytes"
     sha1 = hashlib.sha1(content).hexdigest()

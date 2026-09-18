@@ -1279,7 +1279,7 @@ def test_find_overlaps_reports_shared_8_word_runs_and_honours_allowlist():
 
 
 def test_find_overlaps_clean_text_has_no_hits():
-    grams = co.ngrams(co.normalize("units are moved one at a time or in stacks tracing a path of contiguous hexes"))
+    grams = co.ngrams(co.normalize("a convoy halts when its lead vehicle reaches the first hex of soft sand"))
     assert co.find_overlaps("A unit moves hex by hex along a path it chooses.", grams, allow=set()) == []
 ```
 
@@ -2173,8 +2173,8 @@ were only **probes**.
 
 ::: spi-ref 6.11 6.14 6.21 6.22 6.26
 
-Every unit has a **Capability Point Allowance (CPA)**: the number of
-**Capability Points (CP)** it may spend in one Operations Stage. Moving a
+Each unit carries a **Capability Point Allowance (CPA)**: the budget of
+**Capability Points (CP)** it can spend across one Operations Stage. Moving a
 hex, firing, being fired on, assaulting, defending, retreating, building,
 training — everything costs CP. The allowance covers *both halves* of the
 stage: what a unit spends reacting during the enemy's half is gone for its
