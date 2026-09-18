@@ -37,3 +37,16 @@ def test_build_cases_sorts_dedupes_and_adds_empty_label_and_page():
 def test_no_source_text_leaks_into_records():
     cases = g.build_cases({8: SAMPLE})
     assert set().union(*(set(c) for c in cases)) == {"id", "section", "kind", "anchor", "label", "page"}
+
+
+def test_skips_two_digit_cases_ending_in_zero_with_warning(capsys):
+    """Transcription defects like [#30_60] (labeling [30.59]) are skipped with stderr warning."""
+    text = "[#30_59]\n[#30_60]\n[#32_1]\n[#32_10]\n"
+    got = g.parse_anchors(text)
+    ids = [c["id"] for c in got]
+    assert ids == ["30.59", "32.1"]
+
+    captured = capsys.readouterr()
+    assert "30_60" in captured.err
+    assert "32_10" in captured.err
+    assert "transcription defect" in captured.err

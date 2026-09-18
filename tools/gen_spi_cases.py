@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate data/spi-cases.json — the canonical list of SPI case IDs — from the
 anchors in the pinned source-text repo. Only IDs and structure are taken; no text.
+Two-digit cases ending in 0 are skipped as transcription defects (e.g., [#30_60] labeling [30.59]).
 
   python3 tools/gen_spi_cases.py           # rewrites data/spi-cases.json
 """
@@ -26,6 +27,9 @@ def parse_anchors(adoc_text: str) -> list[dict]:
         if anchor in seen:
             continue
         seen.add(anchor)
+        if len(case) == 2 and case.endswith("0"):
+            print(f"gen_spi_cases: skipping [#{anchor}] — SPI numbering has no two-digit case ending in 0 (transcription defect)", file=sys.stderr)
+            continue
         kind = "section" if case == "0" else "primary" if len(case) == 1 else "secondary"
         out.append({"id": f"{section}.{case}", "section": section, "kind": kind, "anchor": anchor})
     return out
