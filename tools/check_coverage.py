@@ -11,7 +11,7 @@ import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-BADGE = re.compile(r"^:::\s+(spi|spi-ref|spi-omit)\s+(.*?)\s*$")
+BADGE = re.compile(r"^\s{0,3}:::\s+(spi|spi-ref|spi-omit)\s+(.*?)\s*$")
 CASE = re.compile(r"^\d{1,2}\.\d{1,2}$")
 
 

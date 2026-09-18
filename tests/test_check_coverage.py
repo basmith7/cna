@@ -17,6 +17,11 @@ def test_parse_badges():
     assert b[3] == {"kind": "spi-omit", "cases": ["4.7"], "reason": "second reason", "line": 6}
 
 
+def test_parse_badges_tolerates_up_to_three_leading_spaces():
+    b = cc.parse_badges("  ::: spi 8.35\n")
+    assert b[0] == {"kind": "spi", "cases": ["8.35"], "reason": None, "line": 1}
+
+
 def test_coverage_counts_primary_omit_and_uncovered():
     ids = ["4.6", "4.7", "8.35", "8.36", "8.37", "33.1"]
     rep = cc.coverage(ids, {"rules/a.md": cc.parse_badges(MD)}, sections={4, 8})

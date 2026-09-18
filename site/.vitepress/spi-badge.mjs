@@ -14,16 +14,18 @@ export function spiBadgePlugin(md) {
     if (silent) return true
     let cases = m[2], reason = null
     if (m[1] === 'spi-omit') {
-      const parts = cases.split(/\s+(?:—|--)\s+/)
-      cases = parts[0]
-      reason = parts[1] ?? null
+      const m2 = /^(.*?)\s+(?:—|--)\s+(.*)$/s.exec(cases)
+      if (m2) {
+        cases = m2[1]
+        reason = m2[2]
+      }
     }
     const token = state.push('spi_badge', '', 0)
     token.meta = { kind: m[1], cases: cases.split(/\s+/), reason }
     token.map = [startLine, startLine + 1]
     state.line = startLine + 1
     return true
-  })
+  }, { alt: ['paragraph', 'reference', 'blockquote', 'list'] })
 
   md.renderer.rules.spi_badge = (tokens, idx) => {
     const { kind, cases, reason } = tokens[idx].meta

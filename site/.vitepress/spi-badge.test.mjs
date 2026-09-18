@@ -29,3 +29,14 @@ test('other ::: lines are untouched', () => {
   const html = md.render('::: note\nhi\n:::\n')
   assert.doesNotMatch(html, /spi-badge/)
 })
+
+test('a badge directly after a prose line terminates the paragraph', () => {
+  const html = md.render('Some prose here.\n::: spi 8.35\n')
+  assert.match(html, /<p>Some prose here\.<\/p>/)
+  assert.match(html, /<p class="spi-badge spi-primary">/)
+})
+
+test('an omit reason containing a second em-dash keeps the whole reason', () => {
+  const html = md.render('::: spi-omit 4.6 — component inventory — see also 4.7\n')
+  assert.match(html, /SPI 4\.6 omitted — component inventory — see also 4\.7/)
+})
