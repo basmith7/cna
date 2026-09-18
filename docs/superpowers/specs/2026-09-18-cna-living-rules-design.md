@@ -23,7 +23,8 @@ A public, reviewed, searchable edition of the CNA rules and game data that:
 ## Non-goals
 
 - Simplification or automation variants (planned as a later ruleset layer).
-- Verbatim transcription of SPI text (copyright; not ours to license).
+- Licensing SPI's text. A verbatim reference transcription exists, but in a
+  separate repo with no licence claimed (see *Source-text repo*).
 - Redistributing SPI map or counter art.
 - Community rules from the cna-group forum / "CNA Computer System" — not
   publicly available; if they surface, they slot in as patches (see Rulings).
@@ -38,8 +39,23 @@ A public, reviewed, searchable edition of the CNA rules and game data that:
 | BGG files (OOB spreadsheet 2010, Sequence of Play 2008, CRT analysis 2026) | Cross-checks for data transcription; not authoritative. |
 | MOVES magazine Q&A (1979–81) | Later pass if located; treated as errata with a `source` note. |
 
-Scans and OCR text are **not committed** (`reference/` is git-ignored); tools
-fetch them from archive.org.
+Scans and OCR text are **not committed** to this repo (`reference/` is
+git-ignored); tools fetch them from archive.org.
+
+## Source-text repo (`cna-source-text`)
+
+A **separate** repository holding a cleaned, verbatim transcription of the
+SPI rules text, keyed by SPI case number (one file per SPI section, one anchor
+per case). Purpose: side-by-side review of our restatement against the
+original, and a citation target for players with the paper rules.
+
+- No licence is claimed. README states it is a reference transcription of an
+  out-of-print work and will be removed on request from the rights holder.
+- Kept separate so a DMCA takedown (which disables an entire GitHub repo and
+  its Pages site) cannot touch the rules, data, or engine.
+- The main site consumes it **at build time only** (see *Site*). If the repo
+  is unavailable the build succeeds without the "show original" feature.
+- Contains no map or counter art.
 
 ## Licensing
 
@@ -82,22 +98,21 @@ LICENSE-DATA            # CC0-1.0 (data)
 
 ### Structure
 
-- One file per SPI numbered section, filename `NN-kebab-title.md`.
-- Every SPI case keeps its number as a heading anchor so it is citable and
-  cross-referenceable to the original:
-
-  ```markdown
-  ## [8.3] Terrain Effects on Movement
-  ### [8.37] Terrain Effects Chart
-  ```
-
-- Within a case the rule is **restated as a precise definition or procedure**:
-  defined terms in bold on first use, numbered steps for procedures, tables for
-  anything tabular, explicit "may / must / may not". SPI's examples are
-  re-done with our own numbers. Redundant restatements across sections are
-  replaced with a cross-link.
-- If we split or merge cases for clarity, the SPI numbers are preserved in the
-  heading (`## [8.35–8.36] …`) so nothing is un-findable.
+- One file per SPI numbered section, filename `NN-kebab-title.md`, so the
+  table of contents still mirrors the original at section level.
+- **Within a section the layout is ours.** Headings, order, grouping, and
+  splitting/merging of cases are chosen for readability, not to mirror SPI.
+- Every rule block declares which SPI cases it covers with a `spi` badge
+  (a custom inline container, e.g. `::: spi 8.35 8.36`), rendered as a small
+  tag such as **SPI 8.35–8.36**. This is the join key between our text and the
+  original: it is the citation for paper-rules players, the anchor for
+  cross-references, and what the "show original" toggle uses. Every SPI case
+  in the section must be covered by at least one badge (checked at build).
+- The rule is **restated as a precise definition or procedure**: defined terms
+  in bold on first use, numbered steps for procedures, tables for anything
+  tabular, explicit "may / must / may not". SPI's examples are re-done with
+  our own numbers. Redundant restatements across sections are replaced with a
+  cross-link.
 - Each file ends with a provenance line:
   `*Source: SPI 1979 Land Game Rules, pp. 13–15; errata Sept 1979.*`
 
@@ -111,9 +126,11 @@ Three custom VitePress containers, rendered with distinct colour and label:
 | `::: errata` | Rule as changed by SPI errata. Quotes the errata point briefly and states the corrected rule. |
 | `::: ruling R-012` | Our resolution of a gap or contradiction. Body states the rule as we play it; links to `rulings.md#R-012`. |
 | `::: note` | Non-binding commentary: designer intent, why a rule exists, play advice. |
+| `::: original` | *Generated at build, not authored.* Collapsed block showing the verbatim SPI text for the cases named in the nearest `spi` badge, fetched from `cna-source-text`. Omitted if that repo is unavailable. |
 
 A build step scans containers to generate a **"Changes from the original"** page
-listing every errata and ruling by section.
+listing every errata and ruling by section, and a **coverage report** of SPI
+cases not yet covered by any badge.
 
 ### Rulings log
 
@@ -155,8 +172,12 @@ Community disputes go through GitHub Discussions/Issues → PR.
 - Local full-text search (built-in MiniSearch).
 - Sidebar: Land Game / Air Game / Logistics Game / Scenarios / Rulings /
   Changes from original / Data / About & licensing.
-- Custom theme: the three provenance containers styled distinctly (colour bar +
-  label); a legend on every page footer.
+- Custom theme: the provenance containers styled distinctly (colour bar +
+  label); `spi` badges as inline tags; a legend on every page footer.
+- **Show original**: a page-level toggle reveals the `::: original` blocks.
+  Build step fetches `cna-source-text` (pinned commit) and injects the cases
+  each badge names; if the fetch fails the toggle is hidden and the build still
+  succeeds.
 - `editLink` on every page → GitHub edit → PR (wiki-style contribution with
   review).
 - Deploy: GitHub Actions on push to `main` → GitHub Pages.
@@ -165,8 +186,10 @@ Community disputes go through GitHub Discussions/Issues → PR.
 
 ## Process
 
-1. **Scaffold**: repo, licences, VitePress with containers and deploy, `tools/`
-   fetch script for OCR text and page images, `data/README.md` schemas.
+1. **Scaffold**: repo, licences, VitePress with containers, badges, deploy,
+   coverage check, and the build-time source-text fetch; `tools/` fetch script
+   for OCR text and page images; `data/README.md` schemas. Create
+   `cna-source-text` with its README and the cleaned OCR for the Land Game.
 2. **Land Game §1–32**, in order, a few sections per PR. For each section:
    clean OCR → apply errata → restate → flag ambiguities as `proposed` rulings
    → Brian reviews → merge. §32 (abstract logistics & air) makes the Land Game
@@ -181,7 +204,9 @@ Community disputes go through GitHub Discussions/Issues → PR.
 
 ## Review criteria for a section PR
 
-- Every SPI case number in that section is present as an anchor.
+- Every SPI case number in that section is covered by a `spi` badge (build
+  coverage check passes).
+- The corresponding cases exist in `cna-source-text` so "show original" works.
 - No sentence is a copy of SPI text (spot-check).
 - Every errata item touching the section is applied and marked.
 - Every ambiguity found has a ruling entry (`proposed` is fine).
