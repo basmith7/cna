@@ -1,5 +1,8 @@
+import hashlib
 import json
 import pathlib
+
+import pytest
 
 import fetch
 
@@ -49,3 +52,31 @@ def test_all_source_sections_covers_1_to_65(tmp_path, monkeypatch):
     paths = fetch.all_source_sections()
     assert len(paths) == 65
     assert paths[0].name == "section-01.adoc" and paths[-1].name == "section-65.adoc"
+
+
+def test_verify_zip_creates_missing_cache_dir(tmp_path, monkeypatch):
+    content = b"fake zip bytes"
+    sha1 = hashlib.sha1(content).hexdigest()
+    name = "The Campaign for North Africa_jp2.zip"
+
+    def fake_load_sources():
+        return {
+            "archive_org": {
+                "identifier": "campaign-for-north-africa",
+                "files": {name: {"size": len(content), "sha1": sha1, "sha256": None}},
+            }
+        }
+
+    def fake_download(url, dest):
+        pathlib.Path(dest).write_bytes(content)
+
+    fresh = tmp_path / "fresh"
+    monkeypatch.setattr(fetch, "CACHE", fresh)
+    monkeypatch.setattr(fetch, "_download", fake_download)
+    monkeypatch.setattr(fetch, "load_sources", fake_load_sources)
+
+    assert not fresh.exists()
+    with pytest.raises(SystemExit) as e:
+        fetch._verify_zip()
+    assert e.value.code == 0
+    assert (fresh / "jp2.zip").exists()

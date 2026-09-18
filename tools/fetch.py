@@ -58,6 +58,7 @@ def _verify_zip() -> None:
     if not dest.exists():
         url = f"https://archive.org/download/{s['identifier']}/{name.replace(' ', '%20')}"
         print(f"downloading {url} ({s['files'][name]['size'] / 1e6:.0f} MB) …", file=sys.stderr)
+        dest.parent.mkdir(parents=True, exist_ok=True)
         _download(url, dest)
     sha1, sha256 = hashlib.sha1(), hashlib.sha256()
     with dest.open("rb") as f:
