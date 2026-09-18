@@ -85,3 +85,19 @@ def test_malformed_spi_cases_json_fails(tmp_path):
     (d / "spi-cases.json").write_text("{not json")
     errs = check_data.validate_all(d)
     assert any("spi-cases.json" in e and "invalid JSON" in e for e in errs)
+
+
+def test_spi_cases_wrong_shape_fails_closed(tmp_path):
+    d = make_data(tmp_path)
+    (d / "spi-cases.json").write_text(json.dumps(["not", "a", "dict"]))
+    errs = check_data.validate_all(d)
+    assert any("spi-cases.json" in e and "expected an object" in e for e in errs)
+
+
+def test_spi_cases_missing_id_fails_closed(tmp_path):
+    d = make_data(tmp_path)
+    (d / "spi-cases.json").write_text(json.dumps({
+        "source": {"repo": "x/y", "commit": "a" * 40},
+        "cases": [{"section": 8, "kind": "secondary", "anchor": "8_37", "label": "", "page": None}]}))
+    errs = check_data.validate_all(d)
+    assert any("spi-cases.json" in e and "missing 'id'" in e for e in errs)

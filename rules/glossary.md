@@ -13,7 +13,7 @@ the SPI case that introduces the idea, for cross-reference only.
 
 | Term | Meaning | Where | See |
 |---|---|---|---|
-| **Actual points** | Combat strength after conversion: raw points ÷ 10, rounded to nearest with halves up; below five raw = zero. All comparison and table lookups use Actual points. | Combat | 11.3 |
+| **Actual points** | Combat strength after conversion: raw points ÷ 10, rounded to nearest with halves up; below five raw = zero (the Combat file states the exception for very small engagements). All comparison and table lookups use Actual points. | Combat | 11.3 |
 | **Anti-armour fire** | The combat step in which assigned TOE points shoot at armour-class targets, resolved simultaneously by both sides before close assault. | Combat | 14.0 |
 | **Attachment** | The link between a unit and a parent formation. Governs who it may stack and assault with and which HQ it draws on; changed in the Organisation Phase. | Organisation | 18.0 |
 | **Barrage** | Indirect fire by gun-class units (and some others) at a hex, plotted secretly, resolved before assault. Targets are chosen by class, not by unit. | Combat | 12.0 |

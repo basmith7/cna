@@ -64,7 +64,15 @@ def validate_all(data_dir: pathlib.Path) -> list[str]:
     if cases is None:
         return errors
     errors += _validate(cases, schema_dir / "spi-cases.schema.json", reg, "spi-cases.json")
-    known = {c["id"] for c in cases.get("cases", [])}
+    if not isinstance(cases, dict) or not isinstance(cases.get("cases"), list):
+        errors.append("spi-cases.json: expected an object with a list 'cases'")
+        return errors
+    case_list = cases["cases"]
+    for i, c in enumerate(case_list):
+        if not isinstance(c, dict) or "id" not in c:
+            errors.append(f"spi-cases.json: cases[{i}]: missing 'id'")
+            return errors
+    known = {c["id"] for c in case_list}
 
     tables = {}
     for p in sorted((data_dir / "tables").glob("*.json")) if (data_dir / "tables").is_dir() else []:

@@ -6,7 +6,7 @@ export default defineConfig({
   description: 'A restated, reviewed edition of the Campaign for North Africa Land Game rules',
   base: '/cna/',
   srcDir: '..',
-  srcExclude: ['node_modules/**', 'reference/**', 'docs/**', 'tools/**', 'tests/**', 'site/**', '.venv/**', 'EXTRACTION.md'],
+  srcExclude: ['node_modules/**', 'reference/**', 'docs/**', 'tools/**', 'tests/**', 'site/**', '.venv/**', 'EXTRACTION.md', '.superpowers/**', '.claude/**', '.github/**', 'coverage.md'],
   outDir: './.vitepress/dist',
   cacheDir: './.vitepress/cache',
   cleanUrls: true,

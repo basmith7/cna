@@ -163,7 +163,7 @@ player's movement, paying CP from the same allowance.
 Combat strength is computed, not read off the counter. **Raw points** are
 rating × TOE Strength Points committed; **Actual points** are raw ÷ 10,
 rounded to the nearest whole number with halves rounding up (11.4 → 11,
-11.5 → 12), and anything under five raw counts as nothing. All contributions against one target are summed before dividing,
+11.5 → 12), and anything under five raw counts as nothing — with an exception for very small engagements, given in Combat. All contributions against one target are summed before dividing,
 so a lone small unit contributes almost nothing and concentration is
 enforced by arithmetic.
 
