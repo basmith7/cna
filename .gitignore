@@ -3,3 +3,4 @@ node_modules/
 site/.vitepress/cache/
 site/.vitepress/dist/
 docs/learn/*.jpg
+.claude/worktrees/
