@@ -32,6 +32,7 @@ jobs:
           exit "$status"
       - if: ${{ always() && github.event_name == 'pull_request' && hashFiles('coverage.md') != '' }}
         uses: marocchino/sticky-pull-request-comment@v2
+        continue-on-error: true
         with:
           header: coverage
           path: coverage.md
@@ -39,6 +40,8 @@ jobs:
   # Runs in parallel with gates on purpose: the site build consumes only markdown, not generated data.
   site:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
