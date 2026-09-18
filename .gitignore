@@ -3,3 +3,7 @@ node_modules/
 site/.vitepress/cache/
 site/.vitepress/dist/
 docs/learn/*.jpg
+.venv/
+__pycache__/
+.pytest_cache/
+coverage.md

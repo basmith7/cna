@@ -1,0 +1,18 @@
+CNA Living Rules is licensed per directory, to the extent the project holds
+rights in each part:
+
+  rules/            CC-BY-SA-4.0   see LICENSE-TEXT
+  rulings/          CC-BY-SA-4.0   see LICENSE-TEXT
+  data/             CC0-1.0        see LICENSE-DATA
+  tools/, site/,    MIT            see LICENSE-CODE
+  tests/, .github/
+
+docs/ and everything else not listed: CC-BY-SA-4.0.
+
+This file exists so that GitHub does not label the repository with a single
+licence. Read README.md ("Legal posture") for what the project does and does
+not claim about the underlying game.
+
+Rulings seeded from NJHarman's "House Rules & Interpretations"
+(https://friendorfoe.com/war/cfna/houserules/, CC-BY-SA 4.0) are attributed in
+each ruling file.
