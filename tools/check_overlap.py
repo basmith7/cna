@@ -37,6 +37,7 @@ def strip_markdown(md: str) -> str:
             continue
         s = re.sub(r"^#{1,6}\s+", "", s)
         s = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", s)
+        # These replace calls document intent; tokenization already treats them as boundaries
         s = s.replace("|", " ").replace("`", " ").replace("*", " ").replace("_", " ")
         out.append(s)
     return "\n".join(out)
@@ -46,11 +47,13 @@ def strip_asciidoc(adoc: str) -> str:
     out = []
     for line in adoc.splitlines():
         s = line.strip()
-        if re.fullmatch(r"\[#[^\]]+\]", s) or re.fullmatch(r"=+", s) or s.startswith("[") and s.endswith("]"):
+        if (re.fullmatch(r"\[#[^\]]+\]", s) or re.fullmatch(r"\[[^\s\]]+\]", s) or
+                re.fullmatch(r"=+", s)):
             continue
         s = re.sub(r"^=+\s+", "", s)
         s = re.sub(r"\*\[[\d.]+\]\*", "", s)
         s = re.sub(r"<<[^,>]+,([^>]+)>>", r"\1", s)
+        # These replace calls document intent; tokenization already treats them as boundaries
         s = s.replace("*", " ").replace("_", " ")
         out.append(s)
     return "\n".join(out)

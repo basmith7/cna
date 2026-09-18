@@ -20,6 +20,11 @@ def test_strip_asciidoc_removes_anchors_labels_and_xrefs():
     assert co.normalize(co.strip_asciidoc(adoc)) == ["units", "may", "be", "moved", "see", "8", "34", "note"]
 
 
+def test_strip_asciidoc_keeps_bracketed_prose():
+    adoc = "[note]\n[#8_11]\n[This bracketed sentence is real prose]\n====\n"
+    assert co.normalize(co.strip_asciidoc(adoc)) == ["this", "bracketed", "sentence", "is", "real", "prose"]
+
+
 def test_ngrams():
     assert co.ngrams(list("abcde"), 3) == {("a", "b", "c"), ("b", "c", "d"), ("c", "d", "e")}
     assert co.ngrams(list("ab"), 3) == set()
