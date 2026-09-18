@@ -27,3 +27,9 @@ def test_readme_states_legal_posture():
 def test_extraction_log_has_format_section():
     text = (ROOT / "EXTRACTION.md").read_text()
     assert "## Format" in text
+
+
+def test_rulings_readme_defines_statuses_and_fork_policy():
+    text = (ROOT / "rulings" / "README.md").read_text()
+    for word in ["proposed", "accepted", "rejected", "superseded", "## Fork policy", "R-001"]:
+        assert word in text, word
