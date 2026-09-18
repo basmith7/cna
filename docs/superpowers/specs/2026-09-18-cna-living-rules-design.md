@@ -186,21 +186,30 @@ Community disputes go through GitHub Discussions/Issues → PR.
 
 ## Process
 
-1. **Scaffold**: repo, licences, VitePress with containers, badges, deploy,
-   coverage check, and the build-time source-text fetch; `tools/` fetch script
-   for OCR text and page images; `data/README.md` schemas. Create
-   `cna-source-text` with its README and the cleaned OCR for the Land Game.
-2. **Land Game §1–32**, in order, a few sections per PR. For each section:
-   clean OCR → apply errata → restate → flag ambiguities as `proposed` rulings
-   → Brian reviews → merge. §32 (abstract logistics & air) makes the Land Game
-   self-contained, so this is the first milestone at which an engine could be
-   started.
-3. **Land data**: unit characteristics, OA sheets, reinforcements, common
-   tables, map hexes.
-4. **Air Game §33–46** and air data.
-5. **Logistics Game §47–58** and logistics data.
-6. **Scenarios §59–64** (mostly data: setups, supply levels).
-7. MOVES Q&A pass, if issues are located.
+Top-down: skeleton first, detail last, so every detailed section has a place
+to hang and our understanding is tested early.
+
+1. **Verbatim** — scaffold both repos. Populate `cna-source-text` with the
+   cleaned OCR of all three rulebooks (Land, Air & Logistics, scenarios), one
+   file per section, one anchor per case. Mostly tooling; human pass for OCR
+   damage only. Scaffold `cna`: licences, VitePress with containers, badges,
+   coverage check, source-text fetch, deploy; `tools/` fetch scripts;
+   `data/README.md` schemas.
+2. **Learn** — read the source text. Output: `rules/00-overview.md` (how a
+   game turn works, player roles, how the Land / Air / Logistics games nest,
+   the core resource loops) and `rules/glossary.md`. This is the top of the
+   tree; if it cannot be written cleanly, we do not yet understand the game.
+3. **Restate top-down** — sequence of play (§5, §33, §48) first, then each
+   system in dependency order: movement → stacking & ZOC → combat →
+   organization & reinforcement → breakdown/repair/engineering → supply and
+   logistics → air → naval → special rules → scenarios. Data tables are
+   transcribed alongside the system that uses them. Rulings are logged as
+   gaps are hit. The Overview is revised whenever detail shows it was wrong.
+   Each PR = one system or a coherent slice of one; Brian reviews.
+4. **Game** — a separate sub-project with its own design spec, built against
+   the result of step 3. Not part of this plan.
+
+Later, if located: MOVES Q&A pass as additional errata.
 
 ## Review criteria for a section PR
 
