@@ -55,3 +55,9 @@ Done: §8.1–§8.8 restated in rules/40-movement.md (ba7936a + this commit); si
 In flight: file 4. Remaining: 8.9 motorised/trucks (559–658; anchor #trucks is linked from 30-capability-points). Terrain Effects Chart: data/tables/terrain-effects.json + schema not started (chart sheet not in cache — check tools/fetch.py for chart pages; if unavailable, keep 8.37 spi-omit and say so in EXTRACTION). Remove the HTML skeleton comment at the top of the file when done. EXTRACTION entry not written.
 Next: restate 8.9 (source lines 559–658), then EXTRACTION entry, then gates and gh pr ready 5.
 Blocked: none (Brian merges #2, #3, #4 in order).
+
+## 2026-09-19T04:50Z — autopilot/40-movement
+Done: rules/40-movement.md complete (§8.1–8.9), EXTRACTION entry, sidebar; coverage §8 80/80, overlap OK, pytest 60, check_data OK, site builds. PR #5 marked ready (stacked on #4). Terrain Effects Chart (8.37) + Off-Map Distance Chart (8.89) NOT transcribed — chart sheet not in ~/.cache/cna-scans (spi-omit, flagged in PR body).
+In flight: none for file 4.
+Next: file 5 = stacking & ZOC (SPI §9, §10, §18 reserve). Branch autopilot/50-stacking-and-zoc from tip of autopilot/40-movement, --base autopilot/40-movement while #5 is open. Anchors already linked from other files: #reserve, #roads. Check tools/fetch.py for a way to fetch the chart sheet pages for the pending data tables.
+Blocked: chart sheet capture (Brian / fetch.py) for terrain-effects, off-map-distances, initiative-ratings tables.
