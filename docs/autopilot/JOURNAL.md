@@ -127,3 +127,9 @@ Done: branch from origin/main; draft PR opened. Nothing written.
 In flight: rules/90-special.md — SPI §21 (breakdown, 2 684 words), §27 raiders (3 062), §28 prisoners (896), §29 weather (820), §30 fleet (2 073), §31 Rommel (280).
 Next: read sections; write; sidebar; EXTRACTION; gates; ready; merge. Next errata id E-023.
 Blocked: chart sheet — Brian.
+
+## 2026-09-19 03:47 (Phoenix) — autopilot/90-special
+Done: rules/90-special.md complete (§21, §27–§31, §32 addenda, errata E-023–E-030); data/tables/breakdown-adjustments.json + seasons.json with schemas; sidebar; EXTRACTION. Coverage 21,27–31 196/196; gates green locally. PR #11 ready; merging this run if CI green.
+In flight: none. Note for a later tidy: 00-overview's file map lists §21 under Movement; it now lives in Special.
+Next: file 10 = §32 abstract logistics and air (rules/95-abstract-logistics-and-air.md; sidebar regex already lists it; several other files link to it). Branch autopilot/95-abstract-logistics-and-air. Next errata id E-031. The §32 addenda block (lines ~470–620 of section-32.adoc) has already been folded into files 6–9 — badge only the 32.x cases there.
+Blocked: chart sheet — Brian.
