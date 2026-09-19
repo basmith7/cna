@@ -225,3 +225,31 @@ used to dodge the size limit above — a parent may not shed units so that it
 becomes a shell and is now "too small to pin", nor shed its slow units so
 that the remainder is fast enough to react. Attached trucks may be split
 freely between the parent and the units detaching to react.
+
+## Breaking off
+
+::: spi 8.61 8.62 8.63 8.64 8.65 8.66 8.67 8.68
+
+::: spi-omit 8.6 — subsection heading
+
+Two states tie a unit to an enemy combat unit; both are shown with markers:
+
+- **Contact** — the unit is in an enemy ZOC at the start of a movement
+  segment.
+- **Engaged** — a close-assault result ([Combat](60-combat.md)). An engaged
+  unit need not be in an enemy ZOC.
+
+A unit in either state at the start of a movement segment (or of a
+retreat-before-assault step) may not move until it pays to **break off**: **2 CP** from
+contact, **4 CP** from engaged. Reaction is exempt (see above). First-line
+trucks detaching from a contacted or engaged parent pay the normal
+detachment cost; second- or third-line trucks attaching as first-line trucks
+to such a unit pay nothing extra.
+
+Once every friendly unit that was in contact or engaged with a given enemy
+unit has broken off, that enemy unit is no longer in contact or engaged
+either.
+
+The markers bind only the combat units that were in the hex when they were
+placed. A unit that moves into a marked hex later is not affected by the
+marker.
