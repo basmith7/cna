@@ -45,3 +45,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | Started (UTC) | Minutes | Weekly before→after | 5h before→after | Cost | Turns | Result |
 |---|---|---|---|---|---|---|
 | 2026-09-19 04:15 | 2 | 51→51 | 25→26 | $0.81 | 12 | smoke test; opened #2 |
+| 2026-09-19 04:29 | 8 | 52→53 | 28→33 | $3.52 | 49 | §6.2 + §17 restated, R-001, #2 marked ready; CI overlap gate red on R-001 |

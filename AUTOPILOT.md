@@ -22,8 +22,10 @@ restate the Land Game, one rules file per system, in this order:
 
 Each file is its own PR against `main`. **You merge your own PRs** (merge
 commit, `gh pr merge --merge --delete-branch`) once every review criterion
-passes locally and CI is green (`gh pr checks --watch`). Brian does not review
-PRs; he reads `docs/autopilot/PROGRESS.md` and leaves feedback there. Common tables are transcribed into `data/` alongside the file that
+passes locally and CI is green (`gh pr checks --watch`). Nobody else will
+merge them: "ready for review" is not a state this project has. A PR whose
+CI is red is the first thing to fix in any run, before new work. Brian does not
+review PRs; he reads `docs/autopilot/PROGRESS.md` and leaves feedback there. Common tables are transcribed into `data/` alongside the file that
 first needs them. Rulings are logged as you hit them (`rulings/README.md`).
 Every PR must meet the *Review criteria for a rules PR* in the design doc,
 including the `EXTRACTION.md` entry, before you mark it ready.
