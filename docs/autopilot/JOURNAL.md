@@ -109,3 +109,9 @@ Done: rules/70-organisation.md complete (§19–§20, §32 addenda, errata E-011
 In flight: none.
 Next: file 8 = engineering (SPI §22–§26: check word counts — 22: 1 900, 23: 409, 24: 2 746, 25: 360, 26: 616). Branch autopilot/80-engineering from origin/main. Next errata id E-017. §21 (breakdown/repair) is mapped to movement/special per 00-overview — confirm before writing.
 Blocked: chart sheet — Brian.
+
+## 2026-09-19 03:38 (Phoenix) — autopilot/80-engineering
+Done: branch from origin/main (1efe45b); draft PR opened. Nothing written.
+In flight: rules/80-engineering.md — SPI §22–§26 (engineers, construction, fortifications, minefields, repair). §21 breakdown/repair: 00-overview maps it to Movement, 40-movement points breakdown at Special; decide and note in EXTRACTION.
+Next: read section-22..26.adoc; write; sidebar; EXTRACTION; gates; ready; merge. Next errata id E-017.
+Blocked: chart sheet — Brian.
