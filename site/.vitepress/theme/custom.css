@@ -18,3 +18,7 @@
 
 .spi-note { border-left: 3px solid var(--vp-c-divider); padding: 0.25rem 1rem; margin: 1rem 0; color: var(--vp-c-text-2); }
 .spi-note-title { font-weight: 600; margin: 0.25rem 0; }
+.spi-original { margin: 0.25rem 0 1rem; font-size: 0.85rem; color: var(--vp-c-text-2); }
+.spi-original summary { cursor: pointer; }
+.spi-original pre { white-space: pre-wrap; font-family: var(--vp-font-family-base); background: var(--vp-c-bg-soft); padding: 0.75rem; border-radius: 6px; }
+.spi-original-cite { font-size: 0.75rem; margin: 0.25rem 0 0; }

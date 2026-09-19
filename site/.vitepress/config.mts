@@ -25,6 +25,13 @@ export default defineConfig({
     config: (md) => { md.use(spiBadgePlugin) },
   },
   themeConfig: {
+    // Client-side original-text viewer (design: "(generated) original" container). Fetched at view
+    // time from the pinned transcription; set enabled: false to switch it off.
+    original: {
+      enabled: true,
+      commit: '75a037f27346a7cd920a765a2f3cae965b1e07a3',
+      rawUrlTemplate: 'https://raw.githubusercontent.com/tonicebrian/TheCampaignForNorthAfrica/{commit}/sections/section-{nn}.adoc',
+    },
     nav: [
       { text: 'Rules', link: '/rules/00-overview' },
       { text: 'Rulings', link: '/rulings/' },

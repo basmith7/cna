@@ -62,7 +62,7 @@ export function spiBadgePlugin(md) {
     const list = cases.join(', ')
     if (kind === 'spi') {
       const anchors = cases.map(c => `<a id="spi-${esc(c)}" class="spi-anchor"></a>`).join('')
-      return `<p class="spi-badge spi-primary">${anchors}SPI ${esc(list)}</p>\n`
+      return `<p class="spi-badge spi-primary" data-cases="${esc(cases.join(' '))}">${anchors}SPI ${esc(list)}</p>\n`
     }
     if (kind === 'spi-ref') return `<p class="spi-badge spi-ref">see SPI ${esc(list)}</p>\n`
     const tail = reason ? ' — ' + esc(reason) : ''
