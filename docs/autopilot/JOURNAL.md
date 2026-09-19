@@ -51,7 +51,7 @@ Next: read section-08.adoc in full; restate 8.1–8.2 first (they are cited by 0
 Blocked: none (Brian merges #2, #3, #4 in order).
 
 ## 2026-09-19T04:47Z — autopilot/40-movement
-Done: §8.1–§8.4 restated in rules/40-movement.md (ba7936a + this commit); sidebar entry; overlap OK; site builds. PR #5 draft (--base autopilot/30-capability-points). Coverage §8: 34/80.
-In flight: file 4. Remaining: 8.5 reaction (317–387), 8.6 breaking off (388–432), 8.7 rail (433–485), 8.8 Tripoli/Tunisia (486–558), 8.9 motorised/trucks (559–658; anchor #trucks is linked from 30-capability-points). Terrain Effects Chart: data/tables/terrain-effects.json + schema not started (chart sheet not in cache — check tools/fetch.py for chart pages; if unavailable, keep 8.37 spi-omit and say so in EXTRACTION). Remove the HTML skeleton comment at the top of the file when done. EXTRACTION entry not written.
-Next: restate 8.5–8.9 in order, then EXTRACTION entry, then gates and gh pr ready 5.
+Done: §8.1–§8.5 restated in rules/40-movement.md (ba7936a + this commit); sidebar entry; overlap OK; site builds. PR #5 draft (--base autopilot/30-capability-points). Coverage §8: 41/80.
+In flight: file 4. Remaining: 8.6 breaking off (388–432), 8.7 rail (433–485), 8.8 Tripoli/Tunisia (486–558), 8.9 motorised/trucks (559–658; anchor #trucks is linked from 30-capability-points). Terrain Effects Chart: data/tables/terrain-effects.json + schema not started (chart sheet not in cache — check tools/fetch.py for chart pages; if unavailable, keep 8.37 spi-omit and say so in EXTRACTION). Remove the HTML skeleton comment at the top of the file when done. EXTRACTION entry not written.
+Next: restate 8.6–8.9 in order, then EXTRACTION entry, then gates and gh pr ready 5.
 Blocked: none (Brian merges #2, #3, #4 in order).
