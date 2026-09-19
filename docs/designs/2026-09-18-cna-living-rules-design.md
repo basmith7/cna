@@ -43,7 +43,8 @@ redistributing SPI text, map, or counter art.
 | [SPI errata, Sept 1979](https://www.spigames.net/db_pages/ERR_CampaignforNorthAfrica.pdf) ([HTML](http://www.wargameacademy.org/CNA/CNA_errata.html)) | Official corrections | Applied as errata entries, paraphrased, cited by item. |
 | [NJHarman's House Rules & Interpretations](https://friendorfoe.com/war/cfna/houserules/) | ~7,500 words, tagged CORRECTION / CLARIFICATION / INTERPRETATION / CHANGE / ADDITION; CC-BY-SA 4.0; updated 2025-07 | Seed for the rulings log, with attribution. CORRECTION/CLARIFICATION/INTERPRETATION become `proposed` rulings; CHANGE/ADDITION are recorded as variants, not adopted. |
 | [dills122/sandtable](https://github.com/dills122/sandtable) | Active C# engine, same 1979+errata posture, cites rules as `CNA1979:8.22` | Peer consumer of our case IDs; not a dependency. |
-| Michael Miller's `CNA-Hex-Database-20150117.csv`, VASSAL module v2.1.0 | Full hex/hexside terrain data (link dead); grid geometry | Out of scope here; requested from the community for the map sub-project. |
+| VASSAL module v2.1.0 (Mitch Guthrie, 2021) | Homogeneous vector-style redraw of all five maps as one 14310×4632 PNG; `buildFile.xml` carries exact hex geometry (`dx=72.95 dy=85.25`, sideways), per-sheet zone polygons and numbering offsets | **Source for the map sub-project.** `tools/map_extract.py` maps hex IDs to pixels from `buildFile.xml` and classifies terrain by sampling hex centres and hexside midpoints; only the derived terrain data is committed, the PNG is cached like the scans. |
+| Michael Miller's `CNA-Hex-Database-20150117.csv` | Hand-built hex/hexside terrain data (link dead) | Cross-check for the extractor if it resurfaces; not a dependency. |
 | BGG files (OOB xlsx 2010, Sequence of Play 2008, CRT analysis 2026) | Community aids | Cross-checks only. |
 
 ## Legal posture
@@ -220,7 +221,7 @@ Discussions → PR. One maintainer accepts; a fork policy is written in
    transcribed alongside the file that first needs them. Rulings logged as
    hit; NJHarman seed imported at the start of step 3.
 4. **Site phase 2** once ≥3 files exist.
-5. **Outreach** in parallel with 1: NJHarman (hex CSV, rulings upstreaming),
+5. **Outreach** in parallel with 1: NJHarman (rulings upstreaming, hex CSV as cross-check),
    Dylan Steele (case-ID citation target).
 
 Air, Logistics, scenarios, OA, map: separate specs after 3 is done.

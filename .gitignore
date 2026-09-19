@@ -7,3 +7,4 @@ docs/learn/*.jpg
 __pycache__/
 .pytest_cache/
 coverage.md
+.claude/worktrees/
