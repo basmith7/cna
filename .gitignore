@@ -2,7 +2,7 @@ reference/
 node_modules/
 site/.vitepress/cache/
 site/.vitepress/dist/
-docs/learn/*.jpg
+docs/learn/
 .venv/
 __pycache__/
 .pytest_cache/

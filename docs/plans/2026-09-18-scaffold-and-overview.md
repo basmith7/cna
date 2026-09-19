@@ -144,7 +144,7 @@ def test_extraction_log_has_format_section():
 - [ ] **Step 2: Create the venv and run the test to verify it fails**
 
 ```bash
-cd /home/basmith7/Projects/cna
+cd "$(git rev-parse --show-toplevel)"
 python3 -m venv .venv
 .venv/bin/pip install pytest jsonschema referencing Pillow
 .venv/bin/python -m pytest tests/test_repo_hygiene.py -q
@@ -157,7 +157,7 @@ Expected: 4 failures (files missing).
 Download the canonical texts so they are byte-exact:
 
 ```bash
-cd /home/basmith7/Projects/cna
+cd "$(git rev-parse --show-toplevel)"
 curl -sL https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt -o LICENSE-TEXT
 curl -sL https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt -o LICENSE-DATA
 head -3 LICENSE-TEXT; head -3 LICENSE-DATA   # sanity: real licence text, not an HTML error page
@@ -1718,7 +1718,7 @@ git commit -m "Rulings: numbering, statuses, process, fork policy"
 - [ ] **Step 1: Install VitePress and write the failing plugin test**
 
 ```bash
-cd /home/basmith7/Projects/cna
+cd "$(git rev-parse --show-toplevel)"
 npm init -y >/dev/null
 npm install -D vitepress markdown-it
 ```
@@ -2455,7 +2455,7 @@ git commit -m "Rules: authored Glossary"
 - [ ] **Step 1: Run everything CI runs, from a clean checkout state**
 
 ```bash
-cd /home/basmith7/Projects/cna
+cd "$(git rev-parse --show-toplevel)"
 git status --short            # must be empty
 .venv/bin/python -m pytest -q
 .venv/bin/python tools/check_data.py

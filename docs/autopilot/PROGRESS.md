@@ -38,7 +38,7 @@ Still for Brian: click one *Original text* block on the deployed site to confirm
 
 Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endpoint, sampled just before and just after the run. Cost is the list-price equivalent the CLI reports.
 
-| Started (Phoenix) | Minutes | Weekly before→after | 5h before→after | Cost | Turns | Result |
+| Started | Minutes | Weekly before→after | 5h before→after | Cost | Turns | Result |
 |---|---|---|---|---|---|---|
 | 2026-09-18 21:15 | 2 | 51→51 | 25→26 | $0.81 | 12 | smoke test; opened #2 |
 | 2026-09-18 21:29 | 8 | 52→53 | 28→33 | $3.52 | 49 | §6.2 + §17 restated, R-001, #2 marked ready; CI overlap gate red on R-001 |

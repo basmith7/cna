@@ -177,7 +177,7 @@ human can see where things stand in thirty seconds, and file any replies under
 working branch:
 
 ```
-## <timestamp, America/Phoenix> — <branch>
+## <timestamp, local time> — <branch>
 Done: <what landed, with commit shas>
 In flight: <what is half-done and where>
 Next: <the first concrete thing the next run should do>

@@ -86,73 +86,73 @@ In flight: rules/60-combat.md — SPI §11 combat system, §12 anti-armour, §13
 Next: read section-11..16.adoc; write in the 40/50 style; CRT tables to data/ with schema; anchors other files reference: 50 links "combat (SPI 15.82)" for stand-and-take-losses, 10.31 probe; gates; EXTRACTION; gh pr ready; merge.
 Blocked: none new.
 
-## 2026-09-19 03:26 (Phoenix) — autopilot/60-combat
+## 2026-09-19 03:26 — autopilot/60-combat
 Done: §11–§14 restated in rules/60-combat.md (incl. §32 addenda 14.15, 14.27 and the 12.0/12.23/12.46/14.0 clarifications); coverage 11–14 = 109/109; overlap OK.
 In flight: §15 close assault (6 841 words) and §16 patrols not started. Anchors promised in the file: #gun-losses, #forced-retreats, #dummy-tank-formations — must exist when §15/§16 land. Sidebar entry, EXTRACTION entry not written. Barrage (12.6) and anti-armour (14.6) CRTs spi-omit pending chart sheet.
 Next: read section-15.adoc, restate; then §16; sidebar; EXTRACTION; gates; gh pr ready; merge.
 Blocked: chart sheet (CRTs) — Brian.
 
-## 2026-09-19 03:33 (Phoenix) — autopilot/60-combat
+## 2026-09-19 03:33 — autopilot/60-combat
 Done: rules/60-combat.md complete (§11–§16 + §32 addenda + errata E-001–E-010); data/tables/assault-size-shifts.json; data/errata/INDEX.md (E-id registry); spi-badge.mjs renders ::: errata / ::: ruling (tests); sidebar; EXTRACTION; 50-stacking links #forced-retreats. Coverage 11–16 209/209, all gates + CI green. PR #8 ready and merged this run.
 In flight: none.
 Next: file 7 = organisation (check section list — likely SPI §19 attach/detach, §20 replacements?, §21 repair? read 00-overview file map first). Branch autopilot/70-organisation from origin/main, --base main. Sidebar regex already lists 70-organisation.
 Blocked: chart sheet capture for all CRTs (12.6, 14.6, 15.79, 15.89, 16.6–16.8) plus earlier tables — Brian.
 
-## 2026-09-19 03:35 (Phoenix) — autopilot/70-organisation
+## 2026-09-19 03:35 — autopilot/70-organisation
 Done: branch from origin/main (5b1d8d0); draft PR opened. Nothing written.
 In flight: rules/70-organisation.md — SPI §19 organisation/reorganisation (3 770 words), §20 reinforcements/replacements/CW withdrawals (2 743). §18 reserve already lives in 50-stacking-and-zoc; §17.3 training in 10-units-and-state.
 Next: read section-19/20.adoc; write in the 60-combat style (errata badges via data/errata/INDEX.md, next id E-011); sidebar; EXTRACTION; gates; gh pr ready; merge.
 Blocked: chart sheet — Brian.
 
-## 2026-09-19 03:37 (Phoenix) — autopilot/70-organisation
+## 2026-09-19 03:37 — autopilot/70-organisation
 Done: rules/70-organisation.md complete (§19–§20, §32 addenda, errata E-011–E-016); data/tables/replacement-training.json + schema; sidebar; EXTRACTION. Coverage 19–20 111/111; all gates green locally. PR #9 ready; merging this run if CI green.
 In flight: none.
 Next: file 8 = engineering (SPI §22–§26: check word counts — 22: 1 900, 23: 409, 24: 2 746, 25: 360, 26: 616). Branch autopilot/80-engineering from origin/main. Next errata id E-017. §21 (breakdown/repair) is mapped to movement/special per 00-overview — confirm before writing.
 Blocked: chart sheet — Brian.
 
-## 2026-09-19 03:38 (Phoenix) — autopilot/80-engineering
+## 2026-09-19 03:38 — autopilot/80-engineering
 Done: branch from origin/main (1efe45b); draft PR opened. Nothing written.
 In flight: rules/80-engineering.md — SPI §22–§26 (engineers, construction, fortifications, minefields, repair). §21 breakdown/repair: 00-overview maps it to Movement, 40-movement points breakdown at Special; decide and note in EXTRACTION.
 Next: read section-22..26.adoc; write; sidebar; EXTRACTION; gates; ready; merge. Next errata id E-017.
 Blocked: chart sheet — Brian.
 
-## 2026-09-19 03:41 (Phoenix) — autopilot/80-engineering
+## 2026-09-19 03:41 — autopilot/80-engineering
 Done: rules/80-engineering.md complete (§22–§26, §32 additions 23.15/24.79, errata E-017–E-022); sidebar; EXTRACTION. Coverage 22–26 147/147; gates green locally. PR #10 ready; merging this run if CI green.
 In flight: none.
 Next: file 9 = special (SPI §27–§31 raiders, prisoners, weather, fleet, Rommel; plus §21 breakdown — 40-movement points breakdown at 90-special, 00-overview maps §21 to movement; put §21 in special and say so). Branch autopilot/90-special from origin/main. Next errata id E-023 (errata for 21.12 exists: Italian M13/40 BAR).
 Blocked: chart sheet — Brian.
 
-## 2026-09-19 03:43 (Phoenix) — autopilot/90-special
+## 2026-09-19 03:43 — autopilot/90-special
 Done: branch from origin/main; draft PR opened. Nothing written.
 In flight: rules/90-special.md — SPI §21 (breakdown, 2 684 words), §27 raiders (3 062), §28 prisoners (896), §29 weather (820), §30 fleet (2 073), §31 Rommel (280).
 Next: read sections; write; sidebar; EXTRACTION; gates; ready; merge. Next errata id E-023.
 Blocked: chart sheet — Brian.
 
-## 2026-09-19 03:47 (Phoenix) — autopilot/90-special
+## 2026-09-19 03:47 — autopilot/90-special
 Done: rules/90-special.md complete (§21, §27–§31, §32 addenda, errata E-023–E-030); data/tables/breakdown-adjustments.json + seasons.json with schemas; sidebar; EXTRACTION. Coverage 21,27–31 196/196; gates green locally. PR #11 ready; merging this run if CI green.
 In flight: none. Note for a later tidy: 00-overview's file map lists §21 under Movement; it now lives in Special.
 Next: file 10 = §32 abstract logistics and air (rules/95-abstract-logistics-and-air.md; sidebar regex already lists it; several other files link to it). Branch autopilot/95-abstract-logistics-and-air. Next errata id E-031. The §32 addenda block (lines ~470–620 of section-32.adoc) has already been folded into files 6–9 — badge only the 32.x cases there.
 Blocked: chart sheet — Brian.
 
-## 2026-09-19 03:48 (Phoenix) — autopilot/95-abstract-logistics-and-air
+## 2026-09-19 03:48 — autopilot/95-abstract-logistics-and-air
 Done: branch from origin/main; draft PR opened. Nothing written.
 In flight: rules/95-abstract-logistics-and-air.md — SPI §32 (32.1–32.x rules only; the addenda block at the end is already folded into files 1–9 case by case). Also fix 00-overview file map (§21 → Special) in this PR.
 Next: read section-32.adoc lines 1–470; write; sidebar; EXTRACTION; gates; ready; merge. Then step 4 (site phase 2) — read the design doc for what that means.
 Blocked: chart sheet — Brian.
 
-## 2026-09-19 03:49 (Phoenix) — autopilot/95-abstract-logistics-and-air
+## 2026-09-19 03:49 — autopilot/95-abstract-logistics-and-air
 Done: rules/95-abstract-logistics-and-air.md complete (§32 + 3.61–3.62); ::: note container in spi-badge.mjs (tests 11 pass); 00-overview file map fixed; 10-units 3.61/3.62 → spi-ref; sidebar; EXTRACTION. Coverage §32 61/61. PR #12 ready; merging this run if CI green. Step 3 of the design is then COMPLETE.
 In flight: none.
 Next: step 4 = site phase 2 — read docs/designs/2026-09-18-cna-living-rules-design.md for its definition (likely: "Changes from the original" page, coverage report page, client-side `original` blocks). Do it with TDD on site/ and tools/. Then log MISSION COMPLETE.
 Blocked: chart sheet — Brian.
 
-## 2026-09-19 03:53 (Phoenix) — autopilot/site-phase-2
+## 2026-09-19 03:53 — autopilot/site-phase-2
 Done: tools/gen_pages.py (TDD, 5 tests) → rules/changes.md + rules/coverage.md (committed; test fails when stale); R-001 now a ::: ruling badge; original viewer: site/.vitepress/original.mjs (helpers, 4 tests), theme/OriginalViewer.vue (doc-after slot, DOM attach, fetch on open, remove on failure), themeConfig.original flag; data-cases attr on primary badges; sidebar "Provenance" group. All gates green locally. PR #13.
 In flight: PR #13 to mark ready + merge. The Vue DOM attach is verified only by build + helper tests + a node fetch smoke test (no browser here) — say so in the PR body.
 Next: after merge, log MISSION COMPLETE in journal and PROGRESS; stop.
 Blocked: chart sheet — Brian.
 
-## 2026-09-19 03:56 (Phoenix) — main
+## 2026-09-19 03:56 — main
 Done: PR #13 (site phase 2) merged; main CI and Pages deploy green. Steps 3 and 4 complete.
 In flight: none.
 Next: nothing — orders say stop after step 4. Open items for Brian are listed in PROGRESS.md (chart sheet capture, NJHarman seed, browser check of the original viewer).
@@ -160,7 +160,7 @@ Blocked: none for the autopilot.
 
 MISSION COMPLETE
 
-## 2026-09-19 (Phoenix) — main (Brian)
+## 2026-09-19 — main (Brian)
 Done: mission 2 orders written to AUTOPILOT.md; ATTRIBUTION.md, README legal posture, rulings/README.md quoting convention; tools/sources.json gained djvu_xml_url and an empty chart_pages map.
 In flight: none.
 Next: Part A — autopilot/a-coverage-gap.
