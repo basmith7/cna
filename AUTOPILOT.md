@@ -85,7 +85,7 @@ human can see where things stand in thirty seconds, and file any replies under
 working branch:
 
 ```
-## <UTC timestamp> — <branch>
+## <timestamp, America/Phoenix> — <branch>
 Done: <what landed, with commit shas>
 In flight: <what is half-done and where>
 Next: <the first concrete thing the next run should do>
