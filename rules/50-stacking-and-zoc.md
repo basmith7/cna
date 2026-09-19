@@ -9,7 +9,7 @@ This file covers three things that constrain where units may be: how many
 may share a hex (stacking), how a hex adjacent to the enemy behaves (zones of
 control), and the reserve state that lets a unit react outside its own
 segment. Movement procedure is in [movement](./40-movement.md); combat
-results that force retreats are in combat.
+results that force retreats are in combat (not yet restated).
 
 ::: spi-omit 9.0 9.1 9.2 9.4 — section and subsection headings, and a pointer to the counter sheet; rules restated below
 
@@ -215,4 +215,38 @@ enemy ZOC; if it is forced into one the whole unit surrenders.
 
 ## Reserve {#reserve}
 
-*Pending — SPI §18.*
+::: spi-omit 18.0 18.1 18.2 — design commentary and headings; rules restated below
+
+Continual movement normally lets only units within two hexes of the enemy
+keep moving after their first move ([movement](./40-movement.md)). Reserve gets
+round that: a unit held back at the start of the stage may be
+released later to exploit a gap, at a price that grows with how long it waits.
+
+::: spi 18.11 18.12 18.15 18.21
+
+Only the **phasing player** may place units in reserve, and only in the
+**reserve designation phase** that opens the stage, never during the
+movement/combat phase. Mark them with a Reserve I marker. There are two
+states, Reserve I and Reserve II, shown by the marker's face.
+
+::: spi 18.13 18.14 18.22
+
+A unit still in reserve at the first **reserve release segment** of the
+movement/combat phase must be released then or its marker flipped to
+Reserve II; it then stays in Reserve II until released in a later release
+segment or the stage ends. In a movement segment a Reserve I unit may shift
+**one hex** regardless of CP, provided it does not enter an enemy ZOC. A
+Reserve II unit may not move at all.
+
+::: spi 18.23 18.24
+
+| Released from | When | Limits for the rest of the stage |
+|---|---|---|
+| Reserve I | first release segment (after other units have moved once) | may not voluntarily exceed its CPA; one offensive close assault at most |
+| Reserve II | any later release segment | may not voluntarily exceed **half** its CPA, rounded down (leg infantry: 5); one offensive close assault or probe at most; any voluntary close assault, anti-armour or barrage earns +1 disorganisation point |
+
+::: spi 18.25 18.26
+
+A released unit may move in the movement segment that immediately follows
+even when no enemy unit is within two hexes of it. Entering and leaving
+reserve cost no CP.
