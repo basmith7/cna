@@ -19,3 +19,9 @@ Done: finished the file. §6.2 (Cohesion) + §17 (Morale/Training/Voluntary surr
 In flight: none for file 1.
 Next: file 2 = sequence of play (SPI §5, §7). Branch autopilot/20-sequence-of-play from origin/main once #2 merges (or stack on #2's tip if still open; --base autopilot/10-units-and-state). Coverage for §6.1/6.3 stays open — it belongs to file 3 (capability points, §6).
 Blocked: none (Brian merges #2).
+
+## 2026-09-19T04:41Z — autopilot/20-sequence-of-play
+Done: branch created from tip of autopilot/10-units-and-state (stacked; PR #2 still open, no review comments).
+In flight: rules/20-sequence-of-play.md (SPI §5, §7) — not yet written.
+Next: read section-05/07 from ~/.cache/cna-scans/source/<commit>/, write the file matching 10-units-and-state.md conventions, sidebar entry, EXTRACTION entry, gates, draft PR --base autopilot/10-units-and-state.
+Blocked: none
