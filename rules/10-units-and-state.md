@@ -340,7 +340,10 @@ guns, subtract one from the roll and multiply by 10%; for trucks and
 motorisation points, subtract one and multiply by 20%. The result is the
 fraction of that category's TOE strength destroyed, rounding down.
 
-::: spi-omit 3.61 3.62 — the limited-intelligence (hidden-information) rules are §32 additions; restated with the abstraction layer in [§32](95-abstract-logistics-and-air.md)
+::: spi-ref 3.61 3.62
+
+The limited-intelligence (hidden-information) rules are restated in
+[Abstract logistics and air](95-abstract-logistics-and-air.md#limited-intelligence).
 
 ---
 

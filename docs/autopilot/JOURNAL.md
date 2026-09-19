@@ -133,3 +133,15 @@ Done: rules/90-special.md complete (§21, §27–§31, §32 addenda, errata E-02
 In flight: none. Note for a later tidy: 00-overview's file map lists §21 under Movement; it now lives in Special.
 Next: file 10 = §32 abstract logistics and air (rules/95-abstract-logistics-and-air.md; sidebar regex already lists it; several other files link to it). Branch autopilot/95-abstract-logistics-and-air. Next errata id E-031. The §32 addenda block (lines ~470–620 of section-32.adoc) has already been folded into files 6–9 — badge only the 32.x cases there.
 Blocked: chart sheet — Brian.
+
+## 2026-09-19 03:48 (Phoenix) — autopilot/95-abstract-logistics-and-air
+Done: branch from origin/main; draft PR opened. Nothing written.
+In flight: rules/95-abstract-logistics-and-air.md — SPI §32 (32.1–32.x rules only; the addenda block at the end is already folded into files 1–9 case by case). Also fix 00-overview file map (§21 → Special) in this PR.
+Next: read section-32.adoc lines 1–470; write; sidebar; EXTRACTION; gates; ready; merge. Then step 4 (site phase 2) — read the design doc for what that means.
+Blocked: chart sheet — Brian.
+
+## 2026-09-19 03:49 (Phoenix) — autopilot/95-abstract-logistics-and-air
+Done: rules/95-abstract-logistics-and-air.md complete (§32 + 3.61–3.62); ::: note container in spi-badge.mjs (tests 11 pass); 00-overview file map fixed; 10-units 3.61/3.62 → spi-ref; sidebar; EXTRACTION. Coverage §32 61/61. PR #12 ready; merging this run if CI green. Step 3 of the design is then COMPLETE.
+In flight: none.
+Next: step 4 = site phase 2 — read docs/designs/2026-09-18-cna-living-rules-design.md for its definition (likely: "Changes from the original" page, coverage report page, client-side `original` blocks). Do it with TDD on site/ and tools/. Then log MISSION COMPLETE.
+Blocked: chart sheet — Brian.

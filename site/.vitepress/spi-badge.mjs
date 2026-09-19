@@ -8,7 +8,35 @@ function esc(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 }
 
+const NOTE_OPEN = /^:::\s+note(?:\s+(.*?))?\s*$/
+const NOTE_CLOSE = /^:::\s*$/
+
 export function spiBadgePlugin(md) {
+  // ::: note [title] … :::  — a non-binding block (designer intent, play advice).
+  md.block.ruler.before('fence', 'spi_note', (state, startLine, endLine, silent) => {
+    const first = state.src.slice(state.bMarks[startLine] + state.tShift[startLine], state.eMarks[startLine])
+    const m = NOTE_OPEN.exec(first)
+    if (!m) return false
+    let next = startLine + 1
+    for (; next < endLine; next++) {
+      const l = state.src.slice(state.bMarks[next] + state.tShift[next], state.eMarks[next])
+      if (NOTE_CLOSE.test(l)) break
+    }
+    if (next >= endLine) return false
+    if (silent) return true
+    const open = state.push('spi_note_open', 'div', 1)
+    open.meta = { title: m[1] || 'Note' }
+    open.map = [startLine, next]
+    state.md.block.tokenize(state, startLine + 1, next)
+    state.push('spi_note_close', 'div', -1)
+    state.line = next + 1
+    return true
+  }, { alt: ['paragraph', 'reference', 'blockquote', 'list'] })
+
+  md.renderer.rules.spi_note_open = (tokens, idx) =>
+    `<div class="spi-note"><p class="spi-note-title">${esc(tokens[idx].meta.title)}</p>\n`
+  md.renderer.rules.spi_note_close = () => '</div>\n'
+
   md.block.ruler.before('fence', 'spi_badge', (state, startLine, _endLine, silent) => {
     const line = state.src.slice(state.bMarks[startLine] + state.tShift[startLine], state.eMarks[startLine])
     const m = RE.exec(line)

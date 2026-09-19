@@ -26,8 +26,9 @@ test('spi-omit renders reason', () => {
 })
 
 test('other ::: lines are untouched', () => {
-  const html = md.render('::: note\nhi\n:::\n')
+  const html = md.render('::: warning\nhi\n:::\n')
   assert.doesNotMatch(html, /spi-badge/)
+  assert.doesNotMatch(html, /spi-note/)
 })
 
 test('a badge directly after a prose line terminates the paragraph', () => {
@@ -54,4 +55,15 @@ test('ruling badge links to the ruling file', () => {
 test('errata badge without a paraphrase renders bare', () => {
   const html = md.render('::: errata E-002\n')
   assert.match(html, /<p class="spi-badge spi-errata">Errata E-002<\/p>/)
+})
+
+test('note container wraps its body in a spi-note div', () => {
+  const html = md.render('::: note\nDesigner intent **here**.\n:::\n\nAfter.\n')
+  assert.match(html, /<div class="spi-note"><p class="spi-note-title">Note<\/p>\n<p>Designer intent <strong>here<\/strong>\.<\/p>\n<\/div>/)
+  assert.match(html, /<p>After\.<\/p>/)
+})
+
+test('note container accepts a custom title', () => {
+  const html = md.render('::: note Designer\'s note\nBody.\n:::\n')
+  assert.match(html, /<p class="spi-note-title">Designer's note<\/p>/)
 })
