@@ -253,3 +253,30 @@ either.
 The markers bind only the combat units that were in the hex when they were
 placed. A unit that moves into a marked hex later is not affected by the
 marker.
+
+## Rail movement
+
+::: spi 8.71 8.72 8.73 8.74 8.75 8.76 8.77 8.78
+
+::: spi-omit 8.7 — subsection heading
+
+Only one railway matters: **Alexandria–Mersa Matruh**, Commonwealth-only
+whatever the strategic situation, extendable by construction
+([Engineering](80-engineering.md)). The Soluch–Benghazi–Barce line is
+decoration: it has no effect on anything.
+
+Once per stage, in phase J, the Commonwealth player may run **one stack
+eastward and one stack westward**, each any distance along finished track;
+a stack is units and/or supplies. Limits:
+
+- a rail-moving unit must begin the stage on a rail hex, must have spent
+  **no CP** on anything that stage, and must not be in an enemy ZOC;
+- it may never enter an enemy ZOC or an enemy-occupied hex on the way;
+- at most **2 stacking points** per stack (large brigades split up); supply
+  limits are in [§32](95-abstract-logistics-and-air.md);
+- rail hexes that are bombed out are unusable until repaired, and unbuilt
+  rail hexes until built;
+- any rail hex west of an Axis combat unit sitting on the line is off limits.
+
+Units may be picked up and set down anywhere along the line, so long as the
+stacking, direction and no-CP-spent conditions all hold.
