@@ -43,3 +43,9 @@ Done: data/tables/cp-costs.json + data/schema/cp-costs.schema.json (c90c89b); al
 In flight: none for file 3.
 Next: file 4 = movement (SPI §8, plus Terrain Effects Chart → data/tables/terrain-effects.json; extend common.schema terrain enum). Branch autopilot/40-movement from tip of autopilot/30-capability-points, --base autopilot/30-capability-points while #4 is open.
 Blocked: none (Brian merges #2, #3, #4 in order).
+
+## 2026-09-19T04:46Z — autopilot/40-movement
+Done: branch from tip of autopilot/30-capability-points; rules/40-movement.md is a commented skeleton mapping SPI §8.1–8.9 to sections (no badges yet, so §8 coverage is 0 — expected).
+In flight: file 4 (movement, §8, 658 source lines) — nothing restated yet.
+Next: read section-08.adoc in full; restate 8.1–8.2 first (they are cited by 00-overview and 20-sequence-of-play), then 8.3 with the terrain-effects table + schema (extend common.schema terrain enum), then 8.4–8.9. Add sidebar entry, EXTRACTION entry. Remember: `git add` before check_overlap (it scans tracked files only). Open draft PR --base autopilot/30-capability-points.
+Blocked: none (Brian merges #2, #3, #4 in order).
