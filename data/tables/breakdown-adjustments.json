@@ -1,0 +1,15 @@
+{
+ "table": "breakdown-adjustments",
+ "sources": ["CNA1979:21.14"],
+ "notes": [
+  "Tanks and SP guns carry an individual rating between shift and shift_max on the Tank & Gun Characteristics Charts (e.g. Italian M 13/40 = 1R per the Sept 1979 errata to 21.12, E-023)",
+  "Shift is applied cumulatively with the weather shift (SPI 21.32)"
+ ],
+ "rows": [
+  {"vehicle": "truck", "shift": -2, "sources": ["CNA1979:21.14"]},
+  {"vehicle": "armoured-car", "shift": -1, "sources": ["CNA1979:21.14"]},
+  {"vehicle": "armoured-recce", "shift": 0, "sources": ["CNA1979:21.14"]},
+  {"vehicle": "sp-gun", "shift": -1, "shift_max": 2, "sources": ["CNA1979:21.14"]},
+  {"vehicle": "tank", "shift": -1, "shift_max": 2, "sources": ["CNA1979:21.14"]}
+ ]
+}

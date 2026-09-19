@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "seasons.schema.json",
+  "title": "Weather seasons by game-turn week (SPI 29.1)",
+  "type": "object",
+  "required": ["table", "sources", "rows"],
+  "additionalProperties": false,
+  "properties": {
+    "table": {"const": "seasons"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "rows": {
+      "type": "array", "minItems": 4, "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["season", "from", "to", "sources"],
+        "additionalProperties": false,
+        "properties": {
+          "season": {"enum": ["spring", "summer", "autumn", "winter"]},
+          "from": {"$ref": "#/$defs/monthWeek"},
+          "to": {"$ref": "#/$defs/monthWeek", "description": "Inclusive"},
+          "sources": {"$ref": "common.schema.json#/$defs/sources"}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "monthWeek": {"type": "object", "required": ["month", "week"], "additionalProperties": false,
+                  "properties": {"month": {"type": "integer", "minimum": 1, "maximum": 12},
+                                 "week": {"type": "integer", "minimum": 1, "maximum": 4}}}
+  }
+}

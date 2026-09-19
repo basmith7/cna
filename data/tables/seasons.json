@@ -1,0 +1,14 @@
+{
+ "table": "seasons",
+ "sources": ["CNA1979:29.1"],
+ "notes": [
+  "Roman numerals in the printed table are weeks of the month (Sept 1979 errata to 29.1, E-024)",
+  "The printed Weather Table's season order is reversed; this table is the corrected sequence (errata to 29.61, E-025)"
+ ],
+ "rows": [
+  {"season": "spring", "from": {"month": 3, "week": 3}, "to": {"month": 6, "week": 2}, "sources": ["CNA1979:29.1"]},
+  {"season": "summer", "from": {"month": 6, "week": 3}, "to": {"month": 9, "week": 2}, "sources": ["CNA1979:29.1"]},
+  {"season": "autumn", "from": {"month": 9, "week": 3}, "to": {"month": 12, "week": 2}, "sources": ["CNA1979:29.1"]},
+  {"season": "winter", "from": {"month": 12, "week": 3}, "to": {"month": 3, "week": 2}, "sources": ["CNA1979:29.1"]}
+ ]
+}

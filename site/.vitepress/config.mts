@@ -43,6 +43,7 @@ export default defineConfig({
           { text: 'Combat', link: '/rules/60-combat' },
           { text: 'Organisation', link: '/rules/70-organisation' },
           { text: 'Engineering', link: '/rules/80-engineering' },
+          { text: 'Special rules', link: '/rules/90-special' },
         ] },
       ],
     },

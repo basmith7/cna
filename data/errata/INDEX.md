@@ -30,3 +30,11 @@ listed here alone.
 | E-020 | 24.15 | clarification | rules/80-engineering.md | 24.12 (no road-stacking effect) is an exception to "subject to all stacking rules" |
 | E-021 | 24.72 | addition | rules/80-engineering.md | Commonwealth SGSUs and E-HQs may also build airfields and flying-boat basins |
 | E-022 | 25.15 | correction | rules/80-engineering.md | the reference should be 22.34 |
+| E-023 | 21.12 | correction | rules/90-special.md, data/tables/breakdown-adjustments.json | Italian M 13/40 BAR is 1R, as on the charts |
+| E-024 | 29.1 | clarification | rules/90-special.md, data/tables/seasons.json | the printed Roman numerals are weeks of the month |
+| E-025 | 29.61 | correction | (pending) data/tables/weather.json | the Weather Table's season rows are reversed; 29.1's order is correct |
+| E-026 | 27.16 | clarification | rules/90-special.md | re-formed raiders follow 27.13; the example's turns are 55 and 59 |
+| E-027 | 27.36 | clarification | rules/90-special.md | raiders may react after any spotting attempt |
+| E-028 | 27.88 | correction | rules/90-special.md | the hidden-movement reference is 27.32 |
+| E-029 | 28.17 | correction | rules/90-special.md | one guard point per five prisoners on the move |
+| E-030 | 30.5, 30.55, 30.57, 30.58, 30.59 | corrections | rules/90-special.md | references to 56.0 / 55.2 / 55.3; barraged units may still transfer; 30.57 replaced by 10 % tonnage loss per SP landed |
