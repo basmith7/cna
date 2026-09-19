@@ -79,3 +79,9 @@ Done: rules/50-stacking-and-zoc.md complete (§9 5a2bb8b, §10 53bfefe, §18 + E
 In flight: none.
 Next: file 6 = combat (SPI §11–§16?, check section list). Branch autopilot/60-combat from origin/main, --base main. Sidebar regex already lists 60-combat.
 Blocked: chart/counter sheet capture for 8.37 stacking ceilings, 9.4 SP table, terrain-effects, off-map-distances, initiative-ratings — Brian.
+
+## 2026-09-19T05:03Z — autopilot/60-combat
+Done: branch from origin/main (4b6662c); draft PR opened. Nothing written yet.
+In flight: rules/60-combat.md — SPI §11 combat system, §12 anti-armour, §13 barrage, §14 retreat before assault, §15 close assault, §16 patrols/recon (~6 sections; check word count, may need two runs). Sidebar regex already includes 60-combat; add sidebar entry after 50.
+Next: read section-11..16.adoc; write in the 40/50 style; CRT tables to data/ with schema; anchors other files reference: 50 links "combat (SPI 15.82)" for stand-and-take-losses, 10.31 probe; gates; EXTRACTION; gh pr ready; merge.
+Blocked: none new.
