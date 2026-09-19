@@ -280,3 +280,37 @@ a stack is units and/or supplies. Limits:
 
 Units may be picked up and set down anywhere along the line, so long as the
 stacking, direction and no-CP-spent conditions all hold.
+
+## Tripoli and Tunisia (off-map boxes)
+
+::: spi 8.81 8.82 8.83 8.84 8.85 8.86 8.87 8.88
+
+::: spi-omit 8.8 — subsection heading
+
+::: spi-omit 8.89 — the Off-Map Land Unit Movement Distance Chart is a lookup table on the chart sheet; transcribed to `data/tables/off-map-distances.json` when captured
+
+The west edge of map A carries four region boxes — **Tripolitania, Tripoli,
+Gabes, Tunis** — plus small *in-transit* boxes between them. Only Axis units
+(and Commonwealth aircraft) may be there; no Commonwealth land or sea unit
+ever enters a box.
+
+Land movement between the boxes, and between the boxes and the map, is
+abstracted to **whole stages**: a unit spends exactly its full CPA on
+movement in every stage it moves off-map, burns fuel if motorised, and does
+not check breakdown. The number of stages needed depends on the unit's CPA
+(distance chart, above). If one stage suffices, the unit is simply placed at
+its destination and the fuel paid; otherwise it advances one in-transit box
+per stage moved. A unit in transit need not move every stage and may turn
+round and go back.
+
+Leaving the map for Tripolitania requires starting the stage in hex
+**A2802**. Arriving from off-map, a unit is placed on the road hex nearest
+the Tripolitania box; more than 5 stacking points arriving together are
+strung along the road in consecutive hexes from that box (5, 5, 3 …).
+
+Reinforcements and replacements landing in Tunis or Tripoli may not leave
+that box in the stage they arrive. The boxes and in-transit boxes have no
+stacking limit and unlimited water; the region boxes also count as unlimited
+supply dumps and as airfields with enough facilities, non-transferable
+supply and ground crew for every Axis aircraft. A truck or motorisation
+point that loads or unloads supply in a box may not move that stage.
