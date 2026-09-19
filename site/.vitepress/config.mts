@@ -42,6 +42,7 @@ export default defineConfig({
           { text: 'Stacking & ZOC', link: '/rules/50-stacking-and-zoc' },
           { text: 'Combat', link: '/rules/60-combat' },
           { text: 'Organisation', link: '/rules/70-organisation' },
+          { text: 'Engineering', link: '/rules/80-engineering' },
         ] },
       ],
     },
