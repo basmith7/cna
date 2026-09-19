@@ -386,6 +386,8 @@ Tobruk harbour: it acts as an immobile artillery unit until removed or sunk
 by enemy engineers, firing into adjacent hexes and at Commonwealth ships
 across sea hexsides.
 
+::: variant V-001 — the San Giorgio as a live gun battery: torpedo-immune, own AA, may sortie, no port-efficiency penalty (NJHarman)
+
 ### Off-shore bombardment
 
 ::: spi 30.21 30.22 30.23 30.24 30.25

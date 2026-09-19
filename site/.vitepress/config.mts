@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import footnote from 'markdown-it-footnote'
 import { spiBadgePlugin } from './spi-badge.mjs'
 
 export default defineConfig({
@@ -22,7 +23,7 @@ export default defineConfig({
     'data/README.md': 'data/index.md',
   },
   markdown: {
-    config: (md) => { md.use(spiBadgePlugin) },
+    config: (md) => { md.use(spiBadgePlugin); md.use(footnote) },
   },
   themeConfig: {
     // Client-side original-text viewer (design: "(generated) original" container). Fetched at view

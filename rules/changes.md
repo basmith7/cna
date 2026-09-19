@@ -7,8 +7,9 @@ title: Changes from the original
 
 Every place the restated rules differ from the 1979 text as printed: SPI's
 September 1979 errata (`E-nnn`, indexed in `data/errata/INDEX.md`) and our
-own rulings (`R-nnn`, in `rulings/`). Generated from the `::: errata` and
-`::: ruling` annotations in the rules files.
+own rulings (`R-nnn`, in `rulings/`), plus community variants we record but
+do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
+`::: ruling` and `::: variant` annotations in the rules files.
 
 ## [Units and state](./10-units-and-state.md)
 
@@ -54,9 +55,16 @@ own rulings (`R-nnn`, in `rulings/`). Generated from the `::: errata` and
 - **E-024** — 29.1: the printed Roman numerals are weeks of the month
 - **E-025** — 29.61: the Weather Table's seasons are printed in reverse; the sequence in 29.1 is correct
 - **E-030** — 30.5: the supply-by-sea reference is 56.0; 30.55 also admits barraged/bombed units; 30.57 is replaced by the 10 %-per-SP rule; 30.58's reference is 55.2
+- [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery: torpedo-immune, own AA, may sortie, no port-efficiency penalty (NJHarman)
 
 ## Rulings register
 
 | Id | Status | Affects |
 |---|---|---|
 | [R-001](../rulings/R-001.md) | proposed | 6.26, 17.5 |
+
+## Variants register
+
+| Id | Status | Affects |
+|---|---|---|
+| [V-001](../rulings/V-001.md) | recorded | 30.17, 30.39, 55.25, 60.7, 61.6 |

@@ -12,6 +12,7 @@ body
 ::: errata E-001 — 8.35: the plus was a times
 ::: spi-omit 8.37 — chart
 ::: ruling R-001 — cohesion level, not DP count
+::: variant V-001 — San Giorgio as a live gun battery
 """
 RULES_B = """---
 title: Beta
@@ -29,6 +30,15 @@ sources:
 ---
 # R-001 — Threshold
 """
+VARIANT = """---
+id: V-001
+status: recorded
+affects: [30.17, 55.25]
+sources:
+  - CNA1979:30.17
+---
+# V-001 — San Giorgio
+"""
 
 
 def _repo(tmp_path: pathlib.Path) -> pathlib.Path:
@@ -37,6 +47,7 @@ def _repo(tmp_path: pathlib.Path) -> pathlib.Path:
     (tmp_path / "rules" / "20-beta.md").write_text(RULES_B)
     (tmp_path / "rulings").mkdir()
     (tmp_path / "rulings" / "R-001.md").write_text(RULING)
+    (tmp_path / "rulings" / "V-001.md").write_text(VARIANT)
     (tmp_path / "data").mkdir()
     (tmp_path / "data" / "spi-cases.json").write_text(json.dumps({"cases": [
         {"id": "8.35", "section": 8}, {"id": "8.36", "section": 8}, {"id": "8.37", "section": 8},
@@ -50,6 +61,7 @@ def test_collect_annotations_reads_errata_and_ruling_badges(tmp_path):
     assert ann["rules/10-alpha.md"]["title"] == "Alpha"
     assert ann["rules/10-alpha.md"]["errata"] == [("E-001", "8.35: the plus was a times")]
     assert ann["rules/10-alpha.md"]["rulings"] == [("R-001", "cohesion level, not DP count")]
+    assert ann["rules/10-alpha.md"]["variants"] == [("V-001", "San Giorgio as a live gun battery")]
     assert ann["rules/20-beta.md"]["errata"] == [("E-002", "")]
 
 
@@ -60,6 +72,8 @@ def test_render_changes_groups_by_file_and_lists_ruling_status(tmp_path):
     assert "**E-001** — 8.35: the plus was a times" in md
     assert "[R-001](../rulings/R-001.md)" in md
     assert "| [R-001](../rulings/R-001.md) | accepted | 8.35 |" in md
+    assert "[V-001](../rulings/V-001.md) — San Giorgio as a live gun battery" in md
+    assert "| [V-001](../rulings/V-001.md) | recorded | 30.17, 55.25 |" in md
     assert md.index("Alpha") < md.index("Beta")
 
 
