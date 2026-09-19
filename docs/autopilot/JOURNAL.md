@@ -61,3 +61,9 @@ Done: rules/40-movement.md complete (§8.1–8.9), EXTRACTION entry, sidebar; co
 In flight: none for file 4.
 Next: file 5 = stacking & ZOC (SPI §9, §10, §18 reserve). Branch autopilot/50-stacking-and-zoc from tip of autopilot/40-movement, --base autopilot/40-movement while #5 is open. Anchors already linked from other files: #reserve, #roads. Check tools/fetch.py for a way to fetch the chart sheet pages for the pending data tables.
 Blocked: chart sheet capture (Brian / fetch.py) for terrain-effects, off-map-distances, initiative-ratings tables.
+
+## 2026-09-19T04:51Z — autopilot/50-stacking-and-zoc
+Done: branch from tip of autopilot/40-movement; draft PR opened. Nothing written.
+In flight: rules/50-stacking-and-zoc.md (SPI §9 stacking, §10 ZOC, §18 reserve) — not started. Must provide anchors #reserve and #roads (linked from 40-movement).
+Next: read section-09/10/18.adoc, write the file in the 10/20/40 style, sidebar, EXTRACTION, gates (git add before check_overlap), gh pr ready.
+Blocked: none new.
