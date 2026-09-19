@@ -29,8 +29,8 @@ The next run reads this section first, acts on it, and moves each item to
 | 6 | combat | **merged** | #8 |
 | 7 | organisation | **merged** | #9 |
 | 8 | engineering | **merged** | #10 |
-| 9 | special | in progress | #11 (draft) |
-| 10 | §32 | not started | |
+| 9 | special | **merged** | #11 |
+| 10 | §32 | in progress | #12 (draft) |
 | — | site phase 2 | not started | |
 
 ## Next steps
@@ -38,7 +38,8 @@ The next run reads this section first, acts on it, and moves each item to
 - File 6, combat (`rules/60-combat.md`, SPI §11–§16) merged in the 03:23 run, with the Sept 1979 errata for those sections applied (E-001–E-010, indexed in `data/errata/INDEX.md`) and the site now rendering `::: errata` / `::: ruling` badges.
 - File 7, organisation (`rules/70-organisation.md`, SPI §19–§20, errata E-011–E-016) merged in the same run.
 - File 8, engineering (`rules/80-engineering.md`, SPI §22–§26, errata E-017–E-022) merged in the same run.
-- File 9, special: branch `autopilot/90-special`, draft PR #11 (SPI §21 breakdown + §27–§31); being written in the same run.
+- File 9, special (`rules/90-special.md`, SPI §21 + §27–§31, errata E-023–E-030) merged in the same run. `00-overview.md`'s file map still lists §21 under Movement — to fix with file 10.
+- File 10, §32: branch `autopilot/95-abstract-logistics-and-air`, draft PR #12; being written in the same run.
 - Pending data tables that need the chart sheet scanned (not in `~/.cache/cna-scans`): Terrain Effects Chart (8.37, incl. stacking ceilings), Off-Map Distance Chart (8.89), initiative ratings, unit basic stacking point values (9.4), and now all combat tables — Barrage Results (12.6), Anti-Armour CRT (14.6), Close Assault CRT (15.79, errata E-008 waiting on it), Prisoners Captured (15.89), Patrol Survival / Reconnaissance / Objective Loss (16.6–16.8). **Brian:** can you capture the chart sheet, or extend `tools/fetch.py` to get it?
 - Convention decision this run (revisit if you disagree): prose-only errata are annotated inline with `::: errata E-nnn — paraphrase` and listed in `data/errata/INDEX.md`; only table-changing items also get an `E-nnn.json` overlay.
 
