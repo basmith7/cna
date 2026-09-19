@@ -387,3 +387,293 @@ enemy ZOC and impassable terrain; otherwise they are like any other unit
 awaiting repair; the owner tows them to a repair facility in his repair
 phase. Capturing destroyed tanks differs from capturing broken-down vehicles
 (SPI 21.5, [Special](90-special.md)).
+
+## Close assault
+
+::: spi 15.0
+
+Close assault is the last step. The phasing player attacks; the non-phasing
+player defends; any adjacent enemy-held hex may be assaulted unless terrain
+forbids it. Each side totals its actual close-assault points (offensive for
+the attacker, defensive for the defender) for that one assault; the
+**differential** is attacker minus defender. Terrain, morale, combined arms
+and the size of the formations engaged then shift the *column*, not the
+number. Each player rolls two dice once, reads them sequentially (large die
+first: 6 and 3 is *63*) on his own half of the Close Assault CRT under the
+adjusted column, and takes the result — a percentage loss, possibly with
+*engaged*, *retreat* or *captured* — before the next hex is assaulted. Both
+sides spend ammunition. A weak attack is a **probe** ([below](#probes)).
+
+::: spi-omit 15.79 15.89 — the Close Assault CRT and the Prisoners Captured Results Table are on the chart sheet; to `data/tables/close-assault-results.json` and `prisoners-captured.json` when captured
+
+### Who takes part
+
+::: spi 15.1 15.11 15.12 15.13 15.14 15.15 15.16 15.17 15.18
+
+- Any unit with a close-assault rating may add it, offensively or
+  defensively; units without one may still be present, adding nothing.
+- Only units *committed* to the assault contribute points. But on the
+  defending side, units that add nothing can still lose: **pinned** units,
+  units that **retreated before assault** into the hex, units **out of
+  ammunition**, and individual TOE points the defender **withholds** all
+  count in the base from which percentage losses are taken. On the attacking
+  side, out-of-ammunition and withheld points are simply ignored.
+- A unit out of ammunition cannot assault or defend. If *every* defending
+  unit in an assaulted hex is out of ammunition, the whole hex surrenders.
+- Back guns are untouched by close assault except in an overrun
+  ([gun losses](#gun-losses)); forward guns may fight, at the vulnerability
+  penalties in [forward and back](#forward-and-back).
+- An attacker may split a unit's TOE points between assaults, or hold some
+  back. A hex is never close-assaulted twice in one segment.
+- **Parenthesised** close-assault ratings count only when the unit is in a
+  hex with no combat units. Such a unit stacked with combat units stays out
+  of the loss base unless the losing player wants it in, and then it absorbs
+  at most 25 % of the losses. When one attack covers two hexes and one of
+  them holds only a parenthesised-rating unit, that unit fights at its
+  rating.
+- Against a hex defended *only* by parenthesised ratings, an attacker with at
+  least **three times** the defender's raw strength ignores the first 20 % of
+  his own losses, and if the defender's result is 20 % or worse every
+  surviving defending TOE point is captured (provided the attacker survives).
+  A flak battery can see off a patrol; not a battalion.
+
+### Procedure
+
+::: spi 15.2 15.21 15.22 15.23 15.24 15.25 15.26 15.27 15.28 15.29
+
+1. The attacker names the hexes he assaults. Units assigned to anti-armour
+   fire cannot join (except for points released under the "no armour"
+   rule, SPI 14.23). A hex may be assaulted or probed **once** per segment, by
+   as many units from as many adjacent hexes as terrain allows; the attacker
+   may not split a hex's defenders between separate attacks. One unit may
+   assault **several hexes at once** if every assaulted hex is adjacent both
+   to the unit's hex and to each other.
+2. Each side totals its actual points; the attacker declares assault or
+   probe — a declaration he may defer until the fight is over
+   ([probes](#probes)). Assaults resolve one at a time, results applied as
+   they come.
+3. **Basic differential** = attacker's actual points − defender's. 6 against
+   8 is −2.
+4. **Adjusted differential**: shift the column for terrain
+   ([below](#terrain-and-close-assault)), combined arms, size difference and
+   morale; the shifts accumulate. Roll on the adjusted column, dice read
+   sequentially.
+
+The **50 % rule**: an attack is a full close assault only if the attacking
+units have committed at least half their available TOE points to *some*
+assault this segment — otherwise every one of their attacks is a probe.
+*Our example:* a 6-point battalion sends 2 points at one hex and 1 at
+another, keeping 3 back: two probes. Send 3 at the first hex instead and both
+attacks are full assaults.
+
+Raw-point floors, for close assault and probe only: a side with **fewer than
+5 raw** points has zero; if **both** sides are under 10 raw, use raw as
+actual.
+
+If the **defender** commits nothing at all, his whole hex retreats three
+hexes and takes 3 DP (as for a 30 % loss), on top of DP for the move. If the
+**attacker** commits nothing there is no assault — which can only arise from
+the holding-off rule (SPI 10.31).
+
+### Terrain and close assault {#terrain-and-close-assault}
+
+::: spi 15.3 15.31 15.32 15.33 15.34 15.35 15.36
+
+Terrain shifts come from the Terrain Effects Chart (SPI 8.37, pending
+transcription) and, unlike barrage and anti-armour, **accumulate**:
+
+- The defender's hex either does nothing (clear, sand/gravel) or shifts
+  columns his way — a +4 assault on a mountain hex with a three-column
+  benefit is fought at +1. Salt marsh is the reverse: one column *for the
+  attacker*.
+- A hexside the attackers cross shifts the column too (a wadi costs the
+  attacker one). If *any* attacking unit crosses a given hexside, the whole
+  assault is adjusted as if all did. The defender benefits from only one
+  hexside type, unless a single hexside genuinely carries two (rare; some
+  southern wadis run along slopes).
+- Assaulting *down* a slope or escarpment favours the attacker. Where an
+  assault comes both up and down, the two offset: +1 for a down-slope side
+  and −3 for an up-escarpment side is a net −2.
+
+*Our example:* a defender in a level-two fortification on rough ground,
+assaulted across a ridge, gets two + two + two = six columns.
+
+Prohibitions: motorised units never assault **up an escarpment** (track or
+no track — dismount first) and never assault a defender in **salt marsh**. A
+combat unit in the ZOC of an enemy it cannot attack must retreat one hex
+unless another unit attacks that enemy.
+
+### Combined arms
+
+::: spi 15.4
+
+Tanks — tanks only, not recce or self-propelled guns — need infantry beside
+them. For every TOE point of tanks in an assault there must be a TOE point of
+infantry, machine-gun or heavy-weapons units assaulting **from the same
+hex**. Each 1–3 unsupported tank points cost the tanks **one actual** point
+of close-assault strength, to a maximum reduction of four. It applies on
+defence as on attack. Two unsupported points of tanks rated 7 (14 raw → 1
+actual) drop to zero; four unsupported points (28 raw → 3 actual) drop to 2.
+
+### Size of formation
+
+::: spi 15.5 15.51 15.52 15.53 15.54 15.55
+
+Organisation counts independently of strength:
+
+- **Double raw strength.** Whatever the differential, a side with at least
+  twice the other's raw close-assault points shifts **two columns** its way.
+  24 raw against 12 (2 actual against 1: a +1 differential) fights at +3.
+  Only SPI 15.54 below suspends this.
+- **Largest unit.** If the largest unit equivalent
+  ([Stacking & ZOC](50-stacking-and-zoc.md#unit-equivalents)) on one side
+  outranks the other's, the larger side shifts by the table below
+  (`data/tables/assault-size-shifts.json`). A brigade counts as part of a
+  division only if its **HQ counter** is attached: nine infantry battalions
+  under a divisional HQ with no brigade HQs are a shell here. The two Italian
+  "m" brigade counters each stand for a whole brigade.
+
+| Larger side ↓ / smaller side → | 3-SP brigade | 2-SP brigade | battalion | company |
+|---|---|---|---|---|
+| division | 1 | 2 | 4 | 8 |
+| brigade (any) | — | — | 2 | 4 |
+| battalion | — | — | — | 2 |
+
+- **No defensive rating.** Some guns (heavy howitzers) have no defensive
+  close-assault rating at all. Alone in an assaulted hex such a unit defends
+  at zero, the attacker takes **no losses**, and the column shifts **three**
+  more the attacker's way on top of the size table; the double-strength shift
+  does not apply.
+
+### Morale
+
+::: spi 15.6 15.61 15.62 15.63 15.64
+
+Each side finds its adjusted morale for the assault
+([Units & state](10-units-and-state.md), SPI 17.2), using the largest-unit
+rule for mixed forces. **Attacker's minus defender's** is the number of
+columns to shift: positive to the right (for the attacker), negative to the
+left.
+
+*Our example:* two Axis divisions at basic morale +3 and +1 average to +2;
+their cohesion is −4, and the Morale Modification Table roll gives −2, so
+the adjusted Axis morale is 0. The defending division is at +1 with cohesion
++2 and rolls no change: +1. Final adjustment 0 − 1 = **−1**, one column for
+the defender.
+
+### Reading the CRT
+
+::: spi 15.7 15.71 15.72 15.73 15.74 15.75 15.76 15.77 15.78
+
+Each player rolls two dice **once** per assault and reads them three ways.
+Both use the same adjusted column but their own half of the table (attacker
+or defender):
+
+1. **Sequential** (large die first, 2 and 5 → 25): find where it falls in
+   the column; the row gives the percentage loss. At +3 an attacker rolling
+   34 might land in the 5 % row.
+2. **Summed** (3 + 4 = 7): read the *engaged* line (attacker's half) or the
+   *retreat* line (defender's half) at the bottom of the column. A defender
+   whose 7 sits in the "retreat one hex" range must move or lose a further
+   10 %.
+3. **Summed again** against the *captured* line of the column: if it hits,
+   roll one die on the Prisoners Captured Results Table for the share of the
+   losses that are prisoners rather than dead.
+
+A zero-loss roll can still produce engaged or retreat. If the same assault
+yields both a retreat and an engaged result, the retreat wins and engaged is
+ignored.
+
+The **+11 and higher** columns are the *overrun* zone. Overrun is not
+chosen; it means the attacker's mass has broken the line and reached the
+guns: all defender losses round **up**, and every defending gun is exposed
+([gun losses](#gun-losses)).
+
+### Casualties {#casualties}
+
+::: spi 15.8 15.81 15.82 15.83 15.85 15.86 15.87 15.88
+
+**Engaged.** Every unit in the assault is locked to the enemy: leaving the
+ZOC costs the engaged break-off price
+([breaking off](40-movement.md#breaking-off)). Mark them; markers come off at
+the end of the operations stage. Units that fought and are still adjacent but
+not engaged are in *contact*.
+
+**Retreat** *n* hexes. {#forced-retreats} Everything in the hex — pinned,
+withheld, out of ammunition included — must end at least *n* hexes from the
+enemy that forced it, by the easiest path toward the nearest friendly supply
+dump or city, paying CP as for any move. Each hex of the *n* not retreated,
+by choice or necessity, costs a further **10 %** loss. Units in a major city,
+or retreating into one, may stop there and ignore the rest.
+
+**Percentage losses.** Take the percentage from the table, then:
+
+1. Total the raw close-assault points in the assault. The defender adds the
+   raw points of pinned and retreated-in units, and in an overrun of *every*
+   withheld unit too.
+2. Multiply. The attacker rounds **up**, the defender **down** — except in
+   an overrun, where the defender rounds up too (35.1 → 36 attacker, 35
+   defender; 1.1 → 2 for an overrun defender). Add any hexes-not-retreated
+   percentage.
+3. Remove TOE points whose ratings absorb the raw points lost — an infantry
+   point with defensive rating 2 absorbs 2 raw — using the rating that was
+   in use (offensive for the attacker). Only participating units, plus for
+   the defender pinned or withheld ones, may absorb.
+4. Where the points came from more than one hex, share the losses across
+   hexes in proportion to the raw points each supplied.
+
+**Captured.** The captured share, rounded **up**, of the losses just taken
+becomes prisoners or captured equipment for the enemy: decide which TOE
+points died, take the captured percentage of them (any type of point may be
+used, remembering the percentage is of raw assault points, not TOE points),
+and hand them over — one prisoner point per infantry-type TOE point; guns
+and tanks pass to the enemy to use (SPI 28.0, [Special](90-special.md)).
+
+**Disorganisation.** A side that loses **30 % or more** of the TOE points it
+committed (from committed units or not) gives every unit involved **3 DP**.
+Both sides can suffer this in one assault.
+
+**Surrender.** A player may surrender units rather than see them destroyed.
+Units out of ammunition, or at cohesion **−17 or worse**, surrender
+automatically when assaulted (SPI 17.25,
+[voluntary surrender](10-units-and-state.md)).
+
+### Gun losses {#gun-losses}
+
+::: spi 15.84
+
+Guns — artillery, anti-tank and the like — lose in close assault as follows:
+
+- **Overrun:** every defending gun, forward or back, adds its defensive
+  close-assault points to the loss base and may be used to absorb losses.
+- **Forward guns**, whether or not they fought, are hit by vulnerability
+  loss: remove forward-gun TOE points whose vulnerability ratings total at
+  least **half** the raw points lost in the assault, and at least one
+  vulnerability point whenever any raw point was lost. Vulnerability absorbs
+  exactly like armour protection ([assessing damage](#assessing-damage)).
+  AA/flak units are exempt.
+- In an overrun, back guns take the vulnerability loss too, after the
+  percentage loss.
+
+*Our example:* an attacker with artillery forward loses 4 raw points; he must
+strip 2 vulnerability points, and since each of his guns is rated 9 that
+means one whole gun TOE point.
+
+### Probes {#probes}
+
+::: spi 15.9 15.91 15.92 15.93 15.94 15.95 15.96
+
+A **probe** is any close assault by the phasing player made with less than
+half of his available TOE points committed to any attack that segment
+(the 50 % rule above; see also the holding-off rule, SPI 10.31). Any number of
+units may probe. It resolves exactly as an assault, except:
+
+- *Engaged* results are ignored and neither side ends in contact.
+- The attacker need not say it was a probe until it is over; assignment to
+  close assault still happens before anti-armour fire.
+- If every probing unit is recce, the probers' losses are cut by 10 %.
+- Defenders of a probe whose adjusted differential ends worse than −3 pay
+  no CP at all (compare the −4 refund for a full assault in the
+  [CP table](#cp-cost-of-combat)).
+
+::: spi-omit 15.96 — the worked example of a complete combat (barrage → anti-armour → assault) is illustrative; our own examples appear inline above
