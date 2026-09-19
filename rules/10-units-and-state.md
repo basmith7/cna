@@ -72,7 +72,7 @@ the HQ counter moves; the attached units are recorded on its log sheet.
   their values and is a combat unit.
 - **Speed.** The capability point allowance of an HQ (or any parent unit)
   is that of the slowest unit attached to it.
-- **Stacking.** The stacking points printed on the HQ are for a full
+- **Stacking.** An HQ's printed stacking value assumes a full
   formation; a formation below full strength uses the equivalent rules in
   [Stacking and ZOC](50-stacking-and-zoc.md). An HQ with **no** combat units
   attached occupies zero stacking points, may use its parenthesised
@@ -154,8 +154,8 @@ statements in them that change play:
   can be killed by anti-tank fire, uses fuel and water, and does break down.
 - **Coastal guns** have a CPA of 10 for combat (or their printed CPA if
   higher), move only with trucks assigned for the purpose, and if printed
-  CPA is `0` are emplaced: no vulnerability rating, destroyed only by
-  barrage, capture or air bombardment. Motorised coastal guns break down.
+  CPA is `0` are emplaced: no vulnerability rating; only barrage, capture
+  or air bombardment can remove them. Motorised coastal guns break down.
 - **Anti-tank units** are unarmoured unless self-propelled. Some non-AT
   points (British 25-pdr, German 88 mm, Italian 75/90 mm AA) also have
   anti-armour strength as printed.
