@@ -4,7 +4,7 @@
 // time, never bundled, never server-rendered, never indexed. Disabled by themeConfig.original.enabled.
 import { onMounted, watch, nextTick } from 'vue'
 import { useData, useRoute } from 'vitepress'
-import { extractCase, sourceUrl, sectionOf } from '../original.mjs'
+import { extractCase, sourceUrl, sectionOf, renderAdoc } from '../original.mjs'
 
 const { theme } = useData()
 const route = useRoute()
@@ -43,12 +43,14 @@ function attach() {
         if (text) blocks.push(text)
       }
       if (!blocks.length) { details.remove(); return }
-      const pre = document.createElement('pre')
-      pre.textContent = blocks.join('\n\n')
+      // renderAdoc escapes the fetched text and emits only its own tags.
+      const box = document.createElement('div')
+      box.className = 'spi-original-text'
+      box.innerHTML = blocks.map(renderAdoc).join('')
       const cite = document.createElement('p')
       cite.className = 'spi-original-cite'
       cite.textContent = `SPI, The Campaign for North Africa (1979), transcription ${cfg.commit.slice(0, 7)}. Shown for comparison; not part of this edition.`
-      details.append(pre, cite)
+      details.append(box, cite)
     })
     badge.after(details)
   })
