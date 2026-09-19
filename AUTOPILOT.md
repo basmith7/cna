@@ -81,7 +81,7 @@ scan pinned in `tools/sources.json` is 192 pages and includes the charts.
   `data/README.md`. Provenance in each file names the jp2 page index.
 - **Cross-check every table** against Clay Stone's errata-integrated PDFs
   (<https://friendorfoe.com/d/CfNA/>; fetch to the cache, never commit) and
-  record "cross-checked against Clay Stone <file>, <n> cells differ" in the
+  record `cross-checked against Clay Stone FILE, N cells differ` in the
   `EXTRACTION.md` entry. A difference is either an errata item (apply it as
   `E-nnn.json` and cite the SPI errata item) or a transcription error (fix
   it). A table with an unexplained difference does not merge.
