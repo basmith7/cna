@@ -11,6 +11,11 @@ export default defineConfig({
   cacheDir: './.vitepress/cache',
   cleanUrls: true,
   lastUpdated: true,
+  // Rules files are landing one PR at a time (see AUTOPILOT.md); cross-links to
+  // sibling system files that are not written yet are expected until each lands.
+  ignoreDeadLinks: [
+    /\/(20-sequence-of-play|30-capability-points|40-movement|50-stacking-and-zoc|60-combat|70-organisation|80-engineering|90-special|95-abstract-logistics-and-air)$/,
+  ],
   rewrites: {
     'README.md': 'index.md',
     'rulings/README.md': 'rulings/index.md',
@@ -30,6 +35,7 @@ export default defineConfig({
         { text: 'Rules', items: [
           { text: 'Overview', link: '/rules/00-overview' },
           { text: 'Glossary', link: '/rules/glossary' },
+          { text: 'Units and state', link: '/rules/10-units-and-state' },
         ] },
       ],
     },
