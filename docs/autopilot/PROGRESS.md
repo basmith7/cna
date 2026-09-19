@@ -26,8 +26,8 @@ The next run reads this section first, acts on it, and moves each item to
 | 3 | capability points | **merged** | #4 |
 | 4 | movement | **merged** | #5 |
 | 5 | stacking & ZOC | **merged** | #6 |
-| 6 | combat | draft, not yet written | #8 |
-| 7 | organisation | not started | |
+| 6 | combat | **merged** | #8 |
+| 7 | organisation | in progress | #9 (draft) |
 | 8 | engineering | not started | |
 | 9 | special | not started | |
 | 10 | §32 | not started | |
@@ -35,9 +35,10 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Next steps
 
-- File 6, combat (`rules/60-combat.md`): branch `autopilot/60-combat` and draft PR #8 opened; nothing written yet. Source is ~14 800 words across SPI §11–§16, so expect two or three runs.
-- Pending data tables that need the chart sheet scanned (not in `~/.cache/cna-scans`): Terrain Effects Chart (8.37, incl. stacking ceilings), Off-Map Distance Chart (8.89), initiative ratings, unit basic stacking point values (9.4, counter sheet). **Brian:** can you capture the chart sheet, or extend `tools/fetch.py` to get it?
-- Lesson from this run: earlier runs stacked PRs on each other's branches; deleting a merged base auto-closed the next PR. All PRs now target `main`.
+- File 6, combat (`rules/60-combat.md`, SPI §11–§16) merged in the 03:23 run, with the Sept 1979 errata for those sections applied (E-001–E-010, indexed in `data/errata/INDEX.md`) and the site now rendering `::: errata` / `::: ruling` badges.
+- File 7, organisation: branch `autopilot/70-organisation`, draft PR #9; being written in the same run.
+- Pending data tables that need the chart sheet scanned (not in `~/.cache/cna-scans`): Terrain Effects Chart (8.37, incl. stacking ceilings), Off-Map Distance Chart (8.89), initiative ratings, unit basic stacking point values (9.4), and now all combat tables — Barrage Results (12.6), Anti-Armour CRT (14.6), Close Assault CRT (15.79, errata E-008 waiting on it), Prisoners Captured (15.89), Patrol Survival / Reconnaissance / Objective Loss (16.6–16.8). **Brian:** can you capture the chart sheet, or extend `tools/fetch.py` to get it?
+- Convention decision this run (revisit if you disagree): prose-only errata are annotated inline with `::: errata E-nnn — paraphrase` and listed in `data/errata/INDEX.md`; only table-changing items also get an `E-nnn.json` overlay.
 
 ## Runs and quota
 
