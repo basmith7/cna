@@ -182,3 +182,46 @@ water and stores.
 
 Terrain's combat effects are stated in [Combat](60-combat.md), which also
 carries the chart's combat columns.
+
+## Reaction
+
+::: spi 8.51 8.52 8.53 8.54 8.55 8.56
+
+::: spi-omit 8.5 — subsection heading and design commentary
+
+**Reaction** is movement by a non-phasing combat unit, during the enemy's
+movement/combat phase, when an enemy combat unit moves next to it. It follows the normal movement rules except as below, costs CP, and
+never costs the break-contact or disengage fee. A unit may react any number
+of times in a stage. There is no distance limit, but a reacting unit may
+**never enter an enemy ZOC**.
+
+A unit may *not* react when:
+
+- it is non-motorised, a squadron ground-support unit, or a truck convoy not
+  stacked with a friendly combat unit;
+- the adjacent enemy unit's CPA exceeds its own by **6 or more** *and* the
+  phasing player declares a close assault against it (it may still retreat
+  before assault — [Combat](60-combat.md)); each unit in a stack is judged on
+  its own CPA;
+- it is already in an enemy ZOC — this is how faster units **pin** slower
+  ones; or
+- it is in combat or *engaged*.
+
+*Example (our own).* An Axis recce battalion (CPA 45) moves adjacent to a
+Commonwealth motorised battalion (CPA 20 from its trucks) and declares an
+assault: the battalion is pinned, 45 − 20 ≥ 6. A tank battalion at CPA 25
+doing the same would not pin it (25 − 20 = 5).
+
+**Size limit on pinning.** Regardless of CPA, no battalion-sized unit can
+pin a division and no company-sized unit can pin a brigade or larger. Size
+is judged by stacking points and TOE, not by the designation on the counter
+([Stacking & ZOC](50-stacking-and-zoc.md)); if it is genuinely unclear, use
+common sense.
+
+**Reacting out of a formation.** An attached unit may react by paying the
+detachment cost first. A brigade HQ cannot detach from its division unless
+everything attached to that brigade HQ detaches too. Detachment may not be
+used to dodge the size limit above — a parent may not shed units so that it
+becomes a shell and is now "too small to pin", nor shed its slow units so
+that the remainder is fast enough to react. Attached trucks may be split
+freely between the parent and the units detaching to react.
