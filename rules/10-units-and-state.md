@@ -225,6 +225,8 @@ level, not a disorganisation-point tally — see ruling
 to consume stores and water. A single action may drive a level past −26 in one
 step.
 
+::: ruling R-001 — the −26 disorganisation threshold is a cohesion level, not a count of disorganisation points
+
 ### Which level applies when units are mixed
 
 ::: spi 6.27 6.28 6.29

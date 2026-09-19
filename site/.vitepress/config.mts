@@ -46,6 +46,10 @@ export default defineConfig({
           { text: 'Special rules', link: '/rules/90-special' },
           { text: 'Abstract logistics & air', link: '/rules/95-abstract-logistics-and-air' },
         ] },
+        { text: 'Provenance', items: [
+          { text: 'Changes from the original', link: '/rules/changes' },
+          { text: 'Coverage', link: '/rules/coverage' },
+        ] },
       ],
     },
     search: { provider: 'local' },
