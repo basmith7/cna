@@ -31,3 +31,15 @@ Done: rules/20-sequence-of-play.md complete (§5 + §7), sidebar, EXTRACTION ent
 In flight: none for file 2.
 Next: file 3 = capability points (SPI §6.1, §6.3 — §6.2 already in file 1). Branch autopilot/30-capability-points from tip of autopilot/20-sequence-of-play, --base autopilot/20-sequence-of-play while #3 is open.
 Blocked: none (Brian merges #2, #3). Initiative Ratings Chart (7.2) needs the chart sheet captured before data/ transcription.
+
+## 2026-09-19T04:43Z — autopilot/30-capability-points
+Done: rules/30-capability-points.md prose complete (§6.1, §6.3 table inline), sidebar, EXTRACTION entry; overlap OK, coverage §6 20/20, pytest 60, site builds. PR #4 (draft, --base autopilot/20-sequence-of-play).
+In flight: data/tables/cp-costs.json + data/schema/cp-costs.schema.json not written (design says tables go to data/ with the file that first needs them). check_data.py may need a loader for tables/ — check with a failing test first (TDD).
+Next: write schema+table for CP costs (sources CNA1979:6.3, scan page from fetch.py), point the file's table at it, run check_data, then gh pr ready 4. Then file 4 = movement (§8) stacked on this branch.
+Blocked: none (Brian merges #2, #3, #4 in order).
+
+## 2026-09-19T04:45Z — autopilot/30-capability-points
+Done: data/tables/cp-costs.json + data/schema/cp-costs.schema.json (c90c89b); all gates pass; PR #4 marked ready (stacked on #3). Note: check_overlap scans only git-tracked files — run it after `git add`, not before.
+In flight: none for file 3.
+Next: file 4 = movement (SPI §8, plus Terrain Effects Chart → data/tables/terrain-effects.json; extend common.schema terrain enum). Branch autopilot/40-movement from tip of autopilot/30-capability-points, --base autopilot/30-capability-points while #4 is open.
+Blocked: none (Brian merges #2, #3, #4 in order).
