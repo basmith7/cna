@@ -147,6 +147,6 @@ The turn is over; begin the next turn at stage I.
 - Phase labels skip **I**; the SPI list runs A–H, J–L. Keep the letters as
   written so citations line up.
 - "Phasing player" in any file means the player currently working through
-  F–L. Joint phases (A–E, and both halves of G's breakdown and combat steps)
-  have no phasing player.
+  F–L, even in segments where both sides act (breakdown checks, combat).
+  Joint phases A–E have no phasing player.
 - Initiative is determined once per turn but *declared* once per stage.
