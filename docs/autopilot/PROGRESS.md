@@ -25,7 +25,7 @@ The next run reads this section first, acts on it, and moves each item to
 | 2 | sequence of play | **merged** | #7 (was #3; auto-closed when its stacked base branch was deleted) |
 | 3 | capability points | **merged** | #4 |
 | 4 | movement | **merged** | #5 |
-| 5 | stacking & ZOC | draft, not yet written | #6 |
+| 5 | stacking & ZOC | **merged** | #6 |
 | 6 | combat | not started | |
 | 7 | organisation | not started | |
 | 8 | engineering | not started | |
@@ -35,8 +35,8 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Next steps
 
-- Write `rules/50-stacking-and-zoc.md` (SPI §9, §10, §18) on branch `autopilot/50-stacking-and-zoc` (PR #6, now targeting `main`); provide anchors `#reserve` and `#roads` that `40-movement` already links to.
-- Pending data tables that need the chart sheet scanned (not in `~/.cache/cna-scans`): Terrain Effects Chart (8.37), Off-Map Distance Chart (8.89), initiative ratings. **Brian:** can you capture the chart sheet, or extend `tools/fetch.py` to get it?
+- Start file 6, combat (`rules/60-combat.md`), on `autopilot/60-combat` from `main`.
+- Pending data tables that need the chart sheet scanned (not in `~/.cache/cna-scans`): Terrain Effects Chart (8.37, incl. stacking ceilings), Off-Map Distance Chart (8.89), initiative ratings, unit basic stacking point values (9.4, counter sheet). **Brian:** can you capture the chart sheet, or extend `tools/fetch.py` to get it?
 - Lesson from this run: earlier runs stacked PRs on each other's branches; deleting a merged base auto-closed the next PR. All PRs now target `main`.
 
 ## Runs and quota
