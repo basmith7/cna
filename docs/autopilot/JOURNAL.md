@@ -151,3 +151,11 @@ Done: tools/gen_pages.py (TDD, 5 tests) → rules/changes.md + rules/coverage.md
 In flight: PR #13 to mark ready + merge. The Vue DOM attach is verified only by build + helper tests + a node fetch smoke test (no browser here) — say so in the PR body.
 Next: after merge, log MISSION COMPLETE in journal and PROGRESS; stop.
 Blocked: chart sheet — Brian.
+
+## 2026-09-19 03:56 (Phoenix) — main
+Done: PR #13 (site phase 2) merged; main CI and Pages deploy green. Steps 3 and 4 complete.
+In flight: none.
+Next: nothing — orders say stop after step 4. Open items for Brian are listed in PROGRESS.md (chart sheet capture, NJHarman seed, browser check of the original viewer).
+Blocked: none for the autopilot.
+
+MISSION COMPLETE
