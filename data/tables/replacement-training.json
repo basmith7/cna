@@ -1,0 +1,18 @@
+{
+ "table": "replacement-training",
+ "sources": [
+  "CNA1979:20.43"
+ ],
+ "notes": [
+  "Training may begin in the stage of arrival",
+  "Distinct from Commonwealth morale training (SPI 17.3)",
+  "Infantry replacement points earmarked for the Commonwealth 1/2 to 2/2 upgrade need no training (SPI 20.77)"
+ ],
+ "rows": [
+  {"class": "gun", "stages": 1, "sources": ["CNA1979:20.43"]},
+  {"class": "infantry", "stages": 3, "sources": ["CNA1979:20.43"]},
+  {"class": "tank", "stages": 6, "sources": ["CNA1979:20.43"]},
+  {"class": "armoured-car", "stages": 6, "sources": ["CNA1979:20.43"]},
+  {"class": "recce", "stages": 6, "sources": ["CNA1979:20.43"]}
+ ]
+}
