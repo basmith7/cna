@@ -47,3 +47,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 |---|---|---|---|---|---|---|
 | 2026-09-19 04:15 | 2 | 51→51 | 25→26 | $0.81 | 12 | smoke test; opened #2 |
 | 2026-09-19 04:29 | 8 | 52→53 | 28→33 | $3.52 | 49 | §6.2 + §17 restated, R-001, #2 marked ready; CI overlap gate red on R-001 |
+| 2026-09-19 04:51 | 10 | 52→53 | 32→33 | $2.16 | 44 | Run complete with ~4 min to spare; everything is committed and pushed, working tree clean. **Landed this run** - Fixed red CI on #2 (cherry-picked the R-001 rew |
