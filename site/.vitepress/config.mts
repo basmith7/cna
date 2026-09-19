@@ -44,6 +44,7 @@ export default defineConfig({
           { text: 'Organisation', link: '/rules/70-organisation' },
           { text: 'Engineering', link: '/rules/80-engineering' },
           { text: 'Special rules', link: '/rules/90-special' },
+          { text: 'Abstract logistics & air', link: '/rules/95-abstract-logistics-and-air' },
         ] },
       ],
     },

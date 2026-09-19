@@ -213,12 +213,12 @@ The rules are organised by system, not by SPI section:
 | Units and state | Unit characteristics, TOE, cohesion, morale | §3, §6.2, §17 |
 | Sequence of play | The turn and the stage in full | §5, §7 |
 | Capability points | CPA, costs, disorganisation | §6 |
-| Movement | Continual movement, terrain, breakdown, rail, reaction | §8, §21 |
+| Movement | Continual movement, terrain, rail, reaction | §8 |
 | Stacking and zones of control | | §9, §10 |
 | Combat | Barrage, retreat before assault, anti-armour, close assault, probes, patrols | §11–16 |
 | Organisation | Attachment, reinforcements, replacements, reserve, training | §18–20 |
 | Engineering | Engineers, construction, fortifications, minefields, repair | §22–26 |
-| Special | Raiders, prisoners, weather, fleet, Rommel | §27–31 |
+| Special | Breakdown, raiders, prisoners, weather, fleet, Rommel | §21, §27–31 |
 | Abstract logistics and air | | §32 |
 
 Files not yet written are listed so the shape of the edition is visible;
