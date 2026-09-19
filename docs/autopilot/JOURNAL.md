@@ -61,3 +61,21 @@ Done: rules/40-movement.md complete (§8.1–8.9), EXTRACTION entry, sidebar; co
 In flight: none for file 4.
 Next: file 5 = stacking & ZOC (SPI §9, §10, §18 reserve). Branch autopilot/50-stacking-and-zoc from tip of autopilot/40-movement, --base autopilot/40-movement while #5 is open. Anchors already linked from other files: #reserve, #roads. Check tools/fetch.py for a way to fetch the chart sheet pages for the pending data tables.
 Blocked: chart sheet capture (Brian / fetch.py) for terrain-effects, off-map-distances, initiative-ratings tables.
+
+## 2026-09-19T04:51Z — autopilot/50-stacking-and-zoc
+Done: branch from tip of autopilot/40-movement; draft PR opened. Nothing written.
+In flight: rules/50-stacking-and-zoc.md (SPI §9 stacking, §10 ZOC, §18 reserve) — not started. Must provide anchors #reserve and #roads (linked from 40-movement).
+Next: read section-09/10/18.adoc, write the file in the 10/20/40 style, sidebar, EXTRACTION, gates (git add before check_overlap), gh pr ready.
+Blocked: none new.
+
+## 2026-09-19T04:58Z — autopilot/50-stacking-and-zoc
+Done: merged #2 (16507d1, after cherry-picking R-001 fix 444f014), #7 (=#3 recreated against main after base-branch deletion auto-closed it; 9371b7b), #4, #5. Files 1–4 are on main. Retargeted #6 to main and merged origin/main into this branch.
+In flight: rules/50-stacking-and-zoc.md still not started (this run spent its 15 min unwinding the PR stack).
+Next: write rules/50-stacking-and-zoc.md (SPI §9, §10, §18) with anchors #reserve and #roads; sidebar; EXTRACTION; gates; gh pr ready; merge. Do NOT stack PRs on other PR branches again — always --base main.
+Blocked: chart sheet capture (terrain-effects, off-map-distances, initiative-ratings tables) still needs Brian.
+
+## 2026-09-19T05:01Z — autopilot/50-stacking-and-zoc
+Done: rules/50-stacking-and-zoc.md complete (§9 5a2bb8b, §10 53bfefe, §18 + EXTRACTION b8f2848); sidebar; all gates green locally and in CI; PR #6 ready and being merged this run.
+In flight: none.
+Next: file 6 = combat (SPI §11–§16?, check section list). Branch autopilot/60-combat from origin/main, --base main. Sidebar regex already lists 60-combat.
+Blocked: chart/counter sheet capture for 8.37 stacking ceilings, 9.4 SP table, terrain-effects, off-map-distances, initiative-ratings — Brian.
