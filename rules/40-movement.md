@@ -12,7 +12,7 @@ off, rail and trucks. The CP budget itself is in
 [Capability points](30-capability-points.md); zones of control and stacking
 in [Stacking & ZOC](50-stacking-and-zoc.md); breakdown in [Special](90-special.md).
 
-::: spi-omit 8.0 8.1 8.2 — section headings and design commentary; the rules under them are restated below
+::: spi-omit 8.0 8.1 8.2 8.3 — section headings and design commentary; the rules under them are restated below
 
 ## When a unit may move
 
