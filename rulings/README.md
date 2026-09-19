@@ -36,9 +36,21 @@ reflects the ruling carries `::: ruling R-012` above the block.
 | `superseded` | Replaced by a later ruling named in `supersedes` of the newer file. |
 
 Community **CHANGE** and **ADDITION** items (house rules that alter the game
-rather than resolve it) are recorded as variants `V-nnn` with `::: variant`
-containers, never as rulings. **REMINDER** items restate a printed rule and
-are not imported at all.
+rather than resolve it) are recorded as variants, never as rulings.
+**REMINDER** items restate a printed rule and are not imported at all.
+
+## Variants
+
+A **variant** is a community change we record but do not adopt. One file per
+variant, `rulings/V-nnn.md`, numbered sequentially from `V-001`; the same
+frontmatter as a ruling, with `status: recorded` (or `superseded`). Body, in
+this order: **What the printed rules say** · **The change** (quoted verbatim,
+with the footnote, exactly as for a ruling) · **Effect on play** · **Why it is
+recorded as a variant** · **Discussion**. The rules prose keeps the printed
+rule and carries a `::: variant V-nnn — summary` badge below the block the
+variant would alter; it never gets a `::: ruling` badge. A variant can be
+reopened as a `proposed` ruling if discussion concludes the printed rule is a
+misprint rather than a design choice.
 
 ## Quoting a third-party source
 

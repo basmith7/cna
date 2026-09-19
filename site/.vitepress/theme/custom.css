@@ -14,6 +14,7 @@
 .spi-badge.spi-omit { text-decoration: line-through; }
 .spi-badge.spi-errata::before { content: '✎ '; }
 .spi-badge.spi-ruling::before { content: '⚖ '; }
+.spi-badge.spi-variant::before { content: '⑂ '; }
 .spi-anchor { position: relative; top: -5rem; }
 
 .spi-note { border-left: 3px solid var(--vp-c-divider); padding: 0.25rem 1rem; margin: 1rem 0; color: var(--vp-c-text-2); }
