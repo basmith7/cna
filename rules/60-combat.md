@@ -676,4 +676,102 @@ units may probe. It resolves exactly as an assault, except:
   no CP at all (compare the −4 refund for a full assault in the
   [CP table](#cp-cost-of-combat)).
 
-::: spi-omit 15.96 — the worked example of a complete combat (barrage → anti-armour → assault) is illustrative; our own examples appear inline above
+## Patrols and reconnaissance
+
+::: spi 16.0
+
+A patrol buys information. In the patrol phase of a stage in which the
+phasing player has fired no anti-armour and made no close assault, he may
+detach **patrol points** from eligible units to reconnoitre an enemy hex.
+Nothing moves; the procedure is abstract: announce the points and the target
+hex, pay fuel and ammunition, roll one die on the Patrol Survival Table for
+patrol losses (skipped when the target holds no combat units), roll one die
+on the Reconnaissance Table against the surviving points to learn how many
+units the enemy must describe, then roll one die on the Objective Loss Table
+for casualties among the units patrolled. Nothing is recorded as moving.
+
+::: spi-omit 16.6 16.7 16.8 — the Patrol Survival, Reconnaissance and Objective Loss tables are on the chart sheet; to `data/tables/patrol-*.json` when captured
+
+### Who may patrol
+
+::: spi 16.1 16.11 16.12 16.13 16.14 16.15 16.16 16.17
+
+- Patrol points come only from **recce**, **light tank** (CV/33, Mark VI
+  Light, Panzer I) and **motorised infantry** TOE points. The owner detaches
+  the points on his TOE log and notes any losses against them.
+- At most **2** points may leave any one hex, however many units it holds;
+  at most **3** may be sent against one target hex, pooled from several
+  hexes.
+- A unit at cohesion **−8 or worse** cannot supply patrol points.
+- Each point costs **1 ammunition and 2 fuel**, taken from the hex it
+  starts in, win or lose.
+- No patrol starts in or enters a hex under **rainstorm or sandstorm**.
+
+### When and where
+
+::: spi 16.2 16.21 16.22
+
+Patrols are allowed in any stage in which the phasing player has not fired
+anti-armour or close-assaulted anyone. Barrage does not forbid patrolling,
+but a hex that has been barraged or bombed this stage cannot be patrolled.
+There is no limit on the number of patrols. The target may be any
+enemy-occupied hex within **five hexes** by a path the patrolling unit types
+could pass, avoiding enemy-occupied or enemy-controlled hexes other than the
+target's own ZOC.
+
+### Patrol losses
+
+::: spi 16.3 16.31 16.32 16.33 16.34
+
+Both sides check for losses, at different moments.
+
+1. **Patroller first.** Unless the defender declares that the hex holds no
+   combat units (AA/flak and engineers do not count as combat units here),
+   roll on the Patrol Survival Table, subtracting **1** if every patrol point
+   is recce. Losses — eliminated or captured points, trucks included — come
+   off at once, the patroller choosing which unit type; captured points
+   become prisoner points. A wiped-out patrol learns nothing.
+2. **Patrolled second.** After the information step (or after the patrol is
+   destroyed, whichever is first), the patroller rolls on the Objective Loss
+   Table regardless of his own losses. If his patrol was wholly destroyed, a
+   *captured* result there reads as *eliminated*. The defender picks the TOE
+   points lost, from a combat unit if he has one; otherwise from trucks, then
+   AA/flak, then engineers, then HQ points, in that order.
+
+### Dummy tank formations {#dummy-tank-formations}
+
+::: spi 16.4 16.41 16.42 16.43 16.44 16.45 16.46 16.47
+
+A **dummy tank formation** is the size of a tank battalion, is worth nothing
+in combat and has CPA 0. There is no counter: it is created in the
+construction segment by spending **10 stores** present in the hex, and it
+may carry the identity of a real tank battalion that is elsewhere on the
+map. Limits: **three** per player at once, **one** per hex, and never in an
+Italian formation, even a mixed one.
+
+Its one use is deception. When the hex is reconnoitred its owner may report
+the dummy as a tank battalion of any strength he likes; the patroller cannot
+tell until he attacks. It dies as soon as its formation is close-assaulted,
+or when the formation takes anti-armour fire while holding no real armour
+(or after losing all of it). Anti-armour fire aimed at dummies cannot be
+diverted to close assault under the "no armour" rule when the only armour
+was the dummy. (The Household Cavalry Regiment, which ran the Commonwealth
+dummies, is not on the OA sheets for this reason.)
+
+### What a patrol learns
+
+::: spi 16.5 16.51 16.52 16.53 16.54 16.55
+
+The Reconnaissance Table gives the number of battalion-sized units the
+defender must describe; two points rolling well might reveal two units. For
+each, the defender states its historical designation, its unit type, whether
+it is motorised, and its TOE strength **to within two** of the true figure —
+not the types of point inside it, so a tank battalion of eight mixed marks
+can be reported simply as a six-point tank battalion (§32 clarification).
+
+The defender chooses which units to describe if the hex holds more than the
+number required, within these limits: battalions, unless the hex holds
+nothing but smaller or larger units; never HQ or AA/flak units while combat
+units are in the hex (engineers may be named); and never a unit the
+patroller has explicitly excluded beforehand — typically one he already knows
+from an earlier patrol or fight.
