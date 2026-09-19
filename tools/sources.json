@@ -43,5 +43,64 @@
     "pdf": "https://www.spigames.net/db_pages/ERR_CampaignforNorthAfrica.pdf",
     "html": "http://www.wargameacademy.org/CNA/CNA_errata.html",
     "as_of": "1979-09"
+  },
+  "discord_files": {
+    "note": "Files shared on the CNA Discord (invite discord.com/invite/ABMwpGEkHS); SPI charts and text, so cache only — never commit, never quote. Local path under ~/.cache/cna-scans/discord/. Page numbers cite as scan:discord:<file>:p<n> (1-based).",
+    "files": {
+      "Shared Charts.pdf": {
+        "what": "Charts & Tables Common to Both Players, 16 pp, 300 dpi scan (index on p16)",
+        "by": "layam, 2020-03",
+        "sha256": "f8dbe3e1b11b05c08c70d8e805b442efd2092fa2e53d63a8973662c3d3280369"
+      },
+      "Axis Charts.pdf": {
+        "what": "Axis Exclusive Charts & Tables, 36 pp, 300 dpi scan",
+        "by": "layam, 2020-03",
+        "sha256": "6bc896e81b1c3aafad1daa4744e91cc740219b976502c4546dbfa0b0c6b49651"
+      },
+      "Commonwealth Charts.pdf": {
+        "what": "Commonwealth Exclusive Charts & Tables, 32 pp, 300 dpi scan",
+        "by": "layam, 2020-03",
+        "sha256": "d6a6ae3abb88c30a7380acf33cfa310b0e68a7e32e0d8e7fe1d77a47ebdd429b"
+      },
+      "Errata.pdf": {
+        "what": "September 1979 addenda, 10 pp scan (same text as the errata entry above)",
+        "by": "layam, 2020-03",
+        "sha256": "f3fb9032c35879258af3b5a069383423130883c9768f6ce98b9b836b858c3427"
+      },
+      "CampaignNorthAfrica - converted.pdf": {
+        "what": "1979 rulebook, 100 pp OCR conversion; duplicates the archive.org scan",
+        "by": "Online2PDF, 2024-04",
+        "sha256": "0ba905df1e142b802c27707588ce19e23c9ab7ab93c694a9c5a6b00d07f5b0a5"
+      },
+      "Sequence_of_play_1.pdf": {
+        "what": "typed sequence of play from A&L pp. 19-20, 6 pp; low value",
+        "sha256": "5e1008761d6e2caf427d8bfcaa845481c77354c826e946bbdccd6434f9a9bfc7"
+      }
+    }
+  },
+  "vassal": {
+    "module": "CNAv2.1.0.vmod",
+    "credits": "v2.1 Norman Harman 2024-09 (njharman@gmail.com); v2 Mitch Guthrie 2021-09; map Mitch Guthrie 2021; original Pete Phillipps 2020-03",
+    "note": "Map, counters, charts and rules have all known errata applied (playnotes.txt). Local copy under ~/.cache/cna-vassal/ (see tools/map_extract.py). Bundles the 2021 integrated-errata rulebooks; the copies circulated on Discord are byte-identical.",
+    "sha256": "94a4c686840e31d76dc4408382aceb8724092d60554e75f92a03936552cc626a",
+    "bundled_rules": {
+      "Rules_Land_07-2021.pdf": {
+        "what": "Land rules with integrated addenda & errata, 48 pp, July 2021; produced by Clay Stone, copyedited by Michael Kirk; text-selectable",
+        "sha256": "78256d7dd4327216d75aaae0ce8b6980c052ceb81e04706bf1036f6d6546e270"
+      },
+      "Rules_Air&Logistics_11-2021.pdf": {
+        "what": "Air & Logistics rules with integrated addenda & errata, 28 pp, Nov 2021 (module file name says 07-2021)",
+        "sha256": "af662fee906210c04c8b41a3d47f10139848b7b13f464b976c5ce74d9563959f"
+      },
+      "Rules_Scenarios_07-2021.pdf": {
+        "what": "Scenarios booklet with notes and corrections consolidated, 18 pp, July 2021",
+        "sha256": "bf805da22221f10dcdb89cbbe9dda5ff862ccafdfe291f3a6bdb43b9d26940f6"
+      }
+    },
+    "saves": {
+      "path": "~/.cache/cna-vassal/saves/",
+      "what": "Nine .vsav/.vlog files from the Discord group's game (room 'Bombe su Londra'; players FreundA, Illuminutter, matvey), game turn 3 op-stage II, saved 2026-09-12. Full counter positions plus move/dice logs; candidate engine fixtures and a check of the hex-grid convention. Private game data: never commit.",
+      "decode": "zip member savedGame is Vassal-obfuscated: '!VCSK' + 2 hex key chars, then hex pairs XOR key"
+    }
   }
 }
