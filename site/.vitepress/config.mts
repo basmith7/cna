@@ -39,6 +39,7 @@ export default defineConfig({
           { text: 'Sequence of play', link: '/rules/20-sequence-of-play' },
           { text: 'Capability points', link: '/rules/30-capability-points' },
           { text: 'Movement', link: '/rules/40-movement' },
+          { text: 'Stacking & ZOC', link: '/rules/50-stacking-and-zoc' },
         ] },
       ],
     },
