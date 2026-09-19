@@ -67,3 +67,9 @@ Done: branch from tip of autopilot/40-movement; draft PR opened. Nothing written
 In flight: rules/50-stacking-and-zoc.md (SPI §9 stacking, §10 ZOC, §18 reserve) — not started. Must provide anchors #reserve and #roads (linked from 40-movement).
 Next: read section-09/10/18.adoc, write the file in the 10/20/40 style, sidebar, EXTRACTION, gates (git add before check_overlap), gh pr ready.
 Blocked: none new.
+
+## 2026-09-19T04:58Z — autopilot/50-stacking-and-zoc
+Done: merged #2 (16507d1, after cherry-picking R-001 fix 444f014), #7 (=#3 recreated against main after base-branch deletion auto-closed it; 9371b7b), #4, #5. Files 1–4 are on main. Retargeted #6 to main and merged origin/main into this branch.
+In flight: rules/50-stacking-and-zoc.md still not started (this run spent its 15 min unwinding the PR stack).
+Next: write rules/50-stacking-and-zoc.md (SPI §9, §10, §18) with anchors #reserve and #roads; sidebar; EXTRACTION; gates; gh pr ready; merge. Do NOT stack PRs on other PR branches again — always --base main.
+Blocked: chart sheet capture (terrain-effects, off-map-distances, initiative-ratings tables) still needs Brian.
