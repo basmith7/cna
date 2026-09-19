@@ -5,16 +5,34 @@
     "page_url_template": "https://archive.org/download/campaign-for-north-africa/The%20Campaign%20for%20North%20Africa_jp2.zip/The%20Campaign%20for%20North%20Africa_jp2%2FThe%20Campaign%20for%20North%20Africa_{page}.jp2&ext=jpg",
     "page_index": "0-based jp2 index, zero-padded to 4 digits; XML page n == jp2 n-1",
     "files": {
-      "The Campaign for North Africa_jp2.zip": {"size": 348269545, "sha1": "b0991809c422bfee99aa24e6ac73163b2ab96f56", "sha256": "2ded9f846865fc5d913899408e071966c5a434f72ee889d5f4801e95e9d9dcc4"},
-      "The Campaign for North Africa_djvu.xml": {"size": 14019396, "sha1": "721aa3c794a0a4625de8031518526dbef12b972f", "sha256": null},
-      "The Campaign for North Africa.pdf": {"size": 134328922, "sha1": "7e82d39c6af2d1dead48f2dc7d238d56b299a487", "sha256": null}
-    }
+      "The Campaign for North Africa_jp2.zip": {
+        "size": 348269545,
+        "sha1": "b0991809c422bfee99aa24e6ac73163b2ab96f56",
+        "sha256": "2ded9f846865fc5d913899408e071966c5a434f72ee889d5f4801e95e9d9dcc4"
+      },
+      "The Campaign for North Africa_djvu.xml": {
+        "size": 14019396,
+        "sha1": "721aa3c794a0a4625de8031518526dbef12b972f",
+        "sha256": null
+      },
+      "The Campaign for North Africa.pdf": {
+        "size": 134328922,
+        "sha1": "7e82d39c6af2d1dead48f2dc7d238d56b299a487",
+        "sha256": null
+      }
+    },
+    "djvu_xml_url": "https://archive.org/download/campaign-for-north-africa/The%20Campaign%20for%20North%20Africa_djvu.xml",
+    "chart_pages": {},
+    "chart_pages_note": "chart title -> jp2 page index; filled in by mission 2 part C"
   },
   "source_text": {
     "repo": "tonicebrian/TheCampaignForNorthAfrica",
     "commit": "75a037f27346a7cd920a765a2f3cae965b1e07a3",
     "raw_url_template": "https://raw.githubusercontent.com/tonicebrian/TheCampaignForNorthAfrica/{commit}/sections/section-{nn}.adoc",
-    "sections": [1, 65],
+    "sections": [
+      1,
+      65
+    ],
     "anchor_format": "[#<section>_<case>] on its own line; case 0 == the section itself"
   },
   "errata": {

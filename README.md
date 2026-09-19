@@ -26,9 +26,13 @@ engine, server or UI lives here. Design: `docs/designs/2026-09-18-cna-living-rul
   own words and organisation. It is **intended** to be independent expression;
   **no legal review** has been obtained.
 - No SPI rule text, map art or counter art is in this repository or in the
-  built site. The optional "show original" toggle fetches the community
-  transcription (tonicebrian/TheCampaignForNorthAfrica) into *your browser*
-  at page-view time; it is never part of our build or search index.
+  built site, and no SPI text is quoted. The optional "show original" toggle
+  fetches the community transcription (tonicebrian/TheCampaignForNorthAfrica)
+  into *your browser* at page-view time; it is never part of our build or
+  search index.
+- Third-party text reproduced under its own licence (currently NJHarman's
+  house rules, CC-BY-SA 4.0, quoted in `rulings/`) is listed in
+  `ATTRIBUTION.md` with its source and licence.
 - Licences are granted to the extent the project holds rights. See `LICENSE`.
 - The game's name is used nominatively. This is not marketed as a substitute
   edition and reproduces no trade dress.

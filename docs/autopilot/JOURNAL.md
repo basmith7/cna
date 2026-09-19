@@ -159,3 +159,9 @@ Next: nothing — orders say stop after step 4. Open items for Brian are listed 
 Blocked: none for the autopilot.
 
 MISSION COMPLETE
+
+## 2026-09-19 (Phoenix) — main (Brian)
+Done: mission 2 orders written to AUTOPILOT.md; ATTRIBUTION.md, README legal posture, rulings/README.md quoting convention; tools/sources.json gained djvu_xml_url and an empty chart_pages map.
+In flight: none.
+Next: Part A — autopilot/a-coverage-gap.
+Blocked: none.

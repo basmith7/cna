@@ -37,7 +37,25 @@ reflects the ruling carries `::: ruling R-012` above the block.
 
 Community **CHANGE** and **ADDITION** items (house rules that alter the game
 rather than resolve it) are recorded as variants `V-nnn` with `::: variant`
-containers, never as rulings.
+containers, never as rulings. **REMINDER** items restate a printed rule and
+are not imported at all.
+
+## Quoting a third-party source
+
+A seeded ruling quotes its source verbatim in **Problem** and **Options**,
+as a blockquote, with a footnote after it that links to the section of the
+source page the item came from:
+
+```markdown
+> On map printed Flak such as in Tripoli is considered heavy flak.[^nj-map]
+
+[^nj-map]: NJHarman, *CfNA House Rules & Interpretations*, § Map,
+  <https://friendorfoe.com/war/cfna/houserules/#map>, CC-BY-SA 4.0. See `ATTRIBUTION.md`.
+```
+
+The quoted text is not edited. **Decision** and **Rationale** are ours and
+are never quoted. Every quoted source is listed in `ATTRIBUTION.md` at the
+repo root; no SPI text is ever quoted.
 
 ## Process
 
