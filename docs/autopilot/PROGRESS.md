@@ -21,7 +21,7 @@ The next run reads this section first, acts on it, and moves each item to
 
 | # | File | State | PR |
 |---|---|---|---|
-| 1 | units & state | ready for review | #2 |
+| 1 | units & state | draft in progress | #2 |
 | 2 | sequence of play | not started | |
 | 3 | capability points | not started | |
 | 4 | movement | not started | |
@@ -35,8 +35,7 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Next steps
 
-- Review/merge #2 (units & state) — all gates pass, ruling R-001 opened.
-- Then start file 2, sequence of play (SPI §5, §7): branch `autopilot/20-sequence-of-play`.
+- Finish `rules/10-units-and-state.md`: §6.2 capability ratings, §17 cohesion, spi-omit for 3.1, EXTRACTION entry, coverage for §3/6/17, sidebar; then merge.
 
 ## Runs and quota
 
