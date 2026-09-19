@@ -136,3 +136,49 @@ down side),
 so crossing one of these hexsides is always either climbing or descending.
 Ridges have no direction: a ridge is a two-sided slope and costs the same
 from either side.
+
+## Special terrain
+
+::: spi 8.41 8.42 8.43 8.44 8.45 8.46 8.47 8.48 8.49
+
+::: spi-omit 8.4 — subsection heading and historical commentary
+
+**Wadis** are hexside features (the one exception, Wadi Natrun west of the
+Delta, is treated as salt marsh). Crossing a wadi hexside costs CP for every
+unit and gives vehicles a breakdown factor of 8. A road cancels the wadi;
+a track halves the crossing cost. On a road a vehicle pays the
+road breakdown rate (2 BP); on a track, 4 BP rather than 8. In a **rainstorm**
+stage, wadis in the affected map sections are impassable except by road;
+crossing a flooded wadi by road costs +2 CP with no extra breakdown (still
+½ BP).
+
+**Escarpments.** Crossing costs are on the chart; on top of those, no vehicle
+may ever cross an escarpment hexside *upward*. Where a track crosses one,
+vehicles may use it to go down — never up — at +8 CP and 6 BP.
+
+**Slopes and ridges** may be crossed by every unit at the chart's CP and
+breakdown costs.
+
+**Salt marsh.** A vehicle needs a road or track to get into or out of salt
+marsh, except light trucks, motorcycle infantry and recce-type units. Any
+prohibited vehicle that ends up in salt marsh off the track — for whatever
+reason — is abandoned ([§32](95-abstract-logistics-and-air.md) for the
+logistics form). Because of this, no motorised unit or AFV may ever assault a
+defender in a salt-marsh hex. The Meharisti camel unit moves as infantry in
+salt-marsh hexes without a track.
+
+**Desert** (the Libyan Sand Desert) is soft sand. Light trucks, motorcycle
+infantry and motorcycle recce may never enter a desert hex, track or no track.
+
+**Tracks** cost 1 CP per hex, halve most hexside crossing costs and halve the
+breakdown cost for the hex.
+
+**Railways and roads not yet built** in a scenario's start date are listed by
+the scenario. An unbuilt railway hex is ignored entirely; an unbuilt road is
+a track.
+
+**Oases** have no movement effect; they are non-diminishing supply dumps for
+water and stores.
+
+Terrain's combat effects are stated in [Combat](60-combat.md), which also
+carries the chart's combat columns.
