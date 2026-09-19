@@ -20,8 +20,10 @@ restate the Land Game, one rules file per system, in this order:
 9. special
 10. §32
 
-Each file is its own PR against `main`. Brian reviews and merges; **you never
-merge**. Common tables are transcribed into `data/` alongside the file that
+Each file is its own PR against `main`. **You merge your own PRs** (merge
+commit, `gh pr merge --merge --delete-branch`) once every review criterion
+passes locally and CI is green (`gh pr checks --watch`). Brian does not review
+PRs; he reads `docs/autopilot/PROGRESS.md` and leaves feedback there. Common tables are transcribed into `data/` alongside the file that
 first needs them. Rulings are logged as you hit them (`rulings/README.md`).
 Every PR must meet the *Review criteria for a rules PR* in the design doc,
 including the `EXTRACTION.md` entry, before you mark it ready.
@@ -35,21 +37,20 @@ badge usage and provenance conventions. When step 3 is complete, move to step 4
 
 ## Picking up where the last run left off
 
-In order:
+You are in a dedicated clone owned by the autopilot (not Brian's checkout), on
+`main`, freshly reset to `origin/main`. In order:
 
-1. `git fetch origin` and `git status`. Abort and log if the tree is dirty on a
-   branch you did not create (someone is working here).
-2. `gh pr list --state open --label autopilot` — open autopilot PRs.
-   - If a PR has review comments from Brian that are not yet addressed, address
-     those first, on that branch. That is the highest-priority work.
-   - If a PR's file is unfinished (its journal entry says so), continue on that branch.
-3. Otherwise start the next file in the order above that has neither a merged
-   nor an open PR. Branch `autopilot/<NN>-<slug>` from `origin/main`; if an
-   earlier autopilot PR is still open, branch from **its tip** instead and open
-   the new PR with `--base` set to that branch (stacked, so `EXTRACTION.md` and
-   the sidebar do not conflict; GitHub retargets it to `main` when the base merges).
-4. Read `docs/autopilot/JOURNAL.md` (create it if missing) — the last entry
-   says exactly what was in flight.
+1. Read `docs/autopilot/PROGRESS.md`. Its **Feedback** section is Brian's
+   voice: act on every item first, then move it to **Addressed** with a
+   one-line reply. If an item changes the mission, it wins over this file.
+2. `gh pr list --state open --label autopilot` — if an autopilot PR is open,
+   its file is unfinished: check out that branch, read the last entry of
+   `docs/autopilot/JOURNAL.md` on it, and continue. If its gates and CI
+   already pass, merge it and move on.
+3. Otherwise start the next file in the order above that has no merged PR.
+   Branch `autopilot/<NN>-<slug>` from `origin/main`.
+4. `docs/autopilot/JOURNAL.md` is the machine-to-machine handoff (below);
+   `PROGRESS.md` is for Brian. Keep both.
 
 Source text: `.venv/bin/python tools/fetch.py sections` populates `~/.cache/cna-scans`
 (needed by the overlap gate). Create `.venv` per the README if missing.
@@ -71,8 +72,15 @@ Source text: `.venv/bin/python tools/fetch.py sections` populates `~/.cache/cna-
 
 ## Handing off
 
-Before the budget runs out, append an entry to `docs/autopilot/JOURNAL.md`
-and commit it on the working branch:
+Before the budget runs out, do both of these:
+
+**1. Update `docs/autopilot/PROGRESS.md` on `main`** (commit directly to main
+and push, it is a doc): rewrite the **Status** table and **Next steps** so a
+human can see where things stand in thirty seconds, and file any replies under
+**Addressed**. Do not touch **Runs and quota**; the cron script fills it.
+
+**2. Append an entry to `docs/autopilot/JOURNAL.md`** and commit it on the
+working branch:
 
 ```
 ## <UTC timestamp> — <branch>
