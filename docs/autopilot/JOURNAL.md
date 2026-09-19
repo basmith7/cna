@@ -145,3 +145,9 @@ Done: rules/95-abstract-logistics-and-air.md complete (§32 + 3.61–3.62); ::: 
 In flight: none.
 Next: step 4 = site phase 2 — read docs/designs/2026-09-18-cna-living-rules-design.md for its definition (likely: "Changes from the original" page, coverage report page, client-side `original` blocks). Do it with TDD on site/ and tools/. Then log MISSION COMPLETE.
 Blocked: chart sheet — Brian.
+
+## 2026-09-19 03:53 (Phoenix) — autopilot/site-phase-2
+Done: tools/gen_pages.py (TDD, 5 tests) → rules/changes.md + rules/coverage.md (committed; test fails when stale); R-001 now a ::: ruling badge; original viewer: site/.vitepress/original.mjs (helpers, 4 tests), theme/OriginalViewer.vue (doc-after slot, DOM attach, fetch on open, remove on failure), themeConfig.original flag; data-cases attr on primary badges; sidebar "Provenance" group. All gates green locally. PR #13.
+In flight: PR #13 to mark ready + merge. The Vue DOM attach is verified only by build + helper tests + a node fetch smoke test (no browser here) — say so in the PR body.
+Next: after merge, log MISSION COMPLETE in journal and PROGRESS; stop.
+Blocked: chart sheet — Brian.

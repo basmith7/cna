@@ -7,7 +7,7 @@ const md = new MarkdownIt().use(spiBadgePlugin)
 
 test('primary badge renders tag with an anchor per case', () => {
   const html = md.render('::: spi 8.35 8.36\n\nBody.\n')
-  assert.match(html, /<p class="spi-badge spi-primary">/)
+  assert.match(html, /<p class="spi-badge spi-primary"[^>]*>/)
   assert.match(html, /<a id="spi-8\.35" class="spi-anchor"><\/a>/)
   assert.match(html, /<a id="spi-8\.36" class="spi-anchor"><\/a>/)
   assert.match(html, /SPI 8\.35, 8\.36/)
@@ -34,7 +34,7 @@ test('other ::: lines are untouched', () => {
 test('a badge directly after a prose line terminates the paragraph', () => {
   const html = md.render('Some prose here.\n::: spi 8.35\n')
   assert.match(html, /<p>Some prose here\.<\/p>/)
-  assert.match(html, /<p class="spi-badge spi-primary">/)
+  assert.match(html, /<p class="spi-badge spi-primary"[^>]*>/)
 })
 
 test('an omit reason containing a second em-dash keeps the whole reason', () => {
@@ -66,4 +66,9 @@ test('note container wraps its body in a spi-note div', () => {
 test('note container accepts a custom title', () => {
   const html = md.render('::: note Designer\'s note\nBody.\n:::\n')
   assert.match(html, /<p class="spi-note-title">Designer's note<\/p>/)
+})
+
+test('primary badge carries its cases in a data attribute for the original viewer', () => {
+  const html = md.render('::: spi 8.35 8.36\n')
+  assert.match(html, /<p class="spi-badge spi-primary" data-cases="8\.35 8\.36">/)
 })
