@@ -121,3 +121,9 @@ Done: rules/80-engineering.md complete (§22–§26, §32 additions 23.15/24.79,
 In flight: none.
 Next: file 9 = special (SPI §27–§31 raiders, prisoners, weather, fleet, Rommel; plus §21 breakdown — 40-movement points breakdown at 90-special, 00-overview maps §21 to movement; put §21 in special and say so). Branch autopilot/90-special from origin/main. Next errata id E-023 (errata for 21.12 exists: Italian M13/40 BAR).
 Blocked: chart sheet — Brian.
+
+## 2026-09-19 03:43 (Phoenix) — autopilot/90-special
+Done: branch from origin/main; draft PR opened. Nothing written.
+In flight: rules/90-special.md — SPI §21 (breakdown, 2 684 words), §27 raiders (3 062), §28 prisoners (896), §29 weather (820), §30 fleet (2 073), §31 Rommel (280).
+Next: read sections; write; sidebar; EXTRACTION; gates; ready; merge. Next errata id E-023.
+Blocked: chart sheet — Brian.
