@@ -91,3 +91,9 @@ Done: §11–§14 restated in rules/60-combat.md (incl. §32 addenda 14.15, 14.2
 In flight: §15 close assault (6 841 words) and §16 patrols not started. Anchors promised in the file: #gun-losses, #forced-retreats, #dummy-tank-formations — must exist when §15/§16 land. Sidebar entry, EXTRACTION entry not written. Barrage (12.6) and anti-armour (14.6) CRTs spi-omit pending chart sheet.
 Next: read section-15.adoc, restate; then §16; sidebar; EXTRACTION; gates; gh pr ready; merge.
 Blocked: chart sheet (CRTs) — Brian.
+
+## 2026-09-19 03:33 (Phoenix) — autopilot/60-combat
+Done: rules/60-combat.md complete (§11–§16 + §32 addenda + errata E-001–E-010); data/tables/assault-size-shifts.json; data/errata/INDEX.md (E-id registry); spi-badge.mjs renders ::: errata / ::: ruling (tests); sidebar; EXTRACTION; 50-stacking links #forced-retreats. Coverage 11–16 209/209, all gates + CI green. PR #8 ready and merged this run.
+In flight: none.
+Next: file 7 = organisation (check section list — likely SPI §19 attach/detach, §20 replacements?, §21 repair? read 00-overview file map first). Branch autopilot/70-organisation from origin/main, --base main. Sidebar regex already lists 70-organisation.
+Blocked: chart sheet capture for all CRTs (12.6, 14.6, 15.79, 15.89, 16.6–16.8) plus earlier tables — Brian.
