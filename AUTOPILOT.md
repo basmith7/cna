@@ -8,7 +8,7 @@ of the last one; this file plus the journal is the only continuity.
 
 **Mission 2, issued 2026-09-19.** Mission 1 (design steps 3 and 4) is done;
 the `MISSION COMPLETE` entries in the journal and `PROGRESS.md` refer to it and
-are not a reason to idle. Work the parts below **in order**; each part is one
+are not a reason to idle. Work the parts below **in order** (A, B, C, D); each part is one
 or more PRs against `main`, same gates and merge rules as before.
 
 ### Part A — close the Land Game coverage gap (one PR)
@@ -71,11 +71,12 @@ Every `::: spi-omit … (pending capture of the sheet)` and the `(pending)` E-00
 overlay is blocked on tables that live on SPI's chart sheet. The archive.org
 scan pinned in `tools/sources.json` is 192 pages and includes the charts.
 
-- First run of Part C: find the chart pages. Fetch the djvu XML (URL in
-  `tools/sources.json`) to the cache and search it for chart titles
-  ("Terrain Effects", "Close Assault", "Barrage"); map each title to a jp2
-  page index and record the map in `tools/sources.json` under a new
-  `chart_pages` key. Then `tools/fetch.py pages <n>` for each.
+- `tools/sources.json` `chart_pages` already maps the three combat tables
+  to jp2 pages 96–98 (98 is printed sideways). Start with those. For the
+  rest, fetch the djvu XML (`djvu_xml_url` in `tools/sources.json`) to the
+  cache and search it for chart titles ("Terrain Effects", "Weather", …);
+  add each title → jp2 index to `chart_pages` as you find it. Then
+  `tools/fetch.py pages N` for each.
 - Transcribe each table from the page image into `data/tables/<name>.json`
   with a schema in `data/schema/`, following the existing tables' shape and
   `data/README.md`. Provenance in each file names the jp2 page index.
@@ -92,7 +93,38 @@ scan pinned in `tools/sources.json` is 192 pages and includes the charts.
   `PROGRESS.md` **Next steps** with the page index and stop that table;
   Brian will capture it from his copy.
 
-When Parts A–C are all merged: log `MISSION 2 COMPLETE` in the journal and
+### Part D — publish the primer as the site's *Learn* page (after Part C)
+
+`tools/learn_page.py` builds `docs/learn/index.html`, a standalone illustrated
+primer whose Parts B and D embed crops of SPI material (git-ignored). Publish
+Parts A–C on the site with no SPI material; Part D stays local until the map
+sub-project redraws Map C.
+
+- Add a `--site` mode to `learn_page.py` that writes `site/learn.md`
+  (VitePress page; generated and committed; a pytest fails when stale, same
+  pattern as `tools/gen_pages.py`). The default mode is unchanged and still
+  writes the full A–D standalone file with crops for local study.
+- Part B: replace the three `<img>` crops with HTML tables rendered from
+  `data/tables/` (barrage 12.6, anti-armour 14.6, close-assault 15.79 — this
+  is why Part D follows Part C). Write the JSON→HTML table renderer with TDD.
+  Each table carries a `spi-ref` badge for its case so it links into the
+  rules and names its data file.
+- Case numbers in brackets in the primer prose (`[8.37]`, `[15.79]`) become
+  links to the rules file that carries that case (`data/spi-cases.json` +
+  the badge index in `tools/check_coverage.py` tell you which file).
+- Parts A and C: inline the SVGs as they are. Scope the primer's CSS under a
+  `.learn` wrapper so it does not leak into other pages; drop anything the
+  VitePress theme already provides. Check the page in both colour schemes.
+- Where Part D would be, a one-paragraph note: Graziani's Offensive on the
+  real map is published when the map is redrawn (map sub-project).
+- Site: `Learn` in the top nav (`/learn`) and a sidebar for the page with
+  A/B/C anchors. `rules/00-overview.md`: replace the "run
+  `tools/learn_page.py`" paragraph with a link to the page. `README.md`:
+  the primer is published; the standalone build with crops remains local.
+- Everything on the published page must be ours: own prose, own SVGs,
+  tables from CC0 data. No crop, no SPI text.
+
+When Parts A–D are all merged: log `MISSION 2 COMPLETE` in the journal and
 `PROGRESS.md` and do nothing further.
 
 ## Picking up where the last run left off

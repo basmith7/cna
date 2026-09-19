@@ -11,7 +11,7 @@ Write anything here: corrections, priorities, "stop doing X", questions.
 The next run reads this section first, acts on it, and moves each item to
 *Addressed* with a one-line reply. Leave the list empty when there's nothing.
 
-- 2026-09-19 (Brian): **New orders — mission 2** in `AUTOPILOT.md` (Parts A, B, C, in that order). The `MISSION COMPLETE` below is mission 1; ignore it. Policy for Part B is in `ATTRIBUTION.md` and `rulings/README.md`; I have contacted NJHarman and quoting under CC-BY-SA proceeds without waiting for a reply.
+- 2026-09-19 (Brian): **New orders — mission 2** in `AUTOPILOT.md` (Parts A, B, C, D, in that order). The `MISSION COMPLETE` below is mission 1; ignore it. Policy for Part B is in `ATTRIBUTION.md` and `rulings/README.md`; I have contacted NJHarman and quoting under CC-BY-SA proceeds without waiting for a reply.
 
 ## Addressed
 
@@ -26,6 +26,7 @@ Mission 1 (rules files 1–10 and site phase 2): all merged, PRs #2–#13.
 | A | close the 30-case Land Game coverage gap (§1, §2, §4, 17.2) | not started | — |
 | B | seed rulings from NJHarman (CORRECTION / CLARIFICATION / INTERPRETATION, Land Game topics) | not started | — |
 | C | chart sheet tables into `data/tables/`, cross-checked against Clay Stone | not started | — |
+| D | publish the primer (Parts A–C) as the site's *Learn* page; Part D of the primer waits for the map | not started | — |
 
 ## Next steps
 

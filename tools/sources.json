@@ -22,8 +22,12 @@
       }
     },
     "djvu_xml_url": "https://archive.org/download/campaign-for-north-africa/The%20Campaign%20for%20North%20Africa_djvu.xml",
-    "chart_pages": {},
-    "chart_pages_note": "chart title -> jp2 page index; filled in by mission 2 part C"
+    "chart_pages": {
+      "barrage-table (12.6)": 96,
+      "anti-armour-table (14.6)": 97,
+      "close-assault-results (15.79)": 98
+    },
+    "chart_pages_note": "chart title -> jp2 page index (0-based). 96-98 were located by tools/learn_page.py (98 is printed sideways: rotate 90). The remaining chart-sheet tables are on neighbouring pages; mission 2 part C fills them in as it goes."
   },
   "source_text": {
     "repo": "tonicebrian/TheCampaignForNorthAfrica",
