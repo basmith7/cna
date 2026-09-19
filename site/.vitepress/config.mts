@@ -36,6 +36,7 @@ export default defineConfig({
           { text: 'Overview', link: '/rules/00-overview' },
           { text: 'Glossary', link: '/rules/glossary' },
           { text: 'Units and state', link: '/rules/10-units-and-state' },
+          { text: 'Sequence of play', link: '/rules/20-sequence-of-play' },
         ] },
       ],
     },
