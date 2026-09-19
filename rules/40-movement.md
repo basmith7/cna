@@ -19,3 +19,91 @@ status: draft
                                    loading/capacity/fuel/breakdown pointers here; anchor #trucks)
   Breakdown itself is §21 — cross-reference, not restated here.
 -->
+
+This file defines how land units move: when movement is allowed, what it
+costs, how the repeatable move–fight cycle works, terrain, reaction, breaking
+off, rail and trucks. The CP budget itself is in
+[Capability points](30-capability-points.md); zones of control and stacking
+in [Stacking & ZOC](50-stacking-and-zoc.md); breakdown in [Special](90-special.md).
+
+::: spi-omit 8.0 8.1 8.2 — section headings and design commentary; the rules under them are restated below
+
+## When a unit may move
+
+::: spi 8.11 8.12 8.13 8.14 8.15 8.16 8.17 8.18 8.19
+
+**Voluntary** movement happens only in a movement segment of the phasing
+player's own half of the stage, or in the retreat-before-assault step of the
+enemy's. Nothing moves outside the sequence of play. The non-phasing player
+still gets to move during the enemy's segments — by reacting and by retreating
+before assault — but that is not voluntary movement for the purposes of the
+limits below.
+
+**Involuntary** movement — a retreat forced by combat — follows the same
+rules: it costs CP and, for vehicles, triggers a breakdown check.
+
+Every move costs CP ([cost table](30-capability-points.md#cost-table)) and
+every vehicle move (armour, self-propelled guns, trucks) is checked for
+breakdown. A unit passes freely through friendly units, except on roads and
+tracks (see *Terrain*).
+
+Movement is hex to hex, adjacent hexes only; a unit never enters a hex
+holding an enemy unit (the capture case in [Combat](60-combat.md) is the one
+exception). Entering an enemy zone of control ends the unit's movement for
+that segment; it will usually have to attack the unit projecting the ZOC.
+
+A unit that *starts* a movement segment in an enemy ZOC may leave it and keep
+moving if:
+
+1. it does not step directly into another enemy ZOC (ZOC-to-ZOC movement is
+   defined in [Stacking & ZOC](50-stacking-and-zoc.md)); and
+2. it pays 2 CP to **break contact**, or 4 CP to **disengage** if the
+   position came from an *engaged* combat result.
+
+Units may keep moving and fighting as long as their owner wishes, subject to
+the continual-movement limits below. Exceeding the CPA is allowed and costs
+cohesion. Two hard limits:
+
+- A **non-motorised** unit (CPA 10 or less) may never *voluntarily* spend more
+  than 150 % of its base CPA in its own half of the stage: 8 → 12, 10 → 15.
+  Reaction and retreat before assault happen in the enemy half and do not
+  count.
+- A unit at cohesion level **−26 or worse** cannot move at all
+  ([Units and state](10-units-and-state.md#effects-of-the-cohesion-level)).
+
+Truck convoys (second- and third-line trucks) have their own phase (H) and
+never move in a movement segment. A truck moves in a movement segment only
+while it is attached to, and forms part of, a combat unit or HQ; attaching and detaching
+happens in the organisation segment.
+
+**Commonwealth boundary.** No Commonwealth land unit may ever be west of
+Marble Arch (hex A2109), for any reason.
+
+## Continual movement
+
+::: spi 8.21 8.22 8.23 8.24 8.25
+
+There is no fixed movement allowance. A unit may move and fight, move again
+and fight again, any number of times in a stage, paying CP for everything;
+the only limits are the CPA overspend rule, the non-motorised cap and the
+two-hex rule below.
+
+The phase is a **cycle**: move everything you intend to move, *then* resolve
+all combat, then move again, then fight again — repeat until you stop.
+No combat is resolved while any movement in that cycle is still going on
+(order of segments: [Sequence of play](20-sequence-of-play.md)).
+
+**Two-hex rule.** After a movement segment, only phasing units that ended it
+within two hexes of an enemy combat unit may move in a later segment of the
+same phase. A unit that stops further away is done for the phase, however many
+CP it has left — unless it is in reserve status, which is the one exception
+([Stacking & ZOC](50-stacking-and-zoc.md#reserve)).
+
+A phasing unit that *begins* the phase in an enemy ZOC pays 2 CP to break
+contact before moving, or 4 CP if it is there because of an *engaged* result
+(in which case whether an enemy ZOC is present is irrelevant).
+
+A unit may attack the same enemy repeatedly in one stage without either side
+moving; each attack is resolved after all other movement in that cycle has
+stopped. With no movement at all, cycles of combat alone may continue as long
+as the phasing player has the ammunition and is willing to pay the CP.
