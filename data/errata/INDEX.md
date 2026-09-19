@@ -24,3 +24,9 @@ listed here alone.
 | E-014 | 20.66 | correction | (pending) data/tables/axis-replacement-pool.json | explanatory note refers to the M 11/39, not 13/39 |
 | E-015 | 20.72 | correction | rules/70-organisation.md | Commonwealth plans one month ahead (not two) and reads the production table for the arrival month |
 | E-016 | 20.83 | correction | rules/70-organisation.md | the reference to 20.75 is void |
+| E-017 | 22.8 | correction | (pending) data/tables/vehicle-repair.json | the table note's die-roll additions are wrong; 22.34 governs |
+| E-018 | 22.34 | correction | rules/80-engineering.md | the reference to 22.35 is void |
+| E-019 | 23.11 | correction/clarification | rules/80-engineering.md | engineers use parenthesised strengths only when not stacked with a friendly combat unit; may always enter friendly-occupied enemy-controlled hexes |
+| E-020 | 24.15 | clarification | rules/80-engineering.md | 24.12 (no road-stacking effect) is an exception to "subject to all stacking rules" |
+| E-021 | 24.72 | addition | rules/80-engineering.md | Commonwealth SGSUs and E-HQs may also build airfields and flying-boat basins |
+| E-022 | 25.15 | correction | rules/80-engineering.md | the reference should be 22.34 |
