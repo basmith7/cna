@@ -107,3 +107,32 @@ A unit may attack the same enemy repeatedly in one stage without either side
 moving; each attack is resolved after all other movement in that cycle has
 stopped. With no movement at all, cycles of combat alone may continue as long
 as the phasing player has the ammunition and is willing to pay the CP.
+
+## Terrain
+
+::: spi 8.31 8.32 8.33 8.34 8.35 8.36
+
+Each hex entered, and some hexsides crossed, costs CP that depend on the
+terrain and on the unit type. Costs run from ½ CP (a motorised unit on a
+road) up to +8 (a vehicle descending an escarpment by track, or a foot unit
+crossing the Nile with no bridge). Some terrain is **prohibited** to some
+unit types — vehicles may not enter salt marsh, for instance, unless on a
+road or track. All of this, and every combat effect of terrain, is on the
+Terrain Effects Chart, transcribed as `data/tables/terrain-effects.json`.
+
+::: spi-omit 8.37 — the Terrain Effects Chart is a lookup table on the chart sheet; transcribed to `data/tables/terrain-effects.json` (pending capture of the sheet), not restated as prose
+
+**Roads and tracks.** A unit gets the road or track rate only when it moves
+between two adjacent road/track hexes that are joined across a road/track
+hexside. While doing so it ignores every other terrain
+feature of the hex and hexside — except that vehicles still pay to cross an
+escarpment (see *Special terrain*). A unit with any vehicles in it, moving by road or track, is restricted
+when it comes to friendly units sitting on that road ([Stacking & ZOC](50-stacking-and-zoc.md#roads)); it may always
+leave the road, go round them through the hex's own terrain, and rejoin the
+road in the next hex.
+
+**Slopes, ridges, escarpments.** Slopes and escarpments each have an *up* and a *down* side (the map's splash contours mark the
+down side),
+so crossing one of these hexsides is always either climbing or descending.
+Ridges have no direction: a ridge is a two-sided slope and costs the same
+from either side.
