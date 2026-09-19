@@ -1,0 +1,3 @@
+# One phrase per line. Every 8-word run inside a phrase is allowed.
+# Only for unavoidable fixed terms; never for rule sentences.
+the campaign for north africa the desert war 1940 1943

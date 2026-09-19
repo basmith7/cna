@@ -1,0 +1,15 @@
+{
+  "name": "cna-living-rules",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "site:dev": "vitepress dev site",
+    "site:build": "vitepress build site",
+    "site:preview": "vitepress preview site",
+    "test:site": "node --test site/.vitepress/*.test.mjs"
+  },
+  "devDependencies": {
+    "markdown-it": "^15.0.2",
+    "vitepress": "^1.6.4"
+  }
+}

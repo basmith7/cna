@@ -14,24 +14,21 @@ those crops are SPI material and are git-ignored.
 
 Usage: python3 tools/learn_page.py   (then open docs/learn/index.html)
 """
-import html, math, os, pathlib, urllib.request
+import html, math, os, pathlib, sys
 
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs" / "learn"
 CACHE = pathlib.Path(os.path.expanduser("~/.cache/cna-scans"))
-IA = ("https://archive.org/download/campaign-for-north-africa/The%20Campaign%20for%20North%20Africa_jp2.zip/"
-      "The%20Campaign%20for%20North%20Africa_jp2%2FThe%20Campaign%20for%20North%20Africa_{page}.jp2&ext=jpg")
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from fetch import scan_page  # noqa: E402
 
 
 def scan(page):
     """jp2 index (0-based); XML page n == jp2 n-1."""
-    CACHE.mkdir(parents=True, exist_ok=True)
-    p = CACHE / f"p{page}.jpg"
-    if not p.exists():
-        urllib.request.urlretrieve(IA.format(page=page), p)
-    return Image.open(p)
+    return Image.open(scan_page(page))
 
 
 # ---------------------------------------------------------------- table crops
@@ -443,7 +440,7 @@ TRUCKS_HTML = """
 <div class="cols" style="margin-top:14px">
 <div class="calc"><h3>The truck itself [53, 54.2]</h3>
 <p>1 Truck Point = 10 lorries. <b>Light</b>: carries 50 fuel / 2 ammo / 6 stores / 40 water, convoy CPA 40. <b>Medium</b>: 120 / 4 / 15 / 100, CPA 30. <b>Heavy</b>: 250 / 8 / 30 / 200, CPA 30.</p>
-<p>Convoys move only in the Truck Convoy Movement Phase and may never exceed their extended CPA (they break down on the spot if forced to). Road hex = ½ CP → about 60 road hexes per stage.</p>
+<p>Convoys are restricted to the dedicated truck-movement sub-phase and can never spend beyond their extended CPA (they break down on the spot if forced to). Road hex = ½ CP → about 60 road hexes per stage.</p>
 <p>Every truck point burns 1 Fuel Point per 5 CP moved, drinks 1 Water Point per stage, and rolls for Breakdown like any vehicle.</p>
 <p>Third-line: port → dump. Second-line: dump → units. First-line: on the unit's own sheet, not a counter. A recommended system, not a rule [53.14].</p></div>
 <div class="calc"><h3>Rail and sea (Commonwealth)</h3>

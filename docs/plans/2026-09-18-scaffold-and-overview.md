@@ -864,7 +864,7 @@ git commit -m "Data conventions: ID grammar, enums, hex convention, schemas for 
 
 **Interfaces:**
 - Consumes: `fetch.all_source_sections()`, `fetch.load_sources()`.
-- Produces: `gen_spi_cases.parse_anchors(text)`, `gen_spi_cases.build_cases(section_texts)`; the generated `data/spi-cases.json` (1,738 cases at the pinned commit, 976 of them in §1–32) used by the data and coverage checks.
+- Produces: `gen_spi_cases.parse_anchors(text)`, `gen_spi_cases.build_cases(section_texts)`; the generated `data/spi-cases.json` (1,736 cases at the pinned commit, 974 of them in §1–32) used by the data and coverage checks.
 
 Facts about the source (verified 2026-09-18 at the pinned commit): anchors are lines like `[#8_11]`, sometimes with trailing whitespace; one malformed anchor `[#17.6]` in section 17 (treat `.` as `_`); a few anchors are duplicated across files (keep the first); `_0` is the section heading; one digit after `_` is a primary case, two digits a secondary case.
 
@@ -950,8 +950,9 @@ def parse_anchors(adoc_text: str) -> list[dict]:
         if anchor in seen:
             continue
         seen.add(anchor)
-        if len(case) == 2 and case.endswith("0"):
-            raise ValueError(f"anchor [#{anchor}]: SPI numbering has no two-digit case ending in 0")
+        if len(case) == 2 and case.endswith("0"):  # transcription defects, e.g. [#30_60], [#32_10]
+            print(f"gen_spi_cases: skipping [#{anchor}] — no two-digit SPI case ends in 0", file=sys.stderr)
+            continue
         kind = "section" if case == "0" else "primary" if len(case) == 1 else "secondary"
         out.append({"id": f"{section}.{case}", "section": section, "kind": kind, "anchor": anchor})
     return out
@@ -1003,7 +1004,7 @@ PYEOF
 grep -c '"id"' data/spi-cases.json
 ```
 
-Expected: `1738 cases; 65 sections; True` (exact, at the pinned commit); section 17 primaries include `17.6`. Inspect that no value in the file is prose (`grep -v '"label": ""' data/spi-cases.json | grep label` prints nothing).
+Expected: `1736 cases; 65 sections; True` (exact, at the pinned commit; two malformed source anchors [#30_60] and [#32_10] are skipped with a warning); section 17 primaries include `17.6`. Inspect that no value in the file is prose (`grep -v '"label": ""' data/spi-cases.json | grep label` prints nothing).
 
 - [ ] **Step 6: Commit**
 
@@ -1278,7 +1279,7 @@ def test_find_overlaps_reports_shared_8_word_runs_and_honours_allowlist():
 
 
 def test_find_overlaps_clean_text_has_no_hits():
-    grams = co.ngrams(co.normalize("units are moved one at a time or in stacks tracing a path of contiguous hexes"))
+    grams = co.ngrams(co.normalize("a convoy halts when its lead vehicle reaches the first hex of soft sand"))
     assert co.find_overlaps("A unit moves hex by hex along a path it chooses.", grams, allow=set()) == []
 ```
 
@@ -1601,7 +1602,7 @@ if __name__ == "__main__":
 - [ ] **Step 4: Run tests to verify they pass**
 
 Run: `.venv/bin/python -m pytest tests/test_check_coverage.py -q`
-Expected: 5 passed. Then `.venv/bin/python tools/check_coverage.py --sections 1-32` → `coverage: 0 / 976 (primary 0, omitted 0, uncovered 976)` and exit 0.
+Expected: 5 passed. Then `.venv/bin/python tools/check_coverage.py --sections 1-32` → `coverage: 0 / 974 (primary 0, omitted 0, uncovered 974)` and exit 0.
 
 - [ ] **Step 5: Commit**
 
@@ -2172,8 +2173,8 @@ were only **probes**.
 
 ::: spi-ref 6.11 6.14 6.21 6.22 6.26
 
-Every unit has a **Capability Point Allowance (CPA)**: the number of
-**Capability Points (CP)** it may spend in one Operations Stage. Moving a
+Each unit carries a **Capability Point Allowance (CPA)**: the budget of
+**Capability Points (CP)** it can spend across one Operations Stage. Moving a
 hex, firing, being fired on, assaulting, defending, retreating, building,
 training — everything costs CP. The allowance covers *both halves* of the
 stage: what a unit spends reacting during the enemy's half is gone for its
@@ -2311,7 +2312,7 @@ PYEOF
 npm run site:build
 ```
 
-Expected: `missing: []`; `check_overlap: OK (0 shared 8-word runs)`; `coverage: 0 / 976 …` with **no** `ERROR` lines; site builds. If a case is reported missing, replace it with its section id (e.g. `6.0`); if the overlap gate prints a run, rewrite that sentence and re-run.
+Expected: `missing: []`; `check_overlap: OK (0 shared 8-word runs)`; `coverage: 0 / 974 …` with **no** `ERROR` lines; site builds. If a case is reported missing, replace it with its section id (e.g. `6.0`); if the overlap gate prints a run, rewrite that sentence and re-run.
 
 - [ ] **Step 3: Append the EXTRACTION.md entry**
 

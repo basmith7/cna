@@ -1,0 +1,54 @@
+# CNA Living Rules
+
+A public, reviewed, searchable edition of the **Land Game** rules of
+*The Campaign for North Africa* (SPI, 1979), written in our own words,
+precise enough to build a rules-enforcing engine from, with SPI's September
+1979 errata folded in and every ambiguity we resolve recorded as a disputable
+ruling.
+
+This is sub-project 1 of an open-source, self-hostable digital CNA. No
+engine, server or UI lives here. Design: `docs/designs/2026-09-18-cna-living-rules-design.md`.
+
+## Layout
+
+| Directory | Contents | Licence |
+|---|---|---|
+| `rules/` | The restated rules, one file per game system | CC-BY-SA-4.0 |
+| `rulings/` | One file per ruling: problem, options, decision, rationale | CC-BY-SA-4.0 |
+| `data/` | Tables as JSON (CRTs, terrain, weather, …) with schemas and provenance | CC0-1.0 |
+| `tools/` | Fetch, generate and check scripts | MIT |
+| `site/` | VitePress site that renders `rules/` and `data/` | MIT |
+| `docs/` | Designs, plans, the illustrated primer generator | CC-BY-SA-4.0 |
+
+## Legal posture
+
+- Game mechanics are not copyrightable. This project restates them in its
+  own words and organisation. It is **intended** to be independent expression;
+  **no legal review** has been obtained.
+- No SPI rule text, map art or counter art is in this repository or in the
+  built site. The optional "show original" toggle fetches the community
+  transcription (tonicebrian/TheCampaignForNorthAfrica) into *your browser*
+  at page-view time; it is never part of our build or search index.
+- Licences are granted to the extent the project holds rights. See `LICENSE`.
+- The game's name is used nominatively. This is not marketed as a substitute
+  edition and reproduces no trade dress.
+- `EXTRACTION.md` logs, per rules file, which source cases were read, what
+  mechanic was identified, and how we expressed it.
+
+## Building
+
+```bash
+python3 -m venv .venv && .venv/bin/pip install -r requirements-dev.txt
+.venv/bin/python -m pytest                      # unit tests
+.venv/bin/python tools/fetch.py sections        # source text → ~/.cache/cna-scans (for the overlap gate)
+.venv/bin/python tools/check_data.py            # gate
+.venv/bin/python tools/check_overlap.py         # gate
+.venv/bin/python tools/check_coverage.py --sections 1-32   # report
+npm ci && npm run site:build                    # site → site/.vitepress/dist
+```
+
+## Contributing
+
+Propose rule wording changes as PRs against `rules/`; propose or dispute a
+ruling in GitHub Discussions first (see `rulings/README.md`). Every rules PR
+must pass the overlap and data gates and include an `EXTRACTION.md` entry.
