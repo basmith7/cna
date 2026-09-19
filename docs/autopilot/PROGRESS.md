@@ -21,11 +21,11 @@ The next run reads this section first, acts on it, and moves each item to
 
 | # | File | State | PR |
 |---|---|---|---|
-| 1 | units & state | draft in progress | #2 |
-| 2 | sequence of play | not started | |
-| 3 | capability points | not started | |
-| 4 | movement | not started | |
-| 5 | stacking & ZOC | not started | |
+| 1 | units & state | **merged** | #2 |
+| 2 | sequence of play | **merged** | #7 (was #3; auto-closed when its stacked base branch was deleted) |
+| 3 | capability points | **merged** | #4 |
+| 4 | movement | **merged** | #5 |
+| 5 | stacking & ZOC | draft, not yet written | #6 |
 | 6 | combat | not started | |
 | 7 | organisation | not started | |
 | 8 | engineering | not started | |
@@ -35,7 +35,9 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Next steps
 
-- Finish `rules/10-units-and-state.md`: §6.2 capability ratings, §17 cohesion, spi-omit for 3.1, EXTRACTION entry, coverage for §3/6/17, sidebar; then merge.
+- Write `rules/50-stacking-and-zoc.md` (SPI §9, §10, §18) on branch `autopilot/50-stacking-and-zoc` (PR #6, now targeting `main`); provide anchors `#reserve` and `#roads` that `40-movement` already links to.
+- Pending data tables that need the chart sheet scanned (not in `~/.cache/cna-scans`): Terrain Effects Chart (8.37), Off-Map Distance Chart (8.89), initiative ratings. **Brian:** can you capture the chart sheet, or extend `tools/fetch.py` to get it?
+- Lesson from this run: earlier runs stacked PRs on each other's branches; deleting a merged base auto-closed the next PR. All PRs now target `main`.
 
 ## Runs and quota
 
