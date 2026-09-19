@@ -9,7 +9,7 @@ This file covers three things that constrain where units may be: how many
 may share a hex (stacking), how a hex adjacent to the enemy behaves (zones of
 control), and the reserve state that lets a unit react outside its own
 segment. Movement procedure is in [movement](./40-movement.md); combat
-results that force retreats are in combat (not yet restated).
+results that force retreats are in [combat](./60-combat.md#forced-retreats).
 
 ::: spi-omit 9.0 9.1 9.2 9.4 — section and subsection headings, and a pointer to the counter sheet; rules restated below
 
@@ -122,7 +122,7 @@ slip its parts through one at a time and recombining beyond is forbidden.
 **Retreats.** Involuntary retreats from the close assault table obey stacking.
 A stack or formation may split and retreat into different hexes, but no part
 may retreat *through* a hex in violation. Anything that cannot retreat for
-this reason must stand and take extra losses (combat, SPI 15.82).
+this reason must stand and take extra losses ([combat](./60-combat.md#forced-retreats), SPI 15.82).
 
 ## Zones of control
 

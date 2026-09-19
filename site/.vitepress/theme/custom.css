@@ -12,4 +12,6 @@
 .spi-badge.spi-primary { font-weight: 600; }
 .spi-badge.spi-ref::before { content: '↗ '; }
 .spi-badge.spi-omit { text-decoration: line-through; }
+.spi-badge.spi-errata::before { content: '✎ '; }
+.spi-badge.spi-ruling::before { content: '⚖ '; }
 .spi-anchor { position: relative; top: -5rem; }

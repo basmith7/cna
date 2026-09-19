@@ -113,6 +113,8 @@ points**:
 > raw points = combat rating × TOE strength points committed
 > actual points = raw points ÷ 10, rounded to nearest (.5 rounds up)
 
+::: errata E-001 — 11.32 printed "+" for the multiplication; the formula is rating × strength
+
 Actual points are either applied to a hex or unit (barrage, anti-armour) or
 compared with the enemy's (close assault, probe). SPI 12.54 (barrage of dumps
 and airfields) is the one place raw points are used directly.
@@ -221,10 +223,15 @@ One table serves every target: rows are the barrage points applied (after
 any shift), columns are the sequential two-dice reading, and the body is
 split by target class. Read the row, roll, read the cell under the class.
 
-- **P — pinned.** The whole target unit is pinned for the rest of the combat
-  segment: it may not move, fire anti-armour or close assault, and it still
-  takes casualties (SPI 15.12). Mark it; remove the marker when the segment
-  ends. Gun-class units and artillery HQs are never pinned by barrage.
+- **P — pinned.** The target unit — that one battalion-equivalent, never
+  the hex or the division it belongs to — is pinned for the rest of the
+  combat segment: it may not move, fire anti-armour or close assault, and it
+  still takes casualties (SPI 15.12). Mark it; remove the marker when the
+  segment ends. Gun-class units and artillery HQs are never pinned by
+  barrage.
+
+::: errata E-002 — 12.44: barrage is always against a specific target, so a pin covers only the battalion-equivalent fired at
+
 - **A number** is TOE strength points destroyed. Losses are taken after
   every barrage of the step has been rolled.
 - **Trucks.** After each barrage against a unit, roll again on the same row
@@ -365,11 +372,19 @@ to. Excess damage is lost.
 and one light tank (4 + 2 = 6), or three light tanks, but not one cruiser and
 nothing else.
 
-- Self-propelled guns absorb protection **plus** vulnerability per point
-  (vulnerability as modified by the role they are in).
+- Self-propelled guns absorb by armour protection like any other armoured
+  point. An SP gun barraging from a *back* position is outside anti-armour
+  fire altogether: it neither absorbs damage nor suffers it.
 - If the only points in the hex that anti-armour fire could touch are
-  **halftracks** (some Axis motorised infantry), their protection is doubled.
-  A halftrack loss removes the infantry point and its carrying truck points.
+  **halftracks** (some Axis motorised infantry), their protection is doubled
+  and no more than **two** halftrack points can be lost to anti-armour fire
+  in one segment. A halftrack loss removes the infantry point and its
+  carrying truck points.
+
+::: errata E-003 — 14.47 as printed (protection plus vulnerability) is withdrawn; SP guns use protection only, and a back SP gun is untouched
+
+::: errata E-004 — 14.48 addition: two-point cap per segment on halftrack losses
+
 - Destroyed tanks stay on the map as **destroyed-tank markers**: they cannot
   move but may be retrieved in the repair segment. Record exactly what each
   marker stands for.
@@ -404,7 +419,7 @@ adjusted column, and takes the result — a percentage loss, possibly with
 *engaged*, *retreat* or *captured* — before the next hex is assaulted. Both
 sides spend ammunition. A weak attack is a **probe** ([below](#probes)).
 
-::: spi-omit 15.79 15.89 — the Close Assault CRT and the Prisoners Captured Results Table are on the chart sheet; to `data/tables/close-assault-results.json` and `prisoners-captured.json` when captured
+::: spi-omit 15.79 15.89 — the Close Assault CRT and the Prisoners Captured Results Table are on the chart sheet; to `data/tables/close-assault-results.json` (with errata E-008, the +4 / 10 % defender range) and `prisoners-captured.json` when captured
 
 ### Who takes part
 
@@ -513,7 +528,10 @@ infantry, machine-gun or heavy-weapons units assaulting **from the same
 hex**. Each 1–3 unsupported tank points cost the tanks **one actual** point
 of close-assault strength, to a maximum reduction of four. It applies on
 defence as on attack. Two unsupported points of tanks rated 7 (14 raw → 1
-actual) drop to zero; four unsupported points (28 raw → 3 actual) drop to 2.
+actual) drop to zero; four unsupported points (28 raw → 3 actual, two
+bands of 1–3) drop to 1.
+
+::: errata E-005 — 15.4 example corrected: four unsupported points reduce to one, not two
 
 ### Size of formation
 
@@ -525,6 +543,12 @@ Organisation counts independently of strength:
   twice the other's raw close-assault points shifts **two columns** its way.
   24 raw against 12 (2 actual against 1: a +1 differential) fights at +3.
   Only SPI 15.54 below suspends this.
+- **All defenders pinned.** If every unit in the assaulted hex is pinned,
+  the hex defends at **zero** and the column shifts **two** to the attacker
+  (standing in for the double-strength shift).
+
+::: errata E-007 — 15.56 addition
+
 - **Largest unit.** If the largest unit equivalent
   ([Stacking & ZOC](50-stacking-and-zoc.md#unit-equivalents)) on one side
   outranks the other's, the larger side shifts by the table below
@@ -532,6 +556,8 @@ Organisation counts independently of strength:
   division only if its **HQ counter** is attached: nine infantry battalions
   under a divisional HQ with no brigade HQs are a shell here. The two Italian
   "m" brigade counters each stand for a whole brigade.
+
+::: errata E-006 — 15.53 table: "brigade" is a smaller-side entry (3-point / 2-point brigade), misprinted under the shift column
 
 | Larger side ↓ / smaller side → | 3-SP brigade | 2-SP brigade | battalion | company |
 |---|---|---|---|---|
@@ -593,20 +619,26 @@ guns: all defender losses round **up**, and every defending gun is exposed
 
 ::: spi 15.8 15.81 15.82 15.83 15.85 15.86 15.87 15.88
 
-**Engaged.** Every unit in the assault is locked to the enemy: leaving the
+#### Engaged
+
+Every unit in the assault is locked to the enemy: leaving the
 ZOC costs the engaged break-off price
 ([breaking off](40-movement.md#breaking-off)). Mark them; markers come off at
 the end of the operations stage. Units that fought and are still adjacent but
 not engaged are in *contact*.
 
-**Retreat** *n* hexes. {#forced-retreats} Everything in the hex — pinned,
+#### Forced retreats {#forced-retreats}
+
+A retreat of *n* hexes: everything in the hex — pinned,
 withheld, out of ammunition included — must end at least *n* hexes from the
 enemy that forced it, by the easiest path toward the nearest friendly supply
 dump or city, paying CP as for any move. Each hex of the *n* not retreated,
 by choice or necessity, costs a further **10 %** loss. Units in a major city,
 or retreating into one, may stop there and ignore the rest.
 
-**Percentage losses.** Take the percentage from the table, then:
+#### Percentage losses
+
+Take the percentage from the table, then:
 
 1. Total the raw close-assault points in the assault. The defender adds the
    raw points of pinned and retreated-in units, and in an overrun of *every*
@@ -622,21 +654,31 @@ or retreating into one, may stop there and ignore the rest.
 4. Where the points came from more than one hex, share the losses across
    hexes in proportion to the raw points each supplied.
 
-**Captured.** The captured share, rounded **up**, of the losses just taken
+#### Captured
+
+The captured share, rounded **up**, of the losses just taken
 becomes prisoners or captured equipment for the enemy: decide which TOE
 points died, take the captured percentage of them (any type of point may be
 used, remembering the percentage is of raw assault points, not TOE points),
 and hand them over — one prisoner point per infantry-type TOE point; guns
 and tanks pass to the enemy to use (SPI 28.0, [Special](90-special.md)).
 
-**Disorganisation.** A side that loses **30 % or more** of the TOE points it
+#### Disorganisation
+
+A side that loses **30 % or more** of the TOE points it
 committed (from committed units or not) gives every unit involved **3 DP**.
 Both sides can suffer this in one assault.
 
-**Surrender.** A player may surrender units rather than see them destroyed.
+#### Surrender
+
+A player may surrender units rather than see them destroyed.
 Units out of ammunition, or at cohesion **−17 or worse**, surrender
 automatically when assaulted (SPI 17.25,
-[voluntary surrender](10-units-and-state.md)).
+[voluntary surrender](10-units-and-state.md)). The two thresholds differ:
+−17 needs an actual assault, whereas a unit at **−26** surrenders as soon
+as an enemy moves adjacent ([cohesion](10-units-and-state.md), SPI 6.26).
+
+::: errata E-009 — 15.88 clarified against 6.26: −17 surrenders when assaulted, −26 when approached
 
 ### Gun losses {#gun-losses}
 
@@ -696,8 +738,12 @@ for casualties among the units patrolled. Nothing is recorded as moving.
 
 ::: spi 16.1 16.11 16.12 16.13 16.14 16.15 16.16 16.17
 
-- Patrol points come only from **recce**, **light tank** (CV/33, Mark VI
-  Light, Panzer I) and **motorised infantry** TOE points. The owner detaches
+- Patrol points come only from **recce**, **light tank** (CV/33, L/6, Mark VI
+  Light, Stuart, Panzer I), **motorised infantry** and **mechanised infantry**
+  (Panzergrenadiers included) TOE points.
+
+::: errata E-010 — 16.11 addition: L/6, Stuarts and mechanised infantry join the patrol list
+ The owner detaches
   the points on his TOE log and notes any losses against them.
 - At most **2** points may leave any one hex, however many units it holds;
   at most **3** may be sent against one target hex, pooled from several
@@ -775,3 +821,7 @@ nothing but smaller or larger units; never HQ or AA/flak units while combat
 units are in the hex (engineers may be named); and never a unit the
 patroller has explicitly excluded beforehand — typically one he already knows
 from an earlier patrol or fight.
+
+---
+
+*Drawn on: SPI §11, §12, §13, §14, §15, §16, the §32 addenda to 12.0–16.51, and the September 1979 errata (E-001–E-010).*
