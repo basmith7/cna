@@ -79,3 +79,21 @@ Done: rules/50-stacking-and-zoc.md complete (§9 5a2bb8b, §10 53bfefe, §18 + E
 In flight: none.
 Next: file 6 = combat (SPI §11–§16?, check section list). Branch autopilot/60-combat from origin/main, --base main. Sidebar regex already lists 60-combat.
 Blocked: chart/counter sheet capture for 8.37 stacking ceilings, 9.4 SP table, terrain-effects, off-map-distances, initiative-ratings — Brian.
+
+## 2026-09-19T05:03Z — autopilot/60-combat
+Done: branch from origin/main (4b6662c); draft PR opened. Nothing written yet.
+In flight: rules/60-combat.md — SPI §11 combat system, §12 anti-armour, §13 barrage, §14 retreat before assault, §15 close assault, §16 patrols/recon (~6 sections; check word count, may need two runs). Sidebar regex already includes 60-combat; add sidebar entry after 50.
+Next: read section-11..16.adoc; write in the 40/50 style; CRT tables to data/ with schema; anchors other files reference: 50 links "combat (SPI 15.82)" for stand-and-take-losses, 10.31 probe; gates; EXTRACTION; gh pr ready; merge.
+Blocked: none new.
+
+## 2026-09-19 03:26 (Phoenix) — autopilot/60-combat
+Done: §11–§14 restated in rules/60-combat.md (incl. §32 addenda 14.15, 14.27 and the 12.0/12.23/12.46/14.0 clarifications); coverage 11–14 = 109/109; overlap OK.
+In flight: §15 close assault (6 841 words) and §16 patrols not started. Anchors promised in the file: #gun-losses, #forced-retreats, #dummy-tank-formations — must exist when §15/§16 land. Sidebar entry, EXTRACTION entry not written. Barrage (12.6) and anti-armour (14.6) CRTs spi-omit pending chart sheet.
+Next: read section-15.adoc, restate; then §16; sidebar; EXTRACTION; gates; gh pr ready; merge.
+Blocked: chart sheet (CRTs) — Brian.
+
+## 2026-09-19 03:33 (Phoenix) — autopilot/60-combat
+Done: rules/60-combat.md complete (§11–§16 + §32 addenda + errata E-001–E-010); data/tables/assault-size-shifts.json; data/errata/INDEX.md (E-id registry); spi-badge.mjs renders ::: errata / ::: ruling (tests); sidebar; EXTRACTION; 50-stacking links #forced-retreats. Coverage 11–16 209/209, all gates + CI green. PR #8 ready and merged this run.
+In flight: none.
+Next: file 7 = organisation (check section list — likely SPI §19 attach/detach, §20 replacements?, §21 repair? read 00-overview file map first). Branch autopilot/70-organisation from origin/main, --base main. Sidebar regex already lists 70-organisation.
+Blocked: chart sheet capture for all CRTs (12.6, 14.6, 15.79, 15.89, 16.6–16.8) plus earlier tables — Brian.

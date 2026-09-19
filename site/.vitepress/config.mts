@@ -40,6 +40,7 @@ export default defineConfig({
           { text: 'Capability points', link: '/rules/30-capability-points' },
           { text: 'Movement', link: '/rules/40-movement' },
           { text: 'Stacking & ZOC', link: '/rules/50-stacking-and-zoc' },
+          { text: 'Combat', link: '/rules/60-combat' },
         ] },
       ],
     },

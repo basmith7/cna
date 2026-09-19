@@ -1,6 +1,8 @@
 // Single-line SPI badge syntax:  ::: spi 8.35 8.36 | ::: spi-ref 8.35 | ::: spi-omit 4.6 — reason
+// Provenance annotations use the same shape:  ::: errata E-001 — paraphrase | ::: ruling R-001 — summary
 // No closing marker; scope is implicit (to the next badge or heading). Metadata only.
-const RE = /^:::\s+(spi|spi-ref|spi-omit)\s+(.*?)\s*$/
+const RE = /^:::\s+(spi|spi-ref|spi-omit|errata|ruling)\s+(.*?)\s*$/
+const BASE = '/cna/'
 
 function esc(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
@@ -13,7 +15,7 @@ export function spiBadgePlugin(md) {
     if (!m) return false
     if (silent) return true
     let cases = m[2], reason = null
-    if (m[1] === 'spi-omit') {
+    if (m[1] === 'spi-omit' || m[1] === 'errata' || m[1] === 'ruling') {
       const m2 = /^(.*?)\s+(?:—|--)\s+(.*)$/s.exec(cases)
       if (m2) {
         cases = m2[1]
@@ -35,6 +37,12 @@ export function spiBadgePlugin(md) {
       return `<p class="spi-badge spi-primary">${anchors}SPI ${esc(list)}</p>\n`
     }
     if (kind === 'spi-ref') return `<p class="spi-badge spi-ref">see SPI ${esc(list)}</p>\n`
+    const tail = reason ? ' — ' + esc(reason) : ''
+    if (kind === 'errata') return `<p class="spi-badge spi-errata">Errata ${esc(list)}${tail}</p>\n`
+    if (kind === 'ruling') {
+      const links = cases.map(c => `<a href="${BASE}rulings/${esc(c)}">${esc(c)}</a>`).join(', ')
+      return `<p class="spi-badge spi-ruling">Ruling ${links}${tail}</p>\n`
+    }
     return `<p class="spi-badge spi-omit">SPI ${esc(list)} omitted${reason ? ' — ' + esc(reason) : ''}</p>\n`
   }
 }

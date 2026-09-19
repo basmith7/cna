@@ -1,0 +1,21 @@
+{
+ "table": "assault-size-shifts",
+ "sources": [
+  "CNA1979:15.53"
+ ],
+ "notes": [
+  "Shift is always in favour of the side whose largest unit equivalent (SPI 9.2) is bigger",
+  "Applies in addition to the two-column shift for double raw strength (SPI 15.51) and is independent of the basic differential",
+  "A brigade counts as attached to a division only if its HQ counter is attached (SPI 15.55)",
+  "E-006: the printed table misplaces the word Brigade under Adjustment; read as 3-point / 2-point brigade in the smaller-side column (Sept 1979 errata to 15.53)"
+ ],
+ "rows": [
+  {"larger": "division", "smaller": "brigade-3", "shift": 1, "sources": ["CNA1979:15.53"]},
+  {"larger": "division", "smaller": "brigade-2", "shift": 2, "sources": ["CNA1979:15.53"]},
+  {"larger": "division", "smaller": "battalion", "shift": 4, "sources": ["CNA1979:15.53"]},
+  {"larger": "division", "smaller": "company", "shift": 8, "sources": ["CNA1979:15.53"]},
+  {"larger": "brigade", "smaller": "battalion", "shift": 2, "sources": ["CNA1979:15.53"]},
+  {"larger": "brigade", "smaller": "company", "shift": 4, "sources": ["CNA1979:15.53"]},
+  {"larger": "battalion", "smaller": "company", "shift": 2, "sources": ["CNA1979:15.53"]}
+ ]
+}

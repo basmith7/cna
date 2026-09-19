@@ -40,3 +40,18 @@ test('an omit reason containing a second em-dash keeps the whole reason', () => 
   const html = md.render('::: spi-omit 4.6 — component inventory — see also 4.7\n')
   assert.match(html, /SPI 4\.6 omitted — component inventory — see also 4\.7/)
 })
+
+test('errata badge renders id and paraphrase', () => {
+  const html = md.render('::: errata E-001 — 12.44: only the target battalion is pinned\n')
+  assert.match(html, /<p class="spi-badge spi-errata">Errata E-001 — 12\.44: only the target battalion is pinned<\/p>/)
+})
+
+test('ruling badge links to the ruling file', () => {
+  const html = md.render('::: ruling R-001 — cohesion level, not DP count\n')
+  assert.match(html, /<p class="spi-badge spi-ruling">Ruling <a href="\/cna\/rulings\/R-001">R-001<\/a> — cohesion level, not DP count<\/p>/)
+})
+
+test('errata badge without a paraphrase renders bare', () => {
+  const html = md.render('::: errata E-002\n')
+  assert.match(html, /<p class="spi-badge spi-errata">Errata E-002<\/p>/)
+})
