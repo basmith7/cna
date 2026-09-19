@@ -126,7 +126,92 @@ this reason must stand and take extra losses (combat, SPI 15.82).
 
 ## Zones of control
 
-*Pending — SPI §10.*
+::: spi-omit 10.0 10.1 10.2 10.3 — section and subsection headings; rules restated below
+
+The six hexes around a unit are its **zone of control** (ZOC) if the unit is
+big enough to exert one. Enemy units entering a controlled hex must stop.
+
+### Who exerts a ZOC
+
+::: spi 10.11 10.12 10.13 10.14 10.15
+
+A hex exerts a ZOC when it holds **more than 1 SP** of combat units, whether
+that is one larger-than-battalion unit or several small ones adding up.
+Truck convoys, bare HQs, aircraft, squadron ground support units, warships,
+and markers (dumps, minefields, airfields) never do. Nor do units at
+**cohesion −26 or worse**, nor any hex whose contents total **fewer than 10
+raw defensive close assault points** — anti-tank units are always taken as
+up front for that count.
+
+::: spi 10.16
+
+Whenever a phasing unit starts a movement segment in, or moves into, a hex
+that a non-phasing unit *could* control, the non-phasing player must say
+whether that unit exerts a ZOC.
+
+### What a ZOC does
+
+::: spi 10.21
+
+A ZOC reaches every adjacent hex except across all-sea, major river, lake
+and escarpment hexsides, and except into a hex the unit itself could not
+enter from where it stands (a tank battalion projects no ZOC into salt marsh
+unless a road or track joins the two hexes).
+
+::: spi 10.22 10.23 10.24 10.25
+
+Entering an enemy ZOC costs no CP, but the unit must stop there and cannot
+leave until a later movement segment; leaving then costs the break-off price
+([movement](./40-movement.md)). A unit may never move straight from one
+controlled hex into another, and may never *retreat* into one. The single
+exception: a unit may always follow into an adjacent hex the enemy has just
+vacated through combat, retreat before assault or reaction — this is ordinary
+movement in the next movement segment, paid in CP, not an advance after
+combat. Hexes next to an enemy unit that it does not control are free to
+pass through.
+
+::: spi 10.26 10.27 10.28
+
+A friendly combat unit in a hex cancels enemy ZOC there for all movement
+purposes, and friendly ZOCs never hinder friendly units. Two opposing units
+projecting ZOC onto each other are each in the other's ZOC; a hex both sides
+project into is controlled by both. Several units controlling the same hex
+have no extra effect.
+
+::: spi 10.29
+
+Truck convoys may enter an enemy ZOC only where a friendly combat unit already
+sits. No non-combat unit (bare HQ, engineer, squadron ground support, etc.)
+may ever voluntarily enter an *unoccupied* enemy-controlled hex, and one that
+is alone in an enemy ZOC during the enemy movement/combat phase with no
+strength of any kind is **captured**.
+
+### ZOC combat requirement (holding off)
+
+::: spi 10.31 10.32
+
+Every enemy hex that projects a ZOC onto friendly combat units must be
+attacked in the friendly combat segment, by barrage or by close assault. A
+probe counts if its basic differential is −4 or better. Exempt: hexes whose
+friendly contents are only artillery, anti-tank, AA or non-combat units, or
+whose other units are pinned.
+
+::: spi 10.33 10.34 10.35
+
+The attack may be a **holding-off barrage**: a barrage on the enemy hex with
+actual barrage strength (barrage rating × TOE strength + 10) at least equal to
+the number of non-gun enemy battalion equivalents in it (sub-1-SP units and
+gun units are not counted). A division of eleven battalion equivalents needs
+11 points. A formation in the ZOC of two enemy hexes may hold off one and
+close-assault the other. If the barrage cannot be mustered, the hex must be
+close-assaulted; there is no minimum for that.
+
+::: spi 10.36
+
+A unit that can do neither must **retreat three hexes** away from the enemy
+unit — no doubling back, spending all its CP — and takes 3 disorganisation
+points on top of any the retreat itself causes. The route may not pass through
+enemy ZOC; if it is forced into one the whole unit surrenders.
 
 ## Reserve {#reserve}
 
