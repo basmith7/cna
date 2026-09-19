@@ -47,7 +47,7 @@
   },
   {
    "id": "enter-hex",
-   "action": "Enter a non-minefield hex",
+   "action": "Enter a hex with no mines",
    "cost": 0,
    "sources": [
     "CNA1979:6.3"
@@ -56,7 +56,7 @@
   },
   {
    "id": "enter-friendly-minefield-with-eng",
-   "action": "Enter a friendly minefield hex, any unit with an engineer unit",
+   "action": "Friendly mines, engineer present",
    "cost": 0,
    "sources": [
     "CNA1979:6.3"
@@ -65,7 +65,7 @@
   },
   {
    "id": "enter-friendly-minefield-foot",
-   "action": "Enter a friendly minefield hex, non-motorised, no engineer",
+   "action": "Friendly mines, foot, no engineer",
    "cost": 1,
    "sources": [
     "CNA1979:6.3"
@@ -74,7 +74,7 @@
   },
   {
    "id": "enter-friendly-minefield-motorised",
-   "action": "Enter a friendly minefield hex, motorised, no engineer",
+   "action": "Friendly mines, motorised, no engineer",
    "cost": 4,
    "sources": [
     "CNA1979:6.3"
@@ -83,7 +83,7 @@
   },
   {
    "id": "enter-enemy-minefield-foot-with-eng",
-   "action": "Enter an enemy minefield hex, non-motorised, with engineer",
+   "action": "Enemy mines, foot, engineer present",
    "cost": 2,
    "sources": [
     "CNA1979:6.3"
@@ -92,7 +92,7 @@
   },
   {
    "id": "enter-enemy-minefield-motorised-with-eng",
-   "action": "Enter an enemy minefield hex, motorised, with engineer",
+   "action": "Enemy mines, motorised, engineer present",
    "cost": 4,
    "sources": [
     "CNA1979:6.3"
@@ -101,7 +101,7 @@
   },
   {
    "id": "enter-enemy-minefield-foot",
-   "action": "Enter an enemy minefield hex, non-motorised, no engineer",
+   "action": "Enemy mines, foot, no engineer",
    "cost": 4,
    "sources": [
     "CNA1979:6.3"
@@ -110,7 +110,7 @@
   },
   {
    "id": "enter-enemy-minefield-motorised",
-   "action": "Enter an enemy minefield hex, motorised, no engineer",
+   "action": "Enemy mines, motorised, no engineer",
    "cost": 0,
    "sources": [
     "CNA1979:6.3"
@@ -136,7 +136,7 @@
   },
   {
    "id": "reserve",
-   "action": "Be placed in reserve",
+   "action": "Go into reserve",
    "cost": 0,
    "sources": [
     "CNA1979:6.3"
@@ -144,7 +144,7 @@
   },
   {
    "id": "phasing-barrage-or-assault",
-   "action": "Barrage and/or assault other than a probe",
+   "action": "Fire a barrage or make a full assault",
    "cost": 5,
    "sources": [
     "CNA1979:6.3"
@@ -153,7 +153,7 @@
   },
   {
    "id": "phasing-undergo-barrage",
-   "action": "Undergo a barrage",
+   "action": "Receive a barrage",
    "cost": 3,
    "sources": [
     "CNA1979:6.3"
@@ -171,7 +171,7 @@
   },
   {
    "id": "nonphasing-barrage-or-defend",
-   "action": "Barrage and/or undergo a barrage and/or defend against an assault other than a probe",
+   "action": "Fire or receive barrage, or defend a full assault",
    "cost": 3,
    "sources": [
     "CNA1979:6.3"
@@ -199,7 +199,7 @@
   },
   {
    "id": "desert-raider-raid",
-   "action": "Desert raider raid",
+   "action": "Raid (desert raiders)",
    "cost": 5,
    "sources": [
     "CNA1979:6.3"
@@ -207,7 +207,7 @@
   },
   {
    "id": "poison-water",
-   "action": "Attempt to poison a water source",
+   "action": "Poison a well",
    "cost": 1,
    "sources": [
     "CNA1979:6.3"
@@ -215,7 +215,7 @@
   },
   {
    "id": "sweeten-water",
-   "action": "Attempt to sweeten a poisoned water source",
+   "action": "Sweeten a poisoned well",
    "cost": 5,
    "sources": [
     "CNA1979:6.3"
@@ -223,7 +223,7 @@
   },
   {
    "id": "blow-supply-dump",
-   "action": "Attempt to blow a supply dump",
+   "action": "Blow a supply dump",
    "cost": 0,
    "sources": [
     "CNA1979:6.3"
@@ -232,7 +232,7 @@
   },
   {
    "id": "draw-water-or-load-org-phase",
-   "action": "Draw water, load/unload trucks during an organisation phase",
+   "action": "Water draw or truck load/unload in the organisation phase",
    "cost": 0,
    "sources": [
     "CNA1979:6.3"
@@ -240,7 +240,7 @@
   },
   {
    "id": "draw-water",
-   "action": "Draw water other than during an organisation phase",
+   "action": "Water draw at any other time",
    "cost": 1,
    "sources": [
     "CNA1979:6.3"
@@ -248,7 +248,7 @@
   },
   {
    "id": "load-unload",
-   "action": "Load/unload troops or supplies on trucks other than during an organisation phase",
+   "action": "Truck load/unload at any other time",
    "cost": 2,
    "sources": [
     "CNA1979:6.3"
@@ -265,7 +265,7 @@
   },
   {
    "id": "construct-other",
-   "action": "Construction/demolition of items other than supply dumps",
+   "action": "Build or demolish anything else",
    "cost": 0,
    "sources": [
     "CNA1979:6.3"
@@ -273,7 +273,7 @@
   },
   {
    "id": "rail-or-port-transport",
-   "action": "Railroad or inter-port transport of troops",
+   "action": "Move troops by rail or between ports",
    "cost": 0,
    "sources": [
     "CNA1979:6.3"
@@ -281,7 +281,7 @@
   },
   {
    "id": "air-transport",
-   "action": "Transport of troops by air",
+   "action": "Move troops by air",
    "cost": 0,
    "sources": [
     "CNA1979:6.3"
@@ -305,7 +305,7 @@
   },
   {
    "id": "commando-amphibious",
-   "action": "Commando amphibious landing",
+   "action": "Commando landing from the sea",
    "cost": 5,
    "sources": [
     "CNA1979:6.3"
@@ -315,7 +315,7 @@
   },
   {
    "id": "ready-aircraft",
-   "action": "Ready airplanes",
+   "action": "Ready aircraft",
    "cost": 10,
    "sources": [
     "CNA1979:6.3"

@@ -64,10 +64,10 @@ allowance is motorisation.
 
 ::: spi 6.17
 
-An infantry unit — any unit with a basic CPA of 10 or less — that is carried
+An infantry unit — any unit whose printed CPA is 10 or lower — that is carried
 by trucks uses the **truck unit's CPA** instead of its own for as long as it
 is carried. Anti-aircraft units printed with a CPA of "0+" may be motorised
-by assigning one medium or one heavy truck point per TOE strength point of
+by assigning one truck point (medium or heavy) for each strength point of
 guns. Loading, capacity and the movement effects are in
 [Movement](40-movement.md#trucks).
 
@@ -82,40 +82,40 @@ the table below is the readable copy.
 
 | Action | CP |
 |---|---|
-| Detach a unit (charged to the parent formation *and* the detaching unit) | 1 |
-| Attach an assigned unit (parent and unit) | 1 |
-| Attach an unassigned unit (parent and unit) | 2 |
-| Absorb 2 TOE replacement strength points (parent and unit) | 1 |
-| Enter a hex with no minefield | TEC |
-| Enter a friendly minefield hex, with an engineer unit | 0 + TEC |
-| Enter a friendly minefield hex, non-motorised, no engineer | 1 + TEC |
-| Enter a friendly minefield hex, motorised, no engineer | 4 + TEC |
-| Enter an enemy minefield hex, non-motorised, with an engineer | 2 + TEC |
-| Enter an enemy minefield hex, motorised, with an engineer | 4 + TEC |
-| Enter an enemy minefield hex, non-motorised, no engineer | 4 + TEC |
-| Enter an enemy minefield hex, motorised, no engineer | CPA + TEC |
+| Detach (parent *and* unit each pay) | 1 |
+| Attach an already-assigned unit (both pay) | 1 |
+| Attach an unassigned unit (both pay) | 2 |
+| Absorb two replacement strength points (both pay) | 1 |
+| Enter a hex with no mines | TEC |
+| Friendly mines, engineer present | 0 + TEC |
+| Friendly mines, foot, no engineer | 1 + TEC |
+| Friendly mines, motorised, no engineer | 4 + TEC |
+| Enemy mines, foot, engineer present | 2 + TEC |
+| Enemy mines, motorised, engineer present | 4 + TEC |
+| Enemy mines, foot, no engineer | 4 + TEC |
+| Enemy mines, motorised, no engineer | CPA + TEC |
 | Break contact | 2 |
 | Disengage | 4 |
-| Be placed in reserve | 0 |
+| Go into reserve | 0 |
 | Phasing: barrage and/or assault other than a probe | 5 |
 | Phasing: undergo a barrage | 3 |
 | Phasing: probe | 2 |
-| Non-phasing: barrage, be barraged, and/or defend against an assault other than a probe | 3 † |
+| Non-phasing: fire or receive barrage, or defend a full assault | 3 † |
 | Non-phasing: defend against a probe | 2 † |
 | Patrol | 0 |
-| Desert raider raid | 5 |
-| Attempt to poison a water source | 1 |
-| Attempt to sweeten a poisoned water source | 5 |
-| Attempt to blow a supply dump | ⅓ CPA |
-| Draw water, or load/unload trucks, during an organisation phase | 0 |
-| Draw water outside an organisation phase | 1 |
-| Load/unload trucks outside an organisation phase | 2 |
+| Raid (desert raiders) | 5 |
+| Poison a well | 1 |
+| Sweeten a poisoned well | 5 |
+| Blow a supply dump | ⅓ CPA |
+| Water draw or truck load/unload in the organisation phase | 0 |
+| Water draw at any other time | 1 |
+| Truck load/unload at any other time | 2 |
 | Construct a real supply dump / a dummy or non-dump | 3 / 2 |
-| Construction or demolition of anything else | 0 |
-| Rail or port-to-port transport of troops | 0 |
-| Air transport of troops; paradrop paratroops | 0 |
+| Build or demolish anything else | 0 |
+| Move troops by rail or between ports | 0 |
+| Move troops by air; drop paratroops | 0 |
 | Paradrop commandos | 5 |
-| Commando amphibious landing | 5 or 10, + TEC |
+| Commando landing from the sea | 5 or 10, + TEC |
 | Ready aircraft | 10 |
 
 † **Refund on a bad attack.** If the final adjusted assault differential is
