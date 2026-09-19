@@ -47,6 +47,6 @@ the PR that adds or substantially rewrites the file.
 ## rules/30-capability-points.md — 2026-09-19
 - Source cases read: 6.0, 6.11–6.17, 6.3 (6.2x are in rules/10-units-and-state.md)
 - Mechanics identified: CPA as the per-stage action budget; printed CPA 0 → 10 for all but movement; the allowance spans both halves of the stage (defensive spending counts); parent formations move at the lowest component CPA; no carry-over, no transfer; motorisation substitutes the truck CPA for infantry (basic CPA ≤ 10) and the "0+" anti-aircraft rule; the §6.3 cost list including the −4-differential 2 CP defender refund and the "free but restricting" note.
-- How we expressed it: one short section per rule with our own retreat example; the cost table reproduced as a markdown table in the file pending `data/tables/cp-costs.json` (schema + table not yet written — next run; values are game parameters, not text); engine notes for the reset point and the two effective-CPA exceptions; 6.15's "(without trucks)" aside expressed as "use effective CPA".
+- How we expressed it: one short section per rule with our own retreat example; the cost table transcribed to `data/tables/cp-costs.json` (new `cp-costs` schema: fixed cost + `plus` tec/cpa + `cpa_fraction` + `alt_cost` + defender refund flag) and reproduced as a readable markdown table in the file; engine notes for the reset point and the two effective-CPA exceptions; 6.15's "(without trucks)" aside expressed as "use effective CPA".
 - Errata applied: none identified.
 - Rulings raised: none.

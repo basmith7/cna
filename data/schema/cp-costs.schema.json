@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cp-costs.schema.json",
+  "title": "Capability point costs (SPI 6.3)",
+  "type": "object",
+  "required": ["table", "sources", "rows"],
+  "additionalProperties": false,
+  "properties": {
+    "table": {"const": "cp-costs"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "rows": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "action", "cost", "sources"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "action": {"type": "string"},
+          "who": {"enum": ["phasing", "non-phasing"]},
+          "cost": {"type": "integer", "minimum": 0,
+                   "description": "Fixed CP component; 0 when the cost is entirely TEC or CPA-based"},
+          "plus": {"enum": ["tec", "cpa"], "description": "Variable component added to cost"},
+          "cpa_fraction": {"type": "number", "exclusiveMinimum": 0, "maximum": 1,
+                           "description": "Cost expressed as a fraction of the unit's CPA (replaces cost)"},
+          "alt_cost": {"type": "integer", "minimum": 0, "description": "Second printed value where SPI gives 'x or y' / 'x/y'"},
+          "charged_to_parent": {"type": "boolean", "description": "Also charged to the parent formation"},
+          "refund_on_bad_differential": {"type": "integer", "minimum": 0,
+            "description": "CP returned to a defender when the final differential is -4 or worse and it neither barraged nor was barraged"},
+          "sources": {"$ref": "common.schema.json#/$defs/sources"}
+        }
+      }
+    }
+  }
+}

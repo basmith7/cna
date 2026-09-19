@@ -1,0 +1,325 @@
+{
+ "table": "cp-costs",
+ "sources": [
+  "CNA1979:6.3"
+ ],
+ "notes": [
+  "plus=tec: add the Terrain Effects Chart cost for the hex",
+  "cpa_fraction: cost is that fraction of the unit's CPA (1 = full CPA), added to any fixed cost and plus",
+  "Free actions may still restrict later CP spending (SPI 6.3 note)"
+ ],
+ "rows": [
+  {
+   "id": "detach",
+   "action": "Detach a unit",
+   "cost": 1,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "charged_to_parent": true
+  },
+  {
+   "id": "attach-assigned",
+   "action": "Attach an assigned unit",
+   "cost": 1,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "charged_to_parent": true
+  },
+  {
+   "id": "attach-unassigned",
+   "action": "Attach an unassigned unit",
+   "cost": 2,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "charged_to_parent": true
+  },
+  {
+   "id": "absorb-2-replacement-sp",
+   "action": "Absorb 2 TOE replacement strength points",
+   "cost": 1,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "charged_to_parent": true
+  },
+  {
+   "id": "enter-hex",
+   "action": "Enter a non-minefield hex",
+   "cost": 0,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "plus": "tec"
+  },
+  {
+   "id": "enter-friendly-minefield-with-eng",
+   "action": "Enter a friendly minefield hex, any unit with an engineer unit",
+   "cost": 0,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "plus": "tec"
+  },
+  {
+   "id": "enter-friendly-minefield-foot",
+   "action": "Enter a friendly minefield hex, non-motorised, no engineer",
+   "cost": 1,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "plus": "tec"
+  },
+  {
+   "id": "enter-friendly-minefield-motorised",
+   "action": "Enter a friendly minefield hex, motorised, no engineer",
+   "cost": 4,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "plus": "tec"
+  },
+  {
+   "id": "enter-enemy-minefield-foot-with-eng",
+   "action": "Enter an enemy minefield hex, non-motorised, with engineer",
+   "cost": 2,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "plus": "tec"
+  },
+  {
+   "id": "enter-enemy-minefield-motorised-with-eng",
+   "action": "Enter an enemy minefield hex, motorised, with engineer",
+   "cost": 4,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "plus": "tec"
+  },
+  {
+   "id": "enter-enemy-minefield-foot",
+   "action": "Enter an enemy minefield hex, non-motorised, no engineer",
+   "cost": 4,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "plus": "tec"
+  },
+  {
+   "id": "enter-enemy-minefield-motorised",
+   "action": "Enter an enemy minefield hex, motorised, no engineer",
+   "cost": 0,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "plus": "tec",
+   "cpa_fraction": 1
+  },
+  {
+   "id": "break-contact",
+   "action": "Break contact",
+   "cost": 2,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "disengage",
+   "action": "Disengage",
+   "cost": 4,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "reserve",
+   "action": "Be placed in reserve",
+   "cost": 0,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "phasing-barrage-or-assault",
+   "action": "Barrage and/or assault other than a probe",
+   "cost": 5,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "who": "phasing"
+  },
+  {
+   "id": "phasing-undergo-barrage",
+   "action": "Undergo a barrage",
+   "cost": 3,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "who": "phasing"
+  },
+  {
+   "id": "phasing-probe",
+   "action": "Probe",
+   "cost": 2,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "who": "phasing"
+  },
+  {
+   "id": "nonphasing-barrage-or-defend",
+   "action": "Barrage and/or undergo a barrage and/or defend against an assault other than a probe",
+   "cost": 3,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "who": "non-phasing",
+   "refund_on_bad_differential": 2
+  },
+  {
+   "id": "nonphasing-defend-probe",
+   "action": "Defend against a probe",
+   "cost": 2,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "who": "non-phasing",
+   "refund_on_bad_differential": 2
+  },
+  {
+   "id": "patrol",
+   "action": "Patrol",
+   "cost": 0,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "desert-raider-raid",
+   "action": "Desert raider raid",
+   "cost": 5,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "poison-water",
+   "action": "Attempt to poison a water source",
+   "cost": 1,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "sweeten-water",
+   "action": "Attempt to sweeten a poisoned water source",
+   "cost": 5,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "blow-supply-dump",
+   "action": "Attempt to blow a supply dump",
+   "cost": 0,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "cpa_fraction": 0.3333333333333333
+  },
+  {
+   "id": "draw-water-or-load-org-phase",
+   "action": "Draw water, load/unload trucks during an organisation phase",
+   "cost": 0,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "draw-water",
+   "action": "Draw water other than during an organisation phase",
+   "cost": 1,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "load-unload",
+   "action": "Load/unload troops or supplies on trucks other than during an organisation phase",
+   "cost": 2,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "construct-supply-dump",
+   "action": "Construct a real supply dump (alt: dummy or non-dump)",
+   "cost": 3,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "alt_cost": 2
+  },
+  {
+   "id": "construct-other",
+   "action": "Construction/demolition of items other than supply dumps",
+   "cost": 0,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "rail-or-port-transport",
+   "action": "Railroad or inter-port transport of troops",
+   "cost": 0,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "air-transport",
+   "action": "Transport of troops by air",
+   "cost": 0,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "paradrop-paratroops",
+   "action": "Paradrop paratroops",
+   "cost": 0,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "paradrop-commandos",
+   "action": "Paradrop commandos",
+   "cost": 5,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  },
+  {
+   "id": "commando-amphibious",
+   "action": "Commando amphibious landing",
+   "cost": 5,
+   "sources": [
+    "CNA1979:6.3"
+   ],
+   "alt_cost": 10,
+   "plus": "tec"
+  },
+  {
+   "id": "ready-aircraft",
+   "action": "Ready airplanes",
+   "cost": 10,
+   "sources": [
+    "CNA1979:6.3"
+   ]
+  }
+ ]
+}

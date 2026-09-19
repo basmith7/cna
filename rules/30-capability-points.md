@@ -77,8 +77,8 @@ guns. Loading, capacity and the movement effects are in
 
 Costs are per unit per action. **TEC** means the terrain cost for the hex
 entered ([Movement](40-movement.md)); **CPA** means the unit's own allowance.
-Canonical values will live in `data/tables/cp-costs.json` (not yet
-transcribed — see EXTRACTION).
+Canonical values: `data/tables/cp-costs.json` (validated by `check_data.py`);
+the table below is the readable copy.
 
 | Action | CP |
 |---|---|
