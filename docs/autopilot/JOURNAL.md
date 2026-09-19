@@ -97,3 +97,9 @@ Done: rules/60-combat.md complete (§11–§16 + §32 addenda + errata E-001–E
 In flight: none.
 Next: file 7 = organisation (check section list — likely SPI §19 attach/detach, §20 replacements?, §21 repair? read 00-overview file map first). Branch autopilot/70-organisation from origin/main, --base main. Sidebar regex already lists 70-organisation.
 Blocked: chart sheet capture for all CRTs (12.6, 14.6, 15.79, 15.89, 16.6–16.8) plus earlier tables — Brian.
+
+## 2026-09-19 03:35 (Phoenix) — autopilot/70-organisation
+Done: branch from origin/main (5b1d8d0); draft PR opened. Nothing written.
+In flight: rules/70-organisation.md — SPI §19 organisation/reorganisation (3 770 words), §20 reinforcements/replacements/CW withdrawals (2 743). §18 reserve already lives in 50-stacking-and-zoc; §17.3 training in 10-units-and-state.
+Next: read section-19/20.adoc; write in the 60-combat style (errata badges via data/errata/INDEX.md, next id E-011); sidebar; EXTRACTION; gates; gh pr ready; merge.
+Blocked: chart sheet — Brian.
