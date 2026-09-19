@@ -1,24 +1,10 @@
 ---
 title: Movement
-status: draft
+status: provisional
 ---
 
 # Movement
 
-<!-- DRAFT SKELETON — not yet restated. Section map to SPI §8 for the next run:
-  How units move ........... 8.1  (8.11–8.1x: voluntary vs involuntary, no skipping, ZOC stop/exit)
-  Continual movement ....... 8.2  (repeatable G cycle, 2-hex / reserve re-move restriction)
-  Terrain effects .......... 8.3  (8.37 Terrain Effects Chart → data/tables/terrain-effects.json;
-                                   extend common.schema terrain enum; 8.34 road/track column)
-  Special terrain .......... 8.4
-  Reaction ................. 8.5  (non-phasing movement; cross-ref 50-stacking-and-zoc)
-  Breaking off ............. 8.6  (break contact 2 CP / disengage 4 CP — costs in 30-capability-points)
-  Rail movement ............ 8.7  (Commonwealth only, phase J)
-  Tripoli and Tunisia ...... 8.8
-  Motorised units / trucks . 8.9  (motorisation CPA rule is in 30-capability-points#motorisation;
-                                   loading/capacity/fuel/breakdown pointers here; anchor #trucks)
-  Breakdown itself is §21 — cross-reference, not restated here.
--->
 
 This file defines how land units move: when movement is allowed, what it
 costs, how the repeatable move–fight cycle works, terrain, reaction, breaking
@@ -314,3 +300,53 @@ stacking limit and unlimited water; the region boxes also count as unlimited
 supply dumps and as airfields with enough facilities, non-transferable
 supply and ground crew for every Axis aircraft. A truck or motorisation
 point that loads or unloads supply in a box may not move that stage.
+
+## Motorised units and trucks {#trucks}
+
+::: spi 8.91 8.92 8.93 8.94 8.95 8.96 8.97 8.98 8.99
+
+::: spi-omit 8.9 — subsection heading
+
+A **motorised** unit always has enough vehicles to carry all of itself at
+once — tracked, wheeled or motorcycle. It is either *inherently* motorised
+(its vehicles normally cannot be removed) or a foot unit being carried by
+**truck points** assigned to it. Any non-motorised unit except the Meharisti
+camels can be motorised, and de-motorised, by adding or removing enough truck
+points; while carried it takes the CPA of the truck type carrying it
+([Capability points](30-capability-points.md#motorisation)). Infantry marked
+**+** after the CPA on the characteristics chart were historically fully
+motorised; they differ only in the small ways noted in
+[Organisation](70-organisation.md) and [§32](95-abstract-logistics-and-air.md).
+
+A motorised unit keeps its CPA even while doing something it could not do
+mounted — towed guns firing a barrage, infantry using a fortification,
+motorised infantry assaulting into salt marsh.
+
+**Truck points** carry TOE strength points or supply. Truck points shown by
+a counter (for example the trucks of a division represented by its HQ) are
+assigned to loads point by point. *Our example:* a six-point battalion with
+4 light, 2 medium and 1 heavy truck point assigned is fully motorised, if
+wastefully. Trucks are never obliged to carry anything and may move empty.
+
+Trucks attach to any unit with a historical designation and are then shown
+by that unit's counter — but they belong to the **largest parent** the unit
+is currently attached to, so a battalion's trucks become its brigade's on
+attachment and need not be re-split. Attaching is possible only in the
+organisation phase (or whenever the unit itself is attached to a parent that
+stage); detaching only in the organisation phase, except that a parent
+detaching a subordinate in a movement/combat phase may send any share of its
+trucks with it. A unit at cohesion **−5 or worse** may not strip all trucks
+from a designated unit.
+
+Attached trucks move with their unit in the movement/combat phase;
+unattached trucks move in the truck convoy phase (either may also move in
+the enemy half by reacting and so on). Convoy trucks can never overspend
+their CPA: if involuntary movement would push them over, they are captured
+instead.
+Within the convoy phase truck points move in any grouping, order, and with
+any stops, with one constraint: points that start in the same hex and follow
+the same route must move as one group until they diverge. A truck marker
+may stand for any of the unattached truck points in a hex (unless they are
+all carrying infantry replacements), and for any replacement points or
+repaired vehicles there — not for tank replacements alone; one marker per
+unattached truck point is the cap.
