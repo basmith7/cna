@@ -103,3 +103,9 @@ Done: branch from origin/main (5b1d8d0); draft PR opened. Nothing written.
 In flight: rules/70-organisation.md — SPI §19 organisation/reorganisation (3 770 words), §20 reinforcements/replacements/CW withdrawals (2 743). §18 reserve already lives in 50-stacking-and-zoc; §17.3 training in 10-units-and-state.
 Next: read section-19/20.adoc; write in the 60-combat style (errata badges via data/errata/INDEX.md, next id E-011); sidebar; EXTRACTION; gates; gh pr ready; merge.
 Blocked: chart sheet — Brian.
+
+## 2026-09-19 03:37 (Phoenix) — autopilot/70-organisation
+Done: rules/70-organisation.md complete (§19–§20, §32 addenda, errata E-011–E-016); data/tables/replacement-training.json + schema; sidebar; EXTRACTION. Coverage 19–20 111/111; all gates green locally. PR #9 ready; merging this run if CI green.
+In flight: none.
+Next: file 8 = engineering (SPI §22–§26: check word counts — 22: 1 900, 23: 409, 24: 2 746, 25: 360, 26: 616). Branch autopilot/80-engineering from origin/main. Next errata id E-017. §21 (breakdown/repair) is mapped to movement/special per 00-overview — confirm before writing.
+Blocked: chart sheet — Brian.
