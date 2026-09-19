@@ -11,7 +11,7 @@ Write anything here: corrections, priorities, "stop doing X", questions.
 The next run reads this section first, acts on it, and moves each item to
 *Addressed* with a one-line reply. Leave the list empty when there's nothing.
 
-- 2026-09-19 (Brian): **New orders — mission 2** in `AUTOPILOT.md` (Parts A, B, C, D, in that order). The `MISSION COMPLETE` below is mission 1; ignore it. Policy for Part B is in `ATTRIBUTION.md` and `rulings/README.md`; I have contacted NJHarman and quoting under CC-BY-SA proceeds without waiting for a reply.
+- 2026-09-19 (Brian): **New orders — mission 2** in `AUTOPILOT.md` (Parts A, B, C, D, in that order). The `MISSION COMPLETE` below is mission 1; ignore it. Policy for Part B is in `ATTRIBUTION.md` and `rulings/README.md`; quoting under CC-BY-SA proceeds now, no external sign-off needed.
 
 ## Addressed
 

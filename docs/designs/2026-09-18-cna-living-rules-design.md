@@ -221,8 +221,9 @@ Discussions → PR. One maintainer accepts; a fork policy is written in
    transcribed alongside the file that first needs them. Rulings logged as
    hit; NJHarman seed imported at the start of step 3.
 4. **Site phase 2** once ≥3 files exist.
-5. **Outreach** in parallel with 1: NJHarman (rulings upstreaming, hex CSV as cross-check),
-   Dylan Steele (case-ID citation target).
+5. **Community coordination** with upstream sources and peer projects is
+   tracked outside this repo; results land here as attributed imports
+   (`ATTRIBUTION.md`) or cross-checks.
 
 Air, Logistics, scenarios, OA, map: separate specs after 3 is done.
 

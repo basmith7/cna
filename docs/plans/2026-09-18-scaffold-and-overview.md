@@ -2467,7 +2467,7 @@ git ls-files | grep -E 'cache|\.jpg$|node_modules|\.venv' ; echo "(must print no
 
 - [ ] **Step 2: Report to Brian**
 
-State the pass/fail of each command above verbatim, the case count in `data/spi-cases.json`, and the two manual follow-ups: create the GitHub repo `basmith7/cna` and push `main`; enable Pages (Source: GitHub Actions). Spec step 5 (outreach) is Brian's; the drafts are in `docs/outreach/`.
+State the pass/fail of each command above verbatim, the case count in `data/spi-cases.json`, and the two manual follow-ups: create the GitHub repo `basmith7/cna` and push `main`; enable Pages (Source: GitHub Actions). Spec step 5 is Brian's and is tracked outside the repo.
 
 ---
 

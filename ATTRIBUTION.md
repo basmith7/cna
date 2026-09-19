@@ -20,9 +20,8 @@ text is quoted anywhere in the repository or the built site.
 - Modifications: none to the quoted text. Our decision, rationale and any
   restated rules prose that results from a ruling are our own and are not
   attributed to him.
-- Contact: reached out 2026-09; awaiting reply. The quotes stay under CC-BY-SA
-  regardless; if he prefers a different form of credit we will change this
-  file and the footnotes.
+- If the author prefers a different form of credit, this file and the
+  footnotes will be changed to match.
 
 Any ruling that quotes this source is itself CC-BY-SA 4.0 (`LICENSE-TEXT`),
 which is compatible with, and required by, the source licence.
