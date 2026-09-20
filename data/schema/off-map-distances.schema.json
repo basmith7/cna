@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "off-map-distances.schema.json",
+  "title": "Off-Map Land Unit Movement Distance Chart (SPI 8.89)",
+  "type": "object", "required": ["table", "sources", "places", "cpa_bands", "rows"], "additionalProperties": false,
+  "$defs": {"place": {"enum": ["tunis", "gabes", "tripoli", "tripolitania", "nofilia"]}},
+  "properties": {
+    "table": {"const": "off-map-distances"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "places": {"type": "array", "items": {"$ref": "#/$defs/place"}, "description": "The four west-edge boxes plus Nofilia, the map-edge town, in chart order"},
+    "cpa_bands": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "object", "additionalProperties": false,
+                   "properties": {"min": {"type": "integer", "minimum": 0}, "max": {"type": "integer", "minimum": 0}}},
+                  "description": "Unit CPA bands in the order of each row's stages: 25 or more / 15 to 20 / under 15 (the chart's 21-24 gap is as printed)"},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["a", "b", "stages", "sources"], "additionalProperties": false,
+      "properties": {
+        "a": {"$ref": "#/$defs/place"}, "b": {"$ref": "#/$defs/place"},
+        "stages": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "integer", "minimum": 1},
+                   "description": "Operations stages of continuous movement between a and b, per CPA band"},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  }
+}
