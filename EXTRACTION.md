@@ -168,6 +168,11 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: `scan:discord:Axis Charts.pdf:p34` — **0 of 60 cells differ**. No errata.
 - Rules: `rules/95-abstract-logistics-and-air.md` 32.66 `spi-omit` → primary `::: spi 32.66`. 32.59 (Abstract Truck/Motorization Loss Chart) is still unlocated.
 
+## data/tables/off-map-distances.json — 2026-09-20 (Part C, rulebook page)
+- Source: archive.org scan jp2 page 70 — like the TEC, the 8.89 off-map distance chart is a rulebook page (with 36.53, 37.4 and 56.26), not on the chart sheet. Ten place-pairs × three CPA bands. Schema `off-map-distances.schema.json`; `tests/test_off_map_distances.py` written first (slower band never fewer stages).
+- Cross-check: `scan:discord:CampaignNorthAfrica - converted.pdf:p71` — **0 of 10 cells differ**. No errata.
+- Rules: `rules/40-movement.md` 8.89 `spi-omit` → primary `::: spi 8.89`. §8 now has no omitted chart.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:

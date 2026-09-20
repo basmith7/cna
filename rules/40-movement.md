@@ -285,7 +285,13 @@ stacking, direction and no-CP-spent conditions all hold.
 
 ::: spi-omit 8.8 — subsection heading
 
-::: spi-omit 8.89 — the Off-Map Land Unit Movement Distance Chart is a lookup table on the chart sheet; transcribed to `data/tables/off-map-distances.json` when captured
+::: spi 8.89
+
+Off-map movement distances (the 8.89 chart) are data:
+`data/tables/off-map-distances.json` — stages of continuous movement
+between Tunis, Gabes, Tripoli, Tripolitania and Nofilia for units with CPA
+25 or more, 15 to 20, or under 15: one stage per box for the fastest
+units (Tunis to Nofilia in four), three per box for the slowest (fourteen).
 
 The west edge of map A carries four region boxes — **Tripolitania, Tripoli,
 Gabes, Tunis** — plus small *in-transit* boxes between them. Only Axis units
