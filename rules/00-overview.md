@@ -31,6 +31,13 @@ New to the game? Build the illustrated primer with
 `python3 tools/learn_page.py` and open `docs/learn/index.html`. It is not
 published here because it contains crops of the original charts.
 
+::: spi-omit 1.0 — SPI's introduction: scale, player count and design intent; the scale facts are given below
+::: spi-omit 2.0 — how-to-play orientation and the rules' organisation; SPI's role split is reduced to [Roles](#roles)
+::: spi-omit 4.0 4.1 4.2 4.21 4.22 4.23 4.24 4.3 — descriptions of the physical components (maps, counter faces, symbols, marker and chart inventories); the mechanics they mention are restated in the system files
+::: spi-omit 4.4 4.41 4.43 4.44 4.45 4.46 4.47 4.48 4.49 — subsection heading and descriptions of the arrival charts (Reinforcement Schedules, O/A and characteristics charts); the arrival procedure itself is in [Organisation](70-organisation.md#reinforcements)
+::: spi-omit 4.5 4.51 4.52 4.53 4.54 4.55 — the log-sheet groupings by commander role; paperwork, not rules
+::: spi-omit 4.6 — inventory of game parts
+
 ## Three games in one box
 
 ::: spi-ref 1.0 32.0

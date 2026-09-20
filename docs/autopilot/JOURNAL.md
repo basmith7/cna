@@ -165,3 +165,9 @@ Done: mission 2 orders written to AUTOPILOT.md; ATTRIBUTION.md, README legal pos
 In flight: none.
 Next: Part A — autopilot/a-coverage-gap.
 Blocked: none.
+
+## 2026-09-19 18:27 — autopilot/a-coverage-gap
+Done: Part A in one commit — omit blocks for §1, §2, §4 (incl. 4.4, missing from the orders' list) in 00-overview; 4.25 + 4.42 restated in 70-organisation, 4.26 in 50-stacking; 17.2 omitted; coverage.md regenerated; EXTRACTION entry. Coverage §1–32: 974/974. PR #17.
+In flight: PR #17 marked ready; merge when CI green.
+Next: Part B — fetch njharman.html to ~/.cache/cna-scans, read ATTRIBUTION.md + rulings/README.md, first topic PR (footnote plugin is already wired — package.json, config.mts, footnote.test.mjs exist from V-001).
+Blocked: none.

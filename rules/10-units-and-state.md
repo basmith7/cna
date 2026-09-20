@@ -251,6 +251,8 @@ fight; cohesion adjusts it for a single close assault, as follows.
 
 ### Adjusting morale for an assault
 
+::: spi-omit 17.2 — subsection heading
+
 ::: spi 17.21 17.22 17.23 17.24
 
 Each time a unit joins a close assault (or a probe), its cohesion level at that

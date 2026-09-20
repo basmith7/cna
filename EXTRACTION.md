@@ -23,6 +23,13 @@ the PR that adds or substantially rewrites the file.
 - Errata applied: none (no values stated).
 - Rulings raised: none.
 
+## rules/00-overview.md, 10-units-and-state.md, 50-stacking-and-zoc.md, 70-organisation.md — 2026-09-20 (Land Game coverage gap)
+- Source cases read: 1.0, 2.0, 4.0–4.6, 4.21–4.26, 4.41–4.49, 4.51–4.55, 17.2.
+- Mechanics identified: 4.25 — an attached unit has no counter; units set up in their assigned parent's hex start attached unless the scenario says otherwise. 4.26 — holding boxes stand for a hex; contents are in that hex for all purposes. 4.42 — the arrival lookup chain (Reinforcement Track → O/A sheet → characteristics code → Unit Characteristics Chart → TOE log) and the rule that a parent arrives with every listed unit except those with their own later date or excluded on the track. Everything else in §1, §2, §4 and the 17.2 heading is introduction, component and chart description, log-sheet grouping or parts inventory.
+- How we expressed it: 4.25 as a paragraph after the attachment-cost table in Organisation; 4.26 as a paragraph under Stacking points; 4.42 as a paragraph closing the Reinforcements section; six `spi-omit` blocks with reasons at the head of the Overview (4.4, a heading with a pointer to 20.2, was not in the mission's list but is in the same group); `spi-omit 17.2` in Units and state. No SPI wording reused; the 4.25 and 4.42 examples were read for mechanics only.
+- Errata applied: none (no values).
+- Rulings raised: none.
+
 ## rules/glossary.md — 2026-09-18
 - Source cases read: 2.0 (term list), 3.21, 3.22, 3.3, 5.1, 5.2, 6.11–6.26, 7.1, 8.0, 8.2, 8.37, 9.0, 10.0, 11.0, 11.3, 12.0, 12.6, 13.0, 14.0, 15.0, 15.5, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 29.0, 32.1
 - Mechanics identified: the vocabulary an engine needs as state and enums — CP/CPA, cohesion (DP/RP), TOE points, raw/actual conversion, unit type vs class, reserve/reaction/continual movement, the combat step names, initiative, weather, ZOC, stacking, supply unit.

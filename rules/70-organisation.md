@@ -96,6 +96,13 @@ parent's hex must happen in an earlier movement segment under the usual
 stacking limits. A unit detached during a movement segment stops there, as
 does its parent, unless the two go on together as a stack.
 
+::: spi 4.25
+
+An attached unit has no counter on the map: the parent's counter stands for
+it and its log sheet records it. At the start of a scenario every unit that
+is assigned to a parent and set up in the parent's hex begins **attached**,
+and so is not placed, unless the scenario says otherwise.
+
 - **Substitution.** A parent short of an assigned unit (never arrived, or
   reassigned) may attach an independent unit in its place, provided the
   substitute's own structure fits the slot: an infantry brigade with four
@@ -193,6 +200,18 @@ thereafter ordinary units.
   with it may be diverted to **Benghazi**, provided stacking allows and
   Benghazi's efficiency is level three or better; the diversion consumes
   Benghazi port capacity for the stage (SPI 55.1).
+
+::: spi 4.42
+
+Reading an arrival goes chart by chart. The Reinforcement Track names the
+units due in the current stage; each is looked up on its parent formation's
+**O/A sheet**, which lists every unit of the parent with a characteristics
+code; the code is looked up on the nationality's **Unit Characteristics
+Chart** for ratings, CPA and strength; and the result is written onto a TOE
+log for the parent. A parent brings every unit its O/A sheet lists except
+those with a later arrival date of their own or marked excluded on the
+track. Detachments that arrive alone are listed under their parent so that
+the same sheet serves.
 
 ## Replacement points {#replacement-points}
 
