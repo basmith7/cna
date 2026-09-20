@@ -24,7 +24,7 @@ Mission 1 (rules files 1–10 and site phase 2): all merged, PRs #2–#13.
 |---|---|---|---|
 | A | close the 30-case Land Game coverage gap (§1, §2, §4, 17.2) | **merged** — §1–32 coverage 974/974 | #17 |
 | B | seed rulings from NJHarman (CORRECTION / CLARIFICATION / INTERPRETATION, Land Game topics) | **merged** — R-002–R-019 (18 proposed rulings, one PR per topic), `rulings/register.md` generated, 5 items recorded as not imported in `EXTRACTION.md` | #18, #20–#26 |
-| C | chart sheet tables into `data/tables/`, cross-checked | in progress — 15 tables merged (12.6, 14.6, 15.79+E-008, 15.89, 16.6, 16.7, 16.8, 17.4, 17.6, 21.38, 22.8, 22.44, 27.93, 29.61+E-025, 29.7); shared sheet mapped to jp2 95–110 | #27–#35 |
+| C | chart sheet tables into `data/tables/`, cross-checked | in progress — 17 tables captured (7.2, 9.4, 12.6, 14.6, 15.79+E-008, 15.89, 16.6, 16.7, 16.8, 17.4, 17.6, 21.38, 22.8, 22.44, 27.93, 29.61+E-025, 29.7) and two mission-1 tables cross-checked (6.3 clean; 15.53 gained its missing 3-vs-2 = 0 row); shared sheet mapped to jp2 95–110 | #27–#39 |
 | D | publish the primer (Parts A–C) as the site's *Learn* page; Part D of the primer waits for the map | not started | — |
 
 ## Next steps

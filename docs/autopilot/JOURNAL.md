@@ -189,3 +189,9 @@ Done: Part C this run — #27 (12.6, 14.6), #28 (15.79 + E-008 overlay), #29 (29
 In flight: none; working tree clean, all PRs merged.
 Next: remaining pending-capture omits, in this order: 24.17 construction (jp2 103) + 24.18 demolition (jp2 104) for 80-engineering; 19.5 maximum attachment (jp2 100) + 20.3 replacement conversion (jp2 101) for 70-organisation (text-valued tables — design a shape first); 27.91 desert raider (jp2 102, per-target procedure list); then the player-sheet tables (19.3, 20.66, 20.78, 27.92, 30.46, 30.59) — check the Discord Axis/Commonwealth Charts.pdf contact sheets; 8.37 / 8.89 still unlocated. Then Part D.
 Blocked: none. Reminders: run check_overlap on untracked files explicitly (`check_overlap.py rulings/ data/`) — the no-arg run only sees tracked files; Discord page = jp2 − 94; never --delete-branch under a stacked PR.
+
+## 2026-09-19 19:23 — main
+Done: after the 19:18 entry, four more PRs merged: #36 (cp-costs 6.3 cross-checked, 0 diffs), #37 (assault-size-shifts 15.53 cross-checked, missing 3 SP vs 2 SP = 0 row added), #38 (7.2 initiative ratings), #39 (9.4 stacking point values). 94 tests. Tree clean.
+In flight: none.
+Next: 24.17 construction (jp2 103) + 24.18 demolition (jp2 104) — text-valued rows (item / situation / unit required / stages / restrictions): design a schema with enums for unit-required and restate restrictions as our own short flags, never the chart's sentences. Then 19.5 max attachment (jp2 100), 20.3 replacement conversion (jp2 101), 27.91 desert raider (jp2 102). Then player-sheet tables; 8.37/8.89 still unlocated. Then Part D.
+Blocked: none.
