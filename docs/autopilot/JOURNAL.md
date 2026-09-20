@@ -195,3 +195,9 @@ Done: after the 19:18 entry, four more PRs merged: #36 (cp-costs 6.3 cross-check
 In flight: none.
 Next: 24.17 construction (jp2 103) + 24.18 demolition (jp2 104) — text-valued rows (item / situation / unit required / stages / restrictions): design a schema with enums for unit-required and restate restrictions as our own short flags, never the chart's sentences. Then 19.5 max attachment (jp2 100), 20.3 replacement conversion (jp2 101), 27.91 desert raider (jp2 102). Then player-sheet tables; 8.37/8.89 still unlocated. Then Part D.
 Blocked: none.
+
+## 2026-09-19 19:26 — main
+Done: #40 merged (20.3 replacement conversion + E-012 overlay). 18 chart tables captured this run; 96 tests; tree clean; no open autopilot PRs.
+In flight: none.
+Next: 19.5 maximum attachment (jp2 100, upper half; matrix of parent type × attachable type — check the crop first) and 24.17/24.18 construction & demolition (jp2 103/104; text-valued: item / unit required / stages / restrictions → enums + our own flags). Then 27.91 desert raider (jp2 102). Then player-sheet tables; 8.37/8.89 unlocated. Then Part D.
+Blocked: none.
