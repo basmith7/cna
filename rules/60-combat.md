@@ -436,7 +436,11 @@ adjusted column, and takes the result — a percentage loss, possibly with
 *engaged*, *retreat* or *captured* — before the next hex is assaulted. Both
 sides spend ammunition. A weak attack is a **probe** ([below](#probes)).
 
-::: spi-omit 15.89 — the Prisoners Captured Results Table is on the chart sheet; to `data/tables/prisoners-captured.json` when captured
+::: spi 15.89
+
+The Prisoners Captured Results Table is data: `data/tables/prisoners-captured.json`
+— one die, and a tenth to three-quarters of the losses just taken are
+prisoners, rising with the roll (a 4 and a 5 both give half).
 
 ### Who takes part
 
@@ -765,7 +769,16 @@ on the Reconnaissance Table against the surviving points to learn how many
 units the enemy must describe, then roll one die on the Objective Loss Table
 for casualties among the units patrolled. Nothing is recorded as moving.
 
-::: spi-omit 16.6 16.7 16.8 — the Patrol Survival, Reconnaissance and Objective Loss tables are on the chart sheet; to `data/tables/patrol-*.json` when captured
+::: spi 16.7 16.8
+
+The Reconnaissance and Objective Loss tables are data:
+`data/tables/patrol-reconnaissance.json` (die × net patrol points → how many
+battalion-equivalents are described; three points on a 6 reveal everything,
+one point on a 1 or 2 nothing) and `data/tables/objective-loss.json` (a 5
+captures one TOE point, a 6 kills one, anything lower does nothing; a
+capture by a patrol that was itself wiped out counts as a kill).
+
+::: spi-omit 16.6 — the Patrol Survival Table is on the chart sheet (jp2 95); to `data/tables/patrol-survival.json` when captured
 
 ### Who may patrol
 

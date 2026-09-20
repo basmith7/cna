@@ -1,0 +1,13 @@
+{
+ "table": "objective-loss",
+ "sources": ["CNA1979:16.8", "scan:p97"],
+ "notes": [
+  "One die after a patrol survives: TOE points the patrolled hex loses, killed / captured. The captured point becomes a killed point if the patrolling force was itself wiped out (chart asterisk; SPI 16.5x)",
+  "Transcribed from the archive.org scan (jp2 97) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p3): 0 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {"die": {"from": 1, "to": 4}, "killed": 0, "captured": 0, "sources": ["CNA1979:16.8", "scan:p97"]},
+  {"die": {"from": 5, "to": 5}, "killed": 0, "captured": 1, "sources": ["CNA1979:16.8", "scan:p97"]},
+  {"die": {"from": 6, "to": 6}, "killed": 1, "captured": 0, "sources": ["CNA1979:16.8", "scan:p97"]}
+ ]
+}

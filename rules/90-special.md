@@ -233,7 +233,12 @@ An LRDG entering Rommel's hex may try to kill or capture him: **10 CP**
 Table. At most four attempts in a campaign game, one in a shorter scenario.
 Kinship with the right novelists earns +1.
 
-::: spi-omit 27.91 27.92 27.93 — the Desert Raider, Raid on Rommel and SAS Raid tables are on the chart sheet; to `data/tables/raids.json` when captured
+::: spi 27.93
+
+The SAS Raid Table is data: `data/tables/sas-raid.json` — one die, and from
+nothing on a 1 to half the aircraft on the ground on a 6 are destroyed.
+
+::: spi-omit 27.91 27.92 — the Desert Raider Raids Table (jp2 102, a per-target list) and the Raid on Rommel Table are still to be captured; to `data/tables/raids.json`
 
 ## Commandos
 
