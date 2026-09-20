@@ -23,7 +23,7 @@ the PR that adds or substantially rewrites the file.
 - Errata applied: none (no values stated).
 - Rulings raised: none.
 
-## NJHarman seed — 2026-09-20 (rulings/R-002 onward)
+## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:
 
@@ -46,7 +46,7 @@ the PR that adds or substantially rewrites the file.
 | Anti-Armor (Additions section) | INTERPRETATION | 14.32 terrain shifts both sides, hexside shifts attacker only | R-015 |
 | Tank Delivery Squadrons | INTERPRETATION ×2 | 22.6 TDS move in the truck convoy phase; need a combat unit to react/RBA/retreat | R-016, R-017 |
 | More Words | CORRECTION | dump construction cost is the 24.9 figure, not the Construction Chart (24.17) one | R-018 |
-| Commonwealth Fleet | CORRECTION | 30.15 hundred-sea-hex line is row Bxx24 | next PR (special) |
+| Commonwealth Fleet | CORRECTION | 30.15 hundred-sea-hex line is row Bxx24 | R-019 |
 | Coastal Shipping | CORRECTION/CLARIFICATION | shipping phase name | not imported — Logistics Game (§5x); later spec |
 | Unlimited Supplies | CLARIFICATION | 60.44 vs 57.0 Cairo only | not imported — scenario / Logistics Game; later spec |
 | Leaky Gas Tanks | CLARIFICATION/CHANGE? | fuel in tanks does not evaporate | not imported — Logistics Game and self-tagged as a possible change; later spec |
