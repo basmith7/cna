@@ -90,6 +90,9 @@ the PR that adds or substantially rewrites the file.
 ## data/tables/cp-costs.json — 2026-09-20 (Part C cross-check only)
 - The CP cost table was transcribed from the 6.3 rules text in mission 1. Cross-checked row by row against the chart sheet's Capability Point Expenditure Summary on archive.org jp2 95 and on `scan:discord:Shared Charts.pdf:p1`: **0 of 36 rows differ**. `scan:p95` added to the file's sources; no value changed.
 
+## data/tables/assault-size-shifts.json — 2026-09-20 (Part C cross-check)
+- Transcribed from the 15.53 rules text in mission 1; cross-checked against the Organization Size Close Assault Modifications Chart on archive.org jp2 95 and `scan:discord:Shared Charts.pdf:p1`: **1 of 8 rows differed** — the chart's explicit "3 SP vs 2 SP → 0" row was missing (a transcription gap, not errata; E-006 already applied). Added as `shift: 0` (schema minimum lowered to 0); the other seven rows agree. `scan:p95` added to sources.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:
