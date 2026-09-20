@@ -171,3 +171,9 @@ Done: Part A in one commit — omit blocks for §1, §2, §4 (incl. 4.4, missing
 In flight: PR #17 marked ready; merge when CI green.
 Next: Part B — fetch njharman.html to ~/.cache/cna-scans, read ATTRIBUTION.md + rulings/README.md, first topic PR (footnote plugin is already wired — package.json, config.mts, footnote.test.mjs exist from V-001).
 Blocked: none.
+
+## 2026-09-19 18:58 — autopilot/c-close-assault-crt
+Done: Part A merged (#17). Part B merged: register page + R-002 (#18), R-003–R-005 (#20), R-006–R-008 (#21), R-009 (#22), R-010–R-013 (#23), R-014–R-015 (#24), R-016–R-018 (#25), R-019 (#26); seed complete, EXTRACTION table lists every item. Part C: 12.6 + 14.6 merged (#27); 15.79 + E-008 overlay in PR #28 (ready, CI pending at handoff).
+In flight: PR #28 — merge if green. Clay Stone's PDFs have NO chart sheet; cross-checks used the Discord 300 dpi "Shared Charts.pdf" (cache) instead — say so in every EXTRACTION entry.
+Next: Part C continues per rules file — Shared Charts.pdf contact sheet (pdftoppm -r 60) shows where each table is: p1 6.3 CP costs + 15.53 + 16.6; p2 7.2, 9.4, 12.6; p3 14.6, 15.89, 16.7, 16.8, 27.93; p4 15.79; p5 17.4 morale, 17.6 training, 40.8, 52.8; p6 19.5, 39.5, 29.61 weather; p7 21.38 breakdown, 22.15, 20.3; p8 22.44, 22.8, 27.91, 29.7; p9 24.17 construction; p10 24.18 demolition, 35.23, 38.31, 45.6; p11 40.4, 42.27, 41.39, 45.4, 45.5, 46.41, 49.19; p12 41.5; p13 46.3, 50.2, 58.5; p14 52.7, 54.12, 54.17, 54.2; p15 54.5, 55.3; p16 index. Terrain Effects Chart 8.37 is NOT in that PDF (it is on the map or the player-specific sheets) — search the djvu XML. Start with 90-special (21.38 breakdown, 29.6/29.7 weather + E-025) or 40-movement (8.37 via djvu XML).
+Blocked: none. Lesson: never `--delete-branch` a merged PR while a stacked PR still targets it (GitHub auto-closes the stacked PR); retarget first.
