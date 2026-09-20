@@ -1,0 +1,20 @@
+{
+  "id": "E-014",
+  "table": "axis-replacement-pool",
+  "affects": [
+    "20.66"
+  ],
+  "sources": [
+    "CNA1979:20.66"
+  ],
+  "summary": "Italian Production Chart note: the tank with no replacements is the M 11/39, not the M 13/39",
+  "patches": [
+    {
+      "op": "replace",
+      "path": "/italian/no_replacements_for",
+      "value": [
+        "m-11-39"
+      ]
+    }
+  ]
+}
