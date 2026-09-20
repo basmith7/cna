@@ -38,10 +38,10 @@ the PR that adds or substantially rewrites the file.
 | Reaction | INTERPRETATION | no well-poisoning during reaction (13.25 by analogy) | R-007 |
 | More Words | CORRECTION | 8.52 last sentence / 8.53d "in combat" | R-008 |
 | Barrage | INTERPRETATION | 12.33 terrain adjustments apply to the attacker too | R-009 |
-| Retreat Before Assault | INTERPRETATION | RBA is not bound by 15.82; may be an advance | next PR (assault) |
-| Combat | CLARIFICATION | 15.83b each side totals its own points | next PR (assault) |
-| Combat | CLARIFICATION | 15.29 withhold-and-retreat needs a path taken | next PR (assault) |
-| Combat | INTERPRETATION | pinned units spend no ammunition in close assault | next PR (assault) |
+| Retreat Before Assault | INTERPRETATION | RBA is not bound by 15.82; may be an advance | R-010 |
+| Combat | CLARIFICATION | 15.83b each side totals its own points | R-011 |
+| Combat | CLARIFICATION | 15.29 withhold-and-retreat needs a path taken | R-012 |
+| Combat | INTERPRETATION | pinned units spend no ammunition in close assault | R-013 |
 | Combat | CLARIFICATION | 14.52 capturing destroyed tanks needs a battalion-sized combat unit | next PR (anti-armour) |
 | Anti-Armor (Additions section) | INTERPRETATION | 14.32 terrain shifts both sides, hexside shifts attacker only | next PR (anti-armour) |
 | Tank Delivery Squadrons | INTERPRETATION ×2 | 22.6 TDS move in the truck convoy phase; need a combat unit to react/RBA/retreat | next PR (engineering) |
