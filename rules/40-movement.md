@@ -287,7 +287,7 @@ stacking, direction and no-CP-spent conditions all hold.
 
 ::: spi 8.89
 
-The Off-Map Land Unit Movement Distance Chart is data:
+Off-map movement distances (the 8.89 chart) are data:
 `data/tables/off-map-distances.json` — stages of continuous movement
 between Tunis, Gabes, Tripoli, Tripolitania and Nofilia for units with CPA
 25 or more, 15 to 20, or under 15: one stage per box for the fastest
