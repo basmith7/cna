@@ -65,6 +65,11 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: `scan:discord:Shared Charts.pdf:p3` — **0 of 33 cells differ**. No errata.
 - Rules: `rules/60-combat.md` 15.89 and 16.7/16.8 → primary `::: spi` blocks (16.6 Patrol Survival stays omitted; it is on jp2 95); `rules/90-special.md` 27.93 → primary; 27.91/27.92 stay omitted (the Desert Raider table is a per-target procedure list on jp2 102 and needs its own shape; the Raid on Rommel table was not found on the shared sheet).
 
+## data/tables/patrol-survival.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 95, the Patrol Survival Table (SPI 16.6): 4 rows × killed/captured plus the recce −1 modifier; schema `patrol-survival.schema.json`; `tests/test_patrol_survival.py` written first.
+- Cross-check: `scan:discord:Shared Charts.pdf:p1` — **0 of 8 cells differ**. No errata.
+- Rules: `rules/60-combat.md` 16.6 → primary `::: spi 16.6`; §16 now has no pending-capture omit.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:

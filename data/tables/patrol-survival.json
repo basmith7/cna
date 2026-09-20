@@ -1,0 +1,15 @@
+{
+ "table": "patrol-survival",
+ "sources": ["CNA1979:16.6", "scan:p95"],
+ "notes": [
+  "One die per patrol (skipped when the target hex holds no combat units, SPI 16.5x): TOE points of the patrolling force killed / captured. Subtract one from the die when every patrolling point is recce (recce_only_modifier), which is why a 0 row exists",
+  "Transcribed from the archive.org scan (jp2 95) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p1): 0 of 8 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "recce_only_modifier": -1,
+ "rows": [
+  {"die": {"from": 0, "to": 3}, "killed": 0, "captured": 0, "sources": ["CNA1979:16.6", "scan:p95"]},
+  {"die": {"from": 4, "to": 4}, "killed": 0, "captured": 1, "sources": ["CNA1979:16.6", "scan:p95"]},
+  {"die": {"from": 5, "to": 5}, "killed": 1, "captured": 0, "sources": ["CNA1979:16.6", "scan:p95"]},
+  {"die": {"from": 6, "to": 6}, "killed": 1, "captured": 1, "sources": ["CNA1979:16.6", "scan:p95"]}
+ ]
+}
