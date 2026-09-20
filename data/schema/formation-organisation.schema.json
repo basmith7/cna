@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "formation-organisation.schema.json",
+  "title": "Formation Organisation Charts (SPI 19.31 Commonwealth, 19.32 Italian, 19.33 German)",
+  "type": "object", "required": ["table", "sources", "units", "rows"], "additionalProperties": false,
+  "$defs": {
+    "turns": {"type": "object", "required": ["from", "to"], "additionalProperties": false,
+              "properties": {"from": {"type": "integer", "minimum": 1}, "to": {"type": ["integer", "null"], "minimum": 1}}},
+    "component": {"type": "object", "required": ["count", "sp"], "additionalProperties": false,
+                  "properties": {
+                    "count": {"type": "integer", "minimum": 1},
+                    "unit": {"type": "string", "pattern": "^[a-z0-9-]+$", "description": "A key of 'units'"},
+                    "any_of": {"type": "array", "minItems": 2, "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}, "description": "The chart's 'X or Y': one of these"},
+                    "type": {"enum": ["I", "II", "III", "IV"], "description": "Organisation type of a component that is itself a formation on this chart"},
+                    "sp": {"type": ["integer", "null"], "minimum": 0, "description": "Stacking points printed beside each such counter on the chart (a formation's are in parentheses); null where the chart prints the symbol with no figure"}},
+                  "oneOf": [{"required": ["unit"]}, {"required": ["any_of"]}]}
+  },
+  "properties": {
+    "table": {"const": "formation-organisation"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "units": {"type": "object", "propertyNames": {"pattern": "^[a-z0-9-]+$"}, "additionalProperties": {"type": "string"},
+              "description": "Unit slugs used in components, with what each stands for in our words (the chart's symbol key)"},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["nation", "parent", "sp", "components", "sources"], "additionalProperties": false,
+      "properties": {
+        "nation": {"$ref": "common.schema.json#/$defs/nation"},
+        "parent": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "sp": {"type": "integer", "minimum": 0, "description": "Stacking points of the parent counter"},
+        "type": {"enum": ["I", "II", "III", "IV"], "description": "Organisation type, where the chart splits a formation by period"},
+        "turns": {"$ref": "#/$defs/turns"},
+        "turns_list": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/turns"}, "description": "Where a type applies in two separate periods"},
+        "components": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/component"}},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  }
+}
