@@ -102,7 +102,35 @@ def render_anti_armour(t):
     return _wrap(t, "Anti-armour fire: damage points", table)
 
 
-RENDERERS = {"barrage-results": render_barrage, "anti-armour-results": render_anti_armour}
+SUM_ROWS = {"attacker": [("engaged", "engaged"), ("capture_attacker", "captured")],
+            "defender": [("retreat_1", "retreat 1"), ("retreat_2", "retreat 2"), ("retreat_3", "retreat 3"), ("capture_defender", "captured")]}
+
+
+def render_close_assault(t):
+    cols = t["columns"]
+
+    def th(c):
+        label = html.escape(c["id"].replace("-", "−"))
+        return f'<th class="overrun">{label}</th>' if c.get("overrun") else f"<th>{label}</th>"
+
+    head = "".join(th(c) for c in cols)
+    out = []
+    for side in ("attacker", "defender"):
+        losses = t["losses"][side]
+        body = []
+        for pct in sorted(losses, key=lambda k: -int(k)):
+            body.append(f"<tr><th>{pct} %</th>" + "".join(f"<td>{_rng(losses[pct].get(c['id']))}</td>" for c in cols) + "</tr>")
+        for key, label in SUM_ROWS[side]:
+            sums = t["sums"][key]
+            body.append(f"<tr><th>{label}</th>" + "".join(
+                f"<td>{', '.join(str(n) for n in sums[c['id']]) if sums.get(c['id']) else DASH}</td>" for c in cols) + "</tr>")
+        out.append(f'<table class="crt"><caption>{side}</caption><thead><tr><th>losses \\ differential</th>{head}</tr></thead>'
+                   f'<tbody>{"".join(body)}</tbody></table>')
+    return _wrap(t, "Close assault: losses by sequential roll, engaged / retreat / captured by sum", "".join(out))
+
+
+RENDERERS = {"barrage-results": render_barrage, "anti-armour-results": render_anti_armour,
+             "close-assault-results": render_close_assault}
 
 
 def render(name):

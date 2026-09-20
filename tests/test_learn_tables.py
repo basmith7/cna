@@ -33,3 +33,15 @@ def test_anti_armour_html_shape():
     assert "<th>11</th>" in h and "<th>65</th>" in h
     assert "<td>—</td>" in h  # a blank cell renders as a dash
     assert "<td>22</td>" in h and "<td>32</td>" in h
+
+
+def test_close_assault_html_shape():
+    h = lt.render("close-assault-results")
+    assert h.count("<table") == 2  # attacker and defender
+    assert "<caption>attacker</caption>" in h and "<caption>defender</caption>" in h
+    assert "<th>−11</th>" in h and "<th class=\"overrun\">+17</th>" in h
+    assert "<th>50 %</th>" in h and "<th>0 %</th>" in h
+    assert "<td>34–45</td>" in h            # defender 10 %, +4 after E-008
+    assert "<th>engaged</th>" in h and "<td>10, 11, 12</td>" in h
+    assert "<th>retreat 3</th>" in h and "<th>captured</th>" in h
+    assert 'class="overrun"' in h
