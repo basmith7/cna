@@ -85,12 +85,22 @@ def test_render_coverage_has_a_row_per_section_with_file_links(tmp_path):
     assert "`9.12`" in md
 
 
+def test_render_register_lists_rulings_and_variants_with_titles(tmp_path):
+    repo = _repo(tmp_path)
+    md = gp.render_register(repo)
+    assert gp.HEADER in md
+    assert "| [R-001](./R-001.md) | Threshold | accepted | 8.35 |" in md
+    assert "| [V-001](./V-001.md) | San Giorgio | recorded | 30.17, 55.25 |" in md
+    assert md.index("## Rulings") < md.index("## Variants")
+
+
 def test_write_pages_is_idempotent_and_reports_staleness(tmp_path):
     repo = _repo(tmp_path)
     assert gp.write_pages(repo) is True          # first run wrote something
     assert gp.write_pages(repo) is False         # second run: nothing changed
     assert (repo / "rules" / "changes.md").exists()
     assert (repo / "rules" / "coverage.md").exists()
+    assert (repo / "rulings" / "register.md").exists()
 
 
 def test_committed_pages_are_current():
@@ -99,3 +109,5 @@ def test_committed_pages_are_current():
         "rules/changes.md is stale: run tools/gen_pages.py"
     assert gp.render_coverage(root) == (root / "rules" / "coverage.md").read_text(), \
         "rules/coverage.md is stale: run tools/gen_pages.py"
+    assert gp.render_register(root) == (root / "rulings" / "register.md").read_text(), \
+        "rulings/register.md is stale: run tools/gen_pages.py"

@@ -35,10 +35,16 @@ export default defineConfig({
     },
     nav: [
       { text: 'Rules', link: '/rules/00-overview' },
-      { text: 'Rulings', link: '/rulings/' },
+      { text: 'Rulings', link: '/rulings/register' },
       { text: 'Data', link: '/data/' },
     ],
     sidebar: {
+      '/rulings/': [
+        { text: 'Rulings', items: [
+          { text: 'Register', link: '/rulings/register' },
+          { text: 'How rulings work', link: '/rulings/' },
+        ] },
+      ],
       '/rules/': [
         { text: 'Rules', items: [
           { text: 'Overview', link: '/rules/00-overview' },

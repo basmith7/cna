@@ -62,6 +62,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | Id | Status | Affects |
 |---|---|---|
 | [R-001](../rulings/R-001.md) | proposed | 6.26, 17.5 |
+| [R-002](../rulings/R-002.md) | proposed | 4.1, 8.31, 8.37 |
 
 ## Variants register
 
