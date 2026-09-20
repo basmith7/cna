@@ -24,12 +24,12 @@ Mission 1 (rules files 1–10 and site phase 2): all merged, PRs #2–#13.
 |---|---|---|---|
 | A | close the 30-case Land Game coverage gap (§1, §2, §4, 17.2) | **merged** — §1–32 coverage 974/974 | #17 |
 | B | seed rulings from NJHarman (CORRECTION / CLARIFICATION / INTERPRETATION, Land Game topics) | **merged** — R-002–R-019 (18 proposed rulings, one PR per topic), `rulings/register.md` generated, 5 items recorded as not imported in `EXTRACTION.md` | #18, #20–#26 |
-| C | chart sheet tables into `data/tables/`, cross-checked | in progress — 10 tables merged: 12.6, 14.6, 15.79 (+E-008), 29.61 (+E-025), 29.7, 21.38, 15.89, 16.7, 16.8, 27.93; shared sheet mapped to jp2 95–110 | #27–#31 |
+| C | chart sheet tables into `data/tables/`, cross-checked | in progress — 14 tables merged (12.6, 14.6, 15.79+E-008, 15.89, 16.6, 16.7, 16.8, 17.6, 21.38, 22.8, 22.44, 27.93, 29.61+E-025, 29.7); shared sheet mapped to jp2 95–110 | #27–#34 |
 | D | publish the primer (Parts A–C) as the site's *Learn* page; Part D of the primer waits for the map | not started | — |
 
 ## Next steps
 
-Part C continues: remaining `spi-omit … pending capture` tables are 8.37 terrain effects (not on the shared sheet — location unknown), 8.89 off-map distances, 16.6 patrol survival (jp2 95), 17.4 morale modifier and 17.6 training (jp2 99), 19.3/19.5/20.3/20.66/20.78 organisation charts (jp2 100–101 and player sheets), 22.8/22.44 repair (jp2 102), 24.17/24.18 construction and demolition (jp2 103–104), 27.91/27.92 raids, 30.46 chariot, 30.59 port/fleet. Then Part D.
+Part C continues. Still pending capture: 17.4 morale modifier (jp2 99, 26 × 9 dice ranges), 24.17 construction and 24.18 demolition (jp2 103–104), 19.5 maximum attachment (jp2 100) and 20.3 replacement conversion (jp2 101), 27.91 desert raider (jp2 102, a per-target procedure list), 8.37 terrain effects and 8.89 off-map distances (not on the shared sheet — probably the map or the player-specific chart sets), 19.3 formation organisation, 20.66/20.78, 27.92 Raid on Rommel, 30.46 chariot, 30.59 port/fleet (player sheets). Then Part D.
 
 **E-025 reading, please check:** the errata says the Weather Table is "completely backwards". Applied as: each season's game-turn bands swap with the opposite season's (turns 1–12 → autumn, matching the September 1940 start); weather dice ranges stay with their season names. One overlay file (`data/errata/E-025.json`) to change if you read it differently.
 
