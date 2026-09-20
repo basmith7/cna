@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "axis-replacement-pool.schema.json",
+  "title": "Axis Replacement Pool (SPI 20.66): truck production chart, German and Italian production charts",
+  "type": "object", "required": ["table", "sources", "trucks", "german", "italian"], "additionalProperties": false,
+  "$defs": {
+    "period": {"type": "object", "required": ["max", "max_per", "from_turn"], "additionalProperties": false,
+               "properties": {
+                 "total": {"type": "integer", "minimum": 0, "description": "Lifetime total for this block of periods where the chart prints a second Number (points are limited to the first Number during its dates); absent = the row's total applies"},
+                 "max": {"type": "integer", "minimum": 1, "description": "Most points that may be planned per max_per"},
+                 "max_per": {"enum": ["turn", "month", "fortnight"], "description": "turn = per game-turn; month = calendar month (chart †); fortnight = weeks 1-2 and 3-4 of a month (German chart *)"},
+                 "from_turn": {"type": "integer", "minimum": 1, "description": "First game-turn the points may be planned for"},
+                 "to_turn": {"type": "integer", "minimum": 1}}},
+    "row": {"type": "object", "required": ["item", "tonnage", "periods", "sources"], "additionalProperties": false,
+            "properties": {
+              "item": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+              "group": {"enum": ["anti-air", "anti-tank", "artillery", "tank"], "description": "Italian chart section heading"},
+              "total": {"type": "integer", "minimum": 0, "description": "Lifetime total where the chart prints one Number for the row"},
+              "tonnage": {"type": "integer", "minimum": 0, "description": "Axis naval convoy tons to ship one point"},
+              "periods": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/period"}},
+              "autoblinda_41": {"const": true, "description": "Chart *: all are Autoblinda 41s (ID code vv)"},
+              "tunis_box": {"const": true, "description": "Chart ‡: placed in the Tunis box on their turn with no two-week delay; move by land or Axis coastal shipping; need no supply until map section A"},
+              "sources": {"$ref": "common.schema.json#/$defs/sources"}}}
+  },
+  "properties": {
+    "table": {"const": "axis-replacement-pool"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "trucks": {"type": "object", "required": ["arrive_turns_later", "rows"], "additionalProperties": false,
+               "properties": {"arrive_turns_later": {"type": "integer", "minimum": 0},
+                              "rows": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/row"}}}},
+    "german": {"type": "object", "required": ["arrive_turns_later", "rows"], "additionalProperties": false,
+               "properties": {"arrive_turns_later": {"type": "integer", "minimum": 0},
+                              "rows": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/row"}}}},
+    "italian": {"type": "object", "required": ["arrive_turns_later", "call_up_max_per_type_per_turn", "no_replacements_for", "rows"], "additionalProperties": false,
+                "properties": {"arrive_turns_later": {"type": "integer", "minimum": 0},
+                               "call_up_max_per_type_per_turn": {"type": "integer", "minimum": 1, "description": "Points of each type that may be called up in one game-turn"},
+                               "no_replacements_for": {"type": "array", "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}, "description": "Tank types the chart says have no replacements at all"},
+                               "rows": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/row"}}}}
+  }
+}

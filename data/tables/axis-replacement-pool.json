@@ -1,0 +1,883 @@
+{
+ "table": "axis-replacement-pool",
+ "sources": [
+  "CNA1979:20.66",
+  "scan:p175"
+ ],
+ "notes": [
+  "Axis Replacement Pool (SPI 20.66), three charts on one page of the Axis chart set (jp2 175): 20.66a Axis Truck Production Chart, the German Production Chart and the Italian Production Chart. Per type: lifetime total, the cap per turn / month / fortnight for each dated period, the first (and last) game-turn it may be planned for, and the naval convoy tonnage per point. Points arrive two game-turns after planning (Tunis-box items excepted). A period with its own total is the chart's second Number: the first Number is the ceiling during its dates and the sum is the ceiling overall",
+  "Item slugs are ours. The German chart's '2.8cm s.Pz.B.41 / 28/20 Pak' pair is one item (2-8cm-spzb41); the Italian chart's group headings are the group field",
+  "Printed as in 1979: the Italian chart's closing note names the M 13/39 as having no replacements; SPI's September 1979 errata (E-014) says M 11/39 — applied as the overlay data/errata/E-014.json",
+  "Transcribed from the archive.org scan and cross-checked against the 300 dpi community scan (scan:discord:Axis Charts.pdf:p33): 0 of 3 truck rows, 0 of 23 German rows and 0 of 20 Italian rows differ. Clay Stone's errata-integrated Land rules PDF contains no charts"
+ ],
+ "trucks": {
+  "arrive_turns_later": 2,
+  "rows": [
+   {
+    "item": "light",
+    "total": 835,
+    "tonnage": 45,
+    "periods": [
+     {
+      "max": 4,
+      "max_per": "turn",
+      "from_turn": 4,
+      "to_turn": 12
+     },
+     {
+      "max": 15,
+      "max_per": "turn",
+      "from_turn": 13
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "medium",
+    "total": 2890,
+    "tonnage": 80,
+    "periods": [
+     {
+      "max": 20,
+      "max_per": "turn",
+      "from_turn": 6,
+      "to_turn": 12
+     },
+     {
+      "max": 50,
+      "max_per": "turn",
+      "from_turn": 13
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "heavy",
+    "total": 525,
+    "tonnage": 150,
+    "periods": [
+     {
+      "max": 3,
+      "max_per": "turn",
+      "from_turn": 5,
+      "to_turn": 12
+     },
+     {
+      "max": 8,
+      "max_per": "turn",
+      "from_turn": 13
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   }
+  ]
+ },
+ "german": {
+  "arrive_turns_later": 2,
+  "rows": [
+   {
+    "item": "infantry",
+    "total": 400,
+    "tonnage": 30,
+    "periods": [
+     {
+      "max": 12,
+      "max_per": "turn",
+      "from_turn": 38
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "armed-recce",
+    "total": 25,
+    "tonnage": 80,
+    "periods": [
+     {
+      "max": 2,
+      "max_per": "fortnight",
+      "from_turn": 47
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "light-aa",
+    "total": 40,
+    "tonnage": 13,
+    "periods": [
+     {
+      "max": 2,
+      "max_per": "turn",
+      "from_turn": 59
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "heavy-aa",
+    "total": 10,
+    "tonnage": 65,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "month",
+      "from_turn": 59
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "7-5cm-ig18",
+    "total": 20,
+    "tonnage": 5,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 45
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "10-5cm-k18",
+    "total": 40,
+    "tonnage": 66,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 45
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "15cm-sfh18",
+    "total": 10,
+    "tonnage": 65,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 45
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "15cm-sig33",
+    "total": 5,
+    "tonnage": 18,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 45
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "15cm-k18",
+    "total": 18,
+    "tonnage": 150,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 45
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "17cm-k18",
+    "total": 5,
+    "tonnage": 206,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "month",
+      "from_turn": 65
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "21cm-mrs18",
+    "total": 5,
+    "tonnage": 197,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "month",
+      "from_turn": 60
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "sp-10-5cm",
+    "total": 3,
+    "tonnage": 120,
+    "periods": [
+     {
+      "max": 3,
+      "max_per": "month",
+      "from_turn": 63
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "5cm-pak38",
+    "total": 25,
+    "tonnage": 12,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 45
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "2-8cm-spzb41",
+    "total": 15,
+    "tonnage": 5,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 45
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "7-62cm-pak-r",
+    "total": 22,
+    "tonnage": 15,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 64
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "marder-iii",
+    "total": 9,
+    "tonnage": 132,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "month",
+      "from_turn": 64
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "pzii",
+    "total": 5,
+    "tonnage": 135,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 41
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "pziii-e",
+    "total": 38,
+    "tonnage": 190,
+    "periods": [
+     {
+      "max": 5,
+      "max_per": "turn",
+      "from_turn": 53
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "pziii-h",
+    "total": 31,
+    "tonnage": 200,
+    "periods": [
+     {
+      "max": 5,
+      "max_per": "turn",
+      "from_turn": 53
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "pziii-j-special",
+    "total": 17,
+    "tonnage": 220,
+    "periods": [
+     {
+      "max": 2,
+      "max_per": "turn",
+      "from_turn": 76
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "pziv-d",
+    "total": 18,
+    "tonnage": 215,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 59
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "pziv-e",
+    "total": 15,
+    "tonnage": 220,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 59
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "pziv-f2-special",
+    "total": 7,
+    "tonnage": 235,
+    "periods": [
+     {
+      "max": 1,
+      "max_per": "fortnight",
+      "from_turn": 81
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   }
+  ]
+ },
+ "italian": {
+  "arrive_turns_later": 2,
+  "call_up_max_per_type_per_turn": 2,
+  "no_replacements_for": [
+   "m-13-39"
+  ],
+  "rows": [
+   {
+    "item": "infantry",
+    "tonnage": 30,
+    "periods": [
+     {
+      "total": 100,
+      "max": 5,
+      "max_per": "turn",
+      "from_turn": 5,
+      "to_turn": 8
+     },
+     {
+      "max": 10,
+      "max_per": "turn",
+      "from_turn": 9,
+      "to_turn": 24
+     },
+     {
+      "total": 1100,
+      "max": 25,
+      "max_per": "turn",
+      "from_turn": 25
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "armoured-recce",
+    "tonnage": 59,
+    "periods": [
+     {
+      "total": 25,
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 31
+     }
+    ],
+    "autoblinda_41": true,
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "light-aa",
+    "group": "anti-air",
+    "tonnage": 6,
+    "periods": [
+     {
+      "total": 15,
+      "max": 2,
+      "max_per": "turn",
+      "from_turn": 2,
+      "to_turn": 24
+     },
+     {
+      "total": 45,
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 25
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "heavy-aa-75-46",
+    "group": "anti-air",
+    "tonnage": 59,
+    "periods": [
+     {
+      "total": 5,
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 10,
+      "to_turn": 24
+     },
+     {
+      "total": 25,
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 25
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "heavy-aa-90-53",
+    "group": "anti-air",
+    "tonnage": 92,
+    "periods": [
+     {
+      "total": 10,
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 73
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "47-32-mod-37",
+    "group": "anti-tank",
+    "tonnage": 9,
+    "periods": [
+     {
+      "total": 8,
+      "max": 2,
+      "max_per": "turn",
+      "from_turn": 10,
+      "to_turn": 24
+     },
+     {
+      "total": 25,
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 25
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "65-17-gun",
+    "group": "artillery",
+    "tonnage": 3,
+    "periods": [
+     {
+      "total": 5,
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 9,
+      "to_turn": 24
+     },
+     {
+      "total": 15,
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 25
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "75-27-gun",
+    "group": "artillery",
+    "tonnage": 12,
+    "periods": [
+     {
+      "total": 12,
+      "max": 2,
+      "max_per": "turn",
+      "from_turn": 9,
+      "to_turn": 24
+     },
+     {
+      "total": 26,
+      "max": 2,
+      "max_per": "turn",
+      "from_turn": 25
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "75-18-howitzer",
+    "group": "artillery",
+    "tonnage": 12,
+    "periods": [
+     {
+      "total": 6,
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 9,
+      "to_turn": 24
+     },
+     {
+      "total": 5,
+      "max": 1,
+      "max_per": "month",
+      "from_turn": 25
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "100-17-howitzer",
+    "group": "artillery",
+    "tonnage": 17,
+    "periods": [
+     {
+      "total": 10,
+      "max": 1,
+      "max_per": "turn",
+      "from_turn": 9,
+      "to_turn": 24
+     },
+     {
+      "total": 22,
+      "max": 2,
+      "max_per": "turn",
+      "from_turn": 25
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "105-28-gun",
+    "group": "artillery",
+    "tonnage": 48,
+    "periods": [
+     {
+      "total": 3,
+      "max": 1,
+      "max_per": "month",
+      "from_turn": 9,
+      "to_turn": 24
+     },
+     {
+      "total": 6,
+      "max": 1,
+      "max_per": "month",
+      "from_turn": 25
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "semovente-75-18",
+    "group": "artillery",
+    "tonnage": 60,
+    "periods": [
+     {
+      "total": 8,
+      "max": 1,
+      "max_per": "month",
+      "from_turn": 65
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "149-13-howitzer",
+    "group": "artillery",
+    "tonnage": 84,
+    "periods": [
+     {
+      "total": 6,
+      "max": 1,
+      "max_per": "month",
+      "from_turn": 25
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "para-art",
+    "group": "artillery",
+    "tonnage": 3,
+    "periods": [
+     {
+      "total": 4,
+      "max": 2,
+      "max_per": "turn",
+      "from_turn": 96
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "149mm-fr",
+    "group": "artillery",
+    "tonnage": 50,
+    "periods": [
+     {
+      "total": 10,
+      "max": 2,
+      "max_per": "turn",
+      "from_turn": 39
+     }
+    ],
+    "tunis_box": true,
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "155mm-rimailho-fr",
+    "group": "artillery",
+    "tonnage": 53,
+    "periods": [
+     {
+      "total": 10,
+      "max": 2,
+      "max_per": "turn",
+      "from_turn": 39
+     }
+    ],
+    "tunis_box": true,
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "cv-l3-or-cv-33-35",
+    "group": "tank",
+    "tonnage": 16,
+    "periods": [
+     {
+      "total": 68,
+      "max": 5,
+      "max_per": "turn",
+      "from_turn": 3
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "ca-l6-40",
+    "group": "tank",
+    "tonnage": 28,
+    "periods": [
+     {
+      "total": 5,
+      "max": 1,
+      "max_per": "month",
+      "from_turn": 33,
+      "to_turn": 68
+     },
+     {
+      "total": 21,
+      "max": 2,
+      "max_per": "turn",
+      "from_turn": 69
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "ca-m-13-40",
+    "group": "tank",
+    "tonnage": 70,
+    "periods": [
+     {
+      "total": 49,
+      "max": 2,
+      "max_per": "turn",
+      "from_turn": 25
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   },
+   {
+    "item": "ca-m-14-41",
+    "group": "tank",
+    "tonnage": 73,
+    "periods": [
+     {
+      "total": 61,
+      "max": 3,
+      "max_per": "turn",
+      "from_turn": 59
+     }
+    ],
+    "sources": [
+     "CNA1979:20.66",
+     "scan:p175"
+    ]
+   }
+  ]
+ }
+}

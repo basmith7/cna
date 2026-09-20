@@ -317,7 +317,16 @@ least two weeks ahead of the convoy that carries them (§32 addendum to
 
 ::: errata E-013 — 20.62 example: 300 tons, not 350
 
-::: spi-omit 20.66 20.67 — the Axis Replacement Pool Table and Type Limitations Chart are on the chart sheet; to `data/tables/axis-replacement-pool.json` when captured (errata: its next-to-last note refers to the M 11/39)
+::: spi 20.66
+
+The Axis Replacement Pool is data: `data/tables/axis-replacement-pool.json`
+— the truck production chart and the German and Italian production charts:
+per type, the lifetime total, the cap per turn (or month, or fortnight) in
+each dated period, the first turn it may be planned for and the convoy
+tonnage a point costs. Points arrive two turns after planning; the two
+French guns land straight in the Tunis box on turn 39.
+
+::: spi-omit 20.67 — the Axis Replacement Point Type Limitations Chart has not been located in the scan (not on the Axis Replacement Pool page, jp2 175); to `data/` when found
 
 ::: errata E-014 — 20.66 note: M 11/39, not 13/39
 
