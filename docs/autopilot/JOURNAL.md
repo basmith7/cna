@@ -237,3 +237,11 @@ Done: Part C complete bar 20.67 (not printed on either player chart set — djvu
 In flight: renderer for barrage (12.6) and anti-armour (14.6); close-assault (15.79, nested losses/sums) next.
 Next: finish close-assault rendering; then learn_page.py --site writing site/learn.md (Parts A–C, SVGs inline, CSS scoped under .learn, case numbers → rule links via data/spi-cases.json + check_coverage badge index), stale-check pytest, nav + sidebar, README/00-overview edits.
 Blocked: none.
+
+## 2026-09-19 22:05 — main
+Done: after the 21:51 entry, #55 (19.31–19.33 formation charts, 37 rows), #56 (learn_tables.py renderer, TDD), #57 (learn_page.py --site → site/learn.md at /learn, nav + sidebar, case links, scoped CSS, README/00-overview) all merged after green CI. 33 tables, 129 tests, tree clean, no open autopilot PRs. 20.67 is not printed anywhere in the scan (djvu headings jp2 111–178 checked) — left to Brian.
+In flight: none.
+Next: nothing — Parts A–D are merged. If Brian answers on 20.67 or the Learn page's dark-mode styling in Feedback, act on that.
+Blocked: none.
+
+MISSION 2 COMPLETE

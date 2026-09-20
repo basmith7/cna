@@ -18,34 +18,29 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
+**MISSION 2 COMPLETE** (2026-09-20), with one item only Brian can close: SPI 20.67, the Axis Replacement Point Type Limitations Chart, is not printed on either player chart set or the shared sheet in the archive.org scan (every chart heading on jp2 111–178 was listed) — if your copy has it, say where in Feedback.
+
 Mission 1 (rules files 1–10 and site phase 2): all merged, PRs #2–#13.
 
 | Part | What | State | PR |
 |---|---|---|---|
 | A | close the 30-case Land Game coverage gap (§1, §2, §4, 17.2) | **merged** — §1–32 coverage 974/974 | #17 |
-| B | seed rulings from NJHarman (CORRECTION / CLARIFICATION / INTERPRETATION, Land Game topics) | **merged** — R-002–R-019 (18 proposed rulings, one PR per topic), `rulings/register.md` generated, 5 items recorded as not imported in `EXTRACTION.md` | #18, #20–#26 |
-| C | chart sheet tables into `data/tables/`, cross-checked | nearly done — 32 tables captured (this run added 13: 8.37 **Terrain Effects** + E-031, 8.89, 24.17, 24.18, 27.91, 27.92, 30.46, 30.6, 20.66 + E-014 overlay, 20.78 A/B/C, 32.46/32.47, 32.59, 32.66). Left: 19.31–19.33 Formation Organisation Charts (symbol grids, jp2 134 / 173 / 174) and 20.67 Type Limitations Chart (not located) | #27–#54 |
-| D | publish the primer (Parts A–C) as the site's *Learn* page; Part D of the primer waits for the map | not started | — |
+| B | seed rulings from NJHarman (CORRECTION / CLARIFICATION / INTERPRETATION, Land Game topics) | **merged** — R-002–R-019 (18 proposed rulings), `rulings/register.md` generated, 5 items recorded as not imported | #18, #20–#26 |
+| C | chart sheet tables into `data/tables/`, cross-checked | **merged** — 33 tables, every one cross-checked cell by cell against a second scan with 0 differences; three errata overlays (E-008, E-012, E-025) plus E-014 and E-031 added this run. Only 20.67 outstanding (see above) | #27–#55 |
+| D | publish the primer (Parts A–C) as the site's *Learn* page | **merged** — `/learn` in the nav, sidebar A/B/C, tables from `data/`, case links into the rules; Part D of the primer stays local until the map is redrawn | #56, #57 |
 
 ## Next steps
 
-Part C: the three Formation Organisation Charts (19.31 Commonwealth jp2 134, 19.32 Italian jp2 173, 19.33 German jp2 174) are grids of unit symbols — capturable but need a careful legend read; then 20.67 if it turns up (search the Axis chart set pages jp2 150–178). Then Part D.
+Nothing queued for the autopilot. For Brian:
 
-**Found this run:** the Terrain Effects Chart (8.37) and the 8.89 distance chart are *rulebook* pages (jp2 69–70), not chart-sheet pages — that is why no chart-sheet search found them. The TEC is in with the SPI errata applied as overlay E-031 (footnote 4 → Major City; a track halves the hex cost rather than costing 1 CP). Cross-check for those two was the Discord OCR-converted rulebook scan (an independent scan); Clay Stone's PDF prints "see Charts and Tables" plus the errata text in place of the chart.
-
-**Chart vs rules-text disagreements** (kept as printed in the data, noted in the rules pointer paragraphs and `EXTRACTION.md`; candidates for rulings, none opened):
-- 24.17 Construction Chart: temporary repair facility **50 fuel + 250 stores in 1 stage** vs 24.82's 150 fuel + 250 stores over 3 stages; facility rebuild **10 fuel + 50 stores** vs 24.84's 30 fuel + 50 stores; real dump 10 stores vs 20 (already R-018).
-- 27.91 Desert Raider Raids: a guarded dump is raided if the two-dice total is **≥** the guards' raw close-assault defence (chart) vs **>** (27.5x text).
-
-**E-025 reading, please check:** the errata says the Weather Table is "completely backwards". Applied as: each season's game-turn bands swap with the opposite season's (turns 1–12 → autumn, matching the September 1940 start); weather dice ranges stay with their season names. One overlay file (`data/errata/E-025.json`) to change if you read it differently.
-
-**Cross-check sources, please note:** Clay Stone's PDFs at friendorfoe.com/d/CfNA/ are the *rules* only — no chart sheet. Chart-sheet tables were cross-checked cell by cell against the Discord 300 dpi *Shared / Axis / Commonwealth Charts.pdf*; the two rulebook-page charts against the Discord converted rulebook scan. Every table this run: 0 cells differ. If you want a different second source, say so in Feedback.
-
-**Three printed oddities** (both scans agree, none in the 1979 errata), kept as printed and declared in `known_gaps` / notes: close assault CRT attacker −2 / 20 % reads "13-18" (17–18 are not readings, so 13–16); close assault defender +2 has no cell for readings 34–36; Morale Modifier level −4 has no cell for reading 56. They want rulings.
-
-For Brian, if you have a minute: R-012 (15.29 withhold-and-retreat) and R-018 (dump cost) are the two seeded rulings where the printed text and the sensible reading pull apart; R-019 needs a hex count on the map (Alexandria → row xx24 vs xx29).
-
-Still for Brian: click one *Original text* block on the deployed site to confirm the viewer works in a browser.
+- **Look at `/learn` on the deployed site in both colour schemes.** The primer keeps its own light panels with explicit text colours, so in dark mode it is a light island rather than themed; if you want it themed, the CSS is `CSS` in `tools/learn_page.py` (scoped under `.learn` by `scoped_css()`).
+- **Formation charts (19.31–19.33) deserve a glance** — they are symbol grids and two spots were read with less confidence (noted in `data/tables/formation-organisation.json`): the 5th Light's second infantry battalion, and which Ramcke battalion is the heavy-weapons one.
+- **Chart vs rules-text disagreements**, kept as printed and noted in the tables, the rules pointer paragraphs and `EXTRACTION.md` — candidates for rulings, none opened: 24.17 temporary repair facility 50 fuel + 250 stores / 1 stage vs 24.82's 150 fuel + 250 stores / 3 stages; facility rebuild 10 fuel + 50 stores vs 24.84's 30 + 50; real dump 10 stores vs 20 (R-018); 27.91 guarded dump raided on a total **≥** the guards' defence (chart) vs **>** (27.5x text).
+- **E-025 reading, please check:** the errata says the Weather Table is "completely backwards". Applied as: each season's game-turn bands swap with the opposite season's (turns 1–12 → autumn); weather dice ranges stay with their season names. `data/errata/E-025.json` is the one file to change.
+- **Cross-check sources:** Clay Stone's PDFs are the rules only, no charts. Chart-sheet and player-set tables were checked against the Discord 300 dpi *Shared / Axis / Commonwealth Charts.pdf*; the two rulebook-page charts (8.37 Terrain Effects, 8.89 off-map distances — found on jp2 69–70, not the chart sheet) against the Discord converted rulebook scan. If you want a different second source, say so.
+- **Three printed oddities** (both scans agree, not in the 1979 errata), kept as printed and declared in `known_gaps` / notes: close assault attacker −2 / 20 % reads "13-18"; close assault defender +2 has no cell for 34–36; Morale Modifier −4 has no cell for 56. They want rulings.
+- R-012 (15.29) and R-018 (dump cost) are the seeded rulings where printed text and sensible reading pull apart; R-019 needs a hex count on the map.
+- Click one *Original text* block on the deployed site to confirm the viewer works in a browser.
 
 ## Runs and quota
 
