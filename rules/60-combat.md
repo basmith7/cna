@@ -158,8 +158,6 @@ Barrage Results Table under the target's class (gun, armour, infantry), then
 roll a second time for trucks in the hex. Holding-off barrages resolve the
 same way.
 
-::: spi-omit 12.6 — the Artillery Barrage Table is a lookup table on the chart sheet; to `data/tables/barrage-results.json` when the sheet is captured
-
 ### Forward and back {#forward-and-back}
 
 ::: spi 12.1 12.11 12.12 12.13 12.14 12.15 12.16 12.17 12.18 12.19
@@ -222,6 +220,15 @@ combat) may be named as a specific target.
 One table serves every target: rows are the barrage points applied (after
 any shift), columns are the sequential two-dice reading, and the body is
 split by target class. Read the row, roll, read the cell under the class.
+
+::: spi 12.6
+
+The table itself is data, not prose: `data/tables/barrage-results.json`
+holds every cell (target class × barrage-point band → dice range → result),
+transcribed from the chart sheet and cross-checked against a second scan.
+Its shape: at 1–2 points only infantry and armour can even be pinned and
+trucks are untouchable; from 13 points up every class can lose points, and
+at 17+ a truck column is hit on a 33 or better.
 
 - **P — pinned.** The target unit — that one battalion-equivalent, never
   the hex or the division it belongs to — is pinned for the rest of the
