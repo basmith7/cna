@@ -1,0 +1,18 @@
+{
+ "table": "raid-on-rommel",
+ "sources": ["CNA1979:27.92", "scan:p140"],
+ "notes": [
+  "Raid on Rommel Table: two dice when a Commonwealth LRDG raids Rommel's hex (rules/90-special.md, SPI 27.6x); the chart heads it '27.54' but the rules refer to it as 27.92. The chart's 'historical' flavour lines for 2, 4, 10 and 12 are not data and are not carried",
+  "The table is on the Commonwealth player's chart set (jp2 140), not the shared sheet. Transcribed from the archive.org scan and cross-checked against the 300 dpi community scan (scan:discord:Commonwealth Charts.pdf:p30): 0 of 7 rows differ. Clay Stone's errata-integrated Land rules PDF contains no charts"
+ ],
+ "lrdg_eliminated_unless_hex_empty": true,
+ "rows": [
+  {"dice": {"from": 2, "to": 2}, "result": "axis-initiative-3-temporary", "turns": 2, "sources": ["CNA1979:27.92", "scan:p140"]},
+  {"dice": {"from": 3, "to": 3}, "result": "lrdg-eliminated", "sources": ["CNA1979:27.92", "scan:p140"]},
+  {"dice": {"from": 4, "to": 8}, "result": "none", "sources": ["CNA1979:27.92", "scan:p140"]},
+  {"dice": {"from": 9, "to": 9}, "result": "lrdg-eliminated", "sources": ["CNA1979:27.92", "scan:p140"]},
+  {"dice": {"from": 10, "to": 10}, "result": "none", "sources": ["CNA1979:27.92", "scan:p140"]},
+  {"dice": {"from": 11, "to": 11}, "result": "lrdg-eliminated", "sources": ["CNA1979:27.92", "scan:p140"]},
+  {"dice": {"from": 12, "to": 12}, "result": "rommel-removed", "sources": ["CNA1979:27.92", "scan:p140"]}
+ ]
+}
