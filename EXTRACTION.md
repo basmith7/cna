@@ -23,6 +23,18 @@ the PR that adds or substantially rewrites the file.
 - Errata applied: none (no values stated).
 - Rulings raised: none.
 
+## data/tables/barrage-results.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 96 (`tools/fetch.py pages 96`), the Barrage Against Land Units Combat Results Table (SPI 12.6). Read at 2× from the 1275×1651 page; every cell legible.
+- Shape: 4 target classes × 9 barrage-point bands × up to 4 results = 86 dice-range records; schema `data/schema/barrage-results.schema.json`; `tests/test_barrage_results.py` proves every class × band tiles the 36 sequential readings 11–66 exactly once (TDD, written before the data).
+- Cross-check: **Clay Stone's `CNA - Rules Land.pdf` contains no chart sheet** (12.6 reads "See Charts and Tables"), so it could not serve. Cross-checked instead against the community 300 dpi scan `scan:discord:Shared Charts.pdf:p2` (`tools/sources.json` → `discord_files`), cell by cell: **0 of 108 cells differ** (86 ranges + 22 blanks). No errata item touches 12.6.
+- Rules: `rules/60-combat.md` 12.6 changed from `spi-omit … pending capture` to a primary `::: spi 12.6` block pointing at the data file; `coverage.md` / `changes.md` regenerated.
+
+## data/tables/anti-armour-results.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 97, the Anti-Armor Fire Combat Results Table (SPI 14.6). Read at 2×; every cell legible.
+- Shape: 18 dice-pair rows × 17 point columns (0*, 1–15, 16+) = 306 cells, blanks as null; schema `data/schema/anti-armour-results.schema.json`; `tests/test_anti_armour_results.py` (written first) proves the grid is complete and damage is monotonic in both points and dice, with blanks only at the low end of a row.
+- Cross-check: as for 12.6, Clay Stone's Land PDF has no chart sheet; cross-checked against `scan:discord:Shared Charts.pdf:p3` cell by cell: **0 of 306 cells differ**. No errata item touches 14.6 (E-003 and E-004 are prose changes to 14.47–14.48, already applied).
+- Rules: `rules/60-combat.md` 14.6 `spi-omit … pending` → primary `::: spi 14.6` pointing at the data file, with the chart's phasing-player row modifier and the starred-column rule stated in prose.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:
