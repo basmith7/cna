@@ -153,6 +153,11 @@ the PR that adds or substantially rewrites the file.
 - Errata: **E-014** now has its overlay — the Italian chart's closing note names the M 13/39; the errata says M 11/39 (`no_replacements_for`).
 - Rules: `rules/70-organisation.md` 20.66 `spi-omit` → primary `::: spi 20.66`; 20.67 (Type Limitations Chart) stays omitted — not found on the page or in the djvu text.
 
+## data/tables/cw-fleet-schedule.json — 2026-09-20 (Part C, Commonwealth chart set)
+- Source: archive.org scan jp2 page 141 (Commonwealth chart set), the Commonwealth Fleet Reinforcement Schedule (headed 30.6; cited from 30.59). 19 warships with type, arrival turn and stage, and the two Malta deployment options as fields. Ship names and types are historical facts. Schema `cw-fleet-schedule.schema.json`; `tests/test_cw_fleet_schedule.py` written first.
+- Cross-check: `scan:discord:Commonwealth Charts.pdf:p31` — **0 of 19 ships differ**. No errata beyond E-030's reference fix (already applied in prose).
+- Rules: `rules/90-special.md` 30.59 `spi-omit` → primary `::: spi 30.59`; the Port Capacity Chart (55.3) is a Logistics Game table for a later spec.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:
