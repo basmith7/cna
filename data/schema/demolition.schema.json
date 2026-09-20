@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "demolition.schema.json",
+  "title": "Demolition Chart (SPI 24.18)",
+  "type": "object", "required": ["table", "sources", "rows"], "additionalProperties": false,
+  "$defs": {
+    "builder": {"enum": ["any-unit", "any-engineer", "engineer-battalion", "engineer-hq", "cw-engineer-hq",
+                         "infantry-battalion-3toe", "any-unit-1toe", "tank-battalion-6toe-scorpions"],
+                "description": "Chart key: any-engineer = engineer battalion, engineer company or HQ with engineering capability; engineer-hq = HQ with engineering capability; cw-engineer-hq = Commonwealth HQ with engineering capability; infantry-battalion-3toe = infantry-type unit with at least 3 TOE points; tank-battalion-6toe-scorpions = tank battalion holding 6+ TOE points of Scorpion flail tanks"},
+    "builderOption": {"type": "object", "required": ["units"], "additionalProperties": false,
+                      "properties": {"units": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/builder"}},
+                                     "count": {"type": "integer", "minimum": 2, "description": "When set, this many units drawn from the listed kinds in any mix (Benghazi: two engineer battalions and/or CW engineer HQs); otherwise all listed units together"}}},
+    "supplies": {"type": "object", "additionalProperties": false, "minProperties": 1,
+                 "properties": {"ammo": {"type": "integer", "minimum": 0}, "fuel": {"type": "integer", "minimum": 0}, "stores": {"type": "integer", "minimum": 0}}},
+    "cause": {"enum": ["air-bombardment", "barrage", "strafing", "desert-raider-raid"]}
+  },
+  "properties": {
+    "table": {"const": "demolition"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["item", "situation", "by_units", "sources"], "additionalProperties": false,
+      "properties": {
+        "item": {"enum": ["fortification", "fake-minefield", "real-minefield", "railroad", "road", "repair-facility", "water-pipeline",
+                          "air-facility", "port-tobruk", "port-benghazi", "port-other", "fake-supply-dump", "real-supply-dump"]},
+        "situation": {"enum": ["reduce-level", "clear", "destroy", "dismantle", "unblock-level", "blow"]},
+        "by_units": {"type": "boolean", "description": "false = the chart says 'not allowed': no ground unit can do it"},
+        "builders": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/builderOption"}},
+        "stages": {"type": "integer", "minimum": 1},
+        "timing": {"enum": ["end-of-movement-segment-entered", "on-entry", "cp-percentage"],
+                   "description": "When the chart gives no stage count: cleared at the end of the movement segment it is entered in; destroyed on entry; or a share of the dump goes per CP spent (blowing a dump, SPI logistics rules)"},
+        "supplies": {"$ref": "#/$defs/supplies", "description": "Spent to do it"},
+        "recovers": {"$ref": "#/$defs/supplies", "description": "Supplies gained by doing it"},
+        "also_by": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/cause"}, "description": "Other things that also reduce or destroy the item"},
+        "only_by": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/cause"}, "description": "The only things that can destroy the item (by_units is false)"},
+        "reduce_only_by": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/cause"}, "description": "Causes that reduce but never destroy the item"},
+        "blocked_by": {"type": "array", "minItems": 1, "items": {"enum": ["mines", "ships"]}, "description": "Kinds of blocking the row covers"},
+        "air_damage_automatic": {"const": true, "description": "Air bombardment damage to the item needs no roll"},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  }
+}

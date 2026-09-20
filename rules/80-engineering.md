@@ -195,7 +195,21 @@ fire interfere:
 - **Pinned** builders lose the stage in the same way.
 - Other friendly units in the hex are irrelevant (stacking aside).
 
-::: spi-omit 24.17 24.18 — the Construction Chart and Demolition Chart are on the chart sheet; to `data/tables/construction.json` and `demolition.json` when captured
+::: spi 24.17 24.18
+
+The Construction Chart and Demolition Chart are data:
+`data/tables/construction.json` and `data/tables/demolition.json` — per
+item, who may do the work, what it costs and how long it takes. The chart
+figures are what the sections below use, with two exceptions where the
+chart and the rules text disagree: a temporary repair facility is **50 fuel
++ 250 stores in one stage** on the chart but 150 fuel + 250 stores over
+three stages in the text, and rebuilding a facility level is **10 fuel + 50
+stores** on the chart but 30 fuel + 50 stores in the text (the prose below
+keeps the text; the dump cost is [R-018](../rulings/R-018.md)). The
+Demolition Chart adds what the text scatters: roads and fortifications fall
+only to bombing and barrage; an airfield is *reduced* but never destroyed
+by a raid; unblocking a port costs **50 ammunition + 25 stores** per level
+(Tobruk 25 + 10; Benghazi 100 + 50 and two engineer units).
 
 ::: errata E-020 — 24.15: builders do not count against road stacking (24.12) despite "subject to all stacking rules"
 
