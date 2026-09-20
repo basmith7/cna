@@ -11,11 +11,10 @@ Write anything here: corrections, priorities, "stop doing X", questions.
 The next run reads this section first, acts on it, and moves each item to
 *Addressed* with a one-line reply. Leave the list empty when there's nothing.
 
-- 2026-09-19 (Brian): **New orders — mission 2** in `AUTOPILOT.md` (Parts A, B, C, D, in that order). The `MISSION COMPLETE` below is mission 1; ignore it. Policy for Part B is in `ATTRIBUTION.md` and `rulings/README.md`; quoting under CC-BY-SA proceeds now, no external sign-off needed.
 
 ## Addressed
 
-- (none yet)
+- 2026-09-19 (Brian) mission 2 orders → acted on 2026-09-20: Part A merged (#17), Part B merged (#18, #20–#26: R-002–R-019 plus the generated `rulings/register.md`); Part C started. Quoting policy followed as written; three quotes elide NJHarman's own quotation of a printed SPI sentence (noted in each footnote) because the overlap gate flags them.
 
 ## Status
 
@@ -23,14 +22,16 @@ Mission 1 (rules files 1–10 and site phase 2): all merged, PRs #2–#13.
 
 | Part | What | State | PR |
 |---|---|---|---|
-| A | close the 30-case Land Game coverage gap (§1, §2, §4, 17.2) | not started | — |
-| B | seed rulings from NJHarman (CORRECTION / CLARIFICATION / INTERPRETATION, Land Game topics) | not started | — |
-| C | chart sheet tables into `data/tables/`, cross-checked against Clay Stone | not started | — |
+| A | close the 30-case Land Game coverage gap (§1, §2, §4, 17.2) | **merged** — §1–32 coverage 974/974 | #17 |
+| B | seed rulings from NJHarman (CORRECTION / CLARIFICATION / INTERPRETATION, Land Game topics) | **merged** — R-002–R-019 (18 proposed rulings, one PR per topic), `rulings/register.md` generated, 5 items recorded as not imported in `EXTRACTION.md` | #18, #20–#26 |
+| C | chart sheet tables into `data/tables/`, cross-checked against Clay Stone | in progress — combat tables (jp2 96–98) first | — |
 | D | publish the primer (Parts A–C) as the site's *Learn* page; Part D of the primer waits for the map | not started | — |
 
 ## Next steps
 
-Start Part A (`autopilot/a-coverage-gap`). See `AUTOPILOT.md` for the full orders.
+Part C: transcribe the barrage (12.6), anti-armour (14.6) and close-assault (15.79) tables from jp2 pages 96–98 into `data/tables/`, cross-check against Clay Stone's PDFs, apply E-008. Then the remaining chart-sheet tables via the djvu XML search.
+
+For Brian, if you have a minute: R-012 (15.29 withhold-and-retreat) and R-018 (dump cost, 24.9 vs the Construction Chart) are the two seeded rulings where the printed text and the sensible reading pull apart; R-019 needs a hex count on the map (Alexandria → row xx24 vs xx29).
 
 Still for Brian: click one *Original text* block on the deployed site to confirm the viewer works in a browser.
 
