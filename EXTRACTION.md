@@ -23,6 +23,38 @@ the PR that adds or substantially rewrites the file.
 - Errata applied: none (no values stated).
 - Rulings raised: none.
 
+## NJHarman seed — 2026-09-20 (rulings/R-002 onward)
+- Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
+- Every qualifying item, with what became of it:
+
+| § of his page | Tag | Item | Outcome |
+|---|---|---|---|
+| Map | INTERPRETATION | on-map printed flak is heavy flak (40.74) | not imported — affects only the Air Game (40.74); reopen with the Air Game spec |
+| Map | INTERPRETATION | road stubs and map inconsistencies ignored | R-002 |
+| Movement | REMINDER/CLARIFICATION | Contact is judged at the start of a movement segment (8.62 vs 8.24, 8.61, 8.64, 13.22) | next PR (movement) |
+| Movement | INTERPRETATION | a formation with motorised and non-motorised parts pays the dearer terrain cost | next PR (movement) |
+| Movement | CLARIFICATION | rail: units or supplies per direction; 8.72/8.74 vs 8.77 | next PR (movement) |
+| Reaction | INTERPRETATION | who may react (8.53a list) | next PR (reaction) |
+| Reaction | INTERPRETATION | no well-poisoning during reaction (13.25 by analogy) | next PR (reaction) |
+| More Words | CORRECTION | 8.52 last sentence / 8.53d "in combat" | next PR (reaction) |
+| Barrage | INTERPRETATION | 12.33 terrain adjustments apply to the attacker too | next PR (barrage) |
+| Retreat Before Assault | INTERPRETATION | RBA is not bound by 15.82; may be an advance | next PR (assault) |
+| Combat | CLARIFICATION | 15.83b each side totals its own points | next PR (assault) |
+| Combat | CLARIFICATION | 15.29 withhold-and-retreat needs a path taken | next PR (assault) |
+| Combat | INTERPRETATION | pinned units spend no ammunition in close assault | next PR (assault) |
+| Combat | CLARIFICATION | 14.52 capturing destroyed tanks needs a battalion-sized combat unit | next PR (anti-armour) |
+| Anti-Armor (Additions section) | INTERPRETATION | 14.32 terrain shifts both sides, hexside shifts attacker only | next PR (anti-armour) |
+| Tank Delivery Squadrons | INTERPRETATION ×2 | 22.6 TDS move in the truck convoy phase; need a combat unit to react/RBA/retreat | next PR (engineering) |
+| More Words | CORRECTION | dump construction cost is the 24.9 chart figure, not 24.17's | next PR (engineering) |
+| Commonwealth Fleet | CORRECTION | 30.15 hundred-sea-hex line is row Bxx24 | next PR (special) |
+| Coastal Shipping | CORRECTION/CLARIFICATION | shipping phase name | not imported — Logistics Game (§5x); later spec |
+| Unlimited Supplies | CLARIFICATION | 60.44 vs 57.0 Cairo only | not imported — scenario / Logistics Game; later spec |
+| Leaky Gas Tanks | CLARIFICATION/CHANGE? | fuel in tanks does not evaporate | not imported — Logistics Game and self-tagged as a possible change; later spec |
+| Logistics (Additions section) | CORRECTION | Tobruk port efficiency is 5 | not imported — Logistics Game; later spec |
+| Combat (Additions section) | INTERPRETATION + CHANGE | 3.6 what is revealed after combat | not imported — mixed tag in the Additions section; a variant candidate, not a ruling |
+
+- Errata duplicates: none of the items above repeats a Sept 1979 errata entry (`data/errata/INDEX.md` checked for 8.52, 8.53, 14.52, 15.29, 15.83, 22.6, 24.17, 30.15). None is answered by R-001.
+
 ## rules/00-overview.md, 10-units-and-state.md, 50-stacking-and-zoc.md, 70-organisation.md — 2026-09-20 (Land Game coverage gap)
 - Source cases read: 1.0, 2.0, 4.0–4.6, 4.21–4.26, 4.41–4.49, 4.51–4.55, 17.2.
 - Mechanics identified: 4.25 — an attached unit has no counter; units set up in their assigned parent's hex start attached unless the scenario says otherwise. 4.26 — holding boxes stand for a hex; contents are in that hex for all purposes. 4.42 — the arrival lookup chain (Reinforcement Track → O/A sheet → characteristics code → Unit Characteristics Chart → TOE log) and the rule that a parent arrives with every listed unit except those with their own later date or excluded on the track. Everything else in §1, §2, §4 and the 17.2 heading is introduction, component and chart description, log-sheet grouping or parts inventory.
