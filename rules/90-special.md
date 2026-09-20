@@ -346,7 +346,13 @@ campaign's opening turns in autumn.
 
 ::: errata E-025 — 29.61: the Weather Table's season rows are backwards; the turn bands are swapped with the opposite season's, per the 29.1 calendar
 
-::: spi-omit 29.7 — the Foul Weather Location Table is on the chart sheet (jp2 102); to `data/tables/foul-weather-location.json` when captured
+::: spi 29.7
+
+The Foul Weather Location Table is data too: `data/tables/foul-weather-location.json`
+maps the one-die roll to the map sheets a storm covers — two sheets on
+most faces, three (B, C, D) on a 6, and never sheet A except with B on a 1.
+A sandstorm rolled onto sheet E is normal weather on Delta hexes, and no
+sandstorm reaches north of the coastal hexes.
 
 ::: spi 29.3 29.31 29.32 29.33 29.34 29.35
 
