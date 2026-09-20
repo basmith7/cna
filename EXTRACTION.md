@@ -147,6 +147,11 @@ the PR that adds or substantially rewrites the file.
 - Source: archive.org scan jp2 page 176 (Axis chart set). Four one-die rows → number of damage dice. Schema `chariot-raid.schema.json`; `tests/test_chariot_raid.py` written first.
 - Cross-check: `scan:discord:Axis Charts.pdf:p34` — **0 of 4 rows differ**. No errata.
 - Rules: `rules/90-special.md` 30.46 `spi-omit` → primary `::: spi 30.46`.
+## data/tables/axis-replacement-pool.json + errata/E-014.json — 2026-09-20 (Part C, Axis chart set)
+- Source: archive.org scan jp2 page 175 (Axis chart set): 20.66a Axis Truck Production Chart (3 rows), the German Production Chart (23 items) and the Italian Production Chart (20 items in four groups). Each row: lifetime total, dated periods each with its cap per turn / month / fortnight, and convoy tonnage; the charts' key and footnotes restated as fields (`arrive_turns_later`, `autoblinda_41`, `tunis_box`, `call_up_max_per_type_per_turn`, `no_replacements_for`). Schema `axis-replacement-pool.schema.json`; `tests/test_axis_replacement_pool.py` written first.
+- Cross-check: `scan:discord:Axis Charts.pdf:p33` — **0 of 3 + 23 + 20 rows differ**.
+- Errata: **E-014** now has its overlay — the Italian chart's closing note names the M 13/39; the errata says M 11/39 (`no_replacements_for`).
+- Rules: `rules/70-organisation.md` 20.66 `spi-omit` → primary `::: spi 20.66`; 20.67 (Type Limitations Chart) stays omitted — not found on the page or in the djvu text.
 
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.

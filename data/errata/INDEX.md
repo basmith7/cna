@@ -21,7 +21,7 @@ listed here alone.
 | E-011 | 19.14 | clarification | rules/70-organisation.md | example corrected: attached to the NZ division, assigned to 7th Armoured |
 | E-012 | 20.3 | correction | data/errata/E-012.json → data/tables/replacement-conversion.json; rules/70-organisation.md | ignore the chart's SGSU line; SGSUs need no replacement points (34.82) |
 | E-013 | 20.62 | correction | rules/70-organisation.md | the example needs 300 tons, not 350 |
-| E-014 | 20.66 | correction | (pending) data/tables/axis-replacement-pool.json | explanatory note refers to the M 11/39, not 13/39 |
+| E-014 | 20.66 | correction | data/errata/E-014.json → data/tables/axis-replacement-pool.json; rules/70-organisation.md | explanatory note refers to the M 11/39, not 13/39 |
 | E-015 | 20.72 | correction | rules/70-organisation.md | Commonwealth plans one month ahead (not two) and reads the production table for the arrival month |
 | E-016 | 20.83 | correction | rules/70-organisation.md | the reference to 20.75 is void |
 | E-017 | 22.8 | correction | rules/80-engineering.md; noted in data/tables/vehicle-repair.json (no value changes, so no overlay) | the table note's die-roll additions are wrong; 22.34 governs |
