@@ -23,6 +23,8 @@
     },
     "djvu_xml_url": "https://archive.org/download/campaign-for-north-africa/The%20Campaign%20for%20North%20Africa_djvu.xml",
     "chart_pages": {
+      "terrain-effects (8.37) — rulebook page, not the chart sheet": 69,
+      "allied-off-map-air-facilities (36.53)": 70,
       "cp-costs (6.3), assault-size-shifts (15.53), patrol-survival (16.6)": 95,
       "initiative-ratings (7.2), stacking-point-values (9.4), land-combat-summary (11.4), barrage-results (12.6)": 96,
       "anti-armour-results (14.6), prisoners-captured (15.89), patrol-reconnaissance (16.7), objective-loss (16.8), sas-raid (27.93)": 97,
@@ -33,9 +35,14 @@
       "destroyed-tanks-repair (22.44), broken-down-vehicle-repair (22.8), desert-raider-raids (27.91), foul-weather-location (29.7)": 102,
       "construction (24.17)": 103,
       "demolition (24.18), squadron-capacity (35.23), aircraft-refit (38.31), pilot-recovery (45.6)": 104,
-      "shared chart sheet index": 110
+      "shared chart sheet index": 110,
+      "cw-formation-organisation (19.31) — Commonwealth chart set": 134,
+      "cw-production (20.78) — Commonwealth chart set": 140,
+      "it-formation-organisation (19.32) — Axis chart set": 173,
+      "de-formation-organisation (19.33) — Axis chart set": 174,
+      "axis-replacement-pool (20.66) — Axis chart set": 175
     },
-    "chart_pages_note": "chart title(s) -> jp2 page index (0-based). The shared chart sheet ('Charts & Tables Common to Both Players', 16 pp) is jp2 95-110; 98 is printed sideways (rotate 90). Titles located by searching the djvu XML (cached as ~/.cache/cna-scans/djvu.xml) and confirmed against the community scan's contact sheet. The Terrain Effects Chart (8.37) is not on the shared sheet; the djvu hits for 'TERRAIN EFFECTS' on jp2 1-2, 12-13, 19-23 are rules text — still to be located (probably on the map sheets or the player-specific chart sets)."
+    "chart_pages_note": "chart title(s) -> jp2 page index (0-based). The shared chart sheet ('Charts & Tables Common to Both Players', 16 pp) is jp2 95-110; 98 and 103 are printed sideways. The Terrain Effects Chart (8.37) is a page of the rulebook (jp2 69), not the chart sheet; the player-specific chart sets follow the shared sheet (Commonwealth from about jp2 111, Axis from about jp2 150). Titles located by searching the djvu XML (cached as ~/.cache/cna-scans/djvu.xml) and confirmed against the community scans' contact sheets."
   },
   "source_text": {
     "repo": "tonicebrian/TheCampaignForNorthAfrica",

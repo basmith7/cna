@@ -515,8 +515,8 @@ the holding-off rule (SPI 10.31).
 
 ::: spi 15.3 15.31 15.32 15.33 15.34 15.35 15.36
 
-Terrain shifts come from the Terrain Effects Chart (SPI 8.37, pending
-transcription) and, unlike barrage and anti-armour, **accumulate**:
+Terrain shifts come from the Terrain Effects Chart (SPI 8.37,
+`data/tables/terrain-effects.json`) and, unlike barrage and anti-armour, **accumulate**:
 
 - The defender's hex either does nothing (clear, sand/gravel) or shifts
   columns his way — a +4 assault on a mountain hex with a three-column
