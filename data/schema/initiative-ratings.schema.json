@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "initiative-ratings.schema.json",
+  "title": "Initiative Ratings Chart (SPI 7.2)",
+  "type": "object", "required": ["table", "sources", "commonwealth", "axis"], "additionalProperties": false,
+  "properties": {
+    "table": {"const": "initiative-ratings"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "commonwealth": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["turns", "rating", "sources"], "additionalProperties": false,
+      "properties": {"turns": {"type": "object", "required": ["from", "to"], "additionalProperties": false,
+                               "properties": {"from": {"type": "integer", "minimum": 1}, "to": {"type": "integer", "minimum": 1}}},
+                     "rating": {"type": "integer", "minimum": 0}, "sources": {"$ref": "common.schema.json#/$defs/sources"}}}},
+    "axis": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["situation", "rating", "sources"], "additionalProperties": false,
+      "properties": {"situation": {"enum": ["rommel-on-map", "german-land-combat-units-no-rommel", "no-german-combat-units"],
+                                   "description": "Judged on the game maps; the Tripoli/Tunisia holding boxes on map A do not count (chart note)"},
+                     "rating": {"type": "integer", "minimum": 0}, "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  }
+}

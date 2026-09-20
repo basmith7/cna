@@ -1,0 +1,18 @@
+{
+ "table": "initiative-ratings",
+ "sources": ["CNA1979:7.2", "scan:p96"],
+ "notes": [
+  "Each side's initiative rating is added to one die at the start of every game turn (SPI 7.1x, rules/20-sequence-of-play.md). The Commonwealth rating rises with the calendar; the Axis rating depends on whether Rommel, or failing him any German land combat unit, is on the game maps \u2014 units in the Tripoli/Tunisia holding boxes on map A do not count (chart note)",
+  "Transcribed from the archive.org scan (jp2 96) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p2): 0 of 6 rows differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "commonwealth": [
+  {"turns": {"from": 1, "to": 42}, "rating": 3, "sources": ["CNA1979:7.2", "scan:p96"]},
+  {"turns": {"from": 43, "to": 90}, "rating": 4, "sources": ["CNA1979:7.2", "scan:p96"]},
+  {"turns": {"from": 91, "to": 111}, "rating": 5, "sources": ["CNA1979:7.2", "scan:p96"]}
+ ],
+ "axis": [
+  {"situation": "rommel-on-map", "rating": 6, "sources": ["CNA1979:7.2", "scan:p96"]},
+  {"situation": "german-land-combat-units-no-rommel", "rating": 3, "sources": ["CNA1979:7.2", "scan:p96"]},
+  {"situation": "no-german-combat-units", "rating": 1, "sources": ["CNA1979:7.2", "scan:p96"]}
+ ]
+}

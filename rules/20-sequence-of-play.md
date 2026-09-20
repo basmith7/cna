@@ -26,10 +26,11 @@ before the first stage.
 
 ::: spi 7.11 7.12 7.13 7.14 7.15 7.16
 
-Each side has an **initiative rating** that depends on the calendar date of
-the game turn. The rating table is on
-SPI's separate chart sheet, not in the rules text; it is transcribed to `data/`
-once that sheet is captured.
+Each side has an **initiative rating**. The Commonwealth's rises with the
+calendar — 3 through turn 42, 4 through turn 90, 5 thereafter; the Axis
+rating is 6 while Rommel is on the map, 3 with German land combat units
+but no Rommel, and 1 with neither (the Tripoli–Tunisia holding boxes do
+not count as the map). The chart is `data/tables/initiative-ratings.json`.
 
 At the start of every game turn, before any stage, each player rolls one die
 and adds their initiative rating. The higher total **holds initiative** for
@@ -50,7 +51,10 @@ not sides.
 Axis rating is 1, Commonwealth rolls 2 (total 5) and Axis rolls 5 (total 6):
 Axis holds initiative for all three stages of that turn.
 
-::: spi-omit 7.2 — the Initiative Ratings Chart is a lookup table on a separate sheet, not rules text; transcribed to `data/` when captured
+::: spi 7.2
+
+The ratings above are the Initiative Ratings Chart, transcribed from the
+chart sheet and cross-checked against a second scan.
 
 ## Turn outline
 
