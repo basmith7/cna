@@ -334,9 +334,19 @@ weather does apply to the Allied off-map airfields.
 
 ::: errata E-024 — 29.1: the printed Roman numerals are weeks of the month
 
-::: errata E-025 — 29.61: the Weather Table's seasons are printed in reverse; the sequence in 29.1 is correct
+::: spi 29.6
 
-::: spi-omit 29.6 29.7 — the Weather Table and Foul Weather Location Table are on the chart sheet; to `data/tables/weather.json` (with E-025 applied) when captured
+The Weather Table is data: `data/tables/weather.json` gives, per season,
+the dice range for each of the four weathers. Sandstorms are a summer
+affliction (a 56 or better, and rain is impossible); rain belongs to
+winter (53 or better, with no hot weather or sandstorm at all); spring
+and autumn can produce any of the four. The printed game-turn bands are
+attached to the wrong seasons (E-025); the corrected bands put the
+campaign's opening turns in autumn.
+
+::: errata E-025 — 29.61: the Weather Table's season rows are backwards; the turn bands are swapped with the opposite season's, per the 29.1 calendar
+
+::: spi-omit 29.7 — the Foul Weather Location Table is on the chart sheet (jp2 102); to `data/tables/foul-weather-location.json` when captured
 
 ::: spi 29.3 29.31 29.32 29.33 29.34 29.35
 

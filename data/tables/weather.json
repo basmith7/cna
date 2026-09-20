@@ -1,0 +1,16 @@
+{
+ "table": "weather",
+ "sources": ["CNA1979:29.6", "scan:p100"],
+ "notes": [
+  "Values as printed. The chart labels the rows Spring / Summer / Fall / Winter with game-turn bands; SPI's September 1979 errata says the chart is completely backwards and that 29.1's calendar governs. errata/E-025.json rotates the turn bands so that turns 1-12 (the campaign opens in September 1940) are autumn, 13-24 winter, 25-36 spring, 37-48 summer, and so on; the weather dice ranges stay with their season names",
+  "weather[*] is the sequential two-dice reading range (SPI 11.4) rolled in the weather phase; null = that weather cannot occur in that season. A sandstorm or rainstorm result goes on to the Foul Weather Location Table (29.62 / 29.7)",
+  "Season calendar boundaries are in tables/seasons.json (SPI 29.1 with E-024)",
+  "Transcribed from the archive.org scan (jp2 100) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p6): 0 of 26 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {"season": "spring", "turns": [{"from": 1, "to": 12}, {"from": 49, "to": 60}, {"from": 97, "to": 108}], "weather": {"normal": {"from": 11, "to": 42}, "hot": {"from": 43, "to": 55}, "sandstorm": {"from": 56, "to": 64}, "rainstorm": {"from": 65, "to": 66}}, "sources": ["CNA1979:29.6", "scan:p100"]},
+  {"season": "summer", "turns": [{"from": 13, "to": 24}, {"from": 61, "to": 72}, {"from": 109, "to": 110}], "weather": {"normal": {"from": 11, "to": 23}, "hot": {"from": 24, "to": 55}, "sandstorm": {"from": 56, "to": 66}, "rainstorm": null}, "sources": ["CNA1979:29.6", "scan:p100"]},
+  {"season": "autumn", "turns": [{"from": 25, "to": 36}, {"from": 73, "to": 84}], "weather": {"normal": {"from": 11, "to": 35}, "hot": {"from": 36, "to": 54}, "sandstorm": {"from": 55, "to": 61}, "rainstorm": {"from": 62, "to": 66}}, "sources": ["CNA1979:29.6", "scan:p100"]},
+  {"season": "winter", "turns": [{"from": 37, "to": 48}, {"from": 85, "to": 96}], "weather": {"normal": {"from": 11, "to": 52}, "hot": null, "sandstorm": null, "rainstorm": {"from": 53, "to": 66}}, "sources": ["CNA1979:29.6", "scan:p100"]}
+ ]
+}

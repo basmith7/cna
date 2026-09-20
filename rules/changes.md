@@ -54,7 +54,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-028** — 27.88: the hidden-movement reference is 27.32
 - **E-029** — 28.17: one guard per five prisoners, not one
 - **E-024** — 29.1: the printed Roman numerals are weeks of the month
-- **E-025** — 29.61: the Weather Table's seasons are printed in reverse; the sequence in 29.1 is correct
+- **E-025** — 29.61: the Weather Table's season rows are backwards; the turn bands are swapped with the opposite season's, per the 29.1 calendar
 - **E-030** — 30.5: the supply-by-sea reference is 56.0; 30.55 also admits barraged/bombed units; 30.57 is replaced by the 10 %-per-SP rule; 30.58's reference is 55.2
 - [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery: torpedo-immune, own AA, may sortie, no port-efficiency penalty (NJHarman)
 
