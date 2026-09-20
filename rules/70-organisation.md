@@ -226,7 +226,16 @@ stage planned ahead under [production](#commonwealth-production). Pool and
 production points are by type, with per-turn maxima per type. Replacement die
 rolls may be kept secret, even from team-mates.
 
-::: spi-omit 20.3 — the Replacement Point Conversion Chart is on the chart sheet; to `data/tables/replacement-conversion.json` when captured (its SGSU line is void: SGSUs need no replacement points, SPI 34.82)
+::: spi 20.3
+
+The Replacement Point Conversion Chart is data: `data/tables/replacement-conversion.json`
+— what one TOE point of each unit type costs in replacement points. Most
+infantry costs one infantry point; HQs, paratroops, Bersaglieri, machine-gun,
+engineer battalions and light reconnaissance cost two, commandos three, and
+heavy weapons one infantry plus one gun. Armour rebuilds point for point;
+armoured cars take two armoured-recce points, or a light tank when upgrading;
+the construction battalions cost nothing and return six stages after being
+wiped out. The chart's SGSU line is void (E-012).
 
 ::: errata E-012 — 20.3: ignore the chart's SGSU entry
 

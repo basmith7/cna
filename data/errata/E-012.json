@@ -1,0 +1,18 @@
+{
+  "id": "E-012",
+  "table": "replacement-conversion",
+  "affects": [
+    "20.3"
+  ],
+  "sources": [
+    "CNA1979:20.3",
+    "CNA1979:34.82"
+  ],
+  "summary": "Ignore the chart's Squadron Ground Support Unit line: SGSUs need no replacement points (34.82)",
+  "patches": [
+    {
+      "op": "remove",
+      "path": "/rows/19"
+    }
+  ]
+}

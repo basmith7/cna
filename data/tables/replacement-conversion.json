@@ -1,0 +1,31 @@
+{
+ "table": "replacement-conversion",
+ "sources": ["CNA1979:20.3", "scan:p101"],
+ "notes": [
+  "cost lists alternatives; within an alternative every entry is spent. 'gun' = artillery, anti-tank or anti-air points whatever their ratings; 'armoured-recce' covers armoured reconnaissance and armoured car points (Italian ones are always Autobelinda 41s); 'light-tank' applies only when upgrading the unit under 20.5; 'light-anti-tank' = Italian 47/32 or German 2.8 cm / 28/20 Pak only (chart key, restated)",
+  "As printed the chart has a Squadron Ground Support Unit row (1 infantry + supplies); SPI's September 1979 errata says to ignore it since SGSUs need no replacement points (34.82): errata/E-012.json removes that row. Values here are as printed",
+  "Transcribed from the archive.org scan (jp2 101, printed sideways) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p7): 0 of 20 rows differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {"unit": "hq", "cost": [[{"class": "infantry", "points": 2}]], "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "commando", "cost": [[{"class": "infantry", "points": 3}]], "applies_to": "Layforce and the SAS Brigade only", "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "paratroop-infantry", "cost": [[{"class": "infantry", "points": 2}]], "applies_to": "185th Folgore and Ramcke Brigade units only", "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "italian-bersaglieri", "cost": [[{"class": "infantry", "points": 2}]], "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "machine-gun", "cost": [[{"class": "infantry", "points": 2}]], "applies_to": "with or without a motorised symbol", "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "heavy-weapons", "cost": [[{"class": "infantry", "points": 1}, {"class": "gun", "points": 1}]], "applies_to": "all except Ramcke Brigade units", "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "other-infantry", "cost": [[{"class": "infantry", "points": 1}]], "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "engineer-battalion", "cost": [[{"class": "infantry", "points": 2}]], "applies_to": "including the Australian Pioneer unit", "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "engineer-company", "cost": [[{"class": "infantry", "points": 1}]], "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "road-or-rail-construction", "cost": [], "applies_to": "the SA road and two NZ railway construction battalions; if eliminated they return as reinforcements six stages later", "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "motorcycle-recce-camel-or-recce", "cost": [[{"class": "infantry", "points": 2}]], "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "armoured-recce", "cost": [[{"class": "armoured-recce", "points": 1}], [{"class": "light-tank", "points": 1}]], "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "armoured-car", "cost": [[{"class": "armoured-recce", "points": 2}], [{"class": "light-tank", "points": 1}]], "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "tank", "cost": [[{"class": "tank", "points": 1}]], "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "artillery", "cost": [[{"class": "artillery", "points": 1}]], "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "airdroppable-artillery", "cost": [[{"class": "italian-para-artillery", "points": 1}], [{"class": "german-75mm-light-gun", "points": 1}]], "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "anti-tank", "cost": [[{"class": "anti-tank", "points": 1}]], "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "airdroppable-anti-tank", "cost": [[{"class": "light-anti-tank", "points": 1}]], "applies_to": "only when assigning anti-tank points to the 185th Folgore or Ramcke HQs", "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "anti-air", "cost": [[{"class": "anti-air", "points": 1}]], "sources": ["CNA1979:20.3", "scan:p101"]},
+  {"unit": "squadron-ground-support", "cost": [[{"class": "infantry", "points": 1}, {"class": "supplies", "points": 1}]], "sources": ["CNA1979:20.3", "scan:p101"]}
+ ]
+}
