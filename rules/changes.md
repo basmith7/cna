@@ -15,6 +15,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-001](../rulings/R-001.md) — the −26 disorganisation threshold is a cohesion level, not a count of disorganisation points
 
+## [Movement](./40-movement.md)
+
+- **E-031** — 8.37: footnote 4 (Alexandria and Cairo are level-three fortifications) belongs to Major City, not Swamp; a track does not cost 1 CP — it halves the hex terrain's cost, as footnote 8 says
+
 ## [Combat](./60-combat.md)
 
 - **E-001** — 11.32 printed "+" for the multiplication; the formula is rating × strength

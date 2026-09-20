@@ -54,7 +54,7 @@ Defined once in `schema/common.schema.json` and `$ref`'d from every table:
 | `unitClass` | infantry, armor, gun, truck | §3.22 |
 | `supplyType` | ammo, fuel, stores, water | §32.11 |
 | `phase` | initiative-declaration, weather, organisation, arrival, cw-fleet, reserve-designation, movement-combat, truck-convoy, rail, repair, patrol | §5.2 (A–L, no I) |
-| `terrain` | clear, rough, desert, road, track, escarpment, pass, sea — **seed**, extended when 8.37 is transcribed | §8.37 |
+| `terrain` | the Terrain Effects Chart's hex types (clear, gravel, salt-marsh, heavy-vegetation, rough, mountain, delta, desert, major-city, swamp, village-bir-oasis, railroad, road, track) plus escarpment, pass, sea | §8.37 |
 | `side` / `nation` | cw, axis / cw, it, de | — |
 
 Adding an enum value is a data PR that must say which case introduces it.

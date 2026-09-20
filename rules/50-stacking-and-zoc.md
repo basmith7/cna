@@ -34,7 +34,7 @@ HQ supplies the administration that lets them act as one body.
 ::: spi 9.14
 
 Each terrain type has a stacking ceiling, given on the Terrain Effects Chart
-(SPI 8.37, pending transcription to `data/`). The ceiling is enforced at the
+(SPI 8.37, `data/tables/terrain-effects.json`). The ceiling is enforced at the
 end of every movement segment.
 
 ::: spi 4.26

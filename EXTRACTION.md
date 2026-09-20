@@ -126,6 +126,13 @@ the PR that adds or substantially rewrites the file.
 - Chart vs rules text, kept as printed and noted in the table and the rules pointer: guarded dump survives on a two-dice total *equal to or greater than* the guards' raw close-assault defence (chart) vs *greater than* (27.5x text). Ruling candidate.
 - Rules: `rules/90-special.md` 27.91 → primary `::: spi 27.91`; 27.92 (Raid on Rommel Table) stays omitted — not on the shared sheet.
 
+## data/tables/terrain-effects.json + errata/E-031.json — 2026-09-20 (Part C)
+- Source: archive.org scan jp2 page 69 — the Terrain Effects Chart (SPI 8.37) is a full page of the *rulebook*, not the chart sheet (found by searching the djvu XML for the title). 27 rows: 14 hex terrains, 8 hexside features, 3 fortification levels, 2 minefields; CP (foot / motorised), breakdown value, three signed column shifts (L negative, R positive), stacking ceiling and footnote numbers; the 13 footnotes restated in our words. Schema `terrain-effects.schema.json`; `tests/test_terrain_effects.py` written first; `common.schema.json` `terrain` enum extended to the chart's hex types.
+- Cross-check: `scan:discord:CampaignNorthAfrica - converted.pdf:p70` (the community's OCR-converted scan of the same rulebook) — **0 of 27 rows differ**. Clay Stone's errata-integrated Land rules PDF prints "see Charts and Tables" plus the two errata sentences in place of the chart, so it confirms the errata but not the cells.
+- Errata: **E-031** (SPI 8.37 errata): footnote 4 moves from Swamp to Major City; a track halves the hex terrain's cost instead of costing 1 CP. Applied as an overlay; base values as printed.
+- Rules: `rules/40-movement.md` 8.37 `spi-omit` → primary `::: spi 8.37` with a pointer paragraph and the `::: errata E-031` badge; the "pending transcription" mentions in `50-stacking-and-zoc.md` (9.14) and `60-combat.md` (15.3) now point at the file.
+- Also located this run, not yet captured: 36.53 Allied Off-Map Air Facilities (jp2 70), 19.31 (jp2 134), 20.78 (jp2 140), 19.32 (jp2 173), 19.33 (jp2 174), 20.66 (jp2 175); recorded in `tools/sources.json` `chart_pages`.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:

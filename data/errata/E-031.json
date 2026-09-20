@@ -1,0 +1,12 @@
+{
+  "id": "E-031",
+  "table": "terrain-effects",
+  "affects": ["8.37"],
+  "sources": ["CNA1979:8.37"],
+  "summary": "Terrain Effects Chart: footnote 4 (level-three fortifications) belongs to Major City, not Swamp; a track does not cost 1 CP, it halves the cost of the hex's terrain (footnote 8 is right, the printed '1' is not)",
+  "patches": [
+    {"op": "remove", "path": "/rows/9/footnotes"},
+    {"op": "add", "path": "/rows/8/footnotes", "value": [4]},
+    {"op": "replace", "path": "/rows/13/cp", "value": "halves-hex-terrain"}
+  ]
+}

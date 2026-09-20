@@ -24,7 +24,8 @@
     "phase": {"enum": ["initiative-declaration", "weather", "organisation", "arrival", "cw-fleet",
                        "reserve-designation", "movement-combat", "truck-convoy", "rail", "repair", "patrol"],
               "description": "SPI phases A–L of an Operations Stage (there is no I)"},
-    "terrain": {"enum": ["clear", "rough", "desert", "road", "track", "escarpment", "pass", "sea"],
-                "description": "Seed list; extended in the movement PR when the Terrain Effects Chart is transcribed"}
+    "terrain": {"enum": ["clear", "gravel", "salt-marsh", "heavy-vegetation", "rough", "mountain", "delta", "desert", "major-city",
+                         "swamp", "village-bir-oasis", "railroad", "road", "track", "escarpment", "pass", "sea"],
+                "description": "Hex terrain types of the Terrain Effects Chart (8.37, tables/terrain-effects.json) plus the map's escarpment, pass and sea"}
   }
 }

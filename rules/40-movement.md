@@ -106,7 +106,19 @@ unit types — vehicles may not enter salt marsh, for instance, unless on a
 road or track. All of this, and every combat effect of terrain, is on the
 Terrain Effects Chart, transcribed as `data/tables/terrain-effects.json`.
 
-::: spi-omit 8.37 — the Terrain Effects Chart is a lookup table on the chart sheet; transcribed to `data/tables/terrain-effects.json` (pending capture of the sheet), not restated as prose
+::: spi 8.37
+
+The Terrain Effects Chart is data: `data/tables/terrain-effects.json` — for
+each hex terrain, hexside feature, fortification level and minefield, the CP
+to enter or cross (foot and motorised), the breakdown value, the column
+shifts on barrage, anti-armour and close assault, and the stacking ceiling.
+A few figures worth carrying in the head: clear, gravel and delta cost a
+motorised unit 2, 2 and 4 CP; rough 4, mountain 6, desert 4 (and 24
+breakdown points); a road ½; vehicles never climb an escarpment or ford a
+major river except by road; mountain holds 3 stacking points, a major city
+8, everything else 6.
+
+::: errata E-031 — 8.37: footnote 4 (Alexandria and Cairo are level-three fortifications) belongs to Major City, not Swamp; a track does not cost 1 CP — it halves the hex terrain's cost, as footnote 8 says
 
 **Roads and tracks.** A unit gets the road or track rate only when it moves
 between two adjacent road/track hexes that are joined across a road/track

@@ -1,0 +1,53 @@
+{
+ "table": "terrain-effects",
+ "sources": ["CNA1979:8.37", "scan:p69"],
+ "notes": [
+  "Terrain Effects Chart (SPI 8.37): hex terrain, hexside features (cp is additive, the chart's '+'), fortification levels and minefields. Column shifts are signed: negative = L (columns to the left, favouring the defender), positive = R. 'gravel' here is the same terrain as 'sand-gravel' on the Construction Chart (construction.json)",
+  "Printed as in 1979: track costs 1 CP with footnote 8 and footnote 4 sits on Swamp. SPI's September 1979 errata (E-031) moves footnote 4 to Major City and says tracks do not cost 1 CP — they halve the hex terrain's cost (footnote 8 is correct, the '1' is not); the overlay data/errata/E-031.json applies both",
+  "The chart is on a page of the rulebook (jp2 69), not the shared chart sheet. Transcribed from the archive.org scan and cross-checked cell by cell against the community's OCR-converted scan of the 1979 rulebook (scan:discord:CampaignNorthAfrica - converted.pdf:p70): 0 of 27 rows differ. Clay Stone's errata-integrated Land rules PDF prints 'see Charts and Tables' with the two errata sentences in place of the chart"
+ ],
+ "footnotes": {
+  "1": "a garrison unit in its assigned hex takes no stacking space; anti-aircraft units take none in a major city (any number), at an airfield (up to three) or at a landing strip (one)",
+  "2": "enterable and leavable, by track only, for light trucks, recce and motorcycle infantry — no other vehicle; nothing motorised fights into or out of a salt marsh (8.44)",
+  "3": "light trucks, motorcycle recce and motorcycle infantry may not enter, even by track",
+  "4": "Alexandria and Cairo hexes are level-three fortifications; every other one is level two",
+  "5": "Commonwealth units may be able to use rail movement (8.7)",
+  "6": "negates all hexside entry costs and breakdown values",
+  "7": "counts only what is actually on the road or track: the units and truck points using it in that hex at that moment",
+  "8": "halves all terrain entry costs and all hex and hexside breakdown values, except the CP and breakdown of a vehicle going down an escarpment",
+  "9": "motorised units and trucks may cross only on a track",
+  "10": "in a rainstorm may be crossed only where a road or railroad (treated as a road) crosses the hexside, at +2 CP",
+  "11": "may be crossed only where a road or railroad crosses the hexside; a motorised unit then pays no CP or breakdown for it",
+  "12": "armour targets get the defensive benefit only in a major city hex",
+  "13": "engineers cut the entry cost (26.2); assaulting forces standing in an enemy minefield give the non-phasing side L1 on anti-armour and close assault unless it already has them from a friendly minefield"
+ },
+ "rows": [
+  {"kind": "hex", "terrain": "clear", "cp": {"non_mot": 2, "mot": 2}, "breakdown": 4, "shifts": {"barrage": 0, "anti_armour": 0, "close_assault": 0}, "stacking": 6, "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hex", "terrain": "gravel", "cp": {"non_mot": 2, "mot": 2}, "breakdown": 6, "shifts": {"barrage": 0, "anti_armour": 0, "close_assault": 0}, "stacking": 6, "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hex", "terrain": "salt-marsh", "cp": {"non_mot": 3, "mot": 2}, "breakdown": 6, "shifts": {"barrage": 0, "anti_armour": 0, "close_assault": 1}, "stacking": 6, "footnotes": [2], "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hex", "terrain": "heavy-vegetation", "cp": {"non_mot": 3, "mot": 3}, "breakdown": 3, "shifts": {"barrage": 0, "anti_armour": -1, "close_assault": -1}, "stacking": 6, "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hex", "terrain": "rough", "cp": {"non_mot": 3, "mot": 4}, "breakdown": 8, "shifts": {"barrage": -1, "anti_armour": -1, "close_assault": -2}, "stacking": 6, "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hex", "terrain": "mountain", "cp": {"non_mot": 4, "mot": 6}, "breakdown": 12, "shifts": {"barrage": -2, "anti_armour": -2, "close_assault": -3}, "stacking": 3, "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hex", "terrain": "delta", "cp": {"non_mot": 2, "mot": 4}, "breakdown": 2, "shifts": {"barrage": 0, "anti_armour": 0, "close_assault": 0}, "stacking": 6, "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hex", "terrain": "desert", "cp": {"non_mot": 3, "mot": 4}, "breakdown": 24, "shifts": {"barrage": 0, "anti_armour": 0, "close_assault": 0}, "stacking": 6, "footnotes": [3], "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hex", "terrain": "major-city", "cp": {"non_mot": 1, "mot": 0.5}, "breakdown": 0.5, "shifts": "see-fortifications", "stacking": 8, "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hex", "terrain": "swamp", "cp": "road-or-railroad-only", "shifts": {"barrage": 0, "anti_armour": 0, "close_assault": 0}, "stacking": 6, "footnotes": [4], "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hex", "terrain": "village-bir-oasis", "cp": "as-hex-terrain", "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hex", "terrain": "railroad", "cp": "as-hex-terrain", "footnotes": [5], "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hex", "terrain": "road", "cp": {"non_mot": 1, "mot": 0.5}, "breakdown": 0.5, "shifts": {"barrage": 0, "anti_armour": 0, "close_assault": 0}, "stacking": 5, "footnotes": [6, 7], "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hex", "terrain": "track", "cp": {"non_mot": 1, "mot": 1}, "breakdown": "halves", "shifts": {"barrage": 0, "anti_armour": 0, "close_assault": 0}, "stacking": 5, "footnotes": [7, 8], "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hexside", "terrain": "ridge", "cp": {"non_mot": 2, "mot": 4}, "breakdown": 2, "shifts": {"barrage": 0, "anti_armour": -2, "close_assault": -2}, "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hexside", "terrain": "up-slope", "cp": {"non_mot": 2, "mot": 4}, "breakdown": 2, "shifts": {"barrage": 0, "anti_armour": -1, "close_assault": -2}, "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hexside", "terrain": "down-slope", "cp": {"non_mot": 1, "mot": 2}, "breakdown": 2, "shifts": {"barrage": 0, "anti_armour": -1, "close_assault": 1}, "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hexside", "terrain": "up-escarpment", "cp": {"non_mot": 6, "mot": "prohibited"}, "breakdown": "none", "shifts": {"barrage": 0, "anti_armour": "prohibited", "close_assault": -3}, "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hexside", "terrain": "down-escarpment", "cp": {"non_mot": 4, "mot": 8}, "breakdown": 6, "shifts": {"barrage": 0, "anti_armour": -2, "close_assault": 1}, "footnotes": [9], "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hexside", "terrain": "wadi", "cp": {"non_mot": 1, "mot": 4}, "breakdown": 8, "shifts": {"barrage": 0, "anti_armour": 0, "close_assault": -1}, "footnotes": [10], "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hexside", "terrain": "major-river", "cp": {"non_mot": 8, "mot": "prohibited"}, "breakdown": "none", "shifts": {"barrage": 0, "anti_armour": 0, "close_assault": -6}, "footnotes": [11], "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "hexside", "terrain": "minor-river", "cp": {"non_mot": 3, "mot": 6}, "breakdown": 1, "shifts": {"barrage": 0, "anti_armour": 0, "close_assault": -2}, "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "fortification", "terrain": "fortification-1", "cp": "as-hex-terrain", "shifts": {"barrage": -1, "anti_armour": -1, "close_assault": -2}, "footnotes": [12], "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "fortification", "terrain": "fortification-2", "cp": "as-hex-terrain", "shifts": {"barrage": -2, "anti_armour": -2, "close_assault": -3}, "footnotes": [12], "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "fortification", "terrain": "fortification-3", "cp": "as-hex-terrain", "shifts": {"barrage": -2, "anti_armour": -2, "close_assault": -4}, "footnotes": [12], "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "minefield", "terrain": "friendly-minefield", "cp": {"non_mot": 1, "mot": 4}, "breakdown": 0, "shifts": {"barrage": 0, "anti_armour": -1, "close_assault": -1}, "footnotes": [13], "sources": ["CNA1979:8.37", "scan:p69"]},
+  {"kind": "minefield", "terrain": "enemy-minefield", "cp": {"non_mot": 4, "mot": "cpa"}, "breakdown": 2, "shifts": {"barrage": 0, "anti_armour": 0, "close_assault": 0}, "footnotes": [13], "sources": ["CNA1979:8.37", "scan:p69"]}
+ ]
+}

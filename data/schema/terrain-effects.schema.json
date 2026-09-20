@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "terrain-effects.schema.json",
+  "title": "Terrain Effects Chart (SPI 8.37)",
+  "type": "object", "required": ["table", "sources", "footnotes", "rows"], "additionalProperties": false,
+  "$defs": {
+    "cpValue": {"oneOf": [{"type": "number", "minimum": 0}, {"enum": ["prohibited", "cpa"]}],
+                "description": "CP to enter (hex) or cross (hexside, additive); 'prohibited' = P on the chart; 'cpa' = the unit's whole capability point allowance (enemy minefield, motorised)"},
+    "cp": {"oneOf": [
+      {"type": "object", "required": ["non_mot", "mot"], "additionalProperties": false,
+       "properties": {"non_mot": {"$ref": "#/$defs/cpValue"}, "mot": {"$ref": "#/$defs/cpValue"}}},
+      {"enum": ["as-hex-terrain", "road-or-railroad-only", "halves-hex-terrain"],
+       "description": "Whole-row wording: same as the hex's terrain; enterable only along a road or railroad; halves the hex terrain cost (E-031 track)"}]},
+    "shift": {"oneOf": [{"type": "integer", "minimum": -6, "maximum": 6}, {"const": "prohibited"}],
+              "description": "Column shifts: negative = L (left, toward the defender), positive = R; 'prohibited' = P"},
+    "shifts": {"oneOf": [
+      {"type": "object", "required": ["barrage", "anti_armour", "close_assault"], "additionalProperties": false,
+       "properties": {"barrage": {"$ref": "#/$defs/shift"}, "anti_armour": {"$ref": "#/$defs/shift"}, "close_assault": {"$ref": "#/$defs/shift"}}},
+      {"const": "see-fortifications"}]}
+  },
+  "properties": {
+    "table": {"const": "terrain-effects"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "footnotes": {"type": "object", "propertyNames": {"pattern": "^[0-9]{1,2}$"}, "additionalProperties": {"type": "string"},
+                  "description": "The chart's numbered notes, restated in our words; rows cite them by number"},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["kind", "terrain", "cp", "sources"], "additionalProperties": false,
+      "properties": {
+        "kind": {"enum": ["hex", "hexside", "fortification", "minefield"]},
+        "terrain": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "cp": {"$ref": "#/$defs/cp"},
+        "breakdown": {"oneOf": [{"type": "number", "minimum": 0}, {"enum": ["halves", "none"]}],
+                      "description": "Breakdown points for entering or crossing; 'halves' = track note 8; 'none' = the chart's dash"},
+        "shifts": {"$ref": "#/$defs/shifts"},
+        "stacking": {"type": "integer", "minimum": 1, "description": "Stacking points allowed in the hex (note 1); absent where the chart prints a dash"},
+        "footnotes": {"type": "array", "minItems": 1, "items": {"type": "integer", "minimum": 1}},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  }
+}
