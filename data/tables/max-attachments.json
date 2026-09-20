@@ -1,0 +1,32 @@
+{
+ "table": "max-attachments",
+ "sources": ["CNA1979:19.5", "scan:p100"],
+ "notes": [
+  "Maximum battalion-equivalent units (full-strength counters) a parent may have attached beyond its assigned structure (SPI 19.5, restated in rules/70-organisation.md); 'units' on the chart are battalion-equivalents unless the row says company. Any division or brigade may attach two non-SP company-equivalents on top (free_company_equivalents), subject to the same type restrictions",
+  "restrictions caps a type within the maximum; 'tank' means battalion-equivalents of tank points, 'infantry' all infantry types except machine-gun and heavy-weapons units, motorised or not (chart key). restriction_mode 'each' = the row's '1 Infantry and/or 1 Tank'; 'combined' = '1 Infantry or 1 Tank'",
+  "Transcribed from the archive.org scan (jp2 100) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p6): 0 of 20 rows differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "free_company_equivalents": 2,
+ "rows": [
+  {"nation": "cw", "parent": "armour-division", "turns": {"from": 1, "to": 67}, "max_units": 2, "restrictions": {"infantry": 1, "tank": 0}, "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "cw", "parent": "armour-division-late", "turns": {"from": 68, "to": null}, "max_units": 3, "restrictions": {"infantry": 1, "tank": 1}, "restriction_mode": "each", "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "cw", "parent": "infantry-division", "max_units": 2, "restrictions": {"infantry": 1, "tank": 0}, "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "cw", "parent": "tank-brigade", "turns": {"from": 1, "to": 67}, "max_units": 2, "restrictions": {"infantry": 1, "tank": 0}, "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "cw", "parent": "tank-brigade-late", "turns": {"from": 68, "to": null}, "max_units": 1, "restrictions": {"tank": 0}, "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "cw", "parent": "other-brigade", "max_units": 1, "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "cw", "parent": "battalion", "max_units": 1, "unit_kind": "company", "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "cw", "parent": "matruh-garrison", "turns": {"from": 1, "to": 12}, "max_units": 6, "restrictions": {"tank": 0, "gun": 1}, "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "cw", "parent": "selby-force", "turns": {"from": 13, "to": null}, "max_units": 5, "restrictions": {"tank": 0, "recce": 0, "infantry": 3}, "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "de", "parent": "armour-division", "max_units": 4, "alternatives": [{"brigades": 1, "units": 1}, {"brigades": 0, "units": 4}], "restrictions": {"tank": 0}, "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "de", "parent": "infantry-division", "max_units": 3, "alternatives": [{"brigades": 1, "units": 0}, {"brigades": 0, "units": 3}], "restrictions": {"tank": 0}, "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "de", "parent": "infantry-or-armour-regiment", "max_units": 1, "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "de", "parent": "battle-group", "max_units": 4, "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "de", "parent": "artillery-brigade-hq", "max_units": 1, "unit_kind": "artillery", "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "de", "parent": "battalion", "max_units": 1, "unit_kind": "company", "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "it", "parent": "armour-division-or-tank-group", "max_units": 2, "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "it", "parent": "infantry-division", "max_units": 2, "restrictions": {"infantry": 1, "tank": 1}, "restriction_mode": "combined", "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "it", "parent": "brigade-or-regiment", "max_units": 1, "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "it", "parent": "battle-group", "max_units": 3, "sources": ["CNA1979:19.5", "scan:p100"]},
+  {"nation": "it", "parent": "battalion", "max_units": 0, "sources": ["CNA1979:19.5", "scan:p100"]}
+ ]
+}

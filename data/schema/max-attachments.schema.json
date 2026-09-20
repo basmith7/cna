@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "max-attachments.schema.json",
+  "title": "Maximum Attachment Chart (SPI 19.5)",
+  "type": "object", "required": ["table", "sources", "free_company_equivalents", "rows"], "additionalProperties": false,
+  "properties": {
+    "table": {"const": "max-attachments"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "free_company_equivalents": {"type": "integer", "minimum": 0, "description": "Non-SP company-equivalents any division or brigade may attach on top of the maximum (chart modification)"},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["nation", "parent", "max_units", "sources"], "additionalProperties": false,
+      "properties": {
+        "nation": {"$ref": "common.schema.json#/$defs/nation"},
+        "parent": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "turns": {"type": "object", "required": ["from", "to"], "additionalProperties": false,
+                  "properties": {"from": {"type": "integer", "minimum": 1}, "to": {"type": ["integer", "null"], "minimum": 1}},
+                  "description": "Game turns the row applies to, when the chart splits a parent type by date"},
+        "max_units": {"type": "integer", "minimum": 0, "description": "Full-strength battalion-equivalent units (a company counts as one unit only where the chart says 'Company')"},
+        "unit_kind": {"enum": ["battalion", "company", "artillery"], "description": "What the counted units must be, when the chart names a kind"},
+        "alternatives": {"type": "array", "items": {"type": "object", "required": ["brigades", "units"], "additionalProperties": false,
+                          "properties": {"brigades": {"type": "integer", "minimum": 0}, "units": {"type": "integer", "minimum": 0}}},
+                         "description": "Where the chart offers 'N brigades and M units or K units', each option; max_units then holds the largest unit count"},
+        "restrictions": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0},
+                         "description": "Caps by type within the maximum: tank / infantry / recce / gun -> at most this many (0 = none allowed). 'infantry' excludes machine-gun and heavy-weapons units (chart key)"},
+        "restriction_mode": {"enum": ["each", "combined"], "description": "For rows like '1 Infantry and/or 1 Tank': 'each' = one of each may be attached; 'combined' = one infantry OR one tank"},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  }
+}
