@@ -37,7 +37,7 @@ the PR that adds or substantially rewrites the file.
 | Reaction | INTERPRETATION | who may react (8.53a list) | R-006 |
 | Reaction | INTERPRETATION | no well-poisoning during reaction (13.25 by analogy) | R-007 |
 | More Words | CORRECTION | 8.52 last sentence / 8.53d "in combat" | R-008 |
-| Barrage | INTERPRETATION | 12.33 terrain adjustments apply to the attacker too | next PR (barrage) |
+| Barrage | INTERPRETATION | 12.33 terrain adjustments apply to the attacker too | R-009 |
 | Retreat Before Assault | INTERPRETATION | RBA is not bound by 15.82; may be an advance | next PR (assault) |
 | Combat | CLARIFICATION | 15.83b each side totals its own points | next PR (assault) |
 | Combat | CLARIFICATION | 15.29 withhold-and-retreat needs a path taken | next PR (assault) |
