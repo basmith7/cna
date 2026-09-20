@@ -304,7 +304,17 @@ the Anti-Armour Combat Results Table read for **damage points**, which the
 owner of the target hex spends removing armoured TOE points. Place a
 destroyed-tank marker where points were lost.
 
-::: spi-omit 14.6 — the Anti-Armor Combat Results Table is a lookup table on the chart sheet; to `data/tables/anti-armour-results.json` when the sheet is captured
+::: spi 14.6
+
+The table is data: `data/tables/anti-armour-results.json` holds the full
+grid — eighteen dice-pair rows (11–12 up to 65–66) by seventeen point
+columns (0 to 16+) of damage points, transcribed from the chart sheet and
+cross-checked against a second scan. Damage rises smoothly with both
+points and dice, from nothing at all below three points on a low roll to
+32 damage at 16+ points on a 63 or better. The starred 0 column is only
+reached by a firing side with fewer than five raw points, or by shifts
+(SPI 14.33). The phasing player reads one row lower than rolled (an 11 or
+12 stays put).
 
 ### Who fires and who is hit
 

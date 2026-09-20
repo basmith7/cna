@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "anti-armour-results.schema.json",
+  "title": "Anti-armour fire combat results table (SPI 14.6)",
+  "type": "object",
+  "required": ["table", "sources", "columns", "rows"],
+  "additionalProperties": false,
+  "properties": {
+    "table": {"const": "anti-armour-results"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "columns": {
+      "type": "array", "minItems": 1,
+      "description": "Actual anti-armour points after column shifts, in printed order; '0' is the starred column reached only by raw 1–4 or by shifts",
+      "items": {"type": "object", "required": ["id"], "additionalProperties": false,
+                "properties": {"id": {"type": "string", "pattern": "^[0-9]+\\+?$"}}}
+    },
+    "rows": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "required": ["dice", "damage", "sources"], "additionalProperties": false,
+        "properties": {
+          "dice": {"type": "string", "pattern": "^[1-6][135]$",
+                   "description": "First reading of the sequential two-dice pair the row covers: '11' = 11 or 12, '13' = 13 or 14, … '65' = 65 or 66"},
+          "damage": {"type": "object", "description": "column id -> damage points, or null for no effect",
+                     "additionalProperties": {"type": ["integer", "null"], "minimum": 1}},
+          "sources": {"$ref": "common.schema.json#/$defs/sources"}
+        }
+      }
+    }
+  }
+}
