@@ -1,0 +1,20 @@
+{
+ "table": "desert-raider-raids",
+ "sources": ["CNA1979:27.91", "scan:p102"],
+ "notes": [
+  "Desert Raider Raids Table (SPI 27.91): one row per target; 'die' is the single-die result list, the other fields restate the chart's per-target notes and general notes as flags in our words. No target in a major city hex may be raided; no raider makes the same raid in the same hex, or on the same convoy, twice in a stage (general notes)",
+  "The guarded-dump check on the chart is 'dice sum equal to or greater than the guards' raw close-assault defence points' survives; the rules prose in rules/90-special.md (from SPI 27.5x) says a total above the strength. Chart value kept here as printed",
+  "Transcribed from the archive.org scan (jp2 102) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p8): 0 of 7 targets differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "cp_cost": 5,
+ "combined_airfield_and_planes_cp": 10,
+ "rows": [
+  {"target": "water-pipeline", "die": [{"from": 1, "to": 4, "result": "destroyed"}, {"from": 5, "to": 6, "result": "none"}], "limit": "once-per-raider-per-stage", "sources": ["CNA1979:27.91", "scan:p102"]},
+  {"target": "airfield", "die": [{"from": 1, "to": 2, "result": "reduce-level"}, {"from": 3, "to": 6, "result": "none"}], "not_if_combat_units": true, "limit": "once-per-target-per-turn", "combinable_with": "planes-on-ground", "sources": ["CNA1979:27.91", "scan:p102"]},
+  {"target": "planes-on-ground", "die": [{"from": 1, "to": 2, "result": "destroy-percent", "percent": 10}, {"from": 3, "to": 5, "result": "none"}, {"from": 6, "to": 6, "result": "none", "raider_eliminated": true}], "not_if_combat_units": true, "flying_boats_immune": true, "sources": ["CNA1979:27.91", "scan:p102"]},
+  {"target": "rommel", "lrdg_only": true, "see": "table:raid-on-rommel", "sources": ["CNA1979:27.91", "scan:p102"]},
+  {"target": "supply-dump-guarded", "guard_check": {"dice": 2, "survive_if_sum_at_least": "raw-close-assault-defence", "else": "raider-eliminated"}, "then": "supply-dump", "sources": ["CNA1979:27.91", "scan:p102"]},
+  {"target": "supply-dump", "die": [{"from": 1, "to": 2, "result": "destroy-percent", "percent": 10}, {"from": 3, "to": 5, "result": "none"}, {"from": 6, "to": 6, "result": "none", "raider_eliminated_if_combat_units": true}], "reveal_dump_type_after": true, "sources": ["CNA1979:27.91", "scan:p102"]},
+  {"target": "truck-convoy", "die": [{"from": 1, "to": 2, "result": "truck-points-lost", "points": 1}, {"from": 3, "to": 5, "result": "none"}, {"from": 6, "to": 6, "result": "none", "reroll_if_infantry_replacements": {"from": 5, "to": 6, "result": "raider-eliminated"}}], "all_infantry_replacements": "raider-eliminated", "sources": ["CNA1979:27.91", "scan:p102"]}
+ ]
+}
