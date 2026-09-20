@@ -11,7 +11,7 @@ control), and the reserve state that lets a unit react outside its own
 segment. Movement procedure is in [movement](./40-movement.md); combat
 results that force retreats are in [combat](./60-combat.md#forced-retreats).
 
-::: spi-omit 9.0 9.1 9.2 9.4 — section and subsection headings, and a pointer to the counter sheet; rules restated below
+::: spi-omit 9.0 9.1 9.2 — section and subsection headings; rules restated below
 
 ## Stacking points
 
@@ -72,6 +72,15 @@ battalion-sized units "brigade" or "regiment". Read the SP value, not the
 name, and look it up in the unit basic stacking table (counter sheet) to find
 the organisational level. Every artillery unit is 1 SP regardless of its title,
 apart from a few scattered batteries and the occasional larger artillery HQ.
+
+::: spi 9.4
+
+The Stacking Point Values chart is data: `data/tables/stacking-point-values.json`
+— a division is 5 SP, a "super" brigade (an infantry-light division in all
+but name) 3, a standard brigade or battle group 2, a battalion 1, a company
+0; each shell counts one step down. Truck points in convoy weigh half an SP
+per five points (only for whether the road rate applies) and replacement
+points one SP per five.
 
 ::: spi 9.25
 
