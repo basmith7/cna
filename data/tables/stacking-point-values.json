@@ -1,0 +1,17 @@
+{
+ "table": "stacking-point-values",
+ "sources": ["CNA1979:9.4", "scan:p96"],
+ "notes": [
+  "SP per unit equivalent when at full strength, and which formations drop to that value as shells (SPI 9.26-9.28, restated in rules/50-stacking-and-zoc.md): a shell division counts as a super brigade, a shell brigade or battle group as a battalion, a shell battalion or an HQ with anything attached as a company",
+  "Truck points in convoy count half an SP per five points or fraction (only for whether the road/track CP rate applies); replacement points one SP per five or fraction",
+  "Transcribed from the archive.org scan (jp2 96) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p2): 0 of 9 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {"equivalent": "division", "sp": 5, "shell_of": [], "sources": ["CNA1979:9.4", "scan:p96"]},
+  {"equivalent": "super-brigade", "sp": 3, "shell_of": ["division"], "sources": ["CNA1979:9.4", "scan:p96"]},
+  {"equivalent": "brigade", "sp": 2, "shell_of": [], "sources": ["CNA1979:9.4", "scan:p96"]},
+  {"equivalent": "battalion", "sp": 1, "shell_of": ["brigade", "battle-group"], "sources": ["CNA1979:9.4", "scan:p96"]},
+  {"equivalent": "company", "sp": 0, "shell_of": ["battalion", "hq-with-attachments"], "sources": ["CNA1979:9.4", "scan:p96"]}
+ ],
+ "per_five_points": {"truck-convoy": 0.5, "replacement-points": 1}
+}
