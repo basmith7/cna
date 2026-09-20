@@ -213,3 +213,9 @@ Done: #42 merged — R-018 rewritten with the real 24.17 / 6.3 figures (dummy du
 In flight: none.
 Next: 24.17 construction chart (jp2 103, sideways; restrictions column is prose — model as enums/flags, never the chart's sentences) + 24.18 demolition (jp2 104). Then 27.91, player-sheet tables, 8.37/8.89 search. Then Part D.
 Blocked: none.
+
+## 2026-09-19 21:27 — autopilot/c-construction-demolition
+Done: branch opened; jp2 103 (construction, sideways: rotate -90) and 104 (demolition, upright) read and matched against Discord Shared Charts p9/p10.
+In flight: construction.json + demolition.json with schemas and tests; badge 24.17/24.18 in 80-engineering; EXTRACTION entry.
+Next: finish this PR, then 27.91 desert raider (jp2 102), then player-sheet tables.
+Blocked: none. Note: chart says temporary repair facility 50 fuel + 250 stores / 1 stage, rebuild 10 fuel + 50 stores; rules prose (24.8x) says 150 fuel + 250 stores / 3 stages and 30 fuel + 50 stores — record as a chart-vs-rules discrepancy for Brian.

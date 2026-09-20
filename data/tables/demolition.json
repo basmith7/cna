@@ -1,0 +1,24 @@
+{
+ "table": "demolition",
+ "sources": ["CNA1979:24.18", "scan:p104"],
+ "notes": [
+  "Demolition Chart (SPI 24.18): per item, how a ground unit reduces, clears, destroys, dismantles, unblocks or blows it (by_units false = the chart's 'not allowed'), the stages or timing, supplies spent or recovered, and which other causes (air bombardment, barrage, strafing, desert raider raids) also affect it; the chart's key restated in the schema's builder enum",
+  "The road row prints '1' in the stages column although no unit may destroy a road; kept as printed",
+  "Transcribed from the archive.org scan (jp2 104) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p10): 0 of 13 rows differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {"item": "fortification", "situation": "reduce-level", "by_units": false, "also_by": ["air-bombardment", "barrage"], "sources": ["CNA1979:24.18", "scan:p104"]},
+  {"item": "fake-minefield", "situation": "clear", "by_units": true, "builders": [{"units": ["any-unit"]}], "stages": 1, "timing": "end-of-movement-segment-entered", "sources": ["CNA1979:24.18", "scan:p104"]},
+  {"item": "real-minefield", "situation": "clear", "by_units": true, "builders": [{"units": ["any-engineer"]}, {"units": ["tank-battalion-6toe-scorpions"]}], "stages": 1, "sources": ["CNA1979:24.18", "scan:p104"]},
+  {"item": "railroad", "situation": "destroy", "by_units": true, "builders": [{"units": ["any-engineer"]}, {"units": ["infantry-battalion-3toe"]}], "stages": 1, "also_by": ["air-bombardment", "barrage"], "sources": ["CNA1979:24.18", "scan:p104"]},
+  {"item": "road", "situation": "destroy", "by_units": false, "stages": 1, "only_by": ["air-bombardment", "barrage"], "sources": ["CNA1979:24.18", "scan:p104"]},
+  {"item": "repair-facility", "situation": "dismantle", "by_units": true, "builders": [{"units": ["any-engineer"]}], "stages": 1, "also_by": ["barrage", "air-bombardment"], "recovers": {"fuel": 25, "stores": 120}, "sources": ["CNA1979:24.18", "scan:p104"]},
+  {"item": "water-pipeline", "situation": "destroy", "by_units": true, "builders": [{"units": ["engineer-hq"]}, {"units": ["any-unit-1toe"]}], "stages": 1, "also_by": ["barrage", "strafing", "desert-raider-raid"], "sources": ["CNA1979:24.18", "scan:p104"]},
+  {"item": "air-facility", "situation": "reduce-level", "by_units": false, "also_by": ["air-bombardment"], "reduce_only_by": ["desert-raider-raid"], "sources": ["CNA1979:24.18", "scan:p104"]},
+  {"item": "port-tobruk", "situation": "unblock-level", "by_units": true, "builders": [{"units": ["engineer-battalion"]}, {"units": ["cw-engineer-hq"]}], "stages": 1, "supplies": {"ammo": 25, "stores": 10}, "blocked_by": ["mines", "ships"], "air_damage_automatic": true, "sources": ["CNA1979:24.18", "scan:p104"]},
+  {"item": "port-benghazi", "situation": "unblock-level", "by_units": true, "builders": [{"units": ["engineer-battalion", "cw-engineer-hq"], "count": 2}], "stages": 1, "supplies": {"ammo": 100, "stores": 50}, "blocked_by": ["mines", "ships"], "air_damage_automatic": true, "sources": ["CNA1979:24.18", "scan:p104"]},
+  {"item": "port-other", "situation": "unblock-level", "by_units": true, "builders": [{"units": ["engineer-battalion"]}, {"units": ["cw-engineer-hq"]}], "stages": 1, "supplies": {"ammo": 50, "stores": 25}, "blocked_by": ["mines", "ships"], "air_damage_automatic": true, "sources": ["CNA1979:24.18", "scan:p104"]},
+  {"item": "fake-supply-dump", "situation": "destroy", "by_units": true, "builders": [{"units": ["any-unit"]}], "timing": "on-entry", "also_by": ["desert-raider-raid"], "sources": ["CNA1979:24.18", "scan:p104"]},
+  {"item": "real-supply-dump", "situation": "blow", "by_units": true, "builders": [{"units": ["any-unit"]}], "timing": "cp-percentage", "also_by": ["desert-raider-raid", "air-bombardment", "barrage"], "sources": ["CNA1979:24.18", "scan:p104"]}
+ ]
+}

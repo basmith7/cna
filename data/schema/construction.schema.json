@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "construction.schema.json",
+  "title": "Construction Chart (SPI 24.17)",
+  "type": "object", "required": ["table", "sources", "hot_weather_extra_water", "rows"], "additionalProperties": false,
+  "$defs": {
+    "builder": {"enum": ["any-engineer", "engineer-battalion", "engineer-company", "engineer-hq", "cw-engineer-hq",
+                         "sgsu", "cw-sgsu", "infantry-battalion-3toe", "nzrrc", "any-unit-1toe"],
+                "description": "Chart key: any-engineer = engineer battalion, engineer company or HQ with engineering capability; engineer-hq = any HQ with engineering capability; cw-engineer-hq = Commonwealth HQ with engineering capability; sgsu = any squadron ground support unit; cw-sgsu = Commonwealth SGSU; infantry-battalion-3toe = infantry-type battalion with at least 3 TOE points; nzrrc = NZ railway construction company; any-unit-1toe = any unit with at least 1 TOE point"},
+    "builderOption": {"type": "object", "required": ["units"], "additionalProperties": false,
+                      "properties": {"units": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/builder"}, "description": "All of these together"},
+                                     "hexes_per_stage": {"type": "integer", "minimum": 1, "description": "Own hex plus adjacent hexes this option may work in one stage, where the chart splits it by builder"}},
+                      "description": "One way to satisfy the unit requirement; a row's builders list is the set of alternatives"},
+    "supplies": {"type": "object", "additionalProperties": false, "minProperties": 1,
+                 "properties": {"ammo": {"type": "integer", "minimum": 0}, "fuel": {"type": "integer", "minimum": 0}, "stores": {"type": "integer", "minimum": 0}}}
+  },
+  "properties": {
+    "table": {"const": "construction"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "hot_weather_extra_water": {"type": "integer", "minimum": 0, "description": "Extra water per item under construction (supply dumps excepted) when the hex is under hot weather (chart note *)"},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["item", "situation", "builders", "sources"], "additionalProperties": false,
+      "properties": {
+        "item": {"enum": ["fortification", "real-minefield", "fake-minefield", "railroad", "road", "temporary-repair-facility", "repair-facility",
+                          "water-pipeline", "airfield", "air-landing-strip", "flying-boat-basin", "flying-boat-alighting-area", "port",
+                          "real-supply-dump", "fake-supply-dump"]},
+        "situation": {"enum": ["build", "rebuild", "build-or-rebuild", "rebuild-level", "block-level"]},
+        "builders": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/builderOption"}},
+        "supplies": {"$ref": "#/$defs/supplies", "description": "Per project, or per hex when supplies_per_hex is set"},
+        "supplies_per_hex": {"const": true},
+        "supplies_by_port": {"type": "object", "additionalProperties": false, "required": ["tobruk", "other"],
+                             "properties": {"tobruk": {"$ref": "#/$defs/supplies"}, "other": {"$ref": "#/$defs/supplies"}},
+                             "description": "Port blocking: Tobruk costs more than any other port"},
+        "stages": {"type": "integer", "minimum": 1, "description": "Operations stages the project takes"},
+        "cp": {"type": "integer", "minimum": 1, "description": "Capability points instead of stages (supply dumps)"},
+        "hexes_per_stage": {"type": "integer", "minimum": 1, "description": "Own hex plus adjacent hexes worked in one stage, when not split by builder"},
+        "one_at_a_time": {"const": true, "description": "Chart note ‡: only one may be built, rebuilt or blocked at a time"},
+        "enemy_zoc_allowed": {"const": true, "description": "Row overrides the chart-wide rule (note †) that nothing is built in an enemy ZOC"},
+        "rebuild_in_enemy_zoc_in": {"type": "array", "items": {"type": "string"}, "description": "Terrain where a rebuild (only) may happen in an enemy ZOC"},
+        "terrain": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^[a-z-]+$"}, "description": "Only in these hex types"},
+        "terrain_not": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^[a-z-]+$"}, "description": "Never in these hex types"},
+        "coastal_only": {"const": true, "description": "Any coastal hex, terrain irrelevant"},
+        "from_major_city": {"const": true, "description": "Building starts from a major city hex"},
+        "head_only": {"enum": ["track", "pipe"], "description": "Building extends the line one hex at a time from its head"},
+        "exclusive_in_hex": {"const": true, "description": "No other construction in the hex meanwhile, except port and flying-boat work"},
+        "ports_not": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^[a-z-]+$"}, "description": "Ports this row may never be applied to"},
+        "port_hexes": {"type": "object", "additionalProperties": {"$ref": "common.schema.json#/$defs/hexId"}, "description": "Hex printed on the chart for a port named in ports_not"},
+        "fake_ratio_max": {"type": "number", "exclusiveMinimum": 0, "maximum": 1, "description": "Fake dumps may not exceed this fraction of real dumps in play"},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  }
+}
