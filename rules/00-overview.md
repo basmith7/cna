@@ -27,7 +27,7 @@ and community discussions can be cross-referenced.
 - Every rules file is `provisional` until an engine has been built against
   it and its rulings reopened.
 
-New to the game? Start with the illustrated primer on the [Learn](../site/learn.md)
+New to the game? Start with the illustrated primer on the [Learn](/learn)
 page: one operations stage on a sketch map, the combat maths with the real
 tables, and how supply flows.
 
