@@ -69,7 +69,17 @@ An assigned unit occupies its slot in the parent's structure wherever it is.
   the only exception to the rules above, and it is a swap — a battalion may
   not simply be cut loose as independent.
 
-::: spi-omit 19.3 19.31 19.32 19.33 19.5 — the Formation Organisation Charts (Allied, Italian, German) and the Maximum Attachment Chart are on the chart sheet; to `data/tables/formation-organisation.json` and `max-attachments.json` when captured
+::: spi-omit 19.3 19.31 19.32 19.33 — the Formation Organisation Charts (Allied, Italian, German) are on the player chart sets; to `data/tables/formation-organisation.json` when captured
+
+::: spi 19.5
+
+The Maximum Attachment Chart is data: `data/tables/max-attachments.json` —
+per nation and parent type, how many battalion-equivalents may be attached
+and of what kinds. Commonwealth divisions take two (three for an armoured
+division from turn 68), at most one of them infantry and, before turn 68,
+never a tank battalion; German divisions take a brigade plus a unit or up to
+four units, never tanks; Italian battalions take nothing. Any division or
+brigade may add two small company-equivalents for free.
 
 ## Attachment and detachment {#attachment-limits}
 

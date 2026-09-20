@@ -109,6 +109,11 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: `scan:discord:Shared Charts.pdf:p7` — **0 of 20 rows differ**.
 - Rules: `rules/70-organisation.md` 20.3 `spi-omit` → primary `::: spi 20.3`.
 
+## data/tables/max-attachments.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 100, the Maximum Attachment Chart (SPI 19.5): 20 rows across three nations, with turn splits, type caps and the German either/or alternatives modelled as structured fields; the chart's key and modification note restated in our words. Schema `max-attachments.schema.json`; `tests/test_max_attachments.py` written first.
+- Cross-check: `scan:discord:Shared Charts.pdf:p6` — **0 of 20 rows differ**. No errata (the 19.5 errata clarification is already expressed in the attachment section's prose).
+- Rules: `rules/70-organisation.md` 19.5 → primary `::: spi 19.5`; 19.3x (Formation Organisation Charts) stay omitted — they are on the player chart sets, not the shared sheet.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:
