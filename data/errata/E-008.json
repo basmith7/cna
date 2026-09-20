@@ -1,0 +1,10 @@
+{
+  "id": "E-008",
+  "table": "close-assault-results",
+  "affects": ["15.79"],
+  "sources": ["CNA1979:15.79"],
+  "summary": "Defender losses, +4 column, 10 % row: the printed range 24-45 overlaps the 15 % row; read 34-45 (SPI September 1979 errata)",
+  "patches": [
+    {"op": "replace", "path": "/losses/defender/10/+4", "value": {"from": 34, "to": 45}}
+  ]
+}

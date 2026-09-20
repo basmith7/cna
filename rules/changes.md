@@ -24,6 +24,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-005** — 15.4 example corrected: four unsupported points reduce to one, not two
 - **E-007** — 15.56 addition
 - **E-006** — 15.53 table: "brigade" is a smaller-side entry (3-point / 2-point brigade), misprinted under the shift column
+- **E-008** — 15.79: defender losses, +4 column, 10 % row, read 34–45 (the printed 24–45 overlapped the 15 % row)
 - **E-009** — 15.88 clarified against 6.26: −17 surrenders when assaulted, −26 when approached
 - **E-010** — 16.11 addition: L/6, Stuarts and mechanised infantry join the patrol list
 

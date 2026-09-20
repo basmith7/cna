@@ -436,7 +436,7 @@ adjusted column, and takes the result — a percentage loss, possibly with
 *engaged*, *retreat* or *captured* — before the next hex is assaulted. Both
 sides spend ammunition. A weak attack is a **probe** ([below](#probes)).
 
-::: spi-omit 15.79 15.89 — the Close Assault CRT and the Prisoners Captured Results Table are on the chart sheet; to `data/tables/close-assault-results.json` (with errata E-008, the +4 / 10 % defender range) and `prisoners-captured.json` when captured
+::: spi-omit 15.89 — the Prisoners Captured Results Table is on the chart sheet; to `data/tables/prisoners-captured.json` when captured
 
 ### Who takes part
 
@@ -626,6 +626,22 @@ or defender):
 A zero-loss roll can still produce engaged or retreat. If the same assault
 yields both a retreat and an engaged result, the retreat wins and engaged is
 ignored.
+
+::: spi 15.79
+
+The table is data: `data/tables/close-assault-results.json` holds both
+halves — eighteen differential columns from −11-and-worse to +17-and-better,
+nine loss rows (50 % down to 0) of sequential-reading ranges per side, and
+the summed-dice lines for capture, engaged and retreat of one to three
+hexes. Its shape: at −11 an attacker loses 50 % on any 11–15 and never
+escapes unhurt, while a defender there cannot lose more than 10 %; at 0 the
+two halves are near mirror images; from +11 the defender's table runs from
+40 % on a low roll to nothing only on a 66, and the attacker's stops at 10 %.
+The +4 column carries SPI's one errata correction to this table (E-008);
+two further printed oddities are declared in the file's notes and await a
+ruling.
+
+::: errata E-008 — 15.79: defender losses, +4 column, 10 % row, read 34–45 (the printed 24–45 overlapped the 15 % row)
 
 The **+11 and higher** columns are the *overrun* zone. Overrun is not
 chosen; it means the attacker's mass has broken the line and reached the
