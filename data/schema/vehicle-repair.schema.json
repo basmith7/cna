@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vehicle-repair.schema.json",
+  "title": "Broken Down Vehicle Repair Table (SPI 22.8)",
+  "type": "object", "required": ["table", "sources", "rows"], "additionalProperties": false,
+  "properties": {
+    "table": {"const": "vehicle-repair"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object",
+      "required": ["die", "field_truck", "field_armoured_car", "field_tank_percent", "temporary_facility_percent", "major_facility_percent", "single_point_ignores_ten_percent", "sources"],
+      "additionalProperties": false,
+      "properties": {
+        "die": {"type": "object", "required": ["from", "to"], "additionalProperties": false,
+                "properties": {"from": {"type": "integer", "minimum": 0, "maximum": 8}, "to": {"type": "integer", "minimum": 0, "maximum": 8}}},
+        "field_truck": {"type": ["integer", "null"], "minimum": 0, "description": "truck points repaired in the field (one light/medium point each, or one heavy for two); null = no field roll on this face"},
+        "field_armoured_car": {"type": ["integer", "null"], "minimum": 0, "description": "armoured car / recce points repaired in the field"},
+        "field_tank_percent": {"type": ["integer", "null"], "minimum": 0, "maximum": 100, "description": "percent of the tank / SP gun / tank destroyer points of one type repaired in the field"},
+        "temporary_facility_percent": {"type": "integer", "minimum": 0, "maximum": 100},
+        "major_facility_percent": {"type": "integer", "minimum": 0, "maximum": 100},
+        "single_point_ignores_ten_percent": {"type": "array", "items": {"enum": ["field_tank_percent", "temporary_facility_percent"]},
+                                             "description": "Columns whose 10 % result is starred on the chart: a single point under repair ignores it"},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  }
+}

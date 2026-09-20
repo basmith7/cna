@@ -1,0 +1,20 @@
+{
+ "table": "vehicle-repair",
+ "sources": ["CNA1979:22.8", "scan:p102"],
+ "notes": [
+  "Die modifiers are in the rules (SPI 22.34, restated in rules/80-engineering.md), not on the chart: the chart's own note on die-roll additions is void (Sept 1979 errata, E-017), which is why this file carries no modifier and the die runs 0-8",
+  "Field columns: truck points repaired (2 = two light/medium or one heavy; 1 = one light/medium), armoured car / recce points repaired, and the percent of one tank type repaired; 'na' on the chart (die 7-8, unreachable for a field roll) is null. Facility columns are the percent of the vehicles under repair returned, temporary vs major facility",
+  "A starred 10 % is ignored when only a single point is under repair (single_point_ignores_ten_percent lists the starred columns per row)",
+  "Transcribed from the archive.org scan (jp2 102) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p8): 0 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {"die": {"from": 0, "to": 1}, "field_truck": 2, "field_armoured_car": 1, "field_tank_percent": 25, "temporary_facility_percent": 50, "major_facility_percent": 75, "single_point_ignores_ten_percent": [], "sources": ["CNA1979:22.8", "scan:p102"]},
+  {"die": {"from": 2, "to": 2}, "field_truck": 1, "field_armoured_car": 0, "field_tank_percent": 10, "temporary_facility_percent": 33, "major_facility_percent": 50, "single_point_ignores_ten_percent": ["field_tank_percent"], "sources": ["CNA1979:22.8", "scan:p102"]},
+  {"die": {"from": 3, "to": 3}, "field_truck": 0, "field_armoured_car": 0, "field_tank_percent": 10, "temporary_facility_percent": 25, "major_facility_percent": 50, "single_point_ignores_ten_percent": ["field_tank_percent"], "sources": ["CNA1979:22.8", "scan:p102"]},
+  {"die": {"from": 4, "to": 4}, "field_truck": 0, "field_armoured_car": 0, "field_tank_percent": 10, "temporary_facility_percent": 25, "major_facility_percent": 50, "single_point_ignores_ten_percent": ["field_tank_percent"], "sources": ["CNA1979:22.8", "scan:p102"]},
+  {"die": {"from": 5, "to": 5}, "field_truck": 0, "field_armoured_car": 0, "field_tank_percent": 0, "temporary_facility_percent": 10, "major_facility_percent": 33, "single_point_ignores_ten_percent": ["temporary_facility_percent"], "sources": ["CNA1979:22.8", "scan:p102"]},
+  {"die": {"from": 6, "to": 6}, "field_truck": 0, "field_armoured_car": 0, "field_tank_percent": 0, "temporary_facility_percent": 10, "major_facility_percent": 33, "single_point_ignores_ten_percent": ["temporary_facility_percent"], "sources": ["CNA1979:22.8", "scan:p102"]},
+  {"die": {"from": 7, "to": 7}, "field_truck": null, "field_armoured_car": null, "field_tank_percent": null, "temporary_facility_percent": 10, "major_facility_percent": 25, "single_point_ignores_ten_percent": ["temporary_facility_percent"], "sources": ["CNA1979:22.8", "scan:p102"]},
+  {"die": {"from": 8, "to": 8}, "field_truck": null, "field_armoured_car": null, "field_tank_percent": null, "temporary_facility_percent": 10, "major_facility_percent": 10, "single_point_ignores_ten_percent": ["temporary_facility_percent"], "sources": ["CNA1979:22.8", "scan:p102"]}
+ ]
+}
