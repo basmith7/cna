@@ -173,6 +173,11 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: `scan:discord:CampaignNorthAfrica - converted.pdf:p71` — **0 of 10 cells differ**. No errata.
 - Rules: `rules/40-movement.md` 8.89 `spi-omit` → primary `::: spi 8.89`. §8 now has no omitted chart.
 
+## data/tables/motorisation-losses.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 107 (shared sheet p13, printed sideways), the Abstract Truck Loss Chart — headed 58.5 on the sheet, cited as 32.59 by the Abstract Logistics rules. 28 months (October 1940 – January 1943) × Commonwealth / Axis percentages; dashes are not rows. Schema `motorisation-losses.schema.json`; `tests/test_motorisation_losses.py` written first.
+- Cross-check: `scan:discord:Shared Charts.pdf:p13` — **0 of 56 cells differ**. No errata.
+- Rules: `rules/95-abstract-logistics-and-air.md` 32.59 `spi-omit` → primary `::: spi 32.59`.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:

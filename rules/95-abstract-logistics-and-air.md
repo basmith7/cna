@@ -153,7 +153,12 @@ the last hex where they were within it; they pay no CP when stacked with
 combat units in combat; and they may react unless the approaching unit has
 CPA **35 or more**.
 
-::: spi-omit 32.59 — the Abstract Truck/Motorization Loss Chart is on the chart sheet; to `data/tables/motorisation-losses.json` when captured
+::: spi 32.59
+
+The monthly loss chart is data: `data/tables/motorisation-losses.json` —
+October 1940 to January 1943, Commonwealth and Axis percentages (the
+Commonwealth figure peaks at 10 % in March 1941, the Axis at 6 % in
+November 1942). The chart sheet heads it 58.5.
 
 ## Simplified Axis convoys {#simplified-axis-convoys}
 

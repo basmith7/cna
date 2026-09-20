@@ -1,0 +1,265 @@
+{
+ "table": "motorisation-losses",
+ "sources": [
+  "CNA1979:32.59",
+  "scan:p107"
+ ],
+ "notes": [
+  "Abstract Motorisation Point Loss Chart (SPI 32.59, Abstract Logistics; the chart sheet heads it 58.5): in each month's first naval convoy stage, the percentage of every motorisation point on the map lost for the previous month — Commonwealth left of the chart's stroke, Axis right. Months printed as a dash (before October 1940, after January 1943) are not rows",
+  "Transcribed from the archive.org scan (jp2 107, printed sideways) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p13): 0 of 56 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {
+   "month": "1940-10",
+   "cw_percent": 6,
+   "axis_percent": 2,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1940-11",
+   "cw_percent": 5,
+   "axis_percent": 3,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1940-12",
+   "cw_percent": 4,
+   "axis_percent": 4,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1941-01",
+   "cw_percent": 2,
+   "axis_percent": 3,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1941-02",
+   "cw_percent": 2,
+   "axis_percent": 3,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1941-03",
+   "cw_percent": 10,
+   "axis_percent": 1,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1941-04",
+   "cw_percent": 9,
+   "axis_percent": 2,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1941-05",
+   "cw_percent": 7,
+   "axis_percent": 3,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1941-06",
+   "cw_percent": 5,
+   "axis_percent": 4,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1941-07",
+   "cw_percent": 4,
+   "axis_percent": 3,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1941-08",
+   "cw_percent": 3,
+   "axis_percent": 3,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1941-09",
+   "cw_percent": 3,
+   "axis_percent": 3,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1941-10",
+   "cw_percent": 3,
+   "axis_percent": 3,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1941-11",
+   "cw_percent": 3,
+   "axis_percent": 5,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1941-12",
+   "cw_percent": 3,
+   "axis_percent": 4,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1942-01",
+   "cw_percent": 2,
+   "axis_percent": 4,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1942-02",
+   "cw_percent": 3,
+   "axis_percent": 3,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1942-03",
+   "cw_percent": 3,
+   "axis_percent": 3,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1942-04",
+   "cw_percent": 3,
+   "axis_percent": 3,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1942-05",
+   "cw_percent": 3,
+   "axis_percent": 3,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1942-06",
+   "cw_percent": 3,
+   "axis_percent": 4,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1942-07",
+   "cw_percent": 3,
+   "axis_percent": 4,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1942-08",
+   "cw_percent": 3,
+   "axis_percent": 4,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1942-09",
+   "cw_percent": 3,
+   "axis_percent": 4,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1942-10",
+   "cw_percent": 3,
+   "axis_percent": 4,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1942-11",
+   "cw_percent": 4,
+   "axis_percent": 6,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1942-12",
+   "cw_percent": 3,
+   "axis_percent": 5,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  },
+  {
+   "month": "1943-01",
+   "cw_percent": 2,
+   "axis_percent": 4,
+   "sources": [
+    "CNA1979:32.59",
+    "scan:p107"
+   ]
+  }
+ ]
+}
