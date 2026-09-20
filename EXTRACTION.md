@@ -138,6 +138,11 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: `scan:discord:Commonwealth Charts.pdf:p30` — **0 of 7 rows differ**. No errata.
 - Rules: `rules/90-special.md` 27.92 `spi-omit` → primary `::: spi 27.92`.
 
+## data/tables/cw-production.json — 2026-09-20 (Part C, Commonwealth chart set)
+- Source: archive.org scan jp2 page 140: 20.78A Commonwealth Truck Production Table (6 dice × 2 periods × 3 truck types), 20.78B Commonwealth Infantry Production Table (11 two-dice rows × 4 game-turn bands) and 20.78C Commonwealth Production Chart (24 types: total, cap and its period, first/last planning turn); table notes restated as fields (`arrive_turns_later`, `alexandria_max_share`, `tiger_convoy_turn`). Schema `cw-production.schema.json`; `tests/test_cw_production.py` written first.
+- Cross-check: `scan:discord:Commonwealth Charts.pdf:p30` — **0 of 36 truck cells, 0 of 44 infantry cells, 0 of 24 chart rows differ**. No errata (E-015 is prose-only and already applied).
+- Rules: `rules/70-organisation.md` 20.78 `spi-omit` → primary `::: spi 20.78`.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:

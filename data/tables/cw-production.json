@@ -1,0 +1,563 @@
+{
+ "table": "cw-production",
+ "sources": [
+  "CNA1979:20.78",
+  "scan:p140"
+ ],
+ "notes": [
+  "Commonwealth Production System (SPI 20.78): three tables on one page of the Commonwealth chart set (jp2 140). A: one die per truck type each turn, points arrive four turns later, at most a quarter of them at Alexandria, the later column reflects Lend-Lease. B: two dice per turn for infantry replacement points by the game-turn band of the turn planned for (arriving four turns later, all in one city). C: every other replacement type — lifetime total, the cap per turn / month / fortnight and the first (and last) turn it may be planned for; the Tiger convoy is extra",
+  "Item slugs are ours; 'armoured-recce' is the chart's Armored Recce / Armored Car line. 'none' on the infantry table is stored as 0",
+  "Transcribed from the archive.org scan and cross-checked against the 300 dpi community scan (scan:discord:Commonwealth Charts.pdf:p30): 0 of 36 truck cells, 0 of 44 infantry cells and 0 of 24 chart rows differ. Clay Stone's errata-integrated Land rules PDF contains no charts"
+ ],
+ "trucks": {
+  "arrive_turns_later": 4,
+  "alexandria_max_share": 0.25,
+  "rows": [
+   {
+    "die": 1,
+    "turns_1_30": {
+     "light": 0,
+     "medium": 10,
+     "heavy": 0
+    },
+    "turns_31_107": {
+     "light": 3,
+     "medium": 30,
+     "heavy": 3
+    },
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "die": 2,
+    "turns_1_30": {
+     "light": 2,
+     "medium": 12,
+     "heavy": 0
+    },
+    "turns_31_107": {
+     "light": 5,
+     "medium": 38,
+     "heavy": 4
+    },
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "die": 3,
+    "turns_1_30": {
+     "light": 3,
+     "medium": 15,
+     "heavy": 2
+    },
+    "turns_31_107": {
+     "light": 9,
+     "medium": 44,
+     "heavy": 6
+    },
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "die": 4,
+    "turns_1_30": {
+     "light": 4,
+     "medium": 15,
+     "heavy": 3
+    },
+    "turns_31_107": {
+     "light": 11,
+     "medium": 48,
+     "heavy": 8
+    },
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "die": 5,
+    "turns_1_30": {
+     "light": 4,
+     "medium": 18,
+     "heavy": 3
+    },
+    "turns_31_107": {
+     "light": 13,
+     "medium": 55,
+     "heavy": 10
+    },
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "die": 6,
+    "turns_1_30": {
+     "light": 5,
+     "medium": 20,
+     "heavy": 4
+    },
+    "turns_31_107": {
+     "light": 14,
+     "medium": 60,
+     "heavy": 13
+    },
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   }
+  ]
+ },
+ "infantry": {
+  "bands": [
+   [
+    3,
+    30
+   ],
+   [
+    31,
+    46
+   ],
+   [
+    47,
+    102
+   ],
+   [
+    103,
+    107
+   ]
+  ],
+  "arrive_turns_later": 4,
+  "rows": [
+   {
+    "dice": 2,
+    "points": [
+     0,
+     0,
+     5,
+     0
+    ],
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "dice": 3,
+    "points": [
+     3,
+     4,
+     22,
+     5
+    ],
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "dice": 4,
+    "points": [
+     15,
+     10,
+     25,
+     3
+    ],
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "dice": 5,
+    "points": [
+     0,
+     22,
+     13,
+     2
+    ],
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "dice": 6,
+    "points": [
+     5,
+     13,
+     28,
+     11
+    ],
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "dice": 7,
+    "points": [
+     6,
+     15,
+     20,
+     0
+    ],
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "dice": 8,
+    "points": [
+     4,
+     8,
+     16,
+     13
+    ],
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "dice": 9,
+    "points": [
+     5,
+     18,
+     30,
+     1
+    ],
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "dice": 10,
+    "points": [
+     8,
+     20,
+     19,
+     5
+    ],
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "dice": 11,
+    "points": [
+     10,
+     25,
+     35,
+     7
+    ],
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "dice": 12,
+    "points": [
+     20,
+     0,
+     8,
+     0
+    ],
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   }
+  ]
+ },
+ "chart": {
+  "tiger_convoy_turn": 32,
+  "rows": [
+   {
+    "item": "armoured-recce",
+    "total": 90,
+    "max": 2,
+    "max_per": "turn",
+    "from_turn": 3,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "light-aa",
+    "total": 75,
+    "max": 1,
+    "max_per": "turn",
+    "from_turn": 7,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "heavy-aa",
+    "total": 15,
+    "max": 1,
+    "max_per": "month",
+    "from_turn": 11,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "25-pounder",
+    "total": 250,
+    "max": 4,
+    "max_per": "turn",
+    "from_turn": 11,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "4-5-inch-gun",
+    "total": 25,
+    "max": 3,
+    "max_per": "turn",
+    "from_turn": 76,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "5-5-inch-howitzer",
+    "total": 12,
+    "max": 1,
+    "max_per": "turn",
+    "from_turn": 83,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "155mm-howitzer",
+    "total": 6,
+    "max": 1,
+    "max_per": "turn",
+    "from_turn": 51,
+    "to_turn": 59,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "2-pounder",
+    "total": 60,
+    "max": 5,
+    "max_per": "month",
+    "from_turn": 5,
+    "to_turn": 86,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "6-pounder",
+    "total": 80,
+    "max": 5,
+    "max_per": "turn",
+    "from_turn": 75,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "sp-6-pounder",
+    "total": 7,
+    "max": 3,
+    "max_per": "turn",
+    "from_turn": 76,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "17-pounder",
+    "total": 6,
+    "max": 3,
+    "max_per": "turn",
+    "from_turn": 103,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "mark-vi-light",
+    "total": 15,
+    "max": 3,
+    "max_per": "month",
+    "from_turn": 3,
+    "to_turn": 38,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "a9-cruiser",
+    "total": 8,
+    "max": 2,
+    "max_per": "month",
+    "from_turn": 3,
+    "to_turn": 38,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "a10-cruiser",
+    "total": 10,
+    "max": 3,
+    "max_per": "month",
+    "from_turn": 3,
+    "to_turn": 38,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "a13-cruiser",
+    "total": 8,
+    "max": 2,
+    "max_per": "month",
+    "from_turn": 9,
+    "to_turn": 38,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "crusader-1",
+    "total": 35,
+    "max": 5,
+    "max_per": "month",
+    "from_turn": 31,
+    "to_turn": 76,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "crusader-2",
+    "total": 30,
+    "max": 5,
+    "max_per": "month",
+    "from_turn": 41,
+    "to_turn": 78,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "crusader-3",
+    "total": 18,
+    "max": 6,
+    "max_per": "fortnight",
+    "from_turn": 88,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "matilda",
+    "total": 25,
+    "max": 2,
+    "max_per": "month",
+    "from_turn": 9,
+    "to_turn": 74,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "valentine",
+    "total": 20,
+    "max": 3,
+    "max_per": "month",
+    "from_turn": 39,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "stuart",
+    "total": 44,
+    "max": 10,
+    "max_per": "month",
+    "from_turn": 35,
+    "to_turn": 54,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "grant",
+    "total": 56,
+    "max": 8,
+    "max_per": "month",
+    "from_turn": 66,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "sherman",
+    "total": 62,
+    "max": 12,
+    "max_per": "turn",
+    "from_turn": 89,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   },
+   {
+    "item": "churchill",
+    "total": 1,
+    "from_turn": 90,
+    "sources": [
+     "CNA1979:20.78",
+     "scan:p140"
+    ]
+   }
+  ]
+ }
+}

@@ -344,7 +344,15 @@ spending one *untrained* infantry replacement point per TOE point in it, all
 points at once; the strength does not rise. Thereafter that unit's
 replacements cost one infantry point per TOE point rather than two.
 
-::: spi-omit 20.78 — the Commonwealth Production System tables are on the chart sheet; to `data/tables/cw-production.json` when captured
+::: spi 20.78
+
+The Commonwealth Production System is data: `data/tables/cw-production.json`
+— the truck table (one die per truck type, more from turn 31), the infantry
+table (two dice against the game-turn band of the turn planned for) and the
+production chart (per type: lifetime total, cap per turn or month or
+fortnight, first and last turn it may be planned). Trucks and infantry
+arrive four turns after the roll; no more than a quarter of a turn's trucks
+may land at Alexandria; the Tiger convoy of turn 32 is on top of it all.
 
 ## Commonwealth withdrawals
 
