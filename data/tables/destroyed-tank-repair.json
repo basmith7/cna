@@ -1,0 +1,16 @@
+{
+ "table": "destroyed-tank-repair",
+ "sources": ["CNA1979:22.44", "scan:p102"],
+ "notes": [
+  "One die per destroyed-tank point attempt; add one at a minor repair facility (chart note, SPI 22.4x). Field = repair in the field, only by a Tank Delivery Squadron (Commonwealth) or the Mobile Tank Recovery Squadron (German). Axis facility columns are by the tank's nationality (German, Italian, captured Commonwealth); a Commonwealth facility treats all nationalities alike",
+  "Transcribed from the archive.org scan (jp2 102) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p8): 0 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {"die": {"from": 1, "to": 1}, "field": "repaired", "axis_facility_german": "repaired", "axis_facility_italian": "repaired", "axis_facility_commonwealth": "repaired", "cw_facility": "repaired", "sources": ["CNA1979:22.44", "scan:p102"]},
+  {"die": {"from": 2, "to": 2}, "field": null, "axis_facility_german": "repaired", "axis_facility_italian": "repaired", "axis_facility_commonwealth": "repaired", "cw_facility": "repaired", "sources": ["CNA1979:22.44", "scan:p102"]},
+  {"die": {"from": 3, "to": 3}, "field": null, "axis_facility_german": "repaired", "axis_facility_italian": null, "axis_facility_commonwealth": null, "cw_facility": null, "sources": ["CNA1979:22.44", "scan:p102"]},
+  {"die": {"from": 4, "to": 4}, "field": null, "axis_facility_german": null, "axis_facility_italian": null, "axis_facility_commonwealth": null, "cw_facility": null, "sources": ["CNA1979:22.44", "scan:p102"]},
+  {"die": {"from": 5, "to": 5}, "field": null, "axis_facility_german": null, "axis_facility_italian": "junked", "axis_facility_commonwealth": null, "cw_facility": null, "sources": ["CNA1979:22.44", "scan:p102"]},
+  {"die": {"from": 6, "to": 7}, "field": null, "axis_facility_german": "junked", "axis_facility_italian": "junked", "axis_facility_commonwealth": "junked", "cw_facility": "junked", "sources": ["CNA1979:22.44", "scan:p102"]}
+ ]
+}

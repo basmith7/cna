@@ -38,7 +38,18 @@ No repair is possible when:
 - the vehicles were **towed** this repair phase;
 - the hex is under **rainstorm or sandstorm** (major facilities excepted).
 
-::: spi-omit 22.8 22.44 — the Broken Down Vehicle Repair Table and the Destroyed Tank Repair Table are on the chart sheet; to `data/tables/vehicle-repair.json` and `destroyed-tank-repair.json` when captured (the 22.8 note on die modifiers is void: 22.34 governs)
+::: spi 22.8 22.44
+
+Both repair tables are data. `data/tables/vehicle-repair.json` (SPI 22.8):
+in the field a 0 or 1 returns two truck points, one armoured-car point or a
+quarter of a tank type, a 2 one truck point and a tenth of the tanks, and
+from 5 up nothing; facilities do better, a major one returning three-quarters
+on a 0–1 and still a tenth on an 8. The chart's own sentence about die
+additions is void (E-017): the modifiers are those of 22.34 above.
+`data/tables/destroyed-tank-repair.json` (SPI 22.44): a 1 repairs anywhere;
+a 2 repairs at any facility; German tanks at an Axis facility repair on a 3
+as well; Italian tanks are junked on a 5; a 6 or 7 junks at every facility;
+the field column is only for the delivery and recovery squadrons.
 
 ::: errata E-017 — 22.8: the table's last two sentences on die-roll additions are wrong; use 22.34
 

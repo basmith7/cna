@@ -70,6 +70,12 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: `scan:discord:Shared Charts.pdf:p1` — **0 of 8 cells differ**. No errata.
 - Rules: `rules/60-combat.md` 16.6 → primary `::: spi 16.6`; §16 now has no pending-capture omit.
 
+## data/tables/{vehicle-repair,destroyed-tank-repair}.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 102: Broken Down Vehicle Repair Table (22.8; 9 die rows × 5 columns, starred 10 % cells as a per-row list) and Destroyed Tanks Repair Table (22.44; 6 die rows × 5 columns of R / J / –). Schemas one per table; `tests/test_repair_tables.py` written first (die coverage, results never improve with the roll, field columns na from 7).
+- Errata: **E-017** (22.8's note on die additions is void; 22.34 governs) is a prose correction — the table carries no modifier and the INDEX row now points at the rules file and the data note rather than *(pending)*. No overlay file because no value changes.
+- Cross-check: `scan:discord:Shared Charts.pdf:p8` — **0 of 45 and 0 of 30 cells differ**.
+- Rules: `rules/80-engineering.md` 22.8/22.44 `spi-omit` → primary `::: spi 22.8 22.44`.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:

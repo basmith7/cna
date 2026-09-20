@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "destroyed-tank-repair.schema.json",
+  "title": "Destroyed Tanks Repair Table (SPI 22.44)",
+  "type": "object", "required": ["table", "sources", "rows"], "additionalProperties": false,
+  "properties": {
+    "table": {"const": "destroyed-tank-repair"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object",
+      "required": ["die", "field", "axis_facility_german", "axis_facility_italian", "axis_facility_commonwealth", "cw_facility", "sources"],
+      "additionalProperties": false,
+      "properties": {
+        "die": {"type": "object", "required": ["from", "to"], "additionalProperties": false,
+                "properties": {"from": {"type": "integer", "minimum": 1, "maximum": 7}, "to": {"type": "integer", "minimum": 1, "maximum": 7}}},
+        "field": {"$ref": "#/$defs/result"},
+        "axis_facility_german": {"$ref": "#/$defs/result", "description": "German tank at an Axis facility"},
+        "axis_facility_italian": {"$ref": "#/$defs/result", "description": "Italian tank at an Axis facility"},
+        "axis_facility_commonwealth": {"$ref": "#/$defs/result", "description": "captured Commonwealth tank at an Axis facility"},
+        "cw_facility": {"$ref": "#/$defs/result", "description": "any nationality at a Commonwealth facility"},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  },
+  "$defs": {"result": {"enum": ["repaired", "junked", null], "description": "repaired = the point returns; junked = lost for good; null = no effect, try again another stage"}}
+}
