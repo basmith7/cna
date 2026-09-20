@@ -23,8 +23,24 @@ def test_site_css_is_scoped_under_learn():
     css = lp.scoped_css()
     for rule in re.findall(r"^([^{}\n]+)\{", css, flags=re.M):
         for sel in rule.split(","):
-            assert sel.strip().startswith(".learn"), sel
+            if sel.startswith("@media"):
+                continue
+            assert re.match(r"(\.dark )?\.learn", sel.strip()), sel
     assert "body{" not in css
+    assert ">" not in css  # Vue's template compiler escapes it to &gt; inside an inline <style>, killing the rule
+
+
+def test_site_page_owns_its_layout():
+    """The primer is a 1240px two-column design; VitePress's 688px doc column squeezed the notes into a
+    strip beside the map and its hard-coded light colours were unreadable in dark mode."""
+    md = lp.site_markdown()
+    assert md.startswith("---\ntitle: Learn\nlayout: page\n")
+    css = lp.scoped_css()
+    assert ".dark .learn{" in css                        # dark-scheme palette
+    assert "svg{" in css and "max-width:100%" in css     # maps scale to the column instead of overflowing it
+    assert "flex-wrap:wrap" in css                       # map and note stack on narrow viewports
+    for hard in ("#fff", "#666", "#222", "#444"):        # every fixed light-scheme colour goes through a variable
+        assert f":{hard}" not in css.replace(f",{hard})", ""), hard
 
 
 def test_case_numbers_become_rule_links():
