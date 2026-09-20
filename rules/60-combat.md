@@ -778,7 +778,11 @@ one point on a 1 or 2 nothing) and `data/tables/objective-loss.json` (a 5
 captures one TOE point, a 6 kills one, anything lower does nothing; a
 capture by a patrol that was itself wiped out counts as a kill).
 
-::: spi-omit 16.6 — the Patrol Survival Table is on the chart sheet (jp2 95); to `data/tables/patrol-survival.json` when captured
+::: spi 16.6
+
+The Patrol Survival Table is data: `data/tables/patrol-survival.json` — a
+4 costs the patrol a captured point, a 5 a killed one, a 6 both; an
+all-recce patrol takes one off the die.
 
 ### Who may patrol
 
