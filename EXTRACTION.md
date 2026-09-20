@@ -81,6 +81,12 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: `scan:discord:Shared Charts.pdf:p5` — **0 of 5 cells differ**. No errata.
 - Rules: `rules/10-units-and-state.md` 17.6 → primary `::: spi 17.6`; 17.4 (Morale Modifier Table) stays omitted with its page noted — 26 × 9 dice-range cells, next run.
 
+## data/tables/morale-modifier.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 99, the Morale Modifier Table (SPI 17.4): 26 cohesion rows × 10 columns (+4 … −4, surrender) = 260 cells; schema `morale-modifier.schema.json`; `tests/test_morale_modifier.py` written first (every row tiles 11–66 outside the declared gap; the best reachable modifier never improves as cohesion falls).
+- Printed oddity, confirmed in both scans and not in the 1979 errata: the −4 row has no cell for reading 56 (−2 ends at 55, −3 starts at 61). Kept as printed and declared in `known_gaps`; needs a ruling.
+- Cross-check: `scan:discord:Shared Charts.pdf:p5` — **0 of 260 cells differ**.
+- Rules: `rules/10-units-and-state.md` 17.4 → primary `::: spi 17.4`; §17 has no pending-capture omit left.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:

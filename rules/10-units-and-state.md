@@ -290,7 +290,15 @@ The Training Chart is data: `data/tables/training.json` — one stage for
 guns, three for infantry, six for tanks and recce, twelve for commandos,
 and six to lift an untrained Commonwealth unit's morale a point.
 
-::: spi-omit 17.4 — the Morale Modifier Table (26 cohesion rows × 9 modifier columns of dice ranges) is on the chart sheet (jp2 99); to `data/tables/morale-modifier.json` when captured
+::: spi 17.4
+
+The Morale Modifier Table is data: `data/tables/morale-modifier.json` —
+twenty-six cohesion rows from +8-and-better to −17-and-worse, each giving
+the dice range for every modifier from +4 to −4 and for surrender. At +8
+nothing worse than +1 is possible; at 0 the roll is almost always "no
+change"; from −7 down a high roll surrenders the force, and at −17 every
+roll does. One printed gap (level −4, reading 56) is declared in the file
+and awaits a ruling.
 
 ## Training
 
