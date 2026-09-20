@@ -30,7 +30,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-015](./R-015.md) | Anti-armour terrain shifts: which side's fire do they weaken? | proposed | 14.0, 14.32, 14.33 |
 | [R-016](./R-016.md) | When a Tank Delivery Squadron moves | proposed | 22.63, 22.65, 8.9 |
 | [R-017](./R-017.md) | Can a Tank Delivery Squadron react, retreat before assault, or retreat with a stack? | proposed | 22.63, 8.53, 13.2, 15.82 |
-| [R-018](./R-018.md) | The CP cost of building a supply dump: 24.9 text or the Construction Chart? | proposed | 24.17, 24.9 |
+| [R-018](./R-018.md) | The CP cost of building a supply dump: 24.9 text or the Construction Chart? | proposed | 6.3, 24.17, 24.9 |
 | [R-019](./R-019.md) | The fleet's western limit: 100 sea hexes, or hex row xx29? | proposed | 30.15, 30.23, 24.5 |
 
 ## Variants
