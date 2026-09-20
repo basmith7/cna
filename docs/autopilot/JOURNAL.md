@@ -231,3 +231,9 @@ Done: branch opened for 19.31 (Commonwealth Formation Organisation Chart, jp2 13
 In flight: formation-organisation.json (rows = parent formation × organisation type × turns → components with count / unit slug / alternatives; a missing printed count is stored as count 1 with count_printed false).
 Next: if this lands, add 19.32 (jp2 173) and 19.33 (jp2 174) rows to the same file, then badge 19.3 19.31 19.32 19.33 together.
 Blocked: none.
+
+## 2026-09-19 22:00 — autopilot/d-table-renderer
+Done: Part C complete bar 20.67 (not printed on either player chart set — djvu headings for jp2 111–178 checked). Starting Part D with the smallest TDD piece: tools/learn_tables.py, a JSON→HTML renderer for the CRTs (errata overlays applied, spi-ref badge), not yet wired into learn_page.py.
+In flight: renderer for barrage (12.6) and anti-armour (14.6); close-assault (15.79, nested losses/sums) next.
+Next: finish close-assault rendering; then learn_page.py --site writing site/learn.md (Parts A–C, SVGs inline, CSS scoped under .learn, case numbers → rule links via data/spi-cases.json + check_coverage badge index), stale-check pytest, nav + sidebar, README/00-overview edits.
+Blocked: none.
