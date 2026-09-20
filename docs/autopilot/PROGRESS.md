@@ -37,7 +37,7 @@ Part C continues. Still pending capture: 24.17 construction and 24.18 demolition
 
 **Three printed oddities** (both scans agree, none in the 1979 errata), kept as printed and declared in `known_gaps` / notes: close assault CRT attacker −2 / 20 % reads "13-18" (17–18 are not readings, so 13–16); close assault defender +2 has no cell for readings 34–36; Morale Modifier level −4 has no cell for reading 56. They want rulings.
 
-For Brian, if you have a minute: R-012 (15.29 withhold-and-retreat) and R-018 (dump cost, 24.9 vs the Construction Chart) are the two seeded rulings where the printed text and the sensible reading pull apart; R-019 needs a hex count on the map (Alexandria → row xx24 vs xx29).
+For Brian, if you have a minute: R-012 (15.29 withhold-and-retreat) and R-018 (dump cost — now with the chart figures: 24.17 and 6.3 say dummy 2 CP / real 10 stores, 24.9 says 3 CP / 20 stores; `cp-costs.json` and the rules prose currently disagree on the dummy) are the two seeded rulings where the printed text and the sensible reading pull apart; R-019 needs a hex count on the map (Alexandria → row xx24 vs xx29).
 
 Still for Brian: click one *Original text* block on the deployed site to confirm the viewer works in a browser.
 

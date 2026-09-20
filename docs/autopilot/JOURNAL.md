@@ -207,3 +207,9 @@ Done: #41 merged (19.5 max attachments). 19 chart tables captured this run, 97 t
 In flight: none.
 Next: 24.17 construction (jp2 103) + 24.18 demolition (jp2 104, printed sideways — rotate -90) for 80-engineering; 27.91 desert raider (jp2 102); then player-sheet tables (19.3x, 20.66, 20.78, 27.92, 30.46, 30.59) via Discord Axis/Commonwealth Charts.pdf contact sheets; 8.37/8.89 unlocated. Then Part D.
 Blocked: none.
+
+## 2026-09-19 19:30 — main
+Done: #42 merged — R-018 rewritten with the real 24.17 / 6.3 figures (dummy dump 2 CP on both charts vs 3 CP in 24.9; stores 10 vs 20). Final state: PRs #17–#42 all merged, 97 tests, tree clean.
+In flight: none.
+Next: 24.17 construction chart (jp2 103, sideways; restrictions column is prose — model as enums/flags, never the chart's sentences) + 24.18 demolition (jp2 104). Then 27.91, player-sheet tables, 8.37/8.89 search. Then Part D.
+Blocked: none.
