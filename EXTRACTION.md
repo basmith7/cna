@@ -42,8 +42,8 @@ the PR that adds or substantially rewrites the file.
 | Combat | CLARIFICATION | 15.83b each side totals its own points | R-011 |
 | Combat | CLARIFICATION | 15.29 withhold-and-retreat needs a path taken | R-012 |
 | Combat | INTERPRETATION | pinned units spend no ammunition in close assault | R-013 |
-| Combat | CLARIFICATION | 14.52 capturing destroyed tanks needs a battalion-sized combat unit | next PR (anti-armour) |
-| Anti-Armor (Additions section) | INTERPRETATION | 14.32 terrain shifts both sides, hexside shifts attacker only | next PR (anti-armour) |
+| Combat | CLARIFICATION | 14.52 capturing destroyed tanks needs a battalion-sized combat unit | R-014 |
+| Anti-Armor (Additions section) | INTERPRETATION | 14.32 terrain shifts both sides, hexside shifts attacker only | R-015 |
 | Tank Delivery Squadrons | INTERPRETATION ×2 | 22.6 TDS move in the truck convoy phase; need a combat unit to react/RBA/retreat | next PR (engineering) |
 | More Words | CORRECTION | dump construction cost is the 24.9 chart figure, not 24.17's | next PR (engineering) |
 | Commonwealth Fleet | CORRECTION | 30.15 hundred-sea-hex line is row Bxx24 | next PR (special) |
