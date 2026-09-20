@@ -163,6 +163,11 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: `scan:discord:Axis Charts.pdf:p34` and `scan:discord:Commonwealth Charts.pdf:p31` — **0 of 42 + 18 cells differ**. No errata.
 - Rules: `rules/95-abstract-logistics-and-air.md` 32.46 32.47 `spi-omit` → primary `::: spi 32.46 32.47`.
 
+## data/tables/axis-convoy-bombing.json — 2026-09-20 (Part C, Axis chart set)
+- Source: archive.org scan jp2 176, the Simple Axis Naval Convoy Bombing Chart (SPI 32.66): 10 bomb-point bands × 6 routes of map-letter + hex-column thresholds (the chart's `Cxx01` → `{"map": "C", "column": 1}`, dash → null). Schema `axis-convoy-bombing.schema.json`; `tests/test_axis_convoy_bombing.py` written first (bands contiguous).
+- Cross-check: `scan:discord:Axis Charts.pdf:p34` — **0 of 60 cells differ**. No errata.
+- Rules: `rules/95-abstract-logistics-and-air.md` 32.66 `spi-omit` → primary `::: spi 32.66`. 32.59 (Abstract Truck/Motorization Loss Chart) is still unlocated.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:

@@ -174,7 +174,13 @@ everything, fractions down, but always at least one point of each item and
 one supply unit. Tank and gun losses are a percentage of each nationality's
 total, the Axis choosing the types.
 
-::: spi-omit 32.66 — the Simple Axis Naval Convoy Bombing Chart is on the chart sheet; to `data/tables/axis-convoy-bombing.json` when captured
+::: spi 32.66
+
+The Simple Axis Naval Convoy Bombing Chart is data:
+`data/tables/axis-convoy-bombing.json` — six route columns, ten bomb-point
+bands from 21–40 up to 471+, each cell the westernmost map column a full
+Commonwealth division must have passed for that band to apply; dashes
+where a route can never be hit that hard.
 
 ## Bombardment of the fleet
 

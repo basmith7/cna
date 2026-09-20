@@ -1,0 +1,348 @@
+{
+ "table": "axis-convoy-bombing",
+ "sources": [
+  "CNA1979:32.66",
+  "scan:p176"
+ ],
+ "notes": [
+  "Simple Axis Naval Convoy Bombing Chart (SPI 32.66, Abstract Logistics): for the convoy route in use, read down that route's column until the westernmost hex column beyond which a qualifying Commonwealth division stands (a complete, non-shell division east of, or in, that column); the row's bomb-point band is the Air Bombardment CRT column the attack is resolved on. A threshold is a map sheet letter plus an east-west column (the chart's 'xx' means any north-south row); a dash means the band cannot be reached on that route",
+  "On the Axis player's chart set (jp2 176), not the shared sheet. Transcribed from the archive.org scan and cross-checked against the 300 dpi community scan (scan:discord:Axis Charts.pdf:p34): 0 of 60 cells differ. Clay Stone's errata-integrated Land rules PDF contains no charts"
+ ],
+ "routes": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "rows": [
+  {
+   "bomb_points": {
+    "from": 21,
+    "to": 40
+   },
+   "thresholds": [
+    {
+     "map": "C",
+     "column": 1
+    },
+    {
+     "map": "D",
+     "column": 1
+    },
+    {
+     "map": "D",
+     "column": 1
+    },
+    {
+     "map": "E",
+     "column": 1
+    },
+    {
+     "map": "E",
+     "column": 11
+    },
+    {
+     "map": "D",
+     "column": 11
+    }
+   ],
+   "sources": [
+    "CNA1979:32.66",
+    "scan:p176"
+   ]
+  },
+  {
+   "bomb_points": {
+    "from": 41,
+    "to": 80
+   },
+   "thresholds": [
+    {
+     "map": "B",
+     "column": 16
+    },
+    {
+     "map": "C",
+     "column": 16
+    },
+    {
+     "map": "C",
+     "column": 21
+    },
+    {
+     "map": "D",
+     "column": 21
+    },
+    {
+     "map": "E",
+     "column": 1
+    },
+    {
+     "map": "D",
+     "column": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:32.66",
+    "scan:p176"
+   ]
+  },
+  {
+   "bomb_points": {
+    "from": 81,
+    "to": 120
+   },
+   "thresholds": [
+    {
+     "map": "B",
+     "column": 1
+    },
+    {
+     "map": "C",
+     "column": 1
+    },
+    {
+     "map": "C",
+     "column": 11
+    },
+    {
+     "map": "D",
+     "column": 11
+    },
+    {
+     "map": "D",
+     "column": 21
+    },
+    {
+     "map": "C",
+     "column": 21
+    }
+   ],
+   "sources": [
+    "CNA1979:32.66",
+    "scan:p176"
+   ]
+  },
+  {
+   "bomb_points": {
+    "from": 121,
+    "to": 160
+   },
+   "thresholds": [
+    {
+     "map": "A",
+     "column": 18
+    },
+    {
+     "map": "B",
+     "column": 16
+    },
+    {
+     "map": "C",
+     "column": 1
+    },
+    {
+     "map": "D",
+     "column": 1
+    },
+    {
+     "map": "D",
+     "column": 11
+    },
+    {
+     "map": "C",
+     "column": 11
+    }
+   ],
+   "sources": [
+    "CNA1979:32.66",
+    "scan:p176"
+   ]
+  },
+  {
+   "bomb_points": {
+    "from": 161,
+    "to": 200
+   },
+   "thresholds": [
+    null,
+    {
+     "map": "B",
+     "column": 1
+    },
+    {
+     "map": "B",
+     "column": 26
+    },
+    {
+     "map": "C",
+     "column": 21
+    },
+    {
+     "map": "D",
+     "column": 1
+    },
+    {
+     "map": "C",
+     "column": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:32.66",
+    "scan:p176"
+   ]
+  },
+  {
+   "bomb_points": {
+    "from": 201,
+    "to": 260
+   },
+   "thresholds": [
+    null,
+    {
+     "map": "A",
+     "column": 18
+    },
+    {
+     "map": "B",
+     "column": 20
+    },
+    {
+     "map": "C",
+     "column": 11
+    },
+    {
+     "map": "C",
+     "column": 21
+    },
+    {
+     "map": "B",
+     "column": 26
+    }
+   ],
+   "sources": [
+    "CNA1979:32.66",
+    "scan:p176"
+   ]
+  },
+  {
+   "bomb_points": {
+    "from": 261,
+    "to": 320
+   },
+   "thresholds": [
+    null,
+    null,
+    {
+     "map": "B",
+     "column": 10
+    },
+    {
+     "map": "C",
+     "column": 1
+    },
+    {
+     "map": "C",
+     "column": 11
+    },
+    {
+     "map": "B",
+     "column": 20
+    }
+   ],
+   "sources": [
+    "CNA1979:32.66",
+    "scan:p176"
+   ]
+  },
+  {
+   "bomb_points": {
+    "from": 321,
+    "to": 390
+   },
+   "thresholds": [
+    null,
+    null,
+    {
+     "map": "B",
+     "column": 1
+    },
+    {
+     "map": "B",
+     "column": 26
+    },
+    {
+     "map": "C",
+     "column": 1
+    },
+    {
+     "map": "B",
+     "column": 10
+    }
+   ],
+   "sources": [
+    "CNA1979:32.66",
+    "scan:p176"
+   ]
+  },
+  {
+   "bomb_points": {
+    "from": 391,
+    "to": 470
+   },
+   "thresholds": [
+    null,
+    null,
+    {
+     "map": "A",
+     "column": 18
+    },
+    {
+     "map": "B",
+     "column": 20
+    },
+    {
+     "map": "B",
+     "column": 26
+    },
+    {
+     "map": "B",
+     "column": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:32.66",
+    "scan:p176"
+   ]
+  },
+  {
+   "bomb_points": {
+    "from": 471,
+    "to": null
+   },
+   "thresholds": [
+    null,
+    null,
+    null,
+    {
+     "map": "B",
+     "column": 10
+    },
+    {
+     "map": "B",
+     "column": 20
+    },
+    {
+     "map": "A",
+     "column": 18
+    }
+   ],
+   "sources": [
+    "CNA1979:32.66",
+    "scan:p176"
+   ]
+  }
+ ]
+}
