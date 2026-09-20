@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "axis-convoy-bombing.schema.json",
+  "title": "Simple Axis Naval Convoy Bombing Chart (SPI 32.66)",
+  "type": "object", "required": ["table", "sources", "routes", "rows"], "additionalProperties": false,
+  "$defs": {
+    "threshold": {"oneOf": [{"type": "null"}, {"type": "object", "required": ["map", "column"], "additionalProperties": false,
+                             "properties": {"map": {"enum": ["A", "B", "C", "D", "E"]}, "column": {"type": "integer", "minimum": 1, "maximum": 99}}}],
+                  "description": "The chart's 'Cxx01': map sheet letter and east-west hex column (any row). null = the chart's dash: this band is not reachable on this route"}
+  },
+  "properties": {
+    "table": {"const": "axis-convoy-bombing"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "routes": {"type": "array", "minItems": 6, "maxItems": 6, "items": {"type": "integer", "minimum": 1, "maximum": 6}, "description": "Convoy route numbers (SPI 56.0), in the order of each row's thresholds"},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["bomb_points", "thresholds", "sources"], "additionalProperties": false,
+      "properties": {
+        "bomb_points": {"type": "object", "required": ["from", "to"], "additionalProperties": false,
+                        "properties": {"from": {"type": "integer", "minimum": 1}, "to": {"type": ["integer", "null"], "minimum": 1}},
+                        "description": "Column of the Air Bombardment CRT used against the convoy"},
+        "thresholds": {"type": "array", "minItems": 6, "maxItems": 6, "items": {"$ref": "#/$defs/threshold"},
+                       "description": "Per route: read down until the westernmost column beyond which a qualifying (non-shell) Commonwealth division sits"},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  }
+}
