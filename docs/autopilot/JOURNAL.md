@@ -219,3 +219,9 @@ Done: branch opened; jp2 103 (construction, sideways: rotate -90) and 104 (demol
 In flight: construction.json + demolition.json with schemas and tests; badge 24.17/24.18 in 80-engineering; EXTRACTION entry.
 Next: finish this PR, then 27.91 desert raider (jp2 102), then player-sheet tables.
 Blocked: none. Note: chart says temporary repair facility 50 fuel + 250 stores / 1 stage, rebuild 10 fuel + 50 stores; rules prose (24.8x) says 150 fuel + 250 stores / 3 stages and 30 fuel + 50 stores — record as a chart-vs-rules discrepancy for Brian.
+
+## 2026-09-19 21:51 — main
+Done: 12 PRs merged this run, all after green CI: #43 (24.17 + 24.18), #44 (27.91), #45 (8.37 TEC + E-031 — a RULEBOOK page, jp2 69), #46 (27.92, jp2 140), #47 (20.78 A/B/C, jp2 140), #48 (20.66 + E-014 overlay, jp2 175), #49 (30.46, jp2 176), #50 (30.6 fleet schedule, jp2 141), #51 (32.46/32.47), #52 (32.66, jp2 176), #53 (8.89, jp2 70), #54 (32.59, jp2 107, headed 58.5). 32 tables, 116 tests, tree clean, no open autopilot PRs.
+In flight: none.
+Next: Part C's last items — 19.31/19.32/19.33 Formation Organisation Charts (jp2 134 / 173 / 174; symbol grids: read the counter-symbol legend first, model rows as parent → list of {count, type, size, turns}); 20.67 unlocated (scan Axis set jp2 150–178 contact sheet). Then Part D (learn_page.py --site).
+Blocked: none. Lessons: run `check_overlap.py` with NO args too (CI's run) — EXTRACTION.md phrasing tripped it once; when stacking PRs, `gh pr edit N --base main` after the base merges, never --delete-branch; jp2 103 needs rotate(-90), 104 and 107 are as printed / +90 respectively — just view the raw page first.
