@@ -44,8 +44,8 @@ the PR that adds or substantially rewrites the file.
 | Combat | INTERPRETATION | pinned units spend no ammunition in close assault | R-013 |
 | Combat | CLARIFICATION | 14.52 capturing destroyed tanks needs a battalion-sized combat unit | R-014 |
 | Anti-Armor (Additions section) | INTERPRETATION | 14.32 terrain shifts both sides, hexside shifts attacker only | R-015 |
-| Tank Delivery Squadrons | INTERPRETATION ×2 | 22.6 TDS move in the truck convoy phase; need a combat unit to react/RBA/retreat | next PR (engineering) |
-| More Words | CORRECTION | dump construction cost is the 24.9 chart figure, not 24.17's | next PR (engineering) |
+| Tank Delivery Squadrons | INTERPRETATION ×2 | 22.6 TDS move in the truck convoy phase; need a combat unit to react/RBA/retreat | R-016, R-017 |
+| More Words | CORRECTION | dump construction cost is the 24.9 figure, not the Construction Chart (24.17) one | R-018 |
 | Commonwealth Fleet | CORRECTION | 30.15 hundred-sea-hex line is row Bxx24 | next PR (special) |
 | Coastal Shipping | CORRECTION/CLARIFICATION | shipping phase name | not imported — Logistics Game (§5x); later spec |
 | Unlimited Supplies | CLARIFICATION | 60.44 vs 57.0 Cairo only | not imported — scenario / Logistics Game; later spec |
