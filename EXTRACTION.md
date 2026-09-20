@@ -103,6 +103,12 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: `scan:discord:Shared Charts.pdf:p2` — **0 of 9 cells differ**. No errata.
 - Rules: `rules/50-stacking-and-zoc.md` 9.4 moved from the headings omit to a primary `::: spi 9.4` block under *Unit equivalents*.
 
+## data/tables/replacement-conversion.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 101 (printed sideways), the Replacement Point Conversion Chart (SPI 20.3): 20 unit rows, costs as alternatives of point bundles; the chart's lettered key restated as short `applies_to` strings in our words. Schema `replacement-conversion.schema.json`; `tests/test_replacement_conversion.py` written first.
+- Errata applied: **E-012** as `data/errata/E-012.json` (RFC 6902 remove of the SGSU row); printed row kept in the table.
+- Cross-check: `scan:discord:Shared Charts.pdf:p7` — **0 of 20 rows differ**.
+- Rules: `rules/70-organisation.md` 20.3 `spi-omit` → primary `::: spi 20.3`.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:
