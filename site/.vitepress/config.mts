@@ -7,7 +7,7 @@ export default defineConfig({
   description: 'A restated, reviewed edition of the Campaign for North Africa Land Game rules',
   base: '/cna/',
   srcDir: '..',
-  srcExclude: ['node_modules/**', 'reference/**', 'docs/**', 'tools/**', 'tests/**', 'site/**', '.venv/**', 'EXTRACTION.md', '.superpowers/**', '.claude/**', '.github/**', 'coverage.md'],
+  srcExclude: ['node_modules/**', 'reference/**', 'docs/**', 'tools/**', 'tests/**', 'site/.vitepress/**', '.venv/**', 'EXTRACTION.md', '.superpowers/**', '.claude/**', '.github/**', 'coverage.md'],
   outDir: './.vitepress/dist',
   cacheDir: './.vitepress/cache',
   cleanUrls: true,
@@ -19,6 +19,7 @@ export default defineConfig({
   ],
   rewrites: {
     'README.md': 'index.md',
+    'site/learn.md': 'learn.md',
     'rulings/README.md': 'rulings/index.md',
     'data/README.md': 'data/index.md',
   },
@@ -35,10 +36,18 @@ export default defineConfig({
     },
     nav: [
       { text: 'Rules', link: '/rules/00-overview' },
+      { text: 'Learn', link: '/learn' },
       { text: 'Rulings', link: '/rulings/register' },
       { text: 'Data', link: '/data/' },
     ],
     sidebar: {
+      '/learn': [
+        { text: 'Learn', items: [
+          { text: 'A · One Operations Stage', link: '/learn#part-a' },
+          { text: 'B · The combat maths', link: '/learn#part-b' },
+          { text: 'C · How supply flows', link: '/learn#part-c' },
+        ] },
+      ],
       '/rulings/': [
         { text: 'Rulings', items: [
           { text: 'Register', link: '/rulings/register' },

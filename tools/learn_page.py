@@ -12,9 +12,11 @@ port/truck charts [55.3, 54.2] are the real 1979 values; unit ratings in Part A 
 Scan pages are fetched from archive.org into ~/.cache/cna-scans and cropped into docs/learn/;
 those crops are SPI material and are git-ignored.
 
-Usage: python3 tools/learn_page.py   (then open docs/learn/index.html)
+Usage: python3 tools/learn_page.py          (then open docs/learn/index.html)
+       python3 tools/learn_page.py --site   (writes site/learn.md: Parts A-C, no SPI material;
+                                             tests/test_learn_site.py fails when it is stale)
 """
-import html, math, os, pathlib, sys
+import html, math, os, pathlib, re, sys
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -507,6 +509,110 @@ th{white-space:nowrap;color:#5a3d1a;font-weight:600}
 """
 
 
+# ---------------------------------------------------------------- site mode (Part D of mission 2)
+SITE_MD = ROOT / "site" / "learn.md"
+CASE_RE = re.compile(r"\[([0-9][0-9.,\s]*?)\]")
+PART_D_NOTE = """
+<h1 class="part">Part D · Graziani's Offensive on the real map</h1>
+<p class="sub">Part D walks Scenario 1 (§60) across Map C hex by hex. It is published when the map sub-project has redrawn Map C as our own; until then it lives in the local build of this primer only.</p>
+"""
+
+
+def case_index():
+    """SPI case id -> rules file stem carrying it (primary or omit badge), from tools/check_coverage."""
+    from check_coverage import parse_badges
+    idx, rank = {}, {"spi": 0, "spi-omit": 1, "spi-ref": 2}   # a primary badge wins over an omit or a cross-reference
+    for md in sorted((ROOT / "rules").glob("*.md")):
+        if md.stem in ("coverage", "changes", "glossary"):
+            continue
+        for b in parse_badges(md.read_text()):
+            for c in b["cases"]:
+                if c not in idx or rank[b["kind"]] < rank[idx[c][1]]:
+                    idx[c] = (md.stem, b["kind"])
+    return {c: stem for c, (stem, _) in idx.items()}
+
+
+def link_cases(text, idx=None):
+    """[8.37], [15.79, 12.6] -> links into the rules files; unknown cases and SVG text untouched."""
+    idx = case_index() if idx is None else idx
+
+    def repl(m):
+        parts = [p.strip() for p in m.group(1).split(",")]
+        if not all(p in idx for p in parts):
+            return m.group(0)
+        return "[" + ", ".join(f'<a href="rules/{idx[p]}#spi-{p}">{p}</a>' for p in parts) + "]"
+
+    out, pos = [], 0
+    for svg in re.finditer(r"<svg.*?</svg>", text, flags=re.S):
+        out.append(CASE_RE.sub(repl, text[pos:svg.start()]))
+        out.append(svg.group(0))
+        pos = svg.end()
+    out.append(CASE_RE.sub(repl, text[pos:]))
+    return "".join(out)
+
+
+def scoped_css():
+    """The standalone CSS with every selector scoped under .learn; the page-level body rule dropped."""
+    out = []
+    for line in CSS.strip().splitlines():
+        rules = re.findall(r"([^{}]+)\{([^{}]*)\}", line)
+        for sel, body in rules:
+            sels = [s.strip() for s in sel.split(",")]
+            if sels == ["body"]:
+                continue
+            out.append(", ".join(f".learn {s}" for s in sels) + "{" + body.strip() + "}")
+    return "\n".join(out)
+
+
+def site_markdown():
+    import learn_tables
+    part_b = PART_B
+    for name, img in (("barrage-results", "tbl_barrage.jpg"), ("anti-armour-results", "tbl_aa.jpg"), ("close-assault-results", "tbl_crt.jpg")):
+        part_b = re.sub(rf'<div class="map"><img src="{img}"[^>]*></div>', lambda m, n=name: f'<div class="map">{learn_tables.render(n)}</div>', part_b)
+    assert "<img" not in part_b
+    part_b = part_b.replace('<h1 class="part">Part B', '<h1 id="part-b" class="part">Part B', 1)
+    body = f"""<h1>The Campaign for North Africa — illustrated</h1>
+<p class="sub">Terrain costs [8.37], CP costs [6.3], CRT [15.79] and the tables are the real 1979 values from <code>data/tables/</code>; unit ratings in Part A are illustrative. Case numbers in brackets link into the rules.</p>
+<h1 id="part-a" class="part" style="margin-top:8px;border:0;padding:0;font-size:22px">Part A · One Operations Stage</h1>
+<p class="sub">Player A's half of Operations Stage 1, Game-Turn 1 (Sept 1940), on a small sketch map.</p>
+<div class="legend">
+<span><span class="sw" style="background:{AXIS}"></span>Italian</span>
+<span><span class="sw" style="background:{CW_C}"></span>Commonwealth</span>
+<span><span class="sw" style="background:#f3e6bf"></span>Clear (2 CP)</span>
+<span><span class="sw rough"></span>Rough (3/4 CP, L2 assault)</span>
+<span><span class="sw" style="background:#333"></span>Road (1 / ½ CP)</span>
+<span><span class="sw" style="border:2px dashed #7a5a2a;background:none"></span>Track (halves the hex)</span>
+<span><span class="sw" style="background:#7a3b1e"></span>Escarpment hexside (+6 up, no vehicles)</span>
+<span><span class="sw" style="background:#9ec9e2"></span>Sea</span>
+</div>
+{part_a()}
+{part_b}
+<h1 id="part-c" class="part">Part C · How supply actually flows (Logistics Game, §47–58)</h1>
+<p class="sub">Replace §32's abstract Supply Units with this. Four commodities, three truck lines, and every arrow below is bookkeeping a human had to do by hand.</p>
+<section class="panel"><h2>C1 · The pipeline</h2>{flow_svg()}{TRUCKS_HTML}</section>
+{PART_C_TAIL}
+{PART_D_NOTE}
+<p class="fine">Generated by <code>tools/learn_page.py --site</code> from our own prose, SVGs and CC0 data; no SPI material.</p>"""
+    body = link_cases(body)
+    body = "\n".join(ln for ln in body.splitlines() if ln.strip())
+    return f"""---
+title: Learn
+sidebar: false
+---
+<div class="learn">
+<style>
+{scoped_css()}
+</style>
+{body}
+</div>
+"""
+
+
+def write_site():
+    SITE_MD.write_text(site_markdown())
+    print(SITE_MD)
+
+
 def build():
     OUT.mkdir(parents=True, exist_ok=True)
     make_table_crops()
@@ -540,4 +646,4 @@ def build():
 
 
 if __name__ == "__main__":
-    build()
+    write_site() if "--site" in sys.argv[1:] else build()
