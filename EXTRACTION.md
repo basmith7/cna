@@ -93,6 +93,11 @@ the PR that adds or substantially rewrites the file.
 ## data/tables/assault-size-shifts.json — 2026-09-20 (Part C cross-check)
 - Transcribed from the 15.53 rules text in mission 1; cross-checked against the Organization Size Close Assault Modifications Chart on archive.org jp2 95 and `scan:discord:Shared Charts.pdf:p1`: **1 of 8 rows differed** — the chart's explicit "3 SP vs 2 SP → 0" row was missing (a transcription gap, not errata; E-006 already applied). Added as `shift: 0` (schema minimum lowered to 0); the other seven rows agree. `scan:p95` added to sources.
 
+## data/tables/initiative-ratings.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 96, the Initiative Ratings Chart (SPI 7.2): three Commonwealth turn bands and three Axis situations; schema `initiative-ratings.schema.json`; `tests/test_initiative_ratings.py` written first (bands cover turns 1–111 once and rise; the three Axis situations).
+- Cross-check: `scan:discord:Shared Charts.pdf:p2` — **0 of 6 rows differ**. No errata.
+- Rules: `rules/20-sequence-of-play.md` 7.2 `spi-omit` → primary `::: spi 7.2`, and the placeholder sentence about the uncaptured sheet replaced by the ratings themselves.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:
