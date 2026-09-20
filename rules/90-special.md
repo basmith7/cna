@@ -37,7 +37,15 @@ boxes.
 
 ::: errata E-023 — 21.12: the Italian M 13/40's BAR is 1R, as the charts say
 
-::: spi-omit 21.38 — the Breakdown Table is on the chart sheet; to `data/tables/breakdown.json` when captured
+::: spi 21.38
+
+The Breakdown Table is data: `data/tables/breakdown.json` gives, for each
+band of accumulated breakdown points (0–3, 4–10, then tens up to 71+), the
+dice ranges for losing 0, 10, 25, 33, 50 or 75 % of a vehicle type. Under
+four points nothing ever breaks; at 4–10 a 65 or 66 already costs a quarter
+or a third; from 61 points up no roll escapes, and at 71+ a 64 or better
+strands three-quarters of the type. The BAR and weather shifts move the
+column before the roll.
 
 ### Accumulating breakdown points
 
