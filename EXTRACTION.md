@@ -60,6 +60,11 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: `scan:discord:Shared Charts.pdf:p7` — **0 of 54 cells differ**. No errata (E-023 concerns a BAR value, already in breakdown-adjustments.json).
 - Rules: `rules/90-special.md` 21.38 `spi-omit` → primary `::: spi 21.38`.
 
+## data/tables/{prisoners-captured,patrol-reconnaissance,objective-loss,sas-raid}.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 97 (lower half): Prisoners Captured Results Table (15.89, 6 cells), Patrol Reconnaissance Table (16.7, 18 cells), Objective Loss Table (16.8, 3 rows × 2), Special Air Service Brigade Raid Table (27.93, 6 cells). Schemas one per table plus `die-lookup.schema.json` for the shared die-range shape; `tests/test_small_die_tables.py` written first (faces 1–6 covered once; percentages never fall; recon grid monotonic with 'all' at 3 points on a 6).
+- Cross-check: `scan:discord:Shared Charts.pdf:p3` — **0 of 33 cells differ**. No errata.
+- Rules: `rules/60-combat.md` 15.89 and 16.7/16.8 → primary `::: spi` blocks (16.6 Patrol Survival stays omitted; it is on jp2 95); `rules/90-special.md` 27.93 → primary; 27.91/27.92 stay omitted (the Desert Raider table is a per-target procedure list on jp2 102 and needs its own shape; the Raid on Rommel table was not found on the shared sheet).
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:

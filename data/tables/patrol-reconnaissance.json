@@ -1,0 +1,16 @@
+{
+ "table": "patrol-reconnaissance",
+ "sources": ["CNA1979:16.7", "scan:p97"],
+ "notes": [
+  "Rows are the die; columns are net patrol points (1-3); the cell is how many battalion-size-equivalent units in the target hex the patrolling player receives reconnaissance information about (SPI 16.5); 'all' = every unit",
+  "Transcribed from the archive.org scan (jp2 97) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p3): 0 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {"die": 1, "units_revealed": {"1": 0, "2": 0, "3": 1}, "sources": ["CNA1979:16.7", "scan:p97"]},
+  {"die": 2, "units_revealed": {"1": 0, "2": 1, "3": 1}, "sources": ["CNA1979:16.7", "scan:p97"]},
+  {"die": 3, "units_revealed": {"1": 1, "2": 1, "3": 2}, "sources": ["CNA1979:16.7", "scan:p97"]},
+  {"die": 4, "units_revealed": {"1": 1, "2": 2, "3": 3}, "sources": ["CNA1979:16.7", "scan:p97"]},
+  {"die": 5, "units_revealed": {"1": 2, "2": 3, "3": 4}, "sources": ["CNA1979:16.7", "scan:p97"]},
+  {"die": 6, "units_revealed": {"1": 3, "2": 4, "3": "all"}, "sources": ["CNA1979:16.7", "scan:p97"]}
+ ]
+}

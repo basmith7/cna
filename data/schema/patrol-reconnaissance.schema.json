@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "patrol-reconnaissance.schema.json",
+  "title": "Patrol Reconnaissance Table (SPI 16.7)",
+  "type": "object", "required": ["table", "sources", "rows"], "additionalProperties": false,
+  "properties": {
+    "table": {"const": "patrol-reconnaissance"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "rows": {"type": "array", "minItems": 6, "maxItems": 6, "items": {
+      "type": "object", "required": ["die", "units_revealed", "sources"], "additionalProperties": false,
+      "properties": {"die": {"type": "integer", "minimum": 1, "maximum": 6},
+                     "units_revealed": {"type": "object", "required": ["1", "2", "3"], "additionalProperties": false,
+                                        "description": "net patrol points (1, 2, 3) -> battalion-equivalents in the hex the patroller learns about",
+                                        "properties": {"1": {"$ref": "#/$defs/count"}, "2": {"$ref": "#/$defs/count"}, "3": {"$ref": "#/$defs/count"}}},
+                     "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  },
+  "$defs": {"count": {"oneOf": [{"type": "integer", "minimum": 0}, {"const": "all"}]}}
+}

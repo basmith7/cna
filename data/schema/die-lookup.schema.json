@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "die-lookup.schema.json",
+  "title": "Shared shape for one-die lookup tables (rows keyed by a die-face range)",
+  "$defs": {
+    "dieRange": {"type": "object", "required": ["from", "to"], "additionalProperties": false,
+                 "properties": {"from": {"type": "integer", "minimum": 1, "maximum": 6},
+                                "to": {"type": "integer", "minimum": 1, "maximum": 6}}}
+  }
+}

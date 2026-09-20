@@ -1,0 +1,16 @@
+{
+ "table": "prisoners-captured",
+ "sources": ["CNA1979:15.89", "scan:p97"],
+ "notes": [
+  "Rolled (one die) when the close-assault dice sum falls in the column's capture range (15.79 / tables/close-assault-results.json); percent of the infantry, armour and gun losses just taken that are prisoners rather than dead",
+  "Transcribed from the archive.org scan (jp2 97) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p3): 0 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {"die": {"from": 1, "to": 1}, "percent": 10, "sources": ["CNA1979:15.89", "scan:p97"]},
+  {"die": {"from": 2, "to": 2}, "percent": 25, "sources": ["CNA1979:15.89", "scan:p97"]},
+  {"die": {"from": 3, "to": 3}, "percent": 33, "sources": ["CNA1979:15.89", "scan:p97"]},
+  {"die": {"from": 4, "to": 4}, "percent": 50, "sources": ["CNA1979:15.89", "scan:p97"]},
+  {"die": {"from": 5, "to": 5}, "percent": 50, "sources": ["CNA1979:15.89", "scan:p97"]},
+  {"die": {"from": 6, "to": 6}, "percent": 75, "sources": ["CNA1979:15.89", "scan:p97"]}
+ ]
+}
