@@ -14,7 +14,7 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Addressed
 
-- 2026-09-19 (Brian) mission 2 orders → acted on 2026-09-20: Part A merged (#17), Part B merged (#18, #20–#26: R-002–R-019 plus the generated `rulings/register.md`); Part C started. Quoting policy followed as written; three quotes elide NJHarman's own quotation of a printed SPI sentence (noted in each footnote) because the overlap gate flags them.
+- 2026-09-19 (Brian) mission 2 orders → acted on 2026-09-20: Part A merged (#17), Part B merged (#18, #20–#26: R-002–R-019 plus the generated `rulings/register.md`); Part C combat CRTs merged (#27, #28). Quoting policy followed as written; three quotes elide NJHarman's own quotation of a printed SPI sentence (noted in each footnote) because the overlap gate flags them.
 
 ## Status
 
@@ -24,12 +24,16 @@ Mission 1 (rules files 1–10 and site phase 2): all merged, PRs #2–#13.
 |---|---|---|---|
 | A | close the 30-case Land Game coverage gap (§1, §2, §4, 17.2) | **merged** — §1–32 coverage 974/974 | #17 |
 | B | seed rulings from NJHarman (CORRECTION / CLARIFICATION / INTERPRETATION, Land Game topics) | **merged** — R-002–R-019 (18 proposed rulings, one PR per topic), `rulings/register.md` generated, 5 items recorded as not imported in `EXTRACTION.md` | #18, #20–#26 |
-| C | chart sheet tables into `data/tables/`, cross-checked against Clay Stone | in progress — combat tables (jp2 96–98) first | — |
+| C | chart sheet tables into `data/tables/`, cross-checked | in progress — the three combat CRTs (12.6, 14.6, 15.79) merged with E-008 applied; other sheets next | #27, #28 |
 | D | publish the primer (Parts A–C) as the site's *Learn* page; Part D of the primer waits for the map | not started | — |
 
 ## Next steps
 
-Part C: transcribe the barrage (12.6), anti-armour (14.6) and close-assault (15.79) tables from jp2 pages 96–98 into `data/tables/`, cross-check against Clay Stone's PDFs, apply E-008. Then the remaining chart-sheet tables via the djvu XML search.
+Part C continues, one PR per rules file: locate each remaining chart-sheet table in the archive.org scan (djvu XML search → `chart_pages`), transcribe, cross-check, badge. Then Part D.
+
+**Cross-check source, please note:** Clay Stone's PDFs at friendorfoe.com/d/CfNA/ are the *rules* only — they contain no chart sheet ("See Charts and Tables"). The three CRTs were cross-checked cell by cell against the Discord 300 dpi *Shared Charts.pdf* instead (0 cells differ in all three). If you want a different second source, say so in Feedback.
+
+**Two printed oddities in the close assault CRT** (both scans agree, neither in the 1979 errata): attacker −2 / 20 % reads "13-18" (17–18 are not readings, so 13–16); defender +2 has no cell for readings 34–36. Both are kept as printed and declared in the data file; they want rulings.
 
 For Brian, if you have a minute: R-012 (15.29 withhold-and-retreat) and R-018 (dump cost, 24.9 vs the Construction Chart) are the two seeded rulings where the printed text and the sensible reading pull apart; R-019 needs a hex count on the map (Alexandria → row xx24 vs xx29).
 
