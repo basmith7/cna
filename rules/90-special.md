@@ -476,7 +476,10 @@ after, during the land support air phase's mission-completion segment
 (once ships have been assigned), roll one die on the Chariot Table. No
 supplies are involved.
 
-::: spi-omit 30.46 — the Chariot Table is on the chart sheet; to `data/tables/chariot.json` when captured
+::: spi 30.46
+
+The Chariot Raid Table is data: `data/tables/chariot-raid.json` — one die:
+a 1 rolls three dice of damage, 2–3 two, 4–5 one, a 6 nothing.
 
 ### Naval transport of troops
 

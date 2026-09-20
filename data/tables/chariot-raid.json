@@ -1,0 +1,14 @@
+{
+ "table": "chariot-raid",
+ "sources": ["CNA1979:30.46", "scan:p176"],
+ "notes": [
+  "Chariot Raid Table: one die when the Italian 10th Light Flotilla raids Alexandria (rules/90-special.md, SPI 30.4x); the row gives how many dice to roll, their total being the damage points spread over the ships in the hex as the Axis player likes",
+  "On the Axis player's chart set (jp2 176), not the shared sheet. Transcribed from the archive.org scan and cross-checked against the 300 dpi community scan (scan:discord:Axis Charts.pdf:p34): 0 of 4 rows differ. Clay Stone's errata-integrated Land rules PDF contains no charts"
+ ],
+ "rows": [
+  {"die": {"from": 1, "to": 1}, "damage_dice": 3, "sources": ["CNA1979:30.46", "scan:p176"]},
+  {"die": {"from": 2, "to": 3}, "damage_dice": 2, "sources": ["CNA1979:30.46", "scan:p176"]},
+  {"die": {"from": 4, "to": 5}, "damage_dice": 1, "sources": ["CNA1979:30.46", "scan:p176"]},
+  {"die": {"from": 6, "to": 6}, "damage_dice": 0, "sources": ["CNA1979:30.46", "scan:p176"]}
+ ]
+}
