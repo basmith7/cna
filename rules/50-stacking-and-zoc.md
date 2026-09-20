@@ -37,6 +37,13 @@ Each terrain type has a stacking ceiling, given on the Terrain Effects Chart
 (SPI 8.37, pending transcription to `data/`). The ceiling is enforced at the
 end of every movement segment.
 
+::: spi 4.26
+
+A few hexes routinely hold more counters than fit on the map. Each has a
+**holding box** printed off to the side; counters placed in the box are in
+the hex it represents for every purpose — stacking, zones of control, combat
+and supply — and the box changes nothing about the hex.
+
 ::: spi 9.16
 
 Three kinds of unit ignore stacking in specific places:
