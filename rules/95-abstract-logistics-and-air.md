@@ -120,7 +120,14 @@ Commonwealth player rolls on his table under the period of *arrival* and
 receives them **four turns** later. Except in a scenario's first turn, units
 arrive every turn the rolls allow.
 
-::: spi-omit 32.46 32.47 — the Axis and Commonwealth Simplified Supply Availability Tables are on the chart sheet; to `data/tables/simplified-supply.json` when captured
+::: spi 32.46 32.47
+
+Both Simplified Supply Availability Tables are data:
+`data/tables/simplified-supply.json` — the Axis table runs one die against
+tonnage letters A–G (from nothing on a 1 under A to six units on a 6 under
+G), the Commonwealth table one die against three supply periods (September
+1940 to April 1941, May 1941 to May 1942, June 1942 on), one to seven
+units.
 
 ## Motorisation points
 

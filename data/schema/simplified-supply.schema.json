@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "simplified-supply.schema.json",
+  "title": "Simplified Supply Availability Tables (SPI 32.46 Axis, 32.47 Commonwealth)",
+  "type": "object", "required": ["table", "sources", "axis", "cw"], "additionalProperties": false,
+  "$defs": {
+    "row": {"type": "object", "required": ["die", "units", "sources"], "additionalProperties": false,
+            "properties": {"die": {"type": "integer", "minimum": 1, "maximum": 6},
+                           "units": {"type": "array", "minItems": 1, "items": {"type": "integer", "minimum": 0}, "description": "Supply units received, one entry per column"},
+                           "sources": {"$ref": "common.schema.json#/$defs/sources"}}}
+  },
+  "properties": {
+    "table": {"const": "simplified-supply"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "axis": {"type": "object", "required": ["letters", "arrive_turns_later", "rows"], "additionalProperties": false,
+             "properties": {"letters": {"type": "array", "minItems": 7, "maxItems": 7, "items": {"type": "string", "pattern": "^[A-G]$"}, "description": "Tonnage availability letter columns, in row order"},
+                            "arrive_turns_later": {"type": "integer", "minimum": 0},
+                            "rows": {"type": "array", "minItems": 6, "maxItems": 6, "items": {"$ref": "#/$defs/row"}}}},
+    "cw": {"type": "object", "required": ["periods", "arrive_turns_later", "rows"], "additionalProperties": false,
+           "properties": {"periods": {"type": "array", "minItems": 3, "maxItems": 3, "items": {
+                             "type": "object", "required": ["period", "from"], "additionalProperties": false,
+                             "properties": {"period": {"enum": ["I", "II", "III"]},
+                                            "from": {"type": "string", "pattern": "^19[34][0-9]-[01][0-9]$", "description": "First month (YYYY-MM)"},
+                                            "to": {"type": "string", "pattern": "^19[34][0-9]-[01][0-9]$", "description": "Last month; absent = to the end of the game"}}},
+                                       "description": "Supply period columns, in row order"},
+                          "arrive_turns_later": {"type": "integer", "minimum": 0},
+                          "rows": {"type": "array", "minItems": 6, "maxItems": 6, "items": {"$ref": "#/$defs/row"}}}}
+  }
+}

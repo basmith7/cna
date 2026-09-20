@@ -158,6 +158,11 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: `scan:discord:Commonwealth Charts.pdf:p31` — **0 of 19 ships differ**. No errata beyond E-030's reference fix (already applied in prose).
 - Rules: `rules/90-special.md` 30.59 `spi-omit` → primary `::: spi 30.59`; the Port Capacity Chart (55.3) is a Logistics Game table for a later spec.
 
+## data/tables/simplified-supply.json — 2026-09-20 (Part C, player chart sets)
+- Source: archive.org scan jp2 176 (32.46 Axis Simplified Supply Availability Table, 6 dice × 7 tonnage letters) and jp2 141 (32.47 Commonwealth Simplified Supply Availability Table, 6 dice × 3 supply periods); the period key restated as month ranges. Schema `simplified-supply.schema.json`; `tests/test_simplified_supply.py` written first (with a monotonicity invariant on the Axis rows).
+- Cross-check: `scan:discord:Axis Charts.pdf:p34` and `scan:discord:Commonwealth Charts.pdf:p31` — **0 of 42 + 18 cells differ**. No errata.
+- Rules: `rules/95-abstract-logistics-and-air.md` 32.46 32.47 `spi-omit` → primary `::: spi 32.46 32.47`.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:
