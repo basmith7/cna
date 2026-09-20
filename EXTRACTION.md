@@ -87,6 +87,9 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: `scan:discord:Shared Charts.pdf:p5` — **0 of 260 cells differ**.
 - Rules: `rules/10-units-and-state.md` 17.4 → primary `::: spi 17.4`; §17 has no pending-capture omit left.
 
+## data/tables/cp-costs.json — 2026-09-20 (Part C cross-check only)
+- The CP cost table was transcribed from the 6.3 rules text in mission 1. Cross-checked row by row against the chart sheet's Capability Point Expenditure Summary on archive.org jp2 95 and on `scan:discord:Shared Charts.pdf:p1`: **0 of 36 rows differ**. `scan:p95` added to the file's sources; no value changed.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:
