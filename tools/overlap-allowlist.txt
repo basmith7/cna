@@ -1,3 +1,5 @@
 # One phrase per line. Every 8-word run inside a phrase is allowed.
 # Only for unavoidable fixed terms; never for rule sentences.
 the campaign for north africa the desert war 1940 1943
+# consecutive dice sums in data/tables (e.g. a retreat line covering 2-9): numbers, not prose
+2 3 4 5 6 7 8 9 10 11 12

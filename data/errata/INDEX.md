@@ -15,7 +15,7 @@ listed here alone.
 | E-005 | 15.4 | correction | rules/60-combat.md | the worked figure for four unsupported tank points is a reduction to one, not two |
 | E-006 | 15.53 | correction | data/tables/assault-size-shifts.json | "Brigade" belongs in the smaller-side column (3-point and 2-point brigades), not under adjustment |
 | E-007 | 15.56 | addition | rules/60-combat.md | a hex whose defenders are all pinned defends at 0 with two columns shifted to the attacker |
-| E-008 | 15.79 | correction | (pending) data/tables/close-assault-results.json | defender losses, +4 column, 10 % row: dice range 34–45 |
+| E-008 | 15.79 | correction | data/errata/E-008.json → data/tables/close-assault-results.json; rules/60-combat.md | defender losses, +4 column, 10 % row: dice range 34–45 (printed 24–45 overlapped the 15 % row) |
 | E-009 | 15.88 | clarification | rules/60-combat.md | −17 cohesion surrenders when assaulted; −26 surrenders when an enemy merely moves adjacent (SPI 6.26) |
 | E-010 | 16.11 | addition | rules/60-combat.md | Italian L/6, Commonwealth Stuarts and all mechanised infantry (incl. Panzergrenadiers) may supply patrol points |
 | E-011 | 19.14 | clarification | rules/70-organisation.md | example corrected: attached to the NZ division, assigned to 7th Armoured |

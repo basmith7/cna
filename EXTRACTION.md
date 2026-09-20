@@ -35,6 +35,14 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: as for 12.6, Clay Stone's Land PDF has no chart sheet; cross-checked against `scan:discord:Shared Charts.pdf:p3` cell by cell: **0 of 306 cells differ**. No errata item touches 14.6 (E-003 and E-004 are prose changes to 14.47–14.48, already applied).
 - Rules: `rules/60-combat.md` 14.6 `spi-omit … pending` → primary `::: spi 14.6` pointing at the data file, with the chart's phasing-player row modifier and the starred-column rule stated in prose.
 
+## data/tables/close-assault-results.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 98 (printed sideways; rotated 90°), the Close Assault Combat Results Table (SPI 15.79). Read at 2× in four panels; every cell legible.
+- Shape: 18 differential columns × 9 loss rows × 2 sides = 324 dice-range cells, plus 6 summed-dice lines × 18 columns = 108 sum cells; schema `data/schema/close-assault-results.schema.json`; `tests/test_close_assault_results.py` (written first) proves every side × column tiles the 36 readings 11–66 exactly once *after* E-008 and outside the one declared gap, and pins the two printed anomalies.
+- Errata applied: **E-008** as `data/errata/E-008.json` (RFC 6902 replace on `/losses/defender/10/+4`, 24-45 → 34-45); the printed value is kept in the table. First overlay file in the repo.
+- Two printed oddities, both confirmed in the second scan and not in the September 1979 errata: attacker −2 / 20 % reads 13-18 (17, 18 are not readings; effectively 13-16, kept as printed); defender +2 skips readings 34–36 between the 10 % (24-33) and 5 % (41-52) cells — declared in `known_gaps` for a ruling.
+- Cross-check: Clay Stone's Land PDF has no chart sheet; cross-checked against `scan:discord:Shared Charts.pdf:p4` (rotated), cell by cell: **0 of 324 loss cells and 0 of 108 sum cells differ**.
+- Rules: `rules/60-combat.md` 15.79 `spi-omit … pending` → primary `::: spi 15.79` block under *Reading the CRT* with an `::: errata E-008` badge; 15.89 (prisoners table) stays omitted pending capture; `coverage.md` / `changes.md` regenerated.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:
