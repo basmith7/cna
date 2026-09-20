@@ -79,6 +79,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-016](../rulings/R-016.md) | proposed | 22.63, 22.65, 8.9 |
 | [R-017](../rulings/R-017.md) | proposed | 22.63, 8.53, 13.2, 15.82 |
 | [R-018](../rulings/R-018.md) | proposed | 24.17, 24.9 |
+| [R-019](../rulings/R-019.md) | proposed | 30.15, 30.23, 24.5 |
 
 ## Variants register
 
