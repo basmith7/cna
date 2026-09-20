@@ -133,6 +133,11 @@ the PR that adds or substantially rewrites the file.
 - Rules: `rules/40-movement.md` 8.37 `spi-omit` → primary `::: spi 8.37` with a pointer paragraph and the `::: errata E-031` badge; the "pending transcription" mentions in `50-stacking-and-zoc.md` (9.14) and `60-combat.md` (15.3) now point at the file.
 - Also located this run, not yet captured: 36.53 Allied Off-Map Air Facilities (jp2 70), 19.31 (jp2 134), 20.78 (jp2 140), 19.32 (jp2 173), 19.33 (jp2 174), 20.66 (jp2 175); recorded in `tools/sources.json` `chart_pages`.
 
+## data/tables/raid-on-rommel.json — 2026-09-20 (Part C, Commonwealth chart set)
+- Source: archive.org scan jp2 page 140 (Commonwealth chart set; the same page carries 20.78A/B/C). Seven two-dice rows; the chart's "historical" flavour lines are not carried. Schema `raid-on-rommel.schema.json`; `tests/test_raid_on_rommel.py` written first.
+- Cross-check: `scan:discord:Commonwealth Charts.pdf:p30` — **0 of 7 rows differ**. No errata.
+- Rules: `rules/90-special.md` 27.92 `spi-omit` → primary `::: spi 27.92`.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:

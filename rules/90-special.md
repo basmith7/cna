@@ -247,7 +247,13 @@ proceed when the two-dice total is **equal to or above** the guards' raw
 close-assault defence, the text (27.5x) only when it is above. The table
 holds the chart's reading; the list above keeps the text's.
 
-::: spi-omit 27.92 — the Raid on Rommel Table is not on the shared chart sheet (probably the Commonwealth chart set); to `data/tables/raid-on-rommel.json` when captured
+::: spi 27.92
+
+The Raid on Rommel Table is data: `data/tables/raid-on-rommel.json` — two
+dice; a 12 removes Rommel for good, a 2 pins the Axis initiative rating at
+3 for the next two turns, 3, 9 and 11 cost the LRDG unless Rommel's hex
+held no combat or HQ unit, anything else is a wasted trip. (The chart
+heads it "27.54"; the rules cite it as 27.92.)
 
 ## Commandos
 
