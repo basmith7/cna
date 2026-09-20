@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cw-fleet-schedule.schema.json",
+  "title": "Commonwealth Fleet Reinforcement Schedule (SPI 30.59; headed 30.6 on the chart)",
+  "type": "object", "required": ["table", "sources", "default_port", "malta_options", "rows"], "additionalProperties": false,
+  "properties": {
+    "table": {"const": "cw-fleet-schedule"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "default_port": {"const": "alexandria", "description": "Every ship deploys in the port hex of Alexandria unless a Malta option is taken"},
+    "malta_options": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 1},
+                      "description": "Named option -> how many of the ships carrying that option may deploy at Valletta instead"},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["ship", "type", "arrival", "sources"], "additionalProperties": false,
+      "properties": {
+        "ship": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "type": {"enum": ["BB", "CA", "CL", "CLAA", "DD"], "description": "Warship type as printed on the counter: battleship, heavy cruiser, light cruiser, anti-aircraft cruiser, destroyer"},
+        "arrival": {"type": "object", "required": ["turn", "stage"], "additionalProperties": false,
+                    "properties": {"turn": {"type": "integer", "minimum": 1}, "stage": {"type": "integer", "minimum": 1, "maximum": 4}},
+                    "description": "Game-turn and operations stage the ship is deployed in (turn 1 stage 1 = at start)"},
+        "malta_option": {"type": "string", "pattern": "^[a-z-]+$"},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  }
+}

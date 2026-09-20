@@ -1,0 +1,256 @@
+{
+ "table": "cw-fleet-schedule",
+ "sources": [
+  "CNA1979:30.59",
+  "scan:p141"
+ ],
+ "notes": [
+  "Commonwealth Fleet Reinforcement Schedule (headed 30.6 on the chart; the rules cite it from 30.59, whose other reference errata E-030 redirects): each warship counter with the game-turn and operations stage it is deployed in. All deploy at Alexandria; of the three cruisers Arethusa, Dido and Euryalus any one may instead start at Valletta, and any two of the seven starting destroyers may (malta_options)",
+  "On the Commonwealth player's chart set (jp2 141), not the shared sheet. Transcribed from the archive.org scan and cross-checked against the 300 dpi community scan (scan:discord:Commonwealth Charts.pdf:p31): 0 of 19 ships differ. Clay Stone's errata-integrated Land rules PDF contains no charts"
+ ],
+ "default_port": "alexandria",
+ "malta_options": {
+  "one-of-cruisers": 1,
+  "two-of-destroyers": 2
+ },
+ "rows": [
+  {
+   "ship": "valiant",
+   "type": "BB",
+   "arrival": {
+    "turn": 1,
+    "stage": 1
+   },
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "arethusa",
+   "type": "CL",
+   "arrival": {
+    "turn": 1,
+    "stage": 1
+   },
+   "malta_option": "one-of-cruisers",
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "dido",
+   "type": "CLAA",
+   "arrival": {
+    "turn": 1,
+    "stage": 1
+   },
+   "malta_option": "one-of-cruisers",
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "euryalus",
+   "type": "CLAA",
+   "arrival": {
+    "turn": 1,
+    "stage": 1
+   },
+   "malta_option": "one-of-cruisers",
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "airedale",
+   "type": "DD",
+   "arrival": {
+    "turn": 1,
+    "stage": 1
+   },
+   "malta_option": "two-of-destroyers",
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "bedouin",
+   "type": "DD",
+   "arrival": {
+    "turn": 1,
+    "stage": 1
+   },
+   "malta_option": "two-of-destroyers",
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "jervis",
+   "type": "DD",
+   "arrival": {
+    "turn": 1,
+    "stage": 1
+   },
+   "malta_option": "two-of-destroyers",
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "lance",
+   "type": "DD",
+   "arrival": {
+    "turn": 1,
+    "stage": 1
+   },
+   "malta_option": "two-of-destroyers",
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "ledbury",
+   "type": "DD",
+   "arrival": {
+    "turn": 1,
+    "stage": 1
+   },
+   "malta_option": "two-of-destroyers",
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "mohawk",
+   "type": "DD",
+   "arrival": {
+    "turn": 1,
+    "stage": 1
+   },
+   "malta_option": "two-of-destroyers",
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "nubian",
+   "type": "DD",
+   "arrival": {
+    "turn": 1,
+    "stage": 1
+   },
+   "malta_option": "two-of-destroyers",
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "barham",
+   "type": "BB",
+   "arrival": {
+    "turn": 8,
+    "stage": 3
+   },
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "york",
+   "type": "CA",
+   "arrival": {
+    "turn": 8,
+    "stage": 3
+   },
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "ajax",
+   "type": "CL",
+   "arrival": {
+    "turn": 8,
+    "stage": 3
+   },
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "marne",
+   "type": "DD",
+   "arrival": {
+    "turn": 8,
+    "stage": 3
+   },
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "partridge",
+   "type": "DD",
+   "arrival": {
+    "turn": 8,
+    "stage": 3
+   },
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "queen-elizabeth",
+   "type": "BB",
+   "arrival": {
+    "turn": 33,
+    "stage": 1
+   },
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "fiji",
+   "type": "CA",
+   "arrival": {
+    "turn": 33,
+    "stage": 1
+   },
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  },
+  {
+   "ship": "naiad",
+   "type": "CLAA",
+   "arrival": {
+    "turn": 33,
+    "stage": 1
+   },
+   "sources": [
+    "CNA1979:30.59",
+    "scan:p141"
+   ]
+  }
+ ]
+}

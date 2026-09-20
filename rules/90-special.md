@@ -501,7 +501,17 @@ level by at least a third; one-SP ports lose nothing.
 
 ::: errata E-030 — 30.5: the supply-by-sea reference is 56.0; 30.55 also admits barraged/bombed units; 30.57 is replaced by the 10 %-per-SP rule; 30.58's reference is 55.2
 
-::: spi-omit 30.59 — there is no 30.59 chart (errata): the Port Capacity Chart is SPI 55.3 and the Commonwealth Fleet Reinforcement Schedule is on the chart sheet; both to `data/` when captured
+::: spi 30.59
+
+There is no 30.59 chart as such (errata E-030): the Port Capacity Chart is
+SPI 55.3 (Logistics Game, later spec) and the Commonwealth Fleet
+Reinforcement Schedule is data, `data/tables/cw-fleet-schedule.json` — each
+warship with the turn and stage it appears: eleven ships at the start
+(*Valiant*, three cruisers, seven destroyers), five more in stage 3 of turn
+8 (*Barham*, *York*, *Ajax*, two destroyers), and *Queen Elizabeth*, *Fiji*
+and *Naiad* on turn 33. All deploy at Alexandria, except that one of the
+three starting cruisers and two of the seven starting destroyers may begin
+at Malta.
 
 ## Rommel
 
