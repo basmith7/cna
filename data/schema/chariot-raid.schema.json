@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chariot-raid.schema.json",
+  "title": "Chariot Raid Table (SPI 30.46)",
+  "type": "object", "required": ["table", "sources", "rows"], "additionalProperties": false,
+  "properties": {
+    "table": {"const": "chariot-raid"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["die", "damage_dice", "sources"], "additionalProperties": false,
+      "properties": {
+        "die": {"$ref": "die-lookup.schema.json#/$defs/dieRange"},
+        "damage_dice": {"type": "integer", "minimum": 0, "maximum": 3, "description": "Dice rolled; their total is the damage points (30.34) the Axis player spreads over the ships in the hex"},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  }
+}

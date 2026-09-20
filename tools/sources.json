@@ -40,7 +40,8 @@
       "cw-production (20.78A/B/C), raid-on-rommel (27.92, headed 27.54) — Commonwealth chart set": 140,
       "it-formation-organisation (19.32) — Axis chart set": 173,
       "de-formation-organisation (19.33) — Axis chart set": 174,
-      "axis-replacement-pool (20.66) — Axis chart set": 175
+      "axis-replacement-pool (20.66) — Axis chart set": 175,
+      "chariot-raid (30.46), simplified-supply-availability (32.46), axis-convoy-bombing (32.66), axis-airplane-reinforcement (34.85) — Axis chart set": 176
     },
     "chart_pages_note": "chart title(s) -> jp2 page index (0-based). The shared chart sheet ('Charts & Tables Common to Both Players', 16 pp) is jp2 95-110; 98 and 103 are printed sideways. The Terrain Effects Chart (8.37) is a page of the rulebook (jp2 69), not the chart sheet; the player-specific chart sets follow the shared sheet (Commonwealth from about jp2 111, Axis from about jp2 150). Titles located by searching the djvu XML (cached as ~/.cache/cna-scans/djvu.xml) and confirmed against the community scans' contact sheets."
   },

@@ -143,6 +143,11 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: `scan:discord:Commonwealth Charts.pdf:p30` — **0 of 36 truck cells, 0 of 44 infantry cells, 0 of 24 chart rows differ**. No errata (E-015 is prose-only and already applied).
 - Rules: `rules/70-organisation.md` 20.78 `spi-omit` → primary `::: spi 20.78`.
 
+## data/tables/chariot-raid.json — 2026-09-20 (Part C, Axis chart set)
+- Source: archive.org scan jp2 page 176 (Axis chart set). Four one-die rows → number of damage dice. Schema `chariot-raid.schema.json`; `tests/test_chariot_raid.py` written first.
+- Cross-check: `scan:discord:Axis Charts.pdf:p34` — **0 of 4 rows differ**. No errata.
+- Rules: `rules/90-special.md` 30.46 `spi-omit` → primary `::: spi 30.46`.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:
