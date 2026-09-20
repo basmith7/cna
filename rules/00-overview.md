@@ -27,9 +27,9 @@ and community discussions can be cross-referenced.
 - Every rules file is `provisional` until an engine has been built against
   it and its rulings reopened.
 
-New to the game? Build the illustrated primer with
-`python3 tools/learn_page.py` and open `docs/learn/index.html`. It is not
-published here because it contains crops of the original charts.
+New to the game? Start with the illustrated primer on the [Learn](/learn)
+page: one operations stage on a sketch map, the combat maths with the real
+tables, and how supply flows.
 
 ::: spi-omit 1.0 — SPI's introduction: scale, player count and design intent; the scale facts are given below
 ::: spi-omit 2.0 — how-to-play orientation and the rules' organisation; SPI's role split is reduced to [Roles](#roles)
