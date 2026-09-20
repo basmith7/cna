@@ -178,6 +178,11 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: `scan:discord:Shared Charts.pdf:p13` — **0 of 56 cells differ**. No errata.
 - Rules: `rules/95-abstract-logistics-and-air.md` 32.59 `spi-omit` → primary `::: spi 32.59`.
 
+## data/tables/formation-organisation.json — 2026-09-20 (Part C, player chart sets)
+- Source: archive.org scan jp2 134 (19.31 Commonwealth), 173 (19.32 Italian), 174 (19.33 German). The charts are grids of counter symbols: each row is a parent formation, each symbol one counter with its stacking value printed beside it. Modelled as components {count, unit slug, sp (null where no figure is printed), type for sub-formations, any_of for "X or Y"}; the three symbol keys are restated in our words in `units`. 14 + 12 + 11 rows. Schema `formation-organisation.schema.json`; `tests/test_formation_organisation.py` written first.
+- Cross-check: `scan:discord:Commonwealth Charts.pdf:p24`, `scan:discord:Axis Charts.pdf:p31`, `:p32` at 220 dpi — **0 of 37 rows differ**. Two soft spots read identically in both scans and are noted in the file (a faint figure beside the 5th Light's second infantry battalion; which of the Ramcke brigade's five battalions is the heavy-weapons one). No errata.
+- Rules: `rules/70-organisation.md` 19.3 19.31 19.32 19.33 `spi-omit` → primary `::: spi 19.3 19.31 19.32 19.33`. Part C now has one chart left, 20.67, which has not been located.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:

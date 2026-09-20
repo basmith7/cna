@@ -69,7 +69,18 @@ An assigned unit occupies its slot in the parent's structure wherever it is.
   the only exception to the rules above, and it is a swap — a battalion may
   not simply be cut loose as independent.
 
-::: spi-omit 19.3 19.31 19.32 19.33 — the Formation Organisation Charts (Allied, Italian, German) are on the player chart sets; to `data/tables/formation-organisation.json` when captured
+::: spi 19.3 19.31 19.32 19.33
+
+The three Formation Organisation Charts are data:
+`data/tables/formation-organisation.json` — for every parent formation
+(Commonwealth divisions, brigades and support groups by organisation type
+and period; the Italian divisions, regiments and special detachments; each
+German division and regiment by name) the counters it is built from, with
+their stacking values. A Commonwealth armoured division, for instance, is
+two armoured brigades and a support group until turn 18, gains an armoured
+car or recce unit from turn 19, slims to one brigade from turn 71 and from
+turn 92 becomes a brigade, an infantry brigade, three artillery units and
+supporting battalions.
 
 ::: spi 19.5
 

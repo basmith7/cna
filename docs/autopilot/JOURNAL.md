@@ -225,3 +225,9 @@ Done: 12 PRs merged this run, all after green CI: #43 (24.17 + 24.18), #44 (27.9
 In flight: none.
 Next: Part C's last items — 19.31/19.32/19.33 Formation Organisation Charts (jp2 134 / 173 / 174; symbol grids: read the counter-symbol legend first, model rows as parent → list of {count, type, size, turns}); 20.67 unlocated (scan Axis set jp2 150–178 contact sheet). Then Part D (learn_page.py --site).
 Blocked: none. Lessons: run `check_overlap.py` with NO args too (CI's run) — EXTRACTION.md phrasing tripped it once; when stacking PRs, `gh pr edit N --base main` after the base merges, never --delete-branch; jp2 103 needs rotate(-90), 104 and 107 are as printed / +90 respectively — just view the raw page first.
+
+## 2026-09-19 21:57 — autopilot/c-formation-cw
+Done: branch opened for 19.31 (Commonwealth Formation Organisation Chart, jp2 134 / Discord CW p24 at 220 dpi — legend on the lower half of the page).
+In flight: formation-organisation.json (rows = parent formation × organisation type × turns → components with count / unit slug / alternatives; a missing printed count is stored as count 1 with count_printed false).
+Next: if this lands, add 19.32 (jp2 173) and 19.33 (jp2 174) rows to the same file, then badge 19.3 19.31 19.32 19.33 together.
+Blocked: none.

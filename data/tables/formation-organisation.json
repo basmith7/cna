@@ -1,0 +1,1235 @@
+{
+ "table": "formation-organisation",
+ "sources": [
+  "CNA1979:19.31",
+  "scan:p134",
+  "CNA1979:19.32",
+  "scan:p173",
+  "CNA1979:19.33",
+  "scan:p174"
+ ],
+ "notes": [
+  "Formation Organisation Charts (SPI 19.31 Commonwealth, 19.32 Italian, 19.33 German): what each parent formation is composed of. Each component is one or more counters of a kind (count), with the stacking-point figure the chart prints beside the symbol (sp; a formation's is in parentheses; null where the chart prints no figure) and the organisation type where the component is itself a formation on the chart; the chart's 'X or Y' is any_of. The counter symbols are named by the slugs in 'units' (our words for the three charts' keys)",
+  "Transcribed from the archive.org scan (jp2 134, 173, 174) and cross-checked symbol by symbol against the 300 dpi community scans (scan:discord:Commonwealth Charts.pdf:p24, scan:discord:Axis Charts.pdf:p31 and p32): 0 of 14 + 12 + 11 rows differ. Clay Stone's errata-integrated Land rules PDF contains no charts. Two soft spots, both read the same in both scans: the second infantry battalion of the 5th Light's row carries a faint '1'; the Ramcke row's first four battalions are read as ordinary parachute battalions and only the fifth as the heavy-weapons battalion"
+ ],
+ "units": {
+  "armoured-division": "CW armoured division (5 SP), organisation type I-IV by period; IT armoured division (5 SP)",
+  "armoured-brigade": "CW armoured brigade (2 SP), type I-III by period",
+  "tank-battalion": "tank battalion (1 SP)",
+  "infantry-division": "CW infantry division (5 SP)",
+  "support-group": "CW support group (2 SP; the Motor Brigade Group after turn 70), type I-III by period",
+  "infantry-brigade-3sp": "CW 3 SP infantry brigade, effectively a battle group: 18th Australian, 1st Free French, Polish",
+  "infantry-brigade": "CW 2 SP infantry brigade (also the 3rd Indian and 161st Indian Motor Brigade Groups)",
+  "allied-infantry-brigade": "CW: 2nd Free French and 1st Greek brigades",
+  "infantry-battalion": "infantry battalion: CW foot, motorised, marine or commando; IT leg, motorised or parachute (a regiment's are normally of one style); DE any infantry-type battalion except a heavy-weapons parachute battalion",
+  "artillery-unit": "CW artillery regiment, battalion or self-propelled regiment; DE any 1 SP artillery counter",
+  "artillery-group": "DE (2): any artillery HQ except the ArKo with all its units, or any three 1 SP artillery units",
+  "artillery-regiment": "IT artillery regiment, up to three artillery battalions, or a parachute artillery regiment",
+  "artillery-battalion": "IT artillery battalion (armoured divisions may use SP artillery battalions)",
+  "anti-tank-regiment": "CW anti-tank, anti-tank/anti-aircraft or tank-destroyer regiment",
+  "anti-tank-unit": "CW: any anti-tank regiment as above, or an anti-tank company (0 SP)",
+  "anti-tank-battalion": "IT anti-tank battalion or up to three anti-tank companies; DE anti-tank battalion",
+  "anti-tank-company": "IT anti-tank company (0 SP)",
+  "tank-destroyer-battalion": "DE tank-destroyer battalion, or an anti-tank battalion",
+  "light-aa-unit": "CW light anti-aircraft regiment or battalion; DE light anti-aircraft unit",
+  "heavy-aa-unit": "DE heavy anti-aircraft unit",
+  "anti-aircraft-unit": "IT any anti-aircraft unit",
+  "machinegun-battalion": "machine-gun infantry battalion",
+  "motorised-machinegun-company": "IT motorised machine-gun company (0 SP)",
+  "armoured-car-unit": "CW armoured car regiment or battalion",
+  "armoured-car-regiment": "IT armoured car regiment",
+  "armoured-car-battalion": "IT armoured car battalion",
+  "armoured-recce-unit": "CW armoured reconnaissance regiment or battalion",
+  "armoured-recce-battalion": "DE armoured reconnaissance battalion",
+  "engineer-battalion": "engineer battalion (CW: the 2/1 Australian Pioneers or a tank battalion made up of Scorpions)",
+  "engineer-company": "DE engineer company (0 SP)",
+  "unit": "CW: any unit other than a tank battalion whose counter has a stacking value of 1 or 0",
+  "tank-regiment-3sp": "IT 3 SP tank regiment (historically four light and one medium battalion)",
+  "tank-regiment": "IT 2 SP tank regiment",
+  "tank-group": "IT tank group (5 SP): the Libyan Tank Command, turns 1-26",
+  "motorised-infantry-division": "IT motorised infantry division (5 SP)",
+  "semi-motorised-infantry-division": "IT semi-motorised infantry division (5 SP)",
+  "libyan-or-parachute-infantry-division": "IT Libyan infantry and parachute infantry divisions (5 SP); the Gruppo Maletti may assign a third regiment",
+  "infantry-regiment": "IT infantry, motorised infantry or parachute infantry regiment (2 SP; the 54th Territorial and 4th of the 10th Army regiments are single 2 SP counters); DE infantry regiment (2 SP; the 288th Sonderverband and 361st Afrika regiments may stand in for any normal one; no battle group may be assigned to a division)",
+  "bersaglieri-regiment": "IT Bersaglieri infantry regiment (2 SP)",
+  "bersaglieri-battalion": "IT Bersaglieri motorised infantry battalion",
+  "bersaglieri-motorcycle-battalion": "IT Bersaglieri motorcycle infantry battalion",
+  "bersaglieri-motorcycle-recce-company": "IT Bersaglieri motorcycle reconnaissance company (0 SP)",
+  "cavalry-regiment": "IT cavalry regiment (2 SP)",
+  "cavalry-battalion": "IT cavalry or camel cavalry battalion",
+  "sahara-detachment": "IT Saharan detachment, an infantry regiment (2 SP)",
+  "recam": "IT Raggruppamento Esplorante del Corpo di Manovra (2 SP); not an armoured regiment for armoured-division assignment",
+  "5-leichte-panzer-division": "DE 5th Light Panzer Division (5 SP), later the 21st Panzer Division",
+  "21-panzer-division": "DE 21st Panzer Division (5 SP)",
+  "15-panzer-division": "DE 15th Panzer Division (5 SP)",
+  "90-leichte-afrika-division": "DE 90th Leichte Afrika Division (5 SP)",
+  "164-leichte-afrika-division": "DE 164th Leichte Afrika Division (5 SP)",
+  "armoured-regiment": "DE armoured regiment (2 SP)",
+  "15-infantry-brigade": "DE 15th Infantry Brigade (3 SP); never more than six infantry battalions",
+  "ramcke-brigade": "DE Ramcke parachute brigade (3 SP)",
+  "heavy-weapons-parachute-battalion": "DE heavy-weapons parachute infantry battalion",
+  "288-sonderverband": "DE 288th Sonderverband (2 SP)",
+  "361-afrika-regiment": "DE 361st Afrika Regiment (2 SP)"
+ },
+ "rows": [
+  {
+   "nation": "cw",
+   "parent": "armoured-division",
+   "sp": 5,
+   "type": "I",
+   "turns": {
+    "from": 1,
+    "to": 18
+   },
+   "components": [
+    {
+     "count": 2,
+     "unit": "armoured-brigade",
+     "sp": 2,
+     "type": "I"
+    },
+    {
+     "count": 1,
+     "unit": "support-group",
+     "sp": 2,
+     "type": "I"
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "cw",
+   "parent": "armoured-division",
+   "sp": 5,
+   "type": "II",
+   "turns": {
+    "from": 19,
+    "to": 70
+   },
+   "components": [
+    {
+     "count": 2,
+     "unit": "armoured-brigade",
+     "sp": 2,
+     "type": "II"
+    },
+    {
+     "count": 1,
+     "unit": "support-group",
+     "sp": 2,
+     "type": "II"
+    },
+    {
+     "count": 1,
+     "any_of": [
+      "armoured-car-unit",
+      "armoured-recce-unit"
+     ],
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "cw",
+   "parent": "armoured-division",
+   "sp": 5,
+   "type": "III",
+   "turns": {
+    "from": 71,
+    "to": 91
+   },
+   "components": [
+    {
+     "count": 1,
+     "unit": "armoured-brigade",
+     "sp": 2,
+     "type": "III"
+    },
+    {
+     "count": 1,
+     "unit": "support-group",
+     "sp": 2,
+     "type": "III"
+    },
+    {
+     "count": 1,
+     "unit": "armoured-car-unit",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "cw",
+   "parent": "armoured-division",
+   "sp": 5,
+   "type": "IV",
+   "turns": {
+    "from": 92,
+    "to": null
+   },
+   "components": [
+    {
+     "count": 1,
+     "unit": "armoured-brigade",
+     "sp": 2,
+     "type": "II"
+    },
+    {
+     "count": 1,
+     "unit": "infantry-brigade",
+     "sp": 2
+    },
+    {
+     "count": 3,
+     "unit": "artillery-unit",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "anti-tank-regiment",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "light-aa-unit",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "machinegun-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "engineer-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "any_of": [
+      "armoured-car-unit",
+      "armoured-recce-unit"
+     ],
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "cw",
+   "parent": "infantry-division",
+   "sp": 5,
+   "components": [
+    {
+     "count": 3,
+     "unit": "infantry-brigade",
+     "sp": 2
+    },
+    {
+     "count": 3,
+     "unit": "artillery-unit",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "anti-tank-regiment",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "anti-tank-unit",
+     "sp": null
+    },
+    {
+     "count": 1,
+     "unit": "machinegun-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "engineer-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "any_of": [
+      "armoured-car-unit",
+      "armoured-recce-unit"
+     ],
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "cw",
+   "parent": "armoured-brigade",
+   "sp": 2,
+   "type": "I",
+   "turns": {
+    "from": 1,
+    "to": 18
+   },
+   "components": [
+    {
+     "count": 3,
+     "unit": "tank-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "cw",
+   "parent": "armoured-brigade",
+   "sp": 2,
+   "type": "II",
+   "turns_list": [
+    {
+     "from": 19,
+     "to": 70
+    },
+    {
+     "from": 92,
+     "to": null
+    }
+   ],
+   "components": [
+    {
+     "count": 3,
+     "unit": "tank-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "infantry-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "cw",
+   "parent": "armoured-brigade",
+   "sp": 2,
+   "type": "III",
+   "turns": {
+    "from": 71,
+    "to": 91
+   },
+   "components": [
+    {
+     "count": 3,
+     "unit": "tank-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "infantry-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "artillery-unit",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "cw",
+   "parent": "support-group",
+   "sp": 2,
+   "type": "I",
+   "turns": {
+    "from": 1,
+    "to": 18
+   },
+   "components": [
+    {
+     "count": 2,
+     "unit": "infantry-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "artillery-unit",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "anti-tank-regiment",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "any_of": [
+      "armoured-car-unit",
+      "armoured-recce-unit"
+     ],
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "cw",
+   "parent": "support-group",
+   "sp": 2,
+   "type": "II",
+   "turns": {
+    "from": 19,
+    "to": 70
+   },
+   "components": [
+    {
+     "count": 1,
+     "unit": "infantry-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "artillery-unit",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "anti-tank-regiment",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "cw",
+   "parent": "support-group",
+   "sp": 2,
+   "type": "III",
+   "turns": {
+    "from": 71,
+    "to": 91
+   },
+   "components": [
+    {
+     "count": 3,
+     "unit": "infantry-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "artillery-unit",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "cw",
+   "parent": "infantry-brigade-3sp",
+   "sp": 3,
+   "components": [
+    {
+     "count": 3,
+     "unit": "infantry-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "artillery-unit",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "anti-tank-unit",
+     "sp": null
+    },
+    {
+     "count": 1,
+     "any_of": [
+      "light-aa-unit",
+      "machinegun-battalion"
+     ],
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "any_of": [
+      "armoured-car-unit",
+      "armoured-recce-unit"
+     ],
+     "sp": null
+    },
+    {
+     "count": 1,
+     "unit": "unit",
+     "sp": null
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "cw",
+   "parent": "infantry-brigade",
+   "sp": 2,
+   "components": [
+    {
+     "count": 3,
+     "unit": "infantry-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "cw",
+   "parent": "allied-infantry-brigade",
+   "sp": 2,
+   "components": [
+    {
+     "count": 3,
+     "unit": "infantry-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "any_of": [
+      "artillery-unit",
+      "anti-tank-unit"
+     ],
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "unit",
+     "sp": null
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "it",
+   "parent": "armoured-division",
+   "sp": 5,
+   "components": [
+    {
+     "count": 2,
+     "unit": "tank-regiment",
+     "sp": 2
+    },
+    {
+     "count": 2,
+     "unit": "infantry-regiment",
+     "sp": 2
+    },
+    {
+     "count": 1,
+     "unit": "armoured-car-regiment",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "anti-tank-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "artillery-regiment",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.32",
+    "scan:p173"
+   ]
+  },
+  {
+   "nation": "it",
+   "parent": "tank-group",
+   "sp": 5,
+   "turns": {
+    "from": 1,
+    "to": 26
+   },
+   "components": [
+    {
+     "count": 2,
+     "unit": "tank-regiment",
+     "sp": 3
+    }
+   ],
+   "sources": [
+    "CNA1979:19.32",
+    "scan:p173"
+   ]
+  },
+  {
+   "nation": "it",
+   "parent": "motorised-infantry-division",
+   "sp": 5,
+   "components": [
+    {
+     "count": 2,
+     "unit": "infantry-regiment",
+     "sp": 2
+    },
+    {
+     "count": 1,
+     "unit": "bersaglieri-regiment",
+     "sp": 2
+    },
+    {
+     "count": 1,
+     "unit": "anti-tank-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "artillery-regiment",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "anti-aircraft-unit",
+     "sp": null
+    },
+    {
+     "count": 1,
+     "unit": "machinegun-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "engineer-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.32",
+    "scan:p173"
+   ]
+  },
+  {
+   "nation": "it",
+   "parent": "semi-motorised-infantry-division",
+   "sp": 5,
+   "components": [
+    {
+     "count": 2,
+     "unit": "infantry-regiment",
+     "sp": 2
+    },
+    {
+     "count": 1,
+     "unit": "anti-aircraft-unit",
+     "sp": null
+    },
+    {
+     "count": 1,
+     "unit": "artillery-regiment",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "machinegun-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "engineer-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "any_of": [
+      "bersaglieri-battalion",
+      "bersaglieri-motorcycle-recce-company"
+     ],
+     "sp": null
+    }
+   ],
+   "sources": [
+    "CNA1979:19.32",
+    "scan:p173"
+   ]
+  },
+  {
+   "nation": "it",
+   "parent": "libyan-or-parachute-infantry-division",
+   "sp": 5,
+   "components": [
+    {
+     "count": 2,
+     "unit": "infantry-regiment",
+     "sp": 2
+    },
+    {
+     "count": 1,
+     "unit": "anti-tank-company",
+     "sp": 0
+    },
+    {
+     "count": 1,
+     "unit": "artillery-regiment",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.32",
+    "scan:p173"
+   ]
+  },
+  {
+   "nation": "it",
+   "parent": "tank-regiment-3sp",
+   "sp": 3,
+   "components": [
+    {
+     "count": 5,
+     "unit": "tank-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.32",
+    "scan:p173"
+   ]
+  },
+  {
+   "nation": "it",
+   "parent": "tank-regiment",
+   "sp": 2,
+   "components": [
+    {
+     "count": 3,
+     "unit": "tank-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.32",
+    "scan:p173"
+   ]
+  },
+  {
+   "nation": "it",
+   "parent": "bersaglieri-regiment",
+   "sp": 2,
+   "components": [
+    {
+     "count": 2,
+     "unit": "bersaglieri-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "any_of": [
+      "bersaglieri-motorcycle-battalion",
+      "bersaglieri-battalion"
+     ],
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.32",
+    "scan:p173"
+   ]
+  },
+  {
+   "nation": "it",
+   "parent": "infantry-regiment",
+   "sp": 2,
+   "components": [
+    {
+     "count": 3,
+     "unit": "infantry-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.32",
+    "scan:p173"
+   ]
+  },
+  {
+   "nation": "it",
+   "parent": "cavalry-regiment",
+   "sp": 2,
+   "components": [
+    {
+     "count": 3,
+     "unit": "cavalry-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.32",
+    "scan:p173"
+   ]
+  },
+  {
+   "nation": "it",
+   "parent": "sahara-detachment",
+   "sp": 2,
+   "components": [
+    {
+     "count": 2,
+     "unit": "infantry-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "any_of": [
+      "infantry-battalion",
+      "cavalry-battalion"
+     ],
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "machinegun-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "motorised-machinegun-company",
+     "sp": 0
+    },
+    {
+     "count": 1,
+     "unit": "artillery-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.32",
+    "scan:p173"
+   ]
+  },
+  {
+   "nation": "it",
+   "parent": "recam",
+   "sp": 2,
+   "components": [
+    {
+     "count": 1,
+     "unit": "armoured-car-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "motorised-machinegun-company",
+     "sp": 0
+    },
+    {
+     "count": 1,
+     "unit": "artillery-regiment",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "engineer-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.32",
+    "scan:p173"
+   ]
+  },
+  {
+   "nation": "de",
+   "parent": "5-leichte-panzer-division",
+   "sp": 5,
+   "components": [
+    {
+     "count": 1,
+     "unit": "armoured-regiment",
+     "sp": 2
+    },
+    {
+     "count": 2,
+     "unit": "infantry-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "tank-destroyer-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "anti-tank-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "artillery-unit",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "heavy-aa-unit",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "light-aa-unit",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "armoured-recce-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "engineer-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.33",
+    "scan:p174"
+   ]
+  },
+  {
+   "nation": "de",
+   "parent": "21-panzer-division",
+   "sp": 5,
+   "components": [
+    {
+     "count": 1,
+     "unit": "armoured-regiment",
+     "sp": 2
+    },
+    {
+     "count": 1,
+     "unit": "infantry-regiment",
+     "sp": 2
+    },
+    {
+     "count": 1,
+     "unit": "tank-destroyer-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "anti-tank-battalion",
+     "sp": 1
+    },
+    {
+     "count": 2,
+     "unit": "artillery-unit",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "heavy-aa-unit",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "light-aa-unit",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "armoured-recce-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "engineer-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.33",
+    "scan:p174"
+   ]
+  },
+  {
+   "nation": "de",
+   "parent": "15-panzer-division",
+   "sp": 5,
+   "components": [
+    {
+     "count": 1,
+     "unit": "armoured-regiment",
+     "sp": 2
+    },
+    {
+     "count": 1,
+     "unit": "15-infantry-brigade",
+     "sp": 3
+    },
+    {
+     "count": 1,
+     "unit": "tank-destroyer-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "artillery-group",
+     "sp": 2
+    },
+    {
+     "count": 1,
+     "unit": "armoured-recce-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "engineer-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.33",
+    "scan:p174"
+   ]
+  },
+  {
+   "nation": "de",
+   "parent": "90-leichte-afrika-division",
+   "sp": 5,
+   "components": [
+    {
+     "count": 2,
+     "unit": "infantry-regiment",
+     "sp": 2
+    },
+    {
+     "count": 2,
+     "unit": "infantry-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "anti-tank-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "artillery-unit",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "armoured-recce-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "engineer-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.33",
+    "scan:p174"
+   ]
+  },
+  {
+   "nation": "de",
+   "parent": "164-leichte-afrika-division",
+   "sp": 5,
+   "components": [
+    {
+     "count": 3,
+     "unit": "infantry-regiment",
+     "sp": 2
+    },
+    {
+     "count": 1,
+     "unit": "anti-tank-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "artillery-group",
+     "sp": 2
+    },
+    {
+     "count": 1,
+     "unit": "light-aa-unit",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "armoured-recce-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "engineer-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.33",
+    "scan:p174"
+   ]
+  },
+  {
+   "nation": "de",
+   "parent": "armoured-regiment",
+   "sp": 2,
+   "components": [
+    {
+     "count": 2,
+     "unit": "tank-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.33",
+    "scan:p174"
+   ]
+  },
+  {
+   "nation": "de",
+   "parent": "15-infantry-brigade",
+   "sp": 3,
+   "components": [
+    {
+     "count": 3,
+     "unit": "infantry-regiment",
+     "sp": 2
+    }
+   ],
+   "sources": [
+    "CNA1979:19.33",
+    "scan:p174"
+   ]
+  },
+  {
+   "nation": "de",
+   "parent": "ramcke-brigade",
+   "sp": 3,
+   "components": [
+    {
+     "count": 4,
+     "unit": "infantry-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "heavy-weapons-parachute-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.33",
+    "scan:p174"
+   ]
+  },
+  {
+   "nation": "de",
+   "parent": "infantry-regiment",
+   "sp": 2,
+   "components": [
+    {
+     "count": 3,
+     "unit": "infantry-battalion",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.33",
+    "scan:p174"
+   ]
+  },
+  {
+   "nation": "de",
+   "parent": "288-sonderverband",
+   "sp": 2,
+   "components": [
+    {
+     "count": 3,
+     "unit": "infantry-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "anti-tank-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "engineer-company",
+     "sp": 0
+    }
+   ],
+   "sources": [
+    "CNA1979:19.33",
+    "scan:p174"
+   ]
+  },
+  {
+   "nation": "de",
+   "parent": "361-afrika-regiment",
+   "sp": 2,
+   "components": [
+    {
+     "count": 2,
+     "unit": "infantry-battalion",
+     "sp": 1
+    },
+    {
+     "count": 1,
+     "unit": "artillery-unit",
+     "sp": 1
+    }
+   ],
+   "sources": [
+    "CNA1979:19.33",
+    "scan:p174"
+   ]
+  }
+ ]
+}
