@@ -66,6 +66,9 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-003](../rulings/R-003.md) | proposed | 8.24, 8.61, 8.62, 8.64, 13.22 |
 | [R-004](../rulings/R-004.md) | proposed | 3.1, 8.37, 8.91, 8.92 |
 | [R-005](../rulings/R-005.md) | proposed | 8.72, 8.74, 8.77 |
+| [R-006](../rulings/R-006.md) | proposed | 8.53 |
+| [R-007](../rulings/R-007.md) | proposed | 6.3, 8.51, 8.52, 13.25 |
+| [R-008](../rulings/R-008.md) | proposed | 8.24, 8.52, 8.53 |
 
 ## Variants register
 
