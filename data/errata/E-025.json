@@ -1,0 +1,13 @@
+{
+  "id": "E-025",
+  "table": "weather",
+  "affects": ["29.6"],
+  "sources": ["CNA1979:29.6", "CNA1979:29.1"],
+  "summary": "The Weather Table's season rows are backwards: the game-turn bands belong to the opposite seasons (turns 1-12 are autumn, per the 29.1 calendar and the September 1940 start), so each row's turn bands are swapped with its opposite season's",
+  "patches": [
+    {"op": "replace", "path": "/rows/0/turns", "value": [{"from": 25, "to": 36}, {"from": 73, "to": 84}]},
+    {"op": "replace", "path": "/rows/1/turns", "value": [{"from": 37, "to": 48}, {"from": 85, "to": 96}]},
+    {"op": "replace", "path": "/rows/2/turns", "value": [{"from": 1, "to": 12}, {"from": 49, "to": 60}, {"from": 97, "to": 108}]},
+    {"op": "replace", "path": "/rows/3/turns", "value": [{"from": 13, "to": 24}, {"from": 61, "to": 72}, {"from": 109, "to": 110}]}
+  ]
+}

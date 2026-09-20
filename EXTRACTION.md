@@ -43,6 +43,13 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: Clay Stone's Land PDF has no chart sheet; cross-checked against `scan:discord:Shared Charts.pdf:p4` (rotated), cell by cell: **0 of 324 loss cells and 0 of 108 sum cells differ**.
 - Rules: `rules/60-combat.md` 15.79 `spi-omit … pending` → primary `::: spi 15.79` block under *Reading the CRT* with an `::: errata E-008` badge; 15.89 (prisoners table) stays omitted pending capture; `coverage.md` / `changes.md` regenerated.
 
+## data/tables/weather.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 100, the Weather Table (SPI 29.61; the case list has it as 29.6). Every cell legible at 2×.
+- Shape: 4 season rows × (game-turn bands + 4 weather dice ranges) = 26 cells; schema `data/schema/weather.schema.json`; `tests/test_weather.py` (written first) proves each season's four weather ranges tile the 36 readings and that the turn bands cover turns 1–110 exactly once after E-025, with turns 1–12 in autumn.
+- Errata applied: **E-025** as `data/errata/E-025.json`: the errata says the chart is "completely backwards" and 29.1 governs; read as each row's turn bands belonging to the opposite season (Spring↔Fall, Summer↔Winter), which puts the September 1940 opening in autumn. The weather ranges stay with their season names. If Brian reads "backwards" differently, the overlay is one file.
+- Cross-check: Clay Stone's Land PDF has no chart sheet; cross-checked against `scan:discord:Shared Charts.pdf:p6`: **0 of 26 cells differ**.
+- Rules: `rules/90-special.md` 29.6 `spi-omit` → primary `::: spi 29.6`; 29.7 (Foul Weather Location Table, jp2 102) stays omitted. `tools/sources.json` `chart_pages` now maps the whole shared sheet (jp2 95–110) from the djvu XML search.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:

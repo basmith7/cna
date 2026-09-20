@@ -23,11 +23,19 @@
     },
     "djvu_xml_url": "https://archive.org/download/campaign-for-north-africa/The%20Campaign%20for%20North%20Africa_djvu.xml",
     "chart_pages": {
-      "barrage-table (12.6)": 96,
-      "anti-armour-table (14.6)": 97,
-      "close-assault-results (15.79)": 98
+      "cp-costs (6.3), assault-size-shifts (15.53), patrol-survival (16.6)": 95,
+      "initiative-ratings (7.2), stacking-point-values (9.4), land-combat-summary (11.4), barrage-results (12.6)": 96,
+      "anti-armour-results (14.6), prisoners-captured (15.89), patrol-reconnaissance (16.7), objective-loss (16.8), sas-raid (27.93)": 97,
+      "close-assault-results (15.79)": 98,
+      "morale-modifier (17.4), training (17.6), strafing (40.8), poison-wells (52.8)": 99,
+      "maximum-attachment (19.5), aircraft-mission-summary (39.5), weather (29.61)": 100,
+      "breakdown (21.38), vehicle-repair-supply-costs (22.15), replacement-conversion (20.3)": 101,
+      "destroyed-tanks-repair (22.44), broken-down-vehicle-repair (22.8), desert-raider-raids (27.91), foul-weather-location (29.7)": 102,
+      "construction (24.17)": 103,
+      "demolition (24.18), squadron-capacity (35.23), aircraft-refit (38.31), pilot-recovery (45.6)": 104,
+      "shared chart sheet index": 110
     },
-    "chart_pages_note": "chart title -> jp2 page index (0-based). 96-98 were located by tools/learn_page.py (98 is printed sideways: rotate 90). The remaining chart-sheet tables are on neighbouring pages; mission 2 part C fills them in as it goes."
+    "chart_pages_note": "chart title(s) -> jp2 page index (0-based). The shared chart sheet ('Charts & Tables Common to Both Players', 16 pp) is jp2 95-110; 98 is printed sideways (rotate 90). Titles located by searching the djvu XML (cached as ~/.cache/cna-scans/djvu.xml) and confirmed against the community scan's contact sheet. The Terrain Effects Chart (8.37) is not on the shared sheet; the djvu hits for 'TERRAIN EFFECTS' on jp2 1-2, 12-13, 19-23 are rules text — still to be located (probably on the map sheets or the player-specific chart sets)."
   },
   "source_text": {
     "repo": "tonicebrian/TheCampaignForNorthAfrica",
