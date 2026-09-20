@@ -24,18 +24,18 @@ Mission 1 (rules files 1–10 and site phase 2): all merged, PRs #2–#13.
 |---|---|---|---|
 | A | close the 30-case Land Game coverage gap (§1, §2, §4, 17.2) | **merged** — §1–32 coverage 974/974 | #17 |
 | B | seed rulings from NJHarman (CORRECTION / CLARIFICATION / INTERPRETATION, Land Game topics) | **merged** — R-002–R-019 (18 proposed rulings, one PR per topic), `rulings/register.md` generated, 5 items recorded as not imported in `EXTRACTION.md` | #18, #20–#26 |
-| C | chart sheet tables into `data/tables/`, cross-checked | in progress — 14 tables merged (12.6, 14.6, 15.79+E-008, 15.89, 16.6, 16.7, 16.8, 17.6, 21.38, 22.8, 22.44, 27.93, 29.61+E-025, 29.7); shared sheet mapped to jp2 95–110 | #27–#34 |
+| C | chart sheet tables into `data/tables/`, cross-checked | in progress — 15 tables merged (12.6, 14.6, 15.79+E-008, 15.89, 16.6, 16.7, 16.8, 17.4, 17.6, 21.38, 22.8, 22.44, 27.93, 29.61+E-025, 29.7); shared sheet mapped to jp2 95–110 | #27–#35 |
 | D | publish the primer (Parts A–C) as the site's *Learn* page; Part D of the primer waits for the map | not started | — |
 
 ## Next steps
 
-Part C continues. Still pending capture: 17.4 morale modifier (jp2 99, 26 × 9 dice ranges), 24.17 construction and 24.18 demolition (jp2 103–104), 19.5 maximum attachment (jp2 100) and 20.3 replacement conversion (jp2 101), 27.91 desert raider (jp2 102, a per-target procedure list), 8.37 terrain effects and 8.89 off-map distances (not on the shared sheet — probably the map or the player-specific chart sets), 19.3 formation organisation, 20.66/20.78, 27.92 Raid on Rommel, 30.46 chariot, 30.59 port/fleet (player sheets). Then Part D.
+Part C continues. Still pending capture: 24.17 construction and 24.18 demolition (jp2 103–104), 19.5 maximum attachment (jp2 100) and 20.3 replacement conversion (jp2 101), 27.91 desert raider (jp2 102, a per-target procedure list), 8.37 terrain effects and 8.89 off-map distances (not on the shared sheet — probably the map or the player-specific chart sets), 19.3 formation organisation, 20.66/20.78, 27.92 Raid on Rommel, 30.46 chariot, 30.59 port/fleet (player sheets). Then Part D.
 
 **E-025 reading, please check:** the errata says the Weather Table is "completely backwards". Applied as: each season's game-turn bands swap with the opposite season's (turns 1–12 → autumn, matching the September 1940 start); weather dice ranges stay with their season names. One overlay file (`data/errata/E-025.json`) to change if you read it differently.
 
 **Cross-check source, please note:** Clay Stone's PDFs at friendorfoe.com/d/CfNA/ are the *rules* only — they contain no chart sheet ("See Charts and Tables"). The three CRTs were cross-checked cell by cell against the Discord 300 dpi *Shared Charts.pdf* instead (0 cells differ in all three). If you want a different second source, say so in Feedback.
 
-**Two printed oddities in the close assault CRT** (both scans agree, neither in the 1979 errata): attacker −2 / 20 % reads "13-18" (17–18 are not readings, so 13–16); defender +2 has no cell for readings 34–36. Both are kept as printed and declared in the data file; they want rulings.
+**Three printed oddities** (both scans agree, none in the 1979 errata), kept as printed and declared in `known_gaps` / notes: close assault CRT attacker −2 / 20 % reads "13-18" (17–18 are not readings, so 13–16); close assault defender +2 has no cell for readings 34–36; Morale Modifier level −4 has no cell for reading 56. They want rulings.
 
 For Brian, if you have a minute: R-012 (15.29 withhold-and-retreat) and R-018 (dump cost, 24.9 vs the Construction Chart) are the two seeded rulings where the printed text and the sensible reading pull apart; R-019 needs a hex count on the map (Alexandria → row xx24 vs xx29).
 
