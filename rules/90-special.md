@@ -37,7 +37,15 @@ boxes.
 
 ::: errata E-023 — 21.12: the Italian M 13/40's BAR is 1R, as the charts say
 
-::: spi-omit 21.38 — the Breakdown Table is on the chart sheet; to `data/tables/breakdown.json` when captured
+::: spi 21.38
+
+The Breakdown Table is data: `data/tables/breakdown.json` gives, for each
+band of accumulated breakdown points (0–3, 4–10, then tens up to 71+), the
+dice ranges for losing 0, 10, 25, 33, 50 or 75 % of a vehicle type. Under
+four points nothing ever breaks; at 4–10 a 65 or 66 already costs a quarter
+or a third; from 61 points up no roll escapes, and at 71+ a 64 or better
+strands three-quarters of the type. The BAR and weather shifts move the
+column before the roll.
 
 ### Accumulating breakdown points
 
@@ -346,7 +354,13 @@ campaign's opening turns in autumn.
 
 ::: errata E-025 — 29.61: the Weather Table's season rows are backwards; the turn bands are swapped with the opposite season's, per the 29.1 calendar
 
-::: spi-omit 29.7 — the Foul Weather Location Table is on the chart sheet (jp2 102); to `data/tables/foul-weather-location.json` when captured
+::: spi 29.7
+
+The Foul Weather Location Table is data too: `data/tables/foul-weather-location.json`
+maps the one-die roll to the map sheets a storm covers — two sheets on
+most faces, three (B, C, D) on a 6, and never sheet A except with B on a 1.
+A sandstorm rolled onto sheet E is normal weather on Delta hexes, and no
+sandstorm reaches north of the coastal hexes.
 
 ::: spi 29.3 29.31 29.32 29.33 29.34 29.35
 

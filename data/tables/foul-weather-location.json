@@ -1,0 +1,17 @@
+{
+ "table": "foul-weather-location",
+ "sources": ["CNA1979:29.7", "scan:p102"],
+ "notes": [
+  "Rolled once (one die) after a sandstorm or rainstorm result on the Weather Table (29.61 / tables/weather.json); the storm covers the listed map sheets and every other sheet has normal weather",
+  "Chart notes carried into the rules prose: a sandstorm on a Nile Delta hex is normal weather (the asterisk on the die-3 row), and sandstorms never extend north of the coastal hexes",
+  "Transcribed from the archive.org scan (jp2 102) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p8): 0 of 6 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {"die": 1, "sections": ["A", "B"], "delta_sandstorm_is_normal": false, "sources": ["CNA1979:29.7", "scan:p102"]},
+  {"die": 2, "sections": ["C", "D"], "delta_sandstorm_is_normal": false, "sources": ["CNA1979:29.7", "scan:p102"]},
+  {"die": 3, "sections": ["D", "E"], "delta_sandstorm_is_normal": true, "sources": ["CNA1979:29.7", "scan:p102"]},
+  {"die": 4, "sections": ["B", "C"], "delta_sandstorm_is_normal": false, "sources": ["CNA1979:29.7", "scan:p102"]},
+  {"die": 5, "sections": ["B", "D"], "delta_sandstorm_is_normal": false, "sources": ["CNA1979:29.7", "scan:p102"]},
+  {"die": 6, "sections": ["B", "C", "D"], "delta_sandstorm_is_normal": false, "sources": ["CNA1979:29.7", "scan:p102"]}
+ ]
+}

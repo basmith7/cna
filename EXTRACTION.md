@@ -50,6 +50,16 @@ the PR that adds or substantially rewrites the file.
 - Cross-check: Clay Stone's Land PDF has no chart sheet; cross-checked against `scan:discord:Shared Charts.pdf:p6`: **0 of 26 cells differ**.
 - Rules: `rules/90-special.md` 29.6 `spi-omit` → primary `::: spi 29.6`; 29.7 (Foul Weather Location Table, jp2 102) stays omitted. `tools/sources.json` `chart_pages` now maps the whole shared sheet (jp2 95–110) from the djvu XML search.
 
+## data/tables/foul-weather-location.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 102, the Foul Weather Location Table (SPI 29.7). Six cells; schema `data/schema/foul-weather-location.schema.json`; `tests/test_foul_weather_location.py` written first.
+- Cross-check: `scan:discord:Shared Charts.pdf:p8` — **0 of 6 cells differ**. No errata.
+- Rules: `rules/90-special.md` 29.7 `spi-omit` → primary `::: spi 29.7`; §29 is now fully restated or in data.
+
+## data/tables/breakdown.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 101 (printed sideways), the Breakdown Table (SPI 21.38). 9 point bands × 6 percentage rows = 54 cells; schema `data/schema/breakdown.schema.json`; `tests/test_breakdown.py` (written first) proves every band tiles the 36 readings once and that percentages rise down each band.
+- Cross-check: `scan:discord:Shared Charts.pdf:p7` — **0 of 54 cells differ**. No errata (E-023 concerns a BAR value, already in breakdown-adjustments.json).
+- Rules: `rules/90-special.md` 21.38 `spi-omit` → primary `::: spi 21.38`.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:
