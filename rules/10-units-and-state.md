@@ -284,7 +284,13 @@ table is chosen by the largest-unit rule ([above](#which-level-applies-when-unit
 Axis units that share **General Rommel**'s hex when an assault is joined add +1
 to their adjusted morale, and this bonus may carry the rating above +3.
 
-::: spi-omit 17.4 17.6 — the Morale Modification and Training charts are combat/training lookup tables, not rules text; they are transcribed to `data/` with the file that resolves them
+::: spi 17.6
+
+The Training Chart is data: `data/tables/training.json` — one stage for
+guns, three for infantry, six for tanks and recce, twelve for commandos,
+and six to lift an untrained Commonwealth unit's morale a point.
+
+::: spi-omit 17.4 — the Morale Modifier Table (26 cohesion rows × 9 modifier columns of dice ranges) is on the chart sheet (jp2 99); to `data/tables/morale-modifier.json` when captured
 
 ## Training
 

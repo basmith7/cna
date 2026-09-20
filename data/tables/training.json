@@ -1,0 +1,16 @@
+{
+ "table": "training",
+ "sources": ["CNA1979:17.6", "scan:p99"],
+ "notes": [
+  "Stages needed to train a replacement point of each type (infantry excludes commandos; commando points must be trained by their assigned unit), and to raise an untrained Commonwealth unit's basic morale by one (SPI 17.3). Guns cost more to train than the others despite the single stage (chart note)",
+  "Overlaps tables/replacement-training.json (SPI 20.43) for infantry, tank, recce and gun; the two charts agree",
+  "Transcribed from the archive.org scan (jp2 99) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p5): 0 of 5 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {"type": "infantry", "stages": 3, "sources": ["CNA1979:17.6", "scan:p99"]},
+  {"type": "tank-or-recce", "stages": 6, "sources": ["CNA1979:17.6", "scan:p99"]},
+  {"type": "gun", "stages": 1, "sources": ["CNA1979:17.6", "scan:p99"]},
+  {"type": "commando", "stages": 12, "sources": ["CNA1979:17.6", "scan:p99"]},
+  {"type": "commonwealth-unit-morale", "stages": 6, "sources": ["CNA1979:17.6", "scan:p99"]}
+ ]
+}
