@@ -238,7 +238,16 @@ Kinship with the right novelists earns +1.
 The SAS Raid Table is data: `data/tables/sas-raid.json` — one die, and from
 nothing on a 1 to half the aircraft on the ground on a 6 are destroyed.
 
-::: spi-omit 27.91 27.92 — the Desert Raider Raids Table (jp2 102, a per-target list) and the Raid on Rommel Table are still to be captured; to `data/tables/raids.json`
+::: spi 27.91
+
+The Desert Raider Raids Table is data: `data/tables/desert-raider-raids.json`
+— per target, the die results and conditions summarised in the list above.
+One chart-versus-text difference: the chart lets a raid on a guarded dump
+proceed when the two-dice total is **equal to or above** the guards' raw
+close-assault defence, the text (27.5x) only when it is above. The table
+holds the chart's reading; the list above keeps the text's.
+
+::: spi-omit 27.92 — the Raid on Rommel Table is not on the shared chart sheet (probably the Commonwealth chart set); to `data/tables/raid-on-rommel.json` when captured
 
 ## Commandos
 

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "desert-raider-raids.schema.json",
+  "title": "Desert Raider Raids Table (SPI 27.91)",
+  "type": "object", "required": ["table", "sources", "cp_cost", "combined_airfield_and_planes_cp", "rows"], "additionalProperties": false,
+  "$defs": {
+    "range": {"type": "object", "required": ["from", "to"], "properties": {"from": {"type": "integer", "minimum": 1, "maximum": 6}, "to": {"type": "integer", "minimum": 1, "maximum": 6}}},
+    "dieRow": {"type": "object", "required": ["from", "to", "result"], "additionalProperties": false,
+               "properties": {
+                 "from": {"type": "integer", "minimum": 1, "maximum": 6}, "to": {"type": "integer", "minimum": 1, "maximum": 6},
+                 "result": {"enum": ["destroyed", "none", "reduce-level", "destroy-percent", "truck-points-lost"]},
+                 "percent": {"type": "integer", "minimum": 1, "maximum": 100, "description": "With destroy-percent: share of the planes or supplies destroyed, raider's choice of which"},
+                 "points": {"type": "integer", "minimum": 1, "description": "With truck-points-lost: raided player picks the truck type, raider the cargo (replacement points only if unavoidable)"},
+                 "raider_eliminated": {"const": true},
+                 "raider_eliminated_if_combat_units": {"const": true},
+                 "reroll_if_infantry_replacements": {"$ref": "#/$defs/rerollRow", "description": "If any truck carries infantry replacement points, roll one die again; this range eliminates the raider"}}},
+    "rerollRow": {"type": "object", "required": ["from", "to", "result"], "additionalProperties": false,
+                  "properties": {"from": {"type": "integer", "minimum": 1, "maximum": 6}, "to": {"type": "integer", "minimum": 1, "maximum": 6}, "result": {"const": "raider-eliminated"}}}
+  },
+  "properties": {
+    "table": {"const": "desert-raider-raids"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "cp_cost": {"type": "integer", "minimum": 0, "description": "CP the raider spends per raid"},
+    "combined_airfield_and_planes_cp": {"type": "integer", "minimum": 0, "description": "CP for one raid on an airfield and the planes on it together; resolved separately, airfield first"},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["target", "sources"], "additionalProperties": false,
+      "properties": {
+        "target": {"enum": ["water-pipeline", "airfield", "planes-on-ground", "rommel", "supply-dump-guarded", "supply-dump", "truck-convoy"]},
+        "die": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/dieRow"}, "description": "One die; ranges cover 1–6 in order"},
+        "limit": {"enum": ["once-per-raider-per-stage", "once-per-target-per-turn", "once-per-target-per-stage"]},
+        "not_if_combat_units": {"const": true, "description": "May not be raided while enemy combat units are in the hex"},
+        "flying_boats_immune": {"const": true},
+        "combinable_with": {"enum": ["planes-on-ground"], "description": "May be combined with this target in one raid at combined_airfield_and_planes_cp"},
+        "lrdg_only": {"const": true, "description": "Only Commonwealth Long Range Desert Groups"},
+        "see": {"type": "string", "pattern": "^table:[a-z-]+$"},
+        "guard_check": {"type": "object", "required": ["dice", "survive_if_sum_at_least", "else"], "additionalProperties": false,
+                        "properties": {"dice": {"const": 2},
+                                       "survive_if_sum_at_least": {"const": "raw-close-assault-defence", "description": "Total raw (unparenthesised) close-assault defence points of the combat units in the hex"},
+                                       "else": {"const": "raider-eliminated"}},
+                        "description": "Rolled first; on surviving, resolve as the row named in 'then'"},
+        "then": {"enum": ["supply-dump"]},
+        "reveal_dump_type_after": {"const": true, "description": "After a completed raid the owner says whether the dump is real, a non-dump or a dummy"},
+        "all_infantry_replacements": {"const": "raider-eliminated", "description": "If every truck in the convoy carries infantry replacement points: raider eliminated, no roll, trucks untouched"},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  }
+}

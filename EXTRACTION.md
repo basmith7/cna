@@ -120,6 +120,12 @@ the PR that adds or substantially rewrites the file.
 - Chart vs rules text, both kept as printed and noted in the table and in `rules/80-engineering.md`: temporary repair facility 50 fuel + 250 stores / 1 stage (chart) vs 150 fuel + 250 stores / 3 stages (24.82); facility rebuild 10 fuel + 50 stores (chart) vs 30 fuel + 50 stores (24.84); real dump 10 stores (chart) vs 20 (24.9, already R-018). Candidates for a ruling.
 - Rules: `rules/80-engineering.md` 24.17 24.18 `spi-omit` → primary `::: spi 24.17 24.18` with a short pointer paragraph.
 
+## data/tables/desert-raider-raids.json — 2026-09-20 (Part C, chart sheet)
+- Source: archive.org scan jp2 page 102, the Desert Raider Raids Table (SPI 27.91): seven targets, each a one-die result list plus per-target notes; the notes and the general notes are modelled as flags in our own words (`limit`, `not_if_combat_units`, `guard_check`, `reroll_if_infantry_replacements`, `all_infantry_replacements`, `cp_cost`, `combined_airfield_and_planes_cp`). Schema `desert-raider-raids.schema.json`; `tests/test_desert_raider_raids.py` written first.
+- Cross-check: `scan:discord:Shared Charts.pdf:p8` — **0 of 7 targets differ**. No errata touches the chart.
+- Chart vs rules text, kept as printed and noted in the table and the rules pointer: guarded dump survives on a two-dice total *equal to or greater than* the guards' raw close-assault defence (chart) vs *greater than* (27.5x text). Ruling candidate.
+- Rules: `rules/90-special.md` 27.91 → primary `::: spi 27.91`; 27.92 (Raid on Rommel Table) stays omitted — not on the shared sheet.
+
 ## NJHarman seed — 2026-09-20 (rulings/R-002 to R-019; complete)
 - Source: <https://friendorfoe.com/war/cfna/houserules/> (CC-BY-SA 4.0; `ATTRIBUTION.md`), fetched to `~/.cache/cna-scans/njharman.html`, page as of its 2025-07-30 change-history entry. Only the *Just the Corrections, Clarifications and Interpretations* section and the three tagged items in *Opinionated Additions and Changes* were considered; REMINDER, CHANGE and ADDITION items are not imported (rulings/README.md). The page's soft hyphens (U+00AD, inserted by its generator) are dropped from quotes; nothing else in a quote is changed.
 - Every qualifying item, with what became of it:
