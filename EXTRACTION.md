@@ -169,7 +169,7 @@ the PR that adds or substantially rewrites the file.
 - Rules: `rules/95-abstract-logistics-and-air.md` 32.66 `spi-omit` → primary `::: spi 32.66`. 32.59 (Abstract Truck/Motorization Loss Chart) is still unlocated.
 
 ## data/tables/off-map-distances.json — 2026-09-20 (Part C, rulebook page)
-- Source: archive.org scan jp2 page 70 — like the TEC, the Off-Map Land Unit Movement Distance Chart (SPI 8.89) is a rulebook page (with 36.53, 37.4 and 56.26), not on the chart sheet. Ten place-pairs × three CPA bands. Schema `off-map-distances.schema.json`; `tests/test_off_map_distances.py` written first (slower band never fewer stages).
+- Source: archive.org scan jp2 page 70 — like the TEC, the 8.89 off-map distance chart is a rulebook page (with 36.53, 37.4 and 56.26), not on the chart sheet. Ten place-pairs × three CPA bands. Schema `off-map-distances.schema.json`; `tests/test_off_map_distances.py` written first (slower band never fewer stages).
 - Cross-check: `scan:discord:CampaignNorthAfrica - converted.pdf:p71` — **0 of 10 cells differ**. No errata.
 - Rules: `rules/40-movement.md` 8.89 `spi-omit` → primary `::: spi 8.89`. §8 now has no omitted chart.
 
