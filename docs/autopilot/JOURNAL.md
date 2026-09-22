@@ -263,3 +263,9 @@ Done: #60 (Part 0), #61 (Part A), #63 and #65 (extractor PRs) merged. #64 (draft
 In flight: nothing half-written. Regenerate the diff with `map_diff.py C`; montage recipe in /tmp is gone — rebuild it from map_sample.scan_centre + map_extract --debug.
 Next: Brian may prefer to merge #64 as is (gates green, 149 resolutions) and open `autopilot/map-c-2` for the last 122 rows: 27 "- → track" (all viewed ones so far were real crossings → add-hexside corrections), 15 "unfinished-railroad → track,unfinished-railroad", 11 "- → slope", 9 "ridge → ridge,track", the rest ones and twos. Giarabub Oasis, El Qaqa and El Al Thed palm hexes are placed (M-136–M-139); then Task 15 (Part D of the primer).
 Blocked: none. For Brian: `up` at C0323|C0423; C4905|C4906 and C0323|C0324 (track or not).
+
+## 2026-09-22 15:55 MST — autopilot/map-a
+Done: #68 (extractor: odd-row shift in the printed numbering, Map A = west) merged. #69 (draft, base autopilot/map-c-2): Map A raw, scan grid (A1613 (2562,7737) 188.5×162), corrections M-233–M-335 + 25 agrees = 128 resolutions, sample 0/50, 10 places, EXTRACTION entry. Gates green locally.
+In flight: 66 Map A rows unresolved (21 borderline terrain, 45 hexside), 22 left under the cap on #69.
+Next: stack order is #64 ← #66 ← #67 and #64 ← #66 ← #69; once Brian merges #64, retarget and merge in order. Then Map A part 2, then Map B (next free correction M-336+).
+Blocked: #64 merge decision (Brian).
