@@ -45,7 +45,26 @@
       "formation-organisation: 19.32 Italian (jp2 173, Axis chart set)": 173,
       "formation-organisation: 19.33 German (jp2 174, Axis chart set)": 174
     },
-    "chart_pages_note": "chart title(s) -> jp2 page index (0-based). The shared chart sheet ('Charts & Tables Common to Both Players', 16 pp) is jp2 95-110; 98 and 103 are printed sideways. The Terrain Effects Chart (8.37) is a page of the rulebook (jp2 69), not the chart sheet; the player-specific chart sets follow the shared sheet (Commonwealth from about jp2 111, Axis from about jp2 150). Titles located by searching the djvu XML (cached as ~/.cache/cna-scans/djvu.xml) and confirmed against the community scans' contact sheets."
+    "chart_pages_note": "chart title(s) -> jp2 page index (0-based). The shared chart sheet ('Charts & Tables Common to Both Players', 16 pp) is jp2 95-110; 98 and 103 are printed sideways. The Terrain Effects Chart (8.37) is a page of the rulebook (jp2 69), not the chart sheet; the player-specific chart sets follow the shared sheet (Commonwealth from about jp2 111, Axis from about jp2 150). Titles located by searching the djvu XML (cached as ~/.cache/cna-scans/djvu.xml) and confirmed against the community scans' contact sheets.",
+    "map_pages": {
+      "note": "jp2 index of the scan page that shows each map sheet; scan_grid is the printed hex grid measured on that page (pixel centre of ref_hex, column and row pitch) so tools/map_sample.py can crop a hex. Malta is the inset at the top-left of Map A's page.",
+      "A": {
+        "page": 187
+      },
+      "C": {
+        "page": 189,
+        "scan_grid": {
+          "ref_hex": "C4023",
+          "x": 2136,
+          "y": 1910,
+          "col_w": 94.0,
+          "row_h": 81.0
+        }
+      },
+      "M": {
+        "page": 187
+      }
+    }
   },
   "source_text": {
     "repo": "tonicebrian/TheCampaignForNorthAfrica",
