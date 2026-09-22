@@ -40,7 +40,7 @@ For Brian:
 - **Malta numbering:** the printed inset has no hex numbers, so `M` hexes carry the VASSAL module's numbering (rows 05–13, cols 00–06). Norman's current code keys Malta as `M0604, M0607, M0705, M0806, M0906, M0907` — a different origin from the module's. If you want the module's numbering replaced, say so before Map C's Part D is published (Malta is not referenced there).
 - **Valletta** (`M0805`) reads as sea — the Grand Harbour fills the hex centre; it is a `feature` place with `port: true` on a sea hex. Say if you would rather it were a land hex.
 - **Map C boundary hexes left as read** (the scan is not decisive at this resolution): C0611 (clear vs sand) and C0818 (clear vs salt-marsh). Six sheet-edge slope/escarpment hexsides keep `up: null` by allowlist (the higher hex is on the adjoining sheet).
-- **SPI 20.67** (Axis Replacement Point Type Limitations Chart): not printed on either player chart set or the shared sheet in the archive.org scan (headings jp2 111–178 listed) — if your copy has it, say where in Feedback.
+- **SPI 20.67** (the Axis chart that limits replacement point types): not printed on either player chart set or the shared sheet in the archive.org scan (headings jp2 111–178 listed) — if your copy has it, say where in Feedback.
 - Earlier items (Learn page dark mode, formation charts 19.31–19.33, chart-vs-text disagreements, E-025 reading, three printed oddities, R-012/R-018/R-019) still stand — see the 2026-09-20 entry in the git history of this file if you want the detail.
 
 ## Runs and quota
