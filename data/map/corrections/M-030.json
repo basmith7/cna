@@ -1,0 +1,35 @@
+{
+ "id": "M-030",
+ "target": "hex",
+ "key": "C4907",
+ "before": {
+  "id": "C4907",
+  "sheet": "C",
+  "terrain": "clear",
+  "settlement": null,
+  "coastal": true
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/terrain",
+   "value": "sea"
+  },
+  {
+   "op": "replace",
+   "path": "/coastal",
+   "value": false
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   435,
+   1031,
+   300,
+   300
+  ],
+  "note": "sea hex off Tobruk: only a sliver of the coast enters the hex"
+ },
+ "superseded": false
+}

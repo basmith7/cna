@@ -1,0 +1,32 @@
+{
+ "id": "M-031",
+ "target": "hexside",
+ "key": "C4807|C4907",
+ "before": {
+  "key": "C4807|C4907",
+  "a": "C4807",
+  "b": "C4907",
+  "side": null,
+  "features": [
+   "coast"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   435,
+   1031,
+   300,
+   300
+  ],
+  "note": "C4907 is a sea hex, so this is an ordinary land/sea hexside, not a coast hexside between two land hexes"
+ },
+ "superseded": false
+}

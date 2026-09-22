@@ -979,7 +979,7 @@
   {
    "id": "C0508",
    "sheet": "C",
-   "terrain": "clear",
+   "terrain": "desert",
    "settlement": null,
    "coastal": false
   },
@@ -1252,7 +1252,7 @@
   {
    "id": "C0614",
    "sheet": "C",
-   "terrain": "clear",
+   "terrain": "desert",
    "settlement": null,
    "coastal": false
   },
@@ -1266,7 +1266,7 @@
   {
    "id": "C0616",
    "sheet": "C",
-   "terrain": "clear",
+   "terrain": "desert",
    "settlement": null,
    "coastal": false
   },
@@ -1280,7 +1280,7 @@
   {
    "id": "C0618",
    "sheet": "C",
-   "terrain": "clear",
+   "terrain": "desert",
    "settlement": null,
    "coastal": false
   },
@@ -2099,7 +2099,7 @@
   {
    "id": "C1003",
    "sheet": "C",
-   "terrain": "clear",
+   "terrain": "rough",
    "settlement": null,
    "coastal": false
   },
@@ -3849,7 +3849,7 @@
   {
    "id": "C1722",
    "sheet": "C",
-   "terrain": "clear",
+   "terrain": "rough",
    "settlement": null,
    "coastal": false
   },
@@ -4304,7 +4304,7 @@
   {
    "id": "C1921",
    "sheet": "C",
-   "terrain": "clear",
+   "terrain": "rough",
    "settlement": null,
    "coastal": false
   },
@@ -6173,7 +6173,7 @@
   {
    "id": "C2724",
    "sheet": "C",
-   "terrain": "clear",
+   "terrain": "rough",
    "settlement": null,
    "coastal": false
   },
@@ -10240,9 +10240,9 @@
   {
    "id": "C4620",
    "sheet": "C",
-   "terrain": "sea",
+   "terrain": "rough",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "C4621",
@@ -10373,9 +10373,9 @@
   {
    "id": "C4718",
    "sheet": "C",
-   "terrain": "sea",
+   "terrain": "rough",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "C4719",
@@ -10576,9 +10576,9 @@
   {
    "id": "C4907",
    "sheet": "C",
-   "terrain": "clear",
+   "terrain": "sea",
    "settlement": null,
-   "coastal": true
+   "coastal": false
   },
   {
    "id": "C4908",

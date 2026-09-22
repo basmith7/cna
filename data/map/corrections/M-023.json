@@ -1,0 +1,30 @@
+{
+ "id": "M-023",
+ "target": "hex",
+ "key": "C0618",
+ "before": {
+  "id": "C0618",
+  "sheet": "C",
+  "terrain": "clear",
+  "settlement": null,
+  "coastal": false
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/terrain",
+   "value": "desert"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1516,
+   4514,
+   300,
+   300
+  ],
+  "note": "the sand boundary runs through the hex and sand covers most of it"
+ },
+ "superseded": false
+}

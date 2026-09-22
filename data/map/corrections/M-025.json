@@ -1,0 +1,30 @@
+{
+ "id": "M-025",
+ "target": "hex",
+ "key": "C1722",
+ "before": {
+  "id": "C1722",
+  "sheet": "C",
+  "terrain": "clear",
+  "settlement": null,
+  "coastal": false
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/terrain",
+   "value": "rough"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1845,
+   3623,
+   300,
+   300
+  ],
+  "note": "the rough patch covers most of the hex"
+ },
+ "superseded": false
+}

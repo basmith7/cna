@@ -1,0 +1,35 @@
+{
+ "id": "M-028",
+ "target": "hex",
+ "key": "C4620",
+ "before": {
+  "id": "C4620",
+  "sheet": "C",
+  "terrain": "sea",
+  "settlement": null,
+  "coastal": false
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/terrain",
+   "value": "rough"
+  },
+  {
+   "op": "replace",
+   "path": "/coastal",
+   "value": true
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1704,
+   1274,
+   300,
+   300
+  ],
+  "note": "coastal hex: the land (rough) side covers most of the hex, sea only along the north-east edge"
+ },
+ "superseded": false
+}

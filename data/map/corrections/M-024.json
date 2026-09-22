@@ -1,0 +1,30 @@
+{
+ "id": "M-024",
+ "target": "hex",
+ "key": "C1003",
+ "before": {
+  "id": "C1003",
+  "sheet": "C",
+  "terrain": "clear",
+  "settlement": null,
+  "coastal": false
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/terrain",
+   "value": "rough"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   106,
+   4190,
+   300,
+   300
+  ],
+  "note": "the rough (tan) patch covers most of the hex; the redraw's boundary sits nearer the centre"
+ },
+ "superseded": false
+}
