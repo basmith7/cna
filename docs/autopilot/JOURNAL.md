@@ -245,3 +245,9 @@ Next: nothing — Parts A–D are merged. If Brian answers on 20.67 or the Learn
 Blocked: none.
 
 MISSION 2 COMPLETE
+
+## 2026-09-21 21:45 — autopilot/map-a-malta
+Done: Mission 3 Part 0 merged as #60 (R-020–R-022 from the Discord notes; R-007/R-013/R-018 gained the notes as a second source; EXTRACTION entry). Part A (plan Tasks 1–13) on #61: map_geom, schemas, sheets.json (A shifts odd rows east), extractor cache-first/ids/clip/coast/raw (frozen), map_build, check_data map gate, places.json (Malta, 6 features), 17 Malta corrections (redraw's title box read as land+villages; NW bay as river), map_render + /map page + golden, CI gates, data/README, EXTRACTION. All gates green locally; PR marked ready.
+In flight: #61 waiting on CI, then merge.
+Next: Part B on `autopilot/map-c`: Task 14.1 map_diff.py (read his codes.py/mapterrain.py/hexsides.py under ~/.cache/cna-njharman/cna_src/src/core/cna/data/, values never copied), 14.2 map_sample.py, then extract Map C (`--zone "Map C"`), diff, ≤150 resolutions. Map C scan page is p189 (Map A p187 carries the Malta inset); record map_pages in tools/sources.json.
+Blocked: none. Brian should glance at Malta's numbering (module rows 05–13 / cols 00–06; the printed inset has no numbers) and M0805 read as sea.
