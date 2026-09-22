@@ -4686,7 +4686,7 @@
     "escarpment",
     "railroad"
    ],
-   "up": null
+   "up": "C3527"
   },
   {
    "key": "C3526|C3625",
@@ -4696,7 +4696,7 @@
    "features": [
     "escarpment"
    ],
-   "up": null
+   "up": "C3625"
   },
   {
    "key": "C3528|C3529",
@@ -4977,7 +4977,7 @@
    "features": [
     "escarpment"
    ],
-   "up": null
+   "up": "C3629"
   },
   {
    "key": "C3629|C3729",

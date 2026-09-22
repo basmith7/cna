@@ -1,0 +1,33 @@
+{
+ "id": "M-034",
+ "target": "hexside",
+ "key": "C3628|C3629",
+ "before": {
+  "key": "C3628|C3629",
+  "a": "C3628",
+  "b": "C3629",
+  "side": null,
+  "features": [
+   "escarpment"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "C3629"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   2503,
+   2084,
+   300,
+   300
+  ],
+  "note": "Sofafi escarpment turning north at Bir Emba: the hachures face west into C3628; C3629 is on the plateau"
+ },
+ "superseded": false
+}
