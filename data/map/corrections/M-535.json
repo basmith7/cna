@@ -1,0 +1,37 @@
+{
+ "id": "M-535",
+ "target": "hexside",
+ "key": "D1716|D1815",
+ "before": {
+  "key": "D1716|D1815",
+  "a": "D1716",
+  "b": "D1815",
+  "side": null,
+  "features": [
+   "escarpment",
+   "railroad"
+  ],
+  "up": "D1815"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "escarpment",
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   1334,
+   3669,
+   220,
+   180
+  ],
+  "note": "the dashed track crosses this escarpment hexside; no railway here (the extractor read the dark grey band edge as railway)"
+ },
+ "superseded": false
+}

@@ -1,0 +1,32 @@
+{
+ "id": "M-531",
+ "target": "hexside",
+ "key": "D2121|D2122",
+ "before": {
+  "key": "D2121|D2122",
+  "a": "D2121",
+  "b": "D2122",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   1875,
+   3386,
+   220,
+   180
+  ],
+  "note": "no railway on this hexside on the scan; the extractor read the dark grey edge of the escarpment band as railway"
+ },
+ "superseded": false
+}
