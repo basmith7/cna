@@ -1,0 +1,36 @@
+{
+ "id": "M-540",
+ "target": "hexside",
+ "key": "D2530|D2630",
+ "before": {
+  "key": "D2530|D2630",
+  "a": "D2530",
+  "b": "D2630",
+  "side": null,
+  "features": [
+   "ridge"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "ridge",
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   2697,
+   3021,
+   220,
+   180
+  ],
+  "note": "a dashed track crosses this hexside on the scan alongside the feature already read (on the redraw its 1 px dashes run beside the heavier band and the extractor did not read them)"
+ },
+ "superseded": false
+}

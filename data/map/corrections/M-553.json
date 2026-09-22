@@ -1,0 +1,32 @@
+{
+ "id": "M-553",
+ "target": "hexside",
+ "key": "D3516|D3517",
+ "before": {
+  "key": "D3516|D3517",
+  "a": "D3516",
+  "b": "D3517",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   1405,
+   2252,
+   220,
+   180
+  ],
+  "note": "the dashed track through Gerawla runs west of this hexside and does not cross it"
+ },
+ "superseded": false
+}
