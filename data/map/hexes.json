@@ -43,7 +43,7 @@
    "sheet": "M",
    "terrain": "clear",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M0506",
@@ -71,35 +71,35 @@
    "sheet": "M",
    "terrain": "rough",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M0603",
    "sheet": "M",
    "terrain": "clear",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M0604",
    "sheet": "M",
    "terrain": "clear",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M0605",
    "sheet": "M",
    "terrain": "clear",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M0606",
    "sheet": "M",
    "terrain": "clear",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M0700",
@@ -120,7 +120,7 @@
    "sheet": "M",
    "terrain": "rough",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M0703",
@@ -141,21 +141,21 @@
    "sheet": "M",
    "terrain": "clear",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M0706",
    "sheet": "M",
    "terrain": "clear",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M0800",
    "sheet": "M",
    "terrain": "rough",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M0801",
@@ -183,7 +183,7 @@
    "sheet": "M",
    "terrain": "clear",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M0805",
@@ -211,7 +211,7 @@
    "sheet": "M",
    "terrain": "rough",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M0902",
@@ -239,7 +239,7 @@
    "sheet": "M",
    "terrain": "clear",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M0906",
@@ -260,21 +260,21 @@
    "sheet": "M",
    "terrain": "rough",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M1002",
    "sheet": "M",
    "terrain": "clear",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M1003",
    "sheet": "M",
    "terrain": "clear",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M1004",
@@ -309,7 +309,7 @@
    "sheet": "M",
    "terrain": "clear",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M1102",
@@ -351,7 +351,7 @@
    "sheet": "M",
    "terrain": "clear",
    "settlement": null,
-   "coastal": false
+   "coastal": true
   },
   {
    "id": "M1201",

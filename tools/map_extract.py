@@ -413,7 +413,8 @@ def raw_records(sheet, hexes, sides):
         settlement = "major-city" if h["terrain"] == "major_city" else ("village" if h.get("village") else None)
         out_h.append({"id": h["hex"], "sheet": sheet, "terrain": TERRAIN_ENUM[h["terrain"]],
                       "settlement": settlement,
-                      "coastal": h["terrain"] != "sea" and float(h.get("cov_sea", 0)) > 0.3})
+                      "coastal": h["terrain"] != "sea" and (bool(h.get("sea_neighbour")) or float(h.get("cov_sea", 0)) > 0.3)})
+    by_id = {h["id"]: h for h in out_h}
     merged = {}
     for r in sides:
         key = map_geom.hexside_key(r["hex_a"], r["hex_b"] or None, r["side"] if not r["hex_b"] else None)
@@ -423,6 +424,10 @@ def raw_records(sheet, hexes, sides):
         feat = FEATURE_ENUM[r["feature"]]
         if feat not in rec["features"]:
             rec["features"].append(feat)
+        if feat == "coast":
+            for hid in (r["hex_a"], r["hex_b"]):      # a water hexside makes both land hexes coastal
+                if hid in by_id:
+                    by_id[hid]["coastal"] = True
         if feat in ("slope", "escarpment") and r["band_hex"] not in ("", "both"):
             # the band is drawn on the DOWN side (Task 5 verifies this convention); up = the other hex
             rec["up"] = r["hex_b"] if r["band_hex"] == r["hex_a"] else r["hex_a"]
@@ -528,6 +533,8 @@ def main():
     # pass 2: hexsides, one record per hexside pair
     sides, seen = [], set()
     for h in hexes:
+        h["sea_neighbour"] = int(any((nb := neighbour(h["x"], h["y"], deg)) is not None and nb["terrain"] == "sea"
+                                     for _, deg in SIDES))
         for sname, deg in SIDES:
             nb = neighbour(h["x"], h["y"], deg)
             key = frozenset([h["hex"], nb["hex"]]) if nb else (h["hex"], sname)
