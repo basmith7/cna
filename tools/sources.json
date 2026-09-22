@@ -120,5 +120,23 @@
       "what": "Nine .vsav/.vlog files from the Discord group's game (room 'Bombe su Londra'; players FreundA, Illuminutter, matvey), game turn 3 op-stage II, saved 2026-09-12. Full counter positions plus move/dice logs; candidate engine fixtures and a check of the hex-grid convention. Private game data: never commit.",
       "decode": "zip member savedGame is Vassal-obfuscated: '!VCSK' + 2 hex key chars, then hex pairs XOR key"
     }
+  },
+  "njharman_src": {
+    "what": "Norman Harman's private CfNA code drop (cna_src.tgz, 8.6 MB), emailed 2026-09-19 in reply to our house-rules/hex-database question. Local copy under ~/.cache/cna-njharman/ (tarball + extracted tree).",
+    "sha256": "6917a17e549631ea27b5e6246e5392d33c6bcf8bf7d659e4f7543c8a168d7ec9",
+    "licence": "PRIVATE. Shared on the promise it stays private (he has not published it for fear of Decision Games' lawyers). The CC-BY-SA grant in the same thread covers friendorfoe.com content only, not this drop. Never commit any file from it, never quote its data files verbatim; use it as an independent cross-check for our own extractions and cite as src:njharman:<path> in EXTRACTION.md. Ask before deriving any committed artifact from it.",
+    "contents": {
+      "src/core/cna/data/mapterrain.py": "Hand-entered hex database: terrain for 6,144 hexes (sheets A-E, Malta, two offmap), 176 named static features (137 bir, 18 feature, 13 city, 8 oasis; 12 with port capacity), 40 coast hexes, plus hexside dicts: slopes 607, escarpments 135, wadis 679, minor rivers 219, major rivers 119, roads 370, tracks 1651, future roads 80, rails 164, future rails 55. Terrain codes in data/codes.py (0 clear .. 10 major city). Class totals land within a few % of tools/map_extract.py's colour read of the Vassal map, so this is the second cross-check the map spike asked for.",
+      "src/core/cna/data/hexsides.py": "Same hexside data re-keyed hex -> {feature code -> [neighbours]} (by_code) and hex -> direction (by_direction).",
+      "src/core/cna/data/": "Also crt.py (air CRTs only), unittypes.py, toe.py, slots.py, alliedformations.py, axisformations.py, landreinforcements.py, airreinforcements.py, planes.py, pilots.py, replacements.py.",
+      "src/core/cna/scenario/grandcampaign.py": "Grand campaign set-up as python structs.",
+      "src/core/cna/sop/": "His sequence-of-play state machine; README.rst has his annotated SoP with proposed CHANGE lines and two [] rule-ambiguity notes (40.24 vs 41.63 CAP; 39.5 Malta CAP).",
+      "src/README.rst": "Django API + web front end run notes; four Berg Consimworld post references; a block of third-party house rules (solo AAR of unknown origin, and boardgamegeek.com/thread/583410/air-war) with his commentary; random design notes.",
+      "src/api, src/web": "Django REST API and Phaser-style JS client; engine design reference only.",
+      "archive/src2.xish": "Older Python tree with the same data in earlier form.",
+      "gsheets_code/CfNA-Sheets.txt": "Google Apps Script + manual v0.9 (Aug 2024) for his logistics/formation tracking spreadsheets.",
+      "rules/": "Empty in the tarball as received (he said it should hold his rules folder)."
+    },
+    "email": "Gmail thread 'Can I reference your house rules and do you have the hex database?', njharman@gmail.com, 2026-09-19."
   }
 }

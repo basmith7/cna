@@ -23,6 +23,23 @@ Precondition: PR #16 (`njharman_src` in `tools/sources.json`) must be on
 `main`. If it is not, do Part A anyway (it does not need the diff) and stop
 before Part B with a note in `PROGRESS.md` **Next steps**.
 
+### Part 0 — leftover from Mission 2: NJHarman's Discord-game notes (one PR)
+
+Branch `autopilot/b-rulings-discord-notes`. Added to Mission 2 by PR #16 after
+Mission 2 was declared complete, so it was never done.
+`~/.cache/cna-scans/njharman-discord-notes.txt` (47 lines, emailed to Brian
+2026-09-19; not on his website, so **not** under the CC-BY-SA grant:
+paraphrase, never quote, cite as `NJHarman, private notes from the Discord
+game, 2026-09` with no URL). Open a `proposed` ruling (numbered on from the
+last `R-nnn`) for each Land Game question it raises — wells, pinned units and
+Close Assault ammunition, reaction and CP spending, 52.51 vehicles without
+water, dump construction 24.9 vs 24.17 — following `rulings/README.md` and
+the Mission 2 conventions (`affects`, `sources`, Decision "none yet —
+proposed"). Skip the air and Malta items. His leaning goes in **Options**,
+not **Decision**. San Giorgio is already `rulings/V-001.md`. Regenerate
+`rulings/register.md`; add a *NJHarman Discord notes* entry to
+`EXTRACTION.md`.
+
 ### Part A — plumbing on Malta (plan Tasks 1–13, one PR)
 
 Branch `autopilot/map-a-malta`. Everything in `tools/`, `data/schema/`,
@@ -66,7 +83,7 @@ Branch `autopilot/map-docs`.
   `check_overlap.py` (with and without arguments), `npm run test:site`,
   `npm run site:build`.
 
-When Parts A–D are all merged: log `MISSION 3 COMPLETE` in the journal and
+When Parts 0 and A–D are all merged: log `MISSION 3 COMPLETE` in the journal and
 `PROGRESS.md` and do nothing further.
 
 ## Picking up where the last run left off
