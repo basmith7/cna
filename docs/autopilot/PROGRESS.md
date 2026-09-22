@@ -18,29 +18,30 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**MISSION 2 COMPLETE** (2026-09-20), with one item only Brian can close: SPI 20.67, the Axis Replacement Point Type Limitations Chart, is not printed on either player chart set or the shared sheet in the archive.org scan (every chart heading on jp2 111–178 was listed) — if your copy has it, say where in Feedback.
+**Mission 3 (the map) in progress** — 2026-09-22 04:55 UTC. Parts 0 and A merged; Part B (Map C) under way with the first extractor fix.
 
-Mission 1 (rules files 1–10 and site phase 2): all merged, PRs #2–#13.
+Missions 1 and 2 are complete (PRs #2–#13, #17–#57); 20.67 is still the one item only Brian can close (see *Next steps*).
 
 | Part | What | State | PR |
 |---|---|---|---|
-| A | close the 30-case Land Game coverage gap (§1, §2, §4, 17.2) | **merged** — §1–32 coverage 974/974 | #17 |
-| B | seed rulings from NJHarman (CORRECTION / CLARIFICATION / INTERPRETATION, Land Game topics) | **merged** — R-002–R-019 (18 proposed rulings), `rulings/register.md` generated, 5 items recorded as not imported | #18, #20–#26 |
-| C | chart sheet tables into `data/tables/`, cross-checked | **merged** — 33 tables, every one cross-checked cell by cell against a second scan with 0 differences; three errata overlays (E-008, E-012, E-025) plus E-014 and E-031 added this run. Only 20.67 outstanding (see above) | #27–#55 |
-| D | publish the primer (Parts A–C) as the site's *Learn* page | **merged** — `/learn` in the nav, sidebar A/B/C, tables from `data/`, case links into the rules; Part D of the primer stays local until the map is redrawn | #56, #57 |
+| 0 | rulings from NJHarman's Discord-game notes | **merged** — R-020 (well draws per stage), R-021 (sweetening attempts), R-022 (52.51 vehicles vs guns); R-007/R-013/R-018 gained the notes as a second source; air/Malta/CHANGE items listed as not imported in `EXTRACTION.md` | #60 |
+| A | plumbing on Malta (plan Tasks 1–13) | **merged** — `map_geom`, schemas, `sheets.json` (Map A shifts odd rows *east*), extractor cache-first/ids/clip/coast/raw, `map_build`, `check_data` map gate, `map_render` + `/map` page + golden, CI gates, `data/README.md`, EXTRACTION entry; Malta: 63 hexes, 17 corrections (the redraw's title box), 6 places | #61 |
+| extractor | dashed-track detection (own PR, every raw regenerated) | **ready / merging** — Map C diff 470 → 297; Malta corrections re-resolved (+M-018, M-019); includes `map_diff.py` and Map C raw + render | #63 |
+| B | Map C: diff, ≤150 resolutions, `up`, places, 50-hex sample, Part D of the primer | **started** — raw extracted and rendered; 297 diffs remain (120 tracks we miss, 40 we have that the second database lacks, 32 railroad vs unfinished-railroad, 13 hexes, 9 `up: null`); `map_sample.py` not written yet; #62 is a stale draft to be recreated from `main` after #63 | #62 (draft) |
+| C | Maps A, B, D, E | not started | — |
+| D | docs | not started | — |
 
 ## Next steps
 
-Nothing queued for the autopilot. For Brian:
+For the autopilot: after #63 merges, recreate `autopilot/map-c` from `main` (close #62), write `map_sample.py` (14.2), then 14.4–14.8 for Map C. Two systematic extractor questions surfaced on Map C and belong in the next extractor PR rather than in per-hexside corrections: (1) **unfinished railroad** — the extractor has no class for it, so the Matruh–Sollum future rail reads as `railroad` (32 diff rows); (2) the remaining 120 tracks the second database has and we do not — check a few on the scan to see whether they are crossings we still miss or tracks running *along* a hexside.
 
-- **Look at `/learn` on the deployed site in both colour schemes.** The primer keeps its own light panels with explicit text colours, so in dark mode it is a light island rather than themed; if you want it themed, the CSS is `CSS` in `tools/learn_page.py` (scoped under `.learn` by `scoped_css()`).
-- **Formation charts (19.31–19.33) deserve a glance** — they are symbol grids and two spots were read with less confidence (noted in `data/tables/formation-organisation.json`): the 5th Light's second infantry battalion, and which Ramcke battalion is the heavy-weapons one.
-- **Chart vs rules-text disagreements**, kept as printed and noted in the tables, the rules pointer paragraphs and `EXTRACTION.md` — candidates for rulings, none opened: 24.17 temporary repair facility 50 fuel + 250 stores / 1 stage vs 24.82's 150 fuel + 250 stores / 3 stages; facility rebuild 10 fuel + 50 stores vs 24.84's 30 + 50; real dump 10 stores vs 20 (R-018); 27.91 guarded dump raided on a total **≥** the guards' defence (chart) vs **>** (27.5x text).
-- **E-025 reading, please check:** the errata says the Weather Table is "completely backwards". Applied as: each season's game-turn bands swap with the opposite season's (turns 1–12 → autumn); weather dice ranges stay with their season names. `data/errata/E-025.json` is the one file to change.
-- **Cross-check sources:** Clay Stone's PDFs are the rules only, no charts. Chart-sheet and player-set tables were checked against the Discord 300 dpi *Shared / Axis / Commonwealth Charts.pdf*; the two rulebook-page charts (8.37 Terrain Effects, 8.89 off-map distances — found on jp2 69–70, not the chart sheet) against the Discord converted rulebook scan. If you want a different second source, say so.
-- **Three printed oddities** (both scans agree, not in the 1979 errata), kept as printed and declared in `known_gaps` / notes: close assault attacker −2 / 20 % reads "13-18"; close assault defender +2 has no cell for 34–36; Morale Modifier −4 has no cell for 56. They want rulings.
-- R-012 (15.29) and R-018 (dump cost) are the seeded rulings where printed text and sensible reading pull apart; R-019 needs a hex count on the map.
-- Click one *Original text* block on the deployed site to confirm the viewer works in a browser.
+For Brian:
+
+- **Malta numbering:** the printed inset has no hex numbers, so `M` hexes carry the VASSAL module's numbering (rows 05–13, cols 00–06). Norman's current code keys Malta as `M0604, M0607, M0705, M0806, M0906, M0907` — a different origin from the module's. If you want the module's numbering replaced, say so before Map C's Part D is published (Malta is not referenced there).
+- **Valletta** (`M0805`) reads as sea — the Grand Harbour fills the hex centre; it is a `feature` place with `port: true` on a sea hex. Say if you would rather it were a land hex.
+- **Map C `up: null`:** 9 slope/escarpment hexsides have no readable band side; they will be listed by key in the Map C PR.
+- **SPI 20.67** (Axis Replacement Point Type Limitations Chart): not printed on either player chart set or the shared sheet in the archive.org scan (headings jp2 111–178 listed) — if your copy has it, say where in Feedback.
+- Earlier items (Learn page dark mode, formation charts 19.31–19.33, chart-vs-text disagreements, E-025 reading, three printed oddities, R-012/R-018/R-019) still stand — see the 2026-09-20 entry in the git history of this file if you want the detail.
 
 ## Runs and quota
 
