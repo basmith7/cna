@@ -292,4 +292,4 @@ Blocked: #64 merge decision (Brian).
 Done: #73 (draft, base autopilot/map-e): M-683–M-694, the Nile above Cairo as major river (12). Gates green locally.
 In flight: E river classes: 37 more minor→major rows unchecked (the rest of the main Nile?), 38 major→minor (Delta branches/canals, undecidable from the scan: left for Brian).
 Next: finish #73 (the remaining 37 minor→major rows, 38 "- → major-river", 21 "- → minor-river", 37 "- → ridge"); the merge order is in PROGRESS. Next free correction M-698.
-Blocked: #64 merge decision; Delta branch river class (Brian).
+Blocked: #64 merge decision; Delta branch river class, the Map E hill bands (ridge or slope), and whether the Fayum lake shore counts as a hexside feature (Brian).
