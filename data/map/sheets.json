@@ -5,7 +5,7 @@
   "sheets": {
     "A": {
       "zone": "Map A",
-      "odd_rows_shift": "east",
+      "odd_rows_shift": "west",
       "rows": [
         1,
         56

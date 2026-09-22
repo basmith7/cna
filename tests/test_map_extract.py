@@ -30,6 +30,14 @@ def test_observed_shift_is_west_or_east():
     assert mx.observed_shift(ZONE_C) in ("west", "east")
 
 
+def test_observed_shift_is_in_numbering_space():
+    """Map A's module staggers the numbering: odd rows sit half a hex east on screen but carry column
+    numbers one higher, so in the printed numbering (what map_geom and check_data use) they sit west."""
+    plain = mx.observed_shift(ZONE_C)
+    staggered = mx.observed_shift({**ZONE_C, "num": {**ZONE_C["num"], "stagger": True}})
+    assert {plain, staggered} == {"west", "east"}
+
+
 def test_clip_drops_out_of_range_ids():
     bounds = {"rows": [1, 13], "cols": [1, 13]}
     inside = [("M", 1, 1), ("M", 13, 13)]

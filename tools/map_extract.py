@@ -185,13 +185,20 @@ def hex_id(zone, nx, ny):
 
 
 def observed_shift(zone):
-    """'west' if odd printed rows sit half a hex west of even rows on this sheet.
-    nx 0 and 1 are consecutive printed rows (vDescend only reverses the order);
-    for a sideways grid hex_center()[0] is the across-the-page (screen x) coordinate."""
+    """'west' if odd printed rows sit half a hex west of even rows *in the printed numbering* on this sheet.
+    nx 0 and 1 are consecutive printed rows (vDescend only reverses the order); for a sideways grid
+    hex_center()[0] is the across-the-page (screen x) coordinate.  Each row's screen x is extrapolated to
+    column 0, so a module that staggers the numbering (Map A: odd rows sit east on screen but carry column
+    numbers one higher) reports the shift map_geom and check_data need, not the on-screen one."""
     g = zone["grid"]
-    x = {nx: hex_center(g, nx, 0)[0] for nx in (0, 1)}
+
+    def x_at_col0(nx):
+        (xa, _), (xb, _) = hex_center(g, nx, 0), hex_center(g, nx, 1)
+        ca, cb = hex_id(zone, nx, 0)[2], hex_id(zone, nx, 1)[2]
+        return xa - ca * (xb - xa) / (cb - ca)
+
     odd = 1 if hex_id(zone, 1, 0)[1] % 2 == 1 else 0
-    return "west" if x[odd] < x[1 - odd] else "east"
+    return "west" if x_at_col0(odd) < x_at_col0(1 - odd) else "east"
 
 
 def in_bounds(ident, bounds):

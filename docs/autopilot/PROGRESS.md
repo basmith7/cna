@@ -18,31 +18,37 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**Mission 3 (the map) in progress** — 2026-09-22 05:30 UTC. Parts 0 and A merged, two extractor PRs merged; Part B (Map C) is a draft at the 150-resolution cap with every gate and CI green — **Brian: merge #64 (`gh pr ready 64 && gh pr merge 64 --merge`) or say in Feedback that the cap should not block it** — and 122 cross-check rows left for the next PR.
+**Mission 3 (the map) in progress**: 2026-09-22 22:45 UTC. Parts 0 and A are merged, and so are both extractor PRs. Map C and Part D of the primer are finished as three stacked drafts. **Brian: merge #64** (`gh pr ready 64 && gh pr merge 64 --merge`) **or say in Feedback that the cap should not block it.** After that the next run retargets #66 and #67 to `main` and merges them in turn. They stay drafts until then, so that no run merges #66 into #64 and pushes #64 over the 150 cap.
 
-Missions 1 and 2 are complete (PRs #2–#13, #17–#57); 20.67 is still the one item only Brian can close (see *Next steps*).
+Missions 1 and 2 are complete (PRs #2–#13, #17–#57). 20.67 is still the one item only Brian can close (see *Next steps*).
 
 | Part | What | State | PR |
 |---|---|---|---|
 | 0 | rulings from NJHarman's Discord-game notes | **merged** — R-020 (well draws per stage), R-021 (sweetening attempts), R-022 (52.51 vehicles vs guns); R-007/R-013/R-018 gained the notes as a second source; air/Malta/CHANGE items listed as not imported in `EXTRACTION.md` | #60 |
 | A | plumbing on Malta (plan Tasks 1–13) | **merged** — `map_geom`, schemas, `sheets.json` (Map A shifts odd rows *east*), extractor cache-first/ids/clip/coast/raw, `map_build`, `check_data` map gate, `map_render` + `/map` page + golden, CI gates, `data/README.md`, EXTRACTION entry; Malta: 63 hexes, 17 corrections (the redraw's title box), 6 places | #61 |
 | extractor | dashed-track detection; slope band threshold (own PRs, every raw regenerated) | **merged** — Map C diff 470 → 297 (#63) → 262 (#65); Malta corrections re-resolved (+M-018, M-019); `map_diff.py` and Map C raw + render landed with #63 | #63, #65 |
-| B | Map C: diff, ≤150 resolutions, `up`, places, 50-hex sample, Part D of the primer | **in progress (draft)** — `map_sample.py` + Map C scan grid; 116 corrections M-020–M-135 (11 terrain, 1 coast hexside, 13 slope/`up`, 4 settlement, 32 unfinished railroad — the Matruh–Capuzzo–Tobruk line is printed blue — 4 false tracks from map titles and the frontier wire, 51 track crossings the redraw's 1 px dashes hid) + 33 rows verified as ours-right = **149 resolutions, at the cap**; 16 places; 50-hex sample 0/50 terrain misreads; EXTRACTION entry; all gates green. **122 hexside rows unresolved** (27 tracks we miss, 15 tracks alongside the unfinished railroad, 11 slopes, 9 tracks alongside ridges, the rest ones and twos) | #64 (draft) |
+| B | Map C: diff, ≤150 resolutions, `up`, places, 50-hex sample, Part D of the primer | **three stacked drafts, all gates green** — #64: 149 resolutions (116 corrections M-020–M-135 + 33 agrees), 20 places, sample 0/50, at the cap. #66 (base #64): 100 more (93 corrections M-140–M-232 + 7 agrees): 60 missed track crossings, 5 railway hexsides that are tracks, the coastal slope west of Tobruk with `up`, 6 false railway reads removed; Map C diff 155 → **62**, of which **22 left as read** (see below). #67 (base #66): Task 15, Part D of the primer on our own Map C render | #64, #66, #67 (drafts) |
 | C | Maps A, B, D, E | not started | — |
 | D | docs | not started | — |
 
 ## Next steps
 
-For the autopilot: #64 is at the cap and left as a draft per the spec (the plan would merge it); if Brian has merged it, open `autopilot/map-c-2` from `main` for the remaining 122 rows, otherwise keep resolving on #64 only if Feedback says the cap is lifted. Resolve the remaining rows (regenerate with `map_diff.py C`; crops with `map_sample.py C --hex <id>`), the two big buckets being tracks (78 the second database has that we do not — the redraw's 1 px dashes anti-alias out of the palette on sand and are darker than the rail grey near the frontier; a third extractor pass on the rail-class tolerance may be worth it before hand-resolving; the 38 the other way are done: 33 real crossings, 4 false reads corrected, 1 undecided), then place the Giarabub Oasis palm hexes, mark #64 ready, and go on to Task 15 (Part D of the primer on our Map C).
+For the autopilot: if #64 has merged, retarget #66 to `main` (`gh pr edit 66 --base main`), run the gates, then mark it ready and merge it once CI is green; then do the same for #67. After that comes Part C, Map A, on `autopilot/map-a` (Task 16 = Task 14 steps 14.3–14.8). If #64 has not merged, Map A can start stacked on #66 so the correction numbers stay unique (next free is M-233).
 
 For Brian:
 
-- **Malta numbering:** the printed inset has no hex numbers, so `M` hexes carry the VASSAL module's numbering (rows 05–13, cols 00–06). Norman's current code keys Malta as `M0604, M0607, M0705, M0806, M0906, M0907` — a different origin from the module's. If you want the module's numbering replaced, say so before Map C's Part D is published (Malta is not referenced there).
-- **Valletta** (`M0805`) reads as sea — the Grand Harbour fills the hex centre; it is a `feature` place with `port: true` on a sea hex. Say if you would rather it were a land hex.
-- **Map C items left as read** (the scan is not decisive at this resolution): C0611 (clear vs sand), C0818 (clear vs salt-marsh), C4905|C4906 (coast road or track); and `up` at C0323|C0423 — our band-side convention says C0323 is the higher hex, Norman's database says C0423 (a rough hill ringed by hachures); if his is right the convention needs a second look at the depressions. Seven sheet-edge slope/escarpment hexsides keep `up: null` by allowlist (the higher hex is on the adjoining sheet).
-- **Unfinished railroad:** on the scan the whole Matruh–Capuzzo–Tobruk line is blue (the unfinished symbol) and the redraw draws it like a finished railway; 32 corrections say so. If part of it should be a finished railroad in 1940, say which stretch.
-- **SPI 20.67** (the Axis chart that limits replacement point types): not printed on either player chart set or the shared sheet in the archive.org scan (headings jp2 111–178 listed) — if your copy has it, say where in Feedback.
-- Earlier items (Learn page dark mode, formation charts 19.31–19.33, chart-vs-text disagreements, E-025 reading, three printed oddities, R-012/R-018/R-019) still stand — see the 2026-09-20 entry in the git history of this file if you want the detail.
+- **Map C rows left as read (22)**: the scan cannot settle these at its resolution. Your copy might:
+  - ridge or slope in the El Adem–Tobruk ridge country: C4406|C4506, C4407|C4507, C4413|C4514, C4515|C4516, C4515|C4615, C4610|C4611, C4708|C4709
+  - wadis that the redraw draws on the hexside but the scan prints just inside the hex: C1507|C1607, C1606|C1607, C3507|C3607, C3508|C3607
+  - where an escarpment band ends: C3526|C3625, C3922|C4021, C4806|C4907
+  - lines that pass through a hex vertex: tracks at C0323|C0324 and C4011|C4111, the railway at C4411|C4511, and the road at C4130|C4131, where it changes from unfinished to finished at the vertex
+  - from #64: C0611 (clear or sand), C0818 (clear or salt-marsh), C4905|C4906 (coast road or track), and `up` at C0323|C0423 (our band-side convention says C0323 is higher; the second database says C0423, a rough hill ringed by hachures)
+- **Railways along hexsides:** in five places the railway runs along a hexside to its vertex instead of crossing it (C3228|C3328, C3721|C3821, C3920|C4020, C4118|C4218, C4216|C4317). #66 records only the track crossing there. Tell me if you would rather the railway counted as crossing.
+- **Malta numbering:** the printed inset has no hex numbers, so `M` hexes carry the VASSAL module's numbering. Norman's code uses a different origin. Say if you want it changed.
+- **Valletta** (`M0805`) reads as sea: it is a `feature` place with `port: true` on a sea hex.
+- **Unfinished railroad:** the whole Matruh–Capuzzo–Tobruk line is blue on the scan. If part of it should be a finished railroad in 1940, say which stretch.
+- **SPI 20.67:** not printed in the archive.org scan. If your copy has it, say where.
+- The earlier items (Learn page dark mode, formation charts 19.31–19.33, and others) still stand. See the 2026-09-20 entry in this file's git history.
 
 ## Runs and quota
 
