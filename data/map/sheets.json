@@ -1,0 +1,79 @@
+{
+  "sources": [
+    "vassal:CNAv2.1.0"
+  ],
+  "sheets": {
+    "A": {
+      "zone": "Map A",
+      "odd_rows_shift": "west",
+      "rows": [
+        1,
+        99
+      ],
+      "cols": [
+        1,
+        99
+      ]
+    },
+    "B": {
+      "zone": "Map B",
+      "odd_rows_shift": "west",
+      "rows": [
+        1,
+        99
+      ],
+      "cols": [
+        1,
+        99
+      ]
+    },
+    "C": {
+      "zone": "Map C",
+      "odd_rows_shift": "west",
+      "rows": [
+        1,
+        99
+      ],
+      "cols": [
+        1,
+        99
+      ]
+    },
+    "D": {
+      "zone": "Map D",
+      "odd_rows_shift": "west",
+      "rows": [
+        1,
+        99
+      ],
+      "cols": [
+        1,
+        99
+      ]
+    },
+    "E": {
+      "zone": "Map E",
+      "odd_rows_shift": "west",
+      "rows": [
+        1,
+        99
+      ],
+      "cols": [
+        1,
+        99
+      ]
+    },
+    "M": {
+      "zone": "Malta",
+      "odd_rows_shift": "west",
+      "rows": [
+        1,
+        99
+      ],
+      "cols": [
+        1,
+        99
+      ]
+    }
+  }
+}

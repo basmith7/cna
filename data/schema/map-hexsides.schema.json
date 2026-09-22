@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "map-hexsides.schema.json",
+  "title": "One record per hexside that carries a feature",
+  "type": "object",
+  "required": [
+    "sources",
+    "hexsides"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "sources": {
+      "$ref": "common.schema.json#/$defs/sources"
+    },
+    "sheet": {
+      "type": "string",
+      "pattern": "^[A-EM]$"
+    },
+    "hexsides": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/hexside"
+      }
+    }
+  },
+  "$defs": {
+    "hexside": {
+      "type": "object",
+      "required": [
+        "key",
+        "a",
+        "b",
+        "side",
+        "features",
+        "up"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "key": {
+          "type": "string",
+          "pattern": "^[A-EM][0-9]{4}\\|([A-EM][0-9]{4}|E|SE|SW|W|NW|NE)$"
+        },
+        "a": {
+          "$ref": "common.schema.json#/$defs/hexId"
+        },
+        "b": {
+          "oneOf": [
+            {
+              "$ref": "common.schema.json#/$defs/hexId"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "side": {
+          "oneOf": [
+            {
+              "$ref": "common.schema.json#/$defs/hexSide"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "set only when b is null (sheet edge)"
+        },
+        "features": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "common.schema.json#/$defs/hexsideFeature"
+          }
+        },
+        "up": {
+          "oneOf": [
+            {
+              "$ref": "common.schema.json#/$defs/hexId"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "higher hex for slope/escarpment; null = undetermined (not allowed in a merged sheet)"
+        }
+      }
+    }
+  }
+}
