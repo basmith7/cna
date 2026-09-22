@@ -1,0 +1,37 @@
+{
+ "id": "M-526",
+ "target": "hexside",
+ "key": "D3611|D3612",
+ "before": {
+  "key": "D3611|D3612",
+  "a": "D3611",
+  "b": "D3612",
+  "side": null,
+  "features": [
+   "road",
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "road",
+    "unfinished-railroad"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   982,
+   2171,
+   220,
+   180
+  ],
+  "note": "the railway west of Matruh is printed in blue with ties on the scan, the Terrain Key's unfinished-railroad symbol; the redraw draws it like a finished railroad"
+ },
+ "superseded": false
+}
