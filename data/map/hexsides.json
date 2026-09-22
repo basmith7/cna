@@ -3602,26 +3602,6 @@
    "up": null
   },
   {
-   "key": "A2703|A2803",
-   "a": "A2703",
-   "b": "A2803",
-   "side": null,
-   "features": [
-    "coast"
-   ],
-   "up": null
-  },
-  {
-   "key": "A2704|A2803",
-   "a": "A2704",
-   "b": "A2803",
-   "side": null,
-   "features": [
-    "coast"
-   ],
-   "up": null
-  },
-  {
    "key": "A2729|A2730",
    "a": "A2729",
    "b": "A2730",
@@ -3648,16 +3628,6 @@
    "side": null,
    "features": [
     "track"
-   ],
-   "up": null
-  },
-  {
-   "key": "A2801|A2802",
-   "a": "A2801",
-   "b": "A2802",
-   "side": null,
-   "features": [
-    "coast"
    ],
    "up": null
   },

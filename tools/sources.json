@@ -49,7 +49,14 @@
     "map_pages": {
       "note": "jp2 index of the scan page that shows each map sheet; scan_grid is the printed hex grid measured on that page (pixel centre of ref_hex, column and row pitch) so tools/map_sample.py can crop a hex. Malta is the inset at the top-left of Map A's page.",
       "A": {
-        "page": 187
+        "page": 187,
+        "scan_grid": {
+          "ref_hex": "A1613",
+          "x": 2562,
+          "y": 7737,
+          "col_w": 188.5,
+          "row_h": 162.0
+        }
       },
       "C": {
         "page": 189,

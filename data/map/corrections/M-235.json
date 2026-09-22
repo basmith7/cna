@@ -1,0 +1,32 @@
+{
+ "id": "M-235",
+ "target": "hexside",
+ "key": "A2703|A2803",
+ "before": {
+  "key": "A2703|A2803",
+  "a": "A2703",
+  "b": "A2803",
+  "side": null,
+  "features": [
+   "coast"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   408,
+   5693,
+   441,
+   360
+  ],
+  "note": "the coast runs between a land hex and a sea hex here (the neighbouring hex is sea on the scan), so this is not a coast hexside"
+ },
+ "superseded": false
+}
