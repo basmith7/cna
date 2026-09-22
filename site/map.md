@@ -21,10 +21,14 @@ in `data/map/corrections/`. See `data/README.md` for the hex convention and the 
 
 ![Map C — the frontier](/map/C.svg)
 
+## Map D — Matruh and the Western Desert
+
+![Map D — Matruh and the Western Desert](/map/D.svg)
+
 ## Malta
 
 ![Malta](/map/M.svg)
 
 ## Not yet captured
 
-Map D — Matruh and the Western Desert, Map E — the Delta.
+Map E — the Delta.
