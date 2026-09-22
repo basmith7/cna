@@ -44,16 +44,6 @@
    "up": null
   },
   {
-   "key": "A0127|A0128",
-   "a": "A0127",
-   "b": "A0128",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
    "key": "A0127|A0227",
    "a": "A0127",
    "b": "A0227",
@@ -227,16 +217,6 @@
    "key": "A0326|A0426",
    "a": "A0326",
    "b": "A0426",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
-   "key": "A0327|A0328",
-   "a": "A0327",
-   "b": "A0328",
    "side": null,
    "features": [
     "track"
@@ -2857,16 +2837,6 @@
    "up": null
   },
   {
-   "key": "A1825|A1926",
-   "a": "A1825",
-   "b": "A1926",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
    "key": "A1828|A1829",
    "a": "A1828",
    "b": "A1829",
@@ -4764,16 +4734,6 @@
    "up": "A4033"
   },
   {
-   "key": "A4032|A4132",
-   "a": "A4032",
-   "b": "A4132",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
    "key": "A4032|A4133",
    "a": "A4032",
    "b": "A4133",
@@ -4869,16 +4829,6 @@
    "key": "A4131|A4132",
    "a": "A4131",
    "b": "A4132",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
-   "key": "A4131|A4230",
-   "a": "A4131",
-   "b": "A4230",
    "side": null,
    "features": [
     "track"
@@ -5763,16 +5713,6 @@
     "escarpment"
    ],
    "up": "A5233"
-  },
-  {
-   "key": "A5232|A5333",
-   "a": "A5232",
-   "b": "A5333",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
   },
   {
    "key": "A5233|A5333",
