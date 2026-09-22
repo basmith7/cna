@@ -1,0 +1,33 @@
+{
+ "id": "M-096",
+ "target": "hexside",
+ "key": "C0523|C0524",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "C0523|C0524",
+    "a": "C0523",
+    "b": "C0524",
+    "side": null,
+    "features": [
+     "track"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   2026,
+   4655,
+   220,
+   180
+  ],
+  "note": "a dashed track crosses this hexside on the scan (and on the redraw, whose 1 px dashes the extractor did not read)"
+ },
+ "superseded": false
+}

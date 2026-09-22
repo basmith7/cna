@@ -4,6 +4,16 @@
  ],
  "hexsides": [
   {
+   "key": "C0107|C0207",
+   "a": "C0107",
+   "b": "C0207",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0127|C0226",
    "a": "C0127",
    "b": "C0226",
@@ -35,6 +45,16 @@
    "up": null
   },
   {
+   "key": "C0130|C0229",
+   "a": "C0130",
+   "b": "C0229",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0130|C0230",
    "a": "C0130",
    "b": "C0230",
@@ -45,9 +65,29 @@
    "up": null
   },
   {
+   "key": "C0131|C0132",
+   "a": "C0131",
+   "b": "C0132",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0132|C0133",
    "a": "C0132",
    "b": "C0133",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0207|C0307",
+   "a": "C0207",
+   "b": "C0307",
    "side": null,
    "features": [
     "track"
@@ -88,6 +128,16 @@
    "key": "C0225|C0226",
    "a": "C0225",
    "b": "C0226",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0225|C0325",
+   "a": "C0225",
+   "b": "C0325",
    "side": null,
    "features": [
     "track"
@@ -156,6 +206,16 @@
    "up": null
   },
   {
+   "key": "C0229|C0230",
+   "a": "C0229",
+   "b": "C0230",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0229|C0330",
    "a": "C0229",
    "b": "C0330",
@@ -174,6 +234,36 @@
     "slope"
    ],
    "up": "C0330"
+  },
+  {
+   "key": "C0230|C0331",
+   "a": "C0230",
+   "b": "C0331",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0307|C0407",
+   "a": "C0307",
+   "b": "C0407",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0323|C0422",
+   "a": "C0323",
+   "b": "C0422",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
   },
   {
    "key": "C0323|C0423",
@@ -299,6 +389,16 @@
    "key": "C0331|C0431",
    "a": "C0331",
    "b": "C0431",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0407|C0507",
+   "a": "C0407",
+   "b": "C0507",
    "side": null,
    "features": [
     "track"
@@ -467,6 +567,16 @@
    "up": null
   },
   {
+   "key": "C0507|C0607",
+   "a": "C0507",
+   "b": "C0607",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0521|C0522",
    "a": "C0521",
    "b": "C0522",
@@ -505,6 +615,16 @@
     "slope"
    ],
    "up": "C0622"
+  },
+  {
+   "key": "C0523|C0524",
+   "a": "C0523",
+   "b": "C0524",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
   },
   {
    "key": "C0523|C0623",
