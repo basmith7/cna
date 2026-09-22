@@ -8246,16 +8246,6 @@
     "railroad"
    ],
    "up": null
-  },
-  {
-   "key": "C4907|C4908",
-   "a": "C4907",
-   "b": "C4908",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
   }
  ]
 }

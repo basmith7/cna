@@ -1,0 +1,32 @@
+{
+ "id": "M-084",
+ "target": "hexside",
+ "key": "C4907|C4908",
+ "before": {
+  "key": "C4907|C4908",
+  "a": "C4907",
+  "b": "C4908",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   522,
+   1091,
+   220,
+   180
+  ],
+  "note": "sea off Tobruk under the printed 'Tobruk' title; no track (the redraw's letter stroke was read as a track)"
+ },
+ "superseded": false
+}
