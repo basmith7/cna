@@ -1,0 +1,35 @@
+{
+ "id": "M-309",
+ "target": "hexside",
+ "key": "A4030|A4130",
+ "before": {
+  "key": "A4030|A4130",
+  "a": "A4030",
+  "b": "A4130",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5498,
+   3587,
+   441,
+   360
+  ],
+  "note": "a dashed track from Soluch crosses this hexside; the railway ends at Soluch and does not cross it"
+ },
+ "superseded": false
+}

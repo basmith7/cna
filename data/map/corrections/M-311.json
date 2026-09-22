@@ -1,0 +1,35 @@
+{
+ "id": "M-311",
+ "target": "hexside",
+ "key": "A4728|A4827",
+ "before": {
+  "key": "A4728|A4827",
+  "a": "A4728",
+  "b": "A4827",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "road"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5027,
+   2453,
+   441,
+   360
+  ],
+  "note": "the double-line coast road out of Benghazi crosses this hexside; the railway leaves by the next hexside"
+ },
+ "superseded": false
+}
