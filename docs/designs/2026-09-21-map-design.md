@@ -92,7 +92,7 @@ corrections.
 | Tool | Does | Needs the cache? |
 |---|---|---|
 | `map_extract.py` (exists) | `.vmod` → `build/map/raw-<sheet>.json` + review crops. First-run fixes, landed **before any correction exists**: cache `buildFile.xml` and read it from the cache; heavy-vegetation second green; clip zone-edge partial hexes; a `coast` hexside detector (midpoint sample majority sea, both hexes land); `up` from the band side, `null` when undeterminable; emit only game-fact fields. Frozen after Part A; any later change is its own PR that regenerates every `raw/` file and re-resolves conflicts. | yes |
-| `map_build.py` (new) | `raw/` + `corrections/` → `hexes.json`, `hexsides.json`, `places.json`. `--check` fails if the committed files differ from the rebuild (runs in CI: needs no PNG). | no |
+| `map_build.py` (new) | `raw/` + `corrections/` → `hexes.json`, `hexsides.json` (`places.json` is hand-authored: names are not in the pixels). `--check` fails if the committed files differ from the rebuild (runs in CI: needs no PNG). | no |
 | `map_diff.py` (new) | our final data vs the NJHarman DB → `build/map/diff-<sheet>.md` (hex, ours, his, a crop path). Skips with a note when the cache lacks his files. Only counts leave `build/`. | yes |
 | `map_sample.py` (new) | seeded random sample of N hexes per sheet → crops from the scan and the redraw + a checklist; the filled checklist's misread count goes to `EXTRACTION.md`. | yes |
 | `map_render.py` (new) | `data/map/` → `site/public/map/<sheet>.svg` (committed; `--check` in CI), and `--region <hex list>` for inlined crops. Deterministic output (fixed float format, sorted keys) so byte comparison is stable. | no |
@@ -141,7 +141,7 @@ the Sollum escarpment C4021) and record the convention in `data/README.md`.
 
 ## Site and primer
 
-- `/map`: one section per sheet with `<img src="/map/<sheet>.svg">`, the
+- `/map`: one section per sheet with a markdown image of `/map/<sheet>.svg`, the
   legend, a *how this was made* paragraph and the legal note; `Map` in the
   top nav.
 - Part D of the primer: `map_render.py --region` renders the Graziani area of
