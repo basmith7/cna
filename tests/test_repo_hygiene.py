@@ -33,3 +33,12 @@ def test_rulings_readme_defines_statuses_and_fork_policy():
     text = (ROOT / "rulings" / "README.md").read_text()
     for word in ["proposed", "accepted", "rejected", "superseded", "## Fork policy", "R-001"]:
         assert word in text, word
+
+
+def test_no_build_output_or_rasters_are_tracked():
+    import subprocess
+    tracked = subprocess.run(["git", "ls-files"], cwd=ROOT, capture_output=True, text=True, check=True).stdout.split()
+    bad = [p for p in tracked if p.startswith("build/")
+           or (p.startswith(("data/", "site/public/map/")) and p.lower().endswith((".png", ".jpg", ".jpeg", ".npy", ".xml")))]
+    assert bad == [], bad
+    assert "build/" in (ROOT / ".gitignore").read_text().splitlines()

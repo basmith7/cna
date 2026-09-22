@@ -9,3 +9,4 @@ __pycache__/
 /coverage.md
 .claude/worktrees/
 docs/outreach/
+build/

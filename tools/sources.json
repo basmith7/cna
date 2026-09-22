@@ -99,7 +99,7 @@
   "vassal": {
     "module": "CNAv2.1.0.vmod",
     "credits": "v2.1 Norman Harman 2024-09 (njharman@gmail.com); v2 Mitch Guthrie 2021-09; map Mitch Guthrie 2021; original Pete Phillipps 2020-03",
-    "note": "Map, counters, charts and rules have all known errata applied (playnotes.txt). Local copy under ~/.cache/cna-vassal/ (see tools/map_extract.py). Bundles the 2021 integrated-errata rulebooks; the copies circulated on Discord are byte-identical.",
+    "note": "Map, counters, charts and rules have all known errata applied (playnotes.txt). Bundles the 2021 integrated-errata rulebooks; the copies circulated on Discord are byte-identical. Local copy: ~/.cache/cna-vassal/CNAv2.1.0.vmod; tools/map_extract.py extracts the PNG and buildFile.xml beside it on first run and afterwards runs from the cache alone (--cache-only).",
     "sha256": "94a4c686840e31d76dc4408382aceb8724092d60554e75f92a03936552cc626a",
     "bundled_rules": {
       "Rules_Land_07-2021.pdf": {
