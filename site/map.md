@@ -9,10 +9,14 @@ hexside features, and the named places. It is not a copy of SPI's map art or of 
 was read from Mitch Guthrie's 2021 VASSAL redraw and checked against the SPI scan, with every hand correction logged 
 in `data/map/corrections/`. See `data/README.md` for the hex convention and the legal posture.
 
+## Map C — the frontier
+
+![Map C — the frontier](/map/C.svg)
+
 ## Malta
 
 ![Malta](/map/M.svg)
 
 ## Not yet captured
 
-Map A — Tripolitania and the Gulf of Sirte, Map B — Cyrenaica, Map C — the frontier, Map D — Matruh and the Western Desert, Map E — the Delta.
+Map A — Tripolitania and the Gulf of Sirte, Map B — Cyrenaica, Map D — Matruh and the Western Desert, Map E — the Delta.

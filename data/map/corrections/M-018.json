@@ -1,15 +1,14 @@
 {
- "id": "M-014",
+ "id": "M-018",
  "target": "hexside",
- "key": "M1106|M1206",
+ "key": "M1104|M1204",
  "before": {
-  "key": "M1106|M1206",
-  "a": "M1106",
-  "b": "M1206",
+  "key": "M1104|M1204",
+  "a": "M1104",
+  "b": "M1204",
   "side": null,
   "features": [
-   "track",
-   "coast"
+   "track"
   ],
   "up": null
  },
@@ -27,7 +26,7 @@
    250,
    500
   ],
-  "note": "edge of the redraw's title box over open sea; no coast is printed there"
+  "note": "under the printed 'Malta' title over open sea; no track or coast is printed there"
  },
  "superseded": false
 }
