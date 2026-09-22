@@ -96,7 +96,8 @@ def diff_sheet(sheet, ours, theirs):
         if h["terrain"] != his_terrain[hid]:
             diffs.append({"kind": "hex", "key": hid, "ours": h["terrain"], "theirs": his_terrain[hid]})
     our_sides = {s["key"]: s for s in ours.hexsides if s["a"][0] == sheet and s["b"] is not None}
-    keys = set(our_sides) | {k for k in his_sides if k[0] == sheet}
+    # cross-sheet hexsides (C0633|D0601) are a later spec: compared only when both hexes are on this sheet
+    keys = set(our_sides) | {k for k in his_sides if k[0] == sheet and k.split("|")[1][0] == sheet}
     for key in sorted(keys):
         mine = our_sides.get(key)
         ours_f = {f for f in mine["features"] if f in COMPARED_FEATURES} if mine else set()

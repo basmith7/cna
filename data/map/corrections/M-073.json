@@ -1,0 +1,33 @@
+{
+ "id": "M-073",
+ "target": "hexside",
+ "key": "C0524|C0525",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "C0524|C0525",
+    "a": "C0524",
+    "b": "C0525",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "C0524"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   2120,
+   4655,
+   220,
+   180
+  ],
+  "note": "depression hex C0525 is ringed by slope hachures; the west hexside carries them too"
+ },
+ "superseded": false
+}

@@ -1,0 +1,33 @@
+{
+ "id": "M-071",
+ "target": "hexside",
+ "key": "C0323|C0423",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "C0323|C0423",
+    "a": "C0323",
+    "b": "C0423",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "C0323"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   2002,
+   4776,
+   220,
+   180
+  ],
+  "note": "depression hex C0423 is ringed by slope hachures on the scan; the south hexside carries them too"
+ },
+ "superseded": false
+}

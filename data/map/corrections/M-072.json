@@ -1,0 +1,33 @@
+{
+ "id": "M-072",
+ "target": "hexside",
+ "key": "C0425|C0426",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "C0425|C0426",
+    "a": "C0425",
+    "b": "C0426",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "C0426"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   2261,
+   4736,
+   220,
+   180
+  ],
+  "note": "depression hex C0425 is ringed by slope hachures; the east hexside carries them too"
+ },
+ "superseded": false
+}
