@@ -29206,56 +29206,6 @@
    "up": "D1815"
   },
   {
-   "key": "D1718|D1719",
-   "a": "D1718",
-   "b": "D1719",
-   "side": null,
-   "features": [
-    "escarpment"
-   ],
-   "up": null
-  },
-  {
-   "key": "D1719|D1720",
-   "a": "D1719",
-   "b": "D1720",
-   "side": null,
-   "features": [
-    "escarpment"
-   ],
-   "up": null
-  },
-  {
-   "key": "D1720|D1721",
-   "a": "D1720",
-   "b": "D1721",
-   "side": null,
-   "features": [
-    "escarpment"
-   ],
-   "up": null
-  },
-  {
-   "key": "D1721|D1722",
-   "a": "D1721",
-   "b": "D1722",
-   "side": null,
-   "features": [
-    "escarpment"
-   ],
-   "up": null
-  },
-  {
-   "key": "D1722|D1723",
-   "a": "D1722",
-   "b": "D1723",
-   "side": null,
-   "features": [
-    "escarpment"
-   ],
-   "up": null
-  },
-  {
    "key": "D1723|D1724",
    "a": "D1723",
    "b": "D1724",
