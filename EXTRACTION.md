@@ -215,6 +215,29 @@ the PR that adds or substantially rewrites the file.
 
 - Errata duplicates: none of the items above repeats a Sept 1979 errata entry (`data/errata/INDEX.md` checked for 8.52, 8.53, 14.52, 15.29, 15.83, 22.6, 24.17, 30.15). None is answered by R-001.
 
+## NJHarman Discord notes — 2026-09-22 (rulings/R-020 to R-022; R-007, R-013, R-018 amended)
+- Source: NJHarman's private notes from the Discord game, 47 lines, emailed to Brian 2026-09-19 (`~/.cache/cna-scans/njharman-discord-notes.txt`, never committed). Not on his website and so **not** under the CC-BY-SA grant: nothing is quoted; every use is a paraphrase cited as `NJHarman, private notes from the Discord game, 2026-09` with no URL. His leanings are recorded in **Options**, never in **Decision**. No `ATTRIBUTION.md` entry, because no text is reproduced.
+- Every item, with what became of it:
+
+| Item | Outcome |
+|---|---|
+| wells: one draw per Operations Stage | R-020 (52.13, 52.14, 52.7) |
+| wells: one unit per Operations Stage may attempt sweetening | R-021 (52.17) |
+| pinned units and Close Assault ammunition | already R-013 (same item on his page); Discord leaning added to the Problem |
+| reacting units and CP spending (poisoning wells) | already R-007 (same item on his page); Discord leaning added to the Problem |
+| 52.51 vehicles without water — not guns | R-022 (52.51, 52.52); his page carries 52.51 only as a REMINDER |
+| dump construction, 24.9 vs 24.17 | already R-018 (same item on his page); noted as an open question in the Problem |
+| San Giorgio | already `rulings/V-001.md` (PR #16) |
+| Malta fields and limited intelligence (3.6, 44.15, 20.64) | skipped — Malta/Air |
+| Malta OCAP as one hex | skipped — Air |
+| air dump supplies lost with air-base levels | skipped — Air |
+| truck points destroyed per 10 % of a dump should be higher | not imported — a CHANGE, not a resolution; a variant needs quotable text, which this source is not |
+| emergency flight / destruction in the same hex; transfer without refit; captured planes unfit | skipped — Air |
+| empty, unoccupied dumps cease to exist | not imported — a CHANGE (same reason as above) |
+| LRDG/raiders may not repeat the same raid | not imported — a CHANGE (same reason as above) |
+
+- Errata duplicates: none (`data/errata/INDEX.md` checked for 52.13, 52.17, 52.51). The three new rulings are Logistics Game cases (§52) reached through the Land Game's 6.3 well entries; the Land Game abstraction (§32) ignores water, so no restated prose changes.
+
 ## rules/00-overview.md, 10-units-and-state.md, 50-stacking-and-zoc.md, 70-organisation.md — 2026-09-20 (Land Game coverage gap)
 - Source cases read: 1.0, 2.0, 4.0–4.6, 4.21–4.26, 4.41–4.49, 4.51–4.55, 17.2.
 - Mechanics identified: 4.25 — an attached unit has no counter; units set up in their assigned parent's hex start attached unless the scenario says otherwise. 4.26 — holding boxes stand for a hex; contents are in that hex for all purposes. 4.42 — the arrival lookup chain (Reinforcement Track → O/A sheet → characteristics code → Unit Characteristics Chart → TOE log) and the rule that a parent arrives with every listed unit except those with their own later date or excluded on the track. Everything else in §1, §2, §4 and the 17.2 heading is introduction, component and chart description, log-sheet grouping or parts inventory.
