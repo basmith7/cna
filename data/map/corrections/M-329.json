@@ -1,0 +1,36 @@
+{
+ "id": "M-329",
+ "target": "hexside",
+ "key": "A4332|A4431",
+ "before": {
+  "key": "A4332|A4431",
+  "a": "A4332",
+  "b": "A4431",
+  "side": null,
+  "features": [
+   "escarpment",
+   "track"
+  ],
+  "up": "A4332"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "escarpment"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5781,
+   3101,
+   441,
+   360
+  ],
+  "note": "no track crosses this escarpment hexside on the scan; the extractor read the dark edge of the escarpment band as a track"
+ },
+ "superseded": false
+}

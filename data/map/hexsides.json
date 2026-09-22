@@ -2546,6 +2546,16 @@
    "up": null
   },
   {
+   "key": "A1716|A1816",
+   "a": "A1716",
+   "b": "A1816",
+   "side": null,
+   "features": [
+    "road"
+   ],
+   "up": null
+  },
+  {
    "key": "A1717|A1718",
    "a": "A1717",
    "b": "A1718",
@@ -2591,7 +2601,7 @@
    "b": "A1819",
    "side": null,
    "features": [
-    "unfinished-road"
+    "road"
    ],
    "up": null
   },
@@ -2857,6 +2867,16 @@
    "up": "A1820"
   },
   {
+   "key": "A1820|A1921",
+   "a": "A1820",
+   "b": "A1921",
+   "side": null,
+   "features": [
+    "road"
+   ],
+   "up": null
+  },
+  {
    "key": "A1821|A1921",
    "a": "A1821",
    "b": "A1921",
@@ -3063,7 +3083,7 @@
    "b": "A2010",
    "side": null,
    "features": [
-    "unfinished-road"
+    "road"
    ],
    "up": null
   },
@@ -3424,7 +3444,7 @@
    "b": "A2110",
    "side": null,
    "features": [
-    "unfinished-road"
+    "road"
    ],
    "up": null
   },
@@ -4759,8 +4779,7 @@
    "b": "A4127",
    "side": null,
    "features": [
-    "road",
-    "track"
+    "road"
    ],
    "up": null
   },
@@ -5134,8 +5153,7 @@
    "b": "A4431",
    "side": null,
    "features": [
-    "escarpment",
-    "track"
+    "escarpment"
    ],
    "up": "A4332"
   },
@@ -5368,7 +5386,7 @@
    "b": "A4728",
    "side": null,
    "features": [
-    "unfinished-road"
+    "road"
    ],
    "up": null
   },
@@ -5726,8 +5744,7 @@
    "b": "A5131",
    "side": null,
    "features": [
-    "escarpment",
-    "track"
+    "escarpment"
    ],
    "up": null
   },
@@ -5767,8 +5784,7 @@
    "b": "A5231",
    "side": null,
    "features": [
-    "escarpment",
-    "track"
+    "escarpment"
    ],
    "up": "A5132"
   },
@@ -5788,8 +5804,7 @@
    "b": "A5232",
    "side": null,
    "features": [
-    "escarpment",
-    "track"
+    "escarpment"
    ],
    "up": null
   },
@@ -5819,8 +5834,7 @@
    "b": "A5333",
    "side": null,
    "features": [
-    "escarpment",
-    "track"
+    "escarpment"
    ],
    "up": "A5233"
   },
@@ -5830,7 +5844,7 @@
    "b": "A5432",
    "side": null,
    "features": [
-    "unfinished-road"
+    "road"
    ],
    "up": null
   },

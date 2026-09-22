@@ -1,0 +1,36 @@
+{
+ "id": "M-328",
+ "target": "hexside",
+ "key": "A4027|A4127",
+ "before": {
+  "key": "A4027|A4127",
+  "a": "A4027",
+  "b": "A4127",
+  "side": null,
+  "features": [
+   "road",
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "road"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   4932,
+   3587,
+   441,
+   360
+  ],
+  "note": "only the double-line road crosses this hexside; the dashed track from Ghemines leaves by another hexside"
+ },
+ "superseded": false
+}
