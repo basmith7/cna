@@ -22,9 +22,9 @@
  "seen": {
   "scan": "scan:p191",
   "crop": [
-   -46,
+   0,
    4205,
-   221,
+   175,
    180
   ],
   "note": "a dashed track crosses this hexside on the scan (and on the redraw, whose 1 px dashes the extractor did not read)"
