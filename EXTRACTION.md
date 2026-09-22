@@ -215,6 +215,9 @@ the PR that adds or substantially rewrites the file.
 
 - Errata duplicates: none of the items above repeats a Sept 1979 errata entry (`data/errata/INDEX.md` checked for 8.52, 8.53, 14.52, 15.29, 15.83, 22.6, 24.17, 30.15). None is answered by R-001.
 
+## data/map — 2026-09-22 (extractor: odd-row shift in the printed numbering)
+- `map_extract.observed_shift` now measures the shift in the printed numbering rather than on screen. Map A's module staggers its numbering (odd rows sit half a hex east on screen but carry column numbers one higher), so in the numbering its odd rows neighbour columns c−1 and c, as on every other sheet. `sheets.json` A is therefore `west`. With `east`, 169 of Map A's 534 extracted hexsides failed `check_data`'s adjacency check. The second database's Map A hexsides show the same pairing (192 with the same column, 186 with c−1, none with c+1). `raw/M.json` and `raw/C.json` were regenerated and are byte-identical. The Part A entry below records `east` for A, which was the on-screen reading.
+
 ## data/map — 2026-09-22 (Part A, Malta plumbing)
 - Source: `vassal:CNAv2.1.0` (Guthrie 2021 redraw, cached under `~/.cache/cna-vassal/`, never committed), read by `tools/map_extract.py`; SPI map scan `scan:p187` (the Malta inset on Map A) for Malta's places and every correction.
 - Shape: `sheets.json` (per-sheet bounds + odd-row shift, asserted by the extractor against VASSAL's numbering: A shifts odd rows **east**, B–E and Malta west; observed ranges A 1–56/0–33, B 1–61/1–33, C 1–51/1–33, D 1–42/1–33, E 1–44/0–34, Malta 5–13/−1–7, with the half-hex columns clipped: A col 0, E col 0, Malta cols −1 and 7), `raw/M.json` (63 hexes, 11 hexsides), `hexes.json` / `hexsides.json` built from raw + **17 corrections** (M-001–M-017), `places.json` (6 Malta places, all `feature`: Valletta and Kalafrana as ports, four airfields).
