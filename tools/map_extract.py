@@ -599,7 +599,7 @@ def main():
         byid = {h["hex"]: h for h in hexes}
         fc = {"escarpment": (255, 0, 0), "ridge": (255, 140, 0), "slope": (255, 200, 0), "wadi": (0, 200, 200),
               "road": (120, 60, 0), "unfinished_road": (200, 120, 60), "railroad": (0, 0, 0), "track": (120, 120, 120),
-              "major_river": (0, 0, 255), "minor_river": (100, 100, 255)}
+              "major_river": (0, 0, 255), "minor_river": (100, 100, 255), "coast": (0, 120, 255)}
         for r in sides:
             hx = byid[r["hex_a"]]; a = math.radians(dict(SIDES)[r["side"]])
             mx, my = hx["x"] - x0 + inr * 0.8 * math.cos(a), hx["y"] - y0 + inr * 0.8 * math.sin(a)

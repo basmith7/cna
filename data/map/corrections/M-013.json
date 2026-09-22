@@ -1,0 +1,32 @@
+{
+ "id": "M-013",
+ "target": "hexside",
+ "key": "M1106|M1205",
+ "before": {
+  "key": "M1106|M1205",
+  "a": "M1106",
+  "b": "M1205",
+  "side": null,
+  "features": [
+   "coast"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   1100,
+   400,
+   250,
+   500
+  ],
+  "note": "edge of the redraw's title box over open sea; no coast is printed there"
+ },
+ "superseded": false
+}

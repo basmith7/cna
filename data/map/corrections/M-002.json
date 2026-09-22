@@ -1,0 +1,40 @@
+{
+ "id": "M-002",
+ "target": "hex",
+ "key": "M1105",
+ "before": {
+  "id": "M1105",
+  "sheet": "M",
+  "terrain": "clear",
+  "settlement": "village",
+  "coastal": true
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/terrain",
+   "value": "sea"
+  },
+  {
+   "op": "replace",
+   "path": "/settlement",
+   "value": null
+  },
+  {
+   "op": "replace",
+   "path": "/coastal",
+   "value": false
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   1100,
+   400,
+   250,
+   500
+  ],
+  "note": "M1105 is open sea under the printed 'Malta' title; the redraw's title box and its letter dots were read as clear land with a village"
+ },
+ "superseded": false
+}

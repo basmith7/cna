@@ -328,23 +328,23 @@
   {
    "id": "M1104",
    "sheet": "M",
-   "terrain": "clear",
-   "settlement": "village",
-   "coastal": true
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
   },
   {
    "id": "M1105",
    "sheet": "M",
-   "terrain": "clear",
-   "settlement": "village",
-   "coastal": true
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
   },
   {
    "id": "M1106",
    "sheet": "M",
-   "terrain": "clear",
-   "settlement": "village",
-   "coastal": true
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
   },
   {
    "id": "M1200",
@@ -377,23 +377,23 @@
   {
    "id": "M1204",
    "sheet": "M",
-   "terrain": "clear",
-   "settlement": "village",
-   "coastal": true
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
   },
   {
    "id": "M1205",
    "sheet": "M",
-   "terrain": "clear",
-   "settlement": "village",
-   "coastal": true
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
   },
   {
    "id": "M1206",
    "sheet": "M",
-   "terrain": "clear",
-   "settlement": "village",
-   "coastal": true
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
   },
   {
    "id": "M1300",
