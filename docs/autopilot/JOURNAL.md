@@ -251,3 +251,9 @@ Done: Mission 3 Part 0 merged as #60 (R-020–R-022 from the Discord notes; R-00
 In flight: #61 waiting on CI, then merge.
 Next: Part B on `autopilot/map-c`: Task 14.1 map_diff.py (read his codes.py/mapterrain.py/hexsides.py under ~/.cache/cna-njharman/cna_src/src/core/cna/data/, values never copied), 14.2 map_sample.py, then extract Map C (`--zone "Map C"`), diff, ≤150 resolutions. Map C scan page is p189 (Map A p187 carries the Malta inset); record map_pages in tools/sources.json.
 Blocked: none. Brian should glance at Malta's numbering (module rows 05–13 / cols 00–06; the printed inset has no numbers) and M0805 read as sea.
+
+## 2026-09-21 22:02 — autopilot/map-c
+Done: #61 (Part A) and #63 (extractor: dashed tracks, raw M+C regenerated, map_diff) merged. On this branch (#64, draft): map_sample.py + Map C scan grid in sources.json; corrections M-020–M-038 (11 terrain, 1 coast hexside, 3 up, 4 settlement); 16 Map C places; EXTRACTION entry marked in progress. Diff 470 → 285. Plan-vs-spec: the plan lets a sheet PR merge with >150 rows unresolved, the spec says not a merge — following the spec, #64 stays draft.
+In flight: 283 hexside diffs (build/map/diff-C.md, regenerate with `map_diff.py C`); 50-hex sample crops under build/map/sample-C, checklist unfilled.
+Next: decide whether to open extractor PR #2 first (rail-class read for 1px anti-aliased track dashes; a palette class for the blue-white unfinished-railroad chain; slope band threshold — 49 slopes missed) — it would remove most of the 283 rows; then resolve the remainder ≤150 per PR, fill the sample checklist, mark #64 ready.
+Blocked: none.
