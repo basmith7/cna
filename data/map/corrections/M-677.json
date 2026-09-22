@@ -1,0 +1,32 @@
+{
+ "id": "M-677",
+ "target": "hexside",
+ "key": "E4120|E4121",
+ "before": {
+  "key": "E4120|E4121",
+  "a": "E4120",
+  "b": "E4121",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1772,
+   1735,
+   221,
+   180
+  ],
+  "note": "no track crosses this hexside on the scan; the extractor read the letter strokes of the printed place name 'Rosetta' as track dashes"
+ },
+ "superseded": false
+}

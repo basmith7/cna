@@ -36487,32 +36487,12 @@
    "up": null
   },
   {
-   "key": "E1430|E1431",
-   "a": "E1430",
-   "b": "E1431",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
    "key": "E1430|E1530",
    "a": "E1430",
    "b": "E1530",
    "side": null,
    "features": [
     "major-river"
-   ],
-   "up": null
-  },
-  {
-   "key": "E1431|E1432",
-   "a": "E1431",
-   "b": "E1432",
-   "side": null,
-   "features": [
-    "track"
    ],
    "up": null
   },
@@ -37950,16 +37930,6 @@
    "side": null,
    "features": [
     "major-river"
-   ],
-   "up": null
-  },
-  {
-   "key": "E2131|E2132",
-   "a": "E2131",
-   "b": "E2132",
-   "side": null,
-   "features": [
-    "track"
    ],
    "up": null
   },
@@ -39846,26 +39816,6 @@
    "up": null
   },
   {
-   "key": "E2830|E2930",
-   "a": "E2830",
-   "b": "E2930",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
-   "key": "E2830|E2931",
-   "a": "E2830",
-   "b": "E2931",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
    "key": "E2901|E3001",
    "a": "E2901",
    "b": "E3001",
@@ -40406,16 +40356,6 @@
    "up": null
   },
   {
-   "key": "E3027|E3028",
-   "a": "E3027",
-   "b": "E3028",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
    "key": "E3027|E3128",
    "a": "E3027",
    "b": "E3128",
@@ -40947,16 +40887,6 @@
    "up": null
   },
   {
-   "key": "E3222|E3223",
-   "a": "E3222",
-   "b": "E3223",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
    "key": "E3223|E3224",
    "a": "E3223",
    "b": "E3224",
@@ -41145,16 +41075,6 @@
    "side": null,
    "features": [
     "railroad"
-   ],
-   "up": null
-  },
-  {
-   "key": "E3313|E3314",
-   "a": "E3313",
-   "b": "E3314",
-   "side": null,
-   "features": [
-    "track"
    ],
    "up": null
   },
@@ -41642,16 +41562,6 @@
    "up": null
   },
   {
-   "key": "E3419|E3420",
-   "a": "E3419",
-   "b": "E3420",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
    "key": "E3419|E3519",
    "a": "E3419",
    "b": "E3519",
@@ -41896,16 +41806,6 @@
    "up": null
   },
   {
-   "key": "E3511|E3512",
-   "a": "E3511",
-   "b": "E3512",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
    "key": "E3513|E3514",
    "a": "E3513",
    "b": "E3514",
@@ -42079,16 +41979,6 @@
    "side": null,
    "features": [
     "major-river"
-   ],
-   "up": null
-  },
-  {
-   "key": "E3525|E3625",
-   "a": "E3525",
-   "b": "E3625",
-   "side": null,
-   "features": [
-    "track"
    ],
    "up": null
   },
@@ -42569,16 +42459,6 @@
    "up": null
   },
   {
-   "key": "E3715|E3716",
-   "a": "E3715",
-   "b": "E3716",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
    "key": "E3716|E3717",
    "a": "E3716",
    "b": "E3717",
@@ -42807,16 +42687,6 @@
    "side": null,
    "features": [
     "minor-river"
-   ],
-   "up": null
-  },
-  {
-   "key": "E3816|E3817",
-   "a": "E3816",
-   "b": "E3817",
-   "side": null,
-   "features": [
-    "track"
    ],
    "up": null
   },
@@ -43302,16 +43172,6 @@
    "up": null
   },
   {
-   "key": "E4120|E4121",
-   "a": "E4120",
-   "b": "E4121",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
    "key": "E4127|E4227",
    "a": "E4127",
    "b": "E4227",
@@ -43368,16 +43228,6 @@
    "side": null,
    "features": [
     "road"
-   ],
-   "up": null
-  },
-  {
-   "key": "E4327|E4328",
-   "a": "E4327",
-   "b": "E4328",
-   "side": null,
-   "features": [
-    "track"
    ],
    "up": null
   }
