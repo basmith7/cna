@@ -1,0 +1,33 @@
+{
+ "id": "M-303",
+ "target": "hexside",
+ "key": "A1922|A1923",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "A1922|A1923",
+    "a": "A1922",
+    "b": "A1923",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "A1923"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   4037,
+   7070,
+   441,
+   360
+  ],
+  "note": "the hachured slope band rings the depression hex on this side of the hexside (band on the down side), so the outer hex is up"
+ },
+ "superseded": false
+}

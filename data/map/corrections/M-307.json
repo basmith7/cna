@@ -1,0 +1,41 @@
+{
+ "id": "M-307",
+ "target": "hexside",
+ "key": "A2329|A2429",
+ "before": {
+  "key": "A2329|A2429",
+  "a": "A2329",
+  "b": "A2429",
+  "side": null,
+  "features": [
+   "road"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "road",
+    "slope"
+   ]
+  },
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "A2329"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5309,
+   6341,
+   441,
+   360
+  ],
+  "note": "the hachured slope band rings A2429 along this hexside (band on the down side) and the double-line road crosses it"
+ },
+ "superseded": false
+}
