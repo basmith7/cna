@@ -67,7 +67,7 @@ def _col_label(c):
 
 def _wrap(t, title, body):
     case = _case(t)
-    badge = (f'<p class="learn-table-ref"><span class="spi-ref">SPI {case}</span> '
+    badge = (f'<p class="learn-table-ref"><span class="spi-badge spi-ref">SPI {case}</span> '
              f'<code>data/tables/{t["table"]}.json</code></p>')
     return f'<div class="learn-table" data-table="{t["table"]}"><h4>{html.escape(title)}</h4>{badge}{body}</div>'
 

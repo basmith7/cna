@@ -490,22 +490,36 @@ PART_D = """
 
 CSS = """
 body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#faf6ec;color:#222;margin:0;padding:24px;max-width:1240px}
-h1{margin:0 0 4px;font-size:26px} .sub{color:#666;margin:0 0 20px}
-.part{margin:34px 0 4px;font-size:24px;color:#5a3d1a;border-top:3px solid #c9b98f;padding-top:18px}
-.panel{background:#fff;border:1px solid #d8cfb5;border-radius:8px;padding:16px 20px;margin:0 0 22px}
-.panel h2{margin:0 0 12px;font-size:18px;color:#5a3d1a}
-.row{display:flex;gap:20px;align-items:flex-start} .map{flex:0 0 auto} .note{flex:1;font-size:14px;line-height:1.45}
+h1{margin:0 0 4px;font-size:26px} .sub{color:var(--learn-muted,#666);margin:0 0 20px}
+.part{margin:34px 0 4px;font-size:24px;color:var(--learn-accent,#5a3d1a);border-top:3px solid var(--learn-rule,#c9b98f);padding-top:18px}
+.panel{background:var(--learn-panel,#fff);border:1px solid var(--learn-line,#d8cfb5);border-radius:8px;padding:16px 20px;margin:0 0 22px}
+.panel h2{margin:0 0 12px;font-size:18px;color:var(--learn-accent,#5a3d1a)}
+.row{display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap} .map{flex:1 1 560px;min-width:0} .note{flex:1 1 300px;font-size:14px;line-height:1.45}
+.panel svg{display:block;max-width:100%;height:auto}
 .note p{margin:0 0 10px} .note ol{margin:0 0 10px 18px;padding:0} .note li{margin:0 0 6px}
-.cols{display:flex;gap:14px;align-items:stretch} .cols .calc{flex:1;margin-top:0}
+.cols{display:flex;gap:14px;align-items:stretch;flex-wrap:wrap} .cols .calc{flex:1 1 280px;margin-top:0}
 .esc{border-bottom:4px solid #7a3b1e} .rough{background:repeating-linear-gradient(135deg,#e2cf9e 0 3px,#a88d55 3px 4px);padding:0 3px}
-.calc{margin-top:14px;background:#f7f1de;border:1px solid #d8cfb5;border-radius:6px;padding:10px 14px;font-size:13px}
+.calc{margin-top:14px;background:var(--learn-calc,#f7f1de);border:1px solid var(--learn-line,#d8cfb5);border-radius:6px;padding:10px 14px;font-size:13px}
 .calc h3{margin:0 0 8px;font-size:15px}
-table{border-collapse:collapse;width:100%} th,td{text-align:left;vertical-align:top;padding:4px 8px;border-bottom:1px solid #e3dac1}
-th{white-space:nowrap;color:#5a3d1a;font-weight:600}
-.ledger th{border-bottom:2px solid #c9b98f} .bad{color:#b00;font-weight:bold} .warn{color:#b8600b;font-weight:bold}
-.fine{color:#666;font-size:12px;margin:8px 0 0}
-.legend{display:flex;gap:18px;font-size:13px;color:#444;margin:0 0 18px;flex-wrap:wrap}
-.sw{display:inline-block;width:22px;height:14px;vertical-align:middle;border:1px solid #222;margin-right:5px;border-radius:2px}
+table{border-collapse:collapse;width:100%} th,td{text-align:left;vertical-align:top;padding:4px 8px;border-bottom:1px solid var(--learn-line,#e3dac1)}
+th{white-space:nowrap;color:var(--learn-accent,#5a3d1a);font-weight:600}
+.ledger th{border-bottom:2px solid var(--learn-rule,#c9b98f)} .bad{color:var(--learn-bad,#b00);font-weight:bold} .warn{color:var(--learn-warn,#b8600b);font-weight:bold}
+.fine{color:var(--learn-muted,#666);font-size:12px;margin:8px 0 0}
+.legend{display:flex;gap:18px;font-size:13px;color:var(--learn-muted,#444);margin:0 0 18px;flex-wrap:wrap}
+.sw{display:inline-block;width:22px;height:14px;vertical-align:middle;border:1px solid var(--learn-swatch,#222);margin-right:5px;border-radius:2px}
+"""
+
+# Site-only rules, already scoped. `layout: page` hands the primer the full column (the doc layout's 688px
+# would squeeze the notes into a strip beside the map), so the page supplies what .vp-doc would have: link
+# and code styling, page margins, and a palette for the dark scheme through the --learn-* variables above.
+SITE_CSS = """
+.learn{max-width:1240px;margin:0 auto;padding:24px 32px 96px;line-height:1.5} .learn .panel{overflow-x:auto}
+.dark .learn{--learn-accent:#d9b46a;--learn-rule:#5a4a2e;--learn-line:var(--vp-c-divider);--learn-panel:var(--vp-c-bg-soft);--learn-calc:var(--vp-c-bg-alt);--learn-muted:var(--vp-c-text-2);--learn-swatch:var(--vp-c-text-3);--learn-bad:#f0776a;--learn-warn:#e0a24a}
+.learn a{color:var(--vp-c-brand-1);text-decoration:underline;text-underline-offset:2px}
+.learn code{font-family:var(--vp-font-family-mono);font-size:0.9em;background:var(--vp-c-default-soft);padding:2px 5px;border-radius:4px}
+.learn .learn-table{margin:0 0 18px;overflow-x:auto} .learn .learn-table h4{margin:0 0 4px;font-size:15px} .learn .learn-table-ref{margin:0 0 8px}
+.learn .learn-table .spi-badge{margin:0} .learn table.crt{margin:0 0 12px;font-size:13px} .learn table.crt td{white-space:nowrap} .learn table.crt caption{text-align:left;font-weight:600;padding:4px 0}
+@media (max-width:640px){.learn{padding:16px 16px 64px} .learn .panel{padding:12px 14px}}
 """
 
 
@@ -561,7 +575,7 @@ def scoped_css():
             if sels == ["body"]:
                 continue
             out.append(", ".join(f".learn {s}" for s in sels) + "{" + body.strip() + "}")
-    return "\n".join(out)
+    return "\n".join(out) + "\n" + SITE_CSS.strip()
 
 
 def site_markdown():
@@ -597,6 +611,7 @@ def site_markdown():
     body = "\n".join(ln for ln in body.splitlines() if ln.strip())
     return f"""---
 title: Learn
+layout: page
 sidebar: false
 ---
 <div class="learn">
