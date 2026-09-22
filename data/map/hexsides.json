@@ -1,0 +1,117 @@
+{
+ "sources": [
+  "vassal:CNAv2.1.0"
+ ],
+ "hexsides": [
+  {
+   "key": "M1003|M1104",
+   "a": "M1003",
+   "b": "M1104",
+   "side": null,
+   "features": [
+    "coast"
+   ],
+   "up": null
+  },
+  {
+   "key": "M1004|M1104",
+   "a": "M1004",
+   "b": "M1104",
+   "side": null,
+   "features": [
+    "coast"
+   ],
+   "up": null
+  },
+  {
+   "key": "M1004|M1105",
+   "a": "M1004",
+   "b": "M1105",
+   "side": null,
+   "features": [
+    "coast"
+   ],
+   "up": null
+  },
+  {
+   "key": "M1101|M1200",
+   "a": "M1101",
+   "b": "M1200",
+   "side": null,
+   "features": [
+    "minor-river"
+   ],
+   "up": null
+  },
+  {
+   "key": "M1104|M1105",
+   "a": "M1104",
+   "b": "M1105",
+   "side": null,
+   "features": [
+    "coast"
+   ],
+   "up": null
+  },
+  {
+   "key": "M1105|M1106",
+   "a": "M1105",
+   "b": "M1106",
+   "side": null,
+   "features": [
+    "coast"
+   ],
+   "up": null
+  },
+  {
+   "key": "M1105|M1204",
+   "a": "M1105",
+   "b": "M1204",
+   "side": null,
+   "features": [
+    "coast"
+   ],
+   "up": null
+  },
+  {
+   "key": "M1106|M1205",
+   "a": "M1106",
+   "b": "M1205",
+   "side": null,
+   "features": [
+    "coast"
+   ],
+   "up": null
+  },
+  {
+   "key": "M1106|M1206",
+   "a": "M1106",
+   "b": "M1206",
+   "side": null,
+   "features": [
+    "coast"
+   ],
+   "up": null
+  },
+  {
+   "key": "M1204|M1205",
+   "a": "M1204",
+   "b": "M1205",
+   "side": null,
+   "features": [
+    "coast"
+   ],
+   "up": null
+  },
+  {
+   "key": "M1205|M1206",
+   "a": "M1205",
+   "b": "M1206",
+   "side": null,
+   "features": [
+    "coast"
+   ],
+   "up": null
+  }
+ ]
+}
