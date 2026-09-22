@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
 import { spiBadgePlugin } from './spi-badge.mjs'
@@ -7,9 +8,11 @@ export default defineConfig({
   description: 'A restated, reviewed edition of the Campaign for North Africa Land Game rules',
   base: '/cna/',
   srcDir: '..',
-  srcExclude: ['node_modules/**', 'reference/**', 'docs/**', 'tools/**', 'tests/**', 'site/.vitepress/**', '.venv/**', 'EXTRACTION.md', '.superpowers/**', '.claude/**', '.github/**', 'coverage.md'],
+  srcExclude: ['node_modules/**', 'reference/**', 'docs/**', 'tools/**', 'tests/**', 'site/.vitepress/**', '.venv/**', 'EXTRACTION.md', '.superpowers/**', '.claude/**', '.github/**', 'coverage.md', 'site/public/**'],
   outDir: './.vitepress/dist',
   cacheDir: './.vitepress/cache',
+  // srcDir is the repo root, so point Vite's public dir at site/public (the rendered map SVGs)
+  vite: { publicDir: fileURLToPath(new URL('../public', import.meta.url)) },
   cleanUrls: true,
   lastUpdated: true,
   // Rules files are landing one PR at a time (see AUTOPILOT.md); cross-links to
@@ -20,6 +23,7 @@ export default defineConfig({
   rewrites: {
     'README.md': 'index.md',
     'site/learn.md': 'learn.md',
+    'site/map.md': 'map.md',
     'rulings/README.md': 'rulings/index.md',
     'data/README.md': 'data/index.md',
   },
@@ -37,6 +41,7 @@ export default defineConfig({
     nav: [
       { text: 'Rules', link: '/rules/00-overview' },
       { text: 'Learn', link: '/learn' },
+      { text: 'Map', link: '/map' },
       { text: 'Rulings', link: '/rulings/register' },
       { text: 'Data', link: '/data/' },
     ],

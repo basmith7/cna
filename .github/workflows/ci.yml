@@ -23,6 +23,8 @@ jobs:
           key: source-${{ hashFiles('tools/sources.json') }}
       - run: python tools/fetch.py sections > /dev/null
       - run: python tools/check_data.py
+      - run: python tools/map_build.py --check
+      - run: python tools/map_render.py --check
       - run: python tools/check_overlap.py
       - name: Coverage report
         run: |
