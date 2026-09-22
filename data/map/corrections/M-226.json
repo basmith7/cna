@@ -1,0 +1,36 @@
+{
+ "id": "M-226",
+ "target": "hexside",
+ "key": "C3529|C3628",
+ "before": {
+  "key": "C3529|C3628",
+  "a": "C3529",
+  "b": "C3628",
+  "side": null,
+  "features": [
+   "escarpment",
+   "railroad"
+  ],
+  "up": "C3529"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "escarpment"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   2519,
+   2184,
+   220,
+   180
+  ],
+  "note": "no railway crosses this hexside on the scan; the extractor read the dark edge of the escarpment band as railway"
+ },
+ "superseded": false
+}

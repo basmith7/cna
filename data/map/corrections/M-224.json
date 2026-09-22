@@ -1,0 +1,32 @@
+{
+ "id": "M-224",
+ "target": "hexside",
+ "key": "C4316|C4317",
+ "before": {
+  "key": "C4316|C4317",
+  "a": "C4316",
+  "b": "C4317",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1368,
+   1577,
+   220,
+   180
+  ],
+  "note": "the railway passes below this hexside's lower vertex on the scan and does not cross it"
+ },
+ "superseded": false
+}

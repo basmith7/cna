@@ -1,0 +1,33 @@
+{
+ "id": "M-229",
+ "target": "hexside",
+ "key": "C0426|C0527",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "C0426|C0527",
+    "a": "C0426",
+    "b": "C0527",
+    "side": null,
+    "features": [
+     "unfinished-road"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   2331,
+   4695,
+   220,
+   180
+  ],
+  "note": "the dashed double-line unfinished road crosses this hexside near its end vertex on the scan and the redraw"
+ },
+ "superseded": false
+}
