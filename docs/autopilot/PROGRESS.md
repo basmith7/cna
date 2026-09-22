@@ -18,7 +18,7 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**Mission 3 (the map) in progress** — 2026-09-22 05:30 UTC. Parts 0 and A merged, two extractor PRs merged; Part B (Map C) is a draft at the 150-resolution cap with every gate green — **Brian: merge #64 or say the cap should not block it** — and 122 cross-check rows left for the next PR.
+**Mission 3 (the map) in progress** — 2026-09-22 05:30 UTC. Parts 0 and A merged, two extractor PRs merged; Part B (Map C) is a draft at the 150-resolution cap with every gate and CI green — **Brian: merge #64 (`gh pr ready 64 && gh pr merge 64 --merge`) or say in Feedback that the cap should not block it** — and 122 cross-check rows left for the next PR.
 
 Missions 1 and 2 are complete (PRs #2–#13, #17–#57); 20.67 is still the one item only Brian can close (see *Next steps*).
 
