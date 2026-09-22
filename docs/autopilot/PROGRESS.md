@@ -18,7 +18,7 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**Mission 3 (the map) in progress**: 2026-09-22 22:56 UTC. Parts 0 and A are merged, and so are both extractor PRs. Map C and Part D of the primer are finished as three stacked drafts. **Brian: merge #64** (`gh pr ready 64 && gh pr merge 64 --merge`) **or say in Feedback that the cap should not block it.** After that the next run retargets #66 and #67 to `main` and merges them in turn. They stay drafts until then, so that no run merges #66 into #64 and pushes #64 over the 150 cap.
+**Mission 3 (the map) in progress**: 2026-09-22 23:04 UTC. Parts 0 and A are merged, and so are both extractor PRs. Map C and Part D of the primer are finished as three stacked drafts. **Brian: merge #64** (`gh pr ready 64 && gh pr merge 64 --merge`) **or say in Feedback that the cap should not block it.** After that the next run retargets #66 and #67 to `main` and merges them in turn. They stay drafts until then, so that no run merges #66 into #64 and pushes #64 over the 150 cap.
 
 Missions 1 and 2 are complete (PRs #2–#13, #17–#57). 20.67 is still the one item only Brian can close (see *Next steps*).
 
@@ -28,12 +28,12 @@ Missions 1 and 2 are complete (PRs #2–#13, #17–#57). 20.67 is still the one 
 | A | plumbing on Malta (plan Tasks 1–13) | **merged** — `map_geom`, schemas, `sheets.json` (Map A shifts odd rows *east*), extractor cache-first/ids/clip/coast/raw, `map_build`, `check_data` map gate, `map_render` + `/map` page + golden, CI gates, `data/README.md`, EXTRACTION entry; Malta: 63 hexes, 17 corrections (the redraw's title box), 6 places | #61 |
 | extractor | dashed-track detection; slope band threshold (own PRs, every raw regenerated) | **merged** — Map C diff 470 → 297 (#63) → 262 (#65); Malta corrections re-resolved (+M-018, M-019); `map_diff.py` and Map C raw + render landed with #63 | #63, #65 |
 | B | Map C: diff, ≤150 resolutions, `up`, places, 50-hex sample, Part D of the primer | **three stacked drafts, all gates green** — #64: 149 resolutions (116 corrections M-020–M-135 + 33 agrees), 20 places, sample 0/50, at the cap. #66 (base #64): 100 more (93 corrections M-140–M-232 + 7 agrees): 60 missed track crossings, 5 railway hexsides that are tracks, the coastal slope west of Tobruk with `up`, 6 false railway reads removed; Map C diff 155 → **62**, of which **22 left as read** (see below). #67 (base #66): Task 15, Part D of the primer on our own Map C render | #64, #66, #67 (drafts) |
-| C | Maps A, B, D, E | **Map A drafted** — #68 (extractor: Map A's odd-row shift is `west` in the printed numbering; 169 hexsides failed adjacency with `east`) merged; #69 (draft, base #66): raw, 103 corrections M-233–M-335 + 25 agrees = 128 resolutions, 10 places, sample 0/50, 66 rows left (21 borderline terrain majorities, 45 hexside). B, D, E not started | #68, #69 (draft) |
+| C | Maps A, B, D, E | **A and B drafted.** #68 is merged: the extractor now reads Map A's odd-row shift as `west` in the printed numbering. **#69** (Map A, draft, base #66): 108 corrections M-233–M-340 plus 32 agrees = 140 resolutions; 10 places; sample 0/50; 54 rows left. **#70** (Map B, draft, base #69): 125 corrections M-341–M-465 plus 18 agrees = 143 resolutions (84 missed tracks, 39 coastal-escarpment slopes with `up`); sample 0/50; 180 rows left; Map B prints no locations summary. D and E not started | #68, #69, #70 (drafts) |
 | D | docs | not started | — |
 
 ## Next steps
 
-For the autopilot: if #64 has merged, retarget #66 to `main` (`gh pr edit 66 --base main`), run the gates, then mark it ready and merge it once CI is green; then do the same for #67. After that comes Part C, Map A, on `autopilot/map-a` (Task 16 = Task 14 steps 14.3–14.8). If #64 has not merged: Map A is #69, stacked on #66. Its second PR and Map B can stack the same way (next free correction is M-336). Merge order once #64 is in: #66, then #67 and #69.
+For the autopilot: if #64 has merged, retarget #66 to `main` (`gh pr edit 66 --base main`), run the gates, then mark it ready and merge it once CI is green; then do the same for #67. After that comes Part C, Map A, on `autopilot/map-a` (Task 16 = Task 14 steps 14.3–14.8). If #64 has not merged, keep stacking: Map A is #69 and Map B is #70. The next free correction is M-466. Merge order once #64 is in: #66, then #67 and #69, then #70.
 
 For Brian:
 
