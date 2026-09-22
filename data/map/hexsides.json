@@ -1891,6 +1891,7 @@
    "b": "A1603",
    "side": null,
    "features": [
+    "track",
     "wadi"
    ],
    "up": null
@@ -2411,7 +2412,8 @@
    "b": "A1729",
    "side": null,
    "features": [
-    "slope"
+    "slope",
+    "track"
    ],
    "up": "A1729"
   },
@@ -3364,6 +3366,7 @@
    "side": null,
    "features": [
     "slope",
+    "track",
     "wadi"
    ],
    "up": "A2032"
@@ -3796,7 +3799,8 @@
    "b": "A2429",
    "side": null,
    "features": [
-    "slope"
+    "slope",
+    "track"
    ],
    "up": "A2330"
   },
@@ -3836,6 +3840,7 @@
    "b": "A2504",
    "side": null,
    "features": [
+    "track",
     "wadi"
    ],
    "up": null

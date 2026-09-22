@@ -1,0 +1,38 @@
+{
+ "id": "M-338",
+ "target": "hexside",
+ "key": "A2032|A2033",
+ "before": {
+  "key": "A2032|A2033",
+  "a": "A2032",
+  "b": "A2033",
+  "side": null,
+  "features": [
+   "slope",
+   "wadi"
+  ],
+  "up": "A2032"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "slope",
+    "track",
+    "wadi"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   6016,
+   6908,
+   441,
+   360
+  ],
+  "note": "a dashed track crosses this hexside on the scan alongside the feature already read (on the redraw its 1 px dashes run beside the heavier symbol and the extractor did not read them)"
+ },
+ "superseded": false
+}
