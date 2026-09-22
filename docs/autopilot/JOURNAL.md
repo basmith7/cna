@@ -269,3 +269,9 @@ Done: #68 (extractor: odd-row shift in the printed numbering, Map A = west) merg
 In flight: 66 Map A rows unresolved (21 borderline terrain, 45 hexside), 22 left under the cap on #69.
 Next: stack order is #64 ← #66 ← #67 and #64 ← #66 ← #69; once Brian merges #64, retarget and merge in order. Then Map A part 2, then Map B (next free correction M-336+).
 Blocked: #64 merge decision (Brian).
+
+## 2026-09-22 16:03 MST — autopilot/map-b
+Done: #69 Map A at 140 resolutions (M-233–M-340 + 32 agrees). #70 (draft, base autopilot/map-a): Map B raw, scan grid p188 (B3018 (1702,2730) 93.5×80.5), M-341–M-465 + 18 agrees = 143 resolutions, sample 0/50, EXTRACTION entry. Gates green locally.
+In flight: none half-written. Map B has 180 rows left; no printed locations summary on B (places later). Montage: /tmp/mt.py is gone — see the 15:40 entry for the recipe; scale crops by col_w/94 for Map A (188.5 px pitch).
+Next: stack is #64 ← #66 ← {#67, #69 ← #70}. When #64 merges, retarget and merge bottom-up. Then Map A part 2 / Map B part 2 / Map D (next free correction M-466).
+Blocked: #64 merge decision (Brian).
