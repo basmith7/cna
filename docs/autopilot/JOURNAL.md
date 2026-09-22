@@ -275,3 +275,9 @@ Done: #69 Map A at 140 resolutions (M-233–M-340 + 32 agrees). #70 (draft, base
 In flight: none half-written. Map B has 180 rows left; no printed locations summary on B (places later). Montage: /tmp/mt.py is gone — see the 15:40 entry for the recipe; scale crops by col_w/94 for Map A (188.5 px pitch).
 Next: stack is #64 ← #66 ← {#67, #69 ← #70}. When #64 merges, retarget and merge bottom-up. Then Map A part 2 / Map B part 2 / Map D (next free correction M-466).
 Blocked: #64 merge decision (Brian).
+
+## 2026-09-22 16:08 MST — autopilot/map-d
+Done: #71 (draft, base autopilot/map-b): Map D raw, scan grid p190 (D1719 (1750,3800) 94×81), M-466–M-561 + 7 agrees = 103 resolutions, sample 0/50, EXTRACTION entry. Gates green locally.
+In flight: none half-written. Map D has 72 rows left.
+Next: stack is #64 ← #66 ← {#67, #69 ← #70 ← #71}. When #64 merges, retarget and merge bottom-up. Then Map E (next free correction M-562; scan page likely p191) and the part-2 PRs for A, B, D.
+Blocked: #64 merge decision (Brian).
