@@ -1,0 +1,33 @@
+{
+ "id": "M-465",
+ "target": "hexside",
+ "key": "B5705|B5706",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "B5705|B5706",
+    "a": "B5705",
+    "b": "B5706",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "B5706"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   376,
+   466,
+   218,
+   179
+  ],
+  "note": "the hachured slope band lies along this hexside inside B5705 (band on the down side), so B5706 is up"
+ },
+ "superseded": false
+}
