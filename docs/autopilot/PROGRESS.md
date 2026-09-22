@@ -18,7 +18,7 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**Mission 3 (the map) in progress** — 2026-09-22 05:20 UTC. Parts 0 and A merged, two extractor PRs merged; Part B (Map C) is a draft with 98 of the cross-check rows resolved and ~170 to go.
+**Mission 3 (the map) in progress** — 2026-09-22 05:30 UTC. Parts 0 and A merged, two extractor PRs merged; Part B (Map C) is a draft at the 150-resolution cap with every gate green — **Brian: merge #64 or say the cap should not block it** — and 122 cross-check rows left for the next PR.
 
 Missions 1 and 2 are complete (PRs #2–#13, #17–#57); 20.67 is still the one item only Brian can close (see *Next steps*).
 
@@ -27,13 +27,13 @@ Missions 1 and 2 are complete (PRs #2–#13, #17–#57); 20.67 is still the one 
 | 0 | rulings from NJHarman's Discord-game notes | **merged** — R-020 (well draws per stage), R-021 (sweetening attempts), R-022 (52.51 vehicles vs guns); R-007/R-013/R-018 gained the notes as a second source; air/Malta/CHANGE items listed as not imported in `EXTRACTION.md` | #60 |
 | A | plumbing on Malta (plan Tasks 1–13) | **merged** — `map_geom`, schemas, `sheets.json` (Map A shifts odd rows *east*), extractor cache-first/ids/clip/coast/raw, `map_build`, `check_data` map gate, `map_render` + `/map` page + golden, CI gates, `data/README.md`, EXTRACTION entry; Malta: 63 hexes, 17 corrections (the redraw's title box), 6 places | #61 |
 | extractor | dashed-track detection; slope band threshold (own PRs, every raw regenerated) | **merged** — Map C diff 470 → 297 (#63) → 262 (#65); Malta corrections re-resolved (+M-018, M-019); `map_diff.py` and Map C raw + render landed with #63 | #63, #65 |
-| B | Map C: diff, ≤150 resolutions, `up`, places, 50-hex sample, Part D of the primer | **in progress (draft)** — `map_sample.py` + Map C scan grid; 65 corrections M-020–M-084 (11 terrain, 1 coast hexside, 13 slope/`up`, 4 settlement, 32 unfinished railroad — the Matruh–Capuzzo–Tobruk line is printed blue — 4 false tracks from map titles and the frontier wire) + 33 rows verified as ours-right; 16 places; 50-hex sample 0/50 terrain misreads; EXTRACTION entry. **~170 hexside rows unresolved** (78 tracks we miss, 15 tracks alongside the unfinished railroad, 11 slopes, 9 tracks alongside ridges, the rest ones and twos) | #64 (draft) |
+| B | Map C: diff, ≤150 resolutions, `up`, places, 50-hex sample, Part D of the primer | **in progress (draft)** — `map_sample.py` + Map C scan grid; 116 corrections M-020–M-135 (11 terrain, 1 coast hexside, 13 slope/`up`, 4 settlement, 32 unfinished railroad — the Matruh–Capuzzo–Tobruk line is printed blue — 4 false tracks from map titles and the frontier wire, 51 track crossings the redraw's 1 px dashes hid) + 33 rows verified as ours-right = **149 resolutions, at the cap**; 16 places; 50-hex sample 0/50 terrain misreads; EXTRACTION entry; all gates green. **122 hexside rows unresolved** (27 tracks we miss, 15 tracks alongside the unfinished railroad, 11 slopes, 9 tracks alongside ridges, the rest ones and twos) | #64 (draft) |
 | C | Maps A, B, D, E | not started | — |
 | D | docs | not started | — |
 
 ## Next steps
 
-For the autopilot: continue #64 — 52 more resolutions fit under the 150 cap; resolve the remaining rows (regenerate with `map_diff.py C`; crops with `map_sample.py C --hex <id>`), the two big buckets being tracks (78 the second database has that we do not — the redraw's 1 px dashes anti-alias out of the palette on sand and are darker than the rail grey near the frontier; a third extractor pass on the rail-class tolerance may be worth it before hand-resolving; the 38 the other way are done: 33 real crossings, 4 false reads corrected, 1 undecided), then place the Giarabub Oasis palm hexes, mark #64 ready, and go on to Task 15 (Part D of the primer on our Map C).
+For the autopilot: #64 is at the cap and left as a draft per the spec (the plan would merge it); if Brian has merged it, open `autopilot/map-c-2` from `main` for the remaining 122 rows, otherwise keep resolving on #64 only if Feedback says the cap is lifted. Resolve the remaining rows (regenerate with `map_diff.py C`; crops with `map_sample.py C --hex <id>`), the two big buckets being tracks (78 the second database has that we do not — the redraw's 1 px dashes anti-alias out of the palette on sand and are darker than the rail grey near the frontier; a third extractor pass on the rail-class tolerance may be worth it before hand-resolving; the 38 the other way are done: 33 real crossings, 4 false reads corrected, 1 undecided), then place the Giarabub Oasis palm hexes, mark #64 ready, and go on to Task 15 (Part D of the primer on our Map C).
 
 For Brian:
 
