@@ -48,10 +48,24 @@
    "port": false
   },
   {
+   "id": "el-al-thed",
+   "hex": "C0224",
+   "name": "El Al Thed",
+   "kind": "oasis",
+   "port": false
+  },
+  {
    "id": "el-grein",
    "hex": "C1715",
    "name": "el Grein",
    "kind": "village",
+   "port": false
+  },
+  {
+   "id": "el-qaqa",
+   "hex": "C0716",
+   "name": "El Qaqa",
+   "kind": "oasis",
    "port": false
   },
   {
@@ -80,6 +94,20 @@
    "hex": "C1014",
    "name": "Giarabub",
    "kind": "village",
+   "port": false
+  },
+  {
+   "id": "giarabub-oasis-north",
+   "hex": "C0918",
+   "name": "Giarabub Oasis (north hex)",
+   "kind": "oasis",
+   "port": false
+  },
+  {
+   "id": "giarabub-oasis-south",
+   "hex": "C0817",
+   "name": "Giarabub Oasis (south hex)",
+   "kind": "oasis",
    "port": false
   },
   {

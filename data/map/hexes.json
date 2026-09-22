@@ -399,7 +399,7 @@
    "id": "C0224",
    "sheet": "C",
    "terrain": "clear",
-   "settlement": null,
+   "settlement": "oasis",
    "coastal": false
   },
   {
@@ -1498,7 +1498,7 @@
    "id": "C0716",
    "sheet": "C",
    "terrain": "clear",
-   "settlement": null,
+   "settlement": "oasis",
    "coastal": false
   },
   {
@@ -1736,7 +1736,7 @@
    "id": "C0817",
    "sheet": "C",
    "terrain": "salt-marsh",
-   "settlement": null,
+   "settlement": "oasis",
    "coastal": false
   },
   {
@@ -1974,7 +1974,7 @@
    "id": "C0918",
    "sheet": "C",
    "terrain": "salt-marsh",
-   "settlement": null,
+   "settlement": "oasis",
    "coastal": false
   },
   {

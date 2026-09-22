@@ -1,0 +1,30 @@
+{
+ "id": "M-138",
+ "target": "hex",
+ "key": "C0918",
+ "before": {
+  "id": "C0918",
+  "sheet": "C",
+  "terrain": "salt-marsh",
+  "settlement": null,
+  "coastal": false
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/settlement",
+   "value": "oasis"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1509,
+   4331,
+   220,
+   180
+  ],
+  "note": "the oasis (palm) symbol is printed in this hex, labelled 'Giarabub Oasis'"
+ },
+ "superseded": false
+}

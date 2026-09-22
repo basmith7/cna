@@ -1,0 +1,30 @@
+{
+ "id": "M-137",
+ "target": "hex",
+ "key": "C0224",
+ "before": {
+  "id": "C0224",
+  "sheet": "C",
+  "terrain": "clear",
+  "settlement": null,
+  "coastal": false
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/settlement",
+   "value": "oasis"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   2120,
+   4898,
+   220,
+   180
+  ],
+  "note": "the oasis (palm) symbol is printed in this hex, labelled 'El Al Thed'"
+ },
+ "superseded": false
+}
