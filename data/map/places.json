@@ -1,15 +1,93 @@
 {
  "sources": [
   "scan:p187",
-  "vassal:CNAv2.1.0"
+  "vassal:CNAv2.1.0",
+  "scan:p189"
  ],
  "places": [
   {
-   "id": "valletta",
-   "hex": "M0805",
-   "name": "Valletta",
-   "kind": "feature",
+   "id": "bardia",
+   "hex": "C4321",
+   "name": "Bardia",
+   "kind": "major-city",
    "port": true
+  },
+  {
+   "id": "bir-el-gubi",
+   "hex": "C4108",
+   "name": "Bir el Gubi",
+   "kind": "bir",
+   "port": false
+  },
+  {
+   "id": "bir-el-menastir",
+   "hex": "C4419",
+   "name": "Bir el Menastir",
+   "kind": "bir",
+   "port": false
+  },
+  {
+   "id": "bir-scheferzen",
+   "hex": "C3419",
+   "name": "Bir Scheferzen",
+   "kind": "bir",
+   "port": false
+  },
+  {
+   "id": "buq-buq",
+   "hex": "C3926",
+   "name": "Buq Buq",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "el-adem",
+   "hex": "C4507",
+   "name": "El Adem",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "el-grein",
+   "hex": "C1715",
+   "name": "el Grein",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "fort-capuzzo",
+   "hex": "C4020",
+   "name": "Fort Capuzzo",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "fort-maddalena",
+   "hex": "C3019",
+   "name": "Fort Maddalena",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "gambut",
+   "hex": "C4414",
+   "name": "Gambut",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "giarabub",
+   "hex": "C1014",
+   "name": "Giarabub",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "hal-far",
+   "hex": "M0504",
+   "name": "Hal Far",
+   "kind": "feature",
+   "port": false
   },
   {
    "id": "kalafrana",
@@ -17,13 +95,6 @@
    "name": "Kalafrana",
    "kind": "feature",
    "port": true
-  },
-  {
-   "id": "takali",
-   "hex": "M0802",
-   "name": "Takali",
-   "kind": "feature",
-   "port": false
   },
   {
    "id": "luqa",
@@ -40,11 +111,53 @@
    "port": false
   },
   {
-   "id": "hal-far",
-   "hex": "M0504",
-   "name": "Hal Far",
+   "id": "sidi-barrani",
+   "hex": "C4131",
+   "name": "Sidi Barrani",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "sidi-omar",
+   "hex": "C3618",
+   "name": "Sidi Omar",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "siwa",
+   "hex": "C0127",
+   "name": "Siwa",
+   "kind": "oasis",
+   "port": false
+  },
+  {
+   "id": "sollum",
+   "hex": "C4021",
+   "name": "Sollum",
+   "kind": "village",
+   "port": true
+  },
+  {
+   "id": "takali",
+   "hex": "M0802",
+   "name": "Takali",
    "kind": "feature",
    "port": false
+  },
+  {
+   "id": "tobruk",
+   "hex": "C4807",
+   "name": "Tobruk",
+   "kind": "major-city",
+   "port": true
+  },
+  {
+   "id": "valletta",
+   "hex": "M0805",
+   "name": "Valletta",
+   "kind": "feature",
+   "port": true
   }
  ]
 }

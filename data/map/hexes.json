@@ -189,7 +189,7 @@
    "id": "C0127",
    "sheet": "C",
    "terrain": "clear",
-   "settlement": null,
+   "settlement": "oasis",
    "coastal": false
   },
   {
@@ -7756,7 +7756,7 @@
    "id": "C3419",
    "sheet": "C",
    "terrain": "clear",
-   "settlement": "village",
+   "settlement": "bir",
    "coastal": false
   },
   {
@@ -9296,7 +9296,7 @@
    "id": "C4108",
    "sheet": "C",
    "terrain": "clear",
-   "settlement": "village",
+   "settlement": "bir",
    "coastal": false
   },
   {
@@ -9940,7 +9940,7 @@
    "id": "C4419",
    "sheet": "C",
    "terrain": "clear",
-   "settlement": "village",
+   "settlement": "bir",
    "coastal": false
   },
   {

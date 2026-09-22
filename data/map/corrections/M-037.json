@@ -1,0 +1,30 @@
+{
+ "id": "M-037",
+ "target": "hex",
+ "key": "C4108",
+ "before": {
+  "id": "C4108",
+  "sheet": "C",
+  "terrain": "clear",
+  "settlement": "village",
+  "coastal": false
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/settlement",
+   "value": "bir"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   529,
+   1679,
+   300,
+   300
+  ],
+  "note": "the printed label reads 'Bir el Gubi' with the village/bir/oasis symbol; a bir"
+ },
+ "superseded": false
+}
