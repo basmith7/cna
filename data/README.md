@@ -12,6 +12,11 @@ transcribing anything.
 | `schema/*.schema.json` | JSON Schema 2020-12, one per table plus `common.schema.json` for shared `$defs`. |
 | `tables/<concept>.json` | One file per **concept** (terrain effects, close-assault CRT, barrage CRT, anti-armour CRT, weather, fuel consumption, initiative ratings, stacking, CP costs, sequence of play …), *not* per SPI chart. Values **as printed**. Validated against `schema/<concept>.schema.json`. |
 | `errata/E-nnn.json` | Overlays applied to a table at build time. Base values and patches are both inspectable. |
+| `map/sheets.json` | Per map sheet (`A`–`E`, `M` = Malta): VASSAL zone name, printed row/column bounds, and which way odd rows are shifted. |
+| `map/raw/<sheet>.json` | What `tools/map_extract.py` read from the VASSAL redraw: hexes and hexsides, game facts only. Changed only by an extractor PR that regenerates every sheet. |
+| `map/corrections/M-nnn.json` | One hand fix each to a raw record; the evidence is the SPI scan (`seen`), never a third-party database. |
+| `map/hexes.json`, `map/hexsides.json` | Built by `tools/map_build.py` from raw + corrections; never edited by hand (`--check` in CI). |
+| `map/places.json` | Hand-authored named places (the printed *Summary of Important Locations*, ports, oases, airfields as `feature`). |
 
 ## Identifier grammar
 
@@ -25,8 +30,10 @@ transcribing anything.
 | Errata entry | `E-nnn`, sequential, ours | `E-003` |
 | Ruling | `R-nnn`, sequential, ours (see `rulings/README.md`) | `R-012` |
 | Variant | `V-nnn`, sequential, ours | `V-001` |
-| Hex | sheet letter + `RRCC` as printed on the map | `C4023` |
-| Hexside | unordered pair of hexes, stored sorted | `{"a": "C4023", "b": "C4024"}` |
+| Hex | sheet letter (A–E, M = Malta) + `RRCC` as printed on the map | `C4023`, `M0304` |
+| Hexside | `a\|b` with the two hex ids sorted, or `a\|<side>` (E, SE, SW, W, NW, NE) at a sheet edge | `C4023\|C4024`, `C4023\|W` |
+| VASSAL reference (in `sources`) | `vassal:<module>` | `vassal:CNAv2.1.0` |
+| Map correction | `M-nnn`, sequential, ours | `M-004` |
 
 Every record in a table carries `sources: ["CNA1979:8.37", "scan:p96"]` —
 at least the case that defines it and, for transcribed values, the page it
@@ -35,13 +42,21 @@ was read from. `tools/check_data.py` rejects unknown cases.
 ## Hex grid convention
 
 Pointy-top hexes. Columns (`CC`) increase eastward; rows (`RR`) increase
-**northward**; odd rows sit half a hex **west** of even rows. A hex's six
-neighbours are therefore, for even row `r` and column `c`:
-`(r, c±1)`, `(r±1, c)`, `(r±1, c+1)`; and for odd `r`: `(r, c±1)`, `(r±1, c)`,
-`(r±1, c−1)`. Sheet letters A–E; sheet edges join along printed hex numbers.
-This is the convention measured from the archive.org scan of map C in
-`tools/learn_page.py` and is *provisional until the map sub-project confirms
-it against the VASSAL module*.
+**northward**. Whether odd rows sit half a hex **west** or **east** of even
+rows differs per sheet and is recorded in `map/sheets.json` (`odd_rows_shift`;
+map A is `east`, the others `west`): a row shifted west of its neighbours has
+diagonal neighbours at columns `c−1, c`, a row shifted east at `c, c+1`;
+`(r, c±1)` are always neighbours. `tools/map_geom.neighbours` is the
+reference implementation and `check_data.py` uses it to reject non-adjacent
+hexside pairs. Sheet edges join along printed hex numbers.
+
+Slope and escarpment hexsides record the higher hex as `up`; the redraw's
+band is drawn on the **down** side (checked at Sollum C4021 and Halfaya
+C3922, 2026-09-22: the band hexes there are the coastal-plain hexes C4121,
+C4021, C3922, and the Halfaya track climbs south-west from C3922 onto the
+plateau). `pass` is not stored: it is where a track crosses an escarpment
+hexside. Malta carries the VASSAL module's numbering (rows 05–13, columns
+00–06); the printed inset has no hex numbers.
 
 ## Enumerations
 
@@ -56,8 +71,26 @@ Defined once in `schema/common.schema.json` and `$ref`'d from every table:
 | `phase` | initiative-declaration, weather, organisation, arrival, cw-fleet, reserve-designation, movement-combat, truck-convoy, rail, repair, patrol | §5.2 (A–L, no I) |
 | `terrain` | the Terrain Effects Chart's hex types (clear, gravel, salt-marsh, heavy-vegetation, rough, mountain, delta, desert, major-city, swamp, village-bir-oasis, railroad, road, track) plus escarpment, pass, sea | §8.37 |
 | `side` / `nation` | cw, axis / cw, it, de | — |
+| `mapTerrain` | the Terrain Key hex fills: clear, gravel, salt-marsh, heavy-vegetation, rough, mountain, delta, desert, major-city, swamp, sea | Terrain Key, §8.37 |
+| `settlement` | null, major-city, village, bir, oasis | Terrain Key, §8.37 |
+| `hexsideFeature` | escarpment, ridge, slope, wadi, major-river, minor-river, road, unfinished-road, railroad, unfinished-railroad, track, coast, lake | §8.4, Terrain Key |
 
 Adding an enum value is a data PR that must say which case introduces it.
+
+## Map corrections as overlay
+
+`map/raw/<sheet>.json` is what the extractor read from the VASSAL redraw,
+verbatim. Each hand fix is a file `map/corrections/M-nnn.json` naming one
+record (`target` hex or hexside, `key`), its raw form at the time (`before`),
+RFC 6902 `add` / `remove` / `replace` patches (path `""` creates or deletes
+the whole record), and `seen`: the scan page, a crop rectangle and one
+sentence saying what the scan shows. `tools/map_build.py` applies live
+corrections to raw and refuses one whose `before` no longer matches;
+`superseded: true` retires a correction after an extractor change makes it
+moot. Committed map data carries game facts only — no pixel coordinates, no
+colour-coverage ratios. Norman Harman's private hex database is used only to
+*find* candidates for a second look; a correction never cites it, and its
+values are never copied.
 
 ## Errata as overlay
 

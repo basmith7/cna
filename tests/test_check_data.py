@@ -101,3 +101,39 @@ def test_spi_cases_missing_id_fails_closed(tmp_path):
         "cases": [{"section": 8, "kind": "secondary", "anchor": "8_37", "label": "", "page": None}]}))
     errs = check_data.validate_all(d)
     assert any("spi-cases.json" in e and "missing 'id'" in e for e in errs)
+
+
+def make_map(d, hexes, sides, places):
+    (d / "map" / "raw").mkdir(parents=True); (d / "map" / "corrections").mkdir()
+    (d / "map" / "sheets.json").write_text((ROOT / "data" / "map" / "sheets.json").read_text())
+    (d / "map" / "hexes.json").write_text(json.dumps({"sources": ["vassal:CNAv2.1.0"], "hexes": hexes}))
+    (d / "map" / "hexsides.json").write_text(json.dumps({"sources": ["vassal:CNAv2.1.0"], "hexsides": sides}))
+    (d / "map" / "places.json").write_text(json.dumps({"sources": ["scan:p187"], "places": places}))
+
+
+H = lambda i, **kw: {"id": i, "sheet": i[0], "terrain": "clear", "settlement": None, "coastal": False, **kw}
+S = lambda a, b, **kw: {"key": f"{a}|{b}", "a": a, "b": b, "side": None, "features": ["slope"], "up": None, **kw}
+
+
+def test_map_valid_passes(tmp_path):
+    d = make_data(tmp_path)
+    make_map(d, [H("C4023", settlement="village", coastal=True), H("C4024", coastal=True)],
+             [S("C4023", "C4024", up="C4023"),
+              {"key": "C4023|W", "a": "C4023", "b": None, "side": "W", "features": ["coast"], "up": None}],
+             [{"id": "sollum", "hex": "C4023", "name": "Sollum", "kind": "village", "port": True}])
+    assert check_data.validate_all(d) == []
+
+
+def test_map_referential_errors(tmp_path):
+    d = make_data(tmp_path)
+    make_map(d, [H("C4023"), H("C4025")],
+             [S("C4023", "C4025"), S("C4023", "C4099")],
+             [{"id": "x", "hex": "C4023", "name": "X", "kind": "village", "port": False}])
+    errs = "\n".join(check_data.validate_all(d))
+    assert "not adjacent" in errs and "C4099" in errs and "settlement" in errs
+
+
+def test_map_up_must_be_an_endpoint(tmp_path):
+    d = make_data(tmp_path)
+    make_map(d, [H("C4023"), H("C4024")], [S("C4023", "C4024", up="C4025")], [])
+    assert any("up" in e for e in check_data.validate_all(d))

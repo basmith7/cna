@@ -102,6 +102,72 @@ def validate_all(data_dir: pathlib.Path) -> list[str]:
         if isinstance(affects, list):  # otherwise the schema error above already covers it
             for c in sorted(set(map(str, affects)) - known):
                 errors.append(f"errata/{p.name}: affects unknown case {c}")
+    errors += validate_map(data_dir, reg, known)
+    return errors
+
+
+def validate_map(data_dir: pathlib.Path, reg: Registry, known: set[str]) -> list[str]:
+    """data/map/: schemas, then the referential rules data/README.md lists (hexside
+    endpoints exist and are adjacent, keys match, up is an endpoint, coast joins two
+    coastal land hexes, places match settlements one-to-one)."""
+    import map_geom
+    m = data_dir / "map"
+    if not m.is_dir():
+        return []
+    errors: list[str] = []
+    schema_dir = data_dir / "schema"
+    docs = {}
+    for name, schema in (("sheets", "map-sheets"), ("hexes", "map-hexes"), ("hexsides", "map-hexsides"), ("places", "map-places")):
+        p = m / f"{name}.json"
+        if not p.exists():
+            continue
+        docs[name] = _load_json(p, f"map/{p.name}", errors)
+        if docs[name] is not None:
+            errors += _validate(docs[name], schema_dir / f"{schema}.schema.json", reg, f"map/{p.name}")
+    for p in sorted((m / "raw").glob("*.json")) if (m / "raw").is_dir() else []:
+        doc = _load_json(p, f"map/raw/{p.name}", errors)
+        if doc is not None:
+            # a raw file holds both record kinds; each half validates against its own schema
+            errors += _validate({k: doc[k] for k in ("sources", "sheet", "hexes") if k in doc},
+                                schema_dir / "map-hexes.schema.json", reg, f"map/raw/{p.name}")
+            errors += _validate({k: doc[k] for k in ("sources", "sheet", "hexsides") if k in doc},
+                                schema_dir / "map-hexsides.schema.json", reg, f"map/raw/{p.name}")
+    for p in sorted((m / "corrections").glob("M-*.json")) if (m / "corrections").is_dir() else []:
+        doc = _load_json(p, f"map/corrections/{p.name}", errors)
+        if doc is not None:
+            errors += _validate(doc, schema_dir / "map-correction.schema.json", reg, f"map/corrections/{p.name}")
+            if doc.get("id") != p.stem:
+                errors.append(f"map/corrections/{p.name}: id {doc.get('id')} does not match filename")
+    if errors or not all(k in docs and docs[k] for k in ("sheets", "hexes", "hexsides")):
+        return errors
+    sheets = docs["sheets"]["sheets"]
+    hexes = {h["id"]: h for h in docs["hexes"]["hexes"]}
+    for s in docs["hexsides"]["hexsides"]:
+        a, b = s["a"], s["b"]
+        for hid in (a, b):
+            if hid is not None and hid not in hexes:
+                errors.append(f"map/hexsides.json: {s['key']}: unknown hex {hid}")
+        if b is not None and a in hexes and b in hexes and not map_geom.is_adjacent(a, b, sheets):
+            errors.append(f"map/hexsides.json: {s['key']}: {a} and {b} are not adjacent")
+        if s["key"] != map_geom.hexside_key(a, b, s["side"]):
+            errors.append(f"map/hexsides.json: {s['key']}: key does not match a/b/side")
+        if s["up"] is not None and s["up"] not in (a, b):
+            errors.append(f"map/hexsides.json: {s['key']}: up {s['up']} is not an endpoint")
+        if "coast" in s["features"] and b is not None and not all(
+                hexes.get(h, {}).get("coastal") and hexes.get(h, {}).get("terrain") != "sea" for h in (a, b)):
+            errors.append(f"map/hexsides.json: {s['key']}: coast between non-coastal or sea hexes")
+    seen_hex: dict[str, str] = {}
+    for pl in (docs.get("places") or {"places": []})["places"]:
+        h = hexes.get(pl["hex"])
+        if h is None:
+            errors.append(f"map/places.json: {pl['id']}: unknown hex {pl['hex']}")
+            continue
+        if pl["kind"] != "feature":
+            if h["settlement"] != pl["kind"]:
+                errors.append(f"map/places.json: {pl['id']}: hex {pl['hex']} settlement is {h['settlement']!r}, place kind is {pl['kind']!r}")
+            if pl["hex"] in seen_hex:
+                errors.append(f"map/places.json: {pl['id']}: hex {pl['hex']} already has place {seen_hex[pl['hex']]}")
+            seen_hex[pl["hex"]] = pl["id"]
     return errors
 
 

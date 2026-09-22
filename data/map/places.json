@@ -1,0 +1,50 @@
+{
+ "sources": [
+  "scan:p187",
+  "vassal:CNAv2.1.0"
+ ],
+ "places": [
+  {
+   "id": "valletta",
+   "hex": "M0805",
+   "name": "Valletta",
+   "kind": "feature",
+   "port": true
+  },
+  {
+   "id": "kalafrana",
+   "hex": "M0506",
+   "name": "Kalafrana",
+   "kind": "feature",
+   "port": true
+  },
+  {
+   "id": "takali",
+   "hex": "M0802",
+   "name": "Takali",
+   "kind": "feature",
+   "port": false
+  },
+  {
+   "id": "luqa",
+   "hex": "M0704",
+   "name": "Luqa",
+   "kind": "feature",
+   "port": false
+  },
+  {
+   "id": "safi",
+   "hex": "M0604",
+   "name": "Safi",
+   "kind": "feature",
+   "port": false
+  },
+  {
+   "id": "hal-far",
+   "hex": "M0504",
+   "name": "Hal Far",
+   "kind": "feature",
+   "port": false
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "map-places.schema.json",
+  "title": "Named places from the printed Summary of Important Locations plus ports and oases",
+  "type": "object",
+  "required": [
+    "sources",
+    "places"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "sources": {
+      "$ref": "common.schema.json#/$defs/sources"
+    },
+    "places": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "hex",
+          "name",
+          "kind",
+          "port"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "hex": {
+            "$ref": "common.schema.json#/$defs/hexId"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "major-city",
+              "village",
+              "bir",
+              "oasis",
+              "feature"
+            ]
+          },
+          "port": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

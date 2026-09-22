@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "map-correction.schema.json",
+  "title": "One hand correction to the raw map extraction (RFC 6902 ops against one record)",
+  "type": "object",
+  "required": [
+    "id",
+    "target",
+    "key",
+    "before",
+    "patches",
+    "seen",
+    "superseded"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^M-[0-9]{3}$"
+    },
+    "target": {
+      "enum": [
+        "hex",
+        "hexside"
+      ]
+    },
+    "key": {
+      "type": "string",
+      "description": "hex id, or hexside key a|b / a|side"
+    },
+    "before": {
+      "oneOf": [
+        {
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "the raw record when the correction was written (null = record absent); map_build errors if raw differs"
+    },
+    "patches": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "op",
+          "path"
+        ],
+        "properties": {
+          "op": {
+            "enum": [
+              "add",
+              "remove",
+              "replace"
+            ]
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^(/.*)?$"
+          },
+          "value": {}
+        },
+        "if": {
+          "properties": {
+            "op": {
+              "enum": [
+                "add",
+                "replace"
+              ]
+            }
+          }
+        },
+        "then": {
+          "required": [
+            "value"
+          ]
+        }
+      }
+    },
+    "seen": {
+      "type": "object",
+      "required": [
+        "scan",
+        "crop",
+        "note"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "scan": {
+          "$ref": "common.schema.json#/$defs/scanRef"
+        },
+        "crop": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "x, y, w, h on the scan page"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "superseded": {
+      "type": "boolean"
+    }
+  }
+}

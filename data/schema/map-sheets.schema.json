@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "map-sheets.schema.json",
+  "title": "Per-sheet grid convention and printed bounds",
+  "type": "object",
+  "required": [
+    "sources",
+    "sheets"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "sources": {
+      "$ref": "common.schema.json#/$defs/sources"
+    },
+    "sheets": {
+      "type": "object",
+      "minProperties": 6,
+      "maxProperties": 6,
+      "propertyNames": {
+        "pattern": "^[A-EM]$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "zone",
+          "odd_rows_shift",
+          "rows",
+          "cols"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "zone": {
+            "type": "string",
+            "description": "VASSAL zone name, e.g. 'Map C'"
+          },
+          "odd_rows_shift": {
+            "enum": [
+              "west",
+              "east"
+            ]
+          },
+          "rows": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 99
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "cols": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 99
+            },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        }
+      }
+    }
+  }
+}

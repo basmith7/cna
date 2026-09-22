@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "map-hexes.schema.json",
+  "title": "One record per hex (raw/<sheet>.json and hexes.json share this shape)",
+  "type": "object",
+  "required": [
+    "sources",
+    "hexes"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "sources": {
+      "$ref": "common.schema.json#/$defs/sources"
+    },
+    "sheet": {
+      "type": "string",
+      "pattern": "^[A-EM]$"
+    },
+    "hexes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/hex"
+      }
+    }
+  },
+  "$defs": {
+    "hex": {
+      "type": "object",
+      "required": [
+        "id",
+        "sheet",
+        "terrain",
+        "settlement",
+        "coastal"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/hexId"
+        },
+        "sheet": {
+          "type": "string",
+          "pattern": "^[A-EM]$"
+        },
+        "terrain": {
+          "$ref": "common.schema.json#/$defs/mapTerrain"
+        },
+        "settlement": {
+          "$ref": "common.schema.json#/$defs/settlement"
+        },
+        "coastal": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

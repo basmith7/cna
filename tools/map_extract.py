@@ -9,15 +9,18 @@ read by sampling colours at hex centres and hexside midpoints.  Class names
 follow the Terrain Key and the Terrain Effects Chart [8.37] printed on Map A
 (archive.org scan p0187).
 
-Nothing from the module is committed: the map PNG and the derived class map
-are cached under ~/.cache/cna-vassal/ and only the CSVs go to --out.
+Nothing from the module is committed: buildFile.xml, the map PNG and the
+derived class map are cached under ~/.cache/cna-vassal/ (extracted from the
+.vmod on the first run); debug CSVs and crops go to --out (git-ignored), and
+the game-fact raw document goes to --write-raw.
 
 Usage:
-  python3 tools/map_extract.py ~/Downloads/CNAv2.1.0.vmod [--zone "Map C"] [--out build/map]
-    --debug X0 Y0 W H   also write an overlay crop with hex IDs and classes
-    --check             score village/city detection against known locations
+  python3 tools/map_extract.py [--vmod PATH] [--cache-only] [--zone "Map C"] [--out build/map]
+    --write-raw data/map/raw   write raw/<sheet>.json (game facts only)
+    --debug X0 Y0 W H          also write an overlay crop with hex IDs and classes
+    --check                    score village/city detection against known locations
 """
-import argparse, csv, math, os, pathlib, re, zipfile
+import argparse, csv, json, math, os, pathlib, re, sys, zipfile
 from collections import Counter, defaultdict
 
 import numpy as np
@@ -25,8 +28,12 @@ from PIL import Image, ImageDraw, ImageFont
 
 Image.MAX_IMAGE_PIXELS = None
 CACHE = pathlib.Path(os.path.expanduser("~/.cache/cna-vassal"))
+ROOT = pathlib.Path(__file__).resolve().parents[1]
 BOARD = "CNA Original"
 MAP_IMAGE = "CNA Map Vassal Mitch Guthrie 2021.png"
+BUILDFILE = "buildFile.xml"
+VMOD = "CNAv2.1.0.vmod"
+MODULE_REF = "vassal:CNAv2.1.0"
 
 # Flat colours in the redraw.  Left: class; right: what the Terrain Key calls it.
 PALETTE = {
@@ -63,14 +70,26 @@ TOLERANCE = 12    # fills are exact flat colours; keep anti-aliased edge pixels 
 
 
 # --------------------------------------------------------------- buildFile
-def parse_module(vmod):
-    """Return (image_path, zones).  zones: list of dicts with polygon, grid, numbering."""
-    with zipfile.ZipFile(vmod) as z:
-        xml = z.read("buildFile.xml").decode("utf-8")
-        CACHE.mkdir(parents=True, exist_ok=True)
-        img = CACHE / MAP_IMAGE
-        if not img.exists():
-            img.write_bytes(z.read(f"images/{MAP_IMAGE}"))
+def load_zones(cache_dir=CACHE, vmod=None):
+    """(image_path, zones).  Reads buildFile.xml and the PNG from the cache; extracts
+    them from the .vmod (given, or the cached copy) only when missing."""
+    cache_dir = pathlib.Path(cache_dir)
+    xml_path, img = cache_dir / BUILDFILE, cache_dir / MAP_IMAGE
+    if not xml_path.exists() or not img.exists():
+        vmod = pathlib.Path(vmod) if vmod else cache_dir / VMOD
+        if not vmod.exists():
+            raise SystemExit(f"no {BUILDFILE} in {cache_dir} and no .vmod at {vmod}; see tools/sources.json → vassal")
+        with zipfile.ZipFile(vmod) as z:
+            cache_dir.mkdir(parents=True, exist_ok=True)
+            if not xml_path.exists():
+                xml_path.write_bytes(z.read(BUILDFILE))
+            if not img.exists():
+                img.write_bytes(z.read(f"images/{MAP_IMAGE}"))
+    return img, parse_zones(xml_path.read_text("utf-8"))
+
+
+def parse_zones(xml):
+    """zones: list of dicts with polygon, grid, numbering, from buildFile.xml text."""
     i = xml.index(f'name="{BOARD}"')
     j = xml.index("</VASSAL.build.module.map.boardPicker.Board>", i)
     board = xml[i:j]
@@ -100,7 +119,7 @@ def parse_module(vmod):
                           "vLeading": int(a["vLeading"]), "stagger": a["stagger"] == "true",
                           "vDescend": a["vDescend"] == "true", "hDescend": a["hDescend"] == "true",
                           "first": a["first"], "sep": a["sep"]}
-    return img, zones
+    return zones
 
 
 # ---------------------------------------------------------------- geometry
@@ -143,6 +162,40 @@ def hex_name(zone, nx, ny):
     return zone["fmt"].replace("$name$", zone["name"]).replace("$gridLocation$", grid_loc)
 
 
+def sheet_letter(zone_name):
+    return "M" if zone_name == "Malta" else zone_name.replace("Map ", "")
+
+
+def hex_id(zone, nx, ny):
+    """(sheet letter, printed row, printed col).  VASSAL's 'col' (nx, down the page,
+    vDescend) is the printed row; its 'row' (ny, across) is the printed column."""
+    g, num, poly = zone["grid"], zone["num"], zone["poly"]
+    xs, ys = [p[0] for p in poly], [p[1] for p in poly]
+    max_rows = math.floor((max(ys) - min(ys)) / g["dx"] + 0.5)
+    max_cols = math.floor((max(xs) - min(xs)) / g["dy"] + 0.5)
+    col, row = nx, ny
+    if num["vDescend"]: col = max_rows - col
+    if num["hDescend"]: row = max_cols - row
+    if num["stagger"] and nx % 2 != 0:
+        row += -1 if num["hDescend"] else 1
+    return sheet_letter(zone["name"]), col + num["hOff"], row + num["vOff"]
+
+
+def observed_shift(zone):
+    """'west' if odd printed rows sit half a hex west of even rows on this sheet.
+    nx 0 and 1 are consecutive printed rows (vDescend only reverses the order);
+    for a sideways grid hex_center()[0] is the across-the-page (screen x) coordinate."""
+    g = zone["grid"]
+    x = {nx: hex_center(g, nx, 0)[0] for nx in (0, 1)}
+    odd = 1 if hex_id(zone, 1, 0)[1] % 2 == 1 else 0
+    return "west" if x[odd] < x[1 - odd] else "east"
+
+
+def in_bounds(ident, bounds):
+    _, r, c = ident
+    return bounds["rows"][0] <= r <= bounds["rows"][1] and bounds["cols"][0] <= c <= bounds["cols"][1]
+
+
 def point_in_poly(x, y, poly):
     inside = False
     n = len(poly)
@@ -163,7 +216,7 @@ def enumerate_hexes(zone):
         for ny in range(ny_lo, ny_hi + 1):
             cx, cy = hex_center(g, nx, ny)
             if point_in_poly(cx, cy, poly):
-                yield hex_name(zone, nx, ny), (cx, cy)
+                yield (nx, ny), (cx, cy)
 
 
 # Pointy-top hex: edge midpoints at 0,60,..300 degrees from +x (east, clockwise
@@ -313,6 +366,10 @@ def classify_side(cm, cx, cy, inr, deg, terrain, nb_terrain, coastal):
         water = on.get("sea", 0) + on.get("river_edge", 0)
         if water >= 40:
             feats.append(("major_river" if water >= 120 else "minor_river", ""))
+    if terrain != "sea" and nb_terrain not in ("sea", None) and coastal:
+        water = on.get("sea", 0) + on.get("river_edge", 0)
+        if water >= 0.5 * sum(on.values() or [1]):
+            feats.append(("coast", ""))      # an all-sea hexside between two land hexes (inlet, bay)
 
     # crossings: strip on each side of the hexside, must be present on both
     strip_in, strip_out, first = Counter(), Counter(), {}
@@ -335,6 +392,52 @@ def classify_side(cm, cx, cy, inr, deg, terrain, nb_terrain, coastal):
             else:
                 feats.append(("track" if rail_kind(cm, *(hit or first[k])) == "dash" else "railroad", ""))
     return feats
+
+
+# ------------------------------------------------------------- raw output
+TERRAIN_ENUM = {"clear": "clear", "gravel": "gravel", "salt_marsh": "salt-marsh", "heavy_veg": "heavy-vegetation",
+                "rough": "rough", "mountain": "mountain", "delta": "delta", "desert": "desert",
+                "major_city": "major-city", "swamp": "swamp", "sea": "sea", "unknown": "clear"}
+FEATURE_ENUM = {"escarpment": "escarpment", "ridge": "ridge", "slope": "slope", "wadi": "wadi",
+                "major_river": "major-river", "minor_river": "minor-river", "road": "road",
+                "unfinished_road": "unfinished-road", "railroad": "railroad", "track": "track", "coast": "coast"}
+FEATURE_ORDER = ["escarpment", "ridge", "slope", "wadi", "major-river", "minor-river", "road", "unfinished-road",
+                 "railroad", "unfinished-railroad", "track", "coast", "lake"]
+
+
+def raw_records(sheet, hexes, sides):
+    """The committed raw/<sheet>.json document: game-fact fields only."""
+    import map_geom
+    out_h = []
+    for h in hexes:
+        settlement = "major-city" if h["terrain"] == "major_city" else ("village" if h.get("village") else None)
+        out_h.append({"id": h["hex"], "sheet": sheet, "terrain": TERRAIN_ENUM[h["terrain"]],
+                      "settlement": settlement,
+                      "coastal": h["terrain"] != "sea" and (bool(h.get("sea_neighbour")) or float(h.get("cov_sea", 0)) > 0.3)})
+    by_id = {h["id"]: h for h in out_h}
+    merged = {}
+    for r in sides:
+        key = map_geom.hexside_key(r["hex_a"], r["hex_b"] or None, r["side"] if not r["hex_b"] else None)
+        rec = merged.setdefault(key, {"key": key, "a": min(r["hex_a"], r["hex_b"]) if r["hex_b"] else r["hex_a"],
+                                      "b": max(r["hex_a"], r["hex_b"]) if r["hex_b"] else None,
+                                      "side": None if r["hex_b"] else r["side"], "features": [], "up": None})
+        feat = FEATURE_ENUM[r["feature"]]
+        if feat not in rec["features"]:
+            rec["features"].append(feat)
+        if feat == "coast":
+            for hid in (r["hex_a"], r["hex_b"]):      # a water hexside makes both land hexes coastal
+                if hid in by_id:
+                    by_id[hid]["coastal"] = True
+        if feat in ("slope", "escarpment") and r["band_hex"] not in ("", "both"):
+            # the band is drawn on the DOWN side (Task 5 verifies this convention); up = the other hex
+            rec["up"] = r["hex_b"] if r["band_hex"] == r["hex_a"] else r["hex_a"]
+            if not rec["up"]:
+                rec["up"] = None
+    for rec in merged.values():
+        rec["features"].sort(key=FEATURE_ORDER.index)
+    return {"sources": [MODULE_REF], "sheet": sheet,
+            "hexes": sorted(out_h, key=lambda h: h["id"]),
+            "hexsides": sorted(merged.values(), key=lambda s: s["key"])}
 
 
 # ------------------------------------------------------------------ check
@@ -360,16 +463,22 @@ KNOWN = {
 # -------------------------------------------------------------------- main
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("vmod")
+    ap.add_argument("--vmod", help="the .vmod to extract from when the cache is incomplete")
+    ap.add_argument("--cache-only", action="store_true", help="fail unless buildFile.xml and the PNG are already cached")
     ap.add_argument("--zone", action="append", help="restrict to zone name(s), e.g. 'Map C'")
     ap.add_argument("--out", default="build/map")
+    ap.add_argument("--write-raw", metavar="DIR", help="write <DIR>/<sheet>.json (game facts only)")
     ap.add_argument("--debug", nargs=4, type=int, metavar=("X0", "Y0", "W", "H"))
     ap.add_argument("--check", action="store_true")
     args = ap.parse_args()
 
-    img_path, zones = parse_module(args.vmod)
+    if args.cache_only and not ((CACHE / BUILDFILE).exists() and (CACHE / MAP_IMAGE).exists()):
+        sys.exit(f"--cache-only: {BUILDFILE} or the PNG is missing from {CACHE}")
+    img_path, zones = load_zones(CACHE, args.vmod)
     if args.zone:
         zones = [z for z in zones if z["name"] in args.zone]
+    sheets = json.loads((ROOT / "data" / "map" / "sheets.json").read_text())["sheets"]
+    import map_geom
     cm = class_map(img_path)
     out = pathlib.Path(args.out); out.mkdir(parents=True, exist_ok=True)
 
@@ -380,16 +489,26 @@ def main():
     hexes, by_centre = [], {}
     inr = zones[0]["grid"]["dy"] / 2
     for z in zones:
-        n = 0
-        for name, (cx, cy) in enumerate_hexes(z):
+        letter = sheet_letter(z["name"])
+        shift = observed_shift(z)
+        if shift != sheets[letter]["odd_rows_shift"]:
+            sys.exit(f"{z['name']}: odd rows shift {shift} in the module but sheets.json says "
+                     f"{sheets[letter]['odd_rows_shift']}; fix data/map/sheets.json")
+        n, clipped, rows, cols = 0, 0, [], []
+        for (nx, ny), (cx, cy) in enumerate_hexes(z):
+            ident = hex_id(z, nx, ny)
+            rows.append(ident[1]); cols.append(ident[2])
+            if not in_bounds(ident, sheets[letter]):
+                clipped += 1
+                continue
             terrain, cover = classify_hex(cm, cx, cy, inr, blocks)
-            hid = name.replace("Map ", "")
-            hexes.append({"hex": hid, "sheet": z["name"].replace("Map ", ""), "x": cx, "y": cy,
+            hexes.append({"hex": map_geom.format_hex_id(*ident), "sheet": letter, "x": cx, "y": cy,
                           "terrain": terrain, "village": 0,
                           **{f"cov_{k}": cover.get(k, 0) for k in FILLS}})
             by_centre[(cx, cy)] = hexes[-1]
             n += 1
-        print(f"{z['name']}: {n} hexes")
+        print(f"{z['name']} ({letter}): odd rows shift {shift}; observed rows {min(rows)}-{max(rows)}, "
+              f"cols {min(cols)}-{max(cols)}; {n} hexes kept, {clipped} outside sheets.json bounds")
     centres = np.array(list(by_centre))
 
     # a village dot belongs to the hex whose centre is nearest (dots often sit
@@ -414,6 +533,8 @@ def main():
     # pass 2: hexsides, one record per hexside pair
     sides, seen = [], set()
     for h in hexes:
+        h["sea_neighbour"] = int(any((nb := neighbour(h["x"], h["y"], deg)) is not None and nb["terrain"] == "sea"
+                                     for _, deg in SIDES))
         for sname, deg in SIDES:
             nb = neighbour(h["x"], h["y"], deg)
             key = frozenset([h["hex"], nb["hex"]]) if nb else (h["hex"], sname)
@@ -426,10 +547,20 @@ def main():
                 sides.append({"hex_a": h["hex"], "side": sname, "hex_b": nb["hex"] if nb else "",
                               "feature": feat, "band_hex": band_hex})
 
-    with open(out / "hexes.csv", "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(hexes[0].keys())); w.writeheader(); w.writerows(hexes)
-    with open(out / "hexsides.csv", "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["hex_a", "side", "hex_b", "feature", "band_hex"]); w.writeheader(); w.writerows(sides)
+    # per-sheet debug CSVs (pixel centres and coverage stay here, never in data/)
+    for z in zones:
+        letter = sheet_letter(z["name"])
+        hs = [h for h in hexes if h["sheet"] == letter]
+        ss = [r for r in sides if r["hex_a"][0] == letter]
+        with open(out / f"debug-{letter}.csv", "w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=list(hexes[0].keys())); w.writeheader(); w.writerows(hs)
+        with open(out / f"debug-{letter}-hexsides.csv", "w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=["hex_a", "side", "hex_b", "feature", "band_hex"]); w.writeheader(); w.writerows(ss)
+        if args.write_raw:
+            raw_dir = pathlib.Path(args.write_raw); raw_dir.mkdir(parents=True, exist_ok=True)
+            doc = raw_records(letter, hs, ss)
+            (raw_dir / f"{letter}.json").write_text(json.dumps(doc, indent=1, ensure_ascii=False) + "\n")
+            print(f"wrote {raw_dir / f'{letter}.json'}: {len(doc['hexes'])} hexes, {len(doc['hexsides'])} hexsides")
     print(f"terrain: {Counter(h['terrain'] for h in hexes).most_common()}")
     print(f"villages: {sum(h['village'] for h in hexes)}")
     print(f"hexside features: {Counter(r['feature'] for r in sides).most_common()}")
@@ -468,7 +599,7 @@ def main():
         byid = {h["hex"]: h for h in hexes}
         fc = {"escarpment": (255, 0, 0), "ridge": (255, 140, 0), "slope": (255, 200, 0), "wadi": (0, 200, 200),
               "road": (120, 60, 0), "unfinished_road": (200, 120, 60), "railroad": (0, 0, 0), "track": (120, 120, 120),
-              "major_river": (0, 0, 255), "minor_river": (100, 100, 255)}
+              "major_river": (0, 0, 255), "minor_river": (100, 100, 255), "coast": (0, 120, 255)}
         for r in sides:
             hx = byid[r["hex_a"]]; a = math.radians(dict(SIDES)[r["side"]])
             mx, my = hx["x"] - x0 + inr * 0.8 * math.cos(a), hx["y"] - y0 + inr * 0.8 * math.sin(a)

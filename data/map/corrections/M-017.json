@@ -1,0 +1,32 @@
+{
+ "id": "M-017",
+ "target": "hexside",
+ "key": "M1101|M1200",
+ "before": {
+  "key": "M1101|M1200",
+  "a": "M1101",
+  "b": "M1200",
+  "side": null,
+  "features": [
+   "minor-river"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   270,
+   550,
+   220,
+   220
+  ],
+  "note": "the north-west bay is a sea inlet; no river is printed on Malta"
+ },
+ "superseded": false
+}
