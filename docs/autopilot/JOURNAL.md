@@ -257,3 +257,9 @@ Done: #61 (Part A) and #63 (extractor: dashed tracks, raw M+C regenerated, map_d
 In flight: 283 hexside diffs (build/map/diff-C.md, regenerate with `map_diff.py C`); 50-hex sample crops under build/map/sample-C, checklist unfilled.
 Next: decide whether to open extractor PR #2 first (rail-class read for 1px anti-aliased track dashes; a palette class for the blue-white unfinished-railroad chain; slope band threshold — 49 slopes missed) — it would remove most of the 283 rows; then resolve the remainder ≤150 per PR, fill the sample checklist, mark #64 ready.
 Blocked: none.
+
+## 2026-09-21 22:12 — autopilot/map-c
+Done: #65 (extractor #2: slope band threshold 100→60; raw regenerated) merged and merged into this branch. On #64 (draft): corrections now M-020–M-080 (11 terrain, 1 coast, 3+10 slope/up, 4 settlement, 32 unfinished railroad — the Matruh–Capuzzo–Tobruk line is printed blue), 16 places, sample 0/50 terrain misreads, map_diff skips cross-sheet keys, EXTRACTION entry current. Diff 470 → 210 (207 hexside rows left).
+In flight: nothing half-written; `build/map/diff-C.md` regenerates with `map_diff.py C`; sample checklist filled under build/map/sample-C.
+Next: resolve the 207 rows to ≤150-per-PR pace: the big buckets are 78 "- → track" and 38 "track → -" (view redraw+scan crops; a track that only clips a hex is not a crossing), 15 tracks alongside the unfinished railroad (his DB lists both; the scan shows only the blue line — likely "agrees with the redraw" rows), 11 slopes (C0522|C0523 and the Tobruk coast run C4610–C4616|C47xx), 9 tracks alongside ridges. When under 150 remaining, place the Giarabub Oasis palm hexes, run the gate line, `gh pr ready 64`. Then Task 15 (Part D of the primer).
+Blocked: none. For Brian: `up` at C0323|C0423 (see EXTRACTION).
