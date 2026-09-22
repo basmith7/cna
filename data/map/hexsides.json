@@ -2789,16 +2789,6 @@
    "up": null
   },
   {
-   "key": "C2008|C2009",
-   "a": "C2008",
-   "b": "C2009",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
    "key": "C2013|C2114",
    "a": "C2013",
    "b": "C2114",
@@ -2852,16 +2842,6 @@
    "key": "C2025|C2126",
    "a": "C2025",
    "b": "C2126",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
-   "key": "C2027|C2028",
-   "a": "C2027",
-   "b": "C2028",
    "side": null,
    "features": [
     "track"
@@ -3612,16 +3592,6 @@
    "key": "C2918|C3018",
    "a": "C2918",
    "b": "C3018",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
-   "key": "C2919|C2920",
-   "a": "C2919",
-   "b": "C2920",
    "side": null,
    "features": [
     "track"

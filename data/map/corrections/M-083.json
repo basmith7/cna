@@ -1,0 +1,32 @@
+{
+ "id": "M-083",
+ "target": "hexside",
+ "key": "C2919|C2920",
+ "before": {
+  "key": "C2919|C2920",
+  "a": "C2919",
+  "b": "C2920",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1650,
+   2711,
+   220,
+   180
+  ],
+  "note": "only the frontier wire (blue-white chain) runs here; no track crosses"
+ },
+ "superseded": false
+}

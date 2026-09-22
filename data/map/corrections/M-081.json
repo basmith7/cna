@@ -1,0 +1,32 @@
+{
+ "id": "M-081",
+ "target": "hexside",
+ "key": "C2008|C2009",
+ "before": {
+  "key": "C2008|C2009",
+  "a": "C2008",
+  "b": "C2009",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   663,
+   3440,
+   220,
+   180
+  ],
+  "note": "open clear ground under the printed 'LIBYA' title; no track crosses (the redraw's letter stroke was read as a track)"
+ },
+ "superseded": false
+}

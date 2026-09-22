@@ -1,0 +1,32 @@
+{
+ "id": "M-082",
+ "target": "hexside",
+ "key": "C2027|C2028",
+ "before": {
+  "key": "C2027|C2028",
+  "a": "C2027",
+  "b": "C2028",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   2449,
+   3440,
+   220,
+   180
+  ],
+  "note": "open clear ground under the printed 'EGYPT' title; no track crosses (the redraw's letter stroke was read as a track)"
+ },
+ "superseded": false
+}
