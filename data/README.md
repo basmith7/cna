@@ -43,8 +43,9 @@ was read from. `tools/check_data.py` rejects unknown cases.
 
 Pointy-top hexes. Columns (`CC`) increase eastward; rows (`RR`) increase
 **northward**. Whether odd rows sit half a hex **west** or **east** of even
-rows differs per sheet and is recorded in `map/sheets.json` (`odd_rows_shift`;
-map A is `east`, the others `west`): a row shifted west of its neighbours has
+rows differs per sheet and is recorded in `map/sheets.json` (`odd_rows_shift`,
+in the printed numbering: every sheet is `west`; Map A's odd rows sit east on
+screen but its numbering is staggered one column, which comes to the same): a row shifted west of its neighbours has
 diagonal neighbours at columns `c−1, c`, a row shifted east at `c, c+1`;
 `(r, c±1)` are always neighbours. `tools/map_geom.neighbours` is the
 reference implementation and `check_data.py` uses it to reject non-adjacent
