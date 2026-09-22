@@ -117,7 +117,7 @@ def write_report(sheet, diffs, out_dir=OUT):
     p = out_dir / f"diff-{sheet}.md"
     lines = [f"# Map {sheet}: {len(diffs)} differences (ours vs the second database)", "",
              "| kind | key | ours | theirs |", "|---|---|---|---|"]
-    lines += [f"| {d['kind']} | {d['key']} | {d['ours']} | {d['theirs']} |" for d in diffs]
+    lines += [f"| {d['kind']} | {d['key'].replace('|', chr(92) + '|')} | {d['ours']} | {d['theirs']} |" for d in diffs]
     p.write_text("\n".join(lines) + "\n")
     return p
 
