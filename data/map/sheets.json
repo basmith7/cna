@@ -5,14 +5,14 @@
   "sheets": {
     "A": {
       "zone": "Map A",
-      "odd_rows_shift": "west",
+      "odd_rows_shift": "east",
       "rows": [
         1,
-        99
+        56
       ],
       "cols": [
         1,
-        99
+        33
       ]
     },
     "B": {
@@ -20,11 +20,11 @@
       "odd_rows_shift": "west",
       "rows": [
         1,
-        99
+        61
       ],
       "cols": [
         1,
-        99
+        33
       ]
     },
     "C": {
@@ -32,11 +32,11 @@
       "odd_rows_shift": "west",
       "rows": [
         1,
-        99
+        51
       ],
       "cols": [
         1,
-        99
+        33
       ]
     },
     "D": {
@@ -44,11 +44,11 @@
       "odd_rows_shift": "west",
       "rows": [
         1,
-        99
+        42
       ],
       "cols": [
         1,
-        99
+        33
       ]
     },
     "E": {
@@ -56,23 +56,23 @@
       "odd_rows_shift": "west",
       "rows": [
         1,
-        99
+        44
       ],
       "cols": [
         1,
-        99
+        34
       ]
     },
     "M": {
       "zone": "Malta",
       "odd_rows_shift": "west",
       "rows": [
-        1,
-        99
+        5,
+        13
       ],
       "cols": [
-        1,
-        99
+        0,
+        6
       ]
     }
   }

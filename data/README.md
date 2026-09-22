@@ -39,6 +39,11 @@ Pointy-top hexes. Columns (`CC`) increase eastward; rows (`RR`) increase
 neighbours are therefore, for even row `r` and column `c`:
 `(r, c±1)`, `(r±1, c)`, `(r±1, c+1)`; and for odd `r`: `(r, c±1)`, `(r±1, c)`,
 `(r±1, c−1)`. Sheet letters A–E; sheet edges join along printed hex numbers.
+Slope and escarpment hexsides record the higher hex as `up`; the redraw's
+band is drawn on the **down** side (checked at Sollum C4021 and Halfaya
+C3922, 2026-09-22: the band hexes there are the coastal-plain hexes C4121,
+C4021, C3922, and the Halfaya track climbs south-west from C3922 onto the
+plateau).
 This is the convention measured from the archive.org scan of map C in
 `tools/learn_page.py` and is *provisional until the map sub-project confirms
 it against the VASSAL module*.
