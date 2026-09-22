@@ -1,0 +1,32 @@
+{
+ "id": "M-426",
+ "target": "hexside",
+ "key": "B4717|B4816",
+ "before": {
+  "key": "B4717|B4816",
+  "a": "B4717",
+  "b": "B4816",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   1428,
+   1231,
+   218,
+   179
+  ],
+  "note": "no track crosses this hexside on the scan; the track through B4816 passes above it, and the wadi's edge runs here"
+ },
+ "superseded": false
+}
