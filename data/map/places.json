@@ -1,261 +1,261 @@
 {
-  "sources": [
-    "scan:p187",
-    "vassal:CNAv2.1.0",
-    "scan:p189"
-  ],
-  "places": [
-    {
-      "id": "agedabia",
-      "hex": "A2629",
-      "name": "Agedabia",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "bardia",
-      "hex": "C4321",
-      "name": "Bardia",
-      "kind": "major-city",
-      "port": true
-    },
-    {
-      "id": "benghazi",
-      "hex": "A4827",
-      "name": "Benghazi",
-      "kind": "major-city",
-      "port": true
-    },
-    {
-      "id": "benina",
-      "hex": "A4829",
-      "name": "Benina",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "bir-el-gubi",
-      "hex": "C4108",
-      "name": "Bir el Gubi",
-      "kind": "bir",
-      "port": false
-    },
-    {
-      "id": "bir-el-menastir",
-      "hex": "C4419",
-      "name": "Bir el Menastir",
-      "kind": "bir",
-      "port": false
-    },
-    {
-      "id": "bir-scheferzen",
-      "hex": "C3419",
-      "name": "Bir Scheferzen",
-      "kind": "bir",
-      "port": false
-    },
-    {
-      "id": "buq-buq",
-      "hex": "C3926",
-      "name": "Buq Buq",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "el-adem",
-      "hex": "C4507",
-      "name": "El Adem",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "el-agheila",
-      "hex": "A1816",
-      "name": "El Agheila",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "el-al-thed",
-      "hex": "C0224",
-      "name": "El Al Thed",
-      "kind": "oasis",
-      "port": false
-    },
-    {
-      "id": "el-grein",
-      "hex": "C1715",
-      "name": "el Grein",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "el-qaqa",
-      "hex": "C0716",
-      "name": "El Qaqa",
-      "kind": "oasis",
-      "port": false
-    },
-    {
-      "id": "fort-capuzzo",
-      "hex": "C4020",
-      "name": "Fort Capuzzo",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "fort-maddalena",
-      "hex": "C3019",
-      "name": "Fort Maddalena",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "gambut",
-      "hex": "C4414",
-      "name": "Gambut",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "giarabub",
-      "hex": "C1014",
-      "name": "Giarabub",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "giarabub-oasis-north",
-      "hex": "C0918",
-      "name": "Giarabub Oasis (north hex)",
-      "kind": "oasis",
-      "port": false
-    },
-    {
-      "id": "giarabub-oasis-south",
-      "hex": "C0817",
-      "name": "Giarabub Oasis (south hex)",
-      "kind": "oasis",
-      "port": false
-    },
-    {
-      "id": "hal-far",
-      "hex": "M0504",
-      "name": "Hal Far",
-      "kind": "feature",
-      "port": false
-    },
-    {
-      "id": "kalafrana",
-      "hex": "M0506",
-      "name": "Kalafrana",
-      "kind": "feature",
-      "port": true
-    },
-    {
-      "id": "luqa",
-      "hex": "M0704",
-      "name": "Luqa",
-      "kind": "feature",
-      "port": false
-    },
-    {
-      "id": "marble-arch",
-      "hex": "A2109",
-      "name": "Marble Arch",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "mersa-brega",
-      "hex": "A2021",
-      "name": "Mersa Brega",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "nofilia",
-      "hex": "A2703",
-      "name": "Nofilia",
-      "kind": "village",
-      "port": true
-    },
-    {
-      "id": "ras-el-ali",
-      "hex": "A2010",
-      "name": "Ras el Ali",
-      "kind": "village",
-      "port": true
-    },
-    {
-      "id": "safi",
-      "hex": "M0604",
-      "name": "Safi",
-      "kind": "feature",
-      "port": false
-    },
-    {
-      "id": "sidi-barrani",
-      "hex": "C4131",
-      "name": "Sidi Barrani",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "sidi-omar",
-      "hex": "C3618",
-      "name": "Sidi Omar",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "siwa",
-      "hex": "C0127",
-      "name": "Siwa",
-      "kind": "oasis",
-      "port": false
-    },
-    {
-      "id": "sollum",
-      "hex": "C4021",
-      "name": "Sollum",
-      "kind": "village",
-      "port": true
-    },
-    {
-      "id": "soluch",
-      "hex": "A4130",
-      "name": "Soluch",
-      "kind": "village",
-      "port": false
-    },
-    {
-      "id": "takali",
-      "hex": "M0802",
-      "name": "Takali",
-      "kind": "feature",
-      "port": false
-    },
-    {
-      "id": "tobruk",
-      "hex": "C4807",
-      "name": "Tobruk",
-      "kind": "major-city",
-      "port": true
-    },
-    {
-      "id": "valletta",
-      "hex": "M0805",
-      "name": "Valletta",
-      "kind": "feature",
-      "port": true
-    },
-    {
-      "id": "zuetina",
-      "hex": "A2928",
-      "name": "Zuetina",
-      "kind": "village",
-      "port": true
-    }
-  ]
+ "sources": [
+  "scan:p187",
+  "vassal:CNAv2.1.0",
+  "scan:p189"
+ ],
+ "places": [
+  {
+   "id": "agedabia",
+   "hex": "A2629",
+   "name": "Agedabia",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "bardia",
+   "hex": "C4321",
+   "name": "Bardia",
+   "kind": "major-city",
+   "port": true
+  },
+  {
+   "id": "benghazi",
+   "hex": "A4827",
+   "name": "Benghazi",
+   "kind": "major-city",
+   "port": true
+  },
+  {
+   "id": "benina",
+   "hex": "A4829",
+   "name": "Benina",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "bir-el-gubi",
+   "hex": "C4108",
+   "name": "Bir el Gubi",
+   "kind": "bir",
+   "port": false
+  },
+  {
+   "id": "bir-el-menastir",
+   "hex": "C4419",
+   "name": "Bir el Menastir",
+   "kind": "bir",
+   "port": false
+  },
+  {
+   "id": "bir-scheferzen",
+   "hex": "C3419",
+   "name": "Bir Scheferzen",
+   "kind": "bir",
+   "port": false
+  },
+  {
+   "id": "buq-buq",
+   "hex": "C3926",
+   "name": "Buq Buq",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "el-adem",
+   "hex": "C4507",
+   "name": "El Adem",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "el-agheila",
+   "hex": "A1816",
+   "name": "El Agheila",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "el-al-thed",
+   "hex": "C0224",
+   "name": "El Al Thed",
+   "kind": "oasis",
+   "port": false
+  },
+  {
+   "id": "el-grein",
+   "hex": "C1715",
+   "name": "el Grein",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "el-qaqa",
+   "hex": "C0716",
+   "name": "El Qaqa",
+   "kind": "oasis",
+   "port": false
+  },
+  {
+   "id": "fort-capuzzo",
+   "hex": "C4020",
+   "name": "Fort Capuzzo",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "fort-maddalena",
+   "hex": "C3019",
+   "name": "Fort Maddalena",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "gambut",
+   "hex": "C4414",
+   "name": "Gambut",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "giarabub",
+   "hex": "C1014",
+   "name": "Giarabub",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "giarabub-oasis-north",
+   "hex": "C0918",
+   "name": "Giarabub Oasis (north hex)",
+   "kind": "oasis",
+   "port": false
+  },
+  {
+   "id": "giarabub-oasis-south",
+   "hex": "C0817",
+   "name": "Giarabub Oasis (south hex)",
+   "kind": "oasis",
+   "port": false
+  },
+  {
+   "id": "hal-far",
+   "hex": "M0504",
+   "name": "Hal Far",
+   "kind": "feature",
+   "port": false
+  },
+  {
+   "id": "kalafrana",
+   "hex": "M0506",
+   "name": "Kalafrana",
+   "kind": "feature",
+   "port": true
+  },
+  {
+   "id": "luqa",
+   "hex": "M0704",
+   "name": "Luqa",
+   "kind": "feature",
+   "port": false
+  },
+  {
+   "id": "marble-arch",
+   "hex": "A2109",
+   "name": "Marble Arch",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "mersa-brega",
+   "hex": "A2021",
+   "name": "Mersa Brega",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "nofilia",
+   "hex": "A2703",
+   "name": "Nofilia",
+   "kind": "village",
+   "port": true
+  },
+  {
+   "id": "ras-el-ali",
+   "hex": "A2010",
+   "name": "Ras el Ali",
+   "kind": "village",
+   "port": true
+  },
+  {
+   "id": "safi",
+   "hex": "M0604",
+   "name": "Safi",
+   "kind": "feature",
+   "port": false
+  },
+  {
+   "id": "sidi-barrani",
+   "hex": "C4131",
+   "name": "Sidi Barrani",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "sidi-omar",
+   "hex": "C3618",
+   "name": "Sidi Omar",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "siwa",
+   "hex": "C0127",
+   "name": "Siwa",
+   "kind": "oasis",
+   "port": false
+  },
+  {
+   "id": "sollum",
+   "hex": "C4021",
+   "name": "Sollum",
+   "kind": "village",
+   "port": true
+  },
+  {
+   "id": "soluch",
+   "hex": "A4130",
+   "name": "Soluch",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "takali",
+   "hex": "M0802",
+   "name": "Takali",
+   "kind": "feature",
+   "port": false
+  },
+  {
+   "id": "tobruk",
+   "hex": "C4807",
+   "name": "Tobruk",
+   "kind": "major-city",
+   "port": true
+  },
+  {
+   "id": "valletta",
+   "hex": "M0805",
+   "name": "Valletta",
+   "kind": "feature",
+   "port": true
+  },
+  {
+   "id": "zuetina",
+   "hex": "A2928",
+   "name": "Zuetina",
+   "kind": "village",
+   "port": true
+  }
+ ]
 }
