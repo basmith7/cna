@@ -1,0 +1,41 @@
+{
+ "id": "M-210",
+ "target": "hexside",
+ "key": "C4615|C4716",
+ "before": {
+  "key": "C4615|C4716",
+  "a": "C4615",
+  "b": "C4716",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "slope",
+    "track"
+   ]
+  },
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "C4615"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1297,
+   1293,
+   220,
+   180
+  ],
+  "note": "the hachured slope band runs along this hexside on the coastal side (the scan draws the hexside bold, as on the other slope hexsides); band on the down side, so the inland hex is up"
+ },
+ "superseded": false
+}

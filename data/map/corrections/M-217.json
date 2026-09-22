@@ -1,0 +1,37 @@
+{
+ "id": "M-217",
+ "target": "hexside",
+ "key": "C4608|C4609",
+ "before": {
+  "key": "C4608|C4609",
+  "a": "C4608",
+  "b": "C4609",
+  "side": null,
+  "features": [
+   "unfinished-road",
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "road",
+    "unfinished-railroad"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   663,
+   1334,
+   220,
+   180
+  ],
+  "note": "the railway here is printed in blue with ties (unfinished railroad) and the double-line coast road crosses the hexside near its upper vertex; no unfinished road crosses it"
+ },
+ "superseded": false
+}

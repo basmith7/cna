@@ -1,0 +1,37 @@
+{
+ "id": "M-215",
+ "target": "hexside",
+ "key": "C0227|C0327",
+ "before": {
+  "key": "C0227|C0327",
+  "a": "C0227",
+  "b": "C0327",
+  "side": null,
+  "features": [
+   "slope",
+   "road"
+  ],
+  "up": "C0327"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "slope",
+    "unfinished-road"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   2378,
+   4857,
+   220,
+   180
+  ],
+  "note": "the road crossing this slope hexside is printed with dashed double lines, the Terrain Key's unfinished-road symbol"
+ },
+ "superseded": false
+}

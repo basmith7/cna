@@ -1,0 +1,39 @@
+{
+ "id": "M-218",
+ "target": "hexside",
+ "key": "C4607|C4707",
+ "before": {
+  "key": "C4607|C4707",
+  "a": "C4607",
+  "b": "C4707",
+  "side": null,
+  "features": [
+   "slope",
+   "unfinished-road",
+   "track"
+  ],
+  "up": "C4607"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "slope",
+    "unfinished-railroad",
+    "unfinished-road"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   498,
+   1293,
+   220,
+   180
+  ],
+  "note": "the blue tied line (unfinished railroad) and the dashed double-line unfinished road both cross this slope hexside; the extractor read the ties as a track"
+ },
+ "superseded": false
+}

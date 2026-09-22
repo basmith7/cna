@@ -1,0 +1,38 @@
+{
+ "id": "M-219",
+ "target": "hexside",
+ "key": "C4707|C4807",
+ "before": {
+  "key": "C4707|C4807",
+  "a": "C4707",
+  "b": "C4807",
+  "side": null,
+  "features": [
+   "slope",
+   "track"
+  ],
+  "up": "C4707"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "slope",
+    "unfinished-railroad",
+    "unfinished-road"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   498,
+   1212,
+   220,
+   180
+  ],
+  "note": "the blue tied line (unfinished railroad) and the dashed double-line unfinished road both cross this slope hexside into Tobruk; the extractor read the ties as a track"
+ },
+ "superseded": false
+}

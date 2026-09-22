@@ -1,0 +1,41 @@
+{
+ "id": "M-213",
+ "target": "hexside",
+ "key": "C4806|C4807",
+ "before": {
+  "key": "C4806|C4807",
+  "a": "C4806",
+  "b": "C4807",
+  "side": null,
+  "features": [
+   "road"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "road",
+    "slope"
+   ]
+  },
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "C4806"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   475,
+   1172,
+   220,
+   180
+  ],
+  "note": "the hachured slope band runs along this hexside inside the Tobruk hex (band on the down side), and the coast road crosses it"
+ },
+ "superseded": false
+}
