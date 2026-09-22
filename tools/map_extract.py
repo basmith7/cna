@@ -68,6 +68,7 @@ NONE = 255
 FILLS = ("clear", "sea", "rough", "salt_marsh", "desert", "delta", "mountain", "heavy_veg")
 TOLERANCE = 12    # fills are exact flat colours; keep anti-aliased edge pixels out
 RAIL_THR = 3          # rail-class pixels needed on each side of a hexside (dashed tracks are sparse)
+RIDGE_THR = 60        # ridge/slope band pixels in a 7px disc beside the hexside (the band is ~8px wide)
 RAIL_OFFS = (6, 13)   # distances from the hexside at which the rail band is sampled
 
 
@@ -357,7 +358,7 @@ def classify_side(cm, cx, cy, inr, deg, terrain, nb_terrain, coastal):
 
     if max(on.get("escarpment", 0), inside.get("escarpment", 0), outside.get("escarpment", 0)) >= 25:
         feats.append(("escarpment", side_of("escarpment", 15) or "both"))
-    rs = side_of("ridge_slope", 100)
+    rs = side_of("ridge_slope", RIDGE_THR)
     if rs == "both":
         feats.append(("ridge", "both"))
     elif rs:
@@ -395,6 +396,7 @@ def classify_side(cm, cx, cy, inr, deg, terrain, nb_terrain, coastal):
             if "rail" not in first and si.get("rail", 0):
                 first["rail"] = pi
     strip_in["rail"], strip_out["rail"] = band_in, band_out
+    # (the blue-white chain in the city-hatch blue is the frontier wire, not terrain: not read)
     for k, thr in (("road", 12), ("rail", RAIL_THR)):
         if strip_in[k] >= thr and strip_out[k] >= thr:
             # locate a pixel of the line near the strip point, then look at its component
@@ -414,7 +416,8 @@ TERRAIN_ENUM = {"clear": "clear", "gravel": "gravel", "salt_marsh": "salt-marsh"
                 "major_city": "major-city", "swamp": "swamp", "sea": "sea", "unknown": "clear"}
 FEATURE_ENUM = {"escarpment": "escarpment", "ridge": "ridge", "slope": "slope", "wadi": "wadi",
                 "major_river": "major-river", "minor_river": "minor-river", "road": "road",
-                "unfinished_road": "unfinished-road", "railroad": "railroad", "track": "track", "coast": "coast"}
+                "unfinished_road": "unfinished-road", "railroad": "railroad", "unfinished_railroad": "unfinished-railroad",
+                "track": "track", "coast": "coast"}
 FEATURE_ORDER = ["escarpment", "ridge", "slope", "wadi", "major-river", "minor-river", "road", "unfinished-road",
                  "railroad", "unfinished-railroad", "track", "coast", "lake"]
 
@@ -613,7 +616,8 @@ def main():
         byid = {h["hex"]: h for h in hexes}
         fc = {"escarpment": (255, 0, 0), "ridge": (255, 140, 0), "slope": (255, 200, 0), "wadi": (0, 200, 200),
               "road": (120, 60, 0), "unfinished_road": (200, 120, 60), "railroad": (0, 0, 0), "track": (120, 120, 120),
-              "major_river": (0, 0, 255), "minor_river": (100, 100, 255), "coast": (0, 120, 255)}
+              "major_river": (0, 0, 255), "minor_river": (100, 100, 255), "coast": (0, 120, 255),
+              "unfinished_railroad": (60, 60, 160)}
         for r in sides:
             hx = byid[r["hex_a"]]; a = math.radians(dict(SIDES)[r["side"]])
             mx, my = hx["x"] - x0 + inr * 0.8 * math.cos(a), hx["y"] - y0 + inr * 0.8 * math.sin(a)

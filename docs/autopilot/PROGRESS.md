@@ -26,21 +26,21 @@ Missions 1 and 2 are complete (PRs #2–#13, #17–#57); 20.67 is still the one 
 |---|---|---|---|
 | 0 | rulings from NJHarman's Discord-game notes | **merged** — R-020 (well draws per stage), R-021 (sweetening attempts), R-022 (52.51 vehicles vs guns); R-007/R-013/R-018 gained the notes as a second source; air/Malta/CHANGE items listed as not imported in `EXTRACTION.md` | #60 |
 | A | plumbing on Malta (plan Tasks 1–13) | **merged** — `map_geom`, schemas, `sheets.json` (Map A shifts odd rows *east*), extractor cache-first/ids/clip/coast/raw, `map_build`, `check_data` map gate, `map_render` + `/map` page + golden, CI gates, `data/README.md`, EXTRACTION entry; Malta: 63 hexes, 17 corrections (the redraw's title box), 6 places | #61 |
-| extractor | dashed-track detection (own PR, every raw regenerated) | **ready / merging** — Map C diff 470 → 297; Malta corrections re-resolved (+M-018, M-019); includes `map_diff.py` and Map C raw + render | #63 |
-| B | Map C: diff, ≤150 resolutions, `up`, places, 50-hex sample, Part D of the primer | **started** — raw extracted and rendered; 297 diffs remain (120 tracks we miss, 40 we have that the second database lacks, 32 railroad vs unfinished-railroad, 13 hexes, 9 `up: null`); `map_sample.py` not written yet; #62 is a stale draft to be recreated from `main` after #63 | #62 (draft) |
+| extractor | dashed-track detection (own PR, every raw regenerated) | **merged** — Map C diff 470 → 297; Malta corrections re-resolved (+M-018, M-019); includes `map_diff.py` and Map C raw + render | #63 |
+| B | Map C: diff, ≤150 resolutions, `up`, places, 50-hex sample, Part D of the primer | **in progress (draft)** — `map_sample.py` + Map C scan grid; 19 corrections (11 terrain, 1 coast hexside, 3 `up`, 4 settlement); 16 places; EXTRACTION entry. **283 hexside diffs unresolved** (84 tracks we miss, 38 we have that the second database lacks, 49 slopes missed, 32 railroad vs unfinished-railroad, 13 slope vs ridge); sample checklist unfilled | #64 (draft) |
 | C | Maps A, B, D, E | not started | — |
 | D | docs | not started | — |
 
 ## Next steps
 
-For the autopilot: after #63 merges, recreate `autopilot/map-c` from `main` (close #62), write `map_sample.py` (14.2), then 14.4–14.8 for Map C. Two systematic extractor questions surfaced on Map C and belong in the next extractor PR rather than in per-hexside corrections: (1) **unfinished railroad** — the extractor has no class for it, so the Matruh–Sollum future rail reads as `railroad` (32 diff rows); (2) the remaining 120 tracks the second database has and we do not — check a few on the scan to see whether they are crossings we still miss or tracks running *along* a hexside.
+For the autopilot: most of the 283 Map C rows are systematic, so the next run should open a second extractor PR before resolving by hand: (1) track dashes are 1 px and anti-alias out of the palette — real crossings are still missed on clear ground (el Grein C1615|C1715) and on sand (C0107|C0207); (2) the blue-white chain symbol of the **unfinished railroad** has no palette class, so the Matruh–Sollum line reads as railroad/track (32 rows); (3) 49 slope bands are missed (band threshold 100 px in `classify_side`). Then continue #64: resolve ≤150 rows, fill `build/map/sample-C/checklist.md` (run `map_sample.py C`), place the Giarabub Oasis palm hexes, mark ready.
 
 For Brian:
 
 - **Malta numbering:** the printed inset has no hex numbers, so `M` hexes carry the VASSAL module's numbering (rows 05–13, cols 00–06). Norman's current code keys Malta as `M0604, M0607, M0705, M0806, M0906, M0907` — a different origin from the module's. If you want the module's numbering replaced, say so before Map C's Part D is published (Malta is not referenced there).
 - **Valletta** (`M0805`) reads as sea — the Grand Harbour fills the hex centre; it is a `feature` place with `port: true` on a sea hex. Say if you would rather it were a land hex.
-- **Map C `up: null`:** 9 slope/escarpment hexsides have no readable band side; they will be listed by key in the Map C PR.
-- **SPI 20.67** (Axis Replacement Point Type Limitations Chart): not printed on either player chart set or the shared sheet in the archive.org scan (headings jp2 111–178 listed) — if your copy has it, say where in Feedback.
+- **Map C boundary hexes left as read** (the scan is not decisive at this resolution): C0611 (clear vs sand) and C0818 (clear vs salt-marsh). Six sheet-edge slope/escarpment hexsides keep `up: null` by allowlist (the higher hex is on the adjoining sheet).
+- **SPI 20.67** (the Axis chart that limits replacement point types): not printed on either player chart set or the shared sheet in the archive.org scan (headings jp2 111–178 listed) — if your copy has it, say where in Feedback.
 - Earlier items (Learn page dark mode, formation charts 19.31–19.33, chart-vs-text disagreements, E-025 reading, three printed oddities, R-012/R-018/R-019) still stand — see the 2026-09-20 entry in the git history of this file if you want the detail.
 
 ## Runs and quota
