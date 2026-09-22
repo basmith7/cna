@@ -8897,16 +8897,6 @@
    "up": "C4706"
   },
   {
-   "key": "C4707|C4708",
-   "a": "C4707",
-   "b": "C4708",
-   "side": null,
-   "features": [
-    "unfinished-road"
-   ],
-   "up": null
-  },
-  {
    "key": "C4707|C4807",
    "a": "C4707",
    "b": "C4807",
