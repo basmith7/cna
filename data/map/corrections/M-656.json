@@ -1,0 +1,33 @@
+{
+ "id": "M-656",
+ "target": "hexside",
+ "key": "E1317|E1318",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "E1317|E1318",
+    "a": "E1317",
+    "b": "E1318",
+    "side": null,
+    "features": [
+     "track"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1488,
+   4003,
+   221,
+   180
+  ],
+  "note": "a dashed track crosses this hexside on the scan (and on the redraw, whose 1 px dashes the extractor did not read)"
+ },
+ "superseded": false
+}
