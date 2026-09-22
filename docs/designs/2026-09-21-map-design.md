@@ -81,7 +81,7 @@ Rules the schema encodes (checked by `check_data.py`):
 - `up` ∈ {`a`, `b`} when present; `coast` implies both hexes are land and
   `coastal`;
 - `pass` is not stored: it is where a track crosses an escarpment hexside
-  ([8.4x]), derivable.
+  (`rules/40-movement.md`, *Escarpments*), derivable.
 
 Lake hexes (the palette cannot tell lake from sea) are set by correction.
 Oases are not detected by the extractor; they come from the printed page and
@@ -165,7 +165,7 @@ the Sollum escarpment C4021) and record the convention in `data/README.md`.
 ## Review criteria for a map PR
 
 - Gates above green; `EXTRACTION.md` entry present with counts.
-- No file under `build/`, no raster, no NJHarman value or reference in a
-  committed file.
+- No file under `build/`, no raster, no NJHarman value in a committed file
+  (counts in `EXTRACTION.md` are fine).
 - Corrections cite the scan; none cite the diff.
 - `raw/` changed only by an extractor PR.
