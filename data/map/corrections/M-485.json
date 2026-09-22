@@ -1,0 +1,33 @@
+{
+ "id": "M-485",
+ "target": "hexside",
+ "key": "D1621|D1622",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "D1621|D1622",
+    "a": "D1621",
+    "b": "D1622",
+    "side": null,
+    "features": [
+     "track"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   1922,
+   3791,
+   220,
+   180
+  ],
+  "note": "a dashed track crosses this hexside on the scan (and on the redraw, whose 1 px dashes the extractor did not read)"
+ },
+ "superseded": false
+}

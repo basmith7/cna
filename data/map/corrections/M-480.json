@@ -1,0 +1,33 @@
+{
+ "id": "M-480",
+ "target": "hexside",
+ "key": "D1229|D1329",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "D1229|D1329",
+    "a": "D1229",
+    "b": "D1329",
+    "side": null,
+    "features": [
+     "track"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   2603,
+   4074,
+   220,
+   180
+  ],
+  "note": "a dashed track crosses this hexside on the scan (and on the redraw, whose 1 px dashes the extractor did not read)"
+ },
+ "superseded": false
+}
