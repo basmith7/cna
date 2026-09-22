@@ -18,7 +18,7 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**Mission 3 (the map) in progress** — 2026-09-22 04:55 UTC. Parts 0 and A merged; Part B (Map C) under way with the first extractor fix.
+**Mission 3 (the map) in progress** — 2026-09-22 05:12 UTC. Parts 0 and A merged, two extractor PRs merged; Part B (Map C) is a draft with 207 cross-check rows still to resolve.
 
 Missions 1 and 2 are complete (PRs #2–#13, #17–#57); 20.67 is still the one item only Brian can close (see *Next steps*).
 
@@ -26,20 +26,21 @@ Missions 1 and 2 are complete (PRs #2–#13, #17–#57); 20.67 is still the one 
 |---|---|---|---|
 | 0 | rulings from NJHarman's Discord-game notes | **merged** — R-020 (well draws per stage), R-021 (sweetening attempts), R-022 (52.51 vehicles vs guns); R-007/R-013/R-018 gained the notes as a second source; air/Malta/CHANGE items listed as not imported in `EXTRACTION.md` | #60 |
 | A | plumbing on Malta (plan Tasks 1–13) | **merged** — `map_geom`, schemas, `sheets.json` (Map A shifts odd rows *east*), extractor cache-first/ids/clip/coast/raw, `map_build`, `check_data` map gate, `map_render` + `/map` page + golden, CI gates, `data/README.md`, EXTRACTION entry; Malta: 63 hexes, 17 corrections (the redraw's title box), 6 places | #61 |
-| extractor | dashed-track detection (own PR, every raw regenerated) | **merged** — Map C diff 470 → 297; Malta corrections re-resolved (+M-018, M-019); includes `map_diff.py` and Map C raw + render | #63 |
-| B | Map C: diff, ≤150 resolutions, `up`, places, 50-hex sample, Part D of the primer | **in progress (draft)** — `map_sample.py` + Map C scan grid; 19 corrections (11 terrain, 1 coast hexside, 3 `up`, 4 settlement); 16 places; EXTRACTION entry. **283 hexside diffs unresolved** (84 tracks we miss, 38 we have that the second database lacks, 49 slopes missed, 32 railroad vs unfinished-railroad, 13 slope vs ridge); sample checklist unfilled | #64 (draft) |
+| extractor | dashed-track detection; slope band threshold (own PRs, every raw regenerated) | **merged** — Map C diff 470 → 297 (#63) → 262 (#65); Malta corrections re-resolved (+M-018, M-019); `map_diff.py` and Map C raw + render landed with #63 | #63, #65 |
+| B | Map C: diff, ≤150 resolutions, `up`, places, 50-hex sample, Part D of the primer | **in progress (draft)** — `map_sample.py` + Map C scan grid; 61 corrections M-020–M-080 (11 terrain, 1 coast hexside, 13 slope/`up`, 4 settlement, 32 unfinished railroad — the Matruh–Capuzzo–Tobruk line is printed blue); 16 places; 50-hex sample 0/50 terrain misreads; EXTRACTION entry. **207 hexside rows unresolved** (78 tracks we miss, 38 we have that the second database lacks, 15 tracks alongside the unfinished railroad, 11 slopes, 9 tracks alongside ridges) | #64 (draft) |
 | C | Maps A, B, D, E | not started | — |
 | D | docs | not started | — |
 
 ## Next steps
 
-For the autopilot: most of the 283 Map C rows are systematic, so the next run should open a second extractor PR before resolving by hand: (1) track dashes are 1 px and anti-alias out of the palette — real crossings are still missed on clear ground (el Grein C1615|C1715) and on sand (C0107|C0207); (2) the blue-white chain symbol of the **unfinished railroad** has no palette class, so the Matruh–Sollum line reads as railroad/track (32 rows); (3) 49 slope bands are missed (band threshold 100 px in `classify_side`). Then continue #64: resolve ≤150 rows, fill `build/map/sample-C/checklist.md` (run `map_sample.py C`), place the Giarabub Oasis palm hexes, mark ready.
+For the autopilot: continue #64 — resolve the 207 rows (regenerate with `map_diff.py C`; crops with `map_sample.py C --hex <id>`), the two big buckets being tracks (78 the second database has that we do not — the redraw's 1 px dashes anti-alias out of the palette on sand and are darker than the rail grey near the frontier; a third extractor pass on the rail-class tolerance may be worth it before hand-resolving — and 38 the other way, several of which are the frontier wire read as track), then place the Giarabub Oasis palm hexes, mark #64 ready, and go on to Task 15 (Part D of the primer on our Map C).
 
 For Brian:
 
 - **Malta numbering:** the printed inset has no hex numbers, so `M` hexes carry the VASSAL module's numbering (rows 05–13, cols 00–06). Norman's current code keys Malta as `M0604, M0607, M0705, M0806, M0906, M0907` — a different origin from the module's. If you want the module's numbering replaced, say so before Map C's Part D is published (Malta is not referenced there).
 - **Valletta** (`M0805`) reads as sea — the Grand Harbour fills the hex centre; it is a `feature` place with `port: true` on a sea hex. Say if you would rather it were a land hex.
-- **Map C boundary hexes left as read** (the scan is not decisive at this resolution): C0611 (clear vs sand) and C0818 (clear vs salt-marsh). Six sheet-edge slope/escarpment hexsides keep `up: null` by allowlist (the higher hex is on the adjoining sheet).
+- **Map C items left as read** (the scan is not decisive at this resolution): C0611 (clear vs sand) and C0818 (clear vs salt-marsh); and `up` at C0323|C0423 — our band-side convention says C0323 is the higher hex, Norman's database says C0423 (a rough hill ringed by hachures); if his is right the convention needs a second look at the depressions. Seven sheet-edge slope/escarpment hexsides keep `up: null` by allowlist (the higher hex is on the adjoining sheet).
+- **Unfinished railroad:** on the scan the whole Matruh–Capuzzo–Tobruk line is blue (the unfinished symbol) and the redraw draws it like a finished railway; 32 corrections say so. If part of it should be a finished railroad in 1940, say which stretch.
 - **SPI 20.67** (the Axis chart that limits replacement point types): not printed on either player chart set or the shared sheet in the archive.org scan (headings jp2 111–178 listed) — if your copy has it, say where in Feedback.
 - Earlier items (Learn page dark mode, formation charts 19.31–19.33, chart-vs-text disagreements, E-025 reading, three printed oddities, R-012/R-018/R-019) still stand — see the 2026-09-20 entry in the git history of this file if you want the detail.
 
