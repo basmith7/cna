@@ -67,6 +67,8 @@ CLASS = {name: i for i, name in enumerate(PALETTE)}
 NONE = 255
 FILLS = ("clear", "sea", "rough", "salt_marsh", "desert", "delta", "mountain", "heavy_veg")
 TOLERANCE = 12    # fills are exact flat colours; keep anti-aliased edge pixels out
+RAIL_THR = 3          # rail-class pixels needed on each side of a hexside (dashed tracks are sparse)
+RAIL_OFFS = (6, 13)   # distances from the hexside at which the rail band is sampled
 
 
 # --------------------------------------------------------------- buildFile
@@ -381,7 +383,19 @@ def classify_side(cm, cx, cy, inr, deg, terrain, nb_terrain, coastal):
         for k in ("road", "rail"):
             if k not in first and si.get(k, 0):
                 first[k] = pi
-    for k, thr in (("road", 12), ("rail", 6)):    # thin dashed tracks only half-classify
+    # rail/track lines are thin and dashed: a 6px disc every 9px at one offset often lands in a
+    # gap on one side.  Sample a denser band (9 positions x 2 offsets) for the rail class only.
+    band_in, band_out = 0, 0
+    for u in (-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8):
+        ex, ey = mx + u * edge * tx, my + u * edge * ty
+        for off in RAIL_OFFS:
+            pi = (int(ex - off * nx_), int(ey - off * ny_)); po = (int(ex + off * nx_), int(ey + off * ny_))
+            si, so = sample(cm, *pi, 4), sample(cm, *po, 4)
+            band_in += si.get("rail", 0); band_out += so.get("rail", 0)
+            if "rail" not in first and si.get("rail", 0):
+                first["rail"] = pi
+    strip_in["rail"], strip_out["rail"] = band_in, band_out
+    for k, thr in (("road", 12), ("rail", RAIL_THR)):
         if strip_in[k] >= thr and strip_out[k] >= thr:
             # locate a pixel of the line near the strip point, then look at its component
             px_, py_ = first[k]
