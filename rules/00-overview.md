@@ -30,6 +30,8 @@ and community discussions can be cross-referenced.
 New to the game? Start with the illustrated primer on the [Learn](/learn)
 page: one operations stage on a sketch map, the combat maths with the real
 tables, and how supply flows.
+The hex map itself is on the [Map](/map) page, drawn from the terrain and
+hexside data in `data/map/`.
 
 ::: spi-omit 1.0 — SPI's introduction: scale, player count and design intent; the scale facts are given below
 ::: spi-omit 2.0 — how-to-play orientation and the rules' organisation; SPI's role split is reduced to [Roles](#roles)

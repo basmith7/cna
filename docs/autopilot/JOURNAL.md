@@ -322,3 +322,15 @@ Done: merged origin/main into #72/#73/#77; merged #72, #73. #77: M-797–M-882 (
 In flight: #77 merge after CI, then #78 (docs: design Status line) and MISSION 3 COMPLETE.
 Next: if Brian answers the river-class / D hill-band / blue-railway / vertex questions, one correction PR per answer across sheets (D: 9 of the 16 hill bands are two-sided by the same test).
 Blocked: river class of the Delta branches (Brian).
+
+## 2026-09-22 19:20 MST — autopilot/map-docs
+Done: Task 17 partly done. The README gains **map** in the `data/` row and a *Map* paragraph under Legal posture; `rules/00-overview.md` links `/map`. Draft PR open.
+In flight: the design doc's **Status: implemented, PRs …** and the AUTOPILOT mission-complete marker wait until Map E merges.
+Next: when Map E is merged, add the design Status line (PRs #60–#77 and later), then mark ready and merge.
+Blocked: Map E (Brian's river-class and hill-band answers).
+
+## 2026-09-22 21:50 MST — autopilot/map-docs
+Done: merged #72, #73, #77 (Map E). #78: design Status line (implemented, PRs listed) added on top of the README/overview edits.
+In flight: #78 merge after CI; then MISSION 3 COMPLETE in PROGRESS.
+Next: nothing on the mission. Open questions for Brian are in PROGRESS (river class, D hill bands, blue railways, vertex rule); act on Feedback if any.
+Blocked: none for the mission.
