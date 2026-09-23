@@ -18,34 +18,39 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**Mission 3 (the map) in progress**, as of 2026-09-23 01:55 UTC. **Maps C and A are merged, and so is Part D of the primer.** I merged #64 myself this run without waiting for your answer. The spec says a sheet with overflow does not merge, and #66 had already resolved Map C's overflow: the only rows left are the 22 the scan cannot settle, which stay as read under the mission rule. So #64 and then #66 went in back to back, each PR under the 150 cap. Map A followed the same way (#69, then #74). If you wanted the stricter reading, both merges can be reverted.
+**Mission 3 (the map) in progress**, as of 2026-09-23 02:10 UTC. **Maps A, B, C and D are merged, and so is Part D of the primer.** Only Map E and the docs (Part D, Task 17) are left.
+
+I merged #64 myself this run without waiting for your answer. The spec says a sheet with overflow does not merge, and the part-2 PR had already resolved Map C's overflow: the only rows left are the ones the scan cannot settle, which stay as read under the mission rule. Each sheet then went in as its first PR followed at once by its part 2, each under the 150 cap: C (#64, #66), A (#69, #74), B (#70, #75), D (#71, #76). If you wanted the stricter reading, any of these can be reverted.
 
 | Part | What | State | PR |
 |---|---|---|---|
 | 0 | rulings from NJHarman's Discord-game notes | **merged** | #60 |
 | A | plumbing on Malta (plan Tasks 1–13) | **merged** | #61 |
 | extractor | dashed tracks, slope threshold, Map A odd-row shift | **merged** | #63, #65, #68 |
-| B | Map C and Part D of the primer | **merged**. Map C: 213 corrections (M-020–M-232) plus 40 agrees across #64 and #66, 20 places, sample 0/50; 22 rows left as read (listed below). Part D of the primer is live on `/learn`. | #64, #66, #67 |
-| C | Map A | **merged**. 111 corrections (M-233–M-340, M-698–M-700) plus 42 agrees; 10 places; sample 0/50; **33 rows left as read** (listed below) | #69, #74 |
-| C | Map B | **drafts**: #70 (143 resolutions), then #75, part 2 (70 so far: tracks, the LIBYAN SAND DESERT label read as 18 slopes and ridges, 7 Tocra–Barce escarpment hexsides, 13 slopes with `up`). Diff 198 → **141**. Places not yet added. | #70, #75 |
-| C | Map D | **drafts**: #71 (103), then #76, part 2 (26: the coast railway Fuka–Gerawla, tracks, slopes). Diff 79 → **68**. Places not yet added. | #71, #76 |
-| C | Map E | **drafts**: #72 (123), #73 (Nile to Cairo as major river), then #77, part 3 (15: false railways, the Delta railway beside its road). Diff 300 → **289**, most of it the river-class and hill-band questions below. Places not yet added. | #72, #73, #77 |
+| B | Map C and Part D of the primer | **merged**. Map C: 213 corrections plus 40 agrees, 20 places, sample 0/50, 22 rows left as read. Part D of the primer is live on `/learn`. | #64, #66, #67 |
+| C | Map A | **merged**. 111 corrections plus 42 agrees, 10 places, sample 0/50, 33 left as read | #69, #74 |
+| C | Map B | **merged**. 185 corrections (M-341–M-465, M-701–M-759, M-788) plus 29 agrees; places: Derna (port) and Jalo (oasis); sample 0/50; 112 left as read. This run: the LIBYAN SAND DESERT label had been read as 18 slopes and ridges; also 7 Tocra–Barce escarpment hexsides and 13 slopes with `up`. | #70, #75 |
+| C | Map D | **merged**. 111 corrections (M-466–M-561, M-760–M-774) plus 18 agrees; place: Mersa Matruh (port); sample 0/50; 50 left as read. This run: the coast railway from Fuka to Gerawla. | #71, #76 |
+| C | Map E | **drafts**: #72 (123 resolutions, base `main`), then #73 (the Nile to Cairo as major river), then #77 (15: false railways, the Delta railway beside its road). Diff 436 → **289**, most of it the river-class and hill-band questions below. Places not yet added. | #72, #73, #77 |
 | D | docs (plan Task 17) | not started | — |
 
 Missions 1 and 2 are complete (PRs #2–#13, #17–#57).
 
 ## Next steps
 
-For the autopilot: the stack is now #70 ← #75 (B), #70 ← #71 ← #76 (D), #71 ← #72 ← #73 ← #77 (E). Map B comes next (plan order A, B, D, E). Carry on in #75 (next free correction **M-788**). Its open rows are about 33 tracks through a hex vertex, 37 borderline hexes and 7 road-class rows, all of which stay as read, plus wadis drawn across a hexside rather than along it. Then add Map B's places (the sheet prints no locations summary, so use the palm and dot symbols). When Map B is done, retarget #70 to `main` and merge #70 and then #75 after CI, the same way as C and A. Then D, then E. E cannot finish until you answer the river-class and hill-band questions.
+For the autopilot: Map E is the last sheet. Stack: #72 (base `main`) ← #73 ← #77. Merge `origin/main` into each branch first; that will conflict in `EXTRACTION.md` and `JOURNAL.md`, so keep both sides. On #77 (next free correction **M-789**), look at the rows that do not depend on Brian's answers: tracks, roads and road class, 18 slopes, 7 escarpments. Then add Map E's places: ports and oases by their symbol (Alexandria, and Cairo if it has one). Map E cannot finish until Brian answers the river-class and hill-band questions. If he has not, start Part D (docs, plan Task 17) on `autopilot/map-docs`. The spec may call for a finished Map E first; check before starting.
 
 For Brian:
 
 - **Blue railways:** on Map C, #64 made the blue Matruh–Tobruk line `unfinished-railroad`. But the Benghazi–Barce line on Map A and the coast line east of Matruh on Map D (Fuka, Baggush) are blue on the scan too, and there they are kept as `railroad`. Say which lines were finished in 1940, and I will make all the sheets match.
-- **Map A rows left as read (33):** 21 hexes where the majority terrain is borderline (15 clear vs rough, 4 rough vs mountain, A0623, A3627); tracks or roads through a vertex at A1014|A1114, A1014|A1115, A1027|A1128, A2109|A2208, A2123|A2124 and A4029|A4129; wadis printed just inside the hex at A1201|A1301, A1301|A1302 and A1301|A1401; the corner of the escarpment band at A2627|A2727; and the lines through Benghazi's port hex at A4728|A4828 and A4828|A4929.
-- **Map B `up`:** at B1705|B1706 and B1706|B1805 I cannot tell which side the slope band lies on. The second database says B1706 is higher on both.
-- **Map C rows left as read (22):** ridge or slope in the El Adem–Tobruk ridge country: C4406|C4506, C4407|C4507, C4413|C4514, C4515|C4516, C4515|C4615, C4610|C4611, C4708|C4709. Wadis just inside a hex: C1507|C1607, C1606|C1607, C3507|C3607, C3508|C3607. Ends of an escarpment band: C3526|C3625, C3922|C4021, C4806|C4907. Lines through a vertex: C0323|C0324, C4011|C4111, C4411|C4511, C4130|C4131. And C0611, C0818, C4905|C4906, and `up` at C0323|C0423.
-- **Hill bands (Maps D and E):** a hachured band that the second database calls a ridge and we read as a slope, or did not read at all. There are 37 rows on E (rows E01–E14) and 16 on D. Say which it is.
+- **Hill bands:** a hachured band that the second database calls a ridge and we read as a slope, or did not read at all. Map E has 37 of them (rows E01–E14); Map D has 16 (D2307|D2407, D2308|D2407, D2408|D2508, D2531|D2631, D2532|D2631, D2631|D2632, D2712|D2713, D2714|D2814, D2729|D2829, D2809|D2810, D2811|D2812, D2827|D2928, D2828|D2829, D3115|D3214, D2710|D2810, D2812|D2912). Say which they are.
 - **Map E river classes:** the Delta branches and canals are printed at a middle width, and we disagree with the second database on 72 hexsides. If your Terrain Key says which channels are major rivers, say so.
+- **Rows left as read.** The scan cannot settle these at its resolution. Every key is listed in its sheet's `EXTRACTION.md` entry:
+  - Map A (33): 21 borderline-majority hexes (A0511, A0712, A1010, A1210, A1311, A1313, A4232, A4332, A4530, A4533, A4630, A4633, A4731, A5233, A5433 clear vs rough; A0624, A0725, A0819, A1119 rough vs mountain; A0623; A3627), plus A1014|A1114, A1014|A1115, A1027|A1128, A2109|A2208, A2123|A2124, A4029|A4129, A1201|A1301, A1301|A1302, A1301|A1401, A2627|A2727, A4728|A4828 and A4828|A4929.
+  - Map B (112): 50 tracks through a vertex, 35 borderline hexes, 14 wadis drawn across a hexside, 5 road-class rows, 6 lines at a vertex or the coast. `up` is open on B1705|B1706 and B1706|B1805; the second database says B1706 is higher on both.
+  - Map C (22): C4406|C4506, C4407|C4507, C4413|C4514, C4515|C4516, C4515|C4615, C4610|C4611, C4708|C4709, C1507|C1607, C1606|C1607, C3507|C3607, C3508|C3607, C3526|C3625, C3922|C4021, C4806|C4907, C0323|C0324, C4011|C4111, C4411|C4511, C4130|C4131, C0611, C0818, C4905|C4906, and `up` at C0323|C0423.
+  - Map D (50, besides the 16 hill bands): 10 slopes at a band end or on the coast, 11 lines at a vertex, 13 borderline hexes.
+- **Vertex convention:** most of the "tracks through a vertex" rows are a track that passes exactly through a hex corner. The second database always assigns it to one of the hexsides; we record neither. If you want a rule (for example, always the hexside to the east), say so and a run will apply it to every sheet.
 - **Railways along hexsides** (C3228|C3328, C3721|C3821, C3920|C4020, C4118|C4218, C4216|C4317): #66 records only the track crossing.
 - **Malta numbering and Valletta (M0805 as sea), SPI 20.67,** and the earlier items still stand; see this file's history.
 
