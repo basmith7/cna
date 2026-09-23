@@ -1,0 +1,33 @@
+{
+ "id": "M-739",
+ "target": "hexside",
+ "key": "B5504|B5603",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "B5504|B5603",
+    "a": "B5504",
+    "b": "B5603",
+    "side": null,
+    "features": [
+     "escarpment"
+    ],
+    "up": "B5504"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   213,
+   589,
+   219,
+   177
+  ],
+  "note": "the escarpment band of the Jebel Akhdar's coastal face is printed along this hexside on the scan; the plateau hex to the south is higher"
+ },
+ "superseded": false
+}

@@ -1,0 +1,36 @@
+{
+ "id": "M-712",
+ "target": "hexside",
+ "key": "B4817|B4818",
+ "before": {
+  "key": "B4817|B4818",
+  "a": "B4817",
+  "b": "B4818",
+  "side": null,
+  "features": [
+   "wadi"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "track",
+    "wadi"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   1546,
+   1193,
+   219,
+   177
+  ],
+  "note": "a dashed track crosses this hexside on the scan alongside the feature already read (on the redraw its 1 px dashes run beside the heavier symbol and the extractor did not read them)"
+ },
+ "superseded": false
+}

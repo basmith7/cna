@@ -1,0 +1,36 @@
+{
+ "id": "M-710",
+ "target": "hexside",
+ "key": "B2306|B2405",
+ "before": {
+  "key": "B2306|B2405",
+  "a": "B2306",
+  "b": "B2405",
+  "side": null,
+  "features": [
+   "slope"
+  ],
+  "up": "B2405"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "slope",
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   400,
+   3165,
+   219,
+   177
+  ],
+  "note": "a dashed track crosses this hexside on the scan alongside the feature already read (on the redraw its 1 px dashes run beside the heavier symbol and the extractor did not read them)"
+ },
+ "superseded": false
+}

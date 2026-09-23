@@ -1,0 +1,33 @@
+{
+ "id": "M-745",
+ "target": "hexside",
+ "key": "B5512|B5513",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "B5512|B5513",
+    "a": "B5512",
+    "b": "B5513",
+    "side": null,
+    "features": [
+     "road"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   1031,
+   629,
+   219,
+   177
+  ],
+  "note": "the double-line road crosses this hexside on the scan, continuing the road already read on the next hexside west"
+ },
+ "superseded": false
+}

@@ -1,0 +1,36 @@
+{
+ "id": "M-742",
+ "target": "hexside",
+ "key": "B3411|B3412",
+ "before": {
+  "key": "B3411|B3412",
+  "a": "B3411",
+  "b": "B3412",
+  "side": null,
+  "features": [
+   "unfinished-road",
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   985,
+   2320,
+   219,
+   177
+  ],
+  "note": "the printed name Trigh el Abd crosses this hexside; the scan shows only the dashed track here, no road"
+ },
+ "superseded": false
+}

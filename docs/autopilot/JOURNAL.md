@@ -286,3 +286,9 @@ Blocked: #64 merge decision (Brian).
 Decision: merging #64 then #66 back to back. The spec's "overflow is a documented stop, not a merge" was about a sheet landing with rows unresolved; with #66 done, Map C has none left bar the 22 left-as-read (mission rule: leave as read, list for Brian). Each PR stays ≤150. Sheets A/B/D/E stay unmerged until their rows are done.
 Next: after #66, retarget #67 and merge; retarget #69 to main; then Map A part 2 (54 rows, next free M-698).
 Blocked: none.
+
+## 2026-09-22 18:55 MST — autopilot/map-b-2
+Done: merged #64, #66 (Map C), #67 (Part D of the primer), #69 + #74 (Map A, M-698–M-700, 33 left as read). Opened #75 (B-2: M-701–M-759, 70 resolutions, diff 198→141), #76 (D-2 on map-d: M-760–M-774, diff 79→68), #77 (E-3 on map-e-2: M-775–M-787, diff 300→289).
+In flight: nothing half-written. Helpers /tmp/mt.py (montage with the hexside drawn red: judge topology on the redraw panel) and /tmp/corr.py (writes corrections from a JSON spec) will be gone; rebuild from map_sample.scan_centre + debug-<S>.csv.
+Next: finish Map B on #75 (next free M-788): places, the remaining wadi rows; vertex tracks, borderline hexes and road class stay as read. Then retarget #70 to main and merge #70 then #75; then D (#71, #76), then E.
+Blocked: E river classes and hill bands, D ridge-vs-slope, and blue railway class (Brian).

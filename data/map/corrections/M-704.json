@@ -1,0 +1,33 @@
+{
+ "id": "M-704",
+ "target": "hexside",
+ "key": "B4602|B4702",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "B4602|B4702",
+    "a": "B4602",
+    "b": "B4702",
+    "side": null,
+    "features": [
+     "track"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   73,
+   1313,
+   219,
+   177
+  ],
+  "note": "a dashed track crosses this hexside on the scan, between the two hex centres (1 px dashes on the redraw, not read by the extractor)"
+ },
+ "superseded": false
+}

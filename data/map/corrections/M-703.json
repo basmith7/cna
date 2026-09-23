@@ -1,0 +1,33 @@
+{
+ "id": "M-703",
+ "target": "hexside",
+ "key": "B3311|B3410",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "B3311|B3410",
+    "a": "B3311",
+    "b": "B3410",
+    "side": null,
+    "features": [
+     "track"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   868,
+   2360,
+   219,
+   177
+  ],
+  "note": "the Trigh track crosses this hexside on the scan, between the two hex centres (1 px dashes on the redraw, not read by the extractor)"
+ },
+ "superseded": false
+}
