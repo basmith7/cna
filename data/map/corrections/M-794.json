@@ -1,0 +1,33 @@
+{
+ "id": "M-794",
+ "target": "hexside",
+ "key": "E0923|E1022",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "E0923|E1022",
+    "a": "E0923",
+    "b": "E1022",
+    "side": null,
+    "features": [
+     "escarpment"
+    ],
+    "up": "E1022"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1984,
+   4288,
+   222,
+   178
+  ],
+  "note": "the dark escarpment band of the depression's northern face is printed along this hexside on the scan, inside the southern hex (band on the down side), so the northern hex is up"
+ },
+ "superseded": false
+}
