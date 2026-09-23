@@ -25,7 +25,7 @@ The next run reads this section first, acts on it, and moves each item to
 | 0 | rulings from NJHarman's Discord-game notes | **merged** | #60 |
 | A | plumbing on Malta (plan Tasks 1–13) | **merged** | #61 |
 | extractor | dashed tracks, slope threshold, Map A odd-row shift | **merged** | #63, #65, #68 |
-| B | Map C and Part D of the primer | **merged**. Map C: 265 corrections plus 40 agrees across #64 and #66, 20 places, sample 0/50; 22 rows left as read (listed below). Part D of the primer is live on `/learn`. | #64, #66, #67 |
+| B | Map C and Part D of the primer | **merged**. Map C: 213 corrections (M-020–M-232) plus 40 agrees across #64 and #66, 20 places, sample 0/50; 22 rows left as read (listed below). Part D of the primer is live on `/learn`. | #64, #66, #67 |
 | C | Map A | **merged**. 111 corrections (M-233–M-340, M-698–M-700) plus 42 agrees; 10 places; sample 0/50; **33 rows left as read** (listed below) | #69, #74 |
 | C | Map B | **drafts**: #70 (143 resolutions), then #75, part 2 (70 so far: tracks, the LIBYAN SAND DESERT label read as 18 slopes and ridges, 7 Tocra–Barce escarpment hexsides, 13 slopes with `up`). Diff 198 → **141**. Places not yet added. | #70, #75 |
 | C | Map D | **drafts**: #71 (103), then #76, part 2 (26: the coast railway Fuka–Gerawla, tracks, slopes). Diff 79 → **68**. Places not yet added. | #71, #76 |
