@@ -1,0 +1,33 @@
+{
+ "id": "M-698",
+ "target": "hexside",
+ "key": "A2929|A3029",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "A2929|A3029",
+    "a": "A2929",
+    "b": "A3029",
+    "side": null,
+    "features": [
+     "road"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5310,
+   5370,
+   441,
+   360
+  ],
+  "note": "the double-line road runs south from A3029 and passes just east of the A2929 hex centre, crossing this hexside"
+ },
+ "superseded": false
+}

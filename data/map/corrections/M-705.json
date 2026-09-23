@@ -1,0 +1,33 @@
+{
+ "id": "M-705",
+ "target": "hexside",
+ "key": "B5320|B5419",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "B5320|B5419",
+    "a": "B5320",
+    "b": "B5419",
+    "side": null,
+    "features": [
+     "track"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   1709,
+   750,
+   219,
+   177
+  ],
+  "note": "a dashed track crosses this hexside on the scan, between the two hex centres (1 px dashes on the redraw, not read by the extractor)"
+ },
+ "superseded": false
+}

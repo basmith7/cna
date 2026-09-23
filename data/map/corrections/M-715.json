@@ -1,0 +1,32 @@
+{
+ "id": "M-715",
+ "target": "hexside",
+ "key": "B2405|B2406",
+ "before": {
+  "key": "B2405|B2406",
+  "a": "B2405",
+  "b": "B2406",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   424,
+   3125,
+   219,
+   177
+  ],
+  "note": "the dashed track passes west of this hexside, through B2405, and does not cross it"
+ },
+ "superseded": false
+}
