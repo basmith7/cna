@@ -1,0 +1,35 @@
+{
+ "id": "M-835",
+ "target": "hexside",
+ "key": "E4129|E4228",
+ "before": {
+  "key": "E4129|E4228",
+  "a": "E4129",
+  "b": "E4228",
+  "side": null,
+  "features": [
+   "unfinished-road"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "road"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   2551,
+   1696,
+   222,
+   178
+  ],
+  "note": "the road crossing this hexside is printed as a solid double line on the scan, the road symbol; no dashes"
+ },
+ "superseded": false
+}

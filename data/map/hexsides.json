@@ -35862,8 +35862,8 @@
    "b": "E1029",
    "side": null,
    "features": [
-    "unfinished-road",
-    "railroad"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -40005,7 +40005,7 @@
    "b": "E2915",
    "side": null,
    "features": [
-    "unfinished-road"
+    "road"
    ],
    "up": null
   },
@@ -41279,8 +41279,8 @@
    "b": "E3329",
    "side": null,
    "features": [
-    "unfinished-road",
-    "railroad"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -42489,8 +42489,8 @@
    "b": "E3714",
    "side": null,
    "features": [
-    "unfinished-road",
-    "coast"
+    "coast",
+    "road"
    ],
    "up": null
   },
@@ -42782,8 +42782,8 @@
    "b": "E3715",
    "side": null,
    "features": [
-    "unfinished-road",
-    "railroad"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -42884,7 +42884,7 @@
    "side": null,
    "features": [
     "minor-river",
-    "unfinished-road"
+    "road"
    ],
    "up": null
   },
@@ -43545,7 +43545,7 @@
    "b": "E4228",
    "side": null,
    "features": [
-    "unfinished-road"
+    "road"
    ],
    "up": null
   },
