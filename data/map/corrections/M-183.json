@@ -1,0 +1,36 @@
+{
+ "id": "M-183",
+ "target": "hexside",
+ "key": "C4313|C4412",
+ "before": {
+  "key": "C4313|C4412",
+  "a": "C4313",
+  "b": "C4412",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "track",
+    "unfinished-railroad"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1015,
+   1536,
+   220,
+   180
+  ],
+  "note": "a dashed track crosses this hexside on the scan alongside the feature already read (on the redraw its 1 px dashes run beside the heavier symbol and the extractor did not read them)"
+ },
+ "superseded": false
+}

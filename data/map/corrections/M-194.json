@@ -1,0 +1,36 @@
+{
+ "id": "M-194",
+ "target": "hexside",
+ "key": "C4506|C4507",
+ "before": {
+  "key": "C4506|C4507",
+  "a": "C4506",
+  "b": "C4507",
+  "side": null,
+  "features": [
+   "unfinished-road"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "track",
+    "unfinished-road"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   428,
+   1415,
+   220,
+   180
+  ],
+  "note": "a dashed track crosses this hexside on the scan alongside the feature already read (on the redraw its 1 px dashes run beside the heavier symbol and the extractor did not read them)"
+ },
+ "superseded": false
+}

@@ -1,0 +1,36 @@
+{
+ "id": "M-189",
+ "target": "hexside",
+ "key": "C4410|C4411",
+ "before": {
+  "key": "C4410|C4411",
+  "a": "C4410",
+  "b": "C4411",
+  "side": null,
+  "features": [
+   "ridge"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "ridge",
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   851,
+   1496,
+   220,
+   180
+  ],
+  "note": "a dashed track crosses this hexside on the scan alongside the feature already read (on the redraw its 1 px dashes run beside the heavier symbol and the extractor did not read them)"
+ },
+ "superseded": false
+}

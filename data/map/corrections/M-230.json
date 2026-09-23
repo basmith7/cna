@@ -1,0 +1,33 @@
+{
+ "id": "M-230",
+ "target": "hexside",
+ "key": "C3822|C3922",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "C3822|C3922",
+    "a": "C3822",
+    "b": "C3922",
+    "side": null,
+    "features": [
+     "unfinished-road"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1908,
+   1941,
+   220,
+   180
+  ],
+  "note": "the dashed double-line unfinished road down Halfaya Pass crosses this hexside near its end vertex"
+ },
+ "superseded": false
+}

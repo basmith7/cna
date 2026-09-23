@@ -1,0 +1,32 @@
+{
+ "id": "M-232",
+ "target": "hexside",
+ "key": "C4707|C4708",
+ "before": {
+  "key": "C4707|C4708",
+  "a": "C4707",
+  "b": "C4708",
+  "side": null,
+  "features": [
+   "unfinished-road"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   522,
+   1253,
+   220,
+   180
+  ],
+  "note": "the dashed double-line unfinished road runs along this hexside from vertex to vertex rather than across it"
+ },
+ "superseded": false
+}

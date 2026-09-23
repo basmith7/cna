@@ -1,0 +1,36 @@
+{
+ "id": "M-214",
+ "target": "hexside",
+ "key": "C4020|C4021",
+ "before": {
+  "key": "C4020|C4021",
+  "a": "C4020",
+  "b": "C4021",
+  "side": null,
+  "features": [
+   "slope"
+  ],
+  "up": "C4020"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "road",
+    "slope"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1791,
+   1820,
+   220,
+   180
+  ],
+  "note": "the double-line road east from Capuzzo crosses this slope hexside"
+ },
+ "superseded": false
+}

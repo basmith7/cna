@@ -1,0 +1,33 @@
+{
+ "id": "M-231",
+ "target": "hexside",
+ "key": "C0522|C0523",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "C0522|C0523",
+    "a": "C0522",
+    "b": "C0523",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "C0523"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1932,
+   4655,
+   220,
+   180
+  ],
+  "note": "the hachured slope band runs along this hexside inside C0522 (band on the down side), continuing the slope along the neighbouring hexsides"
+ },
+ "superseded": false
+}

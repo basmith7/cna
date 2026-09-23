@@ -1,0 +1,36 @@
+{
+ "id": "M-212",
+ "target": "hexside",
+ "key": "C4708|C4807",
+ "before": {
+  "key": "C4708|C4807",
+  "a": "C4708",
+  "b": "C4807",
+  "side": null,
+  "features": [
+   "slope"
+  ],
+  "up": "C4708"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "road",
+    "slope"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   545,
+   1212,
+   220,
+   180
+  ],
+  "note": "the coast road climbs from Tobruk across this slope hexside (double-line road on the scan and the redraw)"
+ },
+ "superseded": false
+}

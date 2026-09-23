@@ -1,0 +1,33 @@
+{
+ "id": "M-216",
+ "target": "hexside",
+ "key": "C4320|C4321",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "C4320|C4321",
+    "a": "C4320",
+    "b": "C4321",
+    "side": null,
+    "features": [
+     "road"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1744,
+   1577,
+   220,
+   180
+  ],
+  "note": "the double-line road into Tobruk crosses this hexside on the scan and the redraw"
+ },
+ "superseded": false
+}

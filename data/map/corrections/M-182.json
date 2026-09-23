@@ -1,0 +1,36 @@
+{
+ "id": "M-182",
+ "target": "hexside",
+ "key": "C4313|C4314",
+ "before": {
+  "key": "C4313|C4314",
+  "a": "C4313",
+  "b": "C4314",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "track",
+    "unfinished-railroad"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1086,
+   1577,
+   220,
+   180
+  ],
+  "note": "the blue tied line (unfinished railroad) crosses this hexside beside the dashed track already read"
+ },
+ "superseded": false
+}

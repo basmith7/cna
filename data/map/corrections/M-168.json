@@ -1,0 +1,36 @@
+{
+ "id": "M-168",
+ "target": "hexside",
+ "key": "C3427|C3527",
+ "before": {
+  "key": "C3427|C3527",
+  "a": "C3427",
+  "b": "C3527",
+  "side": null,
+  "features": [
+   "ridge"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "ridge",
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   2378,
+   2265,
+   220,
+   180
+  ],
+  "note": "a dashed track crosses this hexside on the scan alongside the feature already read (on the redraw its 1 px dashes run beside the heavier symbol and the extractor did not read them)"
+ },
+ "superseded": false
+}

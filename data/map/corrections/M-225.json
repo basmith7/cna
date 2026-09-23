@@ -1,0 +1,32 @@
+{
+ "id": "M-225",
+ "target": "hexside",
+ "key": "C4905|C5004",
+ "before": {
+  "key": "C4905|C5004",
+  "a": "C4905",
+  "b": "C5004",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   263,
+   1050,
+   220,
+   180
+  ],
+  "note": "no railway at this coastal hexside on the scan; the extractor read the dark coast edge as railway"
+ },
+ "superseded": false
+}

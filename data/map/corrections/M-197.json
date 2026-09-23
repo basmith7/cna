@@ -1,0 +1,35 @@
+{
+ "id": "M-197",
+ "target": "hexside",
+ "key": "C3920|C4020",
+ "before": {
+  "key": "C3920|C4020",
+  "a": "C3920",
+  "b": "C4020",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1720,
+   1860,
+   220,
+   180
+  ],
+  "note": "a dashed track crosses this hexside on the scan; the railway runs along the hexside to its vertex rather than across it"
+ },
+ "superseded": false
+}

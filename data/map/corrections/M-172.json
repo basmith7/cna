@@ -1,0 +1,36 @@
+{
+ "id": "M-172",
+ "target": "hexside",
+ "key": "C3821|C3921",
+ "before": {
+  "key": "C3821|C3921",
+  "a": "C3821",
+  "b": "C3921",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "track",
+    "unfinished-railroad"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1814,
+   1941,
+   220,
+   180
+  ],
+  "note": "a dashed track crosses this hexside on the scan alongside the feature already read (on the redraw its 1 px dashes run beside the heavier symbol and the extractor did not read them)"
+ },
+ "superseded": false
+}
