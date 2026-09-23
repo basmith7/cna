@@ -51,6 +51,7 @@ export default defineConfig({
           { text: 'A · One Operations Stage', link: '/learn#part-a' },
           { text: 'B · The combat maths', link: '/learn#part-b' },
           { text: 'C · How supply flows', link: '/learn#part-c' },
+          { text: 'D · Graziani on the map', link: '/learn#part-d' },
         ] },
       ],
       '/rulings/': [

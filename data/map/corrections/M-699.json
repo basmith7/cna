@@ -1,0 +1,33 @@
+{
+ "id": "M-699",
+ "target": "hexside",
+ "key": "A4129|A4130",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "A4129|A4130",
+    "a": "A4129",
+    "b": "A4130",
+    "side": null,
+    "features": [
+     "track"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5357,
+   3507,
+   441,
+   360
+  ],
+  "note": "the dashed track running east into Soluch passes just south of both hex centres and crosses the hexside between them"
+ },
+ "superseded": false
+}
