@@ -7876,6 +7876,36 @@
    "up": null
   },
   {
+   "key": "B1705|B1706",
+   "a": "B1705",
+   "b": "B1706",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": null
+  },
+  {
+   "key": "B1706|B1805",
+   "a": "B1706",
+   "b": "B1805",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": null
+  },
+  {
+   "key": "B1706|B1806",
+   "a": "B1706",
+   "b": "B1806",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "B1706"
+  },
+  {
    "key": "B1707|B1806",
    "a": "B1707",
    "b": "B1806",
@@ -8124,6 +8154,16 @@
     "slope"
    ],
    "up": "B1902"
+  },
+  {
+   "key": "B1806|B1807",
+   "a": "B1806",
+   "b": "B1807",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "B1807"
   },
   {
    "key": "B1806|B1907",
@@ -9292,14 +9332,24 @@
    "up": "B2403"
   },
   {
+   "key": "B2304|B2403",
+   "a": "B2304",
+   "b": "B2403",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "B2403"
+  },
+  {
    "key": "B2305|B2405",
    "a": "B2305",
    "b": "B2405",
    "side": null,
    "features": [
-    "ridge"
+    "slope"
    ],
-   "up": null
+   "up": "B2405"
   },
   {
    "key": "B2306|B2307",
@@ -10706,6 +10756,16 @@
     "slope"
    ],
    "up": "B3202"
+  },
+  {
+   "key": "B3103|B3104",
+   "a": "B3103",
+   "b": "B3104",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "B3104"
   },
   {
    "key": "B3103|B3202",
@@ -16584,6 +16644,16 @@
     "track"
    ],
    "up": null
+  },
+  {
+   "key": "B5604|B5605",
+   "a": "B5604",
+   "b": "B5605",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "B5605"
   },
   {
    "key": "B5605|B5606",
