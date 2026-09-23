@@ -1,0 +1,33 @@
+{
+ "id": "M-803",
+ "target": "hexside",
+ "key": "E1212|E1312",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "E1212|E1312",
+    "a": "E1212",
+    "b": "E1312",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "E1212"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   992,
+   4045,
+   222,
+   178
+  ],
+  "note": "the hachured band ringing E1312 is printed along this hexside on the scan, inside E1312 (band on the down side), so E1212 is up"
+ },
+ "superseded": false
+}

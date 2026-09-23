@@ -1,0 +1,33 @@
+{
+ "id": "M-808",
+ "target": "hexside",
+ "key": "E1809|E1909",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "E1809|E1909",
+    "a": "E1809",
+    "b": "E1909",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "E1809"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   709,
+   3559,
+   222,
+   178
+  ],
+  "note": "the hachured band ringing E1909 is printed along this hexside on the scan, inside E1909 (band on the down side), so E1809 is up"
+ },
+ "superseded": false
+}
