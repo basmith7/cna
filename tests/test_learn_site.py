@@ -8,15 +8,30 @@ sys.path.insert(0, str(ROOT / "tools"))
 import learn_page as lp  # noqa: E402
 
 
-def test_site_markdown_has_parts_a_to_c_and_no_crops():
+def test_site_markdown_has_parts_a_to_d_and_no_crops():
     md = lp.site_markdown()
     assert md.startswith("---\ntitle: Learn\n")
     assert '<div class="learn">' in md
     assert "Part A" in md and "Part B" in md and "Part C" in md
-    assert "<img" not in md and "graziani" not in md  # no SPI crops, no Map C
+    assert "<img" not in md and "graziani" not in md  # no SPI crops; the map is inline SVG from data/map
     assert 'data-table="barrage-results"' in md and 'data-table="close-assault-results"' in md
-    assert "Part D" in md and "map sub-project" in md  # the one-paragraph note
+    assert "Part D" in md and 'class="cna-map"' in md and 'id="C4021"' in md
+    assert 'class="overlay"' in md and "Sidi Barrani" in md
     assert "\n\n" not in md.split("---\n", 2)[2]  # no blank lines: keeps markdown-it from re-entering the HTML block
+
+
+def test_part_d_region_covers_the_frontier():
+    ids = lp.part_d_region()
+    assert {"C4021", "C3922", "C4321", "C4131", "C3019"} <= set(ids)
+    assert all(i[0] == "C" for i in ids)
+
+
+def test_part_d_units_are_on_map_c_land():
+    import map_render
+    data = map_render.MapData.load(ROOT / "data")
+    for hid, label, side in lp.PART_D_UNITS:
+        assert side in ("it", "cw"), hid
+        assert data.hexes[hid]["terrain"] != "sea", (hid, label)
 
 
 def test_site_css_is_scoped_under_learn():

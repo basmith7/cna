@@ -13,7 +13,7 @@ Scan pages are fetched from archive.org into ~/.cache/cna-scans and cropped into
 those crops are SPI material and are git-ignored.
 
 Usage: python3 tools/learn_page.py          (then open docs/learn/index.html)
-       python3 tools/learn_page.py --site   (writes site/learn.md: Parts A-C, no SPI material;
+       python3 tools/learn_page.py --site   (writes site/learn.md: Parts A-D, no SPI material;
                                              tests/test_learn_site.py fails when it is stale)
 """
 import html, math, os, pathlib, re, sys
@@ -44,6 +44,18 @@ def make_table_crops():
 
 
 # ---------------------------------------------------------------- Map C overlay
+# Scenario 1 starting hexes [60.31, 60.41] and the historical axis of advance; shared by the standalone
+# overlay on the scan and the site's Part D on our own Map C render.
+PART_D_UNITS = [("C4218", "1 CCNN Div", "it"), ("C4120", "63 Cirene Div", "it"), ("C4020", "1 Libyan Div", "it"),
+                ("C3920", "2 Libyan Div", "it"), ("C3919", "Aresca Regt", "it"), ("C3918", "62 Marmarica Div", "it"),
+                ("C3617", "Maletti Gp", "it"), ("C4321", "Bardia garrison", "it"),
+                ("C4131", "2 Scots Gds · 31 Fd Arty", "cw"), ("C3926", "French Motor Marines", "cw"),
+                ("C3922", "3 Coldstream · 1 KRRC · 4 RHA · 7 Med Arty", "cw"), ("C3721", "1 RNF · 3 RHA (AT)", "cw"),
+                ("C3520", "1 RTR", "cw"), ("C3320", "2 Rifle Bde", "cw"), ("C3020", "11 Hussars", "cw")]
+PART_D_ADVANCE = ["C4020", "C4021", "C3923", "C3926", "C3928", "C4030", "C4131"]
+PART_D_LABEL_DY = {"C3919": 7, "C3922": 7}   # two labels that would sit on a neighbour's
+
+
 def make_map_overlay():
     """Pointy-top hexes, RRCC numbering, rows increase northward, odd rows shifted half a hex west.
     Reference measured on the scan: C4023 centre ~(2136, 1910) on the 3344x5293 image."""
@@ -52,11 +64,8 @@ def make_map_overlay():
     def centre(rr, cc):
         return X0 + (cc - 23) * COLW - (COLW / 2 if rr % 2 == 1 else 0), Y0 - (rr - 40) * ROWH
 
-    ITALIAN = [("4218", "1 CCNN Div"), ("4120", "63 Cirene Div"), ("4020", "1 Libyan Div"), ("3920", "2 Libyan Div"),
-               ("3919", "Aresca Regt"), ("3918", "62 Marmarica Div"), ("3617", "Maletti Gp"), ("4321", "Bardia garrison")]
-    CW = [("4131", "2 Scots Gds · 31 Fd Arty"), ("3926", "French Motor Marines"),
-          ("3922", "3 Coldstream · 1 KRRC · 4 RHA · 7 Med Arty"), ("3721", "1 RNF · 3 RHA (AT)"),
-          ("3520", "1 RTR"), ("3320", "2 Rifle Bde"), ("3020", "11 Hussars")]
+    ITALIAN = [(h[1:], l) for h, l, side in PART_D_UNITS if side == "it"]
+    CW = [(h[1:], l) for h, l, side in PART_D_UNITS if side == "cw"]
     im = scan("0189").convert("RGBA")
     box = (1400, 1480, 3250, 2900)
     crop = im.crop(box)
@@ -76,10 +85,10 @@ def make_map_overlay():
         d.text((x - tw / 2, y + r + 4 + dy), label, fill=(0, 0, 0, 255), font=font)
 
     for h_, l in ITALIAN:
-        mark(h_, l, (70, 110, 50, 120), (40, 80, 20, 255), dy=(30 if h_ == "3919" else 0))
+        mark(h_, l, (70, 110, 50, 120), (40, 80, 20, 255), dy=(30 if "C" + h_ in PART_D_LABEL_DY else 0))
     for h_, l in CW:
-        mark(h_, l, (200, 120, 20, 120), (150, 70, 0, 255), dy=(30 if h_ == "3922" else 0))
-    ax = [centre(40, 20), centre(40, 21), centre(39, 23), centre(39, 26), centre(39, 28), centre(40, 30), centre(41, 31)]
+        mark(h_, l, (200, 120, 20, 120), (150, 70, 0, 255), dy=(30 if "C" + h_ in PART_D_LABEL_DY else 0))
+    ax = [centre(int(h[1:3]), int(h[3:])) for h in PART_D_ADVANCE]
     ax = [(x - box[0], y - box[1]) for x, y in ax]
     d.line(ax, fill=(180, 0, 0, 220), width=8)
     x, y = ax[-1]
@@ -475,6 +484,9 @@ PART_D = """
 <img src="graziani.jpg" width="1200" alt="Map C with deployments">
 <p class="fine">Map C, SPI 1979, from the archive.org scan; hex positions computed from the printed grid, ±half a hex. Sollum C4021, Halfaya Pass C3922, Bardia C4321, Sidi Barrani C4131, Fort Maddalena C3019. Not shown: 64 Catanzaro and 4 CCNN at C4707/C4507 (Tobruk area), Matruh garrison and 7th Armoured / 4th Indian on Map D.</p>
 </section>
+"""
+
+PART_D_D2 = """
 <section class="panel">
 <h2>D2 · The situation</h2>
 <div class="cols">
@@ -487,6 +499,8 @@ PART_D = """
 <p>That is the whole design in one scenario: the fighting is easy, the arithmetic decides it, and the arithmetic is on the trucks.</p></div>
 </section>
 """
+PART_D = PART_D + PART_D_D2
+
 
 CSS = """
 body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#faf6ec;color:#222;margin:0;padding:24px;max-width:1240px}
@@ -506,6 +520,8 @@ th{white-space:nowrap;color:var(--learn-accent,#5a3d1a);font-weight:600}
 .ledger th{border-bottom:2px solid var(--learn-rule,#c9b98f)} .bad{color:var(--learn-bad,#b00);font-weight:bold} .warn{color:var(--learn-warn,#b8600b);font-weight:bold}
 .fine{color:var(--learn-muted,#666);font-size:12px;margin:8px 0 0}
 .legend{display:flex;gap:18px;font-size:13px;color:var(--learn-muted,#444);margin:0 0 18px;flex-wrap:wrap}
+.cna-map .unit.it{fill:#5a9e5a;stroke:#2d5a1e;stroke-width:0.8} .cna-map .unit.cw{fill:#e08a2e;stroke:#8a4600;stroke-width:0.8} .cna-map .unit-label{font:5px sans-serif;text-anchor:middle;fill:#111;paint-order:stroke;stroke:#fbf8ef;stroke-width:1.5px}
+.cna-map .advance{fill:none;stroke:#b00;stroke-width:2.5;stroke-opacity:0.75;stroke-linejoin:round}
 .sw{display:inline-block;width:22px;height:14px;vertical-align:middle;border:1px solid var(--learn-swatch,#222);margin-right:5px;border-radius:2px}
 """
 
@@ -526,10 +542,36 @@ SITE_CSS = """
 # ---------------------------------------------------------------- site mode (Part D of mission 2)
 SITE_MD = ROOT / "site" / "learn.md"
 CASE_RE = re.compile(r"\[([0-9][0-9.,\s]*?)\]")
-PART_D_NOTE = """
-<h1 class="part">Part D · Graziani's Offensive on the real map</h1>
-<p class="sub">Part D walks Scenario 1 (§60) across Map C hex by hex. It is published when the map sub-project has redrawn Map C as our own; until then it lives in the local build of this primer only.</p>
+PART_D_SITE = """
+<h1 id="part-d" class="part">Part D · Graziani's Offensive on the real map (§60)</h1>
+<p class="sub">Scenario 1: Game-Turn 1 OpStage 1 (13 Sept 1940) to Game-Turn 6 OpStage 3, on Map C, the Libya–Egypt frontier. The map below is our own schematic redraw, generated from <code>data/map/</code>; green = Italian starting hexes [60.31], orange = Commonwealth [60.41], red = the historical axis of advance.</p>
+<section class="panel">
+<h2>D1 · Initial deployment</h2>
+{svg}
+<p class="fine">Map C rows 28–50, columns 05–33, rendered by <code>tools/map_render.py</code>; markers sit on hex centres. Sollum C4021, Halfaya Pass C3922, Bardia C4321, Sidi Barrani C4131, Fort Maddalena C3019. Not shown: 64 Catanzaro and 4 CCNN at C4707/C4507 (Tobruk area), the Matruh garrison, and 7th Armoured and 4th Indian on Map D.</p>
+</section>
 """
+
+
+def part_d_region():
+    """Map C hexes from row 28 to 50, columns 5 to 33: Bardia–Sollum–Sidi Barrani and the desert flank."""
+    import map_render
+    data = map_render.MapData.load(ROOT / "data")
+    return sorted(i for i, h in data.hexes.items() if h["sheet"] == "C" and 28 <= int(i[1:3]) <= 50 and 5 <= int(i[3:5]) <= 33)
+
+
+def part_d_svg():
+    import map_geom, map_render
+    data = map_render.MapData.load(ROOT / "data")
+    marks = []
+    pts = " ".join(f"{x:.2f},{y:.2f}" for x, y in (map_geom.centre(h, data.sheets) for h in PART_D_ADVANCE))
+    marks.append(f'<polyline class="advance" points="{pts}"/>')
+    for hid, label, side in PART_D_UNITS:
+        cx, cy = map_geom.centre(hid, data.sheets)
+        dy = PART_D_LABEL_DY.get(hid, 0)
+        marks.append(f'<rect class="unit {side}" x="{cx - 7:.2f}" y="{cy - 5:.2f}" width="14" height="10" rx="1"/>'
+                     f'<text class="unit-label" x="{cx:.2f}" y="{cy + 12 + dy:.2f}">{html.escape(label)}</text>')
+    return map_render.render_region(part_d_region(), data, overlay_svg="".join(marks))
 
 
 def case_index():
@@ -605,7 +647,8 @@ def site_markdown():
 <p class="sub">Replace §32's abstract Supply Units with this. Four commodities, three truck lines, and every arrow below is bookkeeping a human had to do by hand.</p>
 <section class="panel"><h2>C1 · The pipeline</h2>{flow_svg()}{TRUCKS_HTML}</section>
 {PART_C_TAIL}
-{PART_D_NOTE}
+{PART_D_SITE.format(svg=part_d_svg())}
+{PART_D_D2}
 <p class="fine">Generated by <code>tools/learn_page.py --site</code> from our own prose, SVGs and CC0 data; no SPI material.</p>"""
     body = link_cases(body)
     body = "\n".join(ln for ln in body.splitlines() if ln.strip())
