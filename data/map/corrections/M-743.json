@@ -1,0 +1,36 @@
+{
+ "id": "M-743",
+ "target": "hexside",
+ "key": "B5502|B5503",
+ "before": {
+  "key": "B5502|B5503",
+  "a": "B5502",
+  "b": "B5503",
+  "side": null,
+  "features": [
+   "road",
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "road"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   96,
+   629,
+   219,
+   177
+  ],
+  "note": "the road runs along the foot of the escarpment here; no railway is printed on this hexside (the railway from Barce runs south-west, away from the coast)"
+ },
+ "superseded": false
+}

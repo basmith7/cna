@@ -1,0 +1,36 @@
+{
+ "id": "M-709",
+ "target": "hexside",
+ "key": "B2007|B2107",
+ "before": {
+  "key": "B2007|B2107",
+  "a": "B2007",
+  "b": "B2107",
+  "side": null,
+  "features": [
+   "slope"
+  ],
+  "up": "B2007"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "slope",
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   540,
+   3406,
+   219,
+   177
+  ],
+  "note": "a dashed track crosses this hexside on the scan alongside the feature already read (on the redraw its 1 px dashes run beside the heavier symbol and the extractor did not read them)"
+ },
+ "superseded": false
+}

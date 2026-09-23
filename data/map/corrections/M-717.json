@@ -1,0 +1,32 @@
+{
+ "id": "M-717",
+ "target": "hexside",
+ "key": "B0421|B0522",
+ "before": {
+  "key": "B0421|B0522",
+  "a": "B0421",
+  "b": "B0522",
+  "side": null,
+  "features": [
+   "slope"
+  ],
+  "up": "B0421"
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   1896,
+   4694,
+   219,
+   177
+  ],
+  "note": "the printed name LIBYAN SAND DESERT runs across these hexes on the redraw; the scan shows open sand desert here, with no slope or ridge on this hexside"
+ },
+ "superseded": false
+}
