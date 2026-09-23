@@ -304,3 +304,9 @@ Done: #72 (draft, base autopilot/map-d): Map E raw, scan grid p191 (E2217 (1600,
 In flight: none half-written. Rows left: A 54, B 180, C 22 (for Brian), D 72, E 313 (mostly Nile river major/minor classes).
 Next: stack #64 ← #66 ← {#67, #69 ← #70 ← #71 ← #72}. When Brian merges #64, retarget and merge bottom-up after CI. Then part-2 PRs (next free M-683), Map B/D/E places, then Part D docs (Task 17).
 Blocked: #64 merge decision (Brian).
+
+## 2026-09-22 16:17 MST — autopilot/map-e-2
+Done: #73 (draft, base autopilot/map-e): M-683–M-694, the Nile above Cairo as major river (12). Gates green locally.
+In flight: E river classes: 37 more minor→major rows unchecked (the rest of the main Nile?), 38 major→minor (Delta branches/canals, undecidable from the scan: left for Brian).
+Next: finish #73 (the remaining 37 minor→major rows, 38 "- → major-river", 21 "- → minor-river", 37 "- → ridge"); the merge order is in PROGRESS. Next free correction M-698.
+Blocked: #64 merge decision; Delta branch river class, the Map E hill bands (ridge or slope), and whether the Fayum lake shore counts as a hexside feature (Brian).

@@ -34624,7 +34624,7 @@
    "b": "E0128",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
@@ -34755,7 +34755,7 @@
    "b": "E0228",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
@@ -34926,7 +34926,7 @@
    "b": "E0329",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
@@ -35017,7 +35017,7 @@
    "b": "E0429",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
@@ -35138,7 +35138,7 @@
    "b": "E0530",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
@@ -35159,7 +35159,7 @@
    "b": "E0629",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
@@ -35803,7 +35803,7 @@
    "b": "E0930",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
@@ -35964,7 +35964,7 @@
    "b": "E1030",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
@@ -35985,7 +35985,7 @@
    "b": "E1130",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
@@ -36075,7 +36075,7 @@
    "b": "E1131",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
@@ -36096,7 +36096,7 @@
    "b": "E1230",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
@@ -36217,7 +36217,7 @@
    "b": "E1330",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
@@ -36377,7 +36377,7 @@
    "b": "E1331",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
@@ -36568,7 +36568,7 @@
    "b": "E1430",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
@@ -37078,7 +37078,7 @@
    "b": "E1730",
    "side": null,
    "features": [
-    "minor-river"
+    "major-river"
    ],
    "up": null
   },
