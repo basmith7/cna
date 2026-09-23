@@ -334,3 +334,8 @@ Done: merged #72, #73, #77 (Map E). #78: design Status line (implemented, PRs li
 In flight: #78 merge after CI; then MISSION 3 COMPLETE in PROGRESS.
 Next: nothing on the mission. Open questions for Brian are in PROGRESS (river class, D hill bands, blue railways, vertex rule); act on Feedback if any.
 Blocked: none for the mission.
+
+## 2026-09-22 21:55 MST — main
+MISSION 3 COMPLETE. Parts 0 and A–D merged (#60–#78); Map E #72/#73/#77 and docs #78 this run.
+Next: nothing unless PROGRESS Feedback has items; the Brian questions are in PROGRESS Next steps.
+Blocked: none.
