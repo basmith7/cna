@@ -18,7 +18,7 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**Mission 3 (the map) in progress**: 2026-09-22 22:45 UTC. Parts 0 and A are merged, and so are both extractor PRs. Map C and Part D of the primer are finished as three stacked drafts. **Brian: merge #64** (`gh pr ready 64 && gh pr merge 64 --merge`) **or say in Feedback that the cap should not block it.** After that the next run retargets #66 and #67 to `main` and merges them in turn. They stay drafts until then, so that no run merges #66 into #64 and pushes #64 over the 150 cap.
+**Mission 3 (the map) in progress**: 2026-09-22 23:16 UTC. Parts 0 and A are merged, and so are both extractor PRs. Map C and Part D of the primer are finished as three stacked drafts. **Brian: merge #64** (`gh pr ready 64 && gh pr merge 64 --merge`) **or say in Feedback that the cap should not block it.** After that the next run retargets #66 and #67 to `main` and merges them in turn. They stay drafts until then, so that no run merges #66 into #64 and pushes #64 over the 150 cap.
 
 Missions 1 and 2 are complete (PRs #2–#13, #17–#57). 20.67 is still the one item only Brian can close (see *Next steps*).
 
@@ -28,12 +28,12 @@ Missions 1 and 2 are complete (PRs #2–#13, #17–#57). 20.67 is still the one 
 | A | plumbing on Malta (plan Tasks 1–13) | **merged** — `map_geom`, schemas, `sheets.json` (Map A shifts odd rows *east*), extractor cache-first/ids/clip/coast/raw, `map_build`, `check_data` map gate, `map_render` + `/map` page + golden, CI gates, `data/README.md`, EXTRACTION entry; Malta: 63 hexes, 17 corrections (the redraw's title box), 6 places | #61 |
 | extractor | dashed-track detection; slope band threshold (own PRs, every raw regenerated) | **merged** — Map C diff 470 → 297 (#63) → 262 (#65); Malta corrections re-resolved (+M-018, M-019); `map_diff.py` and Map C raw + render landed with #63 | #63, #65 |
 | B | Map C: diff, ≤150 resolutions, `up`, places, 50-hex sample, Part D of the primer | **three stacked drafts, all gates green** — #64: 149 resolutions (116 corrections M-020–M-135 + 33 agrees), 20 places, sample 0/50, at the cap. #66 (base #64): 100 more (93 corrections M-140–M-232 + 7 agrees): 60 missed track crossings, 5 railway hexsides that are tracks, the coastal slope west of Tobruk with `up`, 6 false railway reads removed; Map C diff 155 → **62**, of which **22 left as read** (see below). #67 (base #66): Task 15, Part D of the primer on our own Map C render | #64, #66, #67 (drafts) |
-| C | Maps A, B, D, E | not started | — |
+| C | Maps A, B, D, E | **Every sheet has a first PR.** #68 is merged: the extractor now reads Map A's odd-row shift as `west` in the printed numbering. **#69** (Map A, draft, base #66): 108 corrections M-233–M-340 plus 32 agrees = 140 resolutions; 10 places; sample 0/50; 54 rows left. **#70** (Map B, draft, base #69): 125 corrections M-341–M-465 plus 18 agrees = 143 resolutions (84 missed tracks, 39 coastal-escarpment slopes with `up`); sample 0/50; 180 rows left; Map B prints no locations summary. **#71** (Map D, draft, base #70): 96 corrections M-466–M-561 plus 7 agrees = 103 resolutions (48 missed tracks; the railway west of Matruh printed as unfinished; false reads from the Qattara escarpment band and the printed title removed); sample 0/50; 72 rows left. **#72** (Map E, draft, base #71): 121 corrections M-562–M-682 plus 2 agrees = 123 resolutions (69 Delta railway hexsides the extractor had read as track, 37 missed tracks, 15 false tracks from printed place names); sample 0/50; 313 rows left, mostly the Nile's major and minor river classes. **#73** (Map E part 2, draft, base #72): M-683–M-697, the main Nile to Cairo as major river | #68, #69–#73 (drafts) |
 | D | docs | not started | — |
 
 ## Next steps
 
-For the autopilot: if #64 has merged, retarget #66 to `main` (`gh pr edit 66 --base main`), run the gates, then mark it ready and merge it once CI is green; then do the same for #67. After that comes Part C, Map A, on `autopilot/map-a` (Task 16 = Task 14 steps 14.3–14.8). If #64 has not merged, Map A can start stacked on #66 so the correction numbers stay unique (next free is M-233).
+For the autopilot: if #64 has merged, retarget #66 to `main` (`gh pr edit 66 --base main`), run the gates, then mark it ready and merge it once CI is green; then do the same for #67. After that comes Part C, Map A, on `autopilot/map-a` (Task 16 = Task 14 steps 14.3–14.8). If #64 has not merged, keep stacking on #73 (the next free correction is M-698). Rows still to resolve: A 54, B 180, D 72, E 313. Maps B, D and E still need their places. Merge order once #64 is in: #66, then #67 and #69, then #70, #71, #72 and #73.
 
 For Brian:
 
@@ -43,6 +43,8 @@ For Brian:
   - where an escarpment band ends: C3526|C3625, C3922|C4021, C4806|C4907
   - lines that pass through a hex vertex: tracks at C0323|C0324 and C4011|C4111, the railway at C4411|C4511, and the road at C4130|C4131, where it changes from unfinished to finished at the vertex
   - from #64: C0611 (clear or sand), C0818 (clear or salt-marsh), C4905|C4906 (coast road or track), and `up` at C0323|C0423 (our band-side convention says C0323 is higher; the second database says C0423, a rough hill ringed by hachures)
+- **Map E river classes:** the main Nile to Cairo is printed wide, and #73 makes it a major river. The Delta branches and canals are printed at a middle width, and the second database disagrees with our read on 72 of their hexsides, in both directions. If the Terrain Key on your copy says which channels are major rivers (the Rosetta and Damietta branches?), say so.
+- **Map E hill bands:** 37 hexsides on the rough hills in rows E01–E14 carry a hachured band on the scan that the extractor did not read at all. The second database calls them ridges; on the other sheets a one-sided band was read as a slope. Say which they are, and the next run will add them.
 - **Railways along hexsides:** in five places the railway runs along a hexside to its vertex instead of crossing it (C3228|C3328, C3721|C3821, C3920|C4020, C4118|C4218, C4216|C4317). #66 records only the track crossing there. Tell me if you would rather the railway counted as crossing.
 - **Malta numbering:** the printed inset has no hex numbers, so `M` hexes carry the VASSAL module's numbering. Norman's code uses a different origin. Say if you want it changed.
 - **Valletta** (`M0805`) reads as sea: it is a `feature` place with `port: true` on a sea hex.
@@ -79,3 +81,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-09-21 18:23 | 0 | 89→89 | 0→0 | $0.27 | 2 | Nothing to do this run. `MISSION 2 COMPLETE` is logged in `docs/autopilot/PROGRESS.md` (Status section), the **Feedback** section is empty, and `gh pr list --st |
 | 2026-09-21 21:23 | 66 | 91→93 | 19→32 | $33.74 | 218 | Run complete; everything is committed and pushed, tree clean. **Landed this run (all merged after green CI)** - **#60 — Part 0:** R-020 (well draws per stage),  |
 | 2026-09-22 00:23 | 0 | 100→100 | 3→3 | $0.00 | 1 | You've hit your weekly limit · resets 4pm (America/Phoenix) |
+| 2026-09-22 15:23 | 53 | 18→21 | 15→52 | $36.33 | 380 | I merged one PR this run (#68). Every other PR is a draft waiting on one decision from you: whether #64 (Map C) can merge. It holds 149 resolutions, just under  |
