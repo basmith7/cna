@@ -1,0 +1,33 @@
+{
+ "id": "M-811",
+ "target": "hexside",
+ "key": "E2001|E2101",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "E2001|E2101",
+    "a": "E2001",
+    "b": "E2101",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "E2001"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   0,
+   3397,
+   222,
+   178
+  ],
+  "note": "the hachured band ringing E2101 is printed along this hexside on the scan, inside E2101 (band on the down side), so E2001 is up"
+ },
+ "superseded": false
+}

@@ -4,13 +4,56 @@
   "vassal:CNAv2.1.0",
   "scan:p189",
   "scan:p188",
-  "scan:p190"
+  "scan:p190",
+  "scan:p191"
  ],
  "places": [
+  {
+   "id": "abbassia",
+   "hex": "E2132",
+   "name": "Abbassia",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "aboukir",
+   "hex": "E3815",
+   "name": "Aboukir",
+   "kind": "village",
+   "port": true
+  },
   {
    "id": "agedabia",
    "hex": "A2629",
    "name": "Agedabia",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "alexandria-east",
+   "hex": "E3714",
+   "name": "Alexandria (east hex)",
+   "kind": "major-city",
+   "port": true
+  },
+  {
+   "id": "alexandria-west",
+   "hex": "E3613",
+   "name": "Alexandria (west hex)",
+   "kind": "major-city",
+   "port": true
+  },
+  {
+   "id": "almaza",
+   "hex": "E2133",
+   "name": "Almaza",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "amiriya",
+   "hex": "E3212",
+   "name": "Amiriya",
    "kind": "village",
    "port": false
   },
@@ -64,6 +107,27 @@
    "port": false
   },
   {
+   "id": "burg-el-arab",
+   "hex": "E3109",
+   "name": "Burg el Arab",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "cairo",
+   "hex": "E1730",
+   "name": "Cairo",
+   "kind": "major-city",
+   "port": false
+  },
+  {
+   "id": "dekheila",
+   "hex": "E3512",
+   "name": "Dekheila",
+   "kind": "village",
+   "port": false
+  },
+  {
    "id": "derna",
    "hex": "B5925",
    "name": "Derna",
@@ -95,6 +159,13 @@
    "id": "el-grein",
    "hex": "C1715",
    "name": "el Grein",
+   "kind": "village",
+   "port": false
+  },
+  {
+   "id": "el-hamman",
+   "hex": "E3007",
+   "name": "El Hamman",
    "kind": "village",
    "port": false
   },
@@ -155,6 +226,13 @@
    "port": false
   },
   {
+   "id": "helwan",
+   "hex": "E1430",
+   "name": "Helwan",
+   "kind": "major-city",
+   "port": false
+  },
+  {
    "id": "jalo",
    "hex": "B0513",
    "name": "Jalo",
@@ -207,6 +285,13 @@
    "id": "ras-el-ali",
    "hex": "A2010",
    "name": "Ras el Ali",
+   "kind": "village",
+   "port": true
+  },
+  {
+   "id": "rosetta",
+   "hex": "E4019",
+   "name": "Rosetta",
    "kind": "village",
    "port": true
   },

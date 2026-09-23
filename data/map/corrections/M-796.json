@@ -1,0 +1,34 @@
+{
+ "id": "M-796",
+ "target": "hexside",
+ "key": "E3613|E3714",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "E3613|E3714",
+    "a": "E3613",
+    "b": "E3714",
+    "side": null,
+    "features": [
+     "railroad",
+     "road"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1134,
+   2101,
+   222,
+   178
+  ],
+  "note": "the railway into Alexandria and the road beside it cross this hexside on the scan"
+ },
+ "superseded": false
+}

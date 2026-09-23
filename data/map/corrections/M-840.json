@@ -1,0 +1,30 @@
+{
+ "id": "M-840",
+ "target": "hex",
+ "key": "E4225",
+ "before": {
+  "id": "E4225",
+  "sheet": "E",
+  "terrain": "clear",
+  "settlement": null,
+  "coastal": true
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/terrain",
+   "value": "swamp"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   2246,
+   1655,
+   220,
+   180
+  ],
+  "note": "the land in this hex is the thin spit of the coast, printed with the swamp tufts like the spit in E4224"
+ },
+ "superseded": false
+}

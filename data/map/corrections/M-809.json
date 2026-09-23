@@ -1,0 +1,33 @@
+{
+ "id": "M-809",
+ "target": "hexside",
+ "key": "E1904|E2003",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "E1904|E2003",
+    "a": "E1904",
+    "b": "E2003",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "E1904"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   189,
+   3478,
+   222,
+   178
+  ],
+  "note": "the hachured band ringing E2003 is printed along this hexside on the scan, inside E2003 (band on the down side), so E1904 is up"
+ },
+ "superseded": false
+}

@@ -1,0 +1,32 @@
+{
+ "id": "M-775",
+ "target": "hexside",
+ "key": "E0818|E0819",
+ "before": {
+  "key": "E0818|E0819",
+  "a": "E0818",
+  "b": "E0819",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1630,
+   4410,
+   222,
+   178
+  ],
+  "note": "the dark escarpment band or the lake shore, not a railway: no railway is printed on this hexside on the scan"
+ },
+ "superseded": false
+}

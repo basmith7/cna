@@ -1,0 +1,33 @@
+{
+ "id": "M-805",
+ "target": "hexside",
+ "key": "E1410|E1411",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "E1410|E1411",
+    "a": "E1410",
+    "b": "E1411",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "E1411"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   874,
+   3924,
+   222,
+   178
+  ],
+  "note": "the hachured band ringing E1410 is printed along this hexside on the scan, inside E1410 (band on the down side), so E1411 is up"
+ },
+ "superseded": false
+}

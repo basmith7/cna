@@ -1,0 +1,33 @@
+{
+ "id": "M-797",
+ "target": "hexside",
+ "key": "E0420|E0521",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "E0420|E0521",
+    "a": "E0420",
+    "b": "E0521",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "E0521"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1795,
+   4693,
+   222,
+   178
+  ],
+  "note": "the hachured band ringing E0420 is printed along this hexside on the scan, inside E0420 (band on the down side), so E0521 is up"
+ },
+ "superseded": false
+}

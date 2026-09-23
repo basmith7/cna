@@ -1,0 +1,33 @@
+{
+ "id": "M-813",
+ "target": "hexside",
+ "key": "E2219|E2319",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "E2219|E2319",
+    "a": "E2219",
+    "b": "E2319",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "E2319"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1654,
+   3235,
+   222,
+   178
+  ],
+  "note": "the hachured band ringing E2219 is printed along this hexside on the scan, inside E2219 (band on the down side), so E2319 is up"
+ },
+ "superseded": false
+}

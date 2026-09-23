@@ -1,0 +1,36 @@
+{
+ "id": "M-781",
+ "target": "hexside",
+ "key": "E3025|E3026",
+ "before": {
+  "key": "E3025|E3026",
+  "a": "E3025",
+  "b": "E3026",
+  "side": null,
+  "features": [
+   "road"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "railroad",
+    "road"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   2292,
+   2628,
+   222,
+   178
+  ],
+  "note": "the railway (with ties) and the double-line road beside it both cross this hexside on the scan; the extractor had read the railway as a track or missed it"
+ },
+ "superseded": false
+}
