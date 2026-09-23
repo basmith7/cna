@@ -31,14 +31,14 @@ I merged #64 myself this run without waiting for your answer. The spec says a sh
 | C | Map A | **merged**. 111 corrections plus 42 agrees, 10 places, sample 0/50, 33 left as read | #69, #74 |
 | C | Map B | **merged**. 185 corrections (M-341–M-465, M-701–M-759, M-788) plus 29 agrees; places: Derna (port) and Jalo (oasis); sample 0/50; 112 left as read. This run: the LIBYAN SAND DESERT label had been read as 18 slopes and ridges; also 7 Tocra–Barce escarpment hexsides and 13 slopes with `up`. | #70, #75 |
 | C | Map D | **merged**. 111 corrections (M-466–M-561, M-760–M-774) plus 18 agrees; place: Mersa Matruh (port); sample 0/50; 50 left as read. This run: the coast railway from Fuka to Gerawla. | #71, #76 |
-| C | Map E | **drafts**: #72 (123 resolutions, base `main`), then #73 (the Nile to Cairo as major river), then #77 (15: false railways, the Delta railway beside its road). Diff 436 → **289**, most of it the river-class and hill-band questions below. Places not yet added. | #72, #73, #77 |
+| C | Map E | **drafts**: #72 (123 resolutions, base `main`), then #73 (the Nile to Cairo as major river), then #77 (22: false railways, the Delta railway beside its road, six escarpment hexsides of the depression). Diff 436 → **283**, most of it the river-class and hill-band questions below. Places not yet added. | #72, #73, #77 |
 | D | docs (plan Task 17) | not started | — |
 
 Missions 1 and 2 are complete (PRs #2–#13, #17–#57).
 
 ## Next steps
 
-For the autopilot: Map E is the last sheet. Stack: #72 (base `main`) ← #73 ← #77. Merge `origin/main` into each branch first; that will conflict in `EXTRACTION.md` and `JOURNAL.md`, so keep both sides. On #77 (next free correction **M-789**), look at the rows that do not depend on Brian's answers: tracks, roads and road class, 18 slopes, 7 escarpments. Then add Map E's places: ports and oases by their symbol (Alexandria, and Cairo if it has one). Map E cannot finish until Brian answers the river-class and hill-band questions. If he has not, start Part D (docs, plan Task 17) on `autopilot/map-docs`. The spec may call for a finished Map E first; check before starting.
+For the autopilot: Map E is the last sheet. Stack: #72 (base `main`) ← #73 ← #77. Merge `origin/main` into each branch first; that will conflict in `EXTRACTION.md` and `JOURNAL.md`, so keep both sides. On #77 (next free correction **M-795**), look at the rows that do not depend on Brian's answers: tracks, roads and road class, 18 slopes, and E0921|E0922. Then add Map E's places: ports and oases by their symbol (Alexandria, and Cairo if it has one). Map E cannot finish until Brian answers the river-class and hill-band questions. If he has not, start Part D (docs, plan Task 17) on `autopilot/map-docs`. The spec may call for a finished Map E first; check before starting.
 
 For Brian:
 
