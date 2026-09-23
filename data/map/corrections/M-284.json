@@ -1,0 +1,33 @@
+{
+ "id": "M-284",
+ "target": "hexside",
+ "key": "A2631|A2632",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "A2631|A2632",
+    "a": "A2631",
+    "b": "A2632",
+    "side": null,
+    "features": [
+     "track"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5828,
+   5936,
+   441,
+   360
+  ],
+  "note": "a dashed track crosses this hexside on the scan (and on the redraw, whose 1 px dashes the extractor did not read)"
+ },
+ "superseded": false
+}

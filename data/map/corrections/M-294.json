@@ -1,0 +1,32 @@
+{
+ "id": "M-294",
+ "target": "hexside",
+ "key": "A4032|A4132",
+ "before": {
+  "key": "A4032|A4132",
+  "a": "A4032",
+  "b": "A4132",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5875,
+   3587,
+   441,
+   360
+  ],
+  "note": "no track crosses this hexside on the scan; the nearby tracks pass on either side of it"
+ },
+ "superseded": false
+}

@@ -264,6 +264,12 @@ In flight: nothing half-written. Regenerate the diff with `map_diff.py C`; monta
 Next: Brian may prefer to merge #64 as is (gates green, 149 resolutions) and open `autopilot/map-c-2` for the last 122 rows: 27 "- → track" (all viewed ones so far were real crossings → add-hexside corrections), 15 "unfinished-railroad → track,unfinished-railroad", 11 "- → slope", 9 "ridge → ridge,track", the rest ones and twos. Giarabub Oasis, El Qaqa and El Al Thed palm hexes are placed (M-136–M-139); then Task 15 (Part D of the primer).
 Blocked: none. For Brian: `up` at C0323|C0423; C4905|C4906 and C0323|C0324 (track or not).
 
+## 2026-09-22 15:55 MST — autopilot/map-a
+Done: #68 (extractor: odd-row shift in the printed numbering, Map A = west) merged. #69 (draft, base autopilot/map-c-2): Map A raw, scan grid (A1613 (2562,7737) 188.5×162), corrections M-233–M-335 + 25 agrees = 128 resolutions, sample 0/50, 10 places, EXTRACTION entry. Gates green locally.
+In flight: 66 Map A rows unresolved (21 borderline terrain, 45 hexside), 22 left under the cap on #69.
+Next: stack order is #64 ← #66 ← #67 and #64 ← #66 ← #69; once Brian merges #64, retarget and merge in order. Then Map A part 2, then Map B (next free correction M-336+).
+Blocked: #64 merge decision (Brian).
+
 ## 2026-09-22 15:40 MST — autopilot/map-c-2, autopilot/learn-part-d
 Done: #64 kept draft (cap; Feedback empty). #66 (draft, base map-c): 100 resolutions — M-140–M-232 + 7 agrees; Map C diff 155 → 62, 22 rows left as read (listed in EXTRACTION + PROGRESS). #67 (draft, base map-c-2): Task 15, Part D on our Map C render (PART_D_UNITS shared, sidebar, README). All gates green locally on both.
 In flight: nothing half-written. Montage recipe: /tmp/mt.py is gone next run — it put a 220×180 scan crop (map_sample.scan_centre midpoint of a|b) beside the redraw crop (debug-C.csv centres) with the hexside drawn; the scan grid drifts ~35 px, judge topology on the redraw, feature class on the scan.

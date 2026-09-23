@@ -1,0 +1,32 @@
+{
+ "id": "M-296",
+ "target": "hexside",
+ "key": "A5232|A5333",
+ "before": {
+  "key": "A5232|A5333",
+  "a": "A5232",
+  "b": "A5333",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5969,
+   1643,
+   441,
+   360
+  ],
+  "note": "no track at this hexside on the scan; the extractor read the dark edge of the heavy-vegetation band as a track"
+ },
+ "superseded": false
+}

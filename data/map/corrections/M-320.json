@@ -1,0 +1,32 @@
+{
+ "id": "M-320",
+ "target": "hexside",
+ "key": "A4729|A4828",
+ "before": {
+  "key": "A4729|A4828",
+  "a": "A4729",
+  "b": "A4828",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5215,
+   2453,
+   441,
+   360
+  ],
+  "note": "no railway crosses this hexside; the Benghazi\u2013Er Regima line passes to the north of it"
+ },
+ "superseded": false
+}

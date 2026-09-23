@@ -1,0 +1,40 @@
+{
+ "id": "M-234",
+ "target": "hex",
+ "key": "A2803",
+ "before": {
+  "id": "A2803",
+  "sheet": "A",
+  "terrain": "clear",
+  "settlement": "village",
+  "coastal": true
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/terrain",
+   "value": "sea"
+  },
+  {
+   "op": "replace",
+   "path": "/settlement",
+   "value": null
+  },
+  {
+   "op": "replace",
+   "path": "/coastal",
+   "value": false
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   456,
+   5612,
+   441,
+   360
+  ],
+  "note": "the hex is open sea with no settlement; the extractor read the printed off-map sea-movement arrow as land with a village"
+ },
+ "superseded": false
+}

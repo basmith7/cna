@@ -1,0 +1,36 @@
+{
+ "id": "M-333",
+ "target": "hexside",
+ "key": "A5233|A5333",
+ "before": {
+  "key": "A5233|A5333",
+  "a": "A5233",
+  "b": "A5333",
+  "side": null,
+  "features": [
+   "escarpment",
+   "track"
+  ],
+  "up": "A5233"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "escarpment"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   6063,
+   1643,
+   441,
+   360
+  ],
+  "note": "no track crosses this escarpment hexside on the scan; the extractor read the dark edge of the escarpment band as a track"
+ },
+ "superseded": false
+}

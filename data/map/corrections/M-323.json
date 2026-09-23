@@ -1,0 +1,35 @@
+{
+ "id": "M-323",
+ "target": "hexside",
+ "key": "A1719|A1819",
+ "before": {
+  "key": "A1719|A1819",
+  "a": "A1719",
+  "b": "A1819",
+  "side": null,
+  "features": [
+   "unfinished-road"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "road"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   3424,
+   7313,
+   441,
+   360
+  ],
+  "note": "the road crossing this hexside is printed with solid double lines (a road), not the dashed double lines of the unfinished-road symbol"
+ },
+ "superseded": false
+}

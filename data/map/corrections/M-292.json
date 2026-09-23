@@ -1,0 +1,32 @@
+{
+ "id": "M-292",
+ "target": "hexside",
+ "key": "A0327|A0328",
+ "before": {
+  "key": "A0327|A0328",
+  "a": "A0327",
+  "b": "A0328",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   4979,
+   9662,
+   441,
+   360
+  ],
+  "note": "the dashed track runs beside this hexside inside the western hex and does not cross it"
+ },
+ "superseded": false
+}

@@ -1,0 +1,32 @@
+{
+ "id": "M-293",
+ "target": "hexside",
+ "key": "A1825|A1926",
+ "before": {
+  "key": "A1825|A1926",
+  "a": "A1825",
+  "b": "A1926",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   4650,
+   7151,
+   441,
+   360
+  ],
+  "note": "no track crosses this hexside on the scan; the nearby tracks pass on either side of it"
+ },
+ "superseded": false
+}

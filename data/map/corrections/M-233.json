@@ -1,0 +1,40 @@
+{
+ "id": "M-233",
+ "target": "hex",
+ "key": "A2802",
+ "before": {
+  "id": "A2802",
+  "sheet": "A",
+  "terrain": "clear",
+  "settlement": "village",
+  "coastal": true
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/terrain",
+   "value": "sea"
+  },
+  {
+   "op": "replace",
+   "path": "/settlement",
+   "value": null
+  },
+  {
+   "op": "replace",
+   "path": "/coastal",
+   "value": false
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   267,
+   5612,
+   441,
+   360
+  ],
+  "note": "the hex is sea but for a thin strip of beach in its lower corner and carries no settlement; the extractor read the printed off-map sea-movement arrow as land with a village"
+ },
+ "superseded": false
+}

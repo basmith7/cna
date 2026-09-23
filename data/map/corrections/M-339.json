@@ -1,0 +1,36 @@
+{
+ "id": "M-339",
+ "target": "hexside",
+ "key": "A2330|A2429",
+ "before": {
+  "key": "A2330|A2429",
+  "a": "A2330",
+  "b": "A2429",
+  "side": null,
+  "features": [
+   "slope"
+  ],
+  "up": "A2330"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "slope",
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5404,
+   6341,
+   441,
+   360
+  ],
+  "note": "a dashed track crosses this hexside on the scan alongside the feature already read (on the redraw its 1 px dashes run beside the heavier symbol and the extractor did not read them)"
+ },
+ "superseded": false
+}

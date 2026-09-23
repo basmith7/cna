@@ -1,0 +1,34 @@
+{
+ "id": "M-334",
+ "target": "hexside",
+ "key": "A5031|A5131",
+ "before": {
+  "key": "A5031|A5131",
+  "a": "A5031",
+  "b": "A5131",
+  "side": null,
+  "features": [
+   "escarpment",
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "A5031"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5686,
+   1967,
+   441,
+   360
+  ],
+  "note": "up follows the rest of this escarpment line (the band is on the down side; the neighbouring escarpment hexsides already read put the south-east hexes up)"
+ },
+ "superseded": false
+}

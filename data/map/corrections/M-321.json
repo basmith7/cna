@@ -1,0 +1,33 @@
+{
+ "id": "M-321",
+ "target": "hexside",
+ "key": "A1716|A1816",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "A1716|A1816",
+    "a": "A1716",
+    "b": "A1816",
+    "side": null,
+    "features": [
+     "road"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   2859,
+   7313,
+   441,
+   360
+  ],
+  "note": "the double-line coast road (Via Balbia) crosses this hexside on the scan and the redraw"
+ },
+ "superseded": false
+}

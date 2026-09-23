@@ -1,0 +1,36 @@
+{
+ "id": "M-312",
+ "target": "hexside",
+ "key": "A4429|A4529",
+ "before": {
+  "key": "A4429|A4529",
+  "a": "A4429",
+  "b": "A4529",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "railroad",
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5309,
+   2939,
+   441,
+   360
+  ],
+  "note": "the railway (blue with ties) and the dashed track that runs beside it both cross this hexside"
+ },
+ "superseded": false
+}

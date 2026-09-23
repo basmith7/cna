@@ -1,0 +1,35 @@
+{
+ "id": "M-310",
+ "target": "hexside",
+ "key": "A4329|A4330",
+ "before": {
+  "key": "A4329|A4330",
+  "a": "A4329",
+  "b": "A4330",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5356,
+   3182,
+   441,
+   360
+  ],
+  "note": "the dashed track north-east from Giardina crosses this hexside; the railway runs beside it inside A4329"
+ },
+ "superseded": false
+}
