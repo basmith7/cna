@@ -51,6 +51,13 @@
    "port": false
   },
   {
+   "id": "amiriya",
+   "hex": "E3212",
+   "name": "Amiriya",
+   "kind": "village",
+   "port": false
+  },
+  {
    "id": "bardia",
    "hex": "C4321",
    "name": "Bardia",
