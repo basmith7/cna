@@ -1,0 +1,33 @@
+{
+ "id": "M-753",
+ "target": "hexside",
+ "key": "B5604|B5605",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "B5604|B5605",
+    "a": "B5604",
+    "b": "B5605",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "B5605"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   330,
+   549,
+   219,
+   177
+  ],
+  "note": "the hachured slope band is printed along this hexside on the scan, inside the other hex (band on the down side), so this hex is up"
+ },
+ "superseded": false
+}

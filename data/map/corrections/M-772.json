@@ -1,0 +1,36 @@
+{
+ "id": "M-772",
+ "target": "hexside",
+ "key": "D3313|D3412",
+ "before": {
+  "key": "D3313|D3412",
+  "a": "D3313",
+  "b": "D3412",
+  "side": null,
+  "features": [
+   "slope"
+  ],
+  "up": "D3313"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "slope",
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   1052,
+   2374,
+   220,
+   178
+  ],
+  "note": "a dashed track crosses this hexside on the scan, between the two hex centres (1 px dashes on the redraw, not read by the extractor)"
+ },
+ "superseded": false
+}

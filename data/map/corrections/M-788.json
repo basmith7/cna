@@ -1,0 +1,30 @@
+{
+ "id": "M-788",
+ "target": "hex",
+ "key": "B0513",
+ "before": {
+  "id": "B0513",
+  "sheet": "B",
+  "terrain": "desert",
+  "settlement": null,
+  "coastal": false
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/settlement",
+   "value": "oasis"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   1077,
+   4652,
+   220,
+   180
+  ],
+  "note": "the oasis (palm) symbol is printed in this hex, labelled 'Jalo'"
+ },
+ "superseded": false
+}

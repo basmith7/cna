@@ -1,0 +1,33 @@
+{
+ "id": "M-763",
+ "target": "hexside",
+ "key": "D0505|D0605",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "D0505|D0605",
+    "a": "D0505",
+    "b": "D0605",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "D0605"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   347,
+   4642,
+   220,
+   178
+  ],
+  "note": "the hachured slope band is printed along this hexside on the scan, inside the southern hex (band on the down side), so the northern hex is up"
+ },
+ "superseded": false
+}

@@ -7973,7 +7973,7 @@
    "id": "B0513",
    "sheet": "B",
    "terrain": "desert",
-   "settlement": null,
+   "settlement": "oasis",
    "coastal": false
   },
   {

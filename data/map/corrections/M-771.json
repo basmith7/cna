@@ -1,0 +1,38 @@
+{
+ "id": "M-771",
+ "target": "hexside",
+ "key": "D3421|D3422",
+ "before": {
+  "key": "D3421|D3422",
+  "a": "D3421",
+  "b": "D3422",
+  "side": null,
+  "features": [
+   "slope",
+   "road"
+  ],
+  "up": "D3421"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "railroad",
+    "road",
+    "slope"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   1922,
+   2334,
+   220,
+   178
+  ],
+  "note": "the coast railway (with ties) and the double-line road both cross this hexside on the scan; the extractor had read the railway as a track or missed it"
+ },
+ "superseded": false
+}
