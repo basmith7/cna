@@ -1,0 +1,33 @@
+{
+ "id": "M-702",
+ "target": "hexside",
+ "key": "B3111|B3210",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "B3111|B3210",
+    "a": "B3111",
+    "b": "B3210",
+    "side": null,
+    "features": [
+     "track"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   868,
+   2521,
+   219,
+   177
+  ],
+  "note": "a dashed track crosses this hexside on the scan, between the two hex centres (1 px dashes on the redraw, not read by the extractor)"
+ },
+ "superseded": false
+}

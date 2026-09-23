@@ -1,0 +1,36 @@
+{
+ "id": "M-708",
+ "target": "hexside",
+ "key": "B1922|B1923",
+ "before": {
+  "key": "B1922|B1923",
+  "a": "B1922",
+  "b": "B1923",
+  "side": null,
+  "features": [
+   "wadi"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "track",
+    "wadi"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   1966,
+   3527,
+   219,
+   177
+  ],
+  "note": "a dashed track crosses this hexside on the scan alongside the feature already read (on the redraw its 1 px dashes run beside the heavier symbol and the extractor did not read them)"
+ },
+ "superseded": false
+}
