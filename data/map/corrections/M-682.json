@@ -1,0 +1,32 @@
+{
+ "id": "M-682",
+ "target": "hexside",
+ "key": "E3525|E3625",
+ "before": {
+  "key": "E3525|E3625",
+  "a": "E3525",
+  "b": "E3625",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   2221,
+   2180,
+   221,
+   180
+  ],
+  "note": "the railway runs along this hexside rather than across it and no track crosses it; the extractor read the railway ties as track dashes"
+ },
+ "superseded": false
+}

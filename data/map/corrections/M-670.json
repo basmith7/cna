@@ -1,0 +1,32 @@
+{
+ "id": "M-670",
+ "target": "hexside",
+ "key": "E2131|E2132",
+ "before": {
+  "key": "E2131|E2132",
+  "a": "E2131",
+  "b": "E2132",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   2811,
+   3355,
+   221,
+   180
+  ],
+  "note": "no track crosses this hexside on the scan; the extractor read the letter strokes of the printed place name 'Abbassia' as track dashes"
+ },
+ "superseded": false
+}

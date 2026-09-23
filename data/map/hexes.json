@@ -39995,6 +39995,9085 @@
    "coastal": false
   },
   {
+   "id": "E0101",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0102",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0103",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0104",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0105",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0106",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0107",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0108",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0109",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0110",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0111",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0112",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0113",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0114",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0115",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0116",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0117",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0118",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0119",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0120",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0121",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0122",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0123",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0124",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0125",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0126",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0127",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0128",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0129",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0130",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0131",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0132",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0133",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0134",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0201",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0202",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0203",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0204",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0205",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0206",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0207",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0208",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0209",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0210",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0211",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0212",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0213",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0214",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0215",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0216",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0217",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0218",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0219",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0220",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0221",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0222",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0223",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0224",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0225",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0226",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0227",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0228",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0229",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0230",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0231",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0232",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0233",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0301",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0302",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0303",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0304",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0305",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0306",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0307",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0308",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0309",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0310",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0311",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0312",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0313",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0314",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0315",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0316",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0317",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0318",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0319",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0320",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0321",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0322",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0323",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0324",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0325",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0326",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0327",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0328",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0329",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0330",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0331",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0332",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0333",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0334",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0401",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0402",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0403",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0404",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0405",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0406",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0407",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0408",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0409",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0410",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0411",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0412",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0413",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0414",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0415",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0416",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0417",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0418",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0419",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0420",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0421",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0422",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0423",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0424",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0425",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0426",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0427",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0428",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0429",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0430",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0431",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0432",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0433",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0501",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0502",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0503",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0504",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0505",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0506",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0507",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0508",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0509",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0510",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0511",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0512",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0513",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0514",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0515",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0516",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0517",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0518",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0519",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0520",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0521",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0522",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0523",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0524",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0525",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0526",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0527",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0528",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0529",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0530",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0531",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0532",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0533",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0534",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0601",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0602",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0603",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0604",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0605",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0606",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0607",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0608",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0609",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0610",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0611",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0612",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0613",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0614",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0615",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0616",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0617",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0618",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0619",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0620",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0621",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0622",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0623",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0624",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0625",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0626",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0627",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0628",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0629",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0630",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0631",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0632",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0633",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0701",
+   "sheet": "E",
+   "terrain": "gravel",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0702",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0703",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0704",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0705",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0706",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0707",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0708",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0709",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0710",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0711",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0712",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0713",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0714",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0715",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0716",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0717",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0718",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0719",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0720",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0721",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E0722",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E0723",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E0724",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0725",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0726",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0727",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0728",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0729",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0730",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0731",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0732",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0733",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0734",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0801",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0802",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0803",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0804",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0805",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0806",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0807",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0808",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0809",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0810",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0811",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0812",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0813",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0814",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0815",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0816",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0817",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0818",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0819",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E0820",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E0821",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0822",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0823",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E0824",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E0825",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0826",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0827",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0828",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0829",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0830",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0831",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0832",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0833",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0901",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0902",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0903",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0904",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0905",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0906",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0907",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0908",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0909",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0910",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0911",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0912",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0913",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0914",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0915",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0916",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0917",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0918",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0919",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0920",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0921",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E0922",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E0923",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E0924",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0925",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E0926",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0927",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0928",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0929",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0930",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0931",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0932",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0933",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E0934",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1001",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1002",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1003",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1004",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1005",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1006",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1007",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1008",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1009",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1010",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1011",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1012",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1013",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1014",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1015",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1016",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1017",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1018",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1019",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1020",
+   "sheet": "E",
+   "terrain": "mountain",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1021",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1022",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1023",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E1024",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E1025",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1026",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1027",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1028",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1029",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1030",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1031",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1032",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1033",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1101",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1102",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1103",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1104",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1105",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1106",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1107",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1108",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1109",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1110",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1111",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1112",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1113",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1114",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1115",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1116",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1117",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1118",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1119",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1120",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1121",
+   "sheet": "E",
+   "terrain": "mountain",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1122",
+   "sheet": "E",
+   "terrain": "mountain",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1123",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1124",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1125",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1126",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1127",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1128",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1129",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1130",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1131",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1132",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1133",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1134",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1201",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1202",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1203",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1204",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1205",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1206",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1207",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1208",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1209",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1210",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1211",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1212",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1213",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1214",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1215",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1216",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1217",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1218",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1219",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1220",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1221",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1222",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1223",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1224",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1225",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1226",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1227",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1228",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1229",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1230",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1231",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1232",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1233",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1301",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1302",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1303",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1304",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1305",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1306",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1307",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1308",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1309",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1310",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1311",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1312",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1313",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1314",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1315",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1316",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1317",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1318",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1319",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1320",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1321",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1322",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1323",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1324",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1325",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1326",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1327",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1328",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1329",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1330",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1331",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1332",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1333",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1334",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1401",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1402",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1403",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1404",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1405",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1406",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1407",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1408",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1409",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1410",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1411",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1412",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1413",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1414",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1415",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1416",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1417",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1418",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1419",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1420",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1421",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1422",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1423",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1424",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1425",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1426",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1427",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1428",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1429",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1430",
+   "sheet": "E",
+   "terrain": "major-city",
+   "settlement": "major-city",
+   "coastal": false
+  },
+  {
+   "id": "E1431",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1432",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1433",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1501",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1502",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1503",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1504",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1505",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1506",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1507",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1508",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1509",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1510",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1511",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1512",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1513",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1514",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1515",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1516",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1517",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1518",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1519",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1520",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1521",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1522",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1523",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1524",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1525",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1526",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1527",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1528",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1529",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1530",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1531",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1532",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1533",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1534",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1601",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1602",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1603",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1604",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1605",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1606",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1607",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1608",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1609",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1610",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1611",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1612",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1613",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1614",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1615",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1616",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1617",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1618",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1619",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1620",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1621",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1622",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1623",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1624",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1625",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1626",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1627",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1628",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1629",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1630",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1631",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1632",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1633",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1701",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1702",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1703",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1704",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1705",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1706",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1707",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1708",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1709",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1710",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1711",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1712",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1713",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1714",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1715",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1716",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1717",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1718",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1719",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1720",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1721",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1722",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1723",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1724",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1725",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1726",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1727",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1728",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": "village",
+   "coastal": false
+  },
+  {
+   "id": "E1729",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1730",
+   "sheet": "E",
+   "terrain": "major-city",
+   "settlement": "major-city",
+   "coastal": false
+  },
+  {
+   "id": "E1731",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1732",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1733",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1734",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1801",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1802",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1803",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1804",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1805",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1806",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1807",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1808",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1809",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1810",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1811",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1812",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1813",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1814",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1815",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1816",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1817",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1818",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1819",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1820",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1821",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1822",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1823",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1824",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1825",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1826",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1827",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1828",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1829",
+   "sheet": "E",
+   "terrain": "major-city",
+   "settlement": "major-city",
+   "coastal": false
+  },
+  {
+   "id": "E1830",
+   "sheet": "E",
+   "terrain": "major-city",
+   "settlement": "major-city",
+   "coastal": false
+  },
+  {
+   "id": "E1831",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1832",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1833",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1901",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1902",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1903",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1904",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1905",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1906",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1907",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1908",
+   "sheet": "E",
+   "terrain": "gravel",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1909",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1910",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1911",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1912",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1913",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1914",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1915",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1916",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1917",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1918",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1919",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1920",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1921",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1922",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1923",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1924",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1925",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1926",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1927",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1928",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1929",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1930",
+   "sheet": "E",
+   "terrain": "major-city",
+   "settlement": "major-city",
+   "coastal": false
+  },
+  {
+   "id": "E1931",
+   "sheet": "E",
+   "terrain": "major-city",
+   "settlement": "major-city",
+   "coastal": false
+  },
+  {
+   "id": "E1932",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1933",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E1934",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2001",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2002",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2003",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2004",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2005",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2006",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2007",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2008",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2009",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2010",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2011",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2012",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2013",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2014",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2015",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2016",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2017",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2018",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2019",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2020",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2021",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2022",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2023",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2024",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": "village",
+   "coastal": false
+  },
+  {
+   "id": "E2025",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2026",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2027",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2028",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2029",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2030",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2031",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": "village",
+   "coastal": false
+  },
+  {
+   "id": "E2032",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2033",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2101",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2102",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2103",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2104",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2105",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2106",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2107",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2108",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2109",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2110",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2111",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2112",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2113",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2114",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2115",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2116",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2117",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2118",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2119",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2120",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2121",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2122",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2123",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2124",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2125",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2126",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2127",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2128",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2129",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2130",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2131",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2132",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": "village",
+   "coastal": false
+  },
+  {
+   "id": "E2133",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": "village",
+   "coastal": false
+  },
+  {
+   "id": "E2134",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2201",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2202",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2203",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2204",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2205",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2206",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2207",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2208",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2209",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2210",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2211",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2212",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2213",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2214",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2215",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2216",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2217",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2218",
+   "sheet": "E",
+   "terrain": "salt-marsh",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2219",
+   "sheet": "E",
+   "terrain": "salt-marsh",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2220",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2221",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2222",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2223",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2224",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2225",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2226",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2227",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2228",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2229",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2230",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2231",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2232",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2233",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2301",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2302",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2303",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2304",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2305",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2306",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2307",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2308",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2309",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2310",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2311",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2312",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2313",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2314",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2315",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2316",
+   "sheet": "E",
+   "terrain": "salt-marsh",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2317",
+   "sheet": "E",
+   "terrain": "salt-marsh",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2318",
+   "sheet": "E",
+   "terrain": "salt-marsh",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2319",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2320",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2321",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2322",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2323",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2324",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2325",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2326",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2327",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2328",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2329",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2330",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2331",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2332",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2333",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2334",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2401",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2402",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2403",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2404",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2405",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2406",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2407",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2408",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2409",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2410",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2411",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2412",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2413",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2414",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2415",
+   "sheet": "E",
+   "terrain": "salt-marsh",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2416",
+   "sheet": "E",
+   "terrain": "salt-marsh",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2417",
+   "sheet": "E",
+   "terrain": "salt-marsh",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2418",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": "village",
+   "coastal": false
+  },
+  {
+   "id": "E2419",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2420",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2421",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2422",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2423",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2424",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2425",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2426",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2427",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2428",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2429",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2430",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2431",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2432",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2433",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2501",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2502",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2503",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2504",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2505",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2506",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2507",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2508",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2509",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2510",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2511",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2512",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2513",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2514",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2515",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2516",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2517",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2518",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2519",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2520",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": "village",
+   "coastal": false
+  },
+  {
+   "id": "E2521",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2522",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2523",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2524",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2525",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2526",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2527",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2528",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2529",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2530",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2531",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2532",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2533",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2534",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2601",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2602",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2603",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2604",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2605",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2606",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2607",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2608",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2609",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2610",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2611",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2612",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2613",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2614",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2615",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2616",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2617",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2618",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2619",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2620",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2621",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2622",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2623",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2624",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2625",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2626",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2627",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2628",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2629",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2630",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2631",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2632",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": "village",
+   "coastal": false
+  },
+  {
+   "id": "E2633",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2701",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2702",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2703",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2704",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2705",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2706",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2707",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2708",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2709",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2710",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2711",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2712",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2713",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2714",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2715",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2716",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2717",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2718",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2719",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2720",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2721",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2722",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2723",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2724",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2725",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2726",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2727",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2728",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2729",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2730",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2731",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2732",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2733",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2734",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2801",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2802",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2803",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2804",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2805",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2806",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2807",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2808",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2809",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2810",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2811",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2812",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2813",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2814",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2815",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2816",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2817",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2818",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2819",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2820",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2821",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2822",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2823",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2824",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2825",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2826",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2827",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2828",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2829",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": "village",
+   "coastal": false
+  },
+  {
+   "id": "E2830",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2831",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2832",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2833",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2901",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2902",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2903",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2904",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2905",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2906",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2907",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2908",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2909",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2910",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2911",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2912",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2913",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2914",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2915",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2916",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2917",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2918",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2919",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2920",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2921",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2922",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2923",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2924",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2925",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2926",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2927",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2928",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2929",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2930",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2931",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2932",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2933",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E2934",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3001",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3002",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": "village",
+   "coastal": true
+  },
+  {
+   "id": "E3003",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3004",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3005",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3006",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3007",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": "village",
+   "coastal": false
+  },
+  {
+   "id": "E3008",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3009",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3010",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3011",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3012",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3013",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3014",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3015",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3016",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3017",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3018",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3019",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3020",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3021",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3022",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3023",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3024",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3025",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3026",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3027",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": "village",
+   "coastal": false
+  },
+  {
+   "id": "E3028",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3029",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3030",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3031",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3032",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3033",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3101",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3102",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3103",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3104",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3105",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3106",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3107",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3108",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3109",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": "village",
+   "coastal": false
+  },
+  {
+   "id": "E3110",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3111",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3112",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3113",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3114",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3115",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3116",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3117",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3118",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3119",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3120",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3121",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3122",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3123",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3124",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3125",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3126",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3127",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3128",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3129",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3130",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3131",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3132",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3133",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3134",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3201",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3205",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3206",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3207",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3208",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3209",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3210",
+   "sheet": "E",
+   "terrain": "rough",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3211",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3212",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": "village",
+   "coastal": false
+  },
+  {
+   "id": "E3213",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3214",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3215",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3216",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3217",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3218",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3219",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3220",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3221",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3222",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3223",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3224",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3225",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3226",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3227",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3228",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3229",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3230",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3231",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3232",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3233",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3301",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3307",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3308",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3309",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3310",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3311",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3312",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3313",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3314",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3315",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3316",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3317",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3318",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3319",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3320",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3321",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3322",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3323",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3324",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3325",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3326",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3327",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3328",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3329",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3330",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3331",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3332",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3333",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3334",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3408",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3409",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3410",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3411",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3412",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3413",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3414",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3415",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3416",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3417",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3418",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3419",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3420",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3421",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3422",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3423",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3424",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3425",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3426",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3427",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3428",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3429",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3430",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3431",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3432",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3433",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3510",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3511",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3512",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": "village",
+   "coastal": true
+  },
+  {
+   "id": "E3513",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3514",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3515",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3516",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": "village",
+   "coastal": false
+  },
+  {
+   "id": "E3517",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3518",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3519",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3520",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3521",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3522",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3523",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3524",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3525",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3526",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3527",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3528",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3529",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3530",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3531",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3532",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3533",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3534",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3611",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3612",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3613",
+   "sheet": "E",
+   "terrain": "major-city",
+   "settlement": "major-city",
+   "coastal": true
+  },
+  {
+   "id": "E3614",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3615",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3616",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3617",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3618",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3619",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3620",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3621",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3622",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3623",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3624",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3625",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3626",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3627",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3628",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3629",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3630",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3631",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3632",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3633",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3713",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3714",
+   "sheet": "E",
+   "terrain": "major-city",
+   "settlement": "major-city",
+   "coastal": true
+  },
+  {
+   "id": "E3715",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3716",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3717",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3718",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3719",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3720",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3721",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3722",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3723",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3724",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3725",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3726",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3727",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3728",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3729",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3730",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3731",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3732",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3733",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3734",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3813",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3814",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3815",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": "village",
+   "coastal": true
+  },
+  {
+   "id": "E3816",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3817",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": "village",
+   "coastal": true
+  },
+  {
+   "id": "E3818",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3819",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3820",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3821",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3822",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3823",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3824",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3825",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3826",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3827",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3828",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3829",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3830",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3831",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3832",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3833",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3914",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3915",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3916",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3917",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3918",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3919",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3920",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3921",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3922",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3923",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3924",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3925",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3926",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E3927",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3928",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3929",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3930",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3931",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3932",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3933",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E3934",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4017",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4018",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4019",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": "village",
+   "coastal": true
+  },
+  {
+   "id": "E4020",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4021",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4022",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4023",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4024",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4025",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4026",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4027",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4028",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4029",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4030",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4031",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4032",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4033",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4118",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4119",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4120",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4121",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4122",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4123",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4124",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4125",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4126",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4127",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4128",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4129",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4130",
+   "sheet": "E",
+   "terrain": "desert",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4131",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4132",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4133",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4134",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4218",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4219",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4220",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4221",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4222",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4223",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4224",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4225",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4226",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4227",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": "village",
+   "coastal": true
+  },
+  {
+   "id": "E4228",
+   "sheet": "E",
+   "terrain": "delta",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4229",
+   "sheet": "E",
+   "terrain": "clear",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4230",
+   "sheet": "E",
+   "terrain": "swamp",
+   "settlement": null,
+   "coastal": true
+  },
+  {
+   "id": "E4231",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4232",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4324",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4325",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4326",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4327",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4328",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4329",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4330",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4331",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4426",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4427",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4428",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
+   "id": "E4429",
+   "sheet": "E",
+   "terrain": "sea",
+   "settlement": null,
+   "coastal": false
+  },
+  {
    "id": "M0500",
    "sheet": "M",
    "terrain": "sea",

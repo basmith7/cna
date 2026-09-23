@@ -1,0 +1,32 @@
+{
+ "id": "M-673",
+ "target": "hexside",
+ "key": "E3027|E3028",
+ "before": {
+  "key": "E3027|E3028",
+  "a": "E3027",
+  "b": "E3028",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   2481,
+   2626,
+   221,
+   180
+  ],
+  "note": "no track crosses this hexside on the scan; the extractor read the letter strokes of the printed place name 'Tanta' as track dashes"
+ },
+ "superseded": false
+}

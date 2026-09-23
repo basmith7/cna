@@ -1,0 +1,32 @@
+{
+ "id": "M-675",
+ "target": "hexside",
+ "key": "E3511|E3512",
+ "before": {
+  "key": "E3511|E3512",
+  "a": "E3511",
+  "b": "E3512",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   921,
+   2221,
+   221,
+   180
+  ],
+  "note": "no track crosses this hexside on the scan; the extractor read the letter strokes of the printed place name 'Dekheila' as track dashes"
+ },
+ "superseded": false
+}

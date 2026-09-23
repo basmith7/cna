@@ -1,0 +1,32 @@
+{
+ "id": "M-676",
+ "target": "hexside",
+ "key": "E3816|E3817",
+ "before": {
+  "key": "E3816|E3817",
+  "a": "E3816",
+  "b": "E3817",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1441,
+   1978,
+   221,
+   180
+  ],
+  "note": "no track crosses this hexside on the scan; the extractor read the letter strokes of the printed place name 'Idku' as track dashes"
+ },
+ "superseded": false
+}

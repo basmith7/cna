@@ -1,0 +1,32 @@
+{
+ "id": "M-681",
+ "target": "hexside",
+ "key": "E3715|E3716",
+ "before": {
+  "key": "E3715|E3716",
+  "a": "E3715",
+  "b": "E3716",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1299,
+   2059,
+   221,
+   180
+  ],
+  "note": "no track crosses this hexside on the scan; the extractor read the nearby railway or road edge as track dashes"
+ },
+ "superseded": false
+}

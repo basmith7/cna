@@ -298,3 +298,9 @@ Done: merged #64, #66 (Map C), #67 (Part D of the primer), #69 + #74 (Map A, M-6
 In flight: nothing half-written. Helpers /tmp/mt.py (montage with the hexside drawn red: judge topology on the redraw panel) and /tmp/corr.py (writes corrections from a JSON spec) will be gone; rebuild from map_sample.scan_centre + debug-<S>.csv.
 Next: finish Map B on #75 (next free M-788): places, the remaining wadi rows; vertex tracks, borderline hexes and road class stay as read. Then retarget #70 to main and merge #70 then #75; then D (#71, #76), then E.
 Blocked: E river classes and hill bands, D ridge-vs-slope, and blue railway class (Brian).
+
+## 2026-09-22 16:13 MST — autopilot/map-e
+Done: #72 (draft, base autopilot/map-d): Map E raw, scan grid p191 (E2217 (1600,3365) 94.5×81), M-562–M-682 + 2 agrees = 123 resolutions, sample 0/50, EXTRACTION entry. Gates green locally. Every sheet (A–E) now has a first PR.
+In flight: none half-written. Rows left: A 54, B 180, C 22 (for Brian), D 72, E 313 (mostly Nile river major/minor classes).
+Next: stack #64 ← #66 ← {#67, #69 ← #70 ← #71 ← #72}. When Brian merges #64, retarget and merge bottom-up after CI. Then part-2 PRs (next free M-683), Map B/D/E places, then Part D docs (Task 17).
+Blocked: #64 merge decision (Brian).
