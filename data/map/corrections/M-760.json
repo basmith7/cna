@@ -1,0 +1,33 @@
+{
+ "id": "M-760",
+ "target": "hexside",
+ "key": "D0232|D0332",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "D0232|D0332",
+    "a": "D0232",
+    "b": "D0332",
+    "side": null,
+    "features": [
+     "track"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   2885,
+   4885,
+   220,
+   178
+  ],
+  "note": "a dashed track crosses this hexside on the scan, between the two hex centres (1 px dashes on the redraw, not read by the extractor)"
+ },
+ "superseded": false
+}

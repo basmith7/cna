@@ -27353,6 +27353,16 @@
    "up": null
   },
   {
+   "key": "D0232|D0332",
+   "a": "D0232",
+   "b": "D0332",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "D0233|NE",
    "a": "D0233",
    "b": null,
@@ -27366,6 +27376,16 @@
    "key": "D0325|D0326",
    "a": "D0325",
    "b": "D0326",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "D0325|D0424",
+   "a": "D0325",
+   "b": "D0424",
    "side": null,
    "features": [
     "track"
@@ -27573,6 +27593,16 @@
    "up": "D0603"
   },
   {
+   "key": "D0504|D0604",
+   "a": "D0504",
+   "b": "D0604",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "D0604"
+  },
+  {
    "key": "D0505|D0506",
    "a": "D0505",
    "b": "D0506",
@@ -27591,6 +27621,16 @@
     "slope"
    ],
    "up": "D0604"
+  },
+  {
+   "key": "D0505|D0605",
+   "a": "D0505",
+   "b": "D0605",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "D0605"
   },
   {
    "key": "D0506|D0507",
@@ -32837,7 +32877,8 @@
    "b": "D3412",
    "side": null,
    "features": [
-    "slope"
+    "slope",
+    "track"
    ],
    "up": "D3313"
   },
@@ -32847,7 +32888,8 @@
    "b": "D3413",
    "side": null,
    "features": [
-    "slope"
+    "slope",
+    "track"
    ],
    "up": "D3313"
   },
@@ -32867,7 +32909,8 @@
    "b": "D3413",
    "side": null,
    "features": [
-    "slope"
+    "slope",
+    "track"
    ],
    "up": "D3314"
   },
@@ -33419,7 +33462,7 @@
    "b": "D3420",
    "side": null,
    "features": [
-    "track"
+    "railroad"
    ],
    "up": null
   },
@@ -33429,8 +33472,8 @@
    "b": "D3519",
    "side": null,
    "features": [
-    "road",
-    "track"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -33450,8 +33493,8 @@
    "b": "D3421",
    "side": null,
    "features": [
-    "road",
-    "track"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -33461,8 +33504,9 @@
    "b": "D3422",
    "side": null,
    "features": [
-    "slope",
-    "road"
+    "railroad",
+    "road",
+    "slope"
    ],
    "up": "D3421"
   },
@@ -33745,8 +33789,8 @@
    "b": "D3518",
    "side": null,
    "features": [
-    "road",
-    "track"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -33756,7 +33800,8 @@
    "b": "D3616",
    "side": null,
    "features": [
-    "unfinished-road"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -33766,8 +33811,8 @@
    "b": "D3519",
    "side": null,
    "features": [
-    "road",
-    "track"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -34144,6 +34189,7 @@
    "b": "D3616",
    "side": null,
    "features": [
+    "railroad",
     "road"
    ],
    "up": null

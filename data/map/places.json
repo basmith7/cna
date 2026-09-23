@@ -3,7 +3,8 @@
   "scan:p187",
   "vassal:CNAv2.1.0",
   "scan:p189",
-  "scan:p188"
+  "scan:p188",
+  "scan:p190"
  ],
  "places": [
   {
@@ -187,6 +188,13 @@
    "name": "Mersa Brega",
    "kind": "village",
    "port": false
+  },
+  {
+   "id": "mersa-matruh",
+   "hex": "D3714",
+   "name": "Mersa Matruh",
+   "kind": "village",
+   "port": true
   },
   {
    "id": "nofilia",

@@ -1,0 +1,35 @@
+{
+ "id": "M-764",
+ "target": "hexside",
+ "key": "D3419|D3420",
+ "before": {
+  "key": "D3419|D3420",
+  "a": "D3419",
+  "b": "D3420",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "railroad"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   1734,
+   2334,
+   220,
+   178
+  ],
+  "note": "the coast railway (with ties) crosses this hexside on the scan; the extractor had read it as a track"
+ },
+ "superseded": false
+}
