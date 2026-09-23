@@ -35566,16 +35566,6 @@
    "up": "E0920"
   },
   {
-   "key": "E0820|E0821",
-   "a": "E0820",
-   "b": "E0821",
-   "side": null,
-   "features": [
-    "railroad"
-   ],
-   "up": null
-  },
-  {
    "key": "E0820|E0920",
    "a": "E0820",
    "b": "E0920",
@@ -35604,16 +35594,6 @@
     "escarpment"
    ],
    "up": "E0921"
-  },
-  {
-   "key": "E0821|E0922",
-   "a": "E0821",
-   "b": "E0922",
-   "side": null,
-   "features": [
-    "railroad"
-   ],
-   "up": null
   },
   {
    "key": "E0823|E0923",
@@ -42120,6 +42100,16 @@
    "features": [
     "road",
     "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "E3512|E3513",
+   "a": "E3512",
+   "b": "E3513",
+   "side": null,
+   "features": [
+    "road"
    ],
    "up": null
   },

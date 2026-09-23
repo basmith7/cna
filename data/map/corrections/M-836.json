@@ -1,0 +1,33 @@
+{
+ "id": "M-836",
+ "target": "hexside",
+ "key": "E3512|E3513",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "E3512|E3513",
+    "a": "E3512",
+    "b": "E3513",
+    "side": null,
+    "features": [
+     "road"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1016,
+   2223,
+   222,
+   178
+  ],
+  "note": "the coast road into Dekheila (a solid double line) crosses this hexside on the scan"
+ },
+ "superseded": false
+}
