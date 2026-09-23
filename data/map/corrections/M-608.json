@@ -1,0 +1,35 @@
+{
+ "id": "M-608",
+ "target": "hexside",
+ "key": "E3118|E3217",
+ "before": {
+  "key": "E3118|E3217",
+  "a": "E3118",
+  "b": "E3217",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "railroad"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1512,
+   2504,
+   221,
+   180
+  ],
+  "note": "the Delta railway (a line with ties) crosses this hexside on the scan and the redraw; the extractor read its ties as track dashes"
+ },
+ "superseded": false
+}

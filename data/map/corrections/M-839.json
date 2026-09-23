@@ -1,0 +1,33 @@
+{
+ "id": "M-839",
+ "target": "hexside",
+ "key": "E2609|E2710",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "E2609|E2710",
+    "a": "E2609",
+    "b": "E2710",
+    "side": null,
+    "features": [
+     "track"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   756,
+   2911,
+   222,
+   178
+  ],
+  "note": "the dashed track coming south through E2710 crosses the middle of this hexside on the scan before turning west"
+ },
+ "superseded": false
+}

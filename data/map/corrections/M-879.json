@@ -1,0 +1,40 @@
+{
+ "id": "M-879",
+ "target": "hexside",
+ "key": "E0217|E0218",
+ "before": {
+  "key": "E0217|E0218",
+  "a": "E0217",
+  "b": "E0218",
+  "side": null,
+  "features": [
+   "slope"
+  ],
+  "up": "E0217"
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "ridge"
+   ]
+  },
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": null
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1536,
+   4896,
+   222,
+   178
+  ],
+  "note": "the hachured hill band is printed on both sides of this hexside on the scan (the band straddles the hexside), which the extraction reads as ridge, not slope"
+ },
+ "superseded": false
+}

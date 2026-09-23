@@ -299,8 +299,38 @@ In flight: nothing half-written. Helpers /tmp/mt.py (montage with the hexside dr
 Next: finish Map B on #75 (next free M-788): places, the remaining wadi rows; vertex tracks, borderline hexes and road class stay as read. Then retarget #70 to main and merge #70 then #75; then D (#71, #76), then E.
 Blocked: E river classes and hill bands, D ridge-vs-slope, and blue railway class (Brian).
 
+## 2026-09-22 16:13 MST — autopilot/map-e
+Done: #72 (draft, base autopilot/map-d): Map E raw, scan grid p191 (E2217 (1600,3365) 94.5×81), M-562–M-682 + 2 agrees = 123 resolutions, sample 0/50, EXTRACTION entry. Gates green locally. Every sheet (A–E) now has a first PR.
+In flight: none half-written. Rows left: A 54, B 180, C 22 (for Brian), D 72, E 313 (mostly Nile river major/minor classes).
+Next: stack #64 ← #66 ← {#67, #69 ← #70 ← #71 ← #72}. When Brian merges #64, retarget and merge bottom-up after CI. Then part-2 PRs (next free M-683), Map B/D/E places, then Part D docs (Task 17).
+Blocked: #64 merge decision (Brian).
+
+## 2026-09-22 16:17 MST — autopilot/map-e-2
+Done: #73 (draft, base autopilot/map-e): M-683–M-694, the Nile above Cairo as major river (12). Gates green locally.
+In flight: E river classes: 37 more minor→major rows unchecked (the rest of the main Nile?), 38 major→minor (Delta branches/canals, undecidable from the scan: left for Brian).
+Next: finish #73 (the remaining 37 minor→major rows, 38 "- → major-river", 21 "- → minor-river", 37 "- → ridge"); the merge order is in PROGRESS. Next free correction M-698.
+Blocked: #64 merge decision; Delta branch river class, the Map E hill bands (ridge or slope), and whether the Fayum lake shore counts as a hexside feature (Brian).
+
+## 2026-09-22 19:12 MST — autopilot/map-e-3
+Done: this run merged #64, #66, #67, #69, #74 (M-698–M-700), #70, #75 (M-701–M-759, M-788; places Derna, Jalo), #71, #76 (M-760–M-774; place Mersa Matruh). Maps A–D and Part D of the primer are on main. Opened #77 (M-775–M-796, draft, base #73).
+In flight: nothing half-written. Map E stack: #72 (base main) ← #73 ← #77. Each branch needs origin/main merged in; expect conflicts in EXTRACTION/JOURNAL and keep both sides.
+Next: E rows independent of Brian (tracks, roads, 18 slopes, 7 escarpments; next free M-797), E places (ports and oases by symbol). Then Part D docs (Task 17), if the spec lets it start before E finishes.
+Blocked: E river classes and hill bands (and D's 16), blue railway class, vertex-track convention (Brian). Lesson: /tmp/gates.sh must use `set -o pipefail` (tail hid a failing map_render --check once); `git fetch` before merging main.
+
+## 2026-09-22 21:40 MST — autopilot/map-e-3
+Done: merged origin/main into #72/#73/#77; merged #72, #73. #77: M-797–M-882 (slopes of hill rings, Delta railway crossings, road class, 42 hill bands as ridge — band on both sides, /tmp/band3.py median-brightness test: ~118–129 both sides = ridge), 12 E places (Amiriya is E3212, KNOWN's E2212 is wrong). E diff 207, all left as read. SVG viewed vs p191.
+In flight: #77 merge after CI, then #78 (docs: design Status line) and MISSION 3 COMPLETE.
+Next: if Brian answers the river-class / D hill-band / blue-railway / vertex questions, one correction PR per answer across sheets (D: 9 of the 16 hill bands are two-sided by the same test).
+Blocked: river class of the Delta branches (Brian).
+
 ## 2026-09-22 19:20 MST — autopilot/map-docs
 Done: Task 17 partly done. The README gains **map** in the `data/` row and a *Map* paragraph under Legal posture; `rules/00-overview.md` links `/map`. Draft PR open.
 In flight: the design doc's **Status: implemented, PRs …** and the AUTOPILOT mission-complete marker wait until Map E merges.
 Next: when Map E is merged, add the design Status line (PRs #60–#77 and later), then mark ready and merge.
 Blocked: Map E (Brian's river-class and hill-band answers).
+
+## 2026-09-22 21:50 MST — autopilot/map-docs
+Done: merged #72, #73, #77 (Map E). #78: design Status line (implemented, PRs listed) added on top of the README/overview edits.
+In flight: #78 merge after CI; then MISSION 3 COMPLETE in PROGRESS.
+Next: nothing on the mission. Open questions for Brian are in PROGRESS (river class, D hill bands, blue railways, vertex rule); act on Feedback if any.
+Blocked: none for the mission.

@@ -1,0 +1,32 @@
+{
+ "id": "M-671",
+ "target": "hexside",
+ "key": "E2830|E2930",
+ "before": {
+  "key": "E2830|E2930",
+  "a": "E2830",
+  "b": "E2930",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   2693,
+   2747,
+   221,
+   180
+  ],
+  "note": "no track crosses this hexside on the scan; the extractor read the letter strokes of the printed place name 'Zagazig' as track dashes"
+ },
+ "superseded": false
+}

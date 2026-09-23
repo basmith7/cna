@@ -1,0 +1,35 @@
+{
+ "id": "M-685",
+ "target": "hexside",
+ "key": "E0328|E0329",
+ "before": {
+  "key": "E0328|E0329",
+  "a": "E0328",
+  "b": "E0329",
+  "side": null,
+  "features": [
+   "minor-river"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "major-river"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   2528,
+   4813,
+   221,
+   180
+  ],
+  "note": "the main channel of the Nile runs along this hexside on the scan, printed wide (the major-river symbol); the extractor read it as a minor river"
+ },
+ "superseded": false
+}

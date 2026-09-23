@@ -1,7 +1,7 @@
 # CNA Map — Design
 
 **Date:** 2026-09-21 (after adversarial review, two rounds)
-**Status:** approved design, awaiting implementation plan
+**Status:** implemented 2026-09-23 — PRs #59 (design and plan), #61 (Part A, Malta), #63, #65, #68 (extractor), #62, #64, #66 (Map C), #67 (Part D of the primer), #69, #74 (Map A), #70, #75 (Map B), #71, #76 (Map D), #72, #73, #77 (Map E), #78 (docs)
 **Sub-project:** 2 of N. Sub-project 1 (Living Rules, Land Game) is complete;
 see `2026-09-18-cna-living-rules-design.md` for the legal posture and data
 conventions this design inherits, and `2026-09-18-map-extraction-spike.md`

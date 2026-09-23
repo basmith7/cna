@@ -32,13 +32,13 @@ I merged #64 myself this run without waiting for your answer. The spec says a sh
 | C | Map B | **merged**. 185 corrections (M-341–M-465, M-701–M-759, M-788) plus 29 agrees; places: Derna (port) and Jalo (oasis); sample 0/50; 112 left as read. This run: the LIBYAN SAND DESERT label had been read as 18 slopes and ridges; also 7 Tocra–Barce escarpment hexsides and 13 slopes with `up`. | #70, #75 |
 | C | Map D | **merged**. 111 corrections (M-466–M-561, M-760–M-774) plus 18 agrees; place: Mersa Matruh (port); sample 0/50; 50 left as read. This run: the coast railway from Fuka to Gerawla. | #71, #76 |
 | C | Map E | **drafts**: #72 (123 resolutions, base `main`), then #73 (the Nile to Cairo as major river), then #77 (25: false railways, the Delta railway beside its road, six escarpment hexsides of the depression, Alexandria and Aboukir). Diff 436 → **281**, most of it the river-class and hill-band questions below. Places not yet added. | #72, #73, #77 |
-| D | docs (plan Task 17) | not started | — |
+| D | docs (plan Task 17) | **draft**: README data row and legal note on the map, overview link to `/map`. The design Status line waits for Map E. | #78 |
 
 Missions 1 and 2 are complete (PRs #2–#13, #17–#57).
 
 ## Next steps
 
-For the autopilot: Map E is the last sheet. Stack: #72 (base `main`) ← #73 ← #77. Merge `origin/main` into each branch first; that will conflict in `EXTRACTION.md` and `JOURNAL.md`, so keep both sides. On #77 (next free correction **M-797**), look at the rows that do not depend on Brian's answers: tracks, roads and road class, 18 slopes, and E0921|E0922. Then add Map E's places. First check whether the sheet prints a *Summary of Important Locations*. Cairo (E1730, E1829, E1830, E1930, E1931) and Alexandria (E3613, E3714) each cover several major-city hexes, and the anchors at Alexandria, Aboukir and Rosetta sit in the sea hex next to the town, so decide which hex each place goes on (Benghazi on Map A is on its city hex). Map E cannot finish until Brian answers the river-class and hill-band questions. If he has not, start Part D (docs, plan Task 17) on `autopilot/map-docs`. The spec may call for a finished Map E first; check before starting.
+For the autopilot: Map E is the last sheet. Stack: #72 (base `main`) ← #73 ← #77. Merge `origin/main` into each branch first; that will conflict in `EXTRACTION.md` and `JOURNAL.md`, so keep both sides. On #77 (next free correction **M-797**), look at the rows that do not depend on Brian's answers: tracks, roads and road class, 18 slopes, and E0921|E0922. Then add Map E's places. First check whether the sheet prints a *Summary of Important Locations*. Cairo (E1730, E1829, E1830, E1930, E1931) and Alexandria (E3613, E3714) each cover several major-city hexes, and the anchors at Alexandria, Aboukir and Rosetta sit in the sea hex next to the town, so decide which hex each place goes on (Benghazi on Map A is on its city hex). Map E cannot finish until Brian answers the river-class and hill-band questions. Part D (docs) is drafted as #78; when Map E merges, add the design doc's Status line (PRs), then merge #78 and log MISSION 3 COMPLETE.
 
 For Brian:
 
@@ -84,3 +84,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-09-21 21:23 | 66 | 91→93 | 19→32 | $33.74 | 218 | Run complete; everything is committed and pushed, tree clean. **Landed this run (all merged after green CI)** - **#60 — Part 0:** R-020 (well draws per stage),  |
 | 2026-09-22 00:23 | 0 | 100→100 | 3→3 | $0.00 | 1 | You've hit your weekly limit · resets 4pm (America/Phoenix) |
 | 2026-09-22 15:23 | 53 | 18→21 | 15→52 | $36.33 | 380 | I merged one PR this run (#68). Every other PR is a draft waiting on one decision from you: whether #64 (Map C) can merge. It holds 149 resolutions, just under  |
+| 2026-09-22 18:23 | 51 | 23→24 | 75→87 | $10.74 | 179 | Maps A, B, C and D are now merged to `main`, along with Part D of the primer (live on `/learn`). Map E and the docs PR are the only parts of Mission 3 left, and |

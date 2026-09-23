@@ -1,0 +1,35 @@
+{
+ "id": "M-820",
+ "target": "hexside",
+ "key": "E2829|E2930",
+ "before": {
+  "key": "E2829|E2930",
+  "a": "E2829",
+  "b": "E2930",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "railroad"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   2646,
+   2749,
+   222,
+   178
+  ],
+  "note": "the Delta railway (a line with cross-ties) crosses this hexside on the scan; the ties are not a dashed track"
+ },
+ "superseded": false
+}

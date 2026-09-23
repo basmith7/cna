@@ -1,0 +1,32 @@
+{
+ "id": "M-674",
+ "target": "hexside",
+ "key": "E3313|E3314",
+ "before": {
+  "key": "E3313|E3314",
+  "a": "E3313",
+  "b": "E3314",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1110,
+   2383,
+   221,
+   180
+  ],
+  "note": "no track crosses this hexside on the scan; the extractor read the letter strokes of the printed place name 'Amiriya' as track dashes"
+ },
+ "superseded": false
+}

@@ -1,0 +1,35 @@
+{
+ "id": "M-830",
+ "target": "hexside",
+ "key": "E2815|E2915",
+ "before": {
+  "key": "E2815|E2915",
+  "a": "E2815",
+  "b": "E2915",
+  "side": null,
+  "features": [
+   "unfinished-road"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "road"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1276,
+   2749,
+   222,
+   178
+  ],
+  "note": "the road crossing this hexside is printed as a solid double line on the scan, the road symbol; no dashes"
+ },
+ "superseded": false
+}
