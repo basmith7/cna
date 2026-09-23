@@ -11193,7 +11193,6 @@
    "b": "B3412",
    "side": null,
    "features": [
-    "unfinished-road",
     "track"
    ],
    "up": null
@@ -16259,8 +16258,7 @@
    "b": "B5503",
    "side": null,
    "features": [
-    "road",
-    "railroad"
+    "road"
    ],
    "up": null
   },
@@ -16331,6 +16329,16 @@
    "side": null,
    "features": [
     "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "B5512|B5513",
+   "a": "B5512",
+   "b": "B5513",
+   "side": null,
+   "features": [
+    "road"
    ],
    "up": null
   },
@@ -16574,16 +16582,6 @@
    "side": null,
    "features": [
     "track"
-   ],
-   "up": null
-  },
-  {
-   "key": "B5603|B5604",
-   "a": "B5603",
-   "b": "B5604",
-   "side": null,
-   "features": [
-    "railroad"
    ],
    "up": null
   },
@@ -16956,6 +16954,7 @@
    "b": "B5812",
    "side": null,
    "features": [
+    "road",
     "wadi"
    ],
    "up": null
