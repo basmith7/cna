@@ -298,3 +298,9 @@ Done: merged #64, #66 (Map C), #67 (Part D of the primer), #69 + #74 (Map A, M-6
 In flight: nothing half-written. Helpers /tmp/mt.py (montage with the hexside drawn red: judge topology on the redraw panel) and /tmp/corr.py (writes corrections from a JSON spec) will be gone; rebuild from map_sample.scan_centre + debug-<S>.csv.
 Next: finish Map B on #75 (next free M-788): places, the remaining wadi rows; vertex tracks, borderline hexes and road class stay as read. Then retarget #70 to main and merge #70 then #75; then D (#71, #76), then E.
 Blocked: E river classes and hill bands, D ridge-vs-slope, and blue railway class (Brian).
+
+## 2026-09-22 19:20 MST — autopilot/map-docs
+Done: Task 17 partly done. The README gains **map** in the `data/` row and a *Map* paragraph under Legal posture; `rules/00-overview.md` links `/map`. Draft PR open.
+In flight: the design doc's **Status: implemented, PRs …** and the AUTOPILOT mission-complete marker wait until Map E merges.
+Next: when Map E is merged, add the design Status line (PRs #60–#77 and later), then mark ready and merge.
+Blocked: Map E (Brian's river-class and hill-band answers).
