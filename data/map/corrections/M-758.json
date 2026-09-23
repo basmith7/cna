@@ -1,0 +1,41 @@
+{
+ "id": "M-758",
+ "target": "hexside",
+ "key": "B3801|B3901",
+ "before": {
+  "key": "B3801|B3901",
+  "a": "B3801",
+  "b": "B3901",
+  "side": null,
+  "features": [
+   "wadi"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "slope",
+    "wadi"
+   ]
+  },
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "B3801"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   0,
+   1957,
+   219,
+   177
+  ],
+  "note": "the hachured slope band is printed along this hexside on the scan, inside the northern hex (band on the down side), so this hex is up"
+ },
+ "superseded": false
+}

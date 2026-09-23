@@ -11683,9 +11683,10 @@
    "b": "B3901",
    "side": null,
    "features": [
+    "slope",
     "wadi"
    ],
-   "up": null
+   "up": "B3801"
   },
   {
    "key": "B3801|W",
@@ -16666,6 +16667,16 @@
    "up": null
   },
   {
+   "key": "B5605|B5705",
+   "a": "B5605",
+   "b": "B5705",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "B5605"
+  },
+  {
    "key": "B5606|B5607",
    "a": "B5606",
    "b": "B5607",
@@ -16835,6 +16846,26 @@
     "track"
    ],
    "up": null
+  },
+  {
+   "key": "B5625|B5726",
+   "a": "B5625",
+   "b": "B5726",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "B5625"
+  },
+  {
+   "key": "B5626|B5726",
+   "a": "B5626",
+   "b": "B5726",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "B5626"
   },
   {
    "key": "B5626|B5727",
@@ -17205,9 +17236,10 @@
    "b": "B5825",
    "side": null,
    "features": [
-    "road"
+    "road",
+    "slope"
    ],
-   "up": null
+   "up": "B5726"
   },
   {
    "key": "B5726|B5826",
