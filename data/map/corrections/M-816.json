@@ -1,0 +1,37 @@
+{
+ "id": "M-816",
+ "target": "hexside",
+ "key": "E3329|E3330",
+ "before": {
+  "key": "E3329|E3330",
+  "a": "E3329",
+  "b": "E3330",
+  "side": null,
+  "features": [
+   "minor-river",
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "minor-river",
+    "railroad"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   2622,
+   2385,
+   222,
+   178
+  ],
+  "note": "the Delta railway (a line with cross-ties) crosses this hexside on the scan; the ties are not a dashed track"
+ },
+ "superseded": false
+}
