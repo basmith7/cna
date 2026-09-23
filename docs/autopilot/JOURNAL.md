@@ -276,6 +276,12 @@ In flight: none half-written. Map B has 180 rows left; no printed locations summ
 Next: stack is #64 ← #66 ← {#67, #69 ← #70}. When #64 merges, retarget and merge bottom-up. Then Map A part 2 / Map B part 2 / Map D (next free correction M-466).
 Blocked: #64 merge decision (Brian).
 
+## 2026-09-22 16:08 MST — autopilot/map-d
+Done: #71 (draft, base autopilot/map-b): Map D raw, scan grid p190 (D1719 (1750,3800) 94×81), M-466–M-561 + 7 agrees = 103 resolutions, sample 0/50, EXTRACTION entry. Gates green locally.
+In flight: none half-written. Map D has 72 rows left.
+Next: stack is #64 ← #66 ← {#67, #69 ← #70 ← #71}. When #64 merges, retarget and merge bottom-up. Then Map E (next free correction M-562; scan page likely p191) and the part-2 PRs for A, B, D.
+Blocked: #64 merge decision (Brian).
+
 ## 2026-09-22 15:40 MST — autopilot/map-c-2, autopilot/learn-part-d
 Done: #64 kept draft (cap; Feedback empty). #66 (draft, base map-c): 100 resolutions — M-140–M-232 + 7 agrees; Map C diff 155 → 62, 22 rows left as read (listed in EXTRACTION + PROGRESS). #67 (draft, base map-c-2): Task 15, Part D on our Map C render (PART_D_UNITS shared, sidebar, README). All gates green locally on both.
 In flight: nothing half-written. Montage recipe: /tmp/mt.py is gone next run — it put a 220×180 scan crop (map_sample.scan_centre midpoint of a|b) beside the redraw crop (debug-C.csv centres) with the hexside drawn; the scan grid drifts ~35 px, judge topology on the redraw, feature class on the scan.

@@ -1,0 +1,32 @@
+{
+ "id": "M-554",
+ "target": "hexside",
+ "key": "D1612|D1613",
+ "before": {
+  "key": "D1612|D1613",
+  "a": "D1612",
+  "b": "D1613",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   1076,
+   3791,
+   220,
+   180
+  ],
+  "note": "no track on this hexside on the scan; the extractor read the dark grey edge of the escarpment band as a track"
+ },
+ "superseded": false
+}

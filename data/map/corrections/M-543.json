@@ -1,0 +1,36 @@
+{
+ "id": "M-543",
+ "target": "hexside",
+ "key": "D2915|D3015",
+ "before": {
+  "key": "D2915|D3015",
+  "a": "D2915",
+  "b": "D3015",
+  "side": null,
+  "features": [
+   "ridge"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "ridge",
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   1287,
+   2697,
+   220,
+   180
+  ],
+  "note": "a dashed track crosses this hexside on the scan alongside the feature already read (on the redraw its 1 px dashes run beside the heavier band and the extractor did not read them)"
+ },
+ "superseded": false
+}

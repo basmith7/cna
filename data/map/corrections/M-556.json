@@ -1,0 +1,32 @@
+{
+ "id": "M-556",
+ "target": "hexside",
+ "key": "D2123|D2222",
+ "before": {
+  "key": "D2123|D2222",
+  "a": "D2123",
+  "b": "D2222",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   1992,
+   3345,
+   220,
+   180
+  ],
+  "note": "no track on this hexside on the scan; the extractor read the dark grey edge of the escarpment band as a track"
+ },
+ "superseded": false
+}

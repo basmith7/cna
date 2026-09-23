@@ -1,0 +1,32 @@
+{
+ "id": "M-560",
+ "target": "hexside",
+ "key": "D1721|D1722",
+ "before": {
+  "key": "D1721|D1722",
+  "a": "D1721",
+  "b": "D1722",
+  "side": null,
+  "features": [
+   "escarpment"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   1875,
+   3710,
+   220,
+   180
+  ],
+  "note": "no escarpment here on the scan; the extractor read the letter strokes of the printed title 'The Qattara Depression' as an escarpment band"
+ },
+ "superseded": false
+}

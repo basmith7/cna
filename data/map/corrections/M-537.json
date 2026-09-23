@@ -1,0 +1,35 @@
+{
+ "id": "M-537",
+ "target": "hexside",
+ "key": "D3225|D3326",
+ "before": {
+  "key": "D3225|D3326",
+  "a": "D3225",
+  "b": "D3326",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "track"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   2274,
+   2454,
+   220,
+   180
+  ],
+  "note": "a dashed track from the coast crosses this hexside; the railway runs clear of it"
+ },
+ "superseded": false
+}
