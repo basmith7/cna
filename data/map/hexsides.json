@@ -35400,16 +35400,6 @@
    "up": null
   },
   {
-   "key": "E0818|E0819",
-   "a": "E0818",
-   "b": "E0819",
-   "side": null,
-   "features": [
-    "railroad"
-   ],
-   "up": null
-  },
-  {
    "key": "E0818|E0918",
    "a": "E0818",
    "b": "E0918",
@@ -35425,7 +35415,6 @@
    "b": "E0820",
    "side": null,
    "features": [
-    "railroad",
     "coast"
    ],
    "up": null
@@ -35618,16 +35607,6 @@
    "side": null,
    "features": [
     "track"
-   ],
-   "up": null
-  },
-  {
-   "key": "E0922|E0923",
-   "a": "E0922",
-   "b": "E0923",
-   "side": null,
-   "features": [
-    "railroad"
    ],
    "up": null
   },
@@ -36281,7 +36260,8 @@
    "b": "E1429",
    "side": null,
    "features": [
-    "railroad"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -37164,7 +37144,7 @@
    "b": "E1831",
    "side": null,
    "features": [
-    "track"
+    "road"
    ],
    "up": null
   },
@@ -38419,6 +38399,16 @@
    "key": "E2319|E2320",
    "a": "E2319",
    "b": "E2320",
+   "side": null,
+   "features": [
+    "road"
+   ],
+   "up": null
+  },
+  {
+   "key": "E2319|E2418",
+   "a": "E2319",
+   "b": "E2418",
    "side": null,
    "features": [
     "road"
@@ -40329,6 +40319,7 @@
    "b": "E3026",
    "side": null,
    "features": [
+    "railroad",
     "road"
    ],
    "up": null
@@ -40575,8 +40566,8 @@
    "b": "E3222",
    "side": null,
    "features": [
-    "road",
-    "track"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -40734,16 +40725,6 @@
    "up": "E3210"
   },
   {
-   "key": "E3211|E3311",
-   "a": "E3211",
-   "b": "E3311",
-   "side": null,
-   "features": [
-    "railroad"
-   ],
-   "up": null
-  },
-  {
    "key": "E3211|E3312",
    "a": "E3211",
    "b": "E3312",
@@ -40870,8 +40851,8 @@
    "b": "E3222",
    "side": null,
    "features": [
-    "road",
-    "track"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -41174,8 +41155,8 @@
    "b": "E3321",
    "side": null,
    "features": [
-    "unfinished-road",
-    "track"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -41680,6 +41661,7 @@
    "b": "E3526",
    "side": null,
    "features": [
+    "railroad",
     "road"
    ],
    "up": null
@@ -41821,8 +41803,8 @@
    "b": "E3613",
    "side": null,
    "features": [
-    "track",
-    "coast"
+    "railroad",
+    "road"
    ],
    "up": null
   },

@@ -1,0 +1,33 @@
+{
+ "id": "M-780",
+ "target": "hexside",
+ "key": "E2319|E2418",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "E2319|E2418",
+    "a": "E2319",
+    "b": "E2418",
+    "side": null,
+    "features": [
+     "road"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p191",
+  "crop": [
+   1606,
+   3154,
+   222,
+   178
+  ],
+  "note": "the double-line road crosses this hexside on the scan, between the two hex centres"
+ },
+ "superseded": false
+}
