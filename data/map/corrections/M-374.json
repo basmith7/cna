@@ -1,0 +1,33 @@
+{
+ "id": "M-374",
+ "target": "hexside",
+ "key": "B2410|B2511",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "B2410|B2511",
+    "a": "B2410",
+    "b": "B2511",
+    "side": null,
+    "features": [
+     "track"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   867,
+   3082,
+   218,
+   179
+  ],
+  "note": "a dashed track crosses this hexside on the scan (and on the redraw, whose 1 px dashes the extractor did not read)"
+ },
+ "superseded": false
+}

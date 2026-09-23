@@ -1,0 +1,33 @@
+{
+ "id": "M-432",
+ "target": "hexside",
+ "key": "B6012|B6113",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "B6012|B6113",
+    "a": "B6012",
+    "b": "B6113",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "B6012"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   1054,
+   184,
+   218,
+   179
+  ],
+  "note": "the hachured slope band of the coastal escarpment lies along this hexside on the seaward hex (band on the down side), so the inland hex is up"
+ },
+ "superseded": false
+}

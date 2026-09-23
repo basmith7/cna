@@ -1,0 +1,33 @@
+{
+ "id": "M-446",
+ "target": "hexside",
+ "key": "B6019|B6020",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "B6019|B6020",
+    "a": "B6019",
+    "b": "B6020",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "B6019"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   1732,
+   225,
+   218,
+   179
+  ],
+  "note": "the hachured slope band runs down the west side of B6020 along this hexside (band on the down side), so B6019 is up"
+ },
+ "superseded": false
+}

@@ -1,0 +1,32 @@
+{
+ "id": "M-425",
+ "target": "hexside",
+ "key": "B4330|B4429",
+ "before": {
+  "key": "B4330|B4429",
+  "a": "B4330",
+  "b": "B4429",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   2643,
+   1553,
+   218,
+   179
+  ],
+  "note": "the dashed track runs through the middle of B4429 and does not cross this hexside"
+ },
+ "superseded": false
+}

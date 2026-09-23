@@ -1,0 +1,33 @@
+{
+ "id": "M-455",
+ "target": "hexside",
+ "key": "B5824|B5825",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "B5824|B5825",
+    "a": "B5824",
+    "b": "B5825",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "B5824"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   2199,
+   386,
+   218,
+   179
+  ],
+  "note": "the hachured slope band lies along this hexside inside the other hex (band on the down side)"
+ },
+ "superseded": false
+}

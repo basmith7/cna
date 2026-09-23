@@ -13,6 +13,10 @@ in `data/map/corrections/`. See `data/README.md` for the hex convention and the 
 
 ![Map A — Tripolitania and the Gulf of Sirte](/map/A.svg)
 
+## Map B — Cyrenaica
+
+![Map B — Cyrenaica](/map/B.svg)
+
 ## Map C — the frontier
 
 ![Map C — the frontier](/map/C.svg)
@@ -23,4 +27,4 @@ in `data/map/corrections/`. See `data/README.md` for the hex convention and the 
 
 ## Not yet captured
 
-Map B — Cyrenaica, Map D — Matruh and the Western Desert, Map E — the Delta.
+Map D — Matruh and the Western Desert, Map E — the Delta.
