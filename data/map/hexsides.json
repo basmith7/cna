@@ -38214,7 +38214,7 @@
    "side": null,
    "features": [
     "minor-river",
-    "track"
+    "railroad"
    ],
    "up": null
   },
@@ -40117,7 +40117,7 @@
    "side": null,
    "features": [
     "major-river",
-    "track"
+    "railroad"
    ],
    "up": null
   },
@@ -40612,8 +40612,8 @@
    "side": null,
    "features": [
     "minor-river",
-    "road",
-    "track"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -40667,8 +40667,8 @@
    "side": null,
    "features": [
     "minor-river",
-    "road",
-    "track"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -41986,8 +41986,8 @@
    "b": "E3427",
    "side": null,
    "features": [
-    "road",
-    "track"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -42182,8 +42182,8 @@
    "side": null,
    "features": [
     "minor-river",
-    "unfinished-road",
-    "track"
+    "railroad",
+    "road"
    ],
    "up": null
   },
@@ -42244,8 +42244,8 @@
    "side": null,
    "features": [
     "minor-river",
-    "road",
-    "track"
+    "railroad",
+    "road"
    ],
    "up": null
   },
