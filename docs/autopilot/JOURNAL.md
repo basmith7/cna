@@ -316,3 +316,9 @@ Done: this run merged #64, #66, #67, #69, #74 (M-698–M-700), #70, #75 (M-701�
 In flight: nothing half-written. Map E stack: #72 (base main) ← #73 ← #77. Each branch needs origin/main merged in; expect conflicts in EXTRACTION/JOURNAL and keep both sides.
 Next: E rows independent of Brian (tracks, roads, 18 slopes, 7 escarpments; next free M-797), E places (ports and oases by symbol). Then Part D docs (Task 17), if the spec lets it start before E finishes.
 Blocked: E river classes and hill bands (and D's 16), blue railway class, vertex-track convention (Brian). Lesson: /tmp/gates.sh must use `set -o pipefail` (tail hid a failing map_render --check once); `git fetch` before merging main.
+
+## 2026-09-22 21:40 MST — autopilot/map-e-3
+Done: merged origin/main into #72/#73/#77; merged #72, #73. #77: M-797–M-882 (slopes of hill rings, Delta railway crossings, road class, 42 hill bands as ridge — band on both sides, /tmp/band3.py median-brightness test: ~118–129 both sides = ridge), 12 E places (Amiriya is E3212, KNOWN's E2212 is wrong). E diff 207, all left as read. SVG viewed vs p191.
+In flight: #77 merge after CI, then #78 (docs: design Status line) and MISSION 3 COMPLETE.
+Next: if Brian answers the river-class / D hill-band / blue-railway / vertex questions, one correction PR per answer across sheets (D: 9 of the 16 hill bands are two-sided by the same test).
+Blocked: river class of the Delta branches (Brian).
