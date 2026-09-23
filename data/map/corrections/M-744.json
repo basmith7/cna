@@ -1,0 +1,32 @@
+{
+ "id": "M-744",
+ "target": "hexside",
+ "key": "B5603|B5604",
+ "before": {
+  "key": "B5603|B5604",
+  "a": "B5603",
+  "b": "B5604",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   237,
+   549,
+   219,
+   177
+  ],
+  "note": "the dark escarpment band north of Barce, not a railway: no railway is printed on this hexside"
+ },
+ "superseded": false
+}

@@ -1,0 +1,40 @@
+{
+ "id": "M-754",
+ "target": "hexside",
+ "key": "B2305|B2405",
+ "before": {
+  "key": "B2305|B2405",
+  "a": "B2305",
+  "b": "B2405",
+  "side": null,
+  "features": [
+   "ridge"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "slope"
+   ]
+  },
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "B2405"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   353,
+   3165,
+   219,
+   177
+  ],
+  "note": "the hachured band along this hexside is a one-sided slope band inside B2305 (band on the down side), not a ridge; B2405 is up"
+ },
+ "superseded": false
+}
