@@ -42187,6 +42187,17 @@
    "up": null
   },
   {
+   "key": "E3613|E3714",
+   "a": "E3613",
+   "b": "E3714",
+   "side": null,
+   "features": [
+    "railroad",
+    "road"
+   ],
+   "up": null
+  },
+  {
    "key": "E3614|E3615",
    "a": "E3614",
    "b": "E3615",
@@ -42516,8 +42527,7 @@
    "b": "E3815",
    "side": null,
    "features": [
-    "road",
-    "track"
+    "road"
    ],
    "up": null
   },
