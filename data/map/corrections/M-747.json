@@ -1,0 +1,33 @@
+{
+ "id": "M-747",
+ "target": "hexside",
+ "key": "B1705|B1706",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "B1705|B1706",
+    "a": "B1705",
+    "b": "B1706",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   377,
+   3688,
+   219,
+   177
+  ],
+  "note": "the hachured slope band is printed along this hexside on the scan; which side it lies on cannot be settled at the scan's resolution, so up is left open"
+ },
+ "superseded": false
+}

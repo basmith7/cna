@@ -1,0 +1,32 @@
+{
+ "id": "M-716",
+ "target": "hexside",
+ "key": "B4619|B4620",
+ "before": {
+  "key": "B4619|B4620",
+  "a": "B4619",
+  "b": "B4620",
+  "side": null,
+  "features": [
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "remove",
+   "path": ""
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   1733,
+   1354,
+   219,
+   177
+  ],
+  "note": "no track is printed across this hexside on the scan"
+ },
+ "superseded": false
+}

@@ -1,0 +1,33 @@
+{
+ "id": "M-700",
+ "target": "hexside",
+ "key": "A4130|A4131",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "A4130|A4131",
+    "a": "A4130",
+    "b": "A4131",
+    "side": null,
+    "features": [
+     "track"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   5546,
+   3507,
+   441,
+   360
+  ],
+  "note": "the dashed track running east out of Soluch passes just south of both hex centres and crosses the hexside between them"
+ },
+ "superseded": false
+}

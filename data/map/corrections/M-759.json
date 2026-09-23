@@ -1,0 +1,41 @@
+{
+ "id": "M-759",
+ "target": "hexside",
+ "key": "B5726|B5825",
+ "before": {
+  "key": "B5726|B5825",
+  "a": "B5726",
+  "b": "B5825",
+  "side": null,
+  "features": [
+   "road"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "road",
+    "slope"
+   ]
+  },
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "B5726"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   2270,
+   428,
+   219,
+   177
+  ],
+  "note": "the hachured slope band is printed along this hexside on the scan, inside the northern hex (band on the down side), so this hex is up"
+ },
+ "superseded": false
+}

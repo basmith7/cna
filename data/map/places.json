@@ -3,6 +3,7 @@
   "scan:p187",
   "vassal:CNAv2.1.0",
   "scan:p189",
+  "scan:p188",
   "scan:p190"
  ],
  "places": [
@@ -61,6 +62,13 @@
    "name": "Buq Buq",
    "kind": "village",
    "port": false
+  },
+  {
+   "id": "derna",
+   "hex": "B5925",
+   "name": "Derna",
+   "kind": "village",
+   "port": true
   },
   {
    "id": "el-adem",
@@ -144,6 +152,13 @@
    "hex": "M0504",
    "name": "Hal Far",
    "kind": "feature",
+   "port": false
+  },
+  {
+   "id": "jalo",
+   "hex": "B0513",
+   "name": "Jalo",
+   "kind": "oasis",
    "port": false
   },
   {
