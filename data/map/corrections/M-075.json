@@ -1,0 +1,33 @@
+{
+ "id": "M-075",
+ "target": "hexside",
+ "key": "C0721|C0722",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "C0721|C0722",
+    "a": "C0721",
+    "b": "C0722",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "C0722"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1838,
+   4493,
+   220,
+   180
+  ],
+  "note": "depression hex C0721 is ringed by slope hachures; the east hexside carries them too"
+ },
+ "superseded": false
+}

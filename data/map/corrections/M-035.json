@@ -1,0 +1,30 @@
+{
+ "id": "M-035",
+ "target": "hex",
+ "key": "C0127",
+ "before": {
+  "id": "C0127",
+  "sheet": "C",
+  "terrain": "clear",
+  "settlement": null,
+  "coastal": false
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/settlement",
+   "value": "oasis"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   2315,
+   4919,
+   300,
+   300
+  ],
+  "note": "the printed label reads 'Siwa' with the oasis (palm) symbol"
+ },
+ "superseded": false
+}

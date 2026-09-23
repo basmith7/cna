@@ -1,0 +1,35 @@
+{
+ "id": "M-029",
+ "target": "hex",
+ "key": "C4718",
+ "before": {
+  "id": "C4718",
+  "sheet": "C",
+  "terrain": "sea",
+  "settlement": null,
+  "coastal": false
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/terrain",
+   "value": "rough"
+  },
+  {
+   "op": "replace",
+   "path": "/coastal",
+   "value": true
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1469,
+   1193,
+   300,
+   300
+  ],
+  "note": "coastal hex at Mersa Lucah: the inlet is narrow and the hex is mostly rough land"
+ },
+ "superseded": false
+}

@@ -1,0 +1,30 @@
+{
+ "id": "M-038",
+ "target": "hex",
+ "key": "C4419",
+ "before": {
+  "id": "C4419",
+  "sheet": "C",
+  "terrain": "clear",
+  "settlement": "village",
+  "coastal": false
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/settlement",
+   "value": "bir"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1610,
+   1436,
+   300,
+   300
+  ],
+  "note": "the printed label reads 'Bir el Menastir' with the village/bir/oasis symbol; a bir"
+ },
+ "superseded": false
+}

@@ -1,0 +1,33 @@
+{
+ "id": "M-033",
+ "target": "hexside",
+ "key": "C3526|C3625",
+ "before": {
+  "key": "C3526|C3625",
+  "a": "C3526",
+  "b": "C3625",
+  "side": null,
+  "features": [
+   "escarpment"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "C3625"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   2197,
+   2124,
+   300,
+   300
+  ],
+  "note": "Sofafi escarpment: the hachures face south into C3526; C3625 is on the plateau"
+ },
+ "superseded": false
+}

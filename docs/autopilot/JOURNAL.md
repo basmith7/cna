@@ -251,3 +251,20 @@ Done: Mission 3 Part 0 merged as #60 (R-020–R-022 from the Discord notes; R-00
 In flight: #61 waiting on CI, then merge.
 Next: Part B on `autopilot/map-c`: Task 14.1 map_diff.py (read his codes.py/mapterrain.py/hexsides.py under ~/.cache/cna-njharman/cna_src/src/core/cna/data/, values never copied), 14.2 map_sample.py, then extract Map C (`--zone "Map C"`), diff, ≤150 resolutions. Map C scan page is p189 (Map A p187 carries the Malta inset); record map_pages in tools/sources.json.
 Blocked: none. Brian should glance at Malta's numbering (module rows 05–13 / cols 00–06; the printed inset has no numbers) and M0805 read as sea.
+
+## 2026-09-21 22:02 — autopilot/map-c
+Done: #61 (Part A) and #63 (extractor: dashed tracks, raw M+C regenerated, map_diff) merged. On this branch (#64, draft): map_sample.py + Map C scan grid in sources.json; corrections M-020–M-038 (11 terrain, 1 coast hexside, 3 up, 4 settlement); 16 Map C places; EXTRACTION entry marked in progress. Diff 470 → 285. Plan-vs-spec: the plan lets a sheet PR merge with >150 rows unresolved, the spec says not a merge — following the spec, #64 stays draft.
+In flight: 283 hexside diffs (build/map/diff-C.md, regenerate with `map_diff.py C`); 50-hex sample crops under build/map/sample-C, checklist unfilled.
+Next: decide whether to open extractor PR #2 first (rail-class read for 1px anti-aliased track dashes; a palette class for the blue-white unfinished-railroad chain; slope band threshold — 49 slopes missed) — it would remove most of the 283 rows; then resolve the remainder ≤150 per PR, fill the sample checklist, mark #64 ready.
+Blocked: none.
+
+## 2026-09-21 22:27 — autopilot/map-c
+Done: #60 (Part 0), #61 (Part A), #63 and #65 (extractor PRs) merged. #64 (draft) carries Map C: corrections M-020–M-135 (11 terrain, 1 coast, 13 slope/up, 4 settlement, 32 unfinished railroad, 4 false tracks, 51 track crossings), 33 agrees (build/map/diff-C-resolved.md), 16 places, sample 0/50, EXTRACTION entry — **149 resolutions, at the cap**. Every gate green locally (pytest 180, check_data, map_build/map_render --check, check_overlap, test:site, site:build). Kept as a draft because the spec says an over-cap sheet does not merge (the plan says it may; spec wins per AUTOPILOT.md) — 122 rows remain.
+In flight: nothing half-written. Regenerate the diff with `map_diff.py C`; montage recipe in /tmp is gone — rebuild it from map_sample.scan_centre + map_extract --debug.
+Next: Brian may prefer to merge #64 as is (gates green, 149 resolutions) and open `autopilot/map-c-2` for the last 122 rows: 27 "- → track" (all viewed ones so far were real crossings → add-hexside corrections), 15 "unfinished-railroad → track,unfinished-railroad", 11 "- → slope", 9 "ridge → ridge,track", the rest ones and twos. Giarabub Oasis, El Qaqa and El Al Thed palm hexes are placed (M-136–M-139); then Task 15 (Part D of the primer).
+Blocked: none. For Brian: `up` at C0323|C0423; C4905|C4906 and C0323|C0324 (track or not).
+
+## 2026-09-22 18:30 MST — autopilot/map-c
+Decision: merging #64 then #66 back to back. The spec's "overflow is a documented stop, not a merge" was about a sheet landing with rows unresolved; with #66 done, Map C has none left bar the 22 left-as-read (mission rule: leave as read, list for Brian). Each PR stays ≤150. Sheets A/B/D/E stay unmerged until their rows are done.
+Next: after #66, retarget #67 and merge; retarget #69 to main; then Map A part 2 (54 rows, next free M-698).
+Blocked: none.

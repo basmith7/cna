@@ -1,0 +1,30 @@
+{
+ "id": "M-026",
+ "target": "hex",
+ "key": "C1921",
+ "before": {
+  "id": "C1921",
+  "sheet": "C",
+  "terrain": "clear",
+  "settlement": null,
+  "coastal": false
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/terrain",
+   "value": "rough"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1751,
+   3461,
+   300,
+   300
+  ],
+  "note": "the rough patch covers most of the hex"
+ },
+ "superseded": false
+}

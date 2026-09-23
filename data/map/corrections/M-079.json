@@ -1,0 +1,33 @@
+{
+ "id": "M-079",
+ "target": "hexside",
+ "key": "C4609|C4709",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "C4609|C4709",
+    "a": "C4609",
+    "b": "C4709",
+    "side": null,
+    "features": [
+     "slope"
+    ],
+    "up": "C4609"
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   686,
+   1293,
+   220,
+   180
+  ],
+  "note": "coastal escarpment east of Tobruk: hachures in the coastal hex C4709, plateau in C4609"
+ },
+ "superseded": false
+}

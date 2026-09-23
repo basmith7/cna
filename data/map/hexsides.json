@@ -4,6 +4,16 @@
  ],
  "hexsides": [
   {
+   "key": "C0107|C0207",
+   "a": "C0107",
+   "b": "C0207",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0127|C0226",
    "a": "C0127",
    "b": "C0226",
@@ -35,6 +45,16 @@
    "up": null
   },
   {
+   "key": "C0130|C0229",
+   "a": "C0130",
+   "b": "C0229",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0130|C0230",
    "a": "C0130",
    "b": "C0230",
@@ -45,9 +65,29 @@
    "up": null
   },
   {
+   "key": "C0131|C0132",
+   "a": "C0131",
+   "b": "C0132",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0132|C0133",
    "a": "C0132",
    "b": "C0133",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0207|C0307",
+   "a": "C0207",
+   "b": "C0307",
    "side": null,
    "features": [
     "track"
@@ -88,6 +128,16 @@
    "key": "C0225|C0226",
    "a": "C0225",
    "b": "C0226",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0225|C0325",
+   "a": "C0225",
+   "b": "C0325",
    "side": null,
    "features": [
     "track"
@@ -156,6 +206,16 @@
    "up": null
   },
   {
+   "key": "C0229|C0230",
+   "a": "C0229",
+   "b": "C0230",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0229|C0330",
    "a": "C0229",
    "b": "C0330",
@@ -174,6 +234,46 @@
     "slope"
    ],
    "up": "C0330"
+  },
+  {
+   "key": "C0230|C0331",
+   "a": "C0230",
+   "b": "C0331",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0307|C0407",
+   "a": "C0307",
+   "b": "C0407",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0323|C0422",
+   "a": "C0323",
+   "b": "C0422",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0323|C0423",
+   "a": "C0323",
+   "b": "C0423",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "C0323"
   },
   {
    "key": "C0324|C0423",
@@ -296,6 +396,16 @@
    "up": null
   },
   {
+   "key": "C0407|C0507",
+   "a": "C0407",
+   "b": "C0507",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0422|C0423",
    "a": "C0422",
    "b": "C0423",
@@ -345,6 +455,16 @@
     "track"
    ],
    "up": "C0524"
+  },
+  {
+   "key": "C0425|C0426",
+   "a": "C0425",
+   "b": "C0426",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "C0426"
   },
   {
    "key": "C0425|C0526",
@@ -447,6 +567,16 @@
    "up": null
   },
   {
+   "key": "C0507|C0607",
+   "a": "C0507",
+   "b": "C0607",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0521|C0522",
    "a": "C0521",
    "b": "C0522",
@@ -487,6 +617,26 @@
    "up": "C0622"
   },
   {
+   "key": "C0523|C0524",
+   "a": "C0523",
+   "b": "C0524",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0523|C0622",
+   "a": "C0523",
+   "b": "C0622",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0523|C0623",
    "a": "C0523",
    "b": "C0623",
@@ -495,6 +645,16 @@
     "track"
    ],
    "up": null
+  },
+  {
+   "key": "C0524|C0525",
+   "a": "C0524",
+   "b": "C0525",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "C0524"
   },
   {
    "key": "C0525|C0526",
@@ -515,6 +675,16 @@
     "slope"
    ],
    "up": "C0624"
+  },
+  {
+   "key": "C0525|C0625",
+   "a": "C0525",
+   "b": "C0625",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "C0625"
   },
   {
    "key": "C0527|C0626",
@@ -837,9 +1007,49 @@
    "up": null
   },
   {
+   "key": "C0715|C0716",
+   "a": "C0715",
+   "b": "C0716",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0716|C0717",
+   "a": "C0716",
+   "b": "C0717",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0716|C0815",
+   "a": "C0716",
+   "b": "C0815",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0716|C0816",
    "a": "C0716",
    "b": "C0816",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0717|C0718",
+   "a": "C0717",
+   "b": "C0718",
    "side": null,
    "features": [
     "track"
@@ -875,6 +1085,36 @@
     "slope"
    ],
    "up": "C0820"
+  },
+  {
+   "key": "C0721|C0722",
+   "a": "C0721",
+   "b": "C0722",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "C0722"
+  },
+  {
+   "key": "C0721|C0820",
+   "a": "C0721",
+   "b": "C0820",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "C0820"
+  },
+  {
+   "key": "C0721|C0821",
+   "a": "C0721",
+   "b": "C0821",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "C0821"
   },
   {
    "key": "C0722|C0821",
@@ -1078,6 +1318,16 @@
    "up": null
   },
   {
+   "key": "C0820|C0920",
+   "a": "C0820",
+   "b": "C0920",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0820|C0921",
    "a": "C0820",
    "b": "C0921",
@@ -1104,6 +1354,16 @@
    "side": null,
    "features": [
     "wadi"
+   ],
+   "up": null
+  },
+  {
+   "key": "C0825|C0925",
+   "a": "C0825",
+   "b": "C0925",
+   "side": null,
+   "features": [
+    "track"
    ],
    "up": null
   },
@@ -1278,12 +1538,32 @@
    "up": null
   },
   {
+   "key": "C0925|C1025",
+   "a": "C0925",
+   "b": "C1025",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C0929|C1029",
    "a": "C0929",
    "b": "C1029",
    "side": null,
    "features": [
     "unfinished-road"
+   ],
+   "up": null
+  },
+  {
+   "key": "C1003|C1004",
+   "a": "C1003",
+   "b": "C1004",
+   "side": null,
+   "features": [
+    "track"
    ],
    "up": null
   },
@@ -1298,9 +1578,29 @@
    "up": null
   },
   {
+   "key": "C1004|C1005",
+   "a": "C1004",
+   "b": "C1005",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C1008|C1009",
    "a": "C1008",
    "b": "C1009",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C1008|C1108",
+   "a": "C1008",
+   "b": "C1108",
    "side": null,
    "features": [
     "track"
@@ -1398,10 +1698,30 @@
    "up": null
   },
   {
+   "key": "C1101|C1102",
+   "a": "C1101",
+   "b": "C1102",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C1101|W",
    "a": "C1101",
    "b": null,
    "side": "W",
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C1102|C1103",
+   "a": "C1102",
+   "b": "C1103",
+   "side": null,
    "features": [
     "track"
    ],
@@ -1421,6 +1741,36 @@
    "key": "C1103|C1202",
    "a": "C1103",
    "b": "C1202",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C1104|C1105",
+   "a": "C1104",
+   "b": "C1105",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C1105|C1106",
+   "a": "C1105",
+   "b": "C1106",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C1106|C1107",
+   "a": "C1106",
+   "b": "C1107",
    "side": null,
    "features": [
     "track"
@@ -1468,6 +1818,16 @@
    "up": null
   },
   {
+   "key": "C1115|C1116",
+   "a": "C1115",
+   "b": "C1116",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C1115|C1215",
    "a": "C1115",
    "b": "C1215",
@@ -1498,6 +1858,16 @@
    "up": "C1216"
   },
   {
+   "key": "C1117|C1118",
+   "a": "C1117",
+   "b": "C1118",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C1117|C1216",
    "a": "C1117",
    "b": "C1216",
@@ -1526,6 +1896,16 @@
     "slope"
    ],
    "up": "C1218"
+  },
+  {
+   "key": "C1119|C1218",
+   "a": "C1119",
+   "b": "C1218",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
   },
   {
    "key": "C1119|C1219",
@@ -1618,6 +1998,16 @@
    "up": null
   },
   {
+   "key": "C1215|C1315",
+   "a": "C1215",
+   "b": "C1315",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C1216|C1217",
    "a": "C1216",
    "b": "C1217",
@@ -1674,6 +2064,16 @@
    "side": null,
    "features": [
     "wadi"
+   ],
+   "up": null
+  },
+  {
+   "key": "C1218|C1319",
+   "a": "C1218",
+   "b": "C1319",
+   "side": null,
+   "features": [
+    "track"
    ],
    "up": null
   },
@@ -1878,6 +2278,16 @@
    "up": null
   },
   {
+   "key": "C1325|C1424",
+   "a": "C1325",
+   "b": "C1424",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C1331|C1332",
    "a": "C1331",
    "b": "C1332",
@@ -1991,6 +2401,16 @@
    "key": "C1411|C1511",
    "a": "C1411",
    "b": "C1511",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C1415|C1515",
+   "a": "C1415",
+   "b": "C1515",
    "side": null,
    "features": [
     "track"
@@ -2188,6 +2608,16 @@
    "up": null
   },
   {
+   "key": "C1515|C1615",
+   "a": "C1515",
+   "b": "C1615",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C1519|C1619",
    "a": "C1519",
    "b": "C1619",
@@ -2298,6 +2728,16 @@
    "up": null
   },
   {
+   "key": "C1608|C1609",
+   "a": "C1608",
+   "b": "C1609",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C1608|C1708",
    "a": "C1608",
    "b": "C1708",
@@ -2311,6 +2751,16 @@
    "key": "C1609|C1610",
    "a": "C1609",
    "b": "C1610",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C1615|C1715",
+   "a": "C1615",
+   "b": "C1715",
    "side": null,
    "features": [
     "track"
@@ -2549,9 +2999,59 @@
    "up": null
   },
   {
+   "key": "C1825|C1826",
+   "a": "C1825",
+   "b": "C1826",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C1826|C1827",
+   "a": "C1826",
+   "b": "C1827",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C1827|C1828",
    "a": "C1827",
    "b": "C1828",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C1828|C1829",
+   "a": "C1828",
+   "b": "C1829",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C1829|C1830",
+   "a": "C1829",
+   "b": "C1830",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C1830|C1831",
+   "a": "C1830",
+   "b": "C1831",
    "side": null,
    "features": [
     "track"
@@ -2622,6 +3122,16 @@
    "key": "C1907|C2006",
    "a": "C1907",
    "b": "C2006",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C1914|C2013",
+   "a": "C1914",
+   "b": "C2013",
    "side": null,
    "features": [
     "track"
@@ -2719,16 +3229,6 @@
    "up": null
   },
   {
-   "key": "C2008|C2009",
-   "a": "C2008",
-   "b": "C2009",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
    "key": "C2013|C2114",
    "a": "C2013",
    "b": "C2114",
@@ -2782,16 +3282,6 @@
    "key": "C2025|C2126",
    "a": "C2025",
    "b": "C2126",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
-   "key": "C2027|C2028",
-   "a": "C2027",
-   "b": "C2028",
    "side": null,
    "features": [
     "track"
@@ -2925,6 +3415,16 @@
    "side": null,
    "features": [
     "wadi"
+   ],
+   "up": null
+  },
+  {
+   "key": "C2218|C2318",
+   "a": "C2218",
+   "b": "C2318",
+   "side": null,
+   "features": [
+    "track"
    ],
    "up": null
   },
@@ -3119,6 +3619,16 @@
    "up": null
   },
   {
+   "key": "C2410|C2411",
+   "a": "C2410",
+   "b": "C2411",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C2411|C2412",
    "a": "C2411",
    "b": "C2412",
@@ -3129,9 +3639,29 @@
    "up": null
   },
   {
+   "key": "C2412|C2413",
+   "a": "C2412",
+   "b": "C2413",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C2412|C2512",
    "a": "C2412",
    "b": "C2512",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
+   "key": "C2413|C2414",
+   "a": "C2413",
+   "b": "C2414",
    "side": null,
    "features": [
     "track"
@@ -3215,6 +3745,16 @@
    "side": null,
    "features": [
     "wadi"
+   ],
+   "up": null
+  },
+  {
+   "key": "C2512|C2612",
+   "a": "C2512",
+   "b": "C2612",
+   "side": null,
+   "features": [
+    "track"
    ],
    "up": null
   },
@@ -3419,12 +3959,32 @@
    "up": null
   },
   {
+   "key": "C2804|C2805",
+   "a": "C2804",
+   "b": "C2805",
+   "side": null,
+   "features": [
+    "track"
+   ],
+   "up": null
+  },
+  {
    "key": "C2804|C2905",
    "a": "C2804",
    "b": "C2905",
    "side": null,
    "features": [
     "wadi"
+   ],
+   "up": null
+  },
+  {
+   "key": "C2805|C2806",
+   "a": "C2805",
+   "b": "C2806",
+   "side": null,
+   "features": [
+    "track"
    ],
    "up": null
   },
@@ -3542,16 +4102,6 @@
    "key": "C2918|C3018",
    "a": "C2918",
    "b": "C3018",
-   "side": null,
-   "features": [
-    "track"
-   ],
-   "up": null
-  },
-  {
-   "key": "C2919|C2920",
-   "a": "C2919",
-   "b": "C2920",
    "side": null,
    "features": [
     "track"
@@ -4154,7 +4704,7 @@
    "b": "C3227",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -4164,7 +4714,7 @@
    "b": "C3326",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -4184,7 +4734,7 @@
    "b": "C3328",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -4304,7 +4854,7 @@
    "b": "C3325",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -4314,7 +4864,7 @@
    "b": "C3423",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -4324,7 +4874,7 @@
    "b": "C3326",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -4344,7 +4894,7 @@
    "b": "C3329",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -4364,7 +4914,7 @@
    "b": "C3429",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -4524,7 +5074,7 @@
    "b": "C3523",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -4644,7 +5194,7 @@
    "b": "C3430",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -4664,7 +5214,7 @@
    "b": "C3531",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -4804,7 +5354,7 @@
    "b": "C3622",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -4867,7 +5417,7 @@
     "escarpment",
     "railroad"
    ],
-   "up": null
+   "up": "C3527"
   },
   {
    "key": "C3526|C3625",
@@ -4877,7 +5427,7 @@
    "features": [
     "escarpment"
    ],
-   "up": null
+   "up": "C3625"
   },
   {
    "key": "C3528|C3529",
@@ -4956,7 +5506,7 @@
    "b": "C3631",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -5096,7 +5646,7 @@
    "b": "C3722",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -5158,7 +5708,7 @@
    "features": [
     "escarpment"
    ],
-   "up": null
+   "up": "C3629"
   },
   {
    "key": "C3629|C3729",
@@ -5197,7 +5747,7 @@
    "b": "C3632",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -5217,7 +5767,7 @@
    "b": "C3633",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -5387,7 +5937,7 @@
    "b": "C3821",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -5567,7 +6117,7 @@
    "b": "C3921",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -5788,7 +6338,7 @@
    "b": "C4020",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -5949,7 +6499,7 @@
    "b": "C4020",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -5959,7 +6509,7 @@
    "b": "C4119",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -6211,7 +6761,7 @@
    "b": "C4218",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -6441,7 +6991,7 @@
    "b": "C4217",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -6451,7 +7001,7 @@
    "b": "C4316",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -6471,7 +7021,7 @@
    "b": "C4218",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -6712,7 +7262,7 @@
    "b": "C4412",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -6732,7 +7282,7 @@
    "b": "C4315",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -6762,7 +7312,7 @@
    "b": "C4316",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -7053,7 +7603,7 @@
    "b": "C4412",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -7456,7 +8006,7 @@
    "b": "C4511",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -7466,7 +8016,7 @@
    "b": "C4609",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -7657,7 +8207,7 @@
    "b": "C4608",
    "side": null,
    "features": [
-    "railroad"
+    "unfinished-railroad"
    ],
    "up": null
   },
@@ -7705,6 +8255,16 @@
    "up": null
   },
   {
+   "key": "C4608|C4709",
+   "a": "C4608",
+   "b": "C4709",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "C4608"
+  },
+  {
    "key": "C4609|C4610",
    "a": "C4609",
    "b": "C4610",
@@ -7713,6 +8273,26 @@
     "road"
    ],
    "up": null
+  },
+  {
+   "key": "C4609|C4709",
+   "a": "C4609",
+   "b": "C4709",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "C4609"
+  },
+  {
+   "key": "C4609|C4710",
+   "a": "C4609",
+   "b": "C4710",
+   "side": null,
+   "features": [
+    "slope"
+   ],
+   "up": "C4609"
   },
   {
    "key": "C4610|C4611",
@@ -8108,16 +8688,6 @@
    "up": "C4806"
   },
   {
-   "key": "C4807|C4907",
-   "a": "C4807",
-   "b": "C4907",
-   "side": null,
-   "features": [
-    "coast"
-   ],
-   "up": null
-  },
-  {
    "key": "C4901|C4902",
    "a": "C4901",
    "b": "C4902",
@@ -8184,16 +8754,6 @@
    "side": null,
    "features": [
     "railroad"
-   ],
-   "up": null
-  },
-  {
-   "key": "C4907|C4908",
-   "a": "C4907",
-   "b": "C4908",
-   "side": null,
-   "features": [
-    "track"
    ],
    "up": null
   }

@@ -1,0 +1,30 @@
+{
+ "id": "M-136",
+ "target": "hex",
+ "key": "C0716",
+ "before": {
+  "id": "C0716",
+  "sheet": "C",
+  "terrain": "clear",
+  "settlement": null,
+  "coastal": false
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/settlement",
+   "value": "oasis"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   1321,
+   4493,
+   220,
+   180
+  ],
+  "note": "the oasis (palm) symbol is printed in this hex, labelled 'El Qaqa'"
+ },
+ "superseded": false
+}

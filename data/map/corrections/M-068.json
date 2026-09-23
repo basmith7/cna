@@ -1,0 +1,35 @@
+{
+ "id": "M-068",
+ "target": "hexside",
+ "key": "C4510|C4511",
+ "before": {
+  "key": "C4510|C4511",
+  "a": "C4510",
+  "b": "C4511",
+  "side": null,
+  "features": [
+   "railroad"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "unfinished-railroad"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   764,
+   1355,
+   300,
+   300
+  ],
+  "note": "the Matruh-Capuzzo-Tobruk railway is printed in blue with ties, the Terrain Key's unfinished-railroad symbol; the redraw draws it like a finished railroad"
+ },
+ "superseded": false
+}
