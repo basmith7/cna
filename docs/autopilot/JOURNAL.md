@@ -295,7 +295,7 @@ Next: finish #73 (the remaining 37 minor→major rows, 38 "- → major-river", 2
 Blocked: #64 merge decision; Delta branch river class, the Map E hill bands (ridge or slope), and whether the Fayum lake shore counts as a hexside feature (Brian).
 
 ## 2026-09-22 19:12 MST — autopilot/map-e-3
-Done: this run merged #64, #66, #67, #69, #74 (M-698–M-700), #70, #75 (M-701–M-759, M-788; places Derna, Jalo), #71, #76 (M-760–M-774; place Mersa Matruh). Maps A–D and Part D of the primer are on main. Opened #77 (M-775–M-787, draft, base #73).
+Done: this run merged #64, #66, #67, #69, #74 (M-698–M-700), #70, #75 (M-701–M-759, M-788; places Derna, Jalo), #71, #76 (M-760–M-774; place Mersa Matruh). Maps A–D and Part D of the primer are on main. Opened #77 (M-775–M-794, draft, base #73).
 In flight: nothing half-written. Map E stack: #72 (base main) ← #73 ← #77. Each branch needs origin/main merged in; expect conflicts in EXTRACTION/JOURNAL and keep both sides.
-Next: E rows independent of Brian (tracks, roads, 18 slopes, 7 escarpments; next free M-789), E places (ports and oases by symbol). Then Part D docs (Task 17), if the spec lets it start before E finishes.
+Next: E rows independent of Brian (tracks, roads, 18 slopes, 7 escarpments; next free M-795), E places (ports and oases by symbol). Then Part D docs (Task 17), if the spec lets it start before E finishes.
 Blocked: E river classes and hill bands (and D's 16), blue railway class, vertex-track convention (Brian). Lesson: /tmp/gates.sh must use `set -o pipefail` (tail hid a failing map_render --check once); `git fetch` before merging main.
