@@ -6125,66 +6125,6 @@
    "up": null
   },
   {
-   "key": "B0421|B0522",
-   "a": "B0421",
-   "b": "B0522",
-   "side": null,
-   "features": [
-    "slope"
-   ],
-   "up": "B0421"
-  },
-  {
-   "key": "B0423|B0523",
-   "a": "B0423",
-   "b": "B0523",
-   "side": null,
-   "features": [
-    "slope"
-   ],
-   "up": "B0423"
-  },
-  {
-   "key": "B0424|B0525",
-   "a": "B0424",
-   "b": "B0525",
-   "side": null,
-   "features": [
-    "slope"
-   ],
-   "up": "B0424"
-  },
-  {
-   "key": "B0426|B0526",
-   "a": "B0426",
-   "b": "B0526",
-   "side": null,
-   "features": [
-    "slope"
-   ],
-   "up": "B0426"
-  },
-  {
-   "key": "B0427|B0527",
-   "a": "B0427",
-   "b": "B0527",
-   "side": null,
-   "features": [
-    "slope"
-   ],
-   "up": "B0427"
-  },
-  {
-   "key": "B0429|B0529",
-   "a": "B0429",
-   "b": "B0529",
-   "side": null,
-   "features": [
-    "slope"
-   ],
-   "up": "B0429"
-  },
-  {
    "key": "B0506|B0606",
    "a": "B0506",
    "b": "B0606",
@@ -6213,126 +6153,6 @@
     "track"
    ],
    "up": null
-  },
-  {
-   "key": "B0520|B0521",
-   "a": "B0520",
-   "b": "B0521",
-   "side": null,
-   "features": [
-    "slope"
-   ],
-   "up": "B0521"
-  },
-  {
-   "key": "B0521|B0522",
-   "a": "B0521",
-   "b": "B0522",
-   "side": null,
-   "features": [
-    "ridge"
-   ],
-   "up": null
-  },
-  {
-   "key": "B0522|B0523",
-   "a": "B0522",
-   "b": "B0523",
-   "side": null,
-   "features": [
-    "slope"
-   ],
-   "up": "B0523"
-  },
-  {
-   "key": "B0523|B0524",
-   "a": "B0523",
-   "b": "B0524",
-   "side": null,
-   "features": [
-    "ridge"
-   ],
-   "up": null
-  },
-  {
-   "key": "B0524|B0525",
-   "a": "B0524",
-   "b": "B0525",
-   "side": null,
-   "features": [
-    "ridge"
-   ],
-   "up": null
-  },
-  {
-   "key": "B0524|B0624",
-   "a": "B0524",
-   "b": "B0624",
-   "side": null,
-   "features": [
-    "slope"
-   ],
-   "up": "B0624"
-  },
-  {
-   "key": "B0525|B0526",
-   "a": "B0525",
-   "b": "B0526",
-   "side": null,
-   "features": [
-    "ridge"
-   ],
-   "up": null
-  },
-  {
-   "key": "B0525|B0624",
-   "a": "B0525",
-   "b": "B0624",
-   "side": null,
-   "features": [
-    "slope"
-   ],
-   "up": "B0525"
-  },
-  {
-   "key": "B0526|B0527",
-   "a": "B0526",
-   "b": "B0527",
-   "side": null,
-   "features": [
-    "ridge"
-   ],
-   "up": null
-  },
-  {
-   "key": "B0528|B0529",
-   "a": "B0528",
-   "b": "B0529",
-   "side": null,
-   "features": [
-    "slope"
-   ],
-   "up": "B0528"
-  },
-  {
-   "key": "B0529|B0530",
-   "a": "B0529",
-   "b": "B0530",
-   "side": null,
-   "features": [
-    "ridge"
-   ],
-   "up": null
-  },
-  {
-   "key": "B0530|B0531",
-   "a": "B0530",
-   "b": "B0531",
-   "side": null,
-   "features": [
-    "slope"
-   ],
-   "up": "B0531"
   },
   {
    "key": "B0606|B0707",
@@ -16034,6 +15854,16 @@
    "up": null
   },
   {
+   "key": "B5401|B5501",
+   "a": "B5401",
+   "b": "B5501",
+   "side": null,
+   "features": [
+    "escarpment"
+   ],
+   "up": "B5401"
+  },
+  {
    "key": "B5401|B5502",
    "a": "B5401",
    "b": "B5502",
@@ -16042,6 +15872,36 @@
     "escarpment"
    ],
    "up": "B5401"
+  },
+  {
+   "key": "B5402|B5502",
+   "a": "B5402",
+   "b": "B5502",
+   "side": null,
+   "features": [
+    "escarpment"
+   ],
+   "up": "B5402"
+  },
+  {
+   "key": "B5402|B5503",
+   "a": "B5402",
+   "b": "B5503",
+   "side": null,
+   "features": [
+    "escarpment"
+   ],
+   "up": "B5402"
+  },
+  {
+   "key": "B5403|B5503",
+   "a": "B5403",
+   "b": "B5503",
+   "side": null,
+   "features": [
+    "escarpment"
+   ],
+   "up": "B5403"
   },
   {
    "key": "B5403|B5504",
@@ -16423,6 +16283,36 @@
     "road"
    ],
    "up": null
+  },
+  {
+   "key": "B5504|B5603",
+   "a": "B5504",
+   "b": "B5603",
+   "side": null,
+   "features": [
+    "escarpment"
+   ],
+   "up": "B5504"
+  },
+  {
+   "key": "B5504|B5604",
+   "a": "B5504",
+   "b": "B5604",
+   "side": null,
+   "features": [
+    "escarpment"
+   ],
+   "up": "B5504"
+  },
+  {
+   "key": "B5505|B5604",
+   "a": "B5505",
+   "b": "B5604",
+   "side": null,
+   "features": [
+    "escarpment"
+   ],
+   "up": "B5505"
   },
   {
    "key": "B5505|B5605",
