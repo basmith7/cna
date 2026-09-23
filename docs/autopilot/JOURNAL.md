@@ -263,3 +263,8 @@ Done: #60 (Part 0), #61 (Part A), #63 and #65 (extractor PRs) merged. #64 (draft
 In flight: nothing half-written. Regenerate the diff with `map_diff.py C`; montage recipe in /tmp is gone — rebuild it from map_sample.scan_centre + map_extract --debug.
 Next: Brian may prefer to merge #64 as is (gates green, 149 resolutions) and open `autopilot/map-c-2` for the last 122 rows: 27 "- → track" (all viewed ones so far were real crossings → add-hexside corrections), 15 "unfinished-railroad → track,unfinished-railroad", 11 "- → slope", 9 "ridge → ridge,track", the rest ones and twos. Giarabub Oasis, El Qaqa and El Al Thed palm hexes are placed (M-136–M-139); then Task 15 (Part D of the primer).
 Blocked: none. For Brian: `up` at C0323|C0423; C4905|C4906 and C0323|C0324 (track or not).
+
+## 2026-09-22 18:30 MST — autopilot/map-c
+Decision: merging #64 then #66 back to back. The spec's "overflow is a documented stop, not a merge" was about a sheet landing with rows unresolved; with #66 done, Map C has none left bar the 22 left-as-read (mission rule: leave as read, list for Brian). Each PR stays ≤150. Sheets A/B/D/E stay unmerged until their rows are done.
+Next: after #66, retarget #67 and merge; retarget #69 to main; then Map A part 2 (54 rows, next free M-698).
+Blocked: none.
