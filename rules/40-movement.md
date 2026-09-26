@@ -120,6 +120,8 @@ major river except by road; mountain holds 3 stacking points, a major city
 
 ::: errata E-031 — 8.37: footnote 4 (Alexandria and Cairo are level-three fortifications) belongs to Major City, not Swamp; a track does not cost 1 CP — it halves the hex terrain's cost, as footnote 8 says
 
+::: ruling R-002 — road and track stubs that run into a hex without leading anywhere are ignored
+
 **Roads and tracks.** A unit gets the road or track rate only when it moves
 between two adjacent road/track hexes that are joined across a road/track
 hexside. While doing so it ignores every other terrain
@@ -127,7 +129,10 @@ feature of the hex and hexside — except that vehicles still pay to cross an
 escarpment (see *Special terrain*). A unit with any vehicles in it, moving by road or track, is restricted
 when it comes to friendly units sitting on that road ([Stacking & ZOC](50-stacking-and-zoc.md#roads)); it may always
 leave the road, go round them through the hex's own terrain, and rejoin the
-road in the next hex.
+road in the next hex. Scraps of map art do not create a road or track: a
+stub that stops inside a hex, without reaching another hexside or ending at
+a town, fort, airfield or the map edge, is ignored (ruling
+[R-002](../rulings/R-002.md)).
 
 **Slopes, ridges, escarpments.** Slopes and escarpments each have an *up* and a *down* side (the map's splash contours mark the
 down side),
