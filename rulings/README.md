@@ -78,6 +78,15 @@ repo root; no SPI text is ever quoted.
 4. Anyone may dispute an accepted ruling by opening a new Discussion and a
    new `proposed` ruling that names the old one in `supersedes`.
 
+## Who decides
+
+Since 2026-09-26 the maintainer has delegated deciding rulings to this
+project's unattended agent (see `AUTOPILOT.md`). It follows the order of
+preference written there: the printed text first, then consistency, then
+ease of implementation. Where a ruling can be tested numerically it cites a
+probe from [cna-engine](https://github.com/basmith7/cna-engine). An accepted
+ruling is no more final than any other: dispute it as in step 4 above.
+
 ## Fork policy
 
 Disagreement is expected. If you want a different ruling than the one

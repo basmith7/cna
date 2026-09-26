@@ -1,0 +1,188 @@
+{
+  "_comment": "Open questions that are not rulings. Items in group 'copy' need Brian's printed copy and stay as read until he answers; the autopilot decides the rest (AUTOPILOT.md, Mission 4). tools/decisions_page.py merges these with every proposed rulings/R-nnn.md into build/decisions.html. Remove an item once its answer has landed.",
+  "groups": {
+    "copy": "Needs your printed copy (optional)",
+    "map": "The map",
+    "charts": "Charts and errata",
+    "site": "The site"
+  },
+  "items": [
+    {
+      "id": "map-river-classes",
+      "group": "copy",
+      "title": "Map E: which Delta channels are major rivers?",
+      "context": "The Delta branches and canals are printed at a middle width. We disagree with the second database on 72 hexsides (38 major→minor, 34 minor→major). Another 62 rows are the Fayum lake shore, the Nile running through a hex, or a channel the second database puts on the next hexside. All are left as read.",
+      "options": [
+        "My Terrain Key says which channels are major (see note)",
+        "Take the second database's classes for the 72 disputed hexsides",
+        "Leave them as read"
+      ]
+    },
+    {
+      "id": "map-hill-bands",
+      "group": "copy",
+      "title": "Hill bands: ridge or slope?",
+      "context": "Map E recorded 42 hill bands on rough ground as ridge, because the band lies on both sides of the hexside (the extractor's ridge rule). Measured the same way, 9 of Map D's 16 open hill-band rows are ridges (D2408|D2508, D2531|D2631, D2532|D2631, D2631|D2632, D2729|D2829, D2811|D2812, D2827|D2928, D2828|D2829, D2812|D2912; D3115|D3214 borderline).",
+      "options": [
+        "Two-sided bands are ridges: set Map D's 9 to match Map E",
+        "Bands are slopes: revert Map E's 42 to slope",
+        "My Terrain Key says something else (see note)"
+      ]
+    },
+    {
+      "id": "map-blue-railways",
+      "group": "copy",
+      "title": "Blue railways: finished or unfinished in 1940?",
+      "context": "#64 made the blue Matruh–Capuzzo–Tobruk line on Map C an unfinished railroad. The Benghazi–Barce line (Map A) and the coast line east of Matruh (Map D: Fuka, Baggush) are also blue on the scan but kept as railroad.",
+      "options": [
+        "Blue means unfinished everywhere: make A and D match C",
+        "Blue is just print colour: all three are railroad",
+        "Per line (see note)"
+      ]
+    },
+    {
+      "id": "map-c0323-up",
+      "group": "copy",
+      "title": "Which side is higher at C0323|C0423?",
+      "context": "Our band-side convention says C0323 is higher; the second database says C0423, a rough hill ringed by hachures. If the database is right, the convention needs a second look at depressions.",
+      "options": [
+        "C0323 is higher (our convention)",
+        "C0423 is higher: revisit the convention",
+        "Can't tell from my copy either"
+      ]
+    },
+    {
+      "id": "map-rows-as-read",
+      "group": "copy",
+      "title": "Rows the scan cannot settle",
+      "context": "A 33, B 112, C 22, D 50, E 207 rows are left as the extractor read them. Every key is in its sheet's EXTRACTION.md entry; only a physical copy can settle them.",
+      "options": [
+        "Leave them as read",
+        "I'll check my copy for a sheet (see note)"
+      ]
+    },
+    {
+      "id": "chart-2067",
+      "group": "copy",
+      "title": "SPI 20.67: where is the Axis replacement-type chart?",
+      "context": "It is not printed on either player chart set or the shared sheet in the archive.org scan (every chart heading on jp2 111–178 checked).",
+      "options": [
+        "My copy has it (see note for where)",
+        "Not in my copy either: record it as a known gap"
+      ]
+    },
+    {
+      "id": "chart-formations",
+      "group": "copy",
+      "title": "Formation charts 19.31–19.33: two low-confidence reads",
+      "context": "The symbol grids were read with less confidence in two spots (noted in data/tables/formation-organisation.json): the 5th Light's second infantry battalion, and which Ramcke battalion is the heavy-weapons one.",
+      "options": [
+        "Both reads are right",
+        "One or both are wrong (see note)"
+      ]
+    },
+    {
+      "id": "map-vertex",
+      "group": "map",
+      "title": "Lines through a hex corner",
+      "context": "Most rows left as read on every sheet are a track, road or railway passing exactly through a hex vertex. The second database always assigns it to one hexside; we record neither.",
+      "options": [
+        "Record neither (as now)",
+        "Always assign to the hexside to the east",
+        "Assign to both hexsides at the vertex",
+        "Another rule (see note)"
+      ]
+    },
+    {
+      "id": "map-rail-along-hexside",
+      "group": "map",
+      "title": "Railways that run along a hexside",
+      "context": "In five places on Map C the railway runs along a hexside to its vertex instead of crossing it (C3228|C3328, C3721|C3821, C3920|C4020, C4118|C4218, C4216|C4317). #66 records only the track crossing.",
+      "options": [
+        "Keep only the track crossing (as now)",
+        "Count the railway as crossing too"
+      ]
+    },
+    {
+      "id": "map-villages",
+      "group": "map",
+      "title": "Add the scenario villages to places.json?",
+      "context": "Maps B and D carry only ports and oases (Derna, Jalo, Mersa Matruh). Villages named in the scenarios (Barce, Gazala, Fuka, Sidi Haneish and others) are not in places.json. Amiriya stays at E3212, where the scan prints it.",
+      "options": [
+        "Yes, add them",
+        "No, ports and oases only"
+      ]
+    },
+    {
+      "id": "map-malta-numbering",
+      "group": "map",
+      "title": "Malta hex numbering",
+      "context": "The printed inset has no hex numbers, so M hexes use the VASSAL module's numbering (rows 05–13, cols 00–06). NJHarman's code keys Malta from a different origin.",
+      "options": [
+        "Keep the VASSAL numbering",
+        "Switch to NJHarman's numbering"
+      ]
+    },
+    {
+      "id": "map-valletta",
+      "group": "map",
+      "title": "Valletta (M0805): sea or land?",
+      "context": "The Grand Harbour fills the hex centre, so it reads as sea; Valletta is a feature place with port: true on a sea hex.",
+      "options": [
+        "Sea hex with a port (as now)",
+        "Make it a land hex"
+      ]
+    },
+    {
+      "id": "chart-e025",
+      "group": "charts",
+      "title": "E-025: is the weather table reading right?",
+      "context": "The errata says the Weather Table is completely backwards. Applied as: each season's game-turn bands swap with the opposite season's (turns 1–12 → autumn); the weather dice ranges stay with their season names. data/errata/E-025.json is the one file to change.",
+      "options": [
+        "That reading is right",
+        "Wrong: the dice ranges swap instead (see note)"
+      ]
+    },
+    {
+      "id": "chart-vs-text",
+      "group": "charts",
+      "title": "Chart vs rules-text disagreements",
+      "context": "Kept as printed and noted: 24.17 temporary repair facility 50 fuel + 250 stores / 1 stage vs 24.82's 150 + 250 / 3 stages; facility rebuild 10 fuel + 50 stores vs 24.84's 30 + 50; 27.91 dump raided on a total ≥ the guards' defence (chart) vs > (27.5x text). The dump cost is already R-018.",
+      "options": [
+        "Open a proposed ruling for each",
+        "Leave them noted, no rulings"
+      ]
+    },
+    {
+      "id": "chart-oddities",
+      "group": "charts",
+      "title": "Three printed oddities on the CRTs",
+      "context": "Both scans agree and the 1979 errata is silent: close assault attacker −2 / 20 % reads \"13-18\"; close assault defender +2 has no cell for 34–36; Morale Modifier −4 has no cell for 56. Declared in known_gaps.",
+      "options": [
+        "Open a proposed ruling for each",
+        "Leave them as known gaps"
+      ]
+    },
+    {
+      "id": "site-learn-dark",
+      "group": "site",
+      "title": "/learn in dark mode",
+      "context": "The primer keeps its own light panels with explicit text colours, so in dark mode it is a light island. The CSS is CSS in tools/learn_page.py, scoped under .learn.",
+      "options": [
+        "Fine as a light island",
+        "Theme it for dark mode"
+      ]
+    },
+    {
+      "id": "site-original-text",
+      "group": "site",
+      "title": "Does the Original text viewer work?",
+      "context": "Click one Original text block on the deployed site; it fetches the community transcription into your browser.",
+      "options": [
+        "Works",
+        "Broken (see note)",
+        "Haven't checked"
+      ]
+    }
+  ]
+}
