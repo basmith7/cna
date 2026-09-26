@@ -18,6 +18,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 ## [Movement](./40-movement.md)
 
 - **E-031** — 8.37: footnote 4 (Alexandria and Cairo are level-three fortifications) belongs to Major City, not Swamp; a track does not cost 1 CP — it halves the hex terrain's cost, as footnote 8 says
+- [R-006](../rulings/R-006.md) — the stacking condition in 8.53a applies to truck convoys only
 
 ## [Combat](./60-combat.md)
 
@@ -71,7 +72,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-003](../rulings/R-003.md) | proposed | 8.24, 8.61, 8.62, 8.64, 13.22 |
 | [R-004](../rulings/R-004.md) | proposed | 3.1, 8.37, 8.91, 8.92 |
 | [R-005](../rulings/R-005.md) | proposed | 8.72, 8.74, 8.77 |
-| [R-006](../rulings/R-006.md) | proposed | 8.53 |
+| [R-006](../rulings/R-006.md) | accepted | 8.53 |
 | [R-007](../rulings/R-007.md) | proposed | 6.3, 8.51, 8.52, 13.25 |
 | [R-008](../rulings/R-008.md) | proposed | 8.24, 8.52, 8.53 |
 | [R-009](../rulings/R-009.md) | proposed | 12.33, 14.0 |

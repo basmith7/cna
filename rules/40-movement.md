@@ -193,10 +193,13 @@ never costs the break-contact or disengage fee. A unit may react any number
 of times in a stage. There is no distance limit, but a reacting unit may
 **never enter an enemy ZOC**.
 
+::: ruling R-006 — the stacking condition in 8.53a applies to truck convoys only
+
 A unit may *not* react when:
 
-- it is non-motorised, a squadron ground-support unit, or a truck convoy not
-  stacked with a friendly combat unit;
+- it is non-motorised or a squadron ground-support unit, whatever it is
+  stacked with; or it is a truck convoy with no friendly combat unit in its
+  hex ([R-006](../rulings/R-006.md));
 - the adjacent enemy unit's CPA exceeds its own by **6 or more** *and* the
   phasing player declares a close assault against it (it may still retreat
   before assault — [Combat](60-combat.md)); each unit in a stack is judged on
