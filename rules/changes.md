@@ -41,6 +41,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-015](../rulings/R-015.md) — terrain shifts only the phasing side's anti-armour fire; the non-phasing side fires unshifted
 - [R-014](../rulings/R-014.md) — only a battalion-size or larger combat unit can capture destroyed tanks, as for broken-down vehicles
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
+- [R-012](../rulings/R-012.md) — a defender who commits nothing retreats under the normal retreat rule and may stop short at 10 % per hex
 - [R-011](../rulings/R-011.md) — each side's percentage is taken of its own raw points, not the combined total
 
 ## [Organisation](./70-organisation.md)
@@ -95,7 +96,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-009](../rulings/R-009.md) | accepted | 12.33, 14.0 |
 | [R-010](../rulings/R-010.md) | accepted | 13.27, 15.82 |
 | [R-011](../rulings/R-011.md) | accepted | 15.83 |
-| [R-012](../rulings/R-012.md) | proposed | 15.29, 15.82 |
+| [R-012](../rulings/R-012.md) | accepted | 15.29, 15.82 |
 | [R-013](../rulings/R-013.md) | accepted | 15.12, 15.83, 32.33 |
 | [R-014](../rulings/R-014.md) | accepted | 14.52, 21.52 |
 | [R-015](../rulings/R-015.md) | accepted | 14.0, 14.32, 14.33 |

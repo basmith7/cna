@@ -523,8 +523,12 @@ Raw-point floors, for close assault and probe only: a side with **fewer than
 5 raw** points has zero; if **both** sides are under 10 raw, use raw as
 actual.
 
+::: ruling R-012 — a defender who commits nothing retreats under the normal retreat rule and may stop short at 10 % per hex
+
 If the **defender** commits nothing at all, his whole hex retreats three
-hexes and takes 3 DP (as for a 30 % loss), on top of DP for the move. If the
+hexes and takes 3 DP (as for a 30 % loss), on top of DP for the move. This
+is an ordinary [forced retreat](#forced-retreats): he may stop short, or be
+blocked, and pay 10 % per hex not retreated ([R-012](../rulings/R-012.md)). If the
 **attacker** commits nothing there is no assault — which can only arise from
 the holding-off rule (SPI 10.31).
 
