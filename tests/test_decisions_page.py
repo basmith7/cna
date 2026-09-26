@@ -65,7 +65,7 @@ def test_build_writes_self_contained_page(tmp_path):
     out = tmp_path / "decisions.html"
     dp.build(ROOT, out)
     html = out.read_text()
-    assert "R-012" in html and "map-hill-bands" in html
+    assert "R-020" in html and "map-hill-bands" in html
     assert "<script>" in html
     assert 'src="http' not in html and "<link" not in html and "@import" not in html
 
@@ -87,10 +87,18 @@ def test_probe_chart_is_drawn_into_its_ruling(tmp_path):
     import json
     probes = tmp_path / "probes"
     probes.mkdir()
-    (probes / "R-012.json").write_text(json.dumps(PROBE))
-    (probes / "chart-oddities.json").write_text(json.dumps(PROBE | {"id": "chart-oddities", "kind": "bar"}))
+    (probes / "R-099.json").write_text(json.dumps(PROBE | {"id": "R-099"}))
+    (probes / "chart-x.json").write_text(json.dumps(PROBE | {"id": "chart-x", "kind": "bar"}))
+    root = tmp_path / "repo"
+    (root / "rulings").mkdir(parents=True)
+    (root / "rulings" / "R-099.md").write_text(RULING)
+    (root / "docs/autopilot").mkdir(parents=True)
+    (root / "docs/autopilot/decisions.json").write_text(json.dumps({
+        "groups": {"copy": "Copy", "charts": "Charts"},
+        "items": [{"id": "chart-x", "group": "charts", "title": "T", "context": "C", "options": ["a", "b"]}],
+    }))
     out = tmp_path / "d.html"
-    dp.build(ROOT, out, probes)
+    dp.build(root, out, probes)
     html = out.read_text()
     assert html.count("<svg") == 2
     assert "Fighting is &lt;always&gt; cheaper." in html

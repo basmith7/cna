@@ -18,6 +18,11 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 ## [Movement](./40-movement.md)
 
 - **E-031** — 8.37: footnote 4 (Alexandria and Cairo are level-three fortifications) belongs to Major City, not Swamp; a track does not cost 1 CP — it halves the hex terrain's cost, as footnote 8 says
+- [R-004](../rulings/R-004.md) — a formation mixing foot and vehicle elements pays the dearer terrain cost and obeys both sets of prohibitions
+- [R-002](../rulings/R-002.md) — road and track stubs that run into a hex without leading anywhere are ignored
+- [R-006](../rulings/R-006.md) — the stacking condition in 8.53a applies to truck convoys only
+- [R-003](../rulings/R-003.md) — Contact is fixed at the start of every movement segment, either side's
+- [R-005](../rulings/R-005.md) — one rail stack each way may mix units and supplies and change its load en route, within both limits
 
 ## [Combat](./60-combat.md)
 
@@ -31,6 +36,8 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-008** — 15.79: defender losses, +4 column, 10 % row, read 34–45 (the printed 24–45 overlapped the 15 % row)
 - **E-009** — 15.88 clarified against 6.26: −17 surrenders when assaulted, −26 when approached
 - **E-010** — 16.11 addition: L/6, Stuarts and mechanised infantry join the patrol list
+- [R-009](../rulings/R-009.md) — barrage terrain shifts protect the target of either side's barrage, not only the non-phasing player
+- [R-010](../rulings/R-010.md) — retreat before assault may go in any direction; 15.82's direction rules do not apply
 - [R-011](../rulings/R-011.md) — each side's percentage is taken of its own raw points, not the combined total
 
 ## [Organisation](./70-organisation.md)
@@ -67,16 +74,16 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 | Id | Status | Affects |
 |---|---|---|
-| [R-001](../rulings/R-001.md) | proposed | 6.26, 17.5 |
-| [R-002](../rulings/R-002.md) | proposed | 4.1, 8.31, 8.37 |
-| [R-003](../rulings/R-003.md) | proposed | 8.24, 8.61, 8.62, 8.64, 13.22 |
-| [R-004](../rulings/R-004.md) | proposed | 3.1, 8.37, 8.91, 8.92 |
-| [R-005](../rulings/R-005.md) | proposed | 8.72, 8.74, 8.77 |
-| [R-006](../rulings/R-006.md) | proposed | 8.53 |
+| [R-001](../rulings/R-001.md) | accepted | 6.26, 17.5 |
+| [R-002](../rulings/R-002.md) | accepted | 4.1, 8.31, 8.37 |
+| [R-003](../rulings/R-003.md) | accepted | 8.24, 8.61, 8.62, 8.64, 13.22 |
+| [R-004](../rulings/R-004.md) | accepted | 3.1, 8.37, 8.91, 8.92 |
+| [R-005](../rulings/R-005.md) | accepted | 8.72, 8.74, 8.77 |
+| [R-006](../rulings/R-006.md) | accepted | 8.53 |
 | [R-007](../rulings/R-007.md) | proposed | 6.3, 8.51, 8.52, 13.25 |
 | [R-008](../rulings/R-008.md) | proposed | 8.24, 8.52, 8.53 |
-| [R-009](../rulings/R-009.md) | proposed | 12.33, 14.0 |
-| [R-010](../rulings/R-010.md) | proposed | 13.27, 15.82 |
+| [R-009](../rulings/R-009.md) | accepted | 12.33, 14.0 |
+| [R-010](../rulings/R-010.md) | accepted | 13.27, 15.82 |
 | [R-011](../rulings/R-011.md) | accepted | 15.83 |
 | [R-012](../rulings/R-012.md) | proposed | 15.29, 15.82 |
 | [R-013](../rulings/R-013.md) | proposed | 15.12, 15.83, 32.33 |
