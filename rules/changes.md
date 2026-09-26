@@ -61,6 +61,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-021** — 24.72 addition: Commonwealth SGSUs and E-HQs may build airfields and basins
 - **E-022** — 25.15: the reference should be 22.34
 - [R-016](../rulings/R-016.md) — a tank delivery squadron moves only in the truck convoy phase
+- [R-018](../rulings/R-018.md) — dump costs follow the charts: real 3 CP + 10 stores, dummy 2 CP
 
 ## [Special rules](./90-special.md)
 
@@ -99,7 +100,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-015](../rulings/R-015.md) | accepted | 14.0, 14.32, 14.33 |
 | [R-016](../rulings/R-016.md) | accepted | 22.63, 22.65, 8.9 |
 | [R-017](../rulings/R-017.md) | proposed | 22.63, 8.53, 13.2, 15.82 |
-| [R-018](../rulings/R-018.md) | proposed | 6.3, 24.17, 24.9 |
+| [R-018](../rulings/R-018.md) | accepted | 6.3, 24.17, 24.9 |
 | [R-019](../rulings/R-019.md) | proposed | 30.15, 30.23, 24.5 |
 | [R-020](../rulings/R-020.md) | proposed | 52.13, 52.14, 52.7, 6.3 |
 | [R-021](../rulings/R-021.md) | proposed | 52.17, 52.16, 6.3 |

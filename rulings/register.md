@@ -30,7 +30,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-015](./R-015.md) | Anti-armour terrain shifts: which side's fire do they weaken? | accepted | 14.0, 14.32, 14.33 |
 | [R-016](./R-016.md) | When a Tank Delivery Squadron moves | accepted | 22.63, 22.65, 8.9 |
 | [R-017](./R-017.md) | Can a Tank Delivery Squadron react, retreat before assault, or retreat with a stack? | proposed | 22.63, 8.53, 13.2, 15.82 |
-| [R-018](./R-018.md) | The CP cost of building a supply dump: 24.9 text or the Construction Chart? | proposed | 6.3, 24.17, 24.9 |
+| [R-018](./R-018.md) | The CP cost of building a supply dump: 24.9 text or the Construction Chart? | accepted | 6.3, 24.17, 24.9 |
 | [R-019](./R-019.md) | The fleet's western limit: 100 sea hexes, or hex row xx29? | proposed | 30.15, 30.23, 24.5 |
 | [R-020](./R-020.md) | How often may water be drawn from one well in an Operations Stage? | proposed | 52.13, 52.14, 52.7, 6.3 |
 | [R-021](./R-021.md) | Sweetening a poisoned well: one unit's CPA, or every unit in the hex? | proposed | 52.17, 52.16, 6.3 |
