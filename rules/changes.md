@@ -49,6 +49,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-020** — 24.15: builders do not count against road stacking (24.12) despite "subject to all stacking rules"
 - **E-021** — 24.72 addition: Commonwealth SGSUs and E-HQs may build airfields and basins
 - **E-022** — 25.15: the reference should be 22.34
+- [R-017](../rulings/R-017.md) — a tank delivery squadron reacts or retreats only with a friendly combat unit
 
 ## [Special rules](./90-special.md)
 
@@ -82,7 +83,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-014](../rulings/R-014.md) | proposed | 14.52, 21.52 |
 | [R-015](../rulings/R-015.md) | proposed | 14.0, 14.32, 14.33 |
 | [R-016](../rulings/R-016.md) | proposed | 22.63, 22.65, 8.9 |
-| [R-017](../rulings/R-017.md) | proposed | 22.63, 8.53, 13.2, 15.82 |
+| [R-017](../rulings/R-017.md) | accepted | 22.63, 8.53, 13.2, 15.82 |
 | [R-018](../rulings/R-018.md) | proposed | 6.3, 24.17, 24.9 |
 | [R-019](../rulings/R-019.md) | proposed | 30.15, 30.23, 24.5 |
 | [R-020](../rulings/R-020.md) | proposed | 52.13, 52.14, 52.7, 6.3 |
