@@ -215,6 +215,8 @@ RP are earned two ways:
 
 ::: spi 6.25 6.26
 
+::: ruling R-001 — the −26 disorganisation threshold is a cohesion level, not a count of disorganisation points
+
 A positive level can raise, and a negative level can lower, a unit's basic
 morale for a given close assault; the amount is looked up at combat time
 ([Morale](#morale)). A unit whose level reaches **−26 or worse** is barred from
@@ -224,8 +226,6 @@ level, not a disorganisation-point tally — see ruling
 [R-001](../rulings/R-001.md)). Such a unit may still refuel, and it continues
 to consume stores and water. A single action may drive a level past −26 in one
 step.
-
-::: ruling R-001 — the −26 disorganisation threshold is a cohesion level, not a count of disorganisation points
 
 ### Which level applies when units are mixed
 
