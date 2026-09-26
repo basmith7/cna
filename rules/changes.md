@@ -73,6 +73,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-024** — 29.1: the printed Roman numerals are weeks of the month
 - **E-025** — 29.61: the Weather Table's season rows are backwards; the turn bands are swapped with the opposite season's, per the 29.1 calendar
 - **E-030** — 30.5: the supply-by-sea reference is 56.0; 30.55 also admits barraged/bombed units; 30.57 is replaced by the 10 %-per-SP rule; 30.58's reference is 55.2
+- [R-019](../rulings/R-019.md) — the fleet's western limit is hex row xx29 on map B, where the 100-hex count ends; Derna is out of range
 - [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery: torpedo-immune, own AA, may sortie, no port-efficiency penalty (NJHarman)
 
 ## [Abstract logistics and air](./95-abstract-logistics-and-air.md)
@@ -101,7 +102,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-016](../rulings/R-016.md) | accepted | 22.63, 22.65, 8.9 |
 | [R-017](../rulings/R-017.md) | proposed | 22.63, 8.53, 13.2, 15.82 |
 | [R-018](../rulings/R-018.md) | accepted | 6.3, 24.17, 24.9 |
-| [R-019](../rulings/R-019.md) | proposed | 30.15, 30.23, 24.5 |
+| [R-019](../rulings/R-019.md) | accepted | 30.15, 30.23, 24.5 |
 | [R-020](../rulings/R-020.md) | proposed | 52.13, 52.14, 52.7, 6.3 |
 | [R-021](../rulings/R-021.md) | proposed | 52.17, 52.16, 6.3 |
 | [R-022](../rulings/R-022.md) | proposed | 52.51, 52.52, 3.1 |
