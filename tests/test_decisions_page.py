@@ -65,13 +65,13 @@ def test_build_writes_self_contained_page(tmp_path):
     out = tmp_path / "decisions.html"
     dp.build(ROOT, out)
     html = out.read_text()
-    assert "R-012" in html and "map-hill-bands" in html
+    assert "R-020" in html and "map-hill-bands" in html
     assert "<script>" in html
     assert 'src="http' not in html and "<link" not in html and "@import" not in html
 
 
 PROBE = {
-    "id": "R-012", "kind": "line", "question": "Fight or withhold",
+    "id": "R-020", "kind": "line", "question": "Fight or withhold",
     "rules_commit": "abc", "engine_commit": "see git log",
     "x": {"label": "Column", "values": ["-1", "0", "+1"]},
     "y": {"label": "Loss %", "values": []},
@@ -87,7 +87,7 @@ def test_probe_chart_is_drawn_into_its_ruling(tmp_path):
     import json
     probes = tmp_path / "probes"
     probes.mkdir()
-    (probes / "R-012.json").write_text(json.dumps(PROBE))
+    (probes / "R-020.json").write_text(json.dumps(PROBE))
     (probes / "chart-oddities.json").write_text(json.dumps(PROBE | {"id": "chart-oddities", "kind": "bar"}))
     out = tmp_path / "d.html"
     dp.build(ROOT, out, probes)
