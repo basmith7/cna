@@ -120,3 +120,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-09-26 03:23 | 0 | 51→51 | 0→0 | $0.24 | 2 | I made no changes this run, because Mission 3 (the map) is already complete and my standing orders say to do nothing further once it is. - `MISSION 3 COMPLETE`  |
 | 2026-09-26 06:23 | 0 | 51→51 | 0→0 | $0.25 | 2 | No changes this run. Mission 3 (the map) was already finished on 2026-09-22 and is marked `MISSION 3 COMPLETE` in both the journal and `PROGRESS.md`. My standin |
 | 2026-09-26 09:23 | 0 | 54→54 | 2→2 | $0.25 | 2 | Mission 3 is done, and this run changed nothing. It's already logged as `MISSION 3 COMPLETE` in both `docs/autopilot/PROGRESS.md` and the journal. The **Feedbac |
+| 2026-09-26 12:23 | 33 | 55→56 | 8→10 | $6.02 | 72 | Mission 4 is complete. All 21 rulings in Parts A and C are decided and merged, including two new ones that came out of Part B's chart probe. Part B is merged to |
