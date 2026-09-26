@@ -339,3 +339,9 @@ Blocked: none for the mission.
 MISSION 3 COMPLETE. Parts 0 and A–D merged (#60–#78); Map E #72/#73/#77 and docs #78 this run.
 Next: nothing unless PROGRESS Feedback has items; the Brian questions are in PROGRESS Next steps.
 Blocked: none.
+
+## 2026-09-26 12:56 MST — main
+MISSION 4 COMPLETE. Merged #95 (Part B board defaults; hermetic decision-board test), rulings #80–#94, #96–#99 (R-001–R-019), and new R-023 #100 / R-024 #101 from the chart-oddities probe. Original text viewer checked live: works.
+Method: 5 subagents drafted rulings in worktrees; /tmp/land.sh merged main, regenerated pages, ran gates, waited CI, merged. Expect conflicts when several rulings edit the same section; resolve by keeping both.
+Next: nothing unless PROGRESS Feedback has items.
+Blocked: none (copy questions are optional, Brian's).

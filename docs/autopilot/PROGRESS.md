@@ -18,39 +18,48 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**MISSION 3 COMPLETE** (the map), 2026-09-23 04:40 UTC. All five sheets, Part D of the primer and the docs are merged; `/map` shows every sheet. The design's Status line lists the PRs.
+**MISSION 4 COMPLETE** (decide the open questions), 2026-09-26 19:55 UTC. Every ruling in Parts A and C is accepted, and Part B is merged. 21 rulings are accepted; R-020–R-022 stay proposed as ordered. Each ruling is its own PR, merged after local gates and green CI. Any of them can be disputed: write in **Feedback** or on the decision board, and a later run will supersede it.
 
-This run merged Map E (#72, #73, #77) and the docs (#78). Map E went in the way Maps C and D did: once every row had been looked at, with the rows the scan cannot settle left as read and listed in its `EXTRACTION.md` entry. That includes the Delta river classes, which wait on your answer below. Revert any of them if you wanted Map E held.
+| Ruling | Decision (one line) | PR |
+|---|---|---|
+| R-001 | collapse at cohesion level −26 or worse, not a running DP count (probe: option 2 collapses a unit that recovers every stage) | #82 |
+| R-002 | road/track stubs that lead nowhere are ignored | #80 |
+| R-003 | Contact is tested at the start of every movement segment, either side's | #85 |
+| R-004 | a mixed foot/vehicle formation pays the higher terrain cost and obeys both prohibitions | #89 |
+| R-005 | one rail stack each way may mix units and supplies and change load en route | #91 |
+| R-006 | 8.53a's "not stacked with a combat unit" condition applies to truck convoys only | #81 |
+| R-007 | a reacting unit may spend CP only to move and to blow a dump | #84 |
+| R-008 | "in combat" in 8.53d means in Contact | #87 |
+| R-009 | the barrage terrain shift protects whoever is barraged (probe) | #96 |
+| R-010 | retreat before assault may go in any direction | #86 |
+| R-011 | each side's loss base is its own raw points (probe) | #83 |
+| R-012 | the withheld-defender retreat is an ordinary 15.82 retreat (probe: fighting is never dearer than the buy-out) | #90 |
+| R-013 | pinned units spend no ammunition | #92 |
+| R-014 | only a battalion-size or larger combat unit captures destroyed tanks (as 21.52) | #98 |
+| R-015 | terrain shifts only the phasing side's anti-armour fire (probe) | #88 |
+| R-016 | a Tank Delivery Squadron moves only in the truck convoy phase | #93 |
+| R-017 | a TDS reacts or retreats only when stacked with a combat unit | #97 |
+| R-018 | the charts govern dumps: real 3 CP + 10 stores, dummy 2 CP (probe). Close call: 24.9's text says otherwise | #94 |
+| R-019 | the fleet's western limit is column xx29 on map B; a count of the map's sea hexes puts 100 hexes there, so Derna is out of range | #99 |
+| R-023 | *new, from the chart-oddities probe:* close assault defender +2, readings 34–36 inflict 5 % | #100 |
+| R-024 | *new:* morale modifier at cohesion −4, a reading of 56 gives −2 | #101 |
 
-| Part | What | State | PR |
-|---|---|---|---|
-| 0 | rulings from NJHarman's Discord-game notes | **merged** | #60 |
-| A | plumbing on Malta (plan Tasks 1–13) | **merged** | #61 |
-| extractor | dashed tracks, slope threshold, Map A odd-row shift | **merged** | #63, #65, #68 |
-| B | Map C and Part D of the primer | **merged**. 213 corrections plus 40 agrees, 20 places, sample 0/50, 22 rows left as read. | #62, #64, #66, #67 |
-| C | Map A | **merged**. 111 corrections plus 42 agrees, 10 places, sample 0/50, 33 left as read | #69, #74 |
-| C | Map B | **merged**. 185 corrections plus 29 agrees, 2 places, sample 0/50, 112 left as read | #70, #75 |
-| C | Map D | **merged**. 111 corrections plus 18 agrees, 1 place, sample 0/50, 50 left as read | #71, #76 |
-| C | Map E | **merged**. 244 corrections (M-562–M-697, M-775–M-882) plus 13 agrees; 12 places; sample 0/50; diff 436 → 207, all left as read (134 of them river rows). This run: 17 slopes of the hill rings; 15 Delta railway crossings read as track; 7 roads read as unfinished; and 42 hill bands on rough ground as **ridge**, because the band straddles each hexside, the extraction's own ridge rule. | #72, #73, #77 |
-| D | docs (plan Task 17) | **merged**: README data row and legal note, overview link to `/map`, design Status | #78 |
+Part B (#95): the map, chart and site board items took their defaults and left the board; the Original text viewer was checked on the live site and works; the chart-oddities probe is recorded in the table notes (the attacker −2 "13-18" cell cannot be rolled, so no ruling).
 
-Missions 1 and 2 are complete (PRs #2–#13, #17–#57).
+Left alone as ordered: R-020, R-021, R-022 (need the Logistics Game restated) and the `copy` questions below.
+
+Missions 1–3 are complete (PRs #2–#78).
 
 ## Next steps
 
-For the autopilot: nothing. Mission 3 is complete. Act only on **Feedback**.
+For the autopilot: nothing. Mission 4 is complete. Act only on **Feedback**.
 
-For Brian: each answer below is one small correction PR across the sheets, and the next run will make it.
+For Brian (all optional; the decision board shows them):
 
-- **Map E river classes.** The Delta branches and canals are printed at a middle width, and we disagree with the second database on 72 hexsides (38 major→minor, 34 minor→major). A further 62 rows are the Fayum lake shore (the second database codes it as river), the Nile running through a hex, or a winding channel the second database puts on the next hexside. If your Terrain Key says which channels are major rivers, say so.
-- **Hill bands: ridge or slope?** On Map E this run recorded 42 bands as ridge. The band lies on both sides of each hexside, which is the extractor's rule for a ridge. Measured the same way (dark on both sides), 9 of Map D's 16 open hill-band rows are ridges: D2408|D2508, D2531|D2631, D2532|D2631, D2631|D2632, D2729|D2829, D2811|D2812, D2827|D2928, D2828|D2829, D2812|D2912 (D3115|D3214 is borderline). The other 6 are one-sided, so they stay slopes. Say whether the printed Terrain Key agrees, and a run will set Map D to match.
-- **Blue railways:** on Map C, #64 made the blue Matruh–Tobruk line `unfinished-railroad`. But the Benghazi–Barce line on Map A and the coast line east of Matruh on Map D (Fuka, Baggush) are blue on the scan too, and there they are kept as `railroad`. Say which lines were finished in 1940, and a run will make all the sheets match.
-- **Vertex convention:** most rows left as read on every sheet are a track, road or railway passing exactly through a hex corner. The second database always assigns it to one of the hexsides; we record neither. If you want a rule (for example, always the hexside to the east), say so.
-- **Places:** the extractor's reference list puts Amiriya at E2212, but the scan prints it at E3212, which is where `places.json` has it. Maps B and D carry only their ports and oases (Derna, Jalo, Mersa Matruh); the villages from the scenario references (Barce, Gazala, Fuka, Sidi Haneish and others) are not in `places.json` yet. Say if you want them.
-- **Rows left as read.** The scan cannot settle these at its resolution. Every key is in its sheet's `EXTRACTION.md` entry: A 33, B 112, C 22, D 50, E 207.
-- **Railways along hexsides** (C3228|C3328, C3721|C3821, C3920|C4020, C4118|C4218, C4216|C4317): #66 records only the track crossing.
-- **Malta numbering and Valletta (M0805 as sea), SPI 20.67,** and the earlier items still stand; see this file's history.
-- Vault: the plan leaves the *CNA Living Rules* roadmap row 2 → *done* in your vault to you.
+- **Dispute anything.** Every ruling above is one PR to reverse. Two worth a look: **R-018**, where two charts outvote a sentence in 24.9 (option 3, real dump 20 stores, is the other defensible reading); and **R-019**, whose sea-hex count uses the VASSAL-derived map with sheets joined edge to edge. The joins were not checked against the scan, which could move the count by a hex or two but not the five columns NJHarman's xx24 needs.
+- **Questions only your printed copy can answer** stay as read: Map E river classes, hill bands (ridge or slope), blue railways, C0323|C0423, the rows the scan cannot settle, SPI 20.67, and the two formation-chart reads.
+- **R-020–R-022** wait until the Logistics Game (§47–58) is restated.
+- Vault: the *CNA Living Rules* roadmap row 2 → *done* is still yours to flip.
 
 ## Runs and quota
 
