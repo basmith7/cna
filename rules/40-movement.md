@@ -106,6 +106,14 @@ unit types — vehicles may not enter salt marsh, for instance, unless on a
 road or track. All of this, and every combat effect of terrain, is on the
 Terrain Effects Chart, transcribed as `data/tables/terrain-effects.json`.
 
+::: ruling R-004 — a formation mixing foot and vehicle elements pays the dearer terrain cost and obeys both sets of prohibitions
+
+A formation that moves as one counter but holds both non-motorised elements
+and vehicles (a foot division with a tank battalion attached, say) pays, for
+every hex and hexside, whichever of the foot and motorised costs is higher,
+and may not go anywhere either type is barred from. The stack moves at the
+pace of its slowest part (ruling [R-004](../rulings/R-004.md)).
+
 ::: spi 8.37
 
 The Terrain Effects Chart is data: `data/tables/terrain-effects.json` — for
