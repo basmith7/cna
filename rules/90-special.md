@@ -413,6 +413,8 @@ stage unless on road or rail.
 
 ::: spi 30.0 30.11 30.12 30.13 30.14 30.15 30.16 30.17 30.18
 
+::: ruling R-019 — the fleet's western limit is hex row xx29 on map B, where the 100-hex count ends; Derna is out of range
+
 Commonwealth **naval counters** are abstract battleships, cruisers and
 destroyers with real names but no fixed identity; there is no naval combat.
 Each has a **gun rating** — its actual barrage points, and also its hit
@@ -420,8 +422,10 @@ points — and an **AA rating** in actual AA points, reduced in proportion as
 gun points are lost; a battleship might start at 6 guns and 12 AA. Ships have
 no stacking value, stack freely in any coastal or sea hex, and never affect
 land, air or other naval movement. They do not move: each stage a ship is
-placed anywhere within **100 sea hexes** of Alexandria (no farther west than
-hex row xx29 on map B). They need no supply, but must spend **two stages in
+placed anywhere within **100 sea hexes** of Alexandria, which on the map
+ends at **hex row xx29 on map B**; ships go no farther west than that row,
+so Derna is out of naval range ([R-019](../rulings/R-019.md)). They need no
+supply, but must spend **two stages in
 port for each stage at sea** and never more than three consecutive stages
 out. Ships may shuttle to Valletta (Malta, five at a time), a recovery port
 from which they return only to Alexandria; the one-stage passage is not
