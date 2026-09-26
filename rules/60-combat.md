@@ -271,6 +271,8 @@ voluntary movement paid in CP, not reaction.
 
 ::: spi 13.2 13.21 13.22 13.23 13.24 13.25 13.26 13.27 13.28
 
+::: ruling R-010 — retreat before assault may go in any direction; 15.82's direction rules do not apply
+
 - It costs CP and fuel, triggers breakdown checks, and pays the contact or
   engaged break-off cost when leaving an enemy ZOC
   ([breaking off](40-movement.md#breaking-off)).
@@ -282,7 +284,9 @@ voluntary movement paid in CP, not reaction.
 - Entering an enemy ZOC ends the retreat, and a unit may not go straight from
   one enemy ZOC into another; if it cannot avoid that, it may not retreat.
 - Because the retreat is voluntary it is *not* the retreat forced by the
-  close assault table ([forced retreats](#forced-retreats)).
+  close assault table ([forced retreats](#forced-retreats)): it need not
+  move away from the enemy or toward supply, and may go in any direction
+  the limits above allow ([R-010](../rulings/R-010.md)).
 - A unit that retreats into a friendly-held hex in enemy ZOC, or into any
   hex that is assaulted this segment, shares that hex's fate: it can be hit
   by anti-armour fire but cannot fire it; it adds no close-assault strength
