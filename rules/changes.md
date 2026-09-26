@@ -31,6 +31,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-008** — 15.79: defender losses, +4 column, 10 % row, read 34–45 (the printed 24–45 overlapped the 15 % row)
 - **E-009** — 15.88 clarified against 6.26: −17 surrenders when assaulted, −26 when approached
 - **E-010** — 16.11 addition: L/6, Stuarts and mechanised infantry join the patrol list
+- [R-015](../rulings/R-015.md) — terrain shifts only the phasing side's anti-armour fire; the non-phasing side fires unshifted
 
 ## [Organisation](./70-organisation.md)
 
@@ -80,7 +81,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-012](../rulings/R-012.md) | proposed | 15.29, 15.82 |
 | [R-013](../rulings/R-013.md) | proposed | 15.12, 15.83, 32.33 |
 | [R-014](../rulings/R-014.md) | proposed | 14.52, 21.52 |
-| [R-015](../rulings/R-015.md) | proposed | 14.0, 14.32, 14.33 |
+| [R-015](../rulings/R-015.md) | accepted | 14.0, 14.32, 14.33 |
 | [R-016](../rulings/R-016.md) | proposed | 22.63, 22.65, 8.9 |
 | [R-017](../rulings/R-017.md) | proposed | 22.63, 8.53, 13.2, 15.82 |
 | [R-018](../rulings/R-018.md) | proposed | 6.3, 24.17, 24.9 |
