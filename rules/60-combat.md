@@ -202,12 +202,15 @@ combat) may be named as a specific target.
 
 ::: spi 12.3 12.31 12.32 12.33 12.34 12.35
 
+::: ruling R-009 — barrage terrain shifts protect the target of either side's barrage, not only the non-phasing player
+
 - Any adjacent occupied hex may be barraged, whatever the terrain or
   hexside; there is no line of sight. Empty hexes may not be barraged
   (facilities are the exception, [below](#barrage-against-facilities)).
 - Each target may be barraged **once per firing hex** per segment. Forward
   artillery in several hexes may pool into that one barrage.
-- Terrain shifts the *row* (barrage points) toward the defender by the
+- Terrain shifts the *row* (barrage points) toward the defender — whichever
+  side is being barraged, phasing or not ([R-009](../rulings/R-009.md)) — by the
   number of columns the Terrain Effects Chart gives, and the best single
   benefit applies — a target in a level-two fortification barraged with 12
   points is resolved on the 7–8 row, not the 11–12. Shifts are not
@@ -271,6 +274,8 @@ voluntary movement paid in CP, not reaction.
 
 ::: spi 13.2 13.21 13.22 13.23 13.24 13.25 13.26 13.27 13.28
 
+::: ruling R-010 — retreat before assault may go in any direction; 15.82's direction rules do not apply
+
 - It costs CP and fuel, triggers breakdown checks, and pays the contact or
   engaged break-off cost when leaving an enemy ZOC
   ([breaking off](40-movement.md#breaking-off)).
@@ -282,7 +287,9 @@ voluntary movement paid in CP, not reaction.
 - Entering an enemy ZOC ends the retreat, and a unit may not go straight from
   one enemy ZOC into another; if it cannot avoid that, it may not retreat.
 - Because the retreat is voluntary it is *not* the retreat forced by the
-  close assault table ([forced retreats](#forced-retreats)).
+  close assault table ([forced retreats](#forced-retreats)): it need not
+  move away from the enemy or toward supply, and may go in any direction
+  the limits above allow ([R-010](../rulings/R-010.md)).
 - A unit that retreats into a friendly-held hex in enemy ZOC, or into any
   hex that is assaulted this segment, shares that hex's fate: it can be hit
   by anti-armour fire but cannot fire it; it adds no close-assault strength
@@ -678,11 +685,14 @@ or retreating into one, may stop there and ignore the rest.
 
 #### Percentage losses
 
+::: ruling R-011 — each side's percentage is taken of its own raw points, not the combined total
+
 Take the percentage from the table, then:
 
-1. Total the raw close-assault points in the assault. The defender adds the
-   raw points of pinned and retreated-in units, and in an overrun of *every*
-   withheld unit too.
+1. Each side totals **its own** raw close-assault points in the assault
+   ([R-011](../rulings/R-011.md)). The defender adds the raw points of his
+   pinned and retreated-in units, and in an overrun of *every* withheld unit
+   too.
 2. Multiply. The attacker rounds **up**, the defender **down** — except in
    an overrun, where the defender rounds up too (35.1 → 36 attacker, 35
    defender; 1.1 → 2 for an overrun defender). Add any hexes-not-retreated
