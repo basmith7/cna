@@ -121,6 +121,8 @@ rule except training, and needs fuel before it moves.
 
 ::: spi 22.61 22.62 22.63 22.64 22.65 22.66 22.7
 
+::: ruling R-016 — a tank delivery squadron moves only in the truck convoy phase
+
 The Commonwealth receives three **Tank Delivery Squadrons** (TDS) over the
 game — the Desert Tank Delivery Organisation is a name, not an HQ. A TDS is a
 mobile advanced workshop:
@@ -129,7 +131,8 @@ mobile advanced workshop:
   *Commonwealth* tanks repair on a **1**, never junk. It cannot repair enemy
   tanks.
 - No combat ratings, **0 SP**, CPA **25** as a vehicle, never voluntarily
-  over its CPA and never into enemy ZOC. Alone in a hex and placed in an
+  over its CPA and never into enemy ZOC. It moves only in the truck convoy
+  phase (H), whether towing or not ([R-016](../rulings/R-016.md)). Alone in a hex and placed in an
   enemy ZOC, it is eliminated; it returns eight turns later.
 - Holds up to **3** tank points as reserves (treated as tank replacement
   points), still at 0 SP.
@@ -205,7 +208,8 @@ chart and the rules text disagree: a temporary repair facility is **50 fuel
 + 250 stores in one stage** on the chart but 150 fuel + 250 stores over
 three stages in the text, and rebuilding a facility level is **10 fuel + 50
 stores** on the chart but 30 fuel + 50 stores in the text (the prose below
-keeps the text; the dump cost is [R-018](../rulings/R-018.md)). The
+keeps the text; for supply dumps the chart governs, per
+[R-018](../rulings/R-018.md)). The
 Demolition Chart adds what the text scatters: roads and fortifications fall
 only to bombing and barrage; an airfield is *reduced* but never destroyed
 by a raid; unblocking a port costs **50 ammunition + 25 stores** per level
@@ -320,9 +324,12 @@ build, rebuild or dismantle a temporary facility or rebuild a major one.
 
 ::: spi 24.9
 
+::: ruling R-018 — dump costs follow the charts: real 3 CP + 10 stores, dummy 2 CP
+
 Any one TOE point of any type creates a **supply dump** by spending **3 CP**
-and, in the Logistics Game, **20 stores**; a **dummy dump** costs the 3 CP
-only. Supplies may lie in a hex without a dump, tracked by the owner and
+and, in the Logistics Game, **10 stores**; a **dummy dump** costs **2 CP**
+only. These are the Construction Chart's and CP summary's figures, which
+govern over the 24.9 text (ruling [R-018](../rulings/R-018.md)). Supplies may lie in a hex without a dump, tracked by the owner and
 capped by the Logistics Game, but convoy trucks cannot load from such a hex.
 
 ## Fortifications {#fortifications}

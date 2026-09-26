@@ -71,7 +71,7 @@ def test_build_writes_self_contained_page(tmp_path):
 
 
 PROBE = {
-    "id": "R-020", "kind": "line", "question": "Fight or withhold",
+    "id": "R-012", "kind": "line", "question": "Fight or withhold",
     "rules_commit": "abc", "engine_commit": "see git log",
     "x": {"label": "Column", "values": ["-1", "0", "+1"]},
     "y": {"label": "Loss %", "values": []},
@@ -87,10 +87,18 @@ def test_probe_chart_is_drawn_into_its_ruling(tmp_path):
     import json
     probes = tmp_path / "probes"
     probes.mkdir()
-    (probes / "R-020.json").write_text(json.dumps(PROBE))
-    (probes / "chart-oddities.json").write_text(json.dumps(PROBE | {"id": "chart-oddities", "kind": "bar"}))
+    (probes / "R-099.json").write_text(json.dumps(PROBE | {"id": "R-099"}))
+    (probes / "chart-x.json").write_text(json.dumps(PROBE | {"id": "chart-x", "kind": "bar"}))
+    root = tmp_path / "repo"
+    (root / "rulings").mkdir(parents=True)
+    (root / "rulings" / "R-099.md").write_text(RULING)
+    (root / "docs/autopilot").mkdir(parents=True)
+    (root / "docs/autopilot/decisions.json").write_text(json.dumps({
+        "groups": {"copy": "Copy", "charts": "Charts"},
+        "items": [{"id": "chart-x", "group": "charts", "title": "T", "context": "C", "options": ["a", "b"]}],
+    }))
     out = tmp_path / "d.html"
-    dp.build(ROOT, out, probes)
+    dp.build(root, out, probes)
     html = out.read_text()
     assert html.count("<svg") == 2
     assert "Fighting is &lt;always&gt; cheaper." in html
