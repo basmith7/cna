@@ -6,8 +6,8 @@
   "losses[side][percent][column] is the sequential two-dice reading range (SPI 11.4) that inflicts that percentage loss on that side; null = the row is unreachable in that column",
   "sums[*][column] are dice-SUM sets (2-12) read from the same roll: capture (prisoners table 15.7), engaged, and defender retreat of 1, 2 or 3 hexes; null = never. The attacker is never forced to retreat",
   "As printed the defender +4 column's 10 % cell reads 24-45, overlapping the 15 % cell (21-33); SPI's September 1979 errata corrects it to 34-45 and errata/E-008.json applies that. Values here are as printed",
-  "As printed the attacker -2 column's 20 % cell reads 13-18; 17 and 18 are not readings, so it means 13-16 (the 15 % cell starts at 21). No errata item; kept as printed",
-  "As printed the defender +2 column skips readings 34-36 (10 % ends at 33, 5 % starts at 41). No errata item covers it; declared in known_gaps and left as printed for a ruling",
+  "As printed the attacker -2 column's 20 % cell reads 13-18; 17 and 18 are not readings, so it means 13-16 (the 15 % cell starts at 21). No errata item; kept as printed. cna-engine probes/chart-oddities.json at 15a1238: no two-dice reading lands on the odd part, so it needs no ruling",
+  "As printed the defender +2 column skips readings 34-36 (10 % ends at 33, 5 % starts at 41). No errata item covers it; declared in known_gaps and left as printed. cna-engine probes/chart-oddities.json at 15a1238: 8.3 % of rolls in this column read 34-36, so it needs a ruling (R-023)",
   "Transcribed from the archive.org scan (jp2 98, printed sideways) and cross-checked cell by cell against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p4): 0 of 324 loss cells and 0 of 108 sum cells differ, including both printed anomalies. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
  ],
  "columns": [
