@@ -187,11 +187,18 @@ carries the chart's combat columns.
 
 ::: spi-omit 8.5 — subsection heading and design commentary
 
+::: ruling R-007 — a reacting unit spends CP only on movement and on blowing a dump
+
 **Reaction** is movement by a non-phasing combat unit, during the enemy's
 movement/combat phase, when an enemy combat unit moves next to it. It follows the normal movement rules except as below, costs CP, and
 never costs the break-contact or disengage fee. A unit may react any number
 of times in a stage. There is no distance limit, but a reacting unit may
 **never enter an enemy ZOC**.
+
+While reacting, a unit may spend CP only to move and to blow up a supply
+dump — the same allowance as retreat before assault. It may not poison
+wells, demolish, build or take any other action from the CP cost table
+([R-007](../rulings/R-007.md)).
 
 A unit may *not* react when:
 
