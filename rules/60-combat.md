@@ -662,11 +662,19 @@ hexes. Its shape: at −11 an attacker loses 50 % on any 11–15 and never
 escapes unhurt, while a defender there cannot lose more than 10 %; at 0 the
 two halves are near mirror images; from +11 the defender's table runs from
 40 % on a low roll to nothing only on a 66, and the attacker's stops at 10 %.
-The +4 column carries SPI's one errata correction to this table (E-008);
-two further printed oddities are declared in the file's notes and await a
-ruling.
+The +4 column carries SPI's one errata correction to this table (E-008).
+Two further printed oddities are declared in the file's notes: the attacker
+−2 column's 20 % cell reads 13–18, but 17 and 18 are not readings, so it
+means 13–16 and needs no ruling; and the defender +2 column skips
+readings 34–36, which inflict 5 % (below).
 
 ::: errata E-008 — 15.79: defender losses, +4 column, 10 % row, read 34–45 (the printed 24–45 overlapped the 15 % row)
+
+::: ruling R-023 — close assault, defender +2 column: readings 34–36 inflict 5 %
+
+At **+2**, a defender reading of 34, 35 or 36 falls in no printed cell; it
+inflicts a **5 %** loss, as if the 5 % cell read 34–52 (ruling
+[R-023](../rulings/R-023.md)).
 
 The **+11 and higher** columns are the *overrun* zone. Overrun is not
 chosen; it means the attacker's mass has broken the line and reached the

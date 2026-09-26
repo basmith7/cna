@@ -44,6 +44,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-014](../rulings/R-014.md) — only a battalion-size or larger combat unit can capture destroyed tanks, as for broken-down vehicles
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 - [R-012](../rulings/R-012.md) — a defender who commits nothing retreats under the normal retreat rule and may stop short at 10 % per hex
+- [R-023](../rulings/R-023.md) — close assault, defender +2 column: readings 34–36 inflict 5 %
 - [R-011](../rulings/R-011.md) — each side's percentage is taken of its own raw points, not the combined total
 
 ## [Organisation](./70-organisation.md)
@@ -110,6 +111,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-020](../rulings/R-020.md) | proposed | 52.13, 52.14, 52.7, 6.3 |
 | [R-021](../rulings/R-021.md) | proposed | 52.17, 52.16, 6.3 |
 | [R-022](../rulings/R-022.md) | proposed | 52.51, 52.52, 3.1 |
+| [R-023](../rulings/R-023.md) | accepted | 15.79 |
 
 ## Variants register
 
