@@ -215,6 +215,8 @@ wells, demolish, build or take any other action from the CP cost table
 
 ::: ruling R-006 — the stacking condition in 8.53a applies to truck convoys only
 
+::: ruling R-008 — "in combat" in 8.53d means in contact
+
 A unit may *not* react when:
 
 - it is non-motorised or a squadron ground-support unit, whatever it is
@@ -226,7 +228,8 @@ A unit may *not* react when:
   its own CPA;
 - it is already in an enemy ZOC — this is how faster units **pin** slower
   ones; or
-- it is in combat or *engaged*.
+- it is in contact or *engaged* (the "in combat" of the printed case is
+  read as contact — [R-008](../rulings/R-008.md)).
 
 *Example (our own).* An Axis recce battalion (CPA 45) moves adjacent to a
 Commonwealth motorised battalion (CPA 20 from its trucks) and declares an

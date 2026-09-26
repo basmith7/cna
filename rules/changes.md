@@ -22,6 +22,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-002](../rulings/R-002.md) — road and track stubs that run into a hex without leading anywhere are ignored
 - [R-007](../rulings/R-007.md) — a reacting unit spends CP only on movement and on blowing a dump
 - [R-006](../rulings/R-006.md) — the stacking condition in 8.53a applies to truck convoys only
+- [R-008](../rulings/R-008.md) — "in combat" in 8.53d means in contact
 - [R-003](../rulings/R-003.md) — Contact is fixed at the start of every movement segment, either side's
 - [R-005](../rulings/R-005.md) — one rail stack each way may mix units and supplies and change its load en route, within both limits
 
@@ -94,7 +95,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-005](../rulings/R-005.md) | accepted | 8.72, 8.74, 8.77 |
 | [R-006](../rulings/R-006.md) | accepted | 8.53 |
 | [R-007](../rulings/R-007.md) | accepted | 6.3, 8.51, 8.52, 13.25 |
-| [R-008](../rulings/R-008.md) | proposed | 8.24, 8.52, 8.53 |
+| [R-008](../rulings/R-008.md) | accepted | 8.24, 8.52, 8.53 |
 | [R-009](../rulings/R-009.md) | accepted | 12.33, 14.0 |
 | [R-010](../rulings/R-010.md) | accepted | 13.27, 15.82 |
 | [R-011](../rulings/R-011.md) | accepted | 15.83 |
