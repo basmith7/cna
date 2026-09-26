@@ -13,7 +13,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 
 | Id | Title | Status | Affects |
 |---|---|---|---|
-| [R-001](./R-001.md) | The −26 collapse threshold: cohesion level or disorganisation points? | proposed | 6.26, 17.5 |
+| [R-001](./R-001.md) | The −26 collapse threshold: cohesion level or disorganisation points? | accepted | 6.26, 17.5 |
 | [R-002](./R-002.md) | Road stubs and other map-art inconsistencies | proposed | 4.1, 8.31, 8.37 |
 | [R-003](./R-003.md) | When is a unit "in Contact"? | proposed | 8.24, 8.61, 8.62, 8.64, 13.22 |
 | [R-004](./R-004.md) | Terrain cost for a formation that is part motorised, part on foot | proposed | 3.1, 8.37, 8.91, 8.92 |
