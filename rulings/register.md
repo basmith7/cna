@@ -36,6 +36,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-021](./R-021.md) | Sweetening a poisoned well: one unit's CPA, or every unit in the hex? | proposed | 52.17, 52.16, 6.3 |
 | [R-022](./R-022.md) | Which units are "vehicles" for the without-water halving in 52.51? | proposed | 52.51, 52.52, 3.1 |
 | [R-023](./R-023.md) | Close assault, defender +2 column: readings 34–36 | accepted | 15.79 |
+| [R-024](./R-024.md) | Morale Modifier Table, cohesion −4: reading 56 | accepted | 17.4 |
 
 ## Variants
 
