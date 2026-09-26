@@ -26,7 +26,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-011](./R-011.md) | Whose raw points form the loss base in 15.83b | proposed | 15.83 |
 | [R-012](./R-012.md) | A defender who commits nothing: is the three-hex retreat obligatory? | proposed | 15.29, 15.82 |
 | [R-013](./R-013.md) | Do pinned units spend ammunition in a close assault? | proposed | 15.12, 15.83, 32.33 |
-| [R-014](./R-014.md) | What may capture a destroyed-tank marker | proposed | 14.52, 21.52 |
+| [R-014](./R-014.md) | What may capture a destroyed-tank marker | accepted | 14.52, 21.52 |
 | [R-015](./R-015.md) | Anti-armour terrain shifts: which side's fire do they weaken? | proposed | 14.0, 14.32, 14.33 |
 | [R-016](./R-016.md) | When a Tank Delivery Squadron moves | proposed | 22.63, 22.65, 8.9 |
 | [R-017](./R-017.md) | Can a Tank Delivery Squadron react, retreat before assault, or retreat with a stack? | proposed | 22.63, 8.53, 13.2, 15.82 |
