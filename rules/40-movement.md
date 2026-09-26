@@ -106,6 +106,14 @@ unit types — vehicles may not enter salt marsh, for instance, unless on a
 road or track. All of this, and every combat effect of terrain, is on the
 Terrain Effects Chart, transcribed as `data/tables/terrain-effects.json`.
 
+::: ruling R-004 — a formation mixing foot and vehicle elements pays the dearer terrain cost and obeys both sets of prohibitions
+
+A formation that moves as one counter but holds both non-motorised elements
+and vehicles (a foot division with a tank battalion attached, say) pays, for
+every hex and hexside, whichever of the foot and motorised costs is higher,
+and may not go anywhere either type is barred from. The stack moves at the
+pace of its slowest part (ruling [R-004](../rulings/R-004.md)).
+
 ::: spi 8.37
 
 The Terrain Effects Chart is data: `data/tables/terrain-effects.json` — for
@@ -120,6 +128,8 @@ major river except by road; mountain holds 3 stacking points, a major city
 
 ::: errata E-031 — 8.37: footnote 4 (Alexandria and Cairo are level-three fortifications) belongs to Major City, not Swamp; a track does not cost 1 CP — it halves the hex terrain's cost, as footnote 8 says
 
+::: ruling R-002 — road and track stubs that run into a hex without leading anywhere are ignored
+
 **Roads and tracks.** A unit gets the road or track rate only when it moves
 between two adjacent road/track hexes that are joined across a road/track
 hexside. While doing so it ignores every other terrain
@@ -127,7 +137,10 @@ feature of the hex and hexside — except that vehicles still pay to cross an
 escarpment (see *Special terrain*). A unit with any vehicles in it, moving by road or track, is restricted
 when it comes to friendly units sitting on that road ([Stacking & ZOC](50-stacking-and-zoc.md#roads)); it may always
 leave the road, go round them through the hex's own terrain, and rejoin the
-road in the next hex.
+road in the next hex. Scraps of map art do not create a road or track: a
+stub that stops inside a hex, without reaching another hexside or ending at
+a town, fort, airfield or the map edge, is ignored (ruling
+[R-002](../rulings/R-002.md)).
 
 **Slopes, ridges, escarpments.** Slopes and escarpments each have an *up* and a *down* side (the map's splash contours mark the
 down side),
@@ -233,10 +246,14 @@ freely between the parent and the units detaching to react.
 
 ::: spi-omit 8.6 — subsection heading
 
+::: ruling R-003 — Contact is fixed at the start of every movement segment, either side's
+
 Two states tie a unit to an enemy combat unit; both are shown with markers:
 
 - **Contact** — the unit is in an enemy ZOC at the start of a movement
-  segment.
+  segment, its own side's or the enemy's. A unit that only enters an enemy
+  ZOC partway through a segment is not yet in contact; the ZOC rules stop
+  it instead (ruling [R-003](../rulings/R-003.md)).
 - **Engaged** — a close-assault result ([Combat](60-combat.md)). An engaged
   unit need not be in an enemy ZOC.
 
@@ -266,6 +283,8 @@ whatever the strategic situation, extendable by construction
 ([Engineering](80-engineering.md)). The Soluch–Benghazi–Barce line is
 decoration: it has no effect on anything.
 
+::: ruling R-005 — one rail stack each way may mix units and supplies and change its load en route, within both limits
+
 Once per stage, in phase J, the Commonwealth player may run **one stack
 eastward and one stack westward**, each any distance along finished track;
 a stack is units and/or supplies. Limits:
@@ -279,8 +298,10 @@ a stack is units and/or supplies. Limits:
   rail hexes until built;
 - any rail hex west of an Axis combat unit sitting on the line is off limits.
 
-Units may be picked up and set down anywhere along the line, so long as the
-stacking, direction and no-CP-spent conditions all hold.
+Units and supplies may be picked up and set down anywhere along the line, so
+long as the stacking, direction and no-CP-spent conditions all hold; one run
+may carry both at once, and both the stacking and the supply limit are checked
+at every point of it (ruling [R-005](../rulings/R-005.md)).
 
 ## Tripoli and Tunisia (off-map boxes)
 
