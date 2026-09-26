@@ -370,11 +370,15 @@ player may be firer, target or both (§32 clarification to 14.0).
 
 ::: spi 14.3 14.31 14.32 14.33 14.34 14.35
 
-Terrain in the target hex shifts the points row toward the defender by the
+::: ruling R-015 — terrain shifts only the phasing side's anti-armour fire; the non-phasing side fires unshifted
+
+Only the phasing side's fire is shifted: terrain in the assaulted hex shifts the points row toward the defender by the
 amount on the Terrain Effects Chart (a rough hex takes 9 actual points down
 to the 8 row). In-hex effects, fortifications included, are not cumulative —
 the defender takes the best one — but a **hexside** effect adds to the in-hex
-one. A shift below row 1 uses row 0.
+one. A shift below row 1 uses row 0. The non-phasing side's return fire
+uses its actual points row unshifted, whatever terrain the assaulting armour
+occupies (ruling [R-015](../rulings/R-015.md)).
 
 No anti-armour fire crosses, in either direction, a ridge hexside without a
 road or track, a slope hexside *downward* without road or track, or an

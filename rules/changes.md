@@ -38,6 +38,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-010** — 16.11 addition: L/6, Stuarts and mechanised infantry join the patrol list
 - [R-009](../rulings/R-009.md) — barrage terrain shifts protect the target of either side's barrage, not only the non-phasing player
 - [R-010](../rulings/R-010.md) — retreat before assault may go in any direction; 15.82's direction rules do not apply
+- [R-015](../rulings/R-015.md) — terrain shifts only the phasing side's anti-armour fire; the non-phasing side fires unshifted
 - [R-014](../rulings/R-014.md) — only a battalion-size or larger combat unit can capture destroyed tanks, as for broken-down vehicles
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 - [R-011](../rulings/R-011.md) — each side's percentage is taken of its own raw points, not the combined total
@@ -94,7 +95,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-012](../rulings/R-012.md) | proposed | 15.29, 15.82 |
 | [R-013](../rulings/R-013.md) | accepted | 15.12, 15.83, 32.33 |
 | [R-014](../rulings/R-014.md) | accepted | 14.52, 21.52 |
-| [R-015](../rulings/R-015.md) | proposed | 14.0, 14.32, 14.33 |
+| [R-015](../rulings/R-015.md) | accepted | 14.0, 14.32, 14.33 |
 | [R-016](../rulings/R-016.md) | proposed | 22.63, 22.65, 8.9 |
 | [R-017](../rulings/R-017.md) | proposed | 22.63, 8.53, 13.2, 15.82 |
 | [R-018](../rulings/R-018.md) | proposed | 6.3, 24.17, 24.9 |
