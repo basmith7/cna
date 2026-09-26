@@ -18,6 +18,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 ## [Movement](./40-movement.md)
 
 - **E-031** — 8.37: footnote 4 (Alexandria and Cairo are level-three fortifications) belongs to Major City, not Swamp; a track does not cost 1 CP — it halves the hex terrain's cost, as footnote 8 says
+- [R-004](../rulings/R-004.md) — a formation mixing foot and vehicle elements pays the dearer terrain cost and obeys both sets of prohibitions
 - [R-002](../rulings/R-002.md) — road and track stubs that run into a hex without leading anywhere are ignored
 - [R-003](../rulings/R-003.md) — Contact is fixed at the start of every movement segment, either side's
 
@@ -71,7 +72,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-001](../rulings/R-001.md) | accepted | 6.26, 17.5 |
 | [R-002](../rulings/R-002.md) | accepted | 4.1, 8.31, 8.37 |
 | [R-003](../rulings/R-003.md) | accepted | 8.24, 8.61, 8.62, 8.64, 13.22 |
-| [R-004](../rulings/R-004.md) | proposed | 3.1, 8.37, 8.91, 8.92 |
+| [R-004](../rulings/R-004.md) | accepted | 3.1, 8.37, 8.91, 8.92 |
 | [R-005](../rulings/R-005.md) | proposed | 8.72, 8.74, 8.77 |
 | [R-006](../rulings/R-006.md) | proposed | 8.53 |
 | [R-007](../rulings/R-007.md) | proposed | 6.3, 8.51, 8.52, 13.25 |
