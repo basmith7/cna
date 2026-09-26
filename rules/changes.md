@@ -38,6 +38,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-010** — 16.11 addition: L/6, Stuarts and mechanised infantry join the patrol list
 - [R-009](../rulings/R-009.md) — barrage terrain shifts protect the target of either side's barrage, not only the non-phasing player
 - [R-010](../rulings/R-010.md) — retreat before assault may go in any direction; 15.82's direction rules do not apply
+- [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 - [R-011](../rulings/R-011.md) — each side's percentage is taken of its own raw points, not the combined total
 
 ## [Organisation](./70-organisation.md)
@@ -70,6 +71,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-030** — 30.5: the supply-by-sea reference is 56.0; 30.55 also admits barraged/bombed units; 30.57 is replaced by the 10 %-per-SP rule; 30.58's reference is 55.2
 - [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery: torpedo-immune, own AA, may sortie, no port-efficiency penalty (NJHarman)
 
+## [Abstract logistics and air](./95-abstract-logistics-and-air.md)
+
+- [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
+
 ## Rulings register
 
 | Id | Status | Affects |
@@ -86,7 +91,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-010](../rulings/R-010.md) | accepted | 13.27, 15.82 |
 | [R-011](../rulings/R-011.md) | accepted | 15.83 |
 | [R-012](../rulings/R-012.md) | proposed | 15.29, 15.82 |
-| [R-013](../rulings/R-013.md) | proposed | 15.12, 15.83, 32.33 |
+| [R-013](../rulings/R-013.md) | accepted | 15.12, 15.83, 32.33 |
 | [R-014](../rulings/R-014.md) | proposed | 14.52, 21.52 |
 | [R-015](../rulings/R-015.md) | proposed | 14.0, 14.32, 14.33 |
 | [R-016](../rulings/R-016.md) | proposed | 22.63, 22.65, 8.9 |
