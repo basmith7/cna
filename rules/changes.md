@@ -31,6 +31,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-008** — 15.79: defender losses, +4 column, 10 % row, read 34–45 (the printed 24–45 overlapped the 15 % row)
 - **E-009** — 15.88 clarified against 6.26: −17 surrenders when assaulted, −26 when approached
 - **E-010** — 16.11 addition: L/6, Stuarts and mechanised infantry join the patrol list
+- [R-023](../rulings/R-023.md) — close assault, defender +2 column: readings 34–36 inflict 5 %
 
 ## [Organisation](./70-organisation.md)
 
@@ -88,6 +89,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-020](../rulings/R-020.md) | proposed | 52.13, 52.14, 52.7, 6.3 |
 | [R-021](../rulings/R-021.md) | proposed | 52.17, 52.16, 6.3 |
 | [R-022](../rulings/R-022.md) | proposed | 52.51, 52.52, 3.1 |
+| [R-023](../rulings/R-023.md) | accepted | 15.79 |
 
 ## Variants register
 
