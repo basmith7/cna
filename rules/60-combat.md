@@ -417,9 +417,12 @@ nothing else.
 
 ::: spi 14.5 14.51 14.52 14.53 14.54 14.55
 
+::: ruling R-014 — only a battalion-size or larger combat unit can capture destroyed tanks, as for broken-down vehicles
+
 Only destroyed *tanks* can be captured and repaired; every other destroyed
-vehicle is removed at once. When enemy units enter a hex holding a
-destroyed-tank marker and no friendly combat unit, the enemy decides on the
+vehicle is removed at once. When an enemy **combat unit of at least
+battalion size** enters a hex holding a destroyed-tank marker and no
+friendly combat unit ([R-014](../rulings/R-014.md)), the enemy decides on the
 spot: eliminate the points for good, or own them from then on. Captured
 tanks may be shifted up to three hexes immediately, avoiding enemy units,
 enemy ZOC and impassable terrain; otherwise they are like any other unit
