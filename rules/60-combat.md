@@ -644,16 +644,16 @@ two halves are near mirror images; from +11 the defender's table runs from
 The +4 column carries SPI's one errata correction to this table (E-008).
 Two further printed oddities are declared in the file's notes: the attacker
 −2 column's 20 % cell reads 13–18, but 17 and 18 are not readings, so it
-means 13–16 and needs no ruling; and the
-defender +2 column skips readings 34–36, which inflict 5 % (below).
+means 13–16 and needs no ruling; and the defender +2 column skips
+readings 34–36, which inflict 5 % (below).
+
+::: errata E-008 — 15.79: defender losses, +4 column, 10 % row, read 34–45 (the printed 24–45 overlapped the 15 % row)
 
 ::: ruling R-023 — close assault, defender +2 column: readings 34–36 inflict 5 %
 
 At **+2**, a defender reading of 34, 35 or 36 falls in no printed cell; it
 inflicts a **5 %** loss, as if the 5 % cell read 34–52 (ruling
 [R-023](../rulings/R-023.md)).
-
-::: errata E-008 — 15.79: defender losses, +4 column, 10 % row, read 34–45 (the printed 24–45 overlapped the 15 % row)
 
 The **+11 and higher** columns are the *overrun* zone. Overrun is not
 chosen; it means the attacker's mass has broken the line and reached the
