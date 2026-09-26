@@ -675,11 +675,14 @@ or retreating into one, may stop there and ignore the rest.
 
 #### Percentage losses
 
+::: ruling R-011 — each side's percentage is taken of its own raw points, not the combined total
+
 Take the percentage from the table, then:
 
-1. Total the raw close-assault points in the assault. The defender adds the
-   raw points of pinned and retreated-in units, and in an overrun of *every*
-   withheld unit too.
+1. Each side totals **its own** raw close-assault points in the assault
+   ([R-011](../rulings/R-011.md)). The defender adds the raw points of his
+   pinned and retreated-in units, and in an overrun of *every* withheld unit
+   too.
 2. Multiply. The attacker rounds **up**, the defender **down** — except in
    an overrun, where the defender rounds up too (35.1 → 36 attacker, 35
    defender; 1.1 → 2 for an overrun defender). Add any hexes-not-retreated
