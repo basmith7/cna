@@ -17,7 +17,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-002](./R-002.md) | Road stubs and other map-art inconsistencies | accepted | 4.1, 8.31, 8.37 |
 | [R-003](./R-003.md) | When is a unit "in Contact"? | accepted | 8.24, 8.61, 8.62, 8.64, 13.22 |
 | [R-004](./R-004.md) | Terrain cost for a formation that is part motorised, part on foot | accepted | 3.1, 8.37, 8.91, 8.92 |
-| [R-005](./R-005.md) | Rail movement: what one "stack" per direction may carry | proposed | 8.72, 8.74, 8.77 |
+| [R-005](./R-005.md) | Rail movement: what one "stack" per direction may carry | accepted | 8.72, 8.74, 8.77 |
 | [R-006](./R-006.md) | Who may never react: the reach of "not stacked with friendly combat units" in 8.53a | proposed | 8.53 |
 | [R-007](./R-007.md) | What a reacting unit may spend CP on | proposed | 6.3, 8.51, 8.52, 13.25 |
 | [R-008](./R-008.md) | "In combat or Engaged" in 8.53d, and the break-off sentence of 8.52 | proposed | 8.24, 8.52, 8.53 |

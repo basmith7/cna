@@ -280,6 +280,8 @@ whatever the strategic situation, extendable by construction
 ([Engineering](80-engineering.md)). The Soluch–Benghazi–Barce line is
 decoration: it has no effect on anything.
 
+::: ruling R-005 — one rail stack each way may mix units and supplies and change its load en route, within both limits
+
 Once per stage, in phase J, the Commonwealth player may run **one stack
 eastward and one stack westward**, each any distance along finished track;
 a stack is units and/or supplies. Limits:
@@ -293,8 +295,10 @@ a stack is units and/or supplies. Limits:
   rail hexes until built;
 - any rail hex west of an Axis combat unit sitting on the line is off limits.
 
-Units may be picked up and set down anywhere along the line, so long as the
-stacking, direction and no-CP-spent conditions all hold.
+Units and supplies may be picked up and set down anywhere along the line, so
+long as the stacking, direction and no-CP-spent conditions all hold; one run
+may carry both at once, and both the stacking and the supply limit are checked
+at every point of it (ruling [R-005](../rulings/R-005.md)).
 
 ## Tripoli and Tunisia (off-map boxes)
 

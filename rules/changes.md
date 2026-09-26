@@ -21,6 +21,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-004](../rulings/R-004.md) — a formation mixing foot and vehicle elements pays the dearer terrain cost and obeys both sets of prohibitions
 - [R-002](../rulings/R-002.md) — road and track stubs that run into a hex without leading anywhere are ignored
 - [R-003](../rulings/R-003.md) — Contact is fixed at the start of every movement segment, either side's
+- [R-005](../rulings/R-005.md) — one rail stack each way may mix units and supplies and change its load en route, within both limits
 
 ## [Combat](./60-combat.md)
 
@@ -73,7 +74,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-002](../rulings/R-002.md) | accepted | 4.1, 8.31, 8.37 |
 | [R-003](../rulings/R-003.md) | accepted | 8.24, 8.61, 8.62, 8.64, 13.22 |
 | [R-004](../rulings/R-004.md) | accepted | 3.1, 8.37, 8.91, 8.92 |
-| [R-005](../rulings/R-005.md) | proposed | 8.72, 8.74, 8.77 |
+| [R-005](../rulings/R-005.md) | accepted | 8.72, 8.74, 8.77 |
 | [R-006](../rulings/R-006.md) | proposed | 8.53 |
 | [R-007](../rulings/R-007.md) | proposed | 6.3, 8.51, 8.52, 13.25 |
 | [R-008](../rulings/R-008.md) | proposed | 8.24, 8.52, 8.53 |
