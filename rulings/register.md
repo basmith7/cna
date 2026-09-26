@@ -20,7 +20,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-005](./R-005.md) | Rail movement: what one "stack" per direction may carry | proposed | 8.72, 8.74, 8.77 |
 | [R-006](./R-006.md) | Who may never react: the reach of "not stacked with friendly combat units" in 8.53a | proposed | 8.53 |
 | [R-007](./R-007.md) | What a reacting unit may spend CP on | proposed | 6.3, 8.51, 8.52, 13.25 |
-| [R-008](./R-008.md) | "In combat or Engaged" in 8.53d, and the break-off sentence of 8.52 | proposed | 8.24, 8.52, 8.53 |
+| [R-008](./R-008.md) | "In combat or Engaged" in 8.53d, and the break-off sentence of 8.52 | accepted | 8.24, 8.52, 8.53 |
 | [R-009](./R-009.md) | Do terrain shifts on the Barrage Table protect the phasing player's units too? | proposed | 12.33, 14.0 |
 | [R-010](./R-010.md) | Retreat before assault: any direction, or away from the enemy? | proposed | 13.27, 15.82 |
 | [R-011](./R-011.md) | Whose raw points form the loss base in 15.83b | proposed | 15.83 |

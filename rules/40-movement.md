@@ -193,6 +193,8 @@ never costs the break-contact or disengage fee. A unit may react any number
 of times in a stage. There is no distance limit, but a reacting unit may
 **never enter an enemy ZOC**.
 
+::: ruling R-008 — "in combat" in 8.53d means in contact
+
 A unit may *not* react when:
 
 - it is non-motorised, a squadron ground-support unit, or a truck convoy not
@@ -203,7 +205,8 @@ A unit may *not* react when:
   its own CPA;
 - it is already in an enemy ZOC — this is how faster units **pin** slower
   ones; or
-- it is in combat or *engaged*.
+- it is in contact or *engaged* (the "in combat" of the printed case is
+  read as contact — [R-008](../rulings/R-008.md)).
 
 *Example (our own).* An Axis recce battalion (CPA 45) moves adjacent to a
 Commonwealth motorised battalion (CPA 20 from its trucks) and declares an
