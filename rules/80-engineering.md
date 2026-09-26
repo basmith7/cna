@@ -121,6 +121,8 @@ rule except training, and needs fuel before it moves.
 
 ::: spi 22.61 22.62 22.63 22.64 22.65 22.66 22.7
 
+::: ruling R-016 — a tank delivery squadron moves only in the truck convoy phase
+
 The Commonwealth receives three **Tank Delivery Squadrons** (TDS) over the
 game — the Desert Tank Delivery Organisation is a name, not an HQ. A TDS is a
 mobile advanced workshop:
@@ -129,7 +131,8 @@ mobile advanced workshop:
   *Commonwealth* tanks repair on a **1**, never junk. It cannot repair enemy
   tanks.
 - No combat ratings, **0 SP**, CPA **25** as a vehicle, never voluntarily
-  over its CPA and never into enemy ZOC. Alone in a hex and placed in an
+  over its CPA and never into enemy ZOC. It moves only in the truck convoy
+  phase (H), whether towing or not ([R-016](../rulings/R-016.md)). Alone in a hex and placed in an
   enemy ZOC, it is eliminated; it returns eight turns later.
 - Holds up to **3** tank points as reserves (treated as tank replacement
   points), still at 0 SP.

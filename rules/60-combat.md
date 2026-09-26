@@ -202,12 +202,15 @@ combat) may be named as a specific target.
 
 ::: spi 12.3 12.31 12.32 12.33 12.34 12.35
 
+::: ruling R-009 — barrage terrain shifts protect the target of either side's barrage, not only the non-phasing player
+
 - Any adjacent occupied hex may be barraged, whatever the terrain or
   hexside; there is no line of sight. Empty hexes may not be barraged
   (facilities are the exception, [below](#barrage-against-facilities)).
 - Each target may be barraged **once per firing hex** per segment. Forward
   artillery in several hexes may pool into that one barrage.
-- Terrain shifts the *row* (barrage points) toward the defender by the
+- Terrain shifts the *row* (barrage points) toward the defender — whichever
+  side is being barraged, phasing or not ([R-009](../rulings/R-009.md)) — by the
   number of columns the Terrain Effects Chart gives, and the best single
   benefit applies — a target in a level-two fortification barraged with 12
   points is resolved on the 7–8 row, not the 11–12. Shifts are not
@@ -271,6 +274,8 @@ voluntary movement paid in CP, not reaction.
 
 ::: spi 13.2 13.21 13.22 13.23 13.24 13.25 13.26 13.27 13.28
 
+::: ruling R-010 — retreat before assault may go in any direction; 15.82's direction rules do not apply
+
 - It costs CP and fuel, triggers breakdown checks, and pays the contact or
   engaged break-off cost when leaving an enemy ZOC
   ([breaking off](40-movement.md#breaking-off)).
@@ -282,7 +287,9 @@ voluntary movement paid in CP, not reaction.
 - Entering an enemy ZOC ends the retreat, and a unit may not go straight from
   one enemy ZOC into another; if it cannot avoid that, it may not retreat.
 - Because the retreat is voluntary it is *not* the retreat forced by the
-  close assault table ([forced retreats](#forced-retreats)).
+  close assault table ([forced retreats](#forced-retreats)): it need not
+  move away from the enemy or toward supply, and may go in any direction
+  the limits above allow ([R-010](../rulings/R-010.md)).
 - A unit that retreats into a friendly-held hex in enemy ZOC, or into any
   hex that is assaulted this segment, shares that hex's fate: it can be hit
   by anti-armour fire but cannot fire it; it adds no close-assault strength
@@ -363,11 +370,15 @@ player may be firer, target or both (§32 clarification to 14.0).
 
 ::: spi 14.3 14.31 14.32 14.33 14.34 14.35
 
-Terrain in the target hex shifts the points row toward the defender by the
+::: ruling R-015 — terrain shifts only the phasing side's anti-armour fire; the non-phasing side fires unshifted
+
+Only the phasing side's fire is shifted: terrain in the assaulted hex shifts the points row toward the defender by the
 amount on the Terrain Effects Chart (a rough hex takes 9 actual points down
 to the 8 row). In-hex effects, fortifications included, are not cumulative —
 the defender takes the best one — but a **hexside** effect adds to the in-hex
-one. A shift below row 1 uses row 0.
+one. A shift below row 1 uses row 0. The non-phasing side's return fire
+uses its actual points row unshifted, whatever terrain the assaulting armour
+occupies (ruling [R-015](../rulings/R-015.md)).
 
 No anti-armour fire crosses, in either direction, a ridge hexside without a
 road or track, a slope hexside *downward* without road or track, or an
@@ -410,9 +421,12 @@ nothing else.
 
 ::: spi 14.5 14.51 14.52 14.53 14.54 14.55
 
+::: ruling R-014 — only a battalion-size or larger combat unit can capture destroyed tanks, as for broken-down vehicles
+
 Only destroyed *tanks* can be captured and repaired; every other destroyed
-vehicle is removed at once. When enemy units enter a hex holding a
-destroyed-tank marker and no friendly combat unit, the enemy decides on the
+vehicle is removed at once. When an enemy **combat unit of at least
+battalion size** enters a hex holding a destroyed-tank marker and no
+friendly combat unit ([R-014](../rulings/R-014.md)), the enemy decides on the
 spot: eliminate the points for good, or own them from then on. Captured
 tanks may be shifted up to three hexes immediately, avoiding enemy units,
 enemy ZOC and impassable terrain; otherwise they are like any other unit
@@ -446,13 +460,16 @@ prisoners, rising with the roll (a 4 and a 5 both give half).
 
 ::: spi 15.1 15.11 15.12 15.13 15.14 15.15 15.16 15.17 15.18
 
+::: ruling R-013 — pinned units spend no ammunition in a close assault
+
 - Any unit with a close-assault rating may add it, offensively or
   defensively; units without one may still be present, adding nothing.
 - Only units *committed* to the assault contribute points. But on the
   defending side, units that add nothing can still lose: **pinned** units,
   units that **retreated before assault** into the hex, units **out of
   ammunition**, and individual TOE points the defender **withholds** all
-  count in the base from which percentage losses are taken. On the attacking
+  count in the base from which percentage losses are taken, but spend no
+  ammunition ([R-013](../rulings/R-013.md)). On the attacking
   side, out-of-ammunition and withheld points are simply ignored.
 - A unit out of ammunition cannot assault or defend. If *every* defending
   unit in an assaulted hex is out of ammunition, the whole hex surrenders.
@@ -675,11 +692,14 @@ or retreating into one, may stop there and ignore the rest.
 
 #### Percentage losses
 
+::: ruling R-011 — each side's percentage is taken of its own raw points, not the combined total
+
 Take the percentage from the table, then:
 
-1. Total the raw close-assault points in the assault. The defender adds the
-   raw points of pinned and retreated-in units, and in an overrun of *every*
-   withheld unit too.
+1. Each side totals **its own** raw close-assault points in the assault
+   ([R-011](../rulings/R-011.md)). The defender adds the raw points of his
+   pinned and retreated-in units, and in an overrun of *every* withheld unit
+   too.
 2. Multiply. The attacker rounds **up**, the defender **down** — except in
    an overrun, where the defender rounds up too (35.1 → 36 attacker, 35
    defender; 1.1 → 2 for an overrun defender). Add any hexes-not-retreated
