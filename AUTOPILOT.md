@@ -6,85 +6,94 @@ of the last one; this file plus the journal is the only continuity.
 
 ## Mission
 
-**Mission 3, issued 2026-09-21: the map sub-project.** Missions 1 and 2 are
-done; the `MISSION COMPLETE` / `MISSION 2 COMPLETE` entries in the journal
-and `PROGRESS.md` refer to them and are not a reason to idle.
+**Mission 4, issued 2026-09-26: decide the open questions.** Missions 1–3
+are done; their `COMPLETE` entries in the journal and `PROGRESS.md` are not a
+reason to idle.
 
-Two documents govern this mission — read both before touching anything:
+On 2026-09-26 Brian delegated every decision that is cheap to reverse. A
+ruling is cheap to reverse: anyone can dispute and supersede it
+(`rulings/README.md`), and in the engine it is one switch. The policy is the
+last section of the cna-engine spec,
+<https://github.com/basmith7/cna-engine/blob/main/docs/designs/2026-09-26-engine-probes-design.md>.
+The one exception: anything Brian writes in **Feedback** about a ruling or a
+board item wins.
 
-- **Spec:** `docs/designs/2026-09-21-map-design.md` — what, why, the legal
-  posture, the merge gates.
-- **Plan:** `docs/plans/2026-09-21-map.md` — how, task by task with tests.
-  Follow it in order; each task's steps are the unit of work. Where the plan
-  and this file disagree, the plan wins; where the plan and the spec
-  disagree, say so in the journal and follow the spec.
+### How to decide a ruling
 
-Precondition: PR #16 (`njharman_src` in `tools/sources.json`) must be on
-`main`. If it is not, do Part A anyway (it does not need the diff) and stop
-before Part B with a note in `PROGRESS.md` **Next steps**.
+1. Read the ruling file, the rules prose for every case in `affects`, and
+   every ruling already `accepted`.
+2. Choose, in this order of preference: the reading the printed text
+   supports, unless the ruling's Rationale shows it produces an exploit or
+   contradicts another rule; then consistency with accepted rulings; then
+   whichever is simpler for an engine to implement.
+3. Fill in **Decision** ("Option N." plus one sentence) and **Rationale**
+   (why, in our own words; cite a probe's finding where there is one, linked
+   to `probes/<id>.json` in cna-engine at its commit). Set
+   `status: accepted`. Edit the rules prose to show the result, with
+   `::: ruling R-nnn` above the block. Run `tools/gen_pages.py`.
+4. One PR per ruling, branch `autopilot/ruling-r-nnn`. Merge it once the
+   gates below are green.
 
-### Part 0 — leftover from Mission 2: NJHarman's Discord-game notes (one PR)
+### Part A: interpretive rulings (one PR each)
 
-Branch `autopilot/b-rulings-discord-notes`. Added to Mission 2 by PR #16 after
-Mission 2 was declared complete, so it was never done.
-`~/.cache/cna-scans/njharman-discord-notes.txt` (47 lines, emailed to Brian
-2026-09-19; not on his website, so **not** under the CC-BY-SA grant:
-paraphrase, never quote, cite as `NJHarman, private notes from the Discord
-game, 2026-09` with no URL). Open a `proposed` ruling (numbered on from the
-last `R-nnn`) for each Land Game question it raises — wells, pinned units and
-Close Assault ammunition, reaction and CP spending, 52.51 vehicles without
-water, dump construction 24.9 vs 24.17 — following `rulings/README.md` and
-the Mission 2 conventions (`affects`, `sources`, Decision "none yet —
-proposed"). Skip the air and Malta items. His leaning goes in **Options**,
-not **Decision**. San Giorgio is already `rulings/V-001.md`. Regenerate
-`rulings/register.md`; add a *NJHarman Discord notes* entry to
-`EXTRACTION.md`.
+R-002, R-003, R-004, R-005, R-006, R-007, R-008, R-010, R-013, R-014, R-016,
+R-017, R-019. For R-019 the map now exists (`data/map/`): count the sea hexes,
+then decide.
 
-### Part A — plumbing on Malta (plan Tasks 1–13, one PR)
+### Part B: board defaults (one PR, `autopilot/board-defaults`)
 
-Branch `autopilot/map-a-malta`. Everything in `tools/`, `data/schema/`,
-`data/map/sheets.json`, the extractor changes, `map_build.py`,
-`map_render.py`, the `/map` page, `data/README.md`. After Task 6 the
-extractor is frozen: any later change to `tools/map_extract.py` is its own
-PR that regenerates every `data/map/raw/*.json`.
+Apply these, then delete each item from `docs/autopilot/decisions.json`:
 
-### Part B — Map C and Part D of the primer (plan Tasks 14–15, two PRs)
+- `map-vertex`: record neither (no data change).
+- `map-rail-along-hexside`: keep only the track crossing (no data change).
+- `map-villages`: no; the scenarios sub-project will add them.
+- `map-malta-numbering`: keep the VASSAL numbering.
+- `map-valletta`: stays a sea hex with a port.
+- `chart-e025`: the current reading stands.
+- `chart-vs-text`: leave the disagreements as noted in the tables; cna-engine
+  slice 4 probes them with R-018.
+- `site-learn-dark`: keep the light island.
+- `site-original-text`: check it yourself. Load a rules page on the deployed
+  site in headless Chrome (`/usr/bin/google-chrome`) and click one *Original
+  text* block. If it works, delete the item. If it is broken, fix it in its own
+  PR.
 
-Branch `autopilot/map-c`, then `autopilot/learn-part-d`. Task 14's first
-run also writes `map_diff.py` and `map_sample.py`. Hard limits: **150 diff
-resolutions per PR**; a sheet does not merge with `up: null` on a slope or
-escarpment hexside unless the `EXTRACTION.md` entry allowlists it with a
-reason; the 50-hex sample is not optional.
+`chart-oddities` waits for cna-engine's `probes/chart-oddities.json`. Once
+that file exists, record what it shows in the table's notes. A cell that
+cannot be rolled needs no ruling. For any gap that can be rolled, open a
+proposed ruling (the next `R-nnn`) with the options (the neighbouring row
+above, the row below, no loss) and decide it as in Part C.
 
-### Part C — Maps A, B, D, E (plan Task 16, one PR per sheet)
+### Part C: rulings a probe covers (one PR each)
 
-Branches `autopilot/map-<letter>`, in the order A, B, D, E. Same procedure
-and limits as Map C.
+R-011 and R-012 (cna-engine slice 1), R-009 and R-015 (slice 2), R-001
+(slice 3), R-018 (slice 4). A ruling is ready once its probe is on
+cna-engine `main`:
 
-### Part D — docs (plan Task 17, one PR)
+```bash
+gh api -H 'Accept: application/vnd.github.raw' repos/basmith7/cna-engine/contents/probes/R-012.json
+```
 
-Branch `autopilot/map-docs`.
+A 404 means it is not ready. Skip it; that is not a blocker. Once Parts A and
+B are done and every remaining Part C ruling is waiting on a probe, end the
+run early and say so in the journal.
 
-### Rules specific to this mission
+### Leave alone
 
-- **Never commit** anything under `build/`, any `.png` / `.jpg` / `.npy` /
-  `.csv` under `data/` or `site/public/map/`, `buildFile.xml`, or any file
-  from `~/.cache/cna-njharman/`. Check `git show --stat HEAD` before every
-  push. The hygiene test enforces part of this; you enforce the rest.
-- **NJHarman's database is diff-only.** A correction file cites the scan
-  (`seen`) and never the diff; `EXTRACTION.md` states counts only.
-- Committed map data carries game facts only — no pixel coordinates, no
-  coverage ratios.
-- If the scan resolution is too low to decide a hex or hexside, leave it
-  as the extractor read it, list the key in `PROGRESS.md` **Next steps**,
-  and move on; Brian will look at his copy.
-- Gates for every map PR, all green locally before `gh pr ready`:
-  `pytest`, `check_data.py`, `map_build.py --check`, `map_render.py --check`,
-  `check_overlap.py` (with and without arguments), `npm run test:site`,
-  `npm run site:build`.
+- R-020, R-021, R-022. They need the Logistics Game (§47–58) restated first.
+- The `copy` group in `decisions.json`. Only Brian's printed copy can answer
+  those; they stay as read. Add to it only questions of fact that need his
+  copy. Decide everything else yourself.
 
-When Parts 0 and A–D are all merged: log `MISSION 3 COMPLETE` in the journal and
-`PROGRESS.md` and do nothing further.
+When Parts A and B are merged and all six Part C rulings are accepted, log
+`MISSION 4 COMPLETE` in the journal and `PROGRESS.md` and do nothing further.
+
+### Gates for every PR
+
+All green locally before `gh pr ready`: `pytest`, `check_data.py`,
+`check_overlap.py` (with and without arguments), `tools/gen_pages.py` (no
+diff left over), `npm run test:site`, `npm run site:build`. Never commit
+anything under `build/`.
 
 ## Picking up where the last run left off
 
@@ -94,6 +103,10 @@ You are in a dedicated clone owned by the autopilot (not Brian's checkout), on
 1. Read `docs/autopilot/PROGRESS.md`. Its **Feedback** section is Brian's
    voice: act on every item first, then move it to **Addressed** with a
    one-line reply. If an item changes the mission, it wins over this file.
+   Items from the decision board (`tools/decisions_page.py`) name a ruling
+   id or a `docs/autopilot/decisions.json` id: once an answer lands, drop
+   that entry from `decisions.json`. A new question for Brian goes into
+   `decisions.json` as well as **Next steps**.
 2. `gh pr list --state open --label autopilot` — if an autopilot PR is open,
    its file is unfinished: check out that branch, read the last entry of
    `docs/autopilot/JOURNAL.md` on it, and continue. If its gates and CI
