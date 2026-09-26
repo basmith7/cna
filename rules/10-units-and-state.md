@@ -297,8 +297,13 @@ twenty-six cohesion rows from +8-and-better to −17-and-worse, each giving
 the dice range for every modifier from +4 to −4 and for surrender. At +8
 nothing worse than +1 is possible; at 0 the roll is almost always "no
 change"; from −7 down a high roll surrenders the force, and at −17 every
-roll does. One printed gap (level −4, reading 56) is declared in the file
-and awaits a ruling.
+roll does. One printed gap is declared in the file: at level −4 a reading
+of 56 falls in no printed cell.
+
+::: ruling R-024 — Morale Modifier Table, cohesion −4: a reading of 56 gives −2
+
+At cohesion **−4**, a reading of **56** gives a **−2** modifier, as if the
+−2 cell read 42–56 (ruling [R-024](../rulings/R-024.md)).
 
 ## Training
 

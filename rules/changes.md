@@ -14,6 +14,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 ## [Units and state](./10-units-and-state.md)
 
 - [R-001](../rulings/R-001.md) — the −26 disorganisation threshold is a cohesion level, not a count of disorganisation points
+- [R-024](../rulings/R-024.md) — Morale Modifier Table, cohesion −4: a reading of 56 gives −2
 
 ## [Movement](./40-movement.md)
 
@@ -88,6 +89,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-020](../rulings/R-020.md) | proposed | 52.13, 52.14, 52.7, 6.3 |
 | [R-021](../rulings/R-021.md) | proposed | 52.17, 52.16, 6.3 |
 | [R-022](../rulings/R-022.md) | proposed | 52.51, 52.52, 3.1 |
+| [R-024](../rulings/R-024.md) | accepted | 17.4 |
 
 ## Variants register
 
