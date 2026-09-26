@@ -13,25 +13,25 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 
 | Id | Title | Status | Affects |
 |---|---|---|---|
-| [R-001](./R-001.md) | The −26 collapse threshold: cohesion level or disorganisation points? | proposed | 6.26, 17.5 |
-| [R-002](./R-002.md) | Road stubs and other map-art inconsistencies | proposed | 4.1, 8.31, 8.37 |
-| [R-003](./R-003.md) | When is a unit "in Contact"? | proposed | 8.24, 8.61, 8.62, 8.64, 13.22 |
-| [R-004](./R-004.md) | Terrain cost for a formation that is part motorised, part on foot | proposed | 3.1, 8.37, 8.91, 8.92 |
-| [R-005](./R-005.md) | Rail movement: what one "stack" per direction may carry | proposed | 8.72, 8.74, 8.77 |
-| [R-006](./R-006.md) | Who may never react: the reach of "not stacked with friendly combat units" in 8.53a | proposed | 8.53 |
-| [R-007](./R-007.md) | What a reacting unit may spend CP on | proposed | 6.3, 8.51, 8.52, 13.25 |
+| [R-001](./R-001.md) | The −26 collapse threshold: cohesion level or disorganisation points? | accepted | 6.26, 17.5 |
+| [R-002](./R-002.md) | Road stubs and other map-art inconsistencies | accepted | 4.1, 8.31, 8.37 |
+| [R-003](./R-003.md) | When is a unit "in Contact"? | accepted | 8.24, 8.61, 8.62, 8.64, 13.22 |
+| [R-004](./R-004.md) | Terrain cost for a formation that is part motorised, part on foot | accepted | 3.1, 8.37, 8.91, 8.92 |
+| [R-005](./R-005.md) | Rail movement: what one "stack" per direction may carry | accepted | 8.72, 8.74, 8.77 |
+| [R-006](./R-006.md) | Who may never react: the reach of "not stacked with friendly combat units" in 8.53a | accepted | 8.53 |
+| [R-007](./R-007.md) | What a reacting unit may spend CP on | accepted | 6.3, 8.51, 8.52, 13.25 |
 | [R-008](./R-008.md) | "In combat or Engaged" in 8.53d, and the break-off sentence of 8.52 | proposed | 8.24, 8.52, 8.53 |
-| [R-009](./R-009.md) | Do terrain shifts on the Barrage Table protect the phasing player's units too? | proposed | 12.33, 14.0 |
-| [R-010](./R-010.md) | Retreat before assault: any direction, or away from the enemy? | proposed | 13.27, 15.82 |
-| [R-011](./R-011.md) | Whose raw points form the loss base in 15.83b | proposed | 15.83 |
-| [R-012](./R-012.md) | A defender who commits nothing: is the three-hex retreat obligatory? | proposed | 15.29, 15.82 |
-| [R-013](./R-013.md) | Do pinned units spend ammunition in a close assault? | proposed | 15.12, 15.83, 32.33 |
-| [R-014](./R-014.md) | What may capture a destroyed-tank marker | proposed | 14.52, 21.52 |
-| [R-015](./R-015.md) | Anti-armour terrain shifts: which side's fire do they weaken? | proposed | 14.0, 14.32, 14.33 |
-| [R-016](./R-016.md) | When a Tank Delivery Squadron moves | proposed | 22.63, 22.65, 8.9 |
+| [R-009](./R-009.md) | Do terrain shifts on the Barrage Table protect the phasing player's units too? | accepted | 12.33, 14.0 |
+| [R-010](./R-010.md) | Retreat before assault: any direction, or away from the enemy? | accepted | 13.27, 15.82 |
+| [R-011](./R-011.md) | Whose raw points form the loss base in 15.83b | accepted | 15.83 |
+| [R-012](./R-012.md) | A defender who commits nothing: is the three-hex retreat obligatory? | accepted | 15.29, 15.82 |
+| [R-013](./R-013.md) | Do pinned units spend ammunition in a close assault? | accepted | 15.12, 15.83, 32.33 |
+| [R-014](./R-014.md) | What may capture a destroyed-tank marker | accepted | 14.52, 21.52 |
+| [R-015](./R-015.md) | Anti-armour terrain shifts: which side's fire do they weaken? | accepted | 14.0, 14.32, 14.33 |
+| [R-016](./R-016.md) | When a Tank Delivery Squadron moves | accepted | 22.63, 22.65, 8.9 |
 | [R-017](./R-017.md) | Can a Tank Delivery Squadron react, retreat before assault, or retreat with a stack? | accepted | 22.63, 8.53, 13.2, 15.82 |
-| [R-018](./R-018.md) | The CP cost of building a supply dump: 24.9 text or the Construction Chart? | proposed | 6.3, 24.17, 24.9 |
-| [R-019](./R-019.md) | The fleet's western limit: 100 sea hexes, or hex row xx29? | proposed | 30.15, 30.23, 24.5 |
+| [R-018](./R-018.md) | The CP cost of building a supply dump: 24.9 text or the Construction Chart? | accepted | 6.3, 24.17, 24.9 |
+| [R-019](./R-019.md) | The fleet's western limit: 100 sea hexes, or hex row xx29? | accepted | 30.15, 30.23, 24.5 |
 | [R-020](./R-020.md) | How often may water be drawn from one well in an Operations Stage? | proposed | 52.13, 52.14, 52.7, 6.3 |
 | [R-021](./R-021.md) | Sweetening a poisoned well: one unit's CPA, or every unit in the hex? | proposed | 52.17, 52.16, 6.3 |
 | [R-022](./R-022.md) | Which units are "vehicles" for the without-water halving in 52.51? | proposed | 52.51, 52.52, 3.1 |

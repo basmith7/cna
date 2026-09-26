@@ -59,13 +59,17 @@ found.
 
 ::: spi 32.21 32.22 32.23 32.24 32.25
 
+::: ruling R-013 — pinned units spend no ammunition in a close assault
+
 Keep ammunition and fuel per supply unit on the dump, convoy or TOE log
 sheets. The fleet and patrolling points need nothing.
 
 - **Ammunition**, per battalion-equivalent (a 5-SP division pays by its
   component counters), at the instant of combat: a non-phasing
   battalion-equivalent pays **1** to defend in an assault and **2** to
-  barrage; a phasing unit pays **double**.
+  barrage; a phasing unit pays **double**. Only units committed to the
+  assault pay; pinned, retreated-in and withheld units in the hex share the
+  losses but spend no ammunition ([R-013](../rulings/R-013.md)).
 - **Fuel**, per stage: the first time a fuel-using unit moves by land in a
   stage it pays its fuel from a supply unit and may then move up to its CPA
   in any pattern; exceeding its CPA costs the same again at that instant. A
