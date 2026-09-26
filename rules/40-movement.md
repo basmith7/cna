@@ -230,10 +230,14 @@ freely between the parent and the units detaching to react.
 
 ::: spi-omit 8.6 — subsection heading
 
+::: ruling R-003 — Contact is fixed at the start of every movement segment, either side's
+
 Two states tie a unit to an enemy combat unit; both are shown with markers:
 
 - **Contact** — the unit is in an enemy ZOC at the start of a movement
-  segment.
+  segment, its own side's or the enemy's. A unit that only enters an enemy
+  ZOC partway through a segment is not yet in contact; the ZOC rules stop
+  it instead (ruling [R-003](../rulings/R-003.md)).
 - **Engaged** — a close-assault result ([Combat](60-combat.md)). An engaged
   unit need not be in an enemy ZOC.
 
