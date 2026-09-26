@@ -67,7 +67,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 | Id | Status | Affects |
 |---|---|---|
-| [R-001](../rulings/R-001.md) | proposed | 6.26, 17.5 |
+| [R-001](../rulings/R-001.md) | accepted | 6.26, 17.5 |
 | [R-002](../rulings/R-002.md) | accepted | 4.1, 8.31, 8.37 |
 | [R-003](../rulings/R-003.md) | proposed | 8.24, 8.61, 8.62, 8.64, 13.22 |
 | [R-004](../rulings/R-004.md) | proposed | 3.1, 8.37, 8.91, 8.92 |
