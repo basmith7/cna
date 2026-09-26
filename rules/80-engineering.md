@@ -123,6 +123,8 @@ rule except training, and needs fuel before it moves.
 
 ::: ruling R-016 — a tank delivery squadron moves only in the truck convoy phase
 
+::: ruling R-017 — a tank delivery squadron reacts or retreats only with a friendly combat unit
+
 The Commonwealth receives three **Tank Delivery Squadrons** (TDS) over the
 game — the Desert Tank Delivery Organisation is a name, not an HQ. A TDS is a
 mobile advanced workshop:
@@ -134,6 +136,9 @@ mobile advanced workshop:
   over its CPA and never into enemy ZOC. It moves only in the truck convoy
   phase (H), whether towing or not ([R-016](../rulings/R-016.md)). Alone in a hex and placed in an
   enemy ZOC, it is eliminated; it returns eight turns later.
+  Only when stacked with a friendly combat unit may it react, retreat
+  before assault, or retreat with the stack after combat
+  ([R-017](../rulings/R-017.md)).
 - Holds up to **3** tank points as reserves (treated as tank replacement
   points), still at 0 SP.
 - Tows up to **3** tank points (besides its reserves) at **20 CP** rather than
