@@ -202,12 +202,15 @@ combat) may be named as a specific target.
 
 ::: spi 12.3 12.31 12.32 12.33 12.34 12.35
 
+::: ruling R-009 — barrage terrain shifts protect the target of either side's barrage, not only the non-phasing player
+
 - Any adjacent occupied hex may be barraged, whatever the terrain or
   hexside; there is no line of sight. Empty hexes may not be barraged
   (facilities are the exception, [below](#barrage-against-facilities)).
 - Each target may be barraged **once per firing hex** per segment. Forward
   artillery in several hexes may pool into that one barrage.
-- Terrain shifts the *row* (barrage points) toward the defender by the
+- Terrain shifts the *row* (barrage points) toward the defender — whichever
+  side is being barraged, phasing or not ([R-009](../rulings/R-009.md)) — by the
   number of columns the Terrain Effects Chart gives, and the best single
   benefit applies — a target in a level-two fortification barraged with 12
   points is resolved on the 7–8 row, not the 11–12. Shifts are not

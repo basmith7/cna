@@ -2,7 +2,7 @@
  "table": "morale-modifier",
  "sources": ["CNA1979:17.4", "scan:p99"],
  "notes": [
-  "As printed the -4 row skips reading 56 (the -2 cell ends at 55 and the -3 cell starts at 61); both scans agree and no errata item covers it; declared in known_gaps for a ruling",
+  "As printed the -4 row skips reading 56 (the -2 cell ends at 55 and the -3 cell starts at 61); both scans agree and no errata item covers it; declared in known_gaps. cna-engine probes/chart-oddities.json at 15a1238: 2.8 % of rolls on this row read 56, so it needs a ruling (R-024)",
   "Rolled once per close assault per side (SPI 17.2x): the row is the side's cohesion level (largest-unit rule for mixed forces), the dice are the sequential two-dice reading, and the column is the modifier added to basic morale for that combat, within the 17.2x caps; 'surrender' means all the units surrender (exception in 17.26)",
   "Transcribed from the archive.org scan (jp2 99) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p5): 0 of 260 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
  ],
