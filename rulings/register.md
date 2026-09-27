@@ -49,7 +49,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-043](./R-043.md) | Fuel capacity when the CPA is not a multiple of five | proposed | 49.13, 49.14 |
 | [R-050](./R-050.md) | What is a unit "without ammunition", and when does it surrender? | accepted | 50.0, 50.12, 50.15 |
 | [R-051](./R-051.md) | Rounding of captured ammunition and stores | accepted | 50.16, 51.16 |
-| [R-052](./R-052.md) | Stores attrition: timing, base and small units | proposed | 51.21, 51.22 |
+| [R-052](./R-052.md) | Stores attrition: timing, base and small units | accepted | 51.21, 51.22 |
 | [R-053](./R-053.md) | Prisoner stores: per stage within a per-turn distribution | proposed | 51.0, 51.12, 51.17, 28.15 |
 | [R-060](./R-060.md) | The Pasta Point: how often is it due, and how long does missing it bite? | proposed | 52.6, 51.1 |
 | [R-061](./R-061.md) | Drawing water from a broken pipeline | proposed | 52.25, 52.23 |

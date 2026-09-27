@@ -175,14 +175,18 @@ Open question, not yet decided: how the per-stage prisoner charge fits a per-tur
 
 ::: spi 51.21 51.22
 
+::: ruling R-052 — attrition falls at the end of each even unfed turn, per unit, on infantry-type points, rounded to nearest (0 means no loss)
+
 1. **Disorganisation.** When even one Strength Point of a unit (the parent
    formation included) goes unfed in a Game-Turn, the whole unit gains
    **1 Disorganization Point** for that turn, and one more for each
    further turn without stores.
-2. **Attrition.** Units in a hex that go **two consecutive Game-Turns**
-   unfed lose **2 %** of their Strength Points (round to the nearest whole
-   point). Each further pair of unfed turns in a row adds 2 % to the rate:
-   4 % after four turns, 6 % after six, and so on. A fed turn ends the run.
+2. **Attrition.** At the end of the second consecutive unfed Game-Turn,
+   each unit loses **2 %** of its infantry-type Strength Points, figured
+   unit by unit and rounded to the nearest whole point; a result of 0 means
+   no loss. The loss recurs only at the end of each further even-numbered
+   turn of the run, the rate rising by 2 % each time: 4 % after four turns,
+   6 % after six, and so on. A fed turn ends the run.
 3. Only **infantry-type** Strength Points are removed by attrition; guns
    and tanks never are.
 
@@ -191,9 +195,6 @@ four turns running. At the end of the second turn it loses 1 point (2 % of
 30 is 0.6, rounded to 1); at the end of the fourth it loses 4 % of what is
 left.
 
-::: note
-Open question, not yet decided: when the attrition is taken, what it is a percentage of, and whether 2 % of a small unit can round to nothing ([R-052](../../rulings/R-052.md)).
-:::
 
 ## Half rations
 
