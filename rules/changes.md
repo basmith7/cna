@@ -94,6 +94,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 - [R-050](../rulings/R-050.md) — out of ammunition means none in the unit or its hex; surrender on being attacked or at the end of an Enemy phase in an Enemy ZOC
+- [R-051](../rulings/R-051.md) — every captured or recaptured share, ammunition or stores, rounds up
 - [V-004](../rulings/V-004.md) — stores paid in instalments
 
 ## [Trucks and dumps](./logistics/40-trucks-and-dumps.md)
@@ -149,7 +150,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-042](../rulings/R-042.md) | proposed | 49.3, 29.3 |
 | [R-043](../rulings/R-043.md) | proposed | 49.13, 49.14 |
 | [R-050](../rulings/R-050.md) | accepted | 50.0, 50.12, 50.15 |
-| [R-051](../rulings/R-051.md) | proposed | 50.16, 51.16 |
+| [R-051](../rulings/R-051.md) | accepted | 50.16, 51.16 |
 | [R-052](../rulings/R-052.md) | proposed | 51.21, 51.22 |
 | [R-053](../rulings/R-053.md) | proposed | 51.0, 51.12, 51.17, 28.15 |
 | [R-060](../rulings/R-060.md) | proposed | 52.6, 51.1 |

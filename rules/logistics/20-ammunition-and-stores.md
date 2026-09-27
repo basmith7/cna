@@ -109,18 +109,17 @@ when this game is not played; it is restated in
 
 ::: spi 50.16
 
+::: ruling R-051 — every captured or recaptured share, ammunition or stores, rounds up
+
 Each side's ammunition fits only its own weapons. When a player captures
 Enemy ammunition, he may keep **one-third** of it, rounded up; the rest is
 destroyed. When a dump is taken back by its original owner, he too may keep
-only one-third of what remains in it.
+only one-third of what remains in it, also rounded up.
 
 *Example.* A dump holding 50 Ammunition Points is captured. The captor keeps
 17 (50 ÷ 3 = 16.7, rounded up). If the original owner retakes the dump with
 those 17 still in it, he keeps 6 (rounding up again).
 
-::: note
-Open question, not yet decided: rounding on recapture, and on the 50 % of captured stores ([R-051](../../rulings/R-051.md)).
-:::
 
 ## Stores
 
@@ -169,8 +168,8 @@ Open question, not yet decided: how the per-stage prisoner charge fits a per-tur
 2. Stores may be moved by truck or by air, and may be airdropped.
 3. A unit may use only stores that are **in its hex**; stores in a truck
    convoy must be off-loaded first.
-4. A player who captures Enemy stores may use **half** of them; the rest
-   are lost.
+4. A player who captures Enemy stores may use **half** of them, rounded
+   up; the rest are lost.
 
 ## Going without stores
 
