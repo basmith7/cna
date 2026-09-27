@@ -96,13 +96,15 @@ fleets shrink in three ways.
 
 ::: spi 58.41
 
+::: ruling R-091 — the set-up loses 10 % of its Truck Points, rounded up, in proportion by type
+
 Each player's initial set-up has fewer **Truck Points**: those that were, or
 would have been, given the job of supplying air facilities are left out.
 
-::: note Open question
-SPI gives no number for this reduction and no set-up line marks those
-trucks: see R-091.
-:::
+SPI prints no figure, so we use the same rate as for arriving trucks: each
+player removes **10 %** of the Truck Points in the initial set-up, rounding
+fractions up, spread in proportion by truck type (light, medium, heavy) and,
+as for abstract losses below, between trucks in convoy and trucks attached.
 
 ### Abstract truck losses {#abstract-truck-losses}
 
