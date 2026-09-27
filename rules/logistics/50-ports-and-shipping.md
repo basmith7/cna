@@ -347,16 +347,16 @@ Tactical Shipping Segment of the Organization Phase.
 
 ::: spi 57.0
 
+::: ruling R-026 — unlimited supply is in Cairo; the Italian campaign adds Alexandria
+
 The Commonwealth never ships supplies into Africa. Its stock in **Cairo** of every
 supply type (fuel, ammunition, water, stores) never runs out; its problem is only
 moving them forward. Commonwealth ships use no supplies. Its troops and
 equipment come by the Reinforcement Schedule and the Commonwealth
 replacement system ([Replacements](../70-organisation.md)).
 
-::: note Open question
-The Italian campaign's set-up places unlimited supply in Alexandria as well;
-which holds is [R-026](../../rulings/R-026.md).
-:::
+In the Italian campaign only, Alexandria is an unlimited source as well,
+because that scenario's set-up says so; every other game uses Cairo alone.
 
 ---
 
