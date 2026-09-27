@@ -114,6 +114,9 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-022](../rulings/R-022.md) | proposed | 52.51, 52.52, 3.1 |
 | [R-023](../rulings/R-023.md) | accepted | 15.79 |
 | [R-024](../rulings/R-024.md) | accepted | 17.4 |
+| [R-030](../rulings/R-030.md) | proposed | 48.0 |
+| [R-031](../rulings/R-031.md) | proposed | 48.0 |
+| [R-032](../rulings/R-032.md) | proposed | 48.0, 58.1, 58.2 |
 
 ## Variants register
 

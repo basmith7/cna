@@ -37,6 +37,9 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-022](./R-022.md) | Which units are "vehicles" for the without-water halving in 52.51? | proposed | 52.51, 52.52, 3.1 |
 | [R-023](./R-023.md) | Close assault, defender +2 column: readings 34–36 | accepted | 15.79 |
 | [R-024](./R-024.md) | Morale Modifier Table, cohesion −4: reading 56 | accepted | 17.4 |
+| [R-030](./R-030.md) | Order of the Logistics organisation segments | proposed | 48.0 |
+| [R-031](./R-031.md) | When the land-support air phase is taken | proposed | 48.0 |
+| [R-032](./R-032.md) | Convoy bombing and fleet bombardment without the Air Game | proposed | 48.0, 58.1, 58.2 |
 
 ## Variants
 

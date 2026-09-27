@@ -64,6 +64,10 @@ This is the Land Game order when the Air and Logistics Games are not in play.
 Stages I–II run once per turn; stage III is the first operations stage and is
 repeated as stages IV and V; VI ends the turn.
 
+::: note
+In the Logistics Game this is replaced by [the Logistics Game turn outline](logistics/00-overview-and-sequence.md#turn-outline).
+:::
+
 ### I. Initiative determination
 
 Resolve initiative as above.
