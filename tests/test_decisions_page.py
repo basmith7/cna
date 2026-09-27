@@ -65,7 +65,9 @@ def test_build_writes_self_contained_page(tmp_path):
     out = tmp_path / "decisions.html"
     dp.build(ROOT, out)
     html = out.read_text()
-    assert "R-020" in html and "map-hill-bands" in html
+    first_open = dp.open_rulings(ROOT)[0]["id"] if dp.open_rulings(ROOT) else None
+    assert first_open is None or first_open in html
+    assert "map-hill-bands" in html
     assert "<script>" in html
     assert 'src="http' not in html and "<link" not in html and "@import" not in html
 

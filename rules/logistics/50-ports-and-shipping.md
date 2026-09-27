@@ -19,15 +19,17 @@ port rules of the Land Game played alone
 
 ::: spi 55.0 55.11
 
+::: ruling R-081 — a port is major if the chart gives it an incoming stacking-point figure above zero
+
 Every port is either a **major port** or a **minor port**. Both kinds may
 ship men and supplies out. A major port may also receive troops; a minor
 port may receive only supplies.
 
-::: note Open question
-The rules give no list of major ports. The chart below gives each port an
-incoming stacking-point figure instead; whether that figure is what makes a
-port major is [R-081](../../rulings/R-081.md).
-:::
+The chart's incoming stacking-point column decides which is which. The
+major ports are those with a figure above zero: Tripoli, Bizerta,
+Alexandria, Tobruk, Benghazi and Mersa Matruh. All others are minor. Bardia
+and Sollum, which the chart rates at zero, may still land a single unit of
+zero stacking points each stage.
 
 ### Efficiency level and capacity
 
@@ -48,11 +50,11 @@ the whole ton. For example, a port with maximum level 4 and a capacity of
 1,000 tons that has been knocked down to level 3 handles 750 tons; knocked
 down to 1, it handles 250 tons.
 
-::: note Open question
-Case 55.12 names Tobruk's level as 5, and the chart prints 5; the campaign
-set-ups start Tobruk at 7. Which figure holds is
-[R-027](../../rulings/R-027.md).
-:::
+::: ruling R-027 — Tobruk's maximum level is the chart's 5; the campaigns start it at 2, not the printed 7
+
+Tobruk's maximum level is 5, as the chart shows. Because the *San Giorgio*
+costs it three levels (below), Tobruk begins each campaign at level 2; the
+level 7 printed in the campaign set-ups is not used.
 
 ### Troops landing and the period of capacity
 
@@ -64,15 +66,13 @@ set-ups start Tobruk at 7. Which figure holds is
    transport rule as corrected by the errata:
    [Naval transport of troops](../90-special.md#naval-transport-of-troops).
    Scheduled reinforcements never touch a port's capacity or level.
+::: ruling R-080 — port capacity is per Operations Stage; Strategic Phase arrivals count against the stage they land in
+
 2. Some ports receive shipments only in a Strategic Phase; others may be
    used in every Operations Stage. A port's capacity covers all it receives,
-   whichever phase the cargo arrives in; keep one running total.
-
-::: note Open question
-The chart gives capacity per Operations Stage; case 55.16 speaks of a
-Game-Turn. Which period the running total covers is
-[R-080](../../rulings/R-080.md).
-:::
+   whichever phase the cargo arrives in. Keep one running total per
+   Operations Stage, reset as each stage begins; cargo landed in a
+   Strategic Phase counts against the stage in which it is landed.
 
 ### Bizerta
 
@@ -114,10 +114,12 @@ These costs are also on the
 When play begins, the wreck of the *San Giorgio*, an Italian cruiser, lies
 in Tobruk harbour and costs the port **three** levels.
 
-::: note Open question
-How those three levels are won back — by clearing, by removing the ship, or
-both — is [R-082](../../rulings/R-082.md).
-:::
+::: ruling R-082 — the San Giorgio's three levels count as blocking and are cleared by engineers
+
+These three levels are treated as blocked levels: they do not come back by
+themselves, and the side holding Tobruk wins them back by clearing (below),
+one level per stage. Removing or sinking the ship itself
+([Special rules](../90-special.md)) restores no levels.
 
 ::: variant V-001 — the San Giorgio as a live gun battery that never reduces Tobruk's efficiency (NJHarman)
 
@@ -128,16 +130,16 @@ HQ with engineer capability — may **clear** a blocked harbour. Clearing is
 blocking in reverse: one level per Operations Stage, paid from supplies in
 the hex:
 
+::: ruling R-083 — Tobruk's blocking and clearing costs stand as printed
+
 | Port | Ammunition | Stores | Other |
 |---|---|---|---|
 | Tobruk | 25 | 10 | — |
 | Benghazi | 100 | 50 | two engineer units present |
 | any other | 50 | 25 | — |
 
-::: note Open question
-Tobruk is the one port that costs more to block than to clear. Whether the
-figures are swapped is [R-083](../../rulings/R-083.md).
-:::
+Tobruk is thus the one port dearer to block than to clear: its open
+harbour is hard to choke and quick to reopen.
 
 ### Mines
 
@@ -329,6 +331,8 @@ printed on it.
 
 ::: spi 56.32 56.34
 
+::: ruling R-025 — Axis coastal ship counters sail in the Truck Convoy Phase; Commonwealth port-to-port transfers stay in the Tactical Shipping Segment
+
 Coastal ships move in the **Truck Convoy Phase** only.
 
 1. At the start of that phase, load supplies at a port for **5 CP**. A ship
@@ -337,14 +341,15 @@ Coastal ships move in the **Truck Convoy Phase** only.
 2. Move the ship.
 3. Unload for another **5 CP**.
 
-::: note Open question
-The sequence of play puts coastal shipping in the Tactical Shipping Segment
-instead; which governs is [R-025](../../rulings/R-025.md).
-:::
+This timing is for the Axis coastal ship counters alone. Commonwealth
+transfers between ports, which use no counters, still happen in the
+Tactical Shipping Segment of the Organization Phase.
 
 ## Commonwealth supply base
 
 ::: spi 57.0
+
+::: ruling R-026 — unlimited supply is in Cairo; the Italian campaign adds Alexandria
 
 The Commonwealth never ships supplies into Africa. Its stock in **Cairo** of every
 supply type (fuel, ammunition, water, stores) never runs out; its problem is only
@@ -352,10 +357,8 @@ moving them forward. Commonwealth ships use no supplies. Its troops and
 equipment come by the Reinforcement Schedule and the Commonwealth
 replacement system ([Replacements](../70-organisation.md)).
 
-::: note Open question
-The Italian campaign's set-up places unlimited supply in Alexandria as well;
-which holds is [R-026](../../rulings/R-026.md).
-:::
+In the Italian campaign only, Alexandria is an unlimited source as well,
+because that scenario's set-up says so; every other game uses Cairo alone.
 
 ---
 

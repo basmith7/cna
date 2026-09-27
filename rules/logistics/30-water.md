@@ -69,9 +69,13 @@ draws 200 Water Points. The result is starred, so the owner rolls again
 behind his hand and gets a 1. He writes the bir down as dry and says
 nothing.
 
-::: note
-Open question, not yet decided: how many draws one well allows in an Operations Stage ([R-020](../../rulings/R-020.md)).
-:::
+::: ruling R-020 — one draw per village or bir well per Operations Stage
+
+A village or bir well can be drawn from **once** per Operations Stage. The
+first unit to pay its CP makes the roll; after that the well is closed to
+every unit, friend or foe, until the next stage, whether or not the roll
+depleted it. Major-city, oasis and pipeline sources have no such limit
+(ruling [R-020](../../rulings/R-020.md)).
 
 ### Depleted wells
 
@@ -114,9 +118,12 @@ A poisoned well may be **sweetened** so that it can be drawn from again.
 3. Further attempts may follow, at 5 CP each, but a unit may not go beyond
    its CPA making them.
 
-::: note
-Open question, not yet decided: whether that CPA limit applies per unit or to the whole effort at one well ([R-021](../../rulings/R-021.md)).
-:::
+::: ruling R-021 — only one unit per well per Operations Stage may try to sweeten it
+
+Only **one** unit may work at sweetening a given well in an Operations
+Stage. That unit may keep trying, 5 CP a try, until it succeeds or its CPA
+is used up; no other unit may try at that well that stage (ruling
+[R-021](../../rulings/R-021.md)).
 
 ## Water pipelines {#pipelines}
 
@@ -153,9 +160,11 @@ is destroyed. When a hex is lost, water still flows up to the last hex that
 remains joined to the source, and no further. Counters are supplied for
 pipeline and for destroyed pipeline.
 
-::: note
-Open question, not yet decided: which hexes of a broken pipeline may still be drawn from ([R-061](../../rulings/R-061.md)).
-:::
+::: ruling R-061 — a broken pipeline still works up to the break
+
+Every pipeline hex still joined to its source keeps working as a full
+source; the break only cuts off the hexes beyond it (ruling
+[R-061](../../rulings/R-061.md)).
 
 ## Oases {#oases}
 
@@ -190,9 +199,12 @@ battalion of 4 TOE Strength Points with 3 Truck Points. In a stage where
 only the infantry moves, the stack needs 1 Water Point. If the artillery
 also moves, it needs 1 + 4 + 3 = **8**.
 
-::: note
-Open question, not yet decided: where a unit's water must be for it to count as watered ([R-062](../../rulings/R-062.md)).
-:::
+::: ruling R-062 — water must be in the unit's own hex
+
+A unit is watered only from water in its **own hex** — what it carries, its
+trucks, a dump there, or a well or pipeline in the hex — at some point in
+the stage; the points are deducted then. Water elsewhere does not count,
+just as for fuel (ruling [R-062](../../rulings/R-062.md)).
 
 ::: spi 52.43 52.44 52.45
 
@@ -215,9 +227,12 @@ A **vehicle** unit with no water in a stage:
 3. if close-assaulted, halves its total raw strength before its actual
    strength is worked out.
 
-::: note
-Open question, not yet decided: whether gun units count as vehicles here ([R-022](../../rulings/R-022.md)).
-:::
+::: ruling R-022 — gun units count as vehicles when out of water
+
+Gun units — artillery, anti-tank and anti-aircraft — count as vehicles for
+this rule, just as they do for water usage above: any unit that moves by
+vehicle takes these three limits, and only units on foot follow the
+infantry rule below (ruling [R-022](../../rulings/R-022.md)).
 
 ::: spi 52.52 52.53
 
@@ -251,9 +266,13 @@ Italian troops lived largely on pasta, which needs water to cook. So:
 4. When it does get its Pasta Point, it returns to the Cohesion Level it
    had before it fell apart.
 
-::: note
-Open question, not yet decided: how often the Pasta Point is due and how long its penalty lasts ([R-060](../../rulings/R-060.md)).
-:::
+::: ruling R-060 — the Pasta Point is due once per Game-Turn; the CPA limit lasts the whole turn
+
+The Pasta Point is due **once per Game-Turn**, with the normal stores
+distribution, not with every later top-up. A battalion that misses it keeps
+the CPA limit for the rest of that Game-Turn even if the point reaches it
+later; only the Cohesion effect ends on delivery (ruling
+[R-060](../../rulings/R-060.md)).
 
 ---
 
