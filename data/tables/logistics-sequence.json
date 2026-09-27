@@ -7,7 +7,7 @@
   "Printed only in the rules text of 48.0 (no chart sheet); the adoc transcription is the second reading of the scan",
   "attaches_to names the Land Game (5.2) point the step corresponds to, using common.schema phase names plus initiative-determination, naval-convoy and turn-end; null = no Land Game counterpart",
   "Stage V is the first operations stage; stages VI and VII repeat it in full",
-  "In stage V, phases A-E are joint and G-L are done by Player A then Player B; how phase F is taken is proposed ruling R-031",
+  "In stage V, phases A-F are joint (phase F once per stage by both sides, ruling R-031) and G-L are done by Player A then Player B",
   "Tactical shipping sits in Land Game stage II; here it is a segment of the organisation phase, every stage"
  ],
  "rows": [

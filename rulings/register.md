@@ -37,16 +37,16 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-022](./R-022.md) | Which units are "vehicles" for the without-water halving in 52.51? | accepted | 52.51, 52.52, 3.1 |
 | [R-023](./R-023.md) | Close assault, defender +2 column: readings 34–36 | accepted | 15.79 |
 | [R-024](./R-024.md) | Morale Modifier Table, cohesion −4: reading 56 | accepted | 17.4 |
-| [R-025](./R-025.md) | When does coastal shipping move? | proposed | 48.0, 56.32 |
-| [R-026](./R-026.md) | Where is the Commonwealth's unlimited supply: Cairo, or Cairo and Alexandria? | proposed | 57.0, 60.44 |
-| [R-027](./R-027.md) | Tobruk's port efficiency level | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
-| [R-030](./R-030.md) | Order of the Logistics organisation segments | proposed | 48.0 |
-| [R-031](./R-031.md) | When the land-support air phase is taken | proposed | 48.0 |
-| [R-032](./R-032.md) | Convoy bombing and fleet bombardment without the Air Game | proposed | 48.0, 58.1, 58.2 |
-| [R-040](./R-040.md) | Does fuel in a unit's own tanks evaporate? | proposed | 49.3, 49.14, 29.3 |
-| [R-041](./R-041.md) | Part-blocks of 5 CP: per move or across the stage? | proposed | 49.13, 49.15, 49.16 |
-| [R-042](./R-042.md) | How the evaporation rates combine | proposed | 49.3, 29.3 |
-| [R-043](./R-043.md) | Fuel capacity when the CPA is not a multiple of five | proposed | 49.13, 49.14 |
+| [R-025](./R-025.md) | When does coastal shipping move? | accepted | 48.0, 56.32 |
+| [R-026](./R-026.md) | Where is the Commonwealth's unlimited supply: Cairo, or Cairo and Alexandria? | accepted | 57.0, 60.44 |
+| [R-027](./R-027.md) | Tobruk's port efficiency level | accepted | 55.12, 55.25, 55.3, 60.7, 61.6 |
+| [R-030](./R-030.md) | Order of the Logistics organisation segments | accepted | 48.0 |
+| [R-031](./R-031.md) | When the land-support air phase is taken | accepted | 48.0 |
+| [R-032](./R-032.md) | Convoy bombing and fleet bombardment without the Air Game | accepted | 48.0, 58.1, 58.2 |
+| [R-040](./R-040.md) | Does fuel in a unit's own tanks evaporate? | accepted | 49.3, 49.14, 29.3 |
+| [R-041](./R-041.md) | Part-blocks of 5 CP: per move or across the stage? | accepted | 49.13, 49.15, 49.16 |
+| [R-042](./R-042.md) | How the evaporation rates combine | accepted | 49.3, 29.3 |
+| [R-043](./R-043.md) | Fuel capacity when the CPA is not a multiple of five | accepted | 49.13, 49.14 |
 | [R-050](./R-050.md) | What is a unit "without ammunition", and when does it surrender? | proposed | 50.0, 50.12, 50.15 |
 | [R-051](./R-051.md) | Rounding of captured ammunition and stores | proposed | 50.16, 51.16 |
 | [R-052](./R-052.md) | Stores attrition: timing, base and small units | proposed | 51.21, 51.22 |
@@ -58,13 +58,13 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-071](./R-071.md) | May one rail run carry both units and supplies in the Logistics Game? | proposed | 54.31, 54.32, 54.33, 8.72 |
 | [R-072](./R-072.md) | How Axis rolling stock adds up and when Axis trains move | proposed | 54.43, 54.44, 54.46 |
 | [R-073](./R-073.md) | Are the Tunis/Tripoli boxes supply dumps? | proposed | 54.13 |
-| [R-080](./R-080.md) | Is a port's capacity per Operations Stage or per Game-Turn? | proposed | 55.14, 55.16, 55.3 |
-| [R-081](./R-081.md) | Which ports are major ports? | proposed | 55.11, 55.3 |
-| [R-082](./R-082.md) | How are the *San Giorgio*'s three levels at Tobruk regained? | proposed | 55.18, 55.25, 55.26, 30.17 |
-| [R-083](./R-083.md) | Are Tobruk's blocking and clearing costs swapped? | proposed | 55.22, 55.23, 55.26 |
-| [R-090](./R-090.md) | Axis fuel lost on landing: rounding and which landings count | proposed | 58.3 |
-| [R-091](./R-091.md) | How many trucks leave the initial set-up without the Air Game? | proposed | 58.41 |
-| [R-092](./R-092.md) | Abstract truck losses: timing, base and rounding | proposed | 58.42, 58.44, 32.57 |
+| [R-080](./R-080.md) | Is a port's capacity per Operations Stage or per Game-Turn? | accepted | 55.14, 55.16, 55.3 |
+| [R-081](./R-081.md) | Which ports are major ports? | accepted | 55.11, 55.3 |
+| [R-082](./R-082.md) | How are the *San Giorgio*'s three levels at Tobruk regained? | accepted | 55.18, 55.25, 55.26, 30.17 |
+| [R-083](./R-083.md) | Are Tobruk's blocking and clearing costs swapped? | accepted | 55.22, 55.23, 55.26 |
+| [R-090](./R-090.md) | Axis fuel lost on landing: rounding and which landings count | accepted | 58.3 |
+| [R-091](./R-091.md) | How many trucks leave the initial set-up without the Air Game? | accepted | 58.41 |
+| [R-092](./R-092.md) | Abstract truck losses: timing, base and rounding | accepted | 58.42, 58.44, 32.57 |
 
 ## Variants
 

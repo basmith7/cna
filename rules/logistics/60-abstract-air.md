@@ -34,12 +34,15 @@ These may **not** be attacked this way:
 - Axis coastal shipping;
 - either player's tactical shipping.
 
+::: ruling R-032 — the abstract convoy attack is made in the convoy bombing segment
+
+The attack is made in the bombing segment (3) of the convoy resolution phase,
+once per turn, the only convoy-resolution segment that still runs without the
+Air Game.
+
 ::: note Open question
 How the 32.6 rounding rules (the 10 % result versus 20 % or more) map onto
-itemised cargo, and in which segment of convoy resolution the attack is
-made, are open. The timing is
-[R-032](../../rulings/R-032.md) (proposed with the Logistics Game overview); this file does not
-duplicate it.
+itemised cargo is still open.
 :::
 
 ## Commonwealth fleet bombardment {#fleet-bombardment}
@@ -52,29 +55,34 @@ The Axis may strike the Commonwealth fleet exactly as in the Land Game's
 stage, damage read from the Air Bombardment and Secondary Barrage Targets
 table.
 
-::: note Open question
-Where these strikes fall in the Logistics Game sequence of play is open:
-see [R-032](../../rulings/R-032.md) (proposed with the Logistics Game overview).
-:::
+::: ruling R-032 — fleet strikes are plotted and resolved in the Commonwealth fleet phase
+
+The Logistics sequence has no tactical naval movement segment, so each strike
+is plotted secretly while the Commonwealth assigns its ships (phase E,
+segment 1) and resolved at the end of that same fleet phase; still at most
+one per operations stage.
 
 ## Axis fuel lost on landing {#axis-fuel-loss}
 
 ::: spi 58.3
 
+::: ruling R-090 — only convoy fuel from Europe is cut; the loss is rounded up
+
 Supplies are otherwise untouched. One rule applies, to the Axis only:
 
-1. When fuel is unloaded in a port, the Axis at once loses **three-quarters**
-   of the Fuel Points unloaded. This stands for fuel the Luftwaffe and
+1. When fuel from a naval convoy is unloaded in a port, the Axis at once
+   loses **three-quarters** of the Fuel Points unloaded, rounding the loss
+   up (the Axis keeps the rounded-down quarter). Fuel moved between African
+   ports by coastal or tactical shipping has already paid, and is not cut
+   again. This stands for fuel the Luftwaffe and
    Regia Aeronautica would have burned.
 2. Only then is any evaporation loss worked out, on the quarter that is left.
 
 *Example (ours):* 80 Fuel Points are unloaded at Benghazi. 60 are removed at
 once; evaporation is later taken on the remaining 20.
 
-::: note Open question
-Rounding, and whether fuel landed by coastal or tactical shipping counts as
-"brought into a port", are open: see R-090.
-:::
+*Example (ours):* 30 Fuel Points arrive by convoy at Tripoli; the loss is
+22.5, rounded up to 23, and 7 remain.
 
 ## Trucks {#trucks}
 
@@ -88,17 +96,21 @@ fleets shrink in three ways.
 
 ::: spi 58.41
 
+::: ruling R-091 — the set-up loses 10 % of its Truck Points, rounded up, in proportion by type
+
 Each player's initial set-up has fewer **Truck Points**: those that were, or
 would have been, given the job of supplying air facilities are left out.
 
-::: note Open question
-SPI gives no number for this reduction and no set-up line marks those
-trucks: see R-091.
-:::
+SPI prints no figure, so we use the same rate as for arriving trucks: each
+player removes **10 %** of the Truck Points in the initial set-up, rounding
+fractions up, spread in proportion by truck type (light, medium, heavy) and,
+as for abstract losses below, between trucks in convoy and trucks attached.
 
 ### Abstract truck losses {#abstract-truck-losses}
 
 ::: spi 58.42 58.44
+
+::: ruling R-092 — monthly truck loss at the first naval convoy stage, on-map base, total rounded up and split by largest remainder
 
 On top of what land combat destroys, both players lose trucks each month to
 abstract strafing and bombing.
@@ -123,11 +135,15 @@ convoy, and 40 light, 70 medium and 40 heavy attached. A 10 % loss is 20
 points, taken as 2 light and 3 medium from the convoys and 4 light, 7 medium
 and 4 heavy from the attached trucks.
 
-::: note Open question
-When in the month the loss is taken, which trucks form the base (on the map
-only, or boxes too), and how fractions are rounded when the proportional
-split does not come out even, are open: see R-092.
-:::
+**When and on what.** As in the Land Game, the loss for the previous month
+is taken in the naval convoy stage (III) of the month's first turn. The base
+is the player's Truck Points on the map at that moment, the Tripolitania–Tunis
+boxes included; trucks still at sea or not yet arrived do not count.
+
+**Rounding.** Work out the total loss first and round it up. Then give each
+type-and-location share its whole-number part, and hand the points still
+owed one at a time to the shares with the largest fractions left over (ties:
+the owner chooses). The shares always add up to the total.
 
 ### Trucks withheld on arrival {#arriving-trucks}
 

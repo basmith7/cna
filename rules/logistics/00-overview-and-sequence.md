@@ -103,6 +103,8 @@ Both players roll for initiative exactly as in the
 - **A. Convoy schedule** — the Axis player reads the convoy level chart,
   rolls one die on the convoy capacity table for the tonnage available
   **next** turn, then plans cargoes and routes.
+::: ruling R-032 — without the Air Game, abstract convoy attacks fall in convoy bombing; fleet strikes in the fleet phase
+
 - **B. Convoy resolution**, in three segments:
   1. *Reconnaissance* (Air Game only) — the Commonwealth flies strategic
      convoy reconnaissance.
@@ -110,8 +112,9 @@ Both players roll for initiative exactly as in the
      patrol over chosen convoy lanes; Commonwealth bombing-reserve aircraft
      take patrol, flak suppression or bombing over chosen lanes.
   3. *Bombing* — air combat, flak suppression, anti-aircraft fire and convoy
-     bombing are resolved. Without the Air Game, see
-     [R-032](../../rulings/R-032.md).
+     bombing are resolved. Without the Air Game, the Commonwealth's abstract
+     attack on Axis convoys is made here instead
+     ([R-032](../../rulings/R-032.md)).
 
 Unlike the Land Game, tactical shipping is not planned here; it moves to
 the organisation phase of every operations stage.
@@ -124,15 +127,22 @@ Both then reduce stocks of fuel and water for spillage and evaporation.
 
 ### V. First operations stage
 
-Phases A–E are joint. The Land Game's phases then run for Player A, and
-again for Player B with the labels swapped (see
-[R-031](../../rulings/R-031.md) for where phase F falls).
+::: ruling R-030 — the organisation segments run in any order; attrition checks supply as it stands when run
+
+::: ruling R-031 — the land-support air phase is flown once per stage, by both sides together
+
+Phases A–F are joint: land-support air (F), when the Air Game is used, is
+flown once per stage by both sides together, after the fleet phase and
+before Player A designates reserves. The Land Game's phases from G on then
+run for Player A, and again for Player B with the labels swapped.
 
 - **A. Initiative declaration** — as in the Land Game.
 - **B. Weather** — as in the Land Game; hot weather also costs the extra
   fuel and water evaporation now.
 - **C. Organisation** — seven segments, in any order the players choose
-  (see [R-030](../../rulings/R-030.md)):
+  ([R-030](../../rulings/R-030.md): the order is really free, so attrition
+  judges a unit's water and stores as they stand when that segment is run;
+  hand out water and supplies first if you want them to count):
   1. *Water distribution* — water goes to the units that need it
      (*Water*). **New.**
   2. *Reorganisation* — as in the Land Game; unassigned trucks may be
@@ -148,15 +158,18 @@ again for Player B with the labels swapped (see
      (*Ports and shipping*). Axis coastal ships
      are counters; Commonwealth coastal shipping has none and is limited
      only by port capacity. (Moved here from the Land Game's stage II.)
-     Whether Axis coastal ships sail here or in the truck convoy phase is
-     open: see [R-025](../../rulings/R-025.md).
+     Axis coastal ship counters do not sail here but in each player's
+     truck convoy phase ([R-025](../../rulings/R-025.md)).
 - **D. Convoy arrival** — reinforcements, replacement points and supplies
   due now, and actually arriving, are placed at their ports or entry hexes.
   The Axis plans future replacements from its pool. In the first arrival
   phase of each month the Commonwealth reads its production table for the
   points arriving two months later and plans their arrival.
 - **E. Commonwealth fleet** — assign ships to sea or coastal hexes for
-  bombardment, then repair ships.
+  bombardment, then repair ships. Without the Air Game, an Axis strike on
+  the fleet is plotted secretly during fleet assignment and resolved at the
+  end of this phase, at most once per stage
+  ([R-032](../../rulings/R-032.md)).
 - **F. Land-support air** *(Air Game only)* — only aircraft designated for
   land support in stage II fly. Seven segments: assign missions to fuelled
   aircraft; place mission counters; resolve air-to-air combat (including
