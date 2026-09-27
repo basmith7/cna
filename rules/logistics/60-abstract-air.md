@@ -66,20 +66,23 @@ one per operations stage.
 
 ::: spi 58.3
 
+::: ruling R-090 — only convoy fuel from Europe is cut; the loss is rounded up
+
 Supplies are otherwise untouched. One rule applies, to the Axis only:
 
-1. When fuel is unloaded in a port, the Axis at once loses **three-quarters**
-   of the Fuel Points unloaded. This stands for fuel the Luftwaffe and
+1. When fuel from a naval convoy is unloaded in a port, the Axis at once
+   loses **three-quarters** of the Fuel Points unloaded, rounding the loss
+   up (the Axis keeps the rounded-down quarter). Fuel moved between African
+   ports by coastal or tactical shipping has already paid, and is not cut
+   again. This stands for fuel the Luftwaffe and
    Regia Aeronautica would have burned.
 2. Only then is any evaporation loss worked out, on the quarter that is left.
 
 *Example (ours):* 80 Fuel Points are unloaded at Benghazi. 60 are removed at
 once; evaporation is later taken on the remaining 20.
 
-::: note Open question
-Rounding, and whether fuel landed by coastal or tactical shipping counts as
-"brought into a port", are open: see R-090.
-:::
+*Example (ours):* 30 Fuel Points arrive by convoy at Tripoli; the loss is
+22.5, rounded up to 23, and 7 remain.
 
 ## Trucks {#trucks}
 
