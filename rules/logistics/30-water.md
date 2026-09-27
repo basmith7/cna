@@ -222,9 +222,12 @@ A **vehicle** unit with no water in a stage:
 3. if close-assaulted, halves its total raw strength before its actual
    strength is worked out.
 
-::: note
-Open question, not yet decided: whether gun units count as vehicles here ([R-022](../../rulings/R-022.md)).
-:::
+::: ruling R-022 — gun units count as vehicles when out of water
+
+Gun units — artillery, anti-tank and anti-aircraft — count as vehicles for
+this rule, just as they do for water usage above: any unit that moves by
+vehicle takes these three limits, and only units on foot follow the
+infantry rule below (ruling [R-022](../../rulings/R-022.md)).
 
 ::: spi 52.52 52.53
 

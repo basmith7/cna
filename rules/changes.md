@@ -99,6 +99,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-020](../rulings/R-020.md) — one draw per village or bir well per Operations Stage
 - [R-021](../rulings/R-021.md) — only one unit per well per Operations Stage may try to sweeten it
+- [R-022](../rulings/R-022.md) — gun units count as vehicles when out of water
 
 ## [Trucks and dumps](./logistics/40-trucks-and-dumps.md)
 
@@ -139,7 +140,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-019](../rulings/R-019.md) | accepted | 30.15, 30.23, 24.5 |
 | [R-020](../rulings/R-020.md) | accepted | 52.13, 52.14, 52.7, 6.3 |
 | [R-021](../rulings/R-021.md) | accepted | 52.17, 52.16, 6.3 |
-| [R-022](../rulings/R-022.md) | proposed | 52.51, 52.52, 3.1 |
+| [R-022](../rulings/R-022.md) | accepted | 52.51, 52.52, 3.1 |
 | [R-023](../rulings/R-023.md) | accepted | 15.79 |
 | [R-024](../rulings/R-024.md) | accepted | 17.4 |
 | [R-025](../rulings/R-025.md) | proposed | 48.0, 56.32 |
