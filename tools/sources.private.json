@@ -1,0 +1,8 @@
+{
+  "_note": "Gitignored. Personal identifiers and confidentiality details removed from tools/sources.json on 2026-09-22 (review finding: private material in a public repo). Do not commit this file.",
+  "vassal.credits": "v2.1 Norman Harman 2024-09 (njharman@gmail.com); v2 Mitch Guthrie 2021-09; map Mitch Guthrie 2021; original Pete Phillipps 2020-03",
+  "vassal.saves.what": "Nine .vsav/.vlog files from the Discord group's game (room 'Bombe su Londra'; players FreundA, Illuminutter, matvey), game turn 3 op-stage II, saved 2026-09-12. Full counter positions plus move/dice logs; candidate engine fixtures and a check of the hex-grid convention. Private game data: never commit.",
+  "njharman_src.what": "Norman Harman's private CfNA code drop (cna_src.tgz, 8.6 MB), emailed 2026-09-19 in reply to our house-rules/hex-database question. Local copy under ~/.cache/cna-njharman/ (tarball + extracted tree).",
+  "njharman_src.licence": "PRIVATE. Shared on the promise it stays private (he has not published it for fear of Decision Games' lawyers). The CC-BY-SA grant in the same thread covers friendorfoe.com content only, not this drop. Never commit any file from it, never quote its data files verbatim; use it as an independent cross-check for our own extractions and cite as src:njharman:<path> in EXTRACTION.md. Ask before deriving any committed artifact from it.",
+  "njharman_src.email": "Gmail thread 'Can I reference your house rules and do you have the hex database?', njharman@gmail.com, 2026-09-19."
+}

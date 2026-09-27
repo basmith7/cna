@@ -6,17 +6,34 @@ of the last one; this file plus the journal is the only continuity.
 
 ## Mission
 
-**Mission 4, issued 2026-09-26: decide the open questions.** Missions 1–3
+**Mission 5, issued 2026-09-27: the Logistics Game (§48–58).** Missions 1–4
 are done; their `COMPLETE` entries in the journal and `PROGRESS.md` are not a
 reason to idle.
 
-On 2026-09-26 Brian delegated every decision that is cheap to reverse. A
-ruling is cheap to reverse: anyone can dispute and supersede it
-(`rulings/README.md`), and in the engine it is one switch. The policy is the
-last section of the cna-engine spec,
-<https://github.com/basmith7/cna-engine/blob/main/docs/designs/2026-09-26-engine-probes-design.md>.
-The one exception: anything Brian writes in **Feedback** about a ruling or a
-board item wins.
+Two documents govern this mission. Read both before touching anything:
+
+- **Spec:** `docs/designs/2026-09-27-logistics-game-design.md`
+- **Plan:** `docs/plans/2026-09-27-logistics-game.md`. Follow it task by
+  task. Where the plan and the spec disagree, follow the spec and say so in
+  the journal.
+
+The delegation of 2026-09-26 still stands: decide anything cheap to reverse
+yourself. Anything Brian writes in **Feedback** wins. Bring him only
+questions of fact that need his printed copy: add them to the `copy` group
+of `docs/autopilot/decisions.json` and to **Next steps**, and leave the data
+as read.
+
+Parts, in order (plan task numbers):
+
+1. **Tooling** (Task 1), one PR.
+2. **Seed NJHarman's logistics items** (Task 2), one PR.
+3. **Rules files** (Tasks 3–9), one PR per file, in the plan's order.
+4. **Decide every logistics ruling** (Task 10), R-020–R-022 included, one
+   PR each, by the procedure below.
+5. **Docs** (Task 11), one PR.
+
+When all five are merged, log `MISSION 5 COMPLETE` in the journal and
+`PROGRESS.md` and do nothing further.
 
 ### How to decide a ruling
 
@@ -34,66 +51,13 @@ board item wins.
 4. One PR per ruling, branch `autopilot/ruling-r-nnn`. Merge it once the
    gates below are green.
 
-### Part A: interpretive rulings (one PR each)
-
-R-002, R-003, R-004, R-005, R-006, R-007, R-008, R-010, R-013, R-014, R-016,
-R-017, R-019. For R-019 the map now exists (`data/map/`): count the sea hexes,
-then decide.
-
-### Part B: board defaults (one PR, `autopilot/board-defaults`)
-
-Apply these, then delete each item from `docs/autopilot/decisions.json`:
-
-- `map-vertex`: record neither (no data change).
-- `map-rail-along-hexside`: keep only the track crossing (no data change).
-- `map-villages`: no; the scenarios sub-project will add them.
-- `map-malta-numbering`: keep the VASSAL numbering.
-- `map-valletta`: stays a sea hex with a port.
-- `chart-e025`: the current reading stands.
-- `chart-vs-text`: leave the disagreements as noted in the tables; cna-engine
-  slice 4 probes them with R-018.
-- `site-learn-dark`: keep the light island.
-- `site-original-text`: check it yourself. Load a rules page on the deployed
-  site in headless Chrome (`/usr/bin/google-chrome`) and click one *Original
-  text* block. If it works, delete the item. If it is broken, fix it in its own
-  PR.
-
-`chart-oddities` waits for cna-engine's `probes/chart-oddities.json`. Once
-that file exists, record what it shows in the table's notes. A cell that
-cannot be rolled needs no ruling. For any gap that can be rolled, open a
-proposed ruling (the next `R-nnn`) with the options (the neighbouring row
-above, the row below, no loss) and decide it as in Part C.
-
-### Part C: rulings a probe covers (one PR each)
-
-R-011 and R-012 (cna-engine slice 1), R-009 and R-015 (slice 2), R-001
-(slice 3), R-018 (slice 4). A ruling is ready once its probe is on
-cna-engine `main`:
-
-```bash
-gh api -H 'Accept: application/vnd.github.raw' repos/basmith7/cna-engine/contents/probes/R-012.json
-```
-
-A 404 means it is not ready. Skip it; that is not a blocker. Once Parts A and
-B are done and every remaining Part C ruling is waiting on a probe, end the
-run early and say so in the journal.
-
-### Leave alone
-
-- R-020, R-021, R-022. They need the Logistics Game (§47–58) restated first.
-- The `copy` group in `decisions.json`. Only Brian's printed copy can answer
-  those; they stay as read. Add to it only questions of fact that need his
-  copy. Decide everything else yourself.
-
-When Parts A and B are merged and all six Part C rulings are accepted, log
-`MISSION 4 COMPLETE` in the journal and `PROGRESS.md` and do nothing further.
-
 ### Gates for every PR
 
 All green locally before `gh pr ready`: `pytest`, `check_data.py`,
 `check_overlap.py` (with and without arguments), `tools/gen_pages.py` (no
 diff left over), `npm run test:site`, `npm run site:build`. Never commit
-anything under `build/`.
+anything under `build/`. Add `check_coverage.py --sections` for the sections the PR draws on
+(0 uncovered).
 
 ## Picking up where the last run left off
 
