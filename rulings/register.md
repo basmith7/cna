@@ -44,7 +44,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-031](./R-031.md) | When the land-support air phase is taken | proposed | 48.0 |
 | [R-032](./R-032.md) | Convoy bombing and fleet bombardment without the Air Game | proposed | 48.0, 58.1, 58.2 |
 | [R-040](./R-040.md) | Does fuel in a unit's own tanks evaporate? | proposed | 49.3, 49.14, 29.3 |
-| [R-041](./R-041.md) | Part-blocks of 5 CP: per move or across the stage? | proposed | 49.13, 49.15, 49.16 |
+| [R-041](./R-041.md) | Part-blocks of 5 CP: per move or across the stage? | accepted | 49.13, 49.15, 49.16 |
 | [R-042](./R-042.md) | How the evaporation rates combine | proposed | 49.3, 29.3 |
 | [R-043](./R-043.md) | Fuel capacity when the CPA is not a multiple of five | proposed | 49.13, 49.14 |
 

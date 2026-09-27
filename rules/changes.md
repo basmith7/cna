@@ -88,6 +88,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Fuel](./logistics/10-fuel.md)
 
+- [R-041](../rulings/R-041.md) — part-blocks of five CP are rounded up for each Movement Segment's draw
 - [V-002](../rulings/V-002.md) — fuel in vehicles' tanks does not evaporate
 
 ## Rulings register
@@ -125,7 +126,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-031](../rulings/R-031.md) | proposed | 48.0 |
 | [R-032](../rulings/R-032.md) | proposed | 48.0, 58.1, 58.2 |
 | [R-040](../rulings/R-040.md) | proposed | 49.3, 49.14, 29.3 |
-| [R-041](../rulings/R-041.md) | proposed | 49.13, 49.15, 49.16 |
+| [R-041](../rulings/R-041.md) | accepted | 49.13, 49.15, 49.16 |
 | [R-042](../rulings/R-042.md) | proposed | 49.3, 29.3 |
 | [R-043](../rulings/R-043.md) | proposed | 49.13, 49.14 |
 

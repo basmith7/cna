@@ -66,9 +66,12 @@ rating**. We do not reproduce those values here; they are per-unit data.
 13 CP. That is two full blocks of five and one part-block, so three blocks:
 it burns 3 × 2 = **6** Fuel Points.
 
-::: note
-Open question, not yet decided: whether part-blocks of 5 CP are counted per move or across a stage ([R-041](../../rulings/R-041.md)).
-:::
+::: ruling R-041 — part-blocks of five CP are rounded up for each Movement Segment's draw
+
+Part-blocks are counted **per Movement Segment**: the CP a unit will spend
+moving in one segment are split into blocks of five and any part-block is
+charged in full, when the fuel for that segment is drawn. Nothing carries
+over to the next segment; three 3-CP moves in one stage cost three blocks.
 
 ::: note
 Open question, not yet decided: capacity when the CPA is not a multiple of five ([R-043](../../rulings/R-043.md)).
