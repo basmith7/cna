@@ -34,12 +34,15 @@ These may **not** be attacked this way:
 - Axis coastal shipping;
 - either player's tactical shipping.
 
+::: ruling R-032 — the abstract convoy attack is made in the convoy bombing segment
+
+The attack is made in the bombing segment (3) of the convoy resolution phase,
+once per turn, the only convoy-resolution segment that still runs without the
+Air Game.
+
 ::: note Open question
 How the 32.6 rounding rules (the 10 % result versus 20 % or more) map onto
-itemised cargo, and in which segment of convoy resolution the attack is
-made, are open. The timing is
-[R-032](../../rulings/R-032.md) (proposed with the Logistics Game overview); this file does not
-duplicate it.
+itemised cargo is still open.
 :::
 
 ## Commonwealth fleet bombardment {#fleet-bombardment}
@@ -52,10 +55,12 @@ The Axis may strike the Commonwealth fleet exactly as in the Land Game's
 stage, damage read from the Air Bombardment and Secondary Barrage Targets
 table.
 
-::: note Open question
-Where these strikes fall in the Logistics Game sequence of play is open:
-see [R-032](../../rulings/R-032.md) (proposed with the Logistics Game overview).
-:::
+::: ruling R-032 — fleet strikes are plotted and resolved in the Commonwealth fleet phase
+
+The Logistics sequence has no tactical naval movement segment, so each strike
+is plotted secretly while the Commonwealth assigns its ships (phase E,
+segment 1) and resolved at the end of that same fleet phase; still at most
+one per operations stage.
 
 ## Axis fuel lost on landing {#axis-fuel-loss}
 

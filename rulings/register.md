@@ -42,7 +42,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-027](./R-027.md) | Tobruk's port efficiency level | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
 | [R-030](./R-030.md) | Order of the Logistics organisation segments | accepted | 48.0 |
 | [R-031](./R-031.md) | When the land-support air phase is taken | accepted | 48.0 |
-| [R-032](./R-032.md) | Convoy bombing and fleet bombardment without the Air Game | proposed | 48.0, 58.1, 58.2 |
+| [R-032](./R-032.md) | Convoy bombing and fleet bombardment without the Air Game | accepted | 48.0, 58.1, 58.2 |
 | [R-040](./R-040.md) | Does fuel in a unit's own tanks evaporate? | proposed | 49.3, 49.14, 29.3 |
 | [R-041](./R-041.md) | Part-blocks of 5 CP: per move or across the stage? | proposed | 49.13, 49.15, 49.16 |
 | [R-042](./R-042.md) | How the evaporation rates combine | proposed | 49.3, 29.3 |

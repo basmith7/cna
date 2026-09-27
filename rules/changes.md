@@ -88,6 +88,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Logistics Game — overview and sequence of play](./logistics/00-overview-and-sequence.md)
 
+- [R-032](../rulings/R-032.md) — without the Air Game, abstract convoy attacks fall in convoy bombing; fleet strikes in the fleet phase
 - [R-030](../rulings/R-030.md) — the organisation segments run in any order; attrition checks supply as it stands when run
 - [R-031](../rulings/R-031.md) — the land-support air phase is flown once per stage, by both sides together
 
@@ -113,6 +114,11 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 ## [Ports and shipping](./logistics/50-ports-and-shipping.md)
 
 - [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery that never reduces Tobruk's efficiency (NJHarman)
+
+## [Abstract air](./logistics/60-abstract-air.md)
+
+- [R-032](../rulings/R-032.md) — the abstract convoy attack is made in the convoy bombing segment
+- [R-032](../rulings/R-032.md) — fleet strikes are plotted and resolved in the Commonwealth fleet phase
 
 ## Rulings register
 
@@ -147,7 +153,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-027](../rulings/R-027.md) | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
 | [R-030](../rulings/R-030.md) | accepted | 48.0 |
 | [R-031](../rulings/R-031.md) | accepted | 48.0 |
-| [R-032](../rulings/R-032.md) | proposed | 48.0, 58.1, 58.2 |
+| [R-032](../rulings/R-032.md) | accepted | 48.0, 58.1, 58.2 |
 | [R-040](../rulings/R-040.md) | proposed | 49.3, 49.14, 29.3 |
 | [R-041](../rulings/R-041.md) | proposed | 49.13, 49.15, 49.16 |
 | [R-042](../rulings/R-042.md) | proposed | 49.3, 29.3 |

@@ -103,6 +103,8 @@ Both players roll for initiative exactly as in the
 - **A. Convoy schedule** — the Axis player reads the convoy level chart,
   rolls one die on the convoy capacity table for the tonnage available
   **next** turn, then plans cargoes and routes.
+::: ruling R-032 — without the Air Game, abstract convoy attacks fall in convoy bombing; fleet strikes in the fleet phase
+
 - **B. Convoy resolution**, in three segments:
   1. *Reconnaissance* (Air Game only) — the Commonwealth flies strategic
      convoy reconnaissance.
@@ -110,8 +112,9 @@ Both players roll for initiative exactly as in the
      patrol over chosen convoy lanes; Commonwealth bombing-reserve aircraft
      take patrol, flak suppression or bombing over chosen lanes.
   3. *Bombing* — air combat, flak suppression, anti-aircraft fire and convoy
-     bombing are resolved. Without the Air Game, see
-     [R-032](../../rulings/R-032.md).
+     bombing are resolved. Without the Air Game, the Commonwealth's abstract
+     attack on Axis convoys is made here instead
+     ([R-032](../../rulings/R-032.md)).
 
 Unlike the Land Game, tactical shipping is not planned here; it moves to
 the organisation phase of every operations stage.
@@ -163,7 +166,10 @@ run for Player A, and again for Player B with the labels swapped.
   phase of each month the Commonwealth reads its production table for the
   points arriving two months later and plans their arrival.
 - **E. Commonwealth fleet** — assign ships to sea or coastal hexes for
-  bombardment, then repair ships.
+  bombardment, then repair ships. Without the Air Game, an Axis strike on
+  the fleet is plotted secretly during fleet assignment and resolved at the
+  end of this phase, at most once per stage
+  ([R-032](../../rulings/R-032.md)).
 - **F. Land-support air** *(Air Game only)* — only aircraft designated for
   land support in stage II fly. Seven segments: assign missions to fuelled
   aircraft; place mission counters; resolve air-to-air combat (including
