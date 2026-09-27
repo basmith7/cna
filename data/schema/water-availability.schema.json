@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "water-availability.schema.json",
+  "title": "Water Availability Table (SPI 52.7)",
+  "type": "object", "required": ["table", "sources", "rows", "depletion_roll", "unlimited_sources"], "additionalProperties": false,
+  "properties": {
+    "table": {"const": "water-availability"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "unlimited_sources": {"type": "array", "items": {"enum": ["major-city", "oasis"]}, "description": "Sources drawn from without a roll, never depleted"},
+    "depletion_roll": {"type": "object", "required": ["dice", "depleted_on", "secret"], "additionalProperties": false,
+      "properties": {"dice": {"const": 1}, "depleted_on": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 6}}, "secret": {"type": "boolean"}}},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["source", "results", "sources"], "additionalProperties": false,
+      "properties": {
+        "source": {"enum": ["town", "bir"], "description": "Printed row name; 'town' is the village well of SPI 52.11/52.13"},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"},
+        "results": {"type": "array", "minItems": 6, "maxItems": 6, "items": {
+          "type": "object", "required": ["die", "points", "depletion_check"], "additionalProperties": false,
+          "properties": {"die": {"type": "integer", "minimum": 1, "maximum": 6},
+                         "points": {"type": "integer", "minimum": 0, "description": "Water Points drawn"},
+                         "depletion_check": {"type": "boolean", "description": "Printed with an asterisk: roll again for depletion"}}}}}}}
+  }
+}

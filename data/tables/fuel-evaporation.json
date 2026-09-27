@@ -1,0 +1,16 @@
+{
+ "table": "fuel-evaporation",
+ "sources": ["CNA1979:49.3", "scan:p66"],
+ "notes": [
+  "Fuel evaporation and spillage rates (rules/logistics/10-fuel.md). Printed only in the rules text of 49.3, not as a separate chart; per the plan, the source .adoc transcription is the second reading. Scan (jp2 66) and .adoc agree: 0 of 3 rates differ",
+  "Whether the 9% Commonwealth rate stands in for the 6% or is added to it, and whether the hot-weather 5% is added on top, is R-042; the 'replaces' field records the reading the prose uses pending that ruling",
+  "Whether fuel in vehicles' own tanks (fuel capacity) evaporates is R-040; the Land Game hot-weather rule (29.3x) excludes it, 49.3 says 'regardless of where it is kept'",
+  "Fuel in convoys at sea is exempt from the stores-expenditure-stage rate; 49.3 is silent on sea convoys for the hot-weather rate",
+  "The Commonwealth period runs from September 1940 through the last game-turn of August 1941, inclusive"
+ ],
+ "rows": [
+  {"id": "standard", "percent": 6, "when": "stores-expenditure-stage", "applies_to": "both sides, all fuel on the map (not in convoys at sea)", "rounding": "down", "sources": ["CNA1979:49.3", "scan:p66"]},
+  {"id": "hot-weather", "percent": 5, "when": "hot-weather-determined", "applies_to": "both sides, each operations stage with hot weather, in addition", "rounding": "down", "sources": ["CNA1979:49.3", "scan:p66"]},
+  {"id": "commonwealth-1940-41", "percent": 9, "when": "stores-expenditure-stage", "applies_to": "Commonwealth, September 1940 to August 1941 inclusive", "replaces": "standard", "rounding": "down", "sources": ["CNA1979:49.3", "scan:p66"]}
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "table": "water-availability",
+ "sources": ["CNA1979:52.7", "scan:p108"],
+ "notes": [
+  "Water Points drawn from one well by one draw (SPI 52.13), by source and one die. Cells printed with an asterisk call for a second, secret die: on a 1 the well is depleted (depletion_check / depletion_roll).",
+  "The chart's rows read 'Town' and 'Bir'; the rules (52.11, 52.13) call the first 'village'. We treat 'town' as the village well; major cities are not on the chart.",
+  "Major cities and oases are drawn from without a roll, in unlimited amounts, and never deplete (chart footnote; SPI 52.13, 52.3).",
+  "Transcribed from the archive.org scan (jp2 108) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p14): 0 of 12 value cells and 0 of 12 asterisks differ. No errata item touches 52.7."
+ ],
+ "unlimited_sources": ["major-city", "oasis"],
+ "depletion_roll": {"dice": 1, "depleted_on": [1], "secret": true},
+ "rows": [
+  {"source": "town", "sources": ["CNA1979:52.7", "scan:p108"], "results": [
+   {"die": 1, "points": 100, "depletion_check": false},
+   {"die": 2, "points": 150, "depletion_check": false},
+   {"die": 3, "points": 200, "depletion_check": false},
+   {"die": 4, "points": 300, "depletion_check": false},
+   {"die": 5, "points": 350, "depletion_check": true},
+   {"die": 6, "points": 500, "depletion_check": true}]},
+  {"source": "bir", "sources": ["CNA1979:52.7", "scan:p108"], "results": [
+   {"die": 1, "points": 50, "depletion_check": false},
+   {"die": 2, "points": 100, "depletion_check": false},
+   {"die": 3, "points": 150, "depletion_check": false},
+   {"die": 4, "points": 200, "depletion_check": true},
+   {"die": 5, "points": 300, "depletion_check": true},
+   {"die": 6, "points": 400, "depletion_check": true}]}
+ ]
+}
