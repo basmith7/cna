@@ -130,6 +130,8 @@ the load before it arrives.
 
 ::: ruling R-040 — the per-turn loss reaches fuel in tanks; the hot-weather loss does not
 
+::: ruling R-042 — 9 % replaces 6 %; hot weather is one extra 5 % for both sides; all losses round down; sea convoys exempt
+
 ::: spi 49.3
 
 Fuel stocks shrink wherever they are kept. The rates are in
@@ -140,11 +142,13 @@ Fuel stocks shrink wherever they are kept. The rates are in
    includes the fuel in each unit's own tanks. Fuel in convoys at sea is
    exempt.
 2. **Hot weather.** When an operations stage is found to have hot weather,
-   cut every stock by a further **5 %** at once. This loss spares the fuel
-   in units' own tanks (it is the weather rule's loss, SPI 29.34).
+   cut every stock by a further **5 %** at once, rounding down. Both sides
+   take it, in every period. It is the same loss as the weather rule's
+   ([Special rules](../90-special.md), SPI 29.34), taken once, and it
+   spares the fuel in units' own tanks and fuel in convoys at sea.
 3. **Commonwealth containers.** From September 1940 through the last
    game-turn of August 1941, the Commonwealth's per-turn rate is **9 %**
-   instead of 6 %. (Their early flimsy cans leaked; the rate falls once
+   instead of 6 % (not in addition to it; hot weather still adds its 5 %). (Their early flimsy cans leaked; the rate falls once
    they adopt copies of the German jerrycan.) The same loss applies to some
    water sources (SPI 52.44).
 
@@ -154,9 +158,6 @@ to 6, so 69 remain.
 
 ::: variant V-002 — fuel in vehicles' tanks does not evaporate
 
-::: note
-Open question, not yet decided: how the 9 %, 6 % and hot-weather rates combine ([R-042](../../rulings/R-042.md)).
-:::
 
 ---
 
