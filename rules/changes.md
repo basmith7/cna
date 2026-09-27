@@ -95,6 +95,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 - [V-004](../rulings/V-004.md) — stores paid in instalments
 
+## [Water](./logistics/30-water.md)
+
+- [R-020](../rulings/R-020.md) — one draw per village or bir well per Operations Stage
+
 ## [Trucks and dumps](./logistics/40-trucks-and-dumps.md)
 
 - **E-032** — the −1 and 7 columns read 0 % and 100 %; the chart printed 33 % in both
@@ -132,7 +136,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-017](../rulings/R-017.md) | accepted | 22.63, 8.53, 13.2, 15.82 |
 | [R-018](../rulings/R-018.md) | accepted | 6.3, 24.17, 24.9 |
 | [R-019](../rulings/R-019.md) | accepted | 30.15, 30.23, 24.5 |
-| [R-020](../rulings/R-020.md) | proposed | 52.13, 52.14, 52.7, 6.3 |
+| [R-020](../rulings/R-020.md) | accepted | 52.13, 52.14, 52.7, 6.3 |
 | [R-021](../rulings/R-021.md) | proposed | 52.17, 52.16, 6.3 |
 | [R-022](../rulings/R-022.md) | proposed | 52.51, 52.52, 3.1 |
 | [R-023](../rulings/R-023.md) | accepted | 15.79 |

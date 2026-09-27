@@ -69,9 +69,13 @@ draws 200 Water Points. The result is starred, so the owner rolls again
 behind his hand and gets a 1. He writes the bir down as dry and says
 nothing.
 
-::: note
-Open question, not yet decided: how many draws one well allows in an Operations Stage ([R-020](../../rulings/R-020.md)).
-:::
+::: ruling R-020 — one draw per village or bir well per Operations Stage
+
+A village or bir well can be drawn from **once** per Operations Stage. The
+first unit to pay its CP makes the roll; after that the well is closed to
+every unit, friend or foe, until the next stage, whether or not the roll
+depleted it. Major-city, oasis and pipeline sources have no such limit
+(ruling [R-020](../../rulings/R-020.md)).
 
 ### Depleted wells
 
