@@ -48,6 +48,8 @@ dump is worth taking.
 
 ## Consumption and capacity
 
+::: ruling R-043 — capacity counts a part-block of CPA as a whole block
+
 ::: spi 49.13 49.14
 
 Each TOE Strength Point of vehicles has two values on its side's
@@ -60,7 +62,9 @@ rating**. We do not reproduce those values here; they are per-unit data.
    hex count; CP spent on combat or anything else burn no fuel.
 2. **Capacity.** The capacity rating is what one Strength Point holds in
    its own tanks: its CPA divided by five, times its consumption rate. A
-   full tank is meant to last exactly one full CPA of movement.
+   full tank lasts exactly one full CPA of movement. When the CPA is not a
+   multiple of five, count its last part-block as a whole one: a CPA of 22
+   at rate 4 is five blocks, a capacity of 20.
 
 *Example.* A Strength Point of armoured cars with rate 2 moves and spends
 13 CP. That is two full blocks of five and one part-block, so three blocks:
@@ -72,10 +76,6 @@ Part-blocks are counted **per Movement Segment**: the CP a unit will spend
 moving in one segment are split into blocks of five and any part-block is
 charged in full, when the fuel for that segment is drawn. Nothing carries
 over to the next segment; three 3-CP moves in one stage cost three blocks.
-
-::: note
-Open question, not yet decided: capacity when the CPA is not a multiple of five ([R-043](../../rulings/R-043.md)).
-:::
 
 ## Drawing fuel
 
