@@ -111,7 +111,13 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Ports and shipping](./logistics/50-ports-and-shipping.md)
 
+- [R-081](../rulings/R-081.md) — a port is major if the chart gives it an incoming stacking-point figure above zero
+- [R-027](../rulings/R-027.md) — Tobruk's maximum level is the chart's 5; the campaigns start it at 2, not the printed 7
+- [R-080](../rulings/R-080.md) — port capacity is per Operations Stage; Strategic Phase arrivals count against the stage they land in
+- [R-082](../rulings/R-082.md) — the San Giorgio's three levels count as blocking and are cleared by engineers
+- [R-083](../rulings/R-083.md) — Tobruk's blocking and clearing costs stand as printed
 - [R-025](../rulings/R-025.md) — Axis coastal ship counters sail in the Truck Convoy Phase; Commonwealth port-to-port transfers stay in the Tactical Shipping Segment
+- [R-026](../rulings/R-026.md) — unlimited supply is in Cairo; the Italian campaign adds Alexandria
 - [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery that never reduces Tobruk's efficiency (NJHarman)
 
 ## Rulings register
@@ -143,8 +149,8 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-023](../rulings/R-023.md) | accepted | 15.79 |
 | [R-024](../rulings/R-024.md) | accepted | 17.4 |
 | [R-025](../rulings/R-025.md) | accepted | 48.0, 56.32 |
-| [R-026](../rulings/R-026.md) | proposed | 57.0, 60.44 |
-| [R-027](../rulings/R-027.md) | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
+| [R-026](../rulings/R-026.md) | accepted | 57.0, 60.44 |
+| [R-027](../rulings/R-027.md) | accepted | 55.12, 55.25, 55.3, 60.7, 61.6 |
 | [R-030](../rulings/R-030.md) | proposed | 48.0 |
 | [R-031](../rulings/R-031.md) | proposed | 48.0 |
 | [R-032](../rulings/R-032.md) | proposed | 48.0, 58.1, 58.2 |
@@ -163,10 +169,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-071](../rulings/R-071.md) | proposed | 54.31, 54.32, 54.33, 8.72 |
 | [R-072](../rulings/R-072.md) | proposed | 54.43, 54.44, 54.46 |
 | [R-073](../rulings/R-073.md) | proposed | 54.13 |
-| [R-080](../rulings/R-080.md) | proposed | 55.14, 55.16, 55.3 |
-| [R-081](../rulings/R-081.md) | proposed | 55.11, 55.3 |
-| [R-082](../rulings/R-082.md) | proposed | 55.18, 55.25, 55.26, 30.17 |
-| [R-083](../rulings/R-083.md) | proposed | 55.22, 55.23, 55.26 |
+| [R-080](../rulings/R-080.md) | accepted | 55.14, 55.16, 55.3 |
+| [R-081](../rulings/R-081.md) | accepted | 55.11, 55.3 |
+| [R-082](../rulings/R-082.md) | accepted | 55.18, 55.25, 55.26, 30.17 |
+| [R-083](../rulings/R-083.md) | accepted | 55.22, 55.23, 55.26 |
 | [R-090](../rulings/R-090.md) | proposed | 58.3 |
 | [R-091](../rulings/R-091.md) | proposed | 58.41 |
 | [R-092](../rulings/R-092.md) | proposed | 58.42, 58.44, 32.57 |
