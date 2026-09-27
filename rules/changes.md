@@ -90,6 +90,11 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [V-002](../rulings/V-002.md) — fuel in vehicles' tanks does not evaporate
 
+## [Ammunition and stores](./logistics/20-ammunition-and-stores.md)
+
+- [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
+- [V-004](../rulings/V-004.md) — stores paid in instalments
+
 ## Rulings register
 
 | Id | Status | Affects |
@@ -128,6 +133,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-041](../rulings/R-041.md) | proposed | 49.13, 49.15, 49.16 |
 | [R-042](../rulings/R-042.md) | proposed | 49.3, 29.3 |
 | [R-043](../rulings/R-043.md) | proposed | 49.13, 49.14 |
+| [R-050](../rulings/R-050.md) | proposed | 50.0, 50.12, 50.15 |
+| [R-051](../rulings/R-051.md) | proposed | 50.16, 51.16 |
+| [R-052](../rulings/R-052.md) | proposed | 51.21, 51.22 |
+| [R-053](../rulings/R-053.md) | proposed | 51.0, 51.12, 51.17, 28.15 |
 
 ## Variants register
 

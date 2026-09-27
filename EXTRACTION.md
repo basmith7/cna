@@ -377,6 +377,12 @@ the PR that adds or substantially rewrites the file.
 - Errata applied: none change a value here; the 32.0 warning is carried as a note.
 - Rulings raised: none.
 
+## rules/logistics/20-ammunition-and-stores.md — 2026-09-27
+- Source cases read: 50.0, 50.1, 50.11–50.17, 50.2; 51.0, 51.1, 51.11–51.17, 51.2, 51.21–51.23. No SPI errata items for §50 or §51.
+- Mechanics identified: Ammunition Points (~4 tons), per-TOE-SP tracking; spending on barrage/flak, anti-armour and assault, by committed points only (R-013); no-ammunition effects (no combat, no ZOC, surrender in Enemy ZOC or when fired on, ZOC entry only with an armed friendly unit or a dump); rate per function used, per participating SP, partial firing to conserve; in-hex use, one fire's worth carried per SP, off-loading from convoys, instant deduction, transport and airdrop; captured ammunition one-third rounded up, recapture one-third of remainder. Stores: scope, per-turn distribution, 4 per TOE SP, 1 per HQ/engineer unit, 2 per Guard Point, prisoners 1 per 5 per stage fed first from the nearest dump, construction; 1 ton each, in-hex use, off-loading, half of captured usable; Disorganization Point per turn unfed; 2 % per two consecutive turns, progressive, infantry-type only; half rations (2 per SP, no voluntary CPA overrun or Enemy ZOC entry, shortage only).
+- How we expressed it: SPI order within two halves; the played half of the chart restated as a table in prose with our own barrage and capture examples; variant V-004 badged below the stores requirement; accepted ruling R-013 badged above the spending block; open questions as `::: note` pointers to R-050–R-053; Land Game pointer under the §32 supply-expenditure block of rules/95-abstract-logistics-and-air.md.
+- Charts: Ammunition Consumption Rates Chart (50.2; headed "Table" on common chart page 13, jp2 p107) → `data/tables/ammunition-consumption.json`, 14 rows (7 played, 7 abstracted). Cross-checked 14/14 cells against Discord `Shared Charts.pdf` p13; no disagreements. No stores chart is printed.
+- Rulings raised: R-050 (no-ammunition test and surrender timing), R-051 (capture rounding), R-052 (stores attrition timing/base/small units), R-053 (prisoner stores per stage).
 ## rules/logistics/10-fuel.md — 2026-09-27
 
 - **Cases read:** 49.0, 49.1, 49.11–49.19, 49.2, 49.3 (13 ids; 49.1 is a heading only). No §49 errata in `data/errata/INDEX.md`.

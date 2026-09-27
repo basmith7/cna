@@ -85,6 +85,7 @@ sheets. The fleet and patrolling points need nothing.
   none. Patrolling pays none.
 
 ::: note
+In the Logistics Game this is replaced by [Ammunition and stores](logistics/20-ammunition-and-stores.md#consumption-rates).
 In the Logistics Game this is replaced by [Fuel](logistics/10-fuel.md#consumption-and-capacity).
 :::
 
