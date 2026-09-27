@@ -27,6 +27,10 @@ replaced by the ammunition and fuel costs below; trucks are replaced by
 ordinary supplies with the adjustments given here. Game balance shifts
 somewhat (SPI §65).
 
+::: note
+In the Logistics Game this is replaced by [full logistics](logistics/00-overview-and-sequence.md#switch).
+:::
+
 ## Supply units
 
 ::: spi 32.11 32.12 32.13 32.14 32.15 32.16 32.17 32.18
@@ -39,6 +43,10 @@ contents freely in the organisation phase. A supply unit has no combat value
 and **0 SP**; an enemy combat unit entering its hex captures it and may use
 it at once. At most **five** may stand in a major city hex, **three** in any
 other hex; the Tripoli–Tunisia boxes hold any number.
+
+::: note
+In the Logistics Game this is replaced by [Water](logistics/30-water.md#usage).
+:::
 
 A combat unit may draw on any friendly supply unit within **half its CPA**
 — 5 CP for foot infantry, 10 for a heavy-weapons unit on motorisation
@@ -80,6 +88,11 @@ sheets. The fleet and patrolling points need nothing.
   motorisation points doing anything else pay none. Rail and sea moves pay
   none. Patrolling pays none.
 
+::: note
+In the Logistics Game this is replaced by [Ammunition and stores](logistics/20-ammunition-and-stores.md#consumption-rates).
+In the Logistics Game this is replaced by [Fuel](logistics/10-fuel.md#consumption-and-capacity).
+:::
+
 ## Moving supply units
 
 ::: spi 32.31 32.32 32.33 32.34 32.35 32.36 32.37
@@ -108,6 +121,10 @@ arrival stage too.
   hex row held by a friendly division, shell or full; only to a hex holding
   a friendly division or brigade HQ (not a battle group). The unit stays put
   that stage but may be drawn upon.
+
+::: note
+In the Logistics Game this is replaced by [Trucks and dumps](logistics/40-trucks-and-dumps.md#the-commonwealth-railway).
+:::
 
 ## Receiving supply units
 

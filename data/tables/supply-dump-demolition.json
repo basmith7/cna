@@ -1,0 +1,146 @@
+{
+ "table": "supply-dump-demolition",
+ "sources": [
+  "CNA1979:54.17",
+  "scan:p108"
+ ],
+ "notes": [
+  "Supply Dump Demolition Table: one die, modified, against the percentage of each supply type in the dump destroyed. As printed; errata E-032 (SPI September 1979) replaces the -1 and 7 columns (printed 33) with 0 and 100",
+  "Modifiers, cumulative across groups: +1 per extra third of basic CPA spent; +1 full (non-shell) division or -1 attempting units total 1 SP or less; -2 in a major city hex, otherwise +1 if the dump holds 500 points or fewer or -1 if 4000 or more; +1 if the attempting units have just captured the dump or -1 if not just captured and the nearest enemy unit is at least 20 CP away by medium truck",
+  "Transcribed from the archive.org scan (jp2 108) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p14): 0 of 11 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {
+   "die": -2,
+   "percent": 0,
+   "sources": [
+    "CNA1979:54.17",
+    "scan:p108"
+   ]
+  },
+  {
+   "die": -1,
+   "percent": 33,
+   "sources": [
+    "CNA1979:54.17",
+    "scan:p108"
+   ]
+  },
+  {
+   "die": 0,
+   "percent": 0,
+   "sources": [
+    "CNA1979:54.17",
+    "scan:p108"
+   ]
+  },
+  {
+   "die": 1,
+   "percent": 10,
+   "sources": [
+    "CNA1979:54.17",
+    "scan:p108"
+   ]
+  },
+  {
+   "die": 2,
+   "percent": 20,
+   "sources": [
+    "CNA1979:54.17",
+    "scan:p108"
+   ]
+  },
+  {
+   "die": 3,
+   "percent": 33,
+   "sources": [
+    "CNA1979:54.17",
+    "scan:p108"
+   ]
+  },
+  {
+   "die": 4,
+   "percent": 50,
+   "sources": [
+    "CNA1979:54.17",
+    "scan:p108"
+   ]
+  },
+  {
+   "die": 5,
+   "percent": 75,
+   "sources": [
+    "CNA1979:54.17",
+    "scan:p108"
+   ]
+  },
+  {
+   "die": 6,
+   "percent": 100,
+   "sources": [
+    "CNA1979:54.17",
+    "scan:p108"
+   ]
+  },
+  {
+   "die": 7,
+   "percent": 33,
+   "sources": [
+    "CNA1979:54.17",
+    "scan:p108"
+   ]
+  },
+  {
+   "die": 8,
+   "percent": 100,
+   "or_more": true,
+   "sources": [
+    "CNA1979:54.17",
+    "scan:p108"
+   ]
+  }
+ ],
+ "modifiers": [
+  {
+   "id": "extra-third-cpa",
+   "value": 1,
+   "group": "effort",
+   "per": "extra-third-cpa"
+  },
+  {
+   "id": "full-division",
+   "value": 1,
+   "group": "size"
+  },
+  {
+   "id": "one-sp-or-less",
+   "value": -1,
+   "group": "size"
+  },
+  {
+   "id": "major-city",
+   "value": -2,
+   "group": "location"
+  },
+  {
+   "id": "dump-500-or-less",
+   "value": 1,
+   "group": "location"
+  },
+  {
+   "id": "dump-4000-or-more",
+   "value": -1,
+   "group": "location"
+  },
+  {
+   "id": "just-captured",
+   "value": 1,
+   "group": "capture"
+  },
+  {
+   "id": "enemy-20cp-away",
+   "value": -1,
+   "group": "capture"
+  }
+ ]
+}

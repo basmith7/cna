@@ -1,0 +1,69 @@
+{
+ "table": "supply-dump-capacity",
+ "sources": [
+  "CNA1979:54.13",
+  "scan:p108"
+ ],
+ "notes": [
+  "Supply Dump Capacity Chart: the most Supply Points of each type that may be kept in one dump by location; 'non-dump' is the most that may lie in a hex with no dump. The rules text calls it 54.13, the chart sheet heads it 54.12",
+  "The Tunis/Tripoli row covers each of the four Axis off-map boxes of the Tripoli–Tunis region. The chart's key adds that water may be drawn as well as stored in a village, major city or Tunis/Tripoli box, and that the Tunis/Tripoli/In Transit boxes may not be used as supply dumps (read as: the In Transit box may not; see the prose)",
+  "Transcribed from the archive.org scan (jp2 108) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p14): 0 of 20 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {
+   "location": "tunis-tripoli-box",
+   "ammo": "unlimited",
+   "fuel": "unlimited",
+   "stores": "unlimited",
+   "water": "unlimited",
+   "sources": [
+    "CNA1979:54.13",
+    "scan:p108"
+   ]
+  },
+  {
+   "location": "major-city",
+   "ammo": "unlimited",
+   "fuel": "unlimited",
+   "stores": "unlimited",
+   "water": "unlimited",
+   "sources": [
+    "CNA1979:54.13",
+    "scan:p108"
+   ]
+  },
+  {
+   "location": "village",
+   "ammo": 2500,
+   "fuel": 8000,
+   "stores": 3000,
+   "water": 1000,
+   "sources": [
+    "CNA1979:54.13",
+    "scan:p108"
+   ]
+  },
+  {
+   "location": "other-terrain",
+   "ammo": 1500,
+   "fuel": 5000,
+   "stores": 1000,
+   "water": 1000,
+   "sources": [
+    "CNA1979:54.13",
+    "scan:p108"
+   ]
+  },
+  {
+   "location": "non-dump",
+   "ammo": 50,
+   "fuel": 0,
+   "stores": 50,
+   "water": 0,
+   "sources": [
+    "CNA1979:54.13",
+    "scan:p108"
+   ]
+  }
+ ]
+}

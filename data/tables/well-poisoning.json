@@ -1,0 +1,13 @@
+{
+ "table": "well-poisoning",
+ "sources": ["CNA1979:52.8", "CNA1979:52.16", "CNA1979:52.17", "scan:p99"],
+ "notes": [
+  "Die results for poisoning and sweetening a village or bir well. The chart prints only the die bands; the CP costs and the retry limits come from 52.16 (1 CP; a failed attempt closes that well to further attempts for the Operations Stage) and 52.17 (5 CP; repeated attempts allowed, capped by the unit's CPA).",
+  "Whether 52.17's CPA cap is per unit or per well is open: see rulings/R-021.md.",
+  "Transcribed from the archive.org scan (jp2 99) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p5): 0 of 4 result bands differ. No errata item touches 52.8."
+ ],
+ "rows": [
+  {"attempt": "poison", "cp": 1, "success_on": [1], "retry_same_stage": false, "sources": ["CNA1979:52.8", "CNA1979:52.16", "scan:p99"]},
+  {"attempt": "sweeten", "cp": 5, "success_on": [1, 2, 3], "retry_same_stage": true, "sources": ["CNA1979:52.8", "CNA1979:52.17", "scan:p99"]}
+ ]
+}

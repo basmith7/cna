@@ -1,0 +1,23 @@
+{
+ "id": "E-032",
+ "table": "supply-dump-demolition",
+ "affects": [
+  "54.17"
+ ],
+ "sources": [
+  "CNA1979:54.17"
+ ],
+ "summary": "Supply Dump Demolition Table: the -1 column destroys 0 %, not 33 %, and the 7 column 100 %, not 33 %",
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/rows/1/percent",
+   "value": 0
+  },
+  {
+   "op": "replace",
+   "path": "/rows/9/percent",
+   "value": 100
+  }
+ ]
+}
