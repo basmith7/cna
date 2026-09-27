@@ -18,48 +18,69 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**MISSION 4 COMPLETE** (decide the open questions), 2026-09-26 19:55 UTC. Every ruling in Parts A and C is accepted, and Part B is merged. 21 rulings are accepted; R-020–R-022 stay proposed as ordered. Each ruling is its own PR, merged after local gates and green CI. Any of them can be disputed: write in **Feedback** or on the decision board, and a later run will supersede it.
+**MISSION 5 COMPLETE** (the Logistics Game, §48–58), 2026-09-27 17:05 UTC. All five parts are merged, each PR after local gates and green CI:
 
-| Ruling | Decision (one line) | PR |
+| Part | What landed | PRs |
 |---|---|---|
-| R-001 | collapse at cohesion level −26 or worse, not a running DP count (probe: option 2 collapses a unit that recovers every stage) | #82 |
-| R-002 | road/track stubs that lead nowhere are ignored | #80 |
-| R-003 | Contact is tested at the start of every movement segment, either side's | #85 |
-| R-004 | a mixed foot/vehicle formation pays the higher terrain cost and obeys both prohibitions | #89 |
-| R-005 | one rail stack each way may mix units and supplies and change load en route | #91 |
-| R-006 | 8.53a's "not stacked with a combat unit" condition applies to truck convoys only | #81 |
-| R-007 | a reacting unit may spend CP only to move and to blow a dump | #84 |
-| R-008 | "in combat" in 8.53d means in Contact | #87 |
-| R-009 | the barrage terrain shift protects whoever is barraged (probe) | #96 |
-| R-010 | retreat before assault may go in any direction | #86 |
-| R-011 | each side's loss base is its own raw points (probe) | #83 |
-| R-012 | the withheld-defender retreat is an ordinary 15.82 retreat (probe: fighting is never dearer than the buy-out) | #90 |
-| R-013 | pinned units spend no ammunition | #92 |
-| R-014 | only a battalion-size or larger combat unit captures destroyed tanks (as 21.52) | #98 |
-| R-015 | terrain shifts only the phasing side's anti-armour fire (probe) | #88 |
-| R-016 | a Tank Delivery Squadron moves only in the truck convoy phase | #93 |
-| R-017 | a TDS reacts or retreats only when stacked with a combat unit | #97 |
-| R-018 | the charts govern dumps: real 3 CP + 10 stores, dummy 2 CP (probe). Close call: 24.9's text says otherwise | #94 |
-| R-019 | the fleet's western limit is column xx29 on map B; a count of the map's sea hexes puts 100 hexes there, so Derna is out of range | #99 |
-| R-023 | *new, from the chart-oddities probe:* close assault defender +2, readings 34–36 inflict 5 % | #100 |
-| R-024 | *new:* morale modifier at cohesion −4, a reading of 56 gives −2 | #101 |
+| 1. Tooling | `rules/` read recursively, *Logistics Game* sidebar group, CI coverage over 1-32,48-58 | #104 |
+| 2. Seed | NJHarman's logistics items: R-025–R-027 (rulings), V-002–V-005 (variants) | #105 |
+| 3. Rules files | `rules/logistics/`: overview & sequence, fuel, ammunition & stores, water, trucks & dumps, ports & shipping, abstract air. **160 of 160 cases covered.** 12 charts as data, each read from the archive.org scan and cross-checked against the Discord chart scans (0 cells differ) or the rules text where printed in-text | #107, #106, #111, #109, #114, #110, #108 |
+| 4. Rulings | 32 logistics rulings accepted (below), R-020–R-022 included | #112–#113, #115–#143, #145 |
+| 5. Docs | README, overview link, `data/README.md` OA variables, design Status | #144 |
 
-Part B (#95): the map, chart and site board items took their defaults and left the board; the Original text viewer was checked on the live site and works; the chart-oddities probe is recorded in the table notes (the attacker −2 "13-18" cell cannot be rolled, so no ruling).
+Logistics rulings, one line each (full reasoning in `rulings/`):
 
-Left alone as ordered: R-020, R-021, R-022 (need the Logistics Game restated) and the `copy` questions below.
+| Ruling | Decision |
+|---|---|
+| R-020 | a village or bir well gives one draw per Operations Stage |
+| R-021 | one unit per well per stage may try to sweeten it, retrying up to its own CPA |
+| R-022 | gun units count as vehicles when out of water |
+| R-025 | Axis coastal ships sail in the Truck Convoy Phase; Commonwealth port transfers stay in the Tactical Shipping Segment |
+| R-026 | unlimited Commonwealth supply is in Cairo; Alexandria too in the Italian campaign only |
+| R-027 | **Tobruk's full efficiency is 5 (chart and 55.12), so it starts the campaigns at 2, not the scenarios' 7** |
+| R-030 | organisation segments in any order; attrition judges supply as it stands then |
+| R-031 | land-support air phase once per stage, both sides together |
+| R-032 | without the Air Game: convoy attack in convoy segment 3; fleet strikes resolved in the fleet phase |
+| R-040 | the per-turn fuel loss reaches fuel in tanks; the hot-weather loss does not (29.34) |
+| R-041 | part-blocks of 5 CP rounded up per Movement Segment |
+| R-042 | Commonwealth 9 % replaces 6 %; hot weather is one extra 5 % for both sides; all round down |
+| R-043 | fuel capacity counts a part-block of CPA as a whole block |
+| R-050 | out of ammunition only when neither the unit nor its hex holds any |
+| R-051 | captured ammunition and stores round up |
+| R-052 | stores attrition every second unfed turn, on infantry-type points |
+| R-053 | prisoners draw stores every Operations Stage |
+| R-060 | the Pasta Point is due once per Game-Turn; missing it limits CPA for the turn |
+| R-061 | a cut pipeline still works up to the break |
+| R-062 | a unit's water must be in its own hex |
+| R-070 | the Equivalent Weights "1/2" stacking row is read as 1 |
+| R-071 | **in the Logistics Game a rail run carries units or supplies, never both (54.31); R-005 stays the Land Game reading** |
+| R-072 | Axis rolling-stock lots add up, 300 tons each, per direction per stage |
+| R-073 | the Tunis/Tripoli boxes hold unlimited supply but are not dumps |
+| R-080 | port capacity is per Operations Stage |
+| R-081 | major ports are those with an incoming stacking figure above zero on the chart |
+| R-082 | the *San Giorgio*'s three levels are blocking, cleared by engineers |
+| R-083 | Tobruk's blocking and clearing costs stand as printed |
+| R-090 | abstract air: only convoy fuel from Europe is cut, the loss rounded up |
+| R-091 | abstract air: 10 % of the initial trucks removed, rounded up |
+| R-092 | abstract air: monthly truck losses follow 32.57's timing and base |
+| R-093 | abstract convoy attack: trucks stand in for motorisation points, supplies for supply units |
 
-Missions 1–3 are complete (PRs #2–#78).
+Variants recorded, not adopted: V-002 (fuel in tanks does not evaporate), V-003 (no light-truck off-road breakdown), V-004 (stores paid in instalments), V-005 (air attack does not reveal dummy dumps).
+
+Ruling numbers run in blocks of ten per logistics file (drafted in parallel), so there are gaps; `rulings/README.md` says so.
+
+Missions 1–4 are complete (PRs #2–#101).
 
 ## Next steps
 
-For the autopilot: nothing. Mission 4 is complete. Act only on **Feedback**.
+For the autopilot: nothing. Mission 5 is complete. Act only on **Feedback**.
 
-For Brian (all optional; the decision board shows them):
+For Brian (all optional):
 
-- **Dispute anything.** Every ruling above is one PR to reverse. Two worth a look: **R-018**, where two charts outvote a sentence in 24.9 (option 3, real dump 20 stores, is the other defensible reading); and **R-019**, whose sea-hex count uses the VASSAL-derived map with sheets joined edge to edge. The joins were not checked against the scan, which could move the count by a hex or two but not the five columns NJHarman's xx24 needs.
-- **Questions only your printed copy can answer** stay as read: Map E river classes, hill bands (ridge or slope), blue railways, C0323|C0423, the rows the scan cannot settle, SPI 20.67, and the two formation-chart reads.
-- **R-020–R-022** wait until the Logistics Game (§47–58) is restated.
-- Vault: the *CNA Living Rules* roadmap row 2 → *done* is still yours to flip.
+- **Dispute anything.** Every ruling is one PR to reverse. Three worth a look: **R-027** (Tobruk starts at level 2: the chart, its footnote and 55.12 all say 5 before the wreck, and only the scenarios print 7); **R-071** (the Logistics Game's own 54.31 bars mixed rail loads, so the Land Game's R-005 does not carry over); **R-040/R-042** (fuel in tanks evaporates each turn but not in hot weather, because 29.34 exempts it).
+- **Engine:** cna-engine can take water and fuel probes as its next mission (the design's suggestion). No logistics ruling cites a probe yet.
+- **Questions only your printed copy can answer** stay as read, unchanged from Mission 4: Map E river classes, hill bands, blue railways, C0323|C0423, the rows the scan cannot settle, SPI 20.67, the two formation-chart reads. No new ones from Mission 5.
+- Vault: the *CNA Living Rules* roadmap rows are yours to flip.
 
 ## Runs and quota
 
