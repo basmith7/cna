@@ -1,0 +1,38 @@
+{
+ "table": "equivalent-weights",
+ "sources": [
+  "CNA1979:54.5",
+  "scan:p109"
+ ],
+ "notes": [
+  "Equivalent Weights Chart: tons per point for supplies moved by naval convoy, interport transfer, railroad or air; tons per replacement point and per truck/motorisation point by method; stacking-point equivalents for rail and interport moves",
+  "Air-lifted replacement points (2 tons each, note *) may only be infantry-class. Interport truck points at 50 tons (note †) and the rail truck-point stacking figure (note ‡) apply only to unattached truck points, or attached ones beyond the parent unit's total TOE Strength Points",
+  "Fuel is 1/8 ton per point, consistent with 49.11's 250 pounds; ammunition 4 (50.1) and stores 1 (51.15) also match the text",
+  "Unresolved: the last stacking row, 'Unit of Stacking Points 1/2', is transcribed as printed; its meaning is ruling R-070",
+  "Transcribed from the archive.org scan (jp2 109) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p15): 0 of 16 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "supply_tons": {
+  "ammo": "4",
+  "fuel": "1/8",
+  "stores": "1",
+  "water": "1/6"
+ },
+ "replacement_point_tons": {
+  "axis-naval-convoy": "axis-replacement-pool",
+  "interport": null,
+  "railroad": null,
+  "air": "2"
+ },
+ "truck_point_tons": {
+  "axis-naval-convoy": "axis-replacement-pool",
+  "railroad": null,
+  "interport": "50",
+  "air": "prohibited"
+ },
+ "rail_interport_stacking_points": {
+  "truck-point": "1/10",
+  "replacement-point": "1/5",
+  "sgsu": "1/2",
+  "unit-stacking-point": "1/2"
+ }
+}

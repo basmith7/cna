@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "axis-convoy-capacity.schema.json",
+  "title": "Axis Naval Convoy Capacity Table (SPI 56.5)",
+  "type": "object",
+  "required": ["table", "sources", "rows", "round_up_to"],
+  "additionalProperties": false,
+  "properties": {
+    "table": {"const": "axis-convoy-capacity"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "round_up_to": {"type": "integer", "description": "Capacity is rounded up to a multiple of this many tons"},
+    "rows": {
+      "type": "array", "minItems": 7, "maxItems": 7,
+      "items": {
+        "type": "object",
+        "required": ["level", "fixed_tons", "tons_per_pip"],
+        "additionalProperties": false,
+        "properties": {
+          "level": {"enum": ["A", "B", "C", "D", "E", "F", "G"]},
+          "fixed_tons": {"type": "integer", "minimum": 0},
+          "tons_per_pip": {"type": "integer", "minimum": 0, "description": "Multiplied by one die roll (1-6)"}
+        }
+      }
+    }
+  }
+}

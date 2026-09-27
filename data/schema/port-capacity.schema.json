@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "port-capacity.schema.json",
+  "title": "Port Capacity and Efficiency Level Chart (SPI 55.3)",
+  "type": "object",
+  "required": ["table", "sources", "rows"],
+  "additionalProperties": false,
+  "properties": {
+    "table": {"const": "port-capacity"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "rows": {
+      "type": "array", "minItems": 10, "maxItems": 10,
+      "items": {
+        "type": "object",
+        "required": ["port", "efficiency_level", "sp_in", "sp_out", "max_tons"],
+        "additionalProperties": false,
+        "properties": {
+          "port": {"type": "string", "description": "Port name, lower-case, hyphenated; 'all-others' for the catch-all row"},
+          "efficiency_level": {"type": "integer", "minimum": 1},
+          "sp_in": {"oneOf": [{"type": "integer", "minimum": 0}, {"type": "null"}], "description": "Stacking points per OpStage in; null = na"},
+          "sp_in_zero_sp_unit": {"type": "boolean", "description": "Chart's double dagger: any one zero-stacking-point unit may also be shipped in"},
+          "sp_out": {"oneOf": [{"type": "integer", "minimum": 0}, {"type": "null"}], "description": "Stacking points per OpStage out; null = na"},
+          "max_tons": {"type": "integer", "minimum": 0, "description": "Supply tonnage in and/or out per OpStage at full efficiency"},
+          "footnote": {"type": "string"}
+        }
+      }
+    }
+  }
+}
