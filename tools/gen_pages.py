@@ -29,7 +29,8 @@ def _title(md: str, fallback: str) -> str:
 
 
 def _rules_files(rules_dir: pathlib.Path) -> list[pathlib.Path]:
-    return sorted(p for p in rules_dir.glob("*.md") if p.name not in GENERATED)
+    return sorted(p for p in rules_dir.rglob("*.md")
+                  if p.relative_to(rules_dir).as_posix() not in GENERATED)
 
 
 def collect_annotations(rules_dir: pathlib.Path) -> dict[str, dict]:
@@ -41,7 +42,7 @@ def collect_annotations(rules_dir: pathlib.Path) -> dict[str, dict]:
             m = ANNOT.match(line)
             if m:
                 entry[KINDS[m.group(1)]].append((m.group(2), m.group(3) or ""))
-        out[f"rules/{p.name}"] = entry
+        out[f"rules/{p.relative_to(rules_dir).as_posix()}"] = entry
     return out
 
 
@@ -102,8 +103,9 @@ def render_coverage(root: pathlib.Path) -> str:
     titles = {}
     for p in _rules_files(rules_dir):
         md = p.read_text()
-        badges[p.name] = cc.parse_badges(md)
-        titles[p.name] = _title(md, p.stem)
+        rel = p.relative_to(rules_dir).as_posix()
+        badges[rel] = cc.parse_badges(md)
+        titles[rel] = _title(md, p.stem)
     sections = sorted({c["section"] for c in cases})
     lines = ["---", "title: Coverage", "---", "", HEADER, "# SPI case coverage", "",
              "For each SPI section: how many cases are restated (a primary `::: spi` badge),",
