@@ -103,6 +103,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 ## [Ammunition and stores](./logistics/20-ammunition-and-stores.md)
 
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
+- [R-050](../rulings/R-050.md) — out of ammunition means none in the unit or its hex; surrender on being attacked or at the end of an Enemy phase in an Enemy ZOC
+- [R-051](../rulings/R-051.md) — every captured or recaptured share, ammunition or stores, rounds up
+- [R-053](../rulings/R-053.md) — prisoners pay at the start of every Operations Stage; a part-group of five rounds up
+- [R-052](../rulings/R-052.md) — attrition falls at the end of each even unfed turn, per unit, on infantry-type points, rounded to nearest (0 means no loss)
 - [V-004](../rulings/V-004.md) — stores paid in instalments
 
 ## [Water](./logistics/30-water.md)
@@ -119,7 +123,11 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-032** — the −1 and 7 columns read 0 % and 100 %; the chart printed 33 % in both
 - **E-033** — the Axis may use the rail lines under these cases, despite the Land Game's Commonwealth-only wording
 - [R-018](../rulings/R-018.md) — dump costs follow the charts: real 3 CP + 10 stores, dummy 2 CP
-- [R-005](../rulings/R-005.md) — one rail stack each way may mix units and supplies and change its load en route, within both limits
+- [R-073](../rulings/R-073.md) — the Tunis/Tripoli boxes store unlimited supplies but are not dumps
+- [R-005](../rulings/R-005.md) — one rail run each way, loads changeable en route within the limits (Land Game mixing narrowed here by R-071)
+- [R-071](../rulings/R-071.md) — in the Logistics Game each rail run carries units or supplies, never both; R-005 otherwise still applies
+- [R-072](../rulings/R-072.md) — rolling-stock lots add up, the total applies in each direction, and Axis trains move when Commonwealth trains do
+- [R-070](../rulings/R-070.md) — the "unit of stacking points" row reads as 1: a unit counts its own printed stacking points
 - [V-003](../rulings/V-003.md) — NJHarman drops the light-truck off-road breakdown note entirely
 - [V-005](../rulings/V-005.md) — NJHarman: bombing and strafing do not reveal a dummy dump
 - [V-004](../rulings/V-004.md) — NJHarman lets stores be paid in instalments, easing the stores limits
@@ -181,17 +189,17 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-041](../rulings/R-041.md) | accepted | 49.13, 49.15, 49.16 |
 | [R-042](../rulings/R-042.md) | accepted | 49.3, 29.3 |
 | [R-043](../rulings/R-043.md) | accepted | 49.13, 49.14 |
-| [R-050](../rulings/R-050.md) | proposed | 50.0, 50.12, 50.15 |
-| [R-051](../rulings/R-051.md) | proposed | 50.16, 51.16 |
-| [R-052](../rulings/R-052.md) | proposed | 51.21, 51.22 |
-| [R-053](../rulings/R-053.md) | proposed | 51.0, 51.12, 51.17, 28.15 |
+| [R-050](../rulings/R-050.md) | accepted | 50.0, 50.12, 50.15 |
+| [R-051](../rulings/R-051.md) | accepted | 50.16, 51.16 |
+| [R-052](../rulings/R-052.md) | accepted | 51.21, 51.22 |
+| [R-053](../rulings/R-053.md) | accepted | 51.0, 51.12, 51.17, 28.15 |
 | [R-060](../rulings/R-060.md) | accepted | 52.6, 51.1 |
 | [R-061](../rulings/R-061.md) | accepted | 52.25, 52.23 |
 | [R-062](../rulings/R-062.md) | accepted | 52.41, 52.42, 52.5, 49.15 |
-| [R-070](../rulings/R-070.md) | proposed | 54.5 |
-| [R-071](../rulings/R-071.md) | proposed | 54.31, 54.32, 54.33, 8.72 |
-| [R-072](../rulings/R-072.md) | proposed | 54.43, 54.44, 54.46 |
-| [R-073](../rulings/R-073.md) | proposed | 54.13 |
+| [R-070](../rulings/R-070.md) | accepted | 54.5 |
+| [R-071](../rulings/R-071.md) | accepted | 54.31, 54.32, 54.33, 8.72 |
+| [R-072](../rulings/R-072.md) | accepted | 54.43, 54.44, 54.46 |
+| [R-073](../rulings/R-073.md) | accepted | 54.13 |
 | [R-080](../rulings/R-080.md) | accepted | 55.14, 55.16, 55.3 |
 | [R-081](../rulings/R-081.md) | accepted | 55.11, 55.3 |
 | [R-082](../rulings/R-082.md) | accepted | 55.18, 55.25, 55.26, 30.17 |

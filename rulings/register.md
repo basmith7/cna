@@ -47,17 +47,17 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-041](./R-041.md) | Part-blocks of 5 CP: per move or across the stage? | accepted | 49.13, 49.15, 49.16 |
 | [R-042](./R-042.md) | How the evaporation rates combine | accepted | 49.3, 29.3 |
 | [R-043](./R-043.md) | Fuel capacity when the CPA is not a multiple of five | accepted | 49.13, 49.14 |
-| [R-050](./R-050.md) | What is a unit "without ammunition", and when does it surrender? | proposed | 50.0, 50.12, 50.15 |
-| [R-051](./R-051.md) | Rounding of captured ammunition and stores | proposed | 50.16, 51.16 |
-| [R-052](./R-052.md) | Stores attrition: timing, base and small units | proposed | 51.21, 51.22 |
-| [R-053](./R-053.md) | Prisoner stores: per stage within a per-turn distribution | proposed | 51.0, 51.12, 51.17, 28.15 |
+| [R-050](./R-050.md) | What is a unit "without ammunition", and when does it surrender? | accepted | 50.0, 50.12, 50.15 |
+| [R-051](./R-051.md) | Rounding of captured ammunition and stores | accepted | 50.16, 51.16 |
+| [R-052](./R-052.md) | Stores attrition: timing, base and small units | accepted | 51.21, 51.22 |
+| [R-053](./R-053.md) | Prisoner stores: per stage within a per-turn distribution | accepted | 51.0, 51.12, 51.17, 28.15 |
 | [R-060](./R-060.md) | The Pasta Point: how often is it due, and how long does missing it bite? | accepted | 52.6, 51.1 |
 | [R-061](./R-061.md) | Drawing water from a broken pipeline | accepted | 52.25, 52.23 |
 | [R-062](./R-062.md) | Where must water be for a unit to count as watered? | accepted | 52.41, 52.42, 52.5, 49.15 |
-| [R-070](./R-070.md) | What the Equivalent Weights Chart's "Unit of Stacking Points 1/2" row means | proposed | 54.5 |
-| [R-071](./R-071.md) | May one rail run carry both units and supplies in the Logistics Game? | proposed | 54.31, 54.32, 54.33, 8.72 |
-| [R-072](./R-072.md) | How Axis rolling stock adds up and when Axis trains move | proposed | 54.43, 54.44, 54.46 |
-| [R-073](./R-073.md) | Are the Tunis/Tripoli boxes supply dumps? | proposed | 54.13 |
+| [R-070](./R-070.md) | What the Equivalent Weights Chart's "Unit of Stacking Points 1/2" row means | accepted | 54.5 |
+| [R-071](./R-071.md) | May one rail run carry both units and supplies in the Logistics Game? | accepted | 54.31, 54.32, 54.33, 8.72 |
+| [R-072](./R-072.md) | How Axis rolling stock adds up and when Axis trains move | accepted | 54.43, 54.44, 54.46 |
+| [R-073](./R-073.md) | Are the Tunis/Tripoli boxes supply dumps? | accepted | 54.13 |
 | [R-080](./R-080.md) | Is a port's capacity per Operations Stage or per Game-Turn? | accepted | 55.14, 55.16, 55.3 |
 | [R-081](./R-081.md) | Which ports are major ports? | accepted | 55.11, 55.3 |
 | [R-082](./R-082.md) | How are the *San Giorgio*'s three levels at Tobruk regained? | accepted | 55.18, 55.25, 55.26, 30.17 |
