@@ -124,6 +124,8 @@ Both then reduce stocks of fuel and water for spillage and evaporation.
 
 ### V. First operations stage
 
+::: ruling R-030 — the organisation segments run in any order; attrition checks supply as it stands when run
+
 Phases A–E are joint. The Land Game's phases then run for Player A, and
 again for Player B with the labels swapped (see
 [R-031](../../rulings/R-031.md) for where phase F falls).
@@ -132,7 +134,9 @@ again for Player B with the labels swapped (see
 - **B. Weather** — as in the Land Game; hot weather also costs the extra
   fuel and water evaporation now.
 - **C. Organisation** — seven segments, in any order the players choose
-  (see [R-030](../../rulings/R-030.md)):
+  ([R-030](../../rulings/R-030.md): the order is really free, so attrition
+  judges a unit's water and stores as they stand when that segment is run;
+  hand out water and supplies first if you want them to count):
   1. *Water distribution* — water goes to the units that need it
      (*Water*). **New.**
   2. *Reorganisation* — as in the Land Game; unassigned trucks may be

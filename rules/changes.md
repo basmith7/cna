@@ -86,6 +86,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 
+## [Logistics Game — overview and sequence of play](./logistics/00-overview-and-sequence.md)
+
+- [R-030](../rulings/R-030.md) — the organisation segments run in any order; attrition checks supply as it stands when run
+
 ## [Fuel](./logistics/10-fuel.md)
 
 - [V-002](../rulings/V-002.md) — fuel in vehicles' tanks does not evaporate
@@ -140,7 +144,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-025](../rulings/R-025.md) | proposed | 48.0, 56.32 |
 | [R-026](../rulings/R-026.md) | proposed | 57.0, 60.44 |
 | [R-027](../rulings/R-027.md) | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
-| [R-030](../rulings/R-030.md) | proposed | 48.0 |
+| [R-030](../rulings/R-030.md) | accepted | 48.0 |
 | [R-031](../rulings/R-031.md) | proposed | 48.0 |
 | [R-032](../rulings/R-032.md) | proposed | 48.0, 58.1, 58.2 |
 | [R-040](../rulings/R-040.md) | proposed | 49.3, 49.14, 29.3 |
