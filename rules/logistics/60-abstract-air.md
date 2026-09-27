@@ -38,7 +38,7 @@ These may **not** be attacked this way:
 How the 32.6 rounding rules (the 10 % result versus 20 % or more) map onto
 itemised cargo, and in which segment of convoy resolution the attack is
 made, are open. The timing is
-R-032 (proposed with the Logistics Game overview); this file does not
+[R-032](../../rulings/R-032.md) (proposed with the Logistics Game overview); this file does not
 duplicate it.
 :::
 
@@ -54,7 +54,7 @@ table.
 
 ::: note Open question
 Where these strikes fall in the Logistics Game sequence of play is open:
-see R-032 (proposed with the Logistics Game overview).
+see [R-032](../../rulings/R-032.md) (proposed with the Logistics Game overview).
 :::
 
 ## Axis fuel lost on landing {#axis-fuel-loss}
