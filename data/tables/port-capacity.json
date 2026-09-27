@@ -1,0 +1,22 @@
+{
+ "table": "port-capacity",
+ "sources": ["CNA1979:55.3", "scan:p109"],
+ "notes": [
+  "Port Capacity and Efficiency Level Chart (SPI 55.3), common chart sheet page 15 (jp2 109). Stacking points in/out are per Operations Stage; maximum tonnage is supply tonnage in and/or out per Operations Stage at full efficiency. The chart's key: stacking points and tonnage handled do not affect each other; replacement points by Axis convoy are landed against the stacking-point figure, not the tonnage; reinforcements are never affected by a port's capacity or efficiency; one lost level cuts capacity by one over the listed level",
+  "Tobruk is printed with efficiency level 5 and a dagger: it starts the campaign below the listed five because of the San Giorgio (the chart misspells it 'San Girogio'). See rulings/R-027.md",
+  "Bizerta's asterisk: not usable by the Axis before Game-Turn 35, when he may start rolling for activation (55.17 gives the same date as the June I, 1941 Game-Turn)",
+  "Cross-check: transcribed from the archive.org scan (jp2 109) and cross-checked cell by cell against the 300 dpi community scan (scan:discord:Shared Charts.pdf:p15): 0 of 40 cells differ (10 ports x level, SP in, SP out, tons), footnote marks also agree. Also agrees with 55.12 (Tobruk 5) and 55.14 (Benghazi 2,500 tons at level 3)"
+ ],
+ "rows": [
+  {"port": "tripoli", "efficiency_level": 10, "sp_in": 10, "sp_out": 15, "max_tons": 15000},
+  {"port": "bizerta", "efficiency_level": 10, "sp_in": 10, "sp_out": 15, "max_tons": 3333, "footnote": "Axis may not use before Game-Turn 35; then rolls for activation (55.17)"},
+  {"port": "alexandria", "efficiency_level": 10, "sp_in": 5, "sp_out": 10, "max_tons": 15000},
+  {"port": "tobruk", "efficiency_level": 5, "sp_in": 1, "sp_out": 3, "max_tons": 1700, "footnote": "Begins the campaign below the listed level because of the San Giorgio (55.25)"},
+  {"port": "benghazi", "efficiency_level": 3, "sp_in": 2, "sp_out": 5, "max_tons": 2500},
+  {"port": "mersa-matruh", "efficiency_level": 1, "sp_in": 1, "sp_out": 2, "max_tons": 250},
+  {"port": "bardia", "efficiency_level": 1, "sp_in": 0, "sp_in_zero_sp_unit": true, "sp_out": 1, "max_tons": 400},
+  {"port": "sollum", "efficiency_level": 1, "sp_in": 0, "sp_in_zero_sp_unit": true, "sp_out": 1, "max_tons": 250},
+  {"port": "derna", "efficiency_level": 1, "sp_in": null, "sp_out": 1, "max_tons": 300},
+  {"port": "all-others", "efficiency_level": 1, "sp_in": null, "sp_out": null, "max_tons": 100}
+ ]
+}

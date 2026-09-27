@@ -105,6 +105,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [V-005](../rulings/V-005.md) — NJHarman: bombing and strafing do not reveal a dummy dump
 - [V-004](../rulings/V-004.md) — NJHarman lets stores be paid in instalments, easing the stores limits
 
+## [Ports and shipping](./logistics/50-ports-and-shipping.md)
+
+- [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery that never reduces Tobruk's efficiency (NJHarman)
+
 ## Rulings register
 
 | Id | Status | Affects |
@@ -154,6 +158,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-071](../rulings/R-071.md) | proposed | 54.31, 54.32, 54.33, 8.72 |
 | [R-072](../rulings/R-072.md) | proposed | 54.43, 54.44, 54.46 |
 | [R-073](../rulings/R-073.md) | proposed | 54.13 |
+| [R-080](../rulings/R-080.md) | proposed | 55.14, 55.16, 55.3 |
+| [R-081](../rulings/R-081.md) | proposed | 55.11, 55.3 |
+| [R-082](../rulings/R-082.md) | proposed | 55.18, 55.25, 55.26, 30.17 |
+| [R-083](../rulings/R-083.md) | proposed | 55.22, 55.23, 55.26 |
 
 ## Variants register
 

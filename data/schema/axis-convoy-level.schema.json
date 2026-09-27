@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "axis-convoy-level.schema.json",
+  "title": "Axis Naval Convoy Level Chart (SPI 56.4)",
+  "type": "object",
+  "required": ["table", "sources", "levels"],
+  "additionalProperties": false,
+  "properties": {
+    "table": {"const": "axis-convoy-level"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "levels": {
+      "type": "object",
+      "description": "Year -> 12 entries, January first; null where the chart prints a dash",
+      "propertyNames": {"enum": ["1940", "1941", "1942"]},
+      "additionalProperties": {"type": "array", "minItems": 12, "maxItems": 12,
+        "items": {"oneOf": [{"enum": ["A", "B", "C", "D", "E", "F", "G"]}, {"type": "null"}]}}
+    }
+  }
+}
