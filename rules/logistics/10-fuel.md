@@ -125,16 +125,20 @@ the load before it arrives.
 
 ## Evaporation and spillage
 
+::: ruling R-040 — the per-turn loss reaches fuel in tanks; the hot-weather loss does not
+
 ::: spi 49.3
 
 Fuel stocks shrink wherever they are kept. The rates are in
 [`data/tables/fuel-evaporation.json`](../../data/tables/fuel-evaporation.json):
 
 1. **Every game-turn**, in the Stores Expenditure Stage, each player cuts
-   every fuel stock on the map by **6 %**, rounding the loss down. Fuel in
-   convoys at sea is exempt.
+   every fuel stock on the map by **6 %**, rounding the loss down. This
+   includes the fuel in each unit's own tanks. Fuel in convoys at sea is
+   exempt.
 2. **Hot weather.** When an operations stage is found to have hot weather,
-   cut every stock by a further **5 %** at once.
+   cut every stock by a further **5 %** at once. This loss spares the fuel
+   in units' own tanks (it is the weather rule's loss, SPI 29.34).
 3. **Commonwealth containers.** From September 1940 through the last
    game-turn of August 1941, the Commonwealth's per-turn rate is **9 %**
    instead of 6 %. (Their early flimsy cans leaked; the rate falls once
@@ -144,10 +148,6 @@ Fuel stocks shrink wherever they are kept. The rates are in
 *Example.* A Commonwealth dump holds 75 Fuel Points in the Stores
 Expenditure Stage of a turn in March 1941. 9 % of 75 is 6.75, rounded down
 to 6, so 69 remain.
-
-::: note
-Open question, not yet decided: whether fuel in a unit's own tanks evaporates ([R-040](../../rulings/R-040.md)).
-:::
 
 ::: variant V-002 — fuel in vehicles' tanks does not evaporate
 
