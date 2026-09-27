@@ -1,0 +1,86 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "equivalent-weights.schema.json",
+ "title": "Equivalent Weights Chart (SPI 54.5)",
+ "type": "object",
+ "required": [
+  "table",
+  "sources",
+  "supply_tons",
+  "replacement_point_tons",
+  "truck_point_tons",
+  "rail_interport_stacking_points"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "table": {
+   "const": "equivalent-weights"
+  },
+  "sources": {
+   "$ref": "common.schema.json#/$defs/sources"
+  },
+  "notes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "supply_tons": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "ammo",
+    "fuel",
+    "stores",
+    "water"
+   ],
+   "properties": {
+    "ammo": {
+     "type": "string",
+     "pattern": "^[0-9]+(/[0-9]+)?$"
+    },
+    "fuel": {
+     "type": "string",
+     "pattern": "^[0-9]+(/[0-9]+)?$"
+    },
+    "stores": {
+     "type": "string",
+     "pattern": "^[0-9]+(/[0-9]+)?$"
+    },
+    "water": {
+     "type": "string",
+     "pattern": "^[0-9]+(/[0-9]+)?$"
+    }
+   },
+   "description": "Tons per Supply Point, as a fraction string"
+  },
+  "replacement_point_tons": {
+   "type": "object",
+   "additionalProperties": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "description": "Tons per replacement point by method; null = not applicable (counted in stacking points instead); 'axis-replacement-pool' = varies, see that chart"
+  },
+  "truck_point_tons": {
+   "type": "object",
+   "additionalProperties": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "description": "Tons per truck/motorisation point by method; 'prohibited' = the chart's P"
+  },
+  "rail_interport_stacking_points": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "string",
+    "pattern": "^[0-9]+(/[0-9]+)?$"
+   },
+   "description": "Stacking points counted per item by rail or interport transfer"
+  }
+ }
+}

@@ -345,3 +345,9 @@ MISSION 4 COMPLETE. Merged #95 (Part B board defaults; hermetic decision-board t
 Method: 5 subagents drafted rulings in worktrees; /tmp/land.sh merged main, regenerated pages, ran gates, waited CI, merged. Expect conflicts when several rulings edit the same section; resolve by keeping both.
 Next: nothing unless PROGRESS Feedback has items.
 Blocked: none (copy questions are optional, Brian's).
+
+## 2026-09-27 09:45 MST — autopilot/l-abstract-air
+Done: Mission 5 Tasks 1–4 merged: #104 tooling, #105 seed (R-025–R-027, V-002–V-005), #107 overview (R-030–R-032), #106 fuel (R-040–R-043).
+In flight: drafts by subagents on branches autopilot/l-ammunition-and-stores (R-050s), l-water (R-060s), l-trucks-and-dumps (R-070s), l-ports-and-shipping (R-080s); #108 abstract air (R-090–R-092) ready but held until Tasks 5–8 merge (plan order).
+Next: land 5, 6, 7, 8, then #108 (`/tmp/land.sh` is gone next run: merge main, resolve EXTRACTION/config keep-both, gen_pages, gates, CI, merge). Then Task 10 rulings.
+Blocked: none.

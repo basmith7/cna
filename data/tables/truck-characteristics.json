@@ -1,0 +1,94 @@
+{
+ "table": "truck-characteristics",
+ "sources": [
+  "CNA1979:54.2",
+  "scan:p108"
+ ],
+ "notes": [
+  "Truck Characteristics Chart (SPI 54.2), 'maximum transport capacity' of one truck point of each class: CPA when motorising infantry, guns or (convoy trucks only, note *) carrying supplies; TOE Strength Points carried; Supply Points carried; fuel capacity; fuel consumption factor; Breakdown Adjustment Rating in column shifts left",
+  "The chart's 'na' (not allowed) is null. Light-truck infantry '½†': two light truck points motorise one infantry TOE point",
+  "Note ‡ on the light BAR: light trucks not moving along a road take one breakdown point more for each hex entered and each hexside crossed, on top of the terrain's own; the chart's example (track, one hex across a wadi into rough) totals 18",
+  "Transcribed from the archive.org scan (jp2 108) and cross-checked against the 300 dpi community scan of the chart sheet (scan:discord:Shared Charts.pdf:p14): 0 of 39 cells differ. Clay Stone's errata-integrated Land rules PDF contains no chart sheet"
+ ],
+ "rows": [
+  {
+   "truck": "light",
+   "cpa": {
+    "infantry": 25,
+    "guns": null,
+    "supplies": 40
+   },
+   "toe": {
+    "infantry": 0.5,
+    "artillery": null,
+    "anti_aircraft": 1
+   },
+   "supply_points": {
+    "ammo": 2,
+    "fuel": 50,
+    "stores": 6,
+    "water": 40
+   },
+   "fuel_capacity": 8,
+   "fuel_consumption": 1,
+   "bar": "2L",
+   "off_road_extra_breakdown": true,
+   "sources": [
+    "CNA1979:54.2",
+    "scan:p108"
+   ]
+  },
+  {
+   "truck": "medium",
+   "cpa": {
+    "infantry": 20,
+    "guns": 15,
+    "supplies": 30
+   },
+   "toe": {
+    "infantry": 1,
+    "artillery": 1,
+    "anti_aircraft": 2
+   },
+   "supply_points": {
+    "ammo": 4,
+    "fuel": 120,
+    "stores": 15,
+    "water": 100
+   },
+   "fuel_capacity": 6,
+   "fuel_consumption": 1,
+   "bar": "2L",
+   "sources": [
+    "CNA1979:54.2",
+    "scan:p108"
+   ]
+  },
+  {
+   "truck": "heavy",
+   "cpa": {
+    "infantry": 20,
+    "guns": 15,
+    "supplies": 30
+   },
+   "toe": {
+    "infantry": 2,
+    "artillery": 1,
+    "anti_aircraft": 4
+   },
+   "supply_points": {
+    "ammo": 8,
+    "fuel": 250,
+    "stores": 30,
+    "water": 200
+   },
+   "fuel_capacity": 6,
+   "fuel_consumption": 1,
+   "bar": "2L",
+   "sources": [
+    "CNA1979:54.2",
+    "scan:p108"
+   ]
+  }
+ ]
+}

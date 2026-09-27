@@ -44,6 +44,10 @@ and **0 SP**; an enemy combat unit entering its hex captures it and may use
 it at once. At most **five** may stand in a major city hex, **three** in any
 other hex; the Tripoli–Tunisia boxes hold any number.
 
+::: note
+In the Logistics Game this is replaced by [Water](logistics/30-water.md#usage).
+:::
+
 A combat unit may draw on any friendly supply unit within **half its CPA**
 — 5 CP for foot infantry, 10 for a heavy-weapons unit on motorisation
 points, 23 for a typical recce unit — the distance traced as a medium truck
@@ -85,6 +89,7 @@ sheets. The fleet and patrolling points need nothing.
   none. Patrolling pays none.
 
 ::: note
+In the Logistics Game this is replaced by [Ammunition and stores](logistics/20-ammunition-and-stores.md#consumption-rates).
 In the Logistics Game this is replaced by [Fuel](logistics/10-fuel.md#consumption-and-capacity).
 :::
 
@@ -116,6 +121,10 @@ arrival stage too.
   hex row held by a friendly division, shell or full; only to a hex holding
   a friendly division or brigade HQ (not a battle group). The unit stays put
   that stage but may be drawn upon.
+
+::: note
+In the Logistics Game this is replaced by [Trucks and dumps](logistics/40-trucks-and-dumps.md#the-commonwealth-railway).
+:::
 
 ## Receiving supply units
 
@@ -172,6 +181,10 @@ October 1940 to January 1943, Commonwealth and Axis percentages (the
 Commonwealth figure peaks at 10 % in March 1941, the Axis at 6 % in
 November 1942). The chart sheet heads it 58.5.
 
+::: note
+In the Logistics Game this is replaced by [Abstract truck losses](logistics/60-abstract-air.md#abstract-truck-losses).
+:::
+
 ## Simplified Axis convoys {#simplified-axis-convoys}
 
 ::: spi 32.61 32.62 32.63 32.64 32.65
@@ -190,6 +203,10 @@ down) and replacement points (fractions up); **20 % or more** hits
 everything, fractions down, but always at least one point of each item and
 one supply unit. Tank and gun losses are a percentage of each nationality's
 total, the Axis choosing the types.
+
+::: note
+In the Logistics Game this is replaced by [Axis naval convoys](logistics/50-ports-and-shipping.md#axis-naval-convoys).
+:::
 
 ::: spi 32.66
 

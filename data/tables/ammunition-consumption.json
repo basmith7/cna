@@ -1,0 +1,27 @@
+{
+  "table": "ammunition-consumption",
+  "sources": ["CNA1979:50.2", "scan:p107"],
+  "notes": [
+    "Printed on common chart page 13 (jp2 p107) as the 'Ammunition Consumption Rates Table'; the rules text (50.2) calls it a Chart.",
+    "'played' rows cost Ammunition Points per TOE Strength Point performing the action; 'abstracted' rows cost Ammunition Points per unit (battalion-equivalent) when the Logistics Game is abstracted, per the chart's own key.",
+    "The played row 'Engage in air-to-air combat and/or strafe' prints 'TacAir Bombload' stacked in the Ammo column rather than a number; recorded as 'tacair-bombload' (the plane's tacair rating and/or bombload, as the mission uses them). The Air Game rules decide which applies.",
+    "The abstracted rows print assault at 1 for both phasing and non-phasing battalion-equivalents; SPI 32.2 (restated in rules/95-abstract-logistics-and-air.md) has the phasing unit pay double. The chart is transcribed as printed; the abstracted half is not used by the Logistics Game.",
+    "Cross-read: all 14 Ammo cells and row labels against the Discord 'Shared Charts.pdf' page 13 (a separate, sharper scan of the same sheet); no disagreements."
+  ],
+  "rows": [
+    {"mode": "played", "action": "barrage", "ammo": 4, "sources": ["CNA1979:50.2", "scan:p107"]},
+    {"mode": "played", "action": "anti-armour", "ammo": 3, "sources": ["CNA1979:50.2", "scan:p107"]},
+    {"mode": "played", "action": "close-assault", "applies_to": ["armor-class", "gun-class", "mg-infantry", "heavy-weapons-infantry"], "ammo": 2, "sources": ["CNA1979:50.2", "scan:p107"]},
+    {"mode": "played", "action": "anti-air", "ammo": 2, "sources": ["CNA1979:50.2", "scan:p107"]},
+    {"mode": "played", "action": "rearm-squadron-tacair", "ammo": 1, "sources": ["CNA1979:50.2", "scan:p107"]},
+    {"mode": "played", "action": "rearm-plane-bombs-torpedoes-mines", "ammo": 1, "sources": ["CNA1979:50.2", "scan:p107"]},
+    {"mode": "played", "action": "air-combat-or-strafe", "ammo": "tacair-bombload", "sources": ["CNA1979:50.2", "scan:p107"]},
+    {"mode": "abstracted", "action": "barrage-phasing", "ammo": 4, "sources": ["CNA1979:50.2", "scan:p107"]},
+    {"mode": "abstracted", "action": "barrage-non-phasing", "ammo": 2, "sources": ["CNA1979:50.2", "scan:p107"]},
+    {"mode": "abstracted", "action": "assault-phasing", "ammo": 1, "sources": ["CNA1979:50.2", "scan:p107"]},
+    {"mode": "abstracted", "action": "assault-non-phasing", "ammo": 1, "sources": ["CNA1979:50.2", "scan:p107"]},
+    {"mode": "abstracted", "action": "anti-air-gun-class", "ammo": 1, "sources": ["CNA1979:50.2", "scan:p107"]},
+    {"mode": "abstracted", "action": "rearm-non-fighter-squadron", "ammo": 1, "sources": ["CNA1979:50.2", "scan:p107"]},
+    {"mode": "abstracted", "action": "non-fighter-flight", "ammo": "bombload", "sources": ["CNA1979:50.2", "scan:p107"]}
+  ]
+}
