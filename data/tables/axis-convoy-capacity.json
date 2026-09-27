@@ -3,7 +3,7 @@
  "sources": ["CNA1979:56.5", "CNA1979:56.21", "scan:p178"],
  "notes": [
   "Axis Naval Convoy Capacity Table (SPI 56.5), jp2 178. Tonnage for the Game-Turn = fixed tons + tons_per_pip x one die, rounded up to the nearest 1,000 tons (with whole-die rolls every result is already a multiple of 500; only B and C at odd rolls round). 56.21 calls the same table the Tonnage Capacity / Tonnage Determination Table",
-  "Cross-check: 56.21's worked example (level E, roll 4 = 21,000 tons) agrees; the OCR of jp2 178 agrees on B (7,000 / 1,500), D (11,000), F (2,000) and G (3,000). Discord scan not paged through in this run"
+  "Cross-check: transcribed from the archive.org scan (jp2 178) and cross-checked cell by cell against the 300 dpi community scan (scan:discord:Axis Charts.pdf:p36): 0 of 14 cells differ. 56.21's worked example (level E, roll 4 = 21,000 tons) also agrees"
  ],
  "round_up_to": 1000,
  "rows": [

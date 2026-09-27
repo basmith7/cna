@@ -5,7 +5,7 @@
   "Port Capacity and Efficiency Level Chart (SPI 55.3), common chart sheet page 15 (jp2 109). Stacking points in/out are per Operations Stage; maximum tonnage is supply tonnage in and/or out per Operations Stage at full efficiency. The chart's key: stacking points and tonnage handled do not affect each other; replacement points by Axis convoy are landed against the stacking-point figure, not the tonnage; reinforcements are never affected by a port's capacity or efficiency; one lost level cuts capacity by one over the listed level",
   "Tobruk is printed with efficiency level 5 and a dagger: it starts the campaign below the listed five because of the San Giorgio (the chart misspells it 'San Girogio'). See rulings/R-027.md",
   "Bizerta's asterisk: not usable by the Axis before Game-Turn 35, when he may start rolling for activation (55.17 gives the same date as the June I, 1941 Game-Turn)",
-  "Cross-check: the chart is printed only on the common sheet; the Discord chart PDFs are image-only and were not paged through in this run. Cross-read instead against the rules text: 55.14 (Benghazi 2,500 tons at level 3) and 55.12 (Tobruk level 5) agree with the chart. No cell unresolved on the jp2 109 reading"
+  "Cross-check: transcribed from the archive.org scan (jp2 109) and cross-checked cell by cell against the 300 dpi community scan (scan:discord:Shared Charts.pdf:p15): 0 of 40 cells differ (10 ports x level, SP in, SP out, tons), footnote marks also agree. Also agrees with 55.12 (Tobruk 5) and 55.14 (Benghazi 2,500 tons at level 3)"
  ],
  "rows": [
   {"port": "tripoli", "efficiency_level": 10, "sp_in": 10, "sp_out": 15, "max_tons": 15000},
