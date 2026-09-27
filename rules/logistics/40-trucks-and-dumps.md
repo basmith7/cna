@@ -327,18 +327,20 @@ is never usable.
 
 ::: spi 54.43 54.44 54.45
 
+::: ruling R-072 — rolling-stock lots add up, the total applies in each direction, and Axis trains move when Commonwealth trains do
+
 3. **Rolling stock.** For every **250 stores and 100 fuel** delivered from
    Europe to any controlled, working rail hex, the Axis may activate his
    contiguous controlled rail hexes to haul **300 tons** of supplies in one
    direction per Operations Stage. Moving **one stacking point** of units
-   needs active stock worth **900 tons**.
+   needs active stock worth **900 tons**. Lots add up, and the total is
+   available in each direction every Operations Stage (three lots give
+   900 tons, or one stacking point, each way). Axis trains move at the
+   same point in the stage as Commonwealth trains.
 4. The stores and fuel spent on rolling stock are gone for good. If the
    Axis ever holds fewer than five contiguous rail hexes, all his rolling
    stock is destroyed. Neither side may use the other's rolling stock.
 
-::: note
-Open question, not yet decided: whether rolling-stock lots add up, whether capacity is per direction, and when Axis trains move ([R-072](../../rulings/R-072.md)).
-:::
 
 ::: spi 54.46
 

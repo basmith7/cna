@@ -56,7 +56,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-062](./R-062.md) | Where must water be for a unit to count as watered? | proposed | 52.41, 52.42, 52.5, 49.15 |
 | [R-070](./R-070.md) | What the Equivalent Weights Chart's "Unit of Stacking Points 1/2" row means | accepted | 54.5 |
 | [R-071](./R-071.md) | May one rail run carry both units and supplies in the Logistics Game? | accepted | 54.31, 54.32, 54.33, 8.72 |
-| [R-072](./R-072.md) | How Axis rolling stock adds up and when Axis trains move | proposed | 54.43, 54.44, 54.46 |
+| [R-072](./R-072.md) | How Axis rolling stock adds up and when Axis trains move | accepted | 54.43, 54.44, 54.46 |
 | [R-073](./R-073.md) | Are the Tunis/Tripoli boxes supply dumps? | proposed | 54.13 |
 | [R-080](./R-080.md) | Is a port's capacity per Operations Stage or per Game-Turn? | proposed | 55.14, 55.16, 55.3 |
 | [R-081](./R-081.md) | Which ports are major ports? | proposed | 55.11, 55.3 |
