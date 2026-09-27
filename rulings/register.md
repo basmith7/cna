@@ -40,9 +40,9 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-025](./R-025.md) | When does coastal shipping move? | accepted | 48.0, 56.32 |
 | [R-026](./R-026.md) | Where is the Commonwealth's unlimited supply: Cairo, or Cairo and Alexandria? | accepted | 57.0, 60.44 |
 | [R-027](./R-027.md) | Tobruk's port efficiency level | accepted | 55.12, 55.25, 55.3, 60.7, 61.6 |
-| [R-030](./R-030.md) | Order of the Logistics organisation segments | proposed | 48.0 |
-| [R-031](./R-031.md) | When the land-support air phase is taken | proposed | 48.0 |
-| [R-032](./R-032.md) | Convoy bombing and fleet bombardment without the Air Game | proposed | 48.0, 58.1, 58.2 |
+| [R-030](./R-030.md) | Order of the Logistics organisation segments | accepted | 48.0 |
+| [R-031](./R-031.md) | When the land-support air phase is taken | accepted | 48.0 |
+| [R-032](./R-032.md) | Convoy bombing and fleet bombardment without the Air Game | accepted | 48.0, 58.1, 58.2 |
 | [R-040](./R-040.md) | Does fuel in a unit's own tanks evaporate? | accepted | 49.3, 49.14, 29.3 |
 | [R-041](./R-041.md) | Part-blocks of 5 CP: per move or across the stage? | accepted | 49.13, 49.15, 49.16 |
 | [R-042](./R-042.md) | How the evaporation rates combine | accepted | 49.3, 29.3 |
@@ -62,9 +62,9 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-081](./R-081.md) | Which ports are major ports? | accepted | 55.11, 55.3 |
 | [R-082](./R-082.md) | How are the *San Giorgio*'s three levels at Tobruk regained? | accepted | 55.18, 55.25, 55.26, 30.17 |
 | [R-083](./R-083.md) | Are Tobruk's blocking and clearing costs swapped? | accepted | 55.22, 55.23, 55.26 |
-| [R-090](./R-090.md) | Axis fuel lost on landing: rounding and which landings count | proposed | 58.3 |
-| [R-091](./R-091.md) | How many trucks leave the initial set-up without the Air Game? | proposed | 58.41 |
-| [R-092](./R-092.md) | Abstract truck losses: timing, base and rounding | proposed | 58.42, 58.44, 32.57 |
+| [R-090](./R-090.md) | Axis fuel lost on landing: rounding and which landings count | accepted | 58.3 |
+| [R-091](./R-091.md) | How many trucks leave the initial set-up without the Air Game? | accepted | 58.41 |
+| [R-092](./R-092.md) | Abstract truck losses: timing, base and rounding | accepted | 58.42, 58.44, 32.57 |
 
 ## Variants
 

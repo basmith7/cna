@@ -86,6 +86,12 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 
+## [Logistics Game — overview and sequence of play](./logistics/00-overview-and-sequence.md)
+
+- [R-032](../rulings/R-032.md) — without the Air Game, abstract convoy attacks fall in convoy bombing; fleet strikes in the fleet phase
+- [R-030](../rulings/R-030.md) — the organisation segments run in any order; attrition checks supply as it stands when run
+- [R-031](../rulings/R-031.md) — the land-support air phase is flown once per stage, by both sides together
+
 ## [Fuel](./logistics/10-fuel.md)
 
 - [R-043](../rulings/R-043.md) — capacity counts a part-block of CPA as a whole block
@@ -120,6 +126,14 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-026](../rulings/R-026.md) — unlimited supply is in Cairo; the Italian campaign adds Alexandria
 - [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery that never reduces Tobruk's efficiency (NJHarman)
 
+## [Abstract air](./logistics/60-abstract-air.md)
+
+- [R-032](../rulings/R-032.md) — the abstract convoy attack is made in the convoy bombing segment
+- [R-032](../rulings/R-032.md) — fleet strikes are plotted and resolved in the Commonwealth fleet phase
+- [R-090](../rulings/R-090.md) — only convoy fuel from Europe is cut; the loss is rounded up
+- [R-091](../rulings/R-091.md) — the set-up loses 10 % of its Truck Points, rounded up, in proportion by type
+- [R-092](../rulings/R-092.md) — monthly truck loss at the first naval convoy stage, on-map base, total rounded up and split by largest remainder
+
 ## Rulings register
 
 | Id | Status | Affects |
@@ -151,9 +165,9 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-025](../rulings/R-025.md) | accepted | 48.0, 56.32 |
 | [R-026](../rulings/R-026.md) | accepted | 57.0, 60.44 |
 | [R-027](../rulings/R-027.md) | accepted | 55.12, 55.25, 55.3, 60.7, 61.6 |
-| [R-030](../rulings/R-030.md) | proposed | 48.0 |
-| [R-031](../rulings/R-031.md) | proposed | 48.0 |
-| [R-032](../rulings/R-032.md) | proposed | 48.0, 58.1, 58.2 |
+| [R-030](../rulings/R-030.md) | accepted | 48.0 |
+| [R-031](../rulings/R-031.md) | accepted | 48.0 |
+| [R-032](../rulings/R-032.md) | accepted | 48.0, 58.1, 58.2 |
 | [R-040](../rulings/R-040.md) | accepted | 49.3, 49.14, 29.3 |
 | [R-041](../rulings/R-041.md) | accepted | 49.13, 49.15, 49.16 |
 | [R-042](../rulings/R-042.md) | accepted | 49.3, 29.3 |
@@ -173,9 +187,9 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-081](../rulings/R-081.md) | accepted | 55.11, 55.3 |
 | [R-082](../rulings/R-082.md) | accepted | 55.18, 55.25, 55.26, 30.17 |
 | [R-083](../rulings/R-083.md) | accepted | 55.22, 55.23, 55.26 |
-| [R-090](../rulings/R-090.md) | proposed | 58.3 |
-| [R-091](../rulings/R-091.md) | proposed | 58.41 |
-| [R-092](../rulings/R-092.md) | proposed | 58.42, 58.44, 32.57 |
+| [R-090](../rulings/R-090.md) | accepted | 58.3 |
+| [R-091](../rulings/R-091.md) | accepted | 58.41 |
+| [R-092](../rulings/R-092.md) | accepted | 58.42, 58.44, 32.57 |
 
 ## Variants register
 
