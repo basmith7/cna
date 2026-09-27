@@ -64,15 +64,13 @@ level 7 printed in the campaign set-ups is not used.
    transport rule as corrected by the errata:
    [Naval transport of troops](../90-special.md#naval-transport-of-troops).
    Scheduled reinforcements never touch a port's capacity or level.
+::: ruling R-080 — port capacity is per Operations Stage; Strategic Phase arrivals count against the stage they land in
+
 2. Some ports receive shipments only in a Strategic Phase; others may be
    used in every Operations Stage. A port's capacity covers all it receives,
-   whichever phase the cargo arrives in; keep one running total.
-
-::: note Open question
-The chart gives capacity per Operations Stage; case 55.16 speaks of a
-Game-Turn. Which period the running total covers is
-[R-080](../../rulings/R-080.md).
-:::
+   whichever phase the cargo arrives in. Keep one running total per
+   Operations Stage, reset as each stage begins; cargo landed in a
+   Strategic Phase counts against the stage in which it is landed.
 
 ### Bizerta
 

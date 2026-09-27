@@ -58,7 +58,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-071](./R-071.md) | May one rail run carry both units and supplies in the Logistics Game? | proposed | 54.31, 54.32, 54.33, 8.72 |
 | [R-072](./R-072.md) | How Axis rolling stock adds up and when Axis trains move | proposed | 54.43, 54.44, 54.46 |
 | [R-073](./R-073.md) | Are the Tunis/Tripoli boxes supply dumps? | proposed | 54.13 |
-| [R-080](./R-080.md) | Is a port's capacity per Operations Stage or per Game-Turn? | proposed | 55.14, 55.16, 55.3 |
+| [R-080](./R-080.md) | Is a port's capacity per Operations Stage or per Game-Turn? | accepted | 55.14, 55.16, 55.3 |
 | [R-081](./R-081.md) | Which ports are major ports? | proposed | 55.11, 55.3 |
 | [R-082](./R-082.md) | How are the *San Giorgio*'s three levels at Tobruk regained? | proposed | 55.18, 55.25, 55.26, 30.17 |
 | [R-083](./R-083.md) | Are Tobruk's blocking and clearing costs swapped? | proposed | 55.22, 55.23, 55.26 |
