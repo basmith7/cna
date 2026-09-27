@@ -104,6 +104,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-032** — the −1 and 7 columns read 0 % and 100 %; the chart printed 33 % in both
 - **E-033** — the Axis may use the rail lines under these cases, despite the Land Game's Commonwealth-only wording
 - [R-018](../rulings/R-018.md) — dump costs follow the charts: real 3 CP + 10 stores, dummy 2 CP
+- [R-073](../rulings/R-073.md) — the Tunis/Tripoli boxes store unlimited supplies but are not dumps
 - [R-005](../rulings/R-005.md) — one rail run each way, loads changeable en route within the limits (Land Game mixing narrowed here by R-071)
 - [R-071](../rulings/R-071.md) — in the Logistics Game each rail run carries units or supplies, never both; R-005 otherwise still applies
 - [R-072](../rulings/R-072.md) — rolling-stock lots add up, the total applies in each direction, and Axis trains move when Commonwealth trains do
@@ -164,7 +165,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-070](../rulings/R-070.md) | accepted | 54.5 |
 | [R-071](../rulings/R-071.md) | accepted | 54.31, 54.32, 54.33, 8.72 |
 | [R-072](../rulings/R-072.md) | accepted | 54.43, 54.44, 54.46 |
-| [R-073](../rulings/R-073.md) | proposed | 54.13 |
+| [R-073](../rulings/R-073.md) | accepted | 54.13 |
 | [R-080](../rulings/R-080.md) | proposed | 55.14, 55.16, 55.3 |
 | [R-081](../rulings/R-081.md) | proposed | 55.11, 55.3 |
 | [R-082](../rulings/R-082.md) | proposed | 55.18, 55.25, 55.26, 30.17 |

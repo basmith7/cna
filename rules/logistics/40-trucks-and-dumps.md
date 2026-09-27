@@ -202,6 +202,8 @@ with no dump may hold only a little. Data:
 [`data/tables/supply-dump-capacity.json`](../../data/tables/supply-dump-capacity.json)
 (the chart sheet numbers it 54.12).
 
+::: ruling R-073 — the Tunis/Tripoli boxes store unlimited supplies but are not dumps
+
 | Location | Ammo | Fuel | Stores | Water |
 |---|---|---|---|---|
 | Tunis/Tripoli box (each of the four) | unlimited | unlimited | unlimited | unlimited |
@@ -211,11 +213,11 @@ with no dump may hold only a little. Data:
 | No dump in the hex | 50 | 0 | 50 | 0 |
 
 Water may be drawn from, as well as stored in, a village, a major city or a
-Tunis/Tripoli box. The In Transit box may never serve as a dump.
+Tunis/Tripoli box. Neither the Tunis/Tripoli boxes nor the In Transit box
+is ever a dump: the Tunis/Tripoli boxes simply store any amount of
+supplies without a dump counter, and the rules for building, blowing,
+faking or capturing dumps never apply to them.
 
-::: note
-Open question, not yet decided: whether the Tunis/Tripoli boxes are dumps or only unlimited storage ([R-073](../../rulings/R-073.md)).
-:::
 
 ::: variant V-004 — NJHarman lets stores be paid in instalments, easing the stores limits
 
