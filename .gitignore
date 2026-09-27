@@ -10,3 +10,4 @@ __pycache__/
 .claude/worktrees/
 docs/outreach/
 build/
+tools/sources.private.json
