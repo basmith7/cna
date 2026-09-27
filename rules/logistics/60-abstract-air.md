@@ -110,6 +110,8 @@ as for abstract losses below, between trucks in convoy and trucks attached.
 
 ::: spi 58.42 58.44
 
+::: ruling R-092 — monthly truck loss at the first naval convoy stage, on-map base, total rounded up and split by largest remainder
+
 On top of what land combat destroys, both players lose trucks each month to
 abstract strafing and bombing.
 
@@ -133,11 +135,15 @@ convoy, and 40 light, 70 medium and 40 heavy attached. A 10 % loss is 20
 points, taken as 2 light and 3 medium from the convoys and 4 light, 7 medium
 and 4 heavy from the attached trucks.
 
-::: note Open question
-When in the month the loss is taken, which trucks form the base (on the map
-only, or boxes too), and how fractions are rounded when the proportional
-split does not come out even, are open: see R-092.
-:::
+**When and on what.** As in the Land Game, the loss for the previous month
+is taken in the naval convoy stage (III) of the month's first turn. The base
+is the player's Truck Points on the map at that moment, the Tripolitania–Tunis
+boxes included; trucks still at sea or not yet arrived do not count.
+
+**Rounding.** Work out the total loss first and round it up. Then give each
+type-and-location share its whole-number part, and hand the points still
+owed one at a time to the shares with the largest fractions left over (ties:
+the owner chooses). The shares always add up to the total.
 
 ### Trucks withheld on arrival {#arriving-trucks}
 

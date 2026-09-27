@@ -121,6 +121,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-032](../rulings/R-032.md) — fleet strikes are plotted and resolved in the Commonwealth fleet phase
 - [R-090](../rulings/R-090.md) — only convoy fuel from Europe is cut; the loss is rounded up
 - [R-091](../rulings/R-091.md) — the set-up loses 10 % of its Truck Points, rounded up, in proportion by type
+- [R-092](../rulings/R-092.md) — monthly truck loss at the first naval convoy stage, on-map base, total rounded up and split by largest remainder
 
 ## Rulings register
 
@@ -177,7 +178,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-083](../rulings/R-083.md) | proposed | 55.22, 55.23, 55.26 |
 | [R-090](../rulings/R-090.md) | accepted | 58.3 |
 | [R-091](../rulings/R-091.md) | accepted | 58.41 |
-| [R-092](../rulings/R-092.md) | proposed | 58.42, 58.44, 32.57 |
+| [R-092](../rulings/R-092.md) | accepted | 58.42, 58.44, 32.57 |
 
 ## Variants register
 
