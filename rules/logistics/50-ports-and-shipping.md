@@ -329,6 +329,8 @@ printed on it.
 
 ::: spi 56.32 56.34
 
+::: ruling R-025 — Axis coastal ship counters sail in the Truck Convoy Phase; Commonwealth port-to-port transfers stay in the Tactical Shipping Segment
+
 Coastal ships move in the **Truck Convoy Phase** only.
 
 1. At the start of that phase, load supplies at a port for **5 CP**. A ship
@@ -337,10 +339,9 @@ Coastal ships move in the **Truck Convoy Phase** only.
 2. Move the ship.
 3. Unload for another **5 CP**.
 
-::: note Open question
-The sequence of play puts coastal shipping in the Tactical Shipping Segment
-instead; which governs is [R-025](../../rulings/R-025.md).
-:::
+This timing is for the Axis coastal ship counters alone. Commonwealth
+transfers between ports, which use no counters, still happen in the
+Tactical Shipping Segment of the Organization Phase.
 
 ## Commonwealth supply base
 

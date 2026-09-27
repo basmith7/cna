@@ -107,6 +107,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Ports and shipping](./logistics/50-ports-and-shipping.md)
 
+- [R-025](../rulings/R-025.md) — Axis coastal ship counters sail in the Truck Convoy Phase; Commonwealth port-to-port transfers stay in the Tactical Shipping Segment
 - [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery that never reduces Tobruk's efficiency (NJHarman)
 
 ## Rulings register
@@ -137,7 +138,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-022](../rulings/R-022.md) | proposed | 52.51, 52.52, 3.1 |
 | [R-023](../rulings/R-023.md) | accepted | 15.79 |
 | [R-024](../rulings/R-024.md) | accepted | 17.4 |
-| [R-025](../rulings/R-025.md) | proposed | 48.0, 56.32 |
+| [R-025](../rulings/R-025.md) | accepted | 48.0, 56.32 |
 | [R-026](../rulings/R-026.md) | proposed | 57.0, 60.44 |
 | [R-027](../rulings/R-027.md) | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
 | [R-030](../rulings/R-030.md) | proposed | 48.0 |

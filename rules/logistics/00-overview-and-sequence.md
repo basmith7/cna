@@ -148,8 +148,8 @@ again for Player B with the labels swapped (see
      (*Ports and shipping*). Axis coastal ships
      are counters; Commonwealth coastal shipping has none and is limited
      only by port capacity. (Moved here from the Land Game's stage II.)
-     Whether Axis coastal ships sail here or in the truck convoy phase is
-     open: see [R-025](../../rulings/R-025.md).
+     Axis coastal ship counters do not sail here but in each player's
+     truck convoy phase ([R-025](../../rulings/R-025.md)).
 - **D. Convoy arrival** — reinforcements, replacement points and supplies
   due now, and actually arriving, are placed at their ports or entry hexes.
   The Axis plans future replacements from its pool. In the first arrival
