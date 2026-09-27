@@ -372,3 +372,12 @@ the PR that adds or substantially rewrites the file.
 - How we expressed it: SPI order; a `::: note` for the designer's untested-rules warning (site plugin extended, with tests, to render `::: note [title] … :::` blocks); the 3.62 disclosure list as a table; 10-units-and-state's spi-omit for 3.61–3.62 changed to spi-ref pointing here; 00-overview's file map corrected (§21 → Special). Four chart-sheet tables (32.46, 32.47, 32.59, 32.66) spi-omit pending capture.
 - Errata applied: none change a value here; the 32.0 warning is carried as a note.
 - Rulings raised: none.
+
+## rules/logistics/10-fuel.md — 2026-09-27
+
+- **Cases read:** 49.0, 49.1, 49.11–49.19, 49.2, 49.3 (13 ids; 49.1 is a heading only). No §49 errata in `data/errata/INDEX.md`.
+- **Mechanics → expression:** fuel users (49.0, 49.12) → list; Fuel Points and non-denominational fuel (49.11, 49.19) → short section; consumption per five-CP block and capacity formula (49.13–49.14) → numbered steps plus our own example; drawing fuel in the starting hex, no CP cost, no draw from 2nd/3rd-line trucks (49.15–49.16) → numbered procedure; siphoning (49.17) → prose; carriers and trucks burning cargo (49.18, 49.2) → prose; evaporation (49.3) → numbered steps plus a table.
+- **Charts:** §49 prints no chart. The evaporation rates, printed in the text of 49.3 (jp2 66), are `data/tables/fuel-evaporation.json`; second reading is the source .adoc: 0 of 3 rates differ. Per-unit fuel consumption rates and capacity ratings are organisation-sheet data and are named as variables only.
+- **Rulings opened (proposed):** R-040 evaporation of fuel in tanks; R-041 part-block rounding across segments; R-042 how the evaporation rates combine; R-043 capacity when CPA is not a multiple of five.
+- **Land Game pointer:** note under the abstract fuel bullet in `rules/95-abstract-logistics-and-air.md`.
+

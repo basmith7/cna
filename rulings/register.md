@@ -37,6 +37,10 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-022](./R-022.md) | Which units are "vehicles" for the without-water halving in 52.51? | proposed | 52.51, 52.52, 3.1 |
 | [R-023](./R-023.md) | Close assault, defender +2 column: readings 34–36 | accepted | 15.79 |
 | [R-024](./R-024.md) | Morale Modifier Table, cohesion −4: reading 56 | accepted | 17.4 |
+| [R-040](./R-040.md) | Does fuel in a unit's own tanks evaporate? | proposed | 49.3, 49.14, 29.3 |
+| [R-041](./R-041.md) | Part-blocks of 5 CP: per move or across the stage? | proposed | 49.13, 49.15, 49.16 |
+| [R-042](./R-042.md) | How the evaporation rates combine | proposed | 49.3, 29.3 |
+| [R-043](./R-043.md) | Fuel capacity when the CPA is not a multiple of five | proposed | 49.13, 49.14 |
 
 ## Variants
 

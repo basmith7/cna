@@ -80,6 +80,10 @@ sheets. The fleet and patrolling points need nothing.
   motorisation points doing anything else pay none. Rail and sea moves pay
   none. Patrolling pays none.
 
+::: note
+In the Logistics Game this is replaced by [Fuel](logistics/10-fuel.md#consumption-and-capacity).
+:::
+
 ## Moving supply units
 
 ::: spi 32.31 32.32 32.33 32.34 32.35 32.36 32.37
