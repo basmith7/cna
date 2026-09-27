@@ -261,9 +261,13 @@ Italian troops lived largely on pasta, which needs water to cook. So:
 4. When it does get its Pasta Point, it returns to the Cohesion Level it
    had before it fell apart.
 
-::: note
-Open question, not yet decided: how often the Pasta Point is due and how long its penalty lasts ([R-060](../../rulings/R-060.md)).
-:::
+::: ruling R-060 — the Pasta Point is due once per Game-Turn; the CPA limit lasts the whole turn
+
+The Pasta Point is due **once per Game-Turn**, with the normal stores
+distribution, not with every later top-up. A battalion that misses it keeps
+the CPA limit for the rest of that Game-Turn even if the point reaches it
+later; only the Cohesion effect ends on delivery (ruling
+[R-060](../../rulings/R-060.md)).
 
 ---
 
