@@ -65,6 +65,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-090](./R-090.md) | Axis fuel lost on landing: rounding and which landings count | accepted | 58.3 |
 | [R-091](./R-091.md) | How many trucks leave the initial set-up without the Air Game? | accepted | 58.41 |
 | [R-092](./R-092.md) | Abstract truck losses: timing, base and rounding | accepted | 58.42, 58.44, 32.57 |
+| [R-093](./R-093.md) | The abstract convoy attack's result bands against itemised cargo | accepted | 58.1, 32.64 |
 
 ## Variants
 
