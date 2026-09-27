@@ -148,17 +148,19 @@ construction ([Construction](../80-engineering.md#construction)).
 
 ::: spi 51.12 51.17
 
+::: ruling R-053 — prisoners pay at the start of every Operations Stage; a part-group of five rounds up
+
 1. Prisoners need **1 Stores Point per 5 Prisoner Points** in every
-   **Operations Stage** (see [Prisoners](../90-special.md#prisoners)).
+   **Operations Stage** (see [Prisoners](../90-special.md#prisoners)),
+   paid at the start of each stage (in the first stage, with the
+   Game-Turn's stores distribution). A part-group of fewer than five
+   counts as a full five. Guards are still charged once per Game-Turn.
 2. Prisoners are fed **first**, before any other unit.
 3. If there are no stores in the prisoners' hex, deduct them from the
    **nearest supply dump**, however far away it is. Only prisoners and
    guards may draw at a distance like this.
 4. Guards may draw from the nearest dump in the same way.
 
-::: note
-Open question, not yet decided: how the per-stage prisoner charge fits a per-turn stores distribution ([R-053](../../rulings/R-053.md)).
-:::
 
 ## Moving and capturing stores
 
