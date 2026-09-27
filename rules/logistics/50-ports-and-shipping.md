@@ -48,11 +48,11 @@ the whole ton. For example, a port with maximum level 4 and a capacity of
 1,000 tons that has been knocked down to level 3 handles 750 tons; knocked
 down to 1, it handles 250 tons.
 
-::: note Open question
-Case 55.12 names Tobruk's level as 5, and the chart prints 5; the campaign
-set-ups start Tobruk at 7. Which figure holds is
-[R-027](../../rulings/R-027.md).
-:::
+::: ruling R-027 — Tobruk's maximum level is the chart's 5; the campaigns start it at 2, not the printed 7
+
+Tobruk's maximum level is 5, as the chart shows. Because the *San Giorgio*
+costs it three levels (below), Tobruk begins each campaign at level 2; the
+level 7 printed in the campaign set-ups is not used.
 
 ### Troops landing and the period of capacity
 
