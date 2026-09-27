@@ -86,6 +86,16 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 
+## [Trucks and dumps](./logistics/40-trucks-and-dumps.md)
+
+- **E-032** — the −1 and 7 columns read 0 % and 100 %; the chart printed 33 % in both
+- **E-033** — the Axis may use the rail lines under these cases, despite the Land Game's Commonwealth-only wording
+- [R-018](../rulings/R-018.md) — dump costs follow the charts: real 3 CP + 10 stores, dummy 2 CP
+- [R-005](../rulings/R-005.md) — one rail stack each way may mix units and supplies and change its load en route, within both limits
+- [V-003](../rulings/V-003.md) — NJHarman drops the light-truck off-road breakdown note entirely
+- [V-005](../rulings/V-005.md) — NJHarman: bombing and strafing do not reveal a dummy dump
+- [V-004](../rulings/V-004.md) — NJHarman lets stores be paid in instalments, easing the stores limits
+
 ## Rulings register
 
 | Id | Status | Affects |
@@ -117,6 +127,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-025](../rulings/R-025.md) | proposed | 48.0, 56.32 |
 | [R-026](../rulings/R-026.md) | proposed | 57.0, 60.44 |
 | [R-027](../rulings/R-027.md) | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
+| [R-070](../rulings/R-070.md) | proposed | 54.5 |
+| [R-071](../rulings/R-071.md) | proposed | 54.31, 54.32, 54.33, 8.72 |
+| [R-072](../rulings/R-072.md) | proposed | 54.43, 54.44, 54.46 |
+| [R-073](../rulings/R-073.md) | proposed | 54.13 |
 
 ## Variants register
 

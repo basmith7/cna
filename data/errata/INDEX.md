@@ -39,3 +39,5 @@ listed here alone.
 | E-029 | 28.17 | correction | rules/90-special.md | one guard point per five prisoners on the move |
 | E-030 | 30.5, 30.55, 30.57, 30.58, 30.59 | corrections | rules/90-special.md | references to 56.0 / 55.2 / 55.3; barraged units may still transfer; 30.57 replaced by 10 % tonnage loss per SP landed |
 | E-031 | 8.37 | correction | data/errata/E-031.json → data/tables/terrain-effects.json; rules/40-movement.md | Terrain Effects Chart: footnote 4 belongs to Major City, not Swamp; a track halves the hex terrain's cost rather than costing 1 CP |
+| E-032 | 54.17 | correction | data/errata/E-032.json → data/tables/supply-dump-demolition.json; rules/logistics/40-trucks-and-dumps.md | Supply Dump Demolition Table: the −1 column destroys 0 % and the 7 column 100 % (both printed 33 %) |
+| E-033 | 8.71 | clarification | rules/logistics/40-trucks-and-dumps.md | the Axis may use the rail lines under §54.4, which was added just before printing |

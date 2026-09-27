@@ -109,6 +109,10 @@ arrival stage too.
   a friendly division or brigade HQ (not a battle group). The unit stays put
   that stage but may be drawn upon.
 
+::: note
+In the Logistics Game this is replaced by [Trucks and dumps](logistics/40-trucks-and-dumps.md#the-commonwealth-railway).
+:::
+
 ## Receiving supply units
 
 ::: spi 32.41 32.42 32.43 32.44 32.45

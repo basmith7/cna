@@ -40,6 +40,10 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-025](./R-025.md) | When does coastal shipping move? | proposed | 48.0, 56.32 |
 | [R-026](./R-026.md) | Where is the Commonwealth's unlimited supply: Cairo, or Cairo and Alexandria? | proposed | 57.0, 60.44 |
 | [R-027](./R-027.md) | Tobruk's port efficiency level | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
+| [R-070](./R-070.md) | What the Equivalent Weights Chart's "Unit of Stacking Points 1/2" row means | proposed | 54.5 |
+| [R-071](./R-071.md) | May one rail run carry both units and supplies in the Logistics Game? | proposed | 54.31, 54.32, 54.33, 8.72 |
+| [R-072](./R-072.md) | How Axis rolling stock adds up and when Axis trains move | proposed | 54.43, 54.44, 54.46 |
+| [R-073](./R-073.md) | Are the Tunis/Tripoli boxes supply dumps? | proposed | 54.13 |
 
 ## Variants
 
