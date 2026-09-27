@@ -62,6 +62,9 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-081](./R-081.md) | Which ports are major ports? | proposed | 55.11, 55.3 |
 | [R-082](./R-082.md) | How are the *San Giorgio*'s three levels at Tobruk regained? | proposed | 55.18, 55.25, 55.26, 30.17 |
 | [R-083](./R-083.md) | Are Tobruk's blocking and clearing costs swapped? | proposed | 55.22, 55.23, 55.26 |
+| [R-090](./R-090.md) | Axis fuel lost on landing: rounding and which landings count | proposed | 58.3 |
+| [R-091](./R-091.md) | How many trucks leave the initial set-up without the Air Game? | proposed | 58.41 |
+| [R-092](./R-092.md) | Abstract truck losses: timing, base and rounding | proposed | 58.42, 58.44, 32.57 |
 
 ## Variants
 

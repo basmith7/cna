@@ -181,6 +181,10 @@ October 1940 to January 1943, Commonwealth and Axis percentages (the
 Commonwealth figure peaks at 10 % in March 1941, the Axis at 6 % in
 November 1942). The chart sheet heads it 58.5.
 
+::: note
+In the Logistics Game this is replaced by [Abstract truck losses](logistics/60-abstract-air.md#abstract-truck-losses).
+:::
+
 ## Simplified Axis convoys {#simplified-axis-convoys}
 
 ::: spi 32.61 32.62 32.63 32.64 32.65

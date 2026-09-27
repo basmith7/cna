@@ -78,6 +78,7 @@ export default defineConfig({
           { text: 'Water', link: '/rules/logistics/30-water' },
           { text: 'Trucks & dumps', link: '/rules/logistics/40-trucks-and-dumps' },
           { text: 'Ports & shipping', link: '/rules/logistics/50-ports-and-shipping' },
+          { text: 'Abstract air', link: '/rules/logistics/60-abstract-air' },
         ] },
         { text: 'Provenance', items: [
           { text: 'Changes from the original', link: '/rules/changes' },
