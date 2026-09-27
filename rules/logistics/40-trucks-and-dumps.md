@@ -368,6 +368,8 @@ rail and interport moves). Data:
 | Railroad | counted in stacking points | counted in stacking points |
 | Air | 2 tons (infantry-class only) | not allowed |
 
+::: ruling R-070 — the "unit of stacking points" row reads as 1: a unit counts its own printed stacking points
+
 | By rail or interport, one | Counts as stacking points |
 |---|---|
 | Truck point ‡ | 1/10 |
@@ -379,9 +381,9 @@ rail and interport moves). Data:
 total TOE Strength Points of the parent they belong to; trucks within that
 total travel with their unit.
 
-::: note
-Open question, not yet decided: what the last stacking row means ([R-070](../../rulings/R-070.md)).
-:::
+The last row's 1/2 is treated as a slip: any other unit moved by rail or
+interport counts exactly its printed stacking points.
+
 
 *Our example:* the Commonwealth railway's 1,500 tons move 375 ammunition
 points, or 1,500 stores, or 12,000 fuel points in one run.

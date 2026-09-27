@@ -54,7 +54,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-060](./R-060.md) | The Pasta Point: how often is it due, and how long does missing it bite? | proposed | 52.6, 51.1 |
 | [R-061](./R-061.md) | Drawing water from a broken pipeline | proposed | 52.25, 52.23 |
 | [R-062](./R-062.md) | Where must water be for a unit to count as watered? | proposed | 52.41, 52.42, 52.5, 49.15 |
-| [R-070](./R-070.md) | What the Equivalent Weights Chart's "Unit of Stacking Points 1/2" row means | proposed | 54.5 |
+| [R-070](./R-070.md) | What the Equivalent Weights Chart's "Unit of Stacking Points 1/2" row means | accepted | 54.5 |
 | [R-071](./R-071.md) | May one rail run carry both units and supplies in the Logistics Game? | proposed | 54.31, 54.32, 54.33, 8.72 |
 | [R-072](./R-072.md) | How Axis rolling stock adds up and when Axis trains move | proposed | 54.43, 54.44, 54.46 |
 | [R-073](./R-073.md) | Are the Tunis/Tripoli boxes supply dumps? | proposed | 54.13 |
