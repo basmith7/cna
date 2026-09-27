@@ -107,6 +107,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Ports and shipping](./logistics/50-ports-and-shipping.md)
 
+- [R-081](../rulings/R-081.md) — a port is major if the chart gives it an incoming stacking-point figure above zero
 - [R-027](../rulings/R-027.md) — Tobruk's maximum level is the chart's 5; the campaigns start it at 2, not the printed 7
 - [R-080](../rulings/R-080.md) — port capacity is per Operations Stage; Strategic Phase arrivals count against the stage they land in
 - [R-025](../rulings/R-025.md) — Axis coastal ship counters sail in the Truck Convoy Phase; Commonwealth port-to-port transfers stay in the Tactical Shipping Segment
@@ -163,7 +164,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-072](../rulings/R-072.md) | proposed | 54.43, 54.44, 54.46 |
 | [R-073](../rulings/R-073.md) | proposed | 54.13 |
 | [R-080](../rulings/R-080.md) | accepted | 55.14, 55.16, 55.3 |
-| [R-081](../rulings/R-081.md) | proposed | 55.11, 55.3 |
+| [R-081](../rulings/R-081.md) | accepted | 55.11, 55.3 |
 | [R-082](../rulings/R-082.md) | proposed | 55.18, 55.25, 55.26, 30.17 |
 | [R-083](../rulings/R-083.md) | proposed | 55.22, 55.23, 55.26 |
 | [R-090](../rulings/R-090.md) | proposed | 58.3 |

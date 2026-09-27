@@ -19,15 +19,17 @@ port rules of the Land Game played alone
 
 ::: spi 55.0 55.11
 
+::: ruling R-081 — a port is major if the chart gives it an incoming stacking-point figure above zero
+
 Every port is either a **major port** or a **minor port**. Both kinds may
 ship men and supplies out. A major port may also receive troops; a minor
 port may receive only supplies.
 
-::: note Open question
-The rules give no list of major ports. The chart below gives each port an
-incoming stacking-point figure instead; whether that figure is what makes a
-port major is [R-081](../../rulings/R-081.md).
-:::
+The chart's incoming stacking-point column decides which is which. The
+major ports are those with a figure above zero: Tripoli, Bizerta,
+Alexandria, Tobruk, Benghazi and Mersa Matruh. All others are minor. Bardia
+and Sollum, which the chart rates at zero, may still land a single unit of
+zero stacking points each stage.
 
 ### Efficiency level and capacity
 
