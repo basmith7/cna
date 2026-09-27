@@ -39,8 +39,8 @@ road.
 
 ::: spi 49.11 49.19
 
-Fuel is counted in **Fuel Points**. One point stands for about a quarter of
-a ton of petrol and oils. Aircraft do not use Fuel Points: the Air Game
+Fuel is counted in **Fuel Points**. One point stands for about an eighth of
+a ton of petrol and oils (the weight the Equivalent Weights Chart uses). Aircraft do not use Fuel Points: the Air Game
 counts fuel in its own abstract way.
 
 Fuel belongs to nobody. Either side may burn fuel it finds or captures, so a
