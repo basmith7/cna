@@ -149,6 +149,8 @@ to 6, so 69 remain.
 Open question, not yet decided: whether fuel in a unit's own tanks evaporates ([R-040](../../rulings/R-040.md)).
 :::
 
+::: variant V-002 — fuel in vehicles' tanks does not evaporate
+
 ::: note
 Open question, not yet decided: how the 9 %, 6 % and hot-weather rates combine ([R-042](../../rulings/R-042.md)).
 :::

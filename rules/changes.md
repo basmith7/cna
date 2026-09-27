@@ -86,6 +86,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 
+## [Fuel](./logistics/10-fuel.md)
+
+- [V-002](../rulings/V-002.md) — fuel in vehicles' tanks does not evaporate
+
 ## Rulings register
 
 | Id | Status | Affects |
