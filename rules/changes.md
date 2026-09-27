@@ -89,7 +89,27 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 ## [Fuel](./logistics/10-fuel.md)
 
 - [R-041](../rulings/R-041.md) — part-blocks of five CP are rounded up for each Movement Segment's draw
+- [R-040](../rulings/R-040.md) — the per-turn loss reaches fuel in tanks; the hot-weather loss does not
 - [V-002](../rulings/V-002.md) — fuel in vehicles' tanks does not evaporate
+
+## [Ammunition and stores](./logistics/20-ammunition-and-stores.md)
+
+- [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
+- [V-004](../rulings/V-004.md) — stores paid in instalments
+
+## [Trucks and dumps](./logistics/40-trucks-and-dumps.md)
+
+- **E-032** — the −1 and 7 columns read 0 % and 100 %; the chart printed 33 % in both
+- **E-033** — the Axis may use the rail lines under these cases, despite the Land Game's Commonwealth-only wording
+- [R-018](../rulings/R-018.md) — dump costs follow the charts: real 3 CP + 10 stores, dummy 2 CP
+- [R-005](../rulings/R-005.md) — one rail stack each way may mix units and supplies and change its load en route, within both limits
+- [V-003](../rulings/V-003.md) — NJHarman drops the light-truck off-road breakdown note entirely
+- [V-005](../rulings/V-005.md) — NJHarman: bombing and strafing do not reveal a dummy dump
+- [V-004](../rulings/V-004.md) — NJHarman lets stores be paid in instalments, easing the stores limits
+
+## [Ports and shipping](./logistics/50-ports-and-shipping.md)
+
+- [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery that never reduces Tobruk's efficiency (NJHarman)
 
 ## Rulings register
 
@@ -125,10 +145,28 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-030](../rulings/R-030.md) | proposed | 48.0 |
 | [R-031](../rulings/R-031.md) | proposed | 48.0 |
 | [R-032](../rulings/R-032.md) | proposed | 48.0, 58.1, 58.2 |
-| [R-040](../rulings/R-040.md) | proposed | 49.3, 49.14, 29.3 |
+| [R-040](../rulings/R-040.md) | accepted | 49.3, 49.14, 29.3 |
 | [R-041](../rulings/R-041.md) | accepted | 49.13, 49.15, 49.16 |
 | [R-042](../rulings/R-042.md) | proposed | 49.3, 29.3 |
 | [R-043](../rulings/R-043.md) | proposed | 49.13, 49.14 |
+| [R-050](../rulings/R-050.md) | proposed | 50.0, 50.12, 50.15 |
+| [R-051](../rulings/R-051.md) | proposed | 50.16, 51.16 |
+| [R-052](../rulings/R-052.md) | proposed | 51.21, 51.22 |
+| [R-053](../rulings/R-053.md) | proposed | 51.0, 51.12, 51.17, 28.15 |
+| [R-060](../rulings/R-060.md) | proposed | 52.6, 51.1 |
+| [R-061](../rulings/R-061.md) | proposed | 52.25, 52.23 |
+| [R-062](../rulings/R-062.md) | proposed | 52.41, 52.42, 52.5, 49.15 |
+| [R-070](../rulings/R-070.md) | proposed | 54.5 |
+| [R-071](../rulings/R-071.md) | proposed | 54.31, 54.32, 54.33, 8.72 |
+| [R-072](../rulings/R-072.md) | proposed | 54.43, 54.44, 54.46 |
+| [R-073](../rulings/R-073.md) | proposed | 54.13 |
+| [R-080](../rulings/R-080.md) | proposed | 55.14, 55.16, 55.3 |
+| [R-081](../rulings/R-081.md) | proposed | 55.11, 55.3 |
+| [R-082](../rulings/R-082.md) | proposed | 55.18, 55.25, 55.26, 30.17 |
+| [R-083](../rulings/R-083.md) | proposed | 55.22, 55.23, 55.26 |
+| [R-090](../rulings/R-090.md) | proposed | 58.3 |
+| [R-091](../rulings/R-091.md) | proposed | 58.41 |
+| [R-092](../rulings/R-092.md) | proposed | 58.42, 58.44, 32.57 |
 
 ## Variants register
 
