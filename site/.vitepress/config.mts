@@ -72,6 +72,9 @@ export default defineConfig({
           { text: 'Abstract logistics & air', link: '/rules/95-abstract-logistics-and-air' },
         ] },
         { text: 'Logistics Game', items: [
+          { text: 'Overview & sequence', link: '/rules/logistics/00-overview-and-sequence' },
+          { text: 'Fuel', link: '/rules/logistics/10-fuel' },
+          { text: 'Ammunition & stores', link: '/rules/logistics/20-ammunition-and-stores' },
           { text: 'Water', link: '/rules/logistics/30-water' },
         ] },
         { text: 'Provenance', items: [
