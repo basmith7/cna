@@ -105,6 +105,15 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 - [V-004](../rulings/V-004.md) — stores paid in instalments
 
+## [Water](./logistics/30-water.md)
+
+- [R-020](../rulings/R-020.md) — one draw per village or bir well per Operations Stage
+- [R-021](../rulings/R-021.md) — only one unit per well per Operations Stage may try to sweeten it
+- [R-061](../rulings/R-061.md) — a broken pipeline still works up to the break
+- [R-062](../rulings/R-062.md) — water must be in the unit's own hex
+- [R-022](../rulings/R-022.md) — gun units count as vehicles when out of water
+- [R-060](../rulings/R-060.md) — the Pasta Point is due once per Game-Turn; the CPA limit lasts the whole turn
+
 ## [Trucks and dumps](./logistics/40-trucks-and-dumps.md)
 
 - **E-032** — the −1 and 7 columns read 0 % and 100 %; the chart printed 33 % in both
@@ -157,9 +166,9 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-017](../rulings/R-017.md) | accepted | 22.63, 8.53, 13.2, 15.82 |
 | [R-018](../rulings/R-018.md) | accepted | 6.3, 24.17, 24.9 |
 | [R-019](../rulings/R-019.md) | accepted | 30.15, 30.23, 24.5 |
-| [R-020](../rulings/R-020.md) | proposed | 52.13, 52.14, 52.7, 6.3 |
-| [R-021](../rulings/R-021.md) | proposed | 52.17, 52.16, 6.3 |
-| [R-022](../rulings/R-022.md) | proposed | 52.51, 52.52, 3.1 |
+| [R-020](../rulings/R-020.md) | accepted | 52.13, 52.14, 52.7, 6.3 |
+| [R-021](../rulings/R-021.md) | accepted | 52.17, 52.16, 6.3 |
+| [R-022](../rulings/R-022.md) | accepted | 52.51, 52.52, 3.1 |
 | [R-023](../rulings/R-023.md) | accepted | 15.79 |
 | [R-024](../rulings/R-024.md) | accepted | 17.4 |
 | [R-025](../rulings/R-025.md) | accepted | 48.0, 56.32 |
@@ -176,9 +185,9 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-051](../rulings/R-051.md) | proposed | 50.16, 51.16 |
 | [R-052](../rulings/R-052.md) | proposed | 51.21, 51.22 |
 | [R-053](../rulings/R-053.md) | proposed | 51.0, 51.12, 51.17, 28.15 |
-| [R-060](../rulings/R-060.md) | proposed | 52.6, 51.1 |
-| [R-061](../rulings/R-061.md) | proposed | 52.25, 52.23 |
-| [R-062](../rulings/R-062.md) | proposed | 52.41, 52.42, 52.5, 49.15 |
+| [R-060](../rulings/R-060.md) | accepted | 52.6, 51.1 |
+| [R-061](../rulings/R-061.md) | accepted | 52.25, 52.23 |
+| [R-062](../rulings/R-062.md) | accepted | 52.41, 52.42, 52.5, 49.15 |
 | [R-070](../rulings/R-070.md) | proposed | 54.5 |
 | [R-071](../rulings/R-071.md) | proposed | 54.31, 54.32, 54.33, 8.72 |
 | [R-072](../rulings/R-072.md) | proposed | 54.43, 54.44, 54.46 |

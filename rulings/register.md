@@ -32,9 +32,9 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-017](./R-017.md) | Can a Tank Delivery Squadron react, retreat before assault, or retreat with a stack? | accepted | 22.63, 8.53, 13.2, 15.82 |
 | [R-018](./R-018.md) | The CP cost of building a supply dump: 24.9 text or the Construction Chart? | accepted | 6.3, 24.17, 24.9 |
 | [R-019](./R-019.md) | The fleet's western limit: 100 sea hexes, or hex row xx29? | accepted | 30.15, 30.23, 24.5 |
-| [R-020](./R-020.md) | How often may water be drawn from one well in an Operations Stage? | proposed | 52.13, 52.14, 52.7, 6.3 |
-| [R-021](./R-021.md) | Sweetening a poisoned well: one unit's CPA, or every unit in the hex? | proposed | 52.17, 52.16, 6.3 |
-| [R-022](./R-022.md) | Which units are "vehicles" for the without-water halving in 52.51? | proposed | 52.51, 52.52, 3.1 |
+| [R-020](./R-020.md) | How often may water be drawn from one well in an Operations Stage? | accepted | 52.13, 52.14, 52.7, 6.3 |
+| [R-021](./R-021.md) | Sweetening a poisoned well: one unit's CPA, or every unit in the hex? | accepted | 52.17, 52.16, 6.3 |
+| [R-022](./R-022.md) | Which units are "vehicles" for the without-water halving in 52.51? | accepted | 52.51, 52.52, 3.1 |
 | [R-023](./R-023.md) | Close assault, defender +2 column: readings 34–36 | accepted | 15.79 |
 | [R-024](./R-024.md) | Morale Modifier Table, cohesion −4: reading 56 | accepted | 17.4 |
 | [R-025](./R-025.md) | When does coastal shipping move? | accepted | 48.0, 56.32 |
@@ -51,9 +51,9 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-051](./R-051.md) | Rounding of captured ammunition and stores | proposed | 50.16, 51.16 |
 | [R-052](./R-052.md) | Stores attrition: timing, base and small units | proposed | 51.21, 51.22 |
 | [R-053](./R-053.md) | Prisoner stores: per stage within a per-turn distribution | proposed | 51.0, 51.12, 51.17, 28.15 |
-| [R-060](./R-060.md) | The Pasta Point: how often is it due, and how long does missing it bite? | proposed | 52.6, 51.1 |
-| [R-061](./R-061.md) | Drawing water from a broken pipeline | proposed | 52.25, 52.23 |
-| [R-062](./R-062.md) | Where must water be for a unit to count as watered? | proposed | 52.41, 52.42, 52.5, 49.15 |
+| [R-060](./R-060.md) | The Pasta Point: how often is it due, and how long does missing it bite? | accepted | 52.6, 51.1 |
+| [R-061](./R-061.md) | Drawing water from a broken pipeline | accepted | 52.25, 52.23 |
+| [R-062](./R-062.md) | Where must water be for a unit to count as watered? | accepted | 52.41, 52.42, 52.5, 49.15 |
 | [R-070](./R-070.md) | What the Equivalent Weights Chart's "Unit of Stacking Points 1/2" row means | proposed | 54.5 |
 | [R-071](./R-071.md) | May one rail run carry both units and supplies in the Logistics Game? | proposed | 54.31, 54.32, 54.33, 8.72 |
 | [R-072](./R-072.md) | How Axis rolling stock adds up and when Axis trains move | proposed | 54.43, 54.44, 54.46 |
