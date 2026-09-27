@@ -40,6 +40,10 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-025](./R-025.md) | When does coastal shipping move? | proposed | 48.0, 56.32 |
 | [R-026](./R-026.md) | Where is the Commonwealth's unlimited supply: Cairo, or Cairo and Alexandria? | proposed | 57.0, 60.44 |
 | [R-027](./R-027.md) | Tobruk's port efficiency level | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
+| [R-050](./R-050.md) | What is a unit "without ammunition", and when does it surrender? | proposed | 50.0, 50.12, 50.15 |
+| [R-051](./R-051.md) | Rounding of captured ammunition and stores | proposed | 50.16, 51.16 |
+| [R-052](./R-052.md) | Stores attrition: timing, base and small units | proposed | 51.21, 51.22 |
+| [R-053](./R-053.md) | Prisoner stores: per stage within a per-turn distribution | proposed | 51.0, 51.12, 51.17, 28.15 |
 
 ## Variants
 

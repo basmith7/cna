@@ -86,6 +86,11 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 
+## [Ammunition and stores](./logistics/20-ammunition-and-stores.md)
+
+- [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
+- [V-004](../rulings/V-004.md) — stores paid in instalments
+
 ## Rulings register
 
 | Id | Status | Affects |
@@ -117,6 +122,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-025](../rulings/R-025.md) | proposed | 48.0, 56.32 |
 | [R-026](../rulings/R-026.md) | proposed | 57.0, 60.44 |
 | [R-027](../rulings/R-027.md) | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
+| [R-050](../rulings/R-050.md) | proposed | 50.0, 50.12, 50.15 |
+| [R-051](../rulings/R-051.md) | proposed | 50.16, 51.16 |
+| [R-052](../rulings/R-052.md) | proposed | 51.21, 51.22 |
+| [R-053](../rulings/R-053.md) | proposed | 51.0, 51.12, 51.17, 28.15 |
 
 ## Variants register
 
