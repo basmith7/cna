@@ -111,3 +111,16 @@ prose always describes the post-errata value and annotates it with
 3. Where the printed table has totals or symmetric structure, encode them as
    invariants in the schema (`check_data.py` runs them).
 4. Record `sources` with both the case and the `scan:p<n>` page.
+
+## Values expected from the OA sub-project
+
+Some rules need per-unit figures printed on the organisation (OA) sheets or
+on counters, not in the rules. The prose names each one as a variable; the
+values are to come from the OA sub-project, and none is invented here.
+
+| Variable | Per | Used by |
+|---|---|---|
+| Fuel consumption rate | TOE Strength Point of vehicles | `rules/logistics/10-fuel.md` (49.13) |
+| Fuel capacity rating (where printed; otherwise derived, R-043) | TOE Strength Point of vehicles | `rules/logistics/10-fuel.md` (49.14) |
+| Cargo capacity in tons | Axis coastal ship counter | `rules/logistics/50-ports-and-shipping.md` (56.31) |
+

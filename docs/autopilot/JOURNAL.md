@@ -351,3 +351,9 @@ Done: Mission 5 Tasks 1–4 merged: #104 tooling, #105 seed (R-025–R-027, V-00
 In flight: drafts by subagents on branches autopilot/l-ammunition-and-stores (R-050s), l-water (R-060s), l-trucks-and-dumps (R-070s), l-ports-and-shipping (R-080s); #108 abstract air (R-090–R-092) ready but held until Tasks 5–8 merge (plan order).
 Next: land 5, 6, 7, 8, then #108 (`/tmp/land.sh` is gone next run: merge main, resolve EXTRACTION/config keep-both, gen_pages, gates, CI, merge). Then Task 10 rulings.
 Blocked: none.
+
+## 2026-09-27 10:05 MST — autopilot/l-docs
+Done: Mission 5 all five parts. Rules files #106–#111, #114 (160/160 cases §48–58); rulings R-020–R-022, R-025–R-027, R-030–R-032, R-040–R-043, R-050–R-053, R-060–R-062, R-070–R-073, R-080–R-083, R-090–R-093 accepted (#112–#145); docs #144.
+Method: subagents drafted files in worktrees, then decided rulings as stacked branches; landing a stack's top branch marks every PR in it merged.
+Next: nothing. MISSION 5 COMPLETE. Act only on PROGRESS Feedback.
+Blocked: none.
