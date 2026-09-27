@@ -75,6 +75,7 @@ export default defineConfig({
           { text: 'Overview & sequence', link: '/rules/logistics/00-overview-and-sequence' },
           { text: 'Fuel', link: '/rules/logistics/10-fuel' },
           { text: 'Ammunition & stores', link: '/rules/logistics/20-ammunition-and-stores' },
+          { text: 'Water', link: '/rules/logistics/30-water' },
         ] },
         { text: 'Provenance', items: [
           { text: 'Changes from the original', link: '/rules/changes' },

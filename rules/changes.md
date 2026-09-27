@@ -137,6 +137,9 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-051](../rulings/R-051.md) | proposed | 50.16, 51.16 |
 | [R-052](../rulings/R-052.md) | proposed | 51.21, 51.22 |
 | [R-053](../rulings/R-053.md) | proposed | 51.0, 51.12, 51.17, 28.15 |
+| [R-060](../rulings/R-060.md) | proposed | 52.6, 51.1 |
+| [R-061](../rulings/R-061.md) | proposed | 52.25, 52.23 |
+| [R-062](../rulings/R-062.md) | proposed | 52.41, 52.42, 52.5, 49.15 |
 
 ## Variants register
 
