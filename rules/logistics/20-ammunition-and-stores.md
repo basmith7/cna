@@ -40,19 +40,20 @@ Only points actually committed to the fire or the assault pay. Pinned units,
 units that retreated into the hex and units held back share any losses but
 spend nothing ([R-013](../../rulings/R-013.md)).
 
-A unit with **no ammunition at all** is useless in combat:
+::: ruling R-050 — out of ammunition means none in the unit or its hex; surrender on being attacked or at the end of an Enemy phase in an Enemy ZOC
+
+A unit is **without ammunition** only when neither it nor its hex (attached
+trucks or a dump) holds any Ammunition Points. Such a unit is useless in combat:
 
 1. It may not fire or assault, and may not even defend in an assault.
 2. It has **no Zone of Control**.
-3. It **surrenders** and is captured when it sits in an Enemy ZOC, or when
-   an Enemy unit shoots at it.
+3. It **surrenders** and is captured the moment an Enemy unit barrages or
+   assaults it, or at the end of any Enemy phase in which it is in an
+   Enemy ZOC.
 4. It may not move into an Enemy ZOC unless the hex it enters already holds
    a Friendly unit that has ammunition, or a supply dump. It may also enter
    in company with such a unit.
 
-::: note
-Open question, not yet decided: whether "no ammunition" means none in the unit and the hex, or none of the type a function needs, and exactly what triggers surrender ([R-050](../../rulings/R-050.md)).
-:::
 
 ## Consumption rates
 
