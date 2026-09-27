@@ -130,16 +130,16 @@ HQ with engineer capability — may **clear** a blocked harbour. Clearing is
 blocking in reverse: one level per Operations Stage, paid from supplies in
 the hex:
 
+::: ruling R-083 — Tobruk's blocking and clearing costs stand as printed
+
 | Port | Ammunition | Stores | Other |
 |---|---|---|---|
 | Tobruk | 25 | 10 | — |
 | Benghazi | 100 | 50 | two engineer units present |
 | any other | 50 | 25 | — |
 
-::: note Open question
-Tobruk is the one port that costs more to block than to clear. Whether the
-figures are swapped is [R-083](../../rulings/R-083.md).
-:::
+Tobruk is thus the one port dearer to block than to clear: its open
+harbour is hard to choke and quick to reopen.
 
 ### Mines
 
