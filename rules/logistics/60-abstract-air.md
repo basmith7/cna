@@ -40,10 +40,13 @@ The attack is made in the bombing segment (3) of the convoy resolution phase,
 once per turn, the only convoy-resolution segment that still runs without the
 Air Game.
 
-::: note Open question
-How the 32.6 rounding rules (the 10 % result versus 20 % or more) map onto
-itemised cargo is still open.
-:::
+::: ruling R-093 — trucks stand in for motorisation points, supplies for supply units
+
+The result bands of 32.6 apply item for item. A **10 %** result destroys
+trucks (fractions down) and replacement points (fractions up) only. A
+result of **20 % or more** destroys that share of every item carried, fuel,
+ammunition, stores, water, trucks and replacement points alike, fractions
+down, but always at least one point of each item carried.
 
 ## Commonwealth fleet bombardment {#fleet-bombardment}
 
