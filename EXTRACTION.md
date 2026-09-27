@@ -377,6 +377,14 @@ the PR that adds or substantially rewrites the file.
 - Errata applied: none change a value here; the 32.0 warning is carried as a note.
 - Rulings raised: none.
 
+## rules/logistics/10-fuel.md — 2026-09-27
+
+- **Cases read:** 49.0, 49.1, 49.11–49.19, 49.2, 49.3 (13 ids; 49.1 is a heading only). No §49 errata in `data/errata/INDEX.md`.
+- **Mechanics → expression:** fuel users (49.0, 49.12) → list; Fuel Points and non-denominational fuel (49.11, 49.19) → short section; consumption per five-CP block and capacity formula (49.13–49.14) → numbered steps plus our own example; drawing fuel in the starting hex, no CP cost, no draw from 2nd/3rd-line trucks (49.15–49.16) → numbered procedure; siphoning (49.17) → prose; carriers and trucks burning cargo (49.18, 49.2) → prose; evaporation (49.3) → numbered steps plus a table.
+- **Charts:** §49 prints no chart. The evaporation rates, printed in the text of 49.3 (jp2 66), are `data/tables/fuel-evaporation.json`; second reading is the source .adoc: 0 of 3 rates differ. Per-unit fuel consumption rates and capacity ratings are organisation-sheet data and are named as variables only.
+- **Rulings opened (proposed):** R-040 evaporation of fuel in tanks; R-041 part-block rounding across segments; R-042 how the evaporation rates combine; R-043 capacity when CPA is not a multiple of five.
+- **Land Game pointer:** note under the abstract fuel bullet in `rules/95-abstract-logistics-and-air.md`.
+
 ## rules/logistics/00-overview-and-sequence.md — 2026-09-27
 - Source cases read: 48.0 (the Logistics Game introduction and the whole sequence of play; §48 has no other case ids); 58.1–58.4 and 32.0–32.9 skimmed to decide what the abstract rules keep.
 - Mechanics identified: the four supply kinds tracked per unit; the Air Game optional, with Air-only steps skipped and §58 standing in; the turn outline I–IX: strategic air planning (4 phases, Air only), naval convoy (schedule for next turn; resolution in 3 segments, 1–2 Air only), once-a-turn stores expenditure with spillage/evaporation, three operations stages with phases A–L (new: water distribution, attrition and supply distribution segments; tactical shipping moved into organisation; land-support air phase F with 7 segments; letters G–L one later than the Land Game's F–L, I used), strategic air recovery (Air only), end of turn; Commonwealth replacement planning in the first arrival phase of each month.

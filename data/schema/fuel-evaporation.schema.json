@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fuel-evaporation.schema.json",
+  "title": "Fuel evaporation and spillage rates (SPI 49.3)",
+  "type": "object", "required": ["table", "sources", "rows"], "additionalProperties": false,
+  "properties": {
+    "table": {"const": "fuel-evaporation"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["id", "percent", "when", "applies_to", "rounding", "sources"], "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string"},
+        "percent": {"type": "integer", "minimum": 1, "maximum": 100},
+        "when": {"enum": ["stores-expenditure-stage", "hot-weather-determined"]},
+        "applies_to": {"type": "string", "description": "Side and period the rate covers"},
+        "replaces": {"type": "string", "description": "id of the row this rate stands in for, if any"},
+        "rounding": {"const": "down"},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
+  }
+}
