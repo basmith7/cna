@@ -207,12 +207,16 @@ the PR that adds or substantially rewrites the file.
 | Tank Delivery Squadrons | INTERPRETATION ×2 | 22.6 TDS move in the truck convoy phase; need a combat unit to react/RBA/retreat | R-016, R-017 |
 | More Words | CORRECTION | dump construction cost is the 24.9 figure, not the Construction Chart (24.17) one | R-018 |
 | Commonwealth Fleet | CORRECTION | 30.15 hundred-sea-hex line is row Bxx24 | R-019 |
-| Coastal Shipping | CORRECTION/CLARIFICATION | shipping phase name | not imported — Logistics Game (§5x); later spec |
-| Unlimited Supplies | CLARIFICATION | 60.44 vs 57.0 Cairo only | not imported — scenario / Logistics Game; later spec |
-| Leaky Gas Tanks | CLARIFICATION/CHANGE? | fuel in tanks does not evaporate | not imported — Logistics Game and self-tagged as a possible change; later spec |
-| Logistics (Additions section) | CORRECTION | Tobruk port efficiency is 5 | not imported — Logistics Game; later spec |
+| Coastal Shipping | CORRECTION/CLARIFICATION | shipping phase name | R-025 (Mission 5 seed) |
+| Unlimited Supplies | CLARIFICATION | 60.44 vs 57.0 Cairo only | R-026 (Mission 5 seed) |
+| Leaky Gas Tanks | CLARIFICATION/CHANGE? | fuel in tanks does not evaporate | V-002 (Mission 5 seed: a variant, self-tagged as a possible change) |
+| Logistics (Additions section) | CORRECTION | Tobruk port efficiency is 5 | R-027 (Mission 5 seed) |
 | Combat (Additions section) | INTERPRETATION + CHANGE | 3.6 what is revealed after combat | not imported — mixed tag in the Additions section; a variant candidate, not a ruling |
+| Logistics (Additions section) | CHANGE | 54.2 light trucks' off-road breakdown note ignored | V-003 (Mission 5 seed) |
+| Logistics (Additions section) | CHANGE | 51.1 stores paid in instalments | V-004 (Mission 5 seed) |
+| Logistics (Additions section) | CHANGE | 54.12 air attack does not reveal dummy dumps | V-005 (Mission 5 seed) |
 
+- Mission 5 seed (2026-09-27): the Logistics Game design turns CHANGE and ADDITION items on §48–58 into variants. The page was re-read for such items: three more (V-003–V-005 above). Left out as outside §48–58: 8.88 trucks moving after loading (Land Game), 59.53 dummy dumps at air facilities and 42.3 / the Tripoli boxes' unlimited supply (Air Game); REMINDER items (the 64.0 set-up notes) are not imported.
 - Errata duplicates: none of the items above repeats a Sept 1979 errata entry (`data/errata/INDEX.md` checked for 8.52, 8.53, 14.52, 15.29, 15.83, 22.6, 24.17, 30.15). None is answered by R-001.
 
 ## data/map/raw/E.json — 2026-09-22 (Map E)

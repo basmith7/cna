@@ -37,6 +37,9 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-022](./R-022.md) | Which units are "vehicles" for the without-water halving in 52.51? | proposed | 52.51, 52.52, 3.1 |
 | [R-023](./R-023.md) | Close assault, defender +2 column: readings 34–36 | accepted | 15.79 |
 | [R-024](./R-024.md) | Morale Modifier Table, cohesion −4: reading 56 | accepted | 17.4 |
+| [R-025](./R-025.md) | When does coastal shipping move? | proposed | 48.0, 56.32 |
+| [R-026](./R-026.md) | Where is the Commonwealth's unlimited supply: Cairo, or Cairo and Alexandria? | proposed | 57.0, 60.44 |
+| [R-027](./R-027.md) | Tobruk's port efficiency level | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
 | [R-030](./R-030.md) | Order of the Logistics organisation segments | proposed | 48.0 |
 | [R-031](./R-031.md) | When the land-support air phase is taken | proposed | 48.0 |
 | [R-032](./R-032.md) | Convoy bombing and fleet bombardment without the Air Game | proposed | 48.0, 58.1, 58.2 |
@@ -46,3 +49,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | Id | Title | Status | Affects |
 |---|---|---|---|
 | [V-001](./V-001.md) | The *San Giorgio* as a live gun battery | recorded | 30.17, 30.39, 55.25, 60.7, 61.6 |
+| [V-002](./V-002.md) | Fuel in vehicles' tanks does not evaporate | recorded | 49.3 |
+| [V-003](./V-003.md) | No off-road breakdown penalty for light trucks | recorded | 54.2 |
+| [V-004](./V-004.md) | Stores may be paid in instalments | recorded | 51.1, 51.15, 54.13 |
+| [V-005](./V-005.md) | Air attack does not reveal dummy dumps | recorded | 54.12 |
