@@ -154,7 +154,7 @@
   },
   "vassal": {
     "module": "CNAv2.1.0.vmod",
-    "credits": "v2.1 Norman Harman 2024-09 (njharman@gmail.com); v2 Mitch Guthrie 2021-09; map Mitch Guthrie 2021; original Pete Phillipps 2020-03",
+    "credits": "v2.1 Norman Harman 2024-09; v2 Mitch Guthrie 2021-09; map Mitch Guthrie 2021; original Pete Phillipps 2020-03",
     "note": "Map, counters, charts and rules have all known errata applied (playnotes.txt). Bundles the 2021 integrated-errata rulebooks; the copies circulated on Discord are byte-identical. Local copy: ~/.cache/cna-vassal/CNAv2.1.0.vmod; tools/map_extract.py extracts the PNG and buildFile.xml beside it on first run and afterwards runs from the cache alone (--cache-only).",
     "sha256": "94a4c686840e31d76dc4408382aceb8724092d60554e75f92a03936552cc626a",
     "bundled_rules": {
@@ -173,14 +173,14 @@
     },
     "saves": {
       "path": "~/.cache/cna-vassal/saves/",
-      "what": "Nine .vsav/.vlog files from the Discord group's game (room 'Bombe su Londra'; players FreundA, Illuminutter, matvey), game turn 3 op-stage II, saved 2026-09-12. Full counter positions plus move/dice logs; candidate engine fixtures and a check of the hex-grid convention. Private game data: never commit.",
+      "what": "Nine .vsav/.vlog files from a private multiplayer game (room 'Bombe su Londra'), game turn 3 op-stage II, saved 2026-09-12. Full counter positions plus move/dice logs; candidate engine fixtures and a check of the hex-grid convention. Private game data, not redistributed: never commit. See tools/sources.private.json for details not fit for a public repo.",
       "decode": "zip member savedGame is Vassal-obfuscated: '!VCSK' + 2 hex key chars, then hex pairs XOR key"
     }
   },
   "njharman_src": {
-    "what": "Norman Harman's private CfNA code drop (cna_src.tgz, 8.6 MB), emailed 2026-09-19 in reply to our house-rules/hex-database question. Local copy under ~/.cache/cna-njharman/ (tarball + extracted tree).",
+    "what": "Norman Harman's private CfNA code drop (cna_src.tgz, 8.6 MB), received via private correspondence with a contributor in reply to our house-rules/hex-database question; not redistributed. Local copy under ~/.cache/cna-njharman/ (tarball + extracted tree).",
     "sha256": "6917a17e549631ea27b5e6246e5392d33c6bcf8bf7d659e4f7543c8a168d7ec9",
-    "licence": "PRIVATE. Shared on the promise it stays private (he has not published it for fear of Decision Games' lawyers). The CC-BY-SA grant in the same thread covers friendorfoe.com content only, not this drop. Never commit any file from it, never quote its data files verbatim; use it as an independent cross-check for our own extractions and cite as src:njharman:<path> in EXTRACTION.md. Ask before deriving any committed artifact from it.",
+    "licence": "PRIVATE. Shared on the promise it stays private; not published elsewhere by its author. The CC-BY-SA grant in the same thread covers friendorfoe.com content only, not this drop. Never commit any file from it, never quote its data files verbatim; use it as an independent cross-check for our own extractions and cite as src:njharman:<path> in EXTRACTION.md. Ask before deriving any committed artifact from it. See tools/sources.private.json for details not fit for a public repo.",
     "contents": {
       "src/core/cna/data/mapterrain.py": "Hand-entered hex database: terrain for 6,144 hexes (sheets A-E, Malta, two offmap), 176 named static features (137 bir, 18 feature, 13 city, 8 oasis; 12 with port capacity), 40 coast hexes, plus hexside dicts: slopes 607, escarpments 135, wadis 679, minor rivers 219, major rivers 119, roads 370, tracks 1651, future roads 80, rails 164, future rails 55. Terrain codes in data/codes.py (0 clear .. 10 major city). Class totals land within a few % of tools/map_extract.py's colour read of the Vassal map, so this is the second cross-check the map spike asked for.",
       "src/core/cna/data/hexsides.py": "Same hexside data re-keyed hex -> {feature code -> [neighbours]} (by_code) and hex -> direction (by_direction).",
@@ -193,6 +193,6 @@
       "gsheets_code/CfNA-Sheets.txt": "Google Apps Script + manual v0.9 (Aug 2024) for his logistics/formation tracking spreadsheets.",
       "rules/": "Empty in the tarball as received (he said it should hold his rules folder)."
     },
-    "email": "Gmail thread 'Can I reference your house rules and do you have the hex database?', njharman@gmail.com, 2026-09-19."
+    "email": "private correspondence with a contributor, thread 'Can I reference your house rules and do you have the hex database?', not redistributed."
   }
 }
