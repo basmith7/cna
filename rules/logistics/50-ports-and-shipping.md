@@ -114,10 +114,12 @@ These costs are also on the
 When play begins, the wreck of the *San Giorgio*, an Italian cruiser, lies
 in Tobruk harbour and costs the port **three** levels.
 
-::: note Open question
-How those three levels are won back — by clearing, by removing the ship, or
-both — is [R-082](../../rulings/R-082.md).
-:::
+::: ruling R-082 — the San Giorgio's three levels count as blocking and are cleared by engineers
+
+These three levels are treated as blocked levels: they do not come back by
+themselves, and the side holding Tobruk wins them back by clearing (below),
+one level per stage. Removing or sinking the ship itself
+([Special rules](../90-special.md)) restores no levels.
 
 ::: variant V-001 — the San Giorgio as a live gun battery that never reduces Tobruk's efficiency (NJHarman)
 

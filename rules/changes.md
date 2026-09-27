@@ -110,6 +110,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-081](../rulings/R-081.md) — a port is major if the chart gives it an incoming stacking-point figure above zero
 - [R-027](../rulings/R-027.md) — Tobruk's maximum level is the chart's 5; the campaigns start it at 2, not the printed 7
 - [R-080](../rulings/R-080.md) — port capacity is per Operations Stage; Strategic Phase arrivals count against the stage they land in
+- [R-082](../rulings/R-082.md) — the San Giorgio's three levels count as blocking and are cleared by engineers
 - [R-025](../rulings/R-025.md) — Axis coastal ship counters sail in the Truck Convoy Phase; Commonwealth port-to-port transfers stay in the Tactical Shipping Segment
 - [R-026](../rulings/R-026.md) — unlimited supply is in Cairo; the Italian campaign adds Alexandria
 - [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery that never reduces Tobruk's efficiency (NJHarman)
@@ -165,7 +166,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-073](../rulings/R-073.md) | proposed | 54.13 |
 | [R-080](../rulings/R-080.md) | accepted | 55.14, 55.16, 55.3 |
 | [R-081](../rulings/R-081.md) | accepted | 55.11, 55.3 |
-| [R-082](../rulings/R-082.md) | proposed | 55.18, 55.25, 55.26, 30.17 |
+| [R-082](../rulings/R-082.md) | accepted | 55.18, 55.25, 55.26, 30.17 |
 | [R-083](../rulings/R-083.md) | proposed | 55.22, 55.23, 55.26 |
 | [R-090](../rulings/R-090.md) | proposed | 58.3 |
 | [R-091](../rulings/R-091.md) | proposed | 58.41 |
