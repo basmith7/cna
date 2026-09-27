@@ -7,7 +7,10 @@ an accepted ruling; the ruling file shows the problem, the options and why.
 ## Files and numbering
 
 One file per ruling: `rulings/R-nnn.md`, numbered sequentially from `R-001`
-in the order they are opened. Numbers are never reused. Frontmatter:
+in the order they are opened. Numbers are never reused. (Mission 5 drafted
+the Logistics Game files in parallel and gave each file a block of ten,
+R-030–R-039 for the overview, R-040–R-049 for fuel and so on, so the
+logistics rulings have gaps between blocks.) Frontmatter:
 
 ```yaml
 ---

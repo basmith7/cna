@@ -27,6 +27,10 @@ replaced by the ammunition and fuel costs below; trucks are replaced by
 ordinary supplies with the adjustments given here. Game balance shifts
 somewhat (SPI §65).
 
+::: note
+In the Logistics Game this is replaced by [full logistics](logistics/00-overview-and-sequence.md#switch).
+:::
+
 ## Supply units
 
 ::: spi 32.11 32.12 32.13 32.14 32.15 32.16 32.17 32.18
@@ -79,6 +83,10 @@ sheets. The fleet and patrolling points need nothing.
   battalion-equivalent or a real supply unit **1**. Company-equivalents and
   motorisation points doing anything else pay none. Rail and sea moves pay
   none. Patrolling pays none.
+
+::: note
+In the Logistics Game this is replaced by [Fuel](logistics/10-fuel.md#consumption-and-capacity).
+:::
 
 ## Moving supply units
 
