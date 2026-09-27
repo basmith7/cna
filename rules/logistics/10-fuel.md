@@ -48,6 +48,8 @@ dump is worth taking.
 
 ## Consumption and capacity
 
+::: ruling R-043 — capacity counts a part-block of CPA as a whole block
+
 ::: spi 49.13 49.14
 
 Each TOE Strength Point of vehicles has two values on its side's
@@ -60,19 +62,20 @@ rating**. We do not reproduce those values here; they are per-unit data.
    hex count; CP spent on combat or anything else burn no fuel.
 2. **Capacity.** The capacity rating is what one Strength Point holds in
    its own tanks: its CPA divided by five, times its consumption rate. A
-   full tank is meant to last exactly one full CPA of movement.
+   full tank lasts exactly one full CPA of movement. When the CPA is not a
+   multiple of five, count its last part-block as a whole one: a CPA of 22
+   at rate 4 is five blocks, a capacity of 20.
 
 *Example.* A Strength Point of armoured cars with rate 2 moves and spends
 13 CP. That is two full blocks of five and one part-block, so three blocks:
 it burns 3 × 2 = **6** Fuel Points.
 
-::: note
-Open question, not yet decided: whether part-blocks of 5 CP are counted per move or across a stage ([R-041](../../rulings/R-041.md)).
-:::
+::: ruling R-041 — part-blocks of five CP are rounded up for each Movement Segment's draw
 
-::: note
-Open question, not yet decided: capacity when the CPA is not a multiple of five ([R-043](../../rulings/R-043.md)).
-:::
+Part-blocks are counted **per Movement Segment**: the CP a unit will spend
+moving in one segment are split into blocks of five and any part-block is
+charged in full, when the fuel for that segment is drawn. Nothing carries
+over to the next segment; three 3-CP moves in one stage cost three blocks.
 
 ## Drawing fuel
 
@@ -125,19 +128,27 @@ the load before it arrives.
 
 ## Evaporation and spillage
 
+::: ruling R-040 — the per-turn loss reaches fuel in tanks; the hot-weather loss does not
+
+::: ruling R-042 — 9 % replaces 6 %; hot weather is one extra 5 % for both sides; all losses round down; sea convoys exempt
+
 ::: spi 49.3
 
 Fuel stocks shrink wherever they are kept. The rates are in
 [`data/tables/fuel-evaporation.json`](../../data/tables/fuel-evaporation.json):
 
 1. **Every game-turn**, in the Stores Expenditure Stage, each player cuts
-   every fuel stock on the map by **6 %**, rounding the loss down. Fuel in
-   convoys at sea is exempt.
+   every fuel stock on the map by **6 %**, rounding the loss down. This
+   includes the fuel in each unit's own tanks. Fuel in convoys at sea is
+   exempt.
 2. **Hot weather.** When an operations stage is found to have hot weather,
-   cut every stock by a further **5 %** at once.
+   cut every stock by a further **5 %** at once, rounding down. Both sides
+   take it, in every period. It is the same loss as the weather rule's
+   ([Special rules](../90-special.md), SPI 29.34), taken once, and it
+   spares the fuel in units' own tanks and fuel in convoys at sea.
 3. **Commonwealth containers.** From September 1940 through the last
    game-turn of August 1941, the Commonwealth's per-turn rate is **9 %**
-   instead of 6 %. (Their early flimsy cans leaked; the rate falls once
+   instead of 6 % (not in addition to it; hot weather still adds its 5 %). (Their early flimsy cans leaked; the rate falls once
    they adopt copies of the German jerrycan.) The same loss applies to some
    water sources (SPI 52.44).
 
@@ -145,15 +156,8 @@ Fuel stocks shrink wherever they are kept. The rates are in
 Expenditure Stage of a turn in March 1941. 9 % of 75 is 6.75, rounded down
 to 6, so 69 remain.
 
-::: note
-Open question, not yet decided: whether fuel in a unit's own tanks evaporates ([R-040](../../rulings/R-040.md)).
-:::
-
 ::: variant V-002 — fuel in vehicles' tanks does not evaporate
 
-::: note
-Open question, not yet decided: how the 9 %, 6 % and hot-weather rates combine ([R-042](../../rulings/R-042.md)).
-:::
 
 ---
 
