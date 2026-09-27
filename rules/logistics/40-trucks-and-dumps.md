@@ -279,10 +279,12 @@ A roll of 4 stays 4: half of each supply type is destroyed.
 
 ::: spi 54.31 54.32 54.33
 
+::: ruling R-005 — one rail run each way, loads changeable en route within the limits (Land Game mixing narrowed here by R-071)
+
 The Commonwealth railway moves supplies as well as men
 ([Movement — Rail movement](../40-movement.md#rail-movement)).
 
-::: ruling R-005 — one rail stack each way may mix units and supplies and change its load en route, within both limits
+::: ruling R-071 — in the Logistics Game each rail run carries units or supplies, never both; R-005 otherwise still applies
 
 - It lifts up to **1,500 tons** of supplies each Operations Stage in each
   direction. Convert Supply Points to tons with the Equivalent Weights Chart
@@ -290,12 +292,10 @@ The Commonwealth railway moves supplies as well as men
 - A supply run carries a **single type** of supply: fuel, ammunition or
   stores, never two of them together.
 - Water is never carried: the railway hexes act as a water pipeline.
-- As printed, a run carries supplies or men, not both, though men may go
-  one way while supplies go the other.
-
-::: note
-Open question, not yet decided: whether that last limit or the Land Game's ruling R-005 (units and supplies may share a run) governs in the Logistics Game ([R-071](../../rulings/R-071.md)).
-:::
+- A run carries supplies or men, not both, though men may go one way while
+  supplies go the other. This narrows the Land Game reading of
+  [R-005](../../rulings/R-005.md) for the Logistics Game only; loads may
+  still be picked up and set down along the line within the limits.
 
 ::: spi 54.34
 
