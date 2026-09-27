@@ -55,8 +55,17 @@ CNA is three interlocking games, each playable alone or combined:
 Played alone, the Land Game replaces the other two with abstractions from
 §32: supply arrives as **Supply Units** that hold fuel and ammunition
 points, and air power and naval convoys are simplified. Everything in this
-edition assumes those abstractions; the full Air and Logistics Games will be
-restated separately. A hex is roughly eight kilometres across.
+edition assumes those abstractions; the full Air Game will be restated
+separately. A hex is roughly eight kilometres across.
+
+The **Logistics Game** (§48–58) is restated as a module in its own folder,
+starting from [Logistics Game: overview and sequence of
+play](logistics/00-overview-and-sequence.md). It replaces the abstract
+supply of §32 with counted fuel, ammunition, stores and water, carried by
+trucks, rail and ships; that page lists exactly which parts of
+[Abstract logistics and air](95-abstract-logistics-and-air.md) it replaces
+and which stay. Land Game passages it replaces carry a note pointing to
+the Logistics Game rule.
 
 ## Time
 
@@ -229,6 +238,13 @@ The rules are organised by system, not by SPI section:
 | Engineering | Engineers, construction, fortifications, minefields, repair | §22–26 |
 | Special | Breakdown, raiders, prisoners, weather, fleet, Rommel | §21, §27–31 |
 | Abstract logistics and air | | §32 |
+| Logistics Game: overview and sequence (module) | Four supply types, the switch from §32, turn order | §48 |
+| Logistics Game: fuel | Consumption, capacity, drawing, evaporation | §49 |
+| Logistics Game: ammunition and stores | | §50–51 |
+| Logistics Game: water | Wells, pipelines, oases, usage, lack of water, pasta | §52 |
+| Logistics Game: trucks and dumps | The three lines, dumps, railway, equivalent weights | §53–54 |
+| Logistics Game: ports and shipping | Ports, Axis convoys, coastal shipping, Commonwealth base | §55–57 |
+| Logistics Game: abstract air | For play without the Air Game | §58 |
 
 Files not yet written are listed so the shape of the edition is visible;
 they are added one system at a time.

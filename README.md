@@ -13,7 +13,7 @@ engine, server or UI lives here. Design: `docs/designs/2026-09-18-cna-living-rul
 
 | Directory | Contents | Licence |
 |---|---|---|
-| `rules/` | The restated rules, one file per game system | CC-BY-SA-4.0 |
+| `rules/` | The restated rules, one file per game system; `rules/logistics/` holds the Logistics Game (§48–58), an optional module over the Land Game | CC-BY-SA-4.0 |
 | `rulings/` | One file per ruling: problem, options, decision, rationale | CC-BY-SA-4.0 |
 | `data/` | Tables as JSON (CRTs, terrain, weather, **map**, …) with schemas and provenance | CC0-1.0 |
 | `tools/` | Fetch, generate and check scripts | MIT |

@@ -2,9 +2,11 @@
 
 **Date:** 2026-09-27
 **Sub-project:** 4 of the digital CNA roadmap (Logistics Game rules).
-**Status:** approved under delegation. Brian said "go for mission 5" and
-delegated every decision that is cheap to reverse (2026-09-26). The
-decisions below are Claude's and can each be reversed with one PR.
+**Status:** complete, PRs #104–#143 (tooling #104, seed #105, rules files
+#106–#111, #114, rulings #112–#113 and #115–#143), and the docs PR. Approved
+under delegation: Brian said "go for mission 5" and delegated every
+decision that is cheap to reverse (2026-09-26). The decisions below are
+Claude's and can each be reversed with one PR.
 
 ## Goal
 
