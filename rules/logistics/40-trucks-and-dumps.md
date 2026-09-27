@@ -202,6 +202,8 @@ with no dump may hold only a little. Data:
 [`data/tables/supply-dump-capacity.json`](../../data/tables/supply-dump-capacity.json)
 (the chart sheet numbers it 54.12).
 
+::: ruling R-073 — the Tunis/Tripoli boxes store unlimited supplies but are not dumps
+
 | Location | Ammo | Fuel | Stores | Water |
 |---|---|---|---|---|
 | Tunis/Tripoli box (each of the four) | unlimited | unlimited | unlimited | unlimited |
@@ -211,11 +213,11 @@ with no dump may hold only a little. Data:
 | No dump in the hex | 50 | 0 | 50 | 0 |
 
 Water may be drawn from, as well as stored in, a village, a major city or a
-Tunis/Tripoli box. The In Transit box may never serve as a dump.
+Tunis/Tripoli box. Neither the Tunis/Tripoli boxes nor the In Transit box
+is ever a dump: the Tunis/Tripoli boxes simply store any amount of
+supplies without a dump counter, and the rules for building, blowing,
+faking or capturing dumps never apply to them.
 
-::: note
-Open question, not yet decided: whether the Tunis/Tripoli boxes are dumps or only unlimited storage ([R-073](../../rulings/R-073.md)).
-:::
 
 ::: variant V-004 — NJHarman lets stores be paid in instalments, easing the stores limits
 
@@ -279,10 +281,12 @@ A roll of 4 stays 4: half of each supply type is destroyed.
 
 ::: spi 54.31 54.32 54.33
 
+::: ruling R-005 — one rail run each way, loads changeable en route within the limits (Land Game mixing narrowed here by R-071)
+
 The Commonwealth railway moves supplies as well as men
 ([Movement — Rail movement](../40-movement.md#rail-movement)).
 
-::: ruling R-005 — one rail stack each way may mix units and supplies and change its load en route, within both limits
+::: ruling R-071 — in the Logistics Game each rail run carries units or supplies, never both; R-005 otherwise still applies
 
 - It lifts up to **1,500 tons** of supplies each Operations Stage in each
   direction. Convert Supply Points to tons with the Equivalent Weights Chart
@@ -290,12 +294,10 @@ The Commonwealth railway moves supplies as well as men
 - A supply run carries a **single type** of supply: fuel, ammunition or
   stores, never two of them together.
 - Water is never carried: the railway hexes act as a water pipeline.
-- As printed, a run carries supplies or men, not both, though men may go
-  one way while supplies go the other.
-
-::: note
-Open question, not yet decided: whether that last limit or the Land Game's ruling R-005 (units and supplies may share a run) governs in the Logistics Game ([R-071](../../rulings/R-071.md)).
-:::
+- A run carries supplies or men, not both, though men may go one way while
+  supplies go the other. This narrows the Land Game reading of
+  [R-005](../../rulings/R-005.md) for the Logistics Game only; loads may
+  still be picked up and set down along the line within the limits.
 
 ::: spi 54.34
 
@@ -327,18 +329,20 @@ is never usable.
 
 ::: spi 54.43 54.44 54.45
 
+::: ruling R-072 — rolling-stock lots add up, the total applies in each direction, and Axis trains move when Commonwealth trains do
+
 3. **Rolling stock.** For every **250 stores and 100 fuel** delivered from
    Europe to any controlled, working rail hex, the Axis may activate his
    contiguous controlled rail hexes to haul **300 tons** of supplies in one
    direction per Operations Stage. Moving **one stacking point** of units
-   needs active stock worth **900 tons**.
+   needs active stock worth **900 tons**. Lots add up, and the total is
+   available in each direction every Operations Stage (three lots give
+   900 tons, or one stacking point, each way). Axis trains move at the
+   same point in the stage as Commonwealth trains.
 4. The stores and fuel spent on rolling stock are gone for good. If the
    Axis ever holds fewer than five contiguous rail hexes, all his rolling
    stock is destroyed. Neither side may use the other's rolling stock.
 
-::: note
-Open question, not yet decided: whether rolling-stock lots add up, whether capacity is per direction, and when Axis trains move ([R-072](../../rulings/R-072.md)).
-:::
 
 ::: spi 54.46
 
@@ -368,6 +372,8 @@ rail and interport moves). Data:
 | Railroad | counted in stacking points | counted in stacking points |
 | Air | 2 tons (infantry-class only) | not allowed |
 
+::: ruling R-070 — the "unit of stacking points" row reads as 1: a unit counts its own printed stacking points
+
 | By rail or interport, one | Counts as stacking points |
 |---|---|
 | Truck point ‡ | 1/10 |
@@ -379,9 +385,9 @@ rail and interport moves). Data:
 total TOE Strength Points of the parent they belong to; trucks within that
 total travel with their unit.
 
-::: note
-Open question, not yet decided: what the last stacking row means ([R-070](../../rulings/R-070.md)).
-:::
+The last row's 1/2 is treated as a slip: any other unit moved by rail or
+interport counts exactly its printed stacking points.
+
 
 *Our example:* the Commonwealth railway's 1,500 tons move 375 ammunition
 points, or 1,500 stores, or 12,000 fuel points in one run.
