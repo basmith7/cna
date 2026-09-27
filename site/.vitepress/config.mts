@@ -73,6 +73,7 @@ export default defineConfig({
         ] },
         { text: 'Logistics Game', items: [
           { text: 'Fuel', link: '/rules/logistics/10-fuel' },
+          { text: 'Overview & sequence', link: '/rules/logistics/00-overview-and-sequence' },
         ] },
         { text: 'Provenance', items: [
           { text: 'Changes from the original', link: '/rules/changes' },

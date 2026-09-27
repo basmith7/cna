@@ -207,12 +207,16 @@ the PR that adds or substantially rewrites the file.
 | Tank Delivery Squadrons | INTERPRETATION ×2 | 22.6 TDS move in the truck convoy phase; need a combat unit to react/RBA/retreat | R-016, R-017 |
 | More Words | CORRECTION | dump construction cost is the 24.9 figure, not the Construction Chart (24.17) one | R-018 |
 | Commonwealth Fleet | CORRECTION | 30.15 hundred-sea-hex line is row Bxx24 | R-019 |
-| Coastal Shipping | CORRECTION/CLARIFICATION | shipping phase name | not imported — Logistics Game (§5x); later spec |
-| Unlimited Supplies | CLARIFICATION | 60.44 vs 57.0 Cairo only | not imported — scenario / Logistics Game; later spec |
-| Leaky Gas Tanks | CLARIFICATION/CHANGE? | fuel in tanks does not evaporate | not imported — Logistics Game and self-tagged as a possible change; later spec |
-| Logistics (Additions section) | CORRECTION | Tobruk port efficiency is 5 | not imported — Logistics Game; later spec |
+| Coastal Shipping | CORRECTION/CLARIFICATION | shipping phase name | R-025 (Mission 5 seed) |
+| Unlimited Supplies | CLARIFICATION | 60.44 vs 57.0 Cairo only | R-026 (Mission 5 seed) |
+| Leaky Gas Tanks | CLARIFICATION/CHANGE? | fuel in tanks does not evaporate | V-002 (Mission 5 seed: a variant, self-tagged as a possible change) |
+| Logistics (Additions section) | CORRECTION | Tobruk port efficiency is 5 | R-027 (Mission 5 seed) |
 | Combat (Additions section) | INTERPRETATION + CHANGE | 3.6 what is revealed after combat | not imported — mixed tag in the Additions section; a variant candidate, not a ruling |
+| Logistics (Additions section) | CHANGE | 54.2 light trucks' off-road breakdown note ignored | V-003 (Mission 5 seed) |
+| Logistics (Additions section) | CHANGE | 51.1 stores paid in instalments | V-004 (Mission 5 seed) |
+| Logistics (Additions section) | CHANGE | 54.12 air attack does not reveal dummy dumps | V-005 (Mission 5 seed) |
 
+- Mission 5 seed (2026-09-27): the Logistics Game design turns CHANGE and ADDITION items on §48–58 into variants. The page was re-read for such items: three more (V-003–V-005 above). Left out as outside §48–58: 8.88 trucks moving after loading (Land Game), 59.53 dummy dumps at air facilities and 42.3 / the Tripoli boxes' unlimited supply (Air Game); REMINDER items (the 64.0 set-up notes) are not imported.
 - Errata duplicates: none of the items above repeats a Sept 1979 errata entry (`data/errata/INDEX.md` checked for 8.52, 8.53, 14.52, 15.29, 15.83, 22.6, 24.17, 30.15). None is answered by R-001.
 
 ## data/map/raw/E.json — 2026-09-22 (Map E)
@@ -381,3 +385,9 @@ the PR that adds or substantially rewrites the file.
 - **Rulings opened (proposed):** R-040 evaporation of fuel in tanks; R-041 part-block rounding across segments; R-042 how the evaporation rates combine; R-043 capacity when CPA is not a multiple of five.
 - **Land Game pointer:** note under the abstract fuel bullet in `rules/95-abstract-logistics-and-air.md`.
 
+## rules/logistics/00-overview-and-sequence.md — 2026-09-27
+- Source cases read: 48.0 (the Logistics Game introduction and the whole sequence of play; §48 has no other case ids); 58.1–58.4 and 32.0–32.9 skimmed to decide what the abstract rules keep.
+- Mechanics identified: the four supply kinds tracked per unit; the Air Game optional, with Air-only steps skipped and §58 standing in; the turn outline I–IX: strategic air planning (4 phases, Air only), naval convoy (schedule for next turn; resolution in 3 segments, 1–2 Air only), once-a-turn stores expenditure with spillage/evaporation, three operations stages with phases A–L (new: water distribution, attrition and supply distribution segments; tactical shipping moved into organisation; land-support air phase F with 7 segments; letters G–L one later than the Land Game's F–L, I used), strategic air recovery (Air only), end of turn; Commonwealth replacement planning in the first arrival phase of each month.
+- How we expressed it: the Land Game has no `sequence-of-play.json`, so the outline is new data `data/tables/logistics-sequence.json` (schema `data/schema/logistics-sequence.schema.json`, test `tests/test_logistics_sequence.py` written first), one row per stage/phase/segment with `attaches_to` (the Land Game 5.2 point, common.schema phase names) and `new_in_logistics` / `air_game_only` flags. Chart pages: none; the sequence is printed only in the rules text, so the .adoc transcription is the second reading of the scan. Prose restates the outline in our words and gives a replace/keep table for §32. `::: note` pointers added under rules/20-sequence-of-play.md's turn outline and rules/95-abstract-logistics-and-air.md's 32.0 scope paragraph. The designer's commentary is condensed to two sentences of advice under the single `::: spi 48.0` badge. SPI's "Non-Phasing Player ("A")" in the movement segment is read as Player B, as the Land Game file already does.
+- Errata applied: none listed for §48.
+- Rulings raised: R-030 (organisation segment order vs attrition), R-031 (when land-support air phase F is taken), R-032 (abstract convoy attack and fleet bombardment timing without the Air Game).

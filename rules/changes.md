@@ -114,6 +114,12 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-022](../rulings/R-022.md) | proposed | 52.51, 52.52, 3.1 |
 | [R-023](../rulings/R-023.md) | accepted | 15.79 |
 | [R-024](../rulings/R-024.md) | accepted | 17.4 |
+| [R-025](../rulings/R-025.md) | proposed | 48.0, 56.32 |
+| [R-026](../rulings/R-026.md) | proposed | 57.0, 60.44 |
+| [R-027](../rulings/R-027.md) | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
+| [R-030](../rulings/R-030.md) | proposed | 48.0 |
+| [R-031](../rulings/R-031.md) | proposed | 48.0 |
+| [R-032](../rulings/R-032.md) | proposed | 48.0, 58.1, 58.2 |
 | [R-040](../rulings/R-040.md) | proposed | 49.3, 49.14, 29.3 |
 | [R-041](../rulings/R-041.md) | proposed | 49.13, 49.15, 49.16 |
 | [R-042](../rulings/R-042.md) | proposed | 49.3, 29.3 |
@@ -124,3 +130,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | Id | Status | Affects |
 |---|---|---|
 | [V-001](../rulings/V-001.md) | recorded | 30.17, 30.39, 55.25, 60.7, 61.6 |
+| [V-002](../rulings/V-002.md) | recorded | 49.3 |
+| [V-003](../rulings/V-003.md) | recorded | 54.2 |
+| [V-004](../rulings/V-004.md) | recorded | 51.1, 51.15, 54.13 |
+| [V-005](../rulings/V-005.md) | recorded | 54.12 |

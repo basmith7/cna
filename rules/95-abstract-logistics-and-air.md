@@ -27,6 +27,10 @@ replaced by the ammunition and fuel costs below; trucks are replaced by
 ordinary supplies with the adjustments given here. Game balance shifts
 somewhat (SPI §65).
 
+::: note
+In the Logistics Game this is replaced by [full logistics](logistics/00-overview-and-sequence.md#switch).
+:::
+
 ## Supply units
 
 ::: spi 32.11 32.12 32.13 32.14 32.15 32.16 32.17 32.18
