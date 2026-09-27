@@ -94,6 +94,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Fuel](./logistics/10-fuel.md)
 
+- [R-043](../rulings/R-043.md) — capacity counts a part-block of CPA as a whole block
+- [R-041](../rulings/R-041.md) — part-blocks of five CP are rounded up for each Movement Segment's draw
+- [R-040](../rulings/R-040.md) — the per-turn loss reaches fuel in tanks; the hot-weather loss does not
+- [R-042](../rulings/R-042.md) — 9 % replaces 6 %; hot weather is one extra 5 % for both sides; all losses round down; sea convoys exempt
 - [V-002](../rulings/V-002.md) — fuel in vehicles' tanks does not evaporate
 
 ## [Ammunition and stores](./logistics/20-ammunition-and-stores.md)
@@ -113,6 +117,13 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Ports and shipping](./logistics/50-ports-and-shipping.md)
 
+- [R-081](../rulings/R-081.md) — a port is major if the chart gives it an incoming stacking-point figure above zero
+- [R-027](../rulings/R-027.md) — Tobruk's maximum level is the chart's 5; the campaigns start it at 2, not the printed 7
+- [R-080](../rulings/R-080.md) — port capacity is per Operations Stage; Strategic Phase arrivals count against the stage they land in
+- [R-082](../rulings/R-082.md) — the San Giorgio's three levels count as blocking and are cleared by engineers
+- [R-083](../rulings/R-083.md) — Tobruk's blocking and clearing costs stand as printed
+- [R-025](../rulings/R-025.md) — Axis coastal ship counters sail in the Truck Convoy Phase; Commonwealth port-to-port transfers stay in the Tactical Shipping Segment
+- [R-026](../rulings/R-026.md) — unlimited supply is in Cairo; the Italian campaign adds Alexandria
 - [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery that never reduces Tobruk's efficiency (NJHarman)
 
 ## [Abstract air](./logistics/60-abstract-air.md)
@@ -151,16 +162,16 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-022](../rulings/R-022.md) | proposed | 52.51, 52.52, 3.1 |
 | [R-023](../rulings/R-023.md) | accepted | 15.79 |
 | [R-024](../rulings/R-024.md) | accepted | 17.4 |
-| [R-025](../rulings/R-025.md) | proposed | 48.0, 56.32 |
-| [R-026](../rulings/R-026.md) | proposed | 57.0, 60.44 |
-| [R-027](../rulings/R-027.md) | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
+| [R-025](../rulings/R-025.md) | accepted | 48.0, 56.32 |
+| [R-026](../rulings/R-026.md) | accepted | 57.0, 60.44 |
+| [R-027](../rulings/R-027.md) | accepted | 55.12, 55.25, 55.3, 60.7, 61.6 |
 | [R-030](../rulings/R-030.md) | accepted | 48.0 |
 | [R-031](../rulings/R-031.md) | accepted | 48.0 |
 | [R-032](../rulings/R-032.md) | accepted | 48.0, 58.1, 58.2 |
-| [R-040](../rulings/R-040.md) | proposed | 49.3, 49.14, 29.3 |
-| [R-041](../rulings/R-041.md) | proposed | 49.13, 49.15, 49.16 |
-| [R-042](../rulings/R-042.md) | proposed | 49.3, 29.3 |
-| [R-043](../rulings/R-043.md) | proposed | 49.13, 49.14 |
+| [R-040](../rulings/R-040.md) | accepted | 49.3, 49.14, 29.3 |
+| [R-041](../rulings/R-041.md) | accepted | 49.13, 49.15, 49.16 |
+| [R-042](../rulings/R-042.md) | accepted | 49.3, 29.3 |
+| [R-043](../rulings/R-043.md) | accepted | 49.13, 49.14 |
 | [R-050](../rulings/R-050.md) | proposed | 50.0, 50.12, 50.15 |
 | [R-051](../rulings/R-051.md) | proposed | 50.16, 51.16 |
 | [R-052](../rulings/R-052.md) | proposed | 51.21, 51.22 |
@@ -172,10 +183,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-071](../rulings/R-071.md) | proposed | 54.31, 54.32, 54.33, 8.72 |
 | [R-072](../rulings/R-072.md) | proposed | 54.43, 54.44, 54.46 |
 | [R-073](../rulings/R-073.md) | proposed | 54.13 |
-| [R-080](../rulings/R-080.md) | proposed | 55.14, 55.16, 55.3 |
-| [R-081](../rulings/R-081.md) | proposed | 55.11, 55.3 |
-| [R-082](../rulings/R-082.md) | proposed | 55.18, 55.25, 55.26, 30.17 |
-| [R-083](../rulings/R-083.md) | proposed | 55.22, 55.23, 55.26 |
+| [R-080](../rulings/R-080.md) | accepted | 55.14, 55.16, 55.3 |
+| [R-081](../rulings/R-081.md) | accepted | 55.11, 55.3 |
+| [R-082](../rulings/R-082.md) | accepted | 55.18, 55.25, 55.26, 30.17 |
+| [R-083](../rulings/R-083.md) | accepted | 55.22, 55.23, 55.26 |
 | [R-090](../rulings/R-090.md) | accepted | 58.3 |
 | [R-091](../rulings/R-091.md) | accepted | 58.41 |
 | [R-092](../rulings/R-092.md) | accepted | 58.42, 58.44, 32.57 |
