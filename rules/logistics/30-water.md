@@ -199,9 +199,12 @@ battalion of 4 TOE Strength Points with 3 Truck Points. In a stage where
 only the infantry moves, the stack needs 1 Water Point. If the artillery
 also moves, it needs 1 + 4 + 3 = **8**.
 
-::: note
-Open question, not yet decided: where a unit's water must be for it to count as watered ([R-062](../../rulings/R-062.md)).
-:::
+::: ruling R-062 — water must be in the unit's own hex
+
+A unit is watered only from water in its **own hex** — what it carries, its
+trucks, a dump there, or a well or pipeline in the hex — at some point in
+the stage; the points are deducted then. Water elsewhere does not count,
+just as for fuel (ruling [R-062](../../rulings/R-062.md)).
 
 ::: spi 52.43 52.44 52.45
 
