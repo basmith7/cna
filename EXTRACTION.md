@@ -376,3 +376,10 @@ the PR that adds or substantially rewrites the file.
 - How we expressed it: SPI order; a `::: note` for the designer's untested-rules warning (site plugin extended, with tests, to render `::: note [title] … :::` blocks); the 3.62 disclosure list as a table; 10-units-and-state's spi-omit for 3.61–3.62 changed to spi-ref pointing here; 00-overview's file map corrected (§21 → Special). Four chart-sheet tables (32.46, 32.47, 32.59, 32.66) spi-omit pending capture.
 - Errata applied: none change a value here; the 32.0 warning is carried as a note.
 - Rulings raised: none.
+
+## rules/logistics/60-abstract-air.md — 2026-09-27
+- Source cases read: 58.0, 58.1, 58.2, 58.3, 58.4, 58.41, 58.42 (with its example), 58.43, 58.44; for the borrowed procedures, 32.57, 32.59, 32.6x and 32.7x.
+- Mechanics identified: scope (Logistics Game without the Air Game); convoy attacks by the 32.6 procedure against itemised cargo, coastal and tactical shipping immune; Axis fleet strikes by 32.7; Axis loses three-quarters of fuel unloaded in port, before evaporation; smaller initial truck set-ups; monthly abstract truck losses by the 32.57 method and chart, spread proportionally by type and convoy/attached; 10 % (round up) of arriving production/replacement-pool trucks withheld, reinforcement-track trucks exempt.
+- How we expressed it: one section per mechanic, our own examples; the Abstract Truck Loss Chart (58.44; the chart sheet heads it 58.5) is the same chart as 32.59 and reuses `data/tables/motorisation-losses.json` (no new table, so no new cross-check; that table's 56-cell cross-check stands). Timing of convoy attack and fleet strikes pointed to R-032 (overview) rather than duplicated. One Land Game pointer note under 32.59.
+- Errata applied: none listed for §58.
+- Rulings raised: R-090 (58.3 rounding / which landings), R-091 (58.41 unspecified amount), R-092 (58.42 base, timing, rounding).
