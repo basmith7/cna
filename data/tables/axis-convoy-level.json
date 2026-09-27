@@ -1,0 +1,13 @@
+{
+ "table": "axis-convoy-level",
+ "sources": ["CNA1979:56.4", "CNA1979:56.21", "scan:p178"],
+ "notes": [
+  "Axis Naval Convoy Level Chart (SPI 56.4), on the Axis player's chart set (jp2 178; the OCR's text for it falls in OBJECT 179). The letter for a month is the convoy level used on the Axis Naval Convoy Capacity Table (axis-convoy-capacity.json); the month is the one the convoy sails in (56.21's example plans in October for a November I convoy and uses November's letter). A null is a dash: no Axis convoys before September 1940. The chart stops at December 1942",
+  "Cross-check: 56.21's worked example (November 1941 = E) agrees. The Discord Axis chart PDF is image-only and was not paged through in this run, so 1 of 36 cells is independently confirmed"
+ ],
+ "levels": {
+  "1940": [null, null, null, null, null, null, null, null, "B", "B", "B", "B"],
+  "1941": ["B", "E", "F", "E", "D", "G", "C", "E", "C", "D", "E", "A"],
+  "1942": ["C", "B", "B", "G", "F", "A", "F", "B", "D", "A", "G", "C"]
+ }
+}

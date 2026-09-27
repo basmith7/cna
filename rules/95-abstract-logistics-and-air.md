@@ -183,6 +183,10 @@ everything, fractions down, but always at least one point of each item and
 one supply unit. Tank and gun losses are a percentage of each nationality's
 total, the Axis choosing the types.
 
+::: note
+In the Logistics Game this is replaced by [Axis naval convoys](logistics/50-ports-and-shipping.md#axis-naval-convoys).
+:::
+
 ::: spi 32.66
 
 The Simple Axis Naval Convoy Bombing Chart is data:
