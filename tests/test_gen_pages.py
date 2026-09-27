@@ -111,3 +111,24 @@ def test_committed_pages_are_current():
         "rules/coverage.md is stale: run tools/gen_pages.py"
     assert gp.render_register(root) == (root / "rulings" / "register.md").read_text(), \
         "rulings/register.md is stale: run tools/gen_pages.py"
+
+
+def test_subfolder_files_are_collected_with_their_path(tmp_path):
+    rules = tmp_path / "rules"
+    (rules / "logistics").mkdir(parents=True)
+    (rules / "10-alpha.md").write_text("---\ntitle: Alpha\n---\n::: ruling R-001 — a\n")
+    (rules / "logistics" / "10-fuel.md").write_text("---\ntitle: Fuel\n---\n::: ruling R-030 — b\n")
+    ann = gp.collect_annotations(rules)
+    assert ann["rules/logistics/10-fuel.md"]["rulings"] == [("R-030", "b")]
+    assert "rules/10-alpha.md" in ann
+
+
+def test_generated_pages_link_subfolder_files_by_their_path(tmp_path):
+    repo = _repo(tmp_path)
+    (repo / "rules" / "logistics").mkdir()
+    (repo / "rules" / "logistics" / "10-fuel.md").write_text(
+        "---\ntitle: Fuel\n---\n::: spi 9.12\n::: ruling R-001 — fuel\n")
+    assert "## [Fuel](./logistics/10-fuel.md)" in gp.render_changes(repo)
+    cov = gp.render_coverage(repo)
+    assert "[Fuel](./logistics/10-fuel.md)" in cov
+    assert "| 9 | [Beta](./20-beta.md), [Fuel](./logistics/10-fuel.md) | 2 | 0 | 0 | 100 % |" in cov
