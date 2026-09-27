@@ -118,9 +118,12 @@ A poisoned well may be **sweetened** so that it can be drawn from again.
 3. Further attempts may follow, at 5 CP each, but a unit may not go beyond
    its CPA making them.
 
-::: note
-Open question, not yet decided: whether that CPA limit applies per unit or to the whole effort at one well ([R-021](../../rulings/R-021.md)).
-:::
+::: ruling R-021 — only one unit per well per Operations Stage may try to sweeten it
+
+Only **one** unit may work at sweetening a given well in an Operations
+Stage. That unit may keep trying, 5 CP a try, until it succeeds or its CPA
+is used up; no other unit may try at that well that stage (ruling
+[R-021](../../rulings/R-021.md)).
 
 ## Water pipelines {#pipelines}
 
