@@ -40,6 +40,9 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-025](./R-025.md) | When does coastal shipping move? | proposed | 48.0, 56.32 |
 | [R-026](./R-026.md) | Where is the Commonwealth's unlimited supply: Cairo, or Cairo and Alexandria? | proposed | 57.0, 60.44 |
 | [R-027](./R-027.md) | Tobruk's port efficiency level | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
+| [R-060](./R-060.md) | The Pasta Point: how often is it due, and how long does missing it bite? | proposed | 52.6, 51.1 |
+| [R-061](./R-061.md) | Drawing water from a broken pipeline | proposed | 52.25, 52.23 |
+| [R-062](./R-062.md) | Where must water be for a unit to count as watered? | proposed | 52.41, 52.42, 52.5, 49.15 |
 
 ## Variants
 
