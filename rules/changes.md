@@ -99,6 +99,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-020](../rulings/R-020.md) — one draw per village or bir well per Operations Stage
 - [R-021](../rulings/R-021.md) — only one unit per well per Operations Stage may try to sweeten it
+- [R-061](../rulings/R-061.md) — a broken pipeline still works up to the break
 - [R-022](../rulings/R-022.md) — gun units count as vehicles when out of water
 - [R-060](../rulings/R-060.md) — the Pasta Point is due once per Game-Turn; the CPA limit lasts the whole turn
 
@@ -159,7 +160,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-052](../rulings/R-052.md) | proposed | 51.21, 51.22 |
 | [R-053](../rulings/R-053.md) | proposed | 51.0, 51.12, 51.17, 28.15 |
 | [R-060](../rulings/R-060.md) | accepted | 52.6, 51.1 |
-| [R-061](../rulings/R-061.md) | proposed | 52.25, 52.23 |
+| [R-061](../rulings/R-061.md) | accepted | 52.25, 52.23 |
 | [R-062](../rulings/R-062.md) | proposed | 52.41, 52.42, 52.5, 49.15 |
 | [R-070](../rulings/R-070.md) | proposed | 54.5 |
 | [R-071](../rulings/R-071.md) | proposed | 54.31, 54.32, 54.33, 8.72 |

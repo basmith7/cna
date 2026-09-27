@@ -52,7 +52,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-052](./R-052.md) | Stores attrition: timing, base and small units | proposed | 51.21, 51.22 |
 | [R-053](./R-053.md) | Prisoner stores: per stage within a per-turn distribution | proposed | 51.0, 51.12, 51.17, 28.15 |
 | [R-060](./R-060.md) | The Pasta Point: how often is it due, and how long does missing it bite? | accepted | 52.6, 51.1 |
-| [R-061](./R-061.md) | Drawing water from a broken pipeline | proposed | 52.25, 52.23 |
+| [R-061](./R-061.md) | Drawing water from a broken pipeline | accepted | 52.25, 52.23 |
 | [R-062](./R-062.md) | Where must water be for a unit to count as watered? | proposed | 52.41, 52.42, 52.5, 49.15 |
 | [R-070](./R-070.md) | What the Equivalent Weights Chart's "Unit of Stacking Points 1/2" row means | proposed | 54.5 |
 | [R-071](./R-071.md) | May one rail run carry both units and supplies in the Logistics Game? | proposed | 54.31, 54.32, 54.33, 8.72 |

@@ -160,9 +160,11 @@ is destroyed. When a hex is lost, water still flows up to the last hex that
 remains joined to the source, and no further. Counters are supplied for
 pipeline and for destroyed pipeline.
 
-::: note
-Open question, not yet decided: which hexes of a broken pipeline may still be drawn from ([R-061](../../rulings/R-061.md)).
-:::
+::: ruling R-061 — a broken pipeline still works up to the break
+
+Every pipeline hex still joined to its source keeps working as a full
+source; the break only cuts off the hexes beyond it (ruling
+[R-061](../../rulings/R-061.md)).
 
 ## Oases {#oases}
 
