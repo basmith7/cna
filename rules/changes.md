@@ -89,6 +89,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 ## [Logistics Game — overview and sequence of play](./logistics/00-overview-and-sequence.md)
 
 - [R-030](../rulings/R-030.md) — the organisation segments run in any order; attrition checks supply as it stands when run
+- [R-031](../rulings/R-031.md) — the land-support air phase is flown once per stage, by both sides together
 
 ## [Fuel](./logistics/10-fuel.md)
 
@@ -145,7 +146,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-026](../rulings/R-026.md) | proposed | 57.0, 60.44 |
 | [R-027](../rulings/R-027.md) | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
 | [R-030](../rulings/R-030.md) | accepted | 48.0 |
-| [R-031](../rulings/R-031.md) | proposed | 48.0 |
+| [R-031](../rulings/R-031.md) | accepted | 48.0 |
 | [R-032](../rulings/R-032.md) | proposed | 48.0, 58.1, 58.2 |
 | [R-040](../rulings/R-040.md) | proposed | 49.3, 49.14, 29.3 |
 | [R-041](../rulings/R-041.md) | proposed | 49.13, 49.15, 49.16 |

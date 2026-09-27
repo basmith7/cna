@@ -41,7 +41,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-026](./R-026.md) | Where is the Commonwealth's unlimited supply: Cairo, or Cairo and Alexandria? | proposed | 57.0, 60.44 |
 | [R-027](./R-027.md) | Tobruk's port efficiency level | proposed | 55.12, 55.25, 55.3, 60.7, 61.6 |
 | [R-030](./R-030.md) | Order of the Logistics organisation segments | accepted | 48.0 |
-| [R-031](./R-031.md) | When the land-support air phase is taken | proposed | 48.0 |
+| [R-031](./R-031.md) | When the land-support air phase is taken | accepted | 48.0 |
 | [R-032](./R-032.md) | Convoy bombing and fleet bombardment without the Air Game | proposed | 48.0, 58.1, 58.2 |
 | [R-040](./R-040.md) | Does fuel in a unit's own tanks evaporate? | proposed | 49.3, 49.14, 29.3 |
 | [R-041](./R-041.md) | Part-blocks of 5 CP: per move or across the stage? | proposed | 49.13, 49.15, 49.16 |

@@ -126,9 +126,12 @@ Both then reduce stocks of fuel and water for spillage and evaporation.
 
 ::: ruling R-030 — the organisation segments run in any order; attrition checks supply as it stands when run
 
-Phases A–E are joint. The Land Game's phases then run for Player A, and
-again for Player B with the labels swapped (see
-[R-031](../../rulings/R-031.md) for where phase F falls).
+::: ruling R-031 — the land-support air phase is flown once per stage, by both sides together
+
+Phases A–F are joint: land-support air (F), when the Air Game is used, is
+flown once per stage by both sides together, after the fleet phase and
+before Player A designates reserves. The Land Game's phases from G on then
+run for Player A, and again for Player B with the labels swapped.
 
 - **A. Initiative declaration** — as in the Land Game.
 - **B. Weather** — as in the Land Game; hot weather also costs the extra
