@@ -159,3 +159,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-09-28 12:23 | 0 | 75→75 | 2→2 | $0.27 | 3 | I made no changes this run. Mission 5 (the Logistics Game) is already logged as `MISSION 5 COMPLETE` in both `PROGRESS.md` and the journal, and my standing orde |
 | 2026-09-28 15:23 | 0 | 76→? | 3→? | $0.26 | 2 | Nothing to do this run, and I made no changes. - **Mission 5 (the Logistics Game):** already logged as `MISSION 5 COMPLETE` in `docs/autopilot/PROGRESS.md` and  |
 | 2026-09-28 18:23 | 0 | 77→77 | 7→7 | $0.23 | 3 | I did nothing this run. Mission 5 (the Logistics Game) is already marked `MISSION 5 COMPLETE` in both the journal and `PROGRESS.md`, and my orders say to stop t |
+| 2026-09-28 21:23 | 0 | 78→78 | 12→12 | $0.25 | 3 | I made no changes this run, because Mission 5 (the Logistics Game) is already finished. - **Already logged:** `MISSION 5 COMPLETE` is in `docs/autopilot/PROGRES |
