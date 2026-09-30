@@ -172,3 +172,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-09-30 03:23 | 0 | 16→16 | 20→20 | $0.27 | 2 | Mission 5 is already complete: `MISSION 5 COMPLETE` is logged in the journal and in `PROGRESS.md`. The **Feedback** section is empty and no autopilot PRs are op |
 | 2026-09-30 06:23 | 0 | 2→? | 10→? | $0.22 | 2 | Mission 5 is complete, the Feedback section is empty, and no autopilot PRs are open, so I did nothing this run. Under the standing orders, a completed mission w |
 | 2026-09-30 09:23 | 0 | 23→23 | 26→26 | $0.25 | 2 | Nothing to do this run, and I made no changes. The Logistics Game mission (Mission 5) is finished: `MISSION 5 COMPLETE` was logged in the journal and `PROGRESS. |
+| 2026-09-30 12:23 | 0 | 25→25 | 47→47 | $0.19 | 2 | Nothing to do this run. Mission 5 (the Logistics Game, §48–58) was logged `MISSION 5 COMPLETE` on 2026-09-27, the **Feedback** section in `PROGRESS.md` is empty |
