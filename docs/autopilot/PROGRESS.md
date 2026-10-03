@@ -190,3 +190,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-02 09:23 | 0 | 24→24 | 4→4 | $0.22 | 2 | Mission 5 is already complete, so I did nothing this run. `MISSION 5 COMPLETE` is logged in both the journal and `PROGRESS.md` (2026-09-27). The **Feedback** se |
 | 2026-10-02 12:23 | 0 | 24→24 | 7→7 | $0.27 | 2 | I made no changes this run: Mission 5 (the Logistics Game) is already done and the orders say to stop there. - **Mission:** `MISSION 5 COMPLETE` was logged in ` |
 | 2026-10-02 15:23 | 0 | 25→25 | 5→5 | $0.22 | 2 | Mission 5 is already complete, so this run did nothing. Both the journal and `PROGRESS.md` record `MISSION 5 COMPLETE`, the **Feedback** section is empty, and t |
+| 2026-10-02 18:23 | 0 | 26→26 | 7→7 | $0.24 | 3 | I did nothing this run. Mission 5 (the Logistics Game) is already logged as `MISSION 5 COMPLETE` in both the journal and `PROGRESS.md`, and the standing orders  |
