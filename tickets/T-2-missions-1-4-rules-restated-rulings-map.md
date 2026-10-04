@@ -1,12 +1,13 @@
 ---
 id: T-2
 title: "Missions 1–4: rules restated, rulings, map, primer"
-status: todo
+status: done
 labels:
   - autopilot
 depends: []
 created: 2026-10-04T04:26:00Z
-updated: 2026-10-04T04:26:00Z
+updated: 2026-10-04T04:26:11Z
+kind: other
 ---
 Done by the unattended autopilot, 2026-09-18 to 2026-09-27 (PRs #2–#101). Full history in `docs/autopilot/PROGRESS.md` and `docs/autopilot/JOURNAL.md`.
 
