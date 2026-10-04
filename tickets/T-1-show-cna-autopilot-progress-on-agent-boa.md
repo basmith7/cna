@@ -6,7 +6,7 @@ priority: medium
 labels: []
 depends: []
 created: 2026-10-04T04:25:55Z
-updated: 2026-10-04T04:27:24Z
+updated: 2026-10-04T04:47:46Z
 kind: build
 risk: low
 riskReason: Docs and a small helper script; the autopilot keeps PROGRESS.md, so nothing is lost if the board writes fail
@@ -14,7 +14,11 @@ size: medium
 ---
 Brian wants to follow the unattended autopilot's CNA progress on agent-board, not in `docs/autopilot/PROGRESS.md`.
 
-**State (2026-10-03):** paused at Brian's request. Board seeded (T-2 Missions 1–4, T-3 Mission 5, T-4 printed-copy questions). Commit `afb873e` on branch `idea/agent-1` (not merged) adds `tools/board_ticket.py`, a "The board" section and handoff step 3 in `AUTOPILOT.md`, and a pointer in `PROGRESS.md`. pytest passes (211) and the helper was tested against the live board and with the board down. Left to do: merge to main so the next cron run picks up the new orders.
+**On hold (2026-10-03):** Brian: "let's hold off for now, the current process is working." The cron autopilot keeps running unchanged.
+
+**State:** Board seeded (T-2 Missions 1–4, T-3 Mission 5, T-4 printed-copy questions). Commit `afb873e` on branch `idea/agent-1` (not merged) adds `tools/board_ticket.py` (board HTTP helper, exits 0 when the board is down), a "The board" section and handoff step 3 in `AUTOPILOT.md`, and a pointer in `PROGRESS.md`. pytest passes (211).
+
+**Bigger idea, discussed and parked:** autopilot work becomes tickets, with automation still driving it. Recommended shape: the cron keeps its quota check but, when on pace, presses Build it on the next ready cna ticket (`POST /api/build`) instead of running `claude -p`. Board agents build and `merge_ticket`. Missions become a parent ticket with one child per plan task. Auto-build stays off for cna so pacing stays in the cron. Needs a cna `AGENTS.md` holding the gates and ruling procedure from `AUTOPILOT.md`, since `merge_ticket` merges to main without a PR (whether it waits for GitHub CI is unconfirmed). Alternatives: board auto-build alone (no quota pacing), or the cron using tickets as its queue.
 
 ## Done when
 - [x] The cna board has a ticket for each mission (Missions 1–4 together, Mission 5 on its own) and one for the open questions only Brian's printed copy can answer
