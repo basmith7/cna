@@ -1,12 +1,13 @@
 ---
 id: T-3
 title: "Mission 5: the Logistics Game (§48–58)"
-status: todo
+status: done
 labels:
   - autopilot
 depends: []
 created: 2026-10-04T04:26:05Z
-updated: 2026-10-04T04:26:05Z
+updated: 2026-10-04T04:26:11Z
+kind: other
 ---
 **Complete** 2026-09-27 17:05 UTC. Spec `docs/designs/2026-09-27-logistics-game-design.md`, plan `docs/plans/2026-09-27-logistics-game.md`.
 
