@@ -1,12 +1,16 @@
 ---
 id: T-1
 title: Show CNA autopilot progress on agent-board
-status: todo
+status: doing
 priority: medium
 labels: []
 depends: []
 created: 2026-10-04T04:25:55Z
-updated: 2026-10-04T04:25:55Z
+updated: 2026-10-04T04:25:58Z
+kind: build
+risk: low
+riskReason: Docs and a small helper script; the autopilot keeps PROGRESS.md, so nothing is lost if the board writes fail
+size: medium
 ---
 Brian wants to follow the unattended autopilot's CNA progress on agent-board, not in `docs/autopilot/PROGRESS.md`.
 
