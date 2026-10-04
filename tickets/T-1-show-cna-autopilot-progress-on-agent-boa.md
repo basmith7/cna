@@ -1,18 +1,20 @@
 ---
 id: T-1
 title: Show CNA autopilot progress on agent-board
-status: doing
+status: todo
 priority: medium
 labels: []
 depends: []
 created: 2026-10-04T04:25:55Z
-updated: 2026-10-04T04:27:21Z
+updated: 2026-10-04T04:27:24Z
 kind: build
 risk: low
 riskReason: Docs and a small helper script; the autopilot keeps PROGRESS.md, so nothing is lost if the board writes fail
 size: medium
 ---
 Brian wants to follow the unattended autopilot's CNA progress on agent-board, not in `docs/autopilot/PROGRESS.md`.
+
+**State (2026-10-03):** paused at Brian's request. Board seeded (T-2 Missions 1–4, T-3 Mission 5, T-4 printed-copy questions). Commit `afb873e` on branch `idea/agent-1` (not merged) adds `tools/board_ticket.py`, a "The board" section and handoff step 3 in `AUTOPILOT.md`, and a pointer in `PROGRESS.md`. pytest passes (211) and the helper was tested against the live board and with the board down. Left to do: merge to main so the next cron run picks up the new orders.
 
 ## Done when
 - [x] The cna board has a ticket for each mission (Missions 1–4 together, Mission 5 on its own) and one for the open questions only Brian's printed copy can answer
