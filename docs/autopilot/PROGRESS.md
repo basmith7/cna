@@ -206,3 +206,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-04 12:23 | 0 | 67→67 | 75→75 | $0.20 | 2 | Nothing to do this run. Mission 5 finished on 2026-09-27 and `MISSION 5 COMPLETE` is already in the journal and `PROGRESS.md`. The standing orders say to do not |
 | 2026-10-04 15:23 | 0 | 68→68 | 7→7 | $0.22 | 2 | Nothing to do this run. `MISSION 5 COMPLETE` is already logged in the journal and `PROGRESS.md`, and AUTOPILOT.md says to stop once it is. The **Feedback** sect |
 | 2026-10-04 18:23 | 0 | 74→74 | 40→40 | $0.30 | 3 | I made no changes this run, because Mission 5 (the Logistics Game) is already finished. - `MISSION 5 COMPLETE` was logged on 2026-09-27 in both `docs/autopilot/ |
+| 2026-10-04 21:23 | 0 | 74→74 | 1→1 | $0.19 | 3 | I did nothing this run, because the standing orders say to stop once Mission 5 is complete. It was logged `MISSION 5 COMPLETE` on 2026-09-27, all five parts are |
