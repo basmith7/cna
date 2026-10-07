@@ -6,16 +6,11 @@ of the last one; this file plus the journal is the only continuity.
 
 ## Mission
 
-**Mission 5, issued 2026-09-27: the Logistics Game (§48–58).** Missions 1–4
-are done; their `COMPLETE` entries in the journal and `PROGRESS.md` are not a
-reason to idle.
-
-Two documents govern this mission. Read both before touching anything:
-
-- **Spec:** `docs/designs/2026-09-27-logistics-game-design.md`
-- **Plan:** `docs/plans/2026-09-27-logistics-game.md`. Follow it task by
-  task. Where the plan and the spec disagree, follow the spec and say so in
-  the journal.
+The autopilot works through a **queue** of missions (issued 2026-10-06).
+Each of Missions 1–5 took a run or two and then left the autopilot idle for
+days, so finishing a mission now means starting the next one in the same
+run. A `COMPLETE` entry in the journal or `PROGRESS.md` is never a reason
+to idle.
 
 The delegation of 2026-09-26 still stands: decide anything cheap to reverse
 yourself. Anything Brian writes in **Feedback** wins. Bring him only
@@ -23,17 +18,73 @@ questions of fact that need his printed copy: add them to the `copy` group
 of `docs/autopilot/decisions.json` and to **Next steps**, and leave the data
 as read.
 
-Parts, in order (plan task numbers):
+### Queue
 
-1. **Tooling** (Task 1), one PR.
-2. **Seed NJHarman's logistics items** (Task 2), one PR.
-3. **Rules files** (Tasks 3–9), one PR per file, in the plan's order.
-4. **Decide every logistics ruling** (Task 10), R-020–R-022 included, one
-   PR each, by the procedure below.
-5. **Docs** (Task 11), one PR.
+| # | Mission | SPI | Cases | State |
+|---|---|---|---|---|
+| 1–5 | Land Game, rulings, map, decision board, Logistics Game | §1–32, §48–58 | | done |
+| 6 | **The Air Game** | §33–47 | about 430 | next |
+| 7 | **Scenarios and OA sheets** | §59–65 | about 170 | queued |
 
-When all five are merged, log `MISSION 5 COMPLETE` in the journal and
-`PROGRESS.md` and do nothing further.
+The current mission is the first row not marked `done`. When its last part
+merges: log `MISSION n COMPLETE` in the journal and `PROGRESS.md`, set its
+row to `done` and the next row to `next` (in its docs PR), and go straight
+on to the next mission's Part 0. Case counts come from `rules/coverage.md`.
+
+### Every mission's parts
+
+Missions 1–5 came with a spec and plan written with Brian. Queued missions
+don't: the autopilot writes its own as Part 0. Then the parts follow the
+Mission 5 shape unless the mission's spec says otherwise.
+
+0. **Spec and plan**, one PR, branch `autopilot/m6-spec` (and so on). Write
+   `docs/designs/YYYY-MM-DD-slug-design.md` and `docs/plans/YYYY-MM-DD-slug.md`
+   in the shape and depth of the Logistics Game pair
+   (`docs/designs/2026-09-27-logistics-game-design.md`,
+   `docs/plans/2026-09-27-logistics-game.md`): goal, scope with cases per SPI
+   section, in and out, a decisions table, merge criteria, order; plan tasks
+   one PR each. Every decision is yours under the delegation and must be
+   reversible with one PR; say so in the spec's header, as Mission 5's does.
+   Merge it once the gates pass, then follow the plan task by task. Where a
+   plan and its spec disagree, follow the spec and say so in the journal.
+1. **Tooling**, if the plan needs any.
+2. **Seed NJHarman's items** on the mission's topic as rulings and variants.
+3. **Rules files**, one PR per file, charts as `data/tables/*.json`.
+4. **Decide every new ruling**, one PR each, by the procedure below.
+5. **Docs**: README, overview links, design Status, this queue.
+
+Mission notes, for the spec to take up:
+
+- **6, the Air Game.** §47 (the Air Game's own logistics) belongs here;
+  Mission 5 left it out on purpose. Use a `rules/air/` folder and sidebar
+  group, as `rules/logistics/` did. State exactly which parts of §32
+  (`rules/95-abstract-logistics-and-air.md`) and §58
+  (`rules/logistics/60-abstract-air.md`) the Air Game replaces, so an engine
+  has one switch. At about 430 cases this is over twice Mission 5: plan for
+  several runs, and keep each rules file under about 70 cases.
+- **7, scenarios and OA sheets.** §59–65 as rules prose, plus scenario
+  set-ups, OA sheets and reinforcement schedules as `data/` JSON where the
+  scans support it, and the per-unit figures `data/README.md` lists as
+  expected from the OA sub-project. Values read from scans get the same
+  cross-checks as the map and charts; what the scans cannot settle goes to
+  the `copy` group for Brian, and the data stays as read.
+
+### When the queue runs out
+
+Do not idle. While the last queued mission is in its Docs part, add the next
+mission yourself: one row in the queue and one paragraph of notes above, in
+the same PR, then start its Part 0. Choose, in this order:
+
+1. Data or rulings that cna-engine is waiting on: read its
+   `docs/autopilot/PROGRESS.md` (`gh api repos/basmith7/cna-engine/contents/docs/autopilot/PROGRESS.md`).
+2. A consistency pass across modules: rulings that disagree between the
+   Land, Logistics and Air Games; `Omitted` reasons in `rules/coverage.md`
+   that a later module now covers; charts not yet cross-checked.
+3. Site improvements that make the rules easier to cite and build from.
+
+Stay inside this repo's scope: the open restated rules, rulings and data.
+No engine code, no SPI text, nothing outside this repo. Only if none of the
+three yields a mission worth a spec, say so in **Next steps** and stop.
 
 ### How to decide a ruling
 

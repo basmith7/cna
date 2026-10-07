@@ -357,3 +357,9 @@ Done: Mission 5 all five parts. Rules files #106–#111, #114 (160/160 cases §4
 Method: subagents drafted files in worktrees, then decided rulings as stacked branches; landing a stack's top branch marks every PR in it merged.
 Next: nothing. MISSION 5 COMPLETE. Act only on PROGRESS Feedback.
 Blocked: none.
+
+## 2026-10-06 — main (interactive session)
+Done: AUTOPILOT.md now holds a mission queue: 6 Air Game (§33–47), 7 Scenarios and OA (§59–65), then the autopilot adds its own.
+In flight: none.
+Next: Mission 6 Part 0, branch `autopilot/m6-spec`: write the Air Game spec and plan in the shape of the Logistics Game pair, merge, then follow the plan.
+Blocked: none.

@@ -73,7 +73,7 @@ Missions 1–4 are complete (PRs #2–#101).
 
 ## Next steps
 
-For the autopilot: nothing. Mission 5 is complete. Act only on **Feedback**.
+For the autopilot: **Mission 6, the Air Game (§33–47)**, from the mission queue in `AUTOPILOT.md` (added 2026-10-06). Start with Part 0: write its spec and plan.
 
 For Brian (all optional):
 
