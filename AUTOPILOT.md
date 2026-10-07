@@ -99,8 +99,13 @@ Mission notes, for the spec to take up:
   a scenario and places every unit: check the schema against what
   cna-engine's `cna-data` crate already reads. Values read from scans get
   the same cross-checks as the map and charts; what the scans cannot settle
-  goes to the `copy` group for Brian, and the data stays as read. Plan the
-  smallest scenario first, so the engine can start on it early.
+  goes to the `copy` group for Brian, and the data stays as read. **Part 1
+  of the plan is one small Land Game scenario, complete** (set-up, OA,
+  victory conditions), merged before anything else in the mission: it is
+  step 1 of the *Path to a playable game* Brian agreed on 2026-10-07, and
+  cna-engine's Mission 2 is built on it. Pick the smallest scenario that
+  needs neither the Air Game nor the Logistics Game, and say why in the
+  spec. The rest of the scenarios and the OA sheets follow.
 - **7, the Air Game.** §47 (the Air Game's own logistics) belongs here;
   Mission 5 left it out on purpose. Use a `rules/air/` folder and sidebar
   group, as `rules/logistics/` did. State exactly which parts of §32
