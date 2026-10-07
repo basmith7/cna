@@ -4,6 +4,28 @@ Read by `~/Scripts/claude-autopilot.sh`, which cron launches every few hours
 when the Claude plan has headroom. Each run is a fresh session with no memory
 of the last one; this file plus the journal is the only continuity.
 
+## The goal
+
+This repo and `basmith7/cna-engine` share one goal, and every mission in
+either repo serves it:
+
+> **An open-source, self-hostable digital *Campaign for North Africa*.**
+> Two players play a scenario, and in the end the full campaign, in a
+> browser, against each other, with the engine enforcing every rule. Each
+> ruling is a switch, so a group picks its ruleset.
+
+The two repos split the work:
+
+- **cna (this repo)** is the rulebook: every SPI rule restated in our own
+  words, every chart, map hex, scenario and OA sheet as data, and every
+  ambiguity decided as a ruling. It is done when an engine can build the
+  whole game from it without opening the SPI books. No engine code here.
+- **cna-engine** builds the game from this repo: rules core, game state,
+  turn sequence, then a server and browser client. It reads this repo as a
+  submodule and never copies its prose.
+
+The engine is the critical path. Order work here by what it needs next.
+
 ## Mission
 
 The autopilot works through a **queue** of missions (issued 2026-10-06).
@@ -18,18 +40,32 @@ questions of fact that need his printed copy: add them to the `copy` group
 of `docs/autopilot/decisions.json` and to **Next steps**, and leave the data
 as read.
 
+### Requests from cna-engine come first
+
+Every run, after **Feedback** and before the queue, read the **Requests for
+cna** section of cna-engine's `docs/autopilot/PROGRESS.md`
+(`gh api repos/basmith7/cna-engine/contents/docs/autopilot/PROGRESS.md --jq .content | base64 -d`).
+Each request is a gap the engine hit: a missing table, a ruling it cannot
+model, data in the wrong shape. Handle each as one PR, branch
+`autopilot/req-slug`, and note the PR number in this repo's `PROGRESS.md`
+under **Addressed**; the engine's autopilot clears its own list. A request
+that is really a whole mission goes into the queue instead.
+
 ### Queue
 
 | # | Mission | SPI | Cases | State |
 |---|---|---|---|---|
 | 1–5 | Land Game, rulings, map, decision board, Logistics Game | §1–32, §48–58 | | done |
-| 6 | **The Air Game** | §33–47 | about 430 | next |
-| 7 | **Scenarios and OA sheets** | §59–65 | about 170 | queued |
+| 6 | **Scenarios and OA sheets** | §59–65 | about 170 | next |
+| 7 | **The Air Game** | §33–47 | about 430 | queued |
 
-The current mission is the first row not marked `done`. When its last part
-merges: log `MISSION n COMPLETE` in the journal and `PROGRESS.md`, set its
-row to `done` and the next row to `next` (in its docs PR), and go straight
-on to the next mission's Part 0. Case counts come from `rules/coverage.md`.
+Scenarios come before the Air Game because the engine cannot set up a game
+without them, while the Air Game is an optional module (§32 and §58 already
+abstract it). The current mission is the first row not marked `done`. When
+its last part merges: log `MISSION n COMPLETE` in the journal and
+`PROGRESS.md`, set its row to `done` and the next row to `next` (in its
+docs PR), and go straight on to the next mission's Part 0. Case counts come
+from `rules/coverage.md`.
 
 ### Every mission's parts
 
@@ -43,7 +79,8 @@ Mission 5 shape unless the mission's spec says otherwise.
    (`docs/designs/2026-09-27-logistics-game-design.md`,
    `docs/plans/2026-09-27-logistics-game.md`): goal, scope with cases per SPI
    section, in and out, a decisions table, merge criteria, order; plan tasks
-   one PR each. Every decision is yours under the delegation and must be
+   one PR each. The goal section says how the mission serves **The goal**
+   above. Every decision is yours under the delegation and must be
    reversible with one PR; say so in the spec's header, as Mission 5's does.
    Merge it once the gates pass, then follow the plan task by task. Where a
    plan and its spec disagree, follow the spec and say so in the journal.
@@ -55,36 +92,31 @@ Mission 5 shape unless the mission's spec says otherwise.
 
 Mission notes, for the spec to take up:
 
-- **6, the Air Game.** §47 (the Air Game's own logistics) belongs here;
+- **6, scenarios and OA sheets.** §59–65 as rules prose, plus scenario
+  set-ups, OA sheets and reinforcement schedules as `data/` JSON where the
+  scans support it, and the per-unit figures `data/README.md` lists as
+  expected from the OA sub-project. Shape the data for an engine that loads
+  a scenario and places every unit: check the schema against what
+  cna-engine's `cna-data` crate already reads. Values read from scans get
+  the same cross-checks as the map and charts; what the scans cannot settle
+  goes to the `copy` group for Brian, and the data stays as read. Plan the
+  smallest scenario first, so the engine can start on it early.
+- **7, the Air Game.** §47 (the Air Game's own logistics) belongs here;
   Mission 5 left it out on purpose. Use a `rules/air/` folder and sidebar
   group, as `rules/logistics/` did. State exactly which parts of §32
   (`rules/95-abstract-logistics-and-air.md`) and §58
   (`rules/logistics/60-abstract-air.md`) the Air Game replaces, so an engine
   has one switch. At about 430 cases this is over twice Mission 5: plan for
   several runs, and keep each rules file under about 70 cases.
-- **7, scenarios and OA sheets.** §59–65 as rules prose, plus scenario
-  set-ups, OA sheets and reinforcement schedules as `data/` JSON where the
-  scans support it, and the per-unit figures `data/README.md` lists as
-  expected from the OA sub-project. Values read from scans get the same
-  cross-checks as the map and charts; what the scans cannot settle goes to
-  the `copy` group for Brian, and the data stays as read.
 
-### When the queue runs out
+### After the queue: the finish line
 
-Do not idle. While the last queued mission is in its Docs part, add the next
-mission yourself: one row in the queue and one paragraph of notes above, in
-the same PR, then start its Part 0. Choose, in this order:
-
-1. Data or rulings that cna-engine is waiting on: read its
-   `docs/autopilot/PROGRESS.md` (`gh api repos/basmith7/cna-engine/contents/docs/autopilot/PROGRESS.md`).
-2. A consistency pass across modules: rulings that disagree between the
-   Land, Logistics and Air Games; `Omitted` reasons in `rules/coverage.md`
-   that a later module now covers; charts not yet cross-checked.
-3. Site improvements that make the rules easier to cite and build from.
-
-Stay inside this repo's scope: the open restated rules, rulings and data.
-No engine code, no SPI text, nothing outside this repo. Only if none of the
-three yields a mission worth a spec, say so in **Next steps** and stop.
+When Mission 7 is complete, every SPI section is covered and the rulebook
+is done. From then on this repo works only on **Requests from cna-engine**
+(above) and Brian's **Feedback**. Do not start missions of your own: no
+polish passes, no site features nobody asked for. With nothing requested,
+say so in **Next steps** and stop; idle runs cost almost nothing, and the
+quota is better spent by cna-engine.
 
 ### How to decide a ruling
 

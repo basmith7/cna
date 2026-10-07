@@ -363,3 +363,8 @@ Done: AUTOPILOT.md now holds a mission queue: 6 Air Game (§33–47), 7 Scenario
 In flight: none.
 Next: Mission 6 Part 0, branch `autopilot/m6-spec`: write the Air Game spec and plan in the shape of the Logistics Game pair, merge, then follow the plan.
 Blocked: none.
+
+## 2026-10-07 — main (interactive session)
+Done: AUTOPILOT.md gains **The goal**, shared with cna-engine. Queue reordered: 6 Scenarios and OA (§59–65), 7 Air Game. After 7, work only on cna-engine's Requests for cna and Feedback.
+Next: read cna-engine's Requests for cna, then Mission 6 Part 0, branch `autopilot/m6-spec`.
+Blocked: none.
