@@ -1,0 +1,25 @@
+{
+ "table": "aircraft-refit",
+ "sources": ["CNA1979:38.38", "CNA1979:38.35", "CNA1979:38.39", "scan:p104"],
+ "notes": [
+  "Aircraft Refit Table, printed as 38.37 on chart page 10 (jp2 104); the rules call it 38.38. Read twice, from the archive.org scan and the community chart PDFs (Shared Charts.pdf p. 10): 0 of 17 cells differ.",
+  "by_squadron: one die per squadron (38.34), modified per 38.35, read the percentage of its aircraft refitted; fractions of aircraft round up. Rows run to 9 because the additions can take a roll past 6.",
+  "by_plane: the optional method of 38.39, two dice per aircraft; refitted if the roll is within the range for its nation. +2 if the aircraft is not the working SGSU's own squadron's.",
+  "The chart words the national additions by the SGSU doing the work (German SGSU +1, Italian SGSU +2), where 38.35 words them by the aircraft refitted; R-112."
+ ],
+ "by_squadron": [
+  {"die": {"from": 1, "to": 1}, "percent_refitted": 100},
+  {"die": {"from": 2, "to": 2}, "percent_refitted": 80},
+  {"die": {"from": 3, "to": 3}, "percent_refitted": 70},
+  {"die": {"from": 4, "to": 4}, "percent_refitted": 60},
+  {"die": {"from": 5, "to": 5}, "percent_refitted": 50},
+  {"die": {"from": 6, "to": 7}, "percent_refitted": 40},
+  {"die": {"from": 8, "to": 9}, "percent_refitted": 33}
+ ],
+ "by_squadron_modifiers": [
+  {"when": "aircraft-not-of-the-working-sgsus-squadron", "add": 1},
+  {"when": "german", "add": 1},
+  {"when": "italian", "add": 2}
+ ],
+ "by_plane": {"cw": {"from": 2, "to": 8}, "de": {"from": 2, "to": 7}, "it": {"from": 2, "to": 6}, "other_squadron_add": 2}
+}
