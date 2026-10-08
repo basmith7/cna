@@ -80,6 +80,10 @@ Types, numbers, pilots and SGSUs are in `sides.axis.air`.
 
 ::: ruling R-097 — when the first Axis convoy arrives, and whether it can be bombed
 
+The plan covers Game-Turns 1 and 2. The Game-Turn 1 convoy unloads in
+OpStage 1; the Commonwealth cannot bomb it, as the turn's bombing phase
+comes before the scenario starts.
+
 ## Commonwealth forces {#commonwealth}
 
 ::: spi 60.4 60.41

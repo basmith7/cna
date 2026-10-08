@@ -69,7 +69,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-094](./R-094.md) | Italian artillery listed twice "anywhere in Libya" | accepted | 60.31 |
 | [R-095](./R-095.md) | The Commonwealth fleet at the start of Group One | accepted | 60.45 |
 | [R-096](./R-096.md) | Units a scenario places before their OA arrival | accepted | 60.41, 59.2 |
-| [R-097](./R-097.md) | Axis convoys before the first Operations Stage of Group One | proposed | 60.37, 56.0 |
+| [R-097](./R-097.md) | Axis convoys before the first Operations Stage of Group One | accepted | 60.37, 56.0 |
 | [R-098](./R-098.md) | Commonwealth major repair facilities in Group One | accepted | 60.44, 22.31 |
 | [R-099](./R-099.md) | Tobruk's repair facility | proposed | 60.33, 22.31 |
 | [R-100](./R-100.md) | When the schedule and an OA sheet give different arrivals | proposed | 4.43, 4.44, 20.0 |
