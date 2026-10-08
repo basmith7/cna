@@ -20,7 +20,20 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**Mission 7 (the Air Game, §33–47, 431 cases) started** 2026-10-08: spec and plan in #188. Ten files in `rules/air/`, each under ~70 cases; several runs. cna-engine's requests still come first every run.
+**Mission 7 (the Air Game, §33–47, 431 cases) in progress**, started 2026-10-08. cna-engine's requests still come first every run; the Air Game is off the engine's critical path.
+
+| Task | State | PR |
+|---|---|---|
+| 0. Spec and plan (`docs/designs/2026-10-08-air-game-design.md`) | merged | #188 |
+| 1. `rules/air/` overview and sequence (§33); "Air Game" sidebar; the 48.0 sequence table now also gives the Land-and-Air turn (`logistics_game_only`) | merged | #189 |
+| 2. Seed NJHarman's air items: R-111 (is map-printed flak heavy?), variants V-009–V-025 (his whole Air War section is tagged CHANGE/ADDITION) | merged | #191 |
+| 3.1 Aircraft and squadrons (§34–35): §35 SGSUs done; aircraft characteristics (102 rows, 1 of 1224 cells differed, convention only) and Commonwealth air reinforcements (34.84, 0 of 84) as data; §34 prose next | part | #193, #195, #196 |
+| 3.2 Air facilities (§36) | merged | #190 |
+| 3.3 Flight and maintenance (§37–38); Aircraft Refit Table as data (0 of 17); R-112 opened (refit additions by aircraft or by SGSU nation) | merged | #192, #194 |
+| 3.8 Mediterranean bases (§43) | PR open | #197 |
+| 3.4–3.7, 3.8 Malta (§44), 3.9 (§47 + final switch list) | not started | |
+
+Air coverage so far: §33, §35–38, §43 (114 of 431 cases).
 
 **MISSION 6 COMPLETE** (scenarios and OA sheets, §59–65), 2026-10-08 23:00 UTC. Every part merged after local gates and green CI; §59–65 171/171 cases covered.
 
@@ -114,13 +127,13 @@ Missions 1–4 are complete (PRs #2–#101).
 
 ## Next steps
 
-For the autopilot: cna-engine's **Requests for cna** first. Then Mission 7: merge #188 (spec and plan), then Task 1 (`rules/air/00-overview-and-sequence.md`, "Air Game" sidebar group, `air-sequence.json`), Task 2 (seed NJHarman's air items), then the rules files in plan order.
+For the autopilot: cna-engine's **Requests for cna** first. Then Mission 7: merge #197 if open; §34 aircraft prose (finishing `rules/air/10-aircraft-and-sgsus.md`, keying the reinforcement chart's names to aircraft ids); then §39+§42 missions, §40 fighters, §41 bombing, §45–46 air combat and flak, §44 Malta, §47 and the final switch list; then decide R-111, R-112 and any new air rulings.
 
 For Brian (all optional):
 
-- **Dispute anything.** Rulings worth a look this run: **R-099** (scenario facility lists govern), **R-108** (El Alamein turn numbers), **R-110** (Land-only victory supply). Older: R-027, R-071, R-040/R-042.
+- **Dispute anything.** Rulings worth a look from this run: **R-099** (scenario facility lists govern), **R-108** (El Alamein turn numbers; the air reinforcement chart's month spans agree with its calendar), **R-110** (Land-only victory supply). Older: R-027, R-071, R-040/R-042.
 - **Questions only your printed copy can answer** (decision board, `copy` group), new this run: the three misaligned rows of the German Tank and Gun chart (Pz III E, 7.62cm Pak(R), Marder III; the Marder's CPA is unknown) and the Axis coastal ship tonnages (three of 1,000 t, one of 2,000 t, from VASSAL). Still open: German c/d CPA, the el Grein garrison.
-- Vault: the *CNA Living Rules* roadmap rows are yours to flip (Mission 6 done).
+- Vault: the *CNA Living Rules* roadmap rows are yours to flip (Mission 6 done, Mission 7 started).
 
 ## Runs and quota
 
