@@ -234,6 +234,12 @@ those with a later arrival date of their own or marked excluded on the
 track. Detachments that arrive alone are listed under their parent so that
 the same sheet serves.
 
+::: ruling R-100 — the schedule and an OA sheet sometimes give different arrivals
+
+Where the Reinforcement Track and a unit's O/A sheet give different
+arrivals, the track governs; the sheet's Arrives column only decides for a
+unit the track does not name.
+
 ## Replacement points {#replacement-points}
 
 ::: spi 20.2 20.21 20.22 20.23 20.24
