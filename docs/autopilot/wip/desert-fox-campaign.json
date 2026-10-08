@@ -1,0 +1,21 @@
+{
+ "id": "scenario:desert-fox-campaign",
+ "name": "The Desert Fox: Campaign",
+ "group": 2,
+ "extends": "scenario:rommels-arrival",
+ "sources": [
+  "CNA1979:61.1",
+  "scan:p79"
+ ],
+ "notes": [
+  "61.1 names a complete campaign from the same set-up. Section 61 prints no end, initiative or victory for it; end is set to the last OpStage of the game (Game-Turn 111 OpStage 3) and victory is left unset pending a ruling (the Group Five campaign rules are the likely model). Unconfirmed."
+ ],
+ "start": {
+  "game_turn": 26,
+  "opstage": 3
+ },
+ "end": {
+  "game_turn": 111,
+  "opstage": 3
+ }
+}

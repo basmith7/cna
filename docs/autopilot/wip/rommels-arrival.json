@@ -1,0 +1,1445 @@
+{
+ "id": "scenario:rommels-arrival",
+ "name": "The Desert Fox: the Race for Tobruk",
+ "group": 2,
+ "sources": [
+  "CNA1979:61.0",
+  "CNA1979:61.2",
+  "CNA1979:61.31",
+  "CNA1979:61.38",
+  "CNA1979:61.41",
+  "CNA1979:61.5",
+  "CNA1979:61.6",
+  "CNA1979:61.8",
+  "scan:p79",
+  "scan:p80",
+  "scan:p81"
+ ],
+ "notes": [
+  "Read from the archive.org scan, jp2 79-81 (printed pages 29-31).",
+  "61.1 says a second scenario, a full campaign, may be played from the same set-up; Section 61 gives it no length, victory conditions or other rules (see desert-fox-campaign.json).",
+  "German units, the 2nd Armoured and 9th Australian Division sheets are not yet transcribed; their ids are unit:<nation>:todo-* with the printed listing in notes."
+ ],
+ "start": {
+  "game_turn": 26,
+  "opstage": 3
+ },
+ "end": {
+  "game_turn": 38,
+  "opstage": 3
+ },
+ "initiative": {
+  "side": "axis",
+  "through": {
+   "game_turn": 27,
+   "opstage": 3
+  }
+ },
+ "construction": {
+  "railroad_ends": "D3714",
+  "ports": [
+   {
+    "place": "tobruk",
+    "efficiency": 2,
+    "notes": [
+     "The San Giorgio wreck is still there. The scenario prints 7; ruling R-027 sets 2."
+    ]
+   },
+   {
+    "place": "benghazi",
+    "efficiency": 0
+   }
+  ],
+  "fortifications": [
+   {
+    "placement": {
+     "within": {
+      "of": "C4807",
+      "hexes": 2
+     },
+     "constraint": "Commonwealth places them"
+    },
+    "level": 1,
+    "count": 4
+   }
+  ],
+  "roads_built": [
+   "The unfinished road between Sollum (C4021) and Sidi Barrani (C4131).",
+   "The whole unfinished road network around Tobruk."
+  ],
+  "notes": [
+   "No minefields; no pipeline beyond the railroad's (61.6). Every other port is at full listed efficiency."
+  ]
+ },
+ "victory": {
+  "kind": "levels",
+  "levels": [
+   {
+    "side": "axis",
+    "level": "tactical",
+    "all_of": [
+     {
+      "hold": {
+       "place": "tobruk"
+      }
+     }
+    ]
+   },
+   {
+    "side": "axis",
+    "level": "decisive",
+    "all_of": [
+     {
+      "hold": {
+       "place": "tobruk"
+      }
+     },
+     {
+      "hold": {
+       "place": "bardia"
+      }
+     }
+    ]
+   },
+   {
+    "side": "axis",
+    "level": "strategic",
+    "all_of": [
+     {
+      "hold": {
+       "place": "benghazi"
+      }
+     },
+     {
+      "hold": {
+       "place": "tobruk"
+      }
+     },
+     {
+      "hold": {
+       "place": "bardia"
+      }
+     },
+     {
+      "hold": {
+       "region": "egypt",
+       "constraint": "any two villages or cities in Egypt"
+      }
+     }
+    ]
+   },
+   {
+    "side": "cw",
+    "level": "tactical",
+    "all_of": [
+     {
+      "hold": {
+       "place": "tobruk"
+      }
+     }
+    ]
+   },
+   {
+    "side": "cw",
+    "level": "strategic",
+    "all_of": [
+     {
+      "hold": {
+       "place": "tobruk"
+      }
+     },
+     {
+      "hold": {
+       "place": "bardia"
+      }
+     },
+     {
+      "hold": {
+       "place": "benghazi"
+      }
+     }
+    ]
+   }
+  ],
+  "notes": [
+   "Judged at the end of the scenario. SPI names no levels except Decisive and Strategic (Axis) and 'Smashing' (Commonwealth); holding Tobruk alone is recorded as tactical for whichever side holds it. The Commonwealth 'Smashing Victory' is recorded as strategic (the schema has no 'smashing'); its 'all the above' is read as Tobruk, Bardia and Benghazi (the Egyptian villages are already Commonwealth). SPI also says anything less than the Axis Strategic set is a Commonwealth victory, which contradicts the first sentence; needs a ruling. No supply condition is printed."
+  ]
+ },
+ "sides": {
+  "axis": {
+   "deployments": [
+    {
+     "placement": {
+      "within": {
+       "of": "A1816",
+       "hexes": 1
+      },
+      "constraint": "not east of El Agheila; any formation the player likes, battle groups allowed"
+     },
+     "units": [],
+     "notes": [
+      "Every German land unit due on the Reinforcement Schedule before Game-Turn 26 OpStage 3. The German OA sheets are not transcribed; the schedule decides the list. Unit ids to follow (unit:de:todo-*)."
+     ]
+    },
+    {
+     "placement": {
+      "within": {
+       "of": "A1816",
+       "hexes": 2
+      },
+      "constraint": "not east of El Agheila"
+     },
+     "units": [
+      {
+       "unit": "unit:it:ariete-132nd-div-hq"
+      }
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "A2010",
+       "A2703"
+      ],
+      "constraint": "anywhere between Ras el Ali (A2010) and Nofilia (A2703); no division within two hexes of another (none less than two hexes from another)"
+     },
+     "units": [
+      {
+       "unit": "unit:it:17th-pavia-div-hq"
+      },
+      {
+       "unit": "unit:it:25th-bologna-div-hq"
+      },
+      {
+       "unit": "unit:it:27-brescia-div-hq"
+      },
+      {
+       "unit": "unit:it:55th-savona-div-hq",
+       "notes": [
+        "Printed 'Savonna'."
+       ]
+      }
+     ],
+     "notes": [
+      "The two endpoint hexes are anchors only; the constraint governs."
+     ]
+    },
+    {
+     "placement": {
+      "box": "tripoli"
+     },
+     "units": [
+      {
+       "unit": "unit:it:102nd-trento-div-hq"
+      },
+      {
+       "unit": "unit:it:xxi-corps-artillery-regt"
+      },
+      {
+       "unit": "unit:it:350th-gaf-s-di-c-arty-regt"
+      },
+      {
+       "unit": "unit:it:1st-bn-2-arty-rgppmnto"
+      },
+      {
+       "unit": "unit:it:2nd-bn-2-arty-rgppmnto"
+      },
+      {
+       "unit": "unit:it:3rd-bn-2-arty-rgppmnto"
+      },
+      {
+       "unit": "unit:it:4th-bn-2-arty-rgppmnto"
+      },
+      {
+       "unit": "unit:it:60th-sabratha-div-hq",
+       "less": [
+        "unit:it:i-85-infantry-bn",
+        "unit:it:ii-85-infantry-bn",
+        "unit:it:iii-85-infantry-bn",
+        "unit:it:i-86-infantry-bn",
+        "unit:it:ii-86-infantry-bn",
+        "unit:it:iii-86-infantry-bn"
+       ],
+       "notes": [
+        "The 85th and 86th regiment HQs remain. Its MG battalion (60th) and artillery regiment (42nd) start at 1 TOE strength point each; the six battalions and those two units may be rebuilt with replacements."
+       ]
+      }
+     ],
+     "notes": [
+      "'2nd Artillery Ragruppament' read as the four battalions of 2 Arty Rgppmnto, which has no HQ counter; unconfirmed."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "A1318"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:de:todo-oasis-coy-1",
+       "notes": [
+        "Printed: one German Oasis Company at Maaten Groter (A 1318)."
+       ]
+      }
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "A0817"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:de:todo-oasis-coy-2",
+       "notes": [
+        "Printed: one German Oasis Company at Magadah (A 0817)."
+       ]
+      }
+     ]
+    }
+   ],
+   "trucks": [
+    {
+     "placement": {
+      "region": "libya",
+      "constraint": "given to Italian units as the player likes (first-line)"
+     },
+     "trucks": {
+      "light": 45,
+      "medium": 220,
+      "heavy": 50
+     },
+     "use": "any",
+     "notes": [
+      "Italian first-line trucks, not tied to a hex in the set-up; recorded here because the deployment blocks cannot hold unplaced trucks."
+     ]
+    },
+    {
+     "placement": {
+      "region": "libya"
+     },
+     "trucks": {
+      "light": 95,
+      "medium": 280,
+      "heavy": 50
+     },
+     "use": "any",
+     "notes": [
+      "Second/third line, any purpose; SPI urges using them for supply. No location printed."
+     ]
+    },
+    {
+     "placement": {
+      "air_facility": true
+     },
+     "trucks": {
+      "medium": 10
+     },
+     "use": "air-facility"
+    }
+   ],
+   "supply": [
+    {
+     "placement": {
+      "hexes": [
+       "A1816",
+       "A2703"
+      ],
+      "constraint": "anywhere between El Agheila (A1816) and Nofilia (A2703); the side shares out 2500 ammo, 9600 fuel, 950 stores and 1100 water among the three real dumps; no dump may hold more than 50% of any one item"
+     },
+     "kind": "dump",
+     "count": 3,
+     "ammo": 2500,
+     "fuel": 9600,
+     "stores": 950,
+     "water": 1100,
+     "notes": [
+      "Figures are the pool for all three, not each."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "A1816",
+       "A2703"
+      ],
+      "constraint": "anywhere between El Agheila (A1816) and Nofilia (A2703)"
+     },
+     "kind": "dummy-dump",
+     "count": 2
+    },
+    {
+     "placement": {
+      "box": "tripoli"
+     },
+     "kind": "dump",
+     "ammo": 1500,
+     "fuel": 3000,
+     "stores": 500
+    },
+    {
+     "placement": {
+      "air_facility": true
+     },
+     "kind": "air-facilities",
+     "ammo": 50,
+     "fuel": 50,
+     "notes": [
+      "Tripoli and Tunisia air facilities have unlimited fuel and ammo."
+     ]
+    }
+   ],
+   "air": {
+    "sources": [
+     "CNA1979:61.42",
+     "scan:p80"
+    ],
+    "german": "Every German plane due on the Axis Airplane Reinforcement Chart before Game-Turn 26 OpStage 3, all refitted.",
+    "planes": [
+     {
+      "type": "C.R. 42",
+      "available": 61,
+      "refitted": 27
+     },
+     {
+      "type": "G. 50",
+      "available": 62,
+      "refitted": 33
+     },
+     {
+      "type": "B.R. 20",
+      "available": 1,
+      "refitted": 0
+     },
+     {
+      "type": "SM 79",
+      "available": 30,
+      "refitted": 14
+     },
+     {
+      "type": "Z 1007bis",
+      "available": 1,
+      "refitted": 1
+     }
+    ],
+    "pilots": {
+     "3": 3,
+     "2": 11,
+     "1": 12
+    },
+    "german_pilots": "one roll, as for March 1941, for the number of rated ONE to FOUR pilots",
+    "sgsu": 13,
+    "german_sgsu": "as the Air Game rules allow",
+    "placement": "any portion may base in Italy/Sicily within the German minimum of 43.1; Crete is British",
+    "new_facilities": "one airfield and one landing strip in any hex west of El Agheila (A1816)"
+   },
+   "reinforcements": [
+    "All Axis reinforcements are taken as they appear on the track (61.45)."
+   ],
+   "special": [
+    "German first-line trucks that the schedule attaches to arrived German units may be shared among those units freely (61.43).",
+    "No Axis convoy arrives in the first Game-Turn; the convoys for the second and third Game-Turns are planned before play (61.44).",
+    "Every Italian unit except the Sabratha starts as its OA sheet shows, tanks included (61.41)."
+   ]
+  },
+  "cw": {
+   "deployments": [
+    {
+     "placement": {
+      "hexes": [
+       "A2022"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-3rd-armoured-bde-hq",
+       "assigned": [
+        "unit:cw:6-rtr",
+        "unit:cw:3-hus"
+       ],
+       "notes": [
+        "Printed: 3rd Armored Bde (2 Arm); (Assg: 6th RTR [4/7]; 3rd Hus). The 2nd Armoured Division sheet is not transcribed. The bracket [4/7] on 6 RTR reads as its 7th Armoured parent (4th Armd Bde)."
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-2nd-armoured-div-hq",
+       "alone": true,
+       "notes": [
+        "Printed: HQ: 2nd Armored Division."
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 20
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "A2021"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-2nd-support-group-hq",
+       "notes": [
+        "Printed: 2nd Support Group (2 Arm)."
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 25,
+      "heavy": 5
+     }
+    },
+    {
+     "placement": {
+      "place": "el-adem"
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-3rd-indian-motor-bde-hq",
+       "notes": [
+        "Printed: 3rd In Motor Bde."
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 5,
+      "medium": 25
+     },
+     "notes": [
+      "Printed as C4507 with no name; places.json has el-adem there."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "B4004"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:1-fr-mtr-marine"
+      }
+     ],
+     "trucks": {
+      "medium": 3
+     },
+     "notes": [
+      "Printed as Msus (B4004); Msus is not in places.json."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "B5501",
+       "A4830",
+       "A4827"
+      ],
+      "constraint": "any hex inside the triangle whose corners are Tocra (B5501), Er Regima (A4830) and Benghazi"
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-24th-aus-bde-hq",
+       "less": [
+        "unit:cw:todo-2-32-aus-bn"
+       ],
+       "notes": [
+        "Printed: 24 Aus Bde (9 Aus; Less: 2/32 Bn)."
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-20th-aus-bde-hq",
+       "notes": [
+        "Printed: 20th Aus Bde (9 Aus Bde)."
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-2-3-aus-at-regt",
+       "notes": [
+        "Printed: 2/3 Aus AT Regt (9 Aus)."
+       ]
+      },
+      {
+       "unit": "unit:cw:51-fld"
+      }
+     ],
+     "trucks": {
+      "light": 5,
+      "medium": 35
+     },
+     "notes": [
+      "The three corner hexes are listed only as anchors; the constraint governs."
+     ]
+    },
+    {
+     "placement": {
+      "place": "jalo"
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-lrdg-unit",
+       "notes": [
+        "Printed: One unit of the LRDG; which one is not said."
+       ]
+      }
+     ],
+     "notes": [
+      "Printed as Jalo (B0513)."
+     ]
+    },
+    {
+     "placement": {
+      "place": "tobruk"
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-9th-aus-div-hq",
+       "alone": true,
+       "notes": [
+        "Printed: HQ: 9 Aus Division."
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-26th-aus-bde-hq",
+       "notes": [
+        "Printed: 26th Aus Bde (9 Aus)."
+       ]
+      },
+      {
+       "unit": "unit:cw:1-rha"
+      },
+      {
+       "unit": "unit:cw:8-fld"
+      },
+      {
+       "unit": "unit:cw:104-rha"
+      },
+      {
+       "unit": "unit:cw:65th-anti-tank-regt"
+      },
+      {
+       "unit": "unit:cw:2-haa"
+      },
+      {
+       "unit": "unit:cw:9-haa"
+      },
+      {
+       "unit": "unit:cw:15-laa"
+      },
+      {
+       "unit": "unit:cw:57-laa"
+      }
+     ],
+     "trucks": {
+      "light": 5,
+      "medium": 5
+     },
+     "notes": [
+      "Printed as Tobruk (C4807)."
+     ]
+    },
+    {
+     "placement": {
+      "within": {
+       "of": "E3613",
+       "hexes": 1
+      },
+      "constraint": "within one hex of either Alexandria hex (E3613 or E3714)"
+     },
+     "units": [
+      {
+       "unit": "unit:cw:7th-armored-div-hq",
+       "notes": [
+        "Whole division; all its tanks start broken down at maximum TOE and it is released under the 61.38 schedule. 61.38 lists it as 4th Armd Bde (6 RTR reassigned, 'ARTR' assigned), 7th Armd Bde and 7th Support Group."
+       ]
+      },
+      {
+       "unit": "unit:cw:70th-infantry-div-hq",
+       "alone": true
+      },
+      {
+       "unit": "unit:cw:todo-22nd-guards-bde-hq",
+       "attached": [
+        "unit:cw:1-buffs",
+        "unit:cw:2-sctgds",
+        "unit:cw:3-cldgds"
+       ],
+       "notes": [
+        "Printed: 22nd Gds Bde (I; ATT: 1st Buffs; 2nd Scots Gds; 3rd Coldstream Gds). Counts as one battalion for the 61.38 release schedule."
+       ]
+      },
+      {
+       "unit": "unit:cw:107-rha"
+      },
+      {
+       "unit": "unit:cw:149th-anti-tank-regt"
+      },
+      {
+       "unit": "unit:cw:13-laa"
+      },
+      {
+       "unit": "unit:cw:todo-layforce",
+       "notes": [
+        "Printed: \"Layforce\"(I)."
+       ]
+      }
+     ],
+     "notes": [
+      "Printed under 'Anywhere within one hex of: Alexandria'."
+     ]
+    },
+    {
+     "placement": {
+      "within": {
+       "of": "D3714",
+       "hexes": 1
+      }
+     },
+     "units": [
+      {
+       "unit": "unit:cw:1-rnf"
+      },
+      {
+       "unit": "unit:cw:7-med"
+      }
+     ],
+     "notes": [
+      "Printed as Mersa Matruh (D3714), under 'Anywhere within one hex of'."
+     ]
+    },
+    {
+     "placement": {
+      "place": "cairo",
+      "constraint": "any hex of Cairo"
+     },
+     "units": [
+      {
+       "unit": "unit:cw:polish-hq",
+       "notes": [
+        "Printed: Polish Bde."
+       ]
+      },
+      {
+       "unit": "unit:cw:11-czech"
+      },
+      {
+       "unit": "unit:cw:1-ches"
+      },
+      {
+       "unit": "unit:cw:1-sostff"
+      },
+      {
+       "unit": "unit:cw:2-kor"
+      },
+      {
+       "unit": "unit:cw:8-med",
+       "notes": [
+        "Printed: 8th Medium Field Arty."
+       ]
+      },
+      {
+       "unit": "unit:cw:64-med",
+       "notes": [
+        "Printed: 64th Medium Field Arty."
+       ]
+      },
+      {
+       "unit": "unit:cw:106-rha",
+       "notes": [
+        "Printed: 106th AT Regt; the only 106th on the sheets is the 106th RHA, listed among the anti-tank regiments."
+       ]
+      },
+      {
+       "unit": "unit:cw:74-haa"
+      },
+      {
+       "unit": "unit:cw:52-laa"
+      },
+      {
+       "unit": "unit:cw:1-essex",
+       "notes": [
+        "Printed: 1st Essex (23/70)."
+       ]
+      }
+     ],
+     "notes": [
+      "Printed as 'Any hex in Cairo'."
+     ]
+    }
+   ],
+   "trucks": [
+    {
+     "placement": {
+      "sheets": [
+       "A",
+       "B",
+       "C",
+       "D"
+      ]
+     },
+     "trucks": {
+      "light": 45,
+      "medium": 100,
+      "heavy": 25
+     },
+     "use": "any",
+     "notes": [
+      "Includes the trucks for dumps and air facilities; not on sheet E."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E3613",
+       "E3714",
+       "E1730"
+      ],
+      "constraint": "Alexandria or Cairo"
+     },
+     "trucks": {
+      "light": 25,
+      "medium": 175,
+      "heavy": 35
+     },
+     "use": "any"
+    }
+   ],
+   "supply": [
+    {
+     "placement": {
+      "place": "tobruk"
+     },
+     "kind": "dump",
+     "ammo": 1500,
+     "fuel": 500,
+     "stores": 1000
+    },
+    {
+     "placement": {
+      "place": "benghazi"
+     },
+     "kind": "dump",
+     "ammo": 50,
+     "fuel": 100,
+     "stores": 150,
+     "notes": [
+      "Benghazi also holds 10 points of Italian prisoners, a POW camp and one Commonwealth guard."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "B4004",
+       "B5407",
+       "B5526",
+       "B4921",
+       "B5229",
+       "A3729",
+       "B5504",
+       "A2021",
+       "B5925",
+       "A2629",
+       "B5501",
+       "A3933"
+      ],
+      "constraint": "each dump on one of the listed locations (Msus, Tecnis, Martuba, Mechili, Timimi, El Magrun, Barce, Mersa Brega, Derna, Agedabia, Tocra, Sceledima); the side shares out 1700 ammo, 2550 fuel and 1600 stores among the nine real dumps; no dump may get more than 25% of the total of any one item, and every real dump gets at least 50 of each"
+     },
+     "kind": "dump",
+     "count": 9,
+     "ammo": 1700,
+     "fuel": 2550,
+     "stores": 1600,
+     "notes": [
+      "Figures are the pool for all nine dumps together, not each. All dumps must be placed. Historically the first nine listed were the real dumps."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "B4004",
+       "B5407",
+       "B5526",
+       "B4921",
+       "B5229",
+       "A3729",
+       "B5504",
+       "A2021",
+       "B5925",
+       "A2629",
+       "B5501",
+       "A3933"
+      ],
+      "constraint": "same list of locations as the real dumps"
+     },
+     "kind": "dummy-dump",
+     "count": 3
+    },
+    {
+     "placement": {
+      "air_facility": true
+     },
+     "kind": "air-facilities",
+     "ammo": 250,
+     "fuel": 180,
+     "stores": 50
+    }
+   ],
+   "repair": [
+    {
+     "placement": {
+      "place": "tobruk"
+     },
+     "kind": "temporary"
+    },
+    {
+     "placement": {
+      "place": "mersa-matruh"
+     },
+     "kind": "temporary"
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E3613",
+       "E3714"
+      ],
+      "constraint": "either Alexandria hex"
+     },
+     "kind": "major"
+    },
+    {
+     "placement": {
+      "place": "cairo"
+     },
+     "kind": "major"
+    }
+   ],
+   "air": {
+    "sources": [
+     "CNA1979:61.33",
+     "CNA1979:61.34",
+     "scan:p79"
+    ],
+    "north_africa": {
+     "all_refitted": true,
+     "one_sgsu_per_squadron": true,
+     "squadrons": [
+      {
+       "place": "benina",
+       "type": "Hurricane I",
+       "available": 15
+      },
+      {
+       "hex": "A2629",
+       "name": "Agedabia",
+       "type": "Lysander",
+       "available": 3
+      },
+      {
+       "hex": "B5410",
+       "name": "Maraua",
+       "type": "Blenheim IV",
+       "available": 15
+      },
+      {
+       "hex": "B5504",
+       "name": "Barce",
+       "type": "Lysander",
+       "available": 9
+      },
+      {
+       "hex": "C4907",
+       "name": "Tobruk",
+       "type": "Hurricane I",
+       "available": 16,
+       "notes": [
+        "Printed C 4907; Tobruk is C4807 everywhere else."
+       ]
+      }
+     ],
+     "pilots": {
+      "2": 1,
+      "1": 4
+     },
+     "flying_boat_basins": [
+      "E3614 (Alexandria)",
+      "E4033 (Port Said, off-map)"
+     ],
+     "flying_boat_alighting_areas": [],
+     "airfields": [
+      "A4829",
+      "B5504",
+      "B5925",
+      "B5526",
+      "C4507",
+      "D3714",
+      "E3212",
+      "E3512",
+      "E3613",
+      "E3714",
+      "E3815",
+      "E2132",
+      "E2133",
+      "the four off-map fields to the east (all but Ethiopia)"
+     ],
+     "landing_strips": [
+      "A2629",
+      "A3233",
+      "B4004",
+      "B4901",
+      "B5410",
+      "B4933",
+      "C4807",
+      "C4414",
+      "C4131",
+      "D3516",
+      "D3418",
+      "D3520",
+      "D3323"
+     ],
+     "extra_landing_strips": "three more, anywhere on the map"
+    },
+    "malta": {
+     "facility_capacity_total": 8,
+     "aa_points": 26,
+     "pilots": {
+      "2": 2,
+      "1": 4
+     },
+     "planes": [
+      {
+       "type": "Hurricane I",
+       "count": 24
+      },
+      {
+       "type": "Wellington I",
+       "count": 12
+      },
+      {
+       "type": "Swordfish",
+       "count": 10
+      },
+      {
+       "type": "Sunderland",
+       "count": 5
+      },
+      {
+       "type": "Maryland",
+       "count": 4
+      }
+     ],
+     "all_refitted": true,
+     "construction_from": "second Game-Turn of the scenario"
+    }
+   },
+   "fleet": {
+    "sources": [
+     "CNA1979:61.37",
+     "scan:p80"
+    ],
+    "alexandria": "all Commonwealth fleet counters",
+    "movement": "None may leave Alexandria before Game-Turn 27 OpStage 1; all start armed and undamaged."
+   },
+   "reinforcements": [
+    "Commonwealth reinforcements arrive from the Reinforcement Track as usual except as 61.38 says (61.38).",
+    "Replacement points arrive normally, but none may be pre-planned: planning starts in the ordinary course of play, and no replacements at all are allowed for March 1941 (61.38).",
+    "The 18th Australian Brigade arrives in Alexandria in the first OpStage of April 1941 and may move by rail, sea or land from the next April OpStage, outside the release limit below (61.38)."
+   ],
+   "special": [
+    "Tank TOE (61.32): the 3rd Hussars have 3 points of Mk VI light; 5 RTR (3rd Armoured Bde) has 1 point of A9 and 4 of A13; 6 RTR (3rd Armoured Bde) has 5 points of captured M13/40. All start assigned to the 3rd Armoured Brigade.",
+    "Release schedule (61.38): nothing in Cairo or Alexandria may move in Game-Turn 26 OpStage 3. From then on only one battalion from there is released each OpStage; a brigade is freed one battalion at a time.",
+    "7th Armoured (61.38): its tank battalions are released only once at least 75% repaired, at most one per OpStage, and one non-tank battalion may also be released westward each OpStage; both begin with the first OpStage of April 1941. Its HQs may be released whenever the player likes.",
+    "The 22nd Guards Brigade counts as a single battalion for the release schedule (61.38).",
+    "Cairo and Alexandria hold unlimited supply, as the standard rules give (61.36).",
+    "First-line trucks not carrying men or equipment may start loaded with fuel, ammo, stores and water, in addition to the listed supply (61.36)."
+   ]
+  }
+ },
+ "abstractions": {
+  "air": {
+   "sources": [
+    "CNA1979:61.71",
+    "scan:p80"
+   ],
+   "replaces": {
+    "axis": {
+     "trucks": [
+      {
+       "placement": {
+        "region": "libya"
+       },
+       "trucks": {
+        "light": 90,
+        "medium": 270,
+        "heavy": 40
+       },
+       "use": "any"
+      }
+     ]
+    },
+    "cw": {
+     "trucks": [
+      {
+       "placement": {
+        "sheets": [
+         "A",
+         "B",
+         "C",
+         "D"
+        ]
+       },
+       "trucks": {
+        "light": 40,
+        "medium": 90,
+        "heavy": 20
+       },
+       "use": "any"
+      },
+      {
+       "placement": {
+        "hexes": [
+         "E3613",
+         "E3714",
+         "E1730"
+        ],
+        "constraint": "Alexandria or Cairo"
+       },
+       "trucks": {
+        "light": 25,
+        "medium": 150,
+        "heavy": 25
+       },
+       "use": "any"
+      }
+     ]
+    }
+   },
+   "notes": [
+    "Applies on top of 59.6. The 10 Axis air-facility trucks are dropped by 59.6 anyway."
+   ]
+  },
+  "air_and_logistics": {
+   "sources": [
+    "CNA1979:61.72",
+    "scan:p80",
+    "scan:p81"
+   ],
+   "motorisation": "Each Medium truck point a side could bring in becomes one motorisation point. At the start the Axis has 290 unattached motorisation points; the Commonwealth has 150 in Alexandria/Cairo and 90 elsewhere.",
+   "replaces": {
+    "axis": {
+     "supply": [
+      {
+       "placement": {
+        "hexes": [
+         "A1816",
+         "A2703"
+        ],
+        "constraint": "any road hex from El Agheila (A1816) to Nofilia (A2703) inclusive, within stacking limits, but not on the road from A1716 to Maaten Groter (A1318)"
+       },
+       "kind": "supply-unit",
+       "count": 10,
+       "ammo": 40,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "hexes": [
+         "A1816",
+         "A2703"
+        ],
+        "constraint": "same road hexes as the regular units"
+       },
+       "kind": "dummy-supply-unit",
+       "count": 3
+      },
+      {
+       "placement": {
+        "box": "tripoli"
+       },
+       "kind": "supply-unit",
+       "count": 8,
+       "ammo": 40,
+       "fuel": 25
+      }
+     ]
+    },
+    "cw": {
+     "supply": [
+      {
+       "placement": {
+        "place": "benghazi"
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 20,
+       "fuel": 30
+      },
+      {
+       "placement": {
+        "place": "tobruk"
+       },
+       "kind": "supply-unit",
+       "count": 5,
+       "ammo": 40,
+       "fuel": 15
+      },
+      {
+       "placement": {
+        "hexes": [
+         "A2021",
+         "A2629",
+         "A3933",
+         "A3729",
+         "B4004",
+         "B5407",
+         "B5504",
+         "B5501",
+         "B5526",
+         "B4921",
+         "B5229",
+         "B5925"
+        ],
+        "constraint": "at most two regular supply units on any one location"
+       },
+       "kind": "supply-unit",
+       "count": 9,
+       "ammo": 40,
+       "fuel": 25
+      },
+      {
+       "placement": {
+        "hexes": [
+         "A2021",
+         "A2629",
+         "A3933",
+         "A3729",
+         "B4004",
+         "B5407",
+         "B5504",
+         "B5501",
+         "B5526",
+         "B4921",
+         "B5229",
+         "B5925"
+        ]
+       },
+       "kind": "dummy-supply-unit",
+       "count": 4
+      }
+     ]
+    }
+   },
+   "adds": {
+    "cw": {
+     "supply": [
+      {
+       "placement": {
+        "hexes": [
+         "E3613",
+         "E3714"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 2,
+       "ammo": 40,
+       "fuel": 60,
+       "notes": [
+        "Alexandria."
+       ]
+      },
+      {
+       "placement": {
+        "place": "cairo"
+       },
+       "kind": "supply-unit",
+       "count": 2,
+       "ammo": 40,
+       "fuel": 60,
+       "notes": [
+        "Cairo."
+       ]
+      }
+     ]
+    }
+   },
+   "notes": [
+    "Printed C says it replaces 61.43 (Axis trucks) and D says it replaces 61.35 (CW trucks); both clearly mean the supply cases 61.44 and 61.36, and are encoded as replacing the supply blocks. Printed 'E 1716' read as A1716."
+   ]
+  },
+  "logistics": {
+   "sources": [
+    "CNA1979:61.73",
+    "scan:p81"
+   ],
+   "motorisation": "Each Medium and each Heavy truck point a side could bring in becomes one motorisation point.",
+   "replaces": {
+    "axis": {
+     "supply": [
+      {
+       "placement": {
+        "hexes": [
+         "A1816",
+         "A2703"
+        ],
+        "constraint": "any road hex from El Agheila (A1816) to Nofilia (A2703) inclusive, within stacking limits, but not on the road from A1716 to Maaten Groter (A1318)"
+       },
+       "kind": "supply-unit",
+       "count": 10,
+       "ammo": 40,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "hexes": [
+         "A1816",
+         "A2703"
+        ],
+        "constraint": "same road hexes as the regular units"
+       },
+       "kind": "dummy-supply-unit",
+       "count": 3
+      },
+      {
+       "placement": {
+        "box": "tripoli"
+       },
+       "kind": "supply-unit",
+       "count": 8,
+       "ammo": 40,
+       "fuel": 25
+      }
+     ]
+    },
+    "cw": {
+     "supply": [
+      {
+       "placement": {
+        "place": "benghazi"
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 20,
+       "fuel": 30
+      },
+      {
+       "placement": {
+        "place": "tobruk"
+       },
+       "kind": "supply-unit",
+       "count": 5,
+       "ammo": 40,
+       "fuel": 15
+      },
+      {
+       "placement": {
+        "hexes": [
+         "A2021",
+         "A2629",
+         "A3933",
+         "A3729",
+         "B4004",
+         "B5407",
+         "B5504",
+         "B5501",
+         "B5526",
+         "B4921",
+         "B5229",
+         "B5925"
+        ],
+        "constraint": "at most two regular supply units on any one location"
+       },
+       "kind": "supply-unit",
+       "count": 9,
+       "ammo": 40,
+       "fuel": 25
+      },
+      {
+       "placement": {
+        "hexes": [
+         "A2021",
+         "A2629",
+         "A3933",
+         "A3729",
+         "B4004",
+         "B5407",
+         "B5504",
+         "B5501",
+         "B5526",
+         "B4921",
+         "B5229",
+         "B5925"
+        ]
+       },
+       "kind": "dummy-supply-unit",
+       "count": 4
+      }
+     ]
+    }
+   },
+   "adds": {
+    "axis": {
+     "supply": [
+      {
+       "placement": {
+        "air_facility": true,
+        "constraint": "one Axis air facility"
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 20,
+       "fuel": 30
+      }
+     ]
+    },
+    "cw": {
+     "supply": [
+      {
+       "placement": {
+        "hexes": [
+         "E3613",
+         "E3714"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 2,
+       "ammo": 40,
+       "fuel": 60,
+       "notes": [
+        "Alexandria."
+       ]
+      },
+      {
+       "placement": {
+        "place": "cairo"
+       },
+       "kind": "supply-unit",
+       "count": 2,
+       "ammo": 40,
+       "fuel": 60,
+       "notes": [
+        "Cairo."
+       ]
+      },
+      {
+       "placement": {
+        "air_facility": true,
+        "constraint": "one Commonwealth air facility"
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 40,
+       "fuel": 60
+      }
+     ]
+    }
+   },
+   "notes": [
+    "B prints 'As in 61.62 \"C\"'; read as 61.72 C (61.62 does not exist). 61.73 gives no initial motorisation-point figures; whether 61.72 B carries over is not said."
+   ]
+  }
+ }
+}
