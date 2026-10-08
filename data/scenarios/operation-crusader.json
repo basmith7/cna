@@ -134,7 +134,7 @@
    }
   ],
   "notes": [
-   "Each side totals its points; the higher subtracts the lower. Margin 10+ strategic, 6-9 decisive, 1-5 tactical, 0 a draw.",
+   "Each side totals its points; the higher subtracts the lower. The margin sets the level (see margins).",
    "A place counts only if a friendly combat unit of any strength occupies it with supply to exist for a month and ammunition for a week (one round per OpStage).",
    "Halfaya Pass is printed as '(both hexes)' with no hex numbers and is not in places.json; C3922 is the hex 60.8 uses. The second hex is unknown; the points are read as one award for the pass, unconfirmed.",
    "SPI suggests players may adjust the level by comparing losses; not an official condition."
@@ -1645,7 +1645,7 @@
        "C3419",
        "C3721"
       ],
-      "constraint": "six dump sites: Oxford Circus (C3532), Bir Scheferzen (C3419), Sidi Suleiman (C3721), any two locations on sheet D and any one on sheet C; four are real and share 400 ammo, 400 fuel, 200 stores and 700 water, each holding at least 20% of each item"
+      "constraint": "six dump sites: Oxford Circus (C3532), Bir Scheferzen (C3419), Sidi Suleiman (C3721), any two locations on sheet D and any one on sheet C; four are real and share a pool of ammunition 400, fuel 400, stores 200 and water 700, each holding at least 20% of each item"
      },
      "kind": "dump",
      "count": 4,
