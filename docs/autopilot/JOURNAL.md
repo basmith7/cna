@@ -409,5 +409,5 @@ Blocked: none.
 ## 2026-10-08 10:42 MST — main
 Done: R-098 #165, R-107 #166 accepted (plus R-094 #161, R-095 #163, R-096 #164).
 In flight: none; no open autopilot PRs; tree clean.
-Next: decide R-097, R-099-R-106, R-108, R-109 (R-099: prefer a scenario-only exception, consistent with R-096, so 22.31 in rules/80-engineering.md stays), Task 3.6, then Part 5 docs + MISSION 6 COMPLETE + Mission 7 Part 0.
+Next: decide R-097, R-099-R-105, R-108, R-109 (R-106 done #167; R-099: prefer a scenario-only exception, consistent with R-096, so 22.31 in rules/80-engineering.md stays), Task 3.6, then Part 5 docs + MISSION 6 COMPLETE + Mission 7 Part 0.
 Blocked: none.
