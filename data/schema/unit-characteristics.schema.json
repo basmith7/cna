@@ -18,12 +18,13 @@
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["nation", "id_code", "unit_type", "cpa", "sources"],
+        "required": ["nation", "id_code", "unit_type", "equivalent", "cpa", "sources"],
         "additionalProperties": false,
         "properties": {
           "nation": {"$ref": "common.schema.json#/$defs/nation"},
           "id_code": {"type": "string", "pattern": "^[a-z]{1,3}$"},
           "unit_type": {"type": "string", "minLength": 1},
+          "equivalent": {"enum": ["brigade", "battalion", "company", "hq", "by-unit"], "description": "Stacking equivalent of the unit type (SPI 9.22-9.24, 9.4), our reading of the type name; by-unit: each OA unit with this code gives its own equivalent"},
           "cpa": {"$ref": "#/$defs/cell"},
           "anti_air": {"$ref": "#/$defs/cell"},
           "barrage": {"$ref": "#/$defs/cell"},
