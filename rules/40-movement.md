@@ -181,8 +181,9 @@ salt-marsh hexes without a track.
 **Desert** (the Libyan Sand Desert) is soft sand. Light trucks, motorcycle
 infantry and motorcycle recce may never enter a desert hex, track or no track.
 
-**Tracks** cost 1 CP per hex, halve most hexside crossing costs and halve the
-breakdown cost for the hex.
+**Tracks** halve the cost of the hex's terrain (E-031; the 1979 chart's
+"1 CP" is wrong), halve most hexside crossing costs and halve the breakdown
+cost for the hex.
 
 **Railways and roads not yet built** in a scenario's start date are listed by
 the scenario. An unbuilt railway hex is ignored entirely; an unbuilt road is
