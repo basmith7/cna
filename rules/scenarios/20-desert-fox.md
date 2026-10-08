@@ -168,6 +168,11 @@ and 61.72 are meant.
 
 ::: ruling R-102 — motorisation points when only the Logistics Game is left out
 
+With the Air Game played and only the Logistics Game left out, starting
+motorisation points are counted from the listed trucks by the
+[general rule](00-reading-scenarios.md#motorisation), air-facility trucks
+included; 61.72's fixed totals are for the Land Game alone.
+
 ## Victory {#victory}
 
 ::: spi 61.8
