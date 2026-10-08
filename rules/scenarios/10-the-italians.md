@@ -174,6 +174,15 @@ Italian units must be suppliable by convoy: from Tobruk for the tactical and
 decisive levels, from map D for the strategic one. Commonwealth units must
 have a truck-convoy supply route to Cairo or Alexandria.
 
+::: ruling R-110 — what the supply condition means when only the Land Game is played
+
+With the Land Game alone (60.92) there are no convoys to trace, so the test
+is a route: from each holding unit's hex to the source (any hex of Tobruk,
+any hex of map D, or any hex of Cairo or Alexandria), any length, that a
+medium truck could follow without entering a hex holding an enemy unit or an
+enemy ZOC hex with no friendly unit in it. The source hex must be free of
+enemy units. No supply unit is needed (`victory.levels[].supply_trace`).
+
 ::: variant V-008 — Mussolini's requirements on the Italian advance
 
 ::: spi 60.82
