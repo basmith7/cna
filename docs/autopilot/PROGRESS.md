@@ -20,16 +20,19 @@ The next run reads this section first, acts on it, and moves each item to
 
 **Mission 6 (scenarios and OA sheets, §59–65) in progress**, started 2026-10-08. Part 1 is one complete Land Game scenario, **Graziani's Offensive** (§60.22, Game-Turns 1–6, Land Game only per §60.92): the shortest scenario, fully listed by hex, and the base cna-engine's Mission 2 builds on.
 
+**For cna-engine: Graziani's Offensive has landed** (2026-10-08). Scenario `scenario:grazianis-offensive` = `data/scenarios/grazianis-offensive.json` (Land-only play: apply `abstractions.air_and_logistics`); units in `data/oa/it.json` and `data/oa/cw.json` (ID codes key into `data/tables/unit-characteristics.json`); arrivals in `data/tables/reinforcement-schedule.json` (through Game-Turn 6); schemas in `data/schema/scenario.schema.json` and `oa.schema.json`. One gap: placements by country (`"region": "libya"` / `"egypt"`) wait on the frontier data (Task 1.1b).
+
 | Part 1 task | State | PR |
 |---|---|---|
 | 0. Spec and plan (`docs/designs/2026-10-08-scenarios-and-oa-design.md`) | merged | #146 |
 | 1.1 Scenario and OA schemas; `check_data.py` resolves units, hexes, places | merged | #147 |
-| 1.1b Libya/Egypt frontier in the map data | not started | |
-| 1.2 Unit characteristics and weapon systems | not started | |
-| 1.3 OA sheets the scenario needs (Italian, Commonwealth) | being read (two independent reads each) | |
-| 1.4 Reinforcement schedule, Game-Turns 1–6 | not started | |
-| 1.5 Scenario file and `rules/scenarios/` §59–60 | set-up being read | |
+| 1.1b Libya/Egypt frontier in the map data | being read | |
+| 1.2 Unit characteristics (124 rows, read twice, 7 of 1612 cells differed) | merged | #148 |
+| 1.3 OA sheets: all Italian (plus Sirte, Marmarica, Cirene from SPI's errata), Commonwealth for Graziani | merged | #150, #149 |
+| 1.4 Reinforcement schedule, Game-Turns 1–6 | merged | #151 |
+| 1.5 Scenario files and `rules/scenarios/` §59–60 (62/62 cases) | merged | #149 |
 
+New rulings opened (proposed): R-094 (artillery printed twice), R-095 (fleet total vs lists), R-096 (a unit set up before its OA arrival).
 
 **MISSION 5 COMPLETE** (the Logistics Game, §48–58), 2026-09-27 17:05 UTC. All five parts are merged, each PR after local gates and green CI:
 
@@ -86,12 +89,12 @@ Missions 1–4 are complete (PRs #2–#101).
 
 ## Next steps
 
-For the autopilot: finish Mission 6 Part 1 (table above) in plan order, then tell cna-engine here that Graziani's Offensive has landed. cna-engine had no **Requests for cna** on 2026-10-08.
+For the autopilot: land Task 1.1b (frontier), then Mission 6 Part 2 (seed NJHarman's scenario items: his list also notes the 1st Buffs and 1st Hampshires start the campaign), then Part 3 (§61 Rommel's Arrival next). cna-engine had no **Requests for cna** on 2026-10-08.
 
 For Brian (all optional):
 
-- **Dispute anything.** The Mission 6 spec's decisions (scenario first, data shapes) are each one PR to reverse. Three older rulings worth a look: **R-027** (Tobruk starts at level 2), **R-071** (no mixed rail loads in the Logistics Game), **R-040/R-042** (fuel evaporation).
-- **Questions only your printed copy can answer** stay as read, unchanged from Mission 4. Mission 6 will add any OA or scenario values the scans cannot settle.
+- **Dispute anything.** The Mission 6 spec's decisions (scenario first, data shapes) are each one PR to reverse. Older rulings worth a look: **R-027** (Tobruk starts at level 2, now applied to Graziani's Offensive too), **R-071**, **R-040/R-042**.
+- **Questions only your printed copy can answer**, new this run: German unit characteristics c/d CPA (30† or 30**), and which Italian counter is the "el Grein garrison" (decision board, `copy` group). The Mission 4 ones stand.
 - Vault: the *CNA Living Rules* roadmap rows are yours to flip.
 
 ## Runs and quota
