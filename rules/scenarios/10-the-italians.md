@@ -100,11 +100,12 @@ types may share a squadron). Second- and third-line trucks start in Cairo,
 Alexandria, anywhere on the maps or at air facilities. Dumps start at Mersa
 Matruh and Sidi Barrani, with one more real dump and one dummy in the
 Egyptian part of map C or D, and a total for the air facilities. Cairo and
-Alexandria hold unlimited supply under the normal rules. The Commonwealth's
-major repair facilities are every hex of Cairo and both hexes of Alexandria,
-with a temporary one at Mersa Matruh.
+Alexandria hold unlimited supply under the normal rules. A temporary repair facility stands at Mersa Matruh.
 
 ::: ruling R-098 — whether every hex of Cairo and Alexandria is a major repair facility
+
+The Commonwealth's major repair facilities are every hex of Cairo and
+both hexes of Alexandria.
 
 ::: spi 60.45 60.46 60.47
 
