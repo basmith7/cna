@@ -88,6 +88,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 
+## [Air Game — flight and maintenance](./air/30-flight-and-maintenance.md)
+
+- [R-112](../rulings/R-112.md) — whether the refit additions follow the aircraft's nation or the SGSU's
+
 ## [Logistics Game — overview and sequence of play](./logistics/00-overview-and-sequence.md)
 
 - [R-032](../rulings/R-032.md) — without the Air Game, abstract convoy attacks fall in convoy bombing; fleet strikes in the fleet phase
@@ -269,6 +273,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-109](../rulings/R-109.md) | accepted | 64.71, 64.72, 64.75, 64.76 |
 | [R-110](../rulings/R-110.md) | accepted | 60.81, 60.92, 32.17 |
 | [R-111](../rulings/R-111.md) | proposed | 40.74, 46.1 |
+| [R-112](../rulings/R-112.md) | proposed | 38.35, 38.38 |
 
 ## Variants register
 

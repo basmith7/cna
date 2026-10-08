@@ -498,3 +498,8 @@ the PR that adds or substantially rewrites the file.
 ## data/tables/axis-coastal-ships.json; per-unit OA figures — 2026-10-08
 - **Task 3.6** (the per-unit values `data/README.md` listed as expected from the OA sub-project). Fuel consumption rates are printed on the Tank and Gun Characteristics Charts (now `weapon-systems.json`) and the truck chart (`truck-characteristics.json`), not on the OA sheets; fuel capacity is never printed per unit and follows 49.14's formula. Coastal ship tonnages are printed only on the counters (56.31).
 - **Read:** the four Axis coastal ship counters from the VASSAL module's piece definitions (buildFile.xml: 1000t A, B, C; 2000t D). One source only: the archive.org scan has no counter sheet. In the decision board's `copy` group.
+
+## data/tables/aircraft-refit.json; rules/air/30-flight-and-maintenance.md — 2026-10-08
+- **Cases read:** §37 (21 ids) and §38 (27 ids); the Aircraft Refit Table, printed as 38.37 on chart page 10 (jp2 104), called 38.38 by the rules.
+- **Cross-check:** second read from the community chart PDFs (Shared Charts.pdf p. 10): 0 of 17 cells differ. The table's key words the national refit additions by the working SGSU's nation where 38.35 words them by the aircraft's: opened R-112.
+- **Not transcribed:** the Air Distance Table (37.4), a counting aid; distances come from `data/map/`.
