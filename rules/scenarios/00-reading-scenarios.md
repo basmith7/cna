@@ -64,6 +64,11 @@ the formation (`formation`) instead of a unit.
 - **Over the limits.** A unit that starts larger than its formation limits
   allow may operate as it is. It may not take on any new unit, and once a
   unit leaves it, it may not take on another that would break the limits.
+::: ruling R-096 — the set-up overrides the OA arrival column
+
+- **Placed before its arrival.** A unit the set-up places starts on the
+  map even if its OA sheet gives it a later arrival, and it does not arrive
+  again.
 - **First-line trucks.** Trucks listed with a group are first-line trucks
   and must be given to the units of that hex, in any split.
 - The set-up marks a unit's type in parentheses where its name does not
