@@ -458,3 +458,9 @@ the PR that adds or substantially rewrites the file.
 ## data/tables/reinforcement-schedule.json, Game-Turns 7–38 — 2026-10-08
 - **Read:** 4.43a (jp2 113) and 4.43b (jp2 144–145) for Game-Turns 7–38: 53 Commonwealth entries (arrivals, withdrawals, returns) and 57 Axis (none before Game-Turn 9).
 - **Cross-check:** second read from the community chart PDFs: the entries agree, differing only in how some unit lists were split. Units mapped to OA ids (172); the test compares every arrival with the OA sheets' own Arrives column, and the only disagreements are the five printed ones listed in the table and opened as R-100. Three printed items have no counter (Desert Tank Delivery Squadrons, the Tiger convoy, an Axis tank recovery squadron) and are noted on their rows.
+
+## rules/scenarios/20-desert-fox.md; data/scenarios/rommels-arrival.json, desert-fox-campaign.json — 2026-10-08
+- **Cases read:** 61.0–61.8 (25 ids); scan jp2 79–81 for the set-up.
+- **How expressed:** length, release rule, initiative, construction, abstractions and victory in prose; every listing in the scenario file. The German start is every German counter the schedule brings before Game-Turn 26 OpStage 3 (a test checks the data against the schedule). The campaign from the same set-up extends it; SPI gives it nothing else (R-104).
+- **Reading:** scan over OCR: B4004 for "84004", D3714 for "D8714", Sollum, Axis Trucks; 61.73 B prints 61.62. Printed misprints recorded in the data's notes: Tobruk given as C4907 once (C4807), and the coast road "from E1716" (A1716).
+- **Rulings:** R-027 applied (Tobruk 2); opened R-101 (victory), R-102 (abstraction references, motorisation), R-103 (5 RTR's tanks), R-104 (the campaign scenario). Layforce and the LRDG unit have no OA counter and are notes.
