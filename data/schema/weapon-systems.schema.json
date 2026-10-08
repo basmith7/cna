@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weapon-systems.schema.json",
+  "title": "Tank and Gun Characteristics Charts (4.47 Commonwealth, 4.48 Italian, 4.49 German)",
+  "description": "Per nation and weapon system: the ratings of one TOE Strength Point. An OA unit's toe[].weapon keys into oa_names, which gives the row id. Values as printed; a cell that is not a plain number (parenthesised or marked) is kept as the printed string, a dash or blank is null.",
+  "type": "object",
+  "required": ["table", "sources", "rows", "oa_names"],
+  "additionalProperties": false,
+  "properties": {
+    "table": {"const": "weapon-systems"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "rows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "nation", "weapon", "class", "cpa", "anti_air", "barrage", "anti_armour", "vulnerability",
+                     "armour_protection", "close_assault_offence", "close_assault_defence", "fuel_rate", "bar", "sources"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^weapon:(cw|it|de):[a-z0-9-]+$"},
+          "nation": {"$ref": "common.schema.json#/$defs/nation"},
+          "weapon": {"type": "string", "minLength": 1, "description": "As printed, without footnote marks"},
+          "marks": {"type": "string", "pattern": "^[*†‡]+$", "description": "Printed footnote signs (see notes)"},
+          "class": {"enum": ["tank", "artillery", "anti-tank", "anti-air"]},
+          "cpa": {"$ref": "#/$defs/cell"},
+          "anti_air": {"$ref": "#/$defs/cell"},
+          "barrage": {"$ref": "#/$defs/cell"},
+          "anti_armour": {"$ref": "#/$defs/cell"},
+          "vulnerability": {"$ref": "#/$defs/cell"},
+          "armour_protection": {"$ref": "#/$defs/cell"},
+          "close_assault_offence": {"$ref": "#/$defs/cell"},
+          "close_assault_defence": {"$ref": "#/$defs/cell"},
+          "fuel_rate": {"$ref": "#/$defs/cell"},
+          "bar": {"oneOf": [{"const": 0}, {"type": "string", "pattern": "^[0-9]+[LR]$"}, {"type": "null"}], "description": "Breakdown Adjustment Rating: columns left (L) or right (R), or 0"},
+          "before": {"type": "object", "required": ["game_turn"], "additionalProperties": false,
+                     "description": "Values that apply until this Game-Turn begins",
+                     "properties": {"game_turn": {"type": "integer", "minimum": 1}, "anti_armour": {"type": "integer"},
+                                    "bar": {"type": "string", "pattern": "^[0-9]+[LR]$"}}},
+          "printed": {"type": "string", "description": "The cells as they sit on a misprinted row, where the fields above are our realignment (see notes)"},
+          "sources": {"$ref": "common.schema.json#/$defs/sources"}
+        }
+      }
+    },
+    "oa_names": {
+      "type": "object", "additionalProperties": false,
+      "description": "Per nation: OA-sheet weapon name -> row id",
+      "properties": {"cw": {"$ref": "#/$defs/names"}, "it": {"$ref": "#/$defs/names"}, "de": {"$ref": "#/$defs/names"}}
+    }
+  },
+  "$defs": {
+    "cell": {"type": ["integer", "string", "null"]},
+    "names": {"type": "object", "additionalProperties": {"type": "string", "pattern": "^weapon:(cw|it|de):[a-z0-9-]+$"}}
+  }
+}

@@ -129,6 +129,12 @@ One strength point stands for roughly 100–200 men, a platoon of 5–8 armoured
 vehicles, or a battery of four guns. Some Commonwealth units reach their
 printed basic morale only after training ([Organisation](70-organisation.md)).
 
+The ratings are charts, and data. Per unit type (CPA, ratings and maximum
+TOE by ID code): `data/tables/unit-characteristics.json` (SPI 4.46). Per
+weapon system, the ratings of one TOE strength point of each tank, gun and
+AA type: `data/tables/weapon-systems.json` (SPI 4.47–4.49), whose
+`oa_names` turns the weapon names on the OA sheets into its rows.
+
 ### Parenthesised ratings
 
 ::: spi 3.4
