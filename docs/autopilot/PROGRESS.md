@@ -20,34 +20,44 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**Mission 6 (scenarios and OA sheets, §59–65) in progress**, started 2026-10-08. All seven scenarios of the five groups are now data, the OA sheets of all three nations and the full reinforcement schedule are in, and every §59–65 case is restated; what remains is Task 3.6, deciding the ten open rulings, and docs. Part 1 is one complete Land Game scenario, **Graziani's Offensive** (§60.22, Game-Turns 1–6, Land Game only per §60.92): the shortest scenario, fully listed by hex, and the base cna-engine's Mission 2 builds on.
+**Mission 7 (the Air Game, §33–47, 431 cases) started** 2026-10-08: spec and plan in #188. Ten files in `rules/air/`, each under ~70 cases; several runs. cna-engine's requests still come first every run.
 
-**For cna-engine: Graziani's Offensive has landed** (2026-10-08). Scenario `scenario:grazianis-offensive` = `data/scenarios/grazianis-offensive.json` (Land-only play: apply `abstractions.air_and_logistics`); units in `data/oa/it.json` and `data/oa/cw.json` (ID codes key into `data/tables/unit-characteristics.json`); arrivals in `data/tables/reinforcement-schedule.json` (through Game-Turn 6); schemas in `data/schema/scenario.schema.json` and `oa.schema.json`. Placements by country (`"region": "libya"` / `"egypt"`) resolve through `data/map/regions.json` (reference reading `tools/map_geom.country`).
+**MISSION 6 COMPLETE** (scenarios and OA sheets, §59–65), 2026-10-08 23:00 UTC. Every part merged after local gates and green CI; §59–65 171/171 cases covered.
 
-| Part 1 task | State | PR |
+| Part | What landed | PRs |
 |---|---|---|
-| 0. Spec and plan (`docs/designs/2026-10-08-scenarios-and-oa-design.md`) | merged | #146 |
-| 1.1 Scenario and OA schemas; `check_data.py` resolves units, hexes, places | merged | #147 |
-| 1.1b Libya/Egypt frontier in the map data (read twice, 41 land rows agree) | merged | #153 |
-| 1.2 Unit characteristics (124 rows, read twice, 7 of 1612 cells differed) | merged | #148 |
-| 1.3 OA sheets: all Italian (plus Sirte, Marmarica, Cirene from SPI's errata), Commonwealth for Graziani | merged | #150, #149 |
-| 1.4 Reinforcement schedule, Game-Turns 1–6 | merged | #151 |
-| 1.5 Scenario files and `rules/scenarios/` §59–60 (62/62 cases) | merged | #149 |
+| 0. Spec | `docs/designs/2026-10-08-scenarios-and-oa-design.md` | #146 |
+| 1. Graziani's Offensive, complete | schemas, unit characteristics, OA sheets, schedule GT 1–6, scenario + §59–60, Libya/Egypt frontier | #147–#151, #153 |
+| 2. Seed | R-097–R-099, V-006–V-008 | #152 |
+| 3. Scenarios and OA | all nine scenarios (§60–64), OA sheets for all three nations, schedule GT 1–111, per-unit figures (Task 3.6) | #154–#160, #162, #184 |
+| 4. Rulings | R-094–R-109 all accepted | #161, #163–#167, #174–#182, #186 |
+| 5. Docs | README, overview, design Status, queue | #187 |
 
-**Part 1 complete.** Part 2 (seed NJHarman's scenario items) merged as #152: proposed R-097 (first Axis convoy), R-098 (Commonwealth major repair facilities), R-099 (Tobruk's repair facility); variants V-006–V-008. Also opened in Part 1: R-094–R-096.
+Mission 6 rulings, one line each:
 
-**Part 3 in progress:**
+| Ruling | Decision |
+|---|---|
+| R-094 | each doubly printed unit is one counter, placed once |
+| R-095 | Group One's fleet as listed |
+| R-096 | a scenario's set-up overrides the OA arrival column |
+| R-097 | Group One's first Axis convoy unloads in OpStage 1, unbombed |
+| R-098 | every hex of Cairo and Alexandria is a major repair facility |
+| R-099 | **a scenario's own repair-facility list governs it** (Tobruk temporary in Group One); 22.31 elsewhere |
+| R-100 | the Reinforcement Track beats the OA Arrives column |
+| R-101 | Rommel's Arrival levels are a ladder; Axis without Tobruk loses |
+| R-102 | Group Two with the Air Game: motorisation from the listed trucks (59.63) |
+| R-103 | 5 RTR starts with the 3rd Armoured Brigade |
+| R-104 | the Desert Fox campaign ends and is judged as the campaign game |
+| R-105 | the 7th SA armoured cars start at Giarabub |
+| R-106 | Crusader's unplaced Italian light tanks start with Ariete |
+| R-107 | inactive dumps are dummies |
+| R-108 | **El Alamein: The Last Chance is GT 102 only; The Long Retreat ends after GT 110** (printed turn numbers garbled) |
+| R-109 | campaign victory: calendar Game-Turn, 90/60 lines as printed, withdrawal cap per unit, zero totals |
+| R-110 | Land-only victory supply in Graziani's Offensive is a medium-truck route (cna-engine request) |
 
-| Task | State | PR |
-|---|---|---|
-| 3.1 Group Two, the Desert Fox (§61): `rommels-arrival.json`, `desert-fox-campaign.json`, `rules/scenarios/20-desert-fox.md` (25/25 cases); R-101–R-104 opened | merged | #155 |
-| 3.4 (part) OA sheets complete for all three nations (German 148 counters, Commonwealth 436, Italian 436), each read twice | merged | #154 |
-| 3.4 (part) Reinforcement schedule complete, Game-Turns 1–111, units as OA ids; R-100 opened (schedule vs OA arrival dates) | merged | #156, #159 |
-| 3.2 Group Three, Operation Crusader (§62): `operation-crusader.json`, `rules/scenarios/30-crusader.md` (27/27 cases); R-105–R-107 opened | merged | #158 |
-| 3.3 Group Four, El Alamein (§63): `the-last-chance.json`, `the-long-retreat.json`, `rules/scenarios/40-el-alamein.md` (38/38 cases); R-108 opened. German deployment second-read (0 differences, #162) | merged | #157, #162 |
-| 3.5 Group Five, the campaign game (§64; §65 omitted): `campaign-game.json`, `short-campaign-game.json`, `rules/scenarios/50-campaign-game.md`; R-109 opened. **§59–65: 171/171 cases covered** | merged | #160 |
-| 3.6 Per-unit OA figures (fuel rates, capacities, coastal ship tonnage) where printed | not started | |
-| Part 4: decide the new rulings | Accepted: R-094 (each doubly printed unit placed once), R-095 (Group One fleet as listed), R-096 (a scenario's set-up overrides the OA arrival column), R-098 (all of Cairo and Alexandria are major repair facilities), R-106 (Crusader's unplaced light tanks start with Ariete), R-107 (inactive dumps are dummies). Open: R-097, R-099–R-105, R-108, R-109 | #161, #163–#167 |
+**For cna-engine** (all six requests of 2026-10-08 answered, see *Addressed*): `data/tables/weapon-systems.json` (tank/gun ratings, `oa_names` maps OA weapon names), `data/map/seams.json` (cross-sheet adjacency), `equivalent` on unit characteristics, `victory.levels[].supply_trace`, `data/tables/axis-coastal-ships.json`.
+
+**Incident, fixed:** a merge helper I ran in a git worktree committed a `.venv` symlink (pointing at a path on the autopilot's machine; no secrets) via #180/#181. Removed in #185 and `.gitignore` now ignores `.venv` as a file too. History not rewritten.
 
 **MISSION 5 COMPLETE** (the Logistics Game, §48–58), 2026-09-27 17:05 UTC. All five parts are merged, each PR after local gates and green CI:
 
@@ -104,13 +114,13 @@ Missions 1–4 are complete (PRs #2–#101).
 
 ## Next steps
 
-For the autopilot: Mission 6: Task 3.6 (per-unit OA figures); Part 4, deciding R-097, R-099–R-105, R-108 and R-109 one PR each (R-099 touches the Land Game's 22.31 repair rule: decide whether the scenarios' temporary Tobruk facility is a scenario exception or a general correction); then Part 5 docs and `MISSION 6 COMPLETE`, and on to Mission 7 (the Air Game). Clay Stone's preface notes the 1st Buffs and 1st Hampshires start the campaign; check it when the campaign game (§64) is set up. cna-engine had no **Requests for cna** on 2026-10-08.
+For the autopilot: cna-engine's **Requests for cna** first. Then Mission 7: merge #188 (spec and plan), then Task 1 (`rules/air/00-overview-and-sequence.md`, "Air Game" sidebar group, `air-sequence.json`), Task 2 (seed NJHarman's air items), then the rules files in plan order.
 
 For Brian (all optional):
 
-- **Dispute anything.** The Mission 6 spec's decisions (scenario first, data shapes) are each one PR to reverse. Older rulings worth a look: **R-027** (Tobruk starts at level 2, now applied to Graziani's Offensive too), **R-071**, **R-040/R-042**.
-- **Questions only your printed copy can answer**, new this run: German unit characteristics c/d CPA (30† or 30**), and which Italian counter is the "el Grein garrison" (decision board, `copy` group). The Mission 4 ones stand.
-- Vault: the *CNA Living Rules* roadmap rows are yours to flip.
+- **Dispute anything.** Rulings worth a look this run: **R-099** (scenario facility lists govern), **R-108** (El Alamein turn numbers), **R-110** (Land-only victory supply). Older: R-027, R-071, R-040/R-042.
+- **Questions only your printed copy can answer** (decision board, `copy` group), new this run: the three misaligned rows of the German Tank and Gun chart (Pz III E, 7.62cm Pak(R), Marder III; the Marder's CPA is unknown) and the Axis coastal ship tonnages (three of 1,000 t, one of 2,000 t, from VASSAL). Still open: German c/d CPA, the el Grein garrison.
+- Vault: the *CNA Living Rules* roadmap rows are yours to flip (Mission 6 done).
 
 ## Runs and quota
 
