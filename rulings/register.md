@@ -72,6 +72,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-097](./R-097.md) | Axis convoys before the first Operations Stage of Group One | proposed | 60.37, 56.0 |
 | [R-098](./R-098.md) | Commonwealth major repair facilities in Group One | proposed | 60.44, 22.31 |
 | [R-099](./R-099.md) | Tobruk's repair facility | proposed | 60.33, 22.31 |
+| [R-100](./R-100.md) | When the schedule and an OA sheet give different arrivals | proposed | 4.43, 4.44, 20.0 |
 
 ## Variants
 

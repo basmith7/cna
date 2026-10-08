@@ -231,6 +231,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-097](../rulings/R-097.md) | proposed | 60.37, 56.0 |
 | [R-098](../rulings/R-098.md) | proposed | 60.44, 22.31 |
 | [R-099](../rulings/R-099.md) | proposed | 60.33, 22.31 |
+| [R-100](../rulings/R-100.md) | proposed | 4.43, 4.44, 20.0 |
 
 ## Variants register
 
