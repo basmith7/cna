@@ -25,6 +25,9 @@ of its own.
 
 ::: ruling R-104 — what the Desert Fox campaign scenario consists of
 
+It runs from this set-up to the end of the campaign game, Game-Turn 111,
+and is won as the [campaign game](50-campaign-game.md#victory) is (64.7).
+
 ## Commonwealth forces {#commonwealth}
 
 ::: spi 61.3 61.31 61.32
@@ -40,6 +43,9 @@ with fewer tanks than their sheets give, some of them captured Italian
 M13/40s (the data's `special` list gives the figures).
 
 ::: ruling R-103 — 5 RTR's tanks with no 5 RTR in the set-up
+
+5 RTR starts with its brigade at A2022, with the tanks 61.32 gives it. The
+"ARTR" of 61.38 is a misprint and changes nothing.
 
 ::: spi 61.33 61.34
 
@@ -168,6 +174,11 @@ and 61.72 are meant.
 
 ::: ruling R-102 — motorisation points when only the Logistics Game is left out
 
+With the Air Game played and only the Logistics Game left out, starting
+motorisation points are counted from the listed trucks by the
+[general rule](00-reading-scenarios.md#motorisation), air-facility trucks
+included; 61.72's fixed totals are for the Land Game alone.
+
 ## Victory {#victory}
 
 ::: spi 61.8
@@ -184,3 +195,7 @@ The Commonwealth wins by holding Tobruk, and wins a smashing victory by
 holding Tobruk, Bardia and Benghazi.
 
 ::: ruling R-101 — who wins when the Axis player holds Tobruk alone
+
+The levels are a ladder: Tobruk alone is an Axis victory. An Axis player
+who does not hold Tobruk at the end has lost, even if no Commonwealth unit
+holds it either. No supply condition applies to any holding.

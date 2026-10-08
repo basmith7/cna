@@ -5,10 +5,11 @@
  "extends": "scenario:rommels-arrival",
  "sources": [
   "CNA1979:61.1",
+  "CNA1979:64.7",
   "scan:p79"
  ],
  "notes": [
-  "61.1 names a complete campaign from the same set-up. Section 61 prints no end, initiative or victory for it; end is set to the last OpStage of the game (Game-Turn 111 OpStage 3) and victory is left unset pending a ruling (the Group Five campaign rules are the likely model). Unconfirmed."
+  "61.1 names a complete campaign from the same set-up; section 61 prints no end, initiative or victory for it. R-104: it ends with the campaign game (Game-Turn 111, OpStage 3) and is judged by the campaign game's victory rules (64.7, copied here); initiative is as Rommel's Arrival sets it, then the normal rules."
  ],
  "start": {
   "game_turn": 26,
@@ -17,5 +18,92 @@
  "end": {
   "game_turn": 111,
   "opstage": 3
+ },
+ "victory": {
+  "kind": "points",
+  "levels": [
+   {
+    "side": "axis",
+    "level": "strategic",
+    "all_of": [
+     {
+      "hold": {
+       "place": "alexandria-east"
+      }
+     },
+     {
+      "hold": {
+       "place": "alexandria-west"
+      }
+     },
+     {
+      "hold": {
+       "place": "cairo"
+      }
+     }
+    ],
+    "supply": "Every hex held for one full Game-Turn, by units that trace a convoy route of no more than 90 truck Movement Points to a Supply Dump that is itself supplied in any way from Tobruk or Tripoli. Wins at once, whatever the turn (64.71)."
+   }
+  ],
+  "points": [
+   {
+    "place": "mersa-matruh",
+    "axis": 100,
+    "cw": 10
+   },
+   {
+    "place": "sidi-barrani",
+    "axis": 50,
+    "cw": 10
+   },
+   {
+    "place": "siwa",
+    "axis": 20,
+    "cw": 10
+   },
+   {
+    "place": "jalo",
+    "axis": 10,
+    "cw": 20
+   },
+   {
+    "place": "giarabub",
+    "axis": 15,
+    "cw": 10
+   },
+   {
+    "place": "bardia",
+    "axis": 100,
+    "cw": 50
+   },
+   {
+    "place": "sollum",
+    "axis": 25,
+    "cw": 10
+   },
+   {
+    "place": "tobruk",
+    "axis": 200,
+    "cw": 100
+   },
+   {
+    "place": "derna",
+    "axis": 25,
+    "cw": 50
+   },
+   {
+    "place": "benghazi",
+    "axis": 75,
+    "cw": 100
+   }
+  ],
+  "notes": [
+   "The Axis automatic victory (64.71) is shown as a strategic level; the rules call it simply winning the game.",
+   "Commonwealth automatic victory (64.72): from OpStage 1 of Game-Turn 35 on, if no Axis combat unit on the map can trace supply of at most 60 truck Movement Points to a Supply Dump and on to Tobruk or Tripoli, the Commonwealth wins at once. Air and coastal shipping units do not count.",
+   "Occupation points (64.73): a place scores only for a combat unit that meets the end-of-game supply test in rules/scenarios/50-campaign-game.md#victory.",
+   "Replacement points (64.74): each side scores one point per Replacement Point allotted on its Production Charts and never used. Aircraft and trucks do not count, nor, for the Commonwealth, infantry.",
+   "Withdrawal points (64.75, Commonwealth only): see rules/scenarios/50-campaign-game.md#victory.",
+   "Victory level (64.76) is set by the ratio of the larger total to the smaller: equal totals draw; above 1:1 up to 1.5:1 is a Marginal Victory; above 1.5:1 up to 2.5:1 a Decisive Victory; above 2.5:1 a Smashing Victory. These are ratios, not point margins, so 'margins' is not used."
+  ]
  }
 }
