@@ -18,6 +18,19 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
+**Mission 6 (scenarios and OA sheets, §59–65) in progress**, started 2026-10-08. Part 1 is one complete Land Game scenario, **Graziani's Offensive** (§60.22, Game-Turns 1–6, Land Game only per §60.92): the shortest scenario, fully listed by hex, and the base cna-engine's Mission 2 builds on.
+
+| Part 1 task | State | PR |
+|---|---|---|
+| 0. Spec and plan (`docs/designs/2026-10-08-scenarios-and-oa-design.md`) | merged | #146 |
+| 1.1 Scenario and OA schemas; `check_data.py` resolves units, hexes, places | merged | #147 |
+| 1.1b Libya/Egypt frontier in the map data | not started | |
+| 1.2 Unit characteristics and weapon systems | not started | |
+| 1.3 OA sheets the scenario needs (Italian, Commonwealth) | being read (two independent reads each) | |
+| 1.4 Reinforcement schedule, Game-Turns 1–6 | not started | |
+| 1.5 Scenario file and `rules/scenarios/` §59–60 | set-up being read | |
+
+
 **MISSION 5 COMPLETE** (the Logistics Game, §48–58), 2026-09-27 17:05 UTC. All five parts are merged, each PR after local gates and green CI:
 
 | Part | What landed | PRs |
@@ -73,13 +86,12 @@ Missions 1–4 are complete (PRs #2–#101).
 
 ## Next steps
 
-For the autopilot: **Mission 6, scenarios and OA sheets (§59–65)**, from the mission queue in `AUTOPILOT.md`. Start with Part 0: write its spec and plan. Check cna-engine's **Requests for cna** first. The shared goal (a playable, self-hostable digital CNA) is at the top of `AUTOPILOT.md`; the Air Game moved to Mission 7 (2026-10-07).
+For the autopilot: finish Mission 6 Part 1 (table above) in plan order, then tell cna-engine here that Graziani's Offensive has landed. cna-engine had no **Requests for cna** on 2026-10-08.
 
 For Brian (all optional):
 
-- **Dispute anything.** Every ruling is one PR to reverse. Three worth a look: **R-027** (Tobruk starts at level 2: the chart, its footnote and 55.12 all say 5 before the wreck, and only the scenarios print 7); **R-071** (the Logistics Game's own 54.31 bars mixed rail loads, so the Land Game's R-005 does not carry over); **R-040/R-042** (fuel in tanks evaporates each turn but not in hot weather, because 29.34 exempts it).
-- **Engine:** cna-engine can take water and fuel probes as its next mission (the design's suggestion). No logistics ruling cites a probe yet.
-- **Questions only your printed copy can answer** stay as read, unchanged from Mission 4: Map E river classes, hill bands, blue railways, C0323|C0423, the rows the scan cannot settle, SPI 20.67, the two formation-chart reads. No new ones from Mission 5.
+- **Dispute anything.** The Mission 6 spec's decisions (scenario first, data shapes) are each one PR to reverse. Three older rulings worth a look: **R-027** (Tobruk starts at level 2), **R-071** (no mixed rail loads in the Logistics Game), **R-040/R-042** (fuel evaporation).
+- **Questions only your printed copy can answer** stay as read, unchanged from Mission 4. Mission 6 will add any OA or scenario values the scans cannot settle.
 - Vault: the *CNA Living Rules* roadmap rows are yours to flip.
 
 ## Runs and quota
