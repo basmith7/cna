@@ -75,7 +75,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-100](./R-100.md) | When the schedule and an OA sheet give different arrivals | proposed | 4.43, 4.44, 20.0 |
 | [R-101](./R-101.md) | Rommel's Arrival: who wins when the Axis holds only Tobruk | proposed | 61.8 |
 | [R-102](./R-102.md) | Group Two abstractions: references and motorisation points | proposed | 61.72, 61.73, 59.63 |
-| [R-103](./R-103.md) | The 3rd Armoured Brigade's tanks in Group Two | proposed | 61.31, 61.32, 61.38 |
+| [R-103](./R-103.md) | The 3rd Armoured Brigade's tanks in Group Two | accepted | 61.31, 61.32, 61.38 |
 | [R-104](./R-104.md) | The Desert Fox campaign scenario | proposed | 61.1, 61.2, 61.8 |
 | [R-105](./R-105.md) | A counter placed twice in the Crusader set-up | proposed | 62.31 |
 | [R-106](./R-106.md) | Two Italian tank battalions with strengths but no starting hex | accepted | 62.41, 62.42 |

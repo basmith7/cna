@@ -41,6 +41,9 @@ M13/40s (the data's `special` list gives the figures).
 
 ::: ruling R-103 — 5 RTR's tanks with no 5 RTR in the set-up
 
+5 RTR starts with its brigade at A2022, with the tanks 61.32 gives it. The
+"ARTR" of 61.38 is a misprint and changes nothing.
+
 ::: spi 61.33 61.34
 
 **Air.** Squadrons start, all refitted, at the airfields and strips the
