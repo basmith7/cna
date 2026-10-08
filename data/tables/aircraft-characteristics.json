@@ -1,0 +1,2289 @@
+{
+ "table": "aircraft-characteristics",
+ "sources": [
+  "CNA1979:34.6",
+  "scan:p111",
+  "scan:p112",
+  "scan:p143",
+  "scan:p144"
+ ],
+ "notes": [
+  "Aircraft Characteristics Charts, printed as 4.44A (Commonwealth, jp2 111-112), 4.44b (Italian, jp2 143) and 4.44c (German, jp2 143-144, its continuation misheaded 4.44b); the rules call them 34.6. Read twice, from the archive.org scan and from the community chart PDFs (Commonwealth Charts.pdf pp. 1-2, Axis Charts.pdf pp. 1-2): 1224 cells compared, 1 differs, and only in convention (the Italian C 200 Saetta's range, printed ';40' with a stray mark, recorded as 40).",
+  "Each nation has two sub-tables: fighters and fighter-bombers (table: fighter; mission columns F, S, R, D) and bombers, flying boats, transports and reconnaissance (table: bomber; D, R, B, Transport). Fighters need a pilot; the others do not.",
+  "Columns: range in hexes (a '*' marks drop tanks; '**' a range for transfer missions only); tac_air, the air-to-air rating (in parentheses: the aircraft may never fly a mission on which it would start air-to-air combat); maneuver; bomb, bomb points ('n/Tm': n bomb points or m torpedo points; null: no bombs); fuel, fuel points per flight.",
+  "Mission letters, as printed: F combat air patrol and strafing, S scramble, R reconnaissance, D strafing and any bombing, B Axis naval convoy and land support bombing, Transport what it carries (a number: TOE or replacement points; P: may drop paratroops; tons or fractions: supply). Marks: '!' capable by day; 'N' capable by day and night; '.' or null not capable; Commonwealth '0' night only in a restricted role (Blenheim IVF night scramble; Albacore night land-support or convoy bombing); 'S' strafing only (Lysander); 'A' may also strafe armour (Hurricane IID); '*' night scramble only (Bf.110, Ju.88C).",
+  "alternative_of marks an 'or' row: the same aircraft in another configuration, chosen per mission.",
+  "As printed and left so: Cant Z.501 tac_air '(2' (no closing parenthesis); Cant Z.506B range blank; Gladiator Mk. II fuel a dash; Beaufighter IF and VIF manufacturer blank; the B-17/D, B-26 and Bombay rows print an extra dot in the mission columns.",
+  "Footnotes in our words: the Ar.196, Cant Z.501 and Z.506B and the Sunderland are flying boats; the Skua is a dive bomber; the Gladiator, Sea Gladiator, Swordfish and Valentia are biplanes; the C.714, D.520 and MS406 are French; the MS406, Sea Gladiator, Swordfish and Valentia never arrive as reinforcements."
+ ],
+ "rows": [
+  {
+   "id": "aircraft:cw:beaufighter-mk-if",
+   "nation": "cw",
+   "aircraft": "Beaufighter Mk. IF",
+   "table": "fighter",
+   "range": 117,
+   "tac_air": 11,
+   "maneuver": 30,
+   "bomb": null,
+   "fuel": 3,
+   "missions": {
+    "F": "N",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:beaufighter-mk-vif",
+   "nation": "cw",
+   "aircraft": "Beaufighter Mk. VIF",
+   "table": "fighter",
+   "range": 135,
+   "tac_air": 12,
+   "maneuver": 31,
+   "bomb": null,
+   "fuel": 3,
+   "missions": {
+    "F": "N",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:blenheim-mk-ivf",
+   "nation": "cw",
+   "aircraft": "Blenheim Mk. IVF",
+   "table": "fighter",
+   "range": 146,
+   "tac_air": 5,
+   "maneuver": 30,
+   "bomb": null,
+   "fuel": 3,
+   "missions": {
+    "F": "N",
+    "S": "0",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Bristol",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:fulmar-mk-ii",
+   "nation": "cw",
+   "aircraft": "Fulmar Mk. II",
+   "table": "fighter",
+   "range": 74,
+   "tac_air": 4,
+   "maneuver": 29,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "N",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Fairey",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:gladiator-mk-ii",
+   "nation": "cw",
+   "aircraft": "Gladiator Mk. II",
+   "table": "fighter",
+   "range": 44,
+   "tac_air": 2,
+   "maneuver": 27,
+   "bomb": null,
+   "fuel": null,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Gloster",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:hurricane-mk-i",
+   "nation": "cw",
+   "aircraft": "Hurricane Mk. I",
+   "table": "fighter",
+   "range": 52,
+   "tac_air": 4,
+   "maneuver": 32,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Hawker",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:hurricane-mk-iia",
+   "nation": "cw",
+   "aircraft": "Hurricane Mk. IIA",
+   "table": "fighter",
+   "range": "88*",
+   "tac_air": 4,
+   "maneuver": 25,
+   "bomb": null,
+   "fuel": 2,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Hawker",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:hurricane-mk-iia-or1",
+   "nation": "cw",
+   "aircraft": "Hurricane Mk. IIA",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:hurricane-mk-iia",
+   "range": 44,
+   "tac_air": 4,
+   "maneuver": 36,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:hurricane-mk-iia-or2",
+   "nation": "cw",
+   "aircraft": "Hurricane Mk. IIA",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:hurricane-mk-iia",
+   "range": 39,
+   "tac_air": 4,
+   "maneuver": 33,
+   "bomb": 2,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "!"
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:hurricane-mk-iib",
+   "nation": "cw",
+   "aircraft": "Hurricane Mk. IIB",
+   "table": "fighter",
+   "range": "88*",
+   "tac_air": 6,
+   "maneuver": 25,
+   "bomb": null,
+   "fuel": 2,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Hawker",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:hurricane-mk-iib-or1",
+   "nation": "cw",
+   "aircraft": "Hurricane Mk. IIB",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:hurricane-mk-iib",
+   "range": 44,
+   "tac_air": 6,
+   "maneuver": 36,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:hurricane-mk-iib-or2",
+   "nation": "cw",
+   "aircraft": "Hurricane Mk. IIB",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:hurricane-mk-iib",
+   "range": 39,
+   "tac_air": 6,
+   "maneuver": 32,
+   "bomb": 4,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "!"
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:hurricane-mk-iic",
+   "nation": "cw",
+   "aircraft": "Hurricane Mk. IIC",
+   "table": "fighter",
+   "range": "86*",
+   "tac_air": 8,
+   "maneuver": 25,
+   "bomb": null,
+   "fuel": 2,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Hawker",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:hurricane-mk-iic-or1",
+   "nation": "cw",
+   "aircraft": "Hurricane Mk. IIC",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:hurricane-mk-iic",
+   "range": 43,
+   "tac_air": 8,
+   "maneuver": 36,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:hurricane-mk-iic-or2",
+   "nation": "cw",
+   "aircraft": "Hurricane Mk. IIC",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:hurricane-mk-iic",
+   "range": 38,
+   "tac_air": 8,
+   "maneuver": 30,
+   "bomb": 6,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "!"
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:hurricane-mk-iid",
+   "nation": "cw",
+   "aircraft": "Hurricane Mk. IID",
+   "table": "fighter",
+   "range": "90*",
+   "tac_air": 8,
+   "maneuver": 25,
+   "bomb": null,
+   "fuel": 2,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Hawker",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:hurricane-mk-iid-or1",
+   "nation": "cw",
+   "aircraft": "Hurricane Mk. IID",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:hurricane-mk-iid",
+   "range": 45,
+   "tac_air": 8,
+   "maneuver": 33,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "A",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:p-40-kittyhawk-i",
+   "nation": "cw",
+   "aircraft": "P-40 Kittyhawk I",
+   "table": "fighter",
+   "range": "94*",
+   "tac_air": 4,
+   "maneuver": 31,
+   "bomb": null,
+   "fuel": 2,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Curtis",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:p-40-kittyhawk-i-or1",
+   "nation": "cw",
+   "aircraft": "P-40 Kittyhawk I",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:p-40-kittyhawk-i",
+   "range": 71,
+   "tac_air": 4,
+   "maneuver": 33,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:p-40-kittyhawk-i-or2",
+   "nation": "cw",
+   "aircraft": "P-40 Kittyhawk I",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:p-40-kittyhawk-i",
+   "range": 60,
+   "tac_air": 4,
+   "maneuver": 29,
+   "bomb": 2,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "!"
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:p-40-kittyhawk-ii",
+   "nation": "cw",
+   "aircraft": "P-40 Kittyhawk II",
+   "table": "fighter",
+   "range": "95*",
+   "tac_air": 6,
+   "maneuver": 31,
+   "bomb": null,
+   "fuel": 2,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Curtis",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:p-40-kittyhawk-ii-or1",
+   "nation": "cw",
+   "aircraft": "P-40 Kittyhawk II",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:p-40-kittyhawk-ii",
+   "range": 72,
+   "tac_air": 6,
+   "maneuver": 33,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:p-40-kittyhawk-ii-or2",
+   "nation": "cw",
+   "aircraft": "P-40 Kittyhawk II",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:p-40-kittyhawk-ii",
+   "range": 63,
+   "tac_air": 6,
+   "maneuver": 30,
+   "bomb": 2,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "!"
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:p-40-kittyhawk-iii",
+   "nation": "cw",
+   "aircraft": "P-40 Kittyhawk III",
+   "table": "fighter",
+   "range": "92*",
+   "tac_air": 6,
+   "maneuver": 30,
+   "bomb": null,
+   "fuel": 2,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Curtis",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:p-40-kittyhawk-iii-or1",
+   "nation": "cw",
+   "aircraft": "P-40 Kittyhawk III",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:p-40-kittyhawk-iii",
+   "range": 68,
+   "tac_air": 6,
+   "maneuver": 32,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:p-40-kittyhawk-iii-or2",
+   "nation": "cw",
+   "aircraft": "P-40 Kittyhawk III",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:p-40-kittyhawk-iii",
+   "range": 60,
+   "tac_air": 6,
+   "maneuver": 29,
+   "bomb": 2,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "!"
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:sea-gladiator",
+   "nation": "cw",
+   "aircraft": "Sea Gladiator",
+   "table": "fighter",
+   "range": 38,
+   "tac_air": 2,
+   "maneuver": 27,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Gloster",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:skua-mk-ii",
+   "nation": "cw",
+   "aircraft": "Skua Mk. II",
+   "table": "fighter",
+   "range": 76,
+   "tac_air": 3,
+   "maneuver": 18,
+   "bomb": 4,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "!"
+   },
+   "manufacturer": "Blackburn",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:spitfire-mk-vb",
+   "nation": "cw",
+   "aircraft": "Spitfire Mk. VB",
+   "table": "fighter",
+   "range": 39,
+   "tac_air": 6,
+   "maneuver": 40,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Supermarine",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:spitfire-mk-vc",
+   "nation": "cw",
+   "aircraft": "Spitfire Mk. VC",
+   "table": "fighter",
+   "range": "59*",
+   "tac_air": 8,
+   "maneuver": 37,
+   "bomb": null,
+   "fuel": 2,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Supermarine",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:spitfire-mk-vc-or1",
+   "nation": "cw",
+   "aircraft": "Spitfire Mk. VC",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:spitfire-mk-vc",
+   "range": 43,
+   "tac_air": 8,
+   "maneuver": 42,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:p-40-tomahawk",
+   "nation": "cw",
+   "aircraft": "P-40 Tomahawk",
+   "table": "fighter",
+   "range": "75*",
+   "tac_air": 2,
+   "maneuver": 27,
+   "bomb": null,
+   "fuel": 2,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Curtis",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:p-40-tomahawk-or1",
+   "nation": "cw",
+   "aircraft": "P-40 Tomahawk",
+   "table": "fighter",
+   "alternative_of": "aircraft:cw:p-40-tomahawk",
+   "range": 62,
+   "tac_air": 2,
+   "maneuver": 32,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:f4f-wildcat-marlet-i",
+   "nation": "cw",
+   "aircraft": "F4F Wildcat (Marlet I)",
+   "table": "fighter",
+   "range": 70,
+   "tac_air": 8,
+   "maneuver": 34,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Grumman",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:c-714",
+   "nation": "cw",
+   "aircraft": "C.714",
+   "table": "fighter",
+   "range": 49,
+   "tac_air": 2,
+   "maneuver": 30,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Caudron",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:d-520",
+   "nation": "cw",
+   "aircraft": "D.520",
+   "table": "fighter",
+   "range": 56,
+   "tac_air": 4,
+   "maneuver": 37,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": ".",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Dewoitine",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:ms406",
+   "nation": "cw",
+   "aircraft": "MS406",
+   "table": "fighter",
+   "range": 45,
+   "tac_air": 4,
+   "maneuver": 32,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": ".",
+    "D": "."
+   },
+   "manufacturer": "Morane-Saulnier",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:albacore",
+   "nation": "cw",
+   "aircraft": "Albacore",
+   "table": "bomber",
+   "range": 71,
+   "tac_air": "(2)",
+   "maneuver": 6,
+   "bomb": "8/T8",
+   "fuel": 2,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "0",
+    "Transport": "."
+   },
+   "manufacturer": "Fairey",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:anson-mk-i",
+   "nation": "cw",
+   "aircraft": "Anson Mk. I",
+   "table": "bomber",
+   "range": 71,
+   "tac_air": "(2)",
+   "maneuver": 20,
+   "bomb": 2,
+   "fuel": 2,
+   "missions": {
+    "D": ".",
+    "R": "!",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": "Avro",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:b-17-d-flying-fortress",
+   "nation": "cw",
+   "aircraft": "B-17/D Flying Fortress",
+   "table": "bomber",
+   "range": "275**",
+   "tac_air": "(5)",
+   "maneuver": 29,
+   "bomb": null,
+   "fuel": 5,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": ".",
+    "Transport": "."
+   },
+   "manufacturer": "Boeing",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:b-17-d-flying-fortress-or1",
+   "nation": "cw",
+   "aircraft": "B-17/D Flying Fortress",
+   "table": "bomber",
+   "alternative_of": "aircraft:cw:b-17-d-flying-fortress",
+   "range": 186,
+   "tac_air": "(5)",
+   "maneuver": 27,
+   "bomb": 37,
+   "fuel": 4,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:b-24-pb4y-liberator-iii",
+   "nation": "cw",
+   "aircraft": "B-24/PB4y Liberator III",
+   "table": "bomber",
+   "range": 208,
+   "tac_air": "(5)",
+   "maneuver": 23,
+   "bomb": 64,
+   "fuel": 7,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": "Consolidated",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:b-25-mitchell-ii",
+   "nation": "cw",
+   "aircraft": "B-25 Mitchell II",
+   "table": "bomber",
+   "range": 125,
+   "tac_air": "(6)",
+   "maneuver": 25,
+   "bomb": 14,
+   "fuel": 4,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": "North American",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:b-26-marauder",
+   "nation": "cw",
+   "aircraft": "B-26 Marauder",
+   "table": "bomber",
+   "range": "170**",
+   "tac_air": "(4)",
+   "maneuver": 28,
+   "bomb": null,
+   "fuel": 5,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": ".",
+    "Transport": "."
+   },
+   "manufacturer": "Martin",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:b-26-marauder-or1",
+   "nation": "cw",
+   "aircraft": "B-26 Marauder",
+   "table": "bomber",
+   "alternative_of": "aircraft:cw:b-26-marauder",
+   "range": 46,
+   "tac_air": "(4)",
+   "maneuver": 25,
+   "bomb": 25,
+   "fuel": 5,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:a-30-baltimore-i",
+   "nation": "cw",
+   "aircraft": "A-30 Baltimore I",
+   "table": "bomber",
+   "range": 101,
+   "tac_air": "(6)",
+   "maneuver": 22,
+   "bomb": 10,
+   "fuel": 3,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": "Glenn Martin",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:beaufort-mk-i",
+   "nation": "cw",
+   "aircraft": "Beaufort Mk. I",
+   "table": "bomber",
+   "range": 144,
+   "tac_air": "(2)",
+   "maneuver": 24,
+   "bomb": "-/T8",
+   "fuel": 1,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": "Bristol",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:blenheim-mk-i",
+   "nation": "cw",
+   "aircraft": "Blenheim Mk. I",
+   "table": "bomber",
+   "range": 101,
+   "tac_air": "(1)",
+   "maneuver": 22,
+   "bomb": 5,
+   "fuel": 2,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": "Bristol",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:blenheim-mk-iv",
+   "nation": "cw",
+   "aircraft": "Blenheim Mk. IV",
+   "table": "bomber",
+   "range": 131,
+   "tac_air": "(3)",
+   "maneuver": 21,
+   "bomb": 6,
+   "fuel": 3,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": "Bristol",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:bombay-mk-i",
+   "nation": "cw",
+   "aircraft": "Bombay Mk. I",
+   "table": "bomber",
+   "range": "203**",
+   "tac_air": "(1)",
+   "maneuver": 6,
+   "bomb": null,
+   "fuel": 2,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": ".",
+    "Transport": "."
+   },
+   "manufacturer": "Bristol",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:bombay-mk-i-or1",
+   "nation": "cw",
+   "aircraft": "Bombay Mk. I",
+   "table": "bomber",
+   "alternative_of": "aircraft:cw:bombay-mk-i",
+   "range": 88,
+   "tac_air": "(1)",
+   "maneuver": 5,
+   "bomb": 10,
+   "fuel": 2,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "1 or 10 tons"
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:boston-mk-iii",
+   "nation": "cw",
+   "aircraft": "Boston Mk. III",
+   "table": "bomber",
+   "range": 102,
+   "tac_air": "(5)",
+   "maneuver": 23,
+   "bomb": 10,
+   "fuel": 3,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": "Douglas",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:halifax-mk-ii",
+   "nation": "cw",
+   "aircraft": "Halifax Mk. II",
+   "table": "bomber",
+   "range": 194,
+   "tac_air": "(5)",
+   "maneuver": 27,
+   "bomb": 7,
+   "fuel": 6,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": "Handley-Page",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:halifax-mk-ii-or1",
+   "nation": "cw",
+   "aircraft": "Halifax Mk. II",
+   "table": "bomber",
+   "alternative_of": "aircraft:cw:halifax-mk-ii",
+   "range": 62,
+   "tac_air": "(5)",
+   "maneuver": 26,
+   "bomb": 65,
+   "fuel": 6,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:a-28-hudson",
+   "nation": "cw",
+   "aircraft": "A-28 Hudson",
+   "table": "bomber",
+   "range": 145,
+   "tac_air": "(3)",
+   "maneuver": 8,
+   "bomb": null,
+   "fuel": 2,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": ".",
+    "Transport": "1 or 10 tons"
+   },
+   "manufacturer": "Lockheed",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:lysander-mk-i",
+   "nation": "cw",
+   "aircraft": "Lysander Mk. I",
+   "table": "bomber",
+   "range": 60,
+   "tac_air": "(2)",
+   "maneuver": 20,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "D": "S",
+    "R": "!",
+    "B": ".",
+    "Transport": "."
+   },
+   "manufacturer": "Westland",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:167-maryland",
+   "nation": "cw",
+   "aircraft": "167 Maryland",
+   "table": "bomber",
+   "range": 76,
+   "tac_air": "(3)",
+   "maneuver": 20,
+   "bomb": 9,
+   "fuel": 3,
+   "missions": {
+    "D": ".",
+    "R": "!",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": "Glenn Martin",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:63-11",
+   "nation": "cw",
+   "aircraft": "63.11",
+   "table": "bomber",
+   "range": 75,
+   "tac_air": "(5)",
+   "maneuver": 26,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "D": ".",
+    "R": "!",
+    "B": ".",
+    "Transport": "."
+   },
+   "manufacturer": "Potez",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:sunderland",
+   "nation": "cw",
+   "aircraft": "Sunderland",
+   "table": "bomber",
+   "range": 238,
+   "tac_air": "(5)",
+   "maneuver": 7,
+   "bomb": null,
+   "fuel": 4,
+   "missions": {
+    "D": ".",
+    "R": "!",
+    "B": ".",
+    "Transport": "."
+   },
+   "manufacturer": "Short",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:sunderland-or1",
+   "nation": "cw",
+   "aircraft": "Sunderland",
+   "table": "bomber",
+   "alternative_of": "aircraft:cw:sunderland",
+   "range": 176,
+   "tac_air": "(5)",
+   "maneuver": 11,
+   "bomb": 9,
+   "fuel": 4,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:swordfish-mk-i",
+   "nation": "cw",
+   "aircraft": "Swordfish Mk. I",
+   "table": "bomber",
+   "range": 48,
+   "tac_air": "(1)",
+   "maneuver": 7,
+   "bomb": "-/T8",
+   "fuel": 1,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": "Fairey",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:tiger-moth-mk-ii",
+   "nation": "cw",
+   "aircraft": "Tiger Moth Mk. II",
+   "table": "bomber",
+   "range": 27,
+   "tac_air": 0,
+   "maneuver": 14,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "D": ".",
+    "R": "!",
+    "B": ".",
+    "Transport": "."
+   },
+   "manufacturer": "de Haviland",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:valentia",
+   "nation": "cw",
+   "aircraft": "Valentia",
+   "table": "bomber",
+   "range": 31,
+   "tac_air": 0,
+   "maneuver": 1,
+   "bomb": 10,
+   "fuel": 1,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "!",
+    "Transport": "1/4 or 5 tons"
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:wellington-mk-i",
+   "nation": "cw",
+   "aircraft": "Wellington Mk. I",
+   "table": "bomber",
+   "range": 229,
+   "tac_air": "(3)",
+   "maneuver": 20,
+   "bomb": 5,
+   "fuel": 4,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "N",
+    "Transport": "."
+   },
+   "manufacturer": "Vickers",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:wellington-mk-i-or1",
+   "nation": "cw",
+   "aircraft": "Wellington Mk. I",
+   "table": "bomber",
+   "alternative_of": "aircraft:cw:wellington-mk-i",
+   "range": 108,
+   "tac_air": "(3)",
+   "maneuver": 18,
+   "bomb": 23,
+   "fuel": 4,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "N",
+    "Transport": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:wellington-mk-iv",
+   "nation": "cw",
+   "aircraft": "Wellington Mk. IV",
+   "table": "bomber",
+   "range": 220,
+   "tac_air": "(3)",
+   "maneuver": 23,
+   "bomb": 6,
+   "fuel": 5,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "N",
+    "Transport": "."
+   },
+   "manufacturer": "Vickers",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:wellington-mk-iv-or1",
+   "nation": "cw",
+   "aircraft": "Wellington Mk. IV",
+   "table": "bomber",
+   "alternative_of": "aircraft:cw:wellington-mk-iv",
+   "range": 157,
+   "tac_air": "(3)",
+   "maneuver": 19,
+   "bomb": 17,
+   "fuel": 5,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "N",
+    "Transport": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:cw:wellington-mk-iv-or2",
+   "nation": "cw",
+   "aircraft": "Wellington Mk. IV",
+   "table": "bomber",
+   "alternative_of": "aircraft:cw:wellington-mk-iv",
+   "range": 126,
+   "tac_air": "(3)",
+   "maneuver": 18,
+   "bomb": 23,
+   "fuel": 5,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": "N",
+    "Transport": "."
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p111"
+   ]
+  },
+  {
+   "id": "aircraft:it:c-r-32",
+   "nation": "it",
+   "aircraft": "C.R. 32",
+   "table": "fighter",
+   "range": 42,
+   "tac_air": 3,
+   "maneuver": 25,
+   "bomb": 1,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": null,
+    "D": "!"
+   },
+   "manufacturer": "Fiat",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:c-r-42-falco",
+   "nation": "it",
+   "aircraft": "C.R. 42 Falco",
+   "table": "fighter",
+   "range": 43,
+   "tac_air": 3,
+   "maneuver": 28,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "N",
+    "S": "!",
+    "R": null,
+    "D": null
+   },
+   "manufacturer": "Fiat",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:c-r-42as-falco",
+   "nation": "it",
+   "aircraft": "C.R. 42AS Falco",
+   "table": "fighter",
+   "range": 41,
+   "tac_air": 3,
+   "maneuver": 27,
+   "bomb": 1,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": null,
+    "D": "!"
+   },
+   "manufacturer": "Fiat",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:c-200-saetta",
+   "nation": "it",
+   "aircraft": "C 200 Saetta",
+   "table": "fighter",
+   "range": 40,
+   "tac_air": 2,
+   "maneuver": 33,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": null,
+    "D": "!"
+   },
+   "manufacturer": "Macchi",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:c-202-folgore",
+   "nation": "it",
+   "aircraft": "C 202 Folgore",
+   "table": "fighter",
+   "range": 47,
+   "tac_air": 2,
+   "maneuver": 35,
+   "bomb": 1,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": null,
+    "D": "!"
+   },
+   "manufacturer": "Macchi",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:g-50-freccia",
+   "nation": "it",
+   "aircraft": "G. 50 Freccia",
+   "table": "fighter",
+   "range": 57,
+   "tac_air": 3,
+   "maneuver": 25,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": null,
+    "D": null
+   },
+   "manufacturer": "Fiat",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:re-2000-falco-i",
+   "nation": "it",
+   "aircraft": "Re. 2000 Falco I",
+   "table": "fighter",
+   "range": 47,
+   "tac_air": 2,
+   "maneuver": 34,
+   "bomb": null,
+   "fuel": 2,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": null,
+    "D": null
+   },
+   "manufacturer": "Reggiane",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:re-2001-falco-ii",
+   "nation": "it",
+   "aircraft": "Re. 2001 Falco II",
+   "table": "fighter",
+   "range": 42,
+   "tac_air": 3,
+   "maneuver": 35,
+   "bomb": null,
+   "fuel": 3,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": null,
+    "D": null
+   },
+   "manufacturer": "Reggiane",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:ba-65",
+   "nation": "it",
+   "aircraft": "Ba 65",
+   "table": "bomber",
+   "range": 55,
+   "tac_air": "(4)",
+   "maneuver": 18,
+   "bomb": 10,
+   "fuel": 2,
+   "missions": {
+    "D": "!",
+    "R": null,
+    "B": null,
+    "Transport": null
+   },
+   "manufacturer": "Breda",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:ba-88-lince",
+   "nation": "it",
+   "aircraft": "Ba 88 Lince",
+   "table": "bomber",
+   "range": 92,
+   "tac_air": "(4)",
+   "maneuver": 16,
+   "bomb": 11,
+   "fuel": 3,
+   "missions": {
+    "D": null,
+    "R": null,
+    "B": "!",
+    "Transport": null
+   },
+   "manufacturer": "Breda",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:b-r-20-cicogna",
+   "nation": "it",
+   "aircraft": "B.R. 20 Cicogna",
+   "table": "bomber",
+   "range": 145,
+   "tac_air": "(2)",
+   "maneuver": 17,
+   "bomb": 17,
+   "fuel": 3,
+   "missions": {
+    "D": null,
+    "R": null,
+    "B": "N",
+    "Transport": null
+   },
+   "manufacturer": "Fiat",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:ca-309-ghibli",
+   "nation": "it",
+   "aircraft": "Ca 309 Ghibli",
+   "table": "bomber",
+   "range": 84,
+   "tac_air": "(2)",
+   "maneuver": 9,
+   "bomb": 4,
+   "fuel": 2,
+   "missions": {
+    "D": null,
+    "R": "!",
+    "B": "!",
+    "Transport": "0 or ½"
+   },
+   "manufacturer": "Caproni",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:ca-311",
+   "nation": "it",
+   "aircraft": "Ca 311",
+   "table": "bomber",
+   "range": 108,
+   "tac_air": "(2)",
+   "maneuver": 10,
+   "bomb": 4,
+   "fuel": 2,
+   "missions": {
+    "D": null,
+    "R": "!",
+    "B": "!",
+    "Transport": null
+   },
+   "manufacturer": "Caproni",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:cant-z-501-gabbiano",
+   "nation": "it",
+   "aircraft": "Cant Z. 501 Gabbiano",
+   "table": "bomber",
+   "range": 130,
+   "tac_air": "(2",
+   "maneuver": 7,
+   "bomb": 7,
+   "fuel": 2,
+   "missions": {
+    "D": null,
+    "R": "!",
+    "B": "!",
+    "Transport": null
+   },
+   "manufacturer": "CRDA",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:cant-z-506b-airone-35",
+   "nation": "it",
+   "aircraft": "Cant Z. 506B Airone/35",
+   "table": "bomber",
+   "range": null,
+   "tac_air": "(3)",
+   "maneuver": 14,
+   "bomb": "11/T8",
+   "fuel": 3,
+   "missions": {
+    "D": null,
+    "R": "!",
+    "B": "!",
+    "Transport": null
+   },
+   "manufacturer": "CRDA",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:cant-z-1007bis-alcione",
+   "nation": "it",
+   "aircraft": "Cant Z. 1007bis Alcione",
+   "table": "bomber",
+   "range": 120,
+   "tac_air": "(3)",
+   "maneuver": 23,
+   "bomb": "15/T10",
+   "fuel": 4,
+   "missions": {
+    "D": null,
+    "R": null,
+    "B": "!",
+    "Transport": null
+   },
+   "manufacturer": "CRDA",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:ro-37bis",
+   "nation": "it",
+   "aircraft": "Ro 37bis",
+   "table": "bomber",
+   "range": 93,
+   "tac_air": "(2)",
+   "maneuver": 20,
+   "bomb": 2,
+   "fuel": 2,
+   "missions": {
+    "D": null,
+    "R": "!",
+    "B": "!",
+    "Transport": null
+   },
+   "manufacturer": "IMAM",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:s-m-79-sparviero",
+   "nation": "it",
+   "aircraft": "S.M. 79 Sparviero",
+   "table": "bomber",
+   "range": 120,
+   "tac_air": "(4)",
+   "maneuver": 19,
+   "bomb": "12/T6",
+   "fuel": 3,
+   "missions": {
+    "D": null,
+    "R": null,
+    "B": "!",
+    "Transport": null
+   },
+   "manufacturer": "Savoia-Marchet",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:s-m-81-pipistrello",
+   "nation": "it",
+   "aircraft": "S.M. 81 Pipistrello",
+   "table": "bomber",
+   "range": 90,
+   "tac_air": "(5)",
+   "maneuver": 14,
+   "bomb": 11,
+   "fuel": 3,
+   "missions": {
+    "D": null,
+    "R": "!",
+    "B": "N",
+    "Transport": "1P or 2½"
+   },
+   "manufacturer": "Savoia-Marchet",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:it:s-m-84",
+   "nation": "it",
+   "aircraft": "S.M. 84",
+   "table": "bomber",
+   "range": 101,
+   "tac_air": "(4)",
+   "maneuver": 16,
+   "bomb": "22/T14",
+   "fuel": 4,
+   "missions": {
+    "D": null,
+    "R": null,
+    "B": "!",
+    "Transport": null
+   },
+   "manufacturer": "Savoia-Marchet",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:de:bf-109e",
+   "nation": "de",
+   "aircraft": "Bf. 109E",
+   "table": "fighter",
+   "range": 41,
+   "tac_air": 6,
+   "maneuver": 34,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": null,
+    "D": "!"
+   },
+   "manufacturer": "Messerschmitt",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:de:bf-109f",
+   "nation": "de",
+   "aircraft": "Bf. 109F",
+   "table": "fighter",
+   "range": 44,
+   "tac_air": 6,
+   "maneuver": 39,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": null,
+    "D": null
+   },
+   "manufacturer": "Messerschmitt",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:de:bf-109g",
+   "nation": "de",
+   "aircraft": "Bf. 109G",
+   "table": "fighter",
+   "range": 53,
+   "tac_air": 8,
+   "maneuver": 36,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "!",
+    "S": "!",
+    "R": null,
+    "D": null
+   },
+   "manufacturer": "Messerschmitt",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:de:bf-110",
+   "nation": "de",
+   "aircraft": "Bf. 110",
+   "table": "fighter",
+   "range": 70,
+   "tac_air": 5,
+   "maneuver": 32,
+   "bomb": null,
+   "fuel": 1,
+   "missions": {
+    "F": "N",
+    "S": "*",
+    "R": null,
+    "D": "!"
+   },
+   "manufacturer": "Messerschmitt",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:de:bf-110-or1",
+   "nation": "de",
+   "aircraft": "Bf. 110",
+   "table": "fighter",
+   "alternative_of": "aircraft:de:bf-110",
+   "range": 57,
+   "tac_air": "(5)",
+   "maneuver": 28,
+   "bomb": 5,
+   "fuel": 1,
+   "missions": {
+    "F": null,
+    "S": null,
+    "R": "!",
+    "D": null
+   },
+   "manufacturer": null,
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:de:ju-88c",
+   "nation": "de",
+   "aircraft": "Ju. 88c",
+   "table": "fighter",
+   "range": 140,
+   "tac_air": 6,
+   "maneuver": 30,
+   "bomb": null,
+   "fuel": 2,
+   "missions": {
+    "F": "N",
+    "S": "*",
+    "R": null,
+    "D": null
+   },
+   "manufacturer": "Junkers",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:de:ar-196",
+   "nation": "de",
+   "aircraft": "Ar. 196",
+   "table": "bomber",
+   "range": 60,
+   "tac_air": "(3)",
+   "maneuver": 10,
+   "bomb": 1,
+   "fuel": 1,
+   "missions": {
+    "D": ".",
+    "R": "!",
+    "B": "!",
+    "Transport": "."
+   },
+   "manufacturer": "Arado",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:de:fw-200-c",
+   "nation": "de",
+   "aircraft": "Fw. 200 C",
+   "table": "bomber",
+   "range": 205,
+   "tac_air": "(5)",
+   "maneuver": 21,
+   "bomb": 14,
+   "fuel": 3,
+   "missions": {
+    "D": "!",
+    "R": "!",
+    "B": ".",
+    "Transport": "."
+   },
+   "manufacturer": "Focke Wulf",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:de:he-111",
+   "nation": "de",
+   "aircraft": "He. 111",
+   "table": "bomber",
+   "range": 112,
+   "tac_air": "(6)",
+   "maneuver": 22,
+   "bomb": 27,
+   "fuel": 3,
+   "missions": {
+    "D": "N",
+    "R": ".",
+    "B": ".",
+    "Transport": "."
+   },
+   "manufacturer": "Heinkel",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:de:hs-126",
+   "nation": "de",
+   "aircraft": "Hs. 126",
+   "table": "bomber",
+   "range": 45,
+   "tac_air": "(2)",
+   "maneuver": 14,
+   "bomb": 2,
+   "fuel": 1,
+   "missions": {
+    "D": "!",
+    "R": "!",
+    "B": ".",
+    "Transport": "."
+   },
+   "manufacturer": "Henschel",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:de:ju-52-3m",
+   "nation": "de",
+   "aircraft": "Ju. 52/3m",
+   "table": "bomber",
+   "range": 72,
+   "tac_air": "(2)",
+   "maneuver": 8,
+   "bomb": null,
+   "fuel": 2,
+   "missions": {
+    "D": ".",
+    "R": ".",
+    "B": ".",
+    "Transport": "1 or 2 1/2"
+   },
+   "manufacturer": "Junkers",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:de:ju-87b",
+   "nation": "de",
+   "aircraft": "Ju. 87B",
+   "table": "bomber",
+   "range": 36,
+   "tac_air": "(3)",
+   "maneuver": 25,
+   "bomb": 5,
+   "fuel": 1,
+   "missions": {
+    "D": "!",
+    "R": ".",
+    "B": ".",
+    "Transport": "."
+   },
+   "manufacturer": "Junkers",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:de:ju-87d",
+   "nation": "de",
+   "aircraft": "Ju. 87D",
+   "table": "bomber",
+   "range": 62,
+   "tac_air": "(4)",
+   "maneuver": 22,
+   "bomb": 20,
+   "fuel": 2,
+   "missions": {
+    "D": "!",
+    "R": ".",
+    "B": ".",
+    "Transport": "."
+   },
+   "manufacturer": "Junkers",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  },
+  {
+   "id": "aircraft:de:ju-88d",
+   "nation": "de",
+   "aircraft": "Ju. 88D",
+   "table": "bomber",
+   "range": 118,
+   "tac_air": "(5)",
+   "maneuver": 25,
+   "bomb": 33,
+   "fuel": 2,
+   "missions": {
+    "D": "!",
+    "R": "!",
+    "B": ".",
+    "Transport": "."
+   },
+   "manufacturer": "Junkers",
+   "sources": [
+    "CNA1979:34.6",
+    "scan:p143"
+   ]
+  }
+ ]
+}
