@@ -84,6 +84,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-109](./R-109.md) | Open points in the campaign game's victory rules | accepted | 64.71, 64.72, 64.75, 64.76 |
 | [R-110](./R-110.md) | Graziani's Offensive victory supply without the Logistics Game | accepted | 60.81, 60.92, 32.17 |
 | [R-111](./R-111.md) | Is the Flak printed on the map heavy? | proposed | 40.74, 46.1 |
+| [R-112](./R-112.md) | Refit additions: by the aircraft's nation or the SGSU's? | proposed | 38.35, 38.38 |
 
 ## Variants
 
