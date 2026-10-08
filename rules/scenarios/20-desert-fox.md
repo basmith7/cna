@@ -189,3 +189,7 @@ The Commonwealth wins by holding Tobruk, and wins a smashing victory by
 holding Tobruk, Bardia and Benghazi.
 
 ::: ruling R-101 — who wins when the Axis player holds Tobruk alone
+
+The levels are a ladder: Tobruk alone is an Axis victory. An Axis player
+who does not hold Tobruk at the end has lost, even if no Commonwealth unit
+holds it either. No supply condition applies to any holding.
