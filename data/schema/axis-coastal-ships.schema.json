@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "axis-coastal-ships.schema.json",
+  "title": "Axis coastal ship counters and their cargo capacity (56.31)",
+  "type": "object",
+  "required": ["table", "sources", "rows"],
+  "additionalProperties": false,
+  "properties": {
+    "table": {"const": "axis-coastal-ships"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "rows": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "required": ["id", "counter", "capacity_tons", "sources"], "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^ship:axis:[a-z0-9-]+$"},
+          "counter": {"type": "string", "minLength": 1, "description": "The letter printed on the counter"},
+          "capacity_tons": {"type": "integer", "minimum": 1},
+          "sources": {"$ref": "common.schema.json#/$defs/sources"}
+        }
+      }
+    }
+  }
+}

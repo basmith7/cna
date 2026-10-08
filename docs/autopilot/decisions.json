@@ -112,6 +112,17 @@
         "My copy differs (say how), or gives the Marder's CPA",
         "Leave as read"
       ]
+    },
+    {
+      "id": "oa-coastal-ship-tonnage",
+      "group": "copy",
+      "title": "Axis coastal ship counters: three of 1,000 tons and one of 2,000?",
+      "context": "56.31 puts each coastal ship's tonnage on its counter. We have no scan of the counter sheet; the VASSAL module (errata applied) has four: A, B and C at 1,000 tons, D at 2,000. Recorded so in data/tables/axis-coastal-ships.json.",
+      "options": [
+        "My counters agree",
+        "My counters differ (say how)",
+        "Leave as read"
+      ]
     }
   ]
 }

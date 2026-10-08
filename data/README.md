@@ -129,11 +129,11 @@ prose always describes the post-errata value and annotates it with
 
 Some rules need per-unit figures printed on the organisation (OA) sheets or
 on counters, not in the rules. The prose names each one as a variable; the
-values are to come from the OA sub-project, and none is invented here.
+values come from the charts and counters (Mission 6, Task 3.6); none is invented here.
 
-| Variable | Per | Used by |
-|---|---|---|
-| Fuel consumption rate | TOE Strength Point of vehicles | `rules/logistics/10-fuel.md` (49.13) |
-| Fuel capacity rating (where printed; otherwise derived, R-043) | TOE Strength Point of vehicles | `rules/logistics/10-fuel.md` (49.14) |
-| Cargo capacity in tons | Axis coastal ship counter | `rules/logistics/50-ports-and-shipping.md` (56.31) |
+| Variable | Per | Used by | Where it is now |
+|---|---|---|---|
+| Fuel consumption rate | TOE Strength Point of vehicles | `rules/logistics/10-fuel.md` (49.13) | `tables/weapon-systems.json` `fuel_rate` (tanks, SP and towed guns, 4.47–4.49); `tables/truck-characteristics.json` `fuel_consumption` (trucks, 54.2) |
+| Fuel capacity rating | TOE Strength Point of vehicles | `rules/logistics/10-fuel.md` (49.14) | derived, never printed per unit: CPA ÷ 5 (part-block counted whole, R-043) × consumption rate; trucks print theirs (`fuel_capacity`) |
+| Cargo capacity in tons | Axis coastal ship counter | `rules/logistics/50-ports-and-shipping.md` (56.31) | `tables/axis-coastal-ships.json` (from the VASSAL counters; awaiting a printed check) |
 

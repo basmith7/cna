@@ -52,9 +52,11 @@ dump is worth taking.
 
 ::: spi 49.13 49.14
 
-Each TOE Strength Point of vehicles has two values on its side's
-organisation sheets: a **fuel consumption rate** and a **fuel capacity
-rating**. We do not reproduce those values here; they are per-unit data.
+Two numbers govern a vehicle Strength Point's fuel: its **fuel consumption
+rate** and its **fuel capacity rating**. The rates are data: `fuel_rate` in
+`data/tables/weapon-systems.json` for tanks and guns, `fuel_consumption` in
+`data/tables/truck-characteristics.json` for trucks. The capacity is derived
+from the rate (item 2).
 
 1. **Consumption.** For each block of five Capability Points spent on
    movement, and for any part-block left over, the Strength Point burns

@@ -1,0 +1,14 @@
+{
+ "table": "axis-coastal-ships",
+ "sources": ["CNA1979:56.31", "vassal:CNAv2.1.0"],
+ "notes": [
+  "56.31 prints each coastal ship's cargo capacity on its counter, not in the rules or charts. The archive.org scan has no counter sheet; the four counters and their tonnages are read from the VASSAL module (CNAv2.1.0, errata applied), the only source we hold for them, so the figures await a check against a printed counter sheet (decision board, copy group).",
+  "Every ship has CPA 50 for movement only, uses no fuel and carries one kind of cargo at a time (56.31-56.35, rules/logistics/50-ports-and-shipping.md). The cruiser San Giorgio shares the module's coastal-shipping prototype but is a blocking ship at Tobruk (R-082), not a cargo ship."
+ ],
+ "rows": [
+  {"id": "ship:axis:a", "counter": "A", "capacity_tons": 1000, "sources": ["CNA1979:56.31", "vassal:CNAv2.1.0"]},
+  {"id": "ship:axis:b", "counter": "B", "capacity_tons": 1000, "sources": ["CNA1979:56.31", "vassal:CNAv2.1.0"]},
+  {"id": "ship:axis:c", "counter": "C", "capacity_tons": 1000, "sources": ["CNA1979:56.31", "vassal:CNAv2.1.0"]},
+  {"id": "ship:axis:d", "counter": "D", "capacity_tons": 2000, "sources": ["CNA1979:56.31", "vassal:CNAv2.1.0"]}
+ ]
+}
