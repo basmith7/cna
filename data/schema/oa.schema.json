@@ -34,10 +34,11 @@
                 "id": {"$ref": "common.schema.json#/$defs/unitId"},
                 "name": {"type": "string", "minLength": 1},
                 "abbreviation": {"type": "string", "description": "As printed on the counter"},
-                "id_code": {"type": "string", "pattern": "^[a-z]{1,2}$", "description": "Key into tables/unit-characteristics.json for this nation"},
+                "id_code": {"oneOf": [{"type": "string", "pattern": "^[a-z]{1,3}$"}, {"type": "null"}], "description": "Key into tables/unit-characteristics.json for this nation; null where the sheet prints none (a unit listed for attachment, whose code is on its home sheet)"},
+                "toe_mark": {"type": "string", "pattern": "^(N|[UO]@[0-9]+)$", "description": "Printed instead of a TOE: N = the maximum TOE for its ID code; U@n / O@n = under / over strength at n points"},
                 "parent": {"oneOf": [{"$ref": "common.schema.json#/$defs/unitId"}, {"type": "null"}], "description": "The unit it is assigned to on the sheet; null for the formation's top unit or an unassigned unit"},
                 "toe": {"$ref": "common.schema.json#/$defs/toe"},
-                "arrives": {"oneOf": [{"$ref": "common.schema.json#/$defs/gameTime"}, {"type": "null"}], "description": "Printed arrival; null where the sheet prints none"},
+                "arrives": {"oneOf": [{"$ref": "common.schema.json#/$defs/gameTime"}, {"const": "deployed"}, {"type": "null"}], "description": "Printed arrival (the sheet prints OpStage/Game-Turn); deployed = D, placed before play begins; null where the sheet prints none"},
                 "morale": {"type": "integer", "description": "Only where the sheet gives this unit a morale other than the formation's"},
                 "notes": {"type": "array", "items": {"type": "string"}}
               }

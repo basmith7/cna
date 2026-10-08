@@ -80,6 +80,16 @@
         "Both reads are right",
         "One or both are wrong (see note)"
       ]
+    },
+    {
+      "id": "uc-german-cd-cpa",
+      "group": "copy",
+      "title": "German unit characteristics, ID codes c and d: CPA 30† or 30**?",
+      "context": "The German chart set (and the community scan) print the CPA of ID codes c and d as 30 with a dagger, which the 4.46c key never defines; the copy of the chart on the Commonwealth side prints 30 with a double asterisk (keeps its CPA whatever is assigned). Recorded as 30†. Same chart: ID code v prints a lone asterisk in the close-assault column, recorded as offence '*', defence blank.",
+      "options": [
+        "My copy prints 30** (or explains the dagger)",
+        "Leave as read"
+      ]
     }
   ]
 }

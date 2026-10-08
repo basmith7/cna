@@ -368,3 +368,10 @@ Blocked: none.
 Done: AUTOPILOT.md gains **The goal**, shared with cna-engine. Queue reordered: 6 Scenarios and OA (§59–65), 7 Air Game. After 7, work only on cna-engine's Requests for cna and Feedback.
 Next: read cna-engine's Requests for cna, then Mission 6 Part 0, branch `autopilot/m6-spec`.
 Blocked: none.
+
+## 2026-10-08 09:40 MST — autopilot/s-characteristics
+Done: Mission 6 Part 0 spec+plan #146 (2dc5d9d), Task 1.1 schemas + check_data refs #147; PROGRESS on main (3152cd0). No engine requests.
+Deviation from plan: frontier (Libya/Egypt) split into Task 1.1b, not started; the Scenarios sidebar lands with the first rules page (an empty group breaks the build).
+In flight: double reads by subagents into /tmp/apwork/reads/ (lost if /tmp is wiped): OA it/cw A+B, unit characteristics A+B, reinforcements GT1-6 A+B, §60 set-up. This branch has the characteristics schema only.
+Next: diff reads (`/tmp/apwork/diffreads.py` if present), land 1.2 (characteristics), 1.3 (OA), 1.4 (schedule), then 1.5 (scenario + rules §59–60).
+Blocked: none.
