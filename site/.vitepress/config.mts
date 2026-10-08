@@ -86,6 +86,7 @@ export default defineConfig({
           { text: 'Group Two — the Desert Fox', link: '/rules/scenarios/20-desert-fox' },
           { text: 'Group Three — Crusader', link: '/rules/scenarios/30-crusader' },
           { text: 'Group Four — El Alamein', link: '/rules/scenarios/40-el-alamein' },
+          { text: 'Group Five — the campaign game', link: '/rules/scenarios/50-campaign-game' },
         ] },
         { text: 'Provenance', items: [
           { text: 'Changes from the original', link: '/rules/changes' },

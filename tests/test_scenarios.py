@@ -102,3 +102,9 @@ def test_el_alamein_pair():
     assert lr["extends"] == "scenario:the-last-chance"
     assert sorted(p["axis"] for p in lr["victory"]["points"]) == [1, 1, 1, 2, 3, 3, 5]
     assert len(lc["construction"]["minefields"]) == 24
+def test_campaign_games():
+    full, short = load("campaign-game"), load("short-campaign-game")
+    assert full["extends"] == "scenario:grazianis-offensive" and short["extends"] == "scenario:rommels-arrival"
+    assert full["end"] == short["end"] == {"game_turn": 111, "opstage": 3}
+    assert short["start"] == {"game_turn": 26, "opstage": 3}
+    assert short["victory"] == full["victory"]
