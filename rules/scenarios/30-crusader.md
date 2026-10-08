@@ -35,12 +35,13 @@ early in Game-Turn 58, sooner if it does not move in the opening stage.
 ::: spi 62.33 62.34 62.35 62.36 62.37 62.38
 
 **Air, trucks, supply, Malta, fleet and reinforcements** are in the
-scenario file. Of six Commonwealth forward dump sites, four hold real
-supplies, shared out with each holding at least a fifth of every item; the
-other two are dummies. Reinforcements and replacements arrive in the normal
-way.
+scenario file. Reinforcements and replacements arrive in the normal way.
 
 ::: ruling R-107 — what an inactive dump is
+
+Of six Commonwealth forward dump sites, four are real, sharing the
+supplies with each holding at least a fifth of every item; the two
+inactive ones are dummy dumps. The Axis sites are read the same way.
 
 ## Axis forces {#axis}
 
