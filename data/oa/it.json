@@ -1,0 +1,6388 @@
+{
+ "nation": "it",
+ "sources": [
+  "CNA1979:4.44",
+  "scan:p146",
+  "scan:p147",
+  "scan:p148",
+  "scan:p149",
+  "scan:p150",
+  "scan:p151",
+  "scan:p152",
+  "scan:p153",
+  "scan:p154",
+  "scan:p155",
+  "scan:p156",
+  "scan:p157",
+  "scan:p158",
+  "scan:p159",
+  "scan:p160"
+ ],
+ "notes": [
+  "Chart is printed as [4.44b] Italian Organization at Arrival Chart on the scan.",
+  "Arrives is printed OpStage/Game-Turn (the intro: '#/-' is the Operations Stage, '-/#' the Game-Turn); e.g. 1/18 = OpStage 1 of Game-Turn 18.",
+  "Arrives 'D' = deployed at start on the map; recorded as arrives null with a note.",
+  "Parent follows the sheet's indentation: an indented unit is assigned to the nearest less-indented unit above it; an unindented unit has no parent.",
+  "TOE 'N' = the unit has the full TOE for its ID code (Unit Characteristics Chart); recorded as an empty toe with a note. 'U@x' = understrength at x TOE points; 'O@x' = overstrength at x.",
+  "HQ^E on the sheet marks an HQ with engineering capability; the superscript is kept in the name as ^E.",
+  "Read twice (archive.org scan jp2 146-160; community 300 dpi Axis Charts.pdf pp. 4-18) and diffed: 1956 cells compared; after aligning conventions the reads differ only where a heading row (an artillery grouping with no counter) was taken as a parent, and on the 46th Artillery Regt of the Trento sheet, printed slightly left of its siblings: read as assigned to the division HQ like the other divisional units.",
+  "Arrives: the sheets print Operations Stage / Game-Turn; D (deployed) is \"deployed\". toe_mark N means the maximum TOE for the unit's ID code.",
+  "Counters listed on a division sheet as attached but printed again on their home sheet (Unassigned Armored, Unassigned Blackshirt, the Libyan Tank Command) have one id, on the home sheet; the division sheet lists them under attached.",
+  "The chart sets head this chart 4.44b (Italian Organization at Arrival)."
+ ],
+ "formations": [
+  {
+   "id": "132-ariete-div",
+   "name": "132nd \"Ariete\" Divisione Corazzata (Armored)",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p146"
+   ],
+   "notes": [
+    "note a: best Italian division",
+    " OB/TOE shows the initial arrival, it was later reinforced from Littorio"
+   ],
+   "units": [
+    {
+     "id": "unit:it:ariete-132nd-div-hq",
+     "name": "Ariete (132nd) Div HQ^E",
+     "abbreviation": "Ariete",
+     "id_code": "d",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "M13/40",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 18,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:132-regt-corazzata-hq",
+     "name": "132 Regt Corazzata HQ",
+     "abbreviation": "132 RC",
+     "id_code": "d",
+     "parent": "unit:it:ariete-132nd-div-hq",
+     "toe": [
+      {
+       "weapon": "M13/40",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 18,
+      "opstage": 1
+     },
+     "notes": [
+      "b: originally the 32nd R.C."
+     ]
+    },
+    {
+     "id": "unit:it:viim-tank-bn",
+     "name": "VII(M) Tank Bn",
+     "abbreviation": "VII(M)",
+     "id_code": "l",
+     "parent": "unit:it:132-regt-corazzata-hq",
+     "toe": [
+      {
+       "weapon": "M13/40",
+       "points": 7
+      }
+     ],
+     "arrives": {
+      "game_turn": 18,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:viiim-tank-bn",
+     "name": "VIII(M) Tank Bn",
+     "abbreviation": "VIII(M)",
+     "id_code": "l",
+     "parent": "unit:it:132-regt-corazzata-hq",
+     "toe": [
+      {
+       "weapon": "M13/40",
+       "points": 7
+      }
+     ],
+     "arrives": {
+      "game_turn": 18,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:ixm-tank-bn",
+     "name": "IX(M) Tank Bn",
+     "abbreviation": "IX(M)",
+     "id_code": "l",
+     "parent": "unit:it:132-regt-corazzata-hq",
+     "toe": [
+      {
+       "weapon": "M13/40",
+       "points": 7
+      }
+     ],
+     "arrives": {
+      "game_turn": 18,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:8th-bersaglieri-regt-hq",
+     "name": "8th Bersaglieri Regt HQ",
+     "abbreviation": "8Brs",
+     "id_code": "c",
+     "parent": "unit:it:ariete-132nd-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 18,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:3rd-bersaglieri-mitrg-bn",
+     "name": "3rd Bersaglieri Mitrg Bn",
+     "abbreviation": "3/8 Brs",
+     "id_code": "n",
+     "parent": "unit:it:8th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 18,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:5th-bersaglieri-mitrg-bn",
+     "name": "5th Bersaglieri Mitrg Bn",
+     "abbreviation": "5/8 Brs",
+     "id_code": "t",
+     "parent": "unit:it:8th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 18,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:12th-bersaglieri-mitrg-bn",
+     "name": "12th Bersaglieri Mitrg Bn",
+     "abbreviation": "12/8 Brs",
+     "id_code": "t",
+     "parent": "unit:it:8th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 18,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:2nd-anti-tank-bn",
+     "name": "2nd Anti-tank Bn",
+     "abbreviation": "2",
+     "id_code": "qq",
+     "parent": "unit:it:ariete-132nd-div-hq",
+     "toe": [
+      {
+       "weapon": "47/32",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 18,
+      "opstage": 1
+     },
+     "notes": [
+      "c: merges the 72nd, 132nd and 142nd Anti-tank Companies"
+     ]
+    },
+    {
+     "id": "unit:it:reco-nizza-cavalleria",
+     "name": "RECo 'Nizza Cavalleria'",
+     "abbreviation": "NizCav",
+     "id_code": "ww",
+     "parent": "unit:it:ariete-132nd-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 18,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:132nd-artillery-regt",
+     "name": "132nd Artillery Regt",
+     "abbreviation": "132",
+     "id_code": "kk",
+     "parent": "unit:it:ariete-132nd-div-hq",
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 3
+      },
+      {
+       "weapon": "75/18 Gun-Howitzer",
+       "points": 3
+      },
+      {
+       "weapon": "105/28 Gun",
+       "points": 3
+      },
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 18,
+      "opstage": 1
+     },
+     "notes": [
+      "d: later received several 75/18 self-propelled Semoventi from Littorio"
+     ]
+    }
+   ],
+   "attached": [
+    {
+     "unit": "unit:it:il-tank-bn",
+     "to": "unit:it:ariete-132nd-div-hq",
+     "notes": [
+      "e: attached rather than assigned",
+      " arrived with Ariete",
+      "no TOE printed"
+     ]
+    },
+    {
+     "unit": "unit:it:iil-tank-bn",
+     "to": "unit:it:ariete-132nd-div-hq",
+     "notes": [
+      "e: attached rather than assigned",
+      " arrived with Ariete",
+      "no TOE printed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "133-littorio-div",
+   "name": "133rd \"Littorio\" Divisione Corazzata (Armored)",
+   "basic_morale": 0,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p147"
+   ],
+   "notes": [
+    "note a: originally the 33rd (R.C.)",
+    " mostly used as replacements for Ariete, entering combat only later"
+   ],
+   "units": [
+    {
+     "id": "unit:it:littorio-133rd-div-hq",
+     "name": "Littorio (133rd) Div HQ^E",
+     "abbreviation": "Littorio",
+     "id_code": "d",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "L6/40",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 62,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:it:133rd-regt-corazzata-hq",
+     "name": "133rd Regt Corazzata HQ",
+     "abbreviation": "133 RC",
+     "id_code": "d",
+     "parent": "unit:it:littorio-133rd-div-hq",
+     "toe": [
+      {
+       "weapon": "L6/40",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 62,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:it:xm-tank-bn",
+     "name": "X(M) Tank Bn",
+     "abbreviation": "X(M)",
+     "id_code": "l",
+     "parent": "unit:it:133rd-regt-corazzata-hq",
+     "toe": [
+      {
+       "weapon": "M13/40",
+       "points": 5
+      },
+      {
+       "weapon": "M14/41",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 62,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:it:xim-tank-bn",
+     "name": "XI(M) Tank Bn",
+     "abbreviation": "XI(M)",
+     "id_code": "l",
+     "parent": "unit:it:133rd-regt-corazzata-hq",
+     "toe": [
+      {
+       "weapon": "M14/41",
+       "points": 7
+      }
+     ],
+     "arrives": {
+      "game_turn": 62,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:it:xiim-tank-bn",
+     "name": "XII(M) Tank Bn",
+     "abbreviation": "XII(M)",
+     "id_code": "l",
+     "parent": "unit:it:133rd-regt-corazzata-hq",
+     "toe": [
+      {
+       "weapon": "M13/40",
+       "points": 4
+      },
+      {
+       "weapon": "M14/41",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 62,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:it:12th-bersaglieri-regt-hq",
+     "name": "12th Bersaglieri Regt HQ",
+     "abbreviation": "12 Brs",
+     "id_code": "c",
+     "parent": "unit:it:littorio-133rd-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 62,
+      "opstage": 3
+     },
+     "notes": [
+      "b: the regiment's 21st mitragliere bn was lost at sea and is not included"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:23rd-bersaglieri-mtr-bn",
+     "name": "23rd Bersaglieri Mtr Bn",
+     "abbreviation": "23/12 Brs",
+     "id_code": "t",
+     "parent": "unit:it:12th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 62,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:36th-bersaglieri-mtr-bn",
+     "name": "36th Bersaglieri Mtr Bn",
+     "abbreviation": "36/12 Brs",
+     "id_code": "t",
+     "parent": "unit:it:12th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 62,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:reco-lanceria-di-novara",
+     "name": "RECo 'Lanceria di Novara'",
+     "abbreviation": "LancNov",
+     "id_code": "vv",
+     "parent": "unit:it:littorio-133rd-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 62,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:21st-artillery-bn",
+     "name": "21st Artillery Bn",
+     "abbreviation": "21/3",
+     "id_code": "kk",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      },
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 62,
+      "opstage": 3
+     },
+     "notes": [
+      "listed under the heading '3rd Articelere Regt', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:v-articelere-bn",
+     "name": "V Articelere Bn",
+     "abbreviation": "V/3",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Semovente 75/18 SP Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 62,
+      "opstage": 3
+     },
+     "notes": [
+      "d: early Semovente 75/18 SP guns",
+      " stripped to Ariete, later replaced by DLIV and DLVI Articelere Bns",
+      "listed under the heading '3rd Articelere Regt', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:vi-articelere-bn",
+     "name": "VI Articelere Bn",
+     "abbreviation": "VI/3",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Semovente 75/18 SP Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 62,
+      "opstage": 3
+     },
+     "notes": [
+      "d: early Semovente 75/18 SP guns",
+      " stripped to Ariete, later replaced by DLIV and DLVI Articelere Bns",
+      "listed under the heading '3rd Articelere Regt', which has no counter"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1st-libyan-infantry-div-sibille",
+   "name": "1st Libyan Infantry Division (Sibille)",
+   "basic_morale": -2,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p147"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:1st-libyan-infantry-hq",
+     "name": "1st Libyan Infantry HQ^E",
+     "abbreviation": "1 Libyan",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:1st-libyan-regt-hq",
+     "name": "1st Libyan Regt HQ",
+     "abbreviation": "1Libyan",
+     "id_code": "h",
+     "parent": "unit:it:1st-libyan-infantry-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:viii-libyan-bn",
+     "name": "VIII Libyan Bn",
+     "abbreviation": "VIII/1L",
+     "id_code": "x",
+     "parent": "unit:it:1st-libyan-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ix-libyan-bn",
+     "name": "IX Libyan Bn",
+     "abbreviation": "IX/1L",
+     "id_code": "x",
+     "parent": "unit:it:1st-libyan-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:x-libyan-bn",
+     "name": "X Libyan Bn",
+     "abbreviation": "X/1L",
+     "id_code": "x",
+     "parent": "unit:it:1st-libyan-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:2nd-libyan-regt-hq",
+     "name": "2nd Libyan Regt HQ",
+     "abbreviation": "2 Libyan",
+     "id_code": "h",
+     "parent": "unit:it:1st-libyan-infantry-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:xi-libyan-bn",
+     "name": "XI Libyan Bn",
+     "abbreviation": "XI/2L",
+     "id_code": "x",
+     "parent": "unit:it:2nd-libyan-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:xii-libyan-bn",
+     "name": "XII Libyan Bn",
+     "abbreviation": "XII/2L",
+     "id_code": "x",
+     "parent": "unit:it:2nd-libyan-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:xiii-libyan-bn",
+     "name": "XIII Libyan Bn",
+     "abbreviation": "XIII/2L",
+     "id_code": "x",
+     "parent": "unit:it:2nd-libyan-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:1st-libyan-artillery-regt",
+     "name": "1st Libyan Artillery Regt",
+     "abbreviation": "1 Libyan",
+     "id_code": "jj",
+     "parent": "unit:it:1st-libyan-infantry-hq",
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:1st-libyan-anti-tank-coy",
+     "name": "1st Libyan Anti-tank Coy",
+     "abbreviation": "1 Libyan",
+     "id_code": "rr",
+     "parent": "unit:it:1st-libyan-infantry-hq",
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed"
+    }
+   ]
+  },
+  {
+   "id": "2nd-libyan-pescatori-infantry-div",
+   "name": "2nd Libyan (Pescatori) Infantry Division",
+   "basic_morale": -2,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p147"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:2nd-libyan-infantry-hq",
+     "name": "2nd Libyan Infantry HQ^E",
+     "abbreviation": "2 Libyan",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:3rd-libyan-regt-hq",
+     "name": "3rd Libyan Regt HQ",
+     "abbreviation": "3 Libyan",
+     "id_code": "h",
+     "parent": "unit:it:2nd-libyan-infantry-hq",
+     "toe": [
+      {
+       "weapon": "65/17",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:ii-libyan-bn",
+     "name": "II Libyan Bn",
+     "abbreviation": "II/3L",
+     "id_code": "x",
+     "parent": "unit:it:3rd-libyan-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:vi-libyan-bn",
+     "name": "VI Libyan Bn",
+     "abbreviation": "VI/3L",
+     "id_code": "x",
+     "parent": "unit:it:3rd-libyan-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:vii-libyan-bn",
+     "name": "VII Libyan Bn",
+     "abbreviation": "VII/3L",
+     "id_code": "x",
+     "parent": "unit:it:3rd-libyan-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:4th-libyan-regt-hq",
+     "name": "4th Libyan Regt HQ",
+     "abbreviation": "4 Libyan",
+     "id_code": "h",
+     "parent": "unit:it:2nd-libyan-infantry-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:xiv-libyan-bn",
+     "name": "XIV Libyan Bn",
+     "abbreviation": "XIV/4L",
+     "id_code": "x",
+     "parent": "unit:it:4th-libyan-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:xv-libyan-bn",
+     "name": "XV Libyan Bn",
+     "abbreviation": "XV/4L",
+     "id_code": "x",
+     "parent": "unit:it:4th-libyan-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:xvi-libyan-bn",
+     "name": "XVI Libyan Bn",
+     "abbreviation": "XVI/4L",
+     "id_code": "x",
+     "parent": "unit:it:4th-libyan-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:2nd-libyan-artillery-regt",
+     "name": "2nd Libyan Artillery Regt",
+     "abbreviation": "2 Libyan",
+     "id_code": "jj",
+     "parent": "unit:it:2nd-libyan-infantry-hq",
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 9
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed"
+    }
+   ],
+   "attached": [
+    {
+     "unit": "unit:it:ixl-tank-bn",
+     "to": "unit:it:2nd-libyan-infantry-hq",
+     "notes": [
+      "a: belongs to the Libyan Tank Command",
+      " starts attached to 2nd Libyan",
+      "no TOE printed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the-libyan-tank-command-babini-gruppo-corazzato",
+   "name": "The Libyan Tank Command (Babini Gruppo Corazzato)",
+   "basic_morale": 0,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p148"
+   ],
+   "notes": [
+    "note a: original Italian armored division on paper",
+    " tank bns mostly attached elsewhere"
+   ],
+   "units": [
+    {
+     "id": "unit:it:libyan-tank-command-hq",
+     "name": "Libyan Tank Command HQ",
+     "abbreviation": "LTC",
+     "id_code": "d",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "M11/39",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:aresca-1st-regt-hq",
+     "name": "Aresca (1st) Regt HQ",
+     "abbreviation": "Aresca",
+     "id_code": "d",
+     "parent": "unit:it:libyan-tank-command-hq",
+     "toe": [
+      {
+       "weapon": "CV33",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:xxil-tank-bn",
+     "name": "XXI(L) Tank Bn",
+     "abbreviation": "XXI(L)",
+     "id_code": "k",
+     "parent": "unit:it:aresca-1st-regt-hq",
+     "toe": [
+      {
+       "weapon": "CV33",
+       "points": 9
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:lxiil-tank-bn",
+     "name": "LXII(L) Tank Bn",
+     "abbreviation": "LXII(L)",
+     "id_code": "k",
+     "parent": "unit:it:aresca-1st-regt-hq",
+     "toe": [
+      {
+       "weapon": "CV33",
+       "points": 9
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "b: attached elsewhere at start (to 62 Marmarica)"
+     ]
+    },
+    {
+     "id": "unit:it:lxiiil-tank-bn",
+     "name": "LXIII(L) Tank Bn",
+     "abbreviation": "LXIII(L)",
+     "id_code": "k",
+     "parent": "unit:it:aresca-1st-regt-hq",
+     "toe": [
+      {
+       "weapon": "CV33",
+       "points": 9
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "b: attached elsewhere at start (to 63 Cirene)"
+     ]
+    },
+    {
+     "id": "unit:it:im-tank-bn",
+     "name": "I(M) Tank Bn",
+     "abbreviation": "I(M)",
+     "id_code": "l",
+     "parent": "unit:it:aresca-1st-regt-hq",
+     "toe": [
+      {
+       "weapon": "M11/39",
+       "points": 7
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "b: attached elsewhere at start (to 1st CCNN)"
+     ]
+    },
+    {
+     "id": "unit:it:trivioli-2nd-regt-hq",
+     "name": "Trivioli (2nd) Regt HQ",
+     "abbreviation": "Trvli",
+     "id_code": "d",
+     "parent": "unit:it:libyan-tank-command-hq",
+     "toe": [
+      {
+       "weapon": "CV33",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:ixl-tank-bn",
+     "name": "IX(L) Tank Bn",
+     "abbreviation": "IX(L)",
+     "id_code": "k",
+     "parent": "unit:it:trivioli-2nd-regt-hq",
+     "toe": [
+      {
+       "weapon": "CV33",
+       "points": 9
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "b: attached elsewhere at start (to 2nd Libyan)"
+     ]
+    },
+    {
+     "id": "unit:it:xxl-tank-bn",
+     "name": "XX(L) Tank Bn",
+     "abbreviation": "XX(L)",
+     "id_code": "k",
+     "parent": "unit:it:trivioli-2nd-regt-hq",
+     "toe": [
+      {
+       "weapon": "CV33",
+       "points": 9
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:lxl-tank-bn",
+     "name": "LX(L) Tank Bn",
+     "abbreviation": "LX(L)",
+     "id_code": "k",
+     "parent": "unit:it:trivioli-2nd-regt-hq",
+     "toe": [
+      {
+       "weapon": "CV33",
+       "points": 9
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "c: one company starts attached to Maletti"
+     ]
+    },
+    {
+     "id": "unit:it:lxil-tank-bn",
+     "name": "LXI(L) Tank Bn",
+     "abbreviation": "LXI(L)",
+     "id_code": "k",
+     "parent": "unit:it:trivioli-2nd-regt-hq",
+     "toe": [
+      {
+       "weapon": "CV33",
+       "points": 9
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:iim-tank-bn",
+     "name": "II(M) Tank Bn",
+     "abbreviation": "II(M)",
+     "id_code": "l",
+     "parent": "unit:it:trivioli-2nd-regt-hq",
+     "toe": [
+      {
+       "weapon": "M11/39",
+       "points": 7
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "b: attached elsewhere at start (to Maletti)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "16-pistoia-div",
+   "name": "16th \"Pistoia\" Divison (Semi-motorized)",
+   "basic_morale": -1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p148"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:16th-pistoia-div-hq",
+     "name": "16th Pistoia Div HQ",
+     "abbreviation": "16 Pist",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:35th-fanteria-regt-hq",
+     "name": "35th Fanteria Regt HQ",
+     "abbreviation": "35",
+     "id_code": "h",
+     "parent": "unit:it:16th-pistoia-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:it:i-35-infantry-bn",
+     "name": "I/35 Infantry Bn",
+     "abbreviation": "I/35",
+     "id_code": "u",
+     "parent": "unit:it:35th-fanteria-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-35-infantry-bn",
+     "name": "II/35 Infantry Bn",
+     "abbreviation": "II/35",
+     "id_code": "u",
+     "parent": "unit:it:35th-fanteria-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-35-infantry-bn",
+     "name": "III/35 Infantry Bn",
+     "abbreviation": "III/35",
+     "id_code": "u",
+     "parent": "unit:it:35th-fanteria-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:36th-fanteria-regt-hq",
+     "name": "36th Fanteria Regt HQ",
+     "abbreviation": "36",
+     "id_code": "h",
+     "parent": "unit:it:16th-pistoia-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:it:i-36-infantry-bn",
+     "name": "I/36 Infantry Bn",
+     "abbreviation": "I/36",
+     "id_code": "u",
+     "parent": "unit:it:36th-fanteria-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-36-infantry-bn",
+     "name": "II/36 Infantry Bn",
+     "abbreviation": "II/36",
+     "id_code": "u",
+     "parent": "unit:it:36th-fanteria-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-36-infantry-bn",
+     "name": "III/36 Infantry Bn",
+     "abbreviation": "III/36",
+     "id_code": "u",
+     "parent": "unit:it:36th-fanteria-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:30th-artillery-regt",
+     "name": "30th Artillery Regt",
+     "abbreviation": "30",
+     "id_code": "kk",
+     "parent": "unit:it:16th-pistoia-div-hq",
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 3
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      },
+      {
+       "weapon": "Heavy AA",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:it:16th-engineer-bn",
+     "name": "16th Engineer Bn",
+     "abbreviation": "16",
+     "id_code": "bbb",
+     "parent": "unit:it:16th-pistoia-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:57th-bersaglieri-mitrg-coy",
+     "name": "57th Bersaglieri Mitrg Coy",
+     "abbreviation": "57 Brs",
+     "id_code": "n",
+     "parent": "unit:it:16th-pistoia-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 99,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-monferrato-squadrone",
+     "name": "III Monferrato Squadrone",
+     "abbreviation": "III Monf",
+     "id_code": "vv",
+     "parent": "unit:it:16th-pistoia-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     },
+     "toe_mark": "U@4"
+    }
+   ]
+  },
+  {
+   "id": "60-sabratha-div",
+   "name": "60th \"Sabratha\" Division (Semi-motorized)",
+   "basic_morale": -1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p148"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:60th-sabratha-div-hq",
+     "name": "60th Sabratha Div HQ",
+     "abbreviation": "60 Sab",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:85th-infantry-regt-hq",
+     "name": "85th Infantry Regt HQ",
+     "abbreviation": "85",
+     "id_code": "h",
+     "parent": "unit:it:60th-sabratha-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:i-85-infantry-bn",
+     "name": "I/85 Infantry Bn",
+     "abbreviation": "I/85",
+     "id_code": "u",
+     "parent": "unit:it:85th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-85-infantry-bn",
+     "name": "II/85 Infantry Bn",
+     "abbreviation": "II/85",
+     "id_code": "u",
+     "parent": "unit:it:85th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-85-infantry-bn",
+     "name": "III/85 Infantry Bn",
+     "abbreviation": "III/85",
+     "id_code": "u",
+     "parent": "unit:it:85th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:86th-infantry-regt-hq",
+     "name": "86th Infantry Regt HQ",
+     "abbreviation": "86",
+     "id_code": "h",
+     "parent": "unit:it:60th-sabratha-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:i-86-infantry-bn",
+     "name": "I/86 Infantry Bn",
+     "abbreviation": "I/86",
+     "id_code": "u",
+     "parent": "unit:it:86th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-86-infantry-bn",
+     "name": "II/86 Infantry Bn",
+     "abbreviation": "II/86",
+     "id_code": "u",
+     "parent": "unit:it:86th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-86-infantry-bn",
+     "name": "III/86 Infantry Bn",
+     "abbreviation": "III/86",
+     "id_code": "u",
+     "parent": "unit:it:86th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:60th-machinegun-bn",
+     "name": "60th Machinegun Bn",
+     "abbreviation": "60",
+     "id_code": "bb",
+     "parent": "unit:it:60th-sabratha-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:60th-anti-tank-coy",
+     "name": "60th Anti-tank Coy",
+     "abbreviation": "60",
+     "id_code": "rr",
+     "parent": "unit:it:60th-sabratha-div-hq",
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:42nd-artillery-regt",
+     "name": "42nd Artillery Regt",
+     "abbreviation": "42",
+     "id_code": "kk",
+     "parent": "unit:it:60th-sabratha-div-hq",
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 6
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      },
+      {
+       "weapon": "Heavy AA",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:60th-engineer-bn",
+     "name": "60th Engineer Bn",
+     "abbreviation": "60",
+     "id_code": "bbb",
+     "parent": "unit:it:60th-sabratha-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:60th-bersaglieri-mitrg-coy",
+     "name": "60th Bersaglieri Mitrg Coy",
+     "abbreviation": "60 Brs",
+     "id_code": "aaa",
+     "parent": "unit:it:60th-sabratha-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    }
+   ]
+  },
+  {
+   "id": "gruppo-maletti",
+   "name": "Gruppo Maletti",
+   "basic_morale": -2,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p149"
+   ],
+   "notes": [
+    "note a: meant to become the 3rd Libyan Infantry Division but never so designated"
+   ],
+   "units": [
+    {
+     "id": "unit:it:maletti-div-hq",
+     "name": "Maletti Div HQ",
+     "abbreviation": "Maletti",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:i-libyan-mtr-regt-hq",
+     "name": "I Libyan Mtr Regt HQ",
+     "abbreviation": "1 LbMt",
+     "id_code": "f",
+     "parent": "unit:it:maletti-div-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:i-libyan-mtr-bn",
+     "name": "I Libyan Mtr Bn",
+     "abbreviation": "I/1LbM",
+     "id_code": "w",
+     "parent": "unit:it:i-libyan-mtr-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-libyan-mtr-bn",
+     "name": "III Libyan Mtr Bn",
+     "abbreviation": "III/1LbM",
+     "id_code": "w",
+     "parent": "unit:it:i-libyan-mtr-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:v-libyan-mtr-bn",
+     "name": "V Libyan Mtr Bn",
+     "abbreviation": "V/1LbM",
+     "id_code": "w",
+     "parent": "unit:it:i-libyan-mtr-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:5th-libyan-regt-hq",
+     "name": "5th Libyan Regt HQ",
+     "abbreviation": "5 Libyan",
+     "id_code": "f",
+     "parent": "unit:it:maletti-div-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:xvii-libyan-bn",
+     "name": "XVII Libyan Bn",
+     "abbreviation": "XVII/5L",
+     "id_code": "x",
+     "parent": "unit:it:5th-libyan-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:xix-libyan-bn",
+     "name": "XIX Libyan Bn",
+     "abbreviation": "XIX/5L",
+     "id_code": "x",
+     "parent": "unit:it:5th-libyan-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:sahariano-camel-regt-hq",
+     "name": "Sahariano Camel Regt HQ",
+     "abbreviation": "Sno",
+     "id_code": "f",
+     "parent": "unit:it:maletti-div-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "notes": [
+      "b: a camel regiment in name only",
+      " assigned to Maletti"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:1-sahariano-camel-bn",
+     "name": "1 Sahariano Camel Bn",
+     "abbreviation": "1Sno/Sno",
+     "id_code": "zz",
+     "parent": "unit:it:sahariano-camel-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:2-sahariano-camel-bn",
+     "name": "2 Sahariano Camel Bn",
+     "abbreviation": "2Sno/Sno",
+     "id_code": "zz",
+     "parent": "unit:it:sahariano-camel-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:3-sahariano-camel-bn",
+     "name": "3 Sahariano Camel Bn",
+     "abbreviation": "3Sno/Sno",
+     "id_code": "zz",
+     "parent": "unit:it:sahariano-camel-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:1st-maletti-artillery-bn",
+     "name": "1st Maletti Artillery Bn",
+     "abbreviation": "1 Maletti",
+     "id_code": "mm",
+     "parent": "unit:it:maletti-div-hq",
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:2nd-maletti-artillery-bn",
+     "name": "2nd Maletti Artillery Bn",
+     "abbreviation": "2 Maletti",
+     "id_code": "mm",
+     "parent": "unit:it:maletti-div-hq",
+     "toe": [
+      {
+       "weapon": "75/18 Gun-Howitzer",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed"
+    }
+   ],
+   "attached": [
+    {
+     "unit": "unit:it:iim-tank-bn",
+     "to": "unit:it:maletti-div-hq",
+     "notes": [
+      "c: belongs to the Libyan Tank Command",
+      " starts attached to Maletti",
+      "no TOE printed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "17-pavia-div",
+   "name": "17th \"Pavia\" Division (Semi-motorized)",
+   "basic_morale": -1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p149"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:17th-pavia-div-hq",
+     "name": "17th Pavia Div HQ",
+     "abbreviation": "17 Pav",
+     "id_code": "e",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:27th-infantry-regt-hq",
+     "name": "27th Infantry Regt HQ",
+     "abbreviation": "27",
+     "id_code": "h",
+     "parent": "unit:it:17th-pavia-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:it:i-27-infantry-bn",
+     "name": "I/27 Infantry Bn",
+     "abbreviation": "I/27",
+     "id_code": "u",
+     "parent": "unit:it:27th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-27-infantry-bn",
+     "name": "II/27 Infantry Bn",
+     "abbreviation": "II/27",
+     "id_code": "u",
+     "parent": "unit:it:27th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-27-infantry-bn",
+     "name": "III/27 Infantry Bn",
+     "abbreviation": "III/27",
+     "id_code": "u",
+     "parent": "unit:it:27th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:28th-infantry-regt-hq",
+     "name": "28th Infantry Regt HQ",
+     "abbreviation": "28",
+     "id_code": "h",
+     "parent": "unit:it:17th-pavia-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:it:i-28-infantry-bn",
+     "name": "I/28 Infantry Bn",
+     "abbreviation": "I/28",
+     "id_code": "u",
+     "parent": "unit:it:28th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-28-infantry-bn",
+     "name": "II/28 Infantry Bn",
+     "abbreviation": "II/28",
+     "id_code": "u",
+     "parent": "unit:it:28th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-28-infantry-bn",
+     "name": "III/28 Infantry Bn",
+     "abbreviation": "III/28",
+     "id_code": "u",
+     "parent": "unit:it:28th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:17th-machinegun-bn",
+     "name": "17th Machinegun Bn",
+     "abbreviation": "17",
+     "id_code": "bb",
+     "parent": "unit:it:17th-pavia-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:17th-anti-tank-coy",
+     "name": "17th Anti-tank Coy",
+     "abbreviation": "17",
+     "id_code": "rr",
+     "parent": "unit:it:17th-pavia-div-hq",
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:it:26th-artillery-regt",
+     "name": "26th Artillery Regt",
+     "abbreviation": "26",
+     "id_code": "kk",
+     "parent": "unit:it:17th-pavia-div-hq",
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 6
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      },
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:it:17th-engineer-bn",
+     "name": "17th Engineer Bn",
+     "abbreviation": "17",
+     "id_code": "bbb",
+     "parent": "unit:it:17th-pavia-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    }
+   ],
+   "attached": [
+    {
+     "unit": "unit:it:9th-ccnn-legion-hq",
+     "to": "unit:it:17th-pavia-div-hq",
+     "notes": [
+      "a: independent Blackshirt legion",
+      " arrives attached to Pavia",
+      "no TOE printed"
+     ]
+    },
+    {
+     "unit": "unit:it:59th-ccnn-bn",
+     "to": "unit:it:9th-ccnn-legion-hq",
+     "notes": [
+      "a: independent Blackshirt legion",
+      " arrives attached to Pavia",
+      "no TOE printed"
+     ]
+    },
+    {
+     "unit": "unit:it:60th-ccnn-bn",
+     "to": "unit:it:9th-ccnn-legion-hq",
+     "notes": [
+      "a: independent Blackshirt legion",
+      " arrives attached to Pavia",
+      "no TOE printed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "25-bologna-div",
+   "name": "25th \"Bologna\" Division (Semi-motorized)",
+   "basic_morale": -1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p150"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:25th-bologna-div-hq",
+     "name": "25th Bologna Div HQ",
+     "abbreviation": "25 Bol",
+     "id_code": "e",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:39th-infantry-regt-hq",
+     "name": "39th Infantry Regt HQ",
+     "abbreviation": "39",
+     "id_code": "h",
+     "parent": "unit:it:25th-bologna-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:i-39-infantry-bn",
+     "name": "I/39 Infantry Bn",
+     "abbreviation": "I/39",
+     "id_code": "u",
+     "parent": "unit:it:39th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-39-infantry-bn",
+     "name": "II/39 Infantry Bn",
+     "abbreviation": "II/39",
+     "id_code": "u",
+     "parent": "unit:it:39th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-39-infantry-bn",
+     "name": "III/39 Infantry Bn",
+     "abbreviation": "III/39",
+     "id_code": "u",
+     "parent": "unit:it:39th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:40th-infantry-regt-hq",
+     "name": "40th Infantry Regt HQ",
+     "abbreviation": "40",
+     "id_code": "h",
+     "parent": "unit:it:25th-bologna-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:i-40-infantry-bn",
+     "name": "I/40 Infantry Bn",
+     "abbreviation": "I/40",
+     "id_code": "u",
+     "parent": "unit:it:40th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-40-infantry-bn",
+     "name": "II/40 Infantry Bn",
+     "abbreviation": "II/40",
+     "id_code": "u",
+     "parent": "unit:it:40th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-40-infantry-bn",
+     "name": "III/40 Infantry Bn",
+     "abbreviation": "III/40",
+     "id_code": "u",
+     "parent": "unit:it:40th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:25th-machinegun-bn",
+     "name": "25th Machinegun Bn",
+     "abbreviation": "25",
+     "id_code": "bb",
+     "parent": "unit:it:25th-bologna-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:25th-anti-tank-coy",
+     "name": "25th Anti-tank Coy",
+     "abbreviation": "25",
+     "id_code": "rr",
+     "parent": "unit:it:25th-bologna-div-hq",
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:10th-artillery-regt",
+     "name": "10th Artillery Regt",
+     "abbreviation": "10",
+     "id_code": "kk",
+     "parent": "unit:it:25th-bologna-div-hq",
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 6
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      },
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:25th-engineer-bn",
+     "name": "25th Engineer Bn",
+     "abbreviation": "25",
+     "id_code": "bbb",
+     "parent": "unit:it:25th-bologna-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    }
+   ],
+   "attached": [
+    {
+     "unit": "unit:it:32nd-ccnn-bn",
+     "to": "unit:it:25th-bologna-div-hq",
+     "notes": [
+      "a: independent Blackshirt bn",
+      " arrives attached to Bologna",
+      "no TOE printed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "101-trieste-div",
+   "name": "101st \"Trieste\" Division Fanteria Motorizzate",
+   "basic_morale": 0,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p150"
+   ],
+   "notes": [
+    "note a: unusual TOE/OB with more battalions and weapon variety than a standard motorized infantry division"
+   ],
+   "units": [
+    {
+     "id": "unit:it:101st-trieste-div-hq",
+     "name": "101st Trieste Div HQ",
+     "abbreviation": "101 Tst",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:65th-regt-mtr-hq",
+     "name": "65th Regt Mtr HQ",
+     "abbreviation": "65",
+     "id_code": "j",
+     "parent": "unit:it:101st-trieste-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:it:i-65-bn",
+     "name": "I/65 Bn",
+     "abbreviation": "I/65",
+     "id_code": "u",
+     "parent": "unit:it:65th-regt-mtr-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "notes": [
+      "b: historically fully motorized",
+      " CPA should be 10+ not 10"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-65",
+     "name": "II/65",
+     "abbreviation": "II/65",
+     "id_code": "u",
+     "parent": "unit:it:65th-regt-mtr-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "notes": [
+      "b: historically fully motorized",
+      " CPA should be 10+ not 10"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-65-heavy-wpns-bn",
+     "name": "III/65 Heavy Wpns Bn",
+     "abbreviation": "III/65",
+     "id_code": "p",
+     "parent": "unit:it:65th-regt-mtr-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "notes": [
+      "c: hard-to-classify mixed unit (mortars, AA guns with AT capability, light MGs)"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:66th-regt-mtr-hq",
+     "name": "66th Regt Mtr HQ",
+     "abbreviation": "66",
+     "id_code": "j",
+     "parent": "unit:it:101st-trieste-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:it:i-66-bn",
+     "name": "I/66 Bn",
+     "abbreviation": "I/66",
+     "id_code": "u",
+     "parent": "unit:it:66th-regt-mtr-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "notes": [
+      "b: historically fully motorized",
+      " CPA should be 10+ not 10"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-66-bn",
+     "name": "II/66 Bn",
+     "abbreviation": "II/66",
+     "id_code": "u",
+     "parent": "unit:it:66th-regt-mtr-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "notes": [
+      "b: historically fully motorized",
+      " CPA should be 10+ not 10"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-66-bn",
+     "name": "III/66 Bn",
+     "abbreviation": "III/66",
+     "id_code": "u",
+     "parent": "unit:it:66th-regt-mtr-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "notes": [
+      "b: historically fully motorized",
+      " CPA should be 10+ not 10"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iv-66-support-coy",
+     "name": "IV/66 Support Coy",
+     "abbreviation": "IV/66",
+     "id_code": "ff",
+     "parent": "unit:it:66th-regt-mtr-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:9th-bersaglieri-regt-hq",
+     "name": "9th Bersaglieri Regt HQ",
+     "abbreviation": "9 Brs",
+     "id_code": "c",
+     "parent": "unit:it:101st-trieste-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:28th-bersaglieri-mtr-bn",
+     "name": "28th Bersaglieri Mtr Bn",
+     "abbreviation": "28/9Brs",
+     "id_code": "t",
+     "parent": "unit:it:9th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:30th-bersaglieri-mtr-bn",
+     "name": "30th Bersaglieri Mtr Bn",
+     "abbreviation": "30/9Brs",
+     "id_code": "t",
+     "parent": "unit:it:9th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:32nd-bersaglieri-mitrg-bn",
+     "name": "32nd Bersaglieri Mitrg Bn",
+     "abbreviation": "32/9Brs",
+     "id_code": "n",
+     "parent": "unit:it:9th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:40th-heavy-wpns-bn",
+     "name": "40th Heavy Wpns Bn",
+     "abbreviation": "40/9 Brs",
+     "id_code": "p",
+     "parent": "unit:it:9th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:101st-heavy-wpns-bn",
+     "name": "101st Heavy Wpns Bn",
+     "abbreviation": "101",
+     "id_code": "p",
+     "parent": "unit:it:101st-trieste-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "notes": [
+      "d: same kind of mixed unit as c",
+      " some sources call it the 508th Divisional Heavy Weapons Bn"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:21st-artillery-regt",
+     "name": "21st Artillery Regt",
+     "abbreviation": "21",
+     "id_code": "jj",
+     "parent": "unit:it:101st-trieste-div-hq",
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 6
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      },
+      {
+       "weapon": "105/28 Gun",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "notes": [
+      "e: not the 21st Artillery Bn (21/3) of Littorio"
+     ]
+    },
+    {
+     "id": "unit:it:21st-anti-air-gruppo",
+     "name": "21st Anti-air Gruppo",
+     "abbreviation": "21",
+     "id_code": "tt",
+     "parent": "unit:it:101st-trieste-div-hq",
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:it:8th-armored-bersaglieri-bn",
+     "name": "8th Armored Bersaglieri Bn",
+     "abbreviation": "8 ArmBr",
+     "id_code": "vv",
+     "parent": "unit:it:101st-trieste-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 70,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:101st-engineer-bn",
+     "name": "101st Engineer Bn",
+     "abbreviation": "101",
+     "id_code": "bbb",
+     "parent": "unit:it:101st-trieste-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    }
+   ]
+  },
+  {
+   "id": "55-savona-div",
+   "name": "55th \"Savona\" Division (Semi-motorized)",
+   "basic_morale": -1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p151"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:55th-savona-div-hq",
+     "name": "55th Savona Div HQ",
+     "abbreviation": "55 Sav",
+     "id_code": "e",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:15th-infantry-regt-hq",
+     "name": "15th Infantry Regt HQ",
+     "abbreviation": "15",
+     "id_code": "h",
+     "parent": "unit:it:55th-savona-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:i-15-infantry-bn",
+     "name": "I/15 Infantry Bn",
+     "abbreviation": "I/15",
+     "id_code": "u",
+     "parent": "unit:it:15th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-15-infantry-bn",
+     "name": "II/15 Infantry Bn",
+     "abbreviation": "II/15",
+     "id_code": "u",
+     "parent": "unit:it:15th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-15-infantry-bn",
+     "name": "III/15 Infantry Bn",
+     "abbreviation": "III/15",
+     "id_code": "u",
+     "parent": "unit:it:15th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:16th-infantry-regt-hq",
+     "name": "16th Infantry Regt HQ",
+     "abbreviation": "16",
+     "id_code": "h",
+     "parent": "unit:it:55th-savona-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:i-16-infantry-bn",
+     "name": "I/16 Infantry Bn",
+     "abbreviation": "I/16",
+     "id_code": "u",
+     "parent": "unit:it:16th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-16-infantry-bn",
+     "name": "II/16 Infantry Bn",
+     "abbreviation": "II/16",
+     "id_code": "u",
+     "parent": "unit:it:16th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-16-infantry-bn",
+     "name": "III/16 Infantry Bn",
+     "abbreviation": "III/16",
+     "id_code": "u",
+     "parent": "unit:it:16th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:55th-machinegun-bn",
+     "name": "55th Machinegun Bn",
+     "abbreviation": "55",
+     "id_code": "bb",
+     "parent": "unit:it:55th-savona-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:55th-anti-tank-coy",
+     "name": "55th Anti-tank Coy",
+     "abbreviation": "55",
+     "id_code": "rr",
+     "parent": "unit:it:55th-savona-div-hq",
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:12th-artillery-regt",
+     "name": "12th Artillery Regt",
+     "abbreviation": "12",
+     "id_code": "kk",
+     "parent": "unit:it:55th-savona-div-hq",
+     "toe": [
+      {
+       "weapon": "75/18 Gun-Howitzer",
+       "points": 6
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      },
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:55th-engineer-bn",
+     "name": "55th Engineer Bn",
+     "abbreviation": "55",
+     "id_code": "bbb",
+     "parent": "unit:it:55th-savona-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    }
+   ],
+   "attached": [
+    {
+     "unit": "unit:it:7th-ccnn-legion-hq",
+     "to": "unit:it:55th-savona-div-hq",
+     "notes": [
+      "a: independent Blackshirt legion",
+      " arrives attached to Savona",
+      "no TOE printed"
+     ]
+    },
+    {
+     "unit": "unit:it:7th-ccnn-bn",
+     "to": "unit:it:7th-ccnn-legion-hq",
+     "notes": [
+      "a: independent Blackshirt legion",
+      " arrives attached to Savona",
+      "no TOE printed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "27-brescia-div",
+   "name": "27th \"Brescia\" Division (Semi-motorized)",
+   "basic_morale": -1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p151"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:27-brescia-div-hq",
+     "name": "27 Brescia Div HQ",
+     "abbreviation": "27 Bre",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:19th-infantry-regt-hq",
+     "name": "19th Infantry Regt HQ",
+     "abbreviation": "19",
+     "id_code": "h",
+     "parent": "unit:it:27-brescia-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:it:i-19-infantry-bn",
+     "name": "I/19 Infantry Bn",
+     "abbreviation": "I/19",
+     "id_code": "u",
+     "parent": "unit:it:19th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-19-infantry-bn",
+     "name": "II/19 Infantry Bn",
+     "abbreviation": "II/19",
+     "id_code": "u",
+     "parent": "unit:it:19th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-19-infantry-bn",
+     "name": "III/19 Infantry Bn",
+     "abbreviation": "III/19",
+     "id_code": "u",
+     "parent": "unit:it:19th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:20th-infantry-regt-hq",
+     "name": "20th Infantry Regt HQ",
+     "abbreviation": "20",
+     "id_code": "h",
+     "parent": "unit:it:27-brescia-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:it:i-20-infantry-bn",
+     "name": "I/20 Infantry Bn",
+     "abbreviation": "I/20",
+     "id_code": "u",
+     "parent": "unit:it:20th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-20-infantry-bn",
+     "name": "II/20 Infantry Bn",
+     "abbreviation": "II/20",
+     "id_code": "u",
+     "parent": "unit:it:20th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-20-infantry-bn",
+     "name": "III/20 Infantry Bn",
+     "abbreviation": "III/20",
+     "id_code": "u",
+     "parent": "unit:it:20th-infantry-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:27th-machinegun-bn",
+     "name": "27th Machinegun Bn",
+     "abbreviation": "27",
+     "id_code": "bb",
+     "parent": "unit:it:27-brescia-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:27th-anti-tank-coy",
+     "name": "27th Anti-tank Coy",
+     "abbreviation": "27",
+     "id_code": "rr",
+     "parent": "unit:it:27-brescia-div-hq",
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:it:57th-artillery-regt",
+     "name": "57th Artillery Regt",
+     "abbreviation": "57",
+     "id_code": "kk",
+     "parent": "unit:it:27-brescia-div-hq",
+     "toe": [
+      {
+       "weapon": "75/18 Gun-Howitzer",
+       "points": 6
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      },
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:it:27th-engineer-bn",
+     "name": "27th Engineer Bn",
+     "abbreviation": "27",
+     "id_code": "bbb",
+     "parent": "unit:it:27-brescia-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    }
+   ],
+   "attached": [
+    {
+     "unit": "unit:it:33rd-ccnn-bn",
+     "to": "unit:it:27-brescia-div-hq",
+     "notes": [
+      "a: independent Blackshirt bn",
+      " arrives attached to Brescia",
+      "no TOE printed"
+     ]
+    },
+    {
+     "unit": "unit:it:56th-ccnn-bn",
+     "to": "unit:it:27-brescia-div-hq",
+     "notes": [
+      "a: independent Blackshirt bn",
+      " arrives attached to Brescia",
+      "no TOE printed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "64-catanzaro-div",
+   "name": "64th \"Catanzaro\" Division (Semi-motorized)",
+   "basic_morale": -1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p152"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:64th-catanzaro-div-hq",
+     "name": "64th Catanzaro Div HQ",
+     "abbreviation": "64 Cat",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:141st-infantry-regt-hq",
+     "name": "141st Infantry Regt HQ",
+     "abbreviation": "141",
+     "id_code": "h",
+     "parent": "unit:it:64th-catanzaro-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:i-141-infantry-bn",
+     "name": "I/141 Infantry Bn",
+     "abbreviation": "I/141",
+     "id_code": "u",
+     "parent": "unit:it:141st-infantry-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-141-infantry-bn",
+     "name": "II/141 Infantry Bn",
+     "abbreviation": "II/141",
+     "id_code": "u",
+     "parent": "unit:it:141st-infantry-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-141-infantry-bn",
+     "name": "III/141 Infantry Bn",
+     "abbreviation": "III/141",
+     "id_code": "u",
+     "parent": "unit:it:141st-infantry-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:142nd-infantry-regt-hq",
+     "name": "142nd Infantry Regt HQ",
+     "abbreviation": "142",
+     "id_code": "h",
+     "parent": "unit:it:64th-catanzaro-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:i-142-infantry-bn",
+     "name": "I/142 Infantry Bn",
+     "abbreviation": "I/142",
+     "id_code": "u",
+     "parent": "unit:it:142nd-infantry-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-142-infantry-bn",
+     "name": "II/142 Infantry Bn",
+     "abbreviation": "II/142",
+     "id_code": "u",
+     "parent": "unit:it:142nd-infantry-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-142-infantry-bn",
+     "name": "III/142 Infantry Bn",
+     "abbreviation": "III/142",
+     "id_code": "u",
+     "parent": "unit:it:142nd-infantry-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:64th-machinegun-bn",
+     "name": "64th Machinegun Bn",
+     "abbreviation": "64",
+     "id_code": "bb",
+     "parent": "unit:it:64th-catanzaro-div-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:64th-anti-tank-coy",
+     "name": "64th Anti-tank Coy",
+     "abbreviation": "64",
+     "id_code": "rr",
+     "parent": "unit:it:64th-catanzaro-div-hq",
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:203rd-artillery-regt",
+     "name": "203rd Artillery Regt",
+     "abbreviation": "203",
+     "id_code": "kk",
+     "parent": "unit:it:64th-catanzaro-div-hq",
+     "toe": [
+      {
+       "weapon": "75/18 Gun-Howitzer",
+       "points": 6
+      },
+      {
+       "weapon": "105/28 Gun",
+       "points": 3
+      },
+      {
+       "weapon": "Light AA",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "a: apparently first assigned to the dispersed 3rd CCNN Division"
+     ]
+    },
+    {
+     "id": "unit:it:64th-engineer-bn",
+     "name": "64th Engineer Bn",
+     "abbreviation": "64",
+     "id_code": "bbb",
+     "parent": "unit:it:64th-catanzaro-div-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    }
+   ]
+  },
+  {
+   "id": "102-trento-div",
+   "name": "102nd \"Trento\" Divisione Fanteria Motorizzate",
+   "basic_morale": 0,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p152"
+   ],
+   "notes": [
+    "note a: motorized only on paper",
+    " most trucks stripped on arrival"
+   ],
+   "units": [
+    {
+     "id": "unit:it:102nd-trento-div-hq",
+     "name": "102nd Trento Div HQ",
+     "abbreviation": "102 Trn",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:61st-regt-mtr-hq",
+     "name": "61st Regt Mtr HQ",
+     "abbreviation": "61",
+     "id_code": "j",
+     "parent": "unit:it:102nd-trento-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:i-61-bn",
+     "name": "I/61 Bn",
+     "abbreviation": "I/61",
+     "id_code": "u",
+     "parent": "unit:it:61st-regt-mtr-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     },
+     "notes": [
+      "b: historically fully motorized",
+      " CPA should be 10+ not 10"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-61-bn",
+     "name": "II/61 Bn",
+     "abbreviation": "II/61",
+     "id_code": "u",
+     "parent": "unit:it:61st-regt-mtr-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     },
+     "notes": [
+      "b: historically fully motorized",
+      " CPA should be 10+ not 10"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-61",
+     "name": "III/61",
+     "abbreviation": "III/61",
+     "id_code": "u",
+     "parent": "unit:it:61st-regt-mtr-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     },
+     "notes": [
+      "b: historically fully motorized",
+      " CPA should be 10+ not 10"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:62nd-regt-mtr-hq",
+     "name": "62nd Regt Mtr HQ",
+     "abbreviation": "62",
+     "id_code": "j",
+     "parent": "unit:it:102nd-trento-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:i-62-bn",
+     "name": "I/62 Bn",
+     "abbreviation": "I/62",
+     "id_code": "u",
+     "parent": "unit:it:62nd-regt-mtr-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     },
+     "notes": [
+      "b: historically fully motorized",
+      " CPA should be 10+ not 10"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-62-bn",
+     "name": "II/62 Bn",
+     "abbreviation": "II/62",
+     "id_code": "u",
+     "parent": "unit:it:62nd-regt-mtr-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     },
+     "notes": [
+      "b: historically fully motorized",
+      " CPA should be 10+ not 10"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-62-bn",
+     "name": "III/62 Bn",
+     "abbreviation": "III/62",
+     "id_code": "u",
+     "parent": "unit:it:62nd-regt-mtr-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     },
+     "notes": [
+      "b: historically fully motorized",
+      " CPA should be 10+ not 10"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:7th-bersaglieri-regt-hq",
+     "name": "7th Bersaglieri Regt HQ",
+     "abbreviation": "7Brs",
+     "id_code": "c",
+     "parent": "unit:it:102nd-trento-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:8th-bersaglieri-mitrg-bn",
+     "name": "8th Bersaglieri Mitrg Bn",
+     "abbreviation": "8/7Brs",
+     "id_code": "n",
+     "parent": "unit:it:7th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:10th-bersaglieri-mtr-bn",
+     "name": "10th Bersaglieri Mtr Bn",
+     "abbreviation": "10/7 Brs",
+     "id_code": "t",
+     "parent": "unit:it:7th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:11th-bersaglieri-mtr-bn",
+     "name": "11th Bersaglieri Mtr Bn",
+     "abbreviation": "11/7 Brs",
+     "id_code": "t",
+     "parent": "unit:it:7th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:551st-machinegun-bn",
+     "name": "551st Machinegun Bn",
+     "abbreviation": "551",
+     "id_code": "bb",
+     "parent": "unit:it:102nd-trento-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:102nd-anti-tank-bn",
+     "name": "102nd Anti-tank Bn",
+     "abbreviation": "102",
+     "id_code": "qq",
+     "parent": "unit:it:102nd-trento-div-hq",
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 8
+      }
+     ],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:46th-artillery-regt",
+     "name": "46th Artillery Regt",
+     "abbreviation": "46",
+     "id_code": "jj",
+     "parent": "unit:it:102nd-trento-div-hq",
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 6
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:51st-engineer-bn",
+     "name": "51st Engineer Bn",
+     "abbreviation": "51",
+     "id_code": "bbb",
+     "parent": "unit:it:102nd-trento-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:102nd-anti-aircraft-bn",
+     "name": "102nd Anti-aircraft Bn",
+     "abbreviation": "102",
+     "id_code": "ss",
+     "parent": "unit:it:102nd-trento-div-hq",
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 8
+      }
+     ],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "136th-giovani-fascisti-divisione-fanteria",
+   "name": "136th \"Giovani Fascisti\" Divisione Fanteria",
+   "basic_morale": -3,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p153"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:136th-giovani-fascisti-div-hq",
+     "name": "136th Giovani Fascisti Div HQ^E",
+     "abbreviation": "136GGFF",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 97,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:136th-fanteria-regt-hq",
+     "name": "136th Fanteria Regt HQ",
+     "abbreviation": "136",
+     "id_code": "h",
+     "parent": "unit:it:136th-giovani-fascisti-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 97,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:i-136-infantry-bn",
+     "name": "I/136 Infantry Bn",
+     "abbreviation": "I/136",
+     "id_code": "u",
+     "parent": "unit:it:136th-fanteria-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 97,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-136-infantry-bn",
+     "name": "II/136 Infantry Bn",
+     "abbreviation": "II/136",
+     "id_code": "u",
+     "parent": "unit:it:136th-fanteria-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 97,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-136-heavy-wpns-bn",
+     "name": "III/136 Heavy Wpns Bn",
+     "abbreviation": "III/136",
+     "id_code": "s",
+     "parent": "unit:it:136th-fanteria-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 97,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:136th-artiglieria-regt",
+     "name": "136th Artiglieria Regt",
+     "abbreviation": "136",
+     "id_code": "kk",
+     "parent": "unit:it:136th-giovani-fascisti-div-hq",
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 6
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 2
+      },
+      {
+       "weapon": "Heavy AA",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 97,
+      "opstage": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "185-folgore-div",
+   "name": "185th \"Folgore\" Division",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p153"
+   ],
+   "notes": [
+    "note a: airborne division",
+    " may be airdropped (case 42.4)"
+   ],
+   "units": [
+    {
+     "id": "unit:it:185th-folgore-div-hq",
+     "name": "185th Folgore Div HQ^E",
+     "abbreviation": "185 Folg",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:186th-airborne-regt-hq",
+     "name": "186th Airborne Regt HQ",
+     "abbreviation": "186",
+     "id_code": "h",
+     "parent": "unit:it:185th-folgore-div-hq",
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:it:v-186-bn",
+     "name": "V/186 Bn",
+     "abbreviation": "V/186",
+     "id_code": "v",
+     "parent": "unit:it:186th-airborne-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:vi-186-bn",
+     "name": "VI/186 Bn",
+     "abbreviation": "VI/186",
+     "id_code": "v",
+     "parent": "unit:it:186th-airborne-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:vii-186-bn",
+     "name": "VII/186 Bn",
+     "abbreviation": "VII/186",
+     "id_code": "v",
+     "parent": "unit:it:186th-airborne-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:187th-airborne-regt-hq",
+     "name": "187th Airborne Regt HQ",
+     "abbreviation": "187",
+     "id_code": "h",
+     "parent": "unit:it:185th-folgore-div-hq",
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:it:ii-187-bn",
+     "name": "II/187 Bn",
+     "abbreviation": "II/187",
+     "id_code": "v",
+     "parent": "unit:it:187th-airborne-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iv-187-bn",
+     "name": "IV/187 Bn",
+     "abbreviation": "IV/187",
+     "id_code": "v",
+     "parent": "unit:it:187th-airborne-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ix-187-bn",
+     "name": "IX/187 Bn",
+     "abbreviation": "IX/187",
+     "id_code": "v",
+     "parent": "unit:it:187th-airborne-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:185th-artiglieria-regt",
+     "name": "185th Artiglieria Regt",
+     "abbreviation": "185",
+     "id_code": "kk",
+     "parent": "unit:it:185th-folgore-div-hq",
+     "toe": [
+      {
+       "weapon": "ParaArt",
+       "points": 6
+      },
+      {
+       "weapon": "75/46 AA Gun",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "raggruppamento-esplorante-del-corpo-di-manovra",
+   "name": "Raggruppamento Esplorante del Corpo Di Manovra",
+   "basic_morale": -1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p153"
+   ],
+   "notes": [
+    "note a: at times had tank platoons attached from other units (e.g. Babini, LII(M) Tank Bn)"
+   ],
+   "units": [
+    {
+     "id": "unit:it:recam-hq",
+     "name": "RECAM HQ",
+     "abbreviation": "RECAM",
+     "id_code": "a",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "vv",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 45,
+      "opstage": 1
+     },
+     "notes": [
+      "TOE printed as '1 x vv' (an ID code letter, not a weapon name)"
+     ]
+    },
+    {
+     "id": "unit:it:r-gessi-pai-bn",
+     "name": "R. Gessi PAI Bn",
+     "abbreviation": "PAI",
+     "id_code": "vv",
+     "parent": "unit:it:recam-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 45,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:i-santamaria-machinegun-coy",
+     "name": "I/Santamaria Machinegun Coy",
+     "abbreviation": "I/Snta",
+     "id_code": "cc",
+     "parent": "unit:it:recam-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 45,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:recam-artiglierie-regt",
+     "name": "RECAM Artiglierie Regt",
+     "abbreviation": "RECAM",
+     "id_code": "ll",
+     "parent": "unit:it:recam-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 45,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:it:31-guastatori-engineer-bn",
+     "name": "31 Guastatori Engineer Bn",
+     "abbreviation": "31 Guast",
+     "id_code": "bbb",
+     "parent": "unit:it:recam-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 45,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    }
+   ]
+  },
+  {
+   "id": "the-saharan-detachment",
+   "name": "The Saharan Detachment",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p153"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:saharan-detachment-hq",
+     "name": "Saharan Detachment HQ",
+     "abbreviation": "Sahara",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:1-saharan-libyan-bn",
+     "name": "1 Saharan/Libyan Bn",
+     "abbreviation": "1Sah/L",
+     "id_code": "x",
+     "parent": "unit:it:saharan-detachment-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:2-saharan-libyan-bn",
+     "name": "2 Saharan/Libyan Bn",
+     "abbreviation": "2 Sah/L",
+     "id_code": "x",
+     "parent": "unit:it:saharan-detachment-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:sahara-machinegun-bn",
+     "name": "Sahara Machinegun Bn",
+     "abbreviation": "Sahara",
+     "id_code": "z",
+     "parent": "unit:it:saharan-detachment-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:sahara-mtr-machinegun-coy",
+     "name": "Sahara Mtr Machinegun Coy",
+     "abbreviation": "SahMtr",
+     "id_code": "hh",
+     "parent": "unit:it:saharan-detachment-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:saharan-artillery-battery",
+     "name": "Saharan Artillery Battery",
+     "abbreviation": "Sahara",
+     "id_code": "mm",
+     "parent": "unit:it:saharan-detachment-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 3
+      },
+      {
+       "weapon": "Light AA",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:meharisiti-camel-cavalry",
+     "name": "Meharisiti Camel Cavalry",
+     "abbreviation": "Mhrsti",
+     "id_code": "yy",
+     "parent": "unit:it:saharan-detachment-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "U@2"
+    }
+   ]
+  },
+  {
+   "id": "benghazi-garrison-hex-a4827",
+   "name": "Benghazi Garrison (Hex: A4827)",
+   "basic_morale": -3,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p154"
+   ],
+   "notes": [
+    "note a: Benghazi's two seaward coastal artillery groups (II and III) are left out of the game"
+   ],
+   "units": [
+    {
+     "id": "unit:it:ii-libyan-coastal-defense-bn",
+     "name": "II Libyan Coastal Defense Bn",
+     "abbreviation": "IILibCD",
+     "id_code": "x",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:vii-coastal-defense-arty-aa-group",
+     "name": "VII Coastal Defense Arty/AA Group",
+     "abbreviation": "VIICD",
+     "id_code": "tt",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "'I' Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:xx-corps-artillery-regt",
+     "name": "XX Corps Artillery Regt",
+     "abbreviation": "XX Cp",
+     "id_code": "ll",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:viii-ii-engineer-bn",
+     "name": "VIII/II Engineer Bn",
+     "abbreviation": "VIII/II",
+     "id_code": "bb",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    }
+   ]
+  },
+  {
+   "id": "the-tobruk-garrison-hex-c4807",
+   "name": "The Tobruk Garrison (Hex: C4807)",
+   "basic_morale": -3,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p154"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:31st-gaf-s-di-c-hq",
+     "name": "31st Gaf S di C HQ^E",
+     "abbreviation": "31 GaF",
+     "id_code": "f",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:i-31-gaf-s-di-c-bn",
+     "name": "I/31 Gaf S di C Bn",
+     "abbreviation": "I",
+     "id_code": "x",
+     "parent": "unit:it:31st-gaf-s-di-c-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-31-gaf-s-di-c-bn",
+     "name": "II/31 Gaf S di C Bn",
+     "abbreviation": "II",
+     "id_code": "x",
+     "parent": "unit:it:31st-gaf-s-di-c-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-31-gaf-s-di-c-bn",
+     "name": "III/31 Gaf S di C Bn",
+     "abbreviation": "III",
+     "id_code": "x",
+     "parent": "unit:it:31st-gaf-s-di-c-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:32nd-gaf-s-di-c-hq",
+     "name": "32nd Gaf S di C HQ^E",
+     "abbreviation": "32 GaF",
+     "id_code": "f",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:i-32-gaf-s-di-c-bn",
+     "name": "I/32 Gaf S di C Bn",
+     "abbreviation": "I",
+     "id_code": "v",
+     "parent": "unit:it:32nd-gaf-s-di-c-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-32-gaf-s-di-c-bn",
+     "name": "II/32 Gaf S di C Bn",
+     "abbreviation": "II",
+     "id_code": "v",
+     "parent": "unit:it:32nd-gaf-s-di-c-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-32-gaf-s-di-c-bn",
+     "name": "III/32 Gaf S di C Bn",
+     "abbreviation": "III",
+     "id_code": "v",
+     "parent": "unit:it:32nd-gaf-s-di-c-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:marine-regimental-hq",
+     "name": "Marine Regimental HQ",
+     "abbreviation": "Marines",
+     "id_code": "f",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:1st-marine-bn",
+     "name": "1st Marine Bn",
+     "abbreviation": "1",
+     "id_code": "x",
+     "parent": "unit:it:marine-regimental-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:2nd-marine-bn",
+     "name": "2nd Marine Bn",
+     "abbreviation": "2",
+     "id_code": "x",
+     "parent": "unit:it:marine-regimental-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:3rd-marine-bn",
+     "name": "3rd Marine Bn",
+     "abbreviation": "3",
+     "id_code": "x",
+     "parent": "unit:it:marine-regimental-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:xxxi-libyan-coast-def-bn",
+     "name": "XXXI Libyan Coast Def Bn",
+     "abbreviation": "XXXILib",
+     "id_code": "x",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:5th-artiglieri-regt",
+     "name": "5th Artiglieri Regt",
+     "abbreviation": "V",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "listed under the heading '31 Gaf S di C Artiglieri', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:6th-artiglieri-regt",
+     "name": "6th Artiglieri Regt",
+     "abbreviation": "VI",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "149mm Vichy French Gun",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "listed under the heading '31 Gaf S di C Artiglieri', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:7th-artiglieri-regt",
+     "name": "7th Artiglieri Regt",
+     "abbreviation": "VII",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "149/13 Howitzer",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "listed under the heading '31 Gaf S di C Artiglieri', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:1st-tobruk-cd-arty-group",
+     "name": "1st Tobruk CD Arty Group",
+     "abbreviation": "1/TbrkCD",
+     "id_code": "pp",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "149/13 Howitzer",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "b: coastal defense: artillery emplaced and immobile, may fire at warships (forward)",
+      " special assault/replacement/CPA limits",
+      "listed under the heading 'Tobruk Coastal Defense Arty', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:2nd-tobruk-cd-arty-group",
+     "name": "2nd Tobruk CD Arty Group",
+     "abbreviation": "2/TbrkCD",
+     "id_code": "pp",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 6
+      },
+      {
+       "weapon": "'I' Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "b: coastal defense: artillery emplaced and immobile, may fire at warships (forward)",
+      " special assault/replacement/CPA limits",
+      "listed under the heading 'Tobruk Coastal Defense Arty', which has no counter",
+      "100/17 Howitzer: (4) printed in parentheses = emplaced points"
+     ]
+    },
+    {
+     "id": "unit:it:3rd-tobruk-cd-arty-group",
+     "name": "3rd Tobruk CD Arty Group",
+     "abbreviation": "3/TbrkCD",
+     "id_code": "pp",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/18 Gun-Howitzer",
+       "points": 4
+      },
+      {
+       "weapon": "'I' Light AA",
+       "points": 8
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "b: coastal defense: artillery emplaced and immobile, may fire at warships (forward)",
+      " special assault/replacement/CPA limits",
+      "listed under the heading 'Tobruk Coastal Defense Arty', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:4th-tobruk-cd-arty-group",
+     "name": "4th Tobruk CD Arty Group",
+     "abbreviation": "4/TbrkCD",
+     "id_code": "pp",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "105/28 Gun",
+       "points": 6
+      },
+      {
+       "weapon": "'I' Heavy AA",
+       "points": 4
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "b: coastal defense: artillery emplaced and immobile, may fire at warships (forward)",
+      " special assault/replacement/CPA limits",
+      "listed under the heading 'Tobruk Coastal Defense Arty', which has no counter",
+      "105/28 Gun: (2) printed in parentheses = emplaced points"
+     ]
+    },
+    {
+     "id": "unit:it:5th-tobruk-cd-arty-group",
+     "name": "5th Tobruk CD Arty Group",
+     "abbreviation": "5/TbrkCD",
+     "id_code": "pp",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "149/13 Howitzer",
+       "points": 6
+      },
+      {
+       "weapon": "'I' Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "b: coastal defense: artillery emplaced and immobile, may fire at warships (forward)",
+      " special assault/replacement/CPA limits",
+      "listed under the heading 'Tobruk Coastal Defense Arty', which has no counter",
+      "149/13 Howitzer: (2) printed in parentheses = emplaced points"
+     ]
+    },
+    {
+     "id": "unit:it:tobruk-light-aa-bn",
+     "name": "Tobruk Light AA Bn",
+     "abbreviation": "TbrkLt",
+     "id_code": "ss",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "'I' Light AA",
+       "points": 8
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "b: coastal defense AA unit",
+      " AA points not emplaced, may be motorized",
+      "listed under the heading 'Tobruk Coastal Defense Arty', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:the-san-giorgio",
+     "name": "The San Giorgio",
+     "abbreviation": "San Giorgio",
+     "id_code": null,
+     "parent": null,
+     "toe": [],
+     "arrives": null,
+     "notes": [
+      "c: partly sunk cruiser in Tobruk harbour",
+      " fires at ships/aircraft, cannot be attacked by land units or refloated",
+      "no TOE printed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bardia-garrison-hex-c4321",
+   "name": "Bardia Garrison (Hex: C4321)",
+   "basic_morale": -3,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p155"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:30th-gaf-s-di-c-hq",
+     "name": "30th Gaf. S. di C. HQ^E",
+     "abbreviation": "32GaF",
+     "id_code": "f",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "notes": [
+      "uncertain: abbreviation printed '32GaF' although the unit is the 30th"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:i-30-gaf-s-di-c-bn",
+     "name": "I/30 Gaf. S. di C. Bn",
+     "abbreviation": "I",
+     "id_code": "u",
+     "parent": "unit:it:30th-gaf-s-di-c-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:ii-30-gaf-s-di-c-bn",
+     "name": "II/30 Gaf. S. di C. Bn",
+     "abbreviation": "II",
+     "id_code": "u",
+     "parent": "unit:it:30th-gaf-s-di-c-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-30-gaf-s-di-c-bn",
+     "name": "III/30 Gaf. S. di C. Bn",
+     "abbreviation": "III",
+     "id_code": "u",
+     "parent": "unit:it:30th-gaf-s-di-c-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:vec-machinegun-bn",
+     "name": "VEC Machinegun Bn",
+     "abbreviation": "VEC",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "notes": [
+      "a: Vittorio Emanuelle Cavalleria MG Bn (Squadron IV), pre-WWI machine guns"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:30-gaf-antitank-bn",
+     "name": "30 Gaf Antitank Bn",
+     "abbreviation": "30",
+     "id_code": "qq",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:8th-gaf-s-di-c-arty-regt",
+     "name": "8th Gaf S di C Arty Regt",
+     "abbreviation": "VIII",
+     "id_code": "ll",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 4
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "uncertain: ID code printed like '11', read as 'll'",
+      "listed under the heading '30 Gaf S di C Artiglieri', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:9th-gaf-s-di-c-arty-regt",
+     "name": "9th Gaf S di C Arty Regt",
+     "abbreviation": "IX",
+     "id_code": "ll",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 4
+      },
+      {
+       "weapon": "75/27 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "uncertain: ID code printed like '11', read as 'll'",
+      "listed under the heading '30 Gaf S di C Artiglieri', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:10th-gaf-s-di-c-arty-regt",
+     "name": "10th Gaf S di C Arty Regt",
+     "abbreviation": "X",
+     "id_code": "ll",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "105/28 Gun",
+       "points": 4
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "uncertain: ID code printed like '11', read as 'll'",
+      "listed under the heading '30 Gaf S di C Artiglieri', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:v-coastal-defense-arty-group",
+     "name": "V Coastal Defense Arty Group",
+     "abbreviation": "V CD",
+     "id_code": "pp",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 1
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 1
+      },
+      {
+       "weapon": "105/28 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "c: coastal defense: emplaced and immobile, may fire at warships (forward) or barrage land targets",
+      " special assault/replacement/CPA limits"
+     ]
+    },
+    {
+     "id": "unit:it:xvii-anti-air-group",
+     "name": "XVII Anti-air Group",
+     "abbreviation": "XVII",
+     "id_code": "ss",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 8
+      }
+     ],
+     "arrives": "deployed"
+    }
+   ]
+  },
+  {
+   "id": "derna-garrison-hex-b5925",
+   "name": "Derna Garrison (Hex: B5925)",
+   "basic_morale": -3,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p155"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:54th-territorial-inf-regt",
+     "name": "54th Territorial Inf. Regt",
+     "abbreviation": "54 Ter",
+     "id_code": "m",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "notes": [
+      "a: a mixed regiment of local recruits, given regimental status because of poor training"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iv-coastal-def-arty-group",
+     "name": "IV Coastal Def Arty Group",
+     "abbreviation": "IV CD",
+     "id_code": "pp",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/18 Gun Howitzer",
+       "points": 5
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "b: coastal defense: emplaced and immobile, may fire at warships (forward) or barrage land targets",
+      " special assault/replacement/CPA limits"
+     ]
+    },
+    {
+     "id": "unit:it:vi-coastal-def-arty-group",
+     "name": "VI Coastal Def Arty Group",
+     "abbreviation": "VI CD",
+     "id_code": "pp",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/18 Gun-Howitzer",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "b: coastal defense: emplaced and immobile, may fire at warships (forward) or barrage land targets",
+      " special assault/replacement/CPA limits"
+     ]
+    },
+    {
+     "id": "unit:it:xv-coastal-def-aa-group",
+     "name": "XV Coastal Def AA Group",
+     "abbreviation": "XV CD",
+     "id_code": "tt",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    }
+   ]
+  },
+  {
+   "id": "giariabub-oasis-complex-garrison-hex-c-1014",
+   "name": "Giariabub Oasis Complex Garrison (Hex: C 1014)",
+   "basic_morale": 0,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p156"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:giariabub-oasis-mtr-mg-bn",
+     "name": "Giariabub Oasis Mtr MG Bn",
+     "abbreviation": "Grbub",
+     "id_code": "hh",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:giariabub-oasis-infantry-bn",
+     "name": "Giariabub Oasis Infantry Bn",
+     "abbreviation": "Grbub",
+     "id_code": "gg",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:giariabub-oasis-mg-bn",
+     "name": "Giariabub Oasis MG Bn",
+     "abbreviation": "Grbub",
+     "id_code": "y",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "U@4"
+    },
+    {
+     "id": "unit:it:giariabub-oasis-anti-tank-coy",
+     "name": "Giariabub Oasis Anti-tank Coy",
+     "abbreviation": "Grbub",
+     "id_code": "rr",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:giariabub-oasis-artillery-bty",
+     "name": "Giariabub Oasis Artillery Bty",
+     "abbreviation": "Grbub",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:giariabub-oasis-anti-air-bty",
+     "name": "Giariabub Oasis Anti-Air Bty",
+     "abbreviation": "Grbub",
+     "id_code": "uu",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed"
+    }
+   ]
+  },
+  {
+   "id": "minor-garrison-units",
+   "name": "Minor Garrison Units",
+   "basic_morale": -3,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p156"
+   ],
+   "notes": [
+    "note a: small mixed detachments",
+    " locations: Sceferzen Oasis C3419, Fort Maddalenna C3019, EGUG C1715, Benina A4829, Mechili B4921, Soluch A4130"
+   ],
+   "units": [
+    {
+     "id": "unit:it:sceferzen-oasis-garrison-bn",
+     "name": "Sceferzen Oasis Garrison Bn",
+     "abbreviation": "Scfzrn",
+     "id_code": "dd",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:fort-maddalenna-garrison-bn",
+     "name": "Fort Maddalenna Garrison Bn",
+     "abbreviation": "FtMad",
+     "id_code": "q",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "U@2"
+    },
+    {
+     "id": "unit:it:egug-garrison-bn",
+     "name": "EGUG Garrison Bn",
+     "abbreviation": "EGUG",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:benina-aa-battery",
+     "name": "Benina AA Battery",
+     "abbreviation": "Benina",
+     "id_code": "uu",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:mechili-garrison-bn",
+     "name": "Mechili Garrison Bn",
+     "abbreviation": "Mechili",
+     "id_code": "r",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "U@2"
+    },
+    {
+     "id": "unit:it:soluch-garrison-at-coy",
+     "name": "Soluch Garrison AT Coy",
+     "abbreviation": "Soluch",
+     "id_code": "rr",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:soluch-garrison-arty-regt",
+     "name": "Soluch Garrison ARty Regt",
+     "abbreviation": "Soluch",
+     "id_code": "jj",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 12
+      }
+     ],
+     "arrives": "deployed"
+    }
+   ]
+  },
+  {
+   "id": "unassigned-armored-units",
+   "name": "Unassigned Armored Units",
+   "basic_morale": 0,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p156"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:il-tank-bn",
+     "name": "I(L) Tank Bn",
+     "abbreviation": "I(L)",
+     "id_code": null,
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "CV 33",
+       "points": 4
+      }
+     ],
+     "arrives": {
+      "game_turn": 18,
+      "opstage": 1
+     },
+     "notes": [
+      "a: arrive attached to 132nd Ariete"
+     ]
+    },
+    {
+     "id": "unit:it:iil-tank-bn",
+     "name": "II(L) Tank Bn",
+     "abbreviation": "II(L)",
+     "id_code": null,
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "CV 33",
+       "points": 4
+      }
+     ],
+     "arrives": {
+      "game_turn": 18,
+      "opstage": 1
+     },
+     "notes": [
+      "a: arrive attached to 132nd Ariete"
+     ]
+    },
+    {
+     "id": "unit:it:iiim-tank-bn",
+     "name": "III(M) Tank Bn",
+     "abbreviation": "III(M)",
+     "id_code": null,
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "M 13/40",
+       "points": 7
+      }
+     ],
+     "arrives": {
+      "game_turn": 55,
+      "opstage": 1
+     },
+     "notes": [
+      "b: part of the ad hoc Brigata Corazzata Speciale"
+     ]
+    },
+    {
+     "id": "unit:it:ivm-tank-bn",
+     "name": "IV(M) Tank Bn",
+     "abbreviation": "IV(M)",
+     "id_code": null,
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "M 13/40",
+       "points": 7
+      }
+     ],
+     "arrives": {
+      "game_turn": 90,
+      "opstage": 2
+     },
+     "notes": [
+      "c: assigned to 133rd RC (Littorio) to replace units sent to Ariete"
+     ]
+    },
+    {
+     "id": "unit:it:vmtankbn",
+     "name": "V(M)TankBn",
+     "abbreviation": "V(M)",
+     "id_code": null,
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "M 13/40",
+       "points": 7
+      }
+     ],
+     "arrives": {
+      "game_turn": 13,
+      "opstage": 3
+     },
+     "notes": [
+      "b: part of the ad hoc Brigata Corazzata Speciale"
+     ]
+    },
+    {
+     "id": "unit:it:xiiim-tank-bn",
+     "name": "XIII(M) Tank Bn",
+     "abbreviation": "XIII(M)",
+     "id_code": null,
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "M 14/41",
+       "points": 7
+      }
+     ],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 1
+     },
+     "notes": [
+      "d: attached to 132nd RC (Ariete) at some point"
+     ]
+    },
+    {
+     "id": "unit:it:xxim-tank-bn",
+     "name": "XXI(M) Tank Bn",
+     "abbreviation": "XXI(M)",
+     "id_code": null,
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "M 13/40",
+       "points": 7
+      }
+     ],
+     "arrives": {
+      "game_turn": 17,
+      "opstage": 3
+     },
+     "notes": [
+      "b: part of the ad hoc Brigata Corazzata Speciale"
+     ]
+    },
+    {
+     "id": "unit:it:lim-tank-bn",
+     "name": "LI(M) Tank Bn",
+     "abbreviation": "LI(M)",
+     "id_code": null,
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "M 13/40",
+       "points": 7
+      }
+     ],
+     "arrives": {
+      "game_turn": 71,
+      "opstage": 3
+     },
+     "notes": [
+      "c: assigned to 133rd RC (Littorio) to replace units sent to Ariete"
+     ]
+    },
+    {
+     "id": "unit:it:liim-tank-bn",
+     "name": "LII(M) Tank Bn",
+     "abbreviation": "LII(M)",
+     "id_code": null,
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "M13/40",
+       "points": 7
+      }
+     ],
+     "arrives": {
+      "game_turn": 55,
+      "opstage": 3
+     },
+     "notes": [
+      "d: attached to 132nd RC (Ariete) at some point"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "assigned-units-without-a-parent-formation",
+   "name": "Assigned Units without a Parent Formation",
+   "basic_morale": null,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p157"
+   ],
+   "notes": [
+    "note a: reassignment restricted (case 19.27)",
+    "morale given per unit in the Notes column"
+   ],
+   "units": [
+    {
+     "id": "unit:it:xviii-libyan-bn",
+     "name": "XVIII Libyan Bn",
+     "abbreviation": "XVIII Lib",
+     "id_code": "x",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "morale": -2,
+     "notes": [
+      "b: meant for a 4th Libyan Division that was never formed"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:xxxii-libyan-bn",
+     "name": "XXXII Libyan Bn",
+     "abbreviation": "XXXII Lib",
+     "id_code": "x",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "morale": -2,
+     "notes": [
+      "b: meant for a 4th Libyan Division that was never formed"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:xxxiii-libyan-bn",
+     "name": "XXXIII Libyan Bn",
+     "abbreviation": "XXXIII Lib",
+     "id_code": "x",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 2
+     },
+     "morale": -2,
+     "notes": [
+      "b: meant for a 4th Libyan Division that was never formed"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:xxxiv-libyan-bn",
+     "name": "XXXIV Libyan Bn",
+     "abbreviation": "XXXIV Lib",
+     "id_code": "x",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 2
+     },
+     "morale": -2,
+     "notes": [
+      "b: meant for a 4th Libyan Division that was never formed"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:xxxv-libyan-bn",
+     "name": "XXXV Libyan Bn",
+     "abbreviation": "XXXV Lib",
+     "id_code": "x",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 15,
+      "opstage": 2
+     },
+     "morale": -2,
+     "notes": [
+      "b: meant for a 4th Libyan Division that was never formed"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:2-87-fanterie-bn",
+     "name": "2/87 Fanterie Bn",
+     "abbreviation": "II/87",
+     "id_code": "u",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 15,
+      "opstage": 2
+     },
+     "morale": 0,
+     "notes": [
+      "c: from the 20th Friuli Division"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:1-78-fanterie-bn",
+     "name": "1/78 Fanterie Bn",
+     "abbreviation": "I/78",
+     "id_code": "u",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 3
+     },
+     "morale": -3,
+     "notes": [
+      "d: from the 7th Lupi di Toscana Division"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iii-133-fanterie-bn",
+     "name": "III/133 Fanterie Bn",
+     "abbreviation": "III/133",
+     "id_code": "u",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 97,
+      "opstage": 2
+     },
+     "morale": -2,
+     "notes": [
+      "e: from the 152nd Piceno Division"
+     ],
+     "toe_mark": "N"
+    }
+   ]
+  },
+  {
+   "id": "unassigned-infantry-and-reconnaissance-units",
+   "name": "Unassigned Infantry and Reconnaissance Units",
+   "basic_morale": null,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p157"
+   ],
+   "notes": [
+    "morale given per unit in the Notes column"
+   ],
+   "units": [
+    {
+     "id": "unit:it:10th-bersaglieri-regt-hq",
+     "name": "10th Bersaglieri Regt HQ",
+     "abbreviation": "10 Brs",
+     "id_code": "c",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 11,
+      "opstage": 1
+     },
+     "morale": 1,
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:16th-bersaglieri-mtr-bn",
+     "name": "16th Bersaglieri Mtr Bn",
+     "abbreviation": "16 Brs",
+     "id_code": "t",
+     "parent": "unit:it:10th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 11,
+      "opstage": 1
+     },
+     "morale": 1,
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:34th-bersaglieri-mtr-bn",
+     "name": "34th Bersaglieri Mtr Bn",
+     "abbreviation": "34 Brs",
+     "id_code": "t",
+     "parent": "unit:it:10th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 11,
+      "opstage": 1
+     },
+     "morale": 1,
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:35th-bersaglieri-mtr-bn",
+     "name": "35th Bersaglieri Mtr Bn",
+     "abbreviation": "35 Brs",
+     "id_code": "t",
+     "parent": "unit:it:10th-bersaglieri-regt-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 11,
+      "opstage": 1
+     },
+     "morale": 1,
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:22nd-bersaglieri-mitrg-coy",
+     "name": "22nd Bersaglieri Mitrg Coy",
+     "abbreviation": "22 Brs",
+     "id_code": "aaa",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 1
+     },
+     "morale": 1,
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:5th-desert-patrol",
+     "name": "5th Desert Patrol",
+     "abbreviation": "5 DPtl",
+     "id_code": "xx",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 62,
+      "opstage": 3
+     },
+     "morale": 0,
+     "notes": [
+      "a: desert patrols, LRDG-like",
+      " treated as mounted in medium trucks"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:23rd-desert-patrol",
+     "name": "23rd Desert Patrol",
+     "abbreviation": "23 DPtl",
+     "id_code": "xx",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 62,
+      "opstage": 3
+     },
+     "morale": 0,
+     "notes": [
+      "a: desert patrols, LRDG-like",
+      " treated as mounted in medium trucks"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:libyan-parachute-regt-hq",
+     "name": "Libyan Parachute Regt HQ",
+     "abbreviation": "Libyan",
+     "id_code": "f",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "morale": -2,
+     "notes": [
+      "b: Gruppo Tonini",
+      " airborne in name only, garrison at Barce airfield",
+      " cannot be paradropped",
+      " not a garrison unit"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:1st-libyan-parachute-bn",
+     "name": "1st Libyan Parachute Bn",
+     "abbreviation": "1 LibPar",
+     "id_code": "x",
+     "parent": "unit:it:libyan-parachute-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "morale": -2,
+     "notes": [
+      "b: Gruppo Tonini",
+      " airborne in name only"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:1st-carabinieri-ccrr-bn",
+     "name": "1st Carabinieri (CCRR) Bn",
+     "abbreviation": "1 CCRR",
+     "id_code": "x",
+     "parent": "unit:it:libyan-parachute-regt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "morale": -2,
+     "notes": [
+      "b: Gruppo Tonini",
+      " airborne in name only"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:4th-fanterie-mtr-regt",
+     "name": "4th Fanterie Mtr Regt",
+     "abbreviation": "4/10 Army",
+     "id_code": "m",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "morale": -1,
+     "notes": [
+      "c: possibly 10th Army HQ regiment",
+      " a single unit, not HQ plus battalions"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:iv-genoa-machinegun-bn",
+     "name": "IV Genoa Machinegun Bn",
+     "abbreviation": "IV Gen",
+     "id_code": "y",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 51,
+      "opstage": 3
+     },
+     "morale": -2,
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:vi-aosta-machinegun-bn",
+     "name": "VI Aosta Machinegun Bn",
+     "abbreviation": "VI Aos",
+     "id_code": "y",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 59,
+      "opstage": 2
+     },
+     "morale": -2,
+     "toe_mark": "N"
+    }
+   ]
+  },
+  {
+   "id": "unassigned-gun-units",
+   "name": "Unassigned Gun Units",
+   "basic_morale": null,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p158"
+   ],
+   "notes": [
+    "morale given per unit in the Notes column"
+   ],
+   "units": [
+    {
+     "id": "unit:it:6th-gaf-s-di-c-arty-regt",
+     "name": "6th Gaf S di C Arty Regt",
+     "abbreviation": "6 GaF",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "morale": -2
+    },
+    {
+     "id": "unit:it:16th-gaf-s-di-c-arty-regt",
+     "name": "16th Gaf S di C Arty Regt",
+     "abbreviation": "16 GaF",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/18 Gun-Howitzer",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed",
+     "morale": -2
+    },
+    {
+     "id": "unit:it:22nd-gaf-s-di-c-arty-regt",
+     "name": "22nd Gaf S di C Arty Regt",
+     "abbreviation": "22 GaF",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "morale": -2
+    },
+    {
+     "id": "unit:it:42nd-gaf-s-di-c-arty-regt",
+     "name": "42nd Gaf S di C Arty Regt",
+     "abbreviation": "42 GaF",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 4
+      }
+     ],
+     "arrives": "deployed",
+     "morale": -2
+    },
+    {
+     "id": "unit:it:350th-gaf-s-di-c-arty-regt",
+     "name": "350th Gaf S di C Arty Regt",
+     "abbreviation": "350 GaF",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "105/28 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed",
+     "morale": -2
+    },
+    {
+     "id": "unit:it:131st-artiglieri-bn",
+     "name": "131st Artiglieri Bn",
+     "abbreviation": "131",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed",
+     "morale": -1
+    },
+    {
+     "id": "unit:it:147th-artiglieri-bn",
+     "name": "147th Artiglieri Bn",
+     "abbreviation": "147",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed",
+     "morale": -1
+    },
+    {
+     "id": "unit:it:dliv-articelere-bn",
+     "name": "DLIV Articelere Bn",
+     "abbreviation": "DLIV",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/18 SP Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 71,
+      "opstage": 3
+     },
+     "morale": 0,
+     "notes": [
+      "a: fast artillery sent to 133rd RC (Littorio) to replace units stripped to Ariete"
+     ]
+    },
+    {
+     "id": "unit:it:dlvi-articelere-bn",
+     "name": "DLVI Articelere Bn",
+     "abbreviation": "DLVI",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/18 SP Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 71,
+      "opstage": 3
+     },
+     "morale": 0,
+     "notes": [
+      "a: fast artillery sent to 133rd RC (Littorio) to replace units stripped to Ariete"
+     ]
+    },
+    {
+     "id": "unit:it:5th-bn-1st-artiglieri",
+     "name": "5th Bn, 1st Artiglieri",
+     "abbreviation": "5/1",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 4
+      }
+     ],
+     "arrives": "deployed",
+     "morale": -1
+    },
+    {
+     "id": "unit:it:2nd-bn-24th-artiglieri",
+     "name": "2nd Bn, 24th Artiglieri",
+     "abbreviation": "2/24",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "morale": -1
+    },
+    {
+     "id": "unit:it:i-articelere-regt",
+     "name": "I Articelere Regt",
+     "abbreviation": "1 Artc",
+     "id_code": "ll",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 4
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 4
+      }
+     ],
+     "arrives": {
+      "game_turn": 55,
+      "opstage": 1
+     },
+     "morale": 0,
+     "notes": [
+      "b: attached on arrival"
+     ]
+    },
+    {
+     "id": "unit:it:ii-articelere-regt",
+     "name": "II Articelere Regt",
+     "abbreviation": "2 Artc",
+     "id_code": "ll",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 4
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 55,
+      "opstage": 1
+     },
+     "morale": 0
+    },
+    {
+     "id": "unit:it:1st-bn-1-arty-rgppmnto",
+     "name": "1st Bn, 1 Arty Rgppmnto",
+     "abbreviation": "1/1AR",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "morale": -1,
+     "notes": [
+      "c: independent unit",
+      "listed under the heading '1st Artillery Ragruppamento', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:2nd-bn-1-arty-rgppmnto",
+     "name": "2nd Bn, 1 Arty Rgppmnto",
+     "abbreviation": "2/1AR",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/18 Gun-Howitzer",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "morale": -1,
+     "notes": [
+      "c: independent unit",
+      "listed under the heading '1st Artillery Ragruppamento', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:3rd-bn-1-arty-rgppmnto",
+     "name": "3rd Bn, 1 Arty Rgppmnto",
+     "abbreviation": "3/1AR",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "105/28 Gun",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "morale": -1,
+     "notes": [
+      "c: independent unit",
+      "listed under the heading '1st Artillery Ragruppamento', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:4th-bn-1-arty-rgppmnto",
+     "name": "4th Bn, 1 Arty Rgppmnto",
+     "abbreviation": "4/1AR",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "morale": -1,
+     "notes": [
+      "c: independent unit",
+      "listed under the heading '1st Artillery Ragruppamento', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:1st-bn-2-arty-rgppmnto",
+     "name": "1st Bn, 2 Arty Rgppmnto",
+     "abbreviation": "1/2AR",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 26,
+      "opstage": 1
+     },
+     "morale": -1,
+     "notes": [
+      "c: independent unit",
+      "listed under the heading '2nd Artillery Ragruppamento', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:2nd-bn-2-arty-rgppmnto",
+     "name": "2nd Bn, 2 Arty Rgppmnto",
+     "abbreviation": "2/2AR",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/18 Gun-Howitzer",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 26,
+      "opstage": 1
+     },
+     "morale": -1,
+     "notes": [
+      "c: independent unit",
+      "listed under the heading '2nd Artillery Ragruppamento', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:3rd-bn-2-arty-rgppmnto",
+     "name": "3rd Bn, 2 Arty Rgppmnto",
+     "abbreviation": "3/2AR",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 26,
+      "opstage": 1
+     },
+     "morale": -1,
+     "notes": [
+      "c: independent unit",
+      "listed under the heading '2nd Artillery Ragruppamento', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:4th-bn-2-arty-rgppmnto",
+     "name": "4th Bn, 2 Arty Rgppmnto",
+     "abbreviation": "4/2AR",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "105/28 Gun",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 26,
+      "opstage": 1
+     },
+     "morale": -1,
+     "notes": [
+      "c: independent unit",
+      "listed under the heading '2nd Artillery Ragruppamento', which has no counter"
+     ]
+    },
+    {
+     "id": "unit:it:x-corps-artillery-regt",
+     "name": "X Corps Artillery Regt",
+     "abbreviation": "X Cp",
+     "id_code": "kk",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 4
+      }
+     ],
+     "arrives": "deployed",
+     "morale": -2,
+     "notes": [
+      "d: starts stationed at Soluch but is not a garrison unit"
+     ]
+    },
+    {
+     "id": "unit:it:xxi-corps-artillery-regt",
+     "name": "XXI Corps Artillery Regt",
+     "abbreviation": "XXI Cp",
+     "id_code": "kk",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 3
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 6
+      },
+      {
+       "weapon": "Light AA",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "morale": 0
+    },
+    {
+     "id": "unit:it:xxii-corps-artillery-regt",
+     "name": "XXII Corps Artillery Regt",
+     "abbreviation": "XXII Cp",
+     "id_code": "kk",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 9
+      },
+      {
+       "weapon": "Light AA",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "morale": 0
+    },
+    {
+     "id": "unit:it:xxiii-corps-artillery-regt",
+     "name": "XXIII Corps Artillery Regt",
+     "abbreviation": "XXIII Cp",
+     "id_code": "kk",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 9
+      },
+      {
+       "weapon": "Light AA",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "morale": 0
+    },
+    {
+     "id": "unit:it:xxv-corps-artillery-regt",
+     "name": "XXV Corps Artillery Regt",
+     "abbreviation": "XXV Cp",
+     "id_code": "kk",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "105/28 Gun",
+       "points": 9
+      },
+      {
+       "weapon": "Light AA",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 9,
+      "opstage": 2
+     },
+     "morale": 0
+    },
+    {
+     "id": "unit:it:xxvi-corps-artillery-regt",
+     "name": "XXVI Corps Artillery Regt",
+     "abbreviation": "XXVI Cp",
+     "id_code": "kk",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 9
+      },
+      {
+       "weapon": "Light AA",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "morale": 0
+    }
+   ]
+  },
+  {
+   "id": "2nd-ccnn-28th-october-div",
+   "name": "2nd CCNN (\"28th October\") Division",
+   "basic_morale": 0,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p158"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:2nd-ccnn-div-hq",
+     "name": "2nd CCNN Div HQ",
+     "abbreviation": "2 CCNN",
+     "id_code": "g",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:238th-legion-hq",
+     "name": "238th Legion HQ",
+     "abbreviation": "238 Lgn",
+     "id_code": "g",
+     "parent": "unit:it:2nd-ccnn-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:138th-infantry-bn",
+     "name": "138th Infantry Bn",
+     "abbreviation": "138",
+     "id_code": "x",
+     "parent": "unit:it:238th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:140th-infantry-bn",
+     "name": "140th Infantry Bn",
+     "abbreviation": "140",
+     "id_code": "x",
+     "parent": "unit:it:238th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:145th-infantry-bn",
+     "name": "145th Infantry Bn",
+     "abbreviation": "145",
+     "id_code": "x",
+     "parent": "unit:it:238th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:231st-legion-hq",
+     "name": "231st Legion HQ",
+     "abbreviation": "231 Lgn",
+     "id_code": "g",
+     "parent": "unit:it:2nd-ccnn-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:131st-infantry-bn",
+     "name": "131st Infantry Bn",
+     "abbreviation": "131",
+     "id_code": "x",
+     "parent": "unit:it:231st-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:132nd-infantry-bn",
+     "name": "132nd Infantry Bn",
+     "abbreviation": "132",
+     "id_code": "x",
+     "parent": "unit:it:231st-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:135th-infantry-bn",
+     "name": "135th Infantry Bn",
+     "abbreviation": "135",
+     "id_code": "x",
+     "parent": "unit:it:231st-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:202nd-machinegun-bn",
+     "name": "202nd Machinegun Bn",
+     "abbreviation": "202",
+     "id_code": "bb",
+     "parent": "unit:it:2nd-ccnn-div-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:202nd-artillery-regt",
+     "name": "202nd Artillery Regt",
+     "abbreviation": "202",
+     "id_code": "kk",
+     "parent": "unit:it:2nd-ccnn-div-hq",
+     "toe": [
+      {
+       "weapon": "75/18 Gun-Howitzer",
+       "points": 3
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 6
+      },
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:202nd-engineer-bn",
+     "name": "202nd Engineer Bn",
+     "abbreviation": "202",
+     "id_code": "bbb",
+     "parent": "unit:it:2nd-ccnn-div-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:202nd-bersaglieri-mitrg-coy",
+     "name": "202nd Bersaglieri Mitrg Coy",
+     "abbreviation": "202 Brs",
+     "id_code": "aaa",
+     "parent": "unit:it:2nd-ccnn-div-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    }
+   ]
+  },
+  {
+   "id": "1st-ccnn-23rd-march-div",
+   "name": "1st CCNN (\"23rd March\") Division",
+   "basic_morale": 0,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p159"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:1st-ccnn-div-hq",
+     "name": "1st CCNN Div HQ",
+     "abbreviation": "1 CCNN",
+     "id_code": "g",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:219th-legion-hq",
+     "name": "219th Legion HQ",
+     "abbreviation": "219 Lgn",
+     "id_code": "g",
+     "parent": "unit:it:1st-ccnn-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:129th-infantry-bn",
+     "name": "129th Infantry Bn",
+     "abbreviation": "129",
+     "id_code": "x",
+     "parent": "unit:it:219th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:133rd-infantry-bn",
+     "name": "133rd Infantry Bn",
+     "abbreviation": "133",
+     "id_code": "x",
+     "parent": "unit:it:219th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:146th-infantry-bn",
+     "name": "146th Infantry Bn",
+     "abbreviation": "146",
+     "id_code": "x",
+     "parent": "unit:it:219th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:233rd-legion-hq",
+     "name": "233rd Legion HQ",
+     "abbreviation": "233 Lgn",
+     "id_code": "g",
+     "parent": "unit:it:1st-ccnn-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:114th-infantry-bn",
+     "name": "114th Infantry Bn",
+     "abbreviation": "114",
+     "id_code": "x",
+     "parent": "unit:it:233rd-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:116th-infantry-bn",
+     "name": "116th Infantry Bn",
+     "abbreviation": "116",
+     "id_code": "x",
+     "parent": "unit:it:233rd-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:118th-infantry-bn",
+     "name": "118th Infantry Bn",
+     "abbreviation": "118",
+     "id_code": "x",
+     "parent": "unit:it:233rd-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:201st-machinegun-bn",
+     "name": "201st Machinegun Bn",
+     "abbreviation": "201",
+     "id_code": "bb",
+     "parent": "unit:it:1st-ccnn-div-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:201st-artillery-regt",
+     "name": "201st Artillery Regt",
+     "abbreviation": "201",
+     "id_code": "kk",
+     "parent": "unit:it:1st-ccnn-div-hq",
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 6
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      },
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:201st-engineer-bn",
+     "name": "201st Engineer Bn",
+     "abbreviation": "201",
+     "id_code": "bbb",
+     "parent": "unit:it:1st-ccnn-div-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:201st-bersaglieri-mitrg-coy",
+     "name": "201st Bersaglieri Mitrg Coy",
+     "abbreviation": "201 Brs",
+     "id_code": "aaa",
+     "parent": "unit:it:1st-ccnn-div-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:im-tank-bn-1st-ccnn-23rd-march-div",
+     "name": "I(M) Tank Battalion",
+     "abbreviation": "I(M)",
+     "id_code": null,
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "notes": [
+      "a: belongs to the Libyan Tank Command",
+      " starts attached to 1st CCNN",
+      "no TOE printed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3rd-ccnn-21st-april-div",
+   "name": "3rd CCNN (\"21st April\") Division",
+   "basic_morale": -2,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p159"
+   ],
+   "notes": [
+    "note a: largely a phantom division with no divisional HQ",
+    " units dispersed",
+    " OB data scanty"
+   ],
+   "units": [
+    {
+     "id": "unit:it:250th-legion-hq",
+     "name": "250th Legion HQ",
+     "abbreviation": "250 Lgn",
+     "id_code": "g",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "notes": [
+      "b: independent brigade-level unit"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:81st-infantry-bn",
+     "name": "81st Infantry Bn",
+     "abbreviation": "81",
+     "id_code": "x",
+     "parent": "unit:it:250th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:156th-infantry-bn",
+     "name": "156th Infantry Bn",
+     "abbreviation": "156",
+     "id_code": "x",
+     "parent": "unit:it:250th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:158th-infantry-bn",
+     "name": "158th Infantry Bn",
+     "abbreviation": "158",
+     "id_code": "x",
+     "parent": "unit:it:250th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:203rd-machinegun-bn",
+     "name": "203rd Machinegun Bn",
+     "abbreviation": "203",
+     "id_code": "bb",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "notes": [
+      "c: independent battalion-level unit"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:214th-artillery-regt",
+     "name": "214th Artillery Regt",
+     "abbreviation": "214",
+     "id_code": "kk",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "75/18 Gun-Howitzer",
+       "points": 6
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "c: independent battalion-level unit"
+     ]
+    },
+    {
+     "id": "unit:it:203rd-engineer-bn",
+     "name": "203rd Engineer Bn",
+     "abbreviation": "203",
+     "id_code": "bbb",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "notes": [
+      "c: independent battalion-level unit"
+     ],
+     "toe_mark": "N"
+    }
+   ]
+  },
+  {
+   "id": "4th-ccnn-3-january-div",
+   "name": "4th CCNN (\"3 January\") Division",
+   "basic_morale": 0,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p160"
+   ],
+   "notes": [],
+   "units": [
+    {
+     "id": "unit:it:4th-ccnn-div-hq",
+     "name": "4th CCNN Div HQ",
+     "abbreviation": "4 CCNN",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:240th-legion-hq",
+     "name": "240th Legion HQ",
+     "abbreviation": "240 Lgn",
+     "id_code": "h",
+     "parent": "unit:it:4th-ccnn-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:70th-infantry-bn",
+     "name": "70th Infantry Bn",
+     "abbreviation": "70",
+     "id_code": "x",
+     "parent": "unit:it:240th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:119th-infantry-bn",
+     "name": "119th Infantry Bn",
+     "abbreviation": "119",
+     "id_code": "x",
+     "parent": "unit:it:240th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:176th-infantry-bn",
+     "name": "176th Infantry Bn",
+     "abbreviation": "176",
+     "id_code": "x",
+     "parent": "unit:it:240th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:270th-legion-hq",
+     "name": "270th Legion HQ",
+     "abbreviation": "270 Lgn",
+     "id_code": "h",
+     "parent": "unit:it:4th-ccnn-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:3rd-infantry-bn",
+     "name": "3rd Infantry Bn",
+     "abbreviation": "3",
+     "id_code": "x",
+     "parent": "unit:it:270th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:17th-infantry-bn",
+     "name": "17th Infantry Bn",
+     "abbreviation": "17",
+     "id_code": "x",
+     "parent": "unit:it:270th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:170th-infantry-bn",
+     "name": "170th Infantry Bn",
+     "abbreviation": "170",
+     "id_code": "x",
+     "parent": "unit:it:270th-legion-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:204th-machinegun-bn",
+     "name": "204th Machinegun Bn",
+     "abbreviation": "204",
+     "id_code": "bb",
+     "parent": "unit:it:4th-ccnn-div-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:204th-artillery-regt",
+     "name": "204th Artillery Regt",
+     "abbreviation": "204",
+     "id_code": "kk",
+     "parent": "unit:it:4th-ccnn-div-hq",
+     "toe": [
+      {
+       "weapon": "75/18 Gun-Howitzer",
+       "points": 6
+      },
+      {
+       "weapon": "105/28 Gun",
+       "points": 3
+      },
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:it:204th-engineer-bn",
+     "name": "204th Engineer Bn",
+     "abbreviation": "204",
+     "id_code": "bbb",
+     "parent": "unit:it:4th-ccnn-div-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    }
+   ]
+  },
+  {
+   "id": "unassigned-blackshirt-units",
+   "name": "Unassigned Blackshirt Units",
+   "basic_morale": 0,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p160"
+   ],
+   "notes": [
+    "note a: 250th Legion and other 3rd CCNN units are on the 3rd CCNN sheet",
+    "note b&c: on first attachment these legions may take on 2 / 1 infantry bns beyond normal limits"
+   ],
+   "units": [
+    {
+     "id": "unit:it:7th-ccnn-legion-hq",
+     "name": "7th CCNN Legion HQ",
+     "abbreviation": "7 CCNN",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     },
+     "notes": [
+      "b: arrives attached to 55th Division"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:7th-ccnn-bn",
+     "name": "7th CCNN Bn",
+     "abbreviation": "7",
+     "id_code": "x",
+     "parent": "unit:it:7th-ccnn-legion-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     },
+     "notes": [
+      "b: arrives attached to 55th Division"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:9th-ccnn-legion-hq",
+     "name": "9th CCNN Legion HQ",
+     "abbreviation": "9 CCNN",
+     "id_code": "h",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     },
+     "notes": [
+      "c: arrives attached to 17th Division"
+     ]
+    },
+    {
+     "id": "unit:it:59th-ccnn-bn",
+     "name": "59th CCNN Bn",
+     "abbreviation": "59",
+     "id_code": "x",
+     "parent": "unit:it:9th-ccnn-legion-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     },
+     "notes": [
+      "c: arrives attached to 17th Division"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:60th-ccnn-bn",
+     "name": "60th CCNN Bn",
+     "abbreviation": "60",
+     "id_code": "x",
+     "parent": "unit:it:9th-ccnn-legion-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     },
+     "notes": [
+      "c: arrives attached to 17th Division"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:32nd-ccnn-bn",
+     "name": "32nd CCNN Bn",
+     "abbreviation": "32",
+     "id_code": "x",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 1
+     },
+     "notes": [
+      "d: arrives attached to 25th Division"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:33rd-ccnn-bn",
+     "name": "33rd CCNN Bn",
+     "abbreviation": "33",
+     "id_code": "x",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     },
+     "notes": [
+      "e: arrives attached to 27th Division"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:56th-ccnn-bn",
+     "name": "56th CCNN Bn",
+     "abbreviation": "56",
+     "id_code": "x",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     },
+     "notes": [
+      "e: arrives attached to 27th Division"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:it:140th-ccnn-bn",
+     "name": "140th CCNN Bn",
+     "abbreviation": "140",
+     "id_code": "x",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 13,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    }
+   ]
+  }
+ ]
+}
