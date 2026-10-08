@@ -72,7 +72,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-097](./R-097.md) | Axis convoys before the first Operations Stage of Group One | accepted | 60.37, 56.0 |
 | [R-098](./R-098.md) | Commonwealth major repair facilities in Group One | accepted | 60.44, 22.31 |
 | [R-099](./R-099.md) | Tobruk's repair facility | accepted | 60.33, 22.31 |
-| [R-100](./R-100.md) | When the schedule and an OA sheet give different arrivals | proposed | 4.43, 4.44, 20.0 |
+| [R-100](./R-100.md) | When the schedule and an OA sheet give different arrivals | accepted | 4.43, 4.44, 20.0 |
 | [R-101](./R-101.md) | Rommel's Arrival: who wins when the Axis holds only Tobruk | proposed | 61.8 |
 | [R-102](./R-102.md) | Group Two abstractions: references and motorisation points | proposed | 61.72, 61.73, 59.63 |
 | [R-103](./R-103.md) | The 3rd Armoured Brigade's tanks in Group Two | proposed | 61.31, 61.32, 61.38 |
