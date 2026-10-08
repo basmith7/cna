@@ -487,7 +487,7 @@ a 1 rolls three dice of damage, 2–3 two, 4–5 one, a 6 nothing.
 
 ### Naval transport of troops
 
-::: spi 30.5 30.51 30.52 30.53 30.54 30.55 30.57 30.58
+::: spi 30.5 30.51 30.52 30.53 30.54 30.55 36.56 30.57 30.58
 
 Only the Commonwealth moves troops by sea, port to port, **once per stage
 per port** in either direction, in the truck convoy phase. The load is
