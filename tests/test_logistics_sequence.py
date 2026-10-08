@@ -47,3 +47,23 @@ def test_operations_stage_letters_and_attachment():
     seg = [r["name"] for r in _t()["rows"] if r["stage"] == "V" and r.get("phase") == "C" and r.get("segment")]
     assert seg == ["water-distribution", "reorganisation", "attrition", "construction", "training",
                    "supply-distribution", "tactical-shipping"]
+
+
+def test_land_and_air_sequence_is_the_table_without_logistics_only_steps():
+    # 33.0, read from the source text: the Land/Air Game-Turn in printed order
+    expected = [
+        "initiative-determination",
+        "strategic-air-planning", "air-designation", "axis-malta-availability", "strategic-mission-assignment", "malta-raid",
+        "naval-convoy", "convoy-schedule", "convoy-resolution", "convoy-reconnaissance", "convoy-lane-assignment", "convoy-bombing",
+        "operations-stage", "initiative-declaration", "weather",
+        "organisation", "reorganisation", "construction", "training", "supply-distribution", "tactical-shipping",
+        "arrival", "cw-fleet", "fleet-assignment", "fleet-repair",
+        "land-support-air", "mission-assignment", "mission-deployment", "air-to-air-combat", "flak", "mission-completion",
+        "return-to-base", "tactical-maintenance",
+        "reserve-designation", "movement-combat", "movement", "breakdown", "combat", "reserve-release",
+        "truck-convoy", "rail", "repair", "towing", "maintenance", "patrol",
+        "strategic-air-recovery", "air-return-to-base", "aircraft-maintenance", "end-of-turn",
+    ]
+    table = json.loads((ROOT / "data" / "tables" / "logistics-sequence.json").read_text())
+    rows = sorted(table["rows"], key=lambda r: r["order"])
+    assert [r["name"] for r in rows if not r["logistics_game_only"]] == expected

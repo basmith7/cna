@@ -80,6 +80,9 @@ export default defineConfig({
           { text: 'Ports & shipping', link: '/rules/logistics/50-ports-and-shipping' },
           { text: 'Abstract air', link: '/rules/logistics/60-abstract-air' },
         ] },
+        { text: 'Air Game', items: [
+          { text: 'Overview & sequence', link: '/rules/air/00-overview-and-sequence' },
+        ] },
         { text: 'Scenarios', items: [
           { text: 'Reading a scenario', link: '/rules/scenarios/00-reading-scenarios' },
           { text: 'Group One — the Italians', link: '/rules/scenarios/10-the-italians' },
