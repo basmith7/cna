@@ -450,3 +450,7 @@ the PR that adds or substantially rewrites the file.
 - **Read:** the Libya–Egypt frontier on map C (scan jp2 189), a line printed along hexsides from the coast between C4121 and C4122 to the south edge between C0120 and C0121; maps B and D carry no frontier.
 - **How expressed:** per row of map C, the first Egyptian column; maps A and B wholly Libya, D and E wholly Egypt. Reference reading `tools/map_geom.country`, tested on eight printed anchors.
 - **Cross-check:** two independent reads (one by the measured hex grid, one by the printed hex numbers): the 41 rows with land on both sides agree exactly; row 42 differed only over sea hexes.
+
+## data/oa/de.json; rest of data/oa/cw.json — 2026-10-08
+- **Charts read:** German Organization at Arrival (headed 4.45c, jp2 161–165), all 11 sheets, 148 counters; the remaining 24 Commonwealth sheets (jp2 115–131), 258 counters, completing the Commonwealth chart.
+- **Cross-check:** second reads from the community 300 dpi chart PDFs. German: 888 cells, no substantive difference. Commonwealth: 1464 cells, five substantive differences resolved from the scan (KDG under 2nd Support Group; 13 DCL's home on the Unassigned Indian sheet, attached to 18th Indian Bde; 29th Indian Bde HQ, printed at the division indent, under the division; 5 RTR under 3rd Armoured Bde until the 32nd Army Tank Bde HQ replaces it). The Unassigned Indian rows were checked by hand against the scan. Every ID code used has a characteristics row (test).
