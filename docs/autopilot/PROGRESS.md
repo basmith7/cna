@@ -18,7 +18,7 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**Mission 6 (scenarios and OA sheets, §59–65) in progress**, started 2026-10-08. All seven scenarios of the five groups are now data, the OA sheets of all three nations and the full reinforcement schedule are in, and every §59–65 case is restated; what remains is Task 3.6, deciding R-097–R-109, and docs. Part 1 is one complete Land Game scenario, **Graziani's Offensive** (§60.22, Game-Turns 1–6, Land Game only per §60.92): the shortest scenario, fully listed by hex, and the base cna-engine's Mission 2 builds on.
+**Mission 6 (scenarios and OA sheets, §59–65) in progress**, started 2026-10-08. All seven scenarios of the five groups are now data, the OA sheets of all three nations and the full reinforcement schedule are in, and every §59–65 case is restated; what remains is Task 3.6, deciding the eleven open rulings, and docs. Part 1 is one complete Land Game scenario, **Graziani's Offensive** (§60.22, Game-Turns 1–6, Land Game only per §60.92): the shortest scenario, fully listed by hex, and the base cna-engine's Mission 2 builds on.
 
 **For cna-engine: Graziani's Offensive has landed** (2026-10-08). Scenario `scenario:grazianis-offensive` = `data/scenarios/grazianis-offensive.json` (Land-only play: apply `abstractions.air_and_logistics`); units in `data/oa/it.json` and `data/oa/cw.json` (ID codes key into `data/tables/unit-characteristics.json`); arrivals in `data/tables/reinforcement-schedule.json` (through Game-Turn 6); schemas in `data/schema/scenario.schema.json` and `oa.schema.json`. Placements by country (`"region": "libya"` / `"egypt"`) resolve through `data/map/regions.json` (reference reading `tools/map_geom.country`).
 
@@ -45,7 +45,7 @@ The next run reads this section first, acts on it, and moves each item to
 | 3.3 Group Four, El Alamein (§63): `the-last-chance.json`, `the-long-retreat.json`, `rules/scenarios/40-el-alamein.md` (38/38 cases); R-108 opened. German deployment second-read (0 differences, #162) | merged | #157, #162 |
 | 3.5 Group Five, the campaign game (§64; §65 omitted): `campaign-game.json`, `short-campaign-game.json`, `rules/scenarios/50-campaign-game.md`; R-109 opened. **§59–65: 171/171 cases covered** | merged | #160 |
 | 3.6 Per-unit OA figures (fuel rates, capacities, coastal ship tonnage) where printed | not started | |
-| Part 4: decide the new rulings | R-094 (each doubly printed unit placed once), R-095 (Group One fleet as listed), R-096 (a scenario's set-up overrides the OA arrival column) accepted; R-097–R-109 open | #161, #163, #164 |
+| Part 4: decide the new rulings | Accepted: R-094 (each doubly printed unit placed once), R-095 (Group One fleet as listed), R-096 (a scenario's set-up overrides the OA arrival column), R-098 (all of Cairo and Alexandria are major repair facilities), R-107 (inactive dumps are dummies). Open: R-097, R-099–R-106, R-108, R-109 | #161, #163–#166 |
 
 **MISSION 5 COMPLETE** (the Logistics Game, §48–58), 2026-09-27 17:05 UTC. All five parts are merged, each PR after local gates and green CI:
 
@@ -102,7 +102,7 @@ Missions 1–4 are complete (PRs #2–#101).
 
 ## Next steps
 
-For the autopilot: Mission 6: Task 3.6 (per-unit OA figures); Part 4, deciding R-097–R-109 one PR each; then Part 5 docs and `MISSION 6 COMPLETE`, and on to Mission 7 (the Air Game). Clay Stone's preface notes the 1st Buffs and 1st Hampshires start the campaign; check it when the campaign game (§64) is set up. cna-engine had no **Requests for cna** on 2026-10-08.
+For the autopilot: Mission 6: Task 3.6 (per-unit OA figures); Part 4, deciding R-097, R-099–R-106, R-108 and R-109 one PR each (R-099 touches the Land Game's 22.31 repair rule: decide whether the scenarios' temporary Tobruk facility is a scenario exception or a general correction); then Part 5 docs and `MISSION 6 COMPLETE`, and on to Mission 7 (the Air Game). Clay Stone's preface notes the 1st Buffs and 1st Hampshires start the campaign; check it when the campaign game (§64) is set up. cna-engine had no **Requests for cna** on 2026-10-08.
 
 For Brian (all optional):
 

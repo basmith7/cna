@@ -405,3 +405,9 @@ Done: #162 §63 German deployment second read (0 diffs); rulings accepted R-094 
 In flight: none; no open autopilot PRs.
 Next: Part 4: decide R-097..R-109 (branch autopilot/ruling-r-nnn each; edit prose under the existing ::: ruling badge, gen_pages, gates, merge). Task 3.6 per-unit OA figures (data/README.md list) can go before or after. Then Part 5 docs (README layout table, rules/00-overview.md link to Scenarios, design Status, AUTOPILOT.md queue 6 done / 7 next) and MISSION 6 COMPLETE, straight on to Mission 7 Part 0.
 Blocked: none.
+
+## 2026-10-08 10:42 MST — main
+Done: R-098 #165, R-107 #166 accepted (plus R-094 #161, R-095 #163, R-096 #164).
+In flight: none; no open autopilot PRs; tree clean.
+Next: decide R-097, R-099-R-106, R-108, R-109 (R-099: prefer a scenario-only exception, consistent with R-096, so 22.31 in rules/80-engineering.md stays), Task 3.6, then Part 5 docs + MISSION 6 COMPLETE + Mission 7 Part 0.
+Blocked: none.
