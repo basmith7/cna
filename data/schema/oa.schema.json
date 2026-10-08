@@ -23,6 +23,10 @@
           "basic_morale_alt": {"type": ["integer", "null"], "description": "The value printed in parentheses beside it, if any (see rules/10-units-and-state.md, morale)"},
           "sources": {"$ref": "common.schema.json#/$defs/sources"},
           "notes": {"type": "array", "items": {"type": "string"}},
+          "attached": {"type": "array", "items": {"type": "object", "required": ["unit", "to"], "additionalProperties": false,
+                       "properties": {"unit": {"$ref": "common.schema.json#/$defs/unitId"}, "to": {"$ref": "common.schema.json#/$defs/unitId"},
+                                      "notes": {"type": "array", "items": {"type": "string"}}}},
+                       "description": "Counters whose home is another sheet but which this sheet lists as attached (not assigned) to one of its units; each counter has one id, on its home sheet"},
           "units": {
             "type": "array",
             "minItems": 1,
