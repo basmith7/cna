@@ -445,3 +445,8 @@ the PR that adds or substantially rewrites the file.
 - **Reading:** the set-up was read from the scan; the source text's OCR was used only as a guide, and the scan wins where they differ (e.g. D3714 for "13714", D3615 for "13615", C1715, "Det: all except XXI", LXII(L), Tvl, "5 heavy", unit type I for "D"/"1"). Benghazi is printed B4827, an inland gravel hex; the data uses the Benghazi place (A4827). 60.22 and 60.23 point to 60.71/60.72 for victory, which are at 60.81/60.82; 60.93 points at 60.82 for supply units meaning 60.92. The Sirte, Cirene and Marmarica OA sheets, missing from the chart set, were read twice from SPI's errata (community scan Errata.pdf pp. 9–10): 0 of 43 rows differ.
 - **Cross-check:** dump and truck totals in a test against the source-text tables (an independent reading): all agree. Unit references resolve against `data/oa/` in `check_data.py`.
 - **Rulings:** R-027 applied (Tobruk starts at 2, not the printed 7); opened R-094 (artillery printed twice), R-095 (fleet total vs lists), R-096 (a unit placed before its OA arrival). El Grein garrison → EGUG is a `copy` question.
+
+## data/map/regions.json — 2026-10-08
+- **Read:** the Libya–Egypt frontier on map C (scan jp2 189), a line printed along hexsides from the coast between C4121 and C4122 to the south edge between C0120 and C0121; maps B and D carry no frontier.
+- **How expressed:** per row of map C, the first Egyptian column; maps A and B wholly Libya, D and E wholly Egypt. Reference reading `tools/map_geom.country`, tested on eight printed anchors.
+- **Cross-check:** two independent reads (one by the measured hex grid, one by the printed hex numbers): the 41 rows with land on both sides agree exactly; row 42 differed only over sea hexes.

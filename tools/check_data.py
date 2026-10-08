@@ -214,7 +214,7 @@ def validate_map(data_dir: pathlib.Path, reg: Registry, known: set[str]) -> list
     errors: list[str] = []
     schema_dir = data_dir / "schema"
     docs = {}
-    for name, schema in (("sheets", "map-sheets"), ("hexes", "map-hexes"), ("hexsides", "map-hexsides"), ("places", "map-places")):
+    for name, schema in (("sheets", "map-sheets"), ("hexes", "map-hexes"), ("hexsides", "map-hexsides"), ("places", "map-places"), ("regions", "map-regions")):
         p = m / f"{name}.json"
         if not p.exists():
             continue
