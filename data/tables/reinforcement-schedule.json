@@ -6,15 +6,15 @@
   "scan:p144",
   "scan:p145"
  ],
- "through": 38,
+ "through": 111,
  "notes": [
-  "Land Unit Reinforcement and Withdrawal Schedules: 4.43a Commonwealth (jp2 113-114), 4.43b Axis (jp2 144-145). Transcribed so far through Game-Turn 38 (Groups One and Two); the rest follows in Mission 6 Task 3.4.",
+  "Land Unit Reinforcement and Withdrawal Schedules: 4.43a Commonwealth (jp2 113-114), 4.43b Axis (jp2 144-145). Transcribed in full, Game-Turns 1-111.",
   "A unit named is the counter on its OA sheet together with the units assigned to it there, as in the scenario set-ups (59.2).",
   "The Axis schedule has no entries before Game-Turn 9.",
-  "Read twice (archive.org scan; community 300 dpi chart PDFs): Game-Turns 1-6 agree row for row; Game-Turns 7-38 (109 printed entries) agree apart from how a few lists were split.",
+  "Read twice (archive.org scan; community 300 dpi chart PDFs): Game-Turns 1-6 agree row for row; Game-Turns 7-38 (109 printed entries) and 39-111 (169) agree apart from how a few lists were split and one truck figure (Game-Turn 75 OpStage 3, settled from the scan: 6 heavy).",
   "A unit that returns after a withdrawal is an 'arrives' row with a note. Withdrawals print a transport figure (Tpt: a/b) in place of a truck breakdown; it is kept in the row's notes.",
   "Rows that bring only trucks or tank points and no counter: Axis trucks at 27/3, 28/2, 31/1 and 38/2 (OpStage/Game-Turn order reversed here: Game-Turn 27 OpStage 3 and so on), and the Commonwealth Tiger convoy at Game-Turn 32 OpStage 3. They are listed in unplaced.",
-  "Where the schedule and a unit's OA sheet print different arrivals (the 5th Panzer Regiment group, the 2 MG Bn, and the 22nd Guards Brigade whose sheet prints none) the row keeps the schedule's date and says so; both charts were read twice."
+  "Where the schedule and a unit's OA sheet print different arrivals (the 5th Panzer Regiment group, the 2 MG Bn, the 102nd Anti-tank Regt, the 22nd Armoured Bde HQ, the 78th Field Regt, and the 22nd Guards Brigade whose sheet prints none) the row keeps the schedule's date and says so; both charts were read twice."
  ],
  "rows": [
   {
@@ -1830,6 +1830,2618 @@
     "CNA1979:4.43",
     "scan:p113"
    ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 39,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:30-flak-bty",
+    "unit:de:13-oasis-koy"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 40,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:10-in-hq"
+   ],
+   "trucks": {
+    "light": 9,
+    "medium": 25,
+    "heavy": 5
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 40,
+   "opstage": 1,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:14th-infantry-bde-hq"
+   ],
+   "notes": [
+    "Tpt: 20/20"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 40,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:29-in-hq",
+    "unit:cw:1-doyc"
+   ],
+   "trucks": {
+    "light": 10,
+    "medium": 25,
+    "heavy": 5
+   },
+   "notes": [
+    "Trucks come with the 29th Indian Brigade."
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 40,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:de:1-902-arty-bty"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 41,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:midlnd",
+    "unit:cw:14-laa",
+    "unit:cw:87-haa"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 41,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:3-2-pjb"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 42,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:88-haa"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 43,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:102nd-anti-tank-regt",
+    "unit:cw:57-haa"
+   ],
+   "notes": [
+    "OA sheet gives arrival OpStage 1 of Game-Turn 45 for unit:cw:102nd-anti-tank-regt"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 43,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:580-aufkl-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 43,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:7-sa-recce",
+    "unit:cw:28-fld"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 43,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:16-laa",
+    "unit:cw:94-haa"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 44,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:1sa-cfa",
+    "unit:cw:2sa-nfa",
+    "unit:cw:5-sa-fld",
+    "unit:cw:4-sa",
+    "unit:cw:27-med",
+    "unit:cw:68-med"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 44,
+   "opstage": 2,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:150-inf-bde-hq"
+   ],
+   "notes": [
+    "Tpt: 38/32"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 44,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:90-le-div-hq"
+   ],
+   "trucks": {
+    "light": 10,
+    "medium": 10,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 44,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:4-sa-bde-hq"
+   ],
+   "trucks": {
+    "light": 10,
+    "medium": 34,
+    "heavy": 6
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 45,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:4-sa-fld",
+    "unit:cw:2-sa-at",
+    "unit:cw:2-sa-laa",
+    "unit:cw:2-laa",
+    "unit:cw:89-haa"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 45,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:149-coastal-arty-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 45,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:it:recam-hq"
+   ],
+   "trucks": {
+    "light": 0,
+    "medium": 10,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 46,
+   "opstage": 1,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:18-aus"
+   ],
+   "notes": [
+    "Tpt: 56/40"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 46,
+   "opstage": 3,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:5-indian-div-hq"
+   ],
+   "notes": [
+    "Tpt: 27/20"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 47,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:3-sa-armd-car"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 47,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:sas",
+    "unit:cw:6-sa"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 48,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:60-fld",
+    "unit:cw:25-laa"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 49,
+   "opstage": 2,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:9-aus"
+   ],
+   "notes": [
+    "Tpt: 67/47"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 49,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:de:iii-255-schutzen-bn",
+    "unit:de:iii-347-schutzen-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 50,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:1-sarc"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 50,
+   "opstage": 1,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:10-in-hq"
+   ],
+   "notes": [
+    "Tpt: 39/30"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 50,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:23rd-bde-anti-tank-coy"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 50,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:16th-infantry-bde-hq"
+   ],
+   "notes": [
+    "returns after withdrawal",
+    "Tpt: as it left on Game-Turn 36 OpStage 3"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 50,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:13-nz-rr"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 50,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:it:101st-trieste-div-hq"
+   ],
+   "trucks": {
+    "light": 10,
+    "medium": 65,
+    "heavy": 5
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 51,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:3fldtha"
+   ],
+   "notes": [
+    "Replace the 3rd Armored Brigade's HQ with that of the 32nd Armored Brigade."
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 51,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:22-armd-bde-hq"
+   ],
+   "trucks": {
+    "light": 5,
+    "medium": 30,
+    "heavy": 6
+   },
+   "notes": [
+    "OA sheet gives arrival OpStage 3 of Game-Turn 20 for unit:cw:22-armd-bde-hq"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 51,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:23rd-infantry-bde-hq",
+    "unit:cw:4-bord"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 51,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:1-essex",
+    "unit:cw:1-dur-lt"
+   ],
+   "notes": [
+    "returns after withdrawal",
+    "Tpt: as it left on Game-Turn 38 OpStage 2"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 51,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:it:iv-genoa-machinegun-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 52,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:7-sa-fld"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 52,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:de:i-18-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 53,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:3-18-rgr"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 53,
+   "opstage": 2,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:26-aus"
+   ],
+   "notes": [
+    "Tpt: 33/21"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 54,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:14th-infantry-bde-hq"
+   ],
+   "notes": [
+    "returns after withdrawal",
+    "Tpt: as it left on Game-Turn 40 OpStage 1"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 54,
+   "opstage": 2,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:20-aus"
+   ],
+   "notes": [
+    "Tpt: 33/21"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 55,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:67-med"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 55,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:it:iiim-tank-bn",
+    "unit:it:i-articelere-regt",
+    "unit:it:ii-articelere-regt"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 55,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:it:liim-tank-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 56,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:78-fld"
+   ],
+   "notes": [
+    "OA sheet gives arrival OpStage 1 of Game-Turn 56 for unit:cw:78-fld"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 56,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:1-armd-div-hq"
+   ],
+   "trucks": {
+    "light": 2,
+    "medium": 2,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 58,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:612-army-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 58,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:50-recce",
+    "unit:cw:34-laa"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 58,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:2-armd-bde-hq",
+    "unit:cw:12-lancr"
+   ],
+   "trucks": {
+    "light": 10,
+    "medium": 30,
+    "heavy": 6
+   },
+   "notes": [
+    "Trucks come with the 2nd Armored Brigade."
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 58,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:150-inf-bde-hq"
+   ],
+   "notes": [
+    "returns after withdrawal",
+    "Tpt: as it left on Game-Turn 44 OpStage 2"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 59,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:68-haa",
+    "unit:cw:69-haa"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 59,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:ii-25-flak-bn",
+    "unit:de:i-53-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 59,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:it:vi-aosta-machinegun-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 59,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:1-spt-hq"
+   ],
+   "trucks": {
+    "light": 8,
+    "medium": 30,
+    "heavy": 6
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 60,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:3-10-bal",
+    "unit:cw:1-1-pjb"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 60,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:111-fld",
+    "unit:cw:154-fld",
+    "unit:cw:95th-anti-tank-regt"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 60,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:de:368-heavy-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 61,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:841-lt-flak-bn",
+    "unit:de:192-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 62,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:1-freefr-hq",
+    "unit:cw:2-lgetr",
+    "unit:cw:3-lgetr",
+    "unit:cw:2-mrch",
+    "unit:cw:1-pacf"
+   ],
+   "trucks": {
+    "light": 10,
+    "medium": 15,
+    "heavy": 3
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 62,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:it:littorio-133rd-div-hq",
+    "unit:it:5th-desert-patrol",
+    "unit:it:23rd-desert-patrol"
+   ],
+   "trucks": {
+    "light": 40,
+    "medium": 50,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 63,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:1-ff-arty"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 63,
+   "opstage": 1,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:polish-hq"
+   ],
+   "notes": [
+    "Tpt: 25/20"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 63,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:2-na",
+    "unit:cw:1-fslrs"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 65,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:1-frstrs"
+   ],
+   "trucks": {
+    "light": 2,
+    "medium": 10,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 65,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:1-fr-mtr-marine"
+   ],
+   "trucks": {
+    "light": 0,
+    "medium": 5,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 66,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:82-laa"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 66,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:533-coastal-arty-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 66,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:707-schwinf-koy",
+    "unit:de:114-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 66,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:de:778-naval-eng-koy",
+    "unit:de:442-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 67,
+   "opstage": 1,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:7th-armored-bde-hq"
+   ],
+   "notes": [
+    "Tpt: 3/2"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 67,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:i-43-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 68,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:i-6-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 68,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:i-722-arty-bty"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 68,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:50-inf-div-hq",
+    "unit:cw:2-ches",
+    "unit:cw:74-fld"
+   ],
+   "trucks": {
+    "light": 1,
+    "medium": 8,
+    "heavy": 5
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 69,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:69-inf-bde-hq"
+   ],
+   "trucks": {
+    "light": 8,
+    "medium": 30,
+    "heavy": 3
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 69,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:151-inf-bde-hq",
+    "unit:cw:72-fld",
+    "unit:cw:124-fld"
+   ],
+   "trucks": {
+    "light": 8,
+    "medium": 30,
+    "heavy": 5
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 69,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:8-armd-bde-hq"
+   ],
+   "trucks": {
+    "light": 8,
+    "medium": 20,
+    "heavy": 5
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 70,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:ryuggd"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 70,
+   "opstage": 2,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:70th-infantry-div-hq"
+   ],
+   "notes": [
+    "Tpt: 50/40"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 70,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:617-army-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 70,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:it:8th-armored-bersaglieri-bn"
+   ],
+   "trucks": {
+    "light": 0,
+    "medium": 5,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 71,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:de:526-coastal-arty-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 71,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:it:lim-tank-bn",
+    "unit:it:dliv-articelere-bn",
+    "unit:it:dlvi-articelere-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 72,
+   "opstage": 2,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:2-nz-hq"
+   ],
+   "notes": [
+    "Tpt: 107/90"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 73,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:10-in-hq",
+    "unit:cw:28-fld"
+   ],
+   "trucks": {
+    "light": 10,
+    "medium": 27,
+    "heavy": 5
+   },
+   "notes": [
+    "returns after withdrawal"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 73,
+   "opstage": 1,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:16th-infantry-bde-hq"
+   ],
+   "notes": [
+    "Tpt: 20/20"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 73,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:1-4-essx"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 73,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:161-in-hq"
+   ],
+   "trucks": {
+    "light": 7,
+    "medium": 24,
+    "heavy": 5
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 74,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:364-arty-bty"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 75,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:84th-anti-tank-regt"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 75,
+   "opstage": 1,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:7-in-hq"
+   ],
+   "notes": [
+    "Tpt: 22/20"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 75,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:2-freefr-hq",
+    "unit:cw:2-4-grka",
+    "unit:cw:3-9-jats",
+    "unit:cw:1-5-mah"
+   ],
+   "trucks": {
+    "light": 5,
+    "medium": 14,
+    "heavy": 2
+   },
+   "notes": [
+    "Trucks come with the 2nd Free French Brigade."
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 75,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:5-indian-div-hq",
+    "unit:cw:9-in-hq",
+    "unit:cw:144-fld"
+   ],
+   "trucks": {
+    "light": 10,
+    "medium": 27,
+    "heavy": 6
+   },
+   "notes": [
+    "returns after withdrawal"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 76,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:32-army-tank-bde-hq"
+   ],
+   "notes": [
+    "returns after withdrawal",
+    "Tpt: as it left on Game-Turn 68 OpStage 2",
+    "Tpt: the printed reference to Game-Turn 68 OpStage 2 has no matching withdrawal."
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 76,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:288-son-hq"
+   ],
+   "trucks": {
+    "light": 5,
+    "medium": 18,
+    "heavy": 4
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 76,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:2-7-grka"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 76,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:de:708-schwinf-koy"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 79,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:10-armd-div-hq"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 79,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:1-swb"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 80,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:9-armd-bde-hq",
+    "unit:cw:3-fld"
+   ],
+   "trucks": {
+    "light": 8,
+    "medium": 30,
+    "heavy": 5
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 80,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:1-afr-arty-regt-hq"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 80,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:2-infld"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 81,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:10-indian-div-hq"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 82,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:25-in-hq"
+   ],
+   "trucks": {
+    "light": 2,
+    "medium": 15,
+    "heavy": 3
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 82,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:190-arty-regt"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 82,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:20-in-hq",
+    "unit:cw:21-in-hq"
+   ],
+   "trucks": {
+    "light": 4,
+    "medium": 30,
+    "heavy": 6
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 83,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:69-med",
+    "unit:cw:98-fld"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 84,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:2-8-grka"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 84,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:10-qvg"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 84,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:6-rajrf"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 85,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:32-fld",
+    "unit:cw:121-fld"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 85,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:13-koy-brandenburg"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 85,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:2-nz-hq"
+   ],
+   "notes": [
+    "returns after withdrawal",
+    "Tpt: as it left on Game-Turn 72 OpStage 2"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 86,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:11-fld",
+    "unit:cw:53-laa",
+    "unit:cw:18-in-hq"
+   ],
+   "trucks": {
+    "light": 7,
+    "medium": 24,
+    "heavy": 2
+   },
+   "notes": [
+    "Trucks come with the 18th Indian Brigade."
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 86,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:ramcke-bde-hq",
+    "unit:de:v-brc-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 86,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:9-aus"
+   ],
+   "notes": [
+    "returns after withdrawal",
+    "Tpt: the sum of what left on Game-Turn 49, 53 and 54 (OpStage 2 each)"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 87,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:3-14-pjb"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 87,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:iv-sch-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 87,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:8-armd-div-hq",
+    "unit:cw:23-armd-bde-hq",
+    "unit:cw:2-deryeo"
+   ],
+   "trucks": {
+    "light": 8,
+    "medium": 36,
+    "heavy": 8
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 88,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:24-armd-bde-hq"
+   ],
+   "trucks": {
+    "light": 7,
+    "medium": 36,
+    "heavy": 8
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 88,
+   "opstage": 1,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:3-in"
+   ],
+   "notes": [
+    "Tpt: 30/25"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 88,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:ii-46-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 89,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:56-laa"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 89,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:14-frstrs"
+   ],
+   "trucks": {
+    "light": 2,
+    "medium": 10,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 89,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:i-54-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 89,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:53-fld",
+    "unit:cw:5-rha"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 89,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:de:211-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 90,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:131-inf-bde-hq"
+   ],
+   "trucks": {
+    "light": 10,
+    "medium": 35,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 90,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:44-inf-div-hq"
+   ],
+   "trucks": {
+    "light": 22,
+    "medium": 73,
+    "heavy": 20
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 90,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:it:ivm-tank-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 91,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:190-pzjg-bn",
+    "unit:de:243-flak-bn",
+    "unit:de:i-kroh-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 91,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:de:329-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 92,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:ii-vdh-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 92,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:it:xiiim-tank-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 92,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:51-inf-div-hq",
+    "unit:cw:1-7-mdlsx",
+    "unit:cw:51-recce",
+    "unit:cw:13th-anti-tank-regt"
+   ],
+   "trucks": {
+    "light": 27,
+    "medium": 102,
+    "heavy": 19
+   },
+   "notes": [
+    "Trucks come with the 51st Infantry Division."
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 92,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:ii-12-flak-bn",
+    "unit:de:358-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 92,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:it:16th-pistoia-div-hq"
+   ],
+   "trucks": {
+    "light": 5,
+    "medium": 45,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 92,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:152-inf-bde-hq",
+    "unit:cw:153-inf-bde-hq",
+    "unit:cw:154-inf-bde-hq"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 92,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:de:860-flak-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 93,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:61-at",
+    "unit:cw:126-fld",
+    "unit:cw:127-fld",
+    "unit:cw:128-fld",
+    "unit:cw:40-laa",
+    "unit:cw:1-greek-hq"
+   ],
+   "trucks": {
+    "light": 8,
+    "medium": 28,
+    "heavy": 6
+   },
+   "notes": [
+    "Trucks come with the 1st Greek Brigade."
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 93,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:164-le-div-hq",
+    "unit:de:iii-hub-bn",
+    "unit:de:609-flak-bn"
+   ],
+   "trucks": {
+    "light": 0,
+    "medium": 30,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 93,
+   "opstage": 2,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:25-in-hq",
+    "unit:cw:42-rtr",
+    "unit:cw:44-rtr"
+   ],
+   "notes": [
+    "Tpt: 22/18"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 93,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:ii-5-flak-bn"
+   ],
+   "trucks": {
+    "light": 10,
+    "medium": 30,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 93,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:de:125-pzgren-regt-hq",
+    "unit:de:164-200-pi-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 94,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:yrkdrgn"
+   ],
+   "trucks": {
+    "light": 2,
+    "medium": 10,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 94,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:382-pzgren-regt-hq"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 94,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:1-2-grka"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 94,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:de:165-aufkl-bn"
+   ],
+   "trucks": {
+    "light": 0,
+    "medium": 25,
+    "heavy": 20
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 94,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:it:185th-folgore-div-hq"
+   ],
+   "trucks": {
+    "light": 5,
+    "medium": 30,
+    "heavy": 5
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 94,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:it:1-78-fanterie-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 95,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:1-fffc"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 95,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:de:220-arty-regt-hq"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 95,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:57-at-44-inf-div",
+    "unit:cw:57-fld",
+    "unit:cw:58-fld",
+    "unit:cw:65-fld"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 95,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:de:433-pzgren-regt-hq"
+   ],
+   "trucks": {
+    "light": 0,
+    "medium": 25,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 97,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:it:136th-giovani-fascisti-div-hq"
+   ],
+   "trucks": {
+    "light": 5,
+    "medium": 20,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 97,
+   "opstage": 2,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:22-gds"
+   ],
+   "notes": [
+    "with any three infantry battalions",
+    "Tpt: 26/21"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 97,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:it:iii-133-fanterie-bn"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 97,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:de:2-afr-arty-regt-hq"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 98,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:42-laa"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 99,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:42-rtr",
+    "unit:cw:44-rtr"
+   ],
+   "trucks": {
+    "light": 4,
+    "medium": 0,
+    "heavy": 0
+   },
+   "notes": [
+    "returns after withdrawal"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 99,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [
+    "unit:it:57th-bersaglieri-mitrg-coy"
+   ],
+   "trucks": {
+    "light": 0,
+    "medium": 15,
+    "heavy": 0
+   },
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 100,
+   "opstage": 2,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:9-in-hq"
+   ],
+   "notes": [
+    "Tpt: 40/30"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 108,
+   "opstage": 1,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:9-aus"
+   ],
+   "notes": [
+    "Tpt: 125/90"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 110,
+   "opstage": 1,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:10-armd-div-hq"
+   ],
+   "notes": [
+    "Tpt: 7/3"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 110,
+   "opstage": 3,
+   "kind": "withdraws",
+   "units": [
+    "unit:cw:9-armd-bde-hq"
+   ],
+   "notes": [
+    "Tpt: 33/26"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p114"
+   ]
   }
  ],
  "unplaced": [
@@ -1917,6 +4529,44 @@
    },
    "notes": [
     "Trucks only, for the 90th Leichte Division."
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 43,
+   "opstage": 2,
+   "kind": "arrives",
+   "units": [],
+   "trucks": {
+    "light": 0,
+    "medium": 15,
+    "heavy": 0
+   },
+   "notes": [
+    "Trucks only, for the 90th Leichte Division."
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p145"
+   ]
+  },
+  {
+   "side": "axis",
+   "game_turn": 96,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [],
+   "trucks": {
+    "light": 10,
+    "medium": 0,
+    "heavy": 10
+   },
+   "notes": [
+    "Trucks only, for the 164th Leichte Division."
    ],
    "sources": [
     "CNA1979:4.43",

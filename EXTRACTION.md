@@ -464,3 +464,7 @@ the PR that adds or substantially rewrites the file.
 - **How expressed:** length, release rule, initiative, construction, abstractions and victory in prose; every listing in the scenario file. The German start is every German counter the schedule brings before Game-Turn 26 OpStage 3 (a test checks the data against the schedule). The campaign from the same set-up extends it; SPI gives it nothing else (R-104).
 - **Reading:** scan over OCR: B4004 for "84004", D3714 for "D8714", Sollum, Axis Trucks; 61.73 B prints 61.62. Printed misprints recorded in the data's notes: Tobruk given as C4907 once (C4807), and the coast road "from E1716" (A1716).
 - **Rulings:** R-027 applied (Tobruk 2); opened R-101 (victory), R-102 (abstraction references, motorisation), R-103 (5 RTR's tanks), R-104 (the campaign scenario). Layforce and the LRDG unit have no OA counter and are notes.
+
+## data/tables/reinforcement-schedule.json, Game-Turns 39–111 — 2026-10-08
+- **Read:** the rest of 4.43a (jp2 113–114) and 4.43b (jp2 145): 107 Commonwealth and 62 Axis entries; nothing printed for Game-Turn 111, the last Axis entry at Game-Turn 99. The schedule is now complete (`through: 111`).
+- **Cross-check:** second read from the community chart PDFs: one figure differed (Game-Turn 75 OpStage 3 heavy trucks), settled from the scan as 6. Mapped to 251 OA ids; the arrival test finds three more printed disagreements with the OA sheets (102nd Anti-tank Regt, 22nd Armoured Bde HQ, 78th Field Regt), added to R-100.
