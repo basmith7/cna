@@ -266,7 +266,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-106](../rulings/R-106.md) | accepted | 62.41, 62.42 |
 | [R-107](../rulings/R-107.md) | accepted | 62.35, 62.45, 59.53 |
 | [R-108](../rulings/R-108.md) | accepted | 63.2 |
-| [R-109](../rulings/R-109.md) | proposed | 64.71, 64.72, 64.75, 64.76 |
+| [R-109](../rulings/R-109.md) | accepted | 64.71, 64.72, 64.75, 64.76 |
 | [R-110](../rulings/R-110.md) | accepted | 60.81, 60.92, 32.17 |
 
 ## Variants register

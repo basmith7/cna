@@ -86,4 +86,9 @@ anything greater a smashing one.
 
 ::: ruling R-109 — open points in the campaign victory rules
 
+A "whole Game-Turn" is one Game-Turn from its first OpStage to its last.
+The 90- and 60-point lines stand as printed. A unit earns at most three
+withdrawal points in the whole game. If the smaller total is zero or less,
+a positive larger total is a smashing victory; both zero or less is a draw.
+
 ::: spi-omit 65.0 — the designer's notes and bibliography: commentary, no rules
