@@ -92,6 +92,11 @@ once per combat segment:
 | Non-phasing | barrages; or is assaulted (anti-armour or close), including after retreating into a hex that is then assaulted; or takes a holding-off barrage | 3 |
 | Non-phasing | is probed | 2 |
 | Non-phasing | defends a full (non-probe) close assault whose final differential is −4 or worse | 1 |
+| Non-phasing | defends a probe whose final differential is −4 or worse | 0 |
+
+The two −4 rows are the 2 CP refund of the [CP table](30-capability-points.md#cost-table)
+(3 − 2 and 2 − 2); it applies only to a unit that neither barraged nor was
+barraged that segment.
 
 Ceilings: a phasing unit never pays more than 5, a non-phasing unit never
 more than 3, in one combat segment, whatever happens to it. A phasing unit
