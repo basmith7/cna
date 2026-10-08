@@ -2612,6 +2612,143 @@
      "toe_mark": "N"
     }
    ]
+  },
+  {
+   "id": "polish-carpathian-bde",
+   "name": "The Polish (Carpathian) Brigade",
+   "basic_morale": 1,
+   "basic_morale_alt": -1,
+   "sources": [
+    "CNA1979:4.44",
+    "scan:p131"
+   ],
+   "notes": [
+    "a: at the start of the campaign the brigade took orders from the 6th Australian Division; seldom committed.",
+    "Read twice from the scan (half and full resolution); arrival agrees with the reinforcement schedule (Game-Turn 1, OpStage 3)."
+   ],
+   "units": [
+    {
+     "id": "unit:cw:polish-hq",
+     "name": "Polish Brigade HQ",
+     "abbreviation": "Polish",
+     "id_code": "a",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-pol",
+     "name": "1st Polish Bn",
+     "abbreviation": "1 Pol",
+     "id_code": "s",
+     "parent": "unit:cw:polish-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     },
+     "toe_mark": "N",
+     "notes": [
+      "b: full name 1st Polish Carpathian Rifle Battalion"
+     ]
+    },
+    {
+     "id": "unit:cw:2-pol",
+     "name": "2nd Polish Bn",
+     "abbreviation": "2 Pol",
+     "id_code": "s",
+     "parent": "unit:cw:polish-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     },
+     "toe_mark": "N",
+     "notes": [
+      "b: full name 2nd Polish Carpathian Rifle Battalion"
+     ]
+    },
+    {
+     "id": "unit:cw:3-pol",
+     "name": "3rd Polish Bn",
+     "abbreviation": "3 Pol",
+     "id_code": "s",
+     "parent": "unit:cw:polish-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     },
+     "toe_mark": "N",
+     "notes": [
+      "b: full name 3rd Polish Carpathian Rifle Battalion"
+     ]
+    },
+    {
+     "id": "unit:cw:kopanski-mg",
+     "name": "Kopanski MG Coy",
+     "abbreviation": "Kopnski",
+     "id_code": "w",
+     "parent": "unit:cw:polish-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     },
+     "toe_mark": "U@1"
+    },
+    {
+     "id": "unit:cw:1-polcv",
+     "name": "1st Polish Cavalry Regt",
+     "abbreviation": "1 PolCv",
+     "id_code": "ss",
+     "parent": "unit:cw:polish-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-pol-at",
+     "name": "1st Polish Anti-tank Coy",
+     "abbreviation": "1 Pol",
+     "id_code": "dd",
+     "parent": "unit:cw:polish-hq",
+     "toe": [
+      {
+       "weapon": "2-pounder",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:1-pol-arty",
+     "name": "1st Polish Artillery Regt",
+     "abbreviation": "1 Pol",
+     "id_code": "y",
+     "parent": "unit:cw:polish-hq",
+     "toe": [
+      {
+       "weapon": "18-pounder",
+       "points": 4
+      }
+     ],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     }
+    }
+   ]
   }
  ]
 }
