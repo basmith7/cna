@@ -67,6 +67,11 @@ Types, numbers, pilots and SGSUs are in `sides.axis.air`.
   facility at Tripoli and temporary ones at Tobruk and Benghazi.
 
 ::: ruling R-099 — Tobruk's repair facility, temporary or major
+
+Tobruk's facility is temporary in this scenario, as the set-up says; a
+scenario's own list of repair facilities governs it, and 22.31's major
+facilities apply wherever a set-up says nothing.
+
 - Dumps start at Tobruk, Bardia, Benghazi, Derna, the Tripoli box and
   C0716. Two more real dumps and two dummies go anywhere in the Libyan part
   of map C that is more than four hexes from every Commonwealth unit. A
