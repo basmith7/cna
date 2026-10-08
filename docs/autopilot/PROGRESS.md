@@ -33,7 +33,7 @@ The next run reads this section first, acts on it, and moves each item to
 | 3.8 Mediterranean bases (§43) | PR open | #197 |
 | 3.4–3.7, 3.8 Malta (§44), 3.9 (§47 + final switch list) | not started | |
 
-Air coverage so far: §33, §35–38, §43 (114 of 431 cases).
+Air coverage so far: §33, §35–38, §43 (96 of 431 cases).
 
 **MISSION 6 COMPLETE** (scenarios and OA sheets, §59–65), 2026-10-08 23:00 UTC. Every part merged after local gates and green CI; §59–65 171/171 cases covered.
 
