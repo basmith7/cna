@@ -1,0 +1,2754 @@
+{
+ "nation": "cw",
+ "sources": [
+  "CNA1979:4.44",
+  "scan:p116",
+  "scan:p119",
+  "scan:p120",
+  "scan:p121",
+  "scan:p122",
+  "scan:p123",
+  "scan:p125",
+  "scan:p126",
+  "scan:p128",
+  "scan:p131"
+ ],
+ "notes": [
+  "Arrives \"a/b\" read as OpStage a of Game-Turn b (chart intro p115: #/- is the OpStage, -/# the Game-Turn).",
+  "Parents taken from indentation per chart intro.",
+  "Chart printed as [4.44B] on p115.",
+  "Read twice (archive.org scan jp2 115-131; community 300 dpi Commonwealth Charts.pdf) and diffed: 1014 cells compared; the reads differ on six parents (the 7th Armoured battalions sit under the 7th Support Group at the start: 7th Motor Bde HQ, printed above them, arrives only at 2/68, and the scenario tags them 7 Spt; and 14 NZ Light AA, printed at the division HQ indent, read as assigned to the division) and on the 1st Argyll and Sutherland arrival, printed with a lower-case d, read as D.",
+  "Only the sheets Graziani's Offensive draws on are transcribed so far (Mission 6 Task 1.3); the rest follow in Task 3.4.",
+  "Arrives: the sheets print Operations Stage / Game-Turn; D (deployed) is \"deployed\". toe_mark N means the maximum TOE for the unit's ID code.",
+  "The chart sets head this chart 4.44B (Commonwealth Organization at Arrival)."
+ ],
+ "formations": [
+  {
+   "id": "7-armd-div",
+   "name": "7th Armored Division",
+   "basic_morale": 2,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p116"
+   ],
+   "units": [
+    {
+     "id": "unit:cw:7th-armored-div-hq",
+     "name": "7th Armored Div HQ",
+     "abbreviation": "7",
+     "id_code": "b",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Mark VI Light",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:4th-armored-bde-hq",
+     "name": "4th Armored Bde HQ",
+     "abbreviation": "4",
+     "id_code": "b",
+     "parent": "unit:cw:7th-armored-div-hq",
+     "toe": [
+      {
+       "weapon": "Mark VI Light",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:6-rtr",
+     "name": "6th Royal Tank Regt",
+     "abbreviation": "6 RTR",
+     "id_code": "g",
+     "parent": "unit:cw:4th-armored-bde-hq",
+     "toe": [
+      {
+       "weapon": "Mark VI Lights",
+       "points": 10
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:7-hus",
+     "name": "7th Queens Own Hussars",
+     "abbreviation": "7 Hus",
+     "id_code": "g",
+     "parent": "unit:cw:4th-armored-bde-hq",
+     "toe": [
+      {
+       "weapon": "Mark VI Lights",
+       "points": 10
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:7th-armored-bde-hq",
+     "name": "7th Armored Bde HQ",
+     "abbreviation": "7",
+     "id_code": "d",
+     "parent": "unit:cw:7th-armored-div-hq",
+     "toe": [
+      {
+       "weapon": "A9",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:1-rtr",
+     "name": "1st Royal Tank Regt",
+     "abbreviation": "1 RTR",
+     "id_code": "g",
+     "parent": "unit:cw:7th-armored-bde-hq",
+     "toe": [
+      {
+       "weapon": "A9",
+       "points": 7
+      }
+     ],
+     "arrives": "deployed",
+     "notes": [
+      "later went to 22nd Armored Bde (sheet note a)"
+     ]
+    },
+    {
+     "id": "unit:cw:8-hus",
+     "name": "8th Hussars",
+     "abbreviation": "8 Hus",
+     "id_code": "g",
+     "parent": "unit:cw:7th-armored-bde-hq",
+     "toe": [
+      {
+       "weapon": "A10",
+       "points": 7
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:7-spt-hq",
+     "name": "7th Support Group HQ",
+     "abbreviation": "7 Spt",
+     "id_code": "a",
+     "parent": "unit:cw:7th-armored-div-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:7-mtr-hq",
+     "name": "7th Motor Bde HQ",
+     "abbreviation": "7 Mtr",
+     "id_code": "a",
+     "parent": "unit:cw:7th-armored-div-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 68,
+      "opstage": 2
+     },
+     "notes": [
+      "replaces the 7th Support Group HQ (sheet note c)"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-krrc",
+     "name": "1st KRRC",
+     "abbreviation": "1 KRRC",
+     "id_code": "n",
+     "parent": "unit:cw:7-spt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-rflbde",
+     "name": "2nd Rifle Brigade",
+     "abbreviation": "2 RflBde",
+     "id_code": "n",
+     "parent": "unit:cw:7-spt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:3-rha",
+     "name": "3rd Ryl Horse Arty",
+     "abbreviation": "3 RHA",
+     "id_code": "aa",
+     "parent": "unit:cw:7-spt-hq",
+     "toe": [
+      {
+       "weapon": "2-pounders",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:4-rha",
+     "name": "4th Ryl Horse Arty",
+     "abbreviation": "4 RHA",
+     "id_code": "x",
+     "parent": "unit:cw:7-spt-hq",
+     "toe": [
+      {
+       "weapon": "18/25-pounders",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:11-hus",
+     "name": "11th Hussars",
+     "abbreviation": "11 Hus",
+     "id_code": "ll",
+     "parent": "unit:cw:7-spt-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "notes": [
+      "uncertain: parent; indented at battalion level after 7 Mtr row, taken as 7 Spt"
+     ],
+     "toe_mark": "U@6"
+    }
+   ],
+   "notes": [
+    "Div HQ name carries superscript E as printed"
+   ]
+  },
+  {
+   "id": "4-indian-div",
+   "name": "4th Indian Division",
+   "basic_morale": 1,
+   "basic_morale_alt": 0,
+   "sources": [
+    "scan:p125"
+   ],
+   "units": [
+    {
+     "id": "unit:cw:4-in-hq",
+     "name": "4th Indian Div HQ",
+     "abbreviation": "4 In",
+     "id_code": "a",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:5-in-hq",
+     "name": "5th Indian Bde HQ",
+     "abbreviation": "5 In",
+     "id_code": "a",
+     "parent": "unit:cw:4-in-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-rfslr",
+     "name": "1st Royal Fusiliers",
+     "abbreviation": "1 RFslr",
+     "id_code": "p",
+     "parent": "unit:cw:5-in-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:3-1-pjb",
+     "name": "3/1 Punjab Regt",
+     "abbreviation": "3/1 Pjb",
+     "id_code": "p",
+     "parent": "unit:cw:5-in-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:4-6-rajrf",
+     "name": "4/6 Rajputana Rifles",
+     "abbreviation": "4/6 RajRf",
+     "id_code": "p",
+     "parent": "unit:cw:5-in-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:7-in-hq",
+     "name": "7th Indian Bde HQ",
+     "abbreviation": "7 In",
+     "id_code": "a",
+     "parent": "unit:cw:4-in-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 5,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-rssx",
+     "name": "1st Royal Sussex",
+     "abbreviation": "1 RSsx",
+     "id_code": "p",
+     "parent": "unit:cw:7-in-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 5,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:4-11-skh",
+     "name": "4/11 Sikhs",
+     "abbreviation": "4/11 Skh",
+     "id_code": "p",
+     "parent": "unit:cw:7-in-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 5,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:4-16-pjb",
+     "name": "4/16 Punjab Regt",
+     "abbreviation": "4/16 Pjb",
+     "id_code": "p",
+     "parent": "unit:cw:7-in-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 5,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:11-in-hq",
+     "name": "11th Indian Bde HQ",
+     "abbreviation": "11 In",
+     "id_code": "a",
+     "parent": "unit:cw:4-in-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-cmrn",
+     "name": "2nd Camerons",
+     "abbreviation": "2 Cmrn",
+     "id_code": "p",
+     "parent": "unit:cw:11-in-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-6-rajrf",
+     "name": "1/6 Rajputana Rifles",
+     "abbreviation": "1/6 RajRf",
+     "id_code": "p",
+     "parent": "unit:cw:11-in-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:4-7-rajpt",
+     "name": "4/7 Rajput Regt",
+     "abbreviation": "4/7 Rajpt",
+     "id_code": "p",
+     "parent": "unit:cw:11-in-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-cih",
+     "name": "Central India Horse",
+     "abbreviation": "1 CIH",
+     "id_code": "ll",
+     "parent": "unit:cw:4-in-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "notes": [
+      "arrives without equipment; motorized infantry until trained (sheet note c)"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-fld",
+     "name": "1st Field Artillery Regt",
+     "abbreviation": "1 Fld",
+     "id_code": "x",
+     "parent": "unit:cw:4-in-hq",
+     "toe": [
+      {
+       "weapon": "18/25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 3,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:25-fld",
+     "name": "25th Field Artillery Regt",
+     "abbreviation": "25 Fld",
+     "id_code": "x",
+     "parent": "unit:cw:4-in-hq",
+     "toe": [
+      {
+       "weapon": "3.7\" Howitzer",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:31-fld",
+     "name": "31st Field Artillery Regt",
+     "abbreviation": "31 Fld",
+     "id_code": "x",
+     "parent": "unit:cw:4-in-hq",
+     "toe": [
+      {
+       "weapon": "18-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    }
+   ]
+  },
+  {
+   "id": "selby-force-matruh-garrison",
+   "name": "Selby Force/The Matruh Garrison",
+   "basic_morale": null,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p120"
+   ],
+   "units": [
+    {
+     "id": "unit:cw:selby-force-the-matruh-garrison",
+     "name": "Selby Force/The Matruh Garrison",
+     "abbreviation": "",
+     "id_code": "a",
+     "parent": null,
+     "toe": [],
+     "arrives": null,
+     "notes": [
+      "no unit table; sheet text: deployed 1/1, ID code a, morale that of attached units",
+      "abbreviation not printed on sheet",
+      "becomes Selby Force at 2/12, disbanded 3/21 per sheet text"
+     ]
+    }
+   ],
+   "notes": [
+    "Basic morale printed as None (that of attached units)"
+   ]
+  },
+  {
+   "id": "70-inf-div",
+   "name": "70th Infantry Division",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p119"
+   ],
+   "units": [
+    {
+     "id": "unit:cw:70th-infantry-div-hq",
+     "name": "70th Infantry Div HQ",
+     "abbreviation": "70",
+     "id_code": "a",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:14th-infantry-bde-hq",
+     "name": "14th Infantry Bde HQ",
+     "abbreviation": "14",
+     "id_code": "c",
+     "parent": "unit:cw:70th-infantry-div-hq",
+     "toe": [
+      {
+       "weapon": "4.5\" Howitzer",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 35,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:1-b-h",
+     "name": "1st Bedfords & Herts",
+     "abbreviation": "1 B&H",
+     "id_code": "m",
+     "parent": "unit:cw:14th-infantry-bde-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 35,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-y-l",
+     "name": "2nd Yorks & Lancashires",
+     "abbreviation": "2 Y&L",
+     "id_code": "m",
+     "parent": "unit:cw:14th-infantry-bde-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 35,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-blkwa",
+     "name": "2nd Black Watch",
+     "abbreviation": "2 BlkWa",
+     "id_code": "m",
+     "parent": "unit:cw:14th-infantry-bde-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 35,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:14th-bde-anti-tank-coy",
+     "name": "14th Bde Anti-tank Coy",
+     "abbreviation": "14",
+     "id_code": "dd",
+     "parent": "unit:cw:14th-infantry-bde-hq",
+     "toe": [
+      {
+       "weapon": "2-pounder",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 47,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:16th-infantry-bde-hq",
+     "name": "16th Infantry Bde HQ",
+     "abbreviation": "16",
+     "id_code": "c",
+     "parent": "unit:cw:70th-infantry-div-hq",
+     "toe": [
+      {
+       "weapon": "3.7\" Howitzer",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:2-qns",
+     "name": "2nd Queens Royal Regt",
+     "abbreviation": "2 Qns",
+     "id_code": "m",
+     "parent": "unit:cw:16th-infantry-bde-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-leicst",
+     "name": "2nd Leicesters",
+     "abbreviation": "2 Leicst",
+     "id_code": "m",
+     "parent": "unit:cw:16th-infantry-bde-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-a-s",
+     "name": "1st Argyll & Sutherland",
+     "abbreviation": "1 A&S",
+     "id_code": "m",
+     "parent": "unit:cw:16th-infantry-bde-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "notes": [
+      "uncertain: arrives printed lower-case \"d\", read as D"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:16th-bde-anti-tank-coy",
+     "name": "16th Bde Anti-tank Coy",
+     "abbreviation": "16",
+     "id_code": "dd",
+     "parent": "unit:cw:16th-infantry-bde-hq",
+     "toe": [
+      {
+       "weapon": "2-pounder",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:23rd-infantry-bde-hq",
+     "name": "23rd Infantry Bde HQ",
+     "abbreviation": "23",
+     "id_code": "c",
+     "parent": "unit:cw:70th-infantry-div-hq",
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 51,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:1-essex",
+     "name": "1st Essex",
+     "abbreviation": "1 Essex",
+     "id_code": "m",
+     "parent": "unit:cw:23rd-infantry-bde-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-dur-lt",
+     "name": "1st Durham Light Inf",
+     "abbreviation": "1 Dur Lt",
+     "id_code": "m",
+     "parent": "unit:cw:23rd-infantry-bde-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "notes": [
+      "ID code printed upper-case \"M\""
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:4-bord",
+     "name": "4th Borderers",
+     "abbreviation": "4 Bord",
+     "id_code": "m",
+     "parent": "unit:cw:23rd-infantry-bde-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 51,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:23rd-bde-anti-tank-coy",
+     "name": "23rd Bde Anti-tank Coy",
+     "abbreviation": "23",
+     "id_code": "dd",
+     "parent": "unit:cw:23rd-infantry-bde-hq",
+     "toe": [
+      {
+       "weapon": "2-pounder",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 50,
+      "opstage": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "2-nz-div",
+   "name": "2nd New Zealand Division",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p128"
+   ],
+   "units": [
+    {
+     "id": "unit:cw:2-nz-hq",
+     "name": "2nd New Zealand Div HQ",
+     "abbreviation": "2 NZ",
+     "id_code": "a",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:4-nz-hq",
+     "name": "4th New Zealand Bde HQ",
+     "abbreviation": "4 NZ",
+     "id_code": "a",
+     "parent": "unit:cw:2-nz-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:18-nz",
+     "name": "18th NZ Bn",
+     "abbreviation": "18 NZ",
+     "id_code": "m",
+     "parent": "unit:cw:4-nz-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:19-nz",
+     "name": "19th NZ Bn",
+     "abbreviation": "19 NZ",
+     "id_code": "m",
+     "parent": "unit:cw:4-nz-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:20-nz",
+     "name": "20th NZ Bn",
+     "abbreviation": "20 NZ",
+     "id_code": "m",
+     "parent": "unit:cw:4-nz-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:5-nz-hq",
+     "name": "5th New Zealand Bde HQ",
+     "abbreviation": "5 NZ",
+     "id_code": "a",
+     "parent": "unit:cw:2-nz-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 35,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:21-nz",
+     "name": "21st NZ Bn",
+     "abbreviation": "21 NZ",
+     "id_code": "m",
+     "parent": "unit:cw:5-nz-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 35,
+      "opstage": 1
+     },
+     "toe_mark": "U@2"
+    },
+    {
+     "id": "unit:cw:22-nz",
+     "name": "22nd NZ Bn",
+     "abbreviation": "22 NZ",
+     "id_code": "m",
+     "parent": "unit:cw:5-nz-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 35,
+      "opstage": 1
+     },
+     "toe_mark": "U@2"
+    },
+    {
+     "id": "unit:cw:23-nz",
+     "name": "23rd NZ Bn",
+     "abbreviation": "23 NZ",
+     "id_code": "m",
+     "parent": "unit:cw:5-nz-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 35,
+      "opstage": 1
+     },
+     "toe_mark": "U@2"
+    },
+    {
+     "id": "unit:cw:28-mao",
+     "name": "28th Maori Inf Bn",
+     "abbreviation": "28 Mao",
+     "id_code": "k",
+     "parent": "unit:cw:5-nz-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 35,
+      "opstage": 1
+     },
+     "toe_mark": "U@2"
+    },
+    {
+     "id": "unit:cw:6-nz-hq",
+     "name": "6th New Zealand Bde HQ",
+     "abbreviation": "6 NZ",
+     "id_code": "a",
+     "parent": "unit:cw:2-nz-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 6,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:24-nz",
+     "name": "24th NZ Bn",
+     "abbreviation": "24 NZ",
+     "id_code": "m",
+     "parent": "unit:cw:6-nz-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 6,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:25-nz",
+     "name": "25th NZ Bn",
+     "abbreviation": "25 NZ",
+     "id_code": "m",
+     "parent": "unit:cw:6-nz-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 6,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:26-nz",
+     "name": "26th NZ Bn",
+     "abbreviation": "26 NZ",
+     "id_code": "m",
+     "parent": "unit:cw:6-nz-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 6,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:27-nz",
+     "name": "27th New Zealand MG Bn",
+     "abbreviation": "27 NZ",
+     "id_code": "u",
+     "parent": "unit:cw:2-nz-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "U@2"
+    },
+    {
+     "id": "unit:cw:2-nz-cv",
+     "name": "2nd New Zealand Cavalry",
+     "abbreviation": "2 NZ Cv",
+     "id_code": "ll",
+     "parent": "unit:cw:2-nz-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:7-nz",
+     "name": "7th NZ Anti-tank Regt",
+     "abbreviation": "7 NZ",
+     "id_code": "aa",
+     "parent": "unit:cw:2-nz-hq",
+     "toe": [
+      {
+       "weapon": "2-pounder",
+       "points": 8
+      }
+     ],
+     "arrives": {
+      "game_turn": 35,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:4-nz-fld",
+     "name": "4th NZ Field Artillery Regt",
+     "abbreviation": "4 NZ Fld",
+     "id_code": "x",
+     "parent": "unit:cw:2-nz-hq",
+     "toe": [
+      {
+       "weapon": "3.7\" Howitzer",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:5-nz-fld",
+     "name": "5th NZ Field Artillery Regt",
+     "abbreviation": "5 NZ Fld",
+     "id_code": "x",
+     "parent": "unit:cw:2-nz-hq",
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 35,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:6-nz-fld",
+     "name": "6th NZ Field Artillery Regt",
+     "abbreviation": "6 NZ Fld",
+     "id_code": "x",
+     "parent": "unit:cw:2-nz-hq",
+     "toe": [
+      {
+       "weapon": "18/25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 2,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:14-nz-lt",
+     "name": "14th NZ Light AA Regt",
+     "abbreviation": "14 NZ Lt",
+     "id_code": "ee",
+     "parent": "unit:cw:2-nz-hq",
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 35,
+      "opstage": 1
+     },
+     "notes": [
+      "uncertain: ID code read \"ce\" (likely ee)"
+     ]
+    }
+   ],
+   "notes": [
+    "rows from 25th NZ Bn down read from reduced-resolution view"
+   ]
+  },
+  {
+   "id": "6-aus-div",
+   "name": "6th Australian Division",
+   "basic_morale": 1,
+   "basic_morale_alt": -3,
+   "sources": [
+    "scan:p123"
+   ],
+   "units": [
+    {
+     "id": "unit:cw:6-aus-hq",
+     "name": "6th Australian Div HQ",
+     "abbreviation": "6 Aus",
+     "id_code": "a",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:16-aus-hq",
+     "name": "16th Aus Infantry Bde HQ",
+     "abbreviation": "16 Aus",
+     "id_code": "f",
+     "parent": "unit:cw:6-aus-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-1-aus",
+     "name": "2/1 Aus Infantry Bn",
+     "abbreviation": "2/1 Aus",
+     "id_code": "p",
+     "parent": "unit:cw:16-aus-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-2-aus",
+     "name": "2/2 Aus Infantry Bn",
+     "abbreviation": "2/2 Aus",
+     "id_code": "p",
+     "parent": "unit:cw:16-aus-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-3-aus",
+     "name": "2/3 Aus Infantry Bn",
+     "abbreviation": "2/3 Aus",
+     "id_code": "p",
+     "parent": "unit:cw:16-aus-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:17-aus-hq",
+     "name": "17th Aus Infantry Bde HQ",
+     "abbreviation": "17 Aus",
+     "id_code": "e",
+     "parent": "unit:cw:6-aus-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "notes": [
+      "uncertain: ID code e"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-5-aus",
+     "name": "2/5 Aus Infantry Bn",
+     "abbreviation": "2/5 Aus",
+     "id_code": "p",
+     "parent": "unit:cw:17-aus-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-6-aus",
+     "name": "2/6 Aus Infantry Bn",
+     "abbreviation": "2/6 Aus",
+     "id_code": "p",
+     "parent": "unit:cw:17-aus-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-7-aus",
+     "name": "2/7 Aus Infantry Bn",
+     "abbreviation": "2/7 Aus",
+     "id_code": "p",
+     "parent": "unit:cw:17-aus-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:19-aus-hq",
+     "name": "19th Aus Infantry Bde HQ",
+     "abbreviation": "19 Aus",
+     "id_code": "a",
+     "parent": "unit:cw:6-aus-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 9,
+      "opstage": 2
+     },
+     "notes": [
+      "uncertain: ID code a (other Aus bde HQs f)"
+     ],
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-4-aus",
+     "name": "2/4 Aus Infantry Bn",
+     "abbreviation": "2/4 Aus",
+     "id_code": "p",
+     "parent": "unit:cw:19-aus-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 9,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-8-aus",
+     "name": "2/8 Aus Infantry Bn",
+     "abbreviation": "2/8 Aus",
+     "id_code": "p",
+     "parent": "unit:cw:19-aus-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 9,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-11-aus",
+     "name": "2/11 Aus Infantry Bn",
+     "abbreviation": "2/11 Aus",
+     "id_code": "p",
+     "parent": "unit:cw:19-aus-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 9,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:6-auscav",
+     "name": "6th Aus Div Cavalry Regt",
+     "abbreviation": "6 AusCav",
+     "id_code": "ll",
+     "parent": "unit:cw:6-aus-hq",
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-1-afld",
+     "name": "2/1 Aus Field Artillery Regt",
+     "abbreviation": "2/1 AFld",
+     "id_code": "x",
+     "parent": "unit:cw:6-aus-hq",
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 11,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:2-2-afld",
+     "name": "2/2 Aus Field Artillery Regt",
+     "abbreviation": "2/2 AFld",
+     "id_code": "x",
+     "parent": "unit:cw:6-aus-hq",
+     "toe": [
+      {
+       "weapon": "18-pounder",
+       "points": 3
+      },
+      {
+       "weapon": "4.5\" Howitzer",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 7,
+      "opstage": 1
+     }
+    }
+   ],
+   "notes": [
+    "read from reduced-resolution view"
+   ]
+  },
+  {
+   "id": "unassigned-armor-class",
+   "name": "Unassigned Armor-Class Units",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p121"
+   ],
+   "units": [
+    {
+     "id": "unit:cw:3-hus",
+     "name": "3rd Kings Own Hussars",
+     "abbreviation": "3 Hus",
+     "id_code": "g",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Mark VI Light",
+       "points": 10
+      }
+     ],
+     "arrives": {
+      "game_turn": 4,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:2-rtr",
+     "name": "2nd Royal Tank Regt",
+     "abbreviation": "2 RTR",
+     "id_code": "g",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "A13 Cruiser",
+       "points": 10
+      }
+     ],
+     "arrives": {
+      "game_turn": 2,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:7-rtr",
+     "name": "7th Royal Tank Regt",
+     "abbreviation": "7 RTR",
+     "id_code": "g",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Matilda",
+       "points": 10
+      }
+     ],
+     "arrives": {
+      "game_turn": 2,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:4-rtr",
+     "name": "4th Royal Tank Regt",
+     "abbreviation": "4 RTR",
+     "id_code": "g",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Matilda",
+       "points": 10
+      }
+     ],
+     "arrives": {
+      "game_turn": 29,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:10-qvg",
+     "name": "10th, QVOC Guides",
+     "abbreviation": "10 QVG",
+     "id_code": "mm",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 84,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-royals",
+     "name": "1st, The Royal Dragoons",
+     "abbreviation": "1 Royals",
+     "id_code": "kk",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 31,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    }
+   ]
+  },
+  {
+   "id": "unassigned-british-infantry-type",
+   "name": "Unassigned British Infantry-type Units",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p121"
+   ],
+   "units": [
+    {
+     "id": "unit:cw:1-buffs",
+     "name": "1st Buffs",
+     "abbreviation": "1 Buffs",
+     "id_code": "p",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:3-cldgds",
+     "name": "3rd Coldstream Guards",
+     "abbreviation": "3 CldGds",
+     "id_code": "p",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-hamp",
+     "name": "1st Hampshire",
+     "abbreviation": "1 Hamp",
+     "id_code": "p",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-kor",
+     "name": "2nd King's Own Royal Regt",
+     "abbreviation": "2 KOR",
+     "id_code": "m",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-sostff",
+     "name": "1st South Staffordshires",
+     "abbreviation": "1 SoStff",
+     "id_code": "p",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:2-sctgds",
+     "name": "2nd Scots Guards",
+     "abbreviation": "2 SctGds",
+     "id_code": "p",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-ches",
+     "name": "1st Cheshire MG Bn",
+     "abbreviation": "1 Ches",
+     "id_code": "u",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-rnf",
+     "name": "1st RNF MG Bn",
+     "abbreviation": "1 RNF",
+     "id_code": "u",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:a",
+     "name": "\"A\" Bn, Special Service Bde",
+     "abbreviation": "\"A\"",
+     "id_code": "h",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 19,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:sas",
+     "name": "Special Air Service Bde",
+     "abbreviation": "SAS",
+     "id_code": "j",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 47,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-frstrs",
+     "name": "1st Sherwood Forresters",
+     "abbreviation": "1 Frstrs",
+     "id_code": "l",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 65,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:ryuggd",
+     "name": "Royal Yugoslav Guards",
+     "abbreviation": "RYugGd",
+     "id_code": "t",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 70,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:14-frstrs",
+     "name": "14th Sherwood Forresters",
+     "abbreviation": "14 Frstrs",
+     "id_code": "l",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 89,
+      "opstage": 2
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:yrkdrgn",
+     "name": "The Yorkshire Dragoons",
+     "abbreviation": "YrkDrgn",
+     "id_code": "l",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 1
+     },
+     "toe_mark": "N"
+    }
+   ],
+   "notes": [
+    "read from reduced-resolution view"
+   ]
+  },
+  {
+   "id": "unassigned-anti-tank",
+   "name": "Unassigned Anti-tank Regiments",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p120"
+   ],
+   "units": [
+    {
+     "id": "unit:cw:13th-anti-tank-regt",
+     "name": "13th Anti-tank Regt",
+     "abbreviation": "13",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "6-pounders",
+       "points": 8
+      }
+     ],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:65th-anti-tank-regt",
+     "name": "65th Anti-tank Regt",
+     "abbreviation": "65",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "2-pounders",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:73rd-anti-tank-regt",
+     "name": "73rd Anti-tank Regt",
+     "abbreviation": "73",
+     "id_code": "z",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "18-pounder",
+       "points": 2
+      },
+      {
+       "weapon": "2-pounder",
+       "points": 8
+      }
+     ],
+     "arrives": {
+      "game_turn": 27,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:84th-anti-tank-regt",
+     "name": "84th Anti-tank Regt",
+     "abbreviation": "84",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "6-pounder",
+       "points": 8
+      }
+     ],
+     "arrives": {
+      "game_turn": 75,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:95th-anti-tank-regt",
+     "name": "95th Anti-tank Regt",
+     "abbreviation": "95",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "2-pounder",
+       "points": 8
+      }
+     ],
+     "arrives": {
+      "game_turn": 60,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:102nd-anti-tank-regt",
+     "name": "102nd Anti-tank Regt",
+     "abbreviation": "102",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "2-pounder",
+       "points": 8
+      }
+     ],
+     "arrives": {
+      "game_turn": 45,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:149th-anti-tank-regt",
+     "name": "149th Anti-tank Regt",
+     "abbreviation": "149",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "2-pounder",
+       "points": 8
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:106-rha",
+     "name": "106th Royal Horse Arty Regt",
+     "abbreviation": "106 RHA",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "2-pounder",
+       "points": 8
+      }
+     ],
+     "arrives": {
+      "game_turn": 11,
+      "opstage": 1
+     }
+    }
+   ],
+   "notes": [
+    "rows 95th onward read from reduced-resolution view"
+   ]
+  },
+  {
+   "id": "unassigned-artillery",
+   "name": "Unassigned Artillery Units",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p122"
+   ],
+   "units": [
+    {
+     "id": "unit:cw:3-fld",
+     "name": "3rd Field Artillery Regt",
+     "abbreviation": "3 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "3.7\" Howitzer",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 80,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:4-fld",
+     "name": "4th Field Artillery Regt",
+     "abbreviation": "4 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 33,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:8-fld",
+     "name": "8th Field Artillery Regt",
+     "abbreviation": "8 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:11-fld",
+     "name": "11th Field Artillery Regt",
+     "abbreviation": "11 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 86,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:18-fld",
+     "name": "18th Field Artillery Regt",
+     "abbreviation": "18 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 38,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:32-fld",
+     "name": "32nd Field Artillery Regt",
+     "abbreviation": "32 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 85,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:51-fld",
+     "name": "51st Field Artillery Regt",
+     "abbreviation": "51 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 15,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:53-fld",
+     "name": "53rd Field Artillery Regt",
+     "abbreviation": "53 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 89,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:60-fld",
+     "name": "60th Field Artillery Regt",
+     "abbreviation": "60 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 48,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:78-fld",
+     "name": "78th Field Artillery Regt",
+     "abbreviation": "78 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 56,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:98-fld",
+     "name": "98th Field Artillery Regt",
+     "abbreviation": "98 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 83,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:111-fld",
+     "name": "111th Field Artillery Regt",
+     "abbreviation": "111 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "3.7\" Howitzer",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 60,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:121-fld",
+     "name": "121st Field Artillery Regt",
+     "abbreviation": "121 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 85,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:146-fld",
+     "name": "146th Field Artillery Regt",
+     "abbreviation": "146 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 28,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:154-fld",
+     "name": "154th Field Artillery Regt",
+     "abbreviation": "154 Fld",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 60,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:7-med",
+     "name": "7th Medium Artillery Regt",
+     "abbreviation": "7 Med",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "60-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:8-med",
+     "name": "8th Medium Artillery Regt",
+     "abbreviation": "8 Med",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "6\" Howitzer",
+       "points": 1
+      },
+      {
+       "weapon": "60-pounder",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:27-med",
+     "name": "27th Medium Artillery Regt",
+     "abbreviation": "27 Med",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "4.5\" Gun",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 44,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:64-med",
+     "name": "64th Medium Artillery Regt",
+     "abbreviation": "64 Med",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "4.5\" Gun",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 16,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:67-med",
+     "name": "67th Medium Artillery Regt",
+     "abbreviation": "67 Med",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "155mm Howitzer",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 55,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:68-med",
+     "name": "68th Medium Artillery Regt",
+     "abbreviation": "68 Med",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "4.5\" Gun",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 44,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:69-med",
+     "name": "69th Medium Artillery Regt",
+     "abbreviation": "69 Med",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "5.5\" Gun-Howitzer",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 83,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:1-rha",
+     "name": "1st Royal Horse Arty Regt",
+     "abbreviation": "1 RHA",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 15,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:5-rha",
+     "name": "5th Royal Horse Arty Regt",
+     "abbreviation": "5 RHA",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "105mm Howitzer (SPA)",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 89,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:11-rha",
+     "name": "11th Royal Horse Arty Regt",
+     "abbreviation": "11 RHA",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "SP 25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:104-rha",
+     "name": "104th Royal Horse Arty Regt",
+     "abbreviation": "104 RHA",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 4
+      }
+     ],
+     "arrives": {
+      "game_turn": 15,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:107-rha",
+     "name": "107th Royal Horse Arty Regt",
+     "abbreviation": "107 RHA",
+     "id_code": "x",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "25-pounder",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 9,
+      "opstage": 3
+     }
+    }
+   ],
+   "notes": [
+    "8 Med second weapon printed \"6o-pounder\", read as 60-pounder",
+    "RHA rows read from reduced-resolution view"
+   ]
+  },
+  {
+   "id": "unassigned-anti-aircraft",
+   "name": "Unassigned Anti-aircraft Units",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p123"
+   ],
+   "units": [
+    {
+     "id": "unit:cw:1-laa",
+     "name": "1st Light AA Regt",
+     "abbreviation": "1 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 31,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:13-laa",
+     "name": "13th Light AA Regt",
+     "abbreviation": "13 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 11,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:14-laa",
+     "name": "14th Light AA Regt",
+     "abbreviation": "14 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 41,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:15-laa",
+     "name": "15th Light AA Regt",
+     "abbreviation": "15 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:16-laa",
+     "name": "16th Light AA Regt",
+     "abbreviation": "16 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 43,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:25-laa",
+     "name": "25th Light AA Regt",
+     "abbreviation": "25 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 48,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:27-laa",
+     "name": "27th Light AA Regt",
+     "abbreviation": "27 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 28,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:34-laa",
+     "name": "34th Light AA Regt",
+     "abbreviation": "34 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 58,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:37-laa",
+     "name": "37th Light AA Regt",
+     "abbreviation": "37 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 30,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:42-laa",
+     "name": "42nd Light AA Regt",
+     "abbreviation": "42 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 98,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:52-laa",
+     "name": "52nd Light AA Regt",
+     "abbreviation": "52 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:53-laa",
+     "name": "53rd Light AA Regt",
+     "abbreviation": "53 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 86,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:56-laa",
+     "name": "56th Light AA Regt",
+     "abbreviation": "56 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 89,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:57-laa",
+     "name": "57th Light AA Regt",
+     "abbreviation": "57 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:82-laa",
+     "name": "82nd Light AA Regt",
+     "abbreviation": "82 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 66,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:2-laa",
+     "name": "2nd Light AA Regt",
+     "abbreviation": "2 LAA",
+     "id_code": "ee",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 45,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:2-haa",
+     "name": "2nd Heavy AA Regt",
+     "abbreviation": "2 HAA",
+     "id_code": "gg",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 15,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:9-haa",
+     "name": "9th Heavy AA Regt",
+     "abbreviation": "9 HAA",
+     "id_code": "gg",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed"
+    },
+    {
+     "id": "unit:cw:57-haa",
+     "name": "57th Heavy AA Regt",
+     "abbreviation": "57 HAA",
+     "id_code": "gg",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 43,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:61-haa",
+     "name": "61st Heavy AA Regt",
+     "abbreviation": "61 HAA",
+     "id_code": "gg",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 28,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:68-haa",
+     "name": "68th Heavy AA Regt",
+     "abbreviation": "68 HAA",
+     "id_code": "gg",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 59,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:69-haa",
+     "name": "69th Heavy AA Regt",
+     "abbreviation": "69 HAA",
+     "id_code": "gg",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 59,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:74-haa",
+     "name": "74th Heavy AA Regt",
+     "abbreviation": "74 HAA",
+     "id_code": "gg",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 12,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:87-haa",
+     "name": "87th Heavy AA Regt",
+     "abbreviation": "87 HAA",
+     "id_code": "gg",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 41,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:cw:88-haa",
+     "name": "88th Heavy AA Regt",
+     "abbreviation": "88 HAA",
+     "id_code": "gg",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 42,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:89-haa",
+     "name": "89th Heavy AA Regt",
+     "abbreviation": "89 HAA",
+     "id_code": "gg",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 45,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:cw:94-haa",
+     "name": "94th Heavy AA Regt",
+     "abbreviation": "94 HAA",
+     "id_code": "gg",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 43,
+      "opstage": 3
+     }
+    }
+   ],
+   "notes": [
+    "read from reduced-resolution view"
+   ]
+  },
+  {
+   "id": "unassigned-indian",
+   "name": "Unassigned Indian Units",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p126"
+   ],
+   "units": [
+    {
+     "id": "unit:cw:1-wlch",
+     "name": "1st Welch Regt",
+     "abbreviation": "1 Wlch",
+     "id_code": "m",
+     "parent": null,
+     "toe": [],
+     "arrives": "deployed",
+     "notes": [
+      "sheet note: a British unit placed on this sheet"
+     ],
+     "toe_mark": "N"
+    }
+   ],
+   "notes": [
+    "only the 1st Welch row transcribed; other rows omitted"
+   ]
+  },
+  {
+   "id": "unassigned-allied",
+   "name": "Unassigned Allied Units",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "scan:p131"
+   ],
+   "units": [
+    {
+     "id": "unit:cw:1",
+     "name": "1st Company, Fr Mtr Marine",
+     "abbreviation": "\"1\"",
+     "id_code": "v",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 65,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:11-czech",
+     "name": "11th Czech Bn",
+     "abbreviation": "11 Czech",
+     "id_code": "s",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 8,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    }
+   ]
+  },
+  {
+   "id": "polish-carpathian-bde",
+   "name": "The Polish (Carpathian) Brigade",
+   "basic_morale": 1,
+   "basic_morale_alt": -1,
+   "sources": [
+    "CNA1979:4.44",
+    "scan:p131"
+   ],
+   "notes": [
+    "a: at the start of the campaign the brigade took orders from the 6th Australian Division; seldom committed.",
+    "Read twice from the scan (half and full resolution); arrival agrees with the reinforcement schedule (Game-Turn 1, OpStage 3)."
+   ],
+   "units": [
+    {
+     "id": "unit:cw:polish-hq",
+     "name": "Polish Brigade HQ",
+     "abbreviation": "Polish",
+     "id_code": "a",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-pol",
+     "name": "1st Polish Bn",
+     "abbreviation": "1 Pol",
+     "id_code": "s",
+     "parent": "unit:cw:polish-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     },
+     "toe_mark": "N",
+     "notes": [
+      "b: full name 1st Polish Carpathian Rifle Battalion"
+     ]
+    },
+    {
+     "id": "unit:cw:2-pol",
+     "name": "2nd Polish Bn",
+     "abbreviation": "2 Pol",
+     "id_code": "s",
+     "parent": "unit:cw:polish-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     },
+     "toe_mark": "N",
+     "notes": [
+      "b: full name 2nd Polish Carpathian Rifle Battalion"
+     ]
+    },
+    {
+     "id": "unit:cw:3-pol",
+     "name": "3rd Polish Bn",
+     "abbreviation": "3 Pol",
+     "id_code": "s",
+     "parent": "unit:cw:polish-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     },
+     "toe_mark": "N",
+     "notes": [
+      "b: full name 3rd Polish Carpathian Rifle Battalion"
+     ]
+    },
+    {
+     "id": "unit:cw:kopanski-mg",
+     "name": "Kopanski MG Coy",
+     "abbreviation": "Kopnski",
+     "id_code": "w",
+     "parent": "unit:cw:polish-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     },
+     "toe_mark": "U@1"
+    },
+    {
+     "id": "unit:cw:1-polcv",
+     "name": "1st Polish Cavalry Regt",
+     "abbreviation": "1 PolCv",
+     "id_code": "ss",
+     "parent": "unit:cw:polish-hq",
+     "toe": [],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     },
+     "toe_mark": "N"
+    },
+    {
+     "id": "unit:cw:1-pol-at",
+     "name": "1st Polish Anti-tank Coy",
+     "abbreviation": "1 Pol",
+     "id_code": "dd",
+     "parent": "unit:cw:polish-hq",
+     "toe": [
+      {
+       "weapon": "2-pounder",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:cw:1-pol-arty",
+     "name": "1st Polish Artillery Regt",
+     "abbreviation": "1 Pol",
+     "id_code": "y",
+     "parent": "unit:cw:polish-hq",
+     "toe": [
+      {
+       "weapon": "18-pounder",
+       "points": 4
+      }
+     ],
+     "arrives": {
+      "game_turn": 1,
+      "opstage": 3
+     }
+    }
+   ]
+  }
+ ]
+}

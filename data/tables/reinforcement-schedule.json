@@ -1,0 +1,115 @@
+{
+ "table": "reinforcement-schedule",
+ "sources": [
+  "CNA1979:4.43",
+  "scan:p113",
+  "scan:p144"
+ ],
+ "through": 6,
+ "notes": [
+  "Land Unit Reinforcement and Withdrawal Schedules: 4.43a Commonwealth (jp2 113-114), 4.43b Axis (jp2 144-145). Transcribed so far through Game-Turn 6 (Graziani's Offensive); the rest follows in Mission 6 Task 3.4.",
+  "A unit named is the counter on its OA sheet together with the units assigned to it there, as in the scenario set-ups (59.2).",
+  "The Axis schedule has no entries before Game-Turn 9.",
+  "Read twice (archive.org scan; community 300 dpi chart PDFs): the six rows agree; each row's arrival also agrees with the Arrives column of the OA sheets."
+ ],
+ "rows": [
+  {
+   "side": "cw",
+   "game_turn": 1,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:polish-hq"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ],
+   "notes": [
+    "The whole brigade: a listed HQ stands for its OA sheet."
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 2,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:2-rtr",
+    "unit:cw:7-rtr",
+    "unit:cw:6-nz-fld"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 3,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:1-fld"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 4,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:3-hus"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 5,
+   "opstage": 1,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:7-in-hq"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ],
+   "trucks": {
+    "light": 5,
+    "medium": 20
+   },
+   "notes": [
+    "Printed '7 in Bde [4 In]': the 7th Indian Brigade with its OA sheet units; no heavy trucks printed."
+   ]
+  },
+  {
+   "side": "cw",
+   "game_turn": 6,
+   "opstage": 3,
+   "kind": "arrives",
+   "units": [
+    "unit:cw:6-nz-hq"
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
+   ],
+   "trucks": {
+    "light": 25,
+    "medium": 85,
+    "heavy": 5
+   },
+   "notes": [
+    "The 6th New Zealand Brigade with its OA sheet units."
+   ]
+  }
+ ]
+}
