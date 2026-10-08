@@ -85,6 +85,7 @@ export default defineConfig({
           { text: 'Aircraft & squadrons', link: '/rules/air/10-aircraft-and-sgsus' },
           { text: 'Air facilities', link: '/rules/air/20-air-facilities' },
           { text: 'Flight & maintenance', link: '/rules/air/30-flight-and-maintenance' },
+          { text: 'Mediterranean & Malta', link: '/rules/air/80-mediterranean-and-malta' },
         ] },
         { text: 'Scenarios', items: [
           { text: 'Reading a scenario', link: '/rules/scenarios/00-reading-scenarios' },
