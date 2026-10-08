@@ -8,7 +8,8 @@ OA = {u["id"]: u for p in (ROOT / "data" / "oa").glob("*.json")
 
 
 # Units whose OA sheet prints a different arrival from the schedule (both charts read twice).
-PRINTED_DISAGREEMENTS = {"unit:cw:22-gds", "unit:de:5-pz-regt-hq", "unit:de:i-5-pz-bn", "unit:de:ii-5-pz-bn", "unit:de:2-mg-bn"}
+PRINTED_DISAGREEMENTS = {"unit:cw:22-gds", "unit:de:5-pz-regt-hq", "unit:de:i-5-pz-bn", "unit:de:ii-5-pz-bn", "unit:de:2-mg-bn",
+                         "unit:cw:102nd-anti-tank-regt", "unit:cw:22-armd-bde-hq", "unit:cw:78-fld"}
 
 
 def test_schedule_agrees_with_oa_arrivals():

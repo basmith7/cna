@@ -387,3 +387,9 @@ Done: #154 OA complete (de + rest of cw), #156 schedule to GT38 + R-100, #155 §
 In flight: subagent reads in /tmp/apwork/reads/: crusader.json + s62-notes.md, the-last-chance.json/the-long-retreat.json + s63-notes.md, reinforcements-39-111-A/B.json. Lost if /tmp is wiped: re-run (pattern: as rommels-arrival; schedule reads as reinforcements-7-38).
 Next: schedule 39-111 (diff A/B, map to OA ids with the arrival cross-check, PRINTED_DISAGREEMENTS in the test), then §62 and §63 files + rules 30-crusader.md, 40-el-alamein.md (sidebar, CI --sections), then §64.
 Blocked: none.
+
+## 2026-10-08 10:22 MST — main
+Done: #158 Crusader (§62) + schema points-by-hexes/margins + R-105-R-107; #159 schedule complete GT1-111 (R-100 extended).
+In flight: draft #157 (§63 first read in docs/autopilot/wip/); subagents writing /tmp/apwork/reads/the-last-chance.json, the-long-retreat.json (second pass) and campaign-game.json + s64-notes.md.
+Next: finish #157 (move wip files to data/scenarios, rules/scenarios/40-el-alamein.md, rulings from s63 notes, sidebar, CI --sections 48-63), then §64 (50-campaign-game.md, §65 spi-omit), 3.6, then Part 4 rulings R-094-R-107.
+Blocked: none.

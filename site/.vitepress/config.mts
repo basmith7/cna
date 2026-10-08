@@ -84,6 +84,7 @@ export default defineConfig({
           { text: 'Reading a scenario', link: '/rules/scenarios/00-reading-scenarios' },
           { text: 'Group One — the Italians', link: '/rules/scenarios/10-the-italians' },
           { text: 'Group Two — the Desert Fox', link: '/rules/scenarios/20-desert-fox' },
+          { text: 'Group Three — Crusader', link: '/rules/scenarios/30-crusader' },
         ] },
         { text: 'Provenance', items: [
           { text: 'Changes from the original', link: '/rules/changes' },

@@ -87,3 +87,10 @@ def test_rommels_arrival_set_up():
     placed = {e["unit"] for d in r["sides"]["axis"]["deployments"] for e in d["units"] if e.get("unit", "").startswith("unit:de:")}
     assert placed == due
     assert load("desert-fox-campaign")["extends"] == "scenario:rommels-arrival"
+
+
+def test_operation_crusader():
+    c = load("operation-crusader")
+    assert (c["start"], c["end"]) == ({"game_turn": 57, "opstage": 3}, {"game_turn": 65, "opstage": 1})
+    assert c["victory"]["kind"] == "points" and len(c["victory"]["points"]) == 9
+    assert [m["min"] for m in c["victory"]["margins"]] == [10, 6, 1, 0]
