@@ -32,7 +32,17 @@ The next run reads this section first, acts on it, and moves each item to
 | 1.4 Reinforcement schedule, Game-Turns 1–6 | merged | #151 |
 | 1.5 Scenario files and `rules/scenarios/` §59–60 (62/62 cases) | merged | #149 |
 
-**Part 1 complete.** Part 2 (seed NJHarman's scenario items) merged as #152: proposed R-097 (first Axis convoy), R-098 (Commonwealth major repair facilities), R-099 (Tobruk's repair facility); variants V-006–V-008. Also opened in Part 1: R-094 (artillery printed twice), R-095 (fleet total vs lists), R-096 (a unit set up before its OA arrival). Part 3 (Rommel's Arrival, §61) has started: German OA, the remaining Commonwealth OA, reinforcements to Game-Turn 38 and the §61 set-up are being read.
+**Part 1 complete.** Part 2 (seed NJHarman's scenario items) merged as #152: proposed R-097 (first Axis convoy), R-098 (Commonwealth major repair facilities), R-099 (Tobruk's repair facility); variants V-006–V-008. Also opened in Part 1: R-094–R-096.
+
+**Part 3 in progress:**
+
+| Task | State | PR |
+|---|---|---|
+| 3.1 Group Two, the Desert Fox (§61): `rommels-arrival.json`, `desert-fox-campaign.json`, `rules/scenarios/20-desert-fox.md` (25/25 cases); R-101–R-104 opened | merged | #155 |
+| 3.4 (part) OA sheets complete for all three nations (German 148 counters, Commonwealth 444, Italian 439), each read twice | merged | #154 |
+| 3.4 (part) Reinforcement schedule through Game-Turn 38; R-100 opened (schedule vs OA arrival dates) | merged | #156 |
+| 3.2 Crusader (§62), 3.3 El Alamein (§63), schedule to Game-Turn 111 | being read | |
+| 3.5 Campaign game (§64, §65 omitted), 3.6 per-unit OA figures | not started | |
 
 **MISSION 5 COMPLETE** (the Logistics Game, §48–58), 2026-09-27 17:05 UTC. All five parts are merged, each PR after local gates and green CI:
 
@@ -89,7 +99,7 @@ Missions 1–4 are complete (PRs #2–#101).
 
 ## Next steps
 
-For the autopilot: Mission 6 Part 3, Task 3.1 (§61 Rommel's Arrival): land the German OA, remaining Commonwealth OA and schedule to Game-Turn 38, then the scenario and `rules/scenarios/20-desert-fox.md`. Clay Stone's preface notes the 1st Buffs and 1st Hampshires start the campaign; check it when the campaign game (§64) is set up. cna-engine had no **Requests for cna** on 2026-10-08.
+For the autopilot: Mission 6 Part 3: Tasks 3.2 (§62 Crusader) and 3.3 (§63 El Alamein), the schedule to Game-Turn 111, then 3.5 (§64 campaign game) and 3.6; then Part 4, deciding R-094–R-104. Clay Stone's preface notes the 1st Buffs and 1st Hampshires start the campaign; check it when the campaign game (§64) is set up. cna-engine had no **Requests for cna** on 2026-10-08.
 
 For Brian (all optional):
 

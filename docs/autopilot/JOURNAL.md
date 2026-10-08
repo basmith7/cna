@@ -381,3 +381,9 @@ Done: Mission 6 Part 1 complete: #146 spec, #147 schemas, #148 characteristics, 
 In flight: Part 3 reads by subagents into /tmp/apwork/reads/ (oa-de-A/B, oa-cw2-A/B, reinforcements-7-38-A/B, rommels-arrival.json + s61-notes.md). If /tmp is gone, re-run them (prompts: same shape as data/oa/*.json; reads twice, archive.org jp2 + Discord PDFs).
 Next: diff reads (/tmp/apwork/diffoa.py, normoa.py, buildoa.py), land OA de + cw rest, schedule to GT38, then scenario rommels-arrival + rules/scenarios/20-desert-fox.md (sidebar, CI sections 61).
 Blocked: none (copy questions: German c/d CPA, el Grein garrison).
+
+## 2026-10-08 10:15 MST — main
+Done: #154 OA complete (de + rest of cw), #156 schedule to GT38 + R-100, #155 §61 Rommel's Arrival + desert-fox-campaign + rules 20-desert-fox.md + R-101-R-104.
+In flight: subagent reads in /tmp/apwork/reads/: crusader.json + s62-notes.md, the-last-chance.json/the-long-retreat.json + s63-notes.md, reinforcements-39-111-A/B.json. Lost if /tmp is wiped: re-run (pattern: as rommels-arrival; schedule reads as reinforcements-7-38).
+Next: schedule 39-111 (diff A/B, map to OA ids with the arrival cross-check, PRINTED_DISAGREEMENTS in the test), then §62 and §63 files + rules 30-crusader.md, 40-el-alamein.md (sidebar, CI --sections), then §64.
+Blocked: none.
