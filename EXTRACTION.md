@@ -485,6 +485,11 @@ the PR that adds or substantially rewrites the file.
 - **Reading:** scan over OCR in 64.75 A (half a point a week, not "4") and the 64.6 heading. One read only, against the source text; the victory-point table matches it.
 - **Rulings:** opened R-109 (open points in the victory rules).
 
+## data/tables/weapon-systems.json — 2026-10-08
+- **Charts read:** Tank and Gun Characteristics Charts 4.47 (Commonwealth, jp2 137), 4.48 (Italian, jp2 138; a copy at jp2 171), 4.49 (German, jp2 172). 81 rows: 32 Commonwealth, 21 Italian, 28 German; nine columns, CPA to BAR.
+- **How expressed:** one row per nation and weapon, id `weapon:<nation>:<slug>`; Off/Def split into two fields; footnote signs in `marks`, their meaning in the notes in our words; time-limited values (Italian 75/27 and German 7.5cm anti-armour 0 until Game-Turn 63, German tanks BAR 1R until Game-Turn 31) as `before`. `oa_names` maps all 92 OA weapon names but one (the RECAM HQ's `vv`, an ID code in the weapon column) to rows. Test `tests/test_weapon_systems.py`. Requested by cna-engine (combat for tank and gun units).
+- **Cross-check:** second, independent read from the community 300 dpi chart PDFs (Commonwealth Charts.pdf p. 27, Axis Charts.pdf pp. 29–30): 729 cells compared, 0 differ (inch marks typographic only). Three German rows are misaligned in print (Pz III E; 7.62cm Pak(R) and Marder III one cell short) and the 5cm Pak 38 prints Off/Def "1½1"; both reads place the cells the same way. The rows carry our realignment, with the printed cells kept in `printed`, and are in the decision board's `copy` group.
+
 ## data/map/seams.json — 2026-10-08
 - **Derived:** which hexes touch across the four sheet edges (A|B, B|C, C|D, D|E), from the per-sheet stagger rule with column 01 of the eastern sheet standing where column 34 would be (`tools/map_seams.py`). 359 pairs: 112, 99, 83, 65. Requested by cna-engine (movement between sheets).
 - **Cross-check:** independently, from the VASSAL module's zone origins and grid (buildFile.xml): edge-hex centres paired at one hex width, within 4 px (7.6 px on C|D); all 359 pairs agree, the sheets abut with no shared column, and every row meets the same row number. Map E's column 00 is a strip of half hexes duplicating D's column 33. Seam crops at A3933|B3901 and D3232|E3201 checked by eye.
