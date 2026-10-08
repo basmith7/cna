@@ -54,6 +54,9 @@ arrival (see R-096).
 
 ::: ruling R-106 — tank strengths for two battalions the set-up never places
 
+The I(L) and II(L) light tank battalions start attached to the Ariete
+division, at the strengths the scenario gives them.
+
 ::: spi 62.43 62.44 62.45 62.46 62.47
 
 **Air, trucks and supply** are in the scenario file. Every Axis coastal ship
