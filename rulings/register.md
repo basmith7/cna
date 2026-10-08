@@ -66,7 +66,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-091](./R-091.md) | How many trucks leave the initial set-up without the Air Game? | accepted | 58.41 |
 | [R-092](./R-092.md) | Abstract truck losses: timing, base and rounding | accepted | 58.42, 58.44, 32.57 |
 | [R-093](./R-093.md) | The abstract convoy attack's result bands against itemised cargo | accepted | 58.1, 32.64 |
-| [R-094](./R-094.md) | Italian artillery listed twice "anywhere in Libya" | proposed | 60.31 |
+| [R-094](./R-094.md) | Italian artillery listed twice "anywhere in Libya" | accepted | 60.31 |
 | [R-095](./R-095.md) | The Commonwealth fleet at the start of Group One | proposed | 60.45 |
 | [R-096](./R-096.md) | Units a scenario places before their OA arrival | proposed | 60.41, 59.2 |
 | [R-097](./R-097.md) | Axis convoys before the first Operations Stage of Group One | proposed | 60.37, 56.0 |
