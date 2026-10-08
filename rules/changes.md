@@ -152,12 +152,21 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-091](../rulings/R-091.md) — the set-up loses 10 % of its Truck Points, rounded up, in proportion by type
 - [R-092](../rulings/R-092.md) — monthly truck loss at the first naval convoy stage, on-map base, total rounded up and split by largest remainder
 
+## [Reading a scenario](./scenarios/00-reading-scenarios.md)
+
+- [V-006](../rulings/V-006.md) — maintenance allowed in the first Operations Stage
+
 ## [Group One — the Italians](./scenarios/10-the-italians.md)
 
 - [R-094](../rulings/R-094.md) — Italian artillery printed twice in the Libya list
+- [R-099](../rulings/R-099.md) — Tobruk's repair facility, temporary or major
+- [R-097](../rulings/R-097.md) — when the first Axis convoy arrives, and whether it can be bombed
 - [R-096](../rulings/R-096.md) — a unit set up before its OA arrival (the French Motor Marines company)
+- [R-098](../rulings/R-098.md) — whether every hex of Cairo and Alexandria is a major repair facility
 - [R-095](../rulings/R-095.md) — the printed fleet total disagrees with the lists
 - [R-027](../rulings/R-027.md) — Tobruk's efficiency level
+- [V-007](../rulings/V-007.md) — some Italian squadrons start in Sicily
+- [V-008](../rulings/V-008.md) — Mussolini's requirements on the Italian advance
 
 ## Rulings register
 
@@ -219,6 +228,9 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-094](../rulings/R-094.md) | proposed | 60.31 |
 | [R-095](../rulings/R-095.md) | proposed | 60.45 |
 | [R-096](../rulings/R-096.md) | proposed | 60.41, 59.2 |
+| [R-097](../rulings/R-097.md) | proposed | 60.37, 56.0 |
+| [R-098](../rulings/R-098.md) | proposed | 60.44, 22.31 |
+| [R-099](../rulings/R-099.md) | proposed | 60.33, 22.31 |
 
 ## Variants register
 
@@ -229,3 +241,6 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [V-003](../rulings/V-003.md) | recorded | 54.2 |
 | [V-004](../rulings/V-004.md) | recorded | 51.1, 51.15, 54.13 |
 | [V-005](../rulings/V-005.md) | recorded | 54.12 |
+| [V-006](../rulings/V-006.md) | recorded | 59.36 |
+| [V-007](../rulings/V-007.md) | recorded | 60.32 |
+| [V-008](../rulings/V-008.md) | recorded | 60.22, 60.81 |

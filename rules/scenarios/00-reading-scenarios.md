@@ -89,6 +89,8 @@ Africa and Italy, Sicily and Crete (Axis).
 - **No maintenance** is carried out on any plane in a scenario's first
   Operations Stage.
 
+::: variant V-006 — maintenance allowed in the first Operations Stage
+
 The air set-ups are kept as data (`air`) now; the rules that use them are
 the Air Game's.
 
