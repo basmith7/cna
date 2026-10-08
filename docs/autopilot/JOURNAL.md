@@ -393,3 +393,9 @@ Done: #158 Crusader (§62) + schema points-by-hexes/margins + R-105-R-107; #159 
 In flight: draft #157 (§63 first read in docs/autopilot/wip/); subagents writing /tmp/apwork/reads/the-last-chance.json, the-long-retreat.json (second pass) and campaign-game.json + s64-notes.md.
 Next: finish #157 (move wip files to data/scenarios, rules/scenarios/40-el-alamein.md, rulings from s63 notes, sidebar, CI --sections 48-63), then §64 (50-campaign-game.md, §65 spi-omit), 3.6, then Part 4 rulings R-094-R-107.
 Blocked: none.
+
+## 2026-10-08 10:31 MST — main
+Done: #157 §63 El Alamein (R-108), #160 §64 campaign games (R-109); §59-65 171/171 covered; CI coverage 1-32,48-65. All scenarios: grazianis-offensive, italian-campaign, rommels-arrival, desert-fox-campaign, operation-crusader, the-last-chance, the-long-retreat, campaign-game, short-campaign-game.
+In flight: none (no open autopilot PRs).
+Next: second read of §63 German deployment (jp2 84) vs data/scenarios/the-last-chance.json; Task 3.6 per-unit OA figures (data/README.md list); then Part 4: decide R-094..R-109 (16), one PR each (autopilot/ruling-r-nnn); then Part 5 docs + MISSION 6 COMPLETE + queue row.
+Blocked: none (copy questions: German c/d CPA, el Grein garrison).
