@@ -25,6 +25,9 @@ of its own.
 
 ::: ruling R-104 — what the Desert Fox campaign scenario consists of
 
+It runs from this set-up to the end of the campaign game, Game-Turn 111,
+and is won as the [campaign game](50-campaign-game.md#victory) is (64.7).
+
 ## Commonwealth forces {#commonwealth}
 
 ::: spi 61.3 61.31 61.32
