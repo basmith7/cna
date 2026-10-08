@@ -40,9 +40,10 @@ The next run reads this section first, acts on it, and moves each item to
 |---|---|---|
 | 3.1 Group Two, the Desert Fox (§61): `rommels-arrival.json`, `desert-fox-campaign.json`, `rules/scenarios/20-desert-fox.md` (25/25 cases); R-101–R-104 opened | merged | #155 |
 | 3.4 (part) OA sheets complete for all three nations (German 148 counters, Commonwealth 436, Italian 436), each read twice | merged | #154 |
-| 3.4 (part) Reinforcement schedule through Game-Turn 38; R-100 opened (schedule vs OA arrival dates) | merged | #156 |
-| 3.2 Crusader (§62), 3.3 El Alamein (§63), schedule to Game-Turn 111 | being read | |
-| 3.5 Campaign game (§64, §65 omitted), 3.6 per-unit OA figures | not started | |
+| 3.4 (part) Reinforcement schedule complete, Game-Turns 1–111, units as OA ids; R-100 opened (schedule vs OA arrival dates) | merged | #156, #159 |
+| 3.2 Group Three, Operation Crusader (§62): `operation-crusader.json`, `rules/scenarios/30-crusader.md` (27/27 cases); R-105–R-107 opened | merged | #158 |
+| 3.3 El Alamein (§63): first read in draft #157; second pass under way | in progress | #157 |
+| 3.5 Campaign game (§64, §65 omitted): being read; 3.6 per-unit OA figures: not started | | |
 
 **MISSION 5 COMPLETE** (the Logistics Game, §48–58), 2026-09-27 17:05 UTC. All five parts are merged, each PR after local gates and green CI:
 
@@ -99,7 +100,7 @@ Missions 1–4 are complete (PRs #2–#101).
 
 ## Next steps
 
-For the autopilot: Mission 6 Part 3: Tasks 3.2 (§62 Crusader) and 3.3 (§63 El Alamein), the schedule to Game-Turn 111, then 3.5 (§64 campaign game) and 3.6; then Part 4, deciding R-094–R-104. Clay Stone's preface notes the 1st Buffs and 1st Hampshires start the campaign; check it when the campaign game (§64) is set up. cna-engine had no **Requests for cna** on 2026-10-08.
+For the autopilot: Mission 6 Part 3: finish 3.3 (§63 El Alamein, draft #157) and 3.5 (§64 campaign game), then 3.6; then Part 4, deciding R-094–R-107. Clay Stone's preface notes the 1st Buffs and 1st Hampshires start the campaign; check it when the campaign game (§64) is set up. cna-engine had no **Requests for cna** on 2026-10-08.
 
 For Brian (all optional):
 
