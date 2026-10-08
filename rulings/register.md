@@ -80,7 +80,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-105](./R-105.md) | A counter placed twice in the Crusader set-up | proposed | 62.31 |
 | [R-106](./R-106.md) | Two Italian tank battalions with strengths but no starting hex | accepted | 62.41, 62.42 |
 | [R-107](./R-107.md) | "Active" and "inactive" dumps in the Crusader set-up | accepted | 62.35, 62.45, 59.53 |
-| [R-108](./R-108.md) | When the El Alamein scenarios start and end | proposed | 63.2 |
+| [R-108](./R-108.md) | When the El Alamein scenarios start and end | accepted | 63.2 |
 | [R-109](./R-109.md) | Open points in the campaign game's victory rules | proposed | 64.71, 64.72, 64.75, 64.76 |
 | [R-110](./R-110.md) | Graziani's Offensive victory supply without the Logistics Game | accepted | 60.81, 60.92, 32.17 |
 

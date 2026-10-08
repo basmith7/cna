@@ -13,14 +13,14 @@
  ],
  "notes": [
   "Same set-up as The Last Chance; only length, reinforcements and victory differ.",
-  "End printed as the 'December 3/IV, 1942' Game-Turn; Game-Turn number not computed here (needs the turn calendar); end left at 111/3 provisionally from the garbled 63.2 text. Needs a ruling."
+  "End printed as the 'December 3/IV, 1942' Game-Turn. R-108: Game-Turn 110, the fourth week of December 1942 (four Game-Turns a month; January 1942 week I is Game-Turn 63)."
  ],
  "start": {
   "game_turn": 102,
   "opstage": 1
  },
  "end": {
-  "game_turn": 111,
+  "game_turn": 110,
   "opstage": 3
  },
  "victory": {
