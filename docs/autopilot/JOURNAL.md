@@ -375,3 +375,9 @@ Deviation from plan: frontier (Libya/Egypt) split into Task 1.1b, not started; t
 In flight: double reads by subagents into /tmp/apwork/reads/ (lost if /tmp is wiped): OA it/cw A+B, unit characteristics A+B, reinforcements GT1-6 A+B, §60 set-up. This branch has the characteristics schema only.
 Next: diff reads (`/tmp/apwork/diffreads.py` if present), land 1.2 (characteristics), 1.3 (OA), 1.4 (schedule), then 1.5 (scenario + rules §59–60).
 Blocked: none.
+
+## 2026-10-08 10:00 MST — main
+Done: Mission 6 Part 1 complete: #146 spec, #147 schemas, #148 characteristics, #150 OA (IT all + errata Sirte/Marmarica/Cirene, CW for Graziani), #151 schedule GT1-6, #149 Graziani + Italian Campaign + rules §59-60, #153 frontier. Part 2 seed #152 (R-097-R-099, V-006-V-008).
+In flight: Part 3 reads by subagents into /tmp/apwork/reads/ (oa-de-A/B, oa-cw2-A/B, reinforcements-7-38-A/B, rommels-arrival.json + s61-notes.md). If /tmp is gone, re-run them (prompts: same shape as data/oa/*.json; reads twice, archive.org jp2 + Discord PDFs).
+Next: diff reads (/tmp/apwork/diffoa.py, normoa.py, buildoa.py), land OA de + cw rest, schedule to GT38, then scenario rommels-arrival + rules/scenarios/20-desert-fox.md (sidebar, CI sections 61).
+Blocked: none (copy questions: German c/d CPA, el Grein garrison).

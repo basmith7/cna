@@ -20,19 +20,19 @@ The next run reads this section first, acts on it, and moves each item to
 
 **Mission 6 (scenarios and OA sheets, §59–65) in progress**, started 2026-10-08. Part 1 is one complete Land Game scenario, **Graziani's Offensive** (§60.22, Game-Turns 1–6, Land Game only per §60.92): the shortest scenario, fully listed by hex, and the base cna-engine's Mission 2 builds on.
 
-**For cna-engine: Graziani's Offensive has landed** (2026-10-08). Scenario `scenario:grazianis-offensive` = `data/scenarios/grazianis-offensive.json` (Land-only play: apply `abstractions.air_and_logistics`); units in `data/oa/it.json` and `data/oa/cw.json` (ID codes key into `data/tables/unit-characteristics.json`); arrivals in `data/tables/reinforcement-schedule.json` (through Game-Turn 6); schemas in `data/schema/scenario.schema.json` and `oa.schema.json`. One gap: placements by country (`"region": "libya"` / `"egypt"`) wait on the frontier data (Task 1.1b).
+**For cna-engine: Graziani's Offensive has landed** (2026-10-08). Scenario `scenario:grazianis-offensive` = `data/scenarios/grazianis-offensive.json` (Land-only play: apply `abstractions.air_and_logistics`); units in `data/oa/it.json` and `data/oa/cw.json` (ID codes key into `data/tables/unit-characteristics.json`); arrivals in `data/tables/reinforcement-schedule.json` (through Game-Turn 6); schemas in `data/schema/scenario.schema.json` and `oa.schema.json`. Placements by country (`"region": "libya"` / `"egypt"`) resolve through `data/map/regions.json` (reference reading `tools/map_geom.country`).
 
 | Part 1 task | State | PR |
 |---|---|---|
 | 0. Spec and plan (`docs/designs/2026-10-08-scenarios-and-oa-design.md`) | merged | #146 |
 | 1.1 Scenario and OA schemas; `check_data.py` resolves units, hexes, places | merged | #147 |
-| 1.1b Libya/Egypt frontier in the map data | being read | |
+| 1.1b Libya/Egypt frontier in the map data (read twice, 41 land rows agree) | merged | #153 |
 | 1.2 Unit characteristics (124 rows, read twice, 7 of 1612 cells differed) | merged | #148 |
 | 1.3 OA sheets: all Italian (plus Sirte, Marmarica, Cirene from SPI's errata), Commonwealth for Graziani | merged | #150, #149 |
 | 1.4 Reinforcement schedule, Game-Turns 1–6 | merged | #151 |
 | 1.5 Scenario files and `rules/scenarios/` §59–60 (62/62 cases) | merged | #149 |
 
-New rulings opened (proposed): R-094 (artillery printed twice), R-095 (fleet total vs lists), R-096 (a unit set up before its OA arrival).
+**Part 1 complete.** Part 2 (seed NJHarman's scenario items) merged as #152: proposed R-097 (first Axis convoy), R-098 (Commonwealth major repair facilities), R-099 (Tobruk's repair facility); variants V-006–V-008. Also opened in Part 1: R-094 (artillery printed twice), R-095 (fleet total vs lists), R-096 (a unit set up before its OA arrival). Part 3 (Rommel's Arrival, §61) has started: German OA, the remaining Commonwealth OA, reinforcements to Game-Turn 38 and the §61 set-up are being read.
 
 **MISSION 5 COMPLETE** (the Logistics Game, §48–58), 2026-09-27 17:05 UTC. All five parts are merged, each PR after local gates and green CI:
 
@@ -89,7 +89,7 @@ Missions 1–4 are complete (PRs #2–#101).
 
 ## Next steps
 
-For the autopilot: land Task 1.1b (frontier), then Mission 6 Part 2 (seed NJHarman's scenario items: his list also notes the 1st Buffs and 1st Hampshires start the campaign), then Part 3 (§61 Rommel's Arrival next). cna-engine had no **Requests for cna** on 2026-10-08.
+For the autopilot: Mission 6 Part 3, Task 3.1 (§61 Rommel's Arrival): land the German OA, remaining Commonwealth OA and schedule to Game-Turn 38, then the scenario and `rules/scenarios/20-desert-fox.md`. Clay Stone's preface notes the 1st Buffs and 1st Hampshires start the campaign; check it when the campaign game (§64) is set up. cna-engine had no **Requests for cna** on 2026-10-08.
 
 For Brian (all optional):
 
