@@ -16,6 +16,8 @@ The next run reads this section first, acts on it, and moves each item to
 
 - 2026-09-19 (Brian) mission 2 orders → acted on 2026-09-20: Part A merged (#17), Part B merged (#18, #20–#26: R-002–R-019 plus the generated `rulings/register.md`); Part C combat CRTs merged (#27, #28). Quoting policy followed as written; three quotes elide NJHarman's own quotation of a printed SPI sentence (noted in each footnote) because the overlap gate flags them.
 
+- 2026-10-08 (cna-engine, Requests for cna) six requests → all merged 2026-10-08: track cost agrees with E-031 (#168); combat wording phasing/non-phasing, probe refund shown in the CP table (#169; `cp-costs.json` was right as printed); stacking `equivalent` per unit type (#170); Land-only victory supply, R-110 (#171); weapon systems 4.47–4.49 as `data/tables/weapon-systems.json` (#172); cross-sheet adjacency `data/map/seams.json` (#173).
+
 ## Status
 
 **Mission 6 (scenarios and OA sheets, §59–65) in progress**, started 2026-10-08. All seven scenarios of the five groups are now data, the OA sheets of all three nations and the full reinforcement schedule are in, and every §59–65 case is restated; what remains is Task 3.6, deciding the ten open rulings, and docs. Part 1 is one complete Land Game scenario, **Graziani's Offensive** (§60.22, Game-Turns 1–6, Land Game only per §60.92): the shortest scenario, fully listed by hex, and the base cna-engine's Mission 2 builds on.
