@@ -411,3 +411,10 @@ Done: R-098 #165, R-107 #166 accepted (plus R-094 #161, R-095 #163, R-096 #164).
 In flight: none; no open autopilot PRs; tree clean.
 Next: decide R-097, R-099-R-105, R-108, R-109 (R-106 done #167; R-099: prefer a scenario-only exception, consistent with R-096, so 22.31 in rules/80-engineering.md stays), Task 3.6, then Part 5 docs + MISSION 6 COMPLETE + Mission 7 Part 0.
 Blocked: none.
+
+## 2026-10-08 16:00 MST — autopilot/m7-spec
+Done: cna-engine requests all merged: #168 track cost, #169 combat wording, #170 stacking equivalent, #171 R-110 Land-only victory supply, #172 weapon-systems.json, #173 map/seams.json. Rulings accepted R-097 #174, R-099 #175, R-100 #176, R-101 #177, R-102 #178, R-103 #179, R-104 #180, R-105 #181, R-108 #182, R-109 #186. Task 3.6 #184 (coastal ships). Docs #187 (queue 6 done, 7 next). MISSION 6 COMPLETE.
+Incident: a merge helper run in a git worktree committed a `.venv` symlink (#180/#181); removed in #185, `.gitignore` now `.venv`. Never `git add -A` in a worktree with a symlinked .venv; if `.venv` is a symlink after checkout, rm it and recreate per README.
+In flight: Mission 7 Part 0, spec and plan on this branch.
+Next: merge the m7 spec, then Task 1 (rules/air/ folder, sidebar group "Air Game", CI coverage 1-65 incl. 33-47 when files land).
+Blocked: none (copy group: German c/d CPA, el Grein, 4.49 misaligned rows, coastal ship tonnage).
