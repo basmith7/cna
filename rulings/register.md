@@ -67,7 +67,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-092](./R-092.md) | Abstract truck losses: timing, base and rounding | accepted | 58.42, 58.44, 32.57 |
 | [R-093](./R-093.md) | The abstract convoy attack's result bands against itemised cargo | accepted | 58.1, 32.64 |
 | [R-094](./R-094.md) | Italian artillery listed twice "anywhere in Libya" | accepted | 60.31 |
-| [R-095](./R-095.md) | The Commonwealth fleet at the start of Group One | proposed | 60.45 |
+| [R-095](./R-095.md) | The Commonwealth fleet at the start of Group One | accepted | 60.45 |
 | [R-096](./R-096.md) | Units a scenario places before their OA arrival | proposed | 60.41, 59.2 |
 | [R-097](./R-097.md) | Axis convoys before the first Operations Stage of Group One | proposed | 60.37, 56.0 |
 | [R-098](./R-098.md) | Commonwealth major repair facilities in Group One | proposed | 60.44, 22.31 |
