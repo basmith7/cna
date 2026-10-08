@@ -246,3 +246,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-06 09:23 | 0 | 37→37 | 1→2 | $0.23 | 2 | Nothing to do this run. `MISSION 5 COMPLETE` is already logged in both the journal and `PROGRESS.md`. The **Feedback** section is empty and there are no open au |
 | 2026-10-06 18:23 | 0 | 1→1 | 4→5 | $0.22 | 3 | I did nothing this run, because Mission 5 (the Logistics Game, §48–58) is already finished. `MISSION 5 COMPLETE` is logged in both the journal and `PROGRESS.md` |
 | 2026-10-06 21:23 | 0 | 51→51 | 0→0 | $0.22 | 3 | I made no changes this run. Mission 5 (the Logistics Game) has been marked `MISSION 5 COMPLETE` in the journal and `PROGRESS.md` since 2026-09-27. The **Feedbac |
+| 2026-10-08 09:23 | 80 | 34→37 | 1→23 | $49.99 | 324 | Mission 6 is nearly complete, Brian. All seven scenarios are now data, every §59–65 case is restated (171/171), and the OA sheets for all three nations plus the |
