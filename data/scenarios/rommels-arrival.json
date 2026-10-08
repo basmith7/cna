@@ -17,8 +17,7 @@
  ],
  "notes": [
   "Read from the archive.org scan, jp2 79-81 (printed pages 29-31).",
-  "61.1 says a second scenario, a full campaign, may be played from the same set-up; Section 61 gives it no length, victory conditions or other rules (see desert-fox-campaign.json).",
-  "German units, the 2nd Armoured and 9th Australian Division sheets are not yet transcribed; their ids are unit:<nation>:todo-* with the printed listing in notes."
+  "61.1 says a second scenario, a full campaign, may be played from the same set-up; Section 61 gives it no length, victory conditions or other rules (see desert-fox-campaign.json)."
  ],
  "start": {
   "game_turn": 26,
@@ -176,9 +175,90 @@
       },
       "constraint": "not east of El Agheila; any formation the player likes, battle groups allowed"
      },
-     "units": [],
+     "units": [
+      {
+       "unit": "unit:de:dak-hq",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:3-aufkl-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:39-pzjg-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:200-pi-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:5le-div-hq",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:5-pz-regt-hq",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:i-5-pz-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:606-flak-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:605-sp-pzjg-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:i-33-flak-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:i-75-arty-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:ii-5-pz-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:529-coastal-arty-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:532-coastal-arty-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:33-pzjg-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:528-arty-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:523-coastal-arty-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:3-oasis-koy",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:2-mg-bn",
+       "alone": true
+      },
+      {
+       "unit": "unit:de:8-mg-bn",
+       "alone": true
+      }
+     ],
      "notes": [
-      "Every German land unit due on the Reinforcement Schedule before Game-Turn 26 OpStage 3. The German OA sheets are not transcribed; the schedule decides the list. Unit ids to follow (unit:de:todo-*)."
+      "Every German counter the Axis schedule brings before Game-Turn 26 OpStage 3 (data/tables/reinforcement-schedule.json), each on its own as the schedule lists it, less the two oasis companies placed below."
      ]
     },
     {
