@@ -467,7 +467,7 @@
      "ammo": 50,
      "fuel": 50,
      "notes": [
-      "Tripoli and Tunisia air facilities have unlimited fuel and ammo."
+      "The Tripoli and Tunisia boxes' air facilities never run short of fuel or ammunition."
      ]
     }
    ],
@@ -513,14 +513,14 @@
     "sgsu": 13,
     "german_sgsu": "as the Air Game rules allow",
     "placement": "any portion may base in Italy/Sicily within the German minimum of 43.1; Crete is British",
-    "new_facilities": "one airfield and one landing strip in any hex west of El Agheila (A1816)"
+    "new_facilities": "one airfield and one landing strip, each anywhere west of El Agheila (A1816)"
    },
    "reinforcements": [
     "All Axis reinforcements are taken as they appear on the track (61.45)."
    ],
    "special": [
     "German first-line trucks that the schedule attaches to arrived German units may be shared among those units freely (61.43).",
-    "No Axis convoy arrives in the first Game-Turn; the convoys for the second and third Game-Turns are planned before play (61.44).",
+    "No Axis convoy comes in the opening Game-Turn; the next two Game-Turns' convoys are planned before play (61.44).",
     "Every Italian unit except the Sabratha starts as its OA sheet shows, tanks included (61.41)."
    ]
   },
@@ -869,7 +869,7 @@
      "fuel": 100,
      "stores": 150,
      "notes": [
-      "Benghazi also holds 10 points of Italian prisoners, a POW camp and one Commonwealth guard."
+      "Also at Benghazi: 10 points of Italian prisoners with their camp and a single Commonwealth guard."
      ]
     },
     {
@@ -896,7 +896,7 @@
      "fuel": 2550,
      "stores": 1600,
      "notes": [
-      "Figures are the pool for all nine dumps together, not each. All dumps must be placed. Historically the first nine listed were the real dumps."
+      "Figures are one pool shared by the nine dumps. Every dump is used; the first nine sites listed were the historical ones."
      ]
     },
     {
@@ -1026,7 +1026,7 @@
       "E3815",
       "E2132",
       "E2133",
-      "the four off-map fields to the east (all but Ethiopia)"
+      "the four off-map airfields east of the map (every one except Ethiopia)"
      ],
      "landing_strips": [
       "A2629",

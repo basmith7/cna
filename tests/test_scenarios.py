@@ -73,3 +73,17 @@ def test_graziani_detached_units_start_elsewhere_or_arrive_later():
     assert sorted(set(placed)) == sorted(placed), "a counter is placed twice"
     for uid in detached:
         assert uid in placed or isinstance(oa[uid]["arrives"], dict), uid
+
+
+def test_rommels_arrival_set_up():
+    r = load("rommels-arrival")
+    assert (r["start"], r["end"]) == ({"game_turn": 26, "opstage": 3}, {"game_turn": 38, "opstage": 3})
+    assert r["initiative"] == {"side": "axis", "through": {"game_turn": 27, "opstage": 3}}
+    ports = {p["place"]: p["efficiency"] for p in r["construction"]["ports"]}
+    assert ports["tobruk"] == 2 and ports["benghazi"] == 0  # R-027
+    sched = json.loads((ROOT / "data" / "tables" / "reinforcement-schedule.json").read_text())
+    due = {u for row in sched["rows"] if row["side"] == "axis" and row["kind"] == "arrives"
+           and (row["game_turn"], row["opstage"]) < (26, 3) for u in row["units"] if u.startswith("unit:de:")}
+    placed = {e["unit"] for d in r["sides"]["axis"]["deployments"] for e in d["units"] if e.get("unit", "").startswith("unit:de:")}
+    assert placed == due
+    assert load("desert-fox-campaign")["extends"] == "scenario:rommels-arrival"
