@@ -24,6 +24,10 @@ Retreat runs to the end of the last Game-Turn of December 1942
 
 ::: ruling R-108 — the printed start and end Game-Turns
 
+The printed turn numbers are garbled. The Last Chance is Game-Turn 102
+only; The Long Retreat ends after Game-Turn 110, the last week of December
+1942.
+
 ## Commonwealth forces {#commonwealth}
 
 ::: spi 63.3 63.31 63.32 63.33 63.34 63.35 63.36 63.37 63.38
