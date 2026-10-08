@@ -154,8 +154,13 @@
                      "all_of": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/objective"}},
                      "any_of": {"type": "array", "items": {"$ref": "#/$defs/objective"}, "description": "At least one of these as well"},
                      "supply": {"type": "string", "description": "Our sentence: the supply condition the holding units must meet"}}}},
-        "points": {"type": "array", "items": {"type": "object", "required": ["place", "axis", "cw"], "additionalProperties": false,
-                   "properties": {"place": {"type": "string"}, "axis": {"type": "integer"}, "cw": {"type": "integer"}}}},
+        "points": {"type": "array", "items": {"type": "object", "required": ["axis", "cw"], "additionalProperties": false,
+                   "oneOf": [{"required": ["place"]}, {"required": ["hexes"]}],
+                   "properties": {"place": {"type": "string"}, "hexes": {"type": "array", "minItems": 1, "items": {"$ref": "common.schema.json#/$defs/hexId"}},
+                                  "axis": {"type": "integer"}, "cw": {"type": "integer"}}}},
+        "margins": {"type": "array", "description": "Points victory: the level won by the side ahead, by margin of points",
+                    "items": {"type": "object", "required": ["min", "level"], "additionalProperties": false,
+                              "properties": {"min": {"type": "integer", "minimum": 0}, "level": {"enum": ["draw", "tactical", "decisive", "strategic"]}}}},
         "notes": {"type": "array", "items": {"type": "string"}}
       }
     },
