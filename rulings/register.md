@@ -80,6 +80,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-105](./R-105.md) | A counter placed twice in the Crusader set-up | proposed | 62.31 |
 | [R-106](./R-106.md) | Two Italian tank battalions with strengths but no starting hex | proposed | 62.41, 62.42 |
 | [R-107](./R-107.md) | "Active" and "inactive" dumps in the Crusader set-up | proposed | 62.35, 62.45, 59.53 |
+| [R-108](./R-108.md) | When the El Alamein scenarios start and end | proposed | 63.2 |
 
 ## Variants
 

@@ -63,7 +63,22 @@
    }
   ],
   "notes": [
-   "Axis only scores. 10+ strategic, 4-9 'substantive', 1-3 marginal, 0 Commonwealth win. Occupying needs every combat unit there to have a Game-Turn of stores, ammo to fire every weapon twice and fuel to move 20 CP."
+   "Axis only scores. 10+ strategic, 4-9 'substantive', 1-3 marginal, 0 Commonwealth win. Occupying needs every combat unit there to have a Game-Turn of stores, ammo to fire every weapon twice and fuel to move 20 CP.",
+   "Margins: printed 'Substantive' (4-9) mapped to decisive and 'Marginal' (1-3) to tactical; 0 points is a Commonwealth win, which the margins list cannot express."
+  ],
+  "margins": [
+   {
+    "min": 10,
+    "level": "strategic"
+   },
+   {
+    "min": 4,
+    "level": "decisive"
+   },
+   {
+    "min": 1,
+    "level": "tactical"
+   }
   ]
  },
  "sides": {

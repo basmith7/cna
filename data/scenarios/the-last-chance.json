@@ -38,9 +38,9 @@
   "ports": [
    {
     "place": "tobruk",
-    "efficiency": 2,
+    "efficiency": 5,
     "notes": [
-     "63.74 prints Level Five; ruling R-027 sets 2."
+     "Printed as level 5, Tobruk's full level on the Port Capacity Chart (55.3); R-027 concerns only the 1940-41 set-ups."
     ]
    },
    {
@@ -104,7 +104,7 @@
   ],
   "notes": [
    "Minefields D3033 through E2302 (first ten listed) are the Commonwealth's; the Commonwealth also places five more on sheet E as he likes. Of his fifteen, ten are real, five dummy.",
-   "D3233 through D2731 (last fourteen) are the Axis player's: eleven real, three dummy. He may also place up to five real and two dummy within three hexes of Tobruk, and up to two real and two dummy on sheets A-C more than five hexes from Tobruk.",
+   "D3233 through D2731 (the last fourteen) belong to the Axis: 11 real, 3 dummy. The Axis may add, near Tobruk (within three hexes), at most 5 real and 2 dummy fields, and on sheets A-C beyond five hexes of Tobruk at most 2 real and 2 dummy.",
    "All minefields start unrevealed.",
    "Pipeline only along railroad hexes; the Axis draws water from Tobruk, the Commonwealth from Alexandria (63.73)."
   ]
@@ -247,10 +247,9 @@
        ],
        "attached": [
         "unit:cw:8-rtr",
-        "unit:cw:1sa-cfa"
-       ],
-       "notes": [
-        "Also attached: Die Middelandse MG Regt and 2nd Botha (not matched in the OA files here; unconfirmed)."
+        "unit:cw:1sa-cfa",
+        "unit:cw:midlnd",
+        "unit:cw:2-botha"
        ]
       }
      ],
@@ -274,10 +273,8 @@
         "unit:cw:4-6-rajrf"
        ],
        "assigned": [
-        "unit:cw:3-10-bal"
-       ],
-       "notes": [
-        "assigned also names 1-4-essex, not matched in the OA files."
+        "unit:cw:3-10-bal",
+        "unit:cw:1-4-essx"
        ]
       },
       {
@@ -299,7 +296,13 @@
        "unit": "unit:cw:4-in-hq",
        "alone": true,
        "notes": [
-        "Printed as 'HQ: 4th In Div' with Less 11 In Bde, 31st Field Arty and Central India Horse, and 5th and 7th Indian Bdes and 1st Field Arty detached."
+        "The division HQ only; the 11th Indian Bde, the 31st Field Regt and the Central India Horse are absent, and the 5th and 7th Indian Bdes and the 1st Field Regt start detached."
+       ]
+      },
+      {
+       "unit": "unit:cw:6-rajrf",
+       "notes": [
+        "Printed as 6th Rajput Rifles MG Bn."
        ]
       }
      ],
@@ -307,10 +310,7 @@
       "light": 10,
       "medium": 25,
       "heavy": 10
-     },
-     "notes": [
-      "Also here: 6th Rajputana Rifles MG Bn (not matched in the OA files; unconfirmed)."
-     ]
+     }
     },
     {
      "placement": {
@@ -324,8 +324,8 @@
        "less": [
         "unit:cw:4-11-skh"
        ],
-       "notes": [
-        "assigned also names 1-2-gr, not matched in the OA files."
+       "assigned": [
+        "unit:cw:1-2-grka"
        ]
       },
       {
@@ -363,10 +363,8 @@
        ],
        "attached": [
         "unit:cw:154-fld",
-        "unit:cw:34-laa"
-       ],
-       "notes": [
-        "attached also names 102-at, not matched in the OA files."
+        "unit:cw:34-laa",
+        "unit:cw:102nd-anti-tank-regt"
        ]
       }
      ],
@@ -586,10 +584,9 @@
       {
        "unit": "unit:cw:21-in-hq",
        "consists_of": [
-        "unit:cw:1-6-rajrf"
-       ],
-       "notes": [
-        "consists_of also names 3-7-rajrif, 2-8-gr, not matched in the OA files."
+        "unit:cw:1-6-rajrf",
+        "unit:cw:3-7-rajpt",
+        "unit:cw:2-8-grka"
        ]
       },
       {
@@ -711,90 +708,174 @@
       "hex": "E3109",
       "name": "Burg el Arab",
       "sgsu": 3,
-      "planes": {
-       "Spitfire VB": 18,
-       "Hurricane IIA": 12,
-       "Tomahawk": 6,
-       "Maryland": 4,
-       "Baltimore": 4
-      }
+      "planes": [
+       {
+        "type": "Baltimore",
+        "count": 4
+       },
+       {
+        "type": "Hurricane IIA",
+        "count": 12
+       },
+       {
+        "type": "Maryland",
+        "count": 4
+       },
+       {
+        "type": "Spitfire VB",
+        "count": 18
+       },
+       {
+        "type": "Tomahawk",
+        "count": 6
+       }
+      ]
      },
      {
       "hex": "E2418",
       "name": "Wadi Natrun",
       "sgsu": 1,
-      "planes": {
-       "Maryland": 12
-      }
+      "planes": [
+       {
+        "type": "Maryland",
+        "count": 12
+       }
+      ]
      },
      {
       "name": "Deversoir (off-map)",
-      "planes": {
-       "Mitchell II": 39
-      }
+      "planes": [
+       {
+        "type": "Mitchell II",
+        "count": 39
+       }
+      ]
      },
      {
       "name": "Amiriya complex",
       "sgsu": 28,
-      "planes": {
-       "Boston III": 48,
-       "Baltimore II": 24,
-       "Baltimore III": 24,
-       "Tomahawk": 16,
-       "Kittyhawk I": 56,
-       "Kittyhawk II": 91,
-       "Kittyhawk III": 39,
-       "Hurricane IIB": 48,
-       "Hurricane IIC": 64,
-       "Hurricane IID": 32,
-       "Hurricane IIE": 16,
-       "Spitfire VB": 48
-      }
+      "planes": [
+       {
+        "type": "Baltimore II",
+        "count": 24
+       },
+       {
+        "type": "Baltimore III",
+        "count": 24
+       },
+       {
+        "type": "Boston III",
+        "count": 48
+       },
+       {
+        "type": "Hurricane IIB",
+        "count": 48
+       },
+       {
+        "type": "Hurricane IIC",
+        "count": 64
+       },
+       {
+        "type": "Hurricane IID",
+        "count": 32
+       },
+       {
+        "type": "Hurricane IIE",
+        "count": 16
+       },
+       {
+        "type": "Kittyhawk I",
+        "count": 56
+       },
+       {
+        "type": "Kittyhawk II",
+        "count": 91
+       },
+       {
+        "type": "Kittyhawk III",
+        "count": 39
+       },
+       {
+        "type": "Spitfire VB",
+        "count": 48
+       },
+       {
+        "type": "Tomahawk",
+        "count": 16
+       }
+      ]
      },
      {
       "hex": "E3817",
       "name": "Idku",
       "sgsu": 2,
-      "planes": {
-       "Beaufighter IC": 16,
-       "Beaufighter VIF": 16
-      }
+      "planes": [
+       {
+        "type": "Beaufighter IC",
+        "count": 16
+       },
+       {
+        "type": "Beaufighter VIF",
+        "count": 16
+       }
+      ]
      },
      {
       "name": "Abu Seier (off-map)",
-      "planes": {
-       "Wellington IC": 32
-      }
+      "planes": [
+       {
+        "type": "Wellington IC",
+        "count": 32
+       }
+      ]
      },
      {
       "hex": "E2024",
       "name": "Jebel Hamzi",
       "sgsu": 2,
-      "planes": {
-       "Wellington IC": 32
-      }
+      "planes": [
+       {
+        "type": "Wellington IC",
+        "count": 32
+       }
+      ]
      },
      {
       "name": "Kabrit (off-map)",
-      "planes": {
-       "Wellington IC": 16,
-       "Wellington II": 16
-      }
+      "planes": [
+       {
+        "type": "Wellington IC",
+        "count": 16
+       },
+       {
+        "type": "Wellington II",
+        "count": 16
+       }
+      ]
      },
      {
       "hex": "E3512",
       "name": "Degheila",
       "sgsu": 2,
-      "planes": {
-       "Albacore": 24
-      }
+      "planes": [
+       {
+        "type": "Albacore",
+        "count": 24
+       }
+      ]
      },
      {
       "name": "Ismailia (off-map)",
-      "planes": {
-       "Hudson": 32,
-       "Bombay": 22
-      }
+      "planes": [
+       {
+        "type": "Bombay",
+        "count": 22
+       },
+       {
+        "type": "Hudson",
+        "count": 32
+       }
+      ]
      }
     ],
     "pilots": {
@@ -870,7 +951,11 @@
     "sources": [
      "CNA1979:63.36"
     ],
-    "alexandria": "2 heavy cruisers, 3 light cruisers, 4 destroyers"
+    "alexandria": {
+     "destroyer": 4,
+     "heavy-cruiser": 2,
+     "light-cruiser": 3
+    }
    },
    "reinforcements": [
     "None in The Last Chance (63.38)."
@@ -1119,16 +1204,15 @@
        ],
        "less": [
         "unit:it:xm-tank-bn",
-        "unit:it:xiim-tank-bn"
+        "unit:it:xiim-tank-bn",
+        "unit:it:v-articelere-bn",
+        "unit:it:vi-articelere-bn"
        ],
        "assigned": [
         "unit:it:ivm-tank-bn",
         "unit:it:lim-tank-bn",
         "unit:it:dliv-articelere-bn",
         "unit:it:dlvi-articelere-bn"
-       ],
-       "notes": [
-        "Its V and VI SP artillery battalions are also Less; not matched to ids here."
        ]
       }
      ],
@@ -1241,13 +1325,15 @@
         "unit:it:viim-tank-bn"
        ],
        "assigned": [
-        "unit:it:liim-tank-bn"
+        "unit:it:liim-tank-bn",
+        "unit:it:v-articelere-bn",
+        "unit:it:vi-articelere-bn"
        ],
        "attached": [
         "unit:it:xiiim-tank-bn"
        ],
        "notes": [
-        "Also assigned: Littorio's V and VI SP artillery battalions. Its 132nd artillery regiment holds 3 TOE of 105/28 and 2 TOE of 90mm heavy AA."
+        "Its 132nd artillery regiment holds 3 TOE of 105/28 and 2 TOE of 90mm heavy AA."
        ]
       }
      ],
@@ -1338,7 +1424,7 @@
       }
      ],
      "notes": [
-      "Not found in the OA files: xxiv-corps-artillery-regt; left out."
+      "Italian XXIV Corps Artillery is printed here, but the OA files have no XXIV Corps Artillery unit (X, XX-XXIII, XXV, XXVI only); left out pending a ruling."
      ]
     },
     {
@@ -1675,7 +1761,7 @@
    ],
    "special": [
     "Every Axis infantry-type unit starts at two-thirds of its maximum TOE, fractions up (63.41).",
-    "Tank TOE (63.42): I/5 Pz 2 PzII, 4 PzIIIH, 1 PzIIIE, 4 PzIIIJ Special; II/5 Pz 2 PzII, 2 PzIIIE, 4 PzIIIH, 4 PzIIIJ Special, 1 PzIVE; I/8 Pz 1 PzII, 4 PzIIIH, 5 PzIIIJ Special, 3 PzIVF2 Special; II/8 Pz 1 PzII, 3 PzIIIH, 1 PzIIIG, 3 PzIIIJ Special, 1 PzIVG(?), 3 PzIVF2; LII(M) and VIII(M) 6 M13/40 each; I(L) 6 L6, II(L) 4 L6.",
+    "Tank TOE (63.42): I/5 Pz: PzII x2, PzIIIE x1, PzIIIH x4, PzIIIJ Special x4. II/5 Pz: PzII x2, PzIIIE x2, PzIIIH x4, PzIIIJ Special x4, PzIVE x1. I/8 Pz: PzII x1, PzIIIH x4, PzIIIJ Special x5, PzIVF2 Special x3. II/8 Pz: PzII x1, PzIIIG x1, PzIIIH x3, PzIIIJ Special x3, PzIVF2 x3, PzIVG x1 (letter unclear). LII(M) and VIII(M): M13/40 x6 each. I(L): L6 x6; II(L): L6 x4.",
     "Under repair at Tobruk: 3 PzIIIH and 1 PzIVD broken down (63.42).",
     "Upgrades (63.48): armoured cars and armoured recce upgrade free; two of Pistoia, Pavia, Bologna, Brescia swap their 75mm heavy AA for 2 TOE of 90mm; 605th SP has 6 TOE of Marder; 3.7cm AT in 15th and 21st Pz become 5cm, and their 5cm (and 90th Light's) become 7.62cm Pak(R); four Italian and two German brigade HQs become ad hoc AT batteries of 4 TOE (Italian AT guns / 2.8cm); Italian divisional 75/18 become 75/27; Littorio and Ariete SP battalions have 4 TOE of Semovente 75/18 each; the 164th's two III/220 battalions get 3 TOE 15cm K18 and 3 TOE 15cm sFH18; 149, 526 and 533 coastal battalions get 3 TOE of 15cm sIG33, 17cm K18 and 21cm Mrs18 respectively.",
     "The 10th Italian Light Flotilla and Raid on Rommel rules are not used (63.5)."
@@ -1911,7 +1997,7 @@
     }
    },
    "notes": [
-    "Ammo/fuel column order in the Axis table read from the OCR; check against the scan (p87 not re-read in time)."
+    "Axis table columns checked on the scan: Ammo then Fuel."
    ]
   },
   "logistics": {
@@ -1949,7 +2035,7 @@
       {
        "placement": {
         "air_facility": true,
-        "constraint": "Axis air facilities other than Mersa Matruh and Tobruk"
+        "constraint": "every Axis air facility except those at Tobruk and Mersa Matruh"
        },
        "kind": "supply-unit",
        "count": 9,

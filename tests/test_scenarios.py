@@ -94,3 +94,11 @@ def test_operation_crusader():
     assert (c["start"], c["end"]) == ({"game_turn": 57, "opstage": 3}, {"game_turn": 65, "opstage": 1})
     assert c["victory"]["kind"] == "points" and len(c["victory"]["points"]) == 9
     assert [m["min"] for m in c["victory"]["margins"]] == [10, 6, 1, 0]
+
+
+def test_el_alamein_pair():
+    lc, lr = load("the-last-chance"), load("the-long-retreat")
+    assert (lc["start"], lc["end"]) == ({"game_turn": 102, "opstage": 1}, {"game_turn": 102, "opstage": 3})
+    assert lr["extends"] == "scenario:the-last-chance"
+    assert sorted(p["axis"] for p in lr["victory"]["points"]) == [1, 1, 1, 2, 3, 3, 5]
+    assert len(lc["construction"]["minefields"]) == 24
