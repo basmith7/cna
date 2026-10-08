@@ -90,6 +90,17 @@
         "My copy prints 30** (or explains the dagger)",
         "Leave as read"
       ]
+    },
+    {
+      "id": "s60-el-grein",
+      "group": "copy",
+      "title": "Group One: which counter is the el Grein garrison?",
+      "context": "60.31 places an 'el Grein Garrison' at C1715. The Italian Minor Garrison sheet has no counter by that name; the only one not named for another place is EGUG, and the scenario data uses it. Unconfirmed.",
+      "options": [
+        "EGUG is el Grein",
+        "Another counter (say which)",
+        "Leave as read"
+      ]
     }
   ]
 }

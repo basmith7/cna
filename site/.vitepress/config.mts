@@ -80,6 +80,10 @@ export default defineConfig({
           { text: 'Ports & shipping', link: '/rules/logistics/50-ports-and-shipping' },
           { text: 'Abstract air', link: '/rules/logistics/60-abstract-air' },
         ] },
+        { text: 'Scenarios', items: [
+          { text: 'Reading a scenario', link: '/rules/scenarios/00-reading-scenarios' },
+          { text: 'Group One — the Italians', link: '/rules/scenarios/10-the-italians' },
+        ] },
         { text: 'Provenance', items: [
           { text: 'Changes from the original', link: '/rules/changes' },
           { text: 'Coverage', link: '/rules/coverage' },

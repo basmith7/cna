@@ -28,7 +28,8 @@
   "Read twice (archive.org scan jp2 146-160; community 300 dpi Axis Charts.pdf pp. 4-18) and diffed: 1956 cells compared; after aligning conventions the reads differ only where a heading row (an artillery grouping with no counter) was taken as a parent, and on the 46th Artillery Regt of the Trento sheet, printed slightly left of its siblings: read as assigned to the division HQ like the other divisional units.",
   "Arrives: the sheets print Operations Stage / Game-Turn; D (deployed) is \"deployed\". toe_mark N means the maximum TOE for the unit's ID code.",
   "Counters listed on a division sheet as attached but printed again on their home sheet (Unassigned Armored, Unassigned Blackshirt, the Libyan Tank Command) have one id, on the home sheet; the division sheet lists them under attached.",
-  "The chart sets head this chart 4.44b (Italian Organization at Arrival)."
+  "The chart sets head this chart 4.44b (Italian Organization at Arrival).",
+  "The 61st Sirte, 62nd Marmarica and 63rd Cirene sheets were left out of the printed chart set; they come from SPI's errata."
  ],
  "formations": [
   {
@@ -5949,15 +5950,12 @@
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
-    },
+    }
+   ],
+   "attached": [
     {
-     "id": "unit:it:im-tank-bn-1st-ccnn-23rd-march-div",
-     "name": "I(M) Tank Battalion",
-     "abbreviation": "I(M)",
-     "id_code": null,
-     "parent": null,
-     "toe": [],
-     "arrives": "deployed",
+     "unit": "unit:it:im-tank-bn",
+     "to": "unit:it:1st-ccnn-div-hq",
      "notes": [
       "a: belongs to the Libyan Tank Command",
       " starts attached to 1st CCNN",
@@ -6381,6 +6379,639 @@
       "opstage": 3
      },
      "toe_mark": "N"
+    }
+   ]
+  },
+  {
+   "id": "61-sirte-div",
+   "name": "61st \"Sirte\" Division (Semi-motorized)",
+   "basic_morale": -1,
+   "basic_morale_alt": null,
+   "sources": [
+    "CNA1979:4.44"
+   ],
+   "notes": [
+    "printed in the errata (Errata.pdf page 10)",
+    "same column layout as the OA sheets",
+    "every unit arrives 3/10; no Notes column entries",
+    "Omitted from the printed OA sheets and published in SPI's errata (community scan Errata.pdf, pages 9-10); read twice, 0 of 43 rows differ."
+   ],
+   "units": [
+    {
+     "id": "unit:it:61st-sirte-div-hq",
+     "name": "61st Sirte Div HQ",
+     "abbreviation": "61 Srt",
+     "id_code": "b",
+     "parent": null,
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 3
+     },
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:69th-infantry-regt-hq",
+     "name": "69th Infantry Regt HQ",
+     "abbreviation": "69",
+     "id_code": "h",
+     "parent": "unit:it:61st-sirte-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 3
+     },
+     "notes": []
+    },
+    {
+     "id": "unit:it:i-69-infantry-bn",
+     "name": "I/69 Infantry Bn",
+     "abbreviation": "I/69",
+     "id_code": "u",
+     "parent": "unit:it:69th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 3
+     },
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:ii-69-infantry-bn",
+     "name": "II/69 Infantry Bn",
+     "abbreviation": "II/69",
+     "id_code": "u",
+     "parent": "unit:it:69th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 3
+     },
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:iii-69-infantry-bn",
+     "name": "III/69 Infantry Bn",
+     "abbreviation": "III/69",
+     "id_code": "u",
+     "parent": "unit:it:69th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 3
+     },
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:70th-infantry-regt-hq",
+     "name": "70th Infantry Regt HQ",
+     "abbreviation": "70",
+     "id_code": "h",
+     "parent": "unit:it:61st-sirte-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 3
+     },
+     "notes": []
+    },
+    {
+     "id": "unit:it:i-70-infantry-bn",
+     "name": "I/70 Infantry Bn",
+     "abbreviation": "I/70",
+     "id_code": "u",
+     "parent": "unit:it:70th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 3
+     },
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:ii-70-infantry-bn",
+     "name": "II/70 Infantry Bn",
+     "abbreviation": "II/70",
+     "id_code": "u",
+     "parent": "unit:it:70th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 3
+     },
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:iii-70-infantry-bn",
+     "name": "III/70 Infantry Bn",
+     "abbreviation": "III/70",
+     "id_code": "u",
+     "parent": "unit:it:70th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 3
+     },
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:61-machinegun-bn",
+     "name": "61st Machinegun Bn",
+     "abbreviation": "61",
+     "id_code": "bb",
+     "parent": "unit:it:61st-sirte-div-hq",
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 3
+     },
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:61-anti-tank-coy",
+     "name": "61st Anti-tank Coy",
+     "abbreviation": "61",
+     "id_code": "rr",
+     "parent": "unit:it:61st-sirte-div-hq",
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 3
+     },
+     "notes": []
+    },
+    {
+     "id": "unit:it:43rd-artillery-regt",
+     "name": "43rd Artillery Regt",
+     "abbreviation": "43",
+     "id_code": "kk",
+     "parent": "unit:it:61st-sirte-div-hq",
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 6
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      },
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 3
+     },
+     "notes": []
+    },
+    {
+     "id": "unit:it:61-engineer-bn",
+     "name": "61st Engineer Bn",
+     "abbreviation": "61",
+     "id_code": "bbb",
+     "parent": "unit:it:61st-sirte-div-hq",
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 3
+     },
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:61-bersaglieri-mitrg-coy",
+     "name": "61st Bersaglieri Mitrg Coy",
+     "abbreviation": "61 Brs",
+     "id_code": "aaa",
+     "parent": "unit:it:61st-sirte-div-hq",
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 10,
+      "opstage": 3
+     },
+     "notes": [],
+     "toe": []
+    }
+   ]
+  },
+  {
+   "id": "62-marmarica-div",
+   "name": "62nd \"Marmarica\" Division (Semi-motorized)",
+   "basic_morale": -1,
+   "basic_morale_alt": null,
+   "sources": [
+    "CNA1979:4.44"
+   ],
+   "notes": [
+    "printed in the errata (Errata.pdf page 10)",
+    "same column layout as the OA sheets",
+    "no Bersaglieri Mitrg Coy listed for this division",
+    "Omitted from the printed OA sheets and published in SPI's errata (community scan Errata.pdf, pages 9-10); read twice, 0 of 43 rows differ."
+   ],
+   "units": [
+    {
+     "id": "unit:it:62nd-marmarica-div-hq",
+     "name": "62nd Marmarica Div HQ",
+     "abbreviation": "62 Mrm",
+     "id_code": "b",
+     "parent": null,
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:115th-infantry-regt-hq",
+     "name": "115th Infantry Regt HQ",
+     "abbreviation": "115",
+     "id_code": "h",
+     "parent": "unit:it:62nd-marmarica-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed",
+     "notes": []
+    },
+    {
+     "id": "unit:it:i-115-infantry-bn",
+     "name": "I/115 Infantry Bn",
+     "abbreviation": "I/115",
+     "id_code": "u",
+     "parent": "unit:it:115th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:ii-115-infantry-bn",
+     "name": "II/115 Infantry Bn",
+     "abbreviation": "II/115",
+     "id_code": "u",
+     "parent": "unit:it:115th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:iii-115-infantry-bn",
+     "name": "III/115 Infantry Bn",
+     "abbreviation": "III/115",
+     "id_code": "u",
+     "parent": "unit:it:115th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:116th-infantry-regt-hq",
+     "name": "116th Infantry Regt HQ",
+     "abbreviation": "116",
+     "id_code": "h",
+     "parent": "unit:it:62nd-marmarica-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed",
+     "notes": []
+    },
+    {
+     "id": "unit:it:i-116-infantry-bn",
+     "name": "I/116 Infantry Bn",
+     "abbreviation": "I/116",
+     "id_code": "u",
+     "parent": "unit:it:116th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:ii-116-infantry-bn",
+     "name": "II/116 Infantry Bn",
+     "abbreviation": "II/116",
+     "id_code": "u",
+     "parent": "unit:it:116th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:iii-116-infantry-bn",
+     "name": "III/116 Infantry Bn",
+     "abbreviation": "III/116",
+     "id_code": "u",
+     "parent": "unit:it:116th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:62-machinegun-bn",
+     "name": "62nd Machinegun Bn",
+     "abbreviation": "62",
+     "id_code": "bb",
+     "parent": "unit:it:62nd-marmarica-div-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:62-anti-tank-coy",
+     "name": "62nd Anti-tank Coy",
+     "abbreviation": "62",
+     "id_code": "rr",
+     "parent": "unit:it:62nd-marmarica-div-hq",
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed",
+     "notes": []
+    },
+    {
+     "id": "unit:it:44th-artillery-regt",
+     "name": "44th Artillery Regt",
+     "abbreviation": "44",
+     "id_code": "kk",
+     "parent": "unit:it:62nd-marmarica-div-hq",
+     "toe": [
+      {
+       "weapon": "75/27 Gun",
+       "points": 6
+      },
+      {
+       "weapon": "105/28 Gun",
+       "points": 3
+      },
+      {
+       "weapon": "Light AA",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "notes": []
+    },
+    {
+     "id": "unit:it:62-engineer-bn",
+     "name": "62nd Engineer Bn",
+     "abbreviation": "62",
+     "id_code": "bbb",
+     "parent": "unit:it:62nd-marmarica-div-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    }
+   ],
+   "attached": [
+    {
+     "unit": "unit:it:lxiil-tank-bn",
+     "to": "unit:it:62nd-marmarica-div-hq",
+     "notes": [
+      "home sheet: the Libyan Tank Command; starts attached to this division"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "63-cirene-div",
+   "name": "63rd \"Cirene\" Division (Semi-motorized)",
+   "basic_morale": -1,
+   "basic_morale_alt": null,
+   "sources": [
+    "CNA1979:4.44"
+   ],
+   "notes": [
+    "printed in the errata (Errata.pdf page 9)",
+    "same column layout as the OA sheets",
+    "Omitted from the printed OA sheets and published in SPI's errata (community scan Errata.pdf, pages 9-10); read twice, 0 of 43 rows differ."
+   ],
+   "units": [
+    {
+     "id": "unit:it:63rd-cirene-div-hq",
+     "name": "63rd Cirene Div HQ",
+     "abbreviation": "63 Cir",
+     "id_code": "b",
+     "parent": null,
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:157th-infantry-regt-hq",
+     "name": "157th Infantry Regt HQ",
+     "abbreviation": "157",
+     "id_code": "h",
+     "parent": "unit:it:63rd-cirene-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed",
+     "notes": []
+    },
+    {
+     "id": "unit:it:i-157-infantry-bn",
+     "name": "I/157 Infantry Bn",
+     "abbreviation": "I/157",
+     "id_code": "u",
+     "parent": "unit:it:157th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:ii-157-infantry-bn",
+     "name": "II/157 Infantry Bn",
+     "abbreviation": "II/157",
+     "id_code": "u",
+     "parent": "unit:it:157th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:iii-157-infantry-bn",
+     "name": "III/157 Infantry Bn",
+     "abbreviation": "III/157",
+     "id_code": "u",
+     "parent": "unit:it:157th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:158th-infantry-regt-hq",
+     "name": "158th Infantry Regt HQ",
+     "abbreviation": "158",
+     "id_code": "h",
+     "parent": "unit:it:63rd-cirene-div-hq",
+     "toe": [
+      {
+       "weapon": "65/17 Gun",
+       "points": 1
+      }
+     ],
+     "arrives": "deployed",
+     "notes": []
+    },
+    {
+     "id": "unit:it:i-158-infantry-bn",
+     "name": "I/158 Infantry Bn",
+     "abbreviation": "I/158",
+     "id_code": "u",
+     "parent": "unit:it:158th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:ii-158-infantry-bn",
+     "name": "II/158 Infantry Bn",
+     "abbreviation": "II/158",
+     "id_code": "u",
+     "parent": "unit:it:158th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:iii-158-infantry-bn",
+     "name": "III/158 Infantry Bn",
+     "abbreviation": "III/158",
+     "id_code": "u",
+     "parent": "unit:it:158th-infantry-regt-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:63-machinegun-bn",
+     "name": "63rd Machinegun Bn",
+     "abbreviation": "63",
+     "id_code": "bb",
+     "parent": "unit:it:63rd-cirene-div-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:63-anti-tank-coy",
+     "name": "63rd Anti-tank Coy",
+     "abbreviation": "63",
+     "id_code": "rr",
+     "parent": "unit:it:63rd-cirene-div-hq",
+     "toe": [
+      {
+       "weapon": "47/32 Gun",
+       "points": 2
+      }
+     ],
+     "arrives": "deployed",
+     "notes": []
+    },
+    {
+     "id": "unit:it:45th-artillery-regt",
+     "name": "45th Artillery Regt",
+     "abbreviation": "45",
+     "id_code": "kk",
+     "parent": "unit:it:63rd-cirene-div-hq",
+     "toe": [
+      {
+       "weapon": "75/18 Gun-Howitzer",
+       "points": 6
+      },
+      {
+       "weapon": "100/17 Howitzer",
+       "points": 3
+      },
+      {
+       "weapon": "Light AA",
+       "points": 3
+      }
+     ],
+     "arrives": "deployed",
+     "notes": []
+    },
+    {
+     "id": "unit:it:63-engineer-bn",
+     "name": "63rd Engineer Bn",
+     "abbreviation": "63",
+     "id_code": "bbb",
+     "parent": "unit:it:63rd-cirene-div-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    },
+    {
+     "id": "unit:it:63-bersaglieri-mitrg-coy",
+     "name": "63rd Bersaglieri Mitrg Coy",
+     "abbreviation": "63 Brs",
+     "id_code": "aaa",
+     "parent": "unit:it:63rd-cirene-div-hq",
+     "toe_mark": "N",
+     "arrives": "deployed",
+     "notes": [],
+     "toe": []
+    }
+   ],
+   "attached": [
+    {
+     "unit": "unit:it:lxiiil-tank-bn",
+     "to": "unit:it:63rd-cirene-div-hq",
+     "notes": [
+      "home sheet: the Libyan Tank Command; starts attached to this division"
+     ]
     }
    ]
   }

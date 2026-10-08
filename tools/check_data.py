@@ -130,6 +130,7 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
     case_refs = {f"CNA1979:{k}" for k in known}
     units: dict[str, str] = {}
     parents: list[tuple[str, str, str]] = []
+    formations: set[str] = set()
     for p in sorted((data_dir / "oa").glob("*.json")) if (data_dir / "oa").is_dir() else []:
         label = f"oa/{p.name}"
         doc = _load_json(p, label, errors)
@@ -144,6 +145,7 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
         for ref in sorted(_case_refs(doc) - case_refs):
             errors.append(f"{label}: unknown case reference {ref}")
         for f in doc["formations"]:
+            formations.add(f"{doc['nation']}:{f['id']}")
             for u in f["units"]:
                 if not u["id"].startswith(f"unit:{doc['nation']}:"):
                     errors.append(f"{label}: {u['id']} is not {doc['nation']}")
@@ -172,6 +174,8 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
                 errors.extend(f"{label}: unknown hex {h}" for h in v if isinstance(h, str) and hexes and h not in hexes)
             if k in ("of", "railroad_ends") and isinstance(v, str) and hexes and re.match(r"^[A-EM][0-9]{4}$", v) and v not in hexes:
                 errors.append(f"{label}: unknown hex {v}")
+            if k == "formation" and isinstance(v, str) and v not in formations:
+                errors.append(f"{label}: unknown formation {v}")
             if k == "place" and isinstance(v, str) and places and v not in places:
                 errors.append(f"{label}: unknown place {v}")
 

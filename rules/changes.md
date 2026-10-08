@@ -152,6 +152,13 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-091](../rulings/R-091.md) — the set-up loses 10 % of its Truck Points, rounded up, in proportion by type
 - [R-092](../rulings/R-092.md) — monthly truck loss at the first naval convoy stage, on-map base, total rounded up and split by largest remainder
 
+## [Group One — the Italians](./scenarios/10-the-italians.md)
+
+- [R-094](../rulings/R-094.md) — Italian artillery printed twice in the Libya list
+- [R-096](../rulings/R-096.md) — a unit set up before its OA arrival (the French Motor Marines company)
+- [R-095](../rulings/R-095.md) — the printed fleet total disagrees with the lists
+- [R-027](../rulings/R-027.md) — Tobruk's efficiency level
+
 ## Rulings register
 
 | Id | Status | Affects |
@@ -209,6 +216,9 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-091](../rulings/R-091.md) | accepted | 58.41 |
 | [R-092](../rulings/R-092.md) | accepted | 58.42, 58.44, 32.57 |
 | [R-093](../rulings/R-093.md) | accepted | 58.1, 32.64 |
+| [R-094](../rulings/R-094.md) | proposed | 60.31 |
+| [R-095](../rulings/R-095.md) | proposed | 60.45 |
+| [R-096](../rulings/R-096.md) | proposed | 60.41, 59.2 |
 
 ## Variants register
 
