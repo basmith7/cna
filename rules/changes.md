@@ -182,6 +182,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-107](../rulings/R-107.md) — what an inactive dump is
 - [R-106](../rulings/R-106.md) — tank strengths for two battalions the set-up never places
 
+## [Group Four — El Alamein](./scenarios/40-el-alamein.md)
+
+- [R-108](../rulings/R-108.md) — the printed start and end Game-Turns
+
 ## Rulings register
 
 | Id | Status | Affects |
@@ -253,6 +257,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-105](../rulings/R-105.md) | proposed | 62.31 |
 | [R-106](../rulings/R-106.md) | proposed | 62.41, 62.42 |
 | [R-107](../rulings/R-107.md) | proposed | 62.35, 62.45, 59.53 |
+| [R-108](../rulings/R-108.md) | proposed | 63.2 |
 
 ## Variants register
 
