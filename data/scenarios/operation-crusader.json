@@ -199,7 +199,14 @@
      },
      "units": [
       {
-       "unit": "unit:it:ariete-132nd-div-hq"
+       "unit": "unit:it:ariete-132nd-div-hq",
+       "attached": [
+        "unit:it:iil-tank-bn",
+        "unit:it:il-tank-bn"
+       ],
+       "notes": [
+        "I(L) and II(L) start attached here, at the strengths 62.42 gives (R-106)."
+       ]
       }
      ],
      "trucks": {
