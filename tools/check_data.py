@@ -103,6 +103,99 @@ def validate_all(data_dir: pathlib.Path) -> list[str]:
             for c in sorted(set(map(str, affects)) - known):
                 errors.append(f"errata/{p.name}: affects unknown case {c}")
     errors += validate_map(data_dir, reg, known)
+    errors += validate_units(data_dir, reg, known, tables)
+    return errors
+
+
+UNIT_REF = re.compile(r"^unit:(cw|it|de):")
+
+
+def _walk(obj):
+    """Yield (key, value) for every dict entry and ('', item) for list items, recursively."""
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            yield k, v
+            yield from _walk(v)
+    elif isinstance(obj, list):
+        for v in obj:
+            yield "", v
+            yield from _walk(v)
+
+
+def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], tables: dict) -> list[str]:
+    """data/oa/ and data/scenarios/: schemas, unique unit ids and their parents, then
+    every unit, hex, place and extends a scenario (or the reinforcement schedule) names."""
+    errors: list[str] = []
+    schema_dir = data_dir / "schema"
+    case_refs = {f"CNA1979:{k}" for k in known}
+    units: dict[str, str] = {}
+    parents: list[tuple[str, str, str]] = []
+    for p in sorted((data_dir / "oa").glob("*.json")) if (data_dir / "oa").is_dir() else []:
+        label = f"oa/{p.name}"
+        doc = _load_json(p, label, errors)
+        if doc is None:
+            continue
+        errs = _validate(doc, schema_dir / "oa.schema.json", reg, label)
+        errors += errs
+        if errs:
+            continue
+        if doc["nation"] != p.stem:
+            errors.append(f"{label}: nation {doc['nation']} does not match filename")
+        for ref in sorted(_case_refs(doc) - case_refs):
+            errors.append(f"{label}: unknown case reference {ref}")
+        for f in doc["formations"]:
+            for u in f["units"]:
+                if not u["id"].startswith(f"unit:{doc['nation']}:"):
+                    errors.append(f"{label}: {u['id']} is not {doc['nation']}")
+                if u["id"] in units:
+                    errors.append(f"{label}: duplicate unit {u['id']}")
+                units[u["id"]] = label
+                if u["parent"]:
+                    parents.append((label, u["id"], u["parent"]))
+    for label, uid, parent in parents:
+        if parent not in units:
+            errors.append(f"{label}: {uid}: unknown parent {parent}")
+
+    hexes: set[str] = set()
+    places: set[str] = set()
+    m = data_dir / "map"
+    if (m / "hexes.json").exists():
+        hexes = {h["id"] for h in (_load_json(m / "hexes.json", "map/hexes.json", []) or {"hexes": []})["hexes"]}
+    if (m / "places.json").exists():
+        places = {pl["id"] for pl in (_load_json(m / "places.json", "map/places.json", []) or {"places": []})["places"]}
+
+    def refs(label: str, doc) -> None:
+        for k, v in _walk(doc):
+            if isinstance(v, str) and UNIT_REF.match(v) and v not in units:
+                errors.append(f"{label}: unknown unit {v}")
+            if k in ("hexes", "minefields") and isinstance(v, list):
+                errors.extend(f"{label}: unknown hex {h}" for h in v if isinstance(h, str) and hexes and h not in hexes)
+            if k in ("of", "railroad_ends") and isinstance(v, str) and hexes and re.match(r"^[A-EM][0-9]{4}$", v) and v not in hexes:
+                errors.append(f"{label}: unknown hex {v}")
+            if k == "place" and isinstance(v, str) and places and v not in places:
+                errors.append(f"{label}: unknown place {v}")
+
+    scenarios: dict[str, tuple[str, dict]] = {}
+    for p in sorted((data_dir / "scenarios").glob("*.json")) if (data_dir / "scenarios").is_dir() else []:
+        label = f"scenarios/{p.name}"
+        doc = _load_json(p, label, errors)
+        if doc is None:
+            continue
+        errs = _validate(doc, schema_dir / "scenario.schema.json", reg, label)
+        errors += errs
+        if errs:
+            continue
+        if doc["id"] != f"scenario:{p.stem}":
+            errors.append(f"{label}: id {doc['id']} does not match filename")
+        for ref in sorted(_case_refs(doc) - case_refs):
+            errors.append(f"{label}: unknown case reference {ref}")
+        scenarios[doc["id"]] = (label, doc)
+        refs(label, doc)
+    for sid, (label, doc) in scenarios.items():
+        if "extends" in doc and doc["extends"] not in {f"scenario:{p.stem}" for p in (data_dir / "scenarios").glob("*.json")}:
+            errors.append(f"{label}: extends unknown {doc['extends']}")
+    if tables.get("reinforcement-schedule"):
+        refs("tables/reinforcement-schedule.json", tables["reinforcement-schedule"])
     return errors
 
 

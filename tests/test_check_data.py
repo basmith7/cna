@@ -137,3 +137,62 @@ def test_map_up_must_be_an_endpoint(tmp_path):
     d = make_data(tmp_path)
     make_map(d, [H("C4023"), H("C4024")], [S("C4023", "C4024", up="C4025")], [])
     assert any("up" in e for e in check_data.validate_all(d))
+
+
+def _scenario_data(tmp_path, scenario, oa=None):
+    """Real schemas and map, a temporary OA file and scenario."""
+    d = tmp_path / "data"
+    for sub in ("schema", "map"):
+        shutil.copytree(ROOT / "data" / sub, d / sub)
+    shutil.copy(ROOT / "data" / "spi-cases.json", d)
+    (d / "oa").mkdir()
+    (d / "scenarios").mkdir()
+    (d / "oa" / "it.json").write_text(json.dumps(oa or {
+        "nation": "it", "sources": ["CNA1979:60.31"], "formations": [{
+            "id": "demo", "name": "Demo", "basic_morale": 0, "sources": ["CNA1979:60.31"], "units": [
+                {"id": "unit:it:demo-hq", "name": "Demo HQ", "abbreviation": "Demo", "id_code": "a",
+                 "parent": None, "toe": [], "arrives": None},
+                {"id": "unit:it:demo-bn", "name": "Demo Bn", "abbreviation": "I/1", "id_code": "b",
+                 "parent": "unit:it:demo-hq", "toe": [{"weapon": "Infantry", "points": 4}], "arrives": None}]}]}))
+    for name, body in scenario.items():
+        (d / "scenarios" / name).write_text(json.dumps(body))
+    return d
+
+
+def _scenario(**over):
+    s = {"id": "scenario:demo", "name": "Demo", "group": 1, "sources": ["CNA1979:60.22"],
+         "start": {"game_turn": 1, "opstage": 1}, "end": {"game_turn": 6, "opstage": 3},
+         "sides": {"axis": {"deployments": [
+             {"placement": {"hexes": ["C4218"]}, "units": [{"unit": "unit:it:demo-hq"}]},
+             {"placement": {"place": "tobruk"}, "units": [{"unit": "unit:it:demo-bn"}]}]}}}
+    s.update(over)
+    return s
+
+
+def test_valid_scenario_and_oa_pass(tmp_path):
+    d = _scenario_data(tmp_path, {"demo.json": _scenario()})
+    assert check_data.validate_all(d) == []
+
+
+def test_scenario_reference_errors(tmp_path):
+    bad = _scenario(extends="scenario:missing")
+    bad["sides"]["axis"]["deployments"] += [
+        {"placement": {"hexes": ["C9999"]}, "units": [{"unit": "unit:it:ghost"}]},
+        {"placement": {"place": "atlantis"}, "units": [{"unit": "unit:it:demo-hq", "less": ["unit:it:nobody"]}]}]
+    d = _scenario_data(tmp_path, {"demo.json": bad, "other.json": _scenario(id="scenario:wrong")})
+    errs = check_data.validate_all(d)
+    for needle in ("unknown unit unit:it:ghost", "unknown unit unit:it:nobody", "unknown hex C9999",
+                   "unknown place atlantis", "extends unknown scenario:missing", "other.json: id scenario:wrong"):
+        assert any(needle in e for e in errs), needle
+
+
+def test_oa_parent_and_duplicate_ids(tmp_path):
+    oa = {"nation": "it", "sources": ["CNA1979:60.31"], "formations": [{
+        "id": "demo", "name": "Demo", "basic_morale": 0, "sources": ["CNA1979:60.31"], "units": [
+            {"id": "unit:it:a", "name": "A", "abbreviation": "A", "id_code": "a", "parent": "unit:it:zz", "toe": [], "arrives": None},
+            {"id": "unit:it:a", "name": "A2", "abbreviation": "A", "id_code": "a", "parent": None, "toe": [], "arrives": None},
+            {"id": "unit:de:b", "name": "B", "abbreviation": "B", "id_code": "a", "parent": None, "toe": [], "arrives": None}]}]}
+    d = _scenario_data(tmp_path, {}, oa=oa)
+    errs = check_data.validate_all(d)
+    for needle in ("duplicate unit unit:it:a", "parent unit:it:zz", "unit:de:b is not it"):
+        assert any(needle in e for e in errs), needle
