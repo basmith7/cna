@@ -122,6 +122,9 @@ facility is at Alexandria, a temporary one at Mersa Matruh.
 
 ::: ruling R-095 — the printed fleet total disagrees with the lists
 
+The fleet is the ships the lists name, in the ports they give: the
+printed total that disagrees with them is set aside.
+
 ## Air facilities {#air-facilities}
 
 ::: spi 60.5
