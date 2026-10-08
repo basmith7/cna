@@ -56,6 +56,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-014** — 20.66 note: M 11/39, not 13/39
 - **E-015** — 20.72: plan one month ahead, not two, and read the table for the arrival month
 - **E-016** — 20.83: the reference to 20.75 is void; the strength requirement is 20.82's
+- [R-100](../rulings/R-100.md) — the schedule and an OA sheet sometimes give different arrivals
 
 ## [Engineering](./80-engineering.md)
 
@@ -65,6 +66,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-020** — 24.15: builders do not count against road stacking (24.12) despite "subject to all stacking rules"
 - **E-021** — 24.72 addition: Commonwealth SGSUs and E-HQs may build airfields and basins
 - **E-022** — 25.15: the reference should be 22.34
+- [R-099](../rulings/R-099.md) — a scenario's own list of repair facilities governs it
 - [R-016](../rulings/R-016.md) — a tank delivery squadron moves only in the truck convoy phase
 - [R-017](../rulings/R-017.md) — a tank delivery squadron reacts or retreats only with a friendly combat unit
 - [R-018](../rulings/R-018.md) — dump costs follow the charts: real 3 CP + 10 stores, dummy 2 CP
@@ -254,8 +256,8 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-096](../rulings/R-096.md) | accepted | 60.41, 59.2 |
 | [R-097](../rulings/R-097.md) | accepted | 60.37, 56.0 |
 | [R-098](../rulings/R-098.md) | accepted | 60.44, 22.31 |
-| [R-099](../rulings/R-099.md) | proposed | 60.33, 22.31 |
-| [R-100](../rulings/R-100.md) | proposed | 4.43, 4.44, 20.0 |
+| [R-099](../rulings/R-099.md) | accepted | 60.33, 22.31 |
+| [R-100](../rulings/R-100.md) | accepted | 4.43, 4.44, 20.0 |
 | [R-101](../rulings/R-101.md) | accepted | 61.8 |
 | [R-102](../rulings/R-102.md) | proposed | 61.72, 61.73, 59.63 |
 | [R-103](../rulings/R-103.md) | proposed | 61.31, 61.32, 61.38 |
