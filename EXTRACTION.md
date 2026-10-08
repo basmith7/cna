@@ -479,3 +479,8 @@ the PR that adds or substantially rewrites the file.
 - **How expressed:** length, special rules, initiative, construction (minefield sites, fortifications, ports, railway and pipeline), abstractions and both victory rules in prose; listings in the scenario files, The Long Retreat extending The Last Chance.
 - **Reading:** first read from the scan, second pass at full resolution over jp2 85–87 (Italian deployment, supply-unit tables, abstractions, victory): no value changed; eleven unit references resolved. **Not yet second-read:** the German deployment (jp2 84) and the Commonwealth deployment pages beyond the first read; to do. Tobruk is printed at level 5 here (the chart's full level), kept as printed.
 - **Open:** R-108 (printed Game-Turns). The 12th Bersaglieri printed at E3133, inside Commonwealth lines (probably D3133), and the Italian XXIV Corps artillery (no OA counter) are in the data's notes.
+## rules/scenarios/50-campaign-game.md; data/scenarios/campaign-game.json, short-campaign-game.json — 2026-10-08
+- **Cases read:** 64.0–64.76 (18 ids); 65.0 (designer's notes, bibliography) `spi-omit`ted. Scan jp2 87–88.
+- **How expressed:** the two campaigns as files extending the Group One and Group Two set-ups, with the campaign's end and victory; special rules and the shorter campaign's production cuts in prose and notes; automatic victories as a level, places as points; replacement and withdrawal points and the ratio table in prose.
+- **Reading:** scan over OCR in 64.75 A (half a point a week, not "4") and the 64.6 heading. One read only, against the source text; the victory-point table matches it.
+- **Rulings:** opened R-109 (open points in the victory rules).

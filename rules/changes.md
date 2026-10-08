@@ -186,6 +186,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-108](../rulings/R-108.md) — the printed start and end Game-Turns
 
+## [Group Five — the campaign game](./scenarios/50-campaign-game.md)
+
+- [R-109](../rulings/R-109.md) — open points in the campaign victory rules
+
 ## Rulings register
 
 | Id | Status | Affects |
@@ -258,6 +262,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-106](../rulings/R-106.md) | proposed | 62.41, 62.42 |
 | [R-107](../rulings/R-107.md) | proposed | 62.35, 62.45, 59.53 |
 | [R-108](../rulings/R-108.md) | proposed | 63.2 |
+| [R-109](../rulings/R-109.md) | proposed | 64.71, 64.72, 64.75, 64.76 |
 
 ## Variants register
 
