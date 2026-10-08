@@ -319,7 +319,8 @@ Tons = fixed + (variable × one die), rounded up to the nearest 1,000.
 
 The Axis also has a few small **coastal ships** for moving supplies between
 its own African ports. Each is a counter with its cargo capacity in tons
-printed on it.
+printed on it: three of 1,000 tons and one of 2,000
+(`data/tables/axis-coastal-ships.json`).
 
 - A coastal ship has a CPA of **50**, for movement only; each sea hex costs
   1 CP. It needs no fuel.
