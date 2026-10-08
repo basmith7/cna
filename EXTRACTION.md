@@ -464,3 +464,9 @@ the PR that adds or substantially rewrites the file.
 - **How expressed:** length, release rule, initiative, construction, abstractions and victory in prose; every listing in the scenario file. The German start is every German counter the schedule brings before Game-Turn 26 OpStage 3 (a test checks the data against the schedule). The campaign from the same set-up extends it; SPI gives it nothing else (R-104).
 - **Reading:** scan over OCR: B4004 for "84004", D3714 for "D8714", Sollum, Axis Trucks; 61.73 B prints 61.62. Printed misprints recorded in the data's notes: Tobruk given as C4907 once (C4807), and the coast road "from E1716" (A1716).
 - **Rulings:** R-027 applied (Tobruk 2); opened R-101 (victory), R-102 (abstraction references, motorisation), R-103 (5 RTR's tanks), R-104 (the campaign scenario). Layforce and the LRDG unit have no OA counter and are notes.
+
+## rules/scenarios/30-crusader.md; data/scenarios/operation-crusader.json — 2026-10-08
+- **Cases read:** 62.0–62.8 (27 ids); scan jp2 81–83 for the set-up (the source text's Axis air table is garbled; the scan was used).
+- **How expressed:** length, construction, abstractions, initiative and the points victory in prose; listings and tank strengths in the scenario file. The schema gains points by hexes (Halfaya Pass has no place id) and `margins` for points victories.
+- **Reading:** scan over OCR: C3714, D2001, "32nd Army", PzIV(E). Printed oddities in the data's notes: two Blenheim IVF rows, a "12/15 Aus" battalion that matches no counter (2/15 Aus likely), Halfaya Pass given as "both hexes" without numbers.
+- **Rulings:** R-096 applies to the 21st Panzer HQ; opened R-105 (a counter placed twice), R-106 (two tank battalions never placed), R-107 (inactive dumps).
