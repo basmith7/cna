@@ -247,7 +247,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-091](../rulings/R-091.md) | accepted | 58.41 |
 | [R-092](../rulings/R-092.md) | accepted | 58.42, 58.44, 32.57 |
 | [R-093](../rulings/R-093.md) | accepted | 58.1, 32.64 |
-| [R-094](../rulings/R-094.md) | proposed | 60.31 |
+| [R-094](../rulings/R-094.md) | accepted | 60.31 |
 | [R-095](../rulings/R-095.md) | proposed | 60.45 |
 | [R-096](../rulings/R-096.md) | proposed | 60.41, 59.2 |
 | [R-097](../rulings/R-097.md) | proposed | 60.37, 56.0 |

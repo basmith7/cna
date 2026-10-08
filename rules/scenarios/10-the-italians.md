@@ -46,6 +46,9 @@ are in the scenario file (`sides.axis.deployments`). Points worth knowing:
 
 ::: ruling R-094 — Italian artillery printed twice in the Libya list
 
+The Libya list names the 4/1 artillery battalion and the XXI Corps
+artillery twice; each is a single counter and is placed once.
+
 ::: spi 60.32
 
 **Air.** The Italian planes may start at any Italian air facility in
