@@ -37,9 +37,9 @@
   "ports": [
    {
     "place": "tobruk",
-    "efficiency": 7,
+    "efficiency": 2,
     "notes": [
-     "Harbour partly blocked by the sunk San Giorgio."
+     "Partly blocked by the wreck of the San Giorgio. The scenario prints 7; ruling R-027 sets 2 (full level 5 on the Port Capacity Chart, less the wreck's three)."
     ]
    }
   ],
@@ -133,7 +133,7 @@
       }
      }
     ],
-    "supply": "Supply must trace by truck convoy back to Alexandria or Cairo."
+    "supply": "Each holding unit traces supply over a truck-convoy route to Cairo or Alexandria."
    },
    {
     "side": "cw",
@@ -165,7 +165,7 @@
       }
      }
     ],
-    "supply": "Supply must trace by truck convoy back to Alexandria or Cairo."
+    "supply": "Each holding unit traces supply over a truck-convoy route to Cairo or Alexandria."
    },
    {
     "side": "cw",
@@ -177,7 +177,7 @@
       }
      }
     ],
-    "supply": "Supply must trace by truck convoy back to Alexandria or Cairo."
+    "supply": "Each holding unit traces supply over a truck-convoy route to Cairo or Alexandria."
    }
   ],
   "notes": [
@@ -197,9 +197,9 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-1-ccnn-div",
-       "notes": [
-        "printed: 1 CCNN Div (I; Att: I(M) [T; Ar/LTC]) - infantry; tank bn I(M) attached from Ar/LTC"
+       "unit": "unit:it:1st-ccnn-div-hq",
+       "attached": [
+        "unit:it:im-tank-bn"
        ]
       }
      ],
@@ -217,9 +217,9 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-63-cirene-div",
-       "notes": [
-        "printed: 63 Cirene Div (I; Att: LXIII (L) [T; Ar/LTC]) - infantry; tank bn LXIII(L) attached from Ar/LTC"
+       "unit": "unit:it:63rd-cirene-div-hq",
+       "attached": [
+        "unit:it:lxiiil-tank-bn"
        ]
       }
      ],
@@ -236,10 +236,7 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-1-libyan-div",
-       "notes": [
-        "printed: 1 Libyan Div (I)"
-       ]
+       "unit": "unit:it:1st-libyan-infantry-hq"
       }
      ],
      "trucks": {
@@ -255,9 +252,9 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-2-libyan-div",
-       "notes": [
-        "printed: 2 Libyan Div (I; Att: IX(L) [T; Tvl/LTC]) - tank bn IX(L) attached from Tvl/LTC"
+       "unit": "unit:it:2nd-libyan-infantry-hq",
+       "attached": [
+        "unit:it:ixl-tank-bn"
        ]
       }
      ],
@@ -274,9 +271,11 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-aresca-regt",
-       "notes": [
-        "printed: Aresca Regt (T; LTC, Det: all except XXI) - tank regiment of LTC; every subordinate detached except XXI"
+       "unit": "unit:it:aresca-1st-regt-hq",
+       "detached": [
+        "unit:it:lxiil-tank-bn",
+        "unit:it:lxiiil-tank-bn",
+        "unit:it:im-tank-bn"
        ]
       }
      ],
@@ -293,9 +292,12 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-62-marmarica-div",
+       "unit": "unit:it:62nd-marmarica-div-hq",
        "notes": [
-        "printed: 62 Marmarcia Div (I; Att: LXII(L) [T; Ar/LTC]) - spelled 'Marmarcia' in the scan; tank bn LXII(L) attached from Ar/LTC"
+        "spelled 'Marmarcia' in the scan; tank bn LXII(L) attached from Ar/LTC"
+       ],
+       "attached": [
+        "unit:it:lxiil-tank-bn"
        ]
       }
      ],
@@ -312,9 +314,9 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-maletti-div",
-       "notes": [
-        "printed: Maletti Div (I; Att: II(M) [T, Tvl/LTC]) - tank bn II(M) attached from Tvl/LTC"
+       "unit": "unit:it:maletti-div-hq",
+       "attached": [
+        "unit:it:iim-tank-bn"
        ]
       }
      ],
@@ -332,10 +334,7 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-64-catanzaro-div",
-       "notes": [
-        "printed: 64 Catanzaro Div (I)"
-       ]
+       "unit": "unit:it:64th-catanzaro-div-hq"
       }
      ],
      "trucks": {
@@ -351,10 +350,7 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-4-ccnn-div",
-       "notes": [
-        "printed: 4 CCNN Div (I)"
-       ]
+       "unit": "unit:it:4th-ccnn-div-hq"
       }
      ],
      "trucks": {
@@ -369,16 +365,14 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-trivoli-regt",
-       "notes": [
-        "printed: Trivoli Regt (T; LTC; Det: II(M) and IX(L)) - tank regiment of LTC with II(M) and IX(L) detached"
+       "unit": "unit:it:trivioli-2nd-regt-hq",
+       "detached": [
+        "unit:it:iim-tank-bn",
+        "unit:it:ixl-tank-bn"
        ]
       },
       {
-       "unit": "unit:it:todo-bardia-garrison",
-       "notes": [
-        "printed: Bardia Garrison"
-       ]
+       "formation": "it:bardia-garrison-hex-c4321"
       }
      ],
      "trucks": {
@@ -394,17 +388,11 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-libyan-tank-command-hq",
-       "notes": [
-        "printed: HQ: Libyan Tank Command"
-       ],
+       "unit": "unit:it:libyan-tank-command-hq",
        "alone": true
       },
       {
-       "unit": "unit:it:todo-tobruk-garrison",
-       "notes": [
-        "printed: Tobruk Garrison"
-       ]
+       "formation": "it:the-tobruk-garrison-hex-c4807"
       }
      ],
      "trucks": {
@@ -420,10 +408,7 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-benghazi-garrison",
-       "notes": [
-        "printed: Benghazi Garrison"
-       ]
+       "formation": "it:benghazi-garrison-hex-a4827"
       }
      ],
      "notes": [
@@ -438,10 +423,7 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-libyan-parachute-regt",
-       "notes": [
-        "printed: Libyan Parachute Regt (I)"
-       ]
+       "unit": "unit:it:libyan-parachute-regt-hq"
       }
      ],
      "trucks": {
@@ -457,10 +439,7 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-derna-garrison",
-       "notes": [
-        "printed: Derna Garrison"
-       ]
+       "formation": "it:derna-garrison-hex-b5925"
       }
      ],
      "notes": [
@@ -475,10 +454,7 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-mechili-garrison",
-       "notes": [
-        "printed: Mechili Garrison"
-       ]
+       "unit": "unit:it:mechili-garrison-bn"
       }
      ],
      "notes": [
@@ -491,10 +467,10 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-giarabub-garrison",
        "notes": [
-        "printed: Giaribub Garrison (spelled 'Giaribub' in the scan)"
-       ]
+        "spelled 'Giaribub' in the scan)"
+       ],
+       "formation": "it:giariabub-oasis-complex-garrison-hex-c-1014"
       }
      ],
      "notes": [
@@ -507,10 +483,7 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-scheferzen-garrison",
-       "notes": [
-        "printed: Scheferzen Garrison"
-       ]
+       "unit": "unit:it:sceferzen-oasis-garrison-bn"
       }
      ],
      "notes": [
@@ -523,9 +496,9 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-fort-maddalena-garrison",
+       "unit": "unit:it:fort-maddalenna-garrison-bn",
        "notes": [
-        "printed: Fort Maddelena Garrison (spelled 'Maddelena' in the scan)"
+        "spelled 'Maddelena' in the scan)"
        ]
       }
      ],
@@ -539,9 +512,9 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-el-grein-garrison",
+       "unit": "unit:it:egug-garrison-bn",
        "notes": [
-        "printed: el Grein Garrison"
+        "Mapped to the EGUG garrison battalion, the only Minor Garrison counter not named for another place; unconfirmed."
        ]
       }
      ],
@@ -555,10 +528,7 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-benina-garrison",
-       "notes": [
-        "printed: Benina Garrison"
-       ]
+       "unit": "unit:it:benina-aa-battery"
       }
      ],
      "notes": [
@@ -571,16 +541,10 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-soluch-garrison",
-       "notes": [
-        "printed: Soluch Garrison"
-       ]
+       "unit": "unit:it:soluch-garrison-at-coy"
       },
       {
-       "unit": "unit:it:todo-x-cp-ar",
-       "notes": [
-        "printed: X Cp (Ar)"
-       ]
+       "unit": "unit:it:x-corps-artillery-regt"
       }
      ],
      "notes": [
@@ -593,44 +557,26 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-1-1ar",
-       "notes": [
-        "printed: 1/1AR"
-       ]
+       "unit": "unit:it:1st-bn-1-arty-rgppmnto"
       },
       {
-       "unit": "unit:it:todo-2-1ar",
-       "notes": [
-        "printed: 2/1AR"
-       ]
+       "unit": "unit:it:2nd-bn-1-arty-rgppmnto"
       },
       {
-       "unit": "unit:it:todo-3-1ar",
-       "notes": [
-        "printed: 3/1AR"
-       ]
+       "unit": "unit:it:3rd-bn-1-arty-rgppmnto"
       },
       {
-       "unit": "unit:it:todo-4-1ar",
-       "notes": [
-        "printed: 4/1AR"
-       ]
+       "unit": "unit:it:4th-bn-1-arty-rgppmnto"
       },
       {
-       "unit": "unit:it:todo-xxi-cp",
-       "notes": [
-        "printed: XXI Cp"
-       ]
+       "unit": "unit:it:xxi-corps-artillery-regt"
       },
       {
-       "unit": "unit:it:todo-xxvi-cp",
-       "notes": [
-        "printed: XXVI Cp"
-       ]
+       "unit": "unit:it:xxvi-corps-artillery-regt"
       }
      ],
      "notes": [
-      "The scan line reads '1/1AR; 2/1AR; 3/1AR; 4/1AR; XXI Cp; XXVI Cp 4/1AR; XXI Cp (Ar)': 4/1AR and XXI Cp are printed twice. Listed once each here; whether two counters are meant needs a ruling."
+      "The printed list names 4/1AR and the XXI Corps artillery twice; each is listed once here (R-094)."
      ]
     },
     {
@@ -642,10 +588,7 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-saharan-det",
-       "notes": [
-        "printed: Saharan Det (I)"
-       ]
+       "unit": "unit:it:saharan-detachment-hq"
       }
      ],
      "trucks": {
@@ -661,70 +604,37 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-xviii-lib",
-       "notes": [
-        "printed: XVIIILib (I; *) - infantry, no parent organisation"
-       ]
+       "unit": "unit:it:xviii-libyan-bn"
       },
       {
-       "unit": "unit:it:todo-xxxii-lib",
-       "notes": [
-        "printed: XXXIILib (I; *) - infantry, no parent organisation"
-       ]
+       "unit": "unit:it:xxxii-libyan-bn"
       },
       {
-       "unit": "unit:it:todo-147",
-       "notes": [
-        "printed: 147 (Ar)"
-       ]
+       "unit": "unit:it:147th-artiglieri-bn"
       },
       {
-       "unit": "unit:it:todo-131",
-       "notes": [
-        "printed: 131 (Ar)"
-       ]
+       "unit": "unit:it:131st-artiglieri-bn"
       },
       {
-       "unit": "unit:it:todo-2-24",
-       "notes": [
-        "printed: 2/24 (Ar)"
-       ]
+       "unit": "unit:it:2nd-bn-24th-artiglieri"
       },
       {
-       "unit": "unit:it:todo-5-1",
-       "notes": [
-        "printed: 5/1 (Ar)"
-       ]
+       "unit": "unit:it:5th-bn-1st-artiglieri"
       },
       {
-       "unit": "unit:it:todo-6-gaf",
-       "notes": [
-        "printed: 6 GaF (Ar)"
-       ]
+       "unit": "unit:it:6th-gaf-s-di-c-arty-regt"
       },
       {
-       "unit": "unit:it:todo-16-gaf",
-       "notes": [
-        "printed: 16 GaF (Ar)"
-       ]
+       "unit": "unit:it:16th-gaf-s-di-c-arty-regt"
       },
       {
-       "unit": "unit:it:todo-22-gaf",
-       "notes": [
-        "printed: 22 GaF (Ar)"
-       ]
+       "unit": "unit:it:22nd-gaf-s-di-c-arty-regt"
       },
       {
-       "unit": "unit:it:todo-42-gaf",
-       "notes": [
-        "printed: 42 GaF (Ar)"
-       ]
+       "unit": "unit:it:42nd-gaf-s-di-c-arty-regt"
       },
       {
-       "unit": "unit:it:todo-350-gaf",
-       "notes": [
-        "printed: 350 GaF (Ar)"
-       ]
+       "unit": "unit:it:350th-gaf-s-di-c-arty-regt"
       }
      ]
     },
@@ -734,28 +644,16 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-2-ccnn-div",
-       "notes": [
-        "printed: 2 CCNN Div (I)"
-       ]
+       "unit": "unit:it:2nd-ccnn-div-hq"
       },
       {
-       "unit": "unit:it:todo-3-ccnn-div",
-       "notes": [
-        "printed: 3 CCNN Div (I)"
-       ]
+       "formation": "it:3rd-ccnn-21st-april-div"
       },
       {
-       "unit": "unit:it:todo-xxii-cp-ar",
-       "notes": [
-        "printed: XXII Cp (Ar)"
-       ]
+       "unit": "unit:it:xxii-corps-artillery-regt"
       },
       {
-       "unit": "unit:it:todo-xxiii-cp-ar",
-       "notes": [
-        "printed: XXIII Cp (Ar)"
-       ]
+       "unit": "unit:it:xxiii-corps-artillery-regt"
       }
      ]
     },
@@ -765,10 +663,7 @@
      },
      "units": [
       {
-       "unit": "unit:it:todo-4-10-army",
-       "notes": [
-        "printed: 4/10 Army (I)"
-       ]
+       "unit": "unit:it:4th-fanterie-mtr-regt"
       }
      ]
     }
@@ -1035,16 +930,10 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-2-scots-guards",
-       "notes": [
-        "printed: 2nd Scots Guards (I)"
-       ]
+       "unit": "unit:cw:2-sctgds"
       },
       {
-       "unit": "unit:cw:todo-31-field-arty-regt",
-       "notes": [
-        "printed: 31st Field Arty Regt (4 In) - assigned to 4th Indian Div"
-       ]
+       "unit": "unit:cw:31-fld"
       }
      ],
      "trucks": {
@@ -1059,10 +948,7 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-1-coy-french-motor-marines",
-       "notes": [
-        "printed: 1st Coy French Motor Marines"
-       ]
+       "unit": "unit:cw:1-fr-mtr-marine"
       }
      ],
      "trucks": {
@@ -1077,28 +963,16 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-3-coldstream-gds",
-       "notes": [
-        "printed: 3rd Coldstream Gds/(I)"
-       ]
+       "unit": "unit:cw:3-cldgds"
       },
       {
-       "unit": "unit:cw:todo-1-krrc",
-       "notes": [
-        "printed: 1st Kings Royal Rifle Corps (I; 7Spt/7)"
-       ]
+       "unit": "unit:cw:1-krrc"
       },
       {
-       "unit": "unit:cw:todo-4-rha",
-       "notes": [
-        "printed: 4th RHA (7 Spt/7)"
-       ]
+       "unit": "unit:cw:4-rha"
       },
       {
-       "unit": "unit:cw:todo-7-medium-arty-regt",
-       "notes": [
-        "printed: 7th Medium Arty Regt"
-       ]
+       "unit": "unit:cw:7-med"
       }
      ],
      "trucks": {
@@ -1114,16 +988,10 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-1-royal-northumberland-fusiliers",
-       "notes": [
-        "printed: 1st Royal Northumberland Fusiliers (I)"
-       ]
+       "unit": "unit:cw:1-rnf"
       },
       {
-       "unit": "unit:cw:todo-3-rha",
-       "notes": [
-        "printed: 3rd RHA (AT; 7Spt/7) - anti-tank"
-       ]
+       "unit": "unit:cw:3-rha"
       }
      ],
      "trucks": {
@@ -1139,10 +1007,7 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-1-rtr",
-       "notes": [
-        "printed: 1st RTR (7/7)"
-       ]
+       "unit": "unit:cw:1-rtr"
       }
      ],
      "trucks": {
@@ -1157,10 +1022,7 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-2-rifle-bde",
-       "notes": [
-        "printed: 2nd Rifle Bde (I; 7Spt/7)"
-       ]
+       "unit": "unit:cw:2-rflbde"
       }
      ],
      "trucks": {
@@ -1175,10 +1037,7 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-11-hus",
-       "notes": [
-        "printed: 11th Hus (R; 7Spt/7) - recce"
-       ]
+       "unit": "unit:cw:11-hus"
       }
      ],
      "trucks": {
@@ -1193,9 +1052,9 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-matruh-garrison",
+       "unit": "unit:cw:selby-force-the-matruh-garrison",
        "notes": [
-        "printed: Matruh Garrison (I; Att: 1 Essex 23/70; 1st Durham Lt Inf 23/70; 1st South Stafforshires - closing parenthesis missing in the scan)"
+        "closing parenthesis missing in the scan)"
        ]
       }
      ],
@@ -1213,10 +1072,7 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-7-armoured-div",
-       "notes": [
-        "printed: 7th Armored Division (Det: all 7 Arm Div. units listed above)"
-       ]
+       "unit": "unit:cw:7th-armored-div-hq"
       }
      ],
      "trucks": {
@@ -1233,10 +1089,7 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-4-indian-div",
-       "notes": [
-        "printed: 4th Indian Division (Det: 31st Field Arty and 7th In Bde)"
-       ]
+       "unit": "unit:cw:4-in-hq"
       }
      ],
      "trucks": {
@@ -1253,10 +1106,7 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-16-inf-bde",
-       "notes": [
-        "printed: 16th Inf Bde (70) - assigned to 70th Div"
-       ]
+       "unit": "unit:cw:16th-infantry-bde-hq"
       }
      ],
      "trucks": {
@@ -1272,35 +1122,20 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-2-nz-div-hq",
-       "notes": [
-        "printed: HQ: 2nd New Zealand Division"
-       ],
+       "unit": "unit:cw:2-nz-hq",
        "alone": true
       },
       {
-       "unit": "unit:cw:todo-4-nz-bde",
-       "notes": [
-        "printed: 4th NZ Bde (2 NZ)"
-       ]
+       "unit": "unit:cw:4-nz-hq"
       },
       {
-       "unit": "unit:cw:todo-27-nz-mg-bn",
-       "notes": [
-        "printed: 27th NZ MG Bn (2 NZ)"
-       ]
+       "unit": "unit:cw:27-nz"
       },
       {
-       "unit": "unit:cw:todo-2-nz-cavalry",
-       "notes": [
-        "printed: 2nd NZ Cavalry (2 NZ)"
-       ]
+       "unit": "unit:cw:2-nz-cv"
       },
       {
-       "unit": "unit:cw:todo-4-nz-field-arty-regt",
-       "notes": [
-        "printed: 4th NZ Field Arty Regt (2 NZ)"
-       ]
+       "unit": "unit:cw:4-nz-fld"
       }
      ],
      "trucks": {
@@ -1319,15 +1154,12 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-6-australian-div",
-       "notes": [
-        "printed: In Training: 6th Australian Division (Less: 19 Aus Bdg; 2/1AFld Arty; 2/2AFld Arty)"
-       ],
+       "unit": "unit:cw:6-aus-hq",
        "status": "in-training",
        "less": [
-        "unit:cw:todo-19-aus-bde",
-        "unit:cw:todo-2-1-aus-field-arty",
-        "unit:cw:todo-2-2-aus-field-arty"
+        "unit:cw:19-aus-hq",
+        "unit:cw:2-1-afld",
+        "unit:cw:2-2-afld"
        ]
       }
      ],
@@ -1341,28 +1173,19 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-8-field-arty-regt",
+       "unit": "unit:cw:8-fld"
+      },
+      {
+       "unit": "unit:cw:1-wlch",
        "notes": [
-        "printed: 8th Field Arty Regt"
+        "its counter is coloured like Indian units"
        ]
       },
       {
-       "unit": "unit:cw:todo-1-welch",
-       "notes": [
-        "printed: 1st Welch (I); its counter is coloured like Indian units"
-       ]
+       "unit": "unit:cw:1-ches"
       },
       {
-       "unit": "unit:cw:todo-1-cheshire-mg-bn",
-       "notes": [
-        "printed: 1st Cheshire MG Bn"
-       ]
-      },
-      {
-       "unit": "unit:cw:todo-2-kings-own-ryl-regt",
-       "notes": [
-        "printed: 2nd King's Own Ryl Regt (I)"
-       ]
+       "unit": "unit:cw:2-kor"
       }
      ]
     },
@@ -1375,40 +1198,22 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-8-medium-arty-regt",
-       "notes": [
-        "printed: 8th Medium Arty Regt"
-       ]
+       "unit": "unit:cw:8-med"
       },
       {
-       "unit": "unit:cw:todo-65-anti-tank-regt",
-       "notes": [
-        "printed: 65th Anti-tank Regt"
-       ]
+       "unit": "unit:cw:65th-anti-tank-regt"
       },
       {
-       "unit": "unit:cw:todo-149-anti-tank-regt",
-       "notes": [
-        "printed: 149th Anti-Tank Regt"
-       ]
+       "unit": "unit:cw:149th-anti-tank-regt"
       },
       {
-       "unit": "unit:cw:todo-9-heavy-aa",
-       "notes": [
-        "printed: 9th Heavy AA"
-       ]
+       "unit": "unit:cw:9-haa"
       },
       {
-       "unit": "unit:cw:todo-15-light-aa",
-       "notes": [
-        "printed: 15th Light AA"
-       ]
+       "unit": "unit:cw:15-laa"
       },
       {
-       "unit": "unit:cw:todo-57-light-aa",
-       "notes": [
-        "printed: 57th Light AA"
-       ]
+       "unit": "unit:cw:57-laa"
       }
      ]
     },
