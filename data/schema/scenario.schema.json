@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scenario.schema.json",
+  "title": "A scenario: everything needed to set up and judge one game",
+  "description": "data/scenarios/<slug>.json, id scenario:<slug>. Blocks follow 59.12 (a-h). A scenario that extends another takes every block it does not give. Abstraction blocks (59.6 and each group's x.9 / x.7 cases) replace the named side blocks when that module is abstracted.",
+  "type": "object",
+  "required": ["id", "name", "group", "sources", "start", "end"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"$ref": "common.schema.json#/$defs/scenarioId"},
+    "name": {"type": "string", "minLength": 1},
+    "group": {"type": "integer", "minimum": 1, "maximum": 5},
+    "extends": {"$ref": "common.schema.json#/$defs/scenarioId"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "start": {"$ref": "common.schema.json#/$defs/gameTime"},
+    "end": {"$ref": "common.schema.json#/$defs/gameTime"},
+    "initiative": {
+      "type": "object", "required": ["side", "through"], "additionalProperties": false,
+      "properties": {
+        "side": {"$ref": "common.schema.json#/$defs/side"},
+        "through": {"$ref": "common.schema.json#/$defs/gameTime", "description": "The named side holds the Initiative until the end of this OpStage; from the next, the normal rule (7.0)"}
+      }
+    },
+    "construction": {"$ref": "#/$defs/construction"},
+    "victory": {"$ref": "#/$defs/victory"},
+    "sides": {
+      "type": "object", "additionalProperties": false,
+      "properties": {"axis": {"$ref": "#/$defs/side"}, "cw": {"$ref": "#/$defs/side"}}
+    },
+    "abstractions": {
+      "type": "object", "additionalProperties": false,
+      "description": "Keyed by which modules are abstracted: air (Land and Logistics Games), air_and_logistics (Land Game only), logistics (Land and Air Games)",
+      "properties": {
+        "air": {"$ref": "#/$defs/abstraction"},
+        "air_and_logistics": {"$ref": "#/$defs/abstraction"},
+        "logistics": {"$ref": "#/$defs/abstraction"}
+      }
+    }
+  },
+  "$defs": {
+    "placement": {
+      "description": "Where a block may be placed. Exactly one locator; not_within and constraint narrow it.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "hexes": {"type": "array", "minItems": 1, "items": {"$ref": "common.schema.json#/$defs/hexId"}, "description": "Any of these hexes, divided as the owner likes (59.2)"},
+        "place": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "description": "A data/map/places.json id; every hex of it"},
+        "box": {"enum": ["tripoli", "tunisia", "tripolitania", "malta", "italy-sicily", "crete"]},
+        "within": {"type": "object", "required": ["of", "hexes"], "additionalProperties": false,
+                   "properties": {"of": {"$ref": "common.schema.json#/$defs/hexId"}, "hexes": {"type": "integer", "minimum": 0}}},
+        "region": {"enum": ["libya", "egypt"]},
+        "sheets": {"type": "array", "minItems": 1, "items": {"enum": ["A", "B", "C", "D", "E"]}},
+        "air_facility": {"type": "boolean", "description": "Any friendly air facility"},
+        "not_within": {"type": "object", "required": ["of", "hexes"], "additionalProperties": false,
+                       "properties": {"of": {"enum": ["enemy-unit"]}, "hexes": {"type": "integer", "minimum": 0}}},
+        "constraint": {"type": "string", "description": "Our sentence for what the grammar cannot say; a ruling should follow"}
+      },
+      "oneOf": [
+        {"required": ["hexes"]}, {"required": ["place"]}, {"required": ["box"]}, {"required": ["within"]},
+        {"required": ["region"]}, {"required": ["sheets"]}, {"required": ["air_facility"]}
+      ]
+    },
+    "unitEntry": {
+      "type": "object", "required": ["unit"], "additionalProperties": false,
+      "description": "A listed unit stands for itself and everything assigned to it on its OA sheet, adjusted by the 59.2 indicators",
+      "properties": {
+        "unit": {"$ref": "common.schema.json#/$defs/unitId"},
+        "less": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/unitId"}},
+        "assigned": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/unitId"}},
+        "detached": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/unitId"}},
+        "attached": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/unitId"}},
+        "consists_of": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/unitId"}},
+        "alone": {"type": "boolean", "description": "Only this counter (e.g. 'HQ only'), not its subordinates"},
+        "status": {"enum": ["in-training", "broken-down"]},
+        "toe": {"$ref": "common.schema.json#/$defs/toe", "description": "Only where the scenario gives a TOE other than the OA sheet's"},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "deployment": {
+      "type": "object", "required": ["placement", "units"], "additionalProperties": false,
+      "properties": {
+        "placement": {"$ref": "#/$defs/placement"},
+        "units": {"type": "array", "items": {"$ref": "#/$defs/unitEntry"}},
+        "trucks": {"$ref": "common.schema.json#/$defs/trucks", "description": "First-line trucks for the units in this block (59.42)"},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "truckBlock": {
+      "type": "object", "required": ["placement", "trucks", "use"], "additionalProperties": false,
+      "properties": {
+        "placement": {"$ref": "#/$defs/placement"},
+        "trucks": {"$ref": "common.schema.json#/$defs/trucks"},
+        "use": {"enum": ["any", "supply", "air-facility"], "description": "59.41"},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "supplyBlock": {
+      "type": "object", "required": ["placement"], "additionalProperties": false,
+      "properties": {
+        "placement": {"$ref": "#/$defs/placement"},
+        "count": {"type": "integer", "minimum": 1, "description": "How many dumps or supply units this block is (default 1)"},
+        "kind": {"enum": ["dump", "dummy-dump", "air-facilities", "supply-unit", "dummy-supply-unit"], "description": "air-facilities: a total to spread over the side's air facilities (59.52)"},
+        "ammo": {"type": "integer", "minimum": 0}, "fuel": {"type": "integer", "minimum": 0},
+        "stores": {"type": "integer", "minimum": 0}, "water": {"type": "integer", "minimum": 0},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "side": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "deployments": {"type": "array", "items": {"$ref": "#/$defs/deployment"}},
+        "trucks": {"type": "array", "items": {"$ref": "#/$defs/truckBlock"}, "description": "Second-third line trucks (59.43-59.44)"},
+        "supply": {"type": "array", "items": {"$ref": "#/$defs/supplyBlock"}},
+        "repair": {"type": "array", "items": {"type": "object", "required": ["placement", "kind"], "additionalProperties": false,
+                   "properties": {"placement": {"$ref": "#/$defs/placement"}, "kind": {"enum": ["major", "temporary"]}}}},
+        "air": {"type": "object", "description": "Planes, pilots, SGSUs and air facilities (59.3); typed with the Air Game (Mission 7)"},
+        "fleet": {"type": "object", "description": "Naval units and where they start (30.0)"},
+        "reinforcements": {"type": "array", "items": {"type": "string"}, "description": "Our sentences: how the schedule is used in this scenario"},
+        "special": {"type": "array", "items": {"type": "string"}, "description": "Our sentences: special rules (59.12 h)"}
+      }
+    },
+    "construction": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "railroad_ends": {"$ref": "common.schema.json#/$defs/hexId"},
+        "ports": {"type": "array", "items": {"type": "object", "required": ["place", "efficiency"], "additionalProperties": false,
+                  "properties": {"place": {"type": "string"}, "efficiency": {"type": "integer", "minimum": 0}, "notes": {"type": "array", "items": {"type": "string"}}}},
+                  "description": "Ports not at their listed efficiency"},
+        "minefields": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/hexId"}},
+        "fortifications": {"type": "array", "items": {"type": "object", "required": ["placement", "level", "count"], "additionalProperties": false,
+                           "properties": {"placement": {"$ref": "#/$defs/placement"}, "level": {"type": "integer", "minimum": 1}, "count": {"type": "integer", "minimum": 1}}}},
+        "roads_built": {"type": "array", "items": {"type": "string"}, "description": "Our sentences naming the unfinished roads/railways already built"},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "objective": {
+      "type": "object", "required": ["hold"], "additionalProperties": false,
+      "properties": {
+        "hold": {"$ref": "#/$defs/placement"},
+        "any_hex": {"type": "boolean", "description": "Holding any one hex of the place is enough"}
+      }
+    },
+    "victory": {
+      "type": "object", "required": ["kind"], "additionalProperties": false,
+      "properties": {
+        "kind": {"enum": ["levels", "points"]},
+        "levels": {"type": "array", "items": {"type": "object", "required": ["side", "level", "all_of"], "additionalProperties": false,
+                   "properties": {
+                     "side": {"$ref": "common.schema.json#/$defs/side"},
+                     "level": {"enum": ["tactical", "decisive", "strategic"]},
+                     "all_of": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/objective"}},
+                     "any_of": {"type": "array", "items": {"$ref": "#/$defs/objective"}, "description": "At least one of these as well"},
+                     "supply": {"type": "string", "description": "Our sentence: the supply condition the holding units must meet"}}}},
+        "points": {"type": "array", "items": {"type": "object", "required": ["place", "axis", "cw"], "additionalProperties": false,
+                   "properties": {"place": {"type": "string"}, "axis": {"type": "integer"}, "cw": {"type": "integer"}}}},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "abstraction": {
+      "type": "object", "required": ["sources"], "additionalProperties": false,
+      "properties": {
+        "sources": {"$ref": "common.schema.json#/$defs/sources"},
+        "replaces": {"type": "object", "additionalProperties": false,
+                     "properties": {"axis": {"$ref": "#/$defs/side"}, "cw": {"$ref": "#/$defs/side"}},
+                     "description": "Each block given here replaces the same block of that side"},
+        "adds": {"type": "object", "additionalProperties": false,
+                 "properties": {"axis": {"$ref": "#/$defs/side"}, "cw": {"$ref": "#/$defs/side"}},
+                 "description": "Blocks given here are added to that side's (SPI says 'in addition')"},
+        "motorisation": {"type": "string", "description": "Our sentence: how truck points convert to motorisation points (59.63)"},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

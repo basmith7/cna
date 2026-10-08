@@ -33,6 +33,22 @@
               "description": "SPI phases A–L of an Operations Stage (there is no I)"},
     "terrain": {"enum": ["clear", "gravel", "salt-marsh", "heavy-vegetation", "rough", "mountain", "delta", "desert", "major-city",
                          "swamp", "village-bir-oasis", "railroad", "road", "track", "escarpment", "pass", "sea"],
-                "description": "Hex terrain types of the Terrain Effects Chart (8.37, tables/terrain-effects.json) plus the map's escarpment, pass and sea"}
+                "description": "Hex terrain types of the Terrain Effects Chart (8.37, tables/terrain-effects.json) plus the map's escarpment, pass and sea"},
+    "unitId": {"type": "string", "pattern": "^unit:(cw|it|de):[a-z0-9][a-z0-9-]*$",
+               "description": "A counter on an OA sheet: unit:<nation>:<slug> (data/oa/<nation>.json)"},
+    "scenarioId": {"type": "string", "pattern": "^scenario:[a-z0-9][a-z0-9-]*$",
+                   "description": "A scenario: scenario:<slug> = data/scenarios/<slug>.json"},
+    "gameTime": {"type": "object", "required": ["game_turn", "opstage"], "additionalProperties": false,
+                 "properties": {"game_turn": {"type": "integer", "minimum": 1, "maximum": 111},
+                                "opstage": {"type": "integer", "minimum": 1, "maximum": 3}},
+                 "description": "A Game-Turn and one of its three Operations Stages"},
+    "toe": {"type": "array", "items": {"type": "object", "required": ["weapon", "points"], "additionalProperties": false,
+                                       "properties": {"weapon": {"type": "string", "minLength": 1},
+                                                      "points": {"type": "integer", "minimum": 0}}},
+            "description": "TOE Strength Points by weapon system, as named on the OA sheet (key into tables/weapon-systems.json)"},
+    "trucks": {"type": "object", "additionalProperties": false,
+               "properties": {"light": {"type": "integer", "minimum": 0}, "medium": {"type": "integer", "minimum": 0},
+                              "heavy": {"type": "integer", "minimum": 0}},
+               "description": "Truck points by class (21.0)"}
   }
 }

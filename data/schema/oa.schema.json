@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "oa.schema.json",
+  "title": "One nation's organisation (OA) sheets: every counter, by formation",
+  "description": "data/oa/<nation>.json. A formation is one OA sheet (a division, a brigade group, or a heading such as 'Unassigned Artillery Units'). Values as printed (4.43, 4.45b, 4.45c in the chart sets).",
+  "type": "object",
+  "required": ["nation", "sources", "formations"],
+  "additionalProperties": false,
+  "properties": {
+    "nation": {"$ref": "common.schema.json#/$defs/nation"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "formations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "basic_morale", "sources", "units"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+          "name": {"type": "string", "minLength": 1},
+          "basic_morale": {"type": ["integer", "null"], "description": "Printed basic morale; null where the sheet says the units take another unit's morale"},
+          "basic_morale_alt": {"type": ["integer", "null"], "description": "The value printed in parentheses beside it, if any (see rules/10-units-and-state.md, morale)"},
+          "sources": {"$ref": "common.schema.json#/$defs/sources"},
+          "notes": {"type": "array", "items": {"type": "string"}},
+          "units": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["id", "name", "abbreviation", "id_code", "parent", "toe", "arrives"],
+              "additionalProperties": false,
+              "properties": {
+                "id": {"$ref": "common.schema.json#/$defs/unitId"},
+                "name": {"type": "string", "minLength": 1},
+                "abbreviation": {"type": "string", "description": "As printed on the counter"},
+                "id_code": {"type": "string", "pattern": "^[a-z]{1,2}$", "description": "Key into tables/unit-characteristics.json for this nation"},
+                "parent": {"oneOf": [{"$ref": "common.schema.json#/$defs/unitId"}, {"type": "null"}], "description": "The unit it is assigned to on the sheet; null for the formation's top unit or an unassigned unit"},
+                "toe": {"$ref": "common.schema.json#/$defs/toe"},
+                "arrives": {"oneOf": [{"$ref": "common.schema.json#/$defs/gameTime"}, {"type": "null"}], "description": "Printed arrival; null where the sheet prints none"},
+                "morale": {"type": "integer", "description": "Only where the sheet gives this unit a morale other than the formation's"},
+                "notes": {"type": "array", "items": {"type": "string"}}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

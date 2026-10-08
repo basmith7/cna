@@ -17,6 +17,8 @@ transcribing anything.
 | `map/corrections/M-nnn.json` | One hand fix each to a raw record; the evidence is the SPI scan (`seen`), never a third-party database. |
 | `map/hexes.json`, `map/hexsides.json` | Built by `tools/map_build.py` from raw + corrections; never edited by hand (`--check` in CI). |
 | `map/places.json` | Hand-authored named places (the printed *Summary of Important Locations*, ports, oases, airfields as `feature`). |
+| `oa/<nation>.json` | The organisation (OA) sheets of one nation (`cw`, `it`, `de`): every counter by formation, with parent, ID code, TOE and arrival, as printed. Schema `oa.schema.json`. |
+| `scenarios/<slug>.json` | One scenario (§59–64): length, initiative, construction, victory, and each side's deployments, trucks, supply, air and fleet, plus the abstraction blocks. Schema `scenario.schema.json`; id `scenario:<slug>`. |
 
 ## Identifier grammar
 
@@ -27,6 +29,7 @@ transcribing anything.
 | Scan reference (in `sources`) | `scan:p<jp2 index>` (0-based, as `tools/fetch.py` names pages) | `scan:p96` |
 | Table | `table:<concept>` = `tables/<concept>.json` | `table:terrain-effects` |
 | Unit | `unit:<nation>:<slug>`, nation ∈ `cw`, `it`, `de` | `unit:cw:1-rnf` |
+| Scenario | `scenario:<slug>` = `scenarios/<slug>.json` | `scenario:grazianis-offensive` |
 | Errata entry | `E-nnn`, sequential, ours | `E-003` |
 | Ruling | `R-nnn`, sequential, ours (see `rulings/README.md`) | `R-012` |
 | Variant | `V-nnn`, sequential, ours | `V-001` |
@@ -34,6 +37,10 @@ transcribing anything.
 | Hexside | `a\|b` with the two hex ids sorted, or `a\|<side>` (E, SE, SW, W, NW, NE) at a sheet edge | `C4023\|C4024`, `C4023\|W` |
 | VASSAL reference (in `sources`) | `vassal:<module>` | `vassal:CNAv2.1.0` |
 | Map correction | `M-nnn`, sequential, ours | `M-004` |
+
+`check_data.py` resolves every `unit:` id in `scenarios/` and in
+`tables/reinforcement-schedule.json` against `oa/`, every OA `parent`, and
+every hex, `place` and `extends` a scenario names.
 
 Every record in a table carries `sources: ["CNA1979:8.37", "scan:p96"]` —
 at least the case that defines it and, for transcribed values, the page it
