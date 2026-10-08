@@ -1,0 +1,84 @@
+{
+ "id": "scenario:the-long-retreat",
+ "name": "El Alamein: The Long Retreat",
+ "group": 4,
+ "extends": "scenario:the-last-chance",
+ "sources": [
+  "CNA1979:63.2",
+  "CNA1979:63.38",
+  "CNA1979:63.47",
+  "CNA1979:63.92",
+  "scan:p86",
+  "scan:p87"
+ ],
+ "notes": [
+  "Same set-up as The Last Chance; only length, reinforcements and victory differ.",
+  "End printed as the 'December 3/IV, 1942' Game-Turn; Game-Turn number not computed here (needs the turn calendar); end left at 111/3 provisionally from the garbled 63.2 text. Needs a ruling."
+ ],
+ "start": {
+  "game_turn": 102,
+  "opstage": 1
+ },
+ "end": {
+  "game_turn": 111,
+  "opstage": 3
+ },
+ "victory": {
+  "kind": "points",
+  "points": [
+   {
+    "place": "mersa-matruh",
+    "axis": 1,
+    "cw": 0
+   },
+   {
+    "place": "bardia",
+    "axis": 3,
+    "cw": 0
+   },
+   {
+    "place": "tobruk",
+    "axis": 5,
+    "cw": 0
+   },
+   {
+    "place": "derna",
+    "axis": 2,
+    "cw": 0
+   },
+   {
+    "place": "benghazi",
+    "axis": 3,
+    "cw": 0
+   },
+   {
+    "place": "el-agheila",
+    "axis": 1,
+    "cw": 0
+   },
+   {
+    "place": "marble-arch",
+    "axis": 1,
+    "cw": 0
+   }
+  ],
+  "notes": [
+   "Axis only scores. 10+ strategic, 4-9 'substantive', 1-3 marginal, 0 Commonwealth win. Occupying needs every combat unit there to have a Game-Turn of stores, ammo to fire every weapon twice and fuel to move 20 CP."
+  ]
+ },
+ "sides": {
+  "cw": {
+   "reinforcements": [
+    "Reinforcements per the schedule. Replacement points are cut to 10% of the listed maximum, rounded up (infantry and truck production unaffected); none arrive before Game-Turn 105 OpStage 1; those for 105 and 106 may be planned before the start (63.38)."
+   ]
+  },
+  "axis": {
+   "reinforcements": [
+    "Reinforcements as normal. Replacement points cut to 5% (rounded down) of the pool, all sent to Tripoli and held there; if the Axis still holds Tobruk, Bardia or Mersa Matruh at Game-Turn 105 OpStage 3, 25% may be released the next OpStage, and 25% of all available (by type, rounded up) at Game-Turn 108 OpStage 1 (63.47)."
+   ],
+   "special": [
+    "Strategic air attacks on Malta are allowed (63.46)."
+   ]
+  }
+ }
+}

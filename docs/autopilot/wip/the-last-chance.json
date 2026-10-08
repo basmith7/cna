@@ -1,0 +1,1984 @@
+{
+ "id": "scenario:the-last-chance",
+ "name": "El Alamein: The Last Chance",
+ "group": 4,
+ "sources": [
+  "CNA1979:63.0",
+  "CNA1979:63.2",
+  "CNA1979:63.31",
+  "CNA1979:63.41",
+  "CNA1979:63.7",
+  "CNA1979:63.91",
+  "scan:p83",
+  "scan:p84",
+  "scan:p85",
+  "scan:p86",
+  "scan:p87"
+ ],
+ "notes": [
+  "Read from the archive.org scan, jp2 83-87 (printed pages 33-37), under a 20-minute limit; deployments marked unconfirmed were not fully matched.",
+  "63.2 prints the start as 'Game-Turn 1OZ' and the end as 'Game Turn 102 1st OpStage of Game-Turn 111' (garbled); start read as 102/1 and end as 102/3. Needs a ruling."
+ ],
+ "start": {
+  "game_turn": 102,
+  "opstage": 1
+ },
+ "end": {
+  "game_turn": 102,
+  "opstage": 3
+ },
+ "initiative": {
+  "side": "axis",
+  "through": {
+   "game_turn": 102,
+   "opstage": 1
+  }
+ },
+ "construction": {
+  "ports": [
+   {
+    "place": "tobruk",
+    "efficiency": 2,
+    "notes": [
+     "63.74 prints Level Five; ruling R-027 sets 2."
+    ]
+   },
+   {
+    "place": "benghazi",
+    "efficiency": 1
+   }
+  ],
+  "fortifications": [
+   {
+    "placement": {
+     "within": {
+      "of": "C4807",
+      "hexes": 1
+     },
+     "constraint": "the four hexes next to Tobruk, one each"
+    },
+    "level": 1,
+    "count": 4
+   },
+   {
+    "placement": {
+     "within": {
+      "of": "C4321",
+      "hexes": 1
+     },
+     "constraint": "Axis player picks three of the four hexes next to Bardia"
+    },
+    "level": 1,
+    "count": 3
+   }
+  ],
+  "minefields": [
+   "D3033",
+   "E3101",
+   "E2901",
+   "E2801",
+   "E2701",
+   "E2702",
+   "E2601",
+   "E2501",
+   "E2401",
+   "E2302",
+   "D3233",
+   "D3133",
+   "D3032",
+   "D2933",
+   "D2833",
+   "D2733",
+   "D2632",
+   "D2633",
+   "D2533",
+   "D2429",
+   "D2433",
+   "D2831",
+   "D2832",
+   "D2731"
+  ],
+  "roads_built": [
+   "Every unfinished road.",
+   "The whole unfinished railroad network, except that the three railroad hexes just west of el Alamein are destroyed."
+  ],
+  "notes": [
+   "Minefields D3033 through E2302 (first ten listed) are the Commonwealth's; the Commonwealth also places five more on sheet E as he likes. Of his fifteen, ten are real, five dummy.",
+   "D3233 through D2731 (last fourteen) are the Axis player's: eleven real, three dummy. He may also place up to five real and two dummy within three hexes of Tobruk, and up to two real and two dummy on sheets A-C more than five hexes from Tobruk.",
+   "All minefields start unrevealed.",
+   "Pipeline only along railroad hexes; the Axis draws water from Tobruk, the Commonwealth from Alexandria (63.73)."
+  ]
+ },
+ "victory": {
+  "kind": "levels",
+  "levels": [
+   {
+    "side": "axis",
+    "level": "strategic",
+    "all_of": [
+     {
+      "hold": {
+       "hexes": [
+        "E3613",
+        "E3714"
+       ]
+      },
+      "any_hex": true
+     }
+    ]
+   }
+  ],
+  "notes": [
+   "Strategic needs at least a brigade-equivalent in one Alexandria hex; supply does not matter.",
+   "Otherwise each side totals its TOE points on the enemy's sheet (Axis on sheet E, Commonwealth on sheet D, not counting Layforce or SAS); the higher total wins a tactical victory. The schema cannot express this comparison."
+  ]
+ },
+ "sides": {
+  "cw": {
+   "deployments": [
+    {
+     "placement": {
+      "hexes": [
+       "E3101"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:9-aus",
+       "detached": [
+        "unit:cw:24-aus"
+       ],
+       "attached": [
+        "unit:cw:40-rtr"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 30,
+      "medium": 55,
+      "heavy": 15
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E3001"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:24-aus"
+      }
+     ],
+     "trucks": {
+      "light": 5,
+      "medium": 25,
+      "heavy": 6
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D3033"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:51-inf-div-hq",
+       "attached": [
+        "unit:cw:50-rtr"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 40,
+      "medium": 70,
+      "heavy": 21
+     },
+     "notes": [
+      "Printed D 3033 among sheet-E hexes; minefield list 63.76 also names D3033."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E2901"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:2-nz-hq",
+       "less": [
+        "unit:cw:4-nz-hq"
+       ],
+       "attached": [
+        "unit:cw:9-armd-bde-hq",
+        "unit:cw:3-hus",
+        "unit:cw:14-frstrs"
+       ],
+       "notes": [
+        "The 2nd NZ Cavalry starts at 5 recce and 6 Stuart TOE points."
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 30,
+      "medium": 90,
+      "heavy": 20
+     },
+     "notes": [
+      "Printed 'nd New Zeland Div' (the 2 is missing)."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E2801"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:1-sa-div-hq",
+       "less": [
+        "unit:cw:5-sa-bde-hq"
+       ],
+       "assigned": [
+        "unit:cw:3-sa-bde-hq"
+       ],
+       "attached": [
+        "unit:cw:8-rtr",
+        "unit:cw:1sa-cfa"
+       ],
+       "notes": [
+        "Also attached: Die Middelandse MG Regt and 2nd Botha (not matched in the OA files here; unconfirmed)."
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 35,
+      "medium": 85,
+      "heavy": 25
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E2701"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:5-in-hq",
+       "less": [
+        "unit:cw:1-rfslr",
+        "unit:cw:4-6-rajrf"
+       ],
+       "assigned": [
+        "unit:cw:3-10-bal"
+       ],
+       "notes": [
+        "assigned also names 1-4-essex, not matched in the OA files."
+       ]
+      },
+      {
+       "unit": "unit:cw:1-fld"
+      },
+      {
+       "unit": "unit:cw:149th-anti-tank-regt"
+      },
+      {
+       "unit": "unit:cw:11-fld"
+      },
+      {
+       "unit": "unit:cw:32-fld"
+      },
+      {
+       "unit": "unit:cw:57-laa"
+      },
+      {
+       "unit": "unit:cw:4-in-hq",
+       "alone": true,
+       "notes": [
+        "Printed as 'HQ: 4th In Div' with Less 11 In Bde, 31st Field Arty and Central India Horse, and 5th and 7th Indian Bdes and 1st Field Arty detached."
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 10,
+      "medium": 25,
+      "heavy": 10
+     },
+     "notes": [
+      "Also here: 6th Rajputana Rifles MG Bn (not matched in the OA files; unconfirmed)."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E2601"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:7-in-hq",
+       "less": [
+        "unit:cw:4-11-skh"
+       ],
+       "notes": [
+        "assigned also names 1-2-gr, not matched in the OA files."
+       ]
+      },
+      {
+       "unit": "unit:cw:161-in-hq",
+       "consists_of": [
+        "unit:cw:1-a-s",
+        "unit:cw:1-1-pjb",
+        "unit:cw:4-7-rajpt"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 5,
+      "medium": 25,
+      "heavy": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E2501"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:50-inf-div-hq",
+       "less": [
+        "unit:cw:150-inf-bde-hq",
+        "unit:cw:2-ches",
+        "unit:cw:72-fld"
+       ],
+       "assigned": [
+        "unit:cw:1-greek-hq",
+        "unit:cw:111-fld"
+       ],
+       "attached": [
+        "unit:cw:154-fld",
+        "unit:cw:34-laa"
+       ],
+       "notes": [
+        "attached also names 102-at, not matched in the OA files."
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 35,
+      "medium": 65,
+      "heavy": 21
+     },
+     "notes": [
+      "Printed '2501' with no map letter; read as E2501 (63.76 lists E2501)."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E2302"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:7th-armored-div-hq",
+       "notes": [
+        "Consists of: 4th Armd Bde (4/8 Hussars on the 8 Hus counter, Royal Scots Greys, 1 KRRC); 22nd Armd Bde (1 RTR, 5 RTR, 4 CLY, 1 Rifle Bde); 11th Hussars; 3 RHA as a regular artillery unit with 6 TOE of 25-pdrs; 4th and 97th Field; 65th AT; 15th Light AA; attached 2nd Derbyshire Yeomanry at 6 TOE and 44th Recce. The 'consists of' roster could not all be matched to ids in time; unconfirmed."
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 75,
+      "heavy": 40
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E3005"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:1-armd-div-hq",
+       "notes": [
+        "Consists of: 2nd Armd Bde less 1 Rifle Bde; 7th Motor Bde (2 and 7 Rifle Bde, 2 KRRC); 2nd, 4th and 11th (SP) RHA; 78th Field; 76th AT; 1st RNF MG; 42nd Light AA; 12th Lancers; attached Hammerforce (4/6 SA Armoured Car Regt at 7 TOE, 146th Field, 73rd AT, 56th Light AA). Ids not all matched; unconfirmed."
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 10,
+      "medium": 90,
+      "heavy": 30
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E3007"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:8-armd-div-hq",
+       "detached": [
+        "unit:cw:40-rtr",
+        "unit:cw:50-rtr",
+        "unit:cw:2-deryeo"
+       ],
+       "less": [
+        "unit:cw:24-armd-bde-hq",
+        "unit:cw:7-rflbde"
+       ]
+      },
+      {
+       "unit": "unit:cw:121-fld"
+      }
+     ],
+     "trucks": {
+      "medium": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E2805"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:10-armd-div-hq",
+       "notes": [
+        "Consists of: 8th Armd Bde less Scots Greys with 3 RTR in their place and 1st Buffs; 24th Armd Bde; 133rd Inf Bde; 1st Royal Dragoons; 1 and 104 RHA; 98th Field; 5th RHA (SP); 84th AT; 53rd Light AA."
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 75,
+      "heavy": 40
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E2904"
+      ]
+     },
+     "units": [
+      {
+       "formation": "cw:1-army-tank-bde",
+       "detached": [
+        "unit:cw:8-rtr"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E2401"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:44-inf-div-hq",
+       "detached": [
+        "unit:cw:44-recce"
+       ],
+       "less": [
+        "unit:cw:133rd-infantry-bde-hq"
+       ],
+       "attached": [
+        "unit:cw:53-fld"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 20,
+      "medium": 55,
+      "heavy": 6
+     }
+    },
+    {
+     "placement": {
+      "within": {
+       "of": "E2403",
+       "hexes": 1
+      }
+     },
+     "units": [
+      {
+       "unit": "unit:cw:1-freefr-hq"
+      }
+     ],
+     "trucks": {
+      "light": 10,
+      "medium": 35,
+      "heavy": 5
+     }
+    },
+    {
+     "placement": {
+      "within": {
+       "of": "E2403",
+       "hexes": 1
+      }
+     },
+     "units": [
+      {
+       "unit": "unit:cw:2-freefr-hq"
+      }
+     ],
+     "trucks": {
+      "light": 5,
+      "medium": 12,
+      "heavy": 1
+     },
+     "notes": [
+      "The scan sets the 2nd Free French under the same 'within one hex of E2403' heading; read so, unconfirmed."
+     ]
+    },
+    {
+     "placement": {
+      "within": {
+       "of": "E3002",
+       "hexes": 2
+      }
+     },
+     "units": [
+      {
+       "unit": "unit:cw:14-laa"
+      },
+      {
+       "unit": "unit:cw:16-laa"
+      },
+      {
+       "unit": "unit:cw:27-laa"
+      },
+      {
+       "unit": "unit:cw:88-haa"
+      },
+      {
+       "unit": "unit:cw:94-haa"
+      }
+     ],
+     "trucks": {
+      "medium": 5
+     }
+    },
+    {
+     "placement": {
+      "within": {
+       "of": "E3002",
+       "hexes": 2
+      }
+     },
+     "units": [
+      {
+       "unit": "unit:cw:21-in-hq",
+       "consists_of": [
+        "unit:cw:1-6-rajrf"
+       ],
+       "notes": [
+        "consists_of also names 3-7-rajrif, 2-8-gr, not matched in the OA files."
+       ]
+      },
+      {
+       "unit": "unit:cw:7-med"
+      },
+      {
+       "unit": "unit:cw:64-med"
+      },
+      {
+       "unit": "unit:cw:69-med"
+      }
+     ],
+     "trucks": {
+      "light": 10,
+      "medium": 25,
+      "heavy": 7
+     },
+     "notes": [
+      "Read as still under the el Alamein heading; unconfirmed."
+     ]
+    }
+   ],
+   "trucks": [
+    {
+     "placement": {
+      "sheets": [
+       "D",
+       "E"
+      ]
+     },
+     "trucks": {
+      "light": 200,
+      "medium": 725,
+      "heavy": 225
+     },
+     "use": "any"
+    },
+    {
+     "placement": {
+      "air_facility": true
+     },
+     "trucks": {
+      "medium": 100,
+      "heavy": 60
+     },
+     "use": "air-facility"
+    }
+   ],
+   "supply": [
+    {
+     "placement": {
+      "sheets": [
+       "E"
+      ],
+      "constraint": "within one hex of the front line (a hex east of and next to an Axis unit); up to five of the dumps"
+     },
+     "kind": "dump",
+     "ammo": 2500,
+     "fuel": 2000,
+     "stores": 1500,
+     "water": 1500,
+     "notes": [
+      "Pool for all front-line dumps."
+     ]
+    },
+    {
+     "placement": {
+      "sheets": [
+       "E"
+      ],
+      "constraint": "one each at el Alamein (E3002), E2805 and E2403; the rest anywhere on sheet E not within one hex of the front"
+     },
+     "kind": "dump",
+     "ammo": 1000,
+     "fuel": 3000,
+     "stores": 500,
+     "water": 2000,
+     "notes": [
+      "Pool for the other dumps. Ten real dumps in all."
+     ]
+    },
+    {
+     "placement": {
+      "sheets": [
+       "E"
+      ]
+     },
+     "kind": "dummy-dump",
+     "count": 3
+    }
+   ],
+   "repair": [
+    {
+     "placement": {
+      "hexes": [
+       "E3613",
+       "E3714"
+      ]
+     },
+     "kind": "major"
+    },
+    {
+     "placement": {
+      "place": "cairo"
+     },
+     "kind": "major"
+    }
+   ],
+   "air": {
+    "sources": [
+     "CNA1979:63.33",
+     "CNA1979:63.37",
+     "scan:p84",
+     "scan:p85"
+    ],
+    "all_refitted": true,
+    "squadrons": [
+     {
+      "hex": "E3109",
+      "name": "Burg el Arab",
+      "sgsu": 3,
+      "planes": {
+       "Spitfire VB": 18,
+       "Hurricane IIA": 12,
+       "Tomahawk": 6,
+       "Maryland": 4,
+       "Baltimore": 4
+      }
+     },
+     {
+      "hex": "E2418",
+      "name": "Wadi Natrun",
+      "sgsu": 1,
+      "planes": {
+       "Maryland": 12
+      }
+     },
+     {
+      "name": "Deversoir (off-map)",
+      "planes": {
+       "Mitchell II": 39
+      }
+     },
+     {
+      "name": "Amiriya complex",
+      "sgsu": 28,
+      "planes": {
+       "Boston III": 48,
+       "Baltimore II": 24,
+       "Baltimore III": 24,
+       "Tomahawk": 16,
+       "Kittyhawk I": 56,
+       "Kittyhawk II": 91,
+       "Kittyhawk III": 39,
+       "Hurricane IIB": 48,
+       "Hurricane IIC": 64,
+       "Hurricane IID": 32,
+       "Hurricane IIE": 16,
+       "Spitfire VB": 48
+      }
+     },
+     {
+      "hex": "E3817",
+      "name": "Idku",
+      "sgsu": 2,
+      "planes": {
+       "Beaufighter IC": 16,
+       "Beaufighter VIF": 16
+      }
+     },
+     {
+      "name": "Abu Seier (off-map)",
+      "planes": {
+       "Wellington IC": 32
+      }
+     },
+     {
+      "hex": "E2024",
+      "name": "Jebel Hamzi",
+      "sgsu": 2,
+      "planes": {
+       "Wellington IC": 32
+      }
+     },
+     {
+      "name": "Kabrit (off-map)",
+      "planes": {
+       "Wellington IC": 16,
+       "Wellington II": 16
+      }
+     },
+     {
+      "hex": "E3512",
+      "name": "Degheila",
+      "sgsu": 2,
+      "planes": {
+       "Albacore": 24
+      }
+     },
+     {
+      "name": "Ismailia (off-map)",
+      "planes": {
+       "Hudson": 32,
+       "Bombay": 22
+      }
+     }
+    ],
+    "pilots": {
+     "4": 1,
+     "3": 5,
+     "2": 22,
+     "1": 31
+    },
+    "facilities": "Six airfields within one hex of Amiriya; airfields at Burg el Arab (E3109), Alexandria and Cairo; a landing strip at Wadi Natrun (E2418); plus one airfield, three strips, one flying-boat basin and one alighting area anywhere on sheet E, not within five hexes of the enemy nor in the Qattara Depression. The seven off-map facilities are undamaged.",
+    "malta": {
+     "all_facilities_full": true,
+     "aa_points": 48,
+     "pilots": {
+      "3": 1,
+      "2": 5,
+      "1": 5
+     },
+     "planes": [
+      {
+       "type": "Wellington V",
+       "count": 5,
+       "refitted": 5
+      },
+      {
+       "type": "Baltimore I",
+       "count": 4,
+       "refitted": 4
+      },
+      {
+       "type": "Baltimore II",
+       "count": 3,
+       "refitted": 3
+      },
+      {
+       "type": "Beaufighter IC",
+       "count": 12,
+       "refitted": 5
+      },
+      {
+       "type": "Beaufighter VIF",
+       "count": 8,
+       "refitted": 6
+      },
+      {
+       "type": "Spitfire VB",
+       "count": 54,
+       "refitted": 33
+      },
+      {
+       "type": "Spitfire VC",
+       "count": 18,
+       "refitted": 10
+      },
+      {
+       "type": "Hurricane IIC",
+       "count": 8,
+       "refitted": 8
+      },
+      {
+       "type": "Albacore",
+       "count": 3,
+       "refitted": 3
+      },
+      {
+       "type": "Swordfish",
+       "count": 3,
+       "refitted": 3
+      }
+     ]
+    }
+   },
+   "fleet": {
+    "sources": [
+     "CNA1979:63.36"
+    ],
+    "alexandria": "2 heavy cruisers, 3 light cruisers, 4 destroyers"
+   },
+   "reinforcements": [
+    "None in The Last Chance (63.38)."
+   ],
+   "special": [
+    "Tank compositions per 63.32 (e.g. 40 RTR 8 Valentines, 46 RTR 10, 50 RTR 9, 8 RTR 10; mixed Grant/Sherman/Crusader squadrons for the armoured brigades; 42 and 44 RTR 10 Scorpions each). Full table: see s63-notes.md; not encoded per unit in time.",
+    "Optional upgrades (63.31 A-E): foot battalions may add 1 TOE of 6-pdr AT, motorised battalions 2; up to 40% (rounded up) of AT units swap 2-pdr for 6-pdr; armoured cars upgrade free; 18-pdr and 18/25-pdr artillery may become 25-pdr.",
+    "4/8 Hussars uses the 8 Hus counter (maximum TOE 10); 4/6 SA Armoured Car uses either counter (maximum TOE 8).",
+    "Alexandria and Cairo hold unlimited supply; first-line trucks not carrying men may start loaded. No temporary repair facility (63.35)."
+   ]
+  },
+  "axis": {
+   "deployments": [
+    {
+     "placement": {
+      "hexes": [
+       "D3328"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:de:90-le-div-hq",
+       "detached": [
+        "unit:de:580-aufkl-bn"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 10,
+      "medium": 40,
+      "heavy": 7
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D3132"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:de:15-pz-div-hq",
+       "less": [
+        "unit:de:200-schutzen-regt-hq",
+        "unit:de:104-schutzen-regt-hq"
+       ],
+       "detached": [
+        "unit:de:33-aufkl-bn"
+       ],
+       "assigned": [
+        "unit:de:2-mg-bn"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 15,
+      "medium": 40,
+      "heavy": 10
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D3032"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:de:164-le-div-hq"
+      }
+     ],
+     "trucks": {
+      "light": 5,
+      "medium": 45,
+      "heavy": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D2931"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:de:3-aufkl-bn"
+      }
+     ],
+     "trucks": {
+      "light": 2
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D2831"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:de:21-pz-div-hq",
+       "less": [
+        "unit:de:2-mg-bn"
+       ],
+       "assigned": [
+        "unit:de:200-schutzen-regt-hq"
+       ],
+       "notes": [
+        "The 200th starts detached; it is not given a hex."
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 7,
+      "medium": 20,
+      "heavy": 10
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D2733"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:de:ramcke-bde-hq"
+      }
+     ],
+     "notes": [
+      "No trucks."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D2630"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:de:104-schutzen-regt-hq",
+       "notes": [
+        "Now assigned to the 21st Panzer."
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 5,
+      "medium": 25
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D2532"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:de:33-aufkl-bn"
+      }
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D2431"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:de:580-aufkl-bn"
+      }
+     ],
+     "trucks": {
+      "light": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D3327"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:136th-giovani-fascisti-div-hq"
+      }
+     ],
+     "trucks": {
+      "light": 25,
+      "medium": 15
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D3326"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:101st-trieste-div-hq",
+       "detached": [
+        "unit:it:21st-artillery-regt"
+       ],
+       "attached": [
+        "unit:it:iiim-tank-bn"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 5,
+      "medium": 55,
+      "heavy": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D3325"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:16th-pistoia-div-hq"
+      }
+     ],
+     "trucks": {
+      "light": 30,
+      "medium": 30
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D3232"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:littorio-133rd-div-hq",
+       "detached": [
+        "unit:it:12th-bersaglieri-regt-hq"
+       ],
+       "less": [
+        "unit:it:xm-tank-bn",
+        "unit:it:xiim-tank-bn"
+       ],
+       "assigned": [
+        "unit:it:ivm-tank-bn",
+        "unit:it:lim-tank-bn",
+        "unit:it:dliv-articelere-bn",
+        "unit:it:dlvi-articelere-bn"
+       ],
+       "notes": [
+        "Its V and VI SP artillery battalions are also Less; not matched to ids here."
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 25,
+      "medium": 25,
+      "heavy": 6
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E3133"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:12th-bersaglieri-regt-hq"
+      }
+     ],
+     "trucks": {
+      "light": 6,
+      "medium": 20
+     },
+     "notes": [
+      "Printed E 3133, inside the Commonwealth lines and among Axis D hexes; probably D3133 (also an Axis minefield hex in 63.77). Needs a ruling."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D2933"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:102nd-trento-div-hq",
+       "detached": [
+        "unit:it:7th-bersaglieri-regt-hq"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 68,
+      "heavy": 7
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D2932"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:7th-bersaglieri-regt-hq"
+      }
+     ],
+     "trucks": {
+      "medium": 20
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D2833"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:25th-bologna-div-hq"
+      },
+      {
+       "unit": "unit:it:21st-artillery-regt"
+      }
+     ],
+     "trucks": {
+      "light": 12,
+      "medium": 60,
+      "heavy": 10
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D2732"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:27-brescia-div-hq"
+      }
+     ],
+     "trucks": {
+      "light": 10,
+      "medium": 65,
+      "heavy": 7
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D2632"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:ariete-132nd-div-hq",
+       "less": [
+        "unit:it:viim-tank-bn"
+       ],
+       "assigned": [
+        "unit:it:liim-tank-bn"
+       ],
+       "attached": [
+        "unit:it:xiiim-tank-bn"
+       ],
+       "notes": [
+        "Also assigned: Littorio's V and VI SP artillery battalions. Its 132nd artillery regiment holds 3 TOE of 105/28 and 2 TOE of 90mm heavy AA."
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 25,
+      "medium": 45,
+      "heavy": 10
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D2533"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:185th-folgore-div-hq"
+      }
+     ],
+     "trucks": {
+      "light": 30,
+      "medium": 30
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D2432"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:17th-pavia-div-hq"
+      }
+     ],
+     "trucks": {
+      "light": 10,
+      "medium": 65,
+      "heavy": 7
+     }
+    },
+    {
+     "placement": {
+      "sheets": [
+       "D"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:xxvi-corps-artillery-regt"
+      },
+      {
+       "unit": "unit:it:1st-bn-2-arty-rgppmnto"
+      },
+      {
+       "unit": "unit:it:2nd-bn-2-arty-rgppmnto"
+      },
+      {
+       "unit": "unit:it:3rd-bn-2-arty-rgppmnto"
+      },
+      {
+       "unit": "unit:it:4th-bn-2-arty-rgppmnto"
+      },
+      {
+       "unit": "unit:it:recam-hq"
+      },
+      {
+       "unit": "unit:it:iii-133-fanterie-bn"
+      },
+      {
+       "unit": "unit:it:il-tank-bn"
+      },
+      {
+       "unit": "unit:it:iil-tank-bn"
+      },
+      {
+       "unit": "unit:de:288-son-hq"
+      },
+      {
+       "unit": "unit:de:707-schwinf-koy"
+      },
+      {
+       "unit": "unit:de:708-schwinf-koy"
+      },
+      {
+       "unit": "unit:de:13-koy-brandenburg"
+      }
+     ],
+     "notes": [
+      "Not found in the OA files: xxiv-corps-artillery-regt; left out."
+     ]
+    },
+    {
+     "placement": {
+      "sheets": [
+       "A",
+       "B",
+       "C",
+       "D"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:de:778-naval-eng-koy"
+      }
+     ],
+     "notes": [
+      "Also any four oasis companies of the Axis player's choice, and every German independent artillery and AA unit not otherwise placed, including the 1st and 2nd African Arty HQs, the 155th and Arko 104 HQs and their units."
+     ]
+    }
+   ],
+   "trucks": [
+    {
+     "placement": {
+      "sheets": [
+       "A",
+       "B",
+       "C",
+       "D"
+      ]
+     },
+     "trucks": {
+      "light": 115,
+      "medium": 350,
+      "heavy": 75
+     },
+     "use": "any"
+    },
+    {
+     "placement": {
+      "air_facility": true
+     },
+     "trucks": {
+      "light": 50,
+      "medium": 100
+     },
+     "use": "air-facility"
+    }
+   ],
+   "supply": [
+    {
+     "placement": {
+      "sheets": [
+       "D"
+      ]
+     },
+     "kind": "dump",
+     "ammo": 2700,
+     "fuel": 4000,
+     "stores": 1500,
+     "water": 800,
+     "notes": [
+      "Pool for the sheet D dumps; no single dump over 33% of any item."
+     ]
+    },
+    {
+     "placement": {
+      "sheets": [
+       "A",
+       "B",
+       "C"
+      ],
+      "constraint": "at least five of the ten dumps on sheets A-C"
+     },
+     "kind": "dump",
+     "ammo": 500,
+     "fuel": 500,
+     "stores": 500,
+     "water": 500,
+     "notes": [
+      "Pool for the other dumps. Seven real dumps and three dummies in all."
+     ]
+    },
+    {
+     "placement": {
+      "sheets": [
+       "A",
+       "B",
+       "C",
+       "D"
+      ]
+     },
+     "kind": "dummy-dump",
+     "count": 3
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D3328"
+      ]
+     },
+     "kind": "dump",
+     "ammo": 200,
+     "fuel": 500,
+     "stores": 0,
+     "water": 500,
+     "notes": [
+      "Ghazal."
+     ]
+    },
+    {
+     "placement": {
+      "place": "mersa-matruh"
+     },
+     "kind": "dump",
+     "ammo": 500,
+     "fuel": 1500,
+     "stores": 250,
+     "water": 500
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C4131"
+      ]
+     },
+     "kind": "dump",
+     "ammo": 200,
+     "fuel": 500,
+     "stores": 0,
+     "water": 500,
+     "notes": [
+      "Sidi Barrani."
+     ]
+    },
+    {
+     "placement": {
+      "place": "bardia"
+     },
+     "kind": "dump",
+     "ammo": 300,
+     "fuel": 1000,
+     "stores": 250,
+     "water": 0
+    },
+    {
+     "placement": {
+      "place": "tobruk"
+     },
+     "kind": "dump",
+     "ammo": 800,
+     "fuel": 3000,
+     "stores": 250,
+     "water": 0
+    },
+    {
+     "placement": {
+      "hexes": [
+       "B5925"
+      ]
+     },
+     "kind": "dump",
+     "ammo": 200,
+     "fuel": 500,
+     "stores": 0,
+     "water": 500,
+     "notes": [
+      "Derna."
+     ]
+    },
+    {
+     "placement": {
+      "place": "benghazi"
+     },
+     "kind": "dump",
+     "ammo": 300,
+     "fuel": 1000,
+     "stores": 250,
+     "water": 0
+    },
+    {
+     "placement": {
+      "hexes": [
+       "A2109"
+      ]
+     },
+     "kind": "dump",
+     "ammo": 200,
+     "fuel": 500,
+     "stores": 250,
+     "water": 500,
+     "notes": [
+      "Marble Arch."
+     ]
+    },
+    {
+     "placement": {
+      "air_facility": true,
+      "constraint": "each airfield, not Tripoli/Tunisia"
+     },
+     "kind": "air-facilities",
+     "ammo": 150,
+     "fuel": 350,
+     "stores": 25,
+     "water": 50,
+     "notes": [
+      "Per airfield; each strip, basin or alighting area holds 20 ammo, 25 fuel, 10 stores, 10 water."
+     ]
+    }
+   ],
+   "repair": [
+    {
+     "placement": {
+      "place": "tobruk"
+     },
+     "kind": "major"
+    },
+    {
+     "placement": {
+      "place": "bardia"
+     },
+     "kind": "temporary"
+    },
+    {
+     "placement": {
+      "place": "mersa-matruh"
+     },
+     "kind": "temporary"
+    }
+   ],
+   "air": {
+    "sources": [
+     "CNA1979:63.43",
+     "CNA1979:63.46",
+     "scan:p85"
+    ],
+    "german": [
+     {
+      "type": "Ju87D",
+      "available": 70,
+      "refitted": 44
+     },
+     {
+      "type": "Me Bf109F",
+      "available": 83,
+      "refitted": 40
+     },
+     {
+      "type": "Me Bf109G",
+      "available": 90,
+      "refitted": 50
+     },
+     {
+      "type": "Me Bf109E",
+      "available": 16,
+      "refitted": 6
+     },
+     {
+      "type": "Me Bf110C",
+      "available": 16,
+      "refitted": 10
+     }
+    ],
+    "german_note": "Any air facility in Africa; unrefitted planes cannot be readied until the second OpStage.",
+    "german_sgsu": 21,
+    "german_pilots": {
+     "4": 4,
+     "3": 4,
+     "2": 11,
+     "1": 16
+    },
+    "crete": [
+     {
+      "type": "Ju88",
+      "available": 75,
+      "refitted": 60
+     },
+     {
+      "type": "He111",
+      "available": 15,
+      "refitted": 10
+     }
+    ],
+    "planes": [
+     {
+      "type": "Cant Z.1007",
+      "available": 14,
+      "refitted": 14
+     },
+     {
+      "type": "Fiat CR42",
+      "available": 125,
+      "refitted": 75
+     },
+     {
+      "type": "Fiat G.50",
+      "available": 12,
+      "refitted": 0
+     },
+     {
+      "type": "Macchi C.200",
+      "available": 58,
+      "refitted": 40
+     },
+     {
+      "type": "Macchi C.202",
+      "available": 139,
+      "refitted": 84
+     },
+     {
+      "type": "S.M.79",
+      "available": 34,
+      "refitted": 24
+     }
+    ],
+    "sgsu": 27,
+    "pilots": {
+     "4": 1,
+     "3": 3,
+     "2": 20,
+     "1": 18
+    },
+    "facilities": "Nine airfields, one flying-boat basin and one alighting area anywhere on sheets A-D.",
+    "placement": "At most 10% of the air force in Italy/Sicily; strategic attacks on Malta only in The Long Retreat."
+   },
+   "fleet": {
+    "sources": [
+     "CNA1979:63.45"
+    ],
+    "coastal_shipping": "All Axis coastal shipping, at any port from Tobruk to Tripoli."
+   },
+   "reinforcements": [
+    "None in The Last Chance (63.47)."
+   ],
+   "special": [
+    "Every Axis infantry-type unit starts at two-thirds of its maximum TOE, fractions up (63.41).",
+    "Tank TOE (63.42): I/5 Pz 2 PzII, 4 PzIIIH, 1 PzIIIE, 4 PzIIIJ Special; II/5 Pz 2 PzII, 2 PzIIIE, 4 PzIIIH, 4 PzIIIJ Special, 1 PzIVE; I/8 Pz 1 PzII, 4 PzIIIH, 5 PzIIIJ Special, 3 PzIVF2 Special; II/8 Pz 1 PzII, 3 PzIIIH, 1 PzIIIG, 3 PzIIIJ Special, 1 PzIVG(?), 3 PzIVF2; LII(M) and VIII(M) 6 M13/40 each; I(L) 6 L6, II(L) 4 L6.",
+    "Under repair at Tobruk: 3 PzIIIH and 1 PzIVD broken down (63.42).",
+    "Upgrades (63.48): armoured cars and armoured recce upgrade free; two of Pistoia, Pavia, Bologna, Brescia swap their 75mm heavy AA for 2 TOE of 90mm; 605th SP has 6 TOE of Marder; 3.7cm AT in 15th and 21st Pz become 5cm, and their 5cm (and 90th Light's) become 7.62cm Pak(R); four Italian and two German brigade HQs become ad hoc AT batteries of 4 TOE (Italian AT guns / 2.8cm); Italian divisional 75/18 become 75/27; Littorio and Ariete SP battalions have 4 TOE of Semovente 75/18 each; the 164th's two III/220 battalions get 3 TOE 15cm K18 and 3 TOE 15cm sFH18; 149, 526 and 533 coastal battalions get 3 TOE of 15cm sIG33, 17cm K18 and 21cm Mrs18 respectively.",
+    "The 10th Italian Light Flotilla and Raid on Rommel rules are not used (63.5)."
+   ]
+  }
+ },
+ "abstractions": {
+  "air": {
+   "sources": [
+    "CNA1979:63.81"
+   ],
+   "replaces": {
+    "cw": {
+     "supply": [
+      {
+       "placement": {
+        "sheets": [
+         "E"
+        ],
+        "constraint": "as 63.35 front-line dumps"
+       },
+       "kind": "dump",
+       "ammo": 2250,
+       "fuel": 1750,
+       "stores": 1500,
+       "water": 1250
+      },
+      {
+       "placement": {
+        "sheets": [
+         "E"
+        ],
+        "constraint": "as 63.35 other dumps"
+       },
+       "kind": "dump",
+       "ammo": 500,
+       "fuel": 2000,
+       "stores": 400,
+       "water": 1600
+      },
+      {
+       "placement": {
+        "sheets": [
+         "E"
+        ]
+       },
+       "kind": "dummy-dump",
+       "count": 3
+      }
+     ]
+    }
+   }
+  },
+  "air_and_logistics": {
+   "sources": [
+    "CNA1979:63.82"
+   ],
+   "motorisation": "Each Medium truck a side could bring in is one motorisation point.",
+   "replaces": {
+    "axis": {
+     "supply": [
+      {
+       "placement": {
+        "sheets": [
+         "A",
+         "B",
+         "C",
+         "D"
+        ],
+        "constraint": "no more than four supply units (regular plus dummy) on sheets A-C"
+       },
+       "kind": "supply-unit",
+       "count": 14,
+       "ammo": 40,
+       "fuel": 20
+      },
+      {
+       "placement": {
+        "sheets": [
+         "A",
+         "B",
+         "C",
+         "D"
+        ]
+       },
+       "kind": "dummy-supply-unit",
+       "count": 2
+      },
+      {
+       "placement": {
+        "sheets": [
+         "A",
+         "B",
+         "C"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 2,
+       "ammo": 40,
+       "fuel": 25,
+       "notes": [
+        "'Map D dumps' units, yet placed on A-C as printed."
+       ]
+      },
+      {
+       "placement": {
+        "sheets": [
+         "A",
+         "B",
+         "C"
+        ]
+       },
+       "kind": "dummy-supply-unit",
+       "count": 1
+      },
+      {
+       "placement": {
+        "hexes": [
+         "D3328"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 40,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "hexes": [
+         "D3714"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 40,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "hexes": [
+         "C4131"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 40,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "hexes": [
+         "C4321"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 2,
+       "ammo": 20,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "hexes": [
+         "C4807"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 3,
+       "ammo": 40,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "hexes": [
+         "B5925"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 40,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "hexes": [
+         "A4827"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 2,
+       "ammo": 25,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "hexes": [
+         "A2109"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 40,
+       "fuel": 60
+      }
+     ]
+    },
+    "cw": {
+     "supply": [
+      {
+       "placement": {
+        "sheets": [
+         "E"
+        ],
+        "constraint": "on the front line (E3002, E2805, E2403 and any hex east of and next to an Axis unit), at least one in each of E3002, E2805 and E2403"
+       },
+       "kind": "supply-unit",
+       "count": 13,
+       "ammo": 40,
+       "fuel": 20
+      },
+      {
+       "placement": {
+        "sheets": [
+         "E"
+        ],
+        "constraint": "not within two hexes of a front-line hex"
+       },
+       "kind": "supply-unit",
+       "count": 2,
+       "ammo": 40,
+       "fuel": 60
+      }
+     ]
+    }
+   },
+   "notes": [
+    "Ammo/fuel column order in the Axis table read from the OCR; check against the scan (p87 not re-read in time)."
+   ]
+  },
+  "logistics": {
+   "sources": [
+    "CNA1979:63.83"
+   ],
+   "motorisation": "Each Medium and each Heavy truck is one motorisation point.",
+   "adds": {
+    "axis": {
+     "supply": [
+      {
+       "placement": {
+        "place": "mersa-matruh"
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 40,
+       "fuel": 180,
+       "notes": [
+        "Depot supply unit."
+       ]
+      },
+      {
+       "placement": {
+        "place": "tobruk"
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 40,
+       "fuel": 180,
+       "notes": [
+        "Depot supply unit."
+       ]
+      },
+      {
+       "placement": {
+        "air_facility": true,
+        "constraint": "Axis air facilities other than Mersa Matruh and Tobruk"
+       },
+       "kind": "supply-unit",
+       "count": 9,
+       "ammo": 30,
+       "fuel": 50
+      }
+     ]
+    },
+    "cw": {
+     "supply": [
+      {
+       "placement": {
+        "air_facility": true,
+        "constraint": "one each at two Commonwealth air facilities more than three hexes from the front line"
+       },
+       "kind": "supply-unit",
+       "count": 2,
+       "ammo": 40,
+       "fuel": 180,
+       "notes": [
+        "Depot supply units."
+       ]
+      }
+     ]
+    }
+   },
+   "notes": [
+    "B and C print 'As in 63.72'; read as 63.82 B and C (63.72 is the railroad case). The depot units have no schema kind; recorded as supply-unit with a note."
+   ]
+  }
+ }
+}
