@@ -161,7 +161,7 @@
    }
   ],
   "notes": [
-   "Judged at the end of the scenario. SPI names no levels except Decisive and Strategic (Axis) and 'Smashing' (Commonwealth); holding Tobruk alone is recorded as tactical for whichever side holds it. The Commonwealth 'Smashing Victory' is recorded as strategic (the schema has no 'smashing'); its 'all the above' is read as Tobruk, Bardia and Benghazi (the Egyptian villages are already Commonwealth). SPI also says anything less than the Axis Strategic set is a Commonwealth victory, which contradicts the first sentence; needs a ruling. No supply condition is printed."
+   "Judged at the end of the scenario. SPI names no levels except Decisive and Strategic (Axis) and 'Smashing' (Commonwealth); holding Tobruk alone is recorded as tactical for whichever side holds it. The Commonwealth 'Smashing Victory' is recorded as strategic (the schema has no 'smashing'); its 'all the above' is read as Tobruk, Bardia and Benghazi (the Egyptian villages are already Commonwealth). R-101: the levels are a ladder; an Axis player not holding Tobruk has lost, whoever holds it; no supply condition is printed or added."
   ]
  },
  "sides": {
@@ -1481,7 +1481,7 @@
     }
    },
    "notes": [
-    "B prints 'As in 61.62 \"C\"'; read as 61.72 C (61.62 does not exist). 61.73 gives no initial motorisation-point figures; whether 61.72 B carries over is not said."
+    "B prints 'As in 61.62 \"C\"'; read as 61.72 C (61.62 does not exist). 61.73 gives no initial motorisation-point figures; R-102: they are counted from the listed trucks by 59.63, air-facility trucks included."
    ]
   }
  }

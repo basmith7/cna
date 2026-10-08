@@ -56,6 +56,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-014** — 20.66 note: M 11/39, not 13/39
 - **E-015** — 20.72: plan one month ahead, not two, and read the table for the arrival month
 - **E-016** — 20.83: the reference to 20.75 is void; the strength requirement is 20.82's
+- [R-100](../rulings/R-100.md) — the schedule and an OA sheet sometimes give different arrivals
 
 ## [Engineering](./80-engineering.md)
 
@@ -256,9 +257,9 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-097](../rulings/R-097.md) | accepted | 60.37, 56.0 |
 | [R-098](../rulings/R-098.md) | accepted | 60.44, 22.31 |
 | [R-099](../rulings/R-099.md) | accepted | 60.33, 22.31 |
-| [R-100](../rulings/R-100.md) | proposed | 4.43, 4.44, 20.0 |
-| [R-101](../rulings/R-101.md) | proposed | 61.8 |
-| [R-102](../rulings/R-102.md) | proposed | 61.72, 61.73, 59.63 |
+| [R-100](../rulings/R-100.md) | accepted | 4.43, 4.44, 20.0 |
+| [R-101](../rulings/R-101.md) | accepted | 61.8 |
+| [R-102](../rulings/R-102.md) | accepted | 61.72, 61.73, 59.63 |
 | [R-103](../rulings/R-103.md) | accepted | 61.31, 61.32, 61.38 |
 | [R-104](../rulings/R-104.md) | proposed | 61.1, 61.2, 61.8 |
 | [R-105](../rulings/R-105.md) | proposed | 62.31 |
