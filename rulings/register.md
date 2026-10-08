@@ -69,6 +69,9 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-094](./R-094.md) | Italian artillery listed twice "anywhere in Libya" | proposed | 60.31 |
 | [R-095](./R-095.md) | The Commonwealth fleet at the start of Group One | proposed | 60.45 |
 | [R-096](./R-096.md) | Units a scenario places before their OA arrival | proposed | 60.41, 59.2 |
+| [R-097](./R-097.md) | Axis convoys before the first Operations Stage of Group One | proposed | 60.37, 56.0 |
+| [R-098](./R-098.md) | Commonwealth major repair facilities in Group One | proposed | 60.44, 22.31 |
+| [R-099](./R-099.md) | Tobruk's repair facility | proposed | 60.33, 22.31 |
 
 ## Variants
 
@@ -79,3 +82,6 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [V-003](./V-003.md) | No off-road breakdown penalty for light trucks | recorded | 54.2 |
 | [V-004](./V-004.md) | Stores may be paid in instalments | recorded | 51.1, 51.15, 54.13 |
 | [V-005](./V-005.md) | Air attack does not reveal dummy dumps | recorded | 54.12 |
+| [V-006](./V-006.md) | Maintenance in a scenario's first Operations Stage | recorded | 59.36 |
+| [V-007](./V-007.md) | Italian squadrons in Sicily at the start of Group One | recorded | 60.32 |
+| [V-008](./V-008.md) | Mussolini's requirements | recorded | 60.22, 60.81 |

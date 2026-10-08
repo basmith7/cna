@@ -53,6 +53,8 @@ Libya within its capacity, but none in Italy or Sicily, and Crete is still
 British. No Italian plane may be refitted before Game-Turn 1, OpStage 2.
 Types, numbers, pilots and SGSUs are in `sides.axis.air`.
 
+::: variant V-007 — some Italian squadrons start in Sicily
+
 ::: spi 60.33 60.34 60.35 60.36 60.37
 
 **Trucks, supply and shipping.**
@@ -60,6 +62,8 @@ Types, numbers, pilots and SGSUs are in `sides.axis.air`.
 - Second- and third-line trucks start at Tripoli, anywhere in Libya, or on
   air facilities, as `sides.axis.trucks` lists. Italy has a major repair
   facility at Tripoli and temporary ones at Tobruk and Benghazi.
+
+::: ruling R-099 — Tobruk's repair facility, temporary or major
 - Dumps start at Tobruk, Bardia, Benghazi, Derna, the Tripoli box and
   C0716. Two more real dumps and two dummies go anywhere in the Libyan part
   of map C that is more than four hexes from every Commonwealth unit. A
@@ -70,6 +74,8 @@ Types, numbers, pilots and SGSUs are in `sides.axis.air`.
 - Before play, the Italian player plans his convoys for the rest of
   September 1940, using lanes 2, 3 and 6 only; reinforcements arrive by the
   track.
+
+::: ruling R-097 — when the first Axis convoy arrives, and whether it can be bombed
 
 ## Commonwealth forces {#commonwealth}
 
@@ -93,6 +99,8 @@ Matruh and Sidi Barrani, with one more real dump and one dummy in the
 Egyptian part of map C or D, and a total for the air facilities. Cairo and
 Alexandria hold unlimited supply under the normal rules. The major repair
 facility is at Alexandria, a temporary one at Mersa Matruh.
+
+::: ruling R-098 — whether every hex of Cairo and Alexandria is a major repair facility
 
 ::: spi 60.45 60.46 60.47
 
@@ -157,6 +165,8 @@ highest level a side reaches counts.
 Italian units must be suppliable by convoy: from Tobruk for the tactical and
 decisive levels, from map D for the strategic one. Commonwealth units must
 have a truck-convoy supply route to Cairo or Alexandria.
+
+::: variant V-008 — Mussolini's requirements on the Italian advance
 
 ::: spi 60.82
 
