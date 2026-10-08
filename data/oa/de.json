@@ -1,0 +1,2625 @@
+{
+ "nation": "de",
+ "sources": [
+  "CNA1979:4.44",
+  "scan:p161",
+  "scan:p162",
+  "scan:p163",
+  "scan:p164",
+  "scan:p165"
+ ],
+ "notes": [
+  "Chart printed as [4.45c] German Organization at Arrival Chart on the scan (jp2 pages 161-165).",
+  "Arrives is printed OpStage/Game-Turn; D = deployed.",
+  "Parent follows the sheet's indentation; unindented units have no parent. Indentation on these sheets is shallow, so parents are a judgment call where noted.",
+  "TOE 'N' recorded as toe_mark N with empty toe; U@n / O@n likewise.",
+  "Single read of the archive.org scan only; not cross-checked against a second source.",
+  "Read twice (archive.org scan jp2 161-165; community 300 dpi Axis Charts.pdf pp. 19-23): 148 counters each, 888 cells compared; after aligning conventions the reads agree on every cell.",
+  "Arrives: the sheets print Operations Stage / Game-Turn; D is \"deployed\". toe_mark N means the maximum TOE for the unit's ID code.",
+  "The Kampfgruppen sheet has no table: its six counters are taken from the names its note prints, with no TOE or arrival.",
+  "The chart sets head this chart 4.45c (German Organization at Arrival)."
+ ],
+ "formations": [
+  {
+   "id": "5-light-pz-div",
+   "name": "5th Light (\"Leichte\") Panzer Division (Later the 21st Panzer Division)",
+   "basic_morale": 2,
+   "basic_morale_alt": null,
+   "sources": [
+    "CNA1979:4.44",
+    "scan:p161"
+   ],
+   "notes": [
+    "a: In the second Operations Stage of the November IV, 1941 Game-Turn (2/58), the 5th Light Panzer Division was reorganized as the 21st Panzer Division. The counter is replaced by the 21st Panzer's HQ counter.",
+    "b: Note that this unit possesses a slightly different organization from that of the 5th Light. The headquarters possess the same (if any) tank TOE Strength Point attached to the 5th Light. Upon its reorganization, the 104th Infantry Regiment (from the 15th Panzer Division) and 155th Artillery Regiment were assigned to the 21st.",
+    "c: The units were reassigned to other organizations several times. For example, one or both served with the 200th Panzergrenadier Regiment and the 104th Infantry Regiment at various times during the campaign.",
+    "d: The I/75 Artillery Battalion became the II/155 Artillery Battalion of the 155th Artillery Regiment upon the latter's assignment to the division in November of 1941. The Axis Player is provided with both counters but may only replace one with the other (i.e., he may not create a II/155 from replacement points)."
+   ],
+   "units": [
+    {
+     "id": "unit:de:5le-div-hq",
+     "name": "5th Light Panzer Div HQ",
+     "abbreviation": "5 Le",
+     "id_code": "c",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "PzII",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 3
+     },
+     "notes": [
+      "note a"
+     ]
+    },
+    {
+     "id": "unit:de:21-pz-div-hq",
+     "name": "21st Panzer Div HQ",
+     "abbreviation": "21",
+     "id_code": "c",
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 58,
+      "opstage": 2
+     },
+     "notes": [
+      "note b",
+      "TOE printed as '(b)' (see note b)",
+      "replaces the 5 Le HQ counter; printed at the same indent as 5 Le"
+     ]
+    },
+    {
+     "id": "unit:de:5-pz-regt-hq",
+     "name": "5th Panzer Regt HQ",
+     "abbreviation": "5",
+     "id_code": "c",
+     "parent": "unit:de:5le-div-hq",
+     "toe": [
+      {
+       "weapon": "PzII",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:i-5-pz-bn",
+     "name": "I/5 Panzer Bn",
+     "abbreviation": "I/5",
+     "id_code": "f",
+     "parent": "unit:de:5-pz-regt-hq",
+     "toe": [
+      {
+       "weapon": "PzI",
+       "points": 1
+      },
+      {
+       "weapon": "PzII",
+       "points": 4
+      },
+      {
+       "weapon": "PzIIIE",
+       "points": 1
+      },
+      {
+       "weapon": "PzIIIH",
+       "points": 7
+      },
+      {
+       "weapon": "PzIVD",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:ii-5-pz-bn",
+     "name": "II/5 Panzer Bn",
+     "abbreviation": "II/5",
+     "id_code": "f",
+     "parent": "unit:de:5-pz-regt-hq",
+     "toe": [
+      {
+       "weapon": "PzII",
+       "points": 5
+      },
+      {
+       "weapon": "PzIIIH",
+       "points": 6
+      },
+      {
+       "weapon": "PzIVD",
+       "points": 2
+      },
+      {
+       "weapon": "PzIVE",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:2-mg-bn",
+     "name": "2nd Machinegewehr Bn",
+     "abbreviation": "2",
+     "id_code": "n",
+     "parent": "unit:de:5le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 2
+     },
+     "notes": [
+      "note c",
+      "uncertain: parent (indent only slightly right of the HQ)"
+     ]
+    },
+    {
+     "id": "unit:de:8-mg-bn",
+     "name": "8th Machinegewehr Bn",
+     "abbreviation": "8",
+     "id_code": "n",
+     "parent": "unit:de:5le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 26,
+      "opstage": 1
+     },
+     "notes": [
+      "note c"
+     ]
+    },
+    {
+     "id": "unit:de:39-pzjg-bn",
+     "name": "39th Panzerjaeger Bn",
+     "abbreviation": "39",
+     "id_code": "x",
+     "parent": "unit:de:5le-div-hq",
+     "toe": [
+      {
+       "weapon": "3.7cm",
+       "points": 5
+      },
+      {
+       "weapon": "5cm",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:605-sp-pzjg-bn",
+     "name": "605th SP Panzerjaeger Bn",
+     "abbreviation": "605",
+     "id_code": "y",
+     "parent": "unit:de:5le-div-hq",
+     "toe": [
+      {
+       "weapon": "Pzjg1",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 3
+     },
+     "notes": [
+      "uncertain: weapon read 'Pzjg1' (Panzerjaeger I)"
+     ]
+    },
+    {
+     "id": "unit:de:i-75-arty-bn",
+     "name": "I/75 Artillery Bn",
+     "abbreviation": "I/75",
+     "id_code": "v",
+     "parent": "unit:de:5le-div-hq",
+     "toe": [
+      {
+       "weapon": "10.5cm Med Gun",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 23,
+      "opstage": 1
+     },
+     "notes": [
+      "note d",
+      "uncertain: parent (indent only slightly right of the HQ)"
+     ]
+    },
+    {
+     "id": "unit:de:i-33-flak-bn",
+     "name": "I/33 Flak Bn",
+     "abbreviation": "I/33",
+     "id_code": "bb",
+     "parent": "unit:de:5le-div-hq",
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:606-flak-bn",
+     "name": "606 Flak Bn",
+     "abbreviation": "606",
+     "id_code": "cc",
+     "parent": "unit:de:5le-div-hq",
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 4
+      }
+     ],
+     "arrives": {
+      "game_turn": 22,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:3-aufkl-bn",
+     "name": "3rd Aufklarungs Bn",
+     "abbreviation": "3",
+     "id_code": "ff",
+     "parent": "unit:de:5le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:200-pi-bn",
+     "name": "200th Pioneer Bn",
+     "abbreviation": "200",
+     "id_code": "gg",
+     "parent": "unit:de:5le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 21,
+      "opstage": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "sonderverband-288",
+   "name": "Sonderverband 288",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "CNA1979:4.44",
+    "scan:p161"
+   ],
+   "notes": [
+    "a: This unit is really a \"formal\" Kampfgruppe, and, as it retained its formation for a good deal of its stay in Africa it has been included as a specific unit. It was renamed the PanzerGrenadier-Regiment Afrika late in October, 1942 (3/102).",
+    "b: A motorized mountain infantry unit!"
+   ],
+   "units": [
+    {
+     "id": "unit:de:288-son-hq",
+     "name": "Sonderverband 288 HQ",
+     "abbreviation": "288 Son",
+     "id_code": "e",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 76,
+      "opstage": 2
+     },
+     "notes": [
+      "note a"
+     ]
+    },
+    {
+     "id": "unit:de:2-288-gebirgs-inf-bn",
+     "name": "2/288 Gebergs Inf Bn",
+     "abbreviation": "2",
+     "id_code": "m",
+     "parent": "unit:de:288-son-hq",
+     "toe": [],
+     "toe_mark": "U@3",
+     "arrives": {
+      "game_turn": 76,
+      "opstage": 2
+     },
+     "notes": [
+      "note b",
+      "name printed 'Gebergs' (sic)"
+     ]
+    },
+    {
+     "id": "unit:de:3-288-schwinf-bn",
+     "name": "3/288 SchwInf Bn",
+     "abbreviation": "3",
+     "id_code": "p",
+     "parent": "unit:de:288-son-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 76,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:4-288-mg",
+     "name": "4/288 Machinegewehr",
+     "abbreviation": "4",
+     "id_code": "q",
+     "parent": "unit:de:288-son-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 76,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:288-pzjg-bn",
+     "name": "288 Panzerjaeger Bn",
+     "abbreviation": "288",
+     "id_code": "y",
+     "parent": "unit:de:288-son-hq",
+     "toe": [
+      {
+       "weapon": "5cm",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 76,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:288-pi-coy",
+     "name": "288 Pioneer Coy",
+     "abbreviation": "288",
+     "id_code": "gg",
+     "parent": "unit:de:288-son-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 76,
+      "opstage": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "15-pz-div",
+   "name": "15th Panzer Division",
+   "basic_morale": 2,
+   "basic_morale_alt": null,
+   "sources": [
+    "CNA1979:4.44",
+    "scan:p162"
+   ],
+   "notes": [
+    "a: The unit was shifted about a lot. It showed up with the 5th Light and later the (same, but renamed) 21st Panzer.",
+    "b: This was the headquarters unit for the 104th and 115th Infantry Regiments. The 15th may be used as an intermediate headquarters unit, in which case it may never possess more than six infantry-type battalions among its attached regiments. The 15th may also be simply used as a conventional regimental (2-Stacking Point) headquarters, in which case it may never possess more than three infantry-type battalions.",
+    "c: The 104th became part of the 21st Panzer Division, after the latter's reorganization from the 5th Light late in 1941. At the time of its assignment it was enlarged to contain three battalions. The 104th acted, in many instances, like a Kampfgruppe, attaching several different units at different times.",
+    "The 15th Panzer Division is by far the most powerful unit in the game. Adequately supplied and used with skill it is virtually unstoppable. It reflects the marvelous use the Germans made of the divisional organization. It is a lesson in combined arms operations."
+   ],
+   "units": [
+    {
+     "id": "unit:de:15-pz-div-hq",
+     "name": "15th Panzer Div HQ",
+     "abbreviation": "15",
+     "id_code": "c",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "PzIIIH",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 29,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:8-pz-regt-hq",
+     "name": "8th Panzer Regiment HQ",
+     "abbreviation": "8",
+     "id_code": "c",
+     "parent": "unit:de:15-pz-div-hq",
+     "toe": [
+      {
+       "weapon": "PzIIIH",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 31,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:i-8-pz-bn",
+     "name": "I/8 Panzer Bn",
+     "abbreviation": "I/8",
+     "id_code": "f",
+     "parent": "unit:de:8-pz-regt-hq",
+     "toe": [
+      {
+       "weapon": "PzII",
+       "points": 4
+      },
+      {
+       "weapon": "PzIIIH",
+       "points": 8
+      },
+      {
+       "weapon": "PzIVE",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 31,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:ii-8-pz-bn",
+     "name": "II/8 Panzer Bn",
+     "abbreviation": "II/8",
+     "id_code": "f",
+     "parent": "unit:de:8-pz-regt-hq",
+     "toe": [
+      {
+       "weapon": "PzII",
+       "points": 4
+      },
+      {
+       "weapon": "PzIIIH",
+       "points": 7
+      },
+      {
+       "weapon": "PzIVD",
+       "points": 4
+      }
+     ],
+     "arrives": {
+      "game_turn": 32,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:200-schutzen-regt-hq",
+     "name": "200th Schutzen Regt HQ",
+     "abbreviation": "200",
+     "id_code": "b",
+     "parent": "unit:de:15-pz-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 27,
+      "opstage": 2
+     },
+     "notes": [
+      "note a"
+     ]
+    },
+    {
+     "id": "unit:de:15-krad-bn",
+     "name": "15th Kradschutzen Bn",
+     "abbreviation": "15/200",
+     "id_code": "g",
+     "parent": "unit:de:200-schutzen-regt-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 27,
+      "opstage": 2
+     },
+     "notes": [
+      "uncertain: parent (indented only slightly past the 200th; could be the division HQ)"
+     ]
+    },
+    {
+     "id": "unit:de:15-schutzen-bde-hq",
+     "name": "15th Schutzen Bde HQ",
+     "abbreviation": "15",
+     "id_code": "b",
+     "parent": "unit:de:15-pz-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 28,
+      "opstage": 1
+     },
+     "notes": [
+      "note b"
+     ]
+    },
+    {
+     "id": "unit:de:104-schutzen-regt-hq",
+     "name": "104th Schutzen Regt HQ",
+     "abbreviation": "104",
+     "id_code": "d",
+     "parent": "unit:de:15-schutzen-bde-hq",
+     "toe": [
+      {
+       "weapon": "7.5cm Lt Inf Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 28,
+      "opstage": 1
+     },
+     "notes": [
+      "note c"
+     ]
+    },
+    {
+     "id": "unit:de:i-104-schutzen-bn",
+     "name": "I/104 Schutzen Bn",
+     "abbreviation": "I/104",
+     "id_code": "j",
+     "parent": "unit:de:104-schutzen-regt-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 28,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:ii-104-schutzen-bn",
+     "name": "II/104 Schutzen Bn",
+     "abbreviation": "II/104",
+     "id_code": "j",
+     "parent": "unit:de:104-schutzen-regt-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 29,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:115-schutzen-regt-hq",
+     "name": "115th Schutzen Regt HQ",
+     "abbreviation": "115",
+     "id_code": "d",
+     "parent": "unit:de:15-schutzen-bde-hq",
+     "toe": [
+      {
+       "weapon": "7.5cm Lt Inf Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 30,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:i-115-schutzen-bn",
+     "name": "I/115 Schutzen Bn",
+     "abbreviation": "I/115",
+     "id_code": "j",
+     "parent": "unit:de:115-schutzen-regt-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 30,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:ii-115-schutzen-bn",
+     "name": "II/115 Schutzen Bn",
+     "abbreviation": "II/115",
+     "id_code": "j",
+     "parent": "unit:de:115-schutzen-regt-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 30,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:33-pzjg-bn",
+     "name": "33rd Panzerjaeger Bn",
+     "abbreviation": "33",
+     "id_code": "x",
+     "parent": "unit:de:15-pz-div-hq",
+     "toe": [
+      {
+       "weapon": "3.7cm",
+       "points": 5
+      },
+      {
+       "weapon": "5cm",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:33-arty-regt",
+     "name": "33rd Artillery Regt",
+     "abbreviation": "33",
+     "id_code": "u",
+     "parent": "unit:de:15-pz-div-hq",
+     "toe": [
+      {
+       "weapon": "15cm Med Inf Gun",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 33,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:i-115-arty-bn",
+     "name": "I/115 Artillery Bn",
+     "abbreviation": "I/115",
+     "id_code": "u",
+     "parent": "unit:de:15-pz-div-hq",
+     "toe": [
+      {
+       "weapon": "7.5cm Lt Inf Gun",
+       "points": 4
+      }
+     ],
+     "arrives": {
+      "game_turn": 30,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:140-arty-regt",
+     "name": "140th Artillery Regt",
+     "abbreviation": "140",
+     "id_code": "u",
+     "parent": "unit:de:15-pz-div-hq",
+     "toe": [
+      {
+       "weapon": "15cm Gun",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 34,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:33-aufkl-bn",
+     "name": "33rd Aufklarungs Bn",
+     "abbreviation": "33",
+     "id_code": "ee",
+     "parent": "unit:de:15-pz-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 28,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:33-pi-bn",
+     "name": "33rd Pioneer Bn",
+     "abbreviation": "33",
+     "id_code": "gg",
+     "parent": "unit:de:15-pz-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 28,
+      "opstage": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "300-oasis-bn",
+   "name": "300th Oasis Battalion",
+   "basic_morale": 0,
+   "basic_morale_alt": null,
+   "sources": [
+    "CNA1979:4.44",
+    "scan:p162"
+   ],
+   "notes": [
+    "a: The 300th Oasis Battalion was an administrative, not an operational headquarters. The companies are independent company-level units."
+   ],
+   "units": [
+    {
+     "id": "unit:de:1-oasis-koy",
+     "name": "1st Oasis Koy",
+     "abbreviation": "1",
+     "id_code": "r",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:2-oasis-koy",
+     "name": "2nd Oasis Koy",
+     "abbreviation": "2",
+     "id_code": "r",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:3-oasis-koy",
+     "name": "3rd Oasis Koy",
+     "abbreviation": "3",
+     "id_code": "r",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 25,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:4-oasis-koy",
+     "name": "4th Oasis Koy",
+     "abbreviation": "4",
+     "id_code": "r",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 27,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:5-oasis-koy",
+     "name": "5th Oasis Koy",
+     "abbreviation": "5",
+     "id_code": "r",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 29,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:6-oasis-koy",
+     "name": "6th Oasis Koy",
+     "abbreviation": "6",
+     "id_code": "r",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 30,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:7-oasis-koy",
+     "name": "7th Oasis Koy",
+     "abbreviation": "7",
+     "id_code": "r",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 30,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:8-oasis-koy",
+     "name": "8th Oasis Koy",
+     "abbreviation": "8",
+     "id_code": "r",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 31,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:9-oasis-koy",
+     "name": "9th Oasis Koy",
+     "abbreviation": "9",
+     "id_code": "r",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 31,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:10-oasis-koy",
+     "name": "10th Oasis Koy",
+     "abbreviation": "10",
+     "id_code": "r",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 33,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:11-oasis-koy",
+     "name": "11th Oasis Koy",
+     "abbreviation": "11",
+     "id_code": "r",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 34,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:12-oasis-koy",
+     "name": "12th Oasis Koy",
+     "abbreviation": "12",
+     "id_code": "r",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 35,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:13-oasis-koy",
+     "name": "13th Oasis Koy",
+     "abbreviation": "13",
+     "id_code": "r",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 39,
+      "opstage": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "164-light-afrika-div",
+   "name": "164th Light Afrika Division",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "CNA1979:4.44",
+    "scan:p163"
+   ],
+   "notes": [
+    "a: Upon the arrival of the 164th's headquarters the 707th and the 708th Schwertse-Infanteriegeschutzen Kompanien were attached to the division. The 164th is lacking an assigned panzerjaeger battalion. One or two sources showed the 164th with a panzerjaeger battalion that was at company strength, but most sources do not. We have left it out."
+   ],
+   "units": [
+    {
+     "id": "unit:de:164-le-div-hq",
+     "name": "164th Light Div HQ",
+     "abbreviation": "164 Le",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 93,
+      "opstage": 1
+     },
+     "notes": [
+      "note a"
+     ]
+    },
+    {
+     "id": "unit:de:125-pzgren-regt-hq",
+     "name": "125th PnzrGrndr Regt HQ",
+     "abbreviation": "125",
+     "id_code": "b",
+     "parent": "unit:de:164-le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 93,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:i-125-pzgren-bn",
+     "name": "I/125 PnzrGrndrBn",
+     "abbreviation": "I/125",
+     "id_code": "k",
+     "parent": "unit:de:125-pzgren-regt-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 93,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:ii-125-pzgren-bn",
+     "name": "II/125 PnzrGrndr Bn",
+     "abbreviation": "II/125",
+     "id_code": "k",
+     "parent": "unit:de:125-pzgren-regt-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 93,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:iii-125-pzgren-bn",
+     "name": "III/125 PnzrGrndr Bn",
+     "abbreviation": "III/125",
+     "id_code": "k",
+     "parent": "unit:de:125-pzgren-regt-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 93,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:382-pzgren-regt-hq",
+     "name": "382nd PnzrGrndr Regt HQ",
+     "abbreviation": "382",
+     "id_code": "b",
+     "parent": "unit:de:164-le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:i-382-pzgren-bn",
+     "name": "I/382 PnzrGrndr Bn",
+     "abbreviation": "I/382",
+     "id_code": "k",
+     "parent": "unit:de:382-pzgren-regt-hq",
+     "toe": [],
+     "toe_mark": "O@8",
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:ii-382-pzgren-bn",
+     "name": "II/382 PnzrGrndr Bn",
+     "abbreviation": "II/382",
+     "id_code": "k",
+     "parent": "unit:de:382-pzgren-regt-hq",
+     "toe": [],
+     "toe_mark": "O@8",
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:iii-382-pzgren-bn",
+     "name": "III/382 PnzrGrndr Bn",
+     "abbreviation": "III/382",
+     "id_code": "k",
+     "parent": "unit:de:382-pzgren-regt-hq",
+     "toe": [],
+     "toe_mark": "O@8",
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:433-pzgren-regt-hq",
+     "name": "433rd PnzrGrndr Regt HQ",
+     "abbreviation": "433",
+     "id_code": "b",
+     "parent": "unit:de:164-le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 95,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:i-433-pzgren-bn",
+     "name": "I/433 PnzrGrndr Bn",
+     "abbreviation": "I/433",
+     "id_code": "k",
+     "parent": "unit:de:433-pzgren-regt-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 95,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:ii-433-pzgren-bn",
+     "name": "II/433 PnzrGrndr Bn",
+     "abbreviation": "II/433",
+     "id_code": "k",
+     "parent": "unit:de:433-pzgren-regt-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 95,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:iii-433-pzgren-bn",
+     "name": "III/433 PnzrGrndr Bn",
+     "abbreviation": "III/433",
+     "id_code": "k",
+     "parent": "unit:de:433-pzgren-regt-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 95,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:165-aufkl-bn",
+     "name": "165th Aufklarungs Bn",
+     "abbreviation": "164",
+     "id_code": "ff",
+     "parent": "unit:de:164-le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 94,
+      "opstage": 2
+     },
+     "notes": [
+      "abbreviation printed '164' against a unit named 165th (as printed)"
+     ]
+    },
+    {
+     "id": "unit:de:609-flak-bn",
+     "name": "609 Flak Bn",
+     "abbreviation": "609",
+     "id_code": "bb",
+     "parent": "unit:de:164-le-div-hq",
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 93,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:220-arty-regt-hq",
+     "name": "220th Artillery Regt HQ",
+     "abbreviation": "220",
+     "id_code": "b",
+     "parent": "unit:de:164-le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 95,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:i-220-arty-bn",
+     "name": "I/220 Artillery Bn",
+     "abbreviation": "I/220",
+     "id_code": "u",
+     "parent": "unit:de:220-arty-regt-hq",
+     "toe": [
+      {
+       "weapon": "10.5cm Med Gun",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 95,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:ii-220-arty-bn",
+     "name": "II/220 Artillery Bn",
+     "abbreviation": "II/220",
+     "id_code": "u",
+     "parent": "unit:de:220-arty-regt-hq",
+     "toe": [
+      {
+       "weapon": "15cm Med Field Howitzer",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 95,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:iii-220-arty-bn",
+     "name": "III/220 Artillery Bn",
+     "abbreviation": "III/220",
+     "id_code": "u",
+     "parent": "unit:de:220-arty-regt-hq",
+     "toe": [
+      {
+       "weapon": "10.5cm Lt Field Howitzer",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 95,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:iv-220-arty-bn",
+     "name": "IV/220 Artillery Bn",
+     "abbreviation": "IV/220",
+     "id_code": "u",
+     "parent": "unit:de:220-arty-regt-hq",
+     "toe": [
+      {
+       "weapon": "15cm Gun",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 95,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:164-200-pi-bn",
+     "name": "200th Pioneer Bn",
+     "abbreviation": "200",
+     "id_code": "gg",
+     "parent": "unit:de:164-le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 93,
+      "opstage": 3
+     }
+    }
+   ],
+   "attached": [
+    {
+     "unit": "unit:de:707-schwinf-koy",
+     "to": "unit:de:164-le-div-hq",
+     "notes": [
+      "note a (home sheet: Unassigned Infantry Units)"
+     ]
+    },
+    {
+     "unit": "unit:de:708-schwinf-koy",
+     "to": "unit:de:164-le-div-hq",
+     "notes": [
+      "note a (home sheet: Unassigned Infantry Units)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fallschirmjaeger-bde-ramcke",
+   "name": "Fallschirmjaeger-Brigade Ramcke",
+   "basic_morale": 2,
+   "basic_morale_alt": null,
+   "sources": [
+    "CNA1979:4.44",
+    "scan:p163"
+   ],
+   "notes": [
+    "a: The Ramcke was virtually an airborne heavy weapons brigade. It may be airdropped. The battalions are always solely infantry-type units for Barrage and Air Bombardment purposes."
+   ],
+   "units": [
+    {
+     "id": "unit:de:ramcke-bde-hq",
+     "name": "Ramcke Bde HQ",
+     "abbreviation": "Ramcke",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 86,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:i-kroh-bn",
+     "name": "I Bn (Kroh)",
+     "abbreviation": "I Kroh",
+     "id_code": "h",
+     "parent": "unit:de:ramcke-bde-hq",
+     "toe": [
+      {
+       "weapon": "7.5cm Lt Gun",
+       "points": 1
+      }
+     ],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 91,
+      "opstage": 1
+     },
+     "notes": [
+      "TOE printed 'N + 1 x 7.5cm Lt Gun'"
+     ]
+    },
+    {
+     "id": "unit:de:ii-vdh-bn",
+     "name": "II Bn (von der Heydte)",
+     "abbreviation": "II vdH",
+     "id_code": "h",
+     "parent": "unit:de:ramcke-bde-hq",
+     "toe": [
+      {
+       "weapon": "7.5cm Lt Gun",
+       "points": 1
+      }
+     ],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 1
+     },
+     "notes": [
+      "TOE printed 'N + 1 x 7.5cm Lt Gun'"
+     ]
+    },
+    {
+     "id": "unit:de:iii-hub-bn",
+     "name": "III Bn (Hubner)",
+     "abbreviation": "III Hub",
+     "id_code": "h",
+     "parent": "unit:de:ramcke-bde-hq",
+     "toe": [
+      {
+       "weapon": "7.5cm Lt Gun",
+       "points": 1
+      }
+     ],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 93,
+      "opstage": 1
+     },
+     "notes": [
+      "TOE printed 'N + 1 x 7.5cm Lt Gun'"
+     ]
+    },
+    {
+     "id": "unit:de:iv-sch-bn",
+     "name": "IV Bn (Schweiger)",
+     "abbreviation": "IV Sch",
+     "id_code": "h",
+     "parent": "unit:de:ramcke-bde-hq",
+     "toe": [
+      {
+       "weapon": "7.5cm Lt Gun",
+       "points": 1
+      }
+     ],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 87,
+      "opstage": 2
+     },
+     "notes": [
+      "TOE printed 'N + 1 x 7.5cm Lt Gun'"
+     ]
+    },
+    {
+     "id": "unit:de:v-brc-bn",
+     "name": "V Bn (Burchardt)",
+     "abbreviation": "V Brc",
+     "id_code": "h",
+     "parent": "unit:de:ramcke-bde-hq",
+     "toe": [
+      {
+       "weapon": "7.5cm Lt Gun",
+       "points": 1
+      }
+     ],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 86,
+      "opstage": 2
+     },
+     "notes": [
+      "TOE printed 'N + 1 x 7.5cm Lt Gun'"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "unassigned-infantry",
+   "name": "Unassigned Infantry Units",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "CNA1979:4.44",
+    "scan:p163"
+   ],
+   "notes": [
+    "a: Became attached, at first, to the 90th Light Division. Was later attached to the 164th Light Division.",
+    "b: Was attached, at first, to the 200th PanzerGrenadier Regiment. Was later attached to the 164th Light Division."
+   ],
+   "units": [
+    {
+     "id": "unit:de:dak-hq",
+     "name": "Deutsches Afrika Korps HQ",
+     "abbreviation": "Rommel",
+     "id_code": "a",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 20,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:707-schwinf-koy",
+     "name": "707 SchwInf Koy",
+     "abbreviation": "707",
+     "id_code": "t",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 66,
+      "opstage": 2
+     },
+     "notes": [
+      "note a"
+     ]
+    },
+    {
+     "id": "unit:de:708-schwinf-koy",
+     "name": "708 SchwInf Koy",
+     "abbreviation": "708",
+     "id_code": "t",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 76,
+      "opstage": 3
+     },
+     "notes": [
+      "note b"
+     ]
+    },
+    {
+     "id": "unit:de:13-koy-brandenburg",
+     "name": "13th Koy/Brandenburg Regt",
+     "abbreviation": "13/Bdbg",
+     "id_code": "s",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 85,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:778-naval-eng-koy",
+     "name": "778 Naval Engineer Koy",
+     "abbreviation": "778/Nvl",
+     "id_code": "gg",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 66,
+      "opstage": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "kampfgruppen-hqs",
+   "name": "Kampfgruppen HQ's",
+   "basic_morale": null,
+   "basic_morale_alt": null,
+   "sources": [
+    "CNA1979:4.44",
+    "scan:p164"
+   ],
+   "notes": [
+    "Basic Morale printed: 'That of the attached units'. ID Code printed for the sheet: b.",
+    "The sheet has no unit table. Its note a names the groups formed during the campaign: Gruppe Badde, Gruppe Bach (Bach), Gruppe Dedeking, Kampfgruppe Fischer, Kampfgruppe Graf (Graf), Kampfgruppe Kaiser, Kampfgruppe Knabe (Knabe), Kampfgruppe Kost, Gruppe Marcks (Marcks), Kampfgruppe Menny, Kampfgruppe Mitte, Kampfgruppe Pfeiffer (Pfeiffer), Gruppe Schwerin (Schwrn), and Gruppe Voss; the units listed here are the six printed with an italic (counter) name, an inference, not a printed table.",
+    "a: Kampfgruppen were ad hoc formations (brigade-level) of virtually every type and combination of units. They were formed for specific missions, and reflected the incredible German administrative/organizational flexibility. German units rarely stayed in division formation in Africa, and the use of Kampfgruppen was prevalent. These units may be formed and disbanded at will, within the restrictions listed below. If the Axis Player wishes to form more Kampfgruppen than he has battlegroup counters, he may do so.",
+    "1. A Kampfgruppe is formed simply by attaching a German unit to it, thereby creating the unit.",
+    "2. The Kampfgruppe counter must be removed (disbanded) when detaching the final German unit (elimination through combat does not apply). In such a situation any remaining Italian units must be detached and any remaining anti-tank TOE Strength Points assigned to the headquarters become replacement points.",
+    "3. The German Player may never attach/assign more than two artillery-type units to a Kampfgruppe unless it is either the 1st or 2nd Afrika Artillery Regiment headquarters (see the German non-Divisional artillery units sheet).",
+    "4. No more than a total of three Italian units may be attached to all of the German Kampfgruppen in play at any time."
+   ],
+   "units": [
+    {
+     "id": "unit:de:kg-bach",
+     "name": "Gruppe Bach",
+     "abbreviation": "Bach",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": null,
+     "notes": [
+      "uncertain: no table row; counter inferred from the italic name in note a; arrival not printed"
+     ]
+    },
+    {
+     "id": "unit:de:kg-graf",
+     "name": "Kampfgruppe Graf",
+     "abbreviation": "Graf",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": null,
+     "notes": [
+      "uncertain: no table row; counter inferred from the italic name in note a; arrival not printed"
+     ]
+    },
+    {
+     "id": "unit:de:kg-knabe",
+     "name": "Kampfgruppe Knabe",
+     "abbreviation": "Knabe",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": null,
+     "notes": [
+      "uncertain: no table row; counter inferred from the italic name in note a; arrival not printed"
+     ]
+    },
+    {
+     "id": "unit:de:kg-marcks",
+     "name": "Gruppe Marcks",
+     "abbreviation": "Marcks",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": null,
+     "notes": [
+      "uncertain: no table row; counter inferred from the italic name in note a; arrival not printed"
+     ]
+    },
+    {
+     "id": "unit:de:kg-pfeiffer",
+     "name": "Kampfgruppe Pfeiffer",
+     "abbreviation": "Pfeiffer",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": null,
+     "notes": [
+      "uncertain: no table row; counter inferred from the italic name in note a; arrival not printed"
+     ]
+    },
+    {
+     "id": "unit:de:kg-schwerin",
+     "name": "Gruppe Schwerin",
+     "abbreviation": "Schwrn",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "arrives": null,
+     "notes": [
+      "uncertain: no table row; counter inferred from the italic name in note a; arrival not printed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "non-divisional-artillery",
+   "name": "Non-Divisional Artillery Units",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "CNA1979:4.44",
+    "scan:p164"
+   ],
+   "notes": [
+    "a: May have a maximum of three artillery units assigned.",
+    "b: This headquarters unit, know mostly as ArKo 104, was to put it mildly a hodgepodge unit. Essentially it acted as a Kampfgruppe for artillery units and has been treated as such. It may contain a maximum of five artillery units at any one time. The units listed under it above were at one point assigned to ArKo 104 (then again, so were many others, including some Italian artillery units!).",
+    "c: This is simply its name. The artillery was neither emplaced nor was it required to be of true coastal defense ability/qualtity/performance.",
+    "d: Formerly the 864th Heavy Artillery Battalion.",
+    "e: The I/75 Artillery Battalion of the 5/21 Panzer Division is \"reassigned\" to the 155th Artillery Regt as its second battalion if the 155th Artillery Regt becomes assigned to the 5/21 Panzer (which occurred in November of 1941). Upon reassignment the I/75 counter is removed from play and is replaced by the II/155.",
+    "f: Formerly the 911th Heavy Artillery Battalion.",
+    "*The counter abbreviation \"I/772\" is incorrect."
+   ],
+   "units": [
+    {
+     "id": "unit:de:1-afr-arty-regt-hq",
+     "name": "1st Afrika Arty Regt HQ",
+     "abbreviation": "1 Afr",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 80,
+      "opstage": 2
+     },
+     "notes": [
+      "note a"
+     ]
+    },
+    {
+     "id": "unit:de:2-afr-arty-regt-hq",
+     "name": "2nd Afrika Arty Regt HQ",
+     "abbreviation": "2 Afr",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 97,
+      "opstage": 3
+     },
+     "notes": [
+      "note a"
+     ]
+    },
+    {
+     "id": "unit:de:arko-104-hq",
+     "name": "Artillery Command 104 HQ",
+     "abbreviation": "ArKo 104",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 31,
+      "opstage": 3
+     },
+     "notes": [
+      "note b"
+     ]
+    },
+    {
+     "id": "unit:de:149-coastal-arty-bn",
+     "name": "149 Coastal Def Arty Bn",
+     "abbreviation": "149",
+     "id_code": "v",
+     "parent": "unit:de:arko-104-hq",
+     "toe": [
+      {
+       "weapon": "10.5cm Med Gun",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 45,
+      "opstage": 1
+     },
+     "notes": [
+      "note c"
+     ]
+    },
+    {
+     "id": "unit:de:362-arty-bty",
+     "name": "362 Artillery Bty",
+     "abbreviation": "362",
+     "id_code": "x",
+     "parent": "unit:de:arko-104-hq",
+     "toe": [
+      {
+       "weapon": "17cm Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 30,
+      "opstage": 2
+     },
+     "notes": [
+      "uncertain: ID code read 'x' (sister batteries are 'w')"
+     ]
+    },
+    {
+     "id": "unit:de:408-sp-arty-bn",
+     "name": "408 SP Artillery Bn",
+     "abbreviation": "408",
+     "id_code": "v",
+     "parent": "unit:de:arko-104-hq",
+     "toe": [
+      {
+       "weapon": "15cm SP Gun",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 30,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:528-arty-bn",
+     "name": "528 Artillery Bn",
+     "abbreviation": "528",
+     "id_code": "v",
+     "parent": "unit:de:arko-104-hq",
+     "toe": [
+      {
+       "weapon": "155mm (Fr. 1915 short)",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:155-arty-regt-hq",
+     "name": "155th Artillery Regt HQ",
+     "abbreviation": "155",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 35,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:i-155-arty-bn",
+     "name": "I/155 Artillery Bn",
+     "abbreviation": "I",
+     "id_code": "v",
+     "parent": "unit:de:155-arty-regt-hq",
+     "toe": [
+      {
+       "weapon": "15cm Med Gun",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 32,
+      "opstage": 3
+     },
+     "notes": [
+      "note d"
+     ]
+    },
+    {
+     "id": "unit:de:ii-155-arty-bn",
+     "name": "II/155 Artillery Bn",
+     "abbreviation": "II",
+     "id_code": "v",
+     "parent": "unit:de:155-arty-regt-hq",
+     "toe": [],
+     "arrives": null,
+     "notes": [
+      "note e",
+      "TOE and Arrives printed blank (replaces the I/75)"
+     ]
+    },
+    {
+     "id": "unit:de:iii-155-arty-bn",
+     "name": "III/155 Artillery Bn",
+     "abbreviation": "III",
+     "id_code": "v",
+     "parent": "unit:de:155-arty-regt-hq",
+     "toe": [
+      {
+       "weapon": "15cm Gun",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 34,
+      "opstage": 2
+     },
+     "notes": [
+      "note f"
+     ]
+    },
+    {
+     "id": "unit:de:364-arty-bty",
+     "name": "364 Artillery Bty",
+     "abbreviation": "364",
+     "id_code": "w",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "17cm Gun",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 74,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:523-coastal-arty-bn",
+     "name": "523 Coastal Def Arty Bn",
+     "abbreviation": "523",
+     "id_code": "v",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "155mm (Fr. 1915 short)",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 3
+     },
+     "notes": [
+      "note c"
+     ]
+    },
+    {
+     "id": "unit:de:526-coastal-arty-bn",
+     "name": "526 Coastal Def Arty Bn",
+     "abbreviation": "526",
+     "id_code": "v",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "10.5cm Med Gun",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 71,
+      "opstage": 3
+     },
+     "notes": [
+      "note c"
+     ]
+    },
+    {
+     "id": "unit:de:529-coastal-arty-bn",
+     "name": "529 Coastal Def Arty Bn",
+     "abbreviation": "529",
+     "id_code": "v",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "155mm (Fr. 1915 short)",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 2
+     },
+     "notes": [
+      "note c"
+     ]
+    },
+    {
+     "id": "unit:de:532-coastal-arty-bn",
+     "name": "532 Coastal Def Arty Bn",
+     "abbreviation": "532",
+     "id_code": "v",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "155mm (Fr. 1915 short)",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 24,
+      "opstage": 2
+     },
+     "notes": [
+      "note c"
+     ]
+    },
+    {
+     "id": "unit:de:533-coastal-arty-bn",
+     "name": "533 Coastal Def Arty Bn",
+     "abbreviation": "533",
+     "id_code": "v",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "10.5cm Med Gun",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 66,
+      "opstage": 1
+     },
+     "notes": [
+      "note c"
+     ]
+    },
+    {
+     "id": "unit:de:557-arty-bn",
+     "name": "557 Artillery Bn",
+     "abbreviation": "557",
+     "id_code": "v",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "15cm Med Field Howitzer",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 36,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:i-722-arty-bty",
+     "name": "I/722 Artillery Bty",
+     "abbreviation": "I/722*",
+     "id_code": "w",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "15cm Med Field Howitzer",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 68,
+      "opstage": 2
+     },
+     "notes": [
+      "asterisk: the counter is misprinted 'I/772'"
+     ]
+    },
+    {
+     "id": "unit:de:1-902-arty-bty",
+     "name": "1/902 Artillery Bty",
+     "abbreviation": "1/902",
+     "id_code": "w",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "21cm Howitzer",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 40,
+      "opstage": 3
+     },
+     "notes": [
+      "uncertain: '1/902' vs 'I/902' (looks like the digit 1)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "unassigned-anti-air",
+   "name": "Unassigned Anti-Air Units",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "CNA1979:4.44",
+    "scan:p165"
+   ],
+   "notes": [
+    "a: Most of these flak units were under the aegis of either the 19th or 20th Anti-Aircraft Division. As these were purely administrative headquarters, and in addition, most of the anti-aircraft units were dispersed amongst combat units, the headquarters are omitted.",
+    "b: These units were eventually grouped under the 135th Flak Regiment (the Hecht Group)."
+   ],
+   "units": [
+    {
+     "id": "unit:de:30-flak-bty",
+     "name": "30th Flak Battery",
+     "abbreviation": "30",
+     "id_code": "dd",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 1
+      }
+     ],
+     "arrives": {
+      "game_turn": 39,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:ii-5-flak-bn",
+     "name": "II/5 Flak Bn",
+     "abbreviation": "II/5",
+     "id_code": "cc",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 93,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:i-6-flak-bn",
+     "name": "I/6 Flak Bn",
+     "abbreviation": "I/6",
+     "id_code": "cc",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 4
+      }
+     ],
+     "arrives": {
+      "game_turn": 68,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:ii-12-flak-bn",
+     "name": "II/12 Flak Bn",
+     "abbreviation": "II/12",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 8
+      }
+     ],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:i-18-flak-bn",
+     "name": "I/18 Flak Bn",
+     "abbreviation": "I/18",
+     "id_code": "cc",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 4
+      }
+     ],
+     "arrives": {
+      "game_turn": 52,
+      "opstage": 3
+     },
+     "notes": [
+      "note b"
+     ]
+    },
+    {
+     "id": "unit:de:ii-25-flak-bn",
+     "name": "II/25 Flak Bn",
+     "abbreviation": "II/25",
+     "id_code": "cc",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 4
+      }
+     ],
+     "arrives": {
+      "game_turn": 59,
+      "opstage": 2
+     },
+     "notes": [
+      "note b"
+     ]
+    },
+    {
+     "id": "unit:de:i-43-flak-bn",
+     "name": "I/43 Flak Bn",
+     "abbreviation": "I/43",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 8
+      }
+     ],
+     "arrives": {
+      "game_turn": 67,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:ii-46-flak-bn",
+     "name": "II/46 Flak Bn",
+     "abbreviation": "II/46",
+     "id_code": "bb",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 88,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:i-53-flak-bn",
+     "name": "I/53 Flak Bn",
+     "abbreviation": "I/53",
+     "id_code": "bb",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 59,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:i-54-flak-bn",
+     "name": "I/54 Flak Bn",
+     "abbreviation": "I/54",
+     "id_code": "bb",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 89,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:114-flak-bn",
+     "name": "114 Flak Bn",
+     "abbreviation": "114",
+     "id_code": "dd",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 2
+      }
+     ],
+     "arrives": {
+      "game_turn": 66,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:192-flak-bn",
+     "name": "192 Flak Bn",
+     "abbreviation": "192",
+     "id_code": "bb",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 5
+      }
+     ],
+     "arrives": {
+      "game_turn": 61,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:211-flak-bn",
+     "name": "211 Flak Bn",
+     "abbreviation": "211",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 12
+      }
+     ],
+     "arrives": {
+      "game_turn": 89,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:243-flak-bn",
+     "name": "243 Flak Bn",
+     "abbreviation": "243",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 12
+      }
+     ],
+     "arrives": {
+      "game_turn": 91,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:329-flak-bn",
+     "name": "329 Flak Bn",
+     "abbreviation": "329",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 8
+      }
+     ],
+     "arrives": {
+      "game_turn": 91,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:358-flak-bn",
+     "name": "358 Flak Bn",
+     "abbreviation": "358",
+     "id_code": "bb",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:368-heavy-flak-bn",
+     "name": "368 Heavy Flak Bn",
+     "abbreviation": "368",
+     "id_code": "cc",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Heavy AA",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 60,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:442-flak-bn",
+     "name": "442 Flak Bn",
+     "abbreviation": "442",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 10
+      }
+     ],
+     "arrives": {
+      "game_turn": 66,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:612-army-flak-bn",
+     "name": "612 Army Flak Bn",
+     "abbreviation": "612",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 8
+      }
+     ],
+     "arrives": {
+      "game_turn": 58,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:617-army-flak-bn",
+     "name": "617 Army Flak Bn",
+     "abbreviation": "617",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 12
+      }
+     ],
+     "arrives": {
+      "game_turn": 70,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:841-lt-flak-bn",
+     "name": "841 Light Flak Bn",
+     "abbreviation": "841 Lt",
+     "id_code": "bb",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 6
+      }
+     ],
+     "arrives": {
+      "game_turn": 61,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:860-flak-bn",
+     "name": "860 Flak Bn",
+     "abbreviation": "860",
+     "id_code": "aa",
+     "parent": null,
+     "toe": [
+      {
+       "weapon": "Light AA",
+       "points": 8
+      }
+     ],
+     "arrives": {
+      "game_turn": 92,
+      "opstage": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "90-light-div",
+   "name": "90th Light (\"The Afrika\") Division",
+   "basic_morale": 1,
+   "basic_morale_alt": null,
+   "sources": [
+    "CNA1979:4.44",
+    "scan:p165"
+   ],
+   "notes": [
+    "a: The division was originally named the Afrika Division. On November 27, 1941 it became the 90th Light Division.",
+    "b: It contains ex-members of the French Foreign Legion.",
+    "c: There are no regimental headquarters for these units. They are essentially assigned units without their owning formation (i.e., would normally bear an \"*\"). However, the Germans were so flexible they have been placed with the forces they started the campaign with. They later became part of the 200th Panzergrenadier Regt."
+   ],
+   "units": [
+    {
+     "id": "unit:de:90-le-div-hq",
+     "name": "90th Light Div HQ",
+     "abbreviation": "90 Le",
+     "id_code": "b",
+     "parent": null,
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 44,
+      "opstage": 2
+     },
+     "notes": [
+      "note a"
+     ]
+    },
+    {
+     "id": "unit:de:155-schutzen-regt-hq",
+     "name": "155th Schutzen Regt HQ",
+     "abbreviation": "155",
+     "id_code": "b",
+     "parent": "unit:de:90-le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 32,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:i-155-schutzen-bn",
+     "name": "I/155 Schutzen Bn",
+     "abbreviation": "I/155",
+     "id_code": "k",
+     "parent": "unit:de:155-schutzen-regt-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 32,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:ii-155-schutzen-bn",
+     "name": "II/155 Schutzen Bn",
+     "abbreviation": "II/155",
+     "id_code": "k",
+     "parent": "unit:de:155-schutzen-regt-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 32,
+      "opstage": 3
+     },
+     "notes": [
+      "ID code printed as capital 'K'; read as k like its siblings"
+     ]
+    },
+    {
+     "id": "unit:de:iii-155-schutzen-bn",
+     "name": "III/155 Schutzen Bn",
+     "abbreviation": "III/155",
+     "id_code": "k",
+     "parent": "unit:de:155-schutzen-regt-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 32,
+      "opstage": 3
+     }
+    },
+    {
+     "id": "unit:de:361-afrika-regt-hq",
+     "name": "361st Afrika Regt HQ",
+     "abbreviation": "361 Af",
+     "id_code": "b",
+     "parent": "unit:de:90-le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 37,
+      "opstage": 1
+     },
+     "notes": [
+      "note b"
+     ]
+    },
+    {
+     "id": "unit:de:i-361-bn",
+     "name": "I/361 Bn",
+     "abbreviation": "I/361",
+     "id_code": "l",
+     "parent": "unit:de:361-afrika-regt-hq",
+     "toe": [],
+     "toe_mark": "U@3",
+     "arrives": {
+      "game_turn": 37,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:ii-361-bn",
+     "name": "II/361 Bn",
+     "abbreviation": "II/361",
+     "id_code": "l",
+     "parent": "unit:de:361-afrika-regt-hq",
+     "toe": [],
+     "toe_mark": "U@6",
+     "arrives": {
+      "game_turn": 37,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:361-arty-bn",
+     "name": "361 Artillery Bn",
+     "abbreviation": "361/361",
+     "id_code": "v",
+     "parent": "unit:de:361-afrika-regt-hq",
+     "toe": [
+      {
+       "weapon": "10.5cm Med Gun",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 37,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:iii-255-schutzen-bn",
+     "name": "III/255 Schutzen Bn",
+     "abbreviation": "III/255",
+     "id_code": "l",
+     "parent": "unit:de:90-le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 49,
+      "opstage": 3
+     },
+     "notes": [
+      "note c"
+     ]
+    },
+    {
+     "id": "unit:de:iii-347-schutzen-bn",
+     "name": "III/347 Schutzen Bn",
+     "abbreviation": "III/347",
+     "id_code": "l",
+     "parent": "unit:de:90-le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 49,
+      "opstage": 3
+     },
+     "notes": [
+      "note c"
+     ]
+    },
+    {
+     "id": "unit:de:190-arty-regt",
+     "name": "190th Artillery Regt",
+     "abbreviation": "190",
+     "id_code": "u",
+     "parent": "unit:de:90-le-div-hq",
+     "toe": [
+      {
+       "weapon": "21cm How",
+       "points": 3
+      },
+      {
+       "weapon": "10.5cm Med Gun",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 82,
+      "opstage": 2
+     }
+    },
+    {
+     "id": "unit:de:613-flak-bn",
+     "name": "613 Flak Bn",
+     "abbreviation": "613",
+     "id_code": "z",
+     "parent": "unit:de:90-le-div-hq",
+     "toe": [
+      {
+       "weapon": "7.5cm Lt Gun",
+       "points": 3
+      },
+      {
+       "weapon": "Light AA",
+       "points": 3
+      }
+     ],
+     "arrives": {
+      "game_turn": 37,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:190-pzjg-bn",
+     "name": "190th Panzerjaeger Bn",
+     "abbreviation": "190",
+     "id_code": "x",
+     "parent": "unit:de:90-le-div-hq",
+     "toe": [
+      {
+       "weapon": "5cm",
+       "points": 4
+      }
+     ],
+     "arrives": {
+      "game_turn": 91,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:580-aufkl-bn",
+     "name": "580th Aufklarungs Bn",
+     "abbreviation": "580",
+     "id_code": "ee",
+     "parent": "unit:de:90-le-div-hq",
+     "toe": [],
+     "toe_mark": "U@6",
+     "arrives": {
+      "game_turn": 43,
+      "opstage": 1
+     }
+    },
+    {
+     "id": "unit:de:900-pi-bn",
+     "name": "900th Pioneer Bn",
+     "abbreviation": "900",
+     "id_code": "gg",
+     "parent": "unit:de:90-le-div-hq",
+     "toe": [],
+     "toe_mark": "N",
+     "arrives": {
+      "game_turn": 34,
+      "opstage": 1
+     }
+    }
+   ]
+  }
+ ]
+}
