@@ -56,3 +56,20 @@ def test_italian_campaign_extends_graziani():
     assert c["extends"] == "scenario:grazianis-offensive"
     assert c["end"] == {"game_turn": 20, "opstage": 3}
     assert c["victory"]["kind"] == "points"
+
+
+def test_graziani_detached_units_start_elsewhere_or_arrive_later():
+    g = load("grazianis-offensive")
+    oa = {u["id"]: u for p in (ROOT / "data" / "oa").glob("*.json")
+          for f in json.loads(p.read_text())["formations"] for u in f["units"]}
+    placed, detached = [], set()
+    for side in ("axis", "cw"):
+        for d in g["sides"][side]["deployments"]:
+            for e in d["units"]:
+                if "unit" in e:
+                    placed.append(e["unit"])
+                placed += e.get("attached", [])
+                detached |= set(e.get("detached", []))
+    assert sorted(set(placed)) == sorted(placed), "a counter is placed twice"
+    for uid in detached:
+        assert uid in placed or isinstance(oa[uid]["arrives"], dict), uid

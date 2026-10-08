@@ -1053,8 +1053,10 @@
      "units": [
       {
        "unit": "unit:cw:selby-force-the-matruh-garrison",
-       "notes": [
-        "closing parenthesis missing in the scan)"
+       "attached": [
+        "unit:cw:1-essex",
+        "unit:cw:1-dur-lt",
+        "unit:cw:1-sostff"
        ]
       }
      ],
@@ -1072,7 +1074,18 @@
      },
      "units": [
       {
-       "unit": "unit:cw:7th-armored-div-hq"
+       "unit": "unit:cw:7th-armored-div-hq",
+       "detached": [
+        "unit:cw:1-krrc",
+        "unit:cw:2-rflbde",
+        "unit:cw:3-rha",
+        "unit:cw:4-rha",
+        "unit:cw:11-hus",
+        "unit:cw:1-rtr"
+       ],
+       "notes": [
+        "Every 7th Armoured unit placed elsewhere in this set-up starts detached from it."
+       ]
       }
      ],
      "trucks": {
@@ -1089,7 +1102,11 @@
      },
      "units": [
       {
-       "unit": "unit:cw:4-in-hq"
+       "unit": "unit:cw:4-in-hq",
+       "detached": [
+        "unit:cw:31-fld",
+        "unit:cw:7-in-hq"
+       ]
       }
      ],
      "trucks": {
