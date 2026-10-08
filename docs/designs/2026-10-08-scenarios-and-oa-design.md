@@ -2,7 +2,11 @@
 
 **Date:** 2026-10-08
 **Sub-project:** 5 of the digital CNA roadmap (scenarios and OA sheets).
-**Status:** Part 0 (this spec and its plan). Written by the autopilot as
+**Status:** complete, PRs #146–#186 (spec #146; Part 1 Graziani's Offensive
+#147–#151, #153; seed #152; Part 3 scenarios, OA sheets and schedule #154–#160,
+#162, Task 3.6 #184; Part 4 rulings R-094–R-109 #161, #163–#167, #174–#182, #186;
+docs). Also R-110 (#171) and the weapon-systems chart (#172) from
+cna-engine's requests. Written by the autopilot as
 Mission 6 Part 0 under the delegation of 2026-09-26: every decision below is
 Claude's, is cheap to reverse, and can each be reversed with one PR. The
 order (one small scenario first) is Brian's, from the *Path to a playable

@@ -67,6 +67,13 @@ trucks, rail and ships; that page lists exactly which parts of
 and which stay. Land Game passages it replaces carry a note pointing to
 the Logistics Game rule.
 
+The **scenarios** (§59–65) are in their own folder, starting from [Reading a
+scenario](scenarios/00-reading-scenarios.md): five groups, from Graziani's
+Offensive (the shortest, Land Game only) to the full campaign. Each
+scenario's set-up, length and victory conditions are data in
+`data/scenarios/`, built on the OA sheets (`data/oa/`) and the
+reinforcement schedule.
+
 ## Time
 
 ::: spi-ref 5.1 7.1
@@ -245,6 +252,12 @@ The rules are organised by system, not by SPI section:
 | Logistics Game: trucks and dumps | The three lines, dumps, railway, equivalent weights | §53–54 |
 | Logistics Game: ports and shipping | Ports, Axis convoys, coastal shipping, Commonwealth base | §55–57 |
 | Logistics Game: abstract air | For play without the Air Game | §58 |
+| Scenarios: reading a scenario | Set-up notation, abstractions, starting supply | §59 |
+| Scenarios: Group One, the Italians | Graziani's Offensive, the Italian Campaign | §60 |
+| Scenarios: Group Two, the Desert Fox | Rommel's Arrival, the Desert Fox campaign | §61 |
+| Scenarios: Group Three, Operation Crusader | | §62 |
+| Scenarios: Group Four, El Alamein | The Last Chance, the Long Retreat | §63 |
+| Scenarios: Group Five, the campaign game | Full and short campaign | §64–65 |
 
 Files not yet written are listed so the shape of the edition is visible;
 they are added one system at a time.
