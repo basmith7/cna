@@ -166,6 +166,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-098](../rulings/R-098.md) — whether every hex of Cairo and Alexandria is a major repair facility
 - [R-095](../rulings/R-095.md) — the printed fleet total disagrees with the lists
 - [R-027](../rulings/R-027.md) — Tobruk's efficiency level
+- [R-110](../rulings/R-110.md) — what the supply condition means when only the Land Game is played
 - [V-007](../rulings/V-007.md) — some Italian squadrons start in Sicily
 - [V-008](../rulings/V-008.md) — Mussolini's requirements on the Italian advance
 
@@ -264,6 +265,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-107](../rulings/R-107.md) | accepted | 62.35, 62.45, 59.53 |
 | [R-108](../rulings/R-108.md) | proposed | 63.2 |
 | [R-109](../rulings/R-109.md) | proposed | 64.71, 64.72, 64.75, 64.76 |
+| [R-110](../rulings/R-110.md) | accepted | 60.81, 60.92, 32.17 |
 
 ## Variants register
 

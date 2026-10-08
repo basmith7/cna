@@ -183,6 +183,8 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
                 errors.append(f"{label}: unknown formation {v}")
             if k == "place" and isinstance(v, str) and places and v not in places:
                 errors.append(f"{label}: unknown place {v}")
+            if k == "places" and isinstance(v, list):
+                errors.extend(f"{label}: unknown place {pl}" for pl in v if isinstance(pl, str) and places and pl not in places)
 
     scenarios: dict[str, tuple[str, dict]] = {}
     for p in sorted((data_dir / "scenarios").glob("*.json")) if (data_dir / "scenarios").is_dir() else []:

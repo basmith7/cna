@@ -65,7 +65,10 @@
       "any_hex": true
      }
     ],
-    "supply": "The holding combat unit must be suppliable by convoy from some hex of sheet D."
+    "supply": "The holding combat unit must be suppliable by convoy from some hex of sheet D.",
+    "supply_trace": {
+     "sheet": "D"
+    }
    },
    {
     "side": "axis",
@@ -82,7 +85,12 @@
       }
      }
     ],
-    "supply": "Each holding combat unit must be suppliable by convoy from Tobruk."
+    "supply": "Each holding combat unit must be suppliable by convoy from Tobruk.",
+    "supply_trace": {
+     "places": [
+      "tobruk"
+     ]
+    }
    },
    {
     "side": "axis",
@@ -109,7 +117,12 @@
       }
      }
     ],
-    "supply": "Each must be held in supply traced by convoy to Tobruk."
+    "supply": "Each must be held in supply traced by convoy to Tobruk.",
+    "supply_trace": {
+     "places": [
+      "tobruk"
+     ]
+    }
    },
    {
     "side": "cw",
@@ -133,7 +146,16 @@
       }
      }
     ],
-    "supply": "Each holding unit traces supply over a truck-convoy route to Cairo or Alexandria."
+    "supply": "Each holding unit traces supply over a truck-convoy route to Cairo or Alexandria.",
+    "supply_trace": {
+     "places": [
+      "cairo"
+     ],
+     "hexes": [
+      "E3613",
+      "E3714"
+     ]
+    }
    },
    {
     "side": "cw",
@@ -165,7 +187,16 @@
       }
      }
     ],
-    "supply": "Each holding unit traces supply over a truck-convoy route to Cairo or Alexandria."
+    "supply": "Each holding unit traces supply over a truck-convoy route to Cairo or Alexandria.",
+    "supply_trace": {
+     "places": [
+      "cairo"
+     ],
+     "hexes": [
+      "E3613",
+      "E3714"
+     ]
+    }
    },
    {
     "side": "cw",
@@ -177,13 +208,23 @@
       }
      }
     ],
-    "supply": "Each holding unit traces supply over a truck-convoy route to Cairo or Alexandria."
+    "supply": "Each holding unit traces supply over a truck-convoy route to Cairo or Alexandria.",
+    "supply_trace": {
+     "places": [
+      "cairo"
+     ],
+     "hexes": [
+      "E3613",
+      "E3714"
+     ]
+    }
    }
   ],
   "notes": [
    "Axis strategic is Alexandria OR Cairo (any hex); the schema has no either-or between places, so it is one objective over Alexandria's two hexes plus Cairo's listed hex (E1730) with any_hex. If Cairo has more hexes, they belong here too.",
    "Halfaya Pass is printed as C3922 and is not in places.json.",
-   "SPI spells the scenario 'Grazianni's' in 60.81 and 'Sidi Birani' in the Italian tactical condition."
+   "SPI spells the scenario 'Grazianni's' in 60.81 and 'Sidi Birani' in the Italian tactical condition.",
+   "supply_trace is the Land-only reading of each supply sentence (R-110). Alexandria is not in places.json; its two hexes (E3613, E3714) are listed as hexes"
   ]
  },
  "sides": {
