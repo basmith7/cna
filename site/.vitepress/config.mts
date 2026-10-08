@@ -82,6 +82,7 @@ export default defineConfig({
         ] },
         { text: 'Air Game', items: [
           { text: 'Overview & sequence', link: '/rules/air/00-overview-and-sequence' },
+          { text: 'Aircraft & squadrons', link: '/rules/air/10-aircraft-and-sgsus' },
           { text: 'Air facilities', link: '/rules/air/20-air-facilities' },
           { text: 'Flight & maintenance', link: '/rules/air/30-flight-and-maintenance' },
         ] },
