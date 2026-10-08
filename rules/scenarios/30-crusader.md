@@ -32,6 +32,9 @@ early in Game-Turn 58, sooner if it does not move in the opening stage.
 
 ::: ruling R-105 — a counter the set-up places twice (the 7th South African armoured cars)
 
+It is placed once, at Giarabub: the 2nd South African Division's *Det*
+entry names it only as detached from the division (59.2).
+
 ::: spi 62.33 62.34 62.35 62.36 62.37 62.38
 
 **Air, trucks, supply, Malta, fleet and reinforcements** are in the

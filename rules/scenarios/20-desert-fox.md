@@ -25,6 +25,9 @@ of its own.
 
 ::: ruling R-104 — what the Desert Fox campaign scenario consists of
 
+It runs from this set-up to the end of the campaign game, Game-Turn 111,
+and is won as the [campaign game](50-campaign-game.md#victory) is (64.7).
+
 ## Commonwealth forces {#commonwealth}
 
 ::: spi 61.3 61.31 61.32
@@ -40,6 +43,9 @@ with fewer tanks than their sheets give, some of them captured Italian
 M13/40s (the data's `special` list gives the figures).
 
 ::: ruling R-103 — 5 RTR's tanks with no 5 RTR in the set-up
+
+5 RTR starts with its brigade at A2022, with the tanks 61.32 gives it. The
+"ARTR" of 61.38 is a misprint and changes nothing.
 
 ::: spi 61.33 61.34
 

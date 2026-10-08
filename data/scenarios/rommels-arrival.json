@@ -537,7 +537,8 @@
        "unit": "unit:cw:3-armd-bde-hq",
        "assigned": [
         "unit:cw:6-rtr",
-        "unit:cw:3-hus"
+        "unit:cw:3-hus",
+        "unit:cw:5-rtr"
        ]
       },
       {

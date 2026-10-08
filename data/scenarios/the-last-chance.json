@@ -17,7 +17,7 @@
  ],
  "notes": [
   "Read from the archive.org scan, jp2 83-87 (printed pages 33-37), under a 20-minute limit; deployments marked unconfirmed were not fully matched.",
-  "63.2 prints the start as 'Game-Turn 1OZ' and the end as 'Game Turn 102 1st OpStage of Game-Turn 111' (garbled); start read as 102/1 and end as 102/3. Needs a ruling."
+  "63.2 prints the start as 'Game-Turn 1OZ' and the end as 'Game Turn 102 1st OpStage of Game-Turn 111' (garbled). R-108: start 102/1, end after 102/3 (one Game-Turn, as 63.1 says)."
  ],
  "start": {
   "game_turn": 102,
