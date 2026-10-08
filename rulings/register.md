@@ -83,6 +83,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-108](./R-108.md) | When the El Alamein scenarios start and end | accepted | 63.2 |
 | [R-109](./R-109.md) | Open points in the campaign game's victory rules | accepted | 64.71, 64.72, 64.75, 64.76 |
 | [R-110](./R-110.md) | Graziani's Offensive victory supply without the Logistics Game | accepted | 60.81, 60.92, 32.17 |
+| [R-111](./R-111.md) | Is the Flak printed on the map heavy? | proposed | 40.74, 46.1 |
 
 ## Variants
 
@@ -96,3 +97,20 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [V-006](./V-006.md) | Maintenance in a scenario's first Operations Stage | recorded | 59.36 |
 | [V-007](./V-007.md) | Italian squadrons in Sicily at the start of Group One | recorded | 60.32 |
 | [V-008](./V-008.md) | Mussolini's requirements | recorded | 60.22, 60.81 |
+| [V-009](./V-009.md) | Air missions flown by squadron | recorded | 34.84, 39.0, 41.5 |
+| [V-010](./V-010.md) | No Flak Destruction missions | recorded | 41.33, 41.37 |
+| [V-011](./V-011.md) | Attack and level bombers; aircraft capability changes | recorded | 34.1, 39.2, 42.2, 42.3 |
+| [V-012](./V-012.md) | Interception by range roll; DCAP screens only as escort | recorded | 45.1, 45.2, 45.32 |
+| [V-013](./V-013.md) | Air-to-air combat sequence | recorded | 45.0, 45.3 |
+| [V-014](./V-014.md) | Order of air steps after air-to-air combat | recorded | 33.0, 42.2, 46.0 |
+| [V-015](./V-015.md) | Flak target groups, high-altitude bombing and tank AA | recorded | 46.16, 46.3, 46.2 |
+| [V-016](./V-016.md) | Solo recon and sighting of air targets | recorded | 42.2, 42.25, 42.27 |
+| [V-017](./V-017.md) | Friendly fire from air attacks | recorded | 40.61, 40.62, 40.65, 41.31, 41.32 |
+| [V-018](./V-018.md) | Strafing changes | recorded | 40.6, 40.61, 40.62, 40.63, 40.64, 40.65, 40.66, 40.67 |
+| [V-019](./V-019.md) | Air bombardment changes | recorded | 41.3, 41.31, 41.32, 41.5, 41.6 |
+| [V-020](./V-020.md) | Ship flak in port joins the hex | recorded | 46.0, 44.1 |
+| [V-021](./V-021.md) | Unlimited Axis air-transport supply from Italy and Sicily | recorded | 42.3 |
+| [V-022](./V-022.md) | Unlimited flak ammunition in the Tripoli and Tunisia boxes | recorded | 46.0, 47.0 |
+| [V-023](./V-023.md) | Strategic air stages merged with the convoy stage | recorded | 33.0, 43.0 |
+| [V-024](./V-024.md) | Operation Herkules: an Axis invasion of Malta | recorded | 44.0, 44.18, 44.5 |
+| [V-025](./V-025.md) | Operation Albumen: commando raids on Crete's airfields | recorded | 43.0, 44.0 |
