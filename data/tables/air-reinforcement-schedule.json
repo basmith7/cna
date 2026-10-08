@@ -1,0 +1,1719 @@
+{
+ "table": "air-reinforcement-schedule",
+ "sources": [
+  "CNA1979:34.84",
+  "scan:p142"
+ ],
+ "notes": [
+  "Commonwealth Airplane Reinforcement and Squadron Withdrawal chart, printed as 34.84 (jp2 142). Read twice, from the archive.org scan and the community chart PDFs (Commonwealth Charts.pdf p. 32): 28 entries, 84 cells, 0 differ after normalising spacing and the multiplication sign (some entries print a letter X). No Axis counterpart was found on either source's pages searched.",
+  "period as printed; game_turns is the printed Game-Turn or range. A month's aircraft arrive spread as evenly as possible over its four Game-Turns unless the entry names one Game-Turn.",
+  "aircraft is the name as printed on this chart; it is not yet keyed to data/tables/aircraft-characteristics.json, whose names are fuller (e.g. B17D here, B-17/D Flying Fortress there).",
+  "withdrawals: squadrons removed at the start of the month (the November 1940 entry excepted), each of at least 12 aircraft, from anywhere including Malta and the Commonwealth off-map airfields; role: able to fly combat air patrol (cap), bombing or reconnaissance. Marks: * one of the squadrons must be at least 12 Beaufighters of any mark; ** two squadrons each of at least 12 aircraft able to carry 9 or more bomb points; ‡ one squadron must be of aircraft with 9 or more bomb points; † (both squadrons Beaufighters) is in the key but used by no entry."
+ ],
+ "rows": [
+  {
+   "period": "1940, Sept IV (GT 2)",
+   "game_turns": {
+    "from": 2,
+    "to": 2
+   },
+   "arrivals": [
+    {
+     "count": 3,
+     "aircraft": "Fulmar"
+    },
+    {
+     "count": 2,
+     "aircraft": "Hurricane I"
+    }
+   ],
+   "withdrawals": [],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Oct I (GT 3)",
+   "game_turns": {
+    "from": 3,
+    "to": 3
+   },
+   "arrivals": [
+    {
+     "count": 30,
+     "aircraft": "Blenheim I"
+    },
+    {
+     "count": 6,
+     "aircraft": "Skua II"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 1,
+     "role": "cap"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Nov II (GT 8)",
+   "game_turns": {
+    "from": 8,
+    "to": 8
+   },
+   "arrivals": [
+    {
+     "count": 4,
+     "aircraft": "B17D"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 2,
+     "role": "cap"
+    },
+    {
+     "squadrons": 2,
+     "role": "bombing",
+     "mark": "**"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Dec I (GT 11)",
+   "game_turns": {
+    "from": 11,
+    "to": 11
+   },
+   "arrivals": [
+    {
+     "count": 12,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 40,
+     "aircraft": "Wellington I"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 1,
+     "role": "bombing"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "1941, Jan (GT 15...18)",
+   "game_turns": {
+    "from": 15,
+    "to": 18
+   },
+   "arrivals": [
+    {
+     "count": 44,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 12,
+     "aircraft": "Blenheim I"
+    },
+    {
+     "count": 1,
+     "aircraft": "Wellington I"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 1,
+     "role": "cap"
+    },
+    {
+     "squadrons": 2,
+     "role": "bombing",
+     "mark": "**"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Feb (GT 19...22)",
+   "game_turns": {
+    "from": 19,
+    "to": 22
+   },
+   "arrivals": [
+    {
+     "count": 30,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 24,
+     "aircraft": "Blenheim I"
+    },
+    {
+     "count": 14,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 2,
+     "aircraft": "Maryland"
+    },
+    {
+     "count": 2,
+     "aircraft": "Wellington I"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 1,
+     "role": "cap"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Mar (GT 23...26)",
+   "game_turns": {
+    "from": 23,
+    "to": 26
+   },
+   "arrivals": [
+    {
+     "count": 14,
+     "aircraft": "Blenheim IVF"
+    },
+    {
+     "count": 13,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 2,
+     "aircraft": "Tomahawk"
+    },
+    {
+     "count": 21,
+     "aircraft": "Blenheim I"
+    },
+    {
+     "count": 6,
+     "aircraft": "Maryland"
+    },
+    {
+     "count": 6,
+     "aircraft": "Lysander"
+    },
+    {
+     "count": 16,
+     "aircraft": "Wellington"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 1,
+     "role": "bombing"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Apr (GT 27...30)",
+   "game_turns": {
+    "from": 27,
+    "to": 30
+   },
+   "arrivals": [
+    {
+     "count": 66,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 25,
+     "aircraft": "Tomahawk"
+    },
+    {
+     "count": 18,
+     "aircraft": "Blenheim I"
+    },
+    {
+     "count": 10,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 6,
+     "aircraft": "Maryland"
+    },
+    {
+     "count": 6,
+     "aircraft": "Lysander I"
+    },
+    {
+     "count": 13,
+     "aircraft": "Wellington I"
+    },
+    {
+     "count": 14,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 1,
+     "role": "cap"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "May (GT 31...34)",
+   "game_turns": {
+    "from": 31,
+    "to": 34
+   },
+   "arrivals": [
+    {
+     "count": 16,
+     "aircraft": "Beaufighter IF"
+    },
+    {
+     "count": 65,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 21,
+     "aircraft": "Tomahawk"
+    },
+    {
+     "count": 20,
+     "aircraft": "Blenheim I"
+    },
+    {
+     "count": 9,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 7,
+     "aircraft": "Maryland"
+    },
+    {
+     "count": 15,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Jun (GT 35...38)",
+   "game_turns": {
+    "from": 35,
+    "to": 38
+   },
+   "arrivals": [
+    {
+     "count": 5,
+     "aircraft": "Beaufighter IF"
+    },
+    {
+     "count": 15,
+     "aircraft": "Blenheim IVF"
+    },
+    {
+     "count": 5,
+     "aircraft": "Gladiator II"
+    },
+    {
+     "count": 136,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 41,
+     "aircraft": "Tomahawk"
+    },
+    {
+     "count": 10,
+     "aircraft": "Blenheim I"
+    },
+    {
+     "count": 10,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 6,
+     "aircraft": "Maryland"
+    },
+    {
+     "count": 12,
+     "aircraft": "Lysander I"
+    },
+    {
+     "count": 6,
+     "aircraft": "Wellington I"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 1,
+     "role": "cap"
+    },
+    {
+     "squadrons": 1,
+     "role": "bombing"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Jul (GT 39...42)",
+   "game_turns": {
+    "from": 39,
+    "to": 42
+   },
+   "arrivals": [
+    {
+     "count": 3,
+     "aircraft": "Gladiator II"
+    },
+    {
+     "count": 32,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 20,
+     "aircraft": "Tomahawk"
+    },
+    {
+     "count": 15,
+     "aircraft": "Wildcat"
+    },
+    {
+     "count": 12,
+     "aircraft": "Albacore"
+    },
+    {
+     "count": 35,
+     "aircraft": "Blenheim I"
+    },
+    {
+     "count": 50,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 12,
+     "aircraft": "Maryland"
+    },
+    {
+     "count": 10,
+     "aircraft": "Wellington I"
+    },
+    {
+     "count": 16,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 1,
+     "role": "recon"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Aug (GT 43...46)",
+   "game_turns": {
+    "from": 43,
+    "to": 46
+   },
+   "arrivals": [
+    {
+     "count": 4,
+     "aircraft": "Beaufighter IF"
+    },
+    {
+     "count": 2,
+     "aircraft": "Gladiator II"
+    },
+    {
+     "count": 27,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 67,
+     "aircraft": "Tomahawk"
+    },
+    {
+     "count": 7,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 22,
+     "aircraft": "Blenheim I"
+    },
+    {
+     "count": 44,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 30,
+     "aircraft": "Maryland"
+    },
+    {
+     "count": 14,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 1,
+     "role": "bombing"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Sep (GT 47...50)",
+   "game_turns": {
+    "from": 47,
+    "to": 50
+   },
+   "arrivals": [
+    {
+     "count": 3,
+     "aircraft": "Beaufighter IF"
+    },
+    {
+     "count": 13,
+     "aircraft": "Blenheim IVF"
+    },
+    {
+     "count": 140,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 20,
+     "aircraft": "Hurricane IIA"
+    },
+    {
+     "count": 23,
+     "aircraft": "Tomahawk"
+    },
+    {
+     "count": 2,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 15,
+     "aircraft": "Blenheim I"
+    },
+    {
+     "count": 10,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 3,
+     "aircraft": "Maryland"
+    },
+    {
+     "count": 13,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 1,
+     "role": "cap",
+     "mark": "*"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Oct (GT 51-54)",
+   "game_turns": {
+    "from": 51,
+    "to": 54
+   },
+   "arrivals": [
+    {
+     "count": 8,
+     "aircraft": "Beaufighter IF"
+    },
+    {
+     "count": 15,
+     "aircraft": "Fulmar"
+    },
+    {
+     "count": 81,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 16,
+     "aircraft": "Tomahawk"
+    },
+    {
+     "count": 3,
+     "aircraft": "B17D"
+    },
+    {
+     "count": 3,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 10,
+     "aircraft": "Blenheim I"
+    },
+    {
+     "count": 26,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 7,
+     "aircraft": "Boston III"
+    },
+    {
+     "count": 2,
+     "aircraft": "Maryland"
+    },
+    {
+     "count": 15,
+     "aircraft": "Wellington I"
+    }
+   ],
+   "withdrawals": [],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Nov (GT 55...58)",
+   "game_turns": {
+    "from": 55,
+    "to": 58
+   },
+   "arrivals": [
+    {
+     "count": 1,
+     "aircraft": "Beaufighter IF"
+    },
+    {
+     "count": 40,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 20,
+     "aircraft": "Hurricane IIA"
+    },
+    {
+     "count": 62,
+     "aircraft": "Kittyhawk I"
+    },
+    {
+     "count": 1,
+     "aircraft": "B17D"
+    },
+    {
+     "count": 4,
+     "aircraft": "Baltimore I"
+    },
+    {
+     "count": 4,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 16,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 1,
+     "aircraft": "Bombay"
+    },
+    {
+     "count": 23,
+     "aircraft": "Boston III"
+    },
+    {
+     "count": 2,
+     "aircraft": "Maryland"
+    },
+    {
+     "count": 17,
+     "aircraft": "Wellington I"
+    }
+   ],
+   "withdrawals": [],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Dec (GT 59...62)",
+   "game_turns": {
+    "from": 59,
+    "to": 62
+   },
+   "arrivals": [
+    {
+     "count": 32,
+     "aircraft": "Beaufighter IF"
+    },
+    {
+     "count": 61,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 32,
+     "aircraft": "Hurricane IIA"
+    },
+    {
+     "count": 90,
+     "aircraft": "Kittyhawk I"
+    },
+    {
+     "count": 45,
+     "aircraft": "Kittyhawk II"
+    },
+    {
+     "count": 9,
+     "aircraft": "Baltimore I"
+    },
+    {
+     "count": 1,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 40,
+     "aircraft": "Blenheim I"
+    },
+    {
+     "count": 20,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 32,
+     "aircraft": "Boston III"
+    },
+    {
+     "count": 3,
+     "aircraft": "Maryland"
+    },
+    {
+     "count": 1,
+     "aircraft": "Tiger Moth II"
+    },
+    {
+     "count": 10,
+     "aircraft": "Wellington I"
+    },
+    {
+     "count": 9,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 2,
+     "role": "cap"
+    },
+    {
+     "squadrons": 1,
+     "role": "bombing"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "1942. Jan (GT 63...66)",
+   "game_turns": {
+    "from": 63,
+    "to": 66
+   },
+   "arrivals": [
+    {
+     "count": 3,
+     "aircraft": "Beaufighter IF"
+    },
+    {
+     "count": 15,
+     "aircraft": "Blenheim IVF"
+    },
+    {
+     "count": 96,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 54,
+     "aircraft": "Hurricane IIA"
+    },
+    {
+     "count": 36,
+     "aircraft": "Hurricane IIB"
+    },
+    {
+     "count": 56,
+     "aircraft": "Kittyhawk I"
+    },
+    {
+     "count": 45,
+     "aircraft": "Kittyhawk II"
+    },
+    {
+     "count": 15,
+     "aircraft": "Kittyhawk III"
+    },
+    {
+     "count": 4,
+     "aircraft": "Tomahawk"
+    },
+    {
+     "count": 1,
+     "aircraft": "Caudron"
+    },
+    {
+     "count": 4,
+     "aircraft": "B17D"
+    },
+    {
+     "count": 4,
+     "aircraft": "B24"
+    },
+    {
+     "count": 15,
+     "aircraft": "Baltimore I"
+    },
+    {
+     "count": 2,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 37,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 7,
+     "aircraft": "Boston III"
+    },
+    {
+     "count": 3,
+     "aircraft": "Hudson"
+    },
+    {
+     "count": 3,
+     "aircraft": "Lysander"
+    },
+    {
+     "count": 18,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 4,
+     "role": "bombing",
+     "mark": "**"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Feb (GT 67...70)",
+   "game_turns": {
+    "from": 67,
+    "to": 70
+   },
+   "arrivals": [
+    {
+     "count": 21,
+     "aircraft": "Beaufighter IF"
+    },
+    {
+     "count": 7,
+     "aircraft": "Blenheim IVF"
+    },
+    {
+     "count": 15,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 36,
+     "aircraft": "Hurricane IIA"
+    },
+    {
+     "count": 21,
+     "aircraft": "Hurricane IIB"
+    },
+    {
+     "count": 16,
+     "aircraft": "Hurricane IIC"
+    },
+    {
+     "count": 30,
+     "aircraft": "Kittyhawk II"
+    },
+    {
+     "count": 12,
+     "aircraft": "Kittyhawk III"
+    },
+    {
+     "count": 30,
+     "aircraft": "Baltimore I"
+    },
+    {
+     "count": 6,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 4,
+     "aircraft": "Boston III"
+    },
+    {
+     "count": 2,
+     "aircraft": "Maryland"
+    },
+    {
+     "count": 2,
+     "aircraft": "Wellington I"
+    },
+    {
+     "count": 30,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 2,
+     "role": "cap"
+    },
+    {
+     "squadrons": 2,
+     "role": "bombing",
+     "mark": "‡"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Mar (GT 71...74)",
+   "game_turns": {
+    "from": 71,
+    "to": 74
+   },
+   "arrivals": [
+    {
+     "count": 25,
+     "aircraft": "Beaufighter IF"
+    },
+    {
+     "count": 18,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 3,
+     "aircraft": "Hurricane IIA"
+    },
+    {
+     "count": 38,
+     "aircraft": "Hurricane IIB"
+    },
+    {
+     "count": 22,
+     "aircraft": "Hurricane IIC"
+    },
+    {
+     "count": 30,
+     "aircraft": "Kittyhawk I"
+    },
+    {
+     "count": 48,
+     "aircraft": "Kittyhawk II"
+    },
+    {
+     "count": 30,
+     "aircraft": "Kittyhawk III"
+    },
+    {
+     "count": 35,
+     "aircraft": "Spitfire VB"
+    },
+    {
+     "count": 12,
+     "aircraft": "Anson I"
+    },
+    {
+     "count": 46,
+     "aircraft": "Baltimore I"
+    },
+    {
+     "count": 12,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 10,
+     "aircraft": "Boston III"
+    },
+    {
+     "count": 10,
+     "aircraft": "Hudson"
+    },
+    {
+     "count": 1,
+     "aircraft": "Sunderland"
+    },
+    {
+     "count": 30,
+     "aircraft": "Wellington I"
+    },
+    {
+     "count": 60,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Apr (GT 75...78)",
+   "game_turns": {
+    "from": 75,
+    "to": 78
+   },
+   "arrivals": [
+    {
+     "count": 13,
+     "aircraft": "Beaufighter IF"
+    },
+    {
+     "count": 5,
+     "aircraft": "Beaufighter VI"
+    },
+    {
+     "count": 15,
+     "aircraft": "Hurricane IIA"
+    },
+    {
+     "count": 60,
+     "aircraft": "Hurricane IIB"
+    },
+    {
+     "count": 36,
+     "aircraft": "Hurricane IIC"
+    },
+    {
+     "count": 11,
+     "aircraft": "Kittyhawk II"
+    },
+    {
+     "count": 61,
+     "aircraft": "Spitfire VB"
+    },
+    {
+     "count": 2,
+     "aircraft": "Caudron"
+    },
+    {
+     "count": 4,
+     "aircraft": "Anson I"
+    },
+    {
+     "count": 50,
+     "aircraft": "Baltimore I"
+    },
+    {
+     "count": 5,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 2,
+     "aircraft": "Boston III"
+    },
+    {
+     "count": 13,
+     "aircraft": "Hudson"
+    },
+    {
+     "count": 2,
+     "aircraft": "Potez"
+    },
+    {
+     "count": 16,
+     "aircraft": "Wellington I"
+    },
+    {
+     "count": 45,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "May (GT 79...82)",
+   "game_turns": {
+    "from": 79,
+    "to": 82
+   },
+   "arrivals": [
+    {
+     "count": 3,
+     "aircraft": "Beaufighter IF"
+    },
+    {
+     "count": 17,
+     "aircraft": "Beaufighter VI"
+    },
+    {
+     "count": 13,
+     "aircraft": "Hurricane IID"
+    },
+    {
+     "count": 16,
+     "aircraft": "Kittyhawk I"
+    },
+    {
+     "count": 40,
+     "aircraft": "Kittyhawk III"
+    },
+    {
+     "count": 96,
+     "aircraft": "Spitfire VB"
+    },
+    {
+     "count": 3,
+     "aircraft": "Tomahawk"
+    },
+    {
+     "count": 2,
+     "aircraft": "Dewoitine"
+    },
+    {
+     "count": 22,
+     "aircraft": "Anson I"
+    },
+    {
+     "count": 25,
+     "aircraft": "B17D"
+    },
+    {
+     "count": 25,
+     "aircraft": "B24"
+    },
+    {
+     "count": 42,
+     "aircraft": "Baltimore I"
+    },
+    {
+     "count": 10,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 23,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 42,
+     "aircraft": "Hudson"
+    },
+    {
+     "count": 1,
+     "aircraft": "Maryland"
+    },
+    {
+     "count": 57,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 1,
+     "role": "cap"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Jun (GT 83...86)",
+   "game_turns": {
+    "from": 83,
+    "to": 86
+   },
+   "arrivals": [
+    {
+     "count": 31,
+     "aircraft": "Beaufighter VI"
+    },
+    {
+     "count": 18,
+     "aircraft": "Hurricane IIA"
+    },
+    {
+     "count": 36,
+     "aircraft": "Hurricane IIB"
+    },
+    {
+     "count": 50,
+     "aircraft": "Hurricane IIC"
+    },
+    {
+     "count": 16,
+     "aircraft": "Kittyhawk II"
+    },
+    {
+     "count": 35,
+     "aircraft": "Kittyhawk III"
+    },
+    {
+     "count": 59,
+     "aircraft": "Spitfire VB"
+    },
+    {
+     "count": 14,
+     "aircraft": "Spitfire VC"
+    },
+    {
+     "count": 26,
+     "aircraft": "Baltimore I"
+    },
+    {
+     "count": 42,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 4,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 5,
+     "aircraft": "Boston III"
+    },
+    {
+     "count": 4,
+     "aircraft": "Hudson"
+    }
+   ],
+   "withdrawals": [],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Jul (GT 87...90)",
+   "game_turns": {
+    "from": 87,
+    "to": 90
+   },
+   "arrivals": [
+    {
+     "count": 4,
+     "aircraft": "Beaufighter IF"
+    },
+    {
+     "count": 28,
+     "aircraft": "Beaufighter VI"
+    },
+    {
+     "count": 18,
+     "aircraft": "Hurricane IIA"
+    },
+    {
+     "count": 30,
+     "aircraft": "Hurricane IIB"
+    },
+    {
+     "count": 30,
+     "aircraft": "Hurricane IIC"
+    },
+    {
+     "count": 23,
+     "aircraft": "Kittyhawk I"
+    },
+    {
+     "count": 22,
+     "aircraft": "Spitfire VB"
+    },
+    {
+     "count": 59,
+     "aircraft": "Spitfire VC"
+    },
+    {
+     "count": 4,
+     "aircraft": "Anson I"
+    },
+    {
+     "count": 2,
+     "aircraft": "B24"
+    },
+    {
+     "count": 8,
+     "aircraft": "Baltimore I"
+    },
+    {
+     "count": 12,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 136,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 24,
+     "aircraft": "Halifax II"
+    },
+    {
+     "count": 42,
+     "aircraft": "Hudson"
+    },
+    {
+     "count": 6,
+     "aircraft": "Wellington I"
+    },
+    {
+     "count": 18,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Aug (GT 91...94)",
+   "game_turns": {
+    "from": 91,
+    "to": 94
+   },
+   "arrivals": [
+    {
+     "count": 49,
+     "aircraft": "Beaufighter VI"
+    },
+    {
+     "count": 35,
+     "aircraft": "Hurricane IIA"
+    },
+    {
+     "count": 12,
+     "aircraft": "Hurricane IIB"
+    },
+    {
+     "count": 36,
+     "aircraft": "Hurricane IIC"
+    },
+    {
+     "count": 36,
+     "aircraft": "Kittyhawk II"
+    },
+    {
+     "count": 43,
+     "aircraft": "Kittyhawk III"
+    },
+    {
+     "count": 30,
+     "aircraft": "Spitfire VB"
+    },
+    {
+     "count": 42,
+     "aircraft": "Spitfire VC"
+    },
+    {
+     "count": 1,
+     "aircraft": "Dewoitine"
+    },
+    {
+     "count": 10,
+     "aircraft": "Anson I"
+    },
+    {
+     "count": 15,
+     "aircraft": "B24"
+    },
+    {
+     "count": 57,
+     "aircraft": "B25"
+    },
+    {
+     "count": 19,
+     "aircraft": "B26"
+    },
+    {
+     "count": 22,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 101,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 2,
+     "aircraft": "Halifax II"
+    },
+    {
+     "count": 83,
+     "aircraft": "Hudson"
+    },
+    {
+     "count": 1,
+     "aircraft": "Tiger Moth II"
+    },
+    {
+     "count": 35,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 2,
+     "role": "cap",
+     "mark": "*"
+    },
+    {
+     "squadrons": 1,
+     "role": "bombing"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Sep (GT 95...98)",
+   "game_turns": {
+    "from": 95,
+    "to": 98
+   },
+   "arrivals": [
+    {
+     "count": 1,
+     "aircraft": "Beaufighter IF"
+    },
+    {
+     "count": 51,
+     "aircraft": "Beaufighter VI"
+    },
+    {
+     "count": 20,
+     "aircraft": "Hurricane I"
+    },
+    {
+     "count": 45,
+     "aircraft": "Hurricane IIA"
+    },
+    {
+     "count": 40,
+     "aircraft": "Hurricane IIB"
+    },
+    {
+     "count": 58,
+     "aircraft": "Hurricane IIC"
+    },
+    {
+     "count": 30,
+     "aircraft": "Kittyhawk I"
+    },
+    {
+     "count": 67,
+     "aircraft": "Kittyhawk II"
+    },
+    {
+     "count": 50,
+     "aircraft": "Kittyhawk III"
+    },
+    {
+     "count": 15,
+     "aircraft": "Spitfire VB"
+    },
+    {
+     "count": 35,
+     "aircraft": "Spitfire VC"
+    },
+    {
+     "count": 2,
+     "aircraft": "Caudron"
+    },
+    {
+     "count": 12,
+     "aircraft": "Anson I"
+    },
+    {
+     "count": 1,
+     "aircraft": "B24"
+    },
+    {
+     "count": 30,
+     "aircraft": "B26"
+    },
+    {
+     "count": 9,
+     "aircraft": "Baltimore I"
+    },
+    {
+     "count": 11,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 51,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 40,
+     "aircraft": "Hudson"
+    },
+    {
+     "count": 1,
+     "aircraft": "Maryland"
+    },
+    {
+     "count": 2,
+     "aircraft": "Wellington I"
+    },
+    {
+     "count": 30,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Oct (GT 99...102)",
+   "game_turns": {
+    "from": 99,
+    "to": 102
+   },
+   "arrivals": [
+    {
+     "count": 36,
+     "aircraft": "Beaufighter VI"
+    },
+    {
+     "count": 30,
+     "aircraft": "Hurricane IIB"
+    },
+    {
+     "count": 18,
+     "aircraft": "Hurricane IIC"
+    },
+    {
+     "count": 15,
+     "aircraft": "Hurricane IID"
+    },
+    {
+     "count": 18,
+     "aircraft": "Kittyhawk II"
+    },
+    {
+     "count": 40,
+     "aircraft": "Kittyhawk III"
+    },
+    {
+     "count": 15,
+     "aircraft": "Spitfire VB"
+    },
+    {
+     "count": 15,
+     "aircraft": "Spitfire VC"
+    },
+    {
+     "count": 6,
+     "aircraft": "Anson I"
+    },
+    {
+     "count": 26,
+     "aircraft": "B25"
+    },
+    {
+     "count": 3,
+     "aircraft": "Beaufort I"
+    },
+    {
+     "count": 15,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 12,
+     "aircraft": "Hudson"
+    },
+    {
+     "count": 18,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Nov (GT 103...106)",
+   "game_turns": {
+    "from": 103,
+    "to": 106
+   },
+   "arrivals": [
+    {
+     "count": 21,
+     "aircraft": "Beaufighter VI"
+    },
+    {
+     "count": 6,
+     "aircraft": "Hurricane IIB"
+    },
+    {
+     "count": 12,
+     "aircraft": "Hurricane IIC"
+    },
+    {
+     "count": 15,
+     "aircraft": "Hurricane IID"
+    },
+    {
+     "count": 12,
+     "aircraft": "Kittyhawk III"
+    },
+    {
+     "count": 30,
+     "aircraft": "Spitfire VC"
+    },
+    {
+     "count": 6,
+     "aircraft": "Anson I"
+    },
+    {
+     "count": 10,
+     "aircraft": "B25"
+    },
+    {
+     "count": 18,
+     "aircraft": "B26"
+    },
+    {
+     "count": 15,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 5,
+     "aircraft": "Hudson"
+    }
+   ],
+   "withdrawals": [
+    {
+     "squadrons": 2,
+     "role": "cap",
+     "mark": "*"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  },
+  {
+   "period": "Dec (GT 107...110)",
+   "game_turns": {
+    "from": 107,
+    "to": 110
+   },
+   "arrivals": [
+    {
+     "count": 2,
+     "aircraft": "Beaufighter VI"
+    },
+    {
+     "count": 24,
+     "aircraft": "Hurricane IIB"
+    },
+    {
+     "count": 18,
+     "aircraft": "Hurricane IIC"
+    },
+    {
+     "count": 12,
+     "aircraft": "Kittyhawk III"
+    },
+    {
+     "count": 15,
+     "aircraft": "Spitfire VC"
+    },
+    {
+     "count": 15,
+     "aircraft": "Blenheim IV"
+    },
+    {
+     "count": 8,
+     "aircraft": "Wellington IV"
+    }
+   ],
+   "withdrawals": [],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p142"
+   ]
+  }
+ ]
+}

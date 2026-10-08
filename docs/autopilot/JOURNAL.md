@@ -418,3 +418,9 @@ Incident: a merge helper run in a git worktree committed a `.venv` symlink (#180
 In flight: Mission 7 Part 0, spec and plan on this branch.
 Next: merge the m7 spec, then Task 1 (rules/air/ folder, sidebar group "Air Game", CI coverage 1-65 incl. 33-47 when files land).
 Blocked: none (copy group: German c/d CPA, el Grein, 4.49 misaligned rows, coastal ship tonnage).
+
+## 2026-10-08 16:20 MST — autopilot/air-reinforcements
+Done: Mission 7 started. #188 spec+plan (sequence reuses logistics-sequence.json + logistics_game_only), #189 overview §33, #191 seed (R-111, V-009–V-025), #190 §36 air facilities, #192/#194 §37–38 flight & maintenance + aircraft-refit.json (R-112 opened), #193 aircraft-characteristics.json (102 rows, read twice), #195 §35 SGSUs, this PR #196 CW air reinforcements (34.84).
+In flight: none besides this PR. Reads kept in /tmp/apwork/reads/ (ac-A/B, airreinf-A, refit-A/B) if /tmp survives.
+Next: Task 3.1 rest = §34 aircraft prose into rules/air/10-aircraft-and-sgsus.md (key air-reinforcement names to aircraft ids; Axis air reinforcements: none found on chart pages, check §34.8 text); then 3.4 missions (§39+§42), 3.5 fighters (§40), 3.6 bombing (§41), 3.7 air combat+flak (§45–46), 3.8 §43–44, 3.9 §47 + final switch list. CI sections now 1-33,35-38,48-65.
+Blocked: none. Gotcha: never run git in a worktree with a symlinked .venv; `gh pr merge` does not wait for CI here, so check `gh pr checks` is all pass first.

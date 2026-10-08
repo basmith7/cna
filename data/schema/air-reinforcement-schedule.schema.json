@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "air-reinforcement-schedule.schema.json",
+  "title": "Commonwealth air reinforcement and squadron withdrawal chart (34.84)",
+  "type": "object",
+  "required": ["table", "sources", "rows"],
+  "additionalProperties": false,
+  "properties": {
+    "table": {"const": "air-reinforcement-schedule"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["period", "game_turns", "arrivals", "withdrawals", "sources"], "additionalProperties": false,
+      "properties": {
+        "period": {"type": "string"},
+        "game_turns": {"type": "object", "required": ["from", "to"], "additionalProperties": false,
+                       "properties": {"from": {"type": "integer", "minimum": 1}, "to": {"type": "integer", "minimum": 1}}},
+        "arrivals": {"type": "array", "items": {"type": "object", "required": ["count", "aircraft"], "additionalProperties": false,
+                     "properties": {"count": {"type": "integer", "minimum": 1}, "aircraft": {"type": "string", "minLength": 1}}}},
+        "withdrawals": {"type": "array", "items": {"type": "object", "required": ["squadrons", "role"], "additionalProperties": false,
+                        "properties": {"squadrons": {"type": "integer", "minimum": 1}, "role": {"enum": ["cap", "bombing", "recon"]},
+                                       "mark": {"type": "string", "pattern": "^[*†‡]+$"}}}},
+        "sources": {"$ref": "common.schema.json#/$defs/sources"}
+      }}}
+  }
+}

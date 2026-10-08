@@ -508,3 +508,8 @@ the PR that adds or substantially rewrites the file.
 - **Cases read:** §37 (21 ids) and §38 (27 ids); the Aircraft Refit Table, printed as 38.37 on chart page 10 (jp2 104), called 38.38 by the rules.
 - **Cross-check:** second read from the community chart PDFs (Shared Charts.pdf p. 10): 0 of 17 cells differ. The table's key words the national refit additions by the working SGSU's nation where 38.35 words them by the aircraft's: opened R-112.
 - **Not transcribed:** the Air Distance Table (37.4), a counting aid; distances come from `data/map/`.
+
+## data/tables/air-reinforcement-schedule.json — 2026-10-08
+- **Chart read:** the Commonwealth air reinforcement and squadron withdrawal chart, printed 34.84 (jp2 142). 28 entries, September 1940 (Game-Turn 2) to December 1942 (Game-Turns 107–110).
+- **How expressed:** per entry the printed period, its Game-Turn span, arrivals as count and aircraft name as printed, withdrawals as squadrons by role with the key's marks. Aircraft names are not yet keyed to `aircraft-characteristics.json` (for Task 3.1).
+- **Cross-check:** second read from the community chart PDFs (Commonwealth Charts.pdf p. 32): 84 cells, 0 differ after normalising spacing and "X" for "×". The month spans agree with R-108's calendar (Game-Turn 63 = January 1942 week I; 102 = October 1942 week IV).
