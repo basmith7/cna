@@ -22,7 +22,7 @@
         "additionalProperties": false,
         "properties": {
           "nation": {"$ref": "common.schema.json#/$defs/nation"},
-          "id_code": {"type": "string", "pattern": "^[a-z]{1,2}$"},
+          "id_code": {"type": "string", "pattern": "^[a-z]{1,3}$"},
           "unit_type": {"type": "string", "minLength": 1},
           "cpa": {"$ref": "#/$defs/cell"},
           "anti_air": {"$ref": "#/$defs/cell"},
