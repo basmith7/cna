@@ -123,14 +123,15 @@ Then, for Player A and afterwards for Player B:
   3. *Combat* ([Combat](60-combat.md)), in this step order:
      1. position determination for all gun- and armour-class units, both sides;
      2. barrage — both sides plot secretly, then execute;
-     3. retreat before assault — Player B only, units permitted to;
+     3. retreat before assault — the non-phasing player only, units permitted
+        to;
      4. force assignment — both sides secretly split TOE strength points between
-        anti-armour and close assault; Player A privately decides which
+        anti-armour and close assault; the phasing player privately decides which
         assaults are probes and which points are withheld;
      5. anti-armour fire — simultaneous; remove casualties, place destroyed-tank
         markers;
-     6. close assault — resolved in any order Player A chooses, revealing after
-        each one whether it was a probe.
+     6. close assault — resolved in any order the phasing player chooses,
+        revealing after each one whether it was a probe.
   4. *Reserve release*: the phasing player may release any of their reserves.
 - **H. Truck convoy movement** — the phasing player moves unattached second-
   and third-line trucks, and any prisoners with their guards.
