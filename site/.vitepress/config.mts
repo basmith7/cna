@@ -82,6 +82,7 @@ export default defineConfig({
         ] },
         { text: 'Air Game', items: [
           { text: 'Overview & sequence', link: '/rules/air/00-overview-and-sequence' },
+          { text: 'Air facilities', link: '/rules/air/20-air-facilities' },
         ] },
         { text: 'Scenarios', items: [
           { text: 'Reading a scenario', link: '/rules/scenarios/00-reading-scenarios' },
