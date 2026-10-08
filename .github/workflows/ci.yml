@@ -29,7 +29,7 @@ jobs:
       - name: Coverage report
         run: |
           status=0
-          python tools/check_coverage.py --sections 1-33,35-38,43,48-65 --markdown > coverage.md || status=$?
+          python tools/check_coverage.py --sections 1-33,35-38,43,46,48-65 --markdown > coverage.md || status=$?
           cat coverage.md
           exit "$status"
       - if: ${{ always() && github.event_name == 'pull_request' && hashFiles('coverage.md') != '' }}

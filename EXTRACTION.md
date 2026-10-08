@@ -513,3 +513,8 @@ the PR that adds or substantially rewrites the file.
 - **Chart read:** the Commonwealth air reinforcement and squadron withdrawal chart, printed 34.84 (jp2 142). 28 entries, September 1940 (Game-Turn 2) to December 1942 (Game-Turns 107–110).
 - **How expressed:** per entry the printed period, its Game-Turn span, arrivals as count and aircraft name as printed, withdrawals as squadrons by role with the key's marks. Aircraft names are not yet keyed to `aircraft-characteristics.json` (for Task 3.1).
 - **Cross-check:** second read from the community chart PDFs (Commonwealth Charts.pdf p. 32): 84 cells, 0 differ after normalising spacing and "X" for "×". The month spans agree with R-108's calendar (Game-Turn 63 = January 1942 week I; 102 = October 1942 week IV).
+
+## data/tables/anti-aircraft-results.json; rules/air/70-air-combat-and-flak.md (§46) — 2026-10-08
+- **Charts read:** Anti-Aircraft Combat Results Table (46.3; chart page 13, jp2 107, upside down in the scan) and the Flak Adjustment Chart (46.4; community Shared Charts.pdf p. 11 only, not found on the archive.org chart pages searched, jp2 95–115).
+- **Cross-check:** 46.3 read twice (Shared Charts.pdf p. 13): 180 cells, 1 differs in dots only. A test checks every column of every block covers the 36 two-dice rolls exactly once (all 30 columns do). 46.4 has one read.
+- **Rulings:** opened R-113 (the table's own density note and 46.4 count differently).

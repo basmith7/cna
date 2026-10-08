@@ -85,6 +85,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-110](./R-110.md) | Graziani's Offensive victory supply without the Logistics Game | accepted | 60.81, 60.92, 32.17 |
 | [R-111](./R-111.md) | Is the Flak printed on the map heavy? | proposed | 40.74, 46.1 |
 | [R-112](./R-112.md) | Refit additions: by the aircraft's nation or the SGSU's? | proposed | 38.35, 38.38 |
+| [R-113](./R-113.md) | Two density shifts for flak | proposed | 46.3, 46.4 |
 
 ## Variants
 

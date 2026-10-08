@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "anti-aircraft-results.schema.json",
+  "title": "Anti-Aircraft Combat Results Table (46.3) and Flak Adjustment Chart (46.4)",
+  "type": "object",
+  "required": ["table", "sources", "columns", "fighter_missions", "other_missions", "density_shift"],
+  "additionalProperties": false,
+  "$defs": {
+    "span": {"type": "object", "required": ["from", "to"], "additionalProperties": false,
+             "properties": {"from": {"type": "integer", "minimum": 1}, "to": {"type": ["integer", "null"]}}},
+    "block": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["result", "dice"], "additionalProperties": false,
+              "properties": {"result": {"type": "integer", "minimum": 0},
+                             "dice": {"type": "array", "items": {"oneOf": [{"$ref": "#/$defs/span"}, {"type": "null"}]}}}}}
+  },
+  "properties": {
+    "table": {"const": "anti-aircraft-results"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "columns": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/span"}},
+    "fighter_missions": {"$ref": "#/$defs/block"},
+    "other_missions": {"type": "object", "required": ["destroyed", "aborted"], "additionalProperties": false,
+                       "properties": {"destroyed": {"$ref": "#/$defs/block"}, "aborted": {"$ref": "#/$defs/block"}}},
+    "density_shift": {"type": "array", "items": {"type": "object", "required": ["planes", "shift"], "additionalProperties": false,
+                      "properties": {"planes": {"$ref": "#/$defs/span"}, "shift": {"type": "integer", "minimum": 0}}}}
+  }
+}
