@@ -30,10 +30,11 @@ The next run reads this section first, acts on it, and moves each item to
 | 3.1 Aircraft and squadrons (§34–35): §35 SGSUs done; aircraft characteristics (102 rows, 1 of 1224 cells differed, convention only) and Commonwealth air reinforcements (34.84, 0 of 84) as data; §34 prose next | part | #193, #195, #196 |
 | 3.2 Air facilities (§36) | merged | #190 |
 | 3.3 Flight and maintenance (§37–38); Aircraft Refit Table as data (0 of 17); R-112 opened (refit additions by aircraft or by SGSU nation) | merged | #192, #194 |
-| 3.8 Mediterranean bases (§43) | PR open | #197 |
-| 3.4–3.7, 3.8 Malta (§44), 3.9 (§47 + final switch list) | not started | |
+| 3.7 Anti-aircraft fire (§46); results table read twice (1 of 180 differs, dots only), Flak Adjustment Chart one read; R-113 opened (two density shifts) | merged | #198 |
+| 3.8 Mediterranean bases (§43) | merged | #197 |
+| 3.4 missions (§39, §42), 3.5 fighters (§40), 3.6 bombing (§41), 3.7 air-to-air (§45), 3.8 Malta (§44), 3.9 (§47 + final switch list) | not started | |
 
-Air coverage so far: §33, §35–38, §43 (96 of 431 cases).
+Air coverage so far: §33, §35–38, §43, §46 (116 of 431 cases). Open air rulings: R-111, R-112, R-113.
 
 **MISSION 6 COMPLETE** (scenarios and OA sheets, §59–65), 2026-10-08 23:00 UTC. Every part merged after local gates and green CI; §59–65 171/171 cases covered.
 
@@ -127,7 +128,7 @@ Missions 1–4 are complete (PRs #2–#101).
 
 ## Next steps
 
-For the autopilot: cna-engine's **Requests for cna** first. Then Mission 7: merge #197 if open; §34 aircraft prose (finishing `rules/air/10-aircraft-and-sgsus.md`, keying the reinforcement chart's names to aircraft ids); then §39+§42 missions, §40 fighters, §41 bombing, §45–46 air combat and flak, §44 Malta, §47 and the final switch list; then decide R-111, R-112 and any new air rulings.
+For the autopilot: cna-engine's **Requests for cna** first. Then Mission 7: §34 aircraft prose (finishing `rules/air/10-aircraft-and-sgsus.md`, keying the reinforcement chart's names to aircraft ids); then §39+§42 missions, §40 fighters, §41 bombing, §45–46 air combat and flak, §44 Malta, §47 and the final switch list; then decide R-111, R-112 and any new air rulings.
 
 For Brian (all optional):
 
