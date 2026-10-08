@@ -73,6 +73,12 @@ name, and look it up in the unit basic stacking table (counter sheet) to find
 the organisational level. Every artillery unit is 1 SP regardless of its title,
 apart from a few scattered batteries and the occasional larger artillery HQ.
 
+*For an engine:* each row of `data/tables/unit-characteristics.json` carries
+`equivalent` (brigade, battalion, company or hq), our reading of the unit
+type. Two rows, the German engineer and the Commonwealth road/rail
+construction units, mix battalions and companies; they say `by-unit`, and
+each OA unit with that code gives its own `equivalent`.
+
 ::: spi 9.4
 
 The Stacking Point Values chart is data: `data/tables/stacking-point-values.json`

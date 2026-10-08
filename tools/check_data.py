@@ -131,6 +131,8 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
     units: dict[str, str] = {}
     parents: list[tuple[str, str, str]] = []
     formations: set[str] = set()
+    by_unit = {(r["nation"], r["id_code"]) for r in (tables.get("unit-characteristics") or {"rows": []})["rows"]
+               if r.get("equivalent") == "by-unit"}
     for p in sorted((data_dir / "oa").glob("*.json")) if (data_dir / "oa").is_dir() else []:
         label = f"oa/{p.name}"
         doc = _load_json(p, label, errors)
@@ -152,6 +154,9 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
                 if u["id"] in units:
                     errors.append(f"{label}: duplicate unit {u['id']}")
                 units[u["id"]] = label
+                if ((doc["nation"], u["id_code"]) in by_unit) != ("equivalent" in u):
+                    errors.append(f"{label}: {u['id']}: equivalent must be given exactly when its "
+                                  "unit-characteristics row says by-unit")
                 if u["parent"]:
                     parents.append((label, u["id"], u["parent"]))
     for label, uid, parent in parents:
