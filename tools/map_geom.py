@@ -68,3 +68,15 @@ def centre(hid, sheets, size=20.0):
 def corners(cx, cy, size=20.0):
     return [(cx + size * math.cos(math.radians(60 * i - 30)), cy + size * math.sin(math.radians(60 * i - 30)))
             for i in range(6)]
+
+
+def country(hex_id: str, regions: dict) -> str | None:
+    """'libya' or 'egypt' for a hex, from data/map/regions.json; None for Malta."""
+    sheet = hex_id[0]
+    if sheet in regions["whole_sheets"]:
+        return regions["whole_sheets"][sheet]
+    split = regions["split_sheet"]
+    if sheet != split["sheet"]:
+        return None
+    row, col = int(hex_id[1:3]), int(hex_id[3:5])
+    return split["east"] if col >= split["first_east_col"][str(row)] else split["west"]

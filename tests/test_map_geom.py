@@ -59,3 +59,14 @@ def test_north_is_up_and_east_is_right():
     x41, y41 = g.centre("C4123", SHEETS)
     x24, _ = g.centre("C4024", SHEETS)
     assert y41 < y40 and x24 > x40
+
+
+def test_country_anchors_from_the_printed_frontier():
+    import json
+    import pathlib
+    regions = json.loads((pathlib.Path(__file__).resolve().parents[1] / "data" / "map" / "regions.json").read_text())
+    egypt = ["C4021", "C3922", "C3618", "C0127", "D3714", "E3613"]
+    libya = ["C4020", "C4321", "C3019", "C1014", "B4921", "A4827"]
+    assert [g.country(h, regions) for h in egypt] == ["egypt"] * len(egypt)
+    assert [g.country(h, regions) for h in libya] == ["libya"] * len(libya)
+    assert sorted(regions["split_sheet"]["first_east_col"], key=int) == [str(r) for r in range(1, 52)]

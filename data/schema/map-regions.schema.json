@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "map-regions.schema.json",
+  "title": "Countries on the map: which hexes are in Libya and which in Egypt",
+  "description": "Used by scenario placements such as {\"region\": \"libya\"}. tools/map_geom.country is the reference reading.",
+  "type": "object",
+  "required": [
+    "sources",
+    "whole_sheets",
+    "split_sheet"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "sources": {
+      "$ref": "common.schema.json#/$defs/sources"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "whole_sheets": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ]
+      },
+      "additionalProperties": {
+        "enum": [
+          "libya",
+          "egypt"
+        ]
+      }
+    },
+    "split_sheet": {
+      "type": "object",
+      "required": [
+        "sheet",
+        "west",
+        "east",
+        "first_east_col"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "sheet": {
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        "west": {
+          "enum": [
+            "libya",
+            "egypt"
+          ]
+        },
+        "east": {
+          "enum": [
+            "libya",
+            "egypt"
+          ]
+        },
+        "first_east_col": {
+          "type": "object",
+          "propertyNames": {
+            "pattern": "^[1-9][0-9]?$"
+          },
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 34
+          },
+          "description": "Row number -> first column of the eastern country in that row (34: none)"
+        }
+      }
+    }
+  }
+}
