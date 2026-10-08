@@ -1,0 +1,1798 @@
+{
+ "table": "weapon-systems",
+ "sources": [
+  "CNA1979:4.47",
+  "CNA1979:4.48",
+  "CNA1979:4.49",
+  "scan:p137",
+  "scan:p138",
+  "scan:p172"
+ ],
+ "notes": [
+  "Tank and Gun Characteristics Charts 4.47 (Commonwealth, jp2 137), 4.48 (Italian, jp2 138), 4.49 (German, jp2 172): the ratings of one TOE Strength Point of each weapon system (definitions in 3.3). Read twice, from the archive.org scan and from the community chart PDFs (Commonwealth Charts.pdf p. 27, Axis Charts.pdf pp. 29-30): 0 of 729 cells differ.",
+  "Cells as printed: plain numbers as integers, parenthesised or marked values as strings (a parenthesised rating cannot be used while any unit in the hex has ammunition and an unparenthesised rating of that kind), dashes and blanks as null. Close Assault is printed as Off/Def in one column; it is split here. bar is the Breakdown Adjustment Rating (columns left L or right R, or 0).",
+  "class is ours: tank, artillery, anti-tank or anti-air from the chart's section headings. The German chart prints no heading over its artillery rows (7.5cm IG18 to 21cm mrs18); they are artillery here.",
+  "marks keeps the printed footnote signs. Commonwealth: * a US tank (only changes how many fit a tank battalion-equivalent); † the Scorpion, a mine-clearing tank on a Valentine chassis, counts as engineers for minefields and arrives with two tank battalions returning in October 1942; ‡ the SP guns (Bishop, Priest, Deacon). Italian: * the Semovente 75/18 SP gun; *** ParaArt is 81mm mortars with light anti-tank guns, the only Italian gun that can be air-dropped; **** the 'I' AA points have no transport of their own (CPA 0+) and move only with trucks assigned; the Tobruk coast-defence artillery groups never move. German: *** captured Russian guns; **** a Czech 47mm gun on a Pz I chassis; the 7.5cm light infantry gun and 2.8cm anti-tank gun may be air-transported or dropped.",
+  "before: values that apply until the Game-Turn given. The Italian 75/27 and German 7.5cm guns have anti-armour 0 until the first OpStage of January 1942 (Game-Turn 63; the Italian footnote misprints the year 11942). Every German tank has BAR 1R until Game-Turn 31.",
+  "printed: three German rows are misaligned on the chart, and both reads agree on where the cells sit (kept in printed as a JSON list, CPA to BAR). Our realignment by the neighbouring rows: Pz III E as vulnerability -, armour 3, Off/Def 4/4, fuel 3, BAR 0 (compare Pz III H); 7.62cm Pak(R) and Marder III lack a cell, so their values move one column right; the Pak(R)'s CPA is 15 like every towed gun on the three charts, the Marder's is unknown (null). The 5cm Pak 38's Off/Def is printed 1½1, read as 1/1. All four are questions for the printed copy (decision board, copy group).",
+  "oa_names maps each weapon name used on the OA sheets (data/oa/*.json toe[].weapon) to a row id. The Commonwealth 'French 149mm (see It. Arty)' points to the Italian chart's row. The Italian OA 'Heavy AA' is read as the 75/46 (the 90/53 is a separate row no sheet names). The Italian 'vv' is not a weapon name (an id code where a weapon was expected) and has no row."
+ ],
+ "rows": [
+  {
+   "id": "weapon:cw:a9-cruiser",
+   "nation": "cw",
+   "weapon": "A9 Cruiser",
+   "class": "tank",
+   "cpa": 25,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 3,
+   "vulnerability": null,
+   "armour_protection": 1,
+   "close_assault_offence": 3,
+   "close_assault_defence": 3,
+   "fuel_rate": 2,
+   "bar": "1R",
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:a10-cruiser",
+   "nation": "cw",
+   "weapon": "A10 Cruiser",
+   "class": "tank",
+   "cpa": 15,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 3,
+   "vulnerability": null,
+   "armour_protection": 2,
+   "close_assault_offence": 3,
+   "close_assault_defence": 3,
+   "fuel_rate": 2,
+   "bar": "1R",
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:a13-cruiser",
+   "nation": "cw",
+   "weapon": "A13 Cruiser",
+   "class": "tank",
+   "cpa": 30,
+   "anti_air": 0,
+   "barrage": null,
+   "anti_armour": 3,
+   "vulnerability": null,
+   "armour_protection": 2,
+   "close_assault_offence": 2,
+   "close_assault_defence": 3,
+   "fuel_rate": 2,
+   "bar": "1R",
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:churchill-ii",
+   "nation": "cw",
+   "weapon": "Churchill II",
+   "class": "tank",
+   "cpa": 15,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 6,
+   "vulnerability": null,
+   "armour_protection": 7,
+   "close_assault_offence": 5,
+   "close_assault_defence": 6,
+   "fuel_rate": 7,
+   "bar": 0,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:crusader-mk-i",
+   "nation": "cw",
+   "weapon": "Crusader Mk.I",
+   "class": "tank",
+   "cpa": 25,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 3,
+   "vulnerability": null,
+   "armour_protection": 3,
+   "close_assault_offence": 3,
+   "close_assault_defence": 4,
+   "fuel_rate": 3,
+   "bar": "1R",
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:crusader-mk-ii",
+   "nation": "cw",
+   "weapon": "Crusader Mk.II",
+   "class": "tank",
+   "cpa": 25,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 3,
+   "vulnerability": null,
+   "armour_protection": 4,
+   "close_assault_offence": 4,
+   "close_assault_defence": 4,
+   "fuel_rate": 3,
+   "bar": "1R",
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:crusader-mk-iii",
+   "nation": "cw",
+   "weapon": "Crusader Mk.III",
+   "class": "tank",
+   "cpa": 25,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 6,
+   "vulnerability": null,
+   "armour_protection": 4,
+   "close_assault_offence": 4,
+   "close_assault_defence": 5,
+   "fuel_rate": 3,
+   "bar": "1R",
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:grant-m3",
+   "nation": "cw",
+   "weapon": "Grant M3",
+   "marks": "*",
+   "class": "tank",
+   "cpa": 20,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 7,
+   "vulnerability": null,
+   "armour_protection": 4,
+   "close_assault_offence": 6,
+   "close_assault_defence": 5,
+   "fuel_rate": 7,
+   "bar": 0,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:mark-vi-light",
+   "nation": "cw",
+   "weapon": "Mark VI Light",
+   "class": "tank",
+   "cpa": 35,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 0,
+   "vulnerability": null,
+   "armour_protection": 1,
+   "close_assault_offence": 2,
+   "close_assault_defence": 2,
+   "fuel_rate": 1,
+   "bar": 0,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:matilda-mk-ii",
+   "nation": "cw",
+   "weapon": "Matilda Mk.II",
+   "class": "tank",
+   "cpa": 15,
+   "anti_air": 0,
+   "barrage": null,
+   "anti_armour": 3,
+   "vulnerability": null,
+   "armour_protection": 6,
+   "close_assault_offence": 3,
+   "close_assault_defence": 4,
+   "fuel_rate": 3,
+   "bar": "1R",
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:sherman",
+   "nation": "cw",
+   "weapon": "Sherman",
+   "marks": "*",
+   "class": "tank",
+   "cpa": 20,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 6,
+   "vulnerability": null,
+   "armour_protection": 6,
+   "close_assault_offence": 5,
+   "close_assault_defence": 5,
+   "fuel_rate": 6,
+   "bar": 0,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:stuart-m3",
+   "nation": "cw",
+   "weapon": "Stuart M3",
+   "marks": "*",
+   "class": "tank",
+   "cpa": 35,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 4,
+   "vulnerability": null,
+   "armour_protection": 3,
+   "close_assault_offence": 4,
+   "close_assault_defence": 4,
+   "fuel_rate": 4,
+   "bar": 0,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:valentine-mk-ii",
+   "nation": "cw",
+   "weapon": "Valentine Mk.II",
+   "class": "tank",
+   "cpa": 15,
+   "anti_air": 0,
+   "barrage": null,
+   "anti_armour": 3,
+   "vulnerability": null,
+   "armour_protection": 5,
+   "close_assault_offence": 3,
+   "close_assault_defence": 4,
+   "fuel_rate": 3,
+   "bar": 0,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:scorpion",
+   "nation": "cw",
+   "weapon": "Scorpion",
+   "marks": "†",
+   "class": "tank",
+   "cpa": 25,
+   "anti_air": 0,
+   "barrage": null,
+   "anti_armour": 0,
+   "vulnerability": null,
+   "armour_protection": 7,
+   "close_assault_offence": 0,
+   "close_assault_defence": "(2)",
+   "fuel_rate": 3,
+   "bar": "1L",
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:18-pounder-gun",
+   "nation": "cw",
+   "weapon": "18-pounder Gun",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 7,
+   "anti_armour": "(2)",
+   "vulnerability": 4,
+   "armour_protection": null,
+   "close_assault_offence": 0,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:18-25-pounder-gun",
+   "nation": "cw",
+   "weapon": "18/25-pounder Gun",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 8,
+   "anti_armour": 2,
+   "vulnerability": 5,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:25-pounder-gun",
+   "nation": "cw",
+   "weapon": "25-pounder Gun",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 8,
+   "anti_armour": 5,
+   "vulnerability": 6,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:4-5in-gun",
+   "nation": "cw",
+   "weapon": "4.5\" Gun",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 11,
+   "anti_armour": 1,
+   "vulnerability": 9,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 0,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:5-5in-gun-howitzer",
+   "nation": "cw",
+   "weapon": "5.5\" Gun/Howitzer",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 15,
+   "anti_armour": 1,
+   "vulnerability": 7,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 0,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:60-pounder-gun",
+   "nation": "cw",
+   "weapon": "60-pounder Gun",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 12,
+   "anti_armour": 1,
+   "vulnerability": 7,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 0,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:sp-25-pounder-gun",
+   "nation": "cw",
+   "weapon": "SP 25-pounder Gun",
+   "marks": "‡",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 8,
+   "anti_armour": 4,
+   "vulnerability": 3,
+   "armour_protection": 5,
+   "close_assault_offence": 2,
+   "close_assault_defence": 1,
+   "fuel_rate": 3,
+   "bar": "2R",
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:3-7in-howitzer",
+   "nation": "cw",
+   "weapon": "3.7\" Howitzer",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 7,
+   "anti_armour": 0,
+   "vulnerability": 3,
+   "armour_protection": null,
+   "close_assault_offence": 0,
+   "close_assault_defence": 0,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:4-5in-howitzer",
+   "nation": "cw",
+   "weapon": "4.5\" Howitzer",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 9,
+   "anti_armour": 0,
+   "vulnerability": 3,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 0,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:6in-howitzer",
+   "nation": "cw",
+   "weapon": "6\" Howitzer",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 15,
+   "anti_armour": 1,
+   "vulnerability": 5,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 0,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:155mm-howitzer",
+   "nation": "cw",
+   "weapon": "155mm Howitzer",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 15,
+   "anti_armour": 1,
+   "vulnerability": 6,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 0,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:105mm-sp-howitzer",
+   "nation": "cw",
+   "weapon": "105mm SP Howitzer",
+   "marks": "‡",
+   "class": "artillery",
+   "cpa": 20,
+   "anti_air": 1,
+   "barrage": 9,
+   "anti_armour": 2,
+   "vulnerability": 4,
+   "armour_protection": 4,
+   "close_assault_offence": 2,
+   "close_assault_defence": 3,
+   "fuel_rate": 3,
+   "bar": 0,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:2-pounder",
+   "nation": "cw",
+   "weapon": "2-pounder",
+   "class": "anti-tank",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": null,
+   "anti_armour": 4,
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:6-pounder",
+   "nation": "cw",
+   "weapon": "6-pounder",
+   "class": "anti-tank",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": null,
+   "anti_armour": 7,
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:17-pounder",
+   "nation": "cw",
+   "weapon": "17-pounder",
+   "class": "anti-tank",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": null,
+   "anti_armour": 13,
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:sp-6-pounder",
+   "nation": "cw",
+   "weapon": "SP 6-pounder",
+   "marks": "‡",
+   "class": "anti-tank",
+   "cpa": 20,
+   "anti_air": null,
+   "barrage": null,
+   "anti_armour": 7,
+   "vulnerability": 2,
+   "armour_protection": 1,
+   "close_assault_offence": 2,
+   "close_assault_defence": 2,
+   "fuel_rate": 1,
+   "bar": "1L",
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:light-aa-bofors-40mm",
+   "nation": "cw",
+   "weapon": "Light AA (Bofors 40mm)",
+   "class": "anti-air",
+   "cpa": 15,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": "(1)",
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": "(1)",
+   "close_assault_defence": "(1)",
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:cw:heavy-aa-3-7in",
+   "nation": "cw",
+   "weapon": "Heavy AA (3.7\")",
+   "class": "anti-air",
+   "cpa": 15,
+   "anti_air": 4,
+   "barrage": null,
+   "anti_armour": "(7)",
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": "(1)",
+   "close_assault_defence": "(1)",
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.47",
+    "scan:p137"
+   ]
+  },
+  {
+   "id": "weapon:it:cv-33-l3-35",
+   "nation": "it",
+   "weapon": "CV 33(L3/35)",
+   "class": "tank",
+   "cpa": 25,
+   "anti_air": 0,
+   "barrage": null,
+   "anti_armour": 0,
+   "vulnerability": null,
+   "armour_protection": 1,
+   "close_assault_offence": 1,
+   "close_assault_defence": 2,
+   "fuel_rate": 1,
+   "bar": "2R",
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:l-6-40",
+   "nation": "it",
+   "weapon": "L 6/40",
+   "class": "tank",
+   "cpa": 25,
+   "anti_air": 0,
+   "barrage": null,
+   "anti_armour": 1,
+   "vulnerability": null,
+   "armour_protection": 2,
+   "close_assault_offence": 2,
+   "close_assault_defence": 2,
+   "fuel_rate": 2,
+   "bar": 0,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:m-11-39",
+   "nation": "it",
+   "weapon": "M 11/39",
+   "class": "tank",
+   "cpa": 20,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 2,
+   "vulnerability": null,
+   "armour_protection": 2,
+   "close_assault_offence": 3,
+   "close_assault_defence": 3,
+   "fuel_rate": 2,
+   "bar": "1R",
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:m-13-40",
+   "nation": "it",
+   "weapon": "M 13/40",
+   "class": "tank",
+   "cpa": 20,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 3,
+   "vulnerability": null,
+   "armour_protection": 3,
+   "close_assault_offence": 3,
+   "close_assault_defence": 3,
+   "fuel_rate": 2,
+   "bar": "1R",
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:m14-41",
+   "nation": "it",
+   "weapon": "M14/41",
+   "class": "tank",
+   "cpa": 20,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 3,
+   "vulnerability": null,
+   "armour_protection": 3,
+   "close_assault_offence": 3,
+   "close_assault_defence": 3,
+   "fuel_rate": 2,
+   "bar": 0,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:65-17-gun",
+   "nation": "it",
+   "weapon": "65/17 Gun",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 5,
+   "anti_armour": 0,
+   "vulnerability": 3,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:75-18-gun-howitzer",
+   "nation": "it",
+   "weapon": "75/18 Gun-Howitzer",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 6,
+   "anti_armour": 0,
+   "vulnerability": 5,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 0,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:75-18-gun",
+   "nation": "it",
+   "weapon": "75/18 Gun",
+   "marks": "*",
+   "class": "artillery",
+   "cpa": 20,
+   "anti_air": null,
+   "barrage": 6,
+   "anti_armour": 6,
+   "vulnerability": 4,
+   "armour_protection": 3,
+   "close_assault_offence": 3,
+   "close_assault_defence": 3,
+   "fuel_rate": 2,
+   "bar": "1R",
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:75-27-gun",
+   "nation": "it",
+   "weapon": "75/27 Gun",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 6,
+   "anti_armour": "2**",
+   "vulnerability": 4,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "before": {
+    "game_turn": 63,
+    "anti_armour": 0
+   },
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:100-17-howitzer",
+   "nation": "it",
+   "weapon": "100/17 Howitzer",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 8,
+   "anti_armour": 0,
+   "vulnerability": 5,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 0,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:105-28-gun",
+   "nation": "it",
+   "weapon": "105/28 Gun",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 9,
+   "anti_armour": 1,
+   "vulnerability": 7,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:149-13-howitzer",
+   "nation": "it",
+   "weapon": "149/13 Howitzer",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 15,
+   "anti_armour": 0,
+   "vulnerability": 5,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 0,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:paraart",
+   "nation": "it",
+   "weapon": "ParaArt",
+   "marks": "***",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 2,
+   "anti_armour": 2,
+   "vulnerability": 1,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:149mm-vichy-french",
+   "nation": "it",
+   "weapon": "149mm Vichy French",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 10,
+   "anti_armour": 1,
+   "vulnerability": 5,
+   "armour_protection": null,
+   "close_assault_offence": 0,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:155mm-rimhailo-fr",
+   "nation": "it",
+   "weapon": "155mm Rimhailo(Fr.)",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 13,
+   "anti_armour": 0,
+   "vulnerability": 3,
+   "armour_protection": null,
+   "close_assault_offence": 0,
+   "close_assault_defence": 0,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:47-32-mod-37",
+   "nation": "it",
+   "weapon": "47/32 Mod. 37",
+   "class": "anti-tank",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": null,
+   "anti_armour": 4,
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:light-20mm-m-35-breda",
+   "nation": "it",
+   "weapon": "Light (20mm M/35 Breda)",
+   "class": "anti-air",
+   "cpa": 15,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 2,
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": "(1)",
+   "close_assault_defence": "(1)",
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:i-light",
+   "nation": "it",
+   "weapon": "'I' Light",
+   "marks": "****",
+   "class": "anti-air",
+   "cpa": "0+",
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 2,
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": "(1)",
+   "close_assault_defence": "(1)",
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:heavy-75-46-mod-34",
+   "nation": "it",
+   "weapon": "Heavy (75/46 Mod. 34)",
+   "class": "anti-air",
+   "cpa": 15,
+   "anti_air": 2,
+   "barrage": null,
+   "anti_armour": "(5)",
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": "(1)",
+   "close_assault_defence": "(1)",
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:i-heavy",
+   "nation": "it",
+   "weapon": "'I' Heavy",
+   "class": "anti-air",
+   "cpa": "0+",
+   "anti_air": 2,
+   "barrage": null,
+   "anti_armour": "(5)",
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": "(1)",
+   "close_assault_defence": "(1)",
+   "fuel_rate": 0,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:it:heavy-90-53",
+   "nation": "it",
+   "weapon": "Heavy (90/53)",
+   "class": "anti-air",
+   "cpa": 15,
+   "anti_air": 3,
+   "barrage": null,
+   "anti_armour": 9,
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": "(1)",
+   "close_assault_defence": "(1)",
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.48",
+    "scan:p138"
+   ]
+  },
+  {
+   "id": "weapon:de:pz-i",
+   "nation": "de",
+   "weapon": "PZ I",
+   "class": "tank",
+   "cpa": 24,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 0,
+   "vulnerability": null,
+   "armour_protection": 1,
+   "close_assault_offence": 2,
+   "close_assault_defence": 2,
+   "fuel_rate": 2,
+   "bar": 0,
+   "before": {
+    "game_turn": 31,
+    "bar": "1R"
+   },
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:pz-ii",
+   "nation": "de",
+   "weapon": "Pz II",
+   "class": "tank",
+   "cpa": 35,
+   "anti_air": 0,
+   "barrage": null,
+   "anti_armour": 1,
+   "vulnerability": null,
+   "armour_protection": 2,
+   "close_assault_offence": 2,
+   "close_assault_defence": 3,
+   "fuel_rate": 2,
+   "bar": 0,
+   "before": {
+    "game_turn": 31,
+    "bar": "1R"
+   },
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:pz-iii-e",
+   "nation": "de",
+   "weapon": "Pz III E",
+   "class": "tank",
+   "cpa": 25,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 4,
+   "vulnerability": null,
+   "armour_protection": 3,
+   "close_assault_offence": 4,
+   "close_assault_defence": 4,
+   "fuel_rate": 3,
+   "bar": 0,
+   "printed": "[25, 1, null, 4, 3, \"4/4\", 3, \"4/4\", 3]",
+   "before": {
+    "game_turn": 31,
+    "bar": "1R"
+   },
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:pz-iii-h",
+   "nation": "de",
+   "weapon": "Pz III H",
+   "class": "tank",
+   "cpa": 25,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 4,
+   "vulnerability": null,
+   "armour_protection": 4,
+   "close_assault_offence": 4,
+   "close_assault_defence": 4,
+   "fuel_rate": 3,
+   "bar": 0,
+   "before": {
+    "game_turn": 31,
+    "bar": "1R"
+   },
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:pz-iii-j-special",
+   "nation": "de",
+   "weapon": "Pz III J(Special)",
+   "class": "tank",
+   "cpa": 26,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 6,
+   "vulnerability": null,
+   "armour_protection": 4,
+   "close_assault_offence": 7,
+   "close_assault_defence": 5,
+   "fuel_rate": 3,
+   "bar": 0,
+   "before": {
+    "game_turn": 31,
+    "bar": "1R"
+   },
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:pz-iv-d",
+   "nation": "de",
+   "weapon": "Pz IV D",
+   "class": "tank",
+   "cpa": 25,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 6,
+   "vulnerability": null,
+   "armour_protection": 3,
+   "close_assault_offence": 5,
+   "close_assault_defence": 4,
+   "fuel_rate": 4,
+   "bar": 0,
+   "before": {
+    "game_turn": 31,
+    "bar": "1R"
+   },
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:pz-iv-e",
+   "nation": "de",
+   "weapon": "Pz IV E",
+   "class": "tank",
+   "cpa": 25,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 6,
+   "vulnerability": null,
+   "armour_protection": 3,
+   "close_assault_offence": 5,
+   "close_assault_defence": 5,
+   "fuel_rate": 4,
+   "bar": 0,
+   "before": {
+    "game_turn": 31,
+    "bar": "1R"
+   },
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:pz-iv-f2-special",
+   "nation": "de",
+   "weapon": "Pz IV F2 (Special)",
+   "class": "tank",
+   "cpa": 25,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": 8,
+   "vulnerability": null,
+   "armour_protection": 4,
+   "close_assault_offence": 6,
+   "close_assault_defence": 5,
+   "fuel_rate": 4,
+   "bar": 0,
+   "before": {
+    "game_turn": 31,
+    "bar": "1R"
+   },
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:7-5-cm-ig18-light-infantry-gun",
+   "nation": "de",
+   "weapon": "7.5 cm(IG18) Light Infantry Gun",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 6,
+   "anti_armour": "3**",
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "before": {
+    "game_turn": 63,
+    "anti_armour": 0
+   },
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:10-5cm-k18-medium-gun",
+   "nation": "de",
+   "weapon": "10.5cm(K18) Medium Gun",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 9,
+   "anti_armour": 1,
+   "vulnerability": 9,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:10-5cm-lefh18-light-field-howitzer",
+   "nation": "de",
+   "weapon": "10.5cm(leFH18) Light Field Howitzer",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 9,
+   "anti_armour": 2,
+   "vulnerability": 5,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:10-5cm-sp-k18-gun",
+   "nation": "de",
+   "weapon": "10.5cm SP K18 Gun",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 9,
+   "anti_armour": 2,
+   "vulnerability": 4,
+   "armour_protection": 2,
+   "close_assault_offence": 2,
+   "close_assault_defence": 2,
+   "fuel_rate": 2,
+   "bar": 0,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:149mm-vichy-french",
+   "nation": "de",
+   "weapon": "149mm Vichy French",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 10,
+   "anti_armour": 1,
+   "vulnerability": 5,
+   "armour_protection": null,
+   "close_assault_offence": 0,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:15cm-sig33-medium-infantry-gun",
+   "nation": "de",
+   "weapon": "15cm (sIG33) Medium Infantry Gun",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 14,
+   "anti_armour": 1,
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:15cm-sfh18-medium-field-howitzer",
+   "nation": "de",
+   "weapon": "15cm(sFH18) Medium Field Howitzer",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 15,
+   "anti_armour": 1,
+   "vulnerability": 7,
+   "armour_protection": null,
+   "close_assault_offence": 0,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:15cm-k18-gun",
+   "nation": "de",
+   "weapon": "15cm(K18) Gun",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 15,
+   "anti_armour": 1,
+   "vulnerability": 11,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:15cm-sp-gun",
+   "nation": "de",
+   "weapon": "15cm SP Gun",
+   "class": "artillery",
+   "cpa": 25,
+   "anti_air": null,
+   "barrage": 14,
+   "anti_armour": 1,
+   "vulnerability": 2,
+   "armour_protection": 2,
+   "close_assault_offence": 2,
+   "close_assault_defence": 2,
+   "fuel_rate": 2,
+   "bar": 0,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:155mm-french-1915short",
+   "nation": "de",
+   "weapon": "155mm (french 1915short)",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 13,
+   "anti_armour": 0,
+   "vulnerability": 5,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:17cm-k18-gun",
+   "nation": "de",
+   "weapon": "17cm (K18) Gun",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 15,
+   "anti_armour": 0,
+   "vulnerability": 13,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 0,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:21cm-mrs18-howitzer",
+   "nation": "de",
+   "weapon": "21cm (mrs18) Howitzer",
+   "class": "artillery",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": 18,
+   "anti_armour": 0,
+   "vulnerability": 8,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 0,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:2-8cm-s-pz-b-41-or-28-20-pak",
+   "nation": "de",
+   "weapon": "2.8cm s.Pz.B.41 or 28/20 Pak",
+   "class": "anti-tank",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": null,
+   "anti_armour": 4,
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:3-7cm-pak-35-36",
+   "nation": "de",
+   "weapon": "3.7cm Pak 35/36",
+   "class": "anti-tank",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": null,
+   "anti_armour": 2,
+   "vulnerability": 1,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:5cm-pak-38",
+   "nation": "de",
+   "weapon": "5cm Pak 38",
+   "class": "anti-tank",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": null,
+   "anti_armour": 5,
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "printed": "Off/Def printed 1½1",
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:7-62cm-pak-r",
+   "nation": "de",
+   "weapon": "7.62cm Pak(R)",
+   "marks": "***",
+   "class": "anti-tank",
+   "cpa": 15,
+   "anti_air": null,
+   "barrage": null,
+   "anti_armour": 9,
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": 1,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "printed": "[null, null, 9, 2, null, \"1/1\", 1, null, null]",
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:pzjg-1-sp",
+   "nation": "de",
+   "weapon": "Pzjg 1 (SP)",
+   "marks": "****",
+   "class": "anti-tank",
+   "cpa": 30,
+   "anti_air": null,
+   "barrage": null,
+   "anti_armour": 4,
+   "vulnerability": 2,
+   "armour_protection": 1,
+   "close_assault_offence": 2,
+   "close_assault_defence": 2,
+   "fuel_rate": 1,
+   "bar": 0,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:marder-iii-sp",
+   "nation": "de",
+   "weapon": "Marder III (SP)",
+   "class": "anti-tank",
+   "cpa": null,
+   "anti_air": null,
+   "barrage": null,
+   "anti_armour": 9,
+   "vulnerability": 2,
+   "armour_protection": 2,
+   "close_assault_offence": 3,
+   "close_assault_defence": 2,
+   "fuel_rate": 2,
+   "bar": 0,
+   "printed": "[null, null, 9, 2, 2, \"3/2\", 2, 0, null]",
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:light-20mm-37mm-flak",
+   "nation": "de",
+   "weapon": "Light (20mm & 37mm Flak)",
+   "class": "anti-air",
+   "cpa": 15,
+   "anti_air": 1,
+   "barrage": null,
+   "anti_armour": "(1)",
+   "vulnerability": "(1)",
+   "armour_protection": null,
+   "close_assault_offence": "(1)",
+   "close_assault_defence": "(1)",
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  },
+  {
+   "id": "weapon:de:heavy-88mm-flak",
+   "nation": "de",
+   "weapon": "Heavy (88mm Flak)",
+   "class": "anti-air",
+   "cpa": 15,
+   "anti_air": 3,
+   "barrage": null,
+   "anti_armour": 13,
+   "vulnerability": 2,
+   "armour_protection": null,
+   "close_assault_offence": 2,
+   "close_assault_defence": 1,
+   "fuel_rate": 1,
+   "bar": null,
+   "sources": [
+    "CNA1979:4.49",
+    "scan:p172"
+   ]
+  }
+ ],
+ "oa_names": {
+  "cw": {
+   "105mm Howitzer (SPA)": "weapon:cw:105mm-sp-howitzer",
+   "155mm Howitzer": "weapon:cw:155mm-howitzer",
+   "18-pounder": "weapon:cw:18-pounder-gun",
+   "18/25-pounder": "weapon:cw:18-25-pounder-gun",
+   "18/25-pounders": "weapon:cw:18-25-pounder-gun",
+   "2-pounder": "weapon:cw:2-pounder",
+   "2-pounders": "weapon:cw:2-pounder",
+   "25-pounder": "weapon:cw:25-pounder-gun",
+   "25-pounders": "weapon:cw:25-pounder-gun",
+   "3.7\" Howitzer": "weapon:cw:3-7in-howitzer",
+   "4.5\" Gun": "weapon:cw:4-5in-gun",
+   "4.5\" Howitzer": "weapon:cw:4-5in-howitzer",
+   "5.5\" Gun-Howitzer": "weapon:cw:5-5in-gun-howitzer",
+   "6\" Howitzer": "weapon:cw:6in-howitzer",
+   "6-pounder": "weapon:cw:6-pounder",
+   "6-pounders": "weapon:cw:6-pounder",
+   "60-pounder": "weapon:cw:60-pounder-gun",
+   "A10": "weapon:cw:a10-cruiser",
+   "A10 Cruiser": "weapon:cw:a10-cruiser",
+   "A10 Cruisers": "weapon:cw:a10-cruiser",
+   "A13": "weapon:cw:a13-cruiser",
+   "A13 Cruiser": "weapon:cw:a13-cruiser",
+   "A13 Cruisers": "weapon:cw:a13-cruiser",
+   "A9": "weapon:cw:a9-cruiser",
+   "A9 Cruiser": "weapon:cw:a9-cruiser",
+   "A9 Cruisers": "weapon:cw:a9-cruiser",
+   "Crusader I": "weapon:cw:crusader-mk-i",
+   "Crusader Mk I": "weapon:cw:crusader-mk-i",
+   "Crusader Mk II": "weapon:cw:crusader-mk-ii",
+   "French 149mm (see It. Arty)": "weapon:it:149mm-vichy-french",
+   "Grant": "weapon:cw:grant-m3",
+   "Heavy AA": "weapon:cw:heavy-aa-3-7in",
+   "Light AA": "weapon:cw:light-aa-bofors-40mm",
+   "Mark VI Light": "weapon:cw:mark-vi-light",
+   "Mark VI Lights": "weapon:cw:mark-vi-light",
+   "Matilda": "weapon:cw:matilda-mk-ii",
+   "Mk VI Lights": "weapon:cw:mark-vi-light",
+   "SP 25-pounder": "weapon:cw:sp-25-pounder-gun",
+   "Stuart": "weapon:cw:stuart-m3",
+   "Stuarts": "weapon:cw:stuart-m3",
+   "Valentine": "weapon:cw:valentine-mk-ii"
+  },
+  "it": {
+   "'I' Heavy AA": "weapon:it:i-heavy",
+   "'I' Light AA": "weapon:it:i-light",
+   "100/17 Howitzer": "weapon:it:100-17-howitzer",
+   "105/28 Gun": "weapon:it:105-28-gun",
+   "149/13 Howitzer": "weapon:it:149-13-howitzer",
+   "149mm Vichy French Gun": "weapon:it:149mm-vichy-french",
+   "47/32": "weapon:it:47-32-mod-37",
+   "47/32 Gun": "weapon:it:47-32-mod-37",
+   "65/17": "weapon:it:65-17-gun",
+   "65/17 Gun": "weapon:it:65-17-gun",
+   "75/18 Gun Howitzer": "weapon:it:75-18-gun-howitzer",
+   "75/18 Gun-Howitzer": "weapon:it:75-18-gun-howitzer",
+   "75/18 SP Gun": "weapon:it:75-18-gun",
+   "75/27 Gun": "weapon:it:75-27-gun",
+   "75/46 AA Gun": "weapon:it:heavy-75-46-mod-34",
+   "CV 33": "weapon:it:cv-33-l3-35",
+   "CV33": "weapon:it:cv-33-l3-35",
+   "Heavy AA": "weapon:it:heavy-75-46-mod-34",
+   "L6/40": "weapon:it:l-6-40",
+   "Light AA": "weapon:it:light-20mm-m-35-breda",
+   "M 13/40": "weapon:it:m-13-40",
+   "M 14/41": "weapon:it:m14-41",
+   "M11/39": "weapon:it:m-11-39",
+   "M13/40": "weapon:it:m-13-40",
+   "M14/41": "weapon:it:m14-41",
+   "ParaArt": "weapon:it:paraart",
+   "Semovente 75/18 SP Gun": "weapon:it:75-18-gun"
+  },
+  "de": {
+   "10.5cm Lt Field Howitzer": "weapon:de:10-5cm-lefh18-light-field-howitzer",
+   "10.5cm Med Gun": "weapon:de:10-5cm-k18-medium-gun",
+   "155mm (Fr. 1915 short)": "weapon:de:155mm-french-1915short",
+   "15cm Gun": "weapon:de:15cm-k18-gun",
+   "15cm Med Field Howitzer": "weapon:de:15cm-sfh18-medium-field-howitzer",
+   "15cm Med Gun": "weapon:de:15cm-k18-gun",
+   "15cm Med Inf Gun": "weapon:de:15cm-sig33-medium-infantry-gun",
+   "15cm SP Gun": "weapon:de:15cm-sp-gun",
+   "17cm Gun": "weapon:de:17cm-k18-gun",
+   "21cm How": "weapon:de:21cm-mrs18-howitzer",
+   "21cm Howitzer": "weapon:de:21cm-mrs18-howitzer",
+   "3.7cm": "weapon:de:3-7cm-pak-35-36",
+   "5cm": "weapon:de:5cm-pak-38",
+   "7.5cm Lt Gun": "weapon:de:7-5-cm-ig18-light-infantry-gun",
+   "7.5cm Lt Inf Gun": "weapon:de:7-5-cm-ig18-light-infantry-gun",
+   "Heavy AA": "weapon:de:heavy-88mm-flak",
+   "Light AA": "weapon:de:light-20mm-37mm-flak",
+   "PzI": "weapon:de:pz-i",
+   "PzII": "weapon:de:pz-ii",
+   "PzIIIE": "weapon:de:pz-iii-e",
+   "PzIIIH": "weapon:de:pz-iii-h",
+   "PzIVD": "weapon:de:pz-iv-d",
+   "PzIVE": "weapon:de:pz-iv-e",
+   "Pzjg1": "weapon:de:pzjg-1-sp"
+  }
+ }
+}

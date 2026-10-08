@@ -101,6 +101,17 @@
         "Another counter (say which)",
         "Leave as read"
       ]
+    },
+    {
+      "id": "ws-german-misaligned",
+      "group": "copy",
+      "title": "German Tank and Gun chart (4.49): three misaligned rows",
+      "context": "Both scans print Pz III E as 25, 1, -, 4, 3, 4/4, 3, 4/4, 3 across CPA to BAR, and 7.62cm Pak(R) and Marder III one cell short. Read as: Pz III E vulnerability -, armour 3, Off/Def 4/4, fuel 3, BAR 0; Pak(R) CPA 15 (like every towed gun), anti-armour 9, vul 2, Off/Def 1/1, fuel 1; Marder III CPA unknown, anti-armour 9, vul 2, armour 2, Off/Def 3/2, fuel 2, BAR 0. 5cm Pak 38 Off/Def printed 1½1, read 1/1.",
+      "options": [
+        "My copy agrees with the realignment",
+        "My copy differs (say how), or gives the Marder's CPA",
+        "Leave as read"
+      ]
     }
   ]
 }
