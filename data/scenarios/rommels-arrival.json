@@ -277,9 +277,9 @@
      },
      "units": [
       {
-       "unit": "unit:de:todo-oasis-coy-1",
+       "unit": "unit:de:1-oasis-koy",
        "notes": [
-        "Printed: one German Oasis Company at Maaten Groter (A 1318)."
+        "The scenario names no company; the 1st and 2nd (both due before the start) are used, unconfirmed."
        ]
       }
      ]
@@ -292,9 +292,9 @@
      },
      "units": [
       {
-       "unit": "unit:de:todo-oasis-coy-2",
+       "unit": "unit:de:2-oasis-koy",
        "notes": [
-        "Printed: one German Oasis Company at Magadah (A 0817)."
+        "The scenario names no company; the 1st and 2nd (both due before the start) are used, unconfirmed."
        ]
       }
      ]
@@ -454,21 +454,15 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-3rd-armoured-bde-hq",
+       "unit": "unit:cw:3-armd-bde-hq",
        "assigned": [
         "unit:cw:6-rtr",
         "unit:cw:3-hus"
-       ],
-       "notes": [
-        "Printed: 3rd Armored Bde (2 Arm); (Assg: 6th RTR [4/7]; 3rd Hus). The 2nd Armoured Division sheet is not transcribed. The bracket [4/7] on 6 RTR reads as its 7th Armoured parent (4th Armd Bde)."
        ]
       },
       {
-       "unit": "unit:cw:todo-2nd-armoured-div-hq",
-       "alone": true,
-       "notes": [
-        "Printed: HQ: 2nd Armored Division."
-       ]
+       "unit": "unit:cw:2-armd-div-hq",
+       "alone": true
       }
      ],
      "trucks": {
@@ -483,10 +477,7 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-2nd-support-group-hq",
-       "notes": [
-        "Printed: 2nd Support Group (2 Arm)."
-       ]
+       "unit": "unit:cw:2-spt"
       }
      ],
      "trucks": {
@@ -500,10 +491,7 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-3rd-indian-motor-bde-hq",
-       "notes": [
-        "Printed: 3rd In Motor Bde."
-       ]
+       "unit": "unit:cw:3-in"
       }
      ],
      "trucks": {
@@ -543,25 +531,16 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-24th-aus-bde-hq",
+       "unit": "unit:cw:24-aus",
        "less": [
-        "unit:cw:todo-2-32-aus-bn"
-       ],
-       "notes": [
-        "Printed: 24 Aus Bde (9 Aus; Less: 2/32 Bn)."
+        "unit:cw:2-32-aus"
        ]
       },
       {
-       "unit": "unit:cw:todo-20th-aus-bde-hq",
-       "notes": [
-        "Printed: 20th Aus Bde (9 Aus Bde)."
-       ]
+       "unit": "unit:cw:20-aus"
       },
       {
-       "unit": "unit:cw:todo-2-3-aus-at-regt",
-       "notes": [
-        "Printed: 2/3 Aus AT Regt (9 Aus)."
-       ]
+       "unit": "unit:cw:2-3-aus-at"
       },
       {
        "unit": "unit:cw:51-fld"
@@ -579,16 +558,10 @@
      "placement": {
       "place": "jalo"
      },
-     "units": [
-      {
-       "unit": "unit:cw:todo-lrdg-unit",
-       "notes": [
-        "Printed: One unit of the LRDG; which one is not said."
-       ]
-      }
-     ],
+     "units": [],
      "notes": [
-      "Printed as Jalo (B0513)."
+      "Printed as Jalo (B0513).",
+      "One Long Range Desert Group unit; the OA sheets print no LRDG counter."
      ]
     },
     {
@@ -597,17 +570,11 @@
      },
      "units": [
       {
-       "unit": "unit:cw:todo-9th-aus-div-hq",
-       "alone": true,
-       "notes": [
-        "Printed: HQ: 9 Aus Division."
-       ]
+       "unit": "unit:cw:9-aus",
+       "alone": true
       },
       {
-       "unit": "unit:cw:todo-26th-aus-bde-hq",
-       "notes": [
-        "Printed: 26th Aus Bde (9 Aus)."
-       ]
+       "unit": "unit:cw:26-aus"
       },
       {
        "unit": "unit:cw:1-rha"
@@ -662,14 +629,14 @@
        "alone": true
       },
       {
-       "unit": "unit:cw:todo-22nd-guards-bde-hq",
+       "unit": "unit:cw:22-gds",
        "attached": [
         "unit:cw:1-buffs",
         "unit:cw:2-sctgds",
         "unit:cw:3-cldgds"
        ],
        "notes": [
-        "Printed: 22nd Gds Bde (I; ATT: 1st Buffs; 2nd Scots Gds; 3rd Coldstream Gds). Counts as one battalion for the 61.38 release schedule."
+        "Counts as one battalion for the release schedule (61.38)."
        ]
       },
       {
@@ -680,16 +647,11 @@
       },
       {
        "unit": "unit:cw:13-laa"
-      },
-      {
-       "unit": "unit:cw:todo-layforce",
-       "notes": [
-        "Printed: \"Layforce\"(I)."
-       ]
       }
      ],
      "notes": [
-      "Printed under 'Anywhere within one hex of: Alexandria'."
+      "Printed under 'Anywhere within one hex of: Alexandria'.",
+      "\"Layforce\" (infantry); the OA sheets print no Layforce counter."
      ]
     },
     {
