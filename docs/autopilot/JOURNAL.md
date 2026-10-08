@@ -399,3 +399,9 @@ Done: #157 §63 El Alamein (R-108), #160 §64 campaign games (R-109); §59-65 17
 In flight: none (no open autopilot PRs).
 Next: second read of §63 German deployment (jp2 84) vs data/scenarios/the-last-chance.json; Task 3.6 per-unit OA figures (data/README.md list); then Part 4: decide R-094..R-109 (16), one PR each (autopilot/ruling-r-nnn); then Part 5 docs + MISSION 6 COMPLETE + queue row.
 Blocked: none (copy questions: German c/d CPA, el Grein garrison).
+
+## 2026-10-08 10:37 MST — main
+Done: #162 §63 German deployment second read (0 diffs); rulings accepted R-094 #161, R-095 #163, R-096 #164.
+In flight: none; no open autopilot PRs.
+Next: Part 4: decide R-097..R-109 (branch autopilot/ruling-r-nnn each; edit prose under the existing ::: ruling badge, gen_pages, gates, merge). Task 3.6 per-unit OA figures (data/README.md list) can go before or after. Then Part 5 docs (README layout table, rules/00-overview.md link to Scenarios, design Status, AUTOPILOT.md queue 6 done / 7 next) and MISSION 6 COMPLETE, straight on to Mission 7 Part 0.
+Blocked: none.
