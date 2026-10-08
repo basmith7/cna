@@ -268,6 +268,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-108](../rulings/R-108.md) | accepted | 63.2 |
 | [R-109](../rulings/R-109.md) | accepted | 64.71, 64.72, 64.75, 64.76 |
 | [R-110](../rulings/R-110.md) | accepted | 60.81, 60.92, 32.17 |
+| [R-111](../rulings/R-111.md) | proposed | 40.74, 46.1 |
 
 ## Variants register
 
@@ -281,3 +282,20 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [V-006](../rulings/V-006.md) | recorded | 59.36 |
 | [V-007](../rulings/V-007.md) | recorded | 60.32 |
 | [V-008](../rulings/V-008.md) | recorded | 60.22, 60.81 |
+| [V-009](../rulings/V-009.md) | recorded | 34.84, 39.0, 41.5 |
+| [V-010](../rulings/V-010.md) | recorded | 41.33, 41.37 |
+| [V-011](../rulings/V-011.md) | recorded | 34.1, 39.2, 42.2, 42.3 |
+| [V-012](../rulings/V-012.md) | recorded | 45.1, 45.2, 45.32 |
+| [V-013](../rulings/V-013.md) | recorded | 45.0, 45.3 |
+| [V-014](../rulings/V-014.md) | recorded | 33.0, 42.2, 46.0 |
+| [V-015](../rulings/V-015.md) | recorded | 46.16, 46.3, 46.2 |
+| [V-016](../rulings/V-016.md) | recorded | 42.2, 42.25, 42.27 |
+| [V-017](../rulings/V-017.md) | recorded | 40.61, 40.62, 40.65, 41.31, 41.32 |
+| [V-018](../rulings/V-018.md) | recorded | 40.6, 40.61, 40.62, 40.63, 40.64, 40.65, 40.66, 40.67 |
+| [V-019](../rulings/V-019.md) | recorded | 41.3, 41.31, 41.32, 41.5, 41.6 |
+| [V-020](../rulings/V-020.md) | recorded | 46.0, 44.1 |
+| [V-021](../rulings/V-021.md) | recorded | 42.3 |
+| [V-022](../rulings/V-022.md) | recorded | 46.0, 47.0 |
+| [V-023](../rulings/V-023.md) | recorded | 33.0, 43.0 |
+| [V-024](../rulings/V-024.md) | recorded | 44.0, 44.18, 44.5 |
+| [V-025](../rulings/V-025.md) | recorded | 43.0, 44.0 |
