@@ -1,0 +1,2186 @@
+{
+ "id": "scenario:grazianis-offensive",
+ "name": "Graziani's Offensive",
+ "group": 1,
+ "sources": [
+  "CNA1979:60.0",
+  "CNA1979:60.22",
+  "CNA1979:60.6",
+  "CNA1979:60.7",
+  "CNA1979:60.81",
+  "scan:p76",
+  "scan:p77",
+  "scan:p78",
+  "scan:p79"
+ ],
+ "notes": [
+  "Draft read from the scan; unit ids are placeholders until the OA sheets are transcribed.",
+  "60.22 in the scan points to Case 60.71 for victory conditions; the conditions are printed at 60.81."
+ ],
+ "start": {
+  "game_turn": 1,
+  "opstage": 1
+ },
+ "end": {
+  "game_turn": 6,
+  "opstage": 3
+ },
+ "initiative": {
+  "side": "axis",
+  "through": {
+   "game_turn": 1,
+   "opstage": 3
+  }
+ },
+ "construction": {
+  "railroad_ends": "D3714",
+  "ports": [
+   {
+    "place": "tobruk",
+    "efficiency": 7,
+    "notes": [
+     "Harbour partly blocked by the sunk San Giorgio."
+    ]
+   }
+  ],
+  "notes": [
+   "No minefields, fortifications or pipeline beyond the railroad (60.7)."
+  ]
+ },
+ "victory": {
+  "kind": "levels",
+  "levels": [
+   {
+    "side": "axis",
+    "level": "strategic",
+    "all_of": [
+     {
+      "hold": {
+       "hexes": [
+        "E3613",
+        "E3714",
+        "E1730"
+       ]
+      },
+      "any_hex": true
+     }
+    ],
+    "supply": "The holding combat unit must be suppliable by convoy from some hex of sheet D."
+   },
+   {
+    "side": "axis",
+    "level": "decisive",
+    "all_of": [
+     {
+      "hold": {
+       "place": "mersa-matruh"
+      }
+     },
+     {
+      "hold": {
+       "place": "siwa"
+      }
+     }
+    ],
+    "supply": "Each holding combat unit must be suppliable by convoy from Tobruk."
+   },
+   {
+    "side": "axis",
+    "level": "tactical",
+    "all_of": [
+     {
+      "hold": {
+       "place": "sidi-barrani"
+      }
+     },
+     {
+      "hold": {
+       "place": "sollum"
+      }
+     },
+     {
+      "hold": {
+       "place": "fort-maddalena"
+      }
+     },
+     {
+      "hold": {
+       "place": "giarabub"
+      }
+     }
+    ],
+    "supply": "Each must be held in supply traced by convoy to Tobruk."
+   },
+   {
+    "side": "cw",
+    "level": "tactical",
+    "all_of": [
+     {
+      "hold": {
+       "place": "sollum"
+      }
+     },
+     {
+      "hold": {
+       "hexes": [
+        "C3922"
+       ]
+      }
+     },
+     {
+      "hold": {
+       "place": "siwa"
+      }
+     }
+    ],
+    "supply": "Supply must trace by truck convoy back to Alexandria or Cairo."
+   },
+   {
+    "side": "cw",
+    "level": "decisive",
+    "all_of": [
+     {
+      "hold": {
+       "place": "bardia"
+      }
+     },
+     {
+      "hold": {
+       "place": "fort-maddalena"
+      }
+     },
+     {
+      "hold": {
+       "place": "sidi-omar"
+      }
+     },
+     {
+      "hold": {
+       "place": "sollum"
+      }
+     },
+     {
+      "hold": {
+       "place": "siwa"
+      }
+     }
+    ],
+    "supply": "Supply must trace by truck convoy back to Alexandria or Cairo."
+   },
+   {
+    "side": "cw",
+    "level": "strategic",
+    "all_of": [
+     {
+      "hold": {
+       "place": "tobruk"
+      }
+     }
+    ],
+    "supply": "Supply must trace by truck convoy back to Alexandria or Cairo."
+   }
+  ],
+  "notes": [
+   "Axis strategic is Alexandria OR Cairo (any hex); the schema has no either-or between places, so it is one objective over Alexandria's two hexes plus Cairo's listed hex (E1730) with any_hex. If Cairo has more hexes, they belong here too.",
+   "Halfaya Pass is printed as C3922 and is not in places.json.",
+   "SPI spells the scenario 'Grazianni's' in 60.81 and 'Sidi Birani' in the Italian tactical condition."
+  ]
+ },
+ "sides": {
+  "axis": {
+   "deployments": [
+    {
+     "placement": {
+      "hexes": [
+       "C4218"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-1-ccnn-div",
+       "notes": [
+        "printed: 1 CCNN Div (I; Att: I(M) [T; Ar/LTC]) - infantry; tank bn I(M) attached from Ar/LTC"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 10,
+      "medium": 25,
+      "heavy": 10
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C4120"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-63-cirene-div",
+       "notes": [
+        "printed: 63 Cirene Div (I; Att: LXIII (L) [T; Ar/LTC]) - infantry; tank bn LXIII(L) attached from Ar/LTC"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 45,
+      "heavy": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C4020"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-1-libyan-div",
+       "notes": [
+        "printed: 1 Libyan Div (I)"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 10,
+      "medium": 15
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C3920"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-2-libyan-div",
+       "notes": [
+        "printed: 2 Libyan Div (I; Att: IX(L) [T; Tvl/LTC]) - tank bn IX(L) attached from Tvl/LTC"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 15,
+      "medium": 15
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C3919"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-aresca-regt",
+       "notes": [
+        "printed: Aresca Regt (T; LTC, Det: all except XXI) - tank regiment of LTC; every subordinate detached except XXI"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 5,
+      "heavy": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C3918"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-62-marmarica-div",
+       "notes": [
+        "printed: 62 Marmarcia Div (I; Att: LXII(L) [T; Ar/LTC]) - spelled 'Marmarcia' in the scan; tank bn LXII(L) attached from Ar/LTC"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 40,
+      "heavy": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C3617"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-maletti-div",
+       "notes": [
+        "printed: Maletti Div (I; Att: II(M) [T, Tvl/LTC]) - tank bn II(M) attached from Tvl/LTC"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 5,
+      "medium": 30,
+      "heavy": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C4707"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-64-catanzaro-div",
+       "notes": [
+        "printed: 64 Catanzaro Div (I)"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 30,
+      "heavy": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C4507"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-4-ccnn-div",
+       "notes": [
+        "printed: 4 CCNN Div (I)"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 10,
+      "medium": 25,
+      "heavy": 10
+     }
+    },
+    {
+     "placement": {
+      "place": "bardia"
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-trivoli-regt",
+       "notes": [
+        "printed: Trivoli Regt (T; LTC; Det: II(M) and IX(L)) - tank regiment of LTC with II(M) and IX(L) detached"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-bardia-garrison",
+       "notes": [
+        "printed: Bardia Garrison"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 20
+     },
+     "notes": [
+      "Printed as Bardia (C4321)."
+     ]
+    },
+    {
+     "placement": {
+      "place": "tobruk"
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-libyan-tank-command-hq",
+       "notes": [
+        "printed: HQ: Libyan Tank Command"
+       ],
+       "alone": true
+      },
+      {
+       "unit": "unit:it:todo-tobruk-garrison",
+       "notes": [
+        "printed: Tobruk Garrison"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 5
+     },
+     "notes": [
+      "Printed as Tobruk (C4807). 'HQ:' read as the HQ counter only; unconfirmed."
+     ]
+    },
+    {
+     "placement": {
+      "place": "benghazi"
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-benghazi-garrison",
+       "notes": [
+        "printed: Benghazi Garrison"
+       ]
+      }
+     ],
+     "notes": [
+      "Printed as Benghazi (B4827); places.json has benghazi at A4827."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "B5504"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-libyan-parachute-regt",
+       "notes": [
+        "printed: Libyan Parachute Regt (I)"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 5
+     },
+     "notes": [
+      "Printed as Barce (B5504); Barce is not in places.json."
+     ]
+    },
+    {
+     "placement": {
+      "place": "derna"
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-derna-garrison",
+       "notes": [
+        "printed: Derna Garrison"
+       ]
+      }
+     ],
+     "notes": [
+      "Printed as Derna (B5925)."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "B4921"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-mechili-garrison",
+       "notes": [
+        "printed: Mechili Garrison"
+       ]
+      }
+     ],
+     "notes": [
+      "Printed as Mechili (B4921); Mechili is not in places.json."
+     ]
+    },
+    {
+     "placement": {
+      "place": "giarabub"
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-giarabub-garrison",
+       "notes": [
+        "printed: Giaribub Garrison (spelled 'Giaribub' in the scan)"
+       ]
+      }
+     ],
+     "notes": [
+      "Printed as Giaribub (C1014)."
+     ]
+    },
+    {
+     "placement": {
+      "place": "bir-scheferzen"
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-scheferzen-garrison",
+       "notes": [
+        "printed: Scheferzen Garrison"
+       ]
+      }
+     ],
+     "notes": [
+      "Printed as Bir Scheferzen (C3419)."
+     ]
+    },
+    {
+     "placement": {
+      "place": "fort-maddalena"
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-fort-maddalena-garrison",
+       "notes": [
+        "printed: Fort Maddelena Garrison (spelled 'Maddelena' in the scan)"
+       ]
+      }
+     ],
+     "notes": [
+      "Printed as Fort Maddelena (C3019)."
+     ]
+    },
+    {
+     "placement": {
+      "place": "el-grein"
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-el-grein-garrison",
+       "notes": [
+        "printed: el Grein Garrison"
+       ]
+      }
+     ],
+     "notes": [
+      "Printed as el Grein (C1715)."
+     ]
+    },
+    {
+     "placement": {
+      "place": "benina"
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-benina-garrison",
+       "notes": [
+        "printed: Benina Garrison"
+       ]
+      }
+     ],
+     "notes": [
+      "Printed as Benina (A4829)."
+     ]
+    },
+    {
+     "placement": {
+      "place": "soluch"
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-soluch-garrison",
+       "notes": [
+        "printed: Soluch Garrison"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-x-cp-ar",
+       "notes": [
+        "printed: X Cp (Ar)"
+       ]
+      }
+     ],
+     "notes": [
+      "Printed as Soluch (A4130)."
+     ]
+    },
+    {
+     "placement": {
+      "region": "libya"
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-1-1ar",
+       "notes": [
+        "printed: 1/1AR"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-2-1ar",
+       "notes": [
+        "printed: 2/1AR"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-3-1ar",
+       "notes": [
+        "printed: 3/1AR"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-4-1ar",
+       "notes": [
+        "printed: 4/1AR"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-xxi-cp",
+       "notes": [
+        "printed: XXI Cp"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-xxvi-cp",
+       "notes": [
+        "printed: XXVI Cp"
+       ]
+      }
+     ],
+     "notes": [
+      "The scan line reads '1/1AR; 2/1AR; 3/1AR; 4/1AR; XXI Cp; XXVI Cp 4/1AR; XXI Cp (Ar)': 4/1AR and XXI Cp are printed twice. Listed once each here; whether two counters are meant needs a ruling."
+     ]
+    },
+    {
+     "placement": {
+      "within": {
+       "of": "C0716",
+       "hexes": 3
+      }
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-saharan-det",
+       "notes": [
+        "printed: Saharan Det (I)"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 5
+     }
+    },
+    {
+     "placement": {
+      "sheets": [
+       "A",
+       "B"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-xviii-lib",
+       "notes": [
+        "printed: XVIIILib (I; *) - infantry, no parent organisation"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-xxxii-lib",
+       "notes": [
+        "printed: XXXIILib (I; *) - infantry, no parent organisation"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-147",
+       "notes": [
+        "printed: 147 (Ar)"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-131",
+       "notes": [
+        "printed: 131 (Ar)"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-2-24",
+       "notes": [
+        "printed: 2/24 (Ar)"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-5-1",
+       "notes": [
+        "printed: 5/1 (Ar)"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-6-gaf",
+       "notes": [
+        "printed: 6 GaF (Ar)"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-16-gaf",
+       "notes": [
+        "printed: 16 GaF (Ar)"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-22-gaf",
+       "notes": [
+        "printed: 22 GaF (Ar)"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-42-gaf",
+       "notes": [
+        "printed: 42 GaF (Ar)"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-350-gaf",
+       "notes": [
+        "printed: 350 GaF (Ar)"
+       ]
+      }
+     ]
+    },
+    {
+     "placement": {
+      "box": "tripoli"
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-2-ccnn-div",
+       "notes": [
+        "printed: 2 CCNN Div (I)"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-3-ccnn-div",
+       "notes": [
+        "printed: 3 CCNN Div (I)"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-xxii-cp-ar",
+       "notes": [
+        "printed: XXII Cp (Ar)"
+       ]
+      },
+      {
+       "unit": "unit:it:todo-xxiii-cp-ar",
+       "notes": [
+        "printed: XXIII Cp (Ar)"
+       ]
+      }
+     ]
+    },
+    {
+     "placement": {
+      "box": "tripolitania"
+     },
+     "units": [
+      {
+       "unit": "unit:it:todo-4-10-army",
+       "notes": [
+        "printed: 4/10 Army (I)"
+       ]
+      }
+     ]
+    }
+   ],
+   "trucks": [
+    {
+     "placement": {
+      "box": "tripoli"
+     },
+     "trucks": {
+      "light": 25,
+      "medium": 140,
+      "heavy": 40
+     },
+     "use": "any"
+    },
+    {
+     "placement": {
+      "region": "libya"
+     },
+     "trucks": {
+      "light": 30,
+      "medium": 100,
+      "heavy": 25
+     },
+     "use": "any"
+    },
+    {
+     "placement": {
+      "air_facility": true
+     },
+     "trucks": {
+      "light": 10,
+      "medium": 50
+     },
+     "use": "air-facility"
+    }
+   ],
+   "supply": [
+    {
+     "placement": {
+      "place": "tobruk"
+     },
+     "kind": "dump",
+     "ammo": 200,
+     "fuel": 2000,
+     "stores": 500
+    },
+    {
+     "placement": {
+      "place": "bardia"
+     },
+     "kind": "dump",
+     "ammo": 100,
+     "fuel": 1000,
+     "stores": 200
+    },
+    {
+     "placement": {
+      "place": "benghazi"
+     },
+     "kind": "dump",
+     "ammo": 100,
+     "fuel": 250,
+     "stores": 100
+    },
+    {
+     "placement": {
+      "place": "derna"
+     },
+     "kind": "dump",
+     "fuel": 250,
+     "stores": 50,
+     "notes": [
+      "Ammo printed as a dash."
+     ]
+    },
+    {
+     "placement": {
+      "box": "tripoli"
+     },
+     "kind": "dump",
+     "ammo": 250,
+     "fuel": 5000,
+     "stores": 250
+    },
+    {
+     "placement": {
+      "sheets": [
+       "C"
+      ],
+      "not_within": {
+       "of": "enemy-unit",
+       "hexes": 4
+      },
+      "constraint": "Libyan part of sheet C only"
+     },
+     "kind": "dump",
+     "ammo": 1000,
+     "fuel": 1500,
+     "stores": 1500,
+     "water": 200,
+     "notes": [
+      "Dump 1."
+     ]
+    },
+    {
+     "placement": {
+      "sheets": [
+       "C"
+      ],
+      "not_within": {
+       "of": "enemy-unit",
+       "hexes": 4
+      },
+      "constraint": "Libyan part of sheet C only"
+     },
+     "kind": "dump",
+     "ammo": 1000,
+     "fuel": 1500,
+     "stores": 1000,
+     "water": 200,
+     "notes": [
+      "Dump 2."
+     ]
+    },
+    {
+     "placement": {
+      "sheets": [
+       "C"
+      ],
+      "not_within": {
+       "of": "enemy-unit",
+       "hexes": 4
+      },
+      "constraint": "Libyan part of sheet C only"
+     },
+     "kind": "dummy-dump",
+     "count": 2
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C0716"
+      ]
+     },
+     "kind": "dump",
+     "ammo": 100,
+     "fuel": 50,
+     "stores": 50
+    },
+    {
+     "placement": {
+      "air_facility": true
+     },
+     "kind": "air-facilities",
+     "ammo": 1200,
+     "fuel": 850,
+     "stores": 100,
+     "water": 100
+    }
+   ],
+   "repair": [
+    {
+     "placement": {
+      "box": "tripoli"
+     },
+     "kind": "major"
+    },
+    {
+     "placement": {
+      "place": "tobruk"
+     },
+     "kind": "temporary"
+    },
+    {
+     "placement": {
+      "place": "benghazi"
+     },
+     "kind": "temporary"
+    }
+   ],
+   "air": {
+    "sources": [
+     "CNA1979:60.32",
+     "scan:p77"
+    ],
+    "placement": "any Italian air facility within capacity; none in Italy/Sicily; Crete is not available",
+    "planes": [
+     {
+      "type": "CR 42",
+      "available": 65,
+      "refitted": 25
+     },
+     {
+      "type": "CR 32",
+      "available": 70,
+      "refitted": 28
+     },
+     {
+      "type": "Ba 65",
+      "available": 10,
+      "refitted": 2
+     },
+     {
+      "type": "Ba 88",
+      "available": 24,
+      "refitted": 6
+     },
+     {
+      "type": "SM 79",
+      "available": 133,
+      "refitted": 35
+     },
+     {
+      "type": "SM 81",
+      "available": 17,
+      "refitted": 4
+     },
+     {
+      "type": "Ca 309",
+      "available": 56,
+      "refitted": 12
+     },
+     {
+      "type": "Ro37Bis",
+      "available": 10,
+      "refitted": 6
+     },
+     {
+      "type": "2S01",
+      "available": 9,
+      "refitted": 9
+     }
+    ],
+    "pilots": {
+     "3": 3,
+     "2": 10,
+     "1": 15
+    },
+    "sgsu": 39,
+    "refit_from": {
+     "game_turn": 1,
+     "opstage": 2
+    }
+   },
+   "reinforcements": [
+    "The Italian player gets shipping from the Convoy Availability Charts and every reinforcement on the Reinforcement Track (60.37)."
+   ],
+   "special": [
+    "Two TOE strength points of Autoblinda 40 recce (ID code WW) may each be attached to a different unit regardless of normal composition limits, or both may instead start in Tobruk as trained, fuelled replacement points (60.31).",
+    "Italian coastal shipping: all Axis coastal shipping counters are usable and start in Tripoli (60.35).",
+    "Axis strategic attacks on Malta are limited to the forces of Availability Level I on the Axis Strategic Commitment Chart, 44.41 (60.36).",
+    "Before play the Italian player plans the convoy runs for the rest of September 1940, using lanes 2, 3 and 6 only (60.37)."
+   ]
+  },
+  "cw": {
+   "deployments": [
+    {
+     "placement": {
+      "hexes": [
+       "C4131"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-2-scots-guards",
+       "notes": [
+        "printed: 2nd Scots Guards (I)"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-31-field-arty-regt",
+       "notes": [
+        "printed: 31st Field Arty Regt (4 In) - assigned to 4th Indian Div"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 10
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C3926"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-1-coy-french-motor-marines",
+       "notes": [
+        "printed: 1st Coy French Motor Marines"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 2
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C3922"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-3-coldstream-gds",
+       "notes": [
+        "printed: 3rd Coldstream Gds/(I)"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-1-krrc",
+       "notes": [
+        "printed: 1st Kings Royal Rifle Corps (I; 7Spt/7)"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-4-rha",
+       "notes": [
+        "printed: 4th RHA (7 Spt/7)"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-7-medium-arty-regt",
+       "notes": [
+        "printed: 7th Medium Arty Regt"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 15,
+      "heavy": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C3721"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-1-royal-northumberland-fusiliers",
+       "notes": [
+        "printed: 1st Royal Northumberland Fusiliers (I)"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-3-rha",
+       "notes": [
+        "printed: 3rd RHA (AT; 7Spt/7) - anti-tank"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 5,
+      "medium": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C3520"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-1-rtr",
+       "notes": [
+        "printed: 1st RTR (7/7)"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C3320"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-2-rifle-bde",
+       "notes": [
+        "printed: 2nd Rifle Bde (I; 7Spt/7)"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 10
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "C3020"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-11-hus",
+       "notes": [
+        "printed: 11th Hus (R; 7Spt/7) - recce"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 3
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D3714"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-matruh-garrison",
+       "notes": [
+        "printed: Matruh Garrison (I; Att: 1 Essex 23/70; 1st Durham Lt Inf 23/70; 1st South Stafforshires - closing parenthesis missing in the scan)"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 5,
+      "medium": 15,
+      "heavy": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D3612"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-7-armoured-div",
+       "notes": [
+        "printed: 7th Armored Division (Det: all 7 Arm Div. units listed above)"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 5,
+      "medium": 5,
+      "heavy": 5
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "D3615"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-4-indian-div",
+       "notes": [
+        "printed: 4th Indian Division (Det: 31st Field Arty and 7th In Bde)"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 5,
+      "medium": 20,
+      "heavy": 2
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E1829"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-16-inf-bde",
+       "notes": [
+        "printed: 16th Inf Bde (70) - assigned to 70th Div"
+       ]
+      }
+     ],
+     "trucks": {
+      "medium": 20
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E3613",
+       "E3714"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-2-nz-div-hq",
+       "notes": [
+        "printed: HQ: 2nd New Zealand Division"
+       ],
+       "alone": true
+      },
+      {
+       "unit": "unit:cw:todo-4-nz-bde",
+       "notes": [
+        "printed: 4th NZ Bde (2 NZ)"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-27-nz-mg-bn",
+       "notes": [
+        "printed: 27th NZ MG Bn (2 NZ)"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-2-nz-cavalry",
+       "notes": [
+        "printed: 2nd NZ Cavalry (2 NZ)"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-4-nz-field-arty-regt",
+       "notes": [
+        "printed: 4th NZ Field Arty Regt (2 NZ)"
+       ]
+      }
+     ],
+     "trucks": {
+      "light": 10,
+      "medium": 15,
+      "heavy": 5
+     },
+     "notes": [
+      "Printed as Alexandria (E3613 &/or 3714)."
+     ]
+    },
+    {
+     "placement": {
+      "place": "cairo",
+      "constraint": "or Helwan (E1430)"
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-6-australian-div",
+       "notes": [
+        "printed: In Training: 6th Australian Division (Less: 19 Aus Bdg; 2/1AFld Arty; 2/2AFld Arty)"
+       ],
+       "status": "in-training",
+       "less": [
+        "unit:cw:todo-19-aus-bde",
+        "unit:cw:todo-2-1-aus-field-arty",
+        "unit:cw:todo-2-2-aus-field-arty"
+       ]
+      }
+     ],
+     "notes": [
+      "Printed as Cairo and/or Helwan (E 1430)."
+     ]
+    },
+    {
+     "placement": {
+      "place": "cairo"
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-8-field-arty-regt",
+       "notes": [
+        "printed: 8th Field Arty Regt"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-1-welch",
+       "notes": [
+        "printed: 1st Welch (I); its counter is coloured like Indian units"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-1-cheshire-mg-bn",
+       "notes": [
+        "printed: 1st Cheshire MG Bn"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-2-kings-own-ryl-regt",
+       "notes": [
+        "printed: 2nd King's Own Ryl Regt (I)"
+       ]
+      }
+     ]
+    },
+    {
+     "placement": {
+      "sheets": [
+       "D",
+       "E"
+      ]
+     },
+     "units": [
+      {
+       "unit": "unit:cw:todo-8-medium-arty-regt",
+       "notes": [
+        "printed: 8th Medium Arty Regt"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-65-anti-tank-regt",
+       "notes": [
+        "printed: 65th Anti-tank Regt"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-149-anti-tank-regt",
+       "notes": [
+        "printed: 149th Anti-Tank Regt"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-9-heavy-aa",
+       "notes": [
+        "printed: 9th Heavy AA"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-15-light-aa",
+       "notes": [
+        "printed: 15th Light AA"
+       ]
+      },
+      {
+       "unit": "unit:cw:todo-57-light-aa",
+       "notes": [
+        "printed: 57th Light AA"
+       ]
+      }
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E3613",
+       "E3714"
+      ]
+     },
+     "units": [],
+     "notes": [
+      "Broken-down vehicles in Alexandria: 2 TOE points of A9 cruiser tanks and 1 TOE point of A10 cruiser tanks, not tied to a listed unit; the schema has no field for loose broken-down TOE."
+     ]
+    }
+   ],
+   "trucks": [
+    {
+     "placement": {
+      "place": "cairo"
+     },
+     "trucks": {
+      "medium": 40,
+      "heavy": 10
+     },
+     "use": "any"
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E3613",
+       "E3714"
+      ]
+     },
+     "trucks": {
+      "light": 10,
+      "medium": 20
+     },
+     "use": "any",
+     "notes": [
+      "Printed as Alexandria."
+     ]
+    },
+    {
+     "placement": {
+      "sheets": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E"
+      ]
+     },
+     "trucks": {
+      "light": 15,
+      "medium": 40,
+      "heavy": 5
+     },
+     "use": "any",
+     "notes": [
+      "Printed as 'Anywhere, maps'."
+     ]
+    },
+    {
+     "placement": {
+      "air_facility": true
+     },
+     "trucks": {
+      "light": 5,
+      "medium": 30,
+      "heavy": 20
+     },
+     "use": "air-facility"
+    }
+   ],
+   "supply": [
+    {
+     "placement": {
+      "place": "mersa-matruh"
+     },
+     "kind": "dump",
+     "ammo": 1000,
+     "fuel": 3000,
+     "stores": 4000,
+     "notes": [
+      "Printed as Mersa Matruh (D3714)."
+     ]
+    },
+    {
+     "placement": {
+      "place": "sidi-barrani"
+     },
+     "kind": "dump",
+     "ammo": 250,
+     "fuel": 500,
+     "stores": 100,
+     "notes": [
+      "Printed as Sidi Baranni (C4131)."
+     ]
+    },
+    {
+     "placement": {
+      "region": "egypt",
+      "constraint": "on sheet C or D"
+     },
+     "kind": "dump",
+     "ammo": 500,
+     "fuel": 750,
+     "stores": 500,
+     "notes": [
+      "Dump I."
+     ]
+    },
+    {
+     "placement": {
+      "region": "egypt",
+      "constraint": "on sheet C or D"
+     },
+     "kind": "dummy-dump",
+     "count": 1
+    },
+    {
+     "placement": {
+      "air_facility": true
+     },
+     "kind": "air-facilities",
+     "ammo": 200,
+     "fuel": 250,
+     "stores": 50
+    }
+   ],
+   "repair": [
+    {
+     "placement": {
+      "hexes": [
+       "E3613",
+       "E3714"
+      ]
+     },
+     "kind": "major"
+    },
+    {
+     "placement": {
+      "place": "mersa-matruh"
+     },
+     "kind": "temporary"
+    }
+   ],
+   "fleet": {
+    "sources": [
+     "CNA1979:60.45",
+     "scan:p78"
+    ],
+    "total_note": "Text says one battleship, three cruisers and seven destroyers in total, deployed per the Fleet Schedule (30.0); this does not match the two lists below.",
+    "alexandria": {
+     "battleship": 2,
+     "cruiser": 2,
+     "aa-cruiser": 4,
+     "destroyer": 6
+    },
+    "valletta": {
+     "cruiser": 1,
+     "aa-cruiser": 1,
+     "destroyer": 2
+    },
+    "movement": "Warships may not move before Game-Turn 2 OpStage 1 (later text: not before the September 1/IV Stage/Turn); they start undamaged and may use their AA ratings."
+   },
+   "air": {
+    "sources": [
+     "CNA1979:60.42",
+     "CNA1979:60.46",
+     "scan:p77",
+     "scan:p78"
+    ],
+    "north_africa": {
+     "placement": "any Commonwealth North African air facility within capacity",
+     "planes": [
+      {
+       "type": "Lysander",
+       "available": 12,
+       "refitted": 8
+      },
+      {
+       "type": "Bombay",
+       "available": 15,
+       "refitted": 12
+      },
+      {
+       "type": "Sunderland",
+       "available": 18,
+       "refitted": 11
+      },
+      {
+       "type": "Blenheim Mk. I",
+       "available": 26,
+       "refitted": 18
+      },
+      {
+       "type": "Blenheim Mk. IV",
+       "available": 12,
+       "refitted": 12
+      },
+      {
+       "type": "Blenheim Mk. IVF",
+       "available": 9,
+       "refitted": 5
+      },
+      {
+       "type": "Gladiator",
+       "available": 36,
+       "refitted": 30
+      },
+      {
+       "type": "Hurricane Mk. I",
+       "available": 6,
+       "refitted": 4
+      },
+      {
+       "type": "Morane 406",
+       "available": 4,
+       "refitted": 2
+      },
+      {
+       "type": "Potez 63/11",
+       "available": 2,
+       "refitted": 2
+      },
+      {
+       "type": "Valentia",
+       "available": 3,
+       "refitted": 1
+      }
+     ],
+     "free_french_same_squadron": [
+      "Morane 406",
+      "Potez 63/11"
+     ],
+     "pilots": {
+      "3": 1,
+      "2": 5,
+      "1": 8
+     },
+     "sgsu": 14
+    },
+    "malta": {
+     "planes": [
+      {
+       "type": "Hurricane Mk I",
+       "count": 15,
+       "sgsu": 2,
+       "ready": 12
+      },
+      {
+       "type": "Swordfish",
+       "count": 12,
+       "sgsu": 1,
+       "ready": 9
+      },
+      {
+       "type": "Gladiator",
+       "count": 3,
+       "sgsu": 1,
+       "ready": 3
+      },
+      {
+       "type": "Sea Gladiator",
+       "count": 1,
+       "sgsu": 1,
+       "ready": 1
+      }
+     ],
+     "pilots": {
+      "2": 4,
+      "1": 6
+     },
+     "aa_points": 17,
+     "facility_capacity_sgsu": 5,
+     "construction_from": "October 1940"
+    }
+   },
+   "reinforcements": [
+    "The Commonwealth Reinforcement Track is used as printed; units that need training require other units assigned to train them (60.47).",
+    "No Commonwealth replacement points arrive before November 1940 (60.47)."
+   ],
+   "special": [
+    "Cairo and Alexandria hold unlimited supply, as the standard rules give (60.44)."
+   ]
+  }
+ },
+ "abstractions": {
+  "air": {
+   "sources": [
+    "CNA1979:60.91",
+    "scan:p78"
+   ],
+   "notes": [
+    "No changes beyond 59.6."
+   ]
+  },
+  "air_and_logistics": {
+   "sources": [
+    "CNA1979:60.92",
+    "scan:p78",
+    "scan:p79"
+   ],
+   "replaces": {
+    "axis": {
+     "supply": [
+      {
+       "placement": {
+        "place": "tobruk"
+       },
+       "kind": "supply-unit",
+       "count": 3,
+       "ammo": 15,
+       "fuel": 50
+      },
+      {
+       "placement": {
+        "place": "bardia"
+       },
+       "kind": "supply-unit",
+       "count": 2,
+       "ammo": 10,
+       "fuel": 40
+      },
+      {
+       "placement": {
+        "place": "benghazi"
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 10,
+       "fuel": 10
+      },
+      {
+       "placement": {
+        "place": "derna"
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "fuel": 10,
+       "notes": [
+        "Ammo printed as a dash."
+       ]
+      },
+      {
+       "placement": {
+        "box": "tripoli"
+       },
+       "kind": "supply-unit",
+       "count": 8,
+       "ammo": 5,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "sheets": [
+         "C"
+        ],
+        "not_within": {
+         "of": "enemy-unit",
+         "hexes": 4
+        },
+        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+       },
+       "kind": "supply-unit",
+       "count": 3,
+       "ammo": 40,
+       "fuel": 50,
+       "notes": [
+        "Dump 1."
+       ]
+      },
+      {
+       "placement": {
+        "sheets": [
+         "C"
+        ],
+        "not_within": {
+         "of": "enemy-unit",
+         "hexes": 4
+        },
+        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+       },
+       "kind": "supply-unit",
+       "count": 3,
+       "ammo": 40,
+       "fuel": 50,
+       "notes": [
+        "Dump 2."
+       ]
+      },
+      {
+       "placement": {
+        "hexes": [
+         "C0716"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 20,
+       "fuel": 6
+      },
+      {
+       "placement": {
+        "sheets": [
+         "C"
+        ],
+        "not_within": {
+         "of": "enemy-unit",
+         "hexes": 4
+        },
+        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+       },
+       "kind": "dummy-supply-unit",
+       "count": 3,
+       "notes": [
+        "First group of three dummies."
+       ]
+      },
+      {
+       "placement": {
+        "sheets": [
+         "C"
+        ],
+        "not_within": {
+         "of": "enemy-unit",
+         "hexes": 4
+        },
+        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+       },
+       "kind": "dummy-supply-unit",
+       "count": 3,
+       "notes": [
+        "Second group of three dummies."
+       ]
+      }
+     ]
+    },
+    "cw": {
+     "supply": [
+      {
+       "placement": {
+        "place": "mersa-matruh"
+       },
+       "kind": "supply-unit",
+       "count": 5,
+       "ammo": 40,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "place": "sidi-barrani"
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 40,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "sheets": [
+         "D"
+        ],
+        "constraint": "one hex west of Mersa Matruh; all three units together"
+       },
+       "kind": "supply-unit",
+       "count": 3,
+       "ammo": 40,
+       "fuel": 30,
+       "notes": [
+        "Dump I."
+       ]
+      },
+      {
+       "placement": {
+        "sheets": [
+         "D"
+        ],
+        "constraint": "one hex west of Mersa Matruh; all three units together"
+       },
+       "kind": "dummy-supply-unit",
+       "count": 3
+      }
+     ]
+    }
+   },
+   "adds": {
+    "cw": {
+     "supply": [
+      {
+       "placement": {
+        "hexes": [
+         "E3613",
+         "E3714"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 3,
+       "ammo": 40,
+       "fuel": 60,
+       "notes": [
+        "Alexandria."
+       ]
+      },
+      {
+       "placement": {
+        "place": "cairo"
+       },
+       "kind": "supply-unit",
+       "count": 3,
+       "ammo": 40,
+       "fuel": 60,
+       "notes": [
+        "Cairo."
+       ]
+      }
+     ]
+    }
+   },
+   "motorisation": "Each Medium truck point a side could bring in becomes one motorisation point; Light and Heavy points give none."
+  },
+  "logistics": {
+   "sources": [
+    "CNA1979:60.93",
+    "scan:p79"
+   ],
+   "replaces": {
+    "axis": {
+     "supply": [
+      {
+       "placement": {
+        "place": "tobruk"
+       },
+       "kind": "supply-unit",
+       "count": 3,
+       "ammo": 15,
+       "fuel": 50
+      },
+      {
+       "placement": {
+        "place": "bardia"
+       },
+       "kind": "supply-unit",
+       "count": 2,
+       "ammo": 10,
+       "fuel": 40
+      },
+      {
+       "placement": {
+        "place": "benghazi"
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 10,
+       "fuel": 10
+      },
+      {
+       "placement": {
+        "place": "derna"
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "fuel": 10,
+       "notes": [
+        "Ammo printed as a dash."
+       ]
+      },
+      {
+       "placement": {
+        "box": "tripoli"
+       },
+       "kind": "supply-unit",
+       "count": 8,
+       "ammo": 5,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "sheets": [
+         "C"
+        ],
+        "not_within": {
+         "of": "enemy-unit",
+         "hexes": 4
+        },
+        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+       },
+       "kind": "supply-unit",
+       "count": 3,
+       "ammo": 40,
+       "fuel": 50,
+       "notes": [
+        "Dump 1."
+       ]
+      },
+      {
+       "placement": {
+        "sheets": [
+         "C"
+        ],
+        "not_within": {
+         "of": "enemy-unit",
+         "hexes": 4
+        },
+        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+       },
+       "kind": "supply-unit",
+       "count": 3,
+       "ammo": 40,
+       "fuel": 50,
+       "notes": [
+        "Dump 2."
+       ]
+      },
+      {
+       "placement": {
+        "hexes": [
+         "C0716"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 20,
+       "fuel": 6
+      },
+      {
+       "placement": {
+        "sheets": [
+         "C"
+        ],
+        "not_within": {
+         "of": "enemy-unit",
+         "hexes": 4
+        },
+        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+       },
+       "kind": "dummy-supply-unit",
+       "count": 3,
+       "notes": [
+        "First group of three dummies."
+       ]
+      },
+      {
+       "placement": {
+        "sheets": [
+         "C"
+        ],
+        "not_within": {
+         "of": "enemy-unit",
+         "hexes": 4
+        },
+        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+       },
+       "kind": "dummy-supply-unit",
+       "count": 3,
+       "notes": [
+        "Second group of three dummies."
+       ]
+      },
+      {
+       "placement": {
+        "air_facility": true
+       },
+       "kind": "supply-unit",
+       "count": 5,
+       "ammo": 40,
+       "fuel": 15,
+       "notes": [
+        "Spread over any Axis airfields."
+       ]
+      }
+     ]
+    },
+    "cw": {
+     "supply": [
+      {
+       "placement": {
+        "place": "mersa-matruh"
+       },
+       "kind": "supply-unit",
+       "count": 5,
+       "ammo": 40,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "place": "sidi-barrani"
+       },
+       "kind": "supply-unit",
+       "count": 1,
+       "ammo": 40,
+       "fuel": 60
+      },
+      {
+       "placement": {
+        "sheets": [
+         "D"
+        ],
+        "constraint": "one hex west of Mersa Matruh; all three units together"
+       },
+       "kind": "supply-unit",
+       "count": 3,
+       "ammo": 40,
+       "fuel": 30,
+       "notes": [
+        "Dump I."
+       ]
+      },
+      {
+       "placement": {
+        "sheets": [
+         "D"
+        ],
+        "constraint": "one hex west of Mersa Matruh; all three units together"
+       },
+       "kind": "dummy-supply-unit",
+       "count": 3
+      },
+      {
+       "placement": {
+        "air_facility": true
+       },
+       "kind": "supply-unit",
+       "count": 2,
+       "ammo": 20,
+       "fuel": 12,
+       "notes": [
+        "Spread over any Commonwealth air facilities."
+       ]
+      }
+     ]
+    }
+   },
+   "adds": {
+    "cw": {
+     "supply": [
+      {
+       "placement": {
+        "hexes": [
+         "E3613",
+         "E3714"
+        ]
+       },
+       "kind": "supply-unit",
+       "count": 3,
+       "ammo": 40,
+       "fuel": 60,
+       "notes": [
+        "Alexandria."
+       ]
+      },
+      {
+       "placement": {
+        "place": "cairo"
+       },
+       "kind": "supply-unit",
+       "count": 3,
+       "ammo": 40,
+       "fuel": 60,
+       "notes": [
+        "Cairo."
+       ]
+      }
+     ]
+    }
+   },
+   "motorisation": "Each Medium and each Heavy truck point a side could bring in becomes one motorisation point.",
+   "notes": [
+    "60.93 B/C say 'as in 60.82 B/C'; read as a misprint for 60.92 B/C, so the 60.92 supply units (including Alexandria/Cairo extras) are repeated here with the air-facility units added."
+   ]
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "id": "scenario:italian-campaign",
+ "name": "The Italian Campaign",
+ "group": 1,
+ "extends": "scenario:grazianis-offensive",
+ "sources": [
+  "CNA1979:60.23",
+  "CNA1979:60.82",
+  "scan:p77",
+  "scan:p78"
+ ],
+ "notes": [
+  "Includes Operation Compass. 60.23 in the scan points to Case 60.72 for victory conditions; they are printed at 60.82."
+ ],
+ "start": {
+  "game_turn": 1,
+  "opstage": 1
+ },
+ "end": {
+  "game_turn": 20,
+  "opstage": 3
+ },
+ "victory": {
+  "kind": "points",
+  "points": [
+   {
+    "place": "mersa-matruh",
+    "axis": 100,
+    "cw": 0
+   },
+   {
+    "place": "tobruk",
+    "axis": 50,
+    "cw": 25
+   },
+   {
+    "place": "derna",
+    "axis": 20,
+    "cw": 30
+   },
+   {
+    "place": "giarabub",
+    "axis": 10,
+    "cw": 10
+   },
+   {
+    "place": "siwa",
+    "axis": 10,
+    "cw": 10
+   },
+   {
+    "place": "benghazi",
+    "axis": 10,
+    "cw": 50
+   },
+   {
+    "place": "agedabia",
+    "axis": 10,
+    "cw": 50
+   },
+   {
+    "place": "mersa-brega",
+    "axis": 0,
+    "cw": 50
+   }
+  ],
+  "notes": [
+   "A place scores for the side holding it with a combat unit (non-parenthesised Close Assault rating) that can trace supply of at most one Game-Turn to a dump or city whose line leads back to Cairo (CW) or Tripoli (Italian).",
+   "If no Italian combat unit on the map can trace a supply line, the Commonwealth wins a Strategic Victory; otherwise the side with more points wins a plain Victory.",
+   "Agedabia is printed 'Agadabia (A2629)'."
+  ]
+ }
+}
