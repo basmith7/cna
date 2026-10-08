@@ -77,9 +77,12 @@ fuel has been paid may be attempted.
 
 ::: spi 22.31 22.32 22.33 22.34 22.35 22.36 22.37 22.38
 
+::: ruling R-099 — a scenario's own list of repair facilities governs it
+
 **Temporary facilities** are built by the players ([below](#repair-facilities))
 or placed by the scenario; **major facilities** exist at Tripoli (the box),
-Tobruk (for its controller), and every hex of Alexandria and Cairo. A vehicle
+Tobruk (for its controller), and every hex of Alexandria and Cairo, unless a
+scenario's set-up lists its facilities otherwise. A vehicle
 that begins the maintenance segment in a facility hex, not having been towed
 this stage, may be repaired there. Roll once per vehicle type — trucks,
 recce/AC, broken-down tanks and guns by type, destroyed tanks by type — on
