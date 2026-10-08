@@ -154,6 +154,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Reading a scenario](./scenarios/00-reading-scenarios.md)
 
+- [R-096](../rulings/R-096.md) — the set-up overrides the OA arrival column
 - [V-006](../rulings/V-006.md) — maintenance allowed in the first Operations Stage
 
 ## [Group One — the Italians](./scenarios/10-the-italians.md)
@@ -249,7 +250,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-093](../rulings/R-093.md) | accepted | 58.1, 32.64 |
 | [R-094](../rulings/R-094.md) | accepted | 60.31 |
 | [R-095](../rulings/R-095.md) | accepted | 60.45 |
-| [R-096](../rulings/R-096.md) | proposed | 60.41, 59.2 |
+| [R-096](../rulings/R-096.md) | accepted | 60.41, 59.2 |
 | [R-097](../rulings/R-097.md) | proposed | 60.37, 56.0 |
 | [R-098](../rulings/R-098.md) | proposed | 60.44, 22.31 |
 | [R-099](../rulings/R-099.md) | proposed | 60.33, 22.31 |
