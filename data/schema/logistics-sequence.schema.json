@@ -13,7 +13,7 @@
       "type": "array", "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["order", "stage", "name", "frequency", "actor", "attaches_to", "new_in_logistics", "air_game_only"],
+        "required": ["order", "stage", "name", "frequency", "actor", "attaches_to", "new_in_logistics", "air_game_only", "logistics_game_only"],
         "additionalProperties": false,
         "properties": {
           "order": {"type": "integer", "minimum": 1},
@@ -29,6 +29,7 @@
                                     {"enum": ["initiative-determination", "naval-convoy", "turn-end", null]}]},
           "new_in_logistics": {"type": "boolean", "description": "No counterpart in the Land Game outline (5.2)"},
           "air_game_only": {"type": "boolean"},
+          "logistics_game_only": {"type": "boolean", "description": "Only in the Logistics Game; absent from the Land-and-Air sequence (33.0)"},
           "repeat_as": {"type": "array", "items": {"enum": ["VI", "VII"]}}
         }
       }
