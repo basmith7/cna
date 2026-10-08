@@ -39,7 +39,7 @@ The next run reads this section first, acts on it, and moves each item to
 | Task | State | PR |
 |---|---|---|
 | 3.1 Group Two, the Desert Fox (§61): `rommels-arrival.json`, `desert-fox-campaign.json`, `rules/scenarios/20-desert-fox.md` (25/25 cases); R-101–R-104 opened | merged | #155 |
-| 3.4 (part) OA sheets complete for all three nations (German 148 counters, Commonwealth 444, Italian 439), each read twice | merged | #154 |
+| 3.4 (part) OA sheets complete for all three nations (German 148 counters, Commonwealth 436, Italian 436), each read twice | merged | #154 |
 | 3.4 (part) Reinforcement schedule through Game-Turn 38; R-100 opened (schedule vs OA arrival dates) | merged | #156 |
 | 3.2 Crusader (§62), 3.3 El Alamein (§63), schedule to Game-Turn 111 | being read | |
 | 3.5 Campaign game (§64, §65 omitted), 3.6 per-unit OA figures | not started | |
