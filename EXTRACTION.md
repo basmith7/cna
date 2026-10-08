@@ -470,3 +470,6 @@ the PR that adds or substantially rewrites the file.
 - **How expressed:** length, construction, abstractions, initiative and the points victory in prose; listings and tank strengths in the scenario file. The schema gains points by hexes (Halfaya Pass has no place id) and `margins` for points victories.
 - **Reading:** scan over OCR: C3714, D2001, "32nd Army", PzIV(E). Printed oddities in the data's notes: two Blenheim IVF rows, a "12/15 Aus" battalion that matches no counter (2/15 Aus likely), Halfaya Pass given as "both hexes" without numbers.
 - **Rulings:** R-096 applies to the 21st Panzer HQ; opened R-105 (a counter placed twice), R-106 (two tank battalions never placed), R-107 (inactive dumps).
+## data/tables/reinforcement-schedule.json, Game-Turns 39–111 — 2026-10-08
+- **Read:** the rest of 4.43a (jp2 113–114) and 4.43b (jp2 145): 107 Commonwealth and 62 Axis entries; nothing printed for Game-Turn 111, the last Axis entry at Game-Turn 99. The schedule is now complete (`through: 111`).
+- **Cross-check:** second read from the community chart PDFs: one figure differed (Game-Turn 75 OpStage 3 heavy trucks), settled from the scan as 6. Mapped to 251 OA ids; the arrival test finds three more printed disagreements with the OA sheets (102nd Anti-tank Regt, 22nd Armoured Bde HQ, 78th Field Regt), added to R-100.
