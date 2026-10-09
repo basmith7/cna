@@ -9,8 +9,8 @@
   "Anti-Aircraft Combat Results Table (46.3, chart page 13, jp2 107, printed upside down in the scan). Read twice, from the archive.org scan and the community chart PDFs (Shared Charts.pdf p. 13): 180 cells compared, 1 differs, in dots only (one range printed '41....54'). Another prints '31..43'. Both are ranges like the rest.",
   "columns are flak points firing at one target group (never divided by ten). dice is the two-dice range read in order (11 to 66) that gives the row's result in that column; null where the column has no such result. Read down the column to the row whose range holds the roll.",
   "fighter_missions: aircraft destroyed (groups c-e of 46.26). other_missions: rolled twice in the same column, once on destroyed and once on aborted (groups a-b).",
-  "The table's own notes add a density shift: against an other-missions group of bomber- or transport-class aircraft, one column right for each twelve aircraft beyond twelve. The Flak Adjustment Chart (46.4, density_shift here) instead counts all non-fighter aircraft over the hex in bands of 24; the two disagree (R-113).",
-  "density_shift is read only from the community chart PDFs (Shared Charts.pdf p. 11): the archive.org scan's chart pages searched (jp2 95-115) do not show it."
+  "The table's own notes add a density shift: against an other-missions group of bomber- or transport-class aircraft, one column right for each twelve aircraft beyond twelve. The Flak Adjustment Chart (46.4, density_shift here) instead counts all non-fighter aircraft over the hex in bands of 24; the two disagree; R-113 uses density_shift and not the notes.",
+  "density_shift (the Flak Adjustment Chart, 46.4) is on chart page 11: read from the community chart PDFs (Shared Charts.pdf p. 11) and the archive.org scan (jp2 105), 0 of 8 cells differ."
  ],
  "columns": [
   {

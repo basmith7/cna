@@ -301,8 +301,10 @@ data:
 Ten columns of flak points, from 1–4 up to 37 or more; in each, the two-dice
 ranges for each number of aircraft destroyed (and, for other missions,
 aborted). The Flak Adjustment Chart shifts one column per band of 24
-non-fighter aircraft over the hex, up to three; the notes under the results
-table count differently.
+non-fighter aircraft over the hex, up to three. The notes under the results
+table count differently (one column per twelve bombers and transports in
+the target group beyond twelve); they are **not** used: the chart governs
+(R-113).
 
 ::: ruling R-113 — which density shift applies to flak
 
