@@ -197,11 +197,11 @@ player reads his Pilot Arrival Table (34.88 Commonwealth, 34.89 Axis) and,
 if the month has pilots, rolls two dice once (Germans and Italians
 separately) and reads the total across every rating column for the number
 of pilots of each rating. The German ace Marseille arrives without a roll.
-The Axis tables are data:
+The tables are data:
 [`data/tables/pilot-arrival.json`](https://github.com/basmith7/cna/blob/main/data/tables/pilot-arrival.json)
-(Italian pilots November 1940 to October 1942, German March 1941 to
-October 1942, ratings 1 to 4; Marseille in Game-Turn 29). The Commonwealth
-table is not yet transcribed.
+(Commonwealth and Italian pilots November 1940 to October 1942, German
+March 1941 to October 1942, ratings 1 to 4 on every table; Marseille in
+Game-Turn 29).
 
 ### Aircraft
 
@@ -355,8 +355,8 @@ follow them.
   type in another configuration, picked per mission (34.12).
 - SGSU limits round up: Commonwealth `ceil(on_map / 12) + 2`; German and
   Italian each `ceil(on_map_nation / 10)`.
-- The Axis air reinforcement schedule (34.87) and the Commonwealth Pilot
-  Arrival Table (34.88) are not yet data.
+- The Axis air reinforcement schedule (34.87) was not found in either
+  scan.
 
 - A squadron needs: nation, class, ready capacity and reserve (by date for
   the Commonwealth), its SGSU (hex, CPA, supplies, attached trucks), its

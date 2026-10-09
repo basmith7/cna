@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "convoy-reconnaissance.schema.json",
+  "title": "Air Reconnaissance of Axis Naval Convoys Table (42.53)",
+  "type": "object",
+  "required": [
+    "table",
+    "sources",
+    "rows",
+    "sizes"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "range": {
+      "type": "object",
+      "required": [
+        "from",
+        "to"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "from": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "to": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      }
+    }
+  },
+  "properties": {
+    "table": {
+      "const": "convoy-reconnaissance"
+    },
+    "sources": {
+      "$ref": "common.schema.json#/$defs/sources"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "planes",
+          "respond"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "planes": {
+            "$ref": "#/$defs/range"
+          },
+          "respond": {
+            "type": "integer",
+            "minimum": 11,
+            "maximum": 66
+          }
+        }
+      }
+    },
+    "sizes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "size",
+          "tons"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "size": {
+            "enum": [
+              "small",
+              "medium",
+              "large"
+            ]
+          },
+          "tons": {
+            "$ref": "#/$defs/range"
+          }
+        }
+      }
+    }
+  }
+}

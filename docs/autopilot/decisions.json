@@ -125,13 +125,13 @@
       ]
     },
     {
-      "id": "air-convoy-recon-table",
+      "id": "air-axis-reinforcement-schedule",
       "group": "copy",
-      "title": "Air Reconnaissance of Axis Naval Convoys Table (42.53): where is it?",
-      "context": "42.53 resolves the Commonwealth's convoy reconnaissance on this table, but it is not on the archive.org chart pages (jp2 95-191), and the Common Charts index does not list it. Without it convoy reconnaissance has no resolution. The Axis Airplane Reinforcement Schedule (34.87) is missing the same way.",
+      "title": "Axis Airplane Reinforcement Schedule (34.87): where is it?",
+      "context": "34.84 says aircraft reinforcements follow a fixed schedule, and 34.87 names an Axis one, but neither the archive.org chart pages nor the community Axis chart PDF shows it; the Commonwealth schedule (34.86) is data. Without it the Axis gets no air reinforcements.",
       "options": [
-        "My copy has it (page and values in a note)",
-        "My copy lacks it too: decide a procedure as a ruling"
+        "My copy has it (page in a note)",
+        "My copy lacks it too: decide a schedule as a ruling"
       ]
     }
   ]
