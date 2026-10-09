@@ -1,0 +1,1367 @@
+{
+ "table": "air-bombardment",
+ "sources": [
+  "CNA1979:41.5",
+  "CNA1979:41.51",
+  "scan:p106"
+ ],
+ "notes": [
+  "Air Bombardment and Secondary Barrage Targets Table, 41.5 (41.51), chart page 12 (jp2 106, printed sideways). Read twice, from the archive.org scan and the community chart PDFs (Shared Charts.pdf p. 12): 374 result cells and 33 column headings compared, 0 differ. Every column of every target group covers the two-dice range 11-66 exactly once.",
+  "columns: one per printed column; enter by bomb points, torpedo points (41.72) or barrage points (secondary barrage targets), whichever the attack delivers. to null: and more.",
+  "The barrage heading of the tenth column is printed '1+' on both scans, and the eleventh has none; '1+' is recorded as printed (it reads as 21+ in sequence). The footnote marks a and b on the torpedo and barrage headings have no footnote text on the page.",
+  "result_kind: levels, capacity or efficiency levels lost (air facilities 41.36, ports 41.39B); percent, of each supply in the dump (41.35) or of the convoy's cargo (41.66); effect, no-effect or reduced/destroyed (41.37, 41.38); number, battalion-equivalents pinned (combat units, 41.31), truck points (41.32), AA TOE strength points (41.33) or damage points (ships, 41.34).",
+  "dice is the two-dice range read in order (11 to 66) giving that row in that column; null where the column has no such result."
+ ],
+ "columns": [
+  {
+   "bomb": {
+    "from": 1,
+    "to": 20
+   },
+   "torpedo": {
+    "from": 1,
+    "to": 5
+   },
+   "barrage": {
+    "from": 1,
+    "to": 2
+   }
+  },
+  {
+   "bomb": {
+    "from": 21,
+    "to": 40
+   },
+   "torpedo": {
+    "from": 6,
+    "to": 12
+   },
+   "barrage": {
+    "from": 3,
+    "to": 4
+   }
+  },
+  {
+   "bomb": {
+    "from": 41,
+    "to": 80
+   },
+   "torpedo": {
+    "from": 13,
+    "to": 24
+   },
+   "barrage": {
+    "from": 5,
+    "to": 6
+   }
+  },
+  {
+   "bomb": {
+    "from": 81,
+    "to": 120
+   },
+   "torpedo": {
+    "from": 25,
+    "to": 50
+   },
+   "barrage": {
+    "from": 7,
+    "to": 10
+   }
+  },
+  {
+   "bomb": {
+    "from": 121,
+    "to": 160
+   },
+   "torpedo": {
+    "from": 51,
+    "to": 80
+   },
+   "barrage": {
+    "from": 11,
+    "to": 12
+   }
+  },
+  {
+   "bomb": {
+    "from": 161,
+    "to": 200
+   },
+   "torpedo": {
+    "from": 81,
+    "to": 120
+   },
+   "barrage": {
+    "from": 13,
+    "to": 14
+   }
+  },
+  {
+   "bomb": {
+    "from": 201,
+    "to": 260
+   },
+   "torpedo": {
+    "from": 121,
+    "to": 160
+   },
+   "barrage": {
+    "from": 15,
+    "to": 16
+   }
+  },
+  {
+   "bomb": {
+    "from": 261,
+    "to": 320
+   },
+   "torpedo": {
+    "from": 161,
+    "to": 210
+   },
+   "barrage": {
+    "from": 17,
+    "to": 18
+   }
+  },
+  {
+   "bomb": {
+    "from": 321,
+    "to": 390
+   },
+   "torpedo": {
+    "from": 211,
+    "to": 270
+   },
+   "barrage": {
+    "from": 19,
+    "to": 20
+   }
+  },
+  {
+   "bomb": {
+    "from": 391,
+    "to": 470
+   },
+   "torpedo": {
+    "from": 271,
+    "to": 340
+   },
+   "barrage": "1+"
+  },
+  {
+   "bomb": {
+    "from": 471,
+    "to": null
+   },
+   "torpedo": {
+    "from": 341,
+    "to": null
+   },
+   "barrage": null
+  }
+ ],
+ "groups": [
+  {
+   "id": "air-facility-port",
+   "targets": [
+    "airfield",
+    "air-landing-strip",
+    "port"
+   ],
+   "result_kind": "levels",
+   "rows": [
+    {
+     "result": 0,
+     "dice": [
+      {
+       "from": 11,
+       "to": 62
+      },
+      {
+       "from": 11,
+       "to": 55
+      },
+      {
+       "from": 11,
+       "to": 51
+      },
+      {
+       "from": 11,
+       "to": 42
+      },
+      {
+       "from": 11,
+       "to": 36
+      },
+      {
+       "from": 11,
+       "to": 31
+      },
+      {
+       "from": 11,
+       "to": 15
+      },
+      {
+       "from": 11,
+       "to": 12
+      },
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "result": 1,
+     "dice": [
+      {
+       "from": 63,
+       "to": 66
+      },
+      {
+       "from": 56,
+       "to": 66
+      },
+      {
+       "from": 52,
+       "to": 66
+      },
+      {
+       "from": 43,
+       "to": 66
+      },
+      {
+       "from": 41,
+       "to": 62
+      },
+      {
+       "from": 32,
+       "to": 56
+      },
+      {
+       "from": 16,
+       "to": 55
+      },
+      {
+       "from": 13,
+       "to": 46
+      },
+      {
+       "from": 11,
+       "to": 43
+      },
+      {
+       "from": 11,
+       "to": 36
+      },
+      {
+       "from": 11,
+       "to": 25
+      }
+     ]
+    },
+    {
+     "result": 2,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 63,
+       "to": 66
+      },
+      {
+       "from": 61,
+       "to": 66
+      },
+      {
+       "from": 56,
+       "to": 65
+      },
+      {
+       "from": 51,
+       "to": 64
+      },
+      {
+       "from": 44,
+       "to": 63
+      },
+      {
+       "from": 41,
+       "to": 55
+      },
+      {
+       "from": 26,
+       "to": 52
+      }
+     ]
+    },
+    {
+     "result": 3,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 66,
+       "to": 66
+      },
+      {
+       "from": 65,
+       "to": 66
+      },
+      {
+       "from": 64,
+       "to": 65
+      },
+      {
+       "from": 56,
+       "to": 63
+      },
+      {
+       "from": 53,
+       "to": 61
+      }
+     ]
+    },
+    {
+     "result": 4,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 66,
+       "to": 66
+      },
+      {
+       "from": 64,
+       "to": 66
+      },
+      {
+       "from": 62,
+       "to": 66
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "supply-dump",
+   "targets": [
+    "supply-dump"
+   ],
+   "result_kind": "percent",
+   "rows": [
+    {
+     "result": 0,
+     "dice": [
+      {
+       "from": 11,
+       "to": 62
+      },
+      {
+       "from": 11,
+       "to": 56
+      },
+      {
+       "from": 11,
+       "to": 46
+      },
+      {
+       "from": 11,
+       "to": 34
+      },
+      {
+       "from": 11,
+       "to": 16
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "result": 10,
+     "dice": [
+      {
+       "from": 63,
+       "to": 66
+      },
+      {
+       "from": 61,
+       "to": 66
+      },
+      {
+       "from": 51,
+       "to": 66
+      },
+      {
+       "from": 35,
+       "to": 64
+      },
+      {
+       "from": 21,
+       "to": 56
+      },
+      {
+       "from": 11,
+       "to": 46
+      },
+      {
+       "from": 11,
+       "to": 34
+      },
+      {
+       "from": 11,
+       "to": 16
+      },
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "result": 20,
+     "dice": [
+      null,
+      null,
+      null,
+      {
+       "from": 65,
+       "to": 66
+      },
+      {
+       "from": 61,
+       "to": 66
+      },
+      {
+       "from": 51,
+       "to": 64
+      },
+      {
+       "from": 35,
+       "to": 56
+      },
+      {
+       "from": 21,
+       "to": 46
+      },
+      {
+       "from": 11,
+       "to": 34
+      },
+      {
+       "from": 11,
+       "to": 16
+      },
+      null
+     ]
+    },
+    {
+     "result": 30,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 65,
+       "to": 66
+      },
+      {
+       "from": 61,
+       "to": 66
+      },
+      {
+       "from": 51,
+       "to": 64
+      },
+      {
+       "from": 35,
+       "to": 56
+      },
+      {
+       "from": 21,
+       "to": 46
+      },
+      {
+       "from": 11,
+       "to": 34
+      }
+     ]
+    },
+    {
+     "result": 40,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 65,
+       "to": 66
+      },
+      {
+       "from": 61,
+       "to": 66
+      },
+      {
+       "from": 51,
+       "to": 64
+      },
+      {
+       "from": 35,
+       "to": 56
+      }
+     ]
+    },
+    {
+     "result": 50,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 65,
+       "to": 66
+      },
+      {
+       "from": 61,
+       "to": 64
+      }
+     ]
+    },
+    {
+     "result": 75,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 65,
+       "to": 66
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fortification",
+   "targets": [
+    "fortification"
+   ],
+   "result_kind": "effect",
+   "rows": [
+    {
+     "result": "no-effect",
+     "dice": [
+      {
+       "from": 11,
+       "to": 65
+      },
+      {
+       "from": 11,
+       "to": 63
+      },
+      {
+       "from": 11,
+       "to": 56
+      },
+      {
+       "from": 11,
+       "to": 52
+      },
+      {
+       "from": 11,
+       "to": 43
+      },
+      {
+       "from": 11,
+       "to": 33
+      },
+      {
+       "from": 11,
+       "to": 24
+      },
+      {
+       "from": 11,
+       "to": 16
+      },
+      {
+       "from": 11,
+       "to": 13
+      },
+      {
+       "from": 11,
+       "to": 11
+      },
+      null
+     ]
+    },
+    {
+     "result": "reduced",
+     "dice": [
+      {
+       "from": 66,
+       "to": 66
+      },
+      {
+       "from": 64,
+       "to": 66
+      },
+      {
+       "from": 61,
+       "to": 66
+      },
+      {
+       "from": 53,
+       "to": 66
+      },
+      {
+       "from": 44,
+       "to": 66
+      },
+      {
+       "from": 34,
+       "to": 66
+      },
+      {
+       "from": 25,
+       "to": 66
+      },
+      {
+       "from": 21,
+       "to": 66
+      },
+      {
+       "from": 14,
+       "to": 66
+      },
+      {
+       "from": 12,
+       "to": 66
+      },
+      {
+       "from": 11,
+       "to": 66
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "railroad",
+   "targets": [
+    "railroad"
+   ],
+   "result_kind": "effect",
+   "rows": [
+    {
+     "result": "no-effect",
+     "dice": [
+      {
+       "from": 11,
+       "to": 63
+      },
+      {
+       "from": 11,
+       "to": 61
+      },
+      {
+       "from": 11,
+       "to": 53
+      },
+      {
+       "from": 11,
+       "to": 43
+      },
+      {
+       "from": 11,
+       "to": 32
+      },
+      {
+       "from": 11,
+       "to": 22
+      },
+      {
+       "from": 11,
+       "to": 14
+      },
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "result": "destroyed",
+     "dice": [
+      {
+       "from": 64,
+       "to": 66
+      },
+      {
+       "from": 62,
+       "to": 66
+      },
+      {
+       "from": 54,
+       "to": 66
+      },
+      {
+       "from": 44,
+       "to": 66
+      },
+      {
+       "from": 33,
+       "to": 66
+      },
+      {
+       "from": 23,
+       "to": 66
+      },
+      {
+       "from": 15,
+       "to": 66
+      },
+      {
+       "from": 11,
+       "to": 66
+      },
+      {
+       "from": 11,
+       "to": 66
+      },
+      {
+       "from": 11,
+       "to": 66
+      },
+      {
+       "from": 11,
+       "to": 66
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "road",
+   "targets": [
+    "road"
+   ],
+   "result_kind": "effect",
+   "rows": [
+    {
+     "result": "no-effect",
+     "dice": [
+      {
+       "from": 11,
+       "to": 65
+      },
+      {
+       "from": 11,
+       "to": 63
+      },
+      {
+       "from": 11,
+       "to": 56
+      },
+      {
+       "from": 11,
+       "to": 51
+      },
+      {
+       "from": 11,
+       "to": 36
+      },
+      {
+       "from": 11,
+       "to": 25
+      },
+      {
+       "from": 11,
+       "to": 16
+      },
+      {
+       "from": 11,
+       "to": 13
+      },
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "result": "destroyed",
+     "dice": [
+      {
+       "from": 66,
+       "to": 66
+      },
+      {
+       "from": 64,
+       "to": 66
+      },
+      {
+       "from": 61,
+       "to": 66
+      },
+      {
+       "from": 52,
+       "to": 66
+      },
+      {
+       "from": 41,
+       "to": 66
+      },
+      {
+       "from": 26,
+       "to": 66
+      },
+      {
+       "from": 21,
+       "to": 66
+      },
+      {
+       "from": 14,
+       "to": 66
+      },
+      {
+       "from": 11,
+       "to": 66
+      },
+      {
+       "from": 11,
+       "to": 66
+      },
+      {
+       "from": 11,
+       "to": 66
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "units",
+   "targets": [
+    "trucks",
+    "flak-suppression",
+    "combat-units",
+    "commonwealth-fleet"
+   ],
+   "result_kind": "number",
+   "rows": [
+    {
+     "result": 0,
+     "dice": [
+      {
+       "from": 11,
+       "to": 62
+      },
+      {
+       "from": 11,
+       "to": 46
+      },
+      {
+       "from": 11,
+       "to": 16
+      },
+      {
+       "from": 11,
+       "to": 12
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "result": 1,
+     "dice": [
+      {
+       "from": 63,
+       "to": 66
+      },
+      {
+       "from": 51,
+       "to": 66
+      },
+      {
+       "from": 21,
+       "to": 66
+      },
+      {
+       "from": 13,
+       "to": 42
+      },
+      {
+       "from": 11,
+       "to": 24
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "result": 2,
+     "dice": [
+      null,
+      null,
+      null,
+      {
+       "from": 43,
+       "to": 66
+      },
+      {
+       "from": 25,
+       "to": 46
+      },
+      {
+       "from": 11,
+       "to": 36
+      },
+      {
+       "from": 11,
+       "to": 16
+      },
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "result": 3,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 51,
+       "to": 66
+      },
+      {
+       "from": 41,
+       "to": 62
+      },
+      {
+       "from": 21,
+       "to": 46
+      },
+      {
+       "from": 11,
+       "to": 34
+      },
+      {
+       "from": 11,
+       "to": 16
+      },
+      null,
+      null
+     ]
+    },
+    {
+     "result": 4,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 63,
+       "to": 66
+      },
+      {
+       "from": 51,
+       "to": 66
+      },
+      {
+       "from": 35,
+       "to": 64
+      },
+      {
+       "from": 21,
+       "to": 56
+      },
+      {
+       "from": 11,
+       "to": 46
+      },
+      {
+       "from": 11,
+       "to": 16
+      }
+     ]
+    },
+    {
+     "result": 5,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 65,
+       "to": 66
+      },
+      {
+       "from": 61,
+       "to": 64
+      },
+      {
+       "from": 51,
+       "to": 56
+      },
+      {
+       "from": 21,
+       "to": 46
+      }
+     ]
+    },
+    {
+     "result": 6,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 65,
+       "to": 66
+      },
+      {
+       "from": 61,
+       "to": 66
+      },
+      {
+       "from": 51,
+       "to": 64
+      }
+     ]
+    },
+    {
+     "result": 7,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 65,
+       "to": 66
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "axis-naval-convoy",
+   "targets": [
+    "axis-naval-convoy"
+   ],
+   "result_kind": "percent",
+   "rows": [
+    {
+     "result": 0,
+     "dice": [
+      {
+       "from": 11,
+       "to": 66
+      },
+      {
+       "from": 11,
+       "to": 54
+      },
+      {
+       "from": 11,
+       "to": 33
+      },
+      {
+       "from": 11,
+       "to": 22
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "result": 5,
+     "dice": [
+      null,
+      {
+       "from": 55,
+       "to": 64
+      },
+      {
+       "from": 34,
+       "to": 64
+      },
+      {
+       "from": 23,
+       "to": 54
+      },
+      {
+       "from": 11,
+       "to": 45
+      },
+      {
+       "from": 11,
+       "to": 32
+      },
+      {
+       "from": 11,
+       "to": 21
+      },
+      {
+       "from": 11,
+       "to": 14
+      },
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "result": 10,
+     "dice": [
+      null,
+      {
+       "from": 65,
+       "to": 66
+      },
+      {
+       "from": 65,
+       "to": 66
+      },
+      {
+       "from": 55,
+       "to": 64
+      },
+      {
+       "from": 46,
+       "to": 63
+      },
+      {
+       "from": 33,
+       "to": 56
+      },
+      {
+       "from": 22,
+       "to": 51
+      },
+      {
+       "from": 15,
+       "to": 42
+      },
+      {
+       "from": 11,
+       "to": 23
+      },
+      {
+       "from": 11,
+       "to": 15
+      },
+      null
+     ]
+    },
+    {
+     "result": 20,
+     "dice": [
+      null,
+      null,
+      null,
+      {
+       "from": 65,
+       "to": 66
+      },
+      {
+       "from": 64,
+       "to": 66
+      },
+      {
+       "from": 61,
+       "to": 66
+      },
+      {
+       "from": 52,
+       "to": 63
+      },
+      {
+       "from": 43,
+       "to": 56
+      },
+      {
+       "from": 24,
+       "to": 51
+      },
+      {
+       "from": 16,
+       "to": 34
+      },
+      {
+       "from": 11,
+       "to": 24
+      }
+     ]
+    },
+    {
+     "result": 25,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 64,
+       "to": 66
+      },
+      {
+       "from": 61,
+       "to": 66
+      },
+      {
+       "from": 52,
+       "to": 63
+      },
+      {
+       "from": 35,
+       "to": 52
+      },
+      {
+       "from": 25,
+       "to": 36
+      }
+     ]
+    },
+    {
+     "result": 30,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 64,
+       "to": 66
+      },
+      {
+       "from": 53,
+       "to": 63
+      },
+      {
+       "from": 41,
+       "to": 54
+      }
+     ]
+    },
+    {
+     "result": 40,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 64,
+       "to": 66
+      },
+      {
+       "from": 55,
+       "to": 63
+      }
+     ]
+    },
+    {
+     "result": 50,
+     "dice": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "from": 64,
+       "to": 66
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
