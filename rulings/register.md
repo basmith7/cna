@@ -88,7 +88,7 @@ files' frontmatter; how rulings work is in the [README](./README.md).
 | [R-113](./R-113.md) | Two density shifts for flak | proposed | 46.3, 46.4 |
 | [R-114](./R-114.md) | Anti-air units with the Air Game and abstract logistics | accepted | 47.0, 32.81, 32.82, 32.83, 32.84 |
 | [R-115](./R-115.md) | Are there rating-5 pilots? | proposed | 40.15, 34.83, 34.88, 34.89 |
-| [R-116](./R-116.md) | Commonwealth squadron size before July 1941 | proposed | 35.23 |
+| [R-116](./R-116.md) | Commonwealth squadron size before July 1941 | accepted | 35.23 |
 
 ## Variants
 
