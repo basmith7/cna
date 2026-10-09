@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "air-bombardment.schema.json",
+  "title": "Air Bombardment and Secondary Barrage Targets Table (41.5)",
+  "type": "object",
+  "required": [
+    "table",
+    "sources",
+    "columns",
+    "groups"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "range": {
+      "type": "object",
+      "required": [
+        "from",
+        "to"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "from": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "to": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        }
+      }
+    }
+  },
+  "properties": {
+    "table": {
+      "const": "air-bombardment"
+    },
+    "sources": {
+      "$ref": "common.schema.json#/$defs/sources"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "columns": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "bomb",
+          "torpedo",
+          "barrage"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "bomb": {
+            "$ref": "#/$defs/range"
+          },
+          "torpedo": {
+            "$ref": "#/$defs/range"
+          },
+          "barrage": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/range"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "groups": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "targets",
+          "result_kind",
+          "rows"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "targets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "result_kind": {
+            "enum": [
+              "levels",
+              "percent",
+              "effect",
+              "number"
+            ]
+          },
+          "rows": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "result",
+                "dice"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "result": {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                },
+                "dice": {
+                  "type": "array",
+                  "items": {
+                    "anyOf": [
+                      {
+                        "$ref": "#/$defs/range"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

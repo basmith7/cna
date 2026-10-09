@@ -1,0 +1,63 @@
+{
+ "table": "harbour-mining",
+ "sources": [
+  "CNA1979:41.39",
+  "CNA1979:41.52",
+  "scan:p105"
+ ],
+ "notes": [
+  "Mining Harbor by Plane Table, printed 41.39 on chart page 11 (jp2 105); the rules list it as 41.52. Read twice, from the archive.org scan and the community chart PDFs (Shared Charts.pdf p. 11): 0 of 7 cells differ.",
+  "One die per six aircraft laying mines; bombload is the average bomb load of those six (not their total). At or under mined, the harbour gets one mine counter."
+ ],
+ "rows": [
+  {
+   "bombload": {
+    "from": 0,
+    "to": 5
+   },
+   "mined": 0
+  },
+  {
+   "bombload": {
+    "from": 6,
+    "to": 10
+   },
+   "mined": 1
+  },
+  {
+   "bombload": {
+    "from": 11,
+    "to": 15
+   },
+   "mined": 2
+  },
+  {
+   "bombload": {
+    "from": 16,
+    "to": 20
+   },
+   "mined": 3
+  },
+  {
+   "bombload": {
+    "from": 21,
+    "to": 25
+   },
+   "mined": 4
+  },
+  {
+   "bombload": {
+    "from": 26,
+    "to": 30
+   },
+   "mined": 5
+  },
+  {
+   "bombload": {
+    "from": 31,
+    "to": null
+   },
+   "mined": 6
+  }
+ ]
+}
