@@ -166,8 +166,9 @@ the roll:
 | The aircraft are Italian | +2 |
 | The aircraft are German | +1 |
 
-The additions are cumulative, whichever player owns the aircraft. (The
-table's own key words the national additions by the SGSU's nation instead.)
+The additions are cumulative, whichever player owns the aircraft. The
+national addition follows the **aircraft's** nation, not the SGSU's (the
+table's own key words it by the SGSU; R-112).
 
 ::: ruling R-112 — whether the refit additions follow the aircraft's nation or the SGSU's
 
