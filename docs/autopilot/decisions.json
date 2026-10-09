@@ -123,6 +123,16 @@
         "My counters differ (say how)",
         "Leave as read"
       ]
+    },
+    {
+      "id": "air-convoy-recon-table",
+      "group": "copy",
+      "title": "Air Reconnaissance of Axis Naval Convoys Table (42.53): where is it?",
+      "context": "42.53 resolves the Commonwealth's convoy reconnaissance on this table, but it is not on the archive.org chart pages (jp2 95-191), and the Common Charts index does not list it. Without it convoy reconnaissance has no resolution. The Axis Airplane Reinforcement Schedule (34.87) is missing the same way.",
+      "options": [
+        "My copy has it (page and values in a note)",
+        "My copy lacks it too: decide a procedure as a ruling"
+      ]
     }
   ]
 }
