@@ -1,0 +1,57 @@
+{
+ "table": "scramble",
+ "sources": [
+  "CNA1979:40.4",
+  "CNA1979:40.33",
+  "CNA1979:40.91",
+  "scan:p105"
+ ],
+ "notes": [
+  "Scramble Table, 40.4, chart page 11 (jp2 105). Read twice, from the archive.org scan and the community chart PDFs (Shared Charts.pdf p. 11): 0 of 12 cells differ.",
+  "distance is in hexes from the scrambling squadron's base to the target hex; one die per squadron, at or under scramble succeeds. Beyond 15 hexes no scramble is possible. Night fighters scrambling against a night bombing mission add 2 to the die (40.91)."
+ ],
+ "rows": [
+  {
+   "distance": {
+    "from": 0,
+    "to": 2
+   },
+   "scramble": 6
+  },
+  {
+   "distance": {
+    "from": 3,
+    "to": 4
+   },
+   "scramble": 5
+  },
+  {
+   "distance": {
+    "from": 5,
+    "to": 6
+   },
+   "scramble": 4
+  },
+  {
+   "distance": {
+    "from": 7,
+    "to": 8
+   },
+   "scramble": 3
+  },
+  {
+   "distance": {
+    "from": 9,
+    "to": 10
+   },
+   "scramble": 2
+  },
+  {
+   "distance": {
+    "from": 11,
+    "to": 15
+   },
+   "scramble": 1
+  }
+ ]
+}
