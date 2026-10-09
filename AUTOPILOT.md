@@ -57,7 +57,7 @@ that is really a whole mission goes into the queue instead.
 |---|---|---|---|---|
 | 1–5 | Land Game, rulings, map, decision board, Logistics Game | §1–32, §48–58 | | done |
 | 6 | **Scenarios and OA sheets** | §59–65 | about 170 | done |
-| 7 | **The Air Game** | §33–47 | about 430 | next |
+| 7 | **The Air Game** | §33–47 | about 430 | done |
 
 Scenarios come before the Air Game because the engine cannot set up a game
 without them, while the Air Game is an optional module (§32 and §58 already

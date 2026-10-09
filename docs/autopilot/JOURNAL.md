@@ -430,3 +430,9 @@ Done: #201 §47 + final switch list, #202 §34 prose, #203 R-114 accepted (32.8 
 In flight: #207 (gates green locally).
 Next: §44 Malta into rules/air/80-mediterranean-and-malta.md (44.5 construction table jp2 178 per djvu index 178; 44.41 commitment chart); then Pilot Arrival Tables 34.88/34.89 (not yet located); then decide R-111..R-116.
 Blocked: none (copy: 42.53 convoy recon table, 34.87 Axis air schedule not found in scans).
+
+## 2026-10-08 22:00 MST — autopilot/air-docs
+Done: Mission 7 Task 3 finished: #208 §44 Malta + all three Pilot Arrival Tables + convoy-reconnaissance.json (42.53 found on jp2 141). Task 4: R-112 #209, R-111 #210, R-113 #211, R-115 #212, R-116 #213 (R-114 #203 earlier). Task 5 docs this PR #214. MISSION 7 COMPLETE; §1–65 1736/1736 covered; CI coverage --sections 1-65.
+In flight: none after this PR.
+Next: queue finished. Only cna-engine Requests for cna and Brian's Feedback; with neither, stop at once (finish line in AUTOPILOT.md).
+Blocked: none (copy: 34.87 Axis Airplane Reinforcement Schedule not in either scan; older copy items unchanged).

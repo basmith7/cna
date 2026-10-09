@@ -13,7 +13,7 @@ engine, server or UI lives here. Design: `docs/designs/2026-09-18-cna-living-rul
 
 | Directory | Contents | Licence |
 |---|---|---|
-| `rules/` | The restated rules, one file per game system; `rules/logistics/` holds the Logistics Game (§48–58), an optional module over the Land Game; `rules/scenarios/` the scenarios (§59–65), whose set-ups are data | CC-BY-SA-4.0 |
+| `rules/` | The restated rules, one file per game system; `rules/logistics/` holds the Logistics Game (§48–58), an optional module over the Land Game; `rules/air/` the Air Game (§33–47), another optional module; `rules/scenarios/` the scenarios (§59–65), whose set-ups are data | CC-BY-SA-4.0 |
 | `rulings/` | One file per ruling: problem, options, decision, rationale | CC-BY-SA-4.0 |
 | `data/` | Tables as JSON (CRTs, terrain, weather, **map**, unit and weapon characteristics, …), the **OA sheets** (`data/oa/`), the reinforcement schedule and the **scenarios** (`data/scenarios/`), with schemas and provenance | CC0-1.0 |
 | `tools/` | Fetch, generate and check scripts | MIT |
