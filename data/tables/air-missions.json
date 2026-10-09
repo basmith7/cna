@@ -1,0 +1,373 @@
+{
+ "table": "air-missions",
+ "sources": [
+  "CNA1979:39.5",
+  "scan:p100"
+ ],
+ "notes": [
+  "Aircraft Mission Summary, 39.5, chart page 6 (jp2 100). Read from the archive.org scan; it is a list, not a grid, and every entry is checked against the rules section it cites.",
+  "kind: strategic missions fly once a Game-Turn in the strategic air phase (39.13); land_support missions fly in an Operations Stage's land support air phase (39.14). role groups them as the chart does: fighter, bombing, non-combat.",
+  "night: the chart marks the mission as one that may be flown at night (39.4). bombardment_table: strafing ports is resolved on the Air Bombardment Table.",
+  "side cw on strafe-tanks: only Hurricane IIDs the Commonwealth owns (not captured ones) may strafe tanks. side axis on bomb-cw-ships: the Commonwealth has no ships to bomb other than its own, so only the Axis flies it (our reading of the chart's 'Commonwealth Ships').",
+  "The two CAP over Malta entries cite no case on the chart."
+ ],
+ "rows": [
+  {
+   "id": "cw-convoy-recon",
+   "mission": "Reconnaissance of Axis naval convoys",
+   "kind": "strategic",
+   "side": "cw",
+   "role": "non-combat",
+   "night": false,
+   "cases": [
+    "42.5"
+   ]
+  },
+  {
+   "id": "cw-convoy-bombing",
+   "mission": "Bombing Axis naval convoys",
+   "kind": "strategic",
+   "side": "cw",
+   "role": "bombing",
+   "night": false,
+   "cases": [
+    "41.6"
+   ]
+  },
+  {
+   "id": "cw-convoy-defensive-cap",
+   "mission": "Defensive CAP over Axis naval convoys",
+   "kind": "strategic",
+   "side": "cw",
+   "role": "fighter",
+   "night": false,
+   "cases": [
+    "41.63"
+   ]
+  },
+  {
+   "id": "cw-convoy-flak-suppression",
+   "mission": "Flak suppression of Axis naval convoys",
+   "kind": "strategic",
+   "side": "cw",
+   "role": "fighter",
+   "night": false,
+   "cases": [
+    "41.63"
+   ]
+  },
+  {
+   "id": "cw-malta-cap",
+   "mission": "CAP over Malta",
+   "kind": "strategic",
+   "side": "cw",
+   "role": "fighter",
+   "night": false,
+   "cases": []
+  },
+  {
+   "id": "axis-malta-bombing",
+   "mission": "Bombing Maltese air facilities",
+   "kind": "strategic",
+   "side": "axis",
+   "role": "bombing",
+   "night": false,
+   "cases": [
+    "44.2"
+   ]
+  },
+  {
+   "id": "axis-malta-cap",
+   "mission": "CAP over Malta",
+   "kind": "strategic",
+   "side": "axis",
+   "role": "fighter",
+   "night": false,
+   "cases": []
+  },
+  {
+   "id": "axis-malta-flak-suppression",
+   "mission": "Flak suppression of Maltese air facilities",
+   "kind": "strategic",
+   "side": "axis",
+   "role": "fighter",
+   "night": false,
+   "cases": [
+    "44.2"
+   ]
+  },
+  {
+   "id": "axis-convoy-offensive-cap",
+   "mission": "Offensive CAP over Axis naval convoys",
+   "kind": "strategic",
+   "side": "axis",
+   "role": "fighter",
+   "night": false,
+   "cases": [
+    "41.63"
+   ]
+  },
+  {
+   "id": "scramble",
+   "mission": "Scramble",
+   "kind": "land_support",
+   "side": "both",
+   "role": "fighter",
+   "night": true,
+   "cases": [
+    "40.3"
+   ]
+  },
+  {
+   "id": "cap",
+   "mission": "Combat air patrol, offensive or defensive",
+   "kind": "land_support",
+   "side": "both",
+   "role": "fighter",
+   "night": true,
+   "cases": [
+    "40.2"
+   ]
+  },
+  {
+   "id": "strafe-first-line-trucks",
+   "mission": "Strafing first-line (attached) trucks",
+   "kind": "land_support",
+   "side": "both",
+   "role": "fighter",
+   "night": false,
+   "cases": [
+    "40.5",
+    "40.6"
+   ]
+  },
+  {
+   "id": "strafe-flak-suppression",
+   "mission": "Strafing: flak suppression",
+   "kind": "land_support",
+   "side": "both",
+   "role": "fighter",
+   "night": false,
+   "cases": [
+    "40.5",
+    "40.6"
+   ]
+  },
+  {
+   "id": "strafe-grounded-aircraft",
+   "mission": "Strafing grounded aircraft",
+   "kind": "land_support",
+   "side": "both",
+   "role": "fighter",
+   "night": false,
+   "cases": [
+    "40.5",
+    "40.6"
+   ]
+  },
+  {
+   "id": "strafe-infantry",
+   "mission": "Strafing infantry-type units",
+   "kind": "land_support",
+   "side": "both",
+   "role": "fighter",
+   "night": false,
+   "cases": [
+    "40.5",
+    "40.6"
+   ]
+  },
+  {
+   "id": "strafe-ports",
+   "mission": "Strafing ports",
+   "kind": "land_support",
+   "side": "both",
+   "role": "fighter",
+   "night": false,
+   "cases": [
+    "40.5",
+    "40.6"
+   ],
+   "bombardment_table": true
+  },
+  {
+   "id": "strafe-tanks",
+   "mission": "Strafing tanks",
+   "kind": "land_support",
+   "side": "cw",
+   "role": "fighter",
+   "night": false,
+   "cases": [
+    "40.5",
+    "40.6"
+   ]
+  },
+  {
+   "id": "strafe-convoy-trucks",
+   "mission": "Strafing trucks in convoy (second and third line)",
+   "kind": "land_support",
+   "side": "both",
+   "role": "fighter",
+   "night": false,
+   "cases": [
+    "40.5",
+    "40.6"
+   ]
+  },
+  {
+   "id": "strafe-water-pipeline",
+   "mission": "Strafing the water pipeline",
+   "kind": "land_support",
+   "side": "both",
+   "role": "fighter",
+   "night": false,
+   "cases": [
+    "40.5",
+    "40.6"
+   ]
+  },
+  {
+   "id": "bomb-air-facilities",
+   "mission": "Bombing air facilities",
+   "kind": "land_support",
+   "side": "both",
+   "role": "bombing",
+   "night": false,
+   "cases": [
+    "41.0"
+   ]
+  },
+  {
+   "id": "bomb-fortifications-cities",
+   "mission": "Bombing fortifications and major cities",
+   "kind": "land_support",
+   "side": "both",
+   "role": "bombing",
+   "night": true,
+   "cases": [
+    "41.0"
+   ]
+  },
+  {
+   "id": "bomb-flak-destruction",
+   "mission": "Bombing: flak destruction",
+   "kind": "land_support",
+   "side": "both",
+   "role": "bombing",
+   "night": false,
+   "cases": [
+    "41.0"
+   ]
+  },
+  {
+   "id": "bomb-mining-harbours",
+   "mission": "Mining harbours",
+   "kind": "land_support",
+   "side": "both",
+   "role": "bombing",
+   "night": false,
+   "cases": [
+    "41.0"
+   ]
+  },
+  {
+   "id": "bomb-personnel",
+   "mission": "Bombing personnel",
+   "kind": "land_support",
+   "side": "both",
+   "role": "bombing",
+   "night": false,
+   "cases": [
+    "41.0"
+   ]
+  },
+  {
+   "id": "bomb-ports",
+   "mission": "Bombing ports",
+   "kind": "land_support",
+   "side": "both",
+   "role": "bombing",
+   "night": true,
+   "cases": [
+    "41.0"
+   ]
+  },
+  {
+   "id": "bomb-rail-road",
+   "mission": "Bombing railways and roads",
+   "kind": "land_support",
+   "side": "both",
+   "role": "bombing",
+   "night": true,
+   "cases": [
+    "41.0"
+   ]
+  },
+  {
+   "id": "bomb-cw-ships",
+   "mission": "Bombing Commonwealth ships",
+   "kind": "land_support",
+   "side": "axis",
+   "role": "bombing",
+   "night": false,
+   "cases": [
+    "41.0"
+   ]
+  },
+  {
+   "id": "bomb-supply-dumps",
+   "mission": "Bombing supply dumps",
+   "kind": "land_support",
+   "side": "both",
+   "role": "bombing",
+   "night": false,
+   "cases": [
+    "41.0"
+   ]
+  },
+  {
+   "id": "airdrop",
+   "mission": "Airdrop",
+   "kind": "land_support",
+   "side": "both",
+   "role": "non-combat",
+   "night": false,
+   "cases": [
+    "42.4"
+   ]
+  },
+  {
+   "id": "land-recon",
+   "mission": "Reconnaissance of land units",
+   "kind": "land_support",
+   "side": "both",
+   "role": "non-combat",
+   "night": false,
+   "cases": [
+    "42.2"
+   ]
+  },
+  {
+   "id": "transfer",
+   "mission": "Transfer",
+   "kind": "land_support",
+   "side": "both",
+   "role": "non-combat",
+   "night": false,
+   "cases": [
+    "42.1"
+   ]
+  },
+  {
+   "id": "transport",
+   "mission": "Transport",
+   "kind": "land_support",
+   "side": "both",
+   "role": "non-combat",
+   "night": false,
+   "cases": [
+    "42.3"
+   ]
+  }
+ ]
+}
