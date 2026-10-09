@@ -24,30 +24,34 @@ to bomb, strafe, scout, carry or drop.
 
 The Air Game can be played with the Land Game alone or with the Land and
 Logistics Games together. Played without the Logistics Game, it keeps
-abstract supply, in the Air Game's own version of it (§47, to come in this
-folder).
+abstract supply, in the Air Game's own version of it
+([§47](90-abstract-logistics.md)).
 
 ## One switch: abstract or full air {#switch}
 
-With the Air Game in play, the abstract air rules go. The list below is a
-first reading and is settled when the last file of this folder lands; each
-passage named here will carry a note pointing to its replacement.
+With the Air Game in play, the abstract air rules go. Each passage below
+carries a note pointing to its replacement.
 
 From [Abstract logistics and air](../95-abstract-logistics-and-air.md) (§32):
 
-- the abstract **convoy attack** on Axis naval convoys, which strategic
-  bombing missions replace;
-- the abstract **bombardment of the fleet** in Alexandria, which bombing
-  missions replace;
-- the **anti-air modifications**, which strip AA units and points only
-  because nothing flies; with the Air Game every AA point stays.
+- the abstract **motorisation point losses** (32.57, 32.59): motorisation
+  points are strafed and bombed as trucks instead (47.5);
+- the **simplified Axis convoys** (32.6), replaced by the Air Game's own
+  abstract convoys (47.6), bombed under the Air Game's convoy rules (41.6);
+- the abstract **bombardment of the fleet** (32.7), which bombing missions
+  replace (47.7);
+- the **anti-air modifications** (32.8), which strip AA units and points
+  only because nothing flies; whether they go with the Air Game is ruling
+  R-114.
 
 From the Logistics Game, all of
 [Abstract air](../logistics/60-abstract-air.md) (§58).
 
-What happens to the rest of §32 depends on the other switch. With the
-Logistics Game, its supply rules are already replaced. Without it, the Air
-Game's own abstract logistics (§47) take their place.
+The rest of §32 depends on the other switch. With the Logistics Game, its
+supply rules are already replaced and the Air Game uses full logistics.
+Without it, §32 stays, changed and extended (depots, aircraft supply, air
+transport of supply units) by
+[the Air Game's abstract logistics](90-abstract-logistics.md) (§47).
 
 ## Turn outline {#turn-outline}
 
@@ -91,6 +95,6 @@ phase.
 - Two independent switches select the rules: Air Game on or off, Logistics
   Game on or off. The sequence table serves all four combinations through
   its `air_game_only` and `logistics_game_only` flags.
-- The replacement list above is provisional; until it is final, an engine
-  should treat any §32 or §58 rule not named here as still in force with
-  the Air Game.
+- The replacement list above is final: any §32 rule not named there is
+  still in force with the Air Game and abstract logistics, as §47 changes
+  it; §58 never applies with the Air Game.
