@@ -20,7 +20,7 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**MISSION 7 COMPLETE** (the Air Game, §33–47), 2026-10-09 05:10 UTC. **The queue is finished: every SPI section, §1–65, is covered (1,736 of 1,736 cases).** From here this repo works only on cna-engine's *Requests for cna* and your Feedback.
+**MISSION 7 COMPLETE** (the Air Game, §33–47), 2026-10-09 05:00 UTC. **The queue is finished: every SPI section, §1–65, is covered (1,736 of 1,736 cases).** From here this repo works only on cna-engine's *Requests for cna* and your Feedback.
 
 | Task | What landed | PRs |
 |---|---|---|
