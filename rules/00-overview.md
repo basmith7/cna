@@ -49,14 +49,13 @@ CNA is three interlocking games, each playable alone or combined:
 | Game | SPI sections | Covers |
 |---|---|---|
 | **Land Game** | 1–32 | Units, movement, combat, organisation, engineering, weather. **This edition.** |
-| Air Game | 33–46 | Aircraft, missions, airfields, anti-aircraft fire. |
-| Logistics Game | 47–58 | Fuel, ammunition, water and stores; trucks, ports, convoys, rail. |
+| Air Game | 33–47 | Aircraft, missions, airfields, anti-aircraft fire. |
+| Logistics Game | 48–58 | Fuel, ammunition, water and stores; trucks, ports, convoys, rail. |
 
 Played alone, the Land Game replaces the other two with abstractions from
 §32: supply arrives as **Supply Units** that hold fuel and ammunition
 points, and air power and naval convoys are simplified. Everything in this
-edition assumes those abstractions; the full Air Game will be restated
-separately. A hex is roughly eight kilometres across.
+edition assumes those abstractions unless a module is switched on. A hex is roughly eight kilometres across.
 
 The **Logistics Game** (§48–58) is restated as a module in its own folder,
 starting from [Logistics Game: overview and sequence of
@@ -66,6 +65,14 @@ trucks, rail and ships; that page lists exactly which parts of
 [Abstract logistics and air](95-abstract-logistics-and-air.md) it replaces
 and which stay. Land Game passages it replaces carry a note pointing to
 the Logistics Game rule.
+
+The **Air Game** (§33–47) is a module of its own too, starting from [Air
+Game: overview and sequence](air/00-overview-and-sequence.md). It puts
+every aircraft on the record, with pilots, squadrons and their ground
+units, missions, air combat and flak. That page names each passage of §32
+and of the Logistics Game's [abstract air](logistics/60-abstract-air.md)
+it replaces; played without the Logistics Game it keeps abstract supply in
+its own form (§47).
 
 The **scenarios** (§59–65) are in their own folder, starting from [Reading a
 scenario](scenarios/00-reading-scenarios.md): five groups, from Graziani's
@@ -252,6 +259,16 @@ The rules are organised by system, not by SPI section:
 | Logistics Game: trucks and dumps | The three lines, dumps, railway, equivalent weights | §53–54 |
 | Logistics Game: ports and shipping | Ports, Axis convoys, coastal shipping, Commonwealth base | §55–57 |
 | Logistics Game: abstract air | For play without the Air Game | §58 |
+| Air Game: overview and sequence (module) | What it adds, the switch from §32 and §58, turn order | §33 |
+| Air Game: aircraft and squadrons | Ratings, reinforcements, pilots, SGSUs | §34–35 |
+| Air Game: air facilities | | §36 |
+| Air Game: flight and maintenance | Range, emergency flight, refuel, refit, arming | §37–38 |
+| Air Game: missions | Aborts, night, transfer, reconnaissance, transport, airdrop | §39, §42 |
+| Air Game: fighters | Pilots, CAP, scramble, strafing, flak suppression | §40 |
+| Air Game: bombing | Targets, night bombing, convoys, torpedoes, pins | §41 |
+| Air Game: air combat and flak | Air-to-air, anti-aircraft fire | §45–46 |
+| Air Game: the Mediterranean and Malta | Bomber bases, Malta | §43–44 |
+| Air Game: abstract logistics | With the Air Game but not the Logistics Game | §47 |
 | Scenarios: reading a scenario | Set-up notation, abstractions, starting supply | §59 |
 | Scenarios: Group One, the Italians | Graziani's Offensive, the Italian Campaign | §60 |
 | Scenarios: Group Two, the Desert Fox | Rommel's Arrival, the Desert Fox campaign | §61 |
