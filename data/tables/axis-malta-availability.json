@@ -1,0 +1,231 @@
+{
+ "table": "axis-malta-availability",
+ "sources": [
+  "CNA1979:44.42",
+  "CNA1979:44.25",
+  "CNA1979:44.27",
+  "scan:p177"
+ ],
+ "notes": [
+  "Axis Malta Availability Table, 44.42. Read twice, from the archive.org scan (jp2 177, the Axis chart set) and the community chart PDFs (Axis Charts.pdf p. 35): 0 of 44 cells differ.",
+  "Two dice, added, in the chosen level's column. in_play: the percentage of each type of aircraft in play based in Italy and Sicily that may join the raid. strategic: aircraft of each type not in play (the Axis strategic air force), as a percentage of that type's count in Italy and Sicily, fractions down; they fly only that turn's Malta missions. null (printed na): no strategic forces this Game-Turn."
+ ],
+ "rows": [
+  {
+   "dice": 2,
+   "levels": [
+    {
+     "in_play": 10,
+     "strategic": 30
+    },
+    {
+     "in_play": 100,
+     "strategic": 200
+    },
+    null,
+    {
+     "in_play": 50,
+     "strategic": 100
+    }
+   ]
+  },
+  {
+   "dice": 3,
+   "levels": [
+    {
+     "in_play": 50,
+     "strategic": 50
+    },
+    {
+     "in_play": 10,
+     "strategic": 10
+    },
+    {
+     "in_play": 100,
+     "strategic": 100
+    },
+    {
+     "in_play": 100,
+     "strategic": 200
+    }
+   ]
+  },
+  {
+   "dice": 4,
+   "levels": [
+    null,
+    {
+     "in_play": 100,
+     "strategic": 100
+    },
+    {
+     "in_play": 10,
+     "strategic": 20
+    },
+    {
+     "in_play": 100,
+     "strategic": 100
+    }
+   ]
+  },
+  {
+   "dice": 5,
+   "levels": [
+    {
+     "in_play": 25,
+     "strategic": 25
+    },
+    {
+     "in_play": 50,
+     "strategic": 50
+    },
+    {
+     "in_play": 100,
+     "strategic": 200
+    },
+    {
+     "in_play": 100,
+     "strategic": 300
+    }
+   ]
+  },
+  {
+   "dice": 6,
+   "levels": [
+    {
+     "in_play": 25,
+     "strategic": 25
+    },
+    {
+     "in_play": 10,
+     "strategic": 10
+    },
+    {
+     "in_play": 50,
+     "strategic": 100
+    },
+    {
+     "in_play": 100,
+     "strategic": 100
+    }
+   ]
+  },
+  {
+   "dice": 7,
+   "levels": [
+    null,
+    {
+     "in_play": 25,
+     "strategic": 50
+    },
+    {
+     "in_play": 100,
+     "strategic": 100
+    },
+    {
+     "in_play": 100,
+     "strategic": 200
+    }
+   ]
+  },
+  {
+   "dice": 8,
+   "levels": [
+    {
+     "in_play": 10,
+     "strategic": 10
+    },
+    null,
+    {
+     "in_play": 50,
+     "strategic": 50
+    },
+    {
+     "in_play": 100,
+     "strategic": 100
+    }
+   ]
+  },
+  {
+   "dice": 9,
+   "levels": [
+    {
+     "in_play": 50,
+     "strategic": 25
+    },
+    {
+     "in_play": 25,
+     "strategic": 25
+    },
+    {
+     "in_play": 25,
+     "strategic": 50
+    },
+    {
+     "in_play": 50,
+     "strategic": 50
+    }
+   ]
+  },
+  {
+   "dice": 10,
+   "levels": [
+    null,
+    {
+     "in_play": 50,
+     "strategic": 100
+    },
+    {
+     "in_play": 25,
+     "strategic": 25
+    },
+    {
+     "in_play": 100,
+     "strategic": 200
+    }
+   ]
+  },
+  {
+   "dice": 11,
+   "levels": [
+    {
+     "in_play": 25,
+     "strategic": 50
+    },
+    {
+     "in_play": 100,
+     "strategic": 100
+    },
+    {
+     "in_play": 100,
+     "strategic": 300
+    },
+    {
+     "in_play": 100,
+     "strategic": 300
+    }
+   ]
+  },
+  {
+   "dice": 12,
+   "levels": [
+    {
+     "in_play": 10,
+     "strategic": 20
+    },
+    {
+     "in_play": 10,
+     "strategic": 20
+    },
+    {
+     "in_play": 100,
+     "strategic": 200
+    },
+    {
+     "in_play": 25,
+     "strategic": 75
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,242 @@
+{
+ "table": "pilot-arrival",
+ "sources": [
+  "CNA1979:34.88",
+  "CNA1979:34.89",
+  "CNA1979:34.83",
+  "scan:p177"
+ ],
+ "notes": [
+  "Italian (34.89a) and German (34.89b) Pilot Arrival Tables. Read twice, from the archive.org scan (jp2 177, the Axis chart set) and the community chart PDFs (Axis Charts.pdf p. 35): 0 of 88 cells differ.",
+  "Two dice, added, once a month per nation in the first Operations Stage's naval convoy arrival phase; pilots lists how many pilots of rating 1, 2, 3 and 4 arrive (no table gives a 5). Italian: November 1940 to October 1942; German: March 1941 to October 1942.",
+  "Marseille, rating 6, joins the Germans in any Operations Stage of Game-Turn 29, without a roll.",
+  "The Commonwealth table (34.88) is not yet transcribed: it was not on the Axis chart pages."
+ ],
+ "ratings": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "nations": [
+  {
+   "nation": "it",
+   "from": "1940-11",
+   "to": "1942-10",
+   "rows": [
+    {
+     "dice": 2,
+     "pilots": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "dice": 3,
+     "pilots": [
+      3,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "dice": 4,
+     "pilots": [
+      0,
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "dice": 5,
+     "pilots": [
+      0,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "dice": 6,
+     "pilots": [
+      1,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "dice": 7,
+     "pilots": [
+      2,
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "dice": 8,
+     "pilots": [
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "dice": 9,
+     "pilots": [
+      2,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "dice": 10,
+     "pilots": [
+      1,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "dice": 11,
+     "pilots": [
+      0,
+      0,
+      2,
+      1
+     ]
+    },
+    {
+     "dice": 12,
+     "pilots": [
+      0,
+      3,
+      2,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "nation": "de",
+   "from": "1941-03",
+   "to": "1942-10",
+   "rows": [
+    {
+     "dice": 2,
+     "pilots": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "dice": 3,
+     "pilots": [
+      3,
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "dice": 4,
+     "pilots": [
+      0,
+      3,
+      0,
+      1
+     ]
+    },
+    {
+     "dice": 5,
+     "pilots": [
+      0,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "dice": 6,
+     "pilots": [
+      1,
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "dice": 7,
+     "pilots": [
+      2,
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "dice": 8,
+     "pilots": [
+      0,
+      2,
+      1,
+      1
+     ]
+    },
+    {
+     "dice": 9,
+     "pilots": [
+      1,
+      0,
+      2,
+      0
+     ]
+    },
+    {
+     "dice": 10,
+     "pilots": [
+      3,
+      0,
+      0,
+      2
+     ]
+    },
+    {
+     "dice": 11,
+     "pilots": [
+      0,
+      1,
+      3,
+      1
+     ]
+    },
+    {
+     "dice": 12,
+     "pilots": [
+      0,
+      0,
+      1,
+      1
+     ]
+    }
+   ],
+   "fixed": [
+    {
+     "game_turn": 29,
+     "rating": 6,
+     "pilot": "Hans-Joachim Marseille"
+    }
+   ]
+  }
+ ]
+}
