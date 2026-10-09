@@ -185,6 +185,10 @@ November 1942). The chart sheet heads it 58.5.
 In the Logistics Game this is replaced by [Abstract truck losses](logistics/60-abstract-air.md#abstract-truck-losses).
 :::
 
+::: note
+With the Air Game, drop 32.57 and 32.59: motorisation points can be strafed and bombed as trucks: [Air Game abstract logistics](air/90-abstract-logistics.md#motorisation-points).
+:::
+
 ## Simplified Axis convoys {#simplified-axis-convoys}
 
 ::: spi 32.61 32.62 32.63 32.64 32.65
@@ -206,6 +210,10 @@ total, the Axis choosing the types.
 
 ::: note
 In the Logistics Game this is replaced by [Axis naval convoys](logistics/50-ports-and-shipping.md#axis-naval-convoys).
+:::
+
+::: note
+With the Air Game this is replaced by [Axis convoys](air/90-abstract-logistics.md#axis-convoys) in the Air Game's abstract logistics.
 :::
 
 ::: spi 32.66
@@ -230,6 +238,10 @@ Bombardment and Secondary Barrage Targets table, then two dice sequentially
 in that column: the result is damage points, as on the Chariot Table,
 distributed as the Axis likes among ships in the harbour.
 
+::: note
+With the Air Game this is replaced by [the fleet](air/90-abstract-logistics.md#the-fleet): the fleet is bombed under the Air Game's rules.
+:::
+
 ## Anti-air modifications
 
 ::: spi 32.81 32.82 32.83 32.84
@@ -246,6 +258,10 @@ Anti-air is thinned because there is no Air Game:
   replacements arrive at one per month.
 
 None of this touches non-AA points that merely carry an AA rating.
+
+::: note
+With the Air Game, see [the switch](air/00-overview-and-sequence.md#switch) and ruling R-114.
+:::
 
 ## Road and track stacking
 
