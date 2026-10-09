@@ -5,7 +5,7 @@
   "Aircraft Refit Table, printed as 38.37 on chart page 10 (jp2 104); the rules call it 38.38. Read twice, from the archive.org scan and the community chart PDFs (Shared Charts.pdf p. 10): 0 of 17 cells differ.",
   "by_squadron: one die per squadron (38.34), modified per 38.35, read the percentage of its aircraft refitted; fractions of aircraft round up. Rows run to 9 because the additions can take a roll past 6.",
   "by_plane: the optional method of 38.39, two dice per aircraft; refitted if the roll is within the range for its nation. +2 if the aircraft is not the working SGSU's own squadron's.",
-  "The chart words the national additions by the SGSU doing the work (German SGSU +1, Italian SGSU +2), where 38.35 words them by the aircraft refitted; R-112."
+  "The chart words the national additions by the SGSU doing the work (German SGSU +1, Italian SGSU +2), where 38.35 words them by the aircraft refitted; R-112 follows 38.35 (german/italian mean the aircraft's nation)."
  ],
  "by_squadron": [
   {"die": {"from": 1, "to": 1}, "percent_refitted": 100},

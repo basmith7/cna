@@ -1,0 +1,88 @@
+{
+ "table": "axis-malta-commitment",
+ "sources": [
+  "CNA1979:44.41",
+  "CNA1979:44.23",
+  "scan:p177"
+ ],
+ "notes": [
+  "Axis Strategic Airforce Commitment Chart, 44.41. Read twice, from the archive.org scan (jp2 177, the Axis chart set) and the community chart PDFs (Axis Charts.pdf p. 35): 0 of 24 cells differ.",
+  "levels I-IV: the number of Game-Turns of Axis strategic bombing of Malta each availability level may be used for; 'unlimited'; null where printed na (not allowed). The Last Chance has no Malta (chart footnote).",
+  "scenarios maps each printed row to scenario ids; the chart has no rows for the Italian Campaign or the Desert Fox campaign."
+ ],
+ "rows": [
+  {
+   "scenario": "Campaign Game (either, Section 64.0)",
+   "scenarios": [
+    "scenario:campaign-game",
+    "scenario:short-campaign-game"
+   ],
+   "levels": [
+    "unlimited",
+    25,
+    12,
+    12
+   ]
+  },
+  {
+   "scenario": "Graziani's Offensive (Section 60.0)",
+   "scenarios": [
+    "scenario:grazianis-offensive"
+   ],
+   "levels": [
+    "unlimited",
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "scenario": "Race for Tobruk (Section 61.0)",
+   "scenarios": [
+    "scenario:rommels-arrival"
+   ],
+   "levels": [
+    "unlimited",
+    6,
+    3,
+    1
+   ]
+  },
+  {
+   "scenario": "Crusader (Section 62.0)",
+   "scenarios": [
+    "scenario:operation-crusader"
+   ],
+   "levels": [
+    "unlimited",
+    4,
+    2,
+    2
+   ]
+  },
+  {
+   "scenario": "Last Chance (Section 63.0)",
+   "scenarios": [
+    "scenario:the-last-chance"
+   ],
+   "levels": [
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "scenario": "Long Retreat (Section 63.0)",
+   "scenarios": [
+    "scenario:the-long-retreat"
+   ],
+   "levels": [
+    "unlimited",
+    3,
+    null,
+    null
+   ]
+  }
+ ]
+}

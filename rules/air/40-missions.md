@@ -276,9 +276,14 @@ chart's key cities plus that city's distance to the lane.
 
 ::: spi 42.53 42.54
 
-Convoy reconnaissance is resolved on its own table (the naval convoy
-reconnaissance table of 42.53). If it succeeds, the Axis player must say whether the lane
-holds a convoy this turn and, if it does, its approximate tonnage. Aircraft on convoy
+Convoy reconnaissance is resolved on the convoy reconnaissance table,
+[`data/tables/convoy-reconnaissance.json`](https://github.com/basmith7/cna/blob/main/data/tables/convoy-reconnaissance.json):
+two dice in order, at or under a number set by how many aircraft scout the
+lane (12 for one aircraft, rising to 66 for eight or more). If it succeeds,
+the Axis player must say whether the lane holds a convoy this turn and, if
+it does, whether it is small (up to 5,000 tons), medium (3,000 to 10,000)
+or large (7,000 or more); the bands overlap as printed, so he may choose.
+Aircraft on convoy
 reconnaissance cannot be attacked, in the air or by flak.
 
 ::: spi 42.55 42.56
@@ -292,6 +297,3 @@ convoy stage.
 
 - A mission is a row id of `air-missions.json`; an aircraft may fly it only
   if its characteristics row carries the matching capability letter.
-- The naval convoy reconnaissance table (42.53) was not found
-  on the chart pages of either scan; until it is, convoy reconnaissance has
-  no resolution table (question for Brian's printed copy).

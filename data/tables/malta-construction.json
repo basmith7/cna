@@ -1,0 +1,35 @@
+{
+ "table": "malta-construction",
+ "sources": [
+  "CNA1979:44.5",
+  "CNA1979:44.13",
+  "scan:p177"
+ ],
+ "notes": [
+  "Maltese Air Facility Construction Table, 44.5. Read twice, from the archive.org scan (jp2 177, the Axis chart set) and the community chart PDFs (Axis Charts.pdf p. 35): 0 of 6 cells differ.",
+  "One die per Maltese air facility per Game-Turn; levels is how many levels may be repaired or built, up to the facility's standard level, at no supply cost."
+ ],
+ "rows": [
+  {
+   "die": {
+    "from": 1,
+    "to": 1
+   },
+   "levels": 0
+  },
+  {
+   "die": {
+    "from": 2,
+    "to": 5
+   },
+   "levels": 1
+  },
+  {
+   "die": {
+    "from": 6,
+    "to": 6
+   },
+   "levels": 2
+  }
+ ]
+}

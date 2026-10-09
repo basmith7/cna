@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "axis-malta-commitment.schema.json",
+  "title": "Axis Strategic Airforce Commitment Chart (44.41)",
+  "type": "object",
+  "required": [
+    "table",
+    "sources",
+    "rows"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "range": {
+      "type": "object",
+      "required": [
+        "from",
+        "to"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "from": {
+          "type": "integer"
+        },
+        "to": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "properties": {
+    "table": {
+      "const": "axis-malta-commitment"
+    },
+    "sources": {
+      "$ref": "common.schema.json#/$defs/sources"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "scenario",
+          "scenarios",
+          "levels"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "scenario": {
+            "type": "string"
+          },
+          "scenarios": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^scenario:[a-z0-9-]+$"
+            }
+          },
+          "levels": {
+            "type": "array",
+            "minItems": 4,
+            "maxItems": 4,
+            "items": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                {
+                  "const": "unlimited"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

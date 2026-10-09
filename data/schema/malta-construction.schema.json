@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "malta-construction.schema.json",
+  "title": "Maltese Air Facility Construction Table (44.5)",
+  "type": "object",
+  "required": [
+    "table",
+    "sources",
+    "rows"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "range": {
+      "type": "object",
+      "required": [
+        "from",
+        "to"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "from": {
+          "type": "integer"
+        },
+        "to": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "properties": {
+    "table": {
+      "const": "malta-construction"
+    },
+    "sources": {
+      "$ref": "common.schema.json#/$defs/sources"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "die",
+          "levels"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "die": {
+            "$ref": "#/$defs/range"
+          },
+          "levels": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    }
+  }
+}
