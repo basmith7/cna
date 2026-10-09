@@ -1,0 +1,92 @@
+{
+ "table": "convoy-reconnaissance",
+ "sources": [
+  "CNA1979:42.53",
+  "scan:p141"
+ ],
+ "notes": [
+  "Air Reconnaissance of Axis Naval Convoys Table, 42.53, on the Commonwealth chart sheet (jp2 141). Read twice, from the archive.org scan and the community chart PDFs (Commonwealth Charts.pdf p. 31): 0 of 8 cells differ.",
+  "Two dice read in order (11 to 66) for the aircraft scouting one lane; at or under respond, the Axis player must say whether a convoy is in the lane and, if so, call it small (5,000 tons or less), medium (3,000 to 10,000) or large (7,000 or more). The size bands overlap as printed, which leaves the Axis player a choice."
+ ],
+ "rows": [
+  {
+   "planes": {
+    "from": 1,
+    "to": 1
+   },
+   "respond": 12
+  },
+  {
+   "planes": {
+    "from": 2,
+    "to": 2
+   },
+   "respond": 14
+  },
+  {
+   "planes": {
+    "from": 3,
+    "to": 3
+   },
+   "respond": 22
+  },
+  {
+   "planes": {
+    "from": 4,
+    "to": 4
+   },
+   "respond": 32
+  },
+  {
+   "planes": {
+    "from": 5,
+    "to": 5
+   },
+   "respond": 43
+  },
+  {
+   "planes": {
+    "from": 6,
+    "to": 6
+   },
+   "respond": 53
+  },
+  {
+   "planes": {
+    "from": 7,
+    "to": 7
+   },
+   "respond": 62
+  },
+  {
+   "planes": {
+    "from": 8,
+    "to": null
+   },
+   "respond": 66
+  }
+ ],
+ "sizes": [
+  {
+   "size": "small",
+   "tons": {
+    "from": null,
+    "to": 5000
+   }
+  },
+  {
+   "size": "medium",
+   "tons": {
+    "from": 3000,
+    "to": 10000
+   }
+  },
+  {
+   "size": "large",
+   "tons": {
+    "from": 7000,
+    "to": null
+   }
+  }
+ ]
+}
