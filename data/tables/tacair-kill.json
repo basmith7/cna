@@ -1,0 +1,133 @@
+{
+ "table": "tacair-kill",
+ "sources": [
+  "CNA1979:45.5",
+  "scan:p105"
+ ],
+ "notes": [
+  "TacAir Kill Table, 45.5, chart page 11 (jp2 105). Read twice, from the archive.org scan and the community chart PDFs (Shared Charts.pdf p. 11): 0 of 17 cells differ.",
+  "differential is the firing aircraft's final TacAir differential: its TacAir (with pilot rating or formation bonus) minus its target's, plus or minus the maneuver adjustment. kill_max: two dice read in order (11 to 66); at or under it the target is shot down. null: the target can never be shot down at that differential.",
+  "The rules' first worked example (45.36 a) has a +2 differential needing 11-22, which is the table's +3 figure; the table, 16, is recorded."
+ ],
+ "rows": [
+  {
+   "differential": {
+    "from": null,
+    "to": -13
+   },
+   "kill_max": null
+  },
+  {
+   "differential": {
+    "from": -12,
+    "to": -5
+   },
+   "kill_max": 11
+  },
+  {
+   "differential": {
+    "from": -4,
+    "to": -2
+   },
+   "kill_max": 12
+  },
+  {
+   "differential": {
+    "from": -1,
+    "to": -1
+   },
+   "kill_max": 13
+  },
+  {
+   "differential": {
+    "from": 0,
+    "to": 0
+   },
+   "kill_max": 14
+  },
+  {
+   "differential": {
+    "from": 1,
+    "to": 1
+   },
+   "kill_max": 15
+  },
+  {
+   "differential": {
+    "from": 2,
+    "to": 2
+   },
+   "kill_max": 16
+  },
+  {
+   "differential": {
+    "from": 3,
+    "to": 3
+   },
+   "kill_max": 22
+  },
+  {
+   "differential": {
+    "from": 4,
+    "to": 4
+   },
+   "kill_max": 24
+  },
+  {
+   "differential": {
+    "from": 5,
+    "to": 5
+   },
+   "kill_max": 26
+  },
+  {
+   "differential": {
+    "from": 6,
+    "to": 6
+   },
+   "kill_max": 32
+  },
+  {
+   "differential": {
+    "from": 7,
+    "to": 7
+   },
+   "kill_max": 34
+  },
+  {
+   "differential": {
+    "from": 8,
+    "to": 8
+   },
+   "kill_max": 36
+  },
+  {
+   "differential": {
+    "from": 9,
+    "to": 9
+   },
+   "kill_max": 43
+  },
+  {
+   "differential": {
+    "from": 10,
+    "to": 10
+   },
+   "kill_max": 46
+  },
+  {
+   "differential": {
+    "from": 11,
+    "to": 11
+   },
+   "kill_max": 53
+  },
+  {
+   "differential": {
+    "from": 12,
+    "to": null
+   },
+   "kill_max": 56
+  }
+ ]
+}

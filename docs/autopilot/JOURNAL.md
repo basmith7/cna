@@ -424,3 +424,9 @@ Done: Mission 7 started. #188 spec+plan (sequence reuses logistics-sequence.json
 In flight: none besides this PR. Reads kept in /tmp/apwork/reads/ (ac-A/B, airreinf-A, refit-A/B) if /tmp survives.
 Next: Task 3.1 rest = §34 aircraft prose into rules/air/10-aircraft-and-sgsus.md (key air-reinforcement names to aircraft ids; Axis air reinforcements: none found on chart pages, check §34.8 text); then 3.4 missions (§39+§42), 3.5 fighters (§40), 3.6 bombing (§41), 3.7 air combat+flak (§45–46), 3.8 §43–44, 3.9 §47 + final switch list. CI sections now 1-33,35-38,48-65.
 Blocked: none. Gotcha: never run git in a worktree with a symlinked .venv; `gh pr merge` does not wait for CI here, so check `gh pr checks` is all pass first.
+
+## 2026-10-08 21:43 MST — autopilot/air-air-combat
+Done: #201 §47 + final switch list, #202 §34 prose, #203 R-114 accepted (32.8 off with Air Game), #204 §39+§42 (air-missions.json, air-reconnaissance.json), #205 §40 (strafing, scramble; R-115 opened), #206 §41 (air-bombardment.json 374 cells, harbour-mining.json); this PR #207 §45 (maneuver, kill, recovery tables; R-116 opened).
+In flight: #207 (gates green locally).
+Next: §44 Malta into rules/air/80-mediterranean-and-malta.md (44.5 construction table jp2 178 per djvu index 178; 44.41 commitment chart); then Pilot Arrival Tables 34.88/34.89 (not yet located); then decide R-111..R-116.
+Blocked: none (copy: 42.53 convoy recon table, 34.87 Axis air schedule not found in scans).

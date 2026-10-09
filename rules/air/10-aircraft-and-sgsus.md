@@ -304,6 +304,12 @@ ready to fly, and may hold a further **reserve** of a third as many:
 | Commonwealth, to June 1941 | 15 | 5 | 20 |
 | Commonwealth, from July 1941 | 18 | 6 | 24 |
 
+The Squadron Capacity Chart prints the Commonwealth rows differently
+(12/4/16 for 1940–41, 18/6/24 for 1942–43); the table above follows the
+rules text until R-116 is decided.
+
+::: ruling R-116 — Commonwealth squadron size before July 1941
+
 Reserve aircraft may be readied and armed, but fly only to make up for
 ready aircraft that were not readied: never while the full ready capacity is
 flying. Reserves may not scramble; they may take emergency flight
