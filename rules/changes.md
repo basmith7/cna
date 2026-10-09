@@ -96,6 +96,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-113](../rulings/R-113.md) — which density shift applies to flak
 
+## [Air Game — abstract logistics with the Air Game](./air/90-abstract-logistics.md)
+
+- [R-114](../rulings/R-114.md) — anti-air units with the Air Game and abstract logistics
+
 ## [Logistics Game — overview and sequence of play](./logistics/00-overview-and-sequence.md)
 
 - [R-032](../rulings/R-032.md) — without the Air Game, abstract convoy attacks fall in convoy bombing; fleet strikes in the fleet phase
@@ -279,6 +283,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-111](../rulings/R-111.md) | proposed | 40.74, 46.1 |
 | [R-112](../rulings/R-112.md) | proposed | 38.35, 38.38 |
 | [R-113](../rulings/R-113.md) | proposed | 46.3, 46.4 |
+| [R-114](../rulings/R-114.md) | proposed | 47.0, 32.81, 32.82, 32.83, 32.84 |
 
 ## Variants register
 
