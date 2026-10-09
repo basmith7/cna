@@ -294,7 +294,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-113](../rulings/R-113.md) | accepted | 46.3, 46.4 |
 | [R-114](../rulings/R-114.md) | accepted | 47.0, 32.81, 32.82, 32.83, 32.84 |
 | [R-115](../rulings/R-115.md) | accepted | 40.15, 34.83, 34.88, 34.89 |
-| [R-116](../rulings/R-116.md) | proposed | 35.23 |
+| [R-116](../rulings/R-116.md) | accepted | 35.23 |
 
 ## Variants register
 
