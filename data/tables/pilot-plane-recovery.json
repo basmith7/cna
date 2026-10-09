@@ -1,0 +1,56 @@
+{
+ "table": "pilot-plane-recovery",
+ "sources": [
+  "CNA1979:45.6",
+  "CNA1979:45.62",
+  "CNA1979:45.63",
+  "CNA1979:45.66",
+  "scan:p104"
+ ],
+ "notes": [
+  "Pilot and Plane Recovery Table, 45.6, chart page 10 (jp2 104). Read twice, from the archive.org scan and the community chart PDFs (Shared Charts.pdf p. 10): 0 of 6 cells differ.",
+  "One die per aircraft. strafed: any aircraft destroyed on the ground by strafing. shot_down: fighters and fighter-bombers lost air to air or to flak, with their pilots. plane: repairable or lost; pilot: survives or killed.",
+  "Under the table: recovery is tried, and 1 fuel and 1 stores spent per repairable aircraft, in the first maintenance segment or phase after the loss; a repaired aircraft starts unfuelled, unarmed and unfit, and no maintenance may be done on it until a full Game-Turn after the roll; a surviving pilot rejoins his squadron one Game-Turn after the roll."
+ ],
+ "rows": [
+  {
+   "die": {
+    "from": 1,
+    "to": 1
+   },
+   "strafed": {
+    "plane": "repairable"
+   },
+   "shot_down": {
+    "plane": "repairable",
+    "pilot": "survives"
+   }
+  },
+  {
+   "die": {
+    "from": 2,
+    "to": 2
+   },
+   "strafed": {
+    "plane": "repairable"
+   },
+   "shot_down": {
+    "plane": "lost",
+    "pilot": "survives"
+   }
+  },
+  {
+   "die": {
+    "from": 3,
+    "to": 6
+   },
+   "strafed": {
+    "plane": "lost"
+   },
+   "shot_down": {
+    "plane": "lost",
+    "pilot": "killed"
+   }
+  }
+ ]
+}

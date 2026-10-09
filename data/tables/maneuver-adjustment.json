@@ -1,0 +1,55 @@
+{
+ "table": "maneuver-adjustment",
+ "sources": [
+  "CNA1979:45.4",
+  "scan:p105"
+ ],
+ "notes": [
+  "Air-Air Combat Maneuver Adjustment Chart, 45.4, chart page 11 (jp2 105). Read twice, from the archive.org scan and the community chart PDFs (Shared Charts.pdf p. 11): 0 of 6 cells differ.",
+  "differential is the absolute difference of the two aircraft's maneuver ratings; the adjustment is added to the TacAir differential of the more maneuverable aircraft and subtracted from the other's."
+ ],
+ "rows": [
+  {
+   "differential": {
+    "from": 0,
+    "to": 0
+   },
+   "adjustment": 0
+  },
+  {
+   "differential": {
+    "from": 1,
+    "to": 3
+   },
+   "adjustment": 1
+  },
+  {
+   "differential": {
+    "from": 4,
+    "to": 7
+   },
+   "adjustment": 2
+  },
+  {
+   "differential": {
+    "from": 8,
+    "to": 14
+   },
+   "adjustment": 3
+  },
+  {
+   "differential": {
+    "from": 15,
+    "to": 20
+   },
+   "adjustment": 4
+  },
+  {
+   "differential": {
+    "from": 21,
+    "to": null
+   },
+   "adjustment": 5
+  }
+ ]
+}
