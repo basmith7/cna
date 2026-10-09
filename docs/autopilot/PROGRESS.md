@@ -20,121 +20,41 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**Mission 7 (the Air Game, §33–47, 431 cases) in progress**, started 2026-10-08. cna-engine's requests still come first every run; the Air Game is off the engine's critical path.
+**MISSION 7 COMPLETE** (the Air Game, §33–47), 2026-10-09 05:10 UTC. **The queue is finished: every SPI section, §1–65, is covered (1,736 of 1,736 cases).** From here this repo works only on cna-engine's *Requests for cna* and your Feedback.
 
-| Task | State | PR |
+| Task | What landed | PRs |
 |---|---|---|
-| 0. Spec and plan (`docs/designs/2026-10-08-air-game-design.md`) | merged | #188 |
-| 1. `rules/air/` overview and sequence (§33); "Air Game" sidebar; the 48.0 sequence table now also gives the Land-and-Air turn (`logistics_game_only`) | merged | #189 |
-| 2. Seed NJHarman's air items: R-111 (is map-printed flak heavy?), variants V-009–V-025 (his whole Air War section is tagged CHANGE/ADDITION) | merged | #191 |
-| 3.1 Aircraft and squadrons (§34–35): §35 SGSUs done; aircraft characteristics (102 rows, 1 of 1224 cells differed, convention only) and Commonwealth air reinforcements (34.84, 0 of 84) as data; §34 prose next | part | #193, #195, #196 |
-| 3.2 Air facilities (§36) | merged | #190 |
-| 3.3 Flight and maintenance (§37–38); Aircraft Refit Table as data (0 of 17); R-112 opened (refit additions by aircraft or by SGSU nation) | merged | #192, #194 |
-| 3.7 Anti-aircraft fire (§46); results table read twice (1 of 180 differs, dots only), Flak Adjustment Chart one read; R-113 opened (two density shifts) | merged | #198 |
-| 3.8 Mediterranean bases (§43) | merged | #197 |
-| 3.4 missions (§39, §42), 3.5 fighters (§40), 3.6 bombing (§41), 3.7 air-to-air (§45), 3.8 Malta (§44), 3.9 (§47 + final switch list) | not started | |
+| 0. Spec and plan | `docs/designs/2026-10-08-air-game-design.md` | #188 |
+| 1. Overview and sequence (§33) | `rules/air/`, "Air Game" sidebar; final switch list: §47 replaces 32.57/32.59, 32.6, 32.7; 32.8 off (R-114); all of §58 off | #189, #201 |
+| 2. Seed | R-111, V-009–V-025 | #191 |
+| 3. Rules files | aircraft and SGSUs (§34–35), air facilities (§36), flight and maintenance (§37–38), missions (§39, §42), fighters (§40), bombing (§41), Mediterranean and Malta (§43–44), air combat and flak (§45–46), abstract logistics (§47) | #190, #192–#198, #201, #202, #204–#208 |
+| 4. Rulings | R-111–R-116 accepted | #203, #209–#213 |
+| 5. Docs | README, overview, design Status, queue | #214 |
 
-Air coverage so far: §33, §35–38, §43, §46 (116 of 431 cases). Open air rulings: R-111, R-112, R-113.
+18 air chart files are data, each read twice (archive.org scan and the community chart PDFs): aircraft characteristics, refit, CW reinforcements, missions, land and convoy reconnaissance, scramble, strafing, the **Air Bombardment Table** (374 cells, which also lets an engine resolve §32's abstract convoy and fleet attacks), harbour mining, maneuver, TacAir kill, recovery, anti-aircraft results with the flak adjustment, Malta construction, commitment and availability, and all three Pilot Arrival Tables. 0 cells differed except the one noted in #193 and #198.
 
-**MISSION 6 COMPLETE** (scenarios and OA sheets, §59–65), 2026-10-08 23:00 UTC. Every part merged after local gates and green CI; §59–65 171/171 cases covered.
-
-| Part | What landed | PRs |
-|---|---|---|
-| 0. Spec | `docs/designs/2026-10-08-scenarios-and-oa-design.md` | #146 |
-| 1. Graziani's Offensive, complete | schemas, unit characteristics, OA sheets, schedule GT 1–6, scenario + §59–60, Libya/Egypt frontier | #147–#151, #153 |
-| 2. Seed | R-097–R-099, V-006–V-008 | #152 |
-| 3. Scenarios and OA | all nine scenarios (§60–64), OA sheets for all three nations, schedule GT 1–111, per-unit figures (Task 3.6) | #154–#160, #162, #184 |
-| 4. Rulings | R-094–R-109 all accepted | #161, #163–#167, #174–#182, #186 |
-| 5. Docs | README, overview, design Status, queue | #187 |
-
-Mission 6 rulings, one line each:
+Air rulings, one line each:
 
 | Ruling | Decision |
 |---|---|
-| R-094 | each doubly printed unit is one counter, placed once |
-| R-095 | Group One's fleet as listed |
-| R-096 | a scenario's set-up overrides the OA arrival column |
-| R-097 | Group One's first Axis convoy unloads in OpStage 1, unbombed |
-| R-098 | every hex of Cairo and Alexandria is a major repair facility |
-| R-099 | **a scenario's own repair-facility list governs it** (Tobruk temporary in Group One); 22.31 elsewhere |
-| R-100 | the Reinforcement Track beats the OA Arrives column |
-| R-101 | Rommel's Arrival levels are a ladder; Axis without Tobruk loses |
-| R-102 | Group Two with the Air Game: motorisation from the listed trucks (59.63) |
-| R-103 | 5 RTR starts with the 3rd Armoured Brigade |
-| R-104 | the Desert Fox campaign ends and is judged as the campaign game |
-| R-105 | the 7th SA armoured cars start at Giarabub |
-| R-106 | Crusader's unplaced Italian light tanks start with Ariete |
-| R-107 | inactive dumps are dummies |
-| R-108 | **El Alamein: The Last Chance is GT 102 only; The Long Retreat ends after GT 110** (printed turn numbers garbled) |
-| R-109 | campaign victory: calendar Game-Turn, 90/60 lines as printed, withdrawal cap per unit, zero totals |
-| R-110 | Land-only victory supply in Graziani's Offensive is a medium-truck route (cna-engine request) |
+| R-111 | flak printed on the map or in a box is heavy; fighters cannot suppress it |
+| R-112 | refit additions follow the aircraft's nation (38.35), not the SGSU's |
+| R-113 | the Flak Adjustment Chart sets the density shift; the results table's notes are not used |
+| R-114 | with the Air Game, §32's anti-air stripping (32.8) does not apply |
+| R-115 | no rating-5 pilots: the arrival tables print 1–4, Marseille is the only 6 |
+| R-116 | Commonwealth squadrons 15+5 to June 1941, 18+6 from July (rules text over the chart) |
 
-**For cna-engine** (all six requests of 2026-10-08 answered, see *Addressed*): `data/tables/weapon-systems.json` (tank/gun ratings, `oa_names` maps OA weapon names), `data/map/seams.json` (cross-sheet adjacency), `equivalent` on unit characteristics, `victory.levels[].supply_trace`, `data/tables/axis-coastal-ships.json`.
-
-**Incident, fixed:** a merge helper I ran in a git worktree committed a `.venv` symlink (pointing at a path on the autopilot's machine; no secrets) via #180/#181. Removed in #185 and `.gitignore` now ignores `.venv` as a file too. History not rewritten.
-
-**MISSION 5 COMPLETE** (the Logistics Game, §48–58), 2026-09-27 17:05 UTC. All five parts are merged, each PR after local gates and green CI:
-
-| Part | What landed | PRs |
-|---|---|---|
-| 1. Tooling | `rules/` read recursively, *Logistics Game* sidebar group, CI coverage over 1-32,48-58 | #104 |
-| 2. Seed | NJHarman's logistics items: R-025–R-027 (rulings), V-002–V-005 (variants) | #105 |
-| 3. Rules files | `rules/logistics/`: overview & sequence, fuel, ammunition & stores, water, trucks & dumps, ports & shipping, abstract air. **160 of 160 cases covered.** 12 charts as data, each read from the archive.org scan and cross-checked against the Discord chart scans (0 cells differ) or the rules text where printed in-text | #107, #106, #111, #109, #114, #110, #108 |
-| 4. Rulings | 32 logistics rulings accepted (below), R-020–R-022 included | #112–#113, #115–#143, #145 |
-| 5. Docs | README, overview link, `data/README.md` OA variables, design Status | #144 |
-
-Logistics rulings, one line each (full reasoning in `rulings/`):
-
-| Ruling | Decision |
-|---|---|
-| R-020 | a village or bir well gives one draw per Operations Stage |
-| R-021 | one unit per well per stage may try to sweeten it, retrying up to its own CPA |
-| R-022 | gun units count as vehicles when out of water |
-| R-025 | Axis coastal ships sail in the Truck Convoy Phase; Commonwealth port transfers stay in the Tactical Shipping Segment |
-| R-026 | unlimited Commonwealth supply is in Cairo; Alexandria too in the Italian campaign only |
-| R-027 | **Tobruk's full efficiency is 5 (chart and 55.12), so it starts the campaigns at 2, not the scenarios' 7** |
-| R-030 | organisation segments in any order; attrition judges supply as it stands then |
-| R-031 | land-support air phase once per stage, both sides together |
-| R-032 | without the Air Game: convoy attack in convoy segment 3; fleet strikes resolved in the fleet phase |
-| R-040 | the per-turn fuel loss reaches fuel in tanks; the hot-weather loss does not (29.34) |
-| R-041 | part-blocks of 5 CP rounded up per Movement Segment |
-| R-042 | Commonwealth 9 % replaces 6 %; hot weather is one extra 5 % for both sides; all round down |
-| R-043 | fuel capacity counts a part-block of CPA as a whole block |
-| R-050 | out of ammunition only when neither the unit nor its hex holds any |
-| R-051 | captured ammunition and stores round up |
-| R-052 | stores attrition every second unfed turn, on infantry-type points |
-| R-053 | prisoners draw stores every Operations Stage |
-| R-060 | the Pasta Point is due once per Game-Turn; missing it limits CPA for the turn |
-| R-061 | a cut pipeline still works up to the break |
-| R-062 | a unit's water must be in its own hex |
-| R-070 | the Equivalent Weights "1/2" stacking row is read as 1 |
-| R-071 | **in the Logistics Game a rail run carries units or supplies, never both (54.31); R-005 stays the Land Game reading** |
-| R-072 | Axis rolling-stock lots add up, 300 tons each, per direction per stage |
-| R-073 | the Tunis/Tripoli boxes hold unlimited supply but are not dumps |
-| R-080 | port capacity is per Operations Stage |
-| R-081 | major ports are those with an incoming stacking figure above zero on the chart |
-| R-082 | the *San Giorgio*'s three levels are blocking, cleared by engineers |
-| R-083 | Tobruk's blocking and clearing costs stand as printed |
-| R-090 | abstract air: only convoy fuel from Europe is cut, the loss rounded up |
-| R-091 | abstract air: 10 % of the initial trucks removed, rounded up |
-| R-092 | abstract air: monthly truck losses follow 32.57's timing and base |
-| R-093 | abstract convoy attack: trucks stand in for motorisation points, supplies for supply units |
-
-Variants recorded, not adopted: V-002 (fuel in tanks does not evaporate), V-003 (no light-truck off-road breakdown), V-004 (stores paid in instalments), V-005 (air attack does not reveal dummy dumps).
-
-Ruling numbers run in blocks of ten per logistics file (drafted in parallel), so there are gaps; `rulings/README.md` says so.
-
-Missions 1–4 are complete (PRs #2–#101).
+Missions 1–6 are complete (PRs #2–#187); their summaries are in the git history of this file and in `docs/designs/`.
 
 ## Next steps
 
-For the autopilot: cna-engine's **Requests for cna** first. Then Mission 7: §34 aircraft prose (finishing `rules/air/10-aircraft-and-sgsus.md`, keying the reinforcement chart's names to aircraft ids); then §39+§42 missions, §40 fighters, §41 bombing, §45–46 air combat and flak, §44 Malta, §47 and the final switch list; then decide R-111, R-112 and any new air rulings.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so.
 
 For Brian (all optional):
 
-- **Dispute anything.** Rulings worth a look from this run: **R-099** (scenario facility lists govern), **R-108** (El Alamein turn numbers; the air reinforcement chart's month spans agree with its calendar), **R-110** (Land-only victory supply). Older: R-027, R-071, R-040/R-042.
-- **Questions only your printed copy can answer** (decision board, `copy` group), new this run: the three misaligned rows of the German Tank and Gun chart (Pz III E, 7.62cm Pak(R), Marder III; the Marder's CPA is unknown) and the Axis coastal ship tonnages (three of 1,000 t, one of 2,000 t, from VASSAL). Still open: German c/d CPA, the el Grein garrison.
-- Vault: the *CNA Living Rules* roadmap rows are yours to flip (Mission 6 done, Mission 7 started).
+- **Dispute anything.** Air rulings worth a look: **R-114** (AA units stay with the Air Game) and **R-116** (squadron size: text over chart). Older: R-099, R-108, R-110, R-027, R-071.
+- **Questions only your printed copy can answer** (decision board, `copy` group), new: the **Axis Airplane Reinforcement Schedule (34.87)** is in neither scan, so the Axis currently gets no air reinforcements. Still open: the German Tank and Gun chart's three misaligned rows, Axis coastal ship tonnages, German c/d CPA, the el Grein garrison.
+- Vault: the *CNA Living Rules* roadmap row for Mission 7 is yours to flip to done.
 
 ## Runs and quota
 
