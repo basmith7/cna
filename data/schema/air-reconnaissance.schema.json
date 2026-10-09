@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "air-reconnaissance.schema.json",
+  "title": "Air Reconnaissance of Land Units Table (42.27)",
+  "type": "object",
+  "required": ["table", "sources", "planes_per_plus_one", "rows"],
+  "additionalProperties": false,
+  "properties": {
+    "table": {"const": "air-reconnaissance"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "planes_per_plus_one": {"type": "integer", "minimum": 1},
+    "rows": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["roll", "reveal", "all"], "additionalProperties": false,
+             "properties": {
+               "roll": {"type": "object", "required": ["from", "to"], "additionalProperties": false,
+                        "properties": {"from": {"type": "integer", "minimum": 1}, "to": {"type": ["integer", "null"], "minimum": 1}}},
+               "reveal": {"type": ["integer", "null"], "minimum": 0},
+               "all": {"type": "boolean"}}}}
+  }
+}

@@ -1,0 +1,21 @@
+{
+ "table": "air-reconnaissance",
+ "sources": ["CNA1979:42.27", "CNA1979:42.23", "CNA1979:42.24", "scan:p105"],
+ "notes": [
+  "Air Reconnaissance of Land Units Table, 42.27, chart page 11 (jp2 105). Read twice, from the archive.org scan and the community chart PDFs (Shared Charts.pdf p. 11): 0 of 10 cells differ.",
+  "One die, plus one for every four aircraft that complete the reconnaissance mission over the hex (fractions dropped). reveal is the number of battalion-equivalents the owner must reveal; null with all true means every unit in the hex, whatever its size."
+ ],
+ "planes_per_plus_one": 4,
+ "rows": [
+  {"roll": {"from": 1, "to": 2}, "reveal": 0, "all": false},
+  {"roll": {"from": 3, "to": 4}, "reveal": 1, "all": false},
+  {"roll": {"from": 5, "to": 6}, "reveal": 2, "all": false},
+  {"roll": {"from": 7, "to": 7}, "reveal": 3, "all": false},
+  {"roll": {"from": 8, "to": 8}, "reveal": 4, "all": false},
+  {"roll": {"from": 9, "to": 9}, "reveal": 5, "all": false},
+  {"roll": {"from": 10, "to": 10}, "reveal": 6, "all": false},
+  {"roll": {"from": 11, "to": 11}, "reveal": 7, "all": false},
+  {"roll": {"from": 12, "to": 12}, "reveal": 8, "all": false},
+  {"roll": {"from": 13, "to": null}, "reveal": null, "all": true}
+ ]
+}
