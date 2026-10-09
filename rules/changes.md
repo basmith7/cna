@@ -98,7 +98,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Air Game — fighters](./air/50-fighters.md)
 
-- [R-115](../rulings/R-115.md) — are there rating-5 pilots?
+- [R-115](../rulings/R-115.md) — no rating-5 pilots
 
 ## [Air Game — air combat and flak](./air/70-air-combat-and-flak.md)
 
@@ -292,7 +292,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-112](../rulings/R-112.md) | accepted | 38.35, 38.38 |
 | [R-113](../rulings/R-113.md) | proposed | 46.3, 46.4 |
 | [R-114](../rulings/R-114.md) | accepted | 47.0, 32.81, 32.82, 32.83, 32.84 |
-| [R-115](../rulings/R-115.md) | proposed | 40.15, 34.83, 34.88, 34.89 |
+| [R-115](../rulings/R-115.md) | accepted | 40.15, 34.83, 34.88, 34.89 |
 | [R-116](../rulings/R-116.md) | proposed | 35.23 |
 
 ## Variants register
