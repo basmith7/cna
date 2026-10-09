@@ -144,9 +144,9 @@ in a hex on top of §32's limit for regular supply units.
 
 ## Anti-air units
 
-§47 does not mention §32's anti-air modifications (32.8), which strip AA
-units and points because nothing flies in the Land Game alone. Whether they
-still apply when the Air Game flies over abstract supply is open.
+§32's anti-air modifications (32.8) do **not** apply with the Air Game:
+every AA unit and AA point stays in play and fires flak under §46, paying
+for it as above (47.21).
 
 ::: ruling R-114 — anti-air units with the Air Game and abstract logistics
 

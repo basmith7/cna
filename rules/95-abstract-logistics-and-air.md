@@ -260,7 +260,7 @@ Anti-air is thinned because there is no Air Game:
 None of this touches non-AA points that merely carry an AA rating.
 
 ::: note
-With the Air Game, see [the switch](air/00-overview-and-sequence.md#switch) and ruling R-114.
+With the Air Game this section does not apply: every AA unit and point stays ([Air Game abstract logistics](air/90-abstract-logistics.md#anti-air-units), R-114).
 :::
 
 ## Road and track stacking

@@ -41,8 +41,8 @@ From [Abstract logistics and air](../95-abstract-logistics-and-air.md) (§32):
 - the abstract **bombardment of the fleet** (32.7), which bombing missions
   replace (47.7);
 - the **anti-air modifications** (32.8), which strip AA units and points
-  only because nothing flies; whether they go with the Air Game is ruling
-  R-114.
+  only because nothing flies: with the Air Game every AA unit and point
+  stays (R-114).
 
 From the Logistics Game, all of
 [Abstract air](../logistics/60-abstract-air.md) (§58).
