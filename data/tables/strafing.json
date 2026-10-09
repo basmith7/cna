@@ -1,0 +1,239 @@
+{
+ "table": "strafing",
+ "sources": [
+  "CNA1979:40.8",
+  "CNA1979:40.61",
+  "CNA1979:40.62",
+  "CNA1979:40.63",
+  "CNA1979:40.64",
+  "CNA1979:40.65",
+  "CNA1979:40.67",
+  "scan:p99"
+ ],
+ "notes": [
+  "Strafing Table, 40.8, chart page 5 (jp2 99). Read twice, from the archive.org scan and the community chart PDFs (Shared Charts.pdf p. 5): 0 of 40 cells differ.",
+  "columns are the TacAir points strafing one target (pilot ratings not added, 40.61). dice is the two-dice range read in order (11 to 66) that gives the row's result in that column; null where the column has no such result.",
+  "shifts: one column right against trucks in convoy or a supply dump; infantry one column left in a fortification level 0 or 1 hex, two in level 2; armour one column left in a level 2 hex. Shifts are printed under the chart only.",
+  "result means, by target: trucks, truck points lost with their cargo; infantry, TOE strength points lost with any trucks carrying them; supply dump, tenths of every kind of supply in the dump; pipeline, destroyed on 2 or 3; grounded aircraft, dice rolled, their sum the aircraft destroyed; armour, dice rolled, their sum the minimum armour protection points lost. Strafing a port only adds to a bombing of that port (40.66)."
+ ],
+ "columns": [
+  {
+   "from": 1,
+   "to": 5
+  },
+  {
+   "from": 6,
+   "to": 10
+  },
+  {
+   "from": 11,
+   "to": 15
+  },
+  {
+   "from": 16,
+   "to": 20
+  },
+  {
+   "from": 21,
+   "to": 25
+  },
+  {
+   "from": 26,
+   "to": 30
+  },
+  {
+   "from": 31,
+   "to": 35
+  },
+  {
+   "from": 36,
+   "to": 40
+  },
+  {
+   "from": 41,
+   "to": 45
+  },
+  {
+   "from": 46,
+   "to": null
+  }
+ ],
+ "shifts": [
+  {
+   "target": "trucks-in-convoy",
+   "columns": 1
+  },
+  {
+   "target": "supply-dump",
+   "columns": 1
+  },
+  {
+   "target": "infantry",
+   "fortification_level": [
+    0,
+    1
+   ],
+   "columns": -1
+  },
+  {
+   "target": "infantry",
+   "fortification_level": [
+    2
+   ],
+   "columns": -2
+  },
+  {
+   "target": "armour",
+   "fortification_level": [
+    2
+   ],
+   "columns": -1
+  }
+ ],
+ "rows": [
+  {
+   "result": 0,
+   "dice": [
+    {
+     "from": 11,
+     "to": 63
+    },
+    {
+     "from": 11,
+     "to": 56
+    },
+    {
+     "from": 11,
+     "to": 53
+    },
+    {
+     "from": 11,
+     "to": 46
+    },
+    {
+     "from": 11,
+     "to": 42
+    },
+    {
+     "from": 11,
+     "to": 34
+    },
+    {
+     "from": 11,
+     "to": 25
+    },
+    {
+     "from": 11,
+     "to": 16
+    },
+    null,
+    null
+   ]
+  },
+  {
+   "result": 1,
+   "dice": [
+    {
+     "from": 64,
+     "to": 66
+    },
+    {
+     "from": 61,
+     "to": 66
+    },
+    {
+     "from": 54,
+     "to": 65
+    },
+    {
+     "from": 51,
+     "to": 64
+    },
+    {
+     "from": 43,
+     "to": 63
+    },
+    {
+     "from": 35,
+     "to": 62
+    },
+    {
+     "from": 26,
+     "to": 61
+    },
+    {
+     "from": 21,
+     "to": 56
+    },
+    {
+     "from": 11,
+     "to": 55
+    },
+    {
+     "from": 11,
+     "to": 46
+    }
+   ]
+  },
+  {
+   "result": 2,
+   "dice": [
+    null,
+    null,
+    {
+     "from": 66,
+     "to": 66
+    },
+    {
+     "from": 65,
+     "to": 66
+    },
+    {
+     "from": 64,
+     "to": 66
+    },
+    {
+     "from": 63,
+     "to": 66
+    },
+    {
+     "from": 62,
+     "to": 66
+    },
+    {
+     "from": 61,
+     "to": 66
+    },
+    {
+     "from": 56,
+     "to": 65
+    },
+    {
+     "from": 51,
+     "to": 64
+    }
+   ]
+  },
+  {
+   "result": 3,
+   "dice": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "from": 66,
+     "to": 66
+    },
+    {
+     "from": 65,
+     "to": 66
+    }
+   ]
+  }
+ ]
+}
