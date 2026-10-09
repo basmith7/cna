@@ -43,12 +43,13 @@ Tomahawks to Kittyhawks sits out three stages.
 
 ::: spi 40.15
 
-40.15 lists ratings of **1 to 4**, or **6**, a rating held only by
-Hans-Joachim Marseille; 34.83 speaks of pilots rated one to six. In
+A pilot is rated **1 to 4**, as the Pilot Arrival Tables give them, or
+**6**, a rating held only by Hans-Joachim Marseille; there are no 5s
+(except as earned under the optional aces rule below). In
 air-to-air combat, and only there, the pilot's rating is added to the
 aircraft's TacAir: a rating-3 pilot in an aircraft of TacAir 8 fights at 11.
 
-::: ruling R-115 — are there rating-5 pilots?
+::: ruling R-115 — no rating-5 pilots
 
 ::: spi 40.17
 
