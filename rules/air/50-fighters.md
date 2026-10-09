@@ -236,6 +236,11 @@ heavy AA never. The fighters spend ammunition, and so do
 the AA points they neutralise, which are firing at them. AA units are
 destroyed only by bombing (41.3).
 
+Flak printed on the map or in an off-map box (Tripoli's, for instance) counts
+as **heavy**, so fighters cannot suppress it.
+
+::: ruling R-111 — printed map flak is heavy
+
 ::: spi 40.77
 
 Ships may be strafed to suppress their flak, as an ordinary suppression run,
