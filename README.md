@@ -1,7 +1,8 @@
 # CNA Living Rules
 
-A public, reviewed, searchable edition of the **Land Game** rules of
-*The Campaign for North Africa* (SPI, 1979), written in our own words,
+A public, reviewed, searchable edition of the rules of
+*The Campaign for North Africa* (SPI, 1979), covering the Land, Logistics and
+Air Games and the scenarios, written in our own words,
 precise enough to build a rules-enforcing engine from, with SPI's September
 1979 errata folded in and every ambiguity we resolve recorded as a disputable
 ruling.
@@ -57,12 +58,12 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements-dev.txt
 .venv/bin/python tools/fetch.py sections        # source text → ~/.cache/cna-scans (for the overlap gate)
 .venv/bin/python tools/check_data.py            # gate
 .venv/bin/python tools/check_overlap.py         # gate
-.venv/bin/python tools/check_coverage.py --sections 1-32   # report
+.venv/bin/python tools/check_coverage.py --sections 1-65   # report
 npm ci && npm run site:build                    # site → site/.vitepress/dist
 ```
 
 ## Contributing
 
 Propose rule wording changes as PRs against `rules/`; propose or dispute a
-ruling in GitHub Discussions first (see `rulings/README.md`). Every rules PR
+ruling by opening a GitHub Issue first (see `rulings/README.md`). Every rules PR
 must pass the overlap and data gates and include an `EXTRACTION.md` entry.

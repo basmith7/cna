@@ -74,7 +74,7 @@ repo root; no SPI text is ever quoted.
 
 ## Process
 
-1. Open a GitHub Discussion describing the problem with the case numbers.
+1. Open a GitHub Issue describing the problem with the case numbers.
 2. Open a PR adding `R-nnn.md` as `proposed`, with the options written out.
 3. Review. One maintainer accepts or rejects; the PR that accepts also edits
    the rules prose and adds the `::: ruling` annotation.

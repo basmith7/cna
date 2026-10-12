@@ -276,9 +276,6 @@ The rules are organised by system, not by SPI section:
 | Scenarios: Group Four, El Alamein | The Last Chance, the Long Retreat | §63 |
 | Scenarios: Group Five, the campaign game | Full and short campaign | §64–65 |
 
-Files not yet written are listed so the shape of the edition is visible;
-they are added one system at a time.
-
 ---
 
 *Provenance: drawn on SPI §1, §2, §3.2, §5, §6.1–6.2, §7.1, §8.2, §8.37,
