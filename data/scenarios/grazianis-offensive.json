@@ -1842,7 +1842,11 @@
      ]
     }
    },
-   "motorisation": "Each Medium truck point a side could bring in becomes one motorisation point; Light and Heavy points give none."
+   "motorisation": {
+    "from": [
+     "medium"
+    ]
+   }
   },
   "logistics": {
    "sources": [
@@ -2095,7 +2099,12 @@
      ]
     }
    },
-   "motorisation": "Each Medium and each Heavy truck point a side could bring in becomes one motorisation point.",
+   "motorisation": {
+    "from": [
+     "medium",
+     "heavy"
+    ]
+   },
    "notes": [
     "60.93 B/C say 'as in 60.82 B/C'; read as a misprint for 60.92 B/C, so the 60.92 supply units (including Alexandria/Cairo extras) are repeated here with the air-facility units added."
    ]

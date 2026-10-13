@@ -133,6 +133,14 @@ def test_graziani_set_up_constraints_are_typed():
     assert {"place": ["cairo", "helwan"]} in placements
 
 
+def test_motorisation_is_typed():
+    # 60.92/60.93 and their kin: Land-only converts Medium trucks; Land-and-Air converts Medium and Heavy
+    for slug in ("grazianis-offensive", "rommels-arrival", "operation-crusader", "the-last-chance"):
+        ab = load(slug)["abstractions"]
+        assert ab["air_and_logistics"]["motorisation"]["from"] == ["medium"], slug
+        assert ab["logistics"]["motorisation"]["from"] == ["medium", "heavy"], slug
+    unattached = load("rommels-arrival")["abstractions"]["air_and_logistics"]["motorisation"]["unattached"]
+    assert [(u["side"], u["count"]) for u in unattached] == [("axis", 290), ("cw", 150), ("cw", 90)]
 def _supply_blocks(o):
     if isinstance(o, dict):
         if "kind" in o and "placement" in o:
