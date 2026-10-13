@@ -62,12 +62,17 @@
 .map-zoom { min-width: 3.5em; color: var(--vp-c-text-2); font-variant-numeric: tabular-nums; }
 .map-toolbar a { margin-left: auto; font-size: 0.9rem; }
 .map-box {
-  position: relative; overflow: hidden; height: min(80vh, 900px);
+  position: relative; overflow: hidden; max-height: min(80vh, 900px); width: 100%;
   border: 1px solid var(--vp-c-divider); border-radius: 8px; background: #fff;
-  cursor: grab; touch-action: none; user-select: none;
+  cursor: grab; touch-action: pan-x pan-y; user-select: none;
 }
 .map-box.dragging { cursor: grabbing; }
 .map-box:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 2px; }
 .map-box img { position: absolute; top: 0; left: 0; max-width: none; transform-origin: 0 0; }
 .map-hint { margin-top: 6px; font-size: 0.85rem; color: var(--vp-c-text-2); }
-@media (max-width: 640px) { .map-box { height: 70vh; } }
+@media (max-width: 640px) { .map-box { max-height: 70vh; } }
+.map-hint .hint-touch { display: none; }
+@media (hover: none) and (pointer: coarse) {
+  .map-hint .hint-mouse { display: none; }
+  .map-hint .hint-touch { display: inline; }
+}

@@ -1,17 +1,18 @@
 <script setup lang="ts">
 // One zoomable, pannable map sheet. The SVG is an <img> moved with a CSS transform; the maths
-// lives in map-view.mjs. Plain wheel scrolls the page, ctrl/meta+wheel zooms.
+// lives in map-view.mjs. Plain wheel scrolls the page, ctrl/meta+wheel zooms. On touch, one
+// finger scrolls the page (touch-action in custom.css) and two fingers pinch and move the map,
+// so a phone user is never trapped inside a sheet.
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import { withBase } from 'vitepress'
 import { fit, clamp, zoomAt, pan, MIN_K_FACTOR } from '../map-view.mjs'
 
-const props = defineProps<{ sheet: string; title: string }>()
+// width/height: the SVG's viewBox size, written by tools/map_render.py (1 unit = 1 CSS px at 100 %).
+const props = defineProps<{ sheet: string; title: string; width: number; height: number }>()
 const src = computed(() => withBase(`/map/${props.sheet}.svg`))
 
 const box = ref<HTMLElement | null>(null)
-// Every sheet shares this viewBox size (1 SVG unit = 1 CSS px at 100 %). The SVGs carry no
-// width/height, so the image's natural size is unusable.
-const content = ref({ w: 1290, h: 1580 })
+const content = computed(() => ({ w: props.width, h: props.height }))
 const size = ref({ w: 0, h: 0 })
 const view = ref({ k: 1, x: 0, y: 0 })
 const fitK = ref(1)
@@ -51,11 +52,13 @@ const zoomBy = (f: number, at = { x: size.value.w / 2, y: size.value.h / 2 }) =>
 // Pointer tracking: one pointer pans, two pinch.
 const pointers = new Map<number, { x: number; y: number }>()
 let pinchDist = 0
+let pinchMid = { x: 0, y: 0 }
+const mid = () => { const [a, b] = [...pointers.values()]; return { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 } }
 function onDown(e: PointerEvent) {
   box.value!.setPointerCapture(e.pointerId)
   pointers.set(e.pointerId, local(e))
   dragging.value = pointers.size === 1
-  if (pointers.size === 2) pinchDist = dist()
+  if (pointers.size === 2) { pinchDist = dist(); pinchMid = mid() }
 }
 function dist() {
   const [a, b] = [...pointers.values()]
@@ -67,18 +70,23 @@ function onMove(e: PointerEvent) {
   const cur = local(e)
   pointers.set(e.pointerId, cur)
   if (pointers.size === 1) {
+    if (e.pointerType === 'touch') return   // one finger scrolls the page
     set(pan(view.value, cur.x - prev.x, cur.y - prev.y))
   } else if (pointers.size === 2) {
-    const d = dist()
-    const [a, b] = [...pointers.values()]
-    if (pinchDist) zoomBy(d / pinchDist, { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 })
+    const d = dist(), m = mid()
+    if (pinchDist) {
+      set(pan(view.value, m.x - pinchMid.x, m.y - pinchMid.y))
+      zoomBy(d / pinchDist, m)
+    }
     pinchDist = d
+    pinchMid = m
   }
 }
 function onUp(e: PointerEvent) {
   pointers.delete(e.pointerId)
   dragging.value = false
   pinchDist = 0
+  if (pointers.size === 1) pinchMid = mid()
 }
 function onWheel(e: WheelEvent) {
   if (!(e.ctrlKey || e.metaKey)) return
@@ -120,9 +128,10 @@ onBeforeUnmount(() => {
       ref="box"
       class="map-box"
       :class="{ dragging }"
+      :style="{ aspectRatio: `${width} / ${height}` }"
       tabindex="0"
       role="group"
-      :aria-label="`${title}: drag to pan, Ctrl or Cmd plus scroll to zoom, plus and minus keys when focused`"
+      :aria-label="`${title}: drag to move, Ctrl or Cmd plus scroll to zoom, plus and minus keys when focused`"
       @pointerdown="onDown"
       @pointermove="onMove"
       @pointerup="onUp"
@@ -131,6 +140,9 @@ onBeforeUnmount(() => {
     >
       <img :src="src" :alt="title" draggable="false" :style="style" />
     </div>
-    <figcaption class="map-hint">Drag to pan. Ctrl or Cmd + scroll to zoom, or pinch.</figcaption>
+    <figcaption class="map-hint">
+      <span class="hint-mouse">Drag to move. Ctrl or Cmd + scroll to zoom.</span>
+      <span class="hint-touch">Pinch to zoom; move with two fingers.</span>
+    </figcaption>
   </figure>
 </template>

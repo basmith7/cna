@@ -181,10 +181,11 @@ def _slug(title):
     return re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
 
 
-def render_page(data):
+def render_page(data, svgs):
+    """The /map page: one zoomable <MapSheet> per rendered sheet, sized from its SVG's viewBox."""
     have = sorted({h["sheet"] for h in data.hexes.values()})
     out = ["---", "title: Map", "pageClass: map-page", "aside: false", "---", "", "# The map", "",
-           "Hex terrain, hexside features and named places for the whole theatre, drawn as sheets A to E and the Mediterranean inset. ",
+           "Hex terrain, hexside features and named places for the whole theatre, drawn as sheets A to E plus an inset of Malta. ",
            "Drag a sheet to move it. Hold Ctrl (or Cmd) and scroll to zoom, or use the + and − buttons; ",
            "on a touch screen, pinch. Zoom in until the hex numbers are readable.", "",
            "This is our own schematic redraw, generated from the open data in `data/map/` (CC0). It is not a copy of SPI's map art ",
@@ -192,7 +193,9 @@ def render_page(data):
            "and every hand correction is logged. See the [data conventions](/data/) for the hex numbering and the legal posture.", ""]
     out += ["Jump to: " + " · ".join(f"[{SHEET_TITLES[s]}](#{_slug(SHEET_TITLES[s])})" for s in have), ""]
     for s in have:
-        out += [f"## {SHEET_TITLES[s]}", "", f'<MapSheet sheet="{s}" title="{SHEET_TITLES[s]}" />', ""]
+        w, h = re.search(r'viewBox="\S+ \S+ (\S+) (\S+)"', svgs[s]).groups()
+        out += [f"## {SHEET_TITLES[s]}", "",
+                f'<MapSheet sheet="{s}" title="{SHEET_TITLES[s]}" :width="{w}" :height="{h}" />', ""]
     missing = [SHEET_TITLES[s] for s in "ABCDEM" if s not in have]
     if missing:
         out += ["## Not yet captured", "", ", ".join(missing) + ".", ""]
@@ -200,8 +203,9 @@ def render_page(data):
 
 
 def targets(data):
-    t = {OUT / f"{s}.svg": render_sheet(s, data) for s in sorted({h["sheet"] for h in data.hexes.values()})}
-    t[ROOT / "site" / "map.md"] = render_page(data)
+    svgs = {s: render_sheet(s, data) for s in sorted({h["sheet"] for h in data.hexes.values()})}
+    t = {OUT / f"{s}.svg": svg for s, svg in svgs.items()}
+    t[ROOT / "site" / "map.md"] = render_page(data, svgs)
     return t
 
 
