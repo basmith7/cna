@@ -120,8 +120,11 @@ both hexes of Alexandria.
 
 **Fleet, Malta and reinforcements.**
 
-- The fleet starts in port at Alexandria and Valletta, armed and undamaged,
-  and may not sail before the start of Game-Turn 2 (`sides.cw.fleet`).
+- The fleet is one battleship, three cruisers and seven destroyers, started
+  as the Commonwealth Fleet Schedule shows for Game-Turn 1 (in Alexandria;
+  one cruiser and two destroyers may start at Valletta instead). The ships
+  are armed and undamaged and may not sail before the start of Game-Turn 2
+  (`sides.cw.fleet`).
 - Malta has its own planes, pilots, SGSUs and 17 anti-aircraft points to
   spread over its facilities, which can ready five SGSUs between them. Work
   to enlarge them may start in October 1940.
@@ -131,10 +134,12 @@ both hexes of Alexandria.
   others must be found to train them. No replacement points arrive before
   November 1940.
 
+::: errata E-034 — 60.45: only its first paragraph is right; the lists of ships by port after it are ignored
+
 ::: ruling R-095 — the printed fleet total disagrees with the lists
 
-The fleet is the ships the lists name, in the ports they give: the
-printed total that disagrees with them is set aside.
+SPI's errata sets the lists aside, so the fleet is the printed total, placed
+by the Fleet Schedule.
 
 ## Air facilities {#air-facilities}
 
