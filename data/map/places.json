@@ -116,6 +116,13 @@
   {
    "id": "cairo",
    "hex": "E1730",
+   "hexes": [
+    "E1730",
+    "E1829",
+    "E1830",
+    "E1930",
+    "E1931"
+   ],
    "name": "Cairo",
    "kind": "major-city",
    "port": false

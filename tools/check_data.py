@@ -262,16 +262,20 @@ def validate_map(data_dir: pathlib.Path, reg: Registry, known: set[str]) -> list
             errors.append(f"map/hexsides.json: {s['key']}: coast between non-coastal or sea hexes")
     seen_hex: dict[str, str] = {}
     for pl in (docs.get("places") or {"places": []})["places"]:
-        h = hexes.get(pl["hex"])
-        if h is None:
-            errors.append(f"map/places.json: {pl['id']}: unknown hex {pl['hex']}")
-            continue
-        if pl["kind"] != "feature":
-            if h["settlement"] != pl["kind"]:
-                errors.append(f"map/places.json: {pl['id']}: hex {pl['hex']} settlement is {h['settlement']!r}, place kind is {pl['kind']!r}")
-            if pl["hex"] in seen_hex:
-                errors.append(f"map/places.json: {pl['id']}: hex {pl['hex']} already has place {seen_hex[pl['hex']]}")
-            seen_hex[pl["hex"]] = pl["id"]
+        covered = pl.get("hexes", [pl["hex"]])
+        if pl["hex"] not in covered:
+            errors.append(f"map/places.json: {pl['id']}: hex {pl['hex']} is not in its hexes list")
+        for hid in covered:
+            h = hexes.get(hid)
+            if h is None:
+                errors.append(f"map/places.json: {pl['id']}: unknown hex {hid}")
+                continue
+            if pl["kind"] != "feature":
+                if h["settlement"] != pl["kind"]:
+                    errors.append(f"map/places.json: {pl['id']}: hex {hid} settlement is {h['settlement']!r}, place kind is {pl['kind']!r}")
+                if hid in seen_hex:
+                    errors.append(f"map/places.json: {pl['id']}: hex {hid} already has place {seen_hex[hid]}")
+                seen_hex[hid] = pl["id"]
     return errors
 
 

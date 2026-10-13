@@ -839,7 +839,11 @@
       "hexes": [
        "E3613",
        "E3714",
-       "E1730"
+       "E1730",
+       "E1829",
+       "E1830",
+       "E1930",
+       "E1931"
       ],
       "constraint": "Alexandria or Cairo"
      },
@@ -1147,7 +1151,11 @@
         "hexes": [
          "E3613",
          "E3714",
-         "E1730"
+         "E1730",
+         "E1829",
+         "E1830",
+         "E1930",
+         "E1931"
         ],
         "constraint": "Alexandria or Cairo"
        },
