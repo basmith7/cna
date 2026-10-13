@@ -14,11 +14,65 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ## Nations
 
-| Nation | From | To | Table | Fixed |
-|---|---|---|---|---|
-| Commonwealth | 1940-11 | 1942-10 | Dice: 2; Pilots: 0, 0, 0, 0<br>Dice: 3; Pilots: 0, 3, 0, 0<br>Dice: 4; Pilots: 1, 0, 0, 1<br>Dice: 5; Pilots: 1, 2, 1, 0<br>Dice: 6; Pilots: 0, 1, 1, 0<br>Dice: 7; Pilots: 2, 4, 0, 0<br>Dice: 8; Pilots: 1, 3, 0, 0<br>Dice: 9; Pilots: 2, 0, 1, 0<br>Dice: 10; Pilots: 0, 1, 0, 1<br>Dice: 11; Pilots: 2, 1, 0, 0<br>Dice: 12; Pilots: 0, 0, 1, 0 |  |
-| Italian | 1940-11 | 1942-10 | Dice: 2; Pilots: 0, 0, 0, 0<br>Dice: 3; Pilots: 3, 0, 0, 0<br>Dice: 4; Pilots: 0, 1, 1, 1<br>Dice: 5; Pilots: 0, 2, 0, 0<br>Dice: 6; Pilots: 1, 0, 1, 0<br>Dice: 7; Pilots: 2, 1, 0, 1<br>Dice: 8; Pilots: 1, 0, 0, 0<br>Dice: 9; Pilots: 2, 1, 0, 0<br>Dice: 10; Pilots: 1, 0, 1, 0<br>Dice: 11; Pilots: 0, 0, 2, 1<br>Dice: 12; Pilots: 0, 3, 2, 0 |  |
-| German | 1941-03 | 1942-10 | Dice: 2; Pilots: 0, 0, 0, 0<br>Dice: 3; Pilots: 3, 0, 1, 1<br>Dice: 4; Pilots: 0, 3, 0, 1<br>Dice: 5; Pilots: 0, 2, 0, 0<br>Dice: 6; Pilots: 1, 1, 1, 0<br>Dice: 7; Pilots: 2, 0, 1, 1<br>Dice: 8; Pilots: 0, 2, 1, 1<br>Dice: 9; Pilots: 1, 0, 2, 0<br>Dice: 10; Pilots: 3, 0, 0, 2<br>Dice: 11; Pilots: 0, 1, 3, 1<br>Dice: 12; Pilots: 0, 0, 1, 1 | <span class="wrap">Game turn: 29; Rating: 6; Pilot: Hans-Joachim Marseille</span> |
+### Commonwealth · 1940-11 · 1942-10
+
+#### Table
+
+| Dice | Pilots |
+|---|---|
+| 2 | 0, 0, 0, 0 |
+| 3 | 0, 3, 0, 0 |
+| 4 | 1, 0, 0, 1 |
+| 5 | 1, 2, 1, 0 |
+| 6 | 0, 1, 1, 0 |
+| 7 | 2, 4, 0, 0 |
+| 8 | 1, 3, 0, 0 |
+| 9 | 2, 0, 1, 0 |
+| 10 | 0, 1, 0, 1 |
+| 11 | 2, 1, 0, 0 |
+| 12 | 0, 0, 1, 0 |
+
+### Italian · 1940-11 · 1942-10
+
+#### Table
+
+| Dice | Pilots |
+|---|---|
+| 2 | 0, 0, 0, 0 |
+| 3 | 3, 0, 0, 0 |
+| 4 | 0, 1, 1, 1 |
+| 5 | 0, 2, 0, 0 |
+| 6 | 1, 0, 1, 0 |
+| 7 | 2, 1, 0, 1 |
+| 8 | 1, 0, 0, 0 |
+| 9 | 2, 1, 0, 0 |
+| 10 | 1, 0, 1, 0 |
+| 11 | 0, 0, 2, 1 |
+| 12 | 0, 3, 2, 0 |
+
+### German · 1941-03 · 1942-10
+
+#### Table
+
+| Dice | Pilots |
+|---|---|
+| 2 | 0, 0, 0, 0 |
+| 3 | 3, 0, 1, 1 |
+| 4 | 0, 3, 0, 1 |
+| 5 | 0, 2, 0, 0 |
+| 6 | 1, 1, 1, 0 |
+| 7 | 2, 0, 1, 1 |
+| 8 | 0, 2, 1, 1 |
+| 9 | 1, 0, 2, 0 |
+| 10 | 3, 0, 0, 2 |
+| 11 | 0, 1, 3, 1 |
+| 12 | 0, 0, 1, 1 |
+
+#### Fixed
+
+| Game turn | Rating | Pilot |
+|---|---|---|
+| 29 | 6 | Hans-Joachim Marseille |
 
 ## Notes
 

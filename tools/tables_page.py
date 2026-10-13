@@ -210,7 +210,8 @@ def _grid(rows, base, ctx, columns=None):
             if k in spread:
                 cells += [ctx.cell(x, f"{base}/{i}/{_esc_ptr(k)}/{j}") for j, x in enumerate(r[k])]
             else:
-                cells.append(ctx.cell(r.get(k), f"{base}/{i}/{_esc_ptr(k)}", k) if k in r else "")
+                cells.append(ctx.cell(r.get(k), f"{base}/{i}/{_esc_ptr(k)}", k) if k in r
+                             else "" if k == "footnotes" else "—")
         if has_notes:
             cells.append(cell(" ".join(r.get("notes") or [])))
         out.append("| " + " | ".join(cells) + " |")
@@ -248,6 +249,8 @@ def _cellish(v, depth=0):
     longer than four (a dice row across columns, say) is a table of its own, not a cell."""
     if isinstance(v, list) and len(v) > 4 and depth > 1:
         return False                        # a row of values across columns: tabular
+    if isinstance(v, list) and len(v) > 6 and all(isinstance(x, dict) and not _leafish(x) for x in v):
+        return False                        # a list of records long enough to be a table
     if _leafish(v):
         return True
     if depth >= 3 or v is None:
@@ -299,7 +302,7 @@ def _block(key, value, base, ctx, level, siblings):
             for i, r in enumerate(value):
                 name = " · ".join(fmt(x, k) for k, x in r.items()
                                   if k not in ("sources", "notes") and _leafish(x) and not isinstance(x, (dict, list)))
-                out += _record(name or f"{title} {i + 1}", r, f"{ptr}/{i}", ctx, level + 1)
+                out += _record(name or f"{title} {i + 1}", r, f"{ptr}/{i}", ctx, level + 1, named=True)
             return out
         cols = siblings.get("columns")
         if (key != "columns" and isinstance(cols, list) and cols and all(isinstance(c, dict) and "id" in c for c in cols)
@@ -315,11 +318,13 @@ def _block(key, value, base, ctx, level, siblings):
     return _scalars({key: value}, base, ctx)
 
 
-def _record(title, value, ptr, ctx, level):
-    """A heading, the record's simple values as a list, then each nested table under it."""
+def _record(title, value, ptr, ctx, level, named=False):
+    """A heading, the record's simple values as a list, then each nested table under it.
+    `named`: the heading was built from the record's plain values, so don't list them again."""
     h = "#" * min(level, 6)
     scalars = {k: x for k, x in value.items() if _leafish(x) and k not in ("sources", "notes")}
-    out = [f"{h} {cell(title)}", ""] + _scalars(scalars, ptr, ctx)
+    shown = {k: x for k, x in scalars.items() if not (named and not isinstance(x, (dict, list)))}
+    out = [f"{h} {cell(title)}", ""] + _scalars(shown, ptr, ctx)
     if value.get("notes") and isinstance(value["notes"], list):
         out += [prose(" ".join(value["notes"])), ""]
     for k, x in value.items():

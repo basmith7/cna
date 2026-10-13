@@ -14,20 +14,20 @@ Used in [Ammunition and stores](/rules/logistics/20-ammunition-and-stores).
 
 | Mode | Action | Ammo | Applies to |
 |---|---|---|---|
-| played | barrage | 4 |  |
-| played | anti armour | 3 |  |
+| played | barrage | 4 | — |
+| played | anti armour | 3 | — |
 | played | close assault | 2 | <span class="wrap">armor class, gun class, mg infantry, heavy weapons infantry</span> |
-| played | anti air | 2 |  |
-| played | rearm squadron tacair | 1 |  |
-| played | rearm plane bombs torpedoes mines | 1 |  |
-| played | air combat or strafe | tacair bombload |  |
-| abstracted | barrage phasing | 4 |  |
-| abstracted | barrage non phasing | 2 |  |
-| abstracted | assault phasing | 1 |  |
-| abstracted | assault non phasing | 1 |  |
-| abstracted | anti air gun class | 1 |  |
-| abstracted | rearm non fighter squadron | 1 |  |
-| abstracted | non fighter flight | bombload |  |
+| played | anti air | 2 | — |
+| played | rearm squadron tacair | 1 | — |
+| played | rearm plane bombs torpedoes mines | 1 | — |
+| played | air combat or strafe | tacair bombload | — |
+| abstracted | barrage phasing | 4 | — |
+| abstracted | barrage non phasing | 2 | — |
+| abstracted | assault phasing | 1 | — |
+| abstracted | assault non phasing | 1 | — |
+| abstracted | anti air gun class | 1 | — |
+| abstracted | rearm non fighter squadron | 1 | — |
+| abstracted | non fighter flight | bombload | — |
 
 ## Notes
 

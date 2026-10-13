@@ -36,7 +36,7 @@ Used in [Abstract logistics and air](/rules/95-abstract-logistics-and-air), [Air
 |---|---|---|
 | I | 1940-09 | 1941-04 |
 | II | 1941-05 | 1942-05 |
-| III | 1942-06 |  |
+| III | 1942-06 | — |
 
 ### Table
 

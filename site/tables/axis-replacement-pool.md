@@ -68,26 +68,26 @@ Used in [Organisation](/rules/70-organisation), [Ports and shipping](/rules/logi
 
 | Item | Tonnage | Periods | Autoblinda 41 | Group | Tunis box |
 |---|---|---|---|---|---|
-| infantry | 30 | <span class="wrap">Total: 100; Max: 5; Max per: turn; From turn: 5; To turn: 8</span><br><span class="wrap">Max: 10; Max per: turn; From turn: 9; To turn: 24</span><br><span class="wrap">Total: 1100; Max: 25; Max per: turn; From turn: 25</span> |  |  |  |
-| armoured recce | 59 | <span class="wrap">Total: 25; Max: 1; Max per: turn; From turn: 31</span> | yes |  |  |
-| light aa | 6 | <span class="wrap">Total: 15; Max: 2; Max per: turn; From turn: 2; To turn: 24</span><br><span class="wrap">Total: 45; Max: 1; Max per: turn; From turn: 25</span> |  | anti air |  |
-| heavy-aa-75-46 | 59 | <span class="wrap">Total: 5; Max: 1; Max per: turn; From turn: 10; To turn: 24</span><br><span class="wrap">Total: 25; Max: 1; Max per: turn; From turn: 25</span> |  | anti air |  |
-| heavy-aa-90-53 | 92 | <span class="wrap">Total: 10; Max: 1; Max per: turn; From turn: 73</span> |  | anti air |  |
-| 47-32-mod-37 | 9 | <span class="wrap">Total: 8; Max: 2; Max per: turn; From turn: 10; To turn: 24</span><br><span class="wrap">Total: 25; Max: 1; Max per: turn; From turn: 25</span> |  | anti tank |  |
-| 65-17-gun | 3 | <span class="wrap">Total: 5; Max: 1; Max per: turn; From turn: 9; To turn: 24</span><br><span class="wrap">Total: 15; Max: 1; Max per: turn; From turn: 25</span> |  | artillery |  |
-| 75-27-gun | 12 | <span class="wrap">Total: 12; Max: 2; Max per: turn; From turn: 9; To turn: 24</span><br><span class="wrap">Total: 26; Max: 2; Max per: turn; From turn: 25</span> |  | artillery |  |
-| 75-18-howitzer | 12 | <span class="wrap">Total: 6; Max: 1; Max per: turn; From turn: 9; To turn: 24</span><br><span class="wrap">Total: 5; Max: 1; Max per: month; From turn: 25</span> |  | artillery |  |
-| 100-17-howitzer | 17 | <span class="wrap">Total: 10; Max: 1; Max per: turn; From turn: 9; To turn: 24</span><br><span class="wrap">Total: 22; Max: 2; Max per: turn; From turn: 25</span> |  | artillery |  |
-| 105-28-gun | 48 | <span class="wrap">Total: 3; Max: 1; Max per: month; From turn: 9; To turn: 24</span><br><span class="wrap">Total: 6; Max: 1; Max per: month; From turn: 25</span> |  | artillery |  |
-| semovente-75-18 | 60 | <span class="wrap">Total: 8; Max: 1; Max per: month; From turn: 65</span> |  | artillery |  |
-| 149-13-howitzer | 84 | <span class="wrap">Total: 6; Max: 1; Max per: month; From turn: 25</span> |  | artillery |  |
-| para art | 3 | <span class="wrap">Total: 4; Max: 2; Max per: turn; From turn: 96</span> |  | artillery |  |
-| 149mm-fr | 50 | <span class="wrap">Total: 10; Max: 2; Max per: turn; From turn: 39</span> |  | artillery | yes |
-| 155mm-rimailho-fr | 53 | <span class="wrap">Total: 10; Max: 2; Max per: turn; From turn: 39</span> |  | artillery | yes |
-| cv-l3-or-cv-33-35 | 16 | <span class="wrap">Total: 68; Max: 5; Max per: turn; From turn: 3</span> |  | tank |  |
-| ca-l6-40 | 28 | <span class="wrap">Total: 5; Max: 1; Max per: month; From turn: 33; To turn: 68</span><br><span class="wrap">Total: 21; Max: 2; Max per: turn; From turn: 69</span> |  | tank |  |
-| ca-m-13-40 | 70 | <span class="wrap">Total: 49; Max: 2; Max per: turn; From turn: 25</span> |  | tank |  |
-| ca-m-14-41 | 73 | <span class="wrap">Total: 61; Max: 3; Max per: turn; From turn: 59</span> |  | tank |  |
+| infantry | 30 | <span class="wrap">Total: 100; Max: 5; Max per: turn; From turn: 5; To turn: 8</span><br><span class="wrap">Max: 10; Max per: turn; From turn: 9; To turn: 24</span><br><span class="wrap">Total: 1100; Max: 25; Max per: turn; From turn: 25</span> | — | — | — |
+| armoured recce | 59 | <span class="wrap">Total: 25; Max: 1; Max per: turn; From turn: 31</span> | yes | — | — |
+| light aa | 6 | <span class="wrap">Total: 15; Max: 2; Max per: turn; From turn: 2; To turn: 24</span><br><span class="wrap">Total: 45; Max: 1; Max per: turn; From turn: 25</span> | — | anti air | — |
+| heavy-aa-75-46 | 59 | <span class="wrap">Total: 5; Max: 1; Max per: turn; From turn: 10; To turn: 24</span><br><span class="wrap">Total: 25; Max: 1; Max per: turn; From turn: 25</span> | — | anti air | — |
+| heavy-aa-90-53 | 92 | <span class="wrap">Total: 10; Max: 1; Max per: turn; From turn: 73</span> | — | anti air | — |
+| 47-32-mod-37 | 9 | <span class="wrap">Total: 8; Max: 2; Max per: turn; From turn: 10; To turn: 24</span><br><span class="wrap">Total: 25; Max: 1; Max per: turn; From turn: 25</span> | — | anti tank | — |
+| 65-17-gun | 3 | <span class="wrap">Total: 5; Max: 1; Max per: turn; From turn: 9; To turn: 24</span><br><span class="wrap">Total: 15; Max: 1; Max per: turn; From turn: 25</span> | — | artillery | — |
+| 75-27-gun | 12 | <span class="wrap">Total: 12; Max: 2; Max per: turn; From turn: 9; To turn: 24</span><br><span class="wrap">Total: 26; Max: 2; Max per: turn; From turn: 25</span> | — | artillery | — |
+| 75-18-howitzer | 12 | <span class="wrap">Total: 6; Max: 1; Max per: turn; From turn: 9; To turn: 24</span><br><span class="wrap">Total: 5; Max: 1; Max per: month; From turn: 25</span> | — | artillery | — |
+| 100-17-howitzer | 17 | <span class="wrap">Total: 10; Max: 1; Max per: turn; From turn: 9; To turn: 24</span><br><span class="wrap">Total: 22; Max: 2; Max per: turn; From turn: 25</span> | — | artillery | — |
+| 105-28-gun | 48 | <span class="wrap">Total: 3; Max: 1; Max per: month; From turn: 9; To turn: 24</span><br><span class="wrap">Total: 6; Max: 1; Max per: month; From turn: 25</span> | — | artillery | — |
+| semovente-75-18 | 60 | <span class="wrap">Total: 8; Max: 1; Max per: month; From turn: 65</span> | — | artillery | — |
+| 149-13-howitzer | 84 | <span class="wrap">Total: 6; Max: 1; Max per: month; From turn: 25</span> | — | artillery | — |
+| para art | 3 | <span class="wrap">Total: 4; Max: 2; Max per: turn; From turn: 96</span> | — | artillery | — |
+| 149mm-fr | 50 | <span class="wrap">Total: 10; Max: 2; Max per: turn; From turn: 39</span> | — | artillery | yes |
+| 155mm-rimailho-fr | 53 | <span class="wrap">Total: 10; Max: 2; Max per: turn; From turn: 39</span> | — | artillery | yes |
+| cv-l3-or-cv-33-35 | 16 | <span class="wrap">Total: 68; Max: 5; Max per: turn; From turn: 3</span> | — | tank | — |
+| ca-l6-40 | 28 | <span class="wrap">Total: 5; Max: 1; Max per: month; From turn: 33; To turn: 68</span><br><span class="wrap">Total: 21; Max: 2; Max per: turn; From turn: 69</span> | — | tank | — |
+| ca-m-13-40 | 70 | <span class="wrap">Total: 49; Max: 2; Max per: turn; From turn: 25</span> | — | tank | — |
+| ca-m-14-41 | 73 | <span class="wrap">Total: 61; Max: 3; Max per: turn; From turn: 59</span> | — | tank | — |
 
 ## Notes
 

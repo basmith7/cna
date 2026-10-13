@@ -18,16 +18,16 @@ Used in [Trucks and dumps](/rules/logistics/40-trucks-and-dumps).
 
 | Die | Percent | Or more |
 |---|---|---|
-| -2 | 0 |  |
-| -1 | 0 <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-032">E-032</a> |  |
-| 0 | 0 |  |
-| 1 | 10 |  |
-| 2 | 20 |  |
-| 3 | 33 |  |
-| 4 | 50 |  |
-| 5 | 75 |  |
-| 6 | 100 |  |
-| 7 | 100 <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-032">E-032</a> |  |
+| -2 | 0 | — |
+| -1 | 0 <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-032">E-032</a> | — |
+| 0 | 0 | — |
+| 1 | 10 | — |
+| 2 | 20 | — |
+| 3 | 33 | — |
+| 4 | 50 | — |
+| 5 | 75 | — |
+| 6 | 100 | — |
+| 7 | 100 <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-032">E-032</a> | — |
 | 8 | 100 | yes |
 
 ## Modifiers
@@ -35,13 +35,13 @@ Used in [Trucks and dumps](/rules/logistics/40-trucks-and-dumps).
 | Id | Value | Group | Per |
 |---|---|---|---|
 | extra third cpa | 1 | effort | extra third cpa |
-| full division | 1 | size |  |
-| one sp or less | -1 | size |  |
-| major city | -2 | location |  |
-| dump-500-or-less | 1 | location |  |
-| dump-4000-or-more | -1 | location |  |
-| just captured | 1 | capture |  |
-| enemy-20cp-away | -1 | capture |  |
+| full division | 1 | size | — |
+| one sp or less | -1 | size | — |
+| major city | -2 | location | — |
+| dump-500-or-less | 1 | location | — |
+| dump-4000-or-more | -1 | location | — |
+| just captured | 1 | capture | — |
+| enemy-20cp-away | -1 | capture | — |
 
 ## Notes
 

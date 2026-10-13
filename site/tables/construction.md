@@ -16,24 +16,24 @@ Used in [Engineering](/rules/80-engineering).
 
 | Item | Situation | Builders | Supplies | Stages | One at a time | Terrain not | Rebuild in enemy zoc in | Exclusive in hex | Terrain | Head only | Supplies per hex | Hexes per stage | Enemy zoc allowed | From major city | Coastal only | Supplies by port | Ports not | Port hexes | CP | Fake ratio max |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| fortification | build or rebuild | <span class="wrap">Units: any engineer, infantry-battalion-3toe</span> | Stores: 30 | 3 | yes | salt marsh, delta, major city | major city | yes |  |  |  |  |  |  |  |  |  |  |  |  |
-| real minefield | build | Units: engineer battalion<br>Units: engineer company<br>Units: cw engineer hq | Ammo: 15<br>Stores: 15 | 1 |  |  |  |  | clear, sand gravel, salt marsh |  |  |  |  |  |  |  |  |  |  |  |
-| fake minefield | build | Units: engineer battalion<br>Units: engineer company<br>Units: cw engineer hq | Stores: 3 | 1 |  |  |  |  | clear, sand gravel, salt marsh |  |  |  |  |  |  |  |  |  |  |  |
-| railroad | build | Units: nzrrc | Stores: 1 | 1 |  |  |  |  |  | track |  |  |  |  |  |  |  |  |  |  |
-| railroad | rebuild | Units: any engineer | Stores: 1 | 1 |  |  |  |  |  |  | yes | 3 |  |  |  |  |  |  |  |  |
-| road | build or rebuild | <span class="wrap">Units: infantry-battalion-3toe; Hexes per stage: 1</span><br><span class="wrap">Units: engineer company; Hexes per stage: 1</span><br>Units: engineer hq; Hexes per stage: 1<br><span class="wrap">Units: engineer battalion; Hexes per stage: 3</span><br><span class="wrap">Units: engineer company, infantry-battalion-3toe; Hexes per stage: 3</span><br><span class="wrap">Units: engineer hq, infantry-battalion-3toe; Hexes per stage: 3</span> | Stores: 2 | 1 |  |  |  |  | unfinished road |  | yes |  |  |  |  |  |  |  |  |  |
-| temporary repair facility | build | Units: any engineer | Fuel: 50<br>Stores: 250 | 1 |  |  |  |  | major city, village town |  |  |  |  |  |  |  |  |  |  |  |
-| repair facility | rebuild level | Units: any engineer | Fuel: 10<br>Stores: 50 | 1 | yes |  |  |  |  |  |  |  | yes |  |  |  |  |  |  |  |
-| water pipeline | build or rebuild | Units: engineer battalion<br>Units: cw engineer hq | Stores: 10 | 1 |  |  |  |  |  | pipe |  |  |  | yes |  |  |  |  |  |  |
-| airfield | build | Units: engineer battalion<br>Units: cw sgsu | Fuel: 50<br>Stores: 100 | 3 |  |  |  |  | clear, major city, desert, sand gravel |  |  |  |  |  |  |  |  |  |  |  |
-| airfield | rebuild level | Units: engineer battalion<br>Units: engineer company<br>Units: sgsu | Fuel: 10<br>Stores: 20 | 1 | yes |  |  |  | clear, major city, desert, sand gravel |  |  |  |  |  |  |  |  |  |  |  |
-| air landing strip | build | Units: engineer battalion<br>Units: engineer company<br>Units: sgsu | Fuel: 10<br>Stores: 20 | 1 |  |  |  |  | clear, major city, desert, sand gravel |  |  |  |  |  |  |  |  |  |  |  |
-| flying boat basin | build | Units: engineer battalion<br>Units: cw sgsu | Fuel: 25<br>Stores: 50 | 3 |  |  |  |  |  |  |  |  |  |  | yes |  |  |  |  |  |
-| flying boat basin | rebuild level | Units: engineer battalion<br>Units: engineer company<br>Units: sgsu | Fuel: 10<br>Stores: 10 | 1 | yes |  |  |  |  |  |  |  |  |  | yes |  |  |  |  |  |
-| flying boat alighting area | build | Units: engineer battalion<br>Units: engineer company<br>Units: sgsu | Fuel: 10<br>Stores: 10 | 1 |  |  |  |  |  |  |  |  |  |  | yes |  |  |  |  |  |
-| port | block level | Units: engineer battalion<br>Units: cw engineer hq |  | 1 | yes |  |  |  |  |  |  |  |  |  |  | Tobruk: Ammo: 50; Stores: 25<br>Other: Ammo: 25; Stores: 10 | <span class="wrap">tripoli, bizerta, alexandria, aboukir, rosetta</span> | Alexandria: E3613<br>Aboukir: E3815<br>Rosetta: E4019 |  |  |
-| real supply dump | build | Units: any-unit-1toe | Stores: 10 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 3 |  |
-| fake supply dump | build | Units: any-unit-1toe |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 2 | 0.5 |
+| fortification | build or rebuild | <span class="wrap">Units: any engineer, infantry-battalion-3toe</span> | Stores: 30 | 3 | yes | salt marsh, delta, major city | major city | yes | — | — | — | — | — | — | — | — | — | — | — | — |
+| real minefield | build | Units: engineer battalion<br>Units: engineer company<br>Units: cw engineer hq | Ammo: 15<br>Stores: 15 | 1 | — | — | — | — | clear, sand gravel, salt marsh | — | — | — | — | — | — | — | — | — | — | — |
+| fake minefield | build | Units: engineer battalion<br>Units: engineer company<br>Units: cw engineer hq | Stores: 3 | 1 | — | — | — | — | clear, sand gravel, salt marsh | — | — | — | — | — | — | — | — | — | — | — |
+| railroad | build | Units: nzrrc | Stores: 1 | 1 | — | — | — | — | — | track | — | — | — | — | — | — | — | — | — | — |
+| railroad | rebuild | Units: any engineer | Stores: 1 | 1 | — | — | — | — | — | — | yes | 3 | — | — | — | — | — | — | — | — |
+| road | build or rebuild | <span class="wrap">Units: infantry-battalion-3toe; Hexes per stage: 1</span><br><span class="wrap">Units: engineer company; Hexes per stage: 1</span><br>Units: engineer hq; Hexes per stage: 1<br><span class="wrap">Units: engineer battalion; Hexes per stage: 3</span><br><span class="wrap">Units: engineer company, infantry-battalion-3toe; Hexes per stage: 3</span><br><span class="wrap">Units: engineer hq, infantry-battalion-3toe; Hexes per stage: 3</span> | Stores: 2 | 1 | — | — | — | — | unfinished road | — | yes | — | — | — | — | — | — | — | — | — |
+| temporary repair facility | build | Units: any engineer | Fuel: 50<br>Stores: 250 | 1 | — | — | — | — | major city, village town | — | — | — | — | — | — | — | — | — | — | — |
+| repair facility | rebuild level | Units: any engineer | Fuel: 10<br>Stores: 50 | 1 | yes | — | — | — | — | — | — | — | yes | — | — | — | — | — | — | — |
+| water pipeline | build or rebuild | Units: engineer battalion<br>Units: cw engineer hq | Stores: 10 | 1 | — | — | — | — | — | pipe | — | — | — | yes | — | — | — | — | — | — |
+| airfield | build | Units: engineer battalion<br>Units: cw sgsu | Fuel: 50<br>Stores: 100 | 3 | — | — | — | — | clear, major city, desert, sand gravel | — | — | — | — | — | — | — | — | — | — | — |
+| airfield | rebuild level | Units: engineer battalion<br>Units: engineer company<br>Units: sgsu | Fuel: 10<br>Stores: 20 | 1 | yes | — | — | — | clear, major city, desert, sand gravel | — | — | — | — | — | — | — | — | — | — | — |
+| air landing strip | build | Units: engineer battalion<br>Units: engineer company<br>Units: sgsu | Fuel: 10<br>Stores: 20 | 1 | — | — | — | — | clear, major city, desert, sand gravel | — | — | — | — | — | — | — | — | — | — | — |
+| flying boat basin | build | Units: engineer battalion<br>Units: cw sgsu | Fuel: 25<br>Stores: 50 | 3 | — | — | — | — | — | — | — | — | — | — | yes | — | — | — | — | — |
+| flying boat basin | rebuild level | Units: engineer battalion<br>Units: engineer company<br>Units: sgsu | Fuel: 10<br>Stores: 10 | 1 | yes | — | — | — | — | — | — | — | — | — | yes | — | — | — | — | — |
+| flying boat alighting area | build | Units: engineer battalion<br>Units: engineer company<br>Units: sgsu | Fuel: 10<br>Stores: 10 | 1 | — | — | — | — | — | — | — | — | — | — | yes | — | — | — | — | — |
+| port | block level | Units: engineer battalion<br>Units: cw engineer hq | — | 1 | yes | — | — | — | — | — | — | — | — | — | — | Tobruk: Ammo: 50; Stores: 25<br>Other: Ammo: 25; Stores: 10 | <span class="wrap">tripoli, bizerta, alexandria, aboukir, rosetta</span> | Alexandria: E3613<br>Aboukir: E3815<br>Rosetta: E4019 | — | — |
+| real supply dump | build | Units: any-unit-1toe | Stores: 10 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | 3 | — |
+| fake supply dump | build | Units: any-unit-1toe | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | 2 | 0.5 |
 
 ## Notes
 

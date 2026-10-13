@@ -14,16 +14,16 @@ Used in [Ports and shipping](/rules/logistics/50-ports-and-shipping).
 
 | Port | Efficiency level | SP in | SP out | Max tons | Footnote | SP in zero SP unit |
 |---|---|---|---|---|---|---|
-| tripoli | 10 | 10 | 15 | 15000 |  |  |
-| bizerta | 10 | 10 | 15 | 3333 | <span class="wrap">Axis may not use before Game-Turn 35; then rolls for activation (55.17)</span> |  |
-| alexandria | 10 | 5 | 10 | 15000 |  |  |
-| tobruk | 5 | 1 | 3 | 1700 | <span class="wrap">Begins the campaign below the listed level because of the San Giorgio (55.25)</span> |  |
-| benghazi | 3 | 2 | 5 | 2500 |  |  |
-| mersa matruh | 1 | 1 | 2 | 250 |  |  |
-| bardia | 1 | 0 | 1 | 400 |  | yes |
-| sollum | 1 | 0 | 1 | 250 |  | yes |
-| derna | 1 | — | 1 | 300 |  |  |
-| all others | 1 | — | — | 100 |  |  |
+| tripoli | 10 | 10 | 15 | 15000 | — | — |
+| bizerta | 10 | 10 | 15 | 3333 | <span class="wrap">Axis may not use before Game-Turn 35; then rolls for activation (55.17)</span> | — |
+| alexandria | 10 | 5 | 10 | 15000 | — | — |
+| tobruk | 5 | 1 | 3 | 1700 | <span class="wrap">Begins the campaign below the listed level because of the San Giorgio (55.25)</span> | — |
+| benghazi | 3 | 2 | 5 | 2500 | — | — |
+| mersa matruh | 1 | 1 | 2 | 250 | — | — |
+| bardia | 1 | 0 | 1 | 400 | — | yes |
+| sollum | 1 | 0 | 1 | 250 | — | yes |
+| derna | 1 | — | 1 | 300 | — | — |
+| all others | 1 | — | — | 100 | — | — |
 
 ## Notes
 

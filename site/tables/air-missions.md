@@ -14,38 +14,38 @@ Used in [Air Game — missions](/rules/air/40-missions).
 
 | Id | Mission | Kind | Side | Role | Night | Cases | Bombardment table |
 |---|---|---|---|---|---|---|---|
-| cw convoy recon | Reconnaissance of Axis naval convoys | strategic | Commonwealth | non combat | no | 42.5 |  |
-| cw convoy bombing | Bombing Axis naval convoys | strategic | Commonwealth | bombing | no | 41.6 |  |
-| cw convoy defensive cap | Defensive CAP over Axis naval convoys | strategic | Commonwealth | fighter | no | 41.63 |  |
-| cw convoy flak suppression | Flak suppression of Axis naval convoys | strategic | Commonwealth | fighter | no | 41.63 |  |
-| cw malta cap | CAP over Malta | strategic | Commonwealth | fighter | no | none |  |
-| axis malta bombing | Bombing Maltese air facilities | strategic | axis | bombing | no | 44.2 |  |
-| axis malta cap | CAP over Malta | strategic | axis | fighter | no | none |  |
-| axis malta flak suppression | <span class="wrap">Flak suppression of Maltese air facilities</span> | strategic | axis | fighter | no | 44.2 |  |
-| axis convoy offensive cap | Offensive CAP over Axis naval convoys | strategic | axis | fighter | no | 41.63 |  |
-| scramble | Scramble | land\_support | both | fighter | yes | 40.3 |  |
-| cap | <span class="wrap">Combat air patrol, offensive or defensive</span> | land\_support | both | fighter | yes | 40.2 |  |
-| strafe first line trucks | Strafing first-line (attached) trucks | land\_support | both | fighter | no | 40.5, 40.6 |  |
-| strafe flak suppression | Strafing: flak suppression | land\_support | both | fighter | no | 40.5, 40.6 |  |
-| strafe grounded aircraft | Strafing grounded aircraft | land\_support | both | fighter | no | 40.5, 40.6 |  |
-| strafe infantry | Strafing infantry-type units | land\_support | both | fighter | no | 40.5, 40.6 |  |
+| cw convoy recon | Reconnaissance of Axis naval convoys | strategic | Commonwealth | non combat | no | 42.5 | — |
+| cw convoy bombing | Bombing Axis naval convoys | strategic | Commonwealth | bombing | no | 41.6 | — |
+| cw convoy defensive cap | Defensive CAP over Axis naval convoys | strategic | Commonwealth | fighter | no | 41.63 | — |
+| cw convoy flak suppression | Flak suppression of Axis naval convoys | strategic | Commonwealth | fighter | no | 41.63 | — |
+| cw malta cap | CAP over Malta | strategic | Commonwealth | fighter | no | none | — |
+| axis malta bombing | Bombing Maltese air facilities | strategic | axis | bombing | no | 44.2 | — |
+| axis malta cap | CAP over Malta | strategic | axis | fighter | no | none | — |
+| axis malta flak suppression | <span class="wrap">Flak suppression of Maltese air facilities</span> | strategic | axis | fighter | no | 44.2 | — |
+| axis convoy offensive cap | Offensive CAP over Axis naval convoys | strategic | axis | fighter | no | 41.63 | — |
+| scramble | Scramble | land\_support | both | fighter | yes | 40.3 | — |
+| cap | <span class="wrap">Combat air patrol, offensive or defensive</span> | land\_support | both | fighter | yes | 40.2 | — |
+| strafe first line trucks | Strafing first-line (attached) trucks | land\_support | both | fighter | no | 40.5, 40.6 | — |
+| strafe flak suppression | Strafing: flak suppression | land\_support | both | fighter | no | 40.5, 40.6 | — |
+| strafe grounded aircraft | Strafing grounded aircraft | land\_support | both | fighter | no | 40.5, 40.6 | — |
+| strafe infantry | Strafing infantry-type units | land\_support | both | fighter | no | 40.5, 40.6 | — |
 | strafe ports | Strafing ports | land\_support | both | fighter | no | 40.5, 40.6 | yes |
-| strafe tanks | Strafing tanks | land\_support | Commonwealth | fighter | no | 40.5, 40.6 |  |
-| strafe convoy trucks | <span class="wrap">Strafing trucks in convoy (second and third line)</span> | land\_support | both | fighter | no | 40.5, 40.6 |  |
-| strafe water pipeline | Strafing the water pipeline | land\_support | both | fighter | no | 40.5, 40.6 |  |
-| bomb air facilities | Bombing air facilities | land\_support | both | bombing | no | 41.0 |  |
-| bomb fortifications cities | Bombing fortifications and major cities | land\_support | both | bombing | yes | 41.0 |  |
-| bomb flak destruction | Bombing: flak destruction | land\_support | both | bombing | no | 41.0 |  |
-| bomb mining harbours | Mining harbours | land\_support | both | bombing | no | 41.0 |  |
-| bomb personnel | Bombing personnel | land\_support | both | bombing | no | 41.0 |  |
-| bomb ports | Bombing ports | land\_support | both | bombing | yes | 41.0 |  |
-| bomb rail road | Bombing railways and roads | land\_support | both | bombing | yes | 41.0 |  |
-| bomb cw ships | Bombing Commonwealth ships | land\_support | axis | bombing | no | 41.0 |  |
-| bomb supply dumps | Bombing supply dumps | land\_support | both | bombing | no | 41.0 |  |
-| airdrop | Airdrop | land\_support | both | non combat | no | 42.4 |  |
-| land recon | Reconnaissance of land units | land\_support | both | non combat | no | 42.2 |  |
-| transfer | Transfer | land\_support | both | non combat | no | 42.1 |  |
-| transport | Transport | land\_support | both | non combat | no | 42.3 |  |
+| strafe tanks | Strafing tanks | land\_support | Commonwealth | fighter | no | 40.5, 40.6 | — |
+| strafe convoy trucks | <span class="wrap">Strafing trucks in convoy (second and third line)</span> | land\_support | both | fighter | no | 40.5, 40.6 | — |
+| strafe water pipeline | Strafing the water pipeline | land\_support | both | fighter | no | 40.5, 40.6 | — |
+| bomb air facilities | Bombing air facilities | land\_support | both | bombing | no | 41.0 | — |
+| bomb fortifications cities | Bombing fortifications and major cities | land\_support | both | bombing | yes | 41.0 | — |
+| bomb flak destruction | Bombing: flak destruction | land\_support | both | bombing | no | 41.0 | — |
+| bomb mining harbours | Mining harbours | land\_support | both | bombing | no | 41.0 | — |
+| bomb personnel | Bombing personnel | land\_support | both | bombing | no | 41.0 | — |
+| bomb ports | Bombing ports | land\_support | both | bombing | yes | 41.0 | — |
+| bomb rail road | Bombing railways and roads | land\_support | both | bombing | yes | 41.0 | — |
+| bomb cw ships | Bombing Commonwealth ships | land\_support | axis | bombing | no | 41.0 | — |
+| bomb supply dumps | Bombing supply dumps | land\_support | both | bombing | no | 41.0 | — |
+| airdrop | Airdrop | land\_support | both | non combat | no | 42.4 | — |
+| land recon | Reconnaissance of land units | land\_support | both | non combat | no | 42.2 | — |
+| transfer | Transfer | land\_support | both | non combat | no | 42.1 | — |
+| transport | Transport | land\_support | both | non combat | no | 42.3 | — |
 
 ## Notes
 

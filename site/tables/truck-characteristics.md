@@ -15,8 +15,8 @@ Used in [Fuel](/rules/logistics/10-fuel), [Trucks and dumps](/rules/logistics/40
 | Truck | CPA | TOE | Supply points | Fuel capacity | Fuel consumption | Bar | Off road extra breakdown |
 |---|---|---|---|---|---|---|---|
 | light | Infantry: 25<br>Guns: —<br>Supplies: 40 | Infantry: 0.5<br>Artillery: —<br>Anti-aircraft: 1 | Ammo: 2<br>Fuel: 50<br>Stores: 6<br>Water: 40 | 8 | 1 | 2L | yes |
-| medium | Infantry: 20<br>Guns: 15<br>Supplies: 30 | Infantry: 1<br>Artillery: 1<br>Anti-aircraft: 2 | Ammo: 4<br>Fuel: 120<br>Stores: 15<br>Water: 100 | 6 | 1 | 2L |  |
-| heavy | Infantry: 20<br>Guns: 15<br>Supplies: 30 | Infantry: 2<br>Artillery: 1<br>Anti-aircraft: 4 | Ammo: 8<br>Fuel: 250<br>Stores: 30<br>Water: 200 | 6 | 1 | 2L |  |
+| medium | Infantry: 20<br>Guns: 15<br>Supplies: 30 | Infantry: 1<br>Artillery: 1<br>Anti-aircraft: 2 | Ammo: 4<br>Fuel: 120<br>Stores: 15<br>Water: 100 | 6 | 1 | 2L | — |
+| heavy | Infantry: 20<br>Guns: 15<br>Supplies: 30 | Infantry: 2<br>Artillery: 1<br>Anti-aircraft: 4 | Ammo: 8<br>Fuel: 250<br>Stores: 30<br>Water: 200 | 6 | 1 | 2L | — |
 
 ## Notes
 

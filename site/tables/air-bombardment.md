@@ -14,9 +14,7 @@ Used in [Air Game — bombing](/rules/air/60-bombing).
 
 ### air facility port · levels
 
-- **Id:** air facility port
 - **Targets:** airfield, air landing strip, port
-- **Result kind:** levels
 
 #### Table
 
@@ -30,9 +28,7 @@ Used in [Air Game — bombing](/rules/air/60-bombing).
 
 ### supply dump · percent
 
-- **Id:** supply dump
 - **Targets:** supply dump
-- **Result kind:** percent
 
 #### Table
 
@@ -48,9 +44,7 @@ Used in [Air Game — bombing](/rules/air/60-bombing).
 
 ### fortification · effect
 
-- **Id:** fortification
 - **Targets:** fortification
-- **Result kind:** effect
 
 #### Table
 
@@ -61,9 +55,7 @@ Used in [Air Game — bombing](/rules/air/60-bombing).
 
 ### railroad · effect
 
-- **Id:** railroad
 - **Targets:** railroad
-- **Result kind:** effect
 
 #### Table
 
@@ -74,9 +66,7 @@ Used in [Air Game — bombing](/rules/air/60-bombing).
 
 ### road · effect
 
-- **Id:** road
 - **Targets:** road
-- **Result kind:** effect
 
 #### Table
 
@@ -87,9 +77,7 @@ Used in [Air Game — bombing](/rules/air/60-bombing).
 
 ### units · number
 
-- **Id:** units
 - **Targets:** <span class="wrap">trucks, flak suppression, combat units, commonwealth fleet</span>
-- **Result kind:** number
 
 #### Table
 
@@ -106,9 +94,7 @@ Used in [Air Game — bombing](/rules/air/60-bombing).
 
 ### axis naval convoy · percent
 
-- **Id:** axis naval convoy
 - **Targets:** axis naval convoy
-- **Result kind:** percent
 
 #### Table
 

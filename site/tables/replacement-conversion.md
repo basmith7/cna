@@ -18,25 +18,25 @@ Used in [Organisation](/rules/70-organisation).
 
 | Unit | Cost | Applies to |
 |---|---|---|
-| hq | Class: infantry; Points: 2 |  |
+| hq | Class: infantry; Points: 2 | — |
 | commando | Class: infantry; Points: 3 | Layforce and the SAS Brigade only |
 | paratroop infantry | Class: infantry; Points: 2 | <span class="wrap">185th Folgore and Ramcke Brigade units only</span> |
-| italian bersaglieri | Class: infantry; Points: 2 |  |
+| italian bersaglieri | Class: infantry; Points: 2 | — |
 | machine gun | Class: infantry; Points: 2 | with or without a motorised symbol |
 | heavy weapons | <span class="wrap">Class: infantry; Points: 1, Class: gun; Points: 1</span> | all except Ramcke Brigade units |
-| other infantry | Class: infantry; Points: 1 |  |
+| other infantry | Class: infantry; Points: 1 | — |
 | engineer battalion | Class: infantry; Points: 2 | including the Australian Pioneer unit |
-| engineer company | Class: infantry; Points: 1 |  |
+| engineer company | Class: infantry; Points: 1 | — |
 | road or rail construction | none | <span class="wrap">the SA road and two NZ railway construction battalions; if eliminated they return as reinforcements six stages later</span> |
-| motorcycle recce camel or recce | Class: infantry; Points: 2 |  |
-| armoured recce | Class: armoured recce; Points: 1<br>Class: light tank; Points: 1 |  |
-| armoured car | Class: armoured recce; Points: 2<br>Class: light tank; Points: 1 |  |
-| tank | Class: tank; Points: 1 |  |
-| artillery | Class: artillery; Points: 1 |  |
-| airdroppable artillery | Class: italian para artillery; Points: 1<br>Class: german-75mm-light-gun; Points: 1 |  |
-| anti tank | Class: anti tank; Points: 1 |  |
+| motorcycle recce camel or recce | Class: infantry; Points: 2 | — |
+| armoured recce | Class: armoured recce; Points: 1<br>Class: light tank; Points: 1 | — |
+| armoured car | Class: armoured recce; Points: 2<br>Class: light tank; Points: 1 | — |
+| tank | Class: tank; Points: 1 | — |
+| artillery | Class: artillery; Points: 1 | — |
+| airdroppable artillery | Class: italian para artillery; Points: 1<br>Class: german-75mm-light-gun; Points: 1 | — |
+| anti tank | Class: anti tank; Points: 1 | — |
 | airdroppable anti tank | Class: light anti tank; Points: 1 | <span class="wrap">only when assigning anti-tank points to the 185th Folgore or Ramcke HQs</span> |
-| anti air | Class: anti air; Points: 1 |  |
+| anti air | Class: anti air; Points: 1 | — |
 
 ## Notes
 

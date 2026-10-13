@@ -56,30 +56,30 @@ Used in [Organisation](/rules/70-organisation).
 
 | Item | Total | Max | Max per | From turn | To turn |
 |---|---|---|---|---|---|
-| armoured recce | 90 | 2 | turn | 3 |  |
-| light aa | 75 | 1 | turn | 7 |  |
-| heavy aa | 15 | 1 | month | 11 |  |
-| 25-pounder | 250 | 4 | turn | 11 |  |
-| 4-5-inch-gun | 25 | 3 | turn | 76 |  |
-| 5-5-inch-howitzer | 12 | 1 | turn | 83 |  |
+| armoured recce | 90 | 2 | turn | 3 | — |
+| light aa | 75 | 1 | turn | 7 | — |
+| heavy aa | 15 | 1 | month | 11 | — |
+| 25-pounder | 250 | 4 | turn | 11 | — |
+| 4-5-inch-gun | 25 | 3 | turn | 76 | — |
+| 5-5-inch-howitzer | 12 | 1 | turn | 83 | — |
 | 155mm-howitzer | 6 | 1 | turn | 51 | 59 |
 | 2-pounder | 60 | 5 | month | 5 | 86 |
-| 6-pounder | 80 | 5 | turn | 75 |  |
-| sp-6-pounder | 7 | 3 | turn | 76 |  |
-| 17-pounder | 6 | 3 | turn | 103 |  |
+| 6-pounder | 80 | 5 | turn | 75 | — |
+| sp-6-pounder | 7 | 3 | turn | 76 | — |
+| 17-pounder | 6 | 3 | turn | 103 | — |
 | mark vi light | 15 | 3 | month | 3 | 38 |
 | a9-cruiser | 8 | 2 | month | 3 | 38 |
 | a10-cruiser | 10 | 3 | month | 3 | 38 |
 | a13-cruiser | 8 | 2 | month | 9 | 38 |
 | crusader-1 | 35 | 5 | month | 31 | 76 |
 | crusader-2 | 30 | 5 | month | 41 | 78 |
-| crusader-3 | 18 | 6 | fortnight | 88 |  |
+| crusader-3 | 18 | 6 | fortnight | 88 | — |
 | matilda | 25 | 2 | month | 9 | 74 |
-| valentine | 20 | 3 | month | 39 |  |
+| valentine | 20 | 3 | month | 39 | — |
 | stuart | 44 | 10 | month | 35 | 54 |
-| grant | 56 | 8 | month | 66 |  |
-| sherman | 62 | 12 | turn | 89 |  |
-| churchill | 1 |  |  | 90 |  |
+| grant | 56 | 8 | month | 66 | — |
+| sherman | 62 | 12 | turn | 89 | — |
+| churchill | 1 | — | — | 90 | — |
 
 ## Notes
 

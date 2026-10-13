@@ -17,12 +17,12 @@ Used in [Special rules](/rules/90-special).
 | Dice | Result | Turns |
 |---|---|---|
 | 2 | axis-initiative-3-temporary | 2 |
-| 3 | lrdg eliminated |  |
-| 4–8 | none |  |
-| 9 | lrdg eliminated |  |
-| 10 | none |  |
-| 11 | lrdg eliminated |  |
-| 12 | rommel removed |  |
+| 3 | lrdg eliminated | — |
+| 4–8 | none | — |
+| 9 | lrdg eliminated | — |
+| 10 | none | — |
+| 11 | lrdg eliminated | — |
+| 12 | rommel removed | — |
 
 ## Notes
 

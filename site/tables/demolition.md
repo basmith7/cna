@@ -14,19 +14,19 @@ Used in [Engineering](/rules/80-engineering).
 
 | Item | Situation | By units | Also by | Builders | Stages | Timing | Only by | Recovers | Reduce only by | Supplies | Blocked by | Air damage automatic |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| fortification | reduce level | no | air bombardment, barrage |  |  |  |  |  |  |  |  |  |
-| fake minefield | clear | yes |  | Units: any unit | 1 | end of movement segment entered |  |  |  |  |  |  |
-| real minefield | clear | yes |  | Units: any engineer<br>Units: tank-battalion-6toe-scorpions | 1 |  |  |  |  |  |  |  |
-| railroad | destroy | yes | air bombardment, barrage | Units: any engineer<br>Units: infantry-battalion-3toe | 1 |  |  |  |  |  |  |  |
-| road | destroy | no |  |  | 1 |  | air bombardment, barrage |  |  |  |  |  |
-| repair facility | dismantle | yes | barrage, air bombardment | Units: any engineer | 1 |  |  | Fuel: 25<br>Stores: 120 |  |  |  |  |
-| water pipeline | destroy | yes | barrage, strafing, desert raider raid | Units: engineer hq<br>Units: any-unit-1toe | 1 |  |  |  |  |  |  |  |
-| air facility | reduce level | no | air bombardment |  |  |  |  |  | desert raider raid |  |  |  |
-| port tobruk | unblock level | yes |  | Units: engineer battalion<br>Units: cw engineer hq | 1 |  |  |  |  | Ammo: 25<br>Stores: 10 | mines, ships | yes |
-| port benghazi | unblock level | yes |  | <span class="wrap">Units: engineer battalion, cw engineer hq; Count: 2</span> | 1 |  |  |  |  | Ammo: 100<br>Stores: 50 | mines, ships | yes |
-| port other | unblock level | yes |  | Units: engineer battalion<br>Units: cw engineer hq | 1 |  |  |  |  | Ammo: 50<br>Stores: 25 | mines, ships | yes |
-| fake supply dump | destroy | yes | desert raider raid | Units: any unit |  | on entry |  |  |  |  |  |  |
-| real supply dump | blow | yes | <span class="wrap">desert raider raid, air bombardment, barrage</span> | Units: any unit |  | cp percentage |  |  |  |  |  |  |
+| fortification | reduce level | no | air bombardment, barrage | — | — | — | — | — | — | — | — | — |
+| fake minefield | clear | yes | — | Units: any unit | 1 | end of movement segment entered | — | — | — | — | — | — |
+| real minefield | clear | yes | — | Units: any engineer<br>Units: tank-battalion-6toe-scorpions | 1 | — | — | — | — | — | — | — |
+| railroad | destroy | yes | air bombardment, barrage | Units: any engineer<br>Units: infantry-battalion-3toe | 1 | — | — | — | — | — | — | — |
+| road | destroy | no | — | — | 1 | — | air bombardment, barrage | — | — | — | — | — |
+| repair facility | dismantle | yes | barrage, air bombardment | Units: any engineer | 1 | — | — | Fuel: 25<br>Stores: 120 | — | — | — | — |
+| water pipeline | destroy | yes | barrage, strafing, desert raider raid | Units: engineer hq<br>Units: any-unit-1toe | 1 | — | — | — | — | — | — | — |
+| air facility | reduce level | no | air bombardment | — | — | — | — | — | desert raider raid | — | — | — |
+| port tobruk | unblock level | yes | — | Units: engineer battalion<br>Units: cw engineer hq | 1 | — | — | — | — | Ammo: 25<br>Stores: 10 | mines, ships | yes |
+| port benghazi | unblock level | yes | — | <span class="wrap">Units: engineer battalion, cw engineer hq; Count: 2</span> | 1 | — | — | — | — | Ammo: 100<br>Stores: 50 | mines, ships | yes |
+| port other | unblock level | yes | — | Units: engineer battalion<br>Units: cw engineer hq | 1 | — | — | — | — | Ammo: 50<br>Stores: 25 | mines, ships | yes |
+| fake supply dump | destroy | yes | desert raider raid | Units: any unit | — | on entry | — | — | — | — | — | — |
+| real supply dump | blow | yes | <span class="wrap">desert raider raid, air bombardment, barrage</span> | Units: any unit | — | cp percentage | — | — | — | — | — | — |
 
 ## Notes
 

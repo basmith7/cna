@@ -14,9 +14,9 @@ Used in [Special rules](/rules/90-special).
 
 | Vehicle | Shift | Shift max |
 |---|---|---|
-| truck | -2 |  |
-| armoured car | -1 |  |
-| armoured recce | 0 |  |
+| truck | -2 | — |
+| armoured car | -1 | — |
+| armoured recce | 0 | — |
 | sp gun | -1 | 2 |
 | tank | -1 | 2 |
 

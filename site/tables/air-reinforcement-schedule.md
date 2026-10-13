@@ -14,7 +14,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### 1940, Sept IV (GT 2)
 
-- **Period:** 1940, Sept IV (GT 2)
 - **Game turns:** 2
 - **Withdrawals:** none
 
@@ -27,7 +26,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Oct I (GT 3)
 
-- **Period:** Oct I (GT 3)
 - **Game turns:** 3
 
 #### Arrivals
@@ -45,7 +43,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Nov II (GT 8)
 
-- **Period:** Nov II (GT 8)
 - **Game turns:** 8
 
 #### Arrivals
@@ -58,12 +55,11 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 | Squadrons | Role | Mark |
 |---|---|---|
-| 2 | cap |  |
+| 2 | cap | — |
 | 2 | bombing | \*\* |
 
 ### Dec I (GT 11)
 
-- **Period:** Dec I (GT 11)
 - **Game turns:** 11
 
 #### Arrivals
@@ -81,7 +77,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### 1941, Jan (GT 15...18)
 
-- **Period:** 1941, Jan (GT 15...18)
 - **Game turns:** 15–18
 
 #### Arrivals
@@ -96,12 +91,11 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 | Squadrons | Role | Mark |
 |---|---|---|
-| 1 | cap |  |
+| 1 | cap | — |
 | 2 | bombing | \*\* |
 
 ### Feb (GT 19...22)
 
-- **Period:** Feb (GT 19...22)
 - **Game turns:** 19–22
 
 #### Arrivals
@@ -122,7 +116,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Mar (GT 23...26)
 
-- **Period:** Mar (GT 23...26)
 - **Game turns:** 23–26
 
 #### Arrivals
@@ -145,7 +138,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Apr (GT 27...30)
 
-- **Period:** Apr (GT 27...30)
 - **Game turns:** 27–30
 
 #### Arrivals
@@ -169,7 +161,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### May (GT 31...34)
 
-- **Period:** May (GT 31...34)
 - **Game turns:** 31–34
 - **Withdrawals:** none
 
@@ -187,7 +178,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Jun (GT 35...38)
 
-- **Period:** Jun (GT 35...38)
 - **Game turns:** 35–38
 
 #### Arrivals
@@ -214,7 +204,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Jul (GT 39...42)
 
-- **Period:** Jul (GT 39...42)
 - **Game turns:** 39–42
 
 #### Arrivals
@@ -240,7 +229,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Aug (GT 43...46)
 
-- **Period:** Aug (GT 43...46)
 - **Game turns:** 43–46
 
 #### Arrivals
@@ -265,7 +253,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Sep (GT 47...50)
 
-- **Period:** Sep (GT 47...50)
 - **Game turns:** 47–50
 
 #### Arrivals
@@ -291,7 +278,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Oct (GT 51-54)
 
-- **Period:** Oct (GT 51-54)
 - **Game turns:** 51–54
 - **Withdrawals:** none
 
@@ -313,7 +299,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Nov (GT 55...58)
 
-- **Period:** Nov (GT 55...58)
 - **Game turns:** 55–58
 - **Withdrawals:** none
 
@@ -336,7 +321,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Dec (GT 59...62)
 
-- **Period:** Dec (GT 59...62)
 - **Game turns:** 59–62
 
 #### Arrivals
@@ -367,7 +351,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### 1942. Jan (GT 63...66)
 
-- **Period:** 1942. Jan (GT 63...66)
 - **Game turns:** 63–66
 
 #### Arrivals
@@ -402,7 +385,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Feb (GT 67...70)
 
-- **Period:** Feb (GT 67...70)
 - **Game turns:** 67–70
 
 #### Arrivals
@@ -428,12 +410,11 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 | Squadrons | Role | Mark |
 |---|---|---|
-| 2 | cap |  |
+| 2 | cap | — |
 | 2 | bombing | ‡ |
 
 ### Mar (GT 71...74)
 
-- **Period:** Mar (GT 71...74)
 - **Game turns:** 71–74
 - **Withdrawals:** none
 
@@ -461,7 +442,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Apr (GT 75...78)
 
-- **Period:** Apr (GT 75...78)
 - **Game turns:** 75–78
 - **Withdrawals:** none
 
@@ -488,7 +468,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### May (GT 79...82)
 
-- **Period:** May (GT 79...82)
 - **Game turns:** 79–82
 
 #### Arrivals
@@ -521,7 +500,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Jun (GT 83...86)
 
-- **Period:** Jun (GT 83...86)
 - **Game turns:** 83–86
 - **Withdrawals:** none
 
@@ -545,7 +523,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Jul (GT 87...90)
 
-- **Period:** Jul (GT 87...90)
 - **Game turns:** 87–90
 - **Withdrawals:** none
 
@@ -573,7 +550,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Aug (GT 91...94)
 
-- **Period:** Aug (GT 91...94)
 - **Game turns:** 91–94
 
 #### Arrivals
@@ -605,11 +581,10 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 | Squadrons | Role | Mark |
 |---|---|---|
 | 2 | cap | \* |
-| 1 | bombing |  |
+| 1 | bombing | — |
 
 ### Sep (GT 95...98)
 
-- **Period:** Sep (GT 95...98)
 - **Game turns:** 95–98
 - **Withdrawals:** none
 
@@ -642,7 +617,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Oct (GT 99...102)
 
-- **Period:** Oct (GT 99...102)
 - **Game turns:** 99–102
 - **Withdrawals:** none
 
@@ -667,7 +641,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Nov (GT 103...106)
 
-- **Period:** Nov (GT 103...106)
 - **Game turns:** 103–106
 
 #### Arrivals
@@ -694,7 +667,6 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ### Dec (GT 107...110)
 
-- **Period:** Dec (GT 107...110)
 - **Game turns:** 107–110
 - **Withdrawals:** none
 

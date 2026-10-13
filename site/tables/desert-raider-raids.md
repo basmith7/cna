@@ -18,13 +18,13 @@ Used in [Special rules](/rules/90-special).
 
 | Target | Die | Limit | Not if combat units | Combinable with | Flying boats immune | LRDG only | See | Guard check | Then | Reveal dump type after | All infantry replacements |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| water pipeline | From: 1; To: 4; Result: destroyed<br>From: 5; To: 6; Result: none | once per raider per stage |  |  |  |  |  |  |  |  |  |
-| airfield | From: 1; To: 2; Result: reduce level<br>From: 3; To: 6; Result: none | once per target per turn | yes | planes on ground |  |  |  |  |  |  |  |
-| planes on ground | <span class="wrap">From: 1; To: 2; Result: destroy percent; Percent: 10</span><br>From: 3; To: 5; Result: none<br><span class="wrap">From: 6; To: 6; Result: none; Raider eliminated: yes</span> |  | yes |  | yes |  |  |  |  |  |  |
-| rommel |  |  |  |  |  | yes | table:raid-on-rommel |  |  |  |  |
-| supply dump guarded |  |  |  |  |  |  |  | Dice: 2<br><span class="wrap">Survive if sum at least: raw close assault defence</span><br>Else: raider eliminated | supply dump |  |  |
-| supply dump | <span class="wrap">From: 1; To: 2; Result: destroy percent; Percent: 10</span><br>From: 3; To: 5; Result: none<br><span class="wrap">From: 6; To: 6; Result: none; Raider eliminated if combat units: yes</span> |  |  |  |  |  |  |  |  | yes |  |
-| truck convoy | <span class="wrap">From: 1; To: 2; Result: truck points lost; Points: 1</span><br>From: 3; To: 5; Result: none<br><span class="wrap">From: 6; To: 6; Result: none; Reroll if infantry replacements: From: 5; To: 6; Result: raider eliminated</span> |  |  |  |  |  |  |  |  |  | raider eliminated |
+| water pipeline | From: 1; To: 4; Result: destroyed<br>From: 5; To: 6; Result: none | once per raider per stage | — | — | — | — | — | — | — | — | — |
+| airfield | From: 1; To: 2; Result: reduce level<br>From: 3; To: 6; Result: none | once per target per turn | yes | planes on ground | — | — | — | — | — | — | — |
+| planes on ground | <span class="wrap">From: 1; To: 2; Result: destroy percent; Percent: 10</span><br>From: 3; To: 5; Result: none<br><span class="wrap">From: 6; To: 6; Result: none; Raider eliminated: yes</span> | — | yes | — | yes | — | — | — | — | — | — |
+| rommel | — | — | — | — | — | yes | table:raid-on-rommel | — | — | — | — |
+| supply dump guarded | — | — | — | — | — | — | — | Dice: 2<br><span class="wrap">Survive if sum at least: raw close assault defence</span><br>Else: raider eliminated | supply dump | — | — |
+| supply dump | <span class="wrap">From: 1; To: 2; Result: destroy percent; Percent: 10</span><br>From: 3; To: 5; Result: none<br><span class="wrap">From: 6; To: 6; Result: none; Raider eliminated if combat units: yes</span> | — | — | — | — | — | — | — | — | yes | — |
+| truck convoy | <span class="wrap">From: 1; To: 2; Result: truck points lost; Points: 1</span><br>From: 3; To: 5; Result: none<br><span class="wrap">From: 6; To: 6; Result: none; Reroll if infantry replacements: From: 5; To: 6; Result: raider eliminated</span> | — | — | — | — | — | — | — | — | — | raider eliminated |
 
 ## Notes
 

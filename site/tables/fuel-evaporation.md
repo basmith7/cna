@@ -14,8 +14,8 @@ Used in [Fuel](/rules/logistics/10-fuel).
 
 | Id | Percent | When | Applies to | Rounding | Replaces |
 |---|---|---|---|---|---|
-| standard | 6 | stores expenditure stage | <span class="wrap">both sides, all fuel on the map (not in convoys at sea)</span> | down |  |
-| hot weather | 5 | hot weather determined | <span class="wrap">both sides, each operations stage with hot weather, in addition; not fuel in units' own tanks (R-040)</span> | down |  |
+| standard | 6 | stores expenditure stage | <span class="wrap">both sides, all fuel on the map (not in convoys at sea)</span> | down | — |
+| hot weather | 5 | hot weather determined | <span class="wrap">both sides, each operations stage with hot weather, in addition; not fuel in units' own tanks (R-040)</span> | down | — |
 | commonwealth-1940-41 | 9 | stores expenditure stage | <span class="wrap">Commonwealth, September 1940 to August 1941 inclusive</span> | down | standard |
 
 ## Notes

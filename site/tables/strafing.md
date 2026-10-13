@@ -14,8 +14,8 @@ Used in [Air Game — fighters](/rules/air/50-fighters).
 
 | Target | Columns | Fortification level |
 |---|---|---|
-| trucks in convoy | 1 |  |
-| supply dump | 1 |  |
+| trucks in convoy | 1 | — |
+| supply dump | 1 | — |
 | infantry | -1 | 0, 1 |
 | infantry | -2 | 2 |
 | armour | -1 | 2 |

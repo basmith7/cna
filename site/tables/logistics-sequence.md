@@ -14,58 +14,58 @@ Used in [Logistics Game — overview and sequence of play](/rules/logistics/00-o
 
 | Order | Stage | Name | Frequency | Actor | Attaches to | New in logistics | Air game only | Logistics game only | Phase | Segment | Repeat as |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | I | initiative determination | turn | both | initiative determination | no | no | no |  |  |  |
-| 2 | II | strategic air planning | turn | both | — | yes | yes | no |  |  |  |
-| 3 | II | air designation | turn | both | — | yes | yes | no | A |  |  |
-| 4 | II | axis malta availability | turn | axis | — | yes | yes | no | B |  |  |
-| 5 | II | strategic mission assignment | turn | both | — | yes | yes | no | C |  |  |
-| 6 | II | malta raid | turn | axis | — | yes | yes | no | D |  |  |
-| 7 | III | naval convoy | turn | both | naval convoy | no | no | no |  |  |  |
-| 8 | III | convoy schedule | turn | axis | naval convoy | no | no | no | A |  |  |
-| 9 | III | convoy resolution | turn | both | — | yes | no | no | B |  |  |
-| 10 | III | convoy reconnaissance | turn | cw | — | yes | yes | no | B | 1 |  |
-| 11 | III | convoy lane assignment | turn | both | — | yes | yes | no | B | 2 |  |
-| 12 | III | convoy bombing | turn | both | — | yes | no | no | B | 3 |  |
-| 13 | IV | stores expenditure | turn | both | — | yes | no | yes |  |  |  |
-| 14 | V | operations stage | stage | both | — | no | no | no |  |  | VI, VII |
-| 15 | V | initiative declaration | stage | initiative holder | initiative declaration | no | no | no | A |  |  |
-| 16 | V | weather | stage | initiative holder | weather | no | no | no | B |  |  |
-| 17 | V | organisation | stage | both | organisation | no | no | no | C |  |  |
-| 18 | V | water distribution | stage | both | organisation | yes | no | yes | C | 1 |  |
-| 19 | V | reorganisation | stage | both | organisation | no | no | no | C | 2 |  |
-| 20 | V | attrition | stage | both | organisation | yes | no | yes | C | 3 |  |
-| 21 | V | construction | stage | both | organisation | no | no | no | C | 4 |  |
-| 22 | V | training | stage | both | organisation | no | no | no | C | 5 |  |
-| 23 | V | supply distribution | stage | both | organisation | yes | no | no | C | 6 |  |
-| 24 | V | tactical shipping | stage | both | organisation | no | no | no | C | 7 |  |
-| 25 | V | arrival | stage | both | arrival | no | no | no | D |  |  |
-| 26 | V | cw fleet | stage | cw | cw fleet | no | no | no | E |  |  |
-| 27 | V | fleet assignment | stage | cw | cw fleet | no | no | no | E | 1 |  |
-| 28 | V | fleet repair | stage | cw | cw fleet | no | no | no | E | 2 |  |
-| 29 | V | land support air | stage | both | — | yes | yes | no | F |  |  |
-| 30 | V | mission assignment | stage | both | — | yes | yes | no | F | 1 |  |
-| 31 | V | mission deployment | stage | both | — | yes | yes | no | F | 2 |  |
-| 32 | V | air to air combat | stage | both | — | yes | yes | no | F | 3 |  |
-| 33 | V | flak | stage | both | — | yes | yes | no | F | 4 |  |
-| 34 | V | mission completion | stage | both | — | yes | yes | no | F | 5 |  |
-| 35 | V | return to base | stage | both | — | yes | yes | no | F | 6 |  |
-| 36 | V | tactical maintenance | stage | both | — | yes | yes | no | F | 7 |  |
-| 37 | V | reserve designation | stage | player a | reserve designation | no | no | no | G |  |  |
-| 38 | V | movement combat | stage | player a | movement combat | no | no | no | H |  |  |
-| 39 | V | movement | stage | player a | movement combat | no | no | no | H | 1 |  |
-| 40 | V | breakdown | stage | player a | movement combat | no | no | no | H | 2 |  |
-| 41 | V | combat | stage | player a | movement combat | no | no | no | H | 3 |  |
-| 42 | V | reserve release | stage | player a | movement combat | no | no | no | H | 4 |  |
-| 43 | V | truck convoy | stage | player a | truck convoy | no | no | no | I |  |  |
-| 44 | V | rail | stage | player a | rail | no | no | no | J |  |  |
-| 45 | V | repair | stage | player a | repair | no | no | no | K |  |  |
-| 46 | V | towing | stage | player a | repair | no | no | no | K | 1 |  |
-| 47 | V | maintenance | stage | player a | repair | no | no | no | K | 2 |  |
-| 48 | V | patrol | stage | player a | patrol | no | no | no | L |  |  |
-| 49 | VIII | strategic air recovery | turn | both | — | yes | yes | no |  |  |  |
-| 50 | VIII | air return to base | turn | both | — | yes | yes | no | A |  |  |
-| 51 | VIII | aircraft maintenance | turn | both | — | yes | yes | no | B |  |  |
-| 52 | IX | end of turn | turn | both | turn end | no | no | no |  |  |  |
+| 1 | I | initiative determination | turn | both | initiative determination | no | no | no | — | — | — |
+| 2 | II | strategic air planning | turn | both | — | yes | yes | no | — | — | — |
+| 3 | II | air designation | turn | both | — | yes | yes | no | A | — | — |
+| 4 | II | axis malta availability | turn | axis | — | yes | yes | no | B | — | — |
+| 5 | II | strategic mission assignment | turn | both | — | yes | yes | no | C | — | — |
+| 6 | II | malta raid | turn | axis | — | yes | yes | no | D | — | — |
+| 7 | III | naval convoy | turn | both | naval convoy | no | no | no | — | — | — |
+| 8 | III | convoy schedule | turn | axis | naval convoy | no | no | no | A | — | — |
+| 9 | III | convoy resolution | turn | both | — | yes | no | no | B | — | — |
+| 10 | III | convoy reconnaissance | turn | cw | — | yes | yes | no | B | 1 | — |
+| 11 | III | convoy lane assignment | turn | both | — | yes | yes | no | B | 2 | — |
+| 12 | III | convoy bombing | turn | both | — | yes | no | no | B | 3 | — |
+| 13 | IV | stores expenditure | turn | both | — | yes | no | yes | — | — | — |
+| 14 | V | operations stage | stage | both | — | no | no | no | — | — | VI, VII |
+| 15 | V | initiative declaration | stage | initiative holder | initiative declaration | no | no | no | A | — | — |
+| 16 | V | weather | stage | initiative holder | weather | no | no | no | B | — | — |
+| 17 | V | organisation | stage | both | organisation | no | no | no | C | — | — |
+| 18 | V | water distribution | stage | both | organisation | yes | no | yes | C | 1 | — |
+| 19 | V | reorganisation | stage | both | organisation | no | no | no | C | 2 | — |
+| 20 | V | attrition | stage | both | organisation | yes | no | yes | C | 3 | — |
+| 21 | V | construction | stage | both | organisation | no | no | no | C | 4 | — |
+| 22 | V | training | stage | both | organisation | no | no | no | C | 5 | — |
+| 23 | V | supply distribution | stage | both | organisation | yes | no | no | C | 6 | — |
+| 24 | V | tactical shipping | stage | both | organisation | no | no | no | C | 7 | — |
+| 25 | V | arrival | stage | both | arrival | no | no | no | D | — | — |
+| 26 | V | cw fleet | stage | cw | cw fleet | no | no | no | E | — | — |
+| 27 | V | fleet assignment | stage | cw | cw fleet | no | no | no | E | 1 | — |
+| 28 | V | fleet repair | stage | cw | cw fleet | no | no | no | E | 2 | — |
+| 29 | V | land support air | stage | both | — | yes | yes | no | F | — | — |
+| 30 | V | mission assignment | stage | both | — | yes | yes | no | F | 1 | — |
+| 31 | V | mission deployment | stage | both | — | yes | yes | no | F | 2 | — |
+| 32 | V | air to air combat | stage | both | — | yes | yes | no | F | 3 | — |
+| 33 | V | flak | stage | both | — | yes | yes | no | F | 4 | — |
+| 34 | V | mission completion | stage | both | — | yes | yes | no | F | 5 | — |
+| 35 | V | return to base | stage | both | — | yes | yes | no | F | 6 | — |
+| 36 | V | tactical maintenance | stage | both | — | yes | yes | no | F | 7 | — |
+| 37 | V | reserve designation | stage | player a | reserve designation | no | no | no | G | — | — |
+| 38 | V | movement combat | stage | player a | movement combat | no | no | no | H | — | — |
+| 39 | V | movement | stage | player a | movement combat | no | no | no | H | 1 | — |
+| 40 | V | breakdown | stage | player a | movement combat | no | no | no | H | 2 | — |
+| 41 | V | combat | stage | player a | movement combat | no | no | no | H | 3 | — |
+| 42 | V | reserve release | stage | player a | movement combat | no | no | no | H | 4 | — |
+| 43 | V | truck convoy | stage | player a | truck convoy | no | no | no | I | — | — |
+| 44 | V | rail | stage | player a | rail | no | no | no | J | — | — |
+| 45 | V | repair | stage | player a | repair | no | no | no | K | — | — |
+| 46 | V | towing | stage | player a | repair | no | no | no | K | 1 | — |
+| 47 | V | maintenance | stage | player a | repair | no | no | no | K | 2 | — |
+| 48 | V | patrol | stage | player a | patrol | no | no | no | L | — | — |
+| 49 | VIII | strategic air recovery | turn | both | — | yes | yes | no | — | — | — |
+| 50 | VIII | air return to base | turn | both | — | yes | yes | no | A | — | — |
+| 51 | VIII | aircraft maintenance | turn | both | — | yes | yes | no | B | — | — |
+| 52 | IX | end of turn | turn | both | turn end | no | no | no | — | — | — |
 
 ## Notes
 
