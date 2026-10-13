@@ -87,6 +87,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Abstract logistics and air](./95-abstract-logistics-and-air.md)
 
+- [R-119](../rulings/R-119.md) — supply units, real or dummy, do not count as units in a supply trace
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 
 ## [Air Game — aircraft and squadrons](./air/10-aircraft-and-sgsus.md)
@@ -192,6 +193,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-095](../rulings/R-095.md) — the printed fleet total disagrees with the lists
 - [R-027](../rulings/R-027.md) — Tobruk's efficiency level
 - [R-110](../rulings/R-110.md) — what the supply condition means when only the Land Game is played
+- [R-119](../rulings/R-119.md) — supply units, real or dummy, do not count as units in a supply trace
 - [V-007](../rulings/V-007.md) — some Italian squadrons start in Sicily
 - [V-008](../rulings/V-008.md) — Mussolini's requirements on the Italian advance
 
@@ -290,7 +292,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-107](../rulings/R-107.md) | accepted | 62.35, 62.45, 59.53 |
 | [R-108](../rulings/R-108.md) | accepted | 63.2 |
 | [R-109](../rulings/R-109.md) | accepted | 64.71, 64.72, 64.75, 64.76 |
-| [R-110](../rulings/R-110.md) | accepted | 60.81, 60.92, 32.17 |
+| [R-110](../rulings/R-110.md) | accepted | 60.81, 60.92, 32.16 |
 | [R-111](../rulings/R-111.md) | accepted | 40.74, 46.1 |
 | [R-112](../rulings/R-112.md) | accepted | 38.35, 38.38 |
 | [R-113](../rulings/R-113.md) | accepted | 46.3, 46.4 |
@@ -298,6 +300,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-115](../rulings/R-115.md) | accepted | 40.15, 34.83, 34.88, 34.89 |
 | [R-116](../rulings/R-116.md) | accepted | 35.23 |
 | [R-117](../rulings/R-117.md) | accepted | 8.37, 8.33, 8.47 |
+| [R-119](../rulings/R-119.md) | accepted | 32.13, 32.16, 32.18, 10.26, 60.81, 60.92 |
 
 ## Variants register
 

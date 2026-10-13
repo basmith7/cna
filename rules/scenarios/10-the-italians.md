@@ -197,6 +197,13 @@ medium truck could follow without entering a hex holding an enemy unit or an
 enemy ZOC hex with no friendly unit in it. The source hex must be free of
 enemy units. No supply unit is needed (`victory.levels[].supply_trace`).
 
+::: ruling R-119 — supply units, real or dummy, do not count as units in a supply trace
+
+In this route, and in 32.16's supply trace, "unit" means combat unit: enemy
+combat units block the route and deny the source hex, a friendly combat unit
+lifts an enemy ZOC, and supply units of either kind (real or dummy) do none
+of these (ruling [R-119](../../rulings/R-119.md)).
+
 ::: variant V-008 — Mussolini's requirements on the Italian advance
 
 ::: spi 60.82

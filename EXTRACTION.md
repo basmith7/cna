@@ -546,3 +546,9 @@ the PR that adds or substantially rewrites the file.
 - **Question:** from the engine (cna-engine #13): what a swamp hex costs a unit moving by railroad. The chart prices neither.
 - **Source read:** the chart (jp2 69, re-read against the scan), 8.33 and 8.47 (Clay Stone's Land rules PDF). Swamp row "May enter only on road or railroad"; Railroad row "Same as terrain in hex for all purposes"; notes 10 and 11 treat a railroad as a road for wadi and major-river crossings only. Genuinely silent, so a ruling.
 - **Decided:** R-117, the road rate for the swamp hex (1 non-motorised, ½ motorised, breakdown ½), railroad constructed, hexside features charged as normal. Data cells unchanged; a note on the table points at the ruling.
+
+## rulings/R-110.md; rules/95-abstract-logistics-and-air.md (32.16) and scenarios/10-the-italians.md (60.81) — 2026-10-13
+- **Question:** from the engine (cna-engine #14): do dummy supply units count as units for blocking a victory supply route, denying a hold or lifting enemy ZOC?
+- **Source read:** 32.13, 32.16, 32.17, 32.18 (re-read in Clay Stone's Land rules PDF, p. 46), 10.26, 10.29 and 60.82. A supply unit "has no combat capabilities" and is captured when an enemy combat unit enters; 10.26 lets only a friendly combat unit cancel an enemy ZOC; 32.16 says only "Friendly units". Loose wording, so a ruling.
+- **Decided:** R-119, combat units only; real and dummy supply units alike count for none of the three. Dummies cannot differ from real ones without giving themselves away.
+- **Also fixed:** R-110 cited 32.17 for the supply tracing standard; the tracing is 32.16 (32.17 is destroying supply units). Citations in R-110 corrected.
