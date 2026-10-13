@@ -52,7 +52,12 @@ A combat unit may draw on any friendly supply unit within **half its CPA**
 — 5 CP for foot infantry, 10 for a heavy-weapons unit on motorisation
 points, 23 for a typical recce unit — the distance traced as a medium truck
 would move it (as infantry for foot infantry), never through impassable
-terrain or an enemy ZOC without a friendly unit in it.
+terrain or an enemy ZOC without a friendly combat unit in it.
+
+::: ruling R-119 — supply units, real or dummy, do not count as units in a supply trace
+
+A supply unit, real or dummy, never blocks a trace, never denies a hold and
+never lifts an enemy ZOC; only combat units do (ruling [R-119](../rulings/R-119.md)).
 
 **Destroying** your own supply unit: before any movement in a sub-segment,
 spend half the CPA (rounded up) of every unit in the hex and roll one die
