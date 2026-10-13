@@ -96,3 +96,16 @@ def test_source_ngrams_exits_when_total_tokens_too_low(tmp_path, monkeypatch):
     with pytest.raises(SystemExit) as e:
         co.source_ngrams()
     assert e.value.code == 1
+
+
+def test_normalize_unescapes_html_entities_like_markdown():
+    assert co.normalize("hex with at least a brigade&#39;s worth") == \
+        co.normalize("hex with at least a brigade's worth")
+    assert co.normalize("Tom &amp; Jerry &rsquo;s") == co.normalize("Tom & Jerry ’s")
+
+
+def test_rendered_html_overlap_is_caught_when_markdown_matches():
+    src = "the axis wins by occupying any hex of alexandria with at least a brigade's worth of units"
+    grams = co.ngrams(co.normalize(src))
+    html_text = "<p>occupying any hex of Alexandria with at least a brigade&#39;s worth of units</p>"
+    assert co.find_overlaps(html_text, grams, set(), markdown=False)

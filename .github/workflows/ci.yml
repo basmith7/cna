@@ -51,3 +51,13 @@ jobs:
       - run: npm ci
       - run: npm run test:site
       - run: npm run site:build
+      # The built HTML is gated too: rendering can change tokenization (entities, tags).
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Cache pinned source text
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/cna-scans/source
+          key: source-${{ hashFiles('tools/sources.json') }}
+      - run: python tools/fetch.py sections > /dev/null
+      - run: python tools/check_overlap.py site/.vitepress/dist

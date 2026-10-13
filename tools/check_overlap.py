@@ -11,6 +11,7 @@ explicit paths, each is a file, or a directory expanded to every file under it w
 of those tracked extensions.
 """
 import argparse
+import html
 import pathlib
 import re
 import subprocess
@@ -25,7 +26,8 @@ TOKEN = re.compile(r"[a-z0-9']+")
 
 
 def normalize(text: str) -> list[str]:
-    text = text.lower().replace("‘", "'").replace("’", "'")
+    # Unescape entities so rendered HTML (&#39;, &amp;) tokenizes like the markdown source.
+    text = html.unescape(text).lower().replace("‘", "'").replace("’", "'")
     return TOKEN.findall(text)
 
 

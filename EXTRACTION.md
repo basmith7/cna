@@ -531,3 +531,8 @@ the PR that adds or substantially rewrites the file.
 ## rulings/R-095.md; sides.cw.fleet in grazianis-offensive.json — 2026-10-12
 - **Audit:** SPI's errata for 60.45 says only the first paragraph is correct and the lists of ships by port are to be ignored; R-095 had chosen the lists without citing it. Reopened and reversed: the total (1 battleship, 3 cruisers, 7 destroyers) deployed by the Fleet Schedule, which on Game-Turn 1 OpStage 1 holds exactly those 11 ships (`cw-fleet-schedule.json`).
 - **Applied as:** errata E-034 (prose only, `data/errata/INDEX.md`); `sides.cw.fleet` drops the per-port counts and keeps the total, the schedule reference and the movement ban.
+
+## rules/scenarios/40-el-alamein.md; 63.9 Last Chance sentence — 2026-10-12
+- **Audit:** the overlap gate, once it normalised HTML entities (`brigade&#39;s` against `brigade's`), showed the built page sharing an 8-word run with SPI's text (the clause giving the Axis strategic win in Alexandria) that the markdown pass had missed. Issue #220.
+- **Changed:** the Axis win clause is reworded, now "putting units equal to a brigade or more into either hex of Alexandria, supplied or not". Same meaning: a brigade-size force in an Alexandria hex wins for the Axis regardless of supply.
+- **Gate:** `tools/check_overlap.py` unescapes HTML entities, and CI runs it over `site/.vitepress/dist` after the site build.
