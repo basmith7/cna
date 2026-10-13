@@ -22,7 +22,7 @@ test('spi-ref renders without anchors', () => {
 
 test('spi-omit renders reason', () => {
   const html = md.render('::: spi-omit 4.6 — component inventory\n')
-  assert.match(html, /<p class="spi-badge spi-omit">SPI 4\.6 omitted — component inventory<\/p>/)
+  assert.match(html, /<p class="spi-badge spi-omit">Not restated: SPI 4\.6 — component inventory<\/p>/)
 })
 
 test('other ::: lines are untouched', () => {
@@ -39,7 +39,7 @@ test('a badge directly after a prose line terminates the paragraph', () => {
 
 test('an omit reason containing a second em-dash keeps the whole reason', () => {
   const html = md.render('::: spi-omit 4.6 — component inventory — see also 4.7\n')
-  assert.match(html, /SPI 4\.6 omitted — component inventory — see also 4\.7/)
+  assert.match(html, /Not restated: SPI 4\.6 — component inventory — see also 4\.7/)
 })
 
 test('errata badge renders id and paraphrase', () => {
@@ -76,4 +76,9 @@ test('primary badge carries its cases in a data attribute for the original viewe
 test('variant badge links to the variant file', () => {
   const html = md.render('::: variant V-001 — San Giorgio as a live gun battery\n')
   assert.match(html, /<p class="spi-badge spi-variant">Variant <a href="\/cna\/rulings\/V-001">V-001<\/a> — San Giorgio as a live gun battery<\/p>/)
+})
+
+test('a badge reason renders its markdown links', () => {
+  const html = md.render('::: spi-omit 2.0 — reduced to [Roles](#roles)\n')
+  assert.match(html, /Not restated: SPI 2\.0 — reduced to <a href="#roles">Roles<\/a>/)
 })

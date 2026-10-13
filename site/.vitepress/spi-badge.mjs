@@ -66,7 +66,8 @@ export function spiBadgePlugin(md) {
       return `<p class="spi-badge spi-primary" data-cases="${esc(cases.join(' '))}">${anchors}SPI ${esc(list)}</p>\n`
     }
     if (kind === 'spi-ref') return `<p class="spi-badge spi-ref">see SPI ${esc(list)}</p>\n`
-    const tail = reason ? ' — ' + esc(reason) : ''
+    // Reasons are our own markdown (links to other sections); render them, don't escape them.
+    const tail = reason ? ' — ' + md.renderInline(reason) : ''
     if (kind === 'errata') return `<p class="spi-badge spi-errata">Errata ${esc(list)}${tail}</p>\n`
     if (kind === 'ruling') {
       const links = cases.map(c => `<a href="${BASE}rulings/${esc(c)}">${esc(c)}</a>`).join(', ')
@@ -76,6 +77,6 @@ export function spiBadgePlugin(md) {
       const links = cases.map(c => `<a href="${BASE}rulings/${esc(c)}">${esc(c)}</a>`).join(', ')
       return `<p class="spi-badge spi-variant">Variant ${links}${tail}</p>\n`
     }
-    return `<p class="spi-badge spi-omit">SPI ${esc(list)} omitted${reason ? ' — ' + esc(reason) : ''}</p>\n`
+    return `<p class="spi-badge spi-omit">Not restated: SPI ${esc(list)}${tail}</p>\n`
   }
 }
