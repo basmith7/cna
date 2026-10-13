@@ -436,3 +436,9 @@ Done: Mission 7 Task 3 finished: #208 §44 Malta + all three Pilot Arrival Table
 In flight: none after this PR.
 Next: queue finished. Only cna-engine Requests for cna and Brian's Feedback; with neither, stop at once (finish line in AUTOPILOT.md).
 Blocked: none (copy: 34.87 Axis Airplane Reinforcement Schedule not in either scan; older copy items unchanged).
+
+## 2026-10-13 14:38 MST — main
+Done: six cna-engine requests, all merged: #236 typed Graziani placements (region+sheets combine, west_of, together, place list), #237 R-120, #238 R-121, #239 R-122, #240 supply figures per unit unless pooled, #241 motorisation object (from, unattached).
+In flight: none; no open autopilot PRs.
+Next: read cna-engine Requests for cna; if empty, stop. Gotcha: rulings PRs conflict in rules/changes.md and rulings/register.md; take main's copy and rerun gen_pages.
+Blocked: none (copy group unchanged; 34.87 Axis air schedule still missing).

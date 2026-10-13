@@ -20,9 +20,11 @@ The next run reads this section first, acts on it, and moves each item to
 
 - 2026-10-13 (cna-engine, Requests for cna) four requests → one PR each: 8.37 swamp by railroad costs the road rate, R-117 (#232); 10.36 failed holding-off retreat is paid from the CP left and the rest forfeited, R-118 (#233); supply units, real or dummy, are not units in a supply trace, R-119 (#234); `up` for the 25 seam slope and escarpment pairs read from the redraw and the scan, `seams.json` pairs and the edge records, M-883 to M-932 (#235).
 
+- 2026-10-13 (cna-engine, Requests for cna) six more requests → one PR each, all merged 2026-10-13: typed set-up constraints for Graziani's (`region`+`sheets` combine, `west_of`, `together`, `place` lists; #236); R-120, a unit that cannot pay abstract fuel does not move by land and one that cannot pay ammunition is out of ammunition (#237); R-121, a company-equivalent pays half a battalion-equivalent's ammunition (#238); R-122, points held back from a committed defender count in the loss base, a unit withheld whole only in an overrun (#239); supply figures are per unit unless `pooled` (#240); motorisation as data, `from` plus Rommel's printed unattached counts (#241, changes the type of `motorisation`).
+
 ## Status
 
-**MISSION 7 COMPLETE** (the Air Game, §33–47), 2026-10-09 05:00 UTC. **The queue is finished: every SPI section, §1–65, is covered (1,736 of 1,736 cases).** From here this repo works only on cna-engine's *Requests for cna* and your Feedback.
+**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. On 2026-10-13 it answered ten requests (#232–#241), all merged, among them rulings R-117–R-122.
 
 | Task | What landed | PRs |
 |---|---|---|
@@ -33,7 +35,7 @@ The next run reads this section first, acts on it, and moves each item to
 | 4. Rulings | R-111–R-116 accepted | #203, #209–#213 |
 | 5. Docs | README, overview, design Status, queue | #214 |
 
-18 air chart files are data, each read twice (archive.org scan and the community chart PDFs): aircraft characteristics, refit, CW reinforcements, missions, land and convoy reconnaissance, scramble, strafing, the **Air Bombardment Table** (374 cells, which also lets an engine resolve §32's abstract convoy and fleet attacks), harbour mining, maneuver, TacAir kill, recovery, anti-aircraft results with the flak adjustment, Malta construction, commitment and availability, and all three Pilot Arrival Tables. 0 cells differed except the one noted in #193 and #198.
+18 air chart files are data, each read twice (the archive.org scan and the community chart PDFs). 0 cells differed except the ones noted in #193 and #198.
 
 Air rulings, one line each:
 
@@ -50,11 +52,13 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. Nothing is open after #241.
+
+Probably next from cna-engine: the other scenarios still describe some placements only in `constraint` sentences (Rommel's Arrival, Crusader, The Last Chance). The grammar from #236 covers some of them, and the rest need pooled-dump limits and front-line rules.
 
 For Brian (all optional):
 
-- **Dispute anything.** Air rulings worth a look: **R-114** (AA units stay with the Air Game) and **R-116** (squadron size: text over chart). Older: R-099, R-108, R-110, R-027, R-071.
+- **Dispute anything.** New today: **R-120** (abstract supply: no fuel, no land move; no ammunition, no defence) and **R-122** (reconciles 15.16 with 15.83). Air rulings worth a look: **R-114** (AA units stay with the Air Game) and **R-116** (squadron size: text over chart). Older: R-099, R-108, R-110, R-027, R-071.
 - **Questions only your printed copy can answer** (decision board, `copy` group), new: the **Axis Airplane Reinforcement Schedule (34.87)** is in neither scan, so the Axis currently gets no air reinforcements. Still open: the German Tank and Gun chart's three misaligned rows, Axis coastal ship tonnages, German c/d CPA, the el Grein garrison.
 - Vault: the *CNA Living Rules* roadmap row for Mission 7 is yours to flip to done.
 
