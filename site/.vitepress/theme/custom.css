@@ -30,3 +30,31 @@
 .spi-original-text .spi-block { border-left: 3px solid var(--vp-c-divider); padding-left: 0.75rem; margin: 0.4em 0 0.8em; }
 .spi-original-text .spi-xref { font-family: var(--vp-font-family-mono); font-size: 0.8em; }
 .spi-original-cite { font-size: 0.75rem; margin: 0.25rem 0 0; }
+
+/* Map page: let the sheet use the screen instead of the text column. */
+.map-page .VPDoc .container,
+.map-page .VPDoc .content,
+.map-page .VPDoc .content-container { max-width: none !important; }
+.map-page .VPDoc .content { padding-left: 0; padding-right: 0; }
+.map-page .VPDoc .content-container { max-width: min(1500px, 100%) !important; }
+
+.map-sheet { margin: 1rem 0 2rem; }
+.map-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 8px; }
+.map-toolbar button {
+  min-width: 44px; min-height: 36px; padding: 0 12px; font-size: 1.1rem;
+  border: 1px solid var(--vp-c-divider); border-radius: 6px;
+  background: var(--vp-c-bg-soft); color: var(--vp-c-text-1); cursor: pointer;
+}
+.map-toolbar button:hover { border-color: var(--vp-c-brand-1); }
+.map-zoom { min-width: 3.5em; color: var(--vp-c-text-2); font-variant-numeric: tabular-nums; }
+.map-toolbar a { margin-left: auto; font-size: 0.9rem; }
+.map-box {
+  position: relative; overflow: hidden; height: min(80vh, 900px);
+  border: 1px solid var(--vp-c-divider); border-radius: 8px; background: #fff;
+  cursor: grab; touch-action: none; user-select: none;
+}
+.map-box.dragging { cursor: grabbing; }
+.map-box:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 2px; }
+.map-box img { position: absolute; top: 0; left: 0; max-width: none; transform-origin: 0 0; }
+.map-hint { margin-top: 6px; font-size: 0.85rem; color: var(--vp-c-text-2); }
+@media (max-width: 640px) { .map-box { height: 70vh; } }
