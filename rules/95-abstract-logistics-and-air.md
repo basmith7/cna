@@ -93,6 +93,18 @@ sheets. The fleet and patrolling points need nothing.
   motorisation points doing anything else pay none. Rail and sea moves pay
   none. Patrolling pays none.
 
+::: ruling R-120 — a unit that cannot pay its fuel does not move by land; one that cannot pay its ammunition is out of ammunition
+
+A unit that **cannot pay** from a supply unit in range is stopped, not
+excused ([R-120](../rulings/R-120.md)):
+
+- **No fuel:** no land move, reaction or retreat before assault. Rail and
+  sea moves need no fuel and are allowed. A forced retreat the unit cannot
+  make costs the usual **10 %** per hex not retreated.
+- **No ammunition:** the unit is out of ammunition for that combat. It
+  cannot barrage, assault or defend, and a hex whose every defender is out
+  of ammunition surrenders when assaulted ([combat](60-combat.md)).
+
 ::: note
 In the Logistics Game this is replaced by [Ammunition and stores](logistics/20-ammunition-and-stores.md#consumption-rates).
 In the Logistics Game this is replaced by [Fuel](logistics/10-fuel.md#consumption-and-capacity).
