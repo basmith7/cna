@@ -52,6 +52,7 @@ Used in [Movement](/rules/40-movement), [Stacking, zones of control and reserve]
 - Terrain Effects Chart (SPI 8.37): hex terrain, hexside features (cp is additive, the chart's '+'), fortification levels and minefields. Column shifts are signed: negative = L (columns to the left, favouring the defender), positive = R. 'gravel' here is the same terrain as 'sand-gravel' on the Construction Chart (construction.json)
 - Printed as in 1979: track costs 1 CP with footnote 8 and footnote 4 sits on Swamp. SPI's September 1979 errata (E-031) moves footnote 4 to Major City and says tracks do not cost 1 CP — they halve the hex terrain's cost (footnote 8 is correct, the '1' is not); the overlay data/errata/E-031.json applies both
 - The chart is on a page of the rulebook (jp2 69), not the shared chart sheet. Transcribed from the archive.org scan and cross-checked cell by cell against the community's OCR-converted scan of the 1979 rulebook (scan:discord:CampaignNorthAfrica - converted.pdf:p70): 0 of 27 rows differ. Clay Stone's errata-integrated Land rules PDF prints 'see Charts and Tables' with the two errata sentences in place of the chart
+- Swamp and railroad print no cost ('May enter only on road or railroad'; 'Same as terrain in hex'). R-117: a swamp hex entered along a constructed railroad costs the road rate (1 non-mot, 0.5 mot, breakdown 0.5); every other terrain keeps its own cost under a railroad
 
 ## Footnotes
 
