@@ -177,13 +177,13 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
                 errors.append(f"{label}: unknown unit {v}")
             if k in ("hexes", "minefields") and isinstance(v, list):
                 errors.extend(f"{label}: unknown hex {h}" for h in v if isinstance(h, str) and hexes and h not in hexes)
-            if k in ("of", "railroad_ends") and isinstance(v, str) and hexes and re.match(r"^[A-EM][0-9]{4}$", v) and v not in hexes:
+            if k in ("of", "railroad_ends", "west_of") and isinstance(v, str) and hexes and re.match(r"^[A-EM][0-9]{4}$", v) and v not in hexes:
                 errors.append(f"{label}: unknown hex {v}")
             if k == "formation" and isinstance(v, str) and v not in formations:
                 errors.append(f"{label}: unknown formation {v}")
             if k == "place" and isinstance(v, str) and places and v not in places:
                 errors.append(f"{label}: unknown place {v}")
-            if k == "places" and isinstance(v, list):
+            if k in ("place", "places") and isinstance(v, list):
                 errors.extend(f"{label}: unknown place {pl}" for pl in v if isinstance(pl, str) and places and pl not in places)
 
     scenarios: dict[str, tuple[str, dict]] = {}

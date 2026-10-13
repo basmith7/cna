@@ -200,11 +200,12 @@ def test_scenario_reference_errors(tmp_path):
     bad = _scenario(extends="scenario:missing")
     bad["sides"]["axis"]["deployments"] += [
         {"placement": {"hexes": ["C9999"]}, "units": [{"unit": "unit:it:ghost"}]},
-        {"placement": {"place": "atlantis"}, "units": [{"unit": "unit:it:demo-hq", "less": ["unit:it:nobody"]}]}]
+        {"placement": {"place": "atlantis"}, "units": [{"unit": "unit:it:demo-hq", "less": ["unit:it:nobody"]}]},
+        {"placement": {"place": ["tobruk", "lemuria"], "west_of": "D9998"}, "units": [{"unit": "unit:it:demo-bn"}]}]
     d = _scenario_data(tmp_path, {"demo.json": bad, "other.json": _scenario(id="scenario:wrong")})
     errs = check_data.validate_all(d)
     for needle in ("unknown unit unit:it:ghost", "unknown unit unit:it:nobody", "unknown hex C9999",
-                   "unknown place atlantis", "extends unknown scenario:missing", "other.json: id scenario:wrong"):
+                   "unknown place atlantis", "unknown place lemuria", "unknown hex D9998", "extends unknown scenario:missing", "other.json: id scenario:wrong"):
         assert any(needle in e for e in errs), needle
 
 
