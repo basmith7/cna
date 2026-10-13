@@ -118,8 +118,9 @@
       "type": "object", "required": ["placement"], "additionalProperties": false,
       "properties": {
         "placement": {"$ref": "#/$defs/placement"},
-        "count": {"type": "integer", "minimum": 1, "description": "How many dumps or supply units this block is (default 1)"},
+        "count": {"type": "integer", "minimum": 1, "description": "How many dumps or supply units this block is (default 1). Unless pooled, ammo, fuel, stores and water are per dump or supply unit, so the block holds count times each"},
         "kind": {"enum": ["dump", "dummy-dump", "air-facilities", "supply-unit", "dummy-supply-unit"], "description": "air-facilities: a total to spread over the side's air facilities (59.52)"},
+        "pooled": {"type": "boolean", "description": "The supply figures are one pool for the whole block, shared out by the owner (the constraint gives any limits); without it they are each dump's or supply unit's own"},
         "ammo": {"type": "integer", "minimum": 0}, "fuel": {"type": "integer", "minimum": 0},
         "stores": {"type": "integer", "minimum": 0}, "water": {"type": "integer", "minimum": 0},
         "notes": {"type": "array", "items": {"type": "string"}}
