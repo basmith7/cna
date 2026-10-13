@@ -10,24 +10,20 @@ aside: false
 
 Used in [Water](/rules/logistics/30-water).
 
-| | |
-|---|---|
-| **Unlimited sources** | major city, oasis |
+- **Unlimited sources:** major city, oasis
 
 ## Depletion roll
 
-| | |
-|---|---|
-| **Dice** | 1 |
-| **Depleted on** | 1 |
-| **Secret** | yes |
+- **Dice:** 1
+- **Depleted on:** 1
+- **Secret:** yes
 
 ## Table
 
 | Source | Results |
 |---|---|
-| town | <span class="wrap">Die: 1; Points: 100; Depletion check: no, Die: 2; Points: 150; Depletion check: no, Die: 3; Points: 200; Depletion check: no, Die: 4; Points: 300; Depletion check: no, Die: 5; Points: 350; Depletion check: yes, Die: 6; Points: 500; Depletion check: yes</span> |
-| bir | <span class="wrap">Die: 1; Points: 50; Depletion check: no, Die: 2; Points: 100; Depletion check: no, Die: 3; Points: 150; Depletion check: no, Die: 4; Points: 200; Depletion check: yes, Die: 5; Points: 300; Depletion check: yes, Die: 6; Points: 400; Depletion check: yes</span> |
+| town | Die: 1; Points: 100; Depletion check: no<br>Die: 2; Points: 150; Depletion check: no<br>Die: 3; Points: 200; Depletion check: no<br>Die: 4; Points: 300; Depletion check: no<br><span class="wrap">Die: 5; Points: 350; Depletion check: yes</span><br><span class="wrap">Die: 6; Points: 500; Depletion check: yes</span> |
+| bir | Die: 1; Points: 50; Depletion check: no<br>Die: 2; Points: 100; Depletion check: no<br>Die: 3; Points: 150; Depletion check: no<br><span class="wrap">Die: 4; Points: 200; Depletion check: yes</span><br><span class="wrap">Die: 5; Points: 300; Depletion check: yes</span><br><span class="wrap">Die: 6; Points: 400; Depletion check: yes</span> |
 
 ## Notes
 

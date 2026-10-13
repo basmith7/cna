@@ -10,304 +10,302 @@ aside: false
 
 Used in [Group One — the Italians](/rules/scenarios/10-the-italians).
 
-| | |
-|---|---|
-| **Through** | 111 |
+- **Through:** 111
 
 ## Table
 
 | Side | Game turn | Op stage | Kind | Units | Trucks | Notes |
 |---|---|---|---|---|---|---|
-| cw | 1 | 3 | arrives | unit:cw:polish-hq |  | <span class="wrap">The whole brigade: a listed HQ stands for its OA sheet.</span> |
-| cw | 2 | 3 | arrives | <span class="wrap">unit:cw:2-rtr, unit:cw:7-rtr, unit:cw:6-nz-fld</span> |  |  |
-| cw | 3 | 3 | arrives | unit:cw:1-fld |  |  |
-| cw | 4 | 3 | arrives | unit:cw:3-hus |  |  |
-| cw | 5 | 1 | arrives | unit:cw:7-in-hq | Light: 5; Medium: 20 | <span class="wrap">Printed '7 in Bde \[4 In\]': the 7th Indian Brigade with its OA sheet units; no heavy trucks printed.</span> |
-| cw | 6 | 3 | arrives | unit:cw:6-nz-hq | Light: 25; Medium: 85; Heavy: 5 | <span class="wrap">The 6th New Zealand Brigade with its OA sheet units.</span> |
-| cw | 7 | 1 | arrives | unit:cw:2-2-afld |  |  |
-| cw | 8 | 3 | arrives | unit:cw:11-czech |  |  |
-| cw | 9 | 2 | arrives | unit:cw:19-aus-hq | Light: 28; Medium: 74; Heavy: 15 |  |
+| Commonwealth | 1 | 3 | arrives | unit:cw:polish-hq |  | <span class="wrap">The whole brigade: a listed HQ stands for its OA sheet.</span> |
+| Commonwealth | 2 | 3 | arrives | <span class="wrap">unit:cw:2-rtr, unit:cw:7-rtr, unit:cw:6-nz-fld</span> |  |  |
+| Commonwealth | 3 | 3 | arrives | unit:cw:1-fld |  |  |
+| Commonwealth | 4 | 3 | arrives | unit:cw:3-hus |  |  |
+| Commonwealth | 5 | 1 | arrives | unit:cw:7-in-hq | Light: 5<br>Medium: 20 | <span class="wrap">Printed '7 in Bde \[4 In\]': the 7th Indian Brigade with its OA sheet units; no heavy trucks printed.</span> |
+| Commonwealth | 6 | 3 | arrives | unit:cw:6-nz-hq | Light: 25<br>Medium: 85<br>Heavy: 5 | <span class="wrap">The 6th New Zealand Brigade with its OA sheet units.</span> |
+| Commonwealth | 7 | 1 | arrives | unit:cw:2-2-afld |  |  |
+| Commonwealth | 8 | 3 | arrives | unit:cw:11-czech |  |  |
+| Commonwealth | 9 | 2 | arrives | unit:cw:19-aus-hq | Light: 28<br>Medium: 74<br>Heavy: 15 |  |
 | axis | 9 | 2 | arrives | unit:it:xxv-corps-artillery-regt |  |  |
-| cw | 9 | 3 | arrives | unit:cw:107-rha |  |  |
+| Commonwealth | 9 | 3 | arrives | unit:cw:107-rha |  |  |
 | axis | 10 | 1 | arrives | unit:it:22nd-bersaglieri-mitrg-coy |  |  |
 | axis | 10 | 2 | arrives | unit:it:xxxiii-libyan-bn |  |  |
-| axis | 10 | 3 | arrives | unit:it:61st-sirte-div-hq | Light: 10; Medium: 35; Heavy: 15 |  |
-| cw | 11 | 1 | arrives | unit:cw:2-1-afld, unit:cw:106-rha |  |  |
-| axis | 11 | 1 | arrives | unit:it:10th-bersaglieri-regt-hq | Light: 2; Medium: 25; Heavy: 3 |  |
-| cw | 11 | 2 | arrives | unit:cw:13-laa |  |  |
-| axis | 12 | 1 | arrives | unit:it:60th-sabratha-div-hq | Light: 10; Medium: 35; Heavy: 15 |  |
+| axis | 10 | 3 | arrives | unit:it:61st-sirte-div-hq | Light: 10<br>Medium: 35<br>Heavy: 15 |  |
+| Commonwealth | 11 | 1 | arrives | unit:cw:2-1-afld, unit:cw:106-rha |  |  |
+| axis | 11 | 1 | arrives | unit:it:10th-bersaglieri-regt-hq | Light: 2<br>Medium: 25<br>Heavy: 3 |  |
+| Commonwealth | 11 | 2 | arrives | unit:cw:13-laa |  |  |
+| axis | 12 | 1 | arrives | unit:it:60th-sabratha-div-hq | Light: 10<br>Medium: 35<br>Heavy: 15 |  |
 | axis | 12 | 2 | arrives | unit:it:xxxiv-libyan-bn |  |  |
-| cw | 12 | 3 | arrives | unit:cw:74-haa, unit:cw:52-laa |  |  |
-| cw | 13 | 1 | arrives | unit:cw:20-aus | Light: 10; Medium: 25; Heavy: 6 |  |
-| cw | 13 | 3 | withdraws | unit:cw:5-in-hq |  | Tpt: 10/10 |
+| Commonwealth | 12 | 3 | arrives | unit:cw:74-haa, unit:cw:52-laa |  |  |
+| Commonwealth | 13 | 1 | arrives | unit:cw:20-aus | Light: 10<br>Medium: 25<br>Heavy: 6 |  |
+| Commonwealth | 13 | 3 | withdraws | unit:cw:5-in-hq |  | Tpt: 10/10 |
 | axis | 13 | 3 | arrives | unit:it:vmtankbn, unit:it:140th-ccnn-bn |  |  |
-| cw | 14 | 3 | arrives | unit:cw:18-aus | Light: 12; Medium: 30; Heavy: 10 |  |
-| cw | 14 | 3 | withdraws | unit:cw:7-in-hq |  | Tpt: 23/20 |
-| cw | 15 | 1 | arrives | <span class="wrap">unit:cw:2-armd-div-hq, unit:cw:1-rha, unit:cw:51-fld, unit:cw:2-haa</span> | Light: 4; Medium: 72; Heavy: 13 | <span class="wrap">Trucks come with the 2nd Armored Division.</span> |
-| cw | 15 | 2 | arrives | unit:cw:104-rha |  |  |
-| cw | 15 | 2 | withdraws | unit:cw:4-in-hq |  | Tpt: 16/12 |
+| Commonwealth | 14 | 3 | arrives | unit:cw:18-aus | Light: 12<br>Medium: 30<br>Heavy: 10 |  |
+| Commonwealth | 14 | 3 | withdraws | unit:cw:7-in-hq |  | Tpt: 23/20 |
+| Commonwealth | 15 | 1 | arrives | <span class="wrap">unit:cw:2-armd-div-hq, unit:cw:1-rha, unit:cw:51-fld, unit:cw:2-haa</span> | Light: 4<br>Medium: 72<br>Heavy: 13 | <span class="wrap">Trucks come with the 2nd Armored Division.</span> |
+| Commonwealth | 15 | 2 | arrives | unit:cw:104-rha |  |  |
+| Commonwealth | 15 | 2 | withdraws | unit:cw:4-in-hq |  | Tpt: 16/12 |
 | axis | 15 | 2 | arrives | <span class="wrap">unit:it:xxxv-libyan-bn, unit:it:2-87-fanterie-bn</span> |  |  |
-| cw | 16 | 1 | arrives | unit:cw:64-med |  |  |
+| Commonwealth | 16 | 1 | arrives | unit:cw:64-med |  |  |
 | axis | 17 | 3 | arrives | unit:it:xxim-tank-bn |  |  |
-| axis | 18 | 1 | arrives | <span class="wrap">unit:it:ariete-132nd-div-hq, unit:it:il-tank-bn, unit:it:iil-tank-bn</span> | Light: 25; Medium: 40; Heavy: 5 |  |
-| cw | 19 | 2 | arrives | unit:cw:a |  | Arrives in Alexandria. |
+| axis | 18 | 1 | arrives | <span class="wrap">unit:it:ariete-132nd-div-hq, unit:it:il-tank-bn, unit:it:iil-tank-bn</span> | Light: 25<br>Medium: 40<br>Heavy: 5 |  |
+| Commonwealth | 19 | 2 | arrives | unit:cw:a |  | Arrives in Alexandria. |
 | axis | 20 | 2 | arrives | unit:de:dak-hq |  |  |
-| cw | 20 | 3 | arrives | <span class="wrap">unit:cw:9-aus, unit:cw:26-aus, unit:cw:2-3-aus-at, unit:cw:22-gds</span> | Light: 10; Medium: 25; Heavy: 6 | <span class="wrap">OA sheet gives arrival none (blank Arrives) for unit:cw:22-gds</span> |
-| axis | 21 | 1 | arrives | unit:de:3-aufkl-bn, unit:de:39-pzjg-bn | Light: 0; Medium: 40; Heavy: 0 |  |
-| axis | 21 | 1 | arrives | unit:it:102nd-trento-div-hq | Light: 10; Medium: 95; Heavy: 15 |  |
-| cw | 21 | 2 | arrives | <span class="wrap">unit:cw:24-aus, unit:cw:70th-infantry-div-hq</span> | Light: 10; Medium: 34; Heavy: 6 |  |
+| Commonwealth | 20 | 3 | arrives | <span class="wrap">unit:cw:9-aus, unit:cw:26-aus, unit:cw:2-3-aus-at, unit:cw:22-gds</span> | Light: 10<br>Medium: 25<br>Heavy: 6 | <span class="wrap">OA sheet gives arrival none (blank Arrives) for unit:cw:22-gds</span> |
+| axis | 21 | 1 | arrives | unit:de:3-aufkl-bn, unit:de:39-pzjg-bn | Light: 0<br>Medium: 40<br>Heavy: 0 |  |
+| axis | 21 | 1 | arrives | unit:it:102nd-trento-div-hq | Light: 10<br>Medium: 95<br>Heavy: 15 |  |
+| Commonwealth | 21 | 2 | arrives | <span class="wrap">unit:cw:24-aus, unit:cw:70th-infantry-div-hq</span> | Light: 10<br>Medium: 34<br>Heavy: 6 |  |
 | axis | 21 | 2 | arrives | unit:de:200-pi-bn |  |  |
-| axis | 21 | 2 | arrives | <span class="wrap">unit:it:27-brescia-div-hq, unit:it:33rd-ccnn-bn, unit:it:56th-ccnn-bn</span> | Light: 15; Medium: 40; Heavy: 10 |  |
+| axis | 21 | 2 | arrives | <span class="wrap">unit:it:27-brescia-div-hq, unit:it:33rd-ccnn-bn, unit:it:56th-ccnn-bn</span> | Light: 15<br>Medium: 40<br>Heavy: 10 |  |
 | axis | 21 | 3 | arrives | unit:de:5le-div-hq |  |  |
 | axis | 22 | 1 | arrives | unit:de:5-pz-regt-hq |  | <span class="wrap">OA sheet gives arrival OpStage 2 of Game-Turn 21 for unit:de:5-pz-regt-hq</span> |
-| axis | 22 | 2 | arrives | unit:de:i-5-pz-bn, unit:de:606-flak-bn | Light: 10; Medium: 0; Heavy: 10 | <span class="wrap">OA sheet gives arrival OpStage 1 of Game-Turn 22 for unit:de:i-5-pz-bn</span> |
-| axis | 22 | 2 | arrives | <span class="wrap">unit:it:17th-pavia-div-hq, unit:it:9th-ccnn-legion-hq</span> | Light: 25; Medium: 30; Heavy: 0 |  |
+| axis | 22 | 2 | arrives | unit:de:i-5-pz-bn, unit:de:606-flak-bn | Light: 10<br>Medium: 0<br>Heavy: 10 | <span class="wrap">OA sheet gives arrival OpStage 1 of Game-Turn 22 for unit:de:i-5-pz-bn</span> |
+| axis | 22 | 2 | arrives | <span class="wrap">unit:it:17th-pavia-div-hq, unit:it:9th-ccnn-legion-hq</span> | Light: 25<br>Medium: 30<br>Heavy: 0 |  |
 | axis | 22 | 3 | arrives | <span class="wrap">unit:de:605-sp-pzjg-bn, unit:de:i-33-flak-bn</span> |  |  |
 | axis | 23 | 1 | arrives | unit:de:i-75-arty-bn |  |  |
-| cw | 23 | 3 | arrives | unit:cw:3-in | Light: 10; Medium: 25; Heavy: 0 |  |
-| cw | 23 | 3 | withdraws | unit:cw:1-armd-bde-hq |  | Tpt: 40/30 |
-| axis | 24 | 1 | arrives | <span class="wrap">unit:it:25th-bologna-div-hq, unit:it:32nd-ccnn-bn</span> | Light: 10; Medium: 30; Heavy: 10 |  |
-| axis | 24 | 2 | arrives | <span class="wrap">unit:de:ii-5-pz-bn, unit:de:529-coastal-arty-bn, unit:de:532-coastal-arty-bn</span> | Light: 0; Medium: 10; Heavy: 0 | <span class="wrap">OA sheet gives arrival OpStage 2 of Game-Turn 22 for unit:de:ii-5-pz-bn</span> |
+| Commonwealth | 23 | 3 | arrives | unit:cw:3-in | Light: 10<br>Medium: 25<br>Heavy: 0 |  |
+| Commonwealth | 23 | 3 | withdraws | unit:cw:1-armd-bde-hq |  | Tpt: 40/30 |
+| axis | 24 | 1 | arrives | <span class="wrap">unit:it:25th-bologna-div-hq, unit:it:32nd-ccnn-bn</span> | Light: 10<br>Medium: 30<br>Heavy: 10 |  |
+| axis | 24 | 2 | arrives | <span class="wrap">unit:de:ii-5-pz-bn, unit:de:529-coastal-arty-bn, unit:de:532-coastal-arty-bn</span> | Light: 0<br>Medium: 10<br>Heavy: 0 | <span class="wrap">OA sheet gives arrival OpStage 2 of Game-Turn 22 for unit:de:ii-5-pz-bn</span> |
 | axis | 24 | 3 | arrives | <span class="wrap">unit:de:33-pzjg-bn, unit:de:528-arty-bn, unit:de:523-coastal-arty-bn</span> |  | <span class="wrap">not on the OA sheets: Tank Recovery Squadron</span> |
-| cw | 25 | 1 | withdraws | unit:cw:4-nz-hq |  | Tpt: 10/10 |
+| Commonwealth | 25 | 1 | withdraws | unit:cw:4-nz-hq |  | Tpt: 10/10 |
 | axis | 25 | 1 | arrives | unit:de:1-oasis-koy, unit:de:2-oasis-koy |  |  |
-| axis | 25 | 1 | arrives | <span class="wrap">unit:it:55th-savona-div-hq, unit:it:7th-ccnn-legion-hq</span> | Light: 10; Medium: 45; Heavy: 5 |  |
-| cw | 25 | 2 | withdraws | unit:cw:2-nz-hq |  | Tpt: 25/15 |
+| axis | 25 | 1 | arrives | <span class="wrap">unit:it:55th-savona-div-hq, unit:it:7th-ccnn-legion-hq</span> | Light: 10<br>Medium: 45<br>Heavy: 5 |  |
+| Commonwealth | 25 | 2 | withdraws | unit:cw:2-nz-hq |  | Tpt: 25/15 |
 | axis | 25 | 2 | arrives | unit:de:3-oasis-koy |  |  |
-| axis | 25 | 3 | arrives | unit:de:2-mg-bn | Light: 0; Medium: 40; Heavy: 0 | <span class="wrap">OA sheet gives arrival OpStage 2 of Game-Turn 24 for unit:de:2-mg-bn</span> |
-| cw | 26 | 1 | withdraws | unit:cw:16-aus-hq |  | Tpt: 20/20 |
-| axis | 26 | 1 | arrives | unit:de:8-mg-bn | Light: 10; Medium: 0; Heavy: 5 |  |
+| axis | 25 | 3 | arrives | unit:de:2-mg-bn | Light: 0<br>Medium: 40<br>Heavy: 0 | <span class="wrap">OA sheet gives arrival OpStage 2 of Game-Turn 24 for unit:de:2-mg-bn</span> |
+| Commonwealth | 26 | 1 | withdraws | unit:cw:16-aus-hq |  | Tpt: 20/20 |
+| axis | 26 | 1 | arrives | unit:de:8-mg-bn | Light: 10<br>Medium: 0<br>Heavy: 5 |  |
 | axis | 26 | 1 | arrives | <span class="wrap">unit:it:1st-bn-2-arty-rgppmnto, unit:it:2nd-bn-2-arty-rgppmnto, unit:it:3rd-bn-2-arty-rgppmnto, unit:it:4th-bn-2-arty-rgppmnto</span> |  |  |
-| cw | 27 | 1 | arrives | unit:cw:73rd-anti-tank-regt |  |  |
+| Commonwealth | 27 | 1 | arrives | unit:cw:73rd-anti-tank-regt |  |  |
 | axis | 27 | 1 | arrives | unit:de:4-oasis-koy |  |  |
-| cw | 27 | 2 | withdraws | unit:cw:6-aus-hq |  | Tpt: 78/50 |
+| Commonwealth | 27 | 2 | withdraws | unit:cw:6-aus-hq |  | Tpt: 78/50 |
 | axis | 27 | 2 | arrives | <span class="wrap">unit:de:200-schutzen-regt-hq, unit:de:15-krad-bn</span> |  |  |
-| cw | 28 | 1 | arrives | unit:cw:61-haa |  |  |
+| Commonwealth | 28 | 1 | arrives | unit:cw:61-haa |  |  |
 | axis | 28 | 1 | arrives | <span class="wrap">unit:de:15-schutzen-bde-hq, unit:de:104-schutzen-regt-hq, unit:de:33-pi-bn, unit:de:i-104-schutzen-bn</span> |  |  |
-| cw | 28 | 2 | withdraws | unit:cw:17-aus-hq |  | Tpt: 20/20 |
-| cw | 28 | 3 | arrives | unit:cw:4-in-hq | Light: 30; Medium: 74; Heavy: 16 | returns after withdrawal |
+| Commonwealth | 28 | 2 | withdraws | unit:cw:17-aus-hq |  | Tpt: 20/20 |
+| Commonwealth | 28 | 3 | arrives | unit:cw:4-in-hq | Light: 30<br>Medium: 74<br>Heavy: 16 | returns after withdrawal |
 | axis | 28 | 3 | arrives | unit:de:33-aufkl-bn |  |  |
 | axis | 29 | 1 | arrives | unit:de:ii-104-schutzen-bn |  |  |
-| cw | 29 | 2 | arrives | unit:cw:4-rtr |  | <span class="wrap">not on the OA sheets: Desert Tank Delivery Squadrons A, B and C</span> |
-| axis | 29 | 2 | arrives | unit:de:5-oasis-koy | Light: 0; Medium: 0; Heavy: 20 |  |
-| cw | 29 | 3 | arrives | <span class="wrap">unit:cw:9-auscav, unit:cw:2-7-afld, unit:cw:2-8-afld, unit:cw:2-12-afld, unit:cw:2-3-laa, unit:cw:2-1-ausp, unit:cw:2-5-mah</span> |  |  |
-| axis | 29 | 3 | arrives | unit:de:15-pz-div-hq | Light: 0; Medium: 40; Heavy: 0 |  |
-| cw | 30 | 1 | arrives | unit:cw:2-2-aus-mg |  |  |
-| cw | 30 | 1 | arrives | unit:cw:11-in-hq | Light: 4; Medium: 6; Heavy: 1 | returns after withdrawal |
+| Commonwealth | 29 | 2 | arrives | unit:cw:4-rtr |  | <span class="wrap">not on the OA sheets: Desert Tank Delivery Squadrons A, B and C</span> |
+| axis | 29 | 2 | arrives | unit:de:5-oasis-koy | Light: 0<br>Medium: 0<br>Heavy: 20 |  |
+| Commonwealth | 29 | 3 | arrives | <span class="wrap">unit:cw:9-auscav, unit:cw:2-7-afld, unit:cw:2-8-afld, unit:cw:2-12-afld, unit:cw:2-3-laa, unit:cw:2-1-ausp, unit:cw:2-5-mah</span> |  |  |
+| axis | 29 | 3 | arrives | unit:de:15-pz-div-hq | Light: 0<br>Medium: 40<br>Heavy: 0 |  |
+| Commonwealth | 30 | 1 | arrives | unit:cw:2-2-aus-mg |  |  |
+| Commonwealth | 30 | 1 | arrives | unit:cw:11-in-hq | Light: 4<br>Medium: 6<br>Heavy: 1 | returns after withdrawal |
 | axis | 30 | 1 | arrives | unit:de:115-schutzen-regt-hq |  |  |
-| cw | 30 | 2 | arrives | unit:cw:37-laa |  |  |
-| cw | 30 | 2 | arrives | unit:cw:7-in-hq | Light: 4; Medium: 6; Heavy: 1 | returns after withdrawal |
+| Commonwealth | 30 | 2 | arrives | unit:cw:37-laa |  |  |
+| Commonwealth | 30 | 2 | arrives | unit:cw:7-in-hq | Light: 4<br>Medium: 6<br>Heavy: 1 | returns after withdrawal |
 | axis | 30 | 2 | arrives | <span class="wrap">unit:de:i-115-arty-bn, unit:de:408-sp-arty-bn, unit:de:362-arty-bty, unit:de:6-oasis-koy, unit:de:7-oasis-koy</span> |  |  |
-| cw | 31 | 1 | arrives | unit:cw:1-royals, unit:cw:1-laa |  |  |
-| cw | 31 | 1 | arrives | unit:cw:6-nz-hq | Light: 6; Medium: 6; Heavy: 0 | <span class="wrap">returns after withdrawal Trucks come with the 6th NZ Brigade.</span> |
-| cw | 31 | 1 | arrives | unit:cw:1-armd-bde-hq |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 23 OpStage 3</span> |
+| Commonwealth | 31 | 1 | arrives | unit:cw:1-royals, unit:cw:1-laa |  |  |
+| Commonwealth | 31 | 1 | arrives | unit:cw:6-nz-hq | Light: 6<br>Medium: 6<br>Heavy: 0 | <span class="wrap">returns after withdrawal Trucks come with the 6th NZ Brigade.</span> |
+| Commonwealth | 31 | 1 | arrives | unit:cw:1-armd-bde-hq |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 23 OpStage 3</span> |
 | axis | 31 | 2 | arrives | <span class="wrap">unit:de:8-pz-regt-hq, unit:de:i-8-pz-bn, unit:de:8-oasis-koy, unit:de:9-oasis-koy</span> |  |  |
 | axis | 31 | 3 | arrives | unit:de:arko-104-hq |  |  |
-| cw | 32 | 1 | arrives | <span class="wrap">unit:cw:1-sa-div-hq, unit:cw:5-sa-bde-hq, unit:cw:1-imlth, unit:cw:10-nz-rr</span> | Light: 10; Medium: 34; Heavy: 5 |  |
+| Commonwealth | 32 | 1 | arrives | <span class="wrap">unit:cw:1-sa-div-hq, unit:cw:5-sa-bde-hq, unit:cw:1-imlth, unit:cw:10-nz-rr</span> | Light: 10<br>Medium: 34<br>Heavy: 5 |  |
 | axis | 32 | 1 | arrives | unit:de:ii-8-pz-bn |  |  |
-| cw | 32 | 2 | arrives | unit:cw:1-sa-laa |  |  |
-| axis | 32 | 3 | arrives | <span class="wrap">unit:de:155-schutzen-regt-hq, unit:de:i-155-arty-bn</span> | Light: 0; Medium: 25; Heavy: 10 |  |
-| cw | 33 | 1 | arrives | unit:cw:4-fld |  |  |
-| axis | 33 | 1 | arrives | unit:de:33-arty-regt | Light: 0; Medium: 20; Heavy: 0 |  |
-| axis | 33 | 3 | arrives | unit:de:10-oasis-koy | Light: 0; Medium: 10; Heavy: 0 |  |
+| Commonwealth | 32 | 2 | arrives | unit:cw:1-sa-laa |  |  |
+| axis | 32 | 3 | arrives | <span class="wrap">unit:de:155-schutzen-regt-hq, unit:de:i-155-arty-bn</span> | Light: 0<br>Medium: 25<br>Heavy: 10 |  |
+| Commonwealth | 33 | 1 | arrives | unit:cw:4-fld |  |  |
+| axis | 33 | 1 | arrives | unit:de:33-arty-regt | Light: 0<br>Medium: 20<br>Heavy: 0 |  |
+| axis | 33 | 3 | arrives | unit:de:10-oasis-koy | Light: 0<br>Medium: 10<br>Heavy: 0 |  |
 | axis | 34 | 1 | arrives | unit:de:900-pi-bn |  |  |
 | axis | 34 | 2 | arrives | <span class="wrap">unit:de:iii-155-arty-bn, unit:de:140-arty-regt</span> |  |  |
 | axis | 34 | 3 | arrives | unit:de:11-oasis-koy |  |  |
-| cw | 35 | 1 | arrives | <span class="wrap">unit:cw:14th-infantry-bde-hq, unit:cw:5-nz-hq, unit:cw:5-nz-fld, unit:cw:7-nz, unit:cw:14-nz-lt</span> | Light: 5; Medium: 25; Heavy: 6 | <span class="wrap">Trucks come with the 14th Infantry Brigade.</span> |
-| cw | 35 | 1 | arrives | unit:cw:2-nz-hq |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 25 OpStages 1 and 2</span> |
+| Commonwealth | 35 | 1 | arrives | <span class="wrap">unit:cw:14th-infantry-bde-hq, unit:cw:5-nz-hq, unit:cw:5-nz-fld, unit:cw:7-nz, unit:cw:14-nz-lt</span> | Light: 5<br>Medium: 25<br>Heavy: 6 | <span class="wrap">Trucks come with the 14th Infantry Brigade.</span> |
+| Commonwealth | 35 | 1 | arrives | unit:cw:2-nz-hq |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 25 OpStages 1 and 2</span> |
 | axis | 35 | 2 | arrives | unit:de:12-oasis-koy |  |  |
 | axis | 35 | 3 | arrives | unit:de:155-arty-regt-hq |  |  |
-| cw | 36 | 1 | arrives | unit:cw:1-army | Light: 0; Medium: 20; Heavy: 4 |  |
-| cw | 36 | 1 | withdraws | unit:cw:5-in-hq |  | Tpt: 32/30 |
-| cw | 36 | 2 | arrives | unit:cw:2-sa-div-hq |  |  |
+| Commonwealth | 36 | 1 | arrives | unit:cw:1-army | Light: 0<br>Medium: 20<br>Heavy: 4 |  |
+| Commonwealth | 36 | 1 | withdraws | unit:cw:5-in-hq |  | Tpt: 32/30 |
+| Commonwealth | 36 | 2 | arrives | unit:cw:2-sa-div-hq |  |  |
 | axis | 36 | 2 | arrives | unit:de:557-arty-bn |  |  |
-| cw | 36 | 3 | arrives | <span class="wrap">unit:cw:2-sa-bde-hq, unit:cw:1-sa-at, unit:cw:150-inf-bde-hq</span> | Light: 18; Medium: 64; Heavy: 7 | <span class="wrap">Trucks: two printed lots (1 SA; 150) summed.</span> |
-| cw | 36 | 3 | withdraws | <span class="wrap">unit:cw:70th-infantry-div-hq, unit:cw:16th-infantry-bde-hq</span> |  | Tpt: 20/20 |
+| Commonwealth | 36 | 3 | arrives | <span class="wrap">unit:cw:2-sa-bde-hq, unit:cw:1-sa-at, unit:cw:150-inf-bde-hq</span> | Light: 18<br>Medium: 64<br>Heavy: 7 | <span class="wrap">Trucks: two printed lots (1 SA; 150) summed.</span> |
+| Commonwealth | 36 | 3 | withdraws | <span class="wrap">unit:cw:70th-infantry-div-hq, unit:cw:16th-infantry-bde-hq</span> |  | Tpt: 20/20 |
 | axis | 37 | 1 | arrives | <span class="wrap">unit:de:361-afrika-regt-hq, unit:de:613-flak-bn</span> |  |  |
-| cw | 37 | 2 | arrives | unit:cw:1-sa-bde-hq | Light: 10; Medium: 34; Heavy: 6 |  |
-| cw | 38 | 1 | arrives | <span class="wrap">unit:cw:cptnhi, unit:cw:presstn, unit:cw:3-sa-bde-hq, unit:cw:6-sa-bde-hq</span> | Light: 20; Medium: 68; Heavy: 12 |  |
-| cw | 38 | 2 | arrives | unit:cw:9-in-hq | Light: 10; Medium: 25; Heavy: 5 |  |
-| cw | 38 | 2 | withdraws | unit:cw:1-essex, unit:cw:1-dur-lt |  | Tpt: 15/15 |
-| cw | 38 | 3 | arrives | <span class="wrap">unit:cw:1-trnsvs, unit:cw:5-indian-div-hq, unit:cw:144-fld, unit:cw:18-fld</span> | Light: 0; Medium: 4; Heavy: 5 | <span class="wrap">Trucks come with the 5th Indian Division.</span> |
+| Commonwealth | 37 | 2 | arrives | unit:cw:1-sa-bde-hq | Light: 10<br>Medium: 34<br>Heavy: 6 |  |
+| Commonwealth | 38 | 1 | arrives | <span class="wrap">unit:cw:cptnhi, unit:cw:presstn, unit:cw:3-sa-bde-hq, unit:cw:6-sa-bde-hq</span> | Light: 20<br>Medium: 68<br>Heavy: 12 |  |
+| Commonwealth | 38 | 2 | arrives | unit:cw:9-in-hq | Light: 10<br>Medium: 25<br>Heavy: 5 |  |
+| Commonwealth | 38 | 2 | withdraws | unit:cw:1-essex, unit:cw:1-dur-lt |  | Tpt: 15/15 |
+| Commonwealth | 38 | 3 | arrives | <span class="wrap">unit:cw:1-trnsvs, unit:cw:5-indian-div-hq, unit:cw:144-fld, unit:cw:18-fld</span> | Light: 0<br>Medium: 4<br>Heavy: 5 | <span class="wrap">Trucks come with the 5th Indian Division.</span> |
 | axis | 39 | 1 | arrives | <span class="wrap">unit:de:30-flak-bty, unit:de:13-oasis-koy</span> |  |  |
-| cw | 40 | 1 | arrives | unit:cw:10-in-hq | Light: 9; Medium: 25; Heavy: 5 |  |
-| cw | 40 | 1 | withdraws | unit:cw:14th-infantry-bde-hq |  | Tpt: 20/20 |
-| cw | 40 | 3 | arrives | unit:cw:29-in-hq, unit:cw:1-doyc | Light: 10; Medium: 25; Heavy: 5 | <span class="wrap">Trucks come with the 29th Indian Brigade.</span> |
+| Commonwealth | 40 | 1 | arrives | unit:cw:10-in-hq | Light: 9<br>Medium: 25<br>Heavy: 5 |  |
+| Commonwealth | 40 | 1 | withdraws | unit:cw:14th-infantry-bde-hq |  | Tpt: 20/20 |
+| Commonwealth | 40 | 3 | arrives | unit:cw:29-in-hq, unit:cw:1-doyc | Light: 10<br>Medium: 25<br>Heavy: 5 | <span class="wrap">Trucks come with the 29th Indian Brigade.</span> |
 | axis | 40 | 3 | arrives | unit:de:1-902-arty-bty |  |  |
-| cw | 41 | 2 | arrives | <span class="wrap">unit:cw:midlnd, unit:cw:14-laa, unit:cw:87-haa</span> |  |  |
-| cw | 41 | 3 | arrives | unit:cw:3-2-pjb |  |  |
-| cw | 42 | 3 | arrives | unit:cw:88-haa |  |  |
-| cw | 43 | 1 | arrives | <span class="wrap">unit:cw:102nd-anti-tank-regt, unit:cw:57-haa</span> |  | <span class="wrap">OA sheet gives arrival OpStage 1 of Game-Turn 45 for unit:cw:102nd-anti-tank-regt</span> |
+| Commonwealth | 41 | 2 | arrives | <span class="wrap">unit:cw:midlnd, unit:cw:14-laa, unit:cw:87-haa</span> |  |  |
+| Commonwealth | 41 | 3 | arrives | unit:cw:3-2-pjb |  |  |
+| Commonwealth | 42 | 3 | arrives | unit:cw:88-haa |  |  |
+| Commonwealth | 43 | 1 | arrives | <span class="wrap">unit:cw:102nd-anti-tank-regt, unit:cw:57-haa</span> |  | <span class="wrap">OA sheet gives arrival OpStage 1 of Game-Turn 45 for unit:cw:102nd-anti-tank-regt</span> |
 | axis | 43 | 1 | arrives | unit:de:580-aufkl-bn |  |  |
-| cw | 43 | 2 | arrives | unit:cw:7-sa-recce, unit:cw:28-fld |  |  |
-| cw | 43 | 3 | arrives | unit:cw:16-laa, unit:cw:94-haa |  |  |
-| cw | 44 | 2 | arrives | <span class="wrap">unit:cw:1sa-cfa, unit:cw:2sa-nfa, unit:cw:5-sa-fld, unit:cw:4-sa, unit:cw:27-med, unit:cw:68-med</span> |  |  |
-| cw | 44 | 2 | withdraws | unit:cw:150-inf-bde-hq |  | Tpt: 38/32 |
-| axis | 44 | 2 | arrives | unit:de:90-le-div-hq | Light: 10; Medium: 10; Heavy: 0 |  |
-| cw | 44 | 3 | arrives | unit:cw:4-sa-bde-hq | Light: 10; Medium: 34; Heavy: 6 |  |
-| cw | 45 | 1 | arrives | <span class="wrap">unit:cw:4-sa-fld, unit:cw:2-sa-at, unit:cw:2-sa-laa, unit:cw:2-laa, unit:cw:89-haa</span> |  |  |
+| Commonwealth | 43 | 2 | arrives | unit:cw:7-sa-recce, unit:cw:28-fld |  |  |
+| Commonwealth | 43 | 3 | arrives | unit:cw:16-laa, unit:cw:94-haa |  |  |
+| Commonwealth | 44 | 2 | arrives | <span class="wrap">unit:cw:1sa-cfa, unit:cw:2sa-nfa, unit:cw:5-sa-fld, unit:cw:4-sa, unit:cw:27-med, unit:cw:68-med</span> |  |  |
+| Commonwealth | 44 | 2 | withdraws | unit:cw:150-inf-bde-hq |  | Tpt: 38/32 |
+| axis | 44 | 2 | arrives | unit:de:90-le-div-hq | Light: 10<br>Medium: 10<br>Heavy: 0 |  |
+| Commonwealth | 44 | 3 | arrives | unit:cw:4-sa-bde-hq | Light: 10<br>Medium: 34<br>Heavy: 6 |  |
+| Commonwealth | 45 | 1 | arrives | <span class="wrap">unit:cw:4-sa-fld, unit:cw:2-sa-at, unit:cw:2-sa-laa, unit:cw:2-laa, unit:cw:89-haa</span> |  |  |
 | axis | 45 | 1 | arrives | unit:de:149-coastal-arty-bn |  |  |
-| axis | 45 | 1 | arrives | unit:it:recam-hq | Light: 0; Medium: 10; Heavy: 0 |  |
-| cw | 46 | 1 | withdraws | unit:cw:18-aus |  | Tpt: 56/40 |
-| cw | 46 | 3 | withdraws | unit:cw:5-indian-div-hq |  | Tpt: 27/20 |
-| cw | 47 | 1 | arrives | unit:cw:3-sa-armd-car |  |  |
-| cw | 47 | 2 | arrives | unit:cw:sas, unit:cw:6-sa |  |  |
-| cw | 48 | 2 | arrives | unit:cw:60-fld, unit:cw:25-laa |  |  |
-| cw | 49 | 2 | withdraws | unit:cw:9-aus |  | Tpt: 67/47 |
+| axis | 45 | 1 | arrives | unit:it:recam-hq | Light: 0<br>Medium: 10<br>Heavy: 0 |  |
+| Commonwealth | 46 | 1 | withdraws | unit:cw:18-aus |  | Tpt: 56/40 |
+| Commonwealth | 46 | 3 | withdraws | unit:cw:5-indian-div-hq |  | Tpt: 27/20 |
+| Commonwealth | 47 | 1 | arrives | unit:cw:3-sa-armd-car |  |  |
+| Commonwealth | 47 | 2 | arrives | unit:cw:sas, unit:cw:6-sa |  |  |
+| Commonwealth | 48 | 2 | arrives | unit:cw:60-fld, unit:cw:25-laa |  |  |
+| Commonwealth | 49 | 2 | withdraws | unit:cw:9-aus |  | Tpt: 67/47 |
 | axis | 49 | 3 | arrives | <span class="wrap">unit:de:iii-255-schutzen-bn, unit:de:iii-347-schutzen-bn</span> |  |  |
-| cw | 50 | 1 | arrives | unit:cw:1-sarc |  |  |
-| cw | 50 | 1 | withdraws | unit:cw:10-in-hq |  | Tpt: 39/30 |
-| cw | 50 | 2 | arrives | unit:cw:23rd-bde-anti-tank-coy |  |  |
-| cw | 50 | 2 | arrives | unit:cw:16th-infantry-bde-hq |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 36 OpStage 3</span> |
-| cw | 50 | 3 | arrives | unit:cw:13-nz-rr |  |  |
-| axis | 50 | 3 | arrives | unit:it:101st-trieste-div-hq | Light: 10; Medium: 65; Heavy: 5 |  |
-| cw | 51 | 1 | arrives | unit:cw:3fldtha |  | <span class="wrap">Replace the 3rd Armored Brigade's HQ with that of the 32nd Armored Brigade.</span> |
-| cw | 51 | 2 | arrives | unit:cw:22-armd-bde-hq | Light: 5; Medium: 30; Heavy: 6 | <span class="wrap">OA sheet gives arrival OpStage 3 of Game-Turn 20 for unit:cw:22-armd-bde-hq</span> |
-| cw | 51 | 3 | arrives | <span class="wrap">unit:cw:23rd-infantry-bde-hq, unit:cw:4-bord</span> |  |  |
-| cw | 51 | 3 | arrives | unit:cw:1-essex, unit:cw:1-dur-lt |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 38 OpStage 2</span> |
+| Commonwealth | 50 | 1 | arrives | unit:cw:1-sarc |  |  |
+| Commonwealth | 50 | 1 | withdraws | unit:cw:10-in-hq |  | Tpt: 39/30 |
+| Commonwealth | 50 | 2 | arrives | unit:cw:23rd-bde-anti-tank-coy |  |  |
+| Commonwealth | 50 | 2 | arrives | unit:cw:16th-infantry-bde-hq |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 36 OpStage 3</span> |
+| Commonwealth | 50 | 3 | arrives | unit:cw:13-nz-rr |  |  |
+| axis | 50 | 3 | arrives | unit:it:101st-trieste-div-hq | Light: 10<br>Medium: 65<br>Heavy: 5 |  |
+| Commonwealth | 51 | 1 | arrives | unit:cw:3fldtha |  | <span class="wrap">Replace the 3rd Armored Brigade's HQ with that of the 32nd Armored Brigade.</span> |
+| Commonwealth | 51 | 2 | arrives | unit:cw:22-armd-bde-hq | Light: 5<br>Medium: 30<br>Heavy: 6 | <span class="wrap">OA sheet gives arrival OpStage 3 of Game-Turn 20 for unit:cw:22-armd-bde-hq</span> |
+| Commonwealth | 51 | 3 | arrives | <span class="wrap">unit:cw:23rd-infantry-bde-hq, unit:cw:4-bord</span> |  |  |
+| Commonwealth | 51 | 3 | arrives | unit:cw:1-essex, unit:cw:1-dur-lt |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 38 OpStage 2</span> |
 | axis | 51 | 3 | arrives | unit:it:iv-genoa-machinegun-bn |  |  |
-| cw | 52 | 1 | arrives | unit:cw:7-sa-fld |  |  |
+| Commonwealth | 52 | 1 | arrives | unit:cw:7-sa-fld |  |  |
 | axis | 52 | 3 | arrives | unit:de:i-18-flak-bn |  |  |
-| cw | 53 | 1 | arrives | unit:cw:3-18-rgr |  |  |
-| cw | 53 | 2 | withdraws | unit:cw:26-aus |  | Tpt: 33/21 |
-| cw | 54 | 1 | arrives | unit:cw:14th-infantry-bde-hq |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 40 OpStage 1</span> |
-| cw | 54 | 2 | withdraws | unit:cw:20-aus |  | Tpt: 33/21 |
-| cw | 55 | 1 | arrives | unit:cw:67-med |  |  |
+| Commonwealth | 53 | 1 | arrives | unit:cw:3-18-rgr |  |  |
+| Commonwealth | 53 | 2 | withdraws | unit:cw:26-aus |  | Tpt: 33/21 |
+| Commonwealth | 54 | 1 | arrives | unit:cw:14th-infantry-bde-hq |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 40 OpStage 1</span> |
+| Commonwealth | 54 | 2 | withdraws | unit:cw:20-aus |  | Tpt: 33/21 |
+| Commonwealth | 55 | 1 | arrives | unit:cw:67-med |  |  |
 | axis | 55 | 1 | arrives | <span class="wrap">unit:it:iiim-tank-bn, unit:it:i-articelere-regt, unit:it:ii-articelere-regt</span> |  |  |
 | axis | 55 | 3 | arrives | unit:it:liim-tank-bn |  |  |
-| cw | 56 | 2 | arrives | unit:cw:78-fld |  | <span class="wrap">OA sheet gives arrival OpStage 1 of Game-Turn 56 for unit:cw:78-fld</span> |
-| cw | 56 | 3 | arrives | unit:cw:1-armd-div-hq | Light: 2; Medium: 2; Heavy: 0 |  |
+| Commonwealth | 56 | 2 | arrives | unit:cw:78-fld |  | <span class="wrap">OA sheet gives arrival OpStage 1 of Game-Turn 56 for unit:cw:78-fld</span> |
+| Commonwealth | 56 | 3 | arrives | unit:cw:1-armd-div-hq | Light: 2<br>Medium: 2<br>Heavy: 0 |  |
 | axis | 58 | 1 | arrives | unit:de:612-army-flak-bn |  |  |
-| cw | 58 | 2 | arrives | unit:cw:50-recce, unit:cw:34-laa |  |  |
-| cw | 58 | 3 | arrives | unit:cw:2-armd-bde-hq, unit:cw:12-lancr | Light: 10; Medium: 30; Heavy: 6 | <span class="wrap">Trucks come with the 2nd Armored Brigade.</span> |
-| cw | 58 | 3 | arrives | unit:cw:150-inf-bde-hq |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 44 OpStage 2</span> |
-| cw | 59 | 2 | arrives | unit:cw:68-haa, unit:cw:69-haa |  |  |
+| Commonwealth | 58 | 2 | arrives | unit:cw:50-recce, unit:cw:34-laa |  |  |
+| Commonwealth | 58 | 3 | arrives | unit:cw:2-armd-bde-hq, unit:cw:12-lancr | Light: 10<br>Medium: 30<br>Heavy: 6 | <span class="wrap">Trucks come with the 2nd Armored Brigade.</span> |
+| Commonwealth | 58 | 3 | arrives | unit:cw:150-inf-bde-hq |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 44 OpStage 2</span> |
+| Commonwealth | 59 | 2 | arrives | unit:cw:68-haa, unit:cw:69-haa |  |  |
 | axis | 59 | 2 | arrives | <span class="wrap">unit:de:ii-25-flak-bn, unit:de:i-53-flak-bn</span> |  |  |
 | axis | 59 | 2 | arrives | unit:it:vi-aosta-machinegun-bn |  |  |
-| cw | 59 | 3 | arrives | unit:cw:1-spt-hq | Light: 8; Medium: 30; Heavy: 6 |  |
-| cw | 60 | 1 | arrives | unit:cw:3-10-bal, unit:cw:1-1-pjb |  |  |
-| cw | 60 | 3 | arrives | <span class="wrap">unit:cw:111-fld, unit:cw:154-fld, unit:cw:95th-anti-tank-regt</span> |  |  |
+| Commonwealth | 59 | 3 | arrives | unit:cw:1-spt-hq | Light: 8<br>Medium: 30<br>Heavy: 6 |  |
+| Commonwealth | 60 | 1 | arrives | unit:cw:3-10-bal, unit:cw:1-1-pjb |  |  |
+| Commonwealth | 60 | 3 | arrives | <span class="wrap">unit:cw:111-fld, unit:cw:154-fld, unit:cw:95th-anti-tank-regt</span> |  |  |
 | axis | 60 | 3 | arrives | unit:de:368-heavy-flak-bn |  |  |
 | axis | 61 | 1 | arrives | <span class="wrap">unit:de:841-lt-flak-bn, unit:de:192-flak-bn</span> |  |  |
-| cw | 62 | 2 | arrives | <span class="wrap">unit:cw:1-freefr-hq, unit:cw:2-lgetr, unit:cw:3-lgetr, unit:cw:2-mrch, unit:cw:1-pacf</span> | Light: 10; Medium: 15; Heavy: 3 |  |
-| axis | 62 | 3 | arrives | <span class="wrap">unit:it:littorio-133rd-div-hq, unit:it:5th-desert-patrol, unit:it:23rd-desert-patrol</span> | Light: 40; Medium: 50; Heavy: 0 |  |
-| cw | 63 | 1 | arrives | unit:cw:1-ff-arty |  |  |
-| cw | 63 | 1 | withdraws | unit:cw:polish-hq |  | Tpt: 25/20 |
-| cw | 63 | 3 | arrives | unit:cw:2-na, unit:cw:1-fslrs |  |  |
-| cw | 65 | 1 | arrives | unit:cw:1-frstrs | Light: 2; Medium: 10; Heavy: 0 |  |
-| cw | 65 | 3 | arrives | unit:cw:1-fr-mtr-marine | Light: 0; Medium: 5; Heavy: 0 |  |
-| cw | 66 | 1 | arrives | unit:cw:82-laa |  |  |
+| Commonwealth | 62 | 2 | arrives | <span class="wrap">unit:cw:1-freefr-hq, unit:cw:2-lgetr, unit:cw:3-lgetr, unit:cw:2-mrch, unit:cw:1-pacf</span> | Light: 10<br>Medium: 15<br>Heavy: 3 |  |
+| axis | 62 | 3 | arrives | <span class="wrap">unit:it:littorio-133rd-div-hq, unit:it:5th-desert-patrol, unit:it:23rd-desert-patrol</span> | Light: 40<br>Medium: 50<br>Heavy: 0 |  |
+| Commonwealth | 63 | 1 | arrives | unit:cw:1-ff-arty |  |  |
+| Commonwealth | 63 | 1 | withdraws | unit:cw:polish-hq |  | Tpt: 25/20 |
+| Commonwealth | 63 | 3 | arrives | unit:cw:2-na, unit:cw:1-fslrs |  |  |
+| Commonwealth | 65 | 1 | arrives | unit:cw:1-frstrs | Light: 2<br>Medium: 10<br>Heavy: 0 |  |
+| Commonwealth | 65 | 3 | arrives | unit:cw:1-fr-mtr-marine | Light: 0<br>Medium: 5<br>Heavy: 0 |  |
+| Commonwealth | 66 | 1 | arrives | unit:cw:82-laa |  |  |
 | axis | 66 | 1 | arrives | unit:de:533-coastal-arty-bn |  |  |
 | axis | 66 | 2 | arrives | <span class="wrap">unit:de:707-schwinf-koy, unit:de:114-flak-bn</span> |  |  |
 | axis | 66 | 3 | arrives | <span class="wrap">unit:de:778-naval-eng-koy, unit:de:442-flak-bn</span> |  |  |
-| cw | 67 | 1 | withdraws | unit:cw:7th-armored-bde-hq |  | Tpt: 3/2 |
+| Commonwealth | 67 | 1 | withdraws | unit:cw:7th-armored-bde-hq |  | Tpt: 3/2 |
 | axis | 67 | 1 | arrives | unit:de:i-43-flak-bn |  |  |
 | axis | 68 | 1 | arrives | unit:de:i-6-flak-bn |  |  |
 | axis | 68 | 2 | arrives | unit:de:i-722-arty-bty |  |  |
-| cw | 68 | 3 | arrives | <span class="wrap">unit:cw:50-inf-div-hq, unit:cw:2-ches, unit:cw:74-fld</span> | Light: 1; Medium: 8; Heavy: 5 |  |
-| cw | 69 | 1 | arrives | unit:cw:69-inf-bde-hq | Light: 8; Medium: 30; Heavy: 3 |  |
-| cw | 69 | 2 | arrives | <span class="wrap">unit:cw:151-inf-bde-hq, unit:cw:72-fld, unit:cw:124-fld</span> | Light: 8; Medium: 30; Heavy: 5 |  |
-| cw | 69 | 3 | arrives | unit:cw:8-armd-bde-hq | Light: 8; Medium: 20; Heavy: 5 |  |
-| cw | 70 | 1 | arrives | unit:cw:ryuggd |  |  |
-| cw | 70 | 2 | withdraws | unit:cw:70th-infantry-div-hq |  | Tpt: 50/40 |
+| Commonwealth | 68 | 3 | arrives | <span class="wrap">unit:cw:50-inf-div-hq, unit:cw:2-ches, unit:cw:74-fld</span> | Light: 1<br>Medium: 8<br>Heavy: 5 |  |
+| Commonwealth | 69 | 1 | arrives | unit:cw:69-inf-bde-hq | Light: 8<br>Medium: 30<br>Heavy: 3 |  |
+| Commonwealth | 69 | 2 | arrives | <span class="wrap">unit:cw:151-inf-bde-hq, unit:cw:72-fld, unit:cw:124-fld</span> | Light: 8<br>Medium: 30<br>Heavy: 5 |  |
+| Commonwealth | 69 | 3 | arrives | unit:cw:8-armd-bde-hq | Light: 8<br>Medium: 20<br>Heavy: 5 |  |
+| Commonwealth | 70 | 1 | arrives | unit:cw:ryuggd |  |  |
+| Commonwealth | 70 | 2 | withdraws | unit:cw:70th-infantry-div-hq |  | Tpt: 50/40 |
 | axis | 70 | 2 | arrives | unit:de:617-army-flak-bn |  |  |
-| axis | 70 | 2 | arrives | unit:it:8th-armored-bersaglieri-bn | Light: 0; Medium: 5; Heavy: 0 |  |
+| axis | 70 | 2 | arrives | unit:it:8th-armored-bersaglieri-bn | Light: 0<br>Medium: 5<br>Heavy: 0 |  |
 | axis | 71 | 3 | arrives | unit:de:526-coastal-arty-bn |  |  |
 | axis | 71 | 3 | arrives | <span class="wrap">unit:it:lim-tank-bn, unit:it:dliv-articelere-bn, unit:it:dlvi-articelere-bn</span> |  |  |
-| cw | 72 | 2 | withdraws | unit:cw:2-nz-hq |  | Tpt: 107/90 |
-| cw | 73 | 1 | arrives | unit:cw:10-in-hq, unit:cw:28-fld | Light: 10; Medium: 27; Heavy: 5 | returns after withdrawal |
-| cw | 73 | 1 | withdraws | unit:cw:16th-infantry-bde-hq |  | Tpt: 20/20 |
-| cw | 73 | 2 | arrives | unit:cw:1-4-essx |  |  |
-| cw | 73 | 3 | arrives | unit:cw:161-in-hq | Light: 7; Medium: 24; Heavy: 5 |  |
+| Commonwealth | 72 | 2 | withdraws | unit:cw:2-nz-hq |  | Tpt: 107/90 |
+| Commonwealth | 73 | 1 | arrives | unit:cw:10-in-hq, unit:cw:28-fld | Light: 10<br>Medium: 27<br>Heavy: 5 | returns after withdrawal |
+| Commonwealth | 73 | 1 | withdraws | unit:cw:16th-infantry-bde-hq |  | Tpt: 20/20 |
+| Commonwealth | 73 | 2 | arrives | unit:cw:1-4-essx |  |  |
+| Commonwealth | 73 | 3 | arrives | unit:cw:161-in-hq | Light: 7<br>Medium: 24<br>Heavy: 5 |  |
 | axis | 74 | 1 | arrives | unit:de:364-arty-bty |  |  |
-| cw | 75 | 1 | arrives | unit:cw:84th-anti-tank-regt |  |  |
-| cw | 75 | 1 | withdraws | unit:cw:7-in-hq |  | Tpt: 22/20 |
-| cw | 75 | 3 | arrives | <span class="wrap">unit:cw:2-freefr-hq, unit:cw:2-4-grka, unit:cw:3-9-jats, unit:cw:1-5-mah</span> | Light: 5; Medium: 14; Heavy: 2 | <span class="wrap">Trucks come with the 2nd Free French Brigade.</span> |
-| cw | 75 | 3 | arrives | <span class="wrap">unit:cw:5-indian-div-hq, unit:cw:9-in-hq, unit:cw:144-fld</span> | Light: 10; Medium: 27; Heavy: 6 | returns after withdrawal |
-| cw | 76 | 2 | arrives | unit:cw:32-army-tank-bde-hq |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 68 OpStage 2 Tpt: the printed reference to Game-Turn 68 OpStage 2 has no matching withdrawal.</span> |
-| axis | 76 | 2 | arrives | unit:de:288-son-hq | Light: 5; Medium: 18; Heavy: 4 |  |
-| cw | 76 | 3 | arrives | unit:cw:2-7-grka |  |  |
+| Commonwealth | 75 | 1 | arrives | unit:cw:84th-anti-tank-regt |  |  |
+| Commonwealth | 75 | 1 | withdraws | unit:cw:7-in-hq |  | Tpt: 22/20 |
+| Commonwealth | 75 | 3 | arrives | <span class="wrap">unit:cw:2-freefr-hq, unit:cw:2-4-grka, unit:cw:3-9-jats, unit:cw:1-5-mah</span> | Light: 5<br>Medium: 14<br>Heavy: 2 | <span class="wrap">Trucks come with the 2nd Free French Brigade.</span> |
+| Commonwealth | 75 | 3 | arrives | <span class="wrap">unit:cw:5-indian-div-hq, unit:cw:9-in-hq, unit:cw:144-fld</span> | Light: 10<br>Medium: 27<br>Heavy: 6 | returns after withdrawal |
+| Commonwealth | 76 | 2 | arrives | unit:cw:32-army-tank-bde-hq |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 68 OpStage 2 Tpt: the printed reference to Game-Turn 68 OpStage 2 has no matching withdrawal.</span> |
+| axis | 76 | 2 | arrives | unit:de:288-son-hq | Light: 5<br>Medium: 18<br>Heavy: 4 |  |
+| Commonwealth | 76 | 3 | arrives | unit:cw:2-7-grka |  |  |
 | axis | 76 | 3 | arrives | unit:de:708-schwinf-koy |  |  |
-| cw | 79 | 1 | arrives | unit:cw:10-armd-div-hq |  |  |
-| cw | 79 | 2 | arrives | unit:cw:1-swb |  |  |
-| cw | 80 | 2 | arrives | unit:cw:9-armd-bde-hq, unit:cw:3-fld | Light: 8; Medium: 30; Heavy: 5 |  |
+| Commonwealth | 79 | 1 | arrives | unit:cw:10-armd-div-hq |  |  |
+| Commonwealth | 79 | 2 | arrives | unit:cw:1-swb |  |  |
+| Commonwealth | 80 | 2 | arrives | unit:cw:9-armd-bde-hq, unit:cw:3-fld | Light: 8<br>Medium: 30<br>Heavy: 5 |  |
 | axis | 80 | 2 | arrives | unit:de:1-afr-arty-regt-hq |  |  |
-| cw | 80 | 3 | arrives | unit:cw:2-infld |  |  |
-| cw | 81 | 3 | arrives | unit:cw:10-indian-div-hq |  |  |
-| cw | 82 | 2 | arrives | unit:cw:25-in-hq | Light: 2; Medium: 15; Heavy: 3 |  |
+| Commonwealth | 80 | 3 | arrives | unit:cw:2-infld |  |  |
+| Commonwealth | 81 | 3 | arrives | unit:cw:10-indian-div-hq |  |  |
+| Commonwealth | 82 | 2 | arrives | unit:cw:25-in-hq | Light: 2<br>Medium: 15<br>Heavy: 3 |  |
 | axis | 82 | 2 | arrives | unit:de:190-arty-regt |  |  |
-| cw | 82 | 3 | arrives | unit:cw:20-in-hq, unit:cw:21-in-hq | Light: 4; Medium: 30; Heavy: 6 |  |
-| cw | 83 | 3 | arrives | unit:cw:69-med, unit:cw:98-fld |  |  |
-| cw | 84 | 1 | arrives | unit:cw:2-8-grka |  |  |
-| cw | 84 | 2 | arrives | unit:cw:10-qvg |  |  |
-| cw | 84 | 3 | arrives | unit:cw:6-rajrf |  |  |
-| cw | 85 | 1 | arrives | unit:cw:32-fld, unit:cw:121-fld |  |  |
+| Commonwealth | 82 | 3 | arrives | unit:cw:20-in-hq, unit:cw:21-in-hq | Light: 4<br>Medium: 30<br>Heavy: 6 |  |
+| Commonwealth | 83 | 3 | arrives | unit:cw:69-med, unit:cw:98-fld |  |  |
+| Commonwealth | 84 | 1 | arrives | unit:cw:2-8-grka |  |  |
+| Commonwealth | 84 | 2 | arrives | unit:cw:10-qvg |  |  |
+| Commonwealth | 84 | 3 | arrives | unit:cw:6-rajrf |  |  |
+| Commonwealth | 85 | 1 | arrives | unit:cw:32-fld, unit:cw:121-fld |  |  |
 | axis | 85 | 1 | arrives | unit:de:13-koy-brandenburg |  |  |
-| cw | 85 | 2 | arrives | unit:cw:2-nz-hq |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 72 OpStage 2</span> |
-| cw | 86 | 1 | arrives | <span class="wrap">unit:cw:11-fld, unit:cw:53-laa, unit:cw:18-in-hq</span> | Light: 7; Medium: 24; Heavy: 2 | <span class="wrap">Trucks come with the 18th Indian Brigade.</span> |
+| Commonwealth | 85 | 2 | arrives | unit:cw:2-nz-hq |  | <span class="wrap">returns after withdrawal Tpt: as it left on Game-Turn 72 OpStage 2</span> |
+| Commonwealth | 86 | 1 | arrives | <span class="wrap">unit:cw:11-fld, unit:cw:53-laa, unit:cw:18-in-hq</span> | Light: 7<br>Medium: 24<br>Heavy: 2 | <span class="wrap">Trucks come with the 18th Indian Brigade.</span> |
 | axis | 86 | 2 | arrives | unit:de:ramcke-bde-hq, unit:de:v-brc-bn |  |  |
-| cw | 86 | 3 | arrives | unit:cw:9-aus |  | <span class="wrap">returns after withdrawal Tpt: the sum of what left on Game-Turn 49, 53 and 54 (OpStage 2 each)</span> |
-| cw | 87 | 2 | arrives | unit:cw:3-14-pjb |  |  |
+| Commonwealth | 86 | 3 | arrives | unit:cw:9-aus |  | <span class="wrap">returns after withdrawal Tpt: the sum of what left on Game-Turn 49, 53 and 54 (OpStage 2 each)</span> |
+| Commonwealth | 87 | 2 | arrives | unit:cw:3-14-pjb |  |  |
 | axis | 87 | 2 | arrives | unit:de:iv-sch-bn |  |  |
-| cw | 87 | 3 | arrives | <span class="wrap">unit:cw:8-armd-div-hq, unit:cw:23-armd-bde-hq, unit:cw:2-deryeo</span> | Light: 8; Medium: 36; Heavy: 8 |  |
-| cw | 88 | 1 | arrives | unit:cw:24-armd-bde-hq | Light: 7; Medium: 36; Heavy: 8 |  |
-| cw | 88 | 1 | withdraws | unit:cw:3-in |  | Tpt: 30/25 |
+| Commonwealth | 87 | 3 | arrives | <span class="wrap">unit:cw:8-armd-div-hq, unit:cw:23-armd-bde-hq, unit:cw:2-deryeo</span> | Light: 8<br>Medium: 36<br>Heavy: 8 |  |
+| Commonwealth | 88 | 1 | arrives | unit:cw:24-armd-bde-hq | Light: 7<br>Medium: 36<br>Heavy: 8 |  |
+| Commonwealth | 88 | 1 | withdraws | unit:cw:3-in |  | Tpt: 30/25 |
 | axis | 88 | 2 | arrives | unit:de:ii-46-flak-bn |  |  |
-| cw | 89 | 1 | arrives | unit:cw:56-laa |  |  |
-| cw | 89 | 2 | arrives | unit:cw:14-frstrs | Light: 2; Medium: 10; Heavy: 0 |  |
+| Commonwealth | 89 | 1 | arrives | unit:cw:56-laa |  |  |
+| Commonwealth | 89 | 2 | arrives | unit:cw:14-frstrs | Light: 2<br>Medium: 10<br>Heavy: 0 |  |
 | axis | 89 | 2 | arrives | unit:de:i-54-flak-bn |  |  |
-| cw | 89 | 3 | arrives | unit:cw:53-fld, unit:cw:5-rha |  |  |
+| Commonwealth | 89 | 3 | arrives | unit:cw:53-fld, unit:cw:5-rha |  |  |
 | axis | 89 | 3 | arrives | unit:de:211-flak-bn |  |  |
-| cw | 90 | 1 | arrives | unit:cw:131-inf-bde-hq | Light: 10; Medium: 35; Heavy: 0 |  |
-| cw | 90 | 2 | arrives | unit:cw:44-inf-div-hq | Light: 22; Medium: 73; Heavy: 20 |  |
+| Commonwealth | 90 | 1 | arrives | unit:cw:131-inf-bde-hq | Light: 10<br>Medium: 35<br>Heavy: 0 |  |
+| Commonwealth | 90 | 2 | arrives | unit:cw:44-inf-div-hq | Light: 22<br>Medium: 73<br>Heavy: 20 |  |
 | axis | 90 | 2 | arrives | unit:it:ivm-tank-bn |  |  |
 | axis | 91 | 1 | arrives | <span class="wrap">unit:de:190-pzjg-bn, unit:de:243-flak-bn, unit:de:i-kroh-bn</span> |  |  |
 | axis | 91 | 3 | arrives | unit:de:329-flak-bn |  |  |
 | axis | 92 | 1 | arrives | unit:de:ii-vdh-bn |  |  |
 | axis | 92 | 1 | arrives | unit:it:xiiim-tank-bn |  |  |
-| cw | 92 | 2 | arrives | <span class="wrap">unit:cw:51-inf-div-hq, unit:cw:1-7-mdlsx, unit:cw:51-recce, unit:cw:13th-anti-tank-regt</span> | Light: 27; Medium: 102; Heavy: 19 | <span class="wrap">Trucks come with the 51st Infantry Division.</span> |
+| Commonwealth | 92 | 2 | arrives | <span class="wrap">unit:cw:51-inf-div-hq, unit:cw:1-7-mdlsx, unit:cw:51-recce, unit:cw:13th-anti-tank-regt</span> | Light: 27<br>Medium: 102<br>Heavy: 19 | <span class="wrap">Trucks come with the 51st Infantry Division.</span> |
 | axis | 92 | 2 | arrives | <span class="wrap">unit:de:ii-12-flak-bn, unit:de:358-flak-bn</span> |  |  |
-| axis | 92 | 2 | arrives | unit:it:16th-pistoia-div-hq | Light: 5; Medium: 45; Heavy: 0 |  |
-| cw | 92 | 3 | arrives | <span class="wrap">unit:cw:152-inf-bde-hq, unit:cw:153-inf-bde-hq, unit:cw:154-inf-bde-hq</span> |  |  |
+| axis | 92 | 2 | arrives | unit:it:16th-pistoia-div-hq | Light: 5<br>Medium: 45<br>Heavy: 0 |  |
+| Commonwealth | 92 | 3 | arrives | <span class="wrap">unit:cw:152-inf-bde-hq, unit:cw:153-inf-bde-hq, unit:cw:154-inf-bde-hq</span> |  |  |
 | axis | 92 | 3 | arrives | unit:de:860-flak-bn |  |  |
-| cw | 93 | 1 | arrives | <span class="wrap">unit:cw:61-at, unit:cw:126-fld, unit:cw:127-fld, unit:cw:128-fld, unit:cw:40-laa, unit:cw:1-greek-hq</span> | Light: 8; Medium: 28; Heavy: 6 | Trucks come with the 1st Greek Brigade. |
-| axis | 93 | 1 | arrives | <span class="wrap">unit:de:164-le-div-hq, unit:de:iii-hub-bn, unit:de:609-flak-bn</span> | Light: 0; Medium: 30; Heavy: 0 |  |
-| cw | 93 | 2 | withdraws | <span class="wrap">unit:cw:25-in-hq, unit:cw:42-rtr, unit:cw:44-rtr</span> |  | Tpt: 22/18 |
-| axis | 93 | 2 | arrives | unit:de:ii-5-flak-bn | Light: 10; Medium: 30; Heavy: 0 |  |
+| Commonwealth | 93 | 1 | arrives | <span class="wrap">unit:cw:61-at, unit:cw:126-fld, unit:cw:127-fld, unit:cw:128-fld, unit:cw:40-laa, unit:cw:1-greek-hq</span> | Light: 8<br>Medium: 28<br>Heavy: 6 | Trucks come with the 1st Greek Brigade. |
+| axis | 93 | 1 | arrives | <span class="wrap">unit:de:164-le-div-hq, unit:de:iii-hub-bn, unit:de:609-flak-bn</span> | Light: 0<br>Medium: 30<br>Heavy: 0 |  |
+| Commonwealth | 93 | 2 | withdraws | <span class="wrap">unit:cw:25-in-hq, unit:cw:42-rtr, unit:cw:44-rtr</span> |  | Tpt: 22/18 |
+| axis | 93 | 2 | arrives | unit:de:ii-5-flak-bn | Light: 10<br>Medium: 30<br>Heavy: 0 |  |
 | axis | 93 | 3 | arrives | <span class="wrap">unit:de:125-pzgren-regt-hq, unit:de:164-200-pi-bn</span> |  |  |
-| cw | 94 | 1 | arrives | unit:cw:yrkdrgn | Light: 2; Medium: 10; Heavy: 0 |  |
+| Commonwealth | 94 | 1 | arrives | unit:cw:yrkdrgn | Light: 2<br>Medium: 10<br>Heavy: 0 |  |
 | axis | 94 | 1 | arrives | unit:de:382-pzgren-regt-hq |  |  |
-| cw | 94 | 2 | arrives | unit:cw:1-2-grka |  |  |
-| axis | 94 | 2 | arrives | unit:de:165-aufkl-bn | Light: 0; Medium: 25; Heavy: 20 |  |
-| axis | 94 | 2 | arrives | unit:it:185th-folgore-div-hq | Light: 5; Medium: 30; Heavy: 5 |  |
+| Commonwealth | 94 | 2 | arrives | unit:cw:1-2-grka |  |  |
+| axis | 94 | 2 | arrives | unit:de:165-aufkl-bn | Light: 0<br>Medium: 25<br>Heavy: 20 |  |
+| axis | 94 | 2 | arrives | unit:it:185th-folgore-div-hq | Light: 5<br>Medium: 30<br>Heavy: 5 |  |
 | axis | 94 | 3 | arrives | unit:it:1-78-fanterie-bn |  |  |
-| cw | 95 | 1 | arrives | unit:cw:1-fffc |  |  |
+| Commonwealth | 95 | 1 | arrives | unit:cw:1-fffc |  |  |
 | axis | 95 | 1 | arrives | unit:de:220-arty-regt-hq |  |  |
-| cw | 95 | 2 | arrives | <span class="wrap">unit:cw:57-at-44-inf-div, unit:cw:57-fld, unit:cw:58-fld, unit:cw:65-fld</span> |  |  |
-| axis | 95 | 3 | arrives | unit:de:433-pzgren-regt-hq | Light: 0; Medium: 25; Heavy: 0 |  |
-| axis | 97 | 1 | arrives | unit:it:136th-giovani-fascisti-div-hq | Light: 5; Medium: 20; Heavy: 0 |  |
-| cw | 97 | 2 | withdraws | unit:cw:22-gds |  | <span class="wrap">with any three infantry battalions Tpt: 26/21</span> |
+| Commonwealth | 95 | 2 | arrives | <span class="wrap">unit:cw:57-at-44-inf-div, unit:cw:57-fld, unit:cw:58-fld, unit:cw:65-fld</span> |  |  |
+| axis | 95 | 3 | arrives | unit:de:433-pzgren-regt-hq | Light: 0<br>Medium: 25<br>Heavy: 0 |  |
+| axis | 97 | 1 | arrives | unit:it:136th-giovani-fascisti-div-hq | Light: 5<br>Medium: 20<br>Heavy: 0 |  |
+| Commonwealth | 97 | 2 | withdraws | unit:cw:22-gds |  | <span class="wrap">with any three infantry battalions Tpt: 26/21</span> |
 | axis | 97 | 2 | arrives | unit:it:iii-133-fanterie-bn |  |  |
 | axis | 97 | 3 | arrives | unit:de:2-afr-arty-regt-hq |  |  |
-| cw | 98 | 1 | arrives | unit:cw:42-laa |  |  |
-| cw | 99 | 1 | arrives | unit:cw:42-rtr, unit:cw:44-rtr | Light: 4; Medium: 0; Heavy: 0 | returns after withdrawal |
-| axis | 99 | 2 | arrives | unit:it:57th-bersaglieri-mitrg-coy | Light: 0; Medium: 15; Heavy: 0 |  |
-| cw | 100 | 2 | withdraws | unit:cw:9-in-hq |  | Tpt: 40/30 |
-| cw | 108 | 1 | withdraws | unit:cw:9-aus |  | Tpt: 125/90 |
-| cw | 110 | 1 | withdraws | unit:cw:10-armd-div-hq |  | Tpt: 7/3 |
-| cw | 110 | 3 | withdraws | unit:cw:9-armd-bde-hq |  | Tpt: 33/26 |
+| Commonwealth | 98 | 1 | arrives | unit:cw:42-laa |  |  |
+| Commonwealth | 99 | 1 | arrives | unit:cw:42-rtr, unit:cw:44-rtr | Light: 4<br>Medium: 0<br>Heavy: 0 | returns after withdrawal |
+| axis | 99 | 2 | arrives | unit:it:57th-bersaglieri-mitrg-coy | Light: 0<br>Medium: 15<br>Heavy: 0 |  |
+| Commonwealth | 100 | 2 | withdraws | unit:cw:9-in-hq |  | Tpt: 40/30 |
+| Commonwealth | 108 | 1 | withdraws | unit:cw:9-aus |  | Tpt: 125/90 |
+| Commonwealth | 110 | 1 | withdraws | unit:cw:10-armd-div-hq |  | Tpt: 7/3 |
+| Commonwealth | 110 | 3 | withdraws | unit:cw:9-armd-bde-hq |  | Tpt: 33/26 |
 
 ## Unplaced
 
 | Side | Game turn | Op stage | Kind | Units | Trucks | Notes |
 |---|---|---|---|---|---|---|
-| cw | 32 | 3 | arrives | none |  | <span class="wrap">not on the OA sheets: the Tiger Convoy (tank replacement points)</span> |
-| axis | 27 | 3 | arrives | none | Light: 0; Medium: 40; Heavy: 0 | <span class="wrap">Trucks only, for the 15th Panzer Division.</span> |
-| axis | 28 | 2 | arrives | none | Light: 25; Medium: 0; Heavy: 0 | <span class="wrap">Trucks only, for the 15th Panzer Division.</span> |
-| axis | 31 | 1 | arrives | none | Light: 0; Medium: 20; Heavy: 0 | <span class="wrap">Trucks only, for the 15th Panzer Division.</span> |
-| axis | 38 | 2 | arrives | none | Light: 0; Medium: 0; Heavy: 5 | <span class="wrap">Trucks only, for the 90th Leichte Division.</span> |
-| axis | 43 | 2 | arrives | none | Light: 0; Medium: 15; Heavy: 0 | <span class="wrap">Trucks only, for the 90th Leichte Division.</span> |
-| axis | 96 | 1 | arrives | none | Light: 10; Medium: 0; Heavy: 10 | <span class="wrap">Trucks only, for the 164th Leichte Division.</span> |
+| Commonwealth | 32 | 3 | arrives | none |  | <span class="wrap">not on the OA sheets: the Tiger Convoy (tank replacement points)</span> |
+| axis | 27 | 3 | arrives | none | Light: 0<br>Medium: 40<br>Heavy: 0 | <span class="wrap">Trucks only, for the 15th Panzer Division.</span> |
+| axis | 28 | 2 | arrives | none | Light: 25<br>Medium: 0<br>Heavy: 0 | <span class="wrap">Trucks only, for the 15th Panzer Division.</span> |
+| axis | 31 | 1 | arrives | none | Light: 0<br>Medium: 20<br>Heavy: 0 | <span class="wrap">Trucks only, for the 15th Panzer Division.</span> |
+| axis | 38 | 2 | arrives | none | Light: 0<br>Medium: 0<br>Heavy: 5 | <span class="wrap">Trucks only, for the 90th Leichte Division.</span> |
+| axis | 43 | 2 | arrives | none | Light: 0<br>Medium: 15<br>Heavy: 0 | <span class="wrap">Trucks only, for the 90th Leichte Division.</span> |
+| axis | 96 | 1 | arrives | none | Light: 10<br>Medium: 0<br>Heavy: 10 | <span class="wrap">Trucks only, for the 164th Leichte Division.</span> |
 
 ## Notes
 

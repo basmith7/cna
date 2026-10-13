@@ -29,11 +29,11 @@ Used in [Organisation](/rules/70-organisation).
 | engineer company | Class: infantry; Points: 1 |  |
 | road or rail construction | none | <span class="wrap">the SA road and two NZ railway construction battalions; if eliminated they return as reinforcements six stages later</span> |
 | motorcycle recce camel or recce | Class: infantry; Points: 2 |  |
-| armoured recce | <span class="wrap">Class: armoured recce; Points: 1, Class: light tank; Points: 1</span> |  |
-| armoured car | <span class="wrap">Class: armoured recce; Points: 2, Class: light tank; Points: 1</span> |  |
+| armoured recce | Class: armoured recce; Points: 1<br>Class: light tank; Points: 1 |  |
+| armoured car | Class: armoured recce; Points: 2<br>Class: light tank; Points: 1 |  |
 | tank | Class: tank; Points: 1 |  |
 | artillery | Class: artillery; Points: 1 |  |
-| airdroppable artillery | <span class="wrap">Class: italian para artillery; Points: 1, Class: german-75mm-light-gun; Points: 1</span> |  |
+| airdroppable artillery | Class: italian para artillery; Points: 1<br>Class: german-75mm-light-gun; Points: 1 |  |
 | anti tank | Class: anti tank; Points: 1 |  |
 | airdroppable anti tank | Class: light anti tank; Points: 1 | <span class="wrap">only when assigning anti-tank points to the 185th Folgore or Ramcke HQs</span> |
 | anti air | Class: anti air; Points: 1 |  |

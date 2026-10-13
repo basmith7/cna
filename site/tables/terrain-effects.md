@@ -18,33 +18,33 @@ Used in [Movement](/rules/40-movement), [Stacking, zones of control and reserve]
 
 | Kind | Terrain | CP | Breakdown | Shifts | Stacking | Footnotes |
 |---|---|---|---|---|---|---|
-| hex | clear | Non-mot: 2; Mot: 2 | 4 | <span class="wrap">Barrage: 0; Anti-armour: 0; Close assault: 0</span> | 6 |  |
-| hex | gravel | Non-mot: 2; Mot: 2 | 6 | <span class="wrap">Barrage: 0; Anti-armour: 0; Close assault: 0</span> | 6 |  |
-| hex | salt marsh | Non-mot: 3; Mot: 2 | 6 | <span class="wrap">Barrage: 0; Anti-armour: 0; Close assault: 1</span> | 6 | 2 |
-| hex | heavy vegetation | Non-mot: 3; Mot: 3 | 3 | <span class="wrap">Barrage: 0; Anti-armour: -1; Close assault: -1</span> | 6 |  |
-| hex | rough | Non-mot: 3; Mot: 4 | 8 | <span class="wrap">Barrage: -1; Anti-armour: -1; Close assault: -2</span> | 6 |  |
-| hex | mountain | Non-mot: 4; Mot: 6 | 12 | <span class="wrap">Barrage: -2; Anti-armour: -2; Close assault: -3</span> | 3 |  |
-| hex | delta | Non-mot: 2; Mot: 4 | 2 | <span class="wrap">Barrage: 0; Anti-armour: 0; Close assault: 0</span> | 6 |  |
-| hex | desert | Non-mot: 3; Mot: 4 | 24 | <span class="wrap">Barrage: 0; Anti-armour: 0; Close assault: 0</span> | 6 | 3 |
-| hex | major city | Non-mot: 1; Mot: 0.5 | 0.5 | see fortifications | 8 | 4 <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-031">E-031</a> |
-| hex | swamp | road or railroad only |  | <span class="wrap">Barrage: 0; Anti-armour: 0; Close assault: 0</span> | 6 |  |
+| hex | clear | Non-mot: 2<br>Mot: 2 | 4 | Barrage: 0<br>Anti-armour: 0<br>Close assault: 0 | 6 |  |
+| hex | gravel | Non-mot: 2<br>Mot: 2 | 6 | Barrage: 0<br>Anti-armour: 0<br>Close assault: 0 | 6 |  |
+| hex | salt marsh | Non-mot: 3<br>Mot: 2 | 6 | Barrage: 0<br>Anti-armour: 0<br>Close assault: 1 | 6 | 2 |
+| hex | heavy vegetation | Non-mot: 3<br>Mot: 3 | 3 | Barrage: 0<br>Anti-armour: -1<br>Close assault: -1 | 6 |  |
+| hex | rough | Non-mot: 3<br>Mot: 4 | 8 | Barrage: -1<br>Anti-armour: -1<br>Close assault: -2 | 6 |  |
+| hex | mountain | Non-mot: 4<br>Mot: 6 | 12 | Barrage: -2<br>Anti-armour: -2<br>Close assault: -3 | 3 |  |
+| hex | delta | Non-mot: 2<br>Mot: 4 | 2 | Barrage: 0<br>Anti-armour: 0<br>Close assault: 0 | 6 |  |
+| hex | desert | Non-mot: 3<br>Mot: 4 | 24 | Barrage: 0<br>Anti-armour: 0<br>Close assault: 0 | 6 | 3 |
+| hex | major city | Non-mot: 1<br>Mot: 0.5 | 0.5 | see fortifications | 8 | 4 <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-031">E-031</a> |
+| hex | swamp | road or railroad only |  | Barrage: 0<br>Anti-armour: 0<br>Close assault: 0 | 6 |  |
 | hex | village bir oasis | as hex terrain |  |  |  |  |
 | hex | railroad | as hex terrain |  |  |  | 5 |
-| hex | road | Non-mot: 1; Mot: 0.5 | 0.5 | <span class="wrap">Barrage: 0; Anti-armour: 0; Close assault: 0</span> | 5 | 6, 7 |
-| hex | track | halves hex terrain <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-031">E-031</a> | halves | <span class="wrap">Barrage: 0; Anti-armour: 0; Close assault: 0</span> | 5 | 7, 8 |
-| hexside | ridge | Non-mot: 2; Mot: 4 | 2 | <span class="wrap">Barrage: 0; Anti-armour: -2; Close assault: -2</span> |  |  |
-| hexside | up slope | Non-mot: 2; Mot: 4 | 2 | <span class="wrap">Barrage: 0; Anti-armour: -1; Close assault: -2</span> |  |  |
-| hexside | down slope | Non-mot: 1; Mot: 2 | 2 | <span class="wrap">Barrage: 0; Anti-armour: -1; Close assault: 1</span> |  |  |
-| hexside | up escarpment | Non-mot: 6; Mot: prohibited | none | <span class="wrap">Barrage: 0; Anti-armour: prohibited; Close assault: -3</span> |  |  |
-| hexside | down escarpment | Non-mot: 4; Mot: 8 | 6 | <span class="wrap">Barrage: 0; Anti-armour: -2; Close assault: 1</span> |  | 9 |
-| hexside | wadi | Non-mot: 1; Mot: 4 | 8 | <span class="wrap">Barrage: 0; Anti-armour: 0; Close assault: -1</span> |  | 10 |
-| hexside | major river | Non-mot: 8; Mot: prohibited | none | <span class="wrap">Barrage: 0; Anti-armour: 0; Close assault: -6</span> |  | 11 |
-| hexside | minor river | Non-mot: 3; Mot: 6 | 1 | <span class="wrap">Barrage: 0; Anti-armour: 0; Close assault: -2</span> |  |  |
-| fortification | fortification-1 | as hex terrain |  | <span class="wrap">Barrage: -1; Anti-armour: -1; Close assault: -2</span> |  | 12 |
-| fortification | fortification-2 | as hex terrain |  | <span class="wrap">Barrage: -2; Anti-armour: -2; Close assault: -3</span> |  | 12 |
-| fortification | fortification-3 | as hex terrain |  | <span class="wrap">Barrage: -2; Anti-armour: -2; Close assault: -4</span> |  | 12 |
-| minefield | friendly minefield | Non-mot: 1; Mot: 4 | 0 | <span class="wrap">Barrage: 0; Anti-armour: -1; Close assault: -1</span> |  | 13 |
-| minefield | enemy minefield | Non-mot: 4; Mot: cpa | 2 | <span class="wrap">Barrage: 0; Anti-armour: 0; Close assault: 0</span> |  | 13 |
+| hex | road | Non-mot: 1<br>Mot: 0.5 | 0.5 | Barrage: 0<br>Anti-armour: 0<br>Close assault: 0 | 5 | 6, 7 |
+| hex | track | halves hex terrain <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-031">E-031</a> | halves | Barrage: 0<br>Anti-armour: 0<br>Close assault: 0 | 5 | 7, 8 |
+| hexside | ridge | Non-mot: 2<br>Mot: 4 | 2 | Barrage: 0<br>Anti-armour: -2<br>Close assault: -2 |  |  |
+| hexside | up slope | Non-mot: 2<br>Mot: 4 | 2 | Barrage: 0<br>Anti-armour: -1<br>Close assault: -2 |  |  |
+| hexside | down slope | Non-mot: 1<br>Mot: 2 | 2 | Barrage: 0<br>Anti-armour: -1<br>Close assault: 1 |  |  |
+| hexside | up escarpment | Non-mot: 6<br>Mot: prohibited | none | Barrage: 0<br>Anti-armour: prohibited<br>Close assault: -3 |  |  |
+| hexside | down escarpment | Non-mot: 4<br>Mot: 8 | 6 | Barrage: 0<br>Anti-armour: -2<br>Close assault: 1 |  | 9 |
+| hexside | wadi | Non-mot: 1<br>Mot: 4 | 8 | Barrage: 0<br>Anti-armour: 0<br>Close assault: -1 |  | 10 |
+| hexside | major river | Non-mot: 8<br>Mot: prohibited | none | Barrage: 0<br>Anti-armour: 0<br>Close assault: -6 |  | 11 |
+| hexside | minor river | Non-mot: 3<br>Mot: 6 | 1 | Barrage: 0<br>Anti-armour: 0<br>Close assault: -2 |  |  |
+| fortification | fortification-1 | as hex terrain |  | Barrage: -1<br>Anti-armour: -1<br>Close assault: -2 |  | 12 |
+| fortification | fortification-2 | as hex terrain |  | Barrage: -2<br>Anti-armour: -2<br>Close assault: -3 |  | 12 |
+| fortification | fortification-3 | as hex terrain |  | Barrage: -2<br>Anti-armour: -2<br>Close assault: -4 |  | 12 |
+| minefield | friendly minefield | Non-mot: 1<br>Mot: 4 | 0 | Barrage: 0<br>Anti-armour: -1<br>Close assault: -1 |  | 13 |
+| minefield | enemy minefield | Non-mot: 4<br>Mot: cpa | 2 | Barrage: 0<br>Anti-armour: 0<br>Close assault: 0 |  | 13 |
 
 ## Notes
 

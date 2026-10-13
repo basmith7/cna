@@ -12,11 +12,9 @@ Used in [Ports and shipping](/rules/logistics/50-ports-and-shipping).
 
 ## Levels
 
-| | |
-|---|---|
-| **1940** | —, —, —, —, —, —, —, —, B, B, B, B |
-| **1941** | B, E, F, E, D, G, C, E, C, D, E, A |
-| **1942** | C, B, B, G, F, A, F, B, D, A, G, C |
+- **1940:** —, —, —, —, —, —, —, —, B, B, B, B
+- **1941:** B, E, F, E, D, G, C, E, C, D, E, A
+- **1942:** C, B, B, G, F, A, F, B, D, A, G, C
 
 ## Notes
 

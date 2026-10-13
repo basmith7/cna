@@ -22,10 +22,8 @@ Used in [Stacking, zones of control and reserve](/rules/50-stacking-and-zoc).
 
 ## Per five points
 
-| | |
-|---|---|
-| **Truck-convoy** | 0.5 |
-| **Replacement-points** | 1 |
+- **Truck-convoy:** 0.5
+- **Replacement-points:** 1
 
 ## Notes
 

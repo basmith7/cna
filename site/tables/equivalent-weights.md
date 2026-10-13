@@ -12,39 +12,31 @@ Used in [Trucks and dumps](/rules/logistics/40-trucks-and-dumps).
 
 ## Supply tons
 
-| | |
-|---|---|
-| **Ammo** | 4 |
-| **Fuel** | 1/8 |
-| **Stores** | 1 |
-| **Water** | 1/6 |
+- **Ammo:** 4
+- **Fuel:** 1/8
+- **Stores:** 1
+- **Water:** 1/6
 
 ## Replacement point tons
 
-| | |
-|---|---|
-| **Axis-naval-convoy** | axis replacement pool |
-| **Interport** | — |
-| **Railroad** | — |
-| **Air** | 2 |
+- **Axis-naval-convoy:** axis replacement pool
+- **Interport:** —
+- **Railroad:** —
+- **Air:** 2
 
 ## Truck point tons
 
-| | |
-|---|---|
-| **Axis-naval-convoy** | axis replacement pool |
-| **Railroad** | — |
-| **Interport** | 50 |
-| **Air** | prohibited |
+- **Axis-naval-convoy:** axis replacement pool
+- **Railroad:** —
+- **Interport:** 50
+- **Air:** prohibited
 
 ## Rail interport stacking points
 
-| | |
-|---|---|
-| **Truck-point** | 1/10 |
-| **Replacement-point** | 1/5 |
-| **SGSU** | 1/2 |
-| **Unit-stacking-point** | 1/2 |
+- **Truck-point:** 1/10
+- **Replacement-point:** 1/5
+- **SGSU:** 1/2
+- **Unit-stacking-point:** 1/2
 
 ## Notes
 

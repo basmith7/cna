@@ -10,17 +10,15 @@ aside: false
 
 Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
-| | |
-|---|---|
-| **Ratings** | 1–4 |
+- **Ratings:** 1–4
 
 ## Nations
 
 | Nation | From | To | Table | Fixed |
 |---|---|---|---|---|
-| cw | 1940-11 | 1942-10 | <span class="wrap">Dice: 2; Pilots: 0, 0, 0, 0, Dice: 3; Pilots: 0, 3, 0, 0, Dice: 4; Pilots: 1, 0, 0, 1, Dice: 5; Pilots: 1, 2, 1, 0, Dice: 6; Pilots: 0, 1, 1, 0, Dice: 7; Pilots: 2, 4, 0, 0, Dice: 8; Pilots: 1, 3, 0, 0, Dice: 9; Pilots: 2, 0, 1, 0, Dice: 10; Pilots: 0, 1, 0, 1, Dice: 11; Pilots: 2, 1, 0, 0, Dice: 12; Pilots: 0, 0, 1, 0</span> |  |
-| it | 1940-11 | 1942-10 | <span class="wrap">Dice: 2; Pilots: 0, 0, 0, 0, Dice: 3; Pilots: 3, 0, 0, 0, Dice: 4; Pilots: 0, 1, 1, 1, Dice: 5; Pilots: 0, 2, 0, 0, Dice: 6; Pilots: 1, 0, 1, 0, Dice: 7; Pilots: 2, 1, 0, 1, Dice: 8; Pilots: 1, 0, 0, 0, Dice: 9; Pilots: 2, 1, 0, 0, Dice: 10; Pilots: 1, 0, 1, 0, Dice: 11; Pilots: 0, 0, 2, 1, Dice: 12; Pilots: 0, 3, 2, 0</span> |  |
-| de | 1941-03 | 1942-10 | <span class="wrap">Dice: 2; Pilots: 0, 0, 0, 0, Dice: 3; Pilots: 3, 0, 1, 1, Dice: 4; Pilots: 0, 3, 0, 1, Dice: 5; Pilots: 0, 2, 0, 0, Dice: 6; Pilots: 1, 1, 1, 0, Dice: 7; Pilots: 2, 0, 1, 1, Dice: 8; Pilots: 0, 2, 1, 1, Dice: 9; Pilots: 1, 0, 2, 0, Dice: 10; Pilots: 3, 0, 0, 2, Dice: 11; Pilots: 0, 1, 3, 1, Dice: 12; Pilots: 0, 0, 1, 1</span> | <span class="wrap">Game turn: 29; Rating: 6; Pilot: Hans-Joachim Marseille</span> |
+| Commonwealth | 1940-11 | 1942-10 | Dice: 2; Pilots: 0, 0, 0, 0<br>Dice: 3; Pilots: 0, 3, 0, 0<br>Dice: 4; Pilots: 1, 0, 0, 1<br>Dice: 5; Pilots: 1, 2, 1, 0<br>Dice: 6; Pilots: 0, 1, 1, 0<br>Dice: 7; Pilots: 2, 4, 0, 0<br>Dice: 8; Pilots: 1, 3, 0, 0<br>Dice: 9; Pilots: 2, 0, 1, 0<br>Dice: 10; Pilots: 0, 1, 0, 1<br>Dice: 11; Pilots: 2, 1, 0, 0<br>Dice: 12; Pilots: 0, 0, 1, 0 |  |
+| Italian | 1940-11 | 1942-10 | Dice: 2; Pilots: 0, 0, 0, 0<br>Dice: 3; Pilots: 3, 0, 0, 0<br>Dice: 4; Pilots: 0, 1, 1, 1<br>Dice: 5; Pilots: 0, 2, 0, 0<br>Dice: 6; Pilots: 1, 0, 1, 0<br>Dice: 7; Pilots: 2, 1, 0, 1<br>Dice: 8; Pilots: 1, 0, 0, 0<br>Dice: 9; Pilots: 2, 1, 0, 0<br>Dice: 10; Pilots: 1, 0, 1, 0<br>Dice: 11; Pilots: 0, 0, 2, 1<br>Dice: 12; Pilots: 0, 3, 2, 0 |  |
+| German | 1941-03 | 1942-10 | Dice: 2; Pilots: 0, 0, 0, 0<br>Dice: 3; Pilots: 3, 0, 1, 1<br>Dice: 4; Pilots: 0, 3, 0, 1<br>Dice: 5; Pilots: 0, 2, 0, 0<br>Dice: 6; Pilots: 1, 1, 1, 0<br>Dice: 7; Pilots: 2, 0, 1, 1<br>Dice: 8; Pilots: 0, 2, 1, 1<br>Dice: 9; Pilots: 1, 0, 2, 0<br>Dice: 10; Pilots: 3, 0, 0, 2<br>Dice: 11; Pilots: 0, 1, 3, 1<br>Dice: 12; Pilots: 0, 0, 1, 1 | <span class="wrap">Game turn: 29; Rating: 6; Pilot: Hans-Joachim Marseille</span> |
 
 ## Notes
 

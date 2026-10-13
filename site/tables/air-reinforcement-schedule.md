@@ -12,36 +12,703 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 ## Table
 
-| Period | Game turns | Arrivals | Withdrawals |
-|---|---|---|---|
-| 1940, Sept IV (GT 2) | 2 | <span class="wrap">Count: 3; Aircraft: Fulmar, Count: 2; Aircraft: Hurricane I</span> | none |
-| Oct I (GT 3) | 3 | <span class="wrap">Count: 30; Aircraft: Blenheim I, Count: 6; Aircraft: Skua II</span> | Squadrons: 1; Role: cap |
-| Nov II (GT 8) | 8 | Count: 4; Aircraft: B17D | <span class="wrap">Squadrons: 2; Role: cap, Squadrons: 2; Role: bombing; Mark: \*\*</span> |
-| Dec I (GT 11) | 11 | <span class="wrap">Count: 12; Aircraft: Blenheim IV, Count: 40; Aircraft: Wellington I</span> | Squadrons: 1; Role: bombing |
-| 1941, Jan (GT 15...18) | 15–18 | <span class="wrap">Count: 44; Aircraft: Hurricane I, Count: 12; Aircraft: Blenheim I, Count: 1; Aircraft: Wellington I</span> | <span class="wrap">Squadrons: 1; Role: cap, Squadrons: 2; Role: bombing; Mark: \*\*</span> |
-| Feb (GT 19...22) | 19–22 | <span class="wrap">Count: 30; Aircraft: Hurricane I, Count: 24; Aircraft: Blenheim I, Count: 14; Aircraft: Blenheim IV, Count: 2; Aircraft: Maryland, Count: 2; Aircraft: Wellington I</span> | Squadrons: 1; Role: cap |
-| Mar (GT 23...26) | 23–26 | <span class="wrap">Count: 14; Aircraft: Blenheim IVF, Count: 13; Aircraft: Hurricane I, Count: 2; Aircraft: Tomahawk, Count: 21; Aircraft: Blenheim I, Count: 6; Aircraft: Maryland, Count: 6; Aircraft: Lysander, Count: 16; Aircraft: Wellington</span> | Squadrons: 1; Role: bombing |
-| Apr (GT 27...30) | 27–30 | <span class="wrap">Count: 66; Aircraft: Hurricane I, Count: 25; Aircraft: Tomahawk, Count: 18; Aircraft: Blenheim I, Count: 10; Aircraft: Blenheim IV, Count: 6; Aircraft: Maryland, Count: 6; Aircraft: Lysander I, Count: 13; Aircraft: Wellington I, Count: 14; Aircraft: Wellington IV</span> | Squadrons: 1; Role: cap |
-| May (GT 31...34) | 31–34 | <span class="wrap">Count: 16; Aircraft: Beaufighter IF, Count: 65; Aircraft: Hurricane I, Count: 21; Aircraft: Tomahawk, Count: 20; Aircraft: Blenheim I, Count: 9; Aircraft: Blenheim IV, Count: 7; Aircraft: Maryland, Count: 15; Aircraft: Wellington IV</span> | none |
-| Jun (GT 35...38) | 35–38 | <span class="wrap">Count: 5; Aircraft: Beaufighter IF, Count: 15; Aircraft: Blenheim IVF, Count: 5; Aircraft: Gladiator II, Count: 136; Aircraft: Hurricane I, Count: 41; Aircraft: Tomahawk, Count: 10; Aircraft: Blenheim I, Count: 10; Aircraft: Blenheim IV, Count: 6; Aircraft: Maryland, Count: 12; Aircraft: Lysander I, Count: 6; Aircraft: Wellington I</span> | <span class="wrap">Squadrons: 1; Role: cap, Squadrons: 1; Role: bombing</span> |
-| Jul (GT 39...42) | 39–42 | <span class="wrap">Count: 3; Aircraft: Gladiator II, Count: 32; Aircraft: Hurricane I, Count: 20; Aircraft: Tomahawk, Count: 15; Aircraft: Wildcat, Count: 12; Aircraft: Albacore, Count: 35; Aircraft: Blenheim I, Count: 50; Aircraft: Blenheim IV, Count: 12; Aircraft: Maryland, Count: 10; Aircraft: Wellington I, Count: 16; Aircraft: Wellington IV</span> | Squadrons: 1; Role: recon |
-| Aug (GT 43...46) | 43–46 | <span class="wrap">Count: 4; Aircraft: Beaufighter IF, Count: 2; Aircraft: Gladiator II, Count: 27; Aircraft: Hurricane I, Count: 67; Aircraft: Tomahawk, Count: 7; Aircraft: Beaufort I, Count: 22; Aircraft: Blenheim I, Count: 44; Aircraft: Blenheim IV, Count: 30; Aircraft: Maryland, Count: 14; Aircraft: Wellington IV</span> | Squadrons: 1; Role: bombing |
-| Sep (GT 47...50) | 47–50 | <span class="wrap">Count: 3; Aircraft: Beaufighter IF, Count: 13; Aircraft: Blenheim IVF, Count: 140; Aircraft: Hurricane I, Count: 20; Aircraft: Hurricane IIA, Count: 23; Aircraft: Tomahawk, Count: 2; Aircraft: Beaufort I, Count: 15; Aircraft: Blenheim I, Count: 10; Aircraft: Blenheim IV, Count: 3; Aircraft: Maryland, Count: 13; Aircraft: Wellington IV</span> | Squadrons: 1; Role: cap; Mark: \* |
-| Oct (GT 51-54) | 51–54 | <span class="wrap">Count: 8; Aircraft: Beaufighter IF, Count: 15; Aircraft: Fulmar, Count: 81; Aircraft: Hurricane I, Count: 16; Aircraft: Tomahawk, Count: 3; Aircraft: B17D, Count: 3; Aircraft: Beaufort I, Count: 10; Aircraft: Blenheim I, Count: 26; Aircraft: Blenheim IV, Count: 7; Aircraft: Boston III, Count: 2; Aircraft: Maryland, Count: 15; Aircraft: Wellington I</span> | none |
-| Nov (GT 55...58) | 55–58 | <span class="wrap">Count: 1; Aircraft: Beaufighter IF, Count: 40; Aircraft: Hurricane I, Count: 20; Aircraft: Hurricane IIA, Count: 62; Aircraft: Kittyhawk I, Count: 1; Aircraft: B17D, Count: 4; Aircraft: Baltimore I, Count: 4; Aircraft: Beaufort I, Count: 16; Aircraft: Blenheim IV, Count: 1; Aircraft: Bombay, Count: 23; Aircraft: Boston III, Count: 2; Aircraft: Maryland, Count: 17; Aircraft: Wellington I</span> | none |
-| Dec (GT 59...62) | 59–62 | <span class="wrap">Count: 32; Aircraft: Beaufighter IF, Count: 61; Aircraft: Hurricane I, Count: 32; Aircraft: Hurricane IIA, Count: 90; Aircraft: Kittyhawk I, Count: 45; Aircraft: Kittyhawk II, Count: 9; Aircraft: Baltimore I, Count: 1; Aircraft: Beaufort I, Count: 40; Aircraft: Blenheim I, Count: 20; Aircraft: Blenheim IV, Count: 32; Aircraft: Boston III, Count: 3; Aircraft: Maryland, Count: 1; Aircraft: Tiger Moth II, Count: 10; Aircraft: Wellington I, Count: 9; Aircraft: Wellington IV</span> | <span class="wrap">Squadrons: 2; Role: cap, Squadrons: 1; Role: bombing</span> |
-| 1942. Jan (GT 63...66) | 63–66 | <span class="wrap">Count: 3; Aircraft: Beaufighter IF, Count: 15; Aircraft: Blenheim IVF, Count: 96; Aircraft: Hurricane I, Count: 54; Aircraft: Hurricane IIA, Count: 36; Aircraft: Hurricane IIB, Count: 56; Aircraft: Kittyhawk I, Count: 45; Aircraft: Kittyhawk II, Count: 15; Aircraft: Kittyhawk III, Count: 4; Aircraft: Tomahawk, Count: 1; Aircraft: Caudron, Count: 4; Aircraft: B17D, Count: 4; Aircraft: B24, Count: 15; Aircraft: Baltimore I, Count: 2; Aircraft: Beaufort I, Count: 37; Aircraft: Blenheim IV, Count: 7; Aircraft: Boston III, Count: 3; Aircraft: Hudson, Count: 3; Aircraft: Lysander, Count: 18; Aircraft: Wellington IV</span> | Squadrons: 4; Role: bombing; Mark: \*\* |
-| Feb (GT 67...70) | 67–70 | <span class="wrap">Count: 21; Aircraft: Beaufighter IF, Count: 7; Aircraft: Blenheim IVF, Count: 15; Aircraft: Hurricane I, Count: 36; Aircraft: Hurricane IIA, Count: 21; Aircraft: Hurricane IIB, Count: 16; Aircraft: Hurricane IIC, Count: 30; Aircraft: Kittyhawk II, Count: 12; Aircraft: Kittyhawk III, Count: 30; Aircraft: Baltimore I, Count: 6; Aircraft: Beaufort I, Count: 4; Aircraft: Boston III, Count: 2; Aircraft: Maryland, Count: 2; Aircraft: Wellington I, Count: 30; Aircraft: Wellington IV</span> | <span class="wrap">Squadrons: 2; Role: cap, Squadrons: 2; Role: bombing; Mark: ‡</span> |
-| Mar (GT 71...74) | 71–74 | <span class="wrap">Count: 25; Aircraft: Beaufighter IF, Count: 18; Aircraft: Hurricane I, Count: 3; Aircraft: Hurricane IIA, Count: 38; Aircraft: Hurricane IIB, Count: 22; Aircraft: Hurricane IIC, Count: 30; Aircraft: Kittyhawk I, Count: 48; Aircraft: Kittyhawk II, Count: 30; Aircraft: Kittyhawk III, Count: 35; Aircraft: Spitfire VB, Count: 12; Aircraft: Anson I, Count: 46; Aircraft: Baltimore I, Count: 12; Aircraft: Beaufort I, Count: 10; Aircraft: Boston III, Count: 10; Aircraft: Hudson, Count: 1; Aircraft: Sunderland, Count: 30; Aircraft: Wellington I, Count: 60; Aircraft: Wellington IV</span> | none |
-| Apr (GT 75...78) | 75–78 | <span class="wrap">Count: 13; Aircraft: Beaufighter IF, Count: 5; Aircraft: Beaufighter VI, Count: 15; Aircraft: Hurricane IIA, Count: 60; Aircraft: Hurricane IIB, Count: 36; Aircraft: Hurricane IIC, Count: 11; Aircraft: Kittyhawk II, Count: 61; Aircraft: Spitfire VB, Count: 2; Aircraft: Caudron, Count: 4; Aircraft: Anson I, Count: 50; Aircraft: Baltimore I, Count: 5; Aircraft: Beaufort I, Count: 2; Aircraft: Boston III, Count: 13; Aircraft: Hudson, Count: 2; Aircraft: Potez, Count: 16; Aircraft: Wellington I, Count: 45; Aircraft: Wellington IV</span> | none |
-| May (GT 79...82) | 79–82 | <span class="wrap">Count: 3; Aircraft: Beaufighter IF, Count: 17; Aircraft: Beaufighter VI, Count: 13; Aircraft: Hurricane IID, Count: 16; Aircraft: Kittyhawk I, Count: 40; Aircraft: Kittyhawk III, Count: 96; Aircraft: Spitfire VB, Count: 3; Aircraft: Tomahawk, Count: 2; Aircraft: Dewoitine, Count: 22; Aircraft: Anson I, Count: 25; Aircraft: B17D, Count: 25; Aircraft: B24, Count: 42; Aircraft: Baltimore I, Count: 10; Aircraft: Beaufort I, Count: 23; Aircraft: Blenheim IV, Count: 42; Aircraft: Hudson, Count: 1; Aircraft: Maryland, Count: 57; Aircraft: Wellington IV</span> | Squadrons: 1; Role: cap |
-| Jun (GT 83...86) | 83–86 | <span class="wrap">Count: 31; Aircraft: Beaufighter VI, Count: 18; Aircraft: Hurricane IIA, Count: 36; Aircraft: Hurricane IIB, Count: 50; Aircraft: Hurricane IIC, Count: 16; Aircraft: Kittyhawk II, Count: 35; Aircraft: Kittyhawk III, Count: 59; Aircraft: Spitfire VB, Count: 14; Aircraft: Spitfire VC, Count: 26; Aircraft: Baltimore I, Count: 42; Aircraft: Blenheim IV, Count: 4; Aircraft: Beaufort I, Count: 5; Aircraft: Boston III, Count: 4; Aircraft: Hudson</span> | none |
-| Jul (GT 87...90) | 87–90 | <span class="wrap">Count: 4; Aircraft: Beaufighter IF, Count: 28; Aircraft: Beaufighter VI, Count: 18; Aircraft: Hurricane IIA, Count: 30; Aircraft: Hurricane IIB, Count: 30; Aircraft: Hurricane IIC, Count: 23; Aircraft: Kittyhawk I, Count: 22; Aircraft: Spitfire VB, Count: 59; Aircraft: Spitfire VC, Count: 4; Aircraft: Anson I, Count: 2; Aircraft: B24, Count: 8; Aircraft: Baltimore I, Count: 12; Aircraft: Beaufort I, Count: 136; Aircraft: Blenheim IV, Count: 24; Aircraft: Halifax II, Count: 42; Aircraft: Hudson, Count: 6; Aircraft: Wellington I, Count: 18; Aircraft: Wellington IV</span> | none |
-| Aug (GT 91...94) | 91–94 | <span class="wrap">Count: 49; Aircraft: Beaufighter VI, Count: 35; Aircraft: Hurricane IIA, Count: 12; Aircraft: Hurricane IIB, Count: 36; Aircraft: Hurricane IIC, Count: 36; Aircraft: Kittyhawk II, Count: 43; Aircraft: Kittyhawk III, Count: 30; Aircraft: Spitfire VB, Count: 42; Aircraft: Spitfire VC, Count: 1; Aircraft: Dewoitine, Count: 10; Aircraft: Anson I, Count: 15; Aircraft: B24, Count: 57; Aircraft: B25, Count: 19; Aircraft: B26, Count: 22; Aircraft: Beaufort I, Count: 101; Aircraft: Blenheim IV, Count: 2; Aircraft: Halifax II, Count: 83; Aircraft: Hudson, Count: 1; Aircraft: Tiger Moth II, Count: 35; Aircraft: Wellington IV</span> | <span class="wrap">Squadrons: 2; Role: cap; Mark: \*, Squadrons: 1; Role: bombing</span> |
-| Sep (GT 95...98) | 95–98 | <span class="wrap">Count: 1; Aircraft: Beaufighter IF, Count: 51; Aircraft: Beaufighter VI, Count: 20; Aircraft: Hurricane I, Count: 45; Aircraft: Hurricane IIA, Count: 40; Aircraft: Hurricane IIB, Count: 58; Aircraft: Hurricane IIC, Count: 30; Aircraft: Kittyhawk I, Count: 67; Aircraft: Kittyhawk II, Count: 50; Aircraft: Kittyhawk III, Count: 15; Aircraft: Spitfire VB, Count: 35; Aircraft: Spitfire VC, Count: 2; Aircraft: Caudron, Count: 12; Aircraft: Anson I, Count: 1; Aircraft: B24, Count: 30; Aircraft: B26, Count: 9; Aircraft: Baltimore I, Count: 11; Aircraft: Beaufort I, Count: 51; Aircraft: Blenheim IV, Count: 40; Aircraft: Hudson, Count: 1; Aircraft: Maryland, Count: 2; Aircraft: Wellington I, Count: 30; Aircraft: Wellington IV</span> | none |
-| Oct (GT 99...102) | 99–102 | <span class="wrap">Count: 36; Aircraft: Beaufighter VI, Count: 30; Aircraft: Hurricane IIB, Count: 18; Aircraft: Hurricane IIC, Count: 15; Aircraft: Hurricane IID, Count: 18; Aircraft: Kittyhawk II, Count: 40; Aircraft: Kittyhawk III, Count: 15; Aircraft: Spitfire VB, Count: 15; Aircraft: Spitfire VC, Count: 6; Aircraft: Anson I, Count: 26; Aircraft: B25, Count: 3; Aircraft: Beaufort I, Count: 15; Aircraft: Blenheim IV, Count: 12; Aircraft: Hudson, Count: 18; Aircraft: Wellington IV</span> | none |
-| Nov (GT 103...106) | 103–106 | <span class="wrap">Count: 21; Aircraft: Beaufighter VI, Count: 6; Aircraft: Hurricane IIB, Count: 12; Aircraft: Hurricane IIC, Count: 15; Aircraft: Hurricane IID, Count: 12; Aircraft: Kittyhawk III, Count: 30; Aircraft: Spitfire VC, Count: 6; Aircraft: Anson I, Count: 10; Aircraft: B25, Count: 18; Aircraft: B26, Count: 15; Aircraft: Blenheim IV, Count: 5; Aircraft: Hudson</span> | Squadrons: 2; Role: cap; Mark: \* |
-| Dec (GT 107...110) | 107–110 | <span class="wrap">Count: 2; Aircraft: Beaufighter VI, Count: 24; Aircraft: Hurricane IIB, Count: 18; Aircraft: Hurricane IIC, Count: 12; Aircraft: Kittyhawk III, Count: 15; Aircraft: Spitfire VC, Count: 15; Aircraft: Blenheim IV, Count: 8; Aircraft: Wellington IV</span> | none |
+### 1940, Sept IV (GT 2)
+
+- **Period:** 1940, Sept IV (GT 2)
+- **Game turns:** 2
+- **Withdrawals:** none
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 3 | Fulmar |
+| 2 | Hurricane I |
+
+### Oct I (GT 3)
+
+- **Period:** Oct I (GT 3)
+- **Game turns:** 3
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 30 | Blenheim I |
+| 6 | Skua II |
+
+#### Withdrawals
+
+| Squadrons | Role |
+|---|---|
+| 1 | cap |
+
+### Nov II (GT 8)
+
+- **Period:** Nov II (GT 8)
+- **Game turns:** 8
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 4 | B17D |
+
+#### Withdrawals
+
+| Squadrons | Role | Mark |
+|---|---|---|
+| 2 | cap |  |
+| 2 | bombing | \*\* |
+
+### Dec I (GT 11)
+
+- **Period:** Dec I (GT 11)
+- **Game turns:** 11
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 12 | Blenheim IV |
+| 40 | Wellington I |
+
+#### Withdrawals
+
+| Squadrons | Role |
+|---|---|
+| 1 | bombing |
+
+### 1941, Jan (GT 15...18)
+
+- **Period:** 1941, Jan (GT 15...18)
+- **Game turns:** 15–18
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 44 | Hurricane I |
+| 12 | Blenheim I |
+| 1 | Wellington I |
+
+#### Withdrawals
+
+| Squadrons | Role | Mark |
+|---|---|---|
+| 1 | cap |  |
+| 2 | bombing | \*\* |
+
+### Feb (GT 19...22)
+
+- **Period:** Feb (GT 19...22)
+- **Game turns:** 19–22
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 30 | Hurricane I |
+| 24 | Blenheim I |
+| 14 | Blenheim IV |
+| 2 | Maryland |
+| 2 | Wellington I |
+
+#### Withdrawals
+
+| Squadrons | Role |
+|---|---|
+| 1 | cap |
+
+### Mar (GT 23...26)
+
+- **Period:** Mar (GT 23...26)
+- **Game turns:** 23–26
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 14 | Blenheim IVF |
+| 13 | Hurricane I |
+| 2 | Tomahawk |
+| 21 | Blenheim I |
+| 6 | Maryland |
+| 6 | Lysander |
+| 16 | Wellington |
+
+#### Withdrawals
+
+| Squadrons | Role |
+|---|---|
+| 1 | bombing |
+
+### Apr (GT 27...30)
+
+- **Period:** Apr (GT 27...30)
+- **Game turns:** 27–30
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 66 | Hurricane I |
+| 25 | Tomahawk |
+| 18 | Blenheim I |
+| 10 | Blenheim IV |
+| 6 | Maryland |
+| 6 | Lysander I |
+| 13 | Wellington I |
+| 14 | Wellington IV |
+
+#### Withdrawals
+
+| Squadrons | Role |
+|---|---|
+| 1 | cap |
+
+### May (GT 31...34)
+
+- **Period:** May (GT 31...34)
+- **Game turns:** 31–34
+- **Withdrawals:** none
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 16 | Beaufighter IF |
+| 65 | Hurricane I |
+| 21 | Tomahawk |
+| 20 | Blenheim I |
+| 9 | Blenheim IV |
+| 7 | Maryland |
+| 15 | Wellington IV |
+
+### Jun (GT 35...38)
+
+- **Period:** Jun (GT 35...38)
+- **Game turns:** 35–38
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 5 | Beaufighter IF |
+| 15 | Blenheim IVF |
+| 5 | Gladiator II |
+| 136 | Hurricane I |
+| 41 | Tomahawk |
+| 10 | Blenheim I |
+| 10 | Blenheim IV |
+| 6 | Maryland |
+| 12 | Lysander I |
+| 6 | Wellington I |
+
+#### Withdrawals
+
+| Squadrons | Role |
+|---|---|
+| 1 | cap |
+| 1 | bombing |
+
+### Jul (GT 39...42)
+
+- **Period:** Jul (GT 39...42)
+- **Game turns:** 39–42
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 3 | Gladiator II |
+| 32 | Hurricane I |
+| 20 | Tomahawk |
+| 15 | Wildcat |
+| 12 | Albacore |
+| 35 | Blenheim I |
+| 50 | Blenheim IV |
+| 12 | Maryland |
+| 10 | Wellington I |
+| 16 | Wellington IV |
+
+#### Withdrawals
+
+| Squadrons | Role |
+|---|---|
+| 1 | recon |
+
+### Aug (GT 43...46)
+
+- **Period:** Aug (GT 43...46)
+- **Game turns:** 43–46
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 4 | Beaufighter IF |
+| 2 | Gladiator II |
+| 27 | Hurricane I |
+| 67 | Tomahawk |
+| 7 | Beaufort I |
+| 22 | Blenheim I |
+| 44 | Blenheim IV |
+| 30 | Maryland |
+| 14 | Wellington IV |
+
+#### Withdrawals
+
+| Squadrons | Role |
+|---|---|
+| 1 | bombing |
+
+### Sep (GT 47...50)
+
+- **Period:** Sep (GT 47...50)
+- **Game turns:** 47–50
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 3 | Beaufighter IF |
+| 13 | Blenheim IVF |
+| 140 | Hurricane I |
+| 20 | Hurricane IIA |
+| 23 | Tomahawk |
+| 2 | Beaufort I |
+| 15 | Blenheim I |
+| 10 | Blenheim IV |
+| 3 | Maryland |
+| 13 | Wellington IV |
+
+#### Withdrawals
+
+| Squadrons | Role | Mark |
+|---|---|---|
+| 1 | cap | \* |
+
+### Oct (GT 51-54)
+
+- **Period:** Oct (GT 51-54)
+- **Game turns:** 51–54
+- **Withdrawals:** none
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 8 | Beaufighter IF |
+| 15 | Fulmar |
+| 81 | Hurricane I |
+| 16 | Tomahawk |
+| 3 | B17D |
+| 3 | Beaufort I |
+| 10 | Blenheim I |
+| 26 | Blenheim IV |
+| 7 | Boston III |
+| 2 | Maryland |
+| 15 | Wellington I |
+
+### Nov (GT 55...58)
+
+- **Period:** Nov (GT 55...58)
+- **Game turns:** 55–58
+- **Withdrawals:** none
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 1 | Beaufighter IF |
+| 40 | Hurricane I |
+| 20 | Hurricane IIA |
+| 62 | Kittyhawk I |
+| 1 | B17D |
+| 4 | Baltimore I |
+| 4 | Beaufort I |
+| 16 | Blenheim IV |
+| 1 | Bombay |
+| 23 | Boston III |
+| 2 | Maryland |
+| 17 | Wellington I |
+
+### Dec (GT 59...62)
+
+- **Period:** Dec (GT 59...62)
+- **Game turns:** 59–62
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 32 | Beaufighter IF |
+| 61 | Hurricane I |
+| 32 | Hurricane IIA |
+| 90 | Kittyhawk I |
+| 45 | Kittyhawk II |
+| 9 | Baltimore I |
+| 1 | Beaufort I |
+| 40 | Blenheim I |
+| 20 | Blenheim IV |
+| 32 | Boston III |
+| 3 | Maryland |
+| 1 | Tiger Moth II |
+| 10 | Wellington I |
+| 9 | Wellington IV |
+
+#### Withdrawals
+
+| Squadrons | Role |
+|---|---|
+| 2 | cap |
+| 1 | bombing |
+
+### 1942. Jan (GT 63...66)
+
+- **Period:** 1942. Jan (GT 63...66)
+- **Game turns:** 63–66
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 3 | Beaufighter IF |
+| 15 | Blenheim IVF |
+| 96 | Hurricane I |
+| 54 | Hurricane IIA |
+| 36 | Hurricane IIB |
+| 56 | Kittyhawk I |
+| 45 | Kittyhawk II |
+| 15 | Kittyhawk III |
+| 4 | Tomahawk |
+| 1 | Caudron |
+| 4 | B17D |
+| 4 | B24 |
+| 15 | Baltimore I |
+| 2 | Beaufort I |
+| 37 | Blenheim IV |
+| 7 | Boston III |
+| 3 | Hudson |
+| 3 | Lysander |
+| 18 | Wellington IV |
+
+#### Withdrawals
+
+| Squadrons | Role | Mark |
+|---|---|---|
+| 4 | bombing | \*\* |
+
+### Feb (GT 67...70)
+
+- **Period:** Feb (GT 67...70)
+- **Game turns:** 67–70
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 21 | Beaufighter IF |
+| 7 | Blenheim IVF |
+| 15 | Hurricane I |
+| 36 | Hurricane IIA |
+| 21 | Hurricane IIB |
+| 16 | Hurricane IIC |
+| 30 | Kittyhawk II |
+| 12 | Kittyhawk III |
+| 30 | Baltimore I |
+| 6 | Beaufort I |
+| 4 | Boston III |
+| 2 | Maryland |
+| 2 | Wellington I |
+| 30 | Wellington IV |
+
+#### Withdrawals
+
+| Squadrons | Role | Mark |
+|---|---|---|
+| 2 | cap |  |
+| 2 | bombing | ‡ |
+
+### Mar (GT 71...74)
+
+- **Period:** Mar (GT 71...74)
+- **Game turns:** 71–74
+- **Withdrawals:** none
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 25 | Beaufighter IF |
+| 18 | Hurricane I |
+| 3 | Hurricane IIA |
+| 38 | Hurricane IIB |
+| 22 | Hurricane IIC |
+| 30 | Kittyhawk I |
+| 48 | Kittyhawk II |
+| 30 | Kittyhawk III |
+| 35 | Spitfire VB |
+| 12 | Anson I |
+| 46 | Baltimore I |
+| 12 | Beaufort I |
+| 10 | Boston III |
+| 10 | Hudson |
+| 1 | Sunderland |
+| 30 | Wellington I |
+| 60 | Wellington IV |
+
+### Apr (GT 75...78)
+
+- **Period:** Apr (GT 75...78)
+- **Game turns:** 75–78
+- **Withdrawals:** none
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 13 | Beaufighter IF |
+| 5 | Beaufighter VI |
+| 15 | Hurricane IIA |
+| 60 | Hurricane IIB |
+| 36 | Hurricane IIC |
+| 11 | Kittyhawk II |
+| 61 | Spitfire VB |
+| 2 | Caudron |
+| 4 | Anson I |
+| 50 | Baltimore I |
+| 5 | Beaufort I |
+| 2 | Boston III |
+| 13 | Hudson |
+| 2 | Potez |
+| 16 | Wellington I |
+| 45 | Wellington IV |
+
+### May (GT 79...82)
+
+- **Period:** May (GT 79...82)
+- **Game turns:** 79–82
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 3 | Beaufighter IF |
+| 17 | Beaufighter VI |
+| 13 | Hurricane IID |
+| 16 | Kittyhawk I |
+| 40 | Kittyhawk III |
+| 96 | Spitfire VB |
+| 3 | Tomahawk |
+| 2 | Dewoitine |
+| 22 | Anson I |
+| 25 | B17D |
+| 25 | B24 |
+| 42 | Baltimore I |
+| 10 | Beaufort I |
+| 23 | Blenheim IV |
+| 42 | Hudson |
+| 1 | Maryland |
+| 57 | Wellington IV |
+
+#### Withdrawals
+
+| Squadrons | Role |
+|---|---|
+| 1 | cap |
+
+### Jun (GT 83...86)
+
+- **Period:** Jun (GT 83...86)
+- **Game turns:** 83–86
+- **Withdrawals:** none
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 31 | Beaufighter VI |
+| 18 | Hurricane IIA |
+| 36 | Hurricane IIB |
+| 50 | Hurricane IIC |
+| 16 | Kittyhawk II |
+| 35 | Kittyhawk III |
+| 59 | Spitfire VB |
+| 14 | Spitfire VC |
+| 26 | Baltimore I |
+| 42 | Blenheim IV |
+| 4 | Beaufort I |
+| 5 | Boston III |
+| 4 | Hudson |
+
+### Jul (GT 87...90)
+
+- **Period:** Jul (GT 87...90)
+- **Game turns:** 87–90
+- **Withdrawals:** none
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 4 | Beaufighter IF |
+| 28 | Beaufighter VI |
+| 18 | Hurricane IIA |
+| 30 | Hurricane IIB |
+| 30 | Hurricane IIC |
+| 23 | Kittyhawk I |
+| 22 | Spitfire VB |
+| 59 | Spitfire VC |
+| 4 | Anson I |
+| 2 | B24 |
+| 8 | Baltimore I |
+| 12 | Beaufort I |
+| 136 | Blenheim IV |
+| 24 | Halifax II |
+| 42 | Hudson |
+| 6 | Wellington I |
+| 18 | Wellington IV |
+
+### Aug (GT 91...94)
+
+- **Period:** Aug (GT 91...94)
+- **Game turns:** 91–94
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 49 | Beaufighter VI |
+| 35 | Hurricane IIA |
+| 12 | Hurricane IIB |
+| 36 | Hurricane IIC |
+| 36 | Kittyhawk II |
+| 43 | Kittyhawk III |
+| 30 | Spitfire VB |
+| 42 | Spitfire VC |
+| 1 | Dewoitine |
+| 10 | Anson I |
+| 15 | B24 |
+| 57 | B25 |
+| 19 | B26 |
+| 22 | Beaufort I |
+| 101 | Blenheim IV |
+| 2 | Halifax II |
+| 83 | Hudson |
+| 1 | Tiger Moth II |
+| 35 | Wellington IV |
+
+#### Withdrawals
+
+| Squadrons | Role | Mark |
+|---|---|---|
+| 2 | cap | \* |
+| 1 | bombing |  |
+
+### Sep (GT 95...98)
+
+- **Period:** Sep (GT 95...98)
+- **Game turns:** 95–98
+- **Withdrawals:** none
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 1 | Beaufighter IF |
+| 51 | Beaufighter VI |
+| 20 | Hurricane I |
+| 45 | Hurricane IIA |
+| 40 | Hurricane IIB |
+| 58 | Hurricane IIC |
+| 30 | Kittyhawk I |
+| 67 | Kittyhawk II |
+| 50 | Kittyhawk III |
+| 15 | Spitfire VB |
+| 35 | Spitfire VC |
+| 2 | Caudron |
+| 12 | Anson I |
+| 1 | B24 |
+| 30 | B26 |
+| 9 | Baltimore I |
+| 11 | Beaufort I |
+| 51 | Blenheim IV |
+| 40 | Hudson |
+| 1 | Maryland |
+| 2 | Wellington I |
+| 30 | Wellington IV |
+
+### Oct (GT 99...102)
+
+- **Period:** Oct (GT 99...102)
+- **Game turns:** 99–102
+- **Withdrawals:** none
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 36 | Beaufighter VI |
+| 30 | Hurricane IIB |
+| 18 | Hurricane IIC |
+| 15 | Hurricane IID |
+| 18 | Kittyhawk II |
+| 40 | Kittyhawk III |
+| 15 | Spitfire VB |
+| 15 | Spitfire VC |
+| 6 | Anson I |
+| 26 | B25 |
+| 3 | Beaufort I |
+| 15 | Blenheim IV |
+| 12 | Hudson |
+| 18 | Wellington IV |
+
+### Nov (GT 103...106)
+
+- **Period:** Nov (GT 103...106)
+- **Game turns:** 103–106
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 21 | Beaufighter VI |
+| 6 | Hurricane IIB |
+| 12 | Hurricane IIC |
+| 15 | Hurricane IID |
+| 12 | Kittyhawk III |
+| 30 | Spitfire VC |
+| 6 | Anson I |
+| 10 | B25 |
+| 18 | B26 |
+| 15 | Blenheim IV |
+| 5 | Hudson |
+
+#### Withdrawals
+
+| Squadrons | Role | Mark |
+|---|---|---|
+| 2 | cap | \* |
+
+### Dec (GT 107...110)
+
+- **Period:** Dec (GT 107...110)
+- **Game turns:** 107–110
+- **Withdrawals:** none
+
+#### Arrivals
+
+| Count | Aircraft |
+|---|---|
+| 2 | Beaufighter VI |
+| 24 | Hurricane IIB |
+| 18 | Hurricane IIC |
+| 12 | Kittyhawk III |
+| 15 | Spitfire VC |
+| 15 | Blenheim IV |
+| 8 | Wellington IV |
 
 ## Notes
 

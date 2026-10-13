@@ -32,12 +32,10 @@ Used in [Air Game — flight and maintenance](/rules/air/30-flight-and-maintenan
 
 ## By plane
 
-| | |
-|---|---|
-| **CW** | 2–8 |
-| **German** | 2–7 |
-| **Italian** | 2–6 |
-| **Other squadron add** | 2 |
+- **CW:** 2–8
+- **German:** 2–7
+- **Italian:** 2–6
+- **Other squadron add:** 2
 
 ## Notes
 

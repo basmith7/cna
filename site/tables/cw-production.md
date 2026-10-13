@@ -12,31 +12,25 @@ Used in [Organisation](/rules/70-organisation).
 
 ## Trucks
 
-| | |
-|---|---|
-| **Arrive turns later** | 4 |
-| **Alexandria max share** | 0.25 |
+- **Arrive turns later:** 4
+- **Alexandria max share:** 0.25
 
 ### Table
 
 | Die | Turns 1 30 | Turns 31 107 |
 |---|---|---|
-| 1 | Light: 0; Medium: 10; Heavy: 0 | Light: 3; Medium: 30; Heavy: 3 |
-| 2 | Light: 2; Medium: 12; Heavy: 0 | Light: 5; Medium: 38; Heavy: 4 |
-| 3 | Light: 3; Medium: 15; Heavy: 2 | Light: 9; Medium: 44; Heavy: 6 |
-| 4 | Light: 4; Medium: 15; Heavy: 3 | Light: 11; Medium: 48; Heavy: 8 |
-| 5 | Light: 4; Medium: 18; Heavy: 3 | Light: 13; Medium: 55; Heavy: 10 |
-| 6 | Light: 5; Medium: 20; Heavy: 4 | Light: 14; Medium: 60; Heavy: 13 |
+| 1 | Light: 0<br>Medium: 10<br>Heavy: 0 | Light: 3<br>Medium: 30<br>Heavy: 3 |
+| 2 | Light: 2<br>Medium: 12<br>Heavy: 0 | Light: 5<br>Medium: 38<br>Heavy: 4 |
+| 3 | Light: 3<br>Medium: 15<br>Heavy: 2 | Light: 9<br>Medium: 44<br>Heavy: 6 |
+| 4 | Light: 4<br>Medium: 15<br>Heavy: 3 | Light: 11<br>Medium: 48<br>Heavy: 8 |
+| 5 | Light: 4<br>Medium: 18<br>Heavy: 3 | Light: 13<br>Medium: 55<br>Heavy: 10 |
+| 6 | Light: 5<br>Medium: 20<br>Heavy: 4 | Light: 14<br>Medium: 60<br>Heavy: 13 |
 
 ## Infantry
 
-| | |
-|---|---|
-| **Arrive turns later** | 4 |
+- **Arrive turns later:** 4
 
-| | |
-|---|---|
-| **Bands** | 3, 30, 31, 46, 47, 102, 103, 107 |
+- **Bands:** 3, 30, 31, 46, 47, 102, 103, 107
 
 ### Table
 
@@ -56,9 +50,7 @@ Used in [Organisation](/rules/70-organisation).
 
 ## Chart
 
-| | |
-|---|---|
-| **Tiger convoy turn** | 32 |
+- **Tiger convoy turn:** 32
 
 ### Table
 

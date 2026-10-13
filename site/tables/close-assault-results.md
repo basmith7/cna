@@ -14,8 +14,8 @@ Used in [Combat](/rules/60-combat).
 - **E-008** — Defender losses, +4 column, 10 % row: the printed range 24-45 overlaps the 15 % row; read 34-45 (SPI September 1979 errata)
 :::
 
-::: warning Known gap
-<span class="wrap">Side: defender; Column: +2; Readings: 34–36</span>
+::: warning Gap in the printed chart
+As printed, no result covers dice readings 34–36 (side defender, column +2). The notes below say how this edition handles it.
 :::
 
 ## Losses

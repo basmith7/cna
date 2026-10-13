@@ -10,24 +10,22 @@ aside: false
 
 Used in [Abstract logistics and air](/rules/95-abstract-logistics-and-air).
 
-| | |
-|---|---|
-| **Routes** | 1–6 |
+- **Routes:** 1–6
 
 ## Table
 
 | Bomb points | Thresholds |
 |---|---|
-| 21–40 | <span class="wrap">Map: C; Column: 1, Map: D; Column: 1, Map: D; Column: 1, Map: E; Column: 1, Map: E; Column: 11, Map: D; Column: 11</span> |
-| 41–80 | <span class="wrap">Map: B; Column: 16, Map: C; Column: 16, Map: C; Column: 21, Map: D; Column: 21, Map: E; Column: 1, Map: D; Column: 1</span> |
-| 81–120 | <span class="wrap">Map: B; Column: 1, Map: C; Column: 1, Map: C; Column: 11, Map: D; Column: 11, Map: D; Column: 21, Map: C; Column: 21</span> |
-| 121–160 | <span class="wrap">Map: A; Column: 18, Map: B; Column: 16, Map: C; Column: 1, Map: D; Column: 1, Map: D; Column: 11, Map: C; Column: 11</span> |
-| 161–200 | <span class="wrap">—, Map: B; Column: 1, Map: B; Column: 26, Map: C; Column: 21, Map: D; Column: 1, Map: C; Column: 1</span> |
-| 201–260 | <span class="wrap">—, Map: A; Column: 18, Map: B; Column: 20, Map: C; Column: 11, Map: C; Column: 21, Map: B; Column: 26</span> |
-| 261–320 | <span class="wrap">—, —, Map: B; Column: 10, Map: C; Column: 1, Map: C; Column: 11, Map: B; Column: 20</span> |
-| 321–390 | <span class="wrap">—, —, Map: B; Column: 1, Map: B; Column: 26, Map: C; Column: 1, Map: B; Column: 10</span> |
-| 391–470 | <span class="wrap">—, —, Map: A; Column: 18, Map: B; Column: 20, Map: B; Column: 26, Map: B; Column: 1</span> |
-| 471+ | <span class="wrap">—, —, —, Map: B; Column: 10, Map: B; Column: 20, Map: A; Column: 18</span> |
+| 21–40 | Map: C; Column: 1<br>Map: D; Column: 1<br>Map: D; Column: 1<br>Map: E; Column: 1<br>Map: E; Column: 11<br>Map: D; Column: 11 |
+| 41–80 | Map: B; Column: 16<br>Map: C; Column: 16<br>Map: C; Column: 21<br>Map: D; Column: 21<br>Map: E; Column: 1<br>Map: D; Column: 1 |
+| 81–120 | Map: B; Column: 1<br>Map: C; Column: 1<br>Map: C; Column: 11<br>Map: D; Column: 11<br>Map: D; Column: 21<br>Map: C; Column: 21 |
+| 121–160 | Map: A; Column: 18<br>Map: B; Column: 16<br>Map: C; Column: 1<br>Map: D; Column: 1<br>Map: D; Column: 11<br>Map: C; Column: 11 |
+| 161–200 | —<br>Map: B; Column: 1<br>Map: B; Column: 26<br>Map: C; Column: 21<br>Map: D; Column: 1<br>Map: C; Column: 1 |
+| 201–260 | —<br>Map: A; Column: 18<br>Map: B; Column: 20<br>Map: C; Column: 11<br>Map: C; Column: 21<br>Map: B; Column: 26 |
+| 261–320 | —<br>—<br>Map: B; Column: 10<br>Map: C; Column: 1<br>Map: C; Column: 11<br>Map: B; Column: 20 |
+| 321–390 | —<br>—<br>Map: B; Column: 1<br>Map: B; Column: 26<br>Map: C; Column: 1<br>Map: B; Column: 10 |
+| 391–470 | —<br>—<br>Map: A; Column: 18<br>Map: B; Column: 20<br>Map: B; Column: 26<br>Map: B; Column: 1 |
+| 471+ | —<br>—<br>—<br>Map: B; Column: 10<br>Map: B; Column: 20<br>Map: A; Column: 18 |
 
 ## Notes
 

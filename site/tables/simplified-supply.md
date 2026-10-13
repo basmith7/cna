@@ -12,10 +12,8 @@ Used in [Abstract logistics and air](/rules/95-abstract-logistics-and-air), [Air
 
 ## Axis
 
-| | |
-|---|---|
-| **Letters** | A, B, C, D, E, F, G |
-| **Arrive turns later** | 2 |
+- **Letters:** A, B, C, D, E, F, G
+- **Arrive turns later:** 2
 
 ### Table
 
@@ -30,9 +28,7 @@ Used in [Abstract logistics and air](/rules/95-abstract-logistics-and-air), [Air
 
 ## CW
 
-| | |
-|---|---|
-| **Arrive turns later** | 4 |
+- **Arrive turns later:** 4
 
 ### Periods
 

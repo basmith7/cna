@@ -10,9 +10,7 @@ aside: false
 
 Used in [Ports and shipping](/rules/logistics/50-ports-and-shipping).
 
-| | |
-|---|---|
-| **Round up to** | 1000 |
+- **Round up to:** 1000
 
 ## Table
 

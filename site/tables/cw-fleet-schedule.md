@@ -10,40 +10,36 @@ aside: false
 
 Used in [Special rules](/rules/90-special).
 
-| | |
-|---|---|
-| **Default port** | alexandria |
+- **Default port:** alexandria
 
 ## Malta options
 
-| | |
-|---|---|
-| **One-of-cruisers** | 1 |
-| **Two-of-destroyers** | 2 |
+- **One-of-cruisers:** 1
+- **Two-of-destroyers:** 2
 
 ## Table
 
 | Ship | Type | Arrival | Malta option |
 |---|---|---|---|
-| valiant | BB | Turn: 1; Stage: 1 |  |
-| arethusa | CL | Turn: 1; Stage: 1 | one of cruisers |
-| dido | CLAA | Turn: 1; Stage: 1 | one of cruisers |
-| euryalus | CLAA | Turn: 1; Stage: 1 | one of cruisers |
-| airedale | DD | Turn: 1; Stage: 1 | two of destroyers |
-| bedouin | DD | Turn: 1; Stage: 1 | two of destroyers |
-| jervis | DD | Turn: 1; Stage: 1 | two of destroyers |
-| lance | DD | Turn: 1; Stage: 1 | two of destroyers |
-| ledbury | DD | Turn: 1; Stage: 1 | two of destroyers |
-| mohawk | DD | Turn: 1; Stage: 1 | two of destroyers |
-| nubian | DD | Turn: 1; Stage: 1 | two of destroyers |
-| barham | BB | Turn: 8; Stage: 3 |  |
-| york | CA | Turn: 8; Stage: 3 |  |
-| ajax | CL | Turn: 8; Stage: 3 |  |
-| marne | DD | Turn: 8; Stage: 3 |  |
-| partridge | DD | Turn: 8; Stage: 3 |  |
-| queen elizabeth | BB | Turn: 33; Stage: 1 |  |
-| fiji | CA | Turn: 33; Stage: 1 |  |
-| naiad | CLAA | Turn: 33; Stage: 1 |  |
+| valiant | BB | Turn: 1<br>Stage: 1 |  |
+| arethusa | CL | Turn: 1<br>Stage: 1 | one of cruisers |
+| dido | CLAA | Turn: 1<br>Stage: 1 | one of cruisers |
+| euryalus | CLAA | Turn: 1<br>Stage: 1 | one of cruisers |
+| airedale | DD | Turn: 1<br>Stage: 1 | two of destroyers |
+| bedouin | DD | Turn: 1<br>Stage: 1 | two of destroyers |
+| jervis | DD | Turn: 1<br>Stage: 1 | two of destroyers |
+| lance | DD | Turn: 1<br>Stage: 1 | two of destroyers |
+| ledbury | DD | Turn: 1<br>Stage: 1 | two of destroyers |
+| mohawk | DD | Turn: 1<br>Stage: 1 | two of destroyers |
+| nubian | DD | Turn: 1<br>Stage: 1 | two of destroyers |
+| barham | BB | Turn: 8<br>Stage: 3 |  |
+| york | CA | Turn: 8<br>Stage: 3 |  |
+| ajax | CL | Turn: 8<br>Stage: 3 |  |
+| marne | DD | Turn: 8<br>Stage: 3 |  |
+| partridge | DD | Turn: 8<br>Stage: 3 |  |
+| queen elizabeth | BB | Turn: 33<br>Stage: 1 |  |
+| fiji | CA | Turn: 33<br>Stage: 1 |  |
+| naiad | CLAA | Turn: 33<br>Stage: 1 |  |
 
 ## Notes
 

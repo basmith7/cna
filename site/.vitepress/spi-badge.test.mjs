@@ -77,3 +77,8 @@ test('variant badge links to the variant file', () => {
   const html = md.render('::: variant V-001 — San Giorgio as a live gun battery\n')
   assert.match(html, /<p class="spi-badge spi-variant">Variant <a href="\/cna\/rulings\/V-001">V-001<\/a> — San Giorgio as a live gun battery<\/p>/)
 })
+
+test('a badge reason renders its markdown links', () => {
+  const html = md.render('::: spi-omit 2.0 — reduced to [Roles](#roles)\n')
+  assert.match(html, /Not restated: SPI 2\.0 — reduced to <a href="#roles">Roles<\/a>/)
+})

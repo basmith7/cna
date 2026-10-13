@@ -103,8 +103,13 @@ def _int_run(xs):
             and xs == list(range(xs[0], xs[0] + len(xs))))
 
 
-def fmt(v):
-    """One value as cell text (unescaped)."""
+NATIONS = {"cw": "Commonwealth", "it": "Italian", "de": "German"}
+
+
+def fmt(v, key=None):
+    """One value as cell text (unescaped). `key` names the field: nation codes read as names."""
+    if key in ("nation", "side") and v in NATIONS:
+        return NATIONS[v]
     if v is None:
         return "—"
     if isinstance(v, bool):
@@ -134,7 +139,7 @@ def fmt(v):
             if b is None:
                 return f"≥ {a}"
             return f"{a} to {b}"
-        return "; ".join(f"{label(k)}: {fmt(x)}" for k, x in v.items() if k != "sources")
+        return "; ".join(f"{label(k)}: {fmt(x, k)}" for k, x in v.items() if k != "sources")
     return str(v)
 
 
@@ -154,8 +159,9 @@ def prose(text):
 
 
 class Ctx:
-    def __init__(self, marks, errata_href):
+    def __init__(self, marks, errata_href, columns=None):
         self.marks, self.href = marks, errata_href
+        self.columns = columns if isinstance(columns, list) else []   # the table's column definitions
 
     def mark(self, pointer):
         """Errata ids whose patch path is this pointer, inside it, or encloses it."""
@@ -164,8 +170,14 @@ class Ctx:
         return "".join(f' <a class="errata-mark" href="{self.href}" title="Corrected by errata {i}">{i}</a>'
                        for i in ids)
 
-    def cell(self, value, pointer):
-        return cell(fmt(value)) + self.mark(pointer)
+    def cell(self, value, pointer, key=None):
+        if isinstance(value, dict) and not _leafish(value):   # one "Label: value" per line
+            text = "<br>".join(cell(f"{label(k)}: {fmt(x, k)}") for k, x in value.items() if k != "sources")
+        elif isinstance(value, list) and any(isinstance(x, (dict, list)) and not _leafish(x) for x in value):
+            text = "<br>".join(cell(fmt(x)) for x in value)               # one object per line
+        else:
+            text = cell(fmt(value, key))
+        return text + self.mark(pointer)
 
 
 def _esc_ptr(k):
@@ -181,10 +193,24 @@ def _grid(rows, base, ctx, columns=None):
             if k not in keys and k not in ("sources", "notes"):
                 keys.append(k)
     has_notes = any(r.get("notes") for r in rows)
-    head = [label(k) for k in keys] + (["Notes"] if has_notes else [])
+    # A field holding one value per table column (a dice row across the chart) spreads across
+    # those columns, headed by the column definitions' first value.
+    n = len(ctx.columns)
+    spread = {k for k in keys if n > 4 and all(isinstance(r.get(k), list) and len(r[k]) == n for r in rows)}
+    first = next(iter(ctx.columns[0]), "") if n and isinstance(ctx.columns[0], dict) else ""
+    col_heads = [cell(fmt(next(iter(c.values())))) if isinstance(c, dict) else cell(fmt(c)) for c in ctx.columns]
+    head = []
+    for k in keys:   # "Bomb 1–20 | 21–40 | …": the first column names what the columns count
+        head += [f"{label(first)} {h}" if j == 0 else h for j, h in enumerate(col_heads)] if k in spread else [label(k)]
+    head += ["Notes"] if has_notes else []
     out = ["| " + " | ".join(head) + " |", "|" + "---|" * len(head)]
     for i, r in enumerate(rows):
-        cells = [ctx.cell(r.get(k), f"{base}/{i}/{_esc_ptr(k)}") if k in r else "" for k in keys]
+        cells = []
+        for k in keys:
+            if k in spread:
+                cells += [ctx.cell(x, f"{base}/{i}/{_esc_ptr(k)}/{j}") for j, x in enumerate(r[k])]
+            else:
+                cells.append(ctx.cell(r.get(k), f"{base}/{i}/{_esc_ptr(k)}", k) if k in r else "")
         if has_notes:
             cells.append(cell(" ".join(r.get("notes") or [])))
         out.append("| " + " | ".join(cells) + " |")
@@ -199,7 +225,7 @@ def _pivot(rows, columns, base, ctx):
     label_keys = [k for k in rows[0] if k not in meta and k != value_key]
     order, grid = [], {}
     for i, r in enumerate(rows):
-        lab = tuple(fmt(r.get(k)) for k in label_keys)
+        lab = tuple(fmt(r.get(k), k) for k in label_keys)
         if lab not in grid:
             order.append(lab)
             grid[lab] = {}
@@ -208,12 +234,31 @@ def _pivot(rows, columns, base, ctx):
     out = [f"*Each cell: {label(value_key).lower()}.*", "",
            "| " + " | ".join(head) + " |", "|" + "---|" * len(head)]
     for lab in order:
-        out.append("| " + " | ".join([cell(x) for x in lab] + [grid[lab].get(c, "") for c in col_ids]) + " |")
+        out.append("| " + " | ".join([cell(x) for x in lab] + [grid[lab].get(c, "—") for c in col_ids]) + " |")
     return out
 
 
+def _flat(v):
+    return isinstance(v, dict) and all(_leafish(x) for x in v.values())
+
+
+def _cellish(v, depth=0):
+    """Fits in one table cell, one line per item: leaves, small objects of leaves, short lists of
+    those (alternatives), nested at most three deep. A list of objects that themselves hold a list
+    longer than four (a dice row across columns, say) is a table of its own, not a cell."""
+    if isinstance(v, list) and len(v) > 4 and depth > 1:
+        return False                        # a row of values across columns: tabular
+    if _leafish(v):
+        return True
+    if depth >= 3 or v is None:
+        return v is None
+    if isinstance(v, dict):
+        return all(_cellish(x, depth + 1) for x in v.values())
+    return isinstance(v, list) and len(v) <= 20 and all(x is None or _cellish(x, depth + 1) for x in v)
+
+
 def _is_matrix(v):
-    return (isinstance(v, dict) and len(v) > 1 and all(isinstance(x, dict) for x in v.values())
+    return (isinstance(v, dict) and len(v) > 1 and all(isinstance(x, dict) and not _leafish(x) for x in v.values())
             and not any(isinstance(y, (dict, list)) and not _leafish(y)
                         for x in v.values() for y in x.values()))
 
@@ -248,6 +293,14 @@ def _block(key, value, base, ctx, level, siblings):
     title = label(key)
     h = "#" * min(level, 6)
     if isinstance(value, list) and value and all(isinstance(r, dict) and not _leafish(r) for r in value):
+        if any(not _cellish(x) for r in value for k, x in r.items() if k not in ("sources", "notes")):
+            # rows that hold tables of their own: one subsection per row
+            out = [f"{h} {title}", ""]
+            for i, r in enumerate(value):
+                name = " · ".join(fmt(x, k) for k, x in r.items()
+                                  if k not in ("sources", "notes") and _leafish(x) and not isinstance(x, (dict, list)))
+                out += _record(name or f"{title} {i + 1}", r, f"{ptr}/{i}", ctx, level + 1)
+            return out
         cols = siblings.get("columns")
         if (key != "columns" and isinstance(cols, list) and cols and all(isinstance(c, dict) and "id" in c for c in cols)
                 and all("column" in r for r in value)):
@@ -256,25 +309,30 @@ def _block(key, value, base, ctx, level, siblings):
     if _is_matrix(value):
         return [f"{h} {title}", ""] + _matrix(value, ptr, ctx) + [""]
     if isinstance(value, dict) and any(isinstance(x, (dict, list)) and not _leafish(x) for x in value.values()):
-        out = [f"{h} {title}", ""]
-        scalars = {k: x for k, x in value.items() if _leafish(x)}
-        out += _scalars(scalars, ptr, ctx)
-        for k, x in value.items():
-            if k not in scalars:
-                out += _block(k, x, ptr, ctx, level + 1, value)
-        return out
+        return _record(title, value, ptr, ctx, level)
     if isinstance(value, dict):
         return [f"{h} {title}", ""] + _scalars(value, ptr, ctx)
     return _scalars({key: value}, base, ctx)
 
 
+def _record(title, value, ptr, ctx, level):
+    """A heading, the record's simple values as a list, then each nested table under it."""
+    h = "#" * min(level, 6)
+    scalars = {k: x for k, x in value.items() if _leafish(x) and k not in ("sources", "notes")}
+    out = [f"{h} {cell(title)}", ""] + _scalars(scalars, ptr, ctx)
+    if value.get("notes") and isinstance(value["notes"], list):
+        out += [prose(" ".join(value["notes"])), ""]
+    for k, x in value.items():
+        if k not in scalars and k not in ("sources", "notes"):
+            out += _block(k, x, ptr, ctx, level + 1, value)
+    return out
+
+
 def _scalars(d, base, ctx):
+    """Simple values as a list: "**Label:** value"."""
     if not d:
         return []
-    out = ["| | |", "|---|---|"]
-    for k, v in d.items():
-        out.append(f"| **{cell(label(k))}** | {ctx.cell(v, f'{base}/{_esc_ptr(k)}')} |")
-    return out + [""]
+    return [f"- **{cell(label(k))}:** {ctx.cell(v, f'{base}/{_esc_ptr(k)}', k)}" for k, v in d.items()] + [""]
 
 
 def sources_line(sources):
@@ -294,7 +352,7 @@ def sources_line(sources):
 def render_table(name, table, errata, cited_by):
     """One table page. `errata`: overlay dicts for this table; `cited_by`: [(title, link)]."""
     data, marks = apply_errata(table, errata)
-    ctx = Ctx(marks, "/data/errata/INDEX")
+    ctx = Ctx(marks, "/data/errata/INDEX", data.get("columns"))
     title = title_of(table)
     out = ["---", f"title: {json.dumps(title)}", "pageClass: cna-table-page", "aside: false", "---", "", HEADER, "", f"# {prose(title)}", ""]
     if cited_by:
@@ -304,7 +362,10 @@ def render_table(name, table, errata, cited_by):
                 *[f"- **{e['id']}** — {prose(e['summary'])}" for e in errata],
                 ":::", ""]
     for g in data.get("known_gaps") or []:
-        out += ["::: warning Known gap", cell(fmt(g)), ":::", ""]
+        where = ", ".join(f"{label(k).lower()} {fmt(x, k)}" for k, x in g.items() if k not in ("readings", "sources"))
+        out += ["::: warning Gap in the printed chart",
+                f"As printed, no result covers dice readings {cell(fmt(g.get('readings')))} ({cell(where)}). "
+                "The notes below say how this edition handles it.", ":::", ""]
     keys = [k for k in data if k not in META_KEYS]
     for k in sorted(keys, key=lambda k: k == "columns"):   # a CRT's column definitions follow its results
         out += _block(k, data[k], "", ctx, 2, data)
@@ -337,7 +398,7 @@ def citations(root):
 
 
 def render_index(meta):
-    out = ["---", "title: Tables", "---", "", HEADER, "", "# Tables", "",
+    out = ["---", "title: Tables", "pageClass: tables-index", "---", "", HEADER, "", "# Tables", "",
            "Every chart and table the rules call for, with SPI's September 1979 errata applied. "
            "Each page lists the rules that use it. Rules pages link here wherever a table is "
            "named, and search (Ctrl K) finds a table by its name.", "",

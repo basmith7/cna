@@ -14,87 +14,87 @@ Used in [Units and state](/rules/10-units-and-state), [Fuel](/rules/logistics/10
 
 | Id | Nation | Weapon | Class | CPA | Anti-air | Barrage | Anti-armour | Vulnerability | Armour protection | Close assault offence | Close assault defence | Fuel rate | Bar | Marks | Before | Printed |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| weapon:cw:a9-cruiser | cw | A9 Cruiser | tank | 25 | 1 | — | 3 | — | 1 | 3 | 3 | 2 | 1R |  |  |  |
-| weapon:cw:a10-cruiser | cw | A10 Cruiser | tank | 15 | 1 | — | 3 | — | 2 | 3 | 3 | 2 | 1R |  |  |  |
-| weapon:cw:a13-cruiser | cw | A13 Cruiser | tank | 30 | 0 | — | 3 | — | 2 | 2 | 3 | 2 | 1R |  |  |  |
-| weapon:cw:churchill-ii | cw | Churchill II | tank | 15 | 1 | — | 6 | — | 7 | 5 | 6 | 7 | 0 |  |  |  |
-| weapon:cw:crusader-mk-i | cw | Crusader Mk.I | tank | 25 | 1 | — | 3 | — | 3 | 3 | 4 | 3 | 1R |  |  |  |
-| weapon:cw:crusader-mk-ii | cw | Crusader Mk.II | tank | 25 | 1 | — | 3 | — | 4 | 4 | 4 | 3 | 1R |  |  |  |
-| weapon:cw:crusader-mk-iii | cw | Crusader Mk.III | tank | 25 | 1 | — | 6 | — | 4 | 4 | 5 | 3 | 1R |  |  |  |
-| weapon:cw:grant-m3 | cw | Grant M3 | tank | 20 | 1 | — | 7 | — | 4 | 6 | 5 | 7 | 0 | \* |  |  |
-| weapon:cw:mark-vi-light | cw | Mark VI Light | tank | 35 | 1 | — | 0 | — | 1 | 2 | 2 | 1 | 0 |  |  |  |
-| weapon:cw:matilda-mk-ii | cw | Matilda Mk.II | tank | 15 | 0 | — | 3 | — | 6 | 3 | 4 | 3 | 1R |  |  |  |
-| weapon:cw:sherman | cw | Sherman | tank | 20 | 1 | — | 6 | — | 6 | 5 | 5 | 6 | 0 | \* |  |  |
-| weapon:cw:stuart-m3 | cw | Stuart M3 | tank | 35 | 1 | — | 4 | — | 3 | 4 | 4 | 4 | 0 | \* |  |  |
-| weapon:cw:valentine-mk-ii | cw | Valentine Mk.II | tank | 15 | 0 | — | 3 | — | 5 | 3 | 4 | 3 | 0 |  |  |  |
-| weapon:cw:scorpion | cw | Scorpion | tank | 25 | 0 | — | 0 | — | 7 | 0 | (2) | 3 | 1L | † |  |  |
-| weapon:cw:18-pounder-gun | cw | 18-pounder Gun | artillery | 15 | — | 7 | (2) | 4 | — | 0 | 1 | 1 | — |  |  |  |
-| weapon:cw:18-25-pounder-gun | cw | 18/25-pounder Gun | artillery | 15 | — | 8 | 2 | 5 | — | 1 | 1 | 1 | — |  |  |  |
-| weapon:cw:25-pounder-gun | cw | 25-pounder Gun | artillery | 15 | — | 8 | 5 | 6 | — | 1 | 1 | 1 | — |  |  |  |
-| weapon:cw:4-5in-gun | cw | 4.5" Gun | artillery | 15 | — | 11 | 1 | 9 | — | 1 | 0 | 1 | — |  |  |  |
-| weapon:cw:5-5in-gun-howitzer | cw | 5.5" Gun/Howitzer | artillery | 15 | — | 15 | 1 | 7 | — | 1 | 0 | 1 | — |  |  |  |
-| weapon:cw:60-pounder-gun | cw | 60-pounder Gun | artillery | 15 | — | 12 | 1 | 7 | — | 1 | 0 | 1 | — |  |  |  |
-| weapon:cw:sp-25-pounder-gun | cw | SP 25-pounder Gun | artillery | 15 | — | 8 | 4 | 3 | 5 | 2 | 1 | 3 | 2R | ‡ |  |  |
-| weapon:cw:3-7in-howitzer | cw | 3.7" Howitzer | artillery | 15 | — | 7 | 0 | 3 | — | 0 | 0 | 1 | — |  |  |  |
-| weapon:cw:4-5in-howitzer | cw | 4.5" Howitzer | artillery | 15 | — | 9 | 0 | 3 | — | 1 | 0 | 1 | — |  |  |  |
-| weapon:cw:6in-howitzer | cw | 6" Howitzer | artillery | 15 | — | 15 | 1 | 5 | — | 1 | 0 | 1 | — |  |  |  |
-| weapon:cw:155mm-howitzer | cw | 155mm Howitzer | artillery | 15 | — | 15 | 1 | 6 | — | 1 | 0 | 1 | — |  |  |  |
-| weapon:cw:105mm-sp-howitzer | cw | 105mm SP Howitzer | artillery | 20 | 1 | 9 | 2 | 4 | 4 | 2 | 3 | 3 | 0 | ‡ |  |  |
-| weapon:cw:2-pounder | cw | 2-pounder | anti tank | 15 | — | — | 4 | 2 | — | 1 | 1 | 1 | — |  |  |  |
-| weapon:cw:6-pounder | cw | 6-pounder | anti tank | 15 | — | — | 7 | 2 | — | 1 | 1 | 1 | — |  |  |  |
-| weapon:cw:17-pounder | cw | 17-pounder | anti tank | 15 | — | — | 13 | 2 | — | 1 | 1 | 1 | — |  |  |  |
-| weapon:cw:sp-6-pounder | cw | SP 6-pounder | anti tank | 20 | — | — | 7 | 2 | 1 | 2 | 2 | 1 | 1L | ‡ |  |  |
-| weapon:cw:light-aa-bofors-40mm | cw | Light AA (Bofors 40mm) | anti air | 15 | 1 | — | (1) | 2 | — | (1) | (1) | 1 | — |  |  |  |
-| weapon:cw:heavy-aa-3-7in | cw | Heavy AA (3.7") | anti air | 15 | 4 | — | (7) | 2 | — | (1) | (1) | 1 | — |  |  |  |
-| weapon:it:cv-33-l3-35 | it | CV 33(L3/35) | tank | 25 | 0 | — | 0 | — | 1 | 1 | 2 | 1 | 2R |  |  |  |
-| weapon:it:l-6-40 | it | L 6/40 | tank | 25 | 0 | — | 1 | — | 2 | 2 | 2 | 2 | 0 |  |  |  |
-| weapon:it:m-11-39 | it | M 11/39 | tank | 20 | 1 | — | 2 | — | 2 | 3 | 3 | 2 | 1R |  |  |  |
-| weapon:it:m-13-40 | it | M 13/40 | tank | 20 | 1 | — | 3 | — | 3 | 3 | 3 | 2 | 1R |  |  |  |
-| weapon:it:m14-41 | it | M14/41 | tank | 20 | 1 | — | 3 | — | 3 | 3 | 3 | 2 | 0 |  |  |  |
-| weapon:it:65-17-gun | it | 65/17 Gun | artillery | 15 | — | 5 | 0 | 3 | — | 1 | 1 | 1 | — |  |  |  |
-| weapon:it:75-18-gun-howitzer | it | 75/18 Gun-Howitzer | artillery | 15 | — | 6 | 0 | 5 | — | 1 | 0 | 1 | — |  |  |  |
-| weapon:it:75-18-gun | it | 75/18 Gun | artillery | 20 | — | 6 | 6 | 4 | 3 | 3 | 3 | 2 | 1R | \* |  |  |
-| weapon:it:75-27-gun | it | 75/27 Gun | artillery | 15 | — | 6 | 2\*\* | 4 | — | 1 | 1 | 1 | — |  | Game turn: 63; Anti-armour: 0 |  |
-| weapon:it:100-17-howitzer | it | 100/17 Howitzer | artillery | 15 | — | 8 | 0 | 5 | — | 1 | 0 | 1 | — |  |  |  |
-| weapon:it:105-28-gun | it | 105/28 Gun | artillery | 15 | — | 9 | 1 | 7 | — | 1 | 1 | 1 | — |  |  |  |
-| weapon:it:149-13-howitzer | it | 149/13 Howitzer | artillery | 15 | — | 15 | 0 | 5 | — | 1 | 0 | 1 | — |  |  |  |
-| weapon:it:paraart | it | ParaArt | artillery | 15 | — | 2 | 2 | 1 | — | 1 | 1 | 1 | — | \*\*\* |  |  |
-| weapon:it:149mm-vichy-french | it | 149mm Vichy French | artillery | 15 | — | 10 | 1 | 5 | — | 0 | 1 | 1 | — |  |  |  |
-| weapon:it:155mm-rimhailo-fr | it | 155mm Rimhailo(Fr.) | artillery | 15 | — | 13 | 0 | 3 | — | 0 | 0 | 1 | — |  |  |  |
-| weapon:it:47-32-mod-37 | it | 47/32 Mod. 37 | anti tank | 15 | — | — | 4 | 2 | — | 1 | 1 | 1 | — |  |  |  |
-| weapon:it:light-20mm-m-35-breda | it | Light (20mm M/35 Breda) | anti air | 15 | 1 | — | 2 | 2 | — | (1) | (1) | 1 | — |  |  |  |
-| weapon:it:i-light | it | 'I' Light | anti air | 0+ | 1 | — | 2 | 2 | — | (1) | (1) | 1 | — | \*\*\*\* |  |  |
-| weapon:it:heavy-75-46-mod-34 | it | Heavy (75/46 Mod. 34) | anti air | 15 | 2 | — | (5) | 2 | — | (1) | (1) | 1 | — |  |  |  |
-| weapon:it:i-heavy | it | 'I' Heavy | anti air | 0+ | 2 | — | (5) | 2 | — | (1) | (1) | 0 | — |  |  |  |
-| weapon:it:heavy-90-53 | it | Heavy (90/53) | anti air | 15 | 3 | — | 9 | 2 | — | (1) | (1) | 1 | — |  |  |  |
-| weapon:de:pz-i | de | PZ I | tank | 24 | 1 | — | 0 | — | 1 | 2 | 2 | 2 | 0 |  | Game turn: 31; Bar: 1R |  |
-| weapon:de:pz-ii | de | Pz II | tank | 35 | 0 | — | 1 | — | 2 | 2 | 3 | 2 | 0 |  | Game turn: 31; Bar: 1R |  |
-| weapon:de:pz-iii-e | de | Pz III E | tank | 25 | 1 | — | 4 | — | 3 | 4 | 4 | 3 | 0 |  | Game turn: 31; Bar: 1R | <span class="wrap">\[25, 1, null, 4, 3, "4/4", 3, "4/4", 3\]</span> |
-| weapon:de:pz-iii-h | de | Pz III H | tank | 25 | 1 | — | 4 | — | 4 | 4 | 4 | 3 | 0 |  | Game turn: 31; Bar: 1R |  |
-| weapon:de:pz-iii-j-special | de | Pz III J(Special) | tank | 26 | 1 | — | 6 | — | 4 | 7 | 5 | 3 | 0 |  | Game turn: 31; Bar: 1R |  |
-| weapon:de:pz-iv-d | de | Pz IV D | tank | 25 | 1 | — | 6 | — | 3 | 5 | 4 | 4 | 0 |  | Game turn: 31; Bar: 1R |  |
-| weapon:de:pz-iv-e | de | Pz IV E | tank | 25 | 1 | — | 6 | — | 3 | 5 | 5 | 4 | 0 |  | Game turn: 31; Bar: 1R |  |
-| weapon:de:pz-iv-f2-special | de | Pz IV F2 (Special) | tank | 25 | 1 | — | 8 | — | 4 | 6 | 5 | 4 | 0 |  | Game turn: 31; Bar: 1R |  |
-| weapon:de:7-5-cm-ig18-light-infantry-gun | de | 7.5 cm(IG18) Light Infantry Gun | artillery | 15 | — | 6 | 3\*\* | 2 | — | 1 | 1 | 1 | — |  | Game turn: 63; Anti-armour: 0 |  |
-| weapon:de:10-5cm-k18-medium-gun | de | 10.5cm(K18) Medium Gun | artillery | 15 | — | 9 | 1 | 9 | — | 1 | 1 | 1 | — |  |  |  |
-| <span class="wrap">weapon:de:10-5cm-lefh18-light-field-howitzer</span> | de | 10.5cm(leFH18) Light Field Howitzer | artillery | 15 | — | 9 | 2 | 5 | — | 1 | 1 | 1 | — |  |  |  |
-| weapon:de:10-5cm-sp-k18-gun | de | 10.5cm SP K18 Gun | artillery | 15 | — | 9 | 2 | 4 | 2 | 2 | 2 | 2 | 0 |  |  |  |
-| weapon:de:149mm-vichy-french | de | 149mm Vichy French | artillery | 15 | — | 10 | 1 | 5 | — | 0 | 1 | 1 | — |  |  |  |
-| weapon:de:15cm-sig33-medium-infantry-gun | de | 15cm (sIG33) Medium Infantry Gun | artillery | 15 | — | 14 | 1 | 2 | — | 1 | 1 | 1 | — |  |  |  |
-| <span class="wrap">weapon:de:15cm-sfh18-medium-field-howitzer</span> | de | 15cm(sFH18) Medium Field Howitzer | artillery | 15 | — | 15 | 1 | 7 | — | 0 | 1 | 1 | — |  |  |  |
-| weapon:de:15cm-k18-gun | de | 15cm(K18) Gun | artillery | 15 | — | 15 | 1 | 11 | — | 1 | 1 | 1 | — |  |  |  |
-| weapon:de:15cm-sp-gun | de | 15cm SP Gun | artillery | 25 | — | 14 | 1 | 2 | 2 | 2 | 2 | 2 | 0 |  |  |  |
-| weapon:de:155mm-french-1915short | de | 155mm (french 1915short) | artillery | 15 | — | 13 | 0 | 5 | — | 1 | 1 | 1 | — |  |  |  |
-| weapon:de:17cm-k18-gun | de | 17cm (K18) Gun | artillery | 15 | — | 15 | 0 | 13 | — | 1 | 0 | 1 | — |  |  |  |
-| weapon:de:21cm-mrs18-howitzer | de | 21cm (mrs18) Howitzer | artillery | 15 | — | 18 | 0 | 8 | — | 1 | 0 | 1 | — |  |  |  |
-| weapon:de:2-8cm-s-pz-b-41-or-28-20-pak | de | 2.8cm s.Pz.B.41 or 28/20 Pak | anti tank | 15 | — | — | 4 | 2 | — | 1 | 1 | 1 | — |  |  |  |
-| weapon:de:3-7cm-pak-35-36 | de | 3.7cm Pak 35/36 | anti tank | 15 | — | — | 2 | 1 | — | 1 | 1 | 1 | — |  |  |  |
-| weapon:de:5cm-pak-38 | de | 5cm Pak 38 | anti tank | 15 | — | — | 5 | 2 | — | 1 | 1 | 1 | — |  |  | Off/Def printed 1½1 |
-| weapon:de:7-62cm-pak-r | de | 7.62cm Pak(R) | anti tank | 15 | — | — | 9 | 2 | — | 1 | 1 | 1 | — | \*\*\* |  | <span class="wrap">\[null, null, 9, 2, null, "1/1", 1, null, null\]</span> |
-| weapon:de:pzjg-1-sp | de | Pzjg 1 (SP) | anti tank | 30 | — | — | 4 | 2 | 1 | 2 | 2 | 1 | 0 | \*\*\*\* |  |  |
-| weapon:de:marder-iii-sp | de | Marder III (SP) | anti tank | — | — | — | 9 | 2 | 2 | 3 | 2 | 2 | 0 |  |  | <span class="wrap">\[null, null, 9, 2, 2, "3/2", 2, 0, null\]</span> |
-| weapon:de:light-20mm-37mm-flak | de | Light (20mm & 37mm Flak) | anti air | 15 | 1 | — | (1) | (1) | — | (1) | (1) | 1 | — |  |  |  |
-| weapon:de:heavy-88mm-flak | de | Heavy (88mm Flak) | anti air | 15 | 3 | — | 13 | 2 | — | 2 | 1 | 1 | — |  |  |  |
+| weapon:cw:a9-cruiser | Commonwealth | A9 Cruiser | tank | 25 | 1 | — | 3 | — | 1 | 3 | 3 | 2 | 1R |  |  |  |
+| weapon:cw:a10-cruiser | Commonwealth | A10 Cruiser | tank | 15 | 1 | — | 3 | — | 2 | 3 | 3 | 2 | 1R |  |  |  |
+| weapon:cw:a13-cruiser | Commonwealth | A13 Cruiser | tank | 30 | 0 | — | 3 | — | 2 | 2 | 3 | 2 | 1R |  |  |  |
+| weapon:cw:churchill-ii | Commonwealth | Churchill II | tank | 15 | 1 | — | 6 | — | 7 | 5 | 6 | 7 | 0 |  |  |  |
+| weapon:cw:crusader-mk-i | Commonwealth | Crusader Mk.I | tank | 25 | 1 | — | 3 | — | 3 | 3 | 4 | 3 | 1R |  |  |  |
+| weapon:cw:crusader-mk-ii | Commonwealth | Crusader Mk.II | tank | 25 | 1 | — | 3 | — | 4 | 4 | 4 | 3 | 1R |  |  |  |
+| weapon:cw:crusader-mk-iii | Commonwealth | Crusader Mk.III | tank | 25 | 1 | — | 6 | — | 4 | 4 | 5 | 3 | 1R |  |  |  |
+| weapon:cw:grant-m3 | Commonwealth | Grant M3 | tank | 20 | 1 | — | 7 | — | 4 | 6 | 5 | 7 | 0 | \* |  |  |
+| weapon:cw:mark-vi-light | Commonwealth | Mark VI Light | tank | 35 | 1 | — | 0 | — | 1 | 2 | 2 | 1 | 0 |  |  |  |
+| weapon:cw:matilda-mk-ii | Commonwealth | Matilda Mk.II | tank | 15 | 0 | — | 3 | — | 6 | 3 | 4 | 3 | 1R |  |  |  |
+| weapon:cw:sherman | Commonwealth | Sherman | tank | 20 | 1 | — | 6 | — | 6 | 5 | 5 | 6 | 0 | \* |  |  |
+| weapon:cw:stuart-m3 | Commonwealth | Stuart M3 | tank | 35 | 1 | — | 4 | — | 3 | 4 | 4 | 4 | 0 | \* |  |  |
+| weapon:cw:valentine-mk-ii | Commonwealth | Valentine Mk.II | tank | 15 | 0 | — | 3 | — | 5 | 3 | 4 | 3 | 0 |  |  |  |
+| weapon:cw:scorpion | Commonwealth | Scorpion | tank | 25 | 0 | — | 0 | — | 7 | 0 | (2) | 3 | 1L | † |  |  |
+| weapon:cw:18-pounder-gun | Commonwealth | 18-pounder Gun | artillery | 15 | — | 7 | (2) | 4 | — | 0 | 1 | 1 | — |  |  |  |
+| weapon:cw:18-25-pounder-gun | Commonwealth | 18/25-pounder Gun | artillery | 15 | — | 8 | 2 | 5 | — | 1 | 1 | 1 | — |  |  |  |
+| weapon:cw:25-pounder-gun | Commonwealth | 25-pounder Gun | artillery | 15 | — | 8 | 5 | 6 | — | 1 | 1 | 1 | — |  |  |  |
+| weapon:cw:4-5in-gun | Commonwealth | 4.5" Gun | artillery | 15 | — | 11 | 1 | 9 | — | 1 | 0 | 1 | — |  |  |  |
+| weapon:cw:5-5in-gun-howitzer | Commonwealth | 5.5" Gun/Howitzer | artillery | 15 | — | 15 | 1 | 7 | — | 1 | 0 | 1 | — |  |  |  |
+| weapon:cw:60-pounder-gun | Commonwealth | 60-pounder Gun | artillery | 15 | — | 12 | 1 | 7 | — | 1 | 0 | 1 | — |  |  |  |
+| weapon:cw:sp-25-pounder-gun | Commonwealth | SP 25-pounder Gun | artillery | 15 | — | 8 | 4 | 3 | 5 | 2 | 1 | 3 | 2R | ‡ |  |  |
+| weapon:cw:3-7in-howitzer | Commonwealth | 3.7" Howitzer | artillery | 15 | — | 7 | 0 | 3 | — | 0 | 0 | 1 | — |  |  |  |
+| weapon:cw:4-5in-howitzer | Commonwealth | 4.5" Howitzer | artillery | 15 | — | 9 | 0 | 3 | — | 1 | 0 | 1 | — |  |  |  |
+| weapon:cw:6in-howitzer | Commonwealth | 6" Howitzer | artillery | 15 | — | 15 | 1 | 5 | — | 1 | 0 | 1 | — |  |  |  |
+| weapon:cw:155mm-howitzer | Commonwealth | 155mm Howitzer | artillery | 15 | — | 15 | 1 | 6 | — | 1 | 0 | 1 | — |  |  |  |
+| weapon:cw:105mm-sp-howitzer | Commonwealth | 105mm SP Howitzer | artillery | 20 | 1 | 9 | 2 | 4 | 4 | 2 | 3 | 3 | 0 | ‡ |  |  |
+| weapon:cw:2-pounder | Commonwealth | 2-pounder | anti tank | 15 | — | — | 4 | 2 | — | 1 | 1 | 1 | — |  |  |  |
+| weapon:cw:6-pounder | Commonwealth | 6-pounder | anti tank | 15 | — | — | 7 | 2 | — | 1 | 1 | 1 | — |  |  |  |
+| weapon:cw:17-pounder | Commonwealth | 17-pounder | anti tank | 15 | — | — | 13 | 2 | — | 1 | 1 | 1 | — |  |  |  |
+| weapon:cw:sp-6-pounder | Commonwealth | SP 6-pounder | anti tank | 20 | — | — | 7 | 2 | 1 | 2 | 2 | 1 | 1L | ‡ |  |  |
+| weapon:cw:light-aa-bofors-40mm | Commonwealth | Light AA (Bofors 40mm) | anti air | 15 | 1 | — | (1) | 2 | — | (1) | (1) | 1 | — |  |  |  |
+| weapon:cw:heavy-aa-3-7in | Commonwealth | Heavy AA (3.7") | anti air | 15 | 4 | — | (7) | 2 | — | (1) | (1) | 1 | — |  |  |  |
+| weapon:it:cv-33-l3-35 | Italian | CV 33(L3/35) | tank | 25 | 0 | — | 0 | — | 1 | 1 | 2 | 1 | 2R |  |  |  |
+| weapon:it:l-6-40 | Italian | L 6/40 | tank | 25 | 0 | — | 1 | — | 2 | 2 | 2 | 2 | 0 |  |  |  |
+| weapon:it:m-11-39 | Italian | M 11/39 | tank | 20 | 1 | — | 2 | — | 2 | 3 | 3 | 2 | 1R |  |  |  |
+| weapon:it:m-13-40 | Italian | M 13/40 | tank | 20 | 1 | — | 3 | — | 3 | 3 | 3 | 2 | 1R |  |  |  |
+| weapon:it:m14-41 | Italian | M14/41 | tank | 20 | 1 | — | 3 | — | 3 | 3 | 3 | 2 | 0 |  |  |  |
+| weapon:it:65-17-gun | Italian | 65/17 Gun | artillery | 15 | — | 5 | 0 | 3 | — | 1 | 1 | 1 | — |  |  |  |
+| weapon:it:75-18-gun-howitzer | Italian | 75/18 Gun-Howitzer | artillery | 15 | — | 6 | 0 | 5 | — | 1 | 0 | 1 | — |  |  |  |
+| weapon:it:75-18-gun | Italian | 75/18 Gun | artillery | 20 | — | 6 | 6 | 4 | 3 | 3 | 3 | 2 | 1R | \* |  |  |
+| weapon:it:75-27-gun | Italian | 75/27 Gun | artillery | 15 | — | 6 | 2\*\* | 4 | — | 1 | 1 | 1 | — |  | Game turn: 63<br>Anti-armour: 0 |  |
+| weapon:it:100-17-howitzer | Italian | 100/17 Howitzer | artillery | 15 | — | 8 | 0 | 5 | — | 1 | 0 | 1 | — |  |  |  |
+| weapon:it:105-28-gun | Italian | 105/28 Gun | artillery | 15 | — | 9 | 1 | 7 | — | 1 | 1 | 1 | — |  |  |  |
+| weapon:it:149-13-howitzer | Italian | 149/13 Howitzer | artillery | 15 | — | 15 | 0 | 5 | — | 1 | 0 | 1 | — |  |  |  |
+| weapon:it:paraart | Italian | ParaArt | artillery | 15 | — | 2 | 2 | 1 | — | 1 | 1 | 1 | — | \*\*\* |  |  |
+| weapon:it:149mm-vichy-french | Italian | 149mm Vichy French | artillery | 15 | — | 10 | 1 | 5 | — | 0 | 1 | 1 | — |  |  |  |
+| weapon:it:155mm-rimhailo-fr | Italian | 155mm Rimhailo(Fr.) | artillery | 15 | — | 13 | 0 | 3 | — | 0 | 0 | 1 | — |  |  |  |
+| weapon:it:47-32-mod-37 | Italian | 47/32 Mod. 37 | anti tank | 15 | — | — | 4 | 2 | — | 1 | 1 | 1 | — |  |  |  |
+| weapon:it:light-20mm-m-35-breda | Italian | Light (20mm M/35 Breda) | anti air | 15 | 1 | — | 2 | 2 | — | (1) | (1) | 1 | — |  |  |  |
+| weapon:it:i-light | Italian | 'I' Light | anti air | 0+ | 1 | — | 2 | 2 | — | (1) | (1) | 1 | — | \*\*\*\* |  |  |
+| weapon:it:heavy-75-46-mod-34 | Italian | Heavy (75/46 Mod. 34) | anti air | 15 | 2 | — | (5) | 2 | — | (1) | (1) | 1 | — |  |  |  |
+| weapon:it:i-heavy | Italian | 'I' Heavy | anti air | 0+ | 2 | — | (5) | 2 | — | (1) | (1) | 0 | — |  |  |  |
+| weapon:it:heavy-90-53 | Italian | Heavy (90/53) | anti air | 15 | 3 | — | 9 | 2 | — | (1) | (1) | 1 | — |  |  |  |
+| weapon:de:pz-i | German | PZ I | tank | 24 | 1 | — | 0 | — | 1 | 2 | 2 | 2 | 0 |  | Game turn: 31<br>Bar: 1R |  |
+| weapon:de:pz-ii | German | Pz II | tank | 35 | 0 | — | 1 | — | 2 | 2 | 3 | 2 | 0 |  | Game turn: 31<br>Bar: 1R |  |
+| weapon:de:pz-iii-e | German | Pz III E | tank | 25 | 1 | — | 4 | — | 3 | 4 | 4 | 3 | 0 |  | Game turn: 31<br>Bar: 1R | <span class="wrap">\[25, 1, null, 4, 3, "4/4", 3, "4/4", 3\]</span> |
+| weapon:de:pz-iii-h | German | Pz III H | tank | 25 | 1 | — | 4 | — | 4 | 4 | 4 | 3 | 0 |  | Game turn: 31<br>Bar: 1R |  |
+| weapon:de:pz-iii-j-special | German | Pz III J(Special) | tank | 26 | 1 | — | 6 | — | 4 | 7 | 5 | 3 | 0 |  | Game turn: 31<br>Bar: 1R |  |
+| weapon:de:pz-iv-d | German | Pz IV D | tank | 25 | 1 | — | 6 | — | 3 | 5 | 4 | 4 | 0 |  | Game turn: 31<br>Bar: 1R |  |
+| weapon:de:pz-iv-e | German | Pz IV E | tank | 25 | 1 | — | 6 | — | 3 | 5 | 5 | 4 | 0 |  | Game turn: 31<br>Bar: 1R |  |
+| weapon:de:pz-iv-f2-special | German | Pz IV F2 (Special) | tank | 25 | 1 | — | 8 | — | 4 | 6 | 5 | 4 | 0 |  | Game turn: 31<br>Bar: 1R |  |
+| weapon:de:7-5-cm-ig18-light-infantry-gun | German | 7.5 cm(IG18) Light Infantry Gun | artillery | 15 | — | 6 | 3\*\* | 2 | — | 1 | 1 | 1 | — |  | Game turn: 63<br>Anti-armour: 0 |  |
+| weapon:de:10-5cm-k18-medium-gun | German | 10.5cm(K18) Medium Gun | artillery | 15 | — | 9 | 1 | 9 | — | 1 | 1 | 1 | — |  |  |  |
+| <span class="wrap">weapon:de:10-5cm-lefh18-light-field-howitzer</span> | German | 10.5cm(leFH18) Light Field Howitzer | artillery | 15 | — | 9 | 2 | 5 | — | 1 | 1 | 1 | — |  |  |  |
+| weapon:de:10-5cm-sp-k18-gun | German | 10.5cm SP K18 Gun | artillery | 15 | — | 9 | 2 | 4 | 2 | 2 | 2 | 2 | 0 |  |  |  |
+| weapon:de:149mm-vichy-french | German | 149mm Vichy French | artillery | 15 | — | 10 | 1 | 5 | — | 0 | 1 | 1 | — |  |  |  |
+| weapon:de:15cm-sig33-medium-infantry-gun | German | 15cm (sIG33) Medium Infantry Gun | artillery | 15 | — | 14 | 1 | 2 | — | 1 | 1 | 1 | — |  |  |  |
+| <span class="wrap">weapon:de:15cm-sfh18-medium-field-howitzer</span> | German | 15cm(sFH18) Medium Field Howitzer | artillery | 15 | — | 15 | 1 | 7 | — | 0 | 1 | 1 | — |  |  |  |
+| weapon:de:15cm-k18-gun | German | 15cm(K18) Gun | artillery | 15 | — | 15 | 1 | 11 | — | 1 | 1 | 1 | — |  |  |  |
+| weapon:de:15cm-sp-gun | German | 15cm SP Gun | artillery | 25 | — | 14 | 1 | 2 | 2 | 2 | 2 | 2 | 0 |  |  |  |
+| weapon:de:155mm-french-1915short | German | 155mm (french 1915short) | artillery | 15 | — | 13 | 0 | 5 | — | 1 | 1 | 1 | — |  |  |  |
+| weapon:de:17cm-k18-gun | German | 17cm (K18) Gun | artillery | 15 | — | 15 | 0 | 13 | — | 1 | 0 | 1 | — |  |  |  |
+| weapon:de:21cm-mrs18-howitzer | German | 21cm (mrs18) Howitzer | artillery | 15 | — | 18 | 0 | 8 | — | 1 | 0 | 1 | — |  |  |  |
+| weapon:de:2-8cm-s-pz-b-41-or-28-20-pak | German | 2.8cm s.Pz.B.41 or 28/20 Pak | anti tank | 15 | — | — | 4 | 2 | — | 1 | 1 | 1 | — |  |  |  |
+| weapon:de:3-7cm-pak-35-36 | German | 3.7cm Pak 35/36 | anti tank | 15 | — | — | 2 | 1 | — | 1 | 1 | 1 | — |  |  |  |
+| weapon:de:5cm-pak-38 | German | 5cm Pak 38 | anti tank | 15 | — | — | 5 | 2 | — | 1 | 1 | 1 | — |  |  | Off/Def printed 1½1 |
+| weapon:de:7-62cm-pak-r | German | 7.62cm Pak(R) | anti tank | 15 | — | — | 9 | 2 | — | 1 | 1 | 1 | — | \*\*\* |  | <span class="wrap">\[null, null, 9, 2, null, "1/1", 1, null, null\]</span> |
+| weapon:de:pzjg-1-sp | German | Pzjg 1 (SP) | anti tank | 30 | — | — | 4 | 2 | 1 | 2 | 2 | 1 | 0 | \*\*\*\* |  |  |
+| weapon:de:marder-iii-sp | German | Marder III (SP) | anti tank | — | — | — | 9 | 2 | 2 | 3 | 2 | 2 | 0 |  |  | <span class="wrap">\[null, null, 9, 2, 2, "3/2", 2, 0, null\]</span> |
+| weapon:de:light-20mm-37mm-flak | German | Light (20mm & 37mm Flak) | anti air | 15 | 1 | — | (1) | (1) | — | (1) | (1) | 1 | — |  |  |  |
+| weapon:de:heavy-88mm-flak | German | Heavy (88mm Flak) | anti air | 15 | 3 | — | 13 | 2 | — | 2 | 1 | 1 | — |  |  |  |
 
 ## Oa names
 

@@ -10,13 +10,9 @@ aside: false
 
 Used in [Movement](/rules/40-movement).
 
-| | |
-|---|---|
-| **Places** | <span class="wrap">tunis, gabes, tripoli, tripolitania, nofilia</span> |
+- **Places:** <span class="wrap">tunis, gabes, tripoli, tripolitania, nofilia</span>
 
-| | |
-|---|---|
-| **CPA bands** | ≥ 25, 15 to 20, ≤ 14 |
+- **CPA bands:** ≥ 25, 15 to 20, ≤ 14
 
 ## Table
 

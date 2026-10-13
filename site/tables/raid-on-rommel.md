@@ -10,9 +10,7 @@ aside: false
 
 Used in [Special rules](/rules/90-special).
 
-| | |
-|---|---|
-| **LRDG eliminated unless hex empty** | yes |
+- **LRDG eliminated unless hex empty:** yes
 
 ## Table
 

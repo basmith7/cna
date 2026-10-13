@@ -14,9 +14,9 @@ Used in [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak).
 
 | Die | Strafed | Shot down |
 |---|---|---|
-| 1 | Plane: repairable | Plane: repairable; Pilot: survives |
-| 2 | Plane: repairable | Plane: lost; Pilot: survives |
-| 3–6 | Plane: lost | Plane: lost; Pilot: killed |
+| 1 | Plane: repairable | Plane: repairable<br>Pilot: survives |
+| 2 | Plane: repairable | Plane: lost<br>Pilot: survives |
+| 3–6 | Plane: lost | Plane: lost<br>Pilot: killed |
 
 ## Notes
 

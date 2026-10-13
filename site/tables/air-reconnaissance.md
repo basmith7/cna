@@ -10,9 +10,7 @@ aside: false
 
 Used in [Air Game — missions](/rules/air/40-missions).
 
-| | |
-|---|---|
-| **Planes per plus one** | 4 |
+- **Planes per plus one:** 4
 
 ## Table
 

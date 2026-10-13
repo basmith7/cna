@@ -14,10 +14,10 @@ Used in [Special rules](/rules/90-special).
 
 | Season | From | To |
 |---|---|---|
-| spring | Month: 3; Week: 3 | Month: 6; Week: 2 |
-| summer | Month: 6; Week: 3 | Month: 9; Week: 2 |
-| autumn | Month: 9; Week: 3 | Month: 12; Week: 2 |
-| winter | Month: 12; Week: 3 | Month: 3; Week: 2 |
+| spring | Month: 3<br>Week: 3 | Month: 6<br>Week: 2 |
+| summer | Month: 6<br>Week: 3 | Month: 9<br>Week: 2 |
+| autumn | Month: 9<br>Week: 3 | Month: 12<br>Week: 2 |
+| winter | Month: 12<br>Week: 3 | Month: 3<br>Week: 2 |
 
 ## Notes
 

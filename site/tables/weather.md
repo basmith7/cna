@@ -18,10 +18,10 @@ Used in [Special rules](/rules/90-special).
 
 | Season | Turns | Weather |
 |---|---|---|
-| spring | 25–36, 73–84 <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-025">E-025</a> | <span class="wrap">Normal: 11–42; Hot: 43–55; Sandstorm: 56–64; Rainstorm: 65–66</span> |
-| summer | 37–48, 85–96 <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-025">E-025</a> | <span class="wrap">Normal: 11–23; Hot: 24–55; Sandstorm: 56–66; Rainstorm: —</span> |
-| autumn | 1–12, 49–60, 97–108 <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-025">E-025</a> | <span class="wrap">Normal: 11–35; Hot: 36–54; Sandstorm: 55–61; Rainstorm: 62–66</span> |
-| winter | 13–24, 61–72, 109–110 <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-025">E-025</a> | <span class="wrap">Normal: 11–52; Hot: —; Sandstorm: —; Rainstorm: 53–66</span> |
+| spring | 25–36, 73–84 <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-025">E-025</a> | Normal: 11–42<br>Hot: 43–55<br>Sandstorm: 56–64<br>Rainstorm: 65–66 |
+| summer | 37–48, 85–96 <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-025">E-025</a> | Normal: 11–23<br>Hot: 24–55<br>Sandstorm: 56–66<br>Rainstorm: — |
+| autumn | 1–12, 49–60, 97–108 <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-025">E-025</a> | Normal: 11–35<br>Hot: 36–54<br>Sandstorm: 55–61<br>Rainstorm: 62–66 |
+| winter | 13–24, 61–72, 109–110 <a class="errata-mark" href="/data/errata/INDEX" title="Corrected by errata E-025">E-025</a> | Normal: 11–52<br>Hot: —<br>Sandstorm: —<br>Rainstorm: 53–66 |
 
 ## Notes
 

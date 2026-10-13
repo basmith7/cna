@@ -14,17 +14,17 @@ Used in [Air Game — the Mediterranean bases and Malta](/rules/air/80-mediterra
 
 | Dice | Levels |
 |---|---|
-| 2 | <span class="wrap">In play: 10; Strategic: 30, In play: 100; Strategic: 200, —, In play: 50; Strategic: 100</span> |
-| 3 | <span class="wrap">In play: 50; Strategic: 50, In play: 10; Strategic: 10, In play: 100; Strategic: 100, In play: 100; Strategic: 200</span> |
-| 4 | <span class="wrap">—, In play: 100; Strategic: 100, In play: 10; Strategic: 20, In play: 100; Strategic: 100</span> |
-| 5 | <span class="wrap">In play: 25; Strategic: 25, In play: 50; Strategic: 50, In play: 100; Strategic: 200, In play: 100; Strategic: 300</span> |
-| 6 | <span class="wrap">In play: 25; Strategic: 25, In play: 10; Strategic: 10, In play: 50; Strategic: 100, In play: 100; Strategic: 100</span> |
-| 7 | <span class="wrap">—, In play: 25; Strategic: 50, In play: 100; Strategic: 100, In play: 100; Strategic: 200</span> |
-| 8 | <span class="wrap">In play: 10; Strategic: 10, —, In play: 50; Strategic: 50, In play: 100; Strategic: 100</span> |
-| 9 | <span class="wrap">In play: 50; Strategic: 25, In play: 25; Strategic: 25, In play: 25; Strategic: 50, In play: 50; Strategic: 50</span> |
-| 10 | <span class="wrap">—, In play: 50; Strategic: 100, In play: 25; Strategic: 25, In play: 100; Strategic: 200</span> |
-| 11 | <span class="wrap">In play: 25; Strategic: 50, In play: 100; Strategic: 100, In play: 100; Strategic: 300, In play: 100; Strategic: 300</span> |
-| 12 | <span class="wrap">In play: 10; Strategic: 20, In play: 10; Strategic: 20, In play: 100; Strategic: 200, In play: 25; Strategic: 75</span> |
+| 2 | In play: 10; Strategic: 30<br>In play: 100; Strategic: 200<br>—<br>In play: 50; Strategic: 100 |
+| 3 | In play: 50; Strategic: 50<br>In play: 10; Strategic: 10<br>In play: 100; Strategic: 100<br>In play: 100; Strategic: 200 |
+| 4 | —<br>In play: 100; Strategic: 100<br>In play: 10; Strategic: 20<br>In play: 100; Strategic: 100 |
+| 5 | In play: 25; Strategic: 25<br>In play: 50; Strategic: 50<br>In play: 100; Strategic: 200<br>In play: 100; Strategic: 300 |
+| 6 | In play: 25; Strategic: 25<br>In play: 10; Strategic: 10<br>In play: 50; Strategic: 100<br>In play: 100; Strategic: 100 |
+| 7 | —<br>In play: 25; Strategic: 50<br>In play: 100; Strategic: 100<br>In play: 100; Strategic: 200 |
+| 8 | In play: 10; Strategic: 10<br>—<br>In play: 50; Strategic: 50<br>In play: 100; Strategic: 100 |
+| 9 | In play: 50; Strategic: 25<br>In play: 25; Strategic: 25<br>In play: 25; Strategic: 50<br>In play: 50; Strategic: 50 |
+| 10 | —<br>In play: 50; Strategic: 100<br>In play: 25; Strategic: 25<br>In play: 100; Strategic: 200 |
+| 11 | In play: 25; Strategic: 50<br>In play: 100; Strategic: 100<br>In play: 100; Strategic: 300<br>In play: 100; Strategic: 300 |
+| 12 | In play: 10; Strategic: 20<br>In play: 10; Strategic: 20<br>In play: 100; Strategic: 200<br>In play: 25; Strategic: 75 |
 
 ## Notes
 

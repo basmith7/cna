@@ -10,9 +10,7 @@ aside: false
 
 Used in [Combat](/rules/60-combat).
 
-| | |
-|---|---|
-| **Recce only modifier** | -1 |
+- **Recce only modifier:** -1
 
 ## Table
 

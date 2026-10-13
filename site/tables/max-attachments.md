@@ -10,34 +10,32 @@ aside: false
 
 Used in [Organisation](/rules/70-organisation).
 
-| | |
-|---|---|
-| **Free company equivalents** | 2 |
+- **Free company equivalents:** 2
 
 ## Table
 
 | Nation | Parent | Turns | Max units | Restrictions | Restriction mode | Unit kind | Alternatives |
 |---|---|---|---|---|---|---|---|
-| cw | armour division | 1–67 | 2 | Infantry: 1; Tank: 0 |  |  |  |
-| cw | armour division late | 68+ | 3 | Infantry: 1; Tank: 1 | each |  |  |
-| cw | infantry division |  | 2 | Infantry: 1; Tank: 0 |  |  |  |
-| cw | tank brigade | 1–67 | 2 | Infantry: 1; Tank: 0 |  |  |  |
-| cw | tank brigade late | 68+ | 1 | Tank: 0 |  |  |  |
-| cw | other brigade |  | 1 |  |  |  |  |
-| cw | battalion |  | 1 |  |  | company |  |
-| cw | matruh garrison | 1–12 | 6 | Tank: 0; Gun: 1 |  |  |  |
-| cw | selby force | 13+ | 5 | Tank: 0; Recce: 0; Infantry: 3 |  |  |  |
-| de | armour division |  | 4 | Tank: 0 |  |  | <span class="wrap">Brigades: 1; Units: 1, Brigades: 0; Units: 4</span> |
-| de | infantry division |  | 3 | Tank: 0 |  |  | <span class="wrap">Brigades: 1; Units: 0, Brigades: 0; Units: 3</span> |
-| de | infantry or armour regiment |  | 1 |  |  |  |  |
-| de | battle group |  | 4 |  |  |  |  |
-| de | artillery brigade hq |  | 1 |  |  | artillery |  |
-| de | battalion |  | 1 |  |  | company |  |
-| it | armour division or tank group |  | 2 |  |  |  |  |
-| it | infantry division |  | 2 | Infantry: 1; Tank: 1 | combined |  |  |
-| it | brigade or regiment |  | 1 |  |  |  |  |
-| it | battle group |  | 3 |  |  |  |  |
-| it | battalion |  | 0 |  |  |  |  |
+| Commonwealth | armour division | 1–67 | 2 | Infantry: 1<br>Tank: 0 |  |  |  |
+| Commonwealth | armour division late | 68+ | 3 | Infantry: 1<br>Tank: 1 | each |  |  |
+| Commonwealth | infantry division |  | 2 | Infantry: 1<br>Tank: 0 |  |  |  |
+| Commonwealth | tank brigade | 1–67 | 2 | Infantry: 1<br>Tank: 0 |  |  |  |
+| Commonwealth | tank brigade late | 68+ | 1 | Tank: 0 |  |  |  |
+| Commonwealth | other brigade |  | 1 |  |  |  |  |
+| Commonwealth | battalion |  | 1 |  |  | company |  |
+| Commonwealth | matruh garrison | 1–12 | 6 | Tank: 0<br>Gun: 1 |  |  |  |
+| Commonwealth | selby force | 13+ | 5 | Tank: 0<br>Recce: 0<br>Infantry: 3 |  |  |  |
+| German | armour division |  | 4 | Tank: 0 |  |  | Brigades: 1; Units: 1<br>Brigades: 0; Units: 4 |
+| German | infantry division |  | 3 | Tank: 0 |  |  | Brigades: 1; Units: 0<br>Brigades: 0; Units: 3 |
+| German | infantry or armour regiment |  | 1 |  |  |  |  |
+| German | battle group |  | 4 |  |  |  |  |
+| German | artillery brigade hq |  | 1 |  |  | artillery |  |
+| German | battalion |  | 1 |  |  | company |  |
+| Italian | armour division or tank group |  | 2 |  |  |  |  |
+| Italian | infantry division |  | 2 | Infantry: 1<br>Tank: 1 | combined |  |  |
+| Italian | brigade or regiment |  | 1 |  |  |  |  |
+| Italian | battle group |  | 3 |  |  |  |  |
+| Italian | battalion |  | 0 |  |  |  |  |
 
 ## Notes
 

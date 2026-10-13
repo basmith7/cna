@@ -47,13 +47,13 @@ def test_shapes_render_as_people_read_them():
     assert "Used in [Combat](/rules/60-combat)." in page
     # pivot: one row per class, one column per column id, dice in the cell
     assert "| Class | 1-2 | 3-4 |" in page
-    assert "| infantry | 11–53 | 11–44 |" in page and "| armor | — |  |" in page
+    assert "| infantry | 11–53 | 11–44 |" in page and "| armor | — | — |" in page
     # matrix: outer keys are rows, inner keys columns
     assert "|  | -1 | +1 |" in page and "| **50** | — | 11–15 |" in page and "| **40** | 16 | — |" in page
     # scalars, nested sections, escaping, int runs, sources
-    assert "| **Hot weather extra** | 2 |" in page
+    assert "- **Hot weather extra:** 2" in page
     assert "### Table" in page and "light\\|truck" in page
-    assert "Readings: 34–36" in page and "only on Tuesdays" in page
+    assert "dice readings 34–36 (side defender)" in page and "only on Tuesdays" in page
     assert "Sources: SPI 8.37 · scan page 69" in page
     assert page.index("## Table") < page.index("## Columns") < page.index("## Notes")
 
@@ -63,7 +63,10 @@ def _rendered_leaves(node, key=None):
     if key in ("sources", "column", "notes", "footnotes", "table"):
         return
     if tp._leafish(node) and key is not None:
-        yield tp.fmt(node)
+        if isinstance(node, list) and len(node) > 4:   # may be spread across the chart's columns
+            yield from (tp.fmt(x, key) for x in node)
+        else:
+            yield tp.fmt(node, key)
         return
     items = node.items() if isinstance(node, dict) else ((key, x) for x in node)
     for k, v in items:

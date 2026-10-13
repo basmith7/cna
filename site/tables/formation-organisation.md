@@ -12,107 +12,105 @@ Used in [Organisation](/rules/70-organisation).
 
 ## Units
 
-| | |
-|---|---|
-| **Armoured-division** | <span class="wrap">CW armoured division (5 SP), organisation type I-IV by period; IT armoured division (5 SP)</span> |
-| **Armoured-brigade** | <span class="wrap">CW armoured brigade (2 SP), type I-III by period</span> |
-| **Tank-battalion** | tank battalion (1 SP) |
-| **Infantry-division** | CW infantry division (5 SP) |
-| **Support-group** | <span class="wrap">CW support group (2 SP; the Motor Brigade Group after turn 70), type I-III by period</span> |
-| **Infantry-brigade-3sp** | <span class="wrap">CW 3 SP infantry brigade, effectively a battle group: 18th Australian, 1st Free French, Polish</span> |
-| **Infantry-brigade** | <span class="wrap">CW 2 SP infantry brigade (also the 3rd Indian and 161st Indian Motor Brigade Groups)</span> |
-| **Allied-infantry-brigade** | <span class="wrap">CW: 2nd Free French and 1st Greek brigades</span> |
-| **Infantry-battalion** | <span class="wrap">infantry battalion: CW foot, motorised, marine or commando; IT leg, motorised or parachute (a regiment's are normally of one style); DE any infantry-type battalion except a heavy-weapons parachute battalion</span> |
-| **Artillery-unit** | <span class="wrap">CW artillery regiment, battalion or self-propelled regiment; DE any 1 SP artillery counter</span> |
-| **Artillery-group** | <span class="wrap">DE (2): any artillery HQ except the ArKo with all its units, or any three 1 SP artillery units</span> |
-| **Artillery-regiment** | <span class="wrap">IT artillery regiment, up to three artillery battalions, or a parachute artillery regiment</span> |
-| **Artillery-battalion** | <span class="wrap">IT artillery battalion (armoured divisions may use SP artillery battalions)</span> |
-| **Anti-tank-regiment** | <span class="wrap">CW anti-tank, anti-tank/anti-aircraft or tank-destroyer regiment</span> |
-| **Anti-tank-unit** | <span class="wrap">CW: any anti-tank regiment as above, or an anti-tank company (0 SP)</span> |
-| **Anti-tank-battalion** | <span class="wrap">IT anti-tank battalion or up to three anti-tank companies; DE anti-tank battalion</span> |
-| **Anti-tank-company** | IT anti-tank company (0 SP) |
-| **Tank-destroyer-battalion** | <span class="wrap">DE tank-destroyer battalion, or an anti-tank battalion</span> |
-| **Light-aa-unit** | <span class="wrap">CW light anti-aircraft regiment or battalion; DE light anti-aircraft unit</span> |
-| **Heavy-aa-unit** | DE heavy anti-aircraft unit |
-| **Anti-aircraft-unit** | IT any anti-aircraft unit |
-| **Machinegun-battalion** | machine-gun infantry battalion |
-| **Motorised-machinegun-company** | IT motorised machine-gun company (0 SP) |
-| **Armoured-car-unit** | CW armoured car regiment or battalion |
-| **Armoured-car-regiment** | IT armoured car regiment |
-| **Armoured-car-battalion** | IT armoured car battalion |
-| **Armoured-recce-unit** | <span class="wrap">CW armoured reconnaissance regiment or battalion</span> |
-| **Armoured-recce-battalion** | DE armoured reconnaissance battalion |
-| **Engineer-battalion** | <span class="wrap">engineer battalion (CW: the 2/1 Australian Pioneers or a tank battalion made up of Scorpions)</span> |
-| **Engineer-company** | DE engineer company (0 SP) |
-| **Unit** | <span class="wrap">CW: any unit other than a tank battalion whose counter has a stacking value of 1 or 0</span> |
-| **Tank-regiment-3sp** | <span class="wrap">IT 3 SP tank regiment (historically four light and one medium battalion)</span> |
-| **Tank-regiment** | IT 2 SP tank regiment |
-| **Tank-group** | <span class="wrap">IT tank group (5 SP): the Libyan Tank Command, turns 1-26</span> |
-| **Motorised-infantry-division** | IT motorised infantry division (5 SP) |
-| **Semi-motorised-infantry-division** | <span class="wrap">IT semi-motorised infantry division (5 SP)</span> |
-| **Libyan-or-parachute-infantry-division** | <span class="wrap">IT Libyan infantry and parachute infantry divisions (5 SP); the Gruppo Maletti may assign a third regiment</span> |
-| **Infantry-regiment** | <span class="wrap">IT infantry, motorised infantry or parachute infantry regiment (2 SP; the 54th Territorial and 4th of the 10th Army regiments are single 2 SP counters); DE infantry regiment (2 SP; the 288th Sonderverband and 361st Afrika regiments may stand in for any normal one; no battle group may be assigned to a division)</span> |
-| **Bersaglieri-regiment** | IT Bersaglieri infantry regiment (2 SP) |
-| **Bersaglieri-battalion** | <span class="wrap">IT Bersaglieri motorised infantry battalion</span> |
-| **Bersaglieri-motorcycle-battalion** | <span class="wrap">IT Bersaglieri motorcycle infantry battalion</span> |
-| **Bersaglieri-motorcycle-recce-company** | <span class="wrap">IT Bersaglieri motorcycle reconnaissance company (0 SP)</span> |
-| **Cavalry-regiment** | IT cavalry regiment (2 SP) |
-| **Cavalry-battalion** | IT cavalry or camel cavalry battalion |
-| **Sahara-detachment** | <span class="wrap">IT Saharan detachment, an infantry regiment (2 SP)</span> |
-| **Recam** | <span class="wrap">IT Raggruppamento Esplorante del Corpo di Manovra (2 SP); not an armoured regiment for armoured-division assignment</span> |
-| **5-leichte-panzer-division** | <span class="wrap">DE 5th Light Panzer Division (5 SP), later the 21st Panzer Division</span> |
-| **21-panzer-division** | DE 21st Panzer Division (5 SP) |
-| **15-panzer-division** | DE 15th Panzer Division (5 SP) |
-| **90-leichte-afrika-division** | DE 90th Leichte Afrika Division (5 SP) |
-| **164-leichte-afrika-division** | DE 164th Leichte Afrika Division (5 SP) |
-| **Armoured-regiment** | DE armoured regiment (2 SP) |
-| **15-infantry-brigade** | <span class="wrap">DE 15th Infantry Brigade (3 SP); never more than six infantry battalions</span> |
-| **Ramcke-brigade** | DE Ramcke parachute brigade (3 SP) |
-| **Heavy-weapons-parachute-battalion** | <span class="wrap">DE heavy-weapons parachute infantry battalion</span> |
-| **288-sonderverband** | DE 288th Sonderverband (2 SP) |
-| **361-afrika-regiment** | DE 361st Afrika Regiment (2 SP) |
+- **Armoured-division:** <span class="wrap">CW armoured division (5 SP), organisation type I-IV by period; IT armoured division (5 SP)</span>
+- **Armoured-brigade:** <span class="wrap">CW armoured brigade (2 SP), type I-III by period</span>
+- **Tank-battalion:** tank battalion (1 SP)
+- **Infantry-division:** CW infantry division (5 SP)
+- **Support-group:** <span class="wrap">CW support group (2 SP; the Motor Brigade Group after turn 70), type I-III by period</span>
+- **Infantry-brigade-3sp:** <span class="wrap">CW 3 SP infantry brigade, effectively a battle group: 18th Australian, 1st Free French, Polish</span>
+- **Infantry-brigade:** <span class="wrap">CW 2 SP infantry brigade (also the 3rd Indian and 161st Indian Motor Brigade Groups)</span>
+- **Allied-infantry-brigade:** <span class="wrap">CW: 2nd Free French and 1st Greek brigades</span>
+- **Infantry-battalion:** <span class="wrap">infantry battalion: CW foot, motorised, marine or commando; IT leg, motorised or parachute (a regiment's are normally of one style); DE any infantry-type battalion except a heavy-weapons parachute battalion</span>
+- **Artillery-unit:** <span class="wrap">CW artillery regiment, battalion or self-propelled regiment; DE any 1 SP artillery counter</span>
+- **Artillery-group:** <span class="wrap">DE (2): any artillery HQ except the ArKo with all its units, or any three 1 SP artillery units</span>
+- **Artillery-regiment:** <span class="wrap">IT artillery regiment, up to three artillery battalions, or a parachute artillery regiment</span>
+- **Artillery-battalion:** <span class="wrap">IT artillery battalion (armoured divisions may use SP artillery battalions)</span>
+- **Anti-tank-regiment:** <span class="wrap">CW anti-tank, anti-tank/anti-aircraft or tank-destroyer regiment</span>
+- **Anti-tank-unit:** <span class="wrap">CW: any anti-tank regiment as above, or an anti-tank company (0 SP)</span>
+- **Anti-tank-battalion:** <span class="wrap">IT anti-tank battalion or up to three anti-tank companies; DE anti-tank battalion</span>
+- **Anti-tank-company:** IT anti-tank company (0 SP)
+- **Tank-destroyer-battalion:** <span class="wrap">DE tank-destroyer battalion, or an anti-tank battalion</span>
+- **Light-aa-unit:** <span class="wrap">CW light anti-aircraft regiment or battalion; DE light anti-aircraft unit</span>
+- **Heavy-aa-unit:** DE heavy anti-aircraft unit
+- **Anti-aircraft-unit:** IT any anti-aircraft unit
+- **Machinegun-battalion:** machine-gun infantry battalion
+- **Motorised-machinegun-company:** IT motorised machine-gun company (0 SP)
+- **Armoured-car-unit:** CW armoured car regiment or battalion
+- **Armoured-car-regiment:** IT armoured car regiment
+- **Armoured-car-battalion:** IT armoured car battalion
+- **Armoured-recce-unit:** <span class="wrap">CW armoured reconnaissance regiment or battalion</span>
+- **Armoured-recce-battalion:** DE armoured reconnaissance battalion
+- **Engineer-battalion:** <span class="wrap">engineer battalion (CW: the 2/1 Australian Pioneers or a tank battalion made up of Scorpions)</span>
+- **Engineer-company:** DE engineer company (0 SP)
+- **Unit:** <span class="wrap">CW: any unit other than a tank battalion whose counter has a stacking value of 1 or 0</span>
+- **Tank-regiment-3sp:** <span class="wrap">IT 3 SP tank regiment (historically four light and one medium battalion)</span>
+- **Tank-regiment:** IT 2 SP tank regiment
+- **Tank-group:** <span class="wrap">IT tank group (5 SP): the Libyan Tank Command, turns 1-26</span>
+- **Motorised-infantry-division:** IT motorised infantry division (5 SP)
+- **Semi-motorised-infantry-division:** <span class="wrap">IT semi-motorised infantry division (5 SP)</span>
+- **Libyan-or-parachute-infantry-division:** <span class="wrap">IT Libyan infantry and parachute infantry divisions (5 SP); the Gruppo Maletti may assign a third regiment</span>
+- **Infantry-regiment:** <span class="wrap">IT infantry, motorised infantry or parachute infantry regiment (2 SP; the 54th Territorial and 4th of the 10th Army regiments are single 2 SP counters); DE infantry regiment (2 SP; the 288th Sonderverband and 361st Afrika regiments may stand in for any normal one; no battle group may be assigned to a division)</span>
+- **Bersaglieri-regiment:** IT Bersaglieri infantry regiment (2 SP)
+- **Bersaglieri-battalion:** <span class="wrap">IT Bersaglieri motorised infantry battalion</span>
+- **Bersaglieri-motorcycle-battalion:** <span class="wrap">IT Bersaglieri motorcycle infantry battalion</span>
+- **Bersaglieri-motorcycle-recce-company:** <span class="wrap">IT Bersaglieri motorcycle reconnaissance company (0 SP)</span>
+- **Cavalry-regiment:** IT cavalry regiment (2 SP)
+- **Cavalry-battalion:** IT cavalry or camel cavalry battalion
+- **Sahara-detachment:** <span class="wrap">IT Saharan detachment, an infantry regiment (2 SP)</span>
+- **Recam:** <span class="wrap">IT Raggruppamento Esplorante del Corpo di Manovra (2 SP); not an armoured regiment for armoured-division assignment</span>
+- **5-leichte-panzer-division:** <span class="wrap">DE 5th Light Panzer Division (5 SP), later the 21st Panzer Division</span>
+- **21-panzer-division:** DE 21st Panzer Division (5 SP)
+- **15-panzer-division:** DE 15th Panzer Division (5 SP)
+- **90-leichte-afrika-division:** DE 90th Leichte Afrika Division (5 SP)
+- **164-leichte-afrika-division:** DE 164th Leichte Afrika Division (5 SP)
+- **Armoured-regiment:** DE armoured regiment (2 SP)
+- **15-infantry-brigade:** <span class="wrap">DE 15th Infantry Brigade (3 SP); never more than six infantry battalions</span>
+- **Ramcke-brigade:** DE Ramcke parachute brigade (3 SP)
+- **Heavy-weapons-parachute-battalion:** <span class="wrap">DE heavy-weapons parachute infantry battalion</span>
+- **288-sonderverband:** DE 288th Sonderverband (2 SP)
+- **361-afrika-regiment:** DE 361st Afrika Regiment (2 SP)
 
 ## Table
 
 | Nation | Parent | SP | Type | Turns | Components | Turns list |
 |---|---|---|---|---|---|---|
-| cw | armoured division | 5 | I | 1–18 | <span class="wrap">Count: 2; Unit: armoured brigade; SP: 2; Type: I, Count: 1; Unit: support group; SP: 2; Type: I</span> |  |
-| cw | armoured division | 5 | II | 19–70 | <span class="wrap">Count: 2; Unit: armoured brigade; SP: 2; Type: II, Count: 1; Unit: support group; SP: 2; Type: II, Count: 1; Any of: armoured car unit, armoured recce unit; SP: 1</span> |  |
-| cw | armoured division | 5 | III | 71–91 | <span class="wrap">Count: 1; Unit: armoured brigade; SP: 2; Type: III, Count: 1; Unit: support group; SP: 2; Type: III, Count: 1; Unit: armoured car unit; SP: 1</span> |  |
-| cw | armoured division | 5 | IV | 92+ | <span class="wrap">Count: 1; Unit: armoured brigade; SP: 2; Type: II, Count: 1; Unit: infantry brigade; SP: 2, Count: 3; Unit: artillery unit; SP: 1, Count: 1; Unit: anti tank regiment; SP: 1, Count: 1; Unit: light aa unit; SP: 1, Count: 1; Unit: machinegun battalion; SP: 1, Count: 1; Unit: engineer battalion; SP: 1, Count: 1; Any of: armoured car unit, armoured recce unit; SP: 1</span> |  |
-| cw | infantry division | 5 |  |  | <span class="wrap">Count: 3; Unit: infantry brigade; SP: 2, Count: 3; Unit: artillery unit; SP: 1, Count: 1; Unit: anti tank regiment; SP: 1, Count: 1; Unit: anti tank unit; SP: —, Count: 1; Unit: machinegun battalion; SP: 1, Count: 1; Unit: engineer battalion; SP: 1, Count: 1; Any of: armoured car unit, armoured recce unit; SP: 1</span> |  |
-| cw | armoured brigade | 2 | I | 1–18 | Count: 3; Unit: tank battalion; SP: 1 |  |
-| cw | armoured brigade | 2 | II |  | <span class="wrap">Count: 3; Unit: tank battalion; SP: 1, Count: 1; Unit: infantry battalion; SP: 1</span> | 19–70, 92+ |
-| cw | armoured brigade | 2 | III | 71–91 | <span class="wrap">Count: 3; Unit: tank battalion; SP: 1, Count: 1; Unit: infantry battalion; SP: 1, Count: 1; Unit: artillery unit; SP: 1</span> |  |
-| cw | support group | 2 | I | 1–18 | <span class="wrap">Count: 2; Unit: infantry battalion; SP: 1, Count: 1; Unit: artillery unit; SP: 1, Count: 1; Unit: anti tank regiment; SP: 1, Count: 1; Any of: armoured car unit, armoured recce unit; SP: 1</span> |  |
-| cw | support group | 2 | II | 19–70 | <span class="wrap">Count: 1; Unit: infantry battalion; SP: 1, Count: 1; Unit: artillery unit; SP: 1, Count: 1; Unit: anti tank regiment; SP: 1</span> |  |
-| cw | support group | 2 | III | 71–91 | <span class="wrap">Count: 3; Unit: infantry battalion; SP: 1, Count: 1; Unit: artillery unit; SP: 1</span> |  |
-| cw | infantry-brigade-3sp | 3 |  |  | <span class="wrap">Count: 3; Unit: infantry battalion; SP: 1, Count: 1; Unit: artillery unit; SP: 1, Count: 1; Unit: anti tank unit; SP: —, Count: 1; Any of: light aa unit, machinegun battalion; SP: 1, Count: 1; Any of: armoured car unit, armoured recce unit; SP: —, Count: 1; Unit: unit; SP: —</span> |  |
-| cw | infantry brigade | 2 |  |  | <span class="wrap">Count: 3; Unit: infantry battalion; SP: 1</span> |  |
-| cw | allied infantry brigade | 2 |  |  | <span class="wrap">Count: 3; Unit: infantry battalion; SP: 1, Count: 1; Any of: artillery unit, anti tank unit; SP: 1, Count: 1; Unit: unit; SP: —</span> |  |
-| it | armoured division | 5 |  |  | <span class="wrap">Count: 2; Unit: tank regiment; SP: 2, Count: 2; Unit: infantry regiment; SP: 2, Count: 1; Unit: armoured car regiment; SP: 1, Count: 1; Unit: anti tank battalion; SP: 1, Count: 1; Unit: artillery regiment; SP: 1</span> |  |
-| it | tank group | 5 |  | 1–26 | Count: 2; Unit: tank regiment; SP: 3 |  |
-| it | motorised infantry division | 5 |  |  | <span class="wrap">Count: 2; Unit: infantry regiment; SP: 2, Count: 1; Unit: bersaglieri regiment; SP: 2, Count: 1; Unit: anti tank battalion; SP: 1, Count: 1; Unit: artillery regiment; SP: 1, Count: 1; Unit: anti aircraft unit; SP: —, Count: 1; Unit: machinegun battalion; SP: 1, Count: 1; Unit: engineer battalion; SP: 1</span> |  |
-| it | semi motorised infantry division | 5 |  |  | <span class="wrap">Count: 2; Unit: infantry regiment; SP: 2, Count: 1; Unit: anti aircraft unit; SP: —, Count: 1; Unit: artillery regiment; SP: 1, Count: 1; Unit: machinegun battalion; SP: 1, Count: 1; Unit: engineer battalion; SP: 1, Count: 1; Any of: bersaglieri battalion, bersaglieri motorcycle recce company; SP: —</span> |  |
-| it | libyan or parachute infantry division | 5 |  |  | <span class="wrap">Count: 2; Unit: infantry regiment; SP: 2, Count: 1; Unit: anti tank company; SP: 0, Count: 1; Unit: artillery regiment; SP: 1</span> |  |
-| it | tank-regiment-3sp | 3 |  |  | Count: 5; Unit: tank battalion; SP: 1 |  |
-| it | tank regiment | 2 |  |  | Count: 3; Unit: tank battalion; SP: 1 |  |
-| it | bersaglieri regiment | 2 |  |  | <span class="wrap">Count: 2; Unit: bersaglieri battalion; SP: 1, Count: 1; Any of: bersaglieri motorcycle battalion, bersaglieri battalion; SP: 1</span> |  |
-| it | infantry regiment | 2 |  |  | <span class="wrap">Count: 3; Unit: infantry battalion; SP: 1</span> |  |
-| it | cavalry regiment | 2 |  |  | Count: 3; Unit: cavalry battalion; SP: 1 |  |
-| it | sahara detachment | 2 |  |  | <span class="wrap">Count: 2; Unit: infantry battalion; SP: 1, Count: 1; Any of: infantry battalion, cavalry battalion; SP: 1, Count: 1; Unit: machinegun battalion; SP: 1, Count: 1; Unit: motorised machinegun company; SP: 0, Count: 1; Unit: artillery battalion; SP: 1</span> |  |
-| it | recam | 2 |  |  | <span class="wrap">Count: 1; Unit: armoured car battalion; SP: 1, Count: 1; Unit: motorised machinegun company; SP: 0, Count: 1; Unit: artillery regiment; SP: 1, Count: 1; Unit: engineer battalion; SP: 1</span> |  |
-| de | 5-leichte-panzer-division | 5 |  |  | <span class="wrap">Count: 1; Unit: armoured regiment; SP: 2, Count: 2; Unit: infantry battalion; SP: 1, Count: 1; Unit: tank destroyer battalion; SP: 1, Count: 1; Unit: anti tank battalion; SP: 1, Count: 1; Unit: artillery unit; SP: 1, Count: 1; Unit: heavy aa unit; SP: 1, Count: 1; Unit: light aa unit; SP: 1, Count: 1; Unit: armoured recce battalion; SP: 1, Count: 1; Unit: engineer battalion; SP: 1</span> |  |
-| de | 21-panzer-division | 5 |  |  | <span class="wrap">Count: 1; Unit: armoured regiment; SP: 2, Count: 1; Unit: infantry regiment; SP: 2, Count: 1; Unit: tank destroyer battalion; SP: 1, Count: 1; Unit: anti tank battalion; SP: 1, Count: 2; Unit: artillery unit; SP: 1, Count: 1; Unit: heavy aa unit; SP: 1, Count: 1; Unit: light aa unit; SP: 1, Count: 1; Unit: armoured recce battalion; SP: 1, Count: 1; Unit: engineer battalion; SP: 1</span> |  |
-| de | 15-panzer-division | 5 |  |  | <span class="wrap">Count: 1; Unit: armoured regiment; SP: 2, Count: 1; Unit: 15-infantry-brigade; SP: 3, Count: 1; Unit: tank destroyer battalion; SP: 1, Count: 1; Unit: artillery group; SP: 2, Count: 1; Unit: armoured recce battalion; SP: 1, Count: 1; Unit: engineer battalion; SP: 1</span> |  |
-| de | 90-leichte-afrika-division | 5 |  |  | <span class="wrap">Count: 2; Unit: infantry regiment; SP: 2, Count: 2; Unit: infantry battalion; SP: 1, Count: 1; Unit: anti tank battalion; SP: 1, Count: 1; Unit: artillery unit; SP: 1, Count: 1; Unit: armoured recce battalion; SP: 1, Count: 1; Unit: engineer battalion; SP: 1</span> |  |
-| de | 164-leichte-afrika-division | 5 |  |  | <span class="wrap">Count: 3; Unit: infantry regiment; SP: 2, Count: 1; Unit: anti tank battalion; SP: 1, Count: 1; Unit: artillery group; SP: 2, Count: 1; Unit: light aa unit; SP: 1, Count: 1; Unit: armoured recce battalion; SP: 1, Count: 1; Unit: engineer battalion; SP: 1</span> |  |
-| de | armoured regiment | 2 |  |  | Count: 2; Unit: tank battalion; SP: 1 |  |
-| de | 15-infantry-brigade | 3 |  |  | Count: 3; Unit: infantry regiment; SP: 2 |  |
-| de | ramcke brigade | 3 |  |  | <span class="wrap">Count: 4; Unit: infantry battalion; SP: 1, Count: 1; Unit: heavy weapons parachute battalion; SP: 1</span> |  |
-| de | infantry regiment | 2 |  |  | <span class="wrap">Count: 3; Unit: infantry battalion; SP: 1</span> |  |
-| de | 288-sonderverband | 2 |  |  | <span class="wrap">Count: 3; Unit: infantry battalion; SP: 1, Count: 1; Unit: anti tank battalion; SP: 1, Count: 1; Unit: engineer company; SP: 0</span> |  |
-| de | 361-afrika-regiment | 2 |  |  | <span class="wrap">Count: 2; Unit: infantry battalion; SP: 1, Count: 1; Unit: artillery unit; SP: 1</span> |  |
+| Commonwealth | armoured division | 5 | I | 1–18 | <span class="wrap">Count: 2; Unit: armoured brigade; SP: 2; Type: I</span><br><span class="wrap">Count: 1; Unit: support group; SP: 2; Type: I</span> |  |
+| Commonwealth | armoured division | 5 | II | 19–70 | <span class="wrap">Count: 2; Unit: armoured brigade; SP: 2; Type: II</span><br><span class="wrap">Count: 1; Unit: support group; SP: 2; Type: II</span><br><span class="wrap">Count: 1; Any of: armoured car unit, armoured recce unit; SP: 1</span> |  |
+| Commonwealth | armoured division | 5 | III | 71–91 | <span class="wrap">Count: 1; Unit: armoured brigade; SP: 2; Type: III</span><br><span class="wrap">Count: 1; Unit: support group; SP: 2; Type: III</span><br>Count: 1; Unit: armoured car unit; SP: 1 |  |
+| Commonwealth | armoured division | 5 | IV | 92+ | <span class="wrap">Count: 1; Unit: armoured brigade; SP: 2; Type: II</span><br>Count: 1; Unit: infantry brigade; SP: 2<br>Count: 3; Unit: artillery unit; SP: 1<br><span class="wrap">Count: 1; Unit: anti tank regiment; SP: 1</span><br>Count: 1; Unit: light aa unit; SP: 1<br><span class="wrap">Count: 1; Unit: machinegun battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: engineer battalion; SP: 1</span><br><span class="wrap">Count: 1; Any of: armoured car unit, armoured recce unit; SP: 1</span> |  |
+| Commonwealth | infantry division | 5 |  |  | Count: 3; Unit: infantry brigade; SP: 2<br>Count: 3; Unit: artillery unit; SP: 1<br><span class="wrap">Count: 1; Unit: anti tank regiment; SP: 1</span><br>Count: 1; Unit: anti tank unit; SP: —<br><span class="wrap">Count: 1; Unit: machinegun battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: engineer battalion; SP: 1</span><br><span class="wrap">Count: 1; Any of: armoured car unit, armoured recce unit; SP: 1</span> |  |
+| Commonwealth | armoured brigade | 2 | I | 1–18 | Count: 3; Unit: tank battalion; SP: 1 |  |
+| Commonwealth | armoured brigade | 2 | II |  | Count: 3; Unit: tank battalion; SP: 1<br><span class="wrap">Count: 1; Unit: infantry battalion; SP: 1</span> | 19–70, 92+ |
+| Commonwealth | armoured brigade | 2 | III | 71–91 | Count: 3; Unit: tank battalion; SP: 1<br><span class="wrap">Count: 1; Unit: infantry battalion; SP: 1</span><br>Count: 1; Unit: artillery unit; SP: 1 |  |
+| Commonwealth | support group | 2 | I | 1–18 | <span class="wrap">Count: 2; Unit: infantry battalion; SP: 1</span><br>Count: 1; Unit: artillery unit; SP: 1<br><span class="wrap">Count: 1; Unit: anti tank regiment; SP: 1</span><br><span class="wrap">Count: 1; Any of: armoured car unit, armoured recce unit; SP: 1</span> |  |
+| Commonwealth | support group | 2 | II | 19–70 | <span class="wrap">Count: 1; Unit: infantry battalion; SP: 1</span><br>Count: 1; Unit: artillery unit; SP: 1<br><span class="wrap">Count: 1; Unit: anti tank regiment; SP: 1</span> |  |
+| Commonwealth | support group | 2 | III | 71–91 | <span class="wrap">Count: 3; Unit: infantry battalion; SP: 1</span><br>Count: 1; Unit: artillery unit; SP: 1 |  |
+| Commonwealth | infantry-brigade-3sp | 3 |  |  | <span class="wrap">Count: 3; Unit: infantry battalion; SP: 1</span><br>Count: 1; Unit: artillery unit; SP: 1<br>Count: 1; Unit: anti tank unit; SP: —<br><span class="wrap">Count: 1; Any of: light aa unit, machinegun battalion; SP: 1</span><br><span class="wrap">Count: 1; Any of: armoured car unit, armoured recce unit; SP: —</span><br>Count: 1; Unit: unit; SP: — |  |
+| Commonwealth | infantry brigade | 2 |  |  | <span class="wrap">Count: 3; Unit: infantry battalion; SP: 1</span> |  |
+| Commonwealth | allied infantry brigade | 2 |  |  | <span class="wrap">Count: 3; Unit: infantry battalion; SP: 1</span><br><span class="wrap">Count: 1; Any of: artillery unit, anti tank unit; SP: 1</span><br>Count: 1; Unit: unit; SP: — |  |
+| Italian | armoured division | 5 |  |  | Count: 2; Unit: tank regiment; SP: 2<br>Count: 2; Unit: infantry regiment; SP: 2<br><span class="wrap">Count: 1; Unit: armoured car regiment; SP: 1</span><br><span class="wrap">Count: 1; Unit: anti tank battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: artillery regiment; SP: 1</span> |  |
+| Italian | tank group | 5 |  | 1–26 | Count: 2; Unit: tank regiment; SP: 3 |  |
+| Italian | motorised infantry division | 5 |  |  | Count: 2; Unit: infantry regiment; SP: 2<br><span class="wrap">Count: 1; Unit: bersaglieri regiment; SP: 2</span><br><span class="wrap">Count: 1; Unit: anti tank battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: artillery regiment; SP: 1</span><br><span class="wrap">Count: 1; Unit: anti aircraft unit; SP: —</span><br><span class="wrap">Count: 1; Unit: machinegun battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: engineer battalion; SP: 1</span> |  |
+| Italian | semi motorised infantry division | 5 |  |  | Count: 2; Unit: infantry regiment; SP: 2<br><span class="wrap">Count: 1; Unit: anti aircraft unit; SP: —</span><br><span class="wrap">Count: 1; Unit: artillery regiment; SP: 1</span><br><span class="wrap">Count: 1; Unit: machinegun battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: engineer battalion; SP: 1</span><br><span class="wrap">Count: 1; Any of: bersaglieri battalion, bersaglieri motorcycle recce company; SP: —</span> |  |
+| Italian | libyan or parachute infantry division | 5 |  |  | Count: 2; Unit: infantry regiment; SP: 2<br>Count: 1; Unit: anti tank company; SP: 0<br><span class="wrap">Count: 1; Unit: artillery regiment; SP: 1</span> |  |
+| Italian | tank-regiment-3sp | 3 |  |  | Count: 5; Unit: tank battalion; SP: 1 |  |
+| Italian | tank regiment | 2 |  |  | Count: 3; Unit: tank battalion; SP: 1 |  |
+| Italian | bersaglieri regiment | 2 |  |  | <span class="wrap">Count: 2; Unit: bersaglieri battalion; SP: 1</span><br><span class="wrap">Count: 1; Any of: bersaglieri motorcycle battalion, bersaglieri battalion; SP: 1</span> |  |
+| Italian | infantry regiment | 2 |  |  | <span class="wrap">Count: 3; Unit: infantry battalion; SP: 1</span> |  |
+| Italian | cavalry regiment | 2 |  |  | Count: 3; Unit: cavalry battalion; SP: 1 |  |
+| Italian | sahara detachment | 2 |  |  | <span class="wrap">Count: 2; Unit: infantry battalion; SP: 1</span><br><span class="wrap">Count: 1; Any of: infantry battalion, cavalry battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: machinegun battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: motorised machinegun company; SP: 0</span><br><span class="wrap">Count: 1; Unit: artillery battalion; SP: 1</span> |  |
+| Italian | recam | 2 |  |  | <span class="wrap">Count: 1; Unit: armoured car battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: motorised machinegun company; SP: 0</span><br><span class="wrap">Count: 1; Unit: artillery regiment; SP: 1</span><br><span class="wrap">Count: 1; Unit: engineer battalion; SP: 1</span> |  |
+| German | 5-leichte-panzer-division | 5 |  |  | Count: 1; Unit: armoured regiment; SP: 2<br><span class="wrap">Count: 2; Unit: infantry battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: tank destroyer battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: anti tank battalion; SP: 1</span><br>Count: 1; Unit: artillery unit; SP: 1<br>Count: 1; Unit: heavy aa unit; SP: 1<br>Count: 1; Unit: light aa unit; SP: 1<br><span class="wrap">Count: 1; Unit: armoured recce battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: engineer battalion; SP: 1</span> |  |
+| German | 21-panzer-division | 5 |  |  | Count: 1; Unit: armoured regiment; SP: 2<br>Count: 1; Unit: infantry regiment; SP: 2<br><span class="wrap">Count: 1; Unit: tank destroyer battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: anti tank battalion; SP: 1</span><br>Count: 2; Unit: artillery unit; SP: 1<br>Count: 1; Unit: heavy aa unit; SP: 1<br>Count: 1; Unit: light aa unit; SP: 1<br><span class="wrap">Count: 1; Unit: armoured recce battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: engineer battalion; SP: 1</span> |  |
+| German | 15-panzer-division | 5 |  |  | Count: 1; Unit: armoured regiment; SP: 2<br><span class="wrap">Count: 1; Unit: 15-infantry-brigade; SP: 3</span><br><span class="wrap">Count: 1; Unit: tank destroyer battalion; SP: 1</span><br>Count: 1; Unit: artillery group; SP: 2<br><span class="wrap">Count: 1; Unit: armoured recce battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: engineer battalion; SP: 1</span> |  |
+| German | 90-leichte-afrika-division | 5 |  |  | Count: 2; Unit: infantry regiment; SP: 2<br><span class="wrap">Count: 2; Unit: infantry battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: anti tank battalion; SP: 1</span><br>Count: 1; Unit: artillery unit; SP: 1<br><span class="wrap">Count: 1; Unit: armoured recce battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: engineer battalion; SP: 1</span> |  |
+| German | 164-leichte-afrika-division | 5 |  |  | Count: 3; Unit: infantry regiment; SP: 2<br><span class="wrap">Count: 1; Unit: anti tank battalion; SP: 1</span><br>Count: 1; Unit: artillery group; SP: 2<br>Count: 1; Unit: light aa unit; SP: 1<br><span class="wrap">Count: 1; Unit: armoured recce battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: engineer battalion; SP: 1</span> |  |
+| German | armoured regiment | 2 |  |  | Count: 2; Unit: tank battalion; SP: 1 |  |
+| German | 15-infantry-brigade | 3 |  |  | Count: 3; Unit: infantry regiment; SP: 2 |  |
+| German | ramcke brigade | 3 |  |  | <span class="wrap">Count: 4; Unit: infantry battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: heavy weapons parachute battalion; SP: 1</span> |  |
+| German | infantry regiment | 2 |  |  | <span class="wrap">Count: 3; Unit: infantry battalion; SP: 1</span> |  |
+| German | 288-sonderverband | 2 |  |  | <span class="wrap">Count: 3; Unit: infantry battalion; SP: 1</span><br><span class="wrap">Count: 1; Unit: anti tank battalion; SP: 1</span><br>Count: 1; Unit: engineer company; SP: 0 |  |
+| German | 361-afrika-regiment | 2 |  |  | <span class="wrap">Count: 2; Unit: infantry battalion; SP: 1</span><br>Count: 1; Unit: artillery unit; SP: 1 |  |
 
 ## Notes
 
