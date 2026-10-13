@@ -29,3 +29,19 @@ def test_every_sheet_edge_slope_and_escarpment_meets_its_twin():
 def test_hexes_exist():
     ids = {h["id"] for h in json.loads((ROOT / "data" / "map" / "hexes.json").read_text())["hexes"]}
     assert all(p["west"] in ids and p["east"] in ids for s in SEAMS["seams"] for p in s["pairs"])
+
+
+def test_every_slope_and_escarpment_pair_says_which_hex_is_higher():
+    hs = {r["key"]: r for r in json.loads((ROOT / "data" / "map" / "hexsides.json").read_text())["hexsides"]}
+    n = 0
+    for s in SEAMS["seams"]:
+        for p in s["pairs"]:
+            if not {"slope", "escarpment"} & set(p["features"]):
+                assert "up" not in p
+                continue
+            n += 1
+            assert p["up"] in (p["west"], p["east"])
+            # both sheets' edge records say the same thing
+            for hid, side in ((p["west"], p["west_side"]), (p["east"], p["east_side"])):
+                assert hs[f"{hid}|{side}"]["up"] == p["up"]
+    assert n == 25

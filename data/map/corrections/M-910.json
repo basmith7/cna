@@ -1,0 +1,34 @@
+{
+ "id": "M-910",
+ "target": "hexside",
+ "key": "B3901|W",
+ "before": {
+  "key": "B3901|W",
+  "a": "B3901",
+  "b": null,
+  "side": "W",
+  "features": [
+   "escarpment",
+   "track"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "B3901"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   0,
+   1855,
+   300,
+   300
+  ],
+  "note": "Sheet-edge escarpment A3933|E - B3901|W: the band is drawn on A3933's side, inside A3933's hex with its ragged splash edge towards that hex's centre and its solid edge on the hexside (redraw band read, scan page of A checked); the band is on the down side (EXTRACTION.md, Map C up-side convention), so B3901 is up"
+ },
+ "superseded": false
+}

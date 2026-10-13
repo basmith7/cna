@@ -1,0 +1,33 @@
+{
+ "id": "M-907",
+ "target": "hexside",
+ "key": "A3833|NE",
+ "before": {
+  "key": "A3833|NE",
+  "a": "A3833",
+  "b": null,
+  "side": "NE",
+  "features": [
+   "slope"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "B3901"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   6182,
+   4023,
+   300,
+   300
+  ],
+  "note": "Sheet-edge slope A3833|NE - B3901|SW: the band is drawn on A3833's side, inside A3833's hex with its ragged splash edge towards that hex's centre and its solid edge on the hexside (redraw band read, scan page of A checked); the band is on the down side (EXTRACTION.md, Map C up-side convention), so B3901 is up"
+ },
+ "superseded": false
+}

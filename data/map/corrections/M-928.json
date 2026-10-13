@@ -1,0 +1,33 @@
+{
+ "id": "M-928",
+ "target": "hexside",
+ "key": "D3701|NW",
+ "before": {
+  "key": "D3701|NW",
+  "a": "D3701",
+  "b": null,
+  "side": "NW",
+  "features": [
+   "slope"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "D3701"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   0,
+   2030,
+   300,
+   300
+  ],
+  "note": "Sheet-edge slope C3833|SE - D3701|NW: the band is drawn on C3833's side, inside C3833's hex with its ragged splash edge towards that hex's centre and its solid edge on the hexside (redraw band read, scan page of C checked); the band is on the down side (EXTRACTION.md, Map C up-side convention), so D3701 is up"
+ },
+ "superseded": false
+}

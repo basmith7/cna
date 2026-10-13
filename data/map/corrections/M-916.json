@@ -1,0 +1,33 @@
+{
+ "id": "M-916",
+ "target": "hexside",
+ "key": "C4801|W",
+ "before": {
+  "key": "C4801|W",
+  "a": "C4801",
+  "b": null,
+  "side": "W",
+  "features": [
+   "escarpment"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "C4801"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   0,
+   1112,
+   300,
+   300
+  ],
+  "note": "Sheet-edge escarpment B4833|E - C4801|W: the band is drawn on B4833's side, inside B4833's hex with its ragged splash edge towards that hex's centre and its solid edge on the hexside (redraw band read, scan page of B checked); the band is on the down side (EXTRACTION.md, Map C up-side convention), so C4801 is up"
+ },
+ "superseded": false
+}

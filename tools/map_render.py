@@ -93,7 +93,7 @@ def _hexside_svg(s, sheets, size):
     for feat in s["features"]:
         tick = ""
         if feat in ("slope", "escarpment") and s["up"]:
-            sign = -1 if s["up"] == s["b"] else 1      # tick points to the DOWN hex
+            sign = 1 if s["up"] == s["a"] else -1      # tick points to the DOWN hex (an edge record's up may be across the seam)
             tick = f" M {_f(mid[0])} {_f(mid[1])} l {_f(sign * normal[0] * size * 0.3)} {_f(sign * normal[1] * size * 0.3)}"
         out.append(f'<path class="hexside {feat}" data-a="{s["a"]}" data-b="{s["b"] or ""}" data-up="{s["up"] or ""}" d="{d}{tick}"/>')
     return "".join(out)

@@ -25,6 +25,7 @@
                 "east": {"$ref": "common.schema.json#/$defs/hexId"},
                 "east_side": {"enum": ["W", "SW", "NW"]},
                 "features": {"type": "array", "items": {"type": "string"}, "description": "Union of the two edge records' features (hexsides.json HEX|SIDE)"},
+                "up": {"$ref": "common.schema.json#/$defs/hexId", "description": "The higher of the two hexes (slope and escarpment pairs); the band is drawn on the down side"},
                 "one_side_only": {"type": "array", "minItems": 1, "items": {"type": "string"}, "description": "Features on only one sheet's edge record"}
               }
             }

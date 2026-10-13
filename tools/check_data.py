@@ -246,6 +246,11 @@ def validate_map(data_dir: pathlib.Path, reg: Registry, known: set[str]) -> list
         return errors
     sheets = docs["sheets"]["sheets"]
     hexes = {h["id"]: h for h in docs["hexes"]["hexes"]}
+    across = {}
+    for sm in (docs.get("seams") or {"seams": []})["seams"]:
+        for pr in sm["pairs"]:
+            across[(pr["west"], pr["west_side"])] = pr["east"]
+            across[(pr["east"], pr["east_side"])] = pr["west"]
     for s in docs["hexsides"]["hexsides"]:
         a, b = s["a"], s["b"]
         for hid in (a, b):
@@ -256,7 +261,9 @@ def validate_map(data_dir: pathlib.Path, reg: Registry, known: set[str]) -> list
         if s["key"] != map_geom.hexside_key(a, b, s["side"]):
             errors.append(f"map/hexsides.json: {s['key']}: key does not match a/b/side")
         if s["up"] is not None and s["up"] not in (a, b):
-            errors.append(f"map/hexsides.json: {s['key']}: up {s['up']} is not an endpoint")
+            # a sheet-edge hexside has one endpoint; its higher side may be the hex across the seam
+            if not (b is None and s["up"] == across.get((a, s["side"]))):
+                errors.append(f"map/hexsides.json: {s['key']}: up {s['up']} is not an endpoint")
         if "coast" in s["features"] and b is not None and not all(
                 hexes.get(h, {}).get("coastal") and hexes.get(h, {}).get("terrain") != "sea" for h in (a, b)):
             errors.append(f"map/hexsides.json: {s['key']}: coast between non-coastal or sea hexes")
