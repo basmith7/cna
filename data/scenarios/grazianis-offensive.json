@@ -816,7 +816,7 @@
        "of": "enemy-unit",
        "hexes": 4
       },
-      "constraint": "Libyan part of sheet C only"
+      "region": "libya"
      },
      "kind": "dump",
      "ammo": 1000,
@@ -836,7 +836,7 @@
        "of": "enemy-unit",
        "hexes": 4
       },
-      "constraint": "Libyan part of sheet C only"
+      "region": "libya"
      },
      "kind": "dump",
      "ammo": 1000,
@@ -856,7 +856,7 @@
        "of": "enemy-unit",
        "hexes": 4
       },
-      "constraint": "Libyan part of sheet C only"
+      "region": "libya"
      },
      "kind": "dummy-dump",
      "count": 2
@@ -1243,8 +1243,10 @@
     },
     {
      "placement": {
-      "place": "cairo",
-      "constraint": "or Helwan (E1430)"
+      "place": [
+       "cairo",
+       "helwan"
+      ]
      },
      "units": [
       {
@@ -1411,7 +1413,10 @@
     {
      "placement": {
       "region": "egypt",
-      "constraint": "on sheet C or D"
+      "sheets": [
+       "C",
+       "D"
+      ]
      },
      "kind": "dump",
      "ammo": 500,
@@ -1424,7 +1429,10 @@
     {
      "placement": {
       "region": "egypt",
-      "constraint": "on sheet C or D"
+      "sheets": [
+       "C",
+       "D"
+      ]
      },
      "kind": "dummy-dump",
      "count": 1
@@ -1671,7 +1679,8 @@
          "of": "enemy-unit",
          "hexes": 4
         },
-        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+        "region": "libya",
+        "together": true
        },
        "kind": "supply-unit",
        "count": 3,
@@ -1690,7 +1699,8 @@
          "of": "enemy-unit",
          "hexes": 4
         },
-        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+        "region": "libya",
+        "together": true
        },
        "kind": "supply-unit",
        "count": 3,
@@ -1720,7 +1730,8 @@
          "of": "enemy-unit",
          "hexes": 4
         },
-        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+        "region": "libya",
+        "together": true
        },
        "kind": "dummy-supply-unit",
        "count": 3,
@@ -1737,7 +1748,8 @@
          "of": "enemy-unit",
          "hexes": 4
         },
-        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+        "region": "libya",
+        "together": true
        },
        "kind": "dummy-supply-unit",
        "count": 3,
@@ -1772,7 +1784,8 @@
         "sheets": [
          "D"
         ],
-        "constraint": "any one hex of map D that lies west of Mersa Matruh (D3714); all three units in that one hex (60.92)"
+        "west_of": "D3714",
+        "together": true
        },
        "kind": "supply-unit",
        "count": 3,
@@ -1787,7 +1800,8 @@
         "sheets": [
          "D"
         ],
-        "constraint": "any one hex of map D that lies west of Mersa Matruh (D3714); all three units in that one hex (60.92)"
+        "west_of": "D3714",
+        "together": true
        },
        "kind": "dummy-supply-unit",
        "count": 3
@@ -1894,7 +1908,8 @@
          "of": "enemy-unit",
          "hexes": 4
         },
-        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+        "region": "libya",
+        "together": true
        },
        "kind": "supply-unit",
        "count": 3,
@@ -1913,7 +1928,8 @@
          "of": "enemy-unit",
          "hexes": 4
         },
-        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+        "region": "libya",
+        "together": true
        },
        "kind": "supply-unit",
        "count": 3,
@@ -1943,7 +1959,8 @@
          "of": "enemy-unit",
          "hexes": 4
         },
-        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+        "region": "libya",
+        "together": true
        },
        "kind": "dummy-supply-unit",
        "count": 3,
@@ -1960,7 +1977,8 @@
          "of": "enemy-unit",
          "hexes": 4
         },
-        "constraint": "Libyan part of sheet C; all units of the group in one hex"
+        "region": "libya",
+        "together": true
        },
        "kind": "dummy-supply-unit",
        "count": 3,
@@ -2007,7 +2025,8 @@
         "sheets": [
          "D"
         ],
-        "constraint": "any one hex of map D that lies west of Mersa Matruh (D3714); all three units in that one hex (60.92)"
+        "west_of": "D3714",
+        "together": true
        },
        "kind": "supply-unit",
        "count": 3,
@@ -2022,7 +2041,8 @@
         "sheets": [
          "D"
         ],
-        "constraint": "any one hex of map D that lies west of Mersa Matruh (D3714); all three units in that one hex (60.92)"
+        "west_of": "D3714",
+        "together": true
        },
        "kind": "dummy-supply-unit",
        "count": 3

@@ -40,27 +40,31 @@
   },
   "$defs": {
     "placement": {
-      "description": "Where a block may be placed. Exactly one locator; not_within and constraint narrow it.",
+      "description": "Where a block may be placed. At least one locator (hexes, place, box, within, region, sheets, west_of, air_facility); where several are given, a hex must satisfy every one (region with sheets is that country's part of those sheets). A list inside a locator is a choice: any of its hexes, places or sheets. not_within, together and constraint narrow it.",
       "type": "object",
       "additionalProperties": false,
       "properties": {
         "hexes": {"type": "array", "minItems": 1, "items": {"$ref": "common.schema.json#/$defs/hexId"}, "description": "Any of these hexes, divided as the owner likes (59.2)"},
-        "place": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "description": "A data/map/places.json id; every hex of it"},
+        "place": {"oneOf": [{"$ref": "#/$defs/placeId"}, {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/placeId"}}],
+                  "description": "A data/map/places.json id, every hex of it; a list is every hex of any of them, divided as the owner likes"},
         "box": {"enum": ["tripoli", "tunisia", "tripolitania", "malta", "italy-sicily", "crete"]},
         "within": {"type": "object", "required": ["of", "hexes"], "additionalProperties": false,
                    "properties": {"of": {"$ref": "common.schema.json#/$defs/hexId"}, "hexes": {"type": "integer", "minimum": 0}}},
         "region": {"enum": ["libya", "egypt"]},
         "sheets": {"type": "array", "minItems": 1, "items": {"enum": ["A", "B", "C", "D", "E"]}},
+        "west_of": {"$ref": "common.schema.json#/$defs/hexId", "description": "Hexes west of this one: on an earlier sheet (A-E run west to east), or on its sheet with a lower column CC. A column bound, so a hex in the same column is not west of it"},
+        "together": {"type": "boolean", "description": "Every unit, dump or supply unit of the block goes into one hex, chosen by the owner within the placement"},
         "air_facility": {"type": "boolean", "description": "Any friendly air facility"},
         "not_within": {"type": "object", "required": ["of", "hexes"], "additionalProperties": false,
                        "properties": {"of": {"enum": ["enemy-unit"]}, "hexes": {"type": "integer", "minimum": 0}}},
         "constraint": {"type": "string", "description": "Our sentence for what the grammar cannot say; a ruling should follow"}
       },
-      "oneOf": [
+      "anyOf": [
         {"required": ["hexes"]}, {"required": ["place"]}, {"required": ["box"]}, {"required": ["within"]},
-        {"required": ["region"]}, {"required": ["sheets"]}, {"required": ["air_facility"]}
+        {"required": ["region"]}, {"required": ["sheets"]}, {"required": ["west_of"]}, {"required": ["air_facility"]}
       ]
     },
+    "placeId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
     "unitEntry": {
       "type": "object", "additionalProperties": false,
       "description": "A listed unit stands for itself and everything assigned to it on its OA sheet, adjusted by the 59.2 indicators. A formation entry stands for every counter on that OA sheet (garrisons, which have no single HQ)",

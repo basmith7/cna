@@ -108,3 +108,26 @@ def test_campaign_games():
     assert full["end"] == short["end"] == {"game_turn": 111, "opstage": 3}
     assert short["start"] == {"game_turn": 26, "opstage": 3}
     assert short["victory"] == full["victory"]
+
+
+def test_graziani_set_up_constraints_are_typed():
+    g = load("grazianis-offensive")
+    placements = []
+
+    def walk(o):
+        if isinstance(o, dict):
+            if isinstance(o.get("placement"), dict):
+                placements.append(o["placement"])
+            for v in o.values():
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+    walk(g)
+    assert not [p for p in placements if "constraint" in p]
+    # 59.2 and 60.92 group dumps: Libyan sheet C, or map D west of Mersa Matruh, each group in one hex
+    assert {"sheets": ["C"], "region": "libya", "not_within": {"of": "enemy-unit", "hexes": 4},
+            "together": True} in placements
+    assert {"sheets": ["D"], "west_of": "D3714", "together": True} in placements
+    assert {"region": "egypt", "sheets": ["C", "D"]} in placements
+    assert {"place": ["cairo", "helwan"]} in placements
