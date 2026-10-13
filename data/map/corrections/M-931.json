@@ -1,0 +1,33 @@
+{
+ "id": "M-931",
+ "target": "hexside",
+ "key": "D2333|E",
+ "before": {
+  "key": "D2333|E",
+  "a": "D2333",
+  "b": null,
+  "side": "E",
+  "features": [
+   "escarpment"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "E2301"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p190",
+  "crop": [
+   2916,
+   3164,
+   300,
+   300
+  ],
+  "note": "Sheet-edge escarpment D2333|E - E2301|W: the band is drawn on D2333's side, inside D2333's hex with its ragged splash edge towards that hex's centre and its solid edge on the hexside (redraw band read, scan page of D checked); the band is on the down side (EXTRACTION.md, Map C up-side convention), so E2301 is up"
+ },
+ "superseded": false
+}

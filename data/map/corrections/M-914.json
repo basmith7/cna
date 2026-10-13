@@ -1,0 +1,33 @@
+{
+ "id": "M-914",
+ "target": "hexside",
+ "key": "B5501|SW",
+ "before": {
+  "key": "B5501|SW",
+  "a": "B5501",
+  "b": null,
+  "side": "SW",
+  "features": [
+   "escarpment"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "A5433"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   0,
+   567,
+   300,
+   300
+  ],
+  "note": "A5433|NE meets B5501: the extractor could not tell which side the escarpment band lies on (band read as both). On the redraw and on the scan (A's strip hex 5534 is B5501) the dark band lies inside B5501, along its lower faces, ragged edge towards B5501's centre and solid edge on the hexside; so B5501 is the lower hex and A5433 is up"
+ },
+ "superseded": false
+}

@@ -1,0 +1,33 @@
+{
+ "id": "M-896",
+ "target": "hexside",
+ "key": "B2101|W",
+ "before": {
+  "key": "B2101|W",
+  "a": "B2101",
+  "b": null,
+  "side": "W",
+  "features": [
+   "slope"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "A2133"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   0,
+   3304,
+   300,
+   300
+  ],
+  "note": "Sheet-edge slope A2133|E - B2101|W: the band is drawn on B2101's side, inside B2101's hex with its ragged splash edge towards that hex's centre and its solid edge on the hexside (redraw band read, scan page of B checked); the band is on the down side (EXTRACTION.md, Map C up-side convention), so A2133 is up"
+ },
+ "superseded": false
+}

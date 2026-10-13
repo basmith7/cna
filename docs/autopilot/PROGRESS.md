@@ -18,6 +18,8 @@ The next run reads this section first, acts on it, and moves each item to
 
 - 2026-10-08 (cna-engine, Requests for cna) six requests → all merged 2026-10-08: track cost agrees with E-031 (#168); combat wording phasing/non-phasing, probe refund shown in the CP table (#169; `cp-costs.json` was right as printed); stacking `equivalent` per unit type (#170); Land-only victory supply, R-110 (#171); weapon systems 4.47–4.49 as `data/tables/weapon-systems.json` (#172); cross-sheet adjacency `data/map/seams.json` (#173).
 
+- 2026-10-13 (cna-engine, Requests for cna) four requests → one PR each: 8.37 swamp by railroad costs the road rate, R-117 (#232); 10.36 failed holding-off retreat is paid from the CP left and the rest forfeited, R-118 (#233); supply units, real or dummy, are not units in a supply trace, R-119 (#234); `up` for the 25 seam slope and escarpment pairs read from the redraw and the scan, `seams.json` pairs and the edge records, M-883 to M-932 (#235).
+
 ## Status
 
 **MISSION 7 COMPLETE** (the Air Game, §33–47), 2026-10-09 05:00 UTC. **The queue is finished: every SPI section, §1–65, is covered (1,736 of 1,736 cases).** From here this repo works only on cna-engine's *Requests for cna* and your Feedback.

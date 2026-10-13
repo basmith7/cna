@@ -1,0 +1,33 @@
+{
+ "id": "M-894",
+ "target": "hexside",
+ "key": "B1501|NW",
+ "before": {
+  "key": "B1501|NW",
+  "a": "B1501",
+  "b": null,
+  "side": "NW",
+  "features": [
+   "slope"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/up",
+   "value": "A1633"
+  }
+ ],
+ "seen": {
+  "scan": "scan:p188",
+  "crop": [
+   0,
+   3787,
+   300,
+   300
+  ],
+  "note": "Sheet-edge slope A1633|SE - B1501|NW: the band is drawn on B1501's side, inside B1501's hex with its ragged splash edge towards that hex's centre and its solid edge on the hexside (redraw band read, scan page of B checked); the band is on the down side (EXTRACTION.md, Map C up-side convention), so A1633 is up"
+ },
+ "superseded": false
+}
