@@ -182,6 +182,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Group One — the Italians](./scenarios/10-the-italians.md)
 
+- **E-034** — 60.45: only its first paragraph is right; the lists of ships by port after it are ignored
 - [R-094](../rulings/R-094.md) — Italian artillery printed twice in the Libya list
 - [R-099](../rulings/R-099.md) — Tobruk's repair facility, temporary or major
 - [R-097](../rulings/R-097.md) — when the first Axis convoy arrives, and whether it can be bombed

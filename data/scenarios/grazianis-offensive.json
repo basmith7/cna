@@ -1459,21 +1459,20 @@
    "fleet": {
     "sources": [
      "CNA1979:60.45",
-     "scan:p78"
+     "CNA1979:30.59",
+     "scan:p78",
+     "scan:p141"
     ],
-    "total_note": "Text says one battleship, three cruisers and seven destroyers in total, deployed per the Fleet Schedule (30.0); this does not match the two lists below.",
-    "alexandria": {
-     "battleship": 2,
-     "cruiser": 2,
-     "aa-cruiser": 4,
-     "destroyer": 6
+    "total": {
+     "battleship": 1,
+     "cruiser": 3,
+     "destroyer": 7
     },
-    "valletta": {
-     "cruiser": 1,
-     "aa-cruiser": 1,
-     "destroyer": 2
-    },
-    "movement": "Warships may not move before Game-Turn 2 OpStage 1 (later text: not before the September 1/IV Stage/Turn); they start undamaged and may use their AA ratings."
+    "schedule": "table:cw-fleet-schedule: the ships it deploys on Game-Turn 1 OpStage 1 (one battleship, three cruisers, seven destroyers) start at Alexandria; any one of the three cruisers and any two of the seven destroyers may start at Valletta instead (its malta_options).",
+    "movement": "No warship moves before Game-Turn 2 OpStage 1; all start undamaged, their combat ratings unaffected, and may fire.",
+    "notes": [
+     "SPI errata 60.45: only the first paragraph of the case is correct; the unit lists after it are ignored, so there are no per-port counts here (R-095, E-034)."
+    ]
    },
    "air": {
     "sources": [

@@ -41,3 +41,4 @@ listed here alone.
 | E-031 | 8.37 | correction | data/errata/E-031.json → data/tables/terrain-effects.json; rules/40-movement.md | Terrain Effects Chart: footnote 4 belongs to Major City, not Swamp; a track halves the hex terrain's cost rather than costing 1 CP |
 | E-032 | 54.17 | correction | data/errata/E-032.json → data/tables/supply-dump-demolition.json; rules/logistics/40-trucks-and-dumps.md | Supply Dump Demolition Table: the −1 column destroys 0 % and the 7 column 100 % (both printed 33 %) |
 | E-033 | 8.71 | clarification | rules/logistics/40-trucks-and-dumps.md | the Axis may use the rail lines under §54.4, which was added just before printing |
+| E-034 | 60.45 | correction | rules/scenarios/10-the-italians.md | only the first paragraph of the case (the fleet's total, its deployment by the Fleet Schedule, no movement before Game-Turn 2) is correct; the lists of ships by port that follow are ignored |
