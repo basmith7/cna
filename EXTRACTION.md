@@ -546,3 +546,7 @@ the PR that adds or substantially rewrites the file.
 - **Question:** from the engine (cna-engine #14): does a failed holding-off retreat charge the CPA in full and the retreat's CP on top, or pay the retreat from the CP left?
 - **Source read:** 10.36 in Clay Stone's Land rules PDF: the CP are played "for such movement" (the retreat itself), and the three points come in addition to any the retreat earns. Our prose had "spending all its CP", which dropped the tie to the movement and so hid the question.
 - **Decided:** R-118, the retreat is paid from the CP left and the remainder is forfeited with no disorganisation; 3 points on top whatever the retreat costs. No data changed.
+## data/tables/terrain-effects.json notes; rules/40-movement.md (8.37) — 2026-10-13
+- **Question:** from the engine (cna-engine #13): what a swamp hex costs a unit moving by railroad. The chart prices neither.
+- **Source read:** the chart (jp2 69, re-read against the scan), 8.33 and 8.47 (Clay Stone's Land rules PDF). Swamp row "May enter only on road or railroad"; Railroad row "Same as terrain in hex for all purposes"; notes 10 and 11 treat a railroad as a road for wadi and major-river crossings only. Genuinely silent, so a ruling.
+- **Decided:** R-117, the road rate for the swamp hex (1 non-motorised, ½ motorised, breakdown ½), railroad constructed, hexside features charged as normal. Data cells unchanged; a note on the table points at the ruling.

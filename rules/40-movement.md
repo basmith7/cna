@@ -126,6 +126,17 @@ breakdown points); a road ½; vehicles never climb an escarpment or ford a
 major river except by road; mountain holds 3 stacking points, a major city
 8, everything else 6.
 
+::: ruling R-117 — a swamp hex entered along a constructed railroad costs the road rate
+
+Swamp has no price on the chart: it may be entered only on a road or a
+railroad. A road pays the road rate as usual. A unit that enters a swamp hex
+from a constructed railroad hex, across a railroad hexside, into another
+constructed railroad hex pays the **road rate for that hex** (1 CP
+non-motorised, ½ CP motorised, breakdown ½). Hexside features on the same
+step are charged as for any unit not on a road, except what the chart's notes
+10 and 11 print for railroads. Everywhere else a railroad costs what the
+hex's terrain costs (ruling [R-117](../rulings/R-117.md)).
+
 ::: errata E-031 — 8.37: footnote 4 (Alexandria and Cairo are level-three fortifications) belongs to Major City, not Swamp; a track does not cost 1 CP — it halves the hex terrain's cost, as footnote 8 says
 
 ::: ruling R-002 — road and track stubs that run into a hex without leading anywhere are ignored
