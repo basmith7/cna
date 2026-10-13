@@ -11,10 +11,10 @@
   "scan:p76",
   "scan:p77",
   "scan:p78",
-  "scan:p79"
+  "scan:p79",
+  "CNA1979:4.44"
  ],
  "notes": [
-  "Draft read from the scan; unit ids are placeholders until the OA sheets are transcribed.",
   "60.22 in the scan points to Case 60.71 for victory conditions; the conditions are printed at 60.81."
  ],
  "start": {
@@ -433,7 +433,13 @@
        "alone": true
       },
       {
-       "formation": "it:the-tobruk-garrison-hex-c4807"
+       "formation": "it:the-tobruk-garrison-hex-c4807",
+       "less": [
+        "unit:it:the-san-giorgio"
+       ],
+       "notes": [
+        "The San Giorgio is the partly sunk cruiser in Tobruk harbour (a note on the OA sheet), a fixed harbour blockship with no ID code or TOE, not a unit to place."
+       ]
       }
      ],
      "trucks": {
@@ -583,6 +589,12 @@
      "units": [
       {
        "unit": "unit:it:soluch-garrison-at-coy"
+      },
+      {
+       "unit": "unit:it:soluch-garrison-arty-regt",
+       "notes": [
+        "The printed 'Soluch Garrison' is taken as both Soluch garrison counters of the Minor Garrison Units sheet (the AT company and the artillery regiment); the X Corps artillery regiment is the separate 'X Cp (Ar)'."
+       ]
       },
       {
        "unit": "unit:it:x-corps-artillery-regt"
@@ -935,7 +947,7 @@
       "refitted": 6
      },
      {
-      "type": "2S01",
+      "type": "Z501",
       "available": 9,
       "refitted": 9
      }
@@ -949,7 +961,10 @@
     "refit_from": {
      "game_turn": 1,
      "opstage": 2
-    }
+    },
+    "notes": [
+     "The printed type '2S01' is the Cant Z.501 (SPI errata 60.32)."
+    ]
    },
    "reinforcements": [
     "The Italian player gets shipping from the Convoy Availability Charts and every reinforcement on the Reinforcement Track (60.37)."
@@ -1098,6 +1113,13 @@
         "unit:cw:1-essex",
         "unit:cw:1-dur-lt",
         "unit:cw:1-sostff"
+       ],
+       "assigned": [
+        "unit:cw:1-buffs",
+        "unit:cw:1-hamp"
+       ],
+       "notes": [
+        "The 1st Buffs and 1st Hampshires start assigned to the Matruh Garrison (SPI errata 4.44b item 2); their OA sheet lists them as unassigned."
        ]
       }
      ],
@@ -1125,7 +1147,11 @@
         "unit:cw:1-rtr"
        ],
        "notes": [
-        "Every 7th Armoured unit placed elsewhere in this set-up starts detached from it."
+        "Every 7th Armoured unit placed elsewhere in this set-up starts detached from it.",
+        "The 7th Motor Bde HQ arrives at OpStage 2 of Game-Turn 68 (OA, 7th Armored Division sheet), so it is not set up."
+       ],
+       "less": [
+        "unit:cw:7-mtr-hq"
        ]
       }
      ],
@@ -1147,6 +1173,12 @@
        "detached": [
         "unit:cw:31-fld",
         "unit:cw:7-in-hq"
+       ],
+       "less": [
+        "unit:cw:1-fld"
+       ],
+       "notes": [
+        "The 1st Field Artillery Regt arrives at OpStage 3 of Game-Turn 3 (OA, Indian sheet; reinforcement schedule), so it is not set up; 60.41 detaches only the 31st Field Artillery and the 7th Indian Bde."
        ]
       }
      ],
@@ -1737,7 +1769,7 @@
         "sheets": [
          "D"
         ],
-        "constraint": "one hex west of Mersa Matruh; all three units together"
+        "constraint": "any one hex of map D that lies west of Mersa Matruh (D3714); all three units in that one hex (60.92)"
        },
        "kind": "supply-unit",
        "count": 3,
@@ -1752,7 +1784,7 @@
         "sheets": [
          "D"
         ],
-        "constraint": "one hex west of Mersa Matruh; all three units together"
+        "constraint": "any one hex of map D that lies west of Mersa Matruh (D3714); all three units in that one hex (60.92)"
        },
        "kind": "dummy-supply-unit",
        "count": 3
@@ -1972,7 +2004,7 @@
         "sheets": [
          "D"
         ],
-        "constraint": "one hex west of Mersa Matruh; all three units together"
+        "constraint": "any one hex of map D that lies west of Mersa Matruh (D3714); all three units in that one hex (60.92)"
        },
        "kind": "supply-unit",
        "count": 3,
@@ -1987,7 +2019,7 @@
         "sheets": [
          "D"
         ],
-        "constraint": "one hex west of Mersa Matruh; all three units together"
+        "constraint": "any one hex of map D that lies west of Mersa Matruh (D3714); all three units in that one hex (60.92)"
        },
        "kind": "dummy-supply-unit",
        "count": 3
