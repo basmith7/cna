@@ -16,7 +16,7 @@ transcribing anything.
 | `map/raw/<sheet>.json` | What `tools/map_extract.py` read from the VASSAL redraw: hexes and hexsides, game facts only. Changed only by an extractor PR that regenerates every sheet. |
 | `map/corrections/M-nnn.json` | One hand fix each to a raw record; the evidence is the SPI scan (`seen`), never a third-party database. |
 | `map/hexes.json`, `map/hexsides.json` | Built by `tools/map_build.py` from raw + corrections; never edited by hand (`--check` in CI). |
-| `map/places.json` | Hand-authored named places (the printed *Summary of Important Locations*, ports, oases, airfields as `feature`). |
+| `map/places.json` | Hand-authored named places (the printed *Summary of Important Locations*, ports, oases, airfields as `feature`). A place that covers several hexes (Cairo, five) adds `hexes`, every hex of it; `hex` stays the primary hex that labels it. A scenario's `place` means every hex of the place. |
 | `map/regions.json` | Which hexes are in Libya and which in Egypt, from the frontier printed on map C; `tools/map_geom.country` reads it. Scenario placements use it (`"region": "libya"`). |
 | `oa/<nation>.json` | The organisation (OA) sheets of one nation (`cw`, `it`, `de`): every counter by formation, with parent, ID code, TOE and arrival, as printed. Schema `oa.schema.json`. |
 | `scenarios/<slug>.json` | One scenario (§59–64): length, initiative, construction, victory, and each side's deployments, trucks, supply, air and fleet, plus the abstraction blocks. Schema `scenario.schema.json`; id `scenario:<slug>`. |

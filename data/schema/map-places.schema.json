@@ -47,6 +47,15 @@
           },
           "port": {
             "type": "boolean"
+          },
+          "hexes": {
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true,
+            "items": {
+              "$ref": "common.schema.json#/$defs/hexId"
+            },
+            "description": "Only for a place that covers several hexes (Cairo): every hex of it, including `hex`. `hex` is then the primary hex that labels it."
           }
         }
       }

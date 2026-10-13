@@ -133,6 +133,28 @@ def test_map_referential_errors(tmp_path):
     assert "not adjacent" in errs and "C4099" in errs and "settlement" in errs
 
 
+def test_multi_hex_place(tmp_path):
+    d = make_data(tmp_path)
+    hexes = [H("C4023", settlement="village"), H("C4024", settlement="village"), H("C4025")]
+    ok = {"id": "x", "hex": "C4023", "hexes": ["C4023", "C4024"], "name": "X", "kind": "village", "port": False}
+    make_map(d, hexes, [], [ok])
+    assert check_data.validate_all(d) == []
+    for bad, needle in (({**ok, "hexes": ["C4024", "C4025"]}, "not in its hexes"),
+                        ({**ok, "hexes": ["C4023", "C4025"]}, "C4025 settlement"),
+                        ({**ok, "hexes": ["C4023", "C4099"]}, "unknown hex C4099")):
+        (d / "map" / "places.json").write_text(json.dumps({"sources": ["scan:p187"], "places": [bad]}))
+        assert any(needle in e for e in check_data.validate_all(d)), needle
+    other = {"id": "y", "hex": "C4024", "name": "Y", "kind": "village", "port": False}
+    (d / "map" / "places.json").write_text(json.dumps({"sources": ["scan:p187"], "places": [ok, other]}))
+    assert any("already has place x" in e for e in check_data.validate_all(d))
+
+
+def test_cairo_covers_its_five_city_hexes():
+    cairo = next(p for p in json.loads((ROOT / "data" / "map" / "places.json").read_text())["places"] if p["id"] == "cairo")
+    assert cairo["hex"] == "E1730"
+    assert sorted(cairo["hexes"]) == ["E1730", "E1829", "E1830", "E1930", "E1931"]
+
+
 def test_map_up_must_be_an_endpoint(tmp_path):
     d = make_data(tmp_path)
     make_map(d, [H("C4023"), H("C4024")], [S("C4023", "C4024", up="C4025")], [])
