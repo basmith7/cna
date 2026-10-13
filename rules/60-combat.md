@@ -481,15 +481,19 @@ prisoners, rising with the roll (a 4 and a 5 both give half).
 
 ::: ruling R-013 — pinned units spend no ammunition in a close assault
 
+::: ruling R-122 — points held back from a committed defender always count in the loss base; a unit withheld whole counts only in an overrun
+
 - Any unit with a close-assault rating may add it, offensively or
   defensively; units without one may still be present, adding nothing.
 - Only units *committed* to the assault contribute points. But on the
   defending side, units that add nothing can still lose: **pinned** units,
   units that **retreated before assault** into the hex, units **out of
-  ammunition**, and individual TOE points the defender **withholds** all
-  count in the base from which percentage losses are taken, but spend no
-  ammunition ([R-013](../rulings/R-013.md)). On the attacking
-  side, out-of-ammunition and withheld points are simply ignored.
+  ammunition**, and the TOE points the defender **holds back** from a unit
+  that commits others all count in the base from which percentage losses
+  are taken, but spend no ammunition ([R-013](../rulings/R-013.md)). A
+  defending unit **withheld whole** joins the base only in an overrun
+  ([R-122](../rulings/R-122.md)). On the attacking side,
+  out-of-ammunition and withheld points are simply ignored.
 - A unit out of ammunition cannot assault or defend. If *every* defending
   unit in an assaulted hex is out of ammunition, the whole hex surrenders.
 - Back guns are untouched by close assault except in an overrun
@@ -729,8 +733,9 @@ Take the percentage from the table, then:
 
 1. Each side totals **its own** raw close-assault points in the assault
    ([R-011](../rulings/R-011.md)). The defender adds the raw points of his
-   pinned and retreated-in units, and in an overrun of *every* withheld unit
-   too.
+   pinned, retreated-in and out-of-ammunition units and the points held
+   back from his committed units, and in an overrun of *every* unit
+   withheld whole too ([R-122](../rulings/R-122.md)).
 2. Multiply. The attacker rounds **up**, the defender **down** — except in
    an overrun, where the defender rounds up too (35.1 → 36 attacker, 35
    defender; 1.1 → 2 for an overrun defender). Add any hexes-not-retreated
@@ -738,7 +743,7 @@ Take the percentage from the table, then:
 3. Remove TOE points whose ratings absorb the raw points lost — an infantry
    point with defensive rating 2 absorbs 2 raw — using the rating that was
    in use (offensive for the attacker). Only participating units, plus for
-   the defender pinned or withheld ones, may absorb.
+   the defender the others counted in his base under step 1, may absorb.
 4. Where the points came from more than one hex, share the losses across
    hexes in proportion to the raw points each supplied.
 

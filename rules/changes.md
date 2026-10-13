@@ -49,6 +49,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-015](../rulings/R-015.md) — terrain shifts only the phasing side's anti-armour fire; the non-phasing side fires unshifted
 - [R-014](../rulings/R-014.md) — only a battalion-size or larger combat unit can capture destroyed tanks, as for broken-down vehicles
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
+- [R-122](../rulings/R-122.md) — points held back from a committed defender always count in the loss base; a unit withheld whole counts only in an overrun
 - [R-012](../rulings/R-012.md) — a defender who commits nothing retreats under the normal retreat rule and may stop short at 10 % per hex
 - [R-023](../rulings/R-023.md) — close assault, defender +2 column: readings 34–36 inflict 5 %
 - [R-011](../rulings/R-011.md) — each side's percentage is taken of its own raw points, not the combined total
@@ -308,6 +309,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-118](../rulings/R-118.md) | accepted | 10.36, 6.2, 8.31 |
 | [R-119](../rulings/R-119.md) | accepted | 32.13, 32.16, 32.18, 10.26, 60.81, 60.92 |
 | [R-120](../rulings/R-120.md) | accepted | 32.21, 32.22, 32.23, 32.24, 13.2, 15.15 |
+| [R-122](../rulings/R-122.md) | accepted | 15.12, 15.14, 15.15, 15.16, 15.83, 14.21 |
 
 ## Variants register
 
