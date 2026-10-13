@@ -70,8 +70,7 @@ def apply_errata(table, patches):
 # --- formatting ----------------------------------------------------------------------
 
 def _compounds(s):
-    return re.sub(r"\b(anti|non|close) (armour|aircraft|air|mot|assault)\b",
-                  lambda m: f"{m[1]}-{m[2]}" if m[1] != "close" else m[0], s, flags=re.I)
+    return re.sub(r"\b(anti|non) (armour|aircraft|air|mot)\b", r"\1-\2", s, flags=re.I)
 
 
 def label(key):
@@ -258,8 +257,7 @@ def _block(key, value, base, ctx, level, siblings):
         return [f"{h} {title}", ""] + _matrix(value, ptr, ctx) + [""]
     if isinstance(value, dict) and any(isinstance(x, (dict, list)) and not _leafish(x) for x in value.values()):
         out = [f"{h} {title}", ""]
-        scalars = {k: x for k, x in value.items() if _leafish(x) and not isinstance(x, dict) or
-                   (isinstance(x, dict) and set(x) <= {"from", "to", "min", "max"})}
+        scalars = {k: x for k, x in value.items() if _leafish(x)}
         out += _scalars(scalars, ptr, ctx)
         for k, x in value.items():
             if k not in scalars:
@@ -342,7 +340,7 @@ def render_index(meta):
     out = ["---", "title: Tables", "---", "", HEADER, "", "# Tables", "",
            "Every chart and table the rules call for, with SPI's September 1979 errata applied. "
            "Each page lists the rules that use it. Rules pages link here wherever a table is "
-           "named; [search](#) also finds a table by its name.", "",
+           "named, and search (Ctrl K) finds a table by its name.", "",
            "For developers: the same values are JSON in `data/tables/`; see the "
            "[data conventions](/data/).", ""]
     for g in [*(n for _, n in GROUPS), "Other"]:

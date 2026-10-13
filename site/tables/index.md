@@ -6,7 +6,7 @@ title: Tables
 
 # Tables
 
-Every chart and table the rules call for, with SPI's September 1979 errata applied. Each page lists the rules that use it. Rules pages link here wherever a table is named; [search](#) also finds a table by its name.
+Every chart and table the rules call for, with SPI's September 1979 errata applied. Each page lists the rules that use it. Rules pages link here wherever a table is named, and search (Ctrl K) finds a table by its name.
 
 For developers: the same values are JSON in `data/tables/`; see the [data conventions](/data/).
 

@@ -63,7 +63,7 @@
 .map-toolbar a { margin-left: auto; font-size: 0.9rem; }
 .map-box {
   position: relative; overflow: hidden; max-height: min(80vh, 900px); width: 100%;
-  border: 1px solid var(--vp-c-divider); border-radius: 8px; background: #fff;
+  border: 1px solid var(--vp-c-divider); border-radius: 8px; background: var(--vp-c-bg-alt);
   cursor: grab; touch-action: pan-x pan-y; user-select: none;
 }
 .map-box.dragging { cursor: grabbing; }

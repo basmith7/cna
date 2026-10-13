@@ -2,17 +2,19 @@
 
 ## Next Agent Prompt
 
-Status (2026-10-12): spec written; slices 01–05 not started. Start at slice 01,
-then work in order. After each slice: run every gate below, screenshot the pages it
-touches at 1440×900 and 390×844 with `~/Projects/cna-pm-shots/tools/shoot.cjs`, run
-screenshot-critique on them, and commit only that slice's files by path. Update this
-section (status, next pickup) before you end a pass.
+Status (2026-10-12): slices 01–05 built on branch `pm/polish` (PR labelled `pm`). What
+remains is follow-up work filed as GitHub issues (label `pm`); pick from those rather than
+reopening this spec. If you change a table page, edit `tools/tables_page.py` and run
+`tools/gen_pages.py`; never edit `site/tables/*.md` by hand. Update this section before you
+end a pass.
 
-- [ ] 01 Home page and nav: `slices/01-home.md`
-- [ ] 02 Table pages: `slices/02-tables.md`
-- [ ] 03 Prose links to tables: `slices/03-table-links.md`
-- [ ] 04 Map viewer: `slices/04-map-viewer.md`
-- [ ] 05 Small polish: `slices/05-polish.md`
+- [x] 01 Home page and nav: `slices/01-home.md`
+- [x] 02 Table pages: `slices/02-tables.md`
+- [x] 03 Prose links to tables: `slices/03-table-links.md`
+- [x] 04 Map viewer: `slices/04-map-viewer.md` (built by a delegated pass; sizes and touch fixed after review)
+- [x] 05 Small polish: `slices/05-polish.md`
+
+Evidence: before/after shots in `~/Projects/cna-pm-shots/{before,after}/` (not committed).
 
 ## Goal
 
