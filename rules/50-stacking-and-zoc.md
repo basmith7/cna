@@ -230,10 +230,17 @@ close-assaulted; there is no minimum for that.
 
 ::: spi 10.36
 
+::: ruling R-118 — the retreat is paid from the CP the unit has left; the rest is forfeited
+
 A unit that can do neither must **retreat three hexes** away from the enemy
-unit — no doubling back, spending all its CP — and takes 3 disorganisation
-points on top of any the retreat itself causes. The route may not pass through
-enemy ZOC; if it is forced into one the whole unit surrenders.
+unit — no doubling back — and takes 3 disorganisation points on top of any
+the retreat itself causes. The retreat is ordinary movement: its CP come out
+of what the unit has left, and when it is done the unit's CP are all gone,
+whatever is left over being forfeited at no cost. Only a retreat that costs
+more than the unit had left earns disorganisation, as overspend; the 3 points
+are added in any case (ruling [R-118](../rulings/R-118.md)). The route may
+not pass through enemy ZOC; if it is forced into one the whole unit
+surrenders.
 
 ## Reserve {#reserve}
 

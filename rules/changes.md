@@ -28,6 +28,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-003](../rulings/R-003.md) — Contact is fixed at the start of every movement segment, either side's
 - [R-005](../rulings/R-005.md) — one rail stack each way may mix units and supplies and change its load en route, within both limits
 
+## [Stacking, zones of control and reserve](./50-stacking-and-zoc.md)
+
+- [R-118](../rulings/R-118.md) — the retreat is paid from the CP the unit has left; the rest is forfeited
+
 ## [Combat](./60-combat.md)
 
 - **E-001** — 11.32 printed "+" for the multiplication; the formula is rating × strength
@@ -300,6 +304,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-115](../rulings/R-115.md) | accepted | 40.15, 34.83, 34.88, 34.89 |
 | [R-116](../rulings/R-116.md) | accepted | 35.23 |
 | [R-117](../rulings/R-117.md) | accepted | 8.37, 8.33, 8.47 |
+| [R-118](../rulings/R-118.md) | accepted | 10.36, 6.2, 8.31 |
 | [R-119](../rulings/R-119.md) | accepted | 32.13, 32.16, 32.18, 10.26, 60.81, 60.92 |
 
 ## Variants register
