@@ -2,13 +2,15 @@ import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
 import { spiBadgePlugin } from './spi-badge.mjs'
+import tables from './tables.json'
+import { tableLinksPlugin } from './table-links.mjs'
 
 export default defineConfig({
   title: 'CNA Living Rules',
-  description: 'A restated, reviewed edition of the Campaign for North Africa Land Game rules',
+  description: 'A free, searchable restatement of the rules of The Campaign for North Africa (SPI, 1979): Land, Logistics and Air Games, tables, map and scenarios',
   base: '/cna/',
   srcDir: '..',
-  srcExclude: ['node_modules/**', 'reference/**', 'docs/**', 'tools/**', 'tests/**', 'site/.vitepress/**', '.venv/**', 'EXTRACTION.md', 'AUTOPILOT.md', 'ATTRIBUTION.md', '.superpowers/**', '.claude/**', '.github/**', 'coverage.md', 'site/public/**'],
+  srcExclude: ['node_modules/**', 'reference/**', 'docs/**', 'tools/**', 'tests/**', 'site/.vitepress/**', '.venv/**', 'README.md', 'EXTRACTION.md', 'AUTOPILOT.md', 'specs/**', 'ATTRIBUTION.md', '.superpowers/**', '.claude/**', '.github/**', 'coverage.md', 'site/public/**'],
   outDir: './.vitepress/dist',
   cacheDir: './.vitepress/cache',
   // srcDir is the repo root, so point Vite's public dir at site/public (the rendered map SVGs)
@@ -17,14 +19,15 @@ export default defineConfig({
   lastUpdated: true,
 
   rewrites: {
-    'README.md': 'index.md',
+    'site/index.md': 'index.md',
     'site/learn.md': 'learn.md',
     'site/map.md': 'map.md',
     'rulings/README.md': 'rulings/index.md',
     'data/README.md': 'data/index.md',
+    'site/tables/:name.md': 'tables/:name.md',
   },
   markdown: {
-    config: (md) => { md.use(spiBadgePlugin); md.use(footnote) },
+    config: (md) => { md.use(spiBadgePlugin); md.use(footnote); md.use(tableLinksPlugin, tables) },
   },
   themeConfig: {
     // Client-side original-text viewer (design: "(generated) original" container). Fetched at view
@@ -39,9 +42,11 @@ export default defineConfig({
       { text: 'Learn', link: '/learn' },
       { text: 'Map', link: '/map' },
       { text: 'Rulings', link: '/rulings/register' },
-      { text: 'Data', link: '/data/' },
+      { text: 'Tables', link: '/tables/' },
     ],
     sidebar: {
+      '/tables/': tablesSidebar(),
+      '/data/': tablesSidebar(),
       '/learn': [
         { text: 'Learn', items: [
           { text: 'A · One Operations Stage', link: '/learn#part-a' },
@@ -109,3 +114,17 @@ export default defineConfig({
     footer: { message: 'Rules CC-BY-SA-4.0 · Data CC0 · Code MIT. Not affiliated with SPI or its successors.' },
   },
 })
+
+// Tables sidebar, grouped as on the /tables/ index; tables.json is written by tools/tables_page.py.
+function tablesSidebar() {
+  const ORDER = ['Land Game', 'Logistics Game', 'Air Game', 'Scenarios', 'Other']
+  const groups: Record<string, { text: string, link: string }[]> = {}
+  for (const [name, t] of Object.entries(tables as Record<string, { title: string, group: string }>))
+    (groups[t.group] ??= []).push({ text: t.title, link: `/tables/${name}` })
+  return [
+    { text: 'Tables', items: [{ text: 'All tables', link: '/tables/' }, { text: 'Data conventions', link: '/data/' }] },
+    ...Object.entries(groups).sort(([a], [b]) => ORDER.indexOf(a) - ORDER.indexOf(b)).map(([text, items]) => ({
+      text, collapsed: true, items: items.sort((a, b) => a.text.localeCompare(b.text)),
+    })),
+  ]
+}

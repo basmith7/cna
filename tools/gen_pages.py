@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Generate the derived pages: rules/changes.md (every errata and ruling annotation, by file,
 plus the rulings register), rules/coverage.md (SPI case coverage by section) and
-rulings/register.md (browsable list of every ruling and variant).
+rulings/register.md (browsable list of every ruling and variant), and the table pages
+(site/tables/, via tools/tables_page.py).
 
   python3 tools/gen_pages.py [repo_root]     # rewrites the pages; prints which changed
 
@@ -15,6 +16,7 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import check_coverage as cc  # noqa: E402
+import tables_page  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 ANNOT = re.compile(r"^\s{0,3}:::\s+(errata|ruling|variant)\s+(\S+)(?:\s+(?:—|--)\s+(.*?))?\s*$")
@@ -153,12 +155,15 @@ def render_register(root: pathlib.Path) -> str:
 
 def write_pages(root: pathlib.Path) -> bool:
     changed = False
-    for rel, text in (("rules/changes.md", render_changes(root)), ("rules/coverage.md", render_coverage(root)),
-                      ("rulings/register.md", render_register(root))):
-        p = root / rel
+    pages = {root / rel: text for rel, text in (
+        ("rules/changes.md", render_changes(root)), ("rules/coverage.md", render_coverage(root)),
+        ("rulings/register.md", render_register(root)))}
+    pages.update(tables_page.targets(root))
+    for p, text in pages.items():
         if not p.exists() or p.read_text() != text:
+            p.parent.mkdir(parents=True, exist_ok=True)
             p.write_text(text)
-            print(f"wrote {rel}")
+            print(f"wrote {p.relative_to(root)}")
             changed = True
     return changed
 

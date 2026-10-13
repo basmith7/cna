@@ -1,0 +1,290 @@
+{
+ "air-bombardment": {
+  "title": "Air bombardment",
+  "group": "Air Game"
+ },
+ "air-missions": {
+  "title": "Air missions",
+  "group": "Air Game"
+ },
+ "air-reconnaissance": {
+  "title": "Air reconnaissance",
+  "group": "Air Game"
+ },
+ "air-reinforcement-schedule": {
+  "title": "Air reinforcement schedule",
+  "group": "Air Game"
+ },
+ "aircraft-characteristics": {
+  "title": "Aircraft characteristics",
+  "group": "Air Game"
+ },
+ "aircraft-refit": {
+  "title": "Aircraft refit",
+  "group": "Air Game"
+ },
+ "ammunition-consumption": {
+  "title": "Ammunition consumption",
+  "group": "Logistics Game"
+ },
+ "anti-aircraft-results": {
+  "title": "Anti-aircraft results",
+  "group": "Air Game"
+ },
+ "anti-armour-results": {
+  "title": "Anti-armour results",
+  "group": "Land Game"
+ },
+ "assault-size-shifts": {
+  "title": "Assault size shifts",
+  "group": "Land Game"
+ },
+ "axis-coastal-ships": {
+  "title": "Axis coastal ships",
+  "group": "Logistics Game"
+ },
+ "axis-convoy-bombing": {
+  "title": "Axis convoy bombing",
+  "group": "Land Game"
+ },
+ "axis-convoy-capacity": {
+  "title": "Axis convoy capacity",
+  "group": "Logistics Game"
+ },
+ "axis-convoy-level": {
+  "title": "Axis convoy level",
+  "group": "Logistics Game"
+ },
+ "axis-malta-availability": {
+  "title": "Axis Malta availability",
+  "group": "Air Game"
+ },
+ "axis-malta-commitment": {
+  "title": "Axis Malta commitment",
+  "group": "Air Game"
+ },
+ "axis-replacement-pool": {
+  "title": "Axis replacement pool",
+  "group": "Land Game"
+ },
+ "barrage-results": {
+  "title": "Barrage results",
+  "group": "Land Game"
+ },
+ "breakdown-adjustments": {
+  "title": "Breakdown adjustments",
+  "group": "Land Game"
+ },
+ "breakdown": {
+  "title": "Breakdown",
+  "group": "Land Game"
+ },
+ "chariot-raid": {
+  "title": "Chariot raid",
+  "group": "Land Game"
+ },
+ "close-assault-results": {
+  "title": "Close assault results",
+  "group": "Land Game"
+ },
+ "construction": {
+  "title": "Construction",
+  "group": "Land Game"
+ },
+ "convoy-reconnaissance": {
+  "title": "Convoy reconnaissance",
+  "group": "Air Game"
+ },
+ "cp-costs": {
+  "title": "CP costs",
+  "group": "Land Game"
+ },
+ "cw-fleet-schedule": {
+  "title": "CW fleet schedule",
+  "group": "Land Game"
+ },
+ "cw-production": {
+  "title": "CW production",
+  "group": "Land Game"
+ },
+ "demolition": {
+  "title": "Demolition",
+  "group": "Land Game"
+ },
+ "desert-raider-raids": {
+  "title": "Desert raider raids",
+  "group": "Land Game"
+ },
+ "destroyed-tank-repair": {
+  "title": "Destroyed tank repair",
+  "group": "Land Game"
+ },
+ "equivalent-weights": {
+  "title": "Equivalent weights",
+  "group": "Logistics Game"
+ },
+ "formation-organisation": {
+  "title": "Formation organisation",
+  "group": "Land Game"
+ },
+ "foul-weather-location": {
+  "title": "Foul weather location",
+  "group": "Land Game"
+ },
+ "fuel-evaporation": {
+  "title": "Fuel evaporation",
+  "group": "Logistics Game"
+ },
+ "harbour-mining": {
+  "title": "Harbour mining",
+  "group": "Air Game"
+ },
+ "initiative-ratings": {
+  "title": "Initiative ratings",
+  "group": "Land Game"
+ },
+ "logistics-sequence": {
+  "title": "Logistics sequence",
+  "group": "Logistics Game"
+ },
+ "malta-construction": {
+  "title": "Malta construction",
+  "group": "Air Game"
+ },
+ "maneuver-adjustment": {
+  "title": "Maneuver adjustment",
+  "group": "Air Game"
+ },
+ "max-attachments": {
+  "title": "Max attachments",
+  "group": "Land Game"
+ },
+ "morale-modifier": {
+  "title": "Morale modifier",
+  "group": "Land Game"
+ },
+ "motorisation-losses": {
+  "title": "Motorisation losses",
+  "group": "Land Game"
+ },
+ "objective-loss": {
+  "title": "Objective loss",
+  "group": "Land Game"
+ },
+ "off-map-distances": {
+  "title": "Off map distances",
+  "group": "Land Game"
+ },
+ "patrol-reconnaissance": {
+  "title": "Patrol reconnaissance",
+  "group": "Land Game"
+ },
+ "patrol-survival": {
+  "title": "Patrol survival",
+  "group": "Land Game"
+ },
+ "pilot-arrival": {
+  "title": "Pilot arrival",
+  "group": "Air Game"
+ },
+ "pilot-plane-recovery": {
+  "title": "Pilot plane recovery",
+  "group": "Air Game"
+ },
+ "port-capacity": {
+  "title": "Port capacity",
+  "group": "Logistics Game"
+ },
+ "prisoners-captured": {
+  "title": "Prisoners captured",
+  "group": "Land Game"
+ },
+ "raid-on-rommel": {
+  "title": "Raid on Rommel",
+  "group": "Land Game"
+ },
+ "reinforcement-schedule": {
+  "title": "Reinforcement schedule",
+  "group": "Scenarios"
+ },
+ "replacement-conversion": {
+  "title": "Replacement conversion",
+  "group": "Land Game"
+ },
+ "replacement-training": {
+  "title": "Replacement training",
+  "group": "Land Game"
+ },
+ "sas-raid": {
+  "title": "SAS raid",
+  "group": "Land Game"
+ },
+ "scramble": {
+  "title": "Scramble",
+  "group": "Air Game"
+ },
+ "seasons": {
+  "title": "Seasons",
+  "group": "Land Game"
+ },
+ "simplified-supply": {
+  "title": "Simplified supply",
+  "group": "Land Game"
+ },
+ "stacking-point-values": {
+  "title": "Stacking point values",
+  "group": "Land Game"
+ },
+ "strafing": {
+  "title": "Strafing",
+  "group": "Air Game"
+ },
+ "supply-dump-capacity": {
+  "title": "Supply dump capacity",
+  "group": "Logistics Game"
+ },
+ "supply-dump-demolition": {
+  "title": "Supply dump demolition",
+  "group": "Logistics Game"
+ },
+ "tacair-kill": {
+  "title": "TacAir kill",
+  "group": "Air Game"
+ },
+ "terrain-effects": {
+  "title": "Terrain effects",
+  "group": "Land Game"
+ },
+ "training": {
+  "title": "Training",
+  "group": "Land Game"
+ },
+ "truck-characteristics": {
+  "title": "Truck characteristics",
+  "group": "Logistics Game"
+ },
+ "unit-characteristics": {
+  "title": "Unit characteristics",
+  "group": "Land Game"
+ },
+ "vehicle-repair": {
+  "title": "Vehicle repair",
+  "group": "Land Game"
+ },
+ "water-availability": {
+  "title": "Water availability",
+  "group": "Logistics Game"
+ },
+ "weapon-systems": {
+  "title": "Weapon systems",
+  "group": "Land Game"
+ },
+ "weather": {
+  "title": "Weather",
+  "group": "Land Game"
+ },
+ "well-poisoning": {
+  "title": "Well poisoning",
+  "group": "Logistics Game"
+ }
+}
