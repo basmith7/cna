@@ -385,10 +385,24 @@ one. A shift below row 1 uses row 0. The non-phasing side's return fire
 uses its actual points row unshifted, whatever terrain the assaulting armour
 occupies (ruling [R-015](../rulings/R-015.md)).
 
-No anti-armour fire crosses, in either direction, a ridge hexside without a
-road or track, a slope hexside *downward* without road or track, or an
-escarpment hexside *downward* without a track, when the phasing points
-assault across it.
+Hexsides can also forbid the fire outright, and the Terrain Effects Chart
+and this ban are two halves of one rule, not rivals. Direction is always
+that of the phasing points' assault, from the hex they attack out of into the
+hex they attack; a ridge has no direction. No anti-armour fire is directed
+from or against the assaulting points, in either direction, when they
+cross:
+
+- a **ridge** hexside with no road or track over it;
+- a **slope** hexside *downward* with no road or track over it;
+- an **escarpment** hexside *downward* with no track over it;
+- an **escarpment** hexside *upward*, with or without a track (the chart
+  prints "prohibited" for it with no exception).
+
+The chart's shifts apply where fire is allowed: a ridge crossed by road or
+track shifts 2 rows (L2), a down slope so crossed 1, a down escarpment
+crossed by a track 2, and an up slope 1 (no road needed: it is never
+banned). They add to the in-hex effect as above. An up slope is the only
+hexside the chart shifts that is open to fire without a road or track.
 
 ### Assessing damage {#assessing-damage}
 
