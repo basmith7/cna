@@ -536,3 +536,8 @@ the PR that adds or substantially rewrites the file.
 - **Audit:** the overlap gate, once it normalised HTML entities (`brigade&#39;s` against `brigade's`), showed the built page sharing an 8-word run with SPI's text (the clause giving the Axis strategic win in Alexandria) that the markdown pass had missed. Issue #220.
 - **Changed:** the Axis win clause is reworded, now "putting units equal to a brigade or more into either hex of Alexandria, supplied or not". Same meaning: a brigade-size force in an Alexandria hex wins for the Axis regardless of supply.
 - **Gate:** `tools/check_overlap.py` unescapes HTML entities, and CI runs it over `site/.vitepress/dist` after the site build.
+
+## rules/60-combat.md, Terrain and anti-armour fire (14.34, 8.37); data/tables/terrain-effects.json notes — 2026-10-12
+- **Question:** from the engine (cna-engine #12): the prose bans fire across un-roaded ridges, down slopes and down escarpments, but the chart data marks only the up escarpment prohibited and shifts the rest. Which is 1979?
+- **Source read:** 14.34 (the ban, not 14.35, which is the row-0 floor) and the chart (jp2 69, re-read against the scan). Both printed as we had them; the data matches the chart in every cell. The two do not conflict: the chart's shifts for ridge, slope and down escarpment would never be used if the ban were unconditional, so they are the shifts for the road- or track-crossed case, and 14.34 is the ban for the uncrossed one. No ruling needed.
+- **Changed:** the prose now lists the banned hexsides, says direction is the phasing assault's, adds the up escarpment (chart "P") and states which shifts apply where fire is allowed. A note on the table says the same. No data cell changed.
