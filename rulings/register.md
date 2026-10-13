@@ -94,6 +94,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-117](./R-117.md) | What a swamp hex costs a unit that enters it by railroad | accepted | 8.37, 8.33, 8.47 |
 | [R-118](./R-118.md) | The CP a holding-off failure retreat costs | accepted | 10.36, 6.2, 8.31 |
 | [R-119](./R-119.md) | Supply units, real or dummy, in a supply trace | accepted | 32.13, 32.16, 32.18, 10.26, 60.81, 60.92 |
+| [R-121](./R-121.md) | Abstract supply: ammunition for company-equivalents | accepted | 32.21, 32.24, 9.28, 20.15 |
 
 ## Variants
 

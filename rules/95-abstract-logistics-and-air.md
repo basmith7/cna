@@ -74,6 +74,8 @@ found.
 
 ::: ruling R-013 — pinned units spend no ammunition in a close assault
 
+::: ruling R-121 — a company-equivalent pays half a battalion-equivalent's ammunition, rounded up per side and combat
+
 Keep ammunition and fuel per supply unit on the dump, convoy or TOE log
 sheets. The fleet and patrolling points need nothing.
 
@@ -83,6 +85,9 @@ sheets. The fleet and patrolling points need nothing.
   barrage; a phasing unit pays **double**. Only units committed to the
   assault pay; pinned, retreated-in and withheld units in the hex share the
   losses but spend no ammunition ([R-013](../rulings/R-013.md)).
+  A company-equivalent (a battalion shell included) pays **half**: a
+  side's company-equivalents in one combat pay together, any half point
+  rounded up ([R-121](../rulings/R-121.md)).
 - **Fuel**, per stage: the first time a fuel-using unit moves by land in a
   stage it pays its fuel from a supply unit and may then move up to its CPA
   in any pattern; exceeding its CPA costs the same again at that instant. A
