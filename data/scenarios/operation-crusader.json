@@ -1908,7 +1908,11 @@
     "CNA1979:62.62",
     "scan:p83"
    ],
-   "motorisation": "Each Medium truck point a side could bring in becomes one motorisation point.",
+   "motorisation": {
+    "from": [
+     "medium"
+    ]
+   },
    "replaces": {
     "axis": {
      "supply": [
@@ -2111,7 +2115,12 @@
     "CNA1979:62.63",
     "scan:p83"
    ],
-   "motorisation": "Each Medium and each Heavy truck point a side could bring in becomes one motorisation point.",
+   "motorisation": {
+    "from": [
+     "medium",
+     "heavy"
+    ]
+   },
    "replaces": {
     "axis": {
      "supply": [

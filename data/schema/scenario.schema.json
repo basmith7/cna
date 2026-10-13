@@ -65,6 +65,19 @@
       ]
     },
     "placeId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "motorisation": {
+      "type": "object", "required": ["from"], "additionalProperties": false,
+      "description": "How truck points become motorisation points (32.5, 59.63)",
+      "properties": {
+        "from": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["light", "medium", "heavy"]},
+                 "description": "Each truck point of these classes is one motorisation point: in reinforcements and replacements, and in the starting trucks (first- and second-line blocks alike) unless unattached is given"},
+        "unattached": {"type": "array", "description": "Starting unattached motorisation points where the scenario prints them; these replace the second-line truck blocks",
+                       "items": {"type": "object", "required": ["side", "count", "placement"], "additionalProperties": false,
+                                 "properties": {"side": {"$ref": "common.schema.json#/$defs/side"}, "count": {"type": "integer", "minimum": 1},
+                                                "placement": {"$ref": "#/$defs/placement"}, "notes": {"type": "array", "items": {"type": "string"}}}}},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      }
+    },
     "unitEntry": {
       "type": "object", "additionalProperties": false,
       "description": "A listed unit stands for itself and everything assigned to it on its OA sheet, adjusted by the 59.2 indicators. A formation entry stands for every counter on that OA sheet (garrisons, which have no single HQ)",
@@ -183,7 +196,7 @@
         "adds": {"type": "object", "additionalProperties": false,
                  "properties": {"axis": {"$ref": "#/$defs/side"}, "cw": {"$ref": "#/$defs/side"}},
                  "description": "Blocks given here are added to that side's (SPI says 'in addition')"},
-        "motorisation": {"type": "string", "description": "Our sentence: how truck points convert to motorisation points (59.63)"},
+        "motorisation": {"$ref": "#/$defs/motorisation"},
         "notes": {"type": "array", "items": {"type": "string"}}
       }
     }

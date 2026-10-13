@@ -1179,7 +1179,49 @@
     "scan:p80",
     "scan:p81"
    ],
-   "motorisation": "Each Medium truck point a side could bring in becomes one motorisation point. At the start the Axis has 290 unattached motorisation points; the Commonwealth has 150 in Alexandria/Cairo and 90 elsewhere.",
+   "motorisation": {
+    "from": [
+     "medium"
+    ],
+    "unattached": [
+     {
+      "side": "axis",
+      "count": 290,
+      "placement": {
+       "region": "libya"
+      },
+      "notes": [
+       "Placement not printed; read as where the Axis second-line trucks start."
+      ]
+     },
+     {
+      "side": "cw",
+      "count": 150,
+      "placement": {
+       "place": [
+        "alexandria-east",
+        "alexandria-west",
+        "cairo"
+       ]
+      }
+     },
+     {
+      "side": "cw",
+      "count": 90,
+      "placement": {
+       "sheets": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ]
+      },
+      "notes": [
+       "Printed as \"other locations\"; read as where the Commonwealth second-line trucks outside Alexandria and Cairo start."
+      ]
+     }
+    ]
+   },
    "replaces": {
     "axis": {
      "supply": [
@@ -1326,7 +1368,12 @@
     "CNA1979:61.73",
     "scan:p81"
    ],
-   "motorisation": "Each Medium and each Heavy truck point a side could bring in becomes one motorisation point.",
+   "motorisation": {
+    "from": [
+     "medium",
+     "heavy"
+    ]
+   },
    "replaces": {
     "axis": {
      "supply": [

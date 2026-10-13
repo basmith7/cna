@@ -131,3 +131,13 @@ def test_graziani_set_up_constraints_are_typed():
     assert {"sheets": ["D"], "west_of": "D3714", "together": True} in placements
     assert {"region": "egypt", "sheets": ["C", "D"]} in placements
     assert {"place": ["cairo", "helwan"]} in placements
+
+
+def test_motorisation_is_typed():
+    # 60.92/60.93 and their kin: Land-only converts Medium trucks; Land-and-Air converts Medium and Heavy
+    for slug in ("grazianis-offensive", "rommels-arrival", "operation-crusader", "the-last-chance"):
+        ab = load(slug)["abstractions"]
+        assert ab["air_and_logistics"]["motorisation"]["from"] == ["medium"], slug
+        assert ab["logistics"]["motorisation"]["from"] == ["medium", "heavy"], slug
+    unattached = load("rommels-arrival")["abstractions"]["air_and_logistics"]["motorisation"]["unattached"]
+    assert [(u["side"], u["count"]) for u in unattached] == [("axis", 290), ("cw", 150), ("cw", 90)]

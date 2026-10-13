@@ -1819,7 +1819,11 @@
    "sources": [
     "CNA1979:63.82"
    ],
-   "motorisation": "Each Medium truck a side could bring in is one motorisation point.",
+   "motorisation": {
+    "from": [
+     "medium"
+    ]
+   },
    "replaces": {
     "axis": {
      "supply": [
@@ -2004,7 +2008,12 @@
    "sources": [
     "CNA1979:63.83"
    ],
-   "motorisation": "Each Medium and each Heavy truck is one motorisation point.",
+   "motorisation": {
+    "from": [
+     "medium",
+     "heavy"
+    ]
+   },
    "adds": {
     "axis": {
      "supply": [
