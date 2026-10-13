@@ -131,3 +131,24 @@ def test_graziani_set_up_constraints_are_typed():
     assert {"sheets": ["D"], "west_of": "D3714", "together": True} in placements
     assert {"region": "egypt", "sheets": ["C", "D"]} in placements
     assert {"place": ["cairo", "helwan"]} in placements
+
+
+def _supply_blocks(o):
+    if isinstance(o, dict):
+        if "kind" in o and "placement" in o:
+            yield o
+        for v in o.values():
+            yield from _supply_blocks(v)
+    elif isinstance(o, list):
+        for v in o:
+            yield from _supply_blocks(v)
+
+
+def test_supply_figures_are_per_unit_unless_pooled():
+    for p in sorted(SC.glob("*.json")):
+        for b in _supply_blocks(json.loads(p.read_text())):
+            if b.get("pooled"):
+                assert b["kind"] == "dump" and b.get("count", 1) > 1, (p.name, b)
+            elif b["kind"] == "supply-unit" and not any("Depot" in n for n in b.get("notes", [])):
+                # 32.11: a supply unit holds at most 40 ammunition and 60 fuel, so each figure is one unit's load
+                assert b.get("ammo", 0) <= 40 and b.get("fuel", 0) <= 60, (p.name, b)
