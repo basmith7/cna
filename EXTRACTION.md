@@ -518,3 +518,8 @@ the PR that adds or substantially rewrites the file.
 - **Charts read:** Anti-Aircraft Combat Results Table (46.3; chart page 13, jp2 107, upside down in the scan) and the Flak Adjustment Chart (46.4; community Shared Charts.pdf p. 11 only, not found on the archive.org chart pages searched, jp2 95–115).
 - **Cross-check:** 46.3 read twice (Shared Charts.pdf p. 13): 180 cells, 1 differs in dots only. A test checks every column of every block covers the 36 two-dice rolls exactly once (all 30 columns do). 46.4 has one read.
 - **Rulings:** opened R-113 (the table's own density note and 46.4 count differently).
+
+## data/scenarios/grazianis-offensive.json — audit fixes, 2026-10-12
+- **Audit:** the set-up compared again with the 60.41 and 60.31 listings (jp2 76-77), the OA sheets (jp2 116, 125, 156) and SPI's errata (4.44b item 2, 60.32, 60.41). Each finding re-read before changing.
+- **Changed:** the 7th Motor Bde HQ (arrives 2/68) and the 1st Field Artillery Regt (3/3) are `less` in their divisions' entries; the 1st Buffs and 1st Hampshires are `assigned` to the Matruh Garrison (4.44b); the Soluch Garrison artillery regiment is placed at Soluch; the San Giorgio blockship is `less` in the Tobruk garrison; Dump I's placement reads "any one hex of map D west of Mersa Matruh" (60.92); the plane "2S01" is the Z501 (60.32); the stale placeholder note is gone.
+- **Left:** the three broken-down cruiser TOE points in Alexandria stay a note; a unit entry needs a unit id and the schema has no loose-TOE block.
