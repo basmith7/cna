@@ -94,6 +94,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-119](../rulings/R-119.md) — supply units, real or dummy, do not count as units in a supply trace
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 - [R-121](../rulings/R-121.md) — a company-equivalent pays half a battalion-equivalent's ammunition, rounded up per side and combat
+- [R-120](../rulings/R-120.md) — a unit that cannot pay its fuel does not move by land; one that cannot pay its ammunition is out of ammunition
 
 ## [Air Game — aircraft and squadrons](./air/10-aircraft-and-sgsus.md)
 
@@ -307,6 +308,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-117](../rulings/R-117.md) | accepted | 8.37, 8.33, 8.47 |
 | [R-118](../rulings/R-118.md) | accepted | 10.36, 6.2, 8.31 |
 | [R-119](../rulings/R-119.md) | accepted | 32.13, 32.16, 32.18, 10.26, 60.81, 60.92 |
+| [R-120](../rulings/R-120.md) | accepted | 32.21, 32.22, 32.23, 32.24, 13.2, 15.15 |
 | [R-121](../rulings/R-121.md) | accepted | 32.21, 32.24, 9.28, 20.15 |
 
 ## Variants register
