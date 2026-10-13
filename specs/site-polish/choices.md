@@ -53,7 +53,7 @@ Decisions made for Brian where the brief and spec were silent. They're grouped b
   - an object of objects becomes a matrix. The close-assault losses use this;
   - scalars become a two-column "label | value" table;
   - `{from,to}` becomes "11–53", a run of integers becomes "2–7", and null becomes "—";
-  - slug values such as `no-effect` read "no effect", and keys are turned into labels (`anti_armour` becomes "Anti-armour");
+  - nation codes read as names (cw → Commonwealth); an object in a cell shows one "Label: value" per line; a short list of small records stays in its cell, but a long one (more than 6) or a deep one becomes its own table under a heading per row; a dice row with one value per chart column spreads across those columns; absent values show "—"; slug values such as `no-effect` read "no effect", and keys are turned into labels (`anti_armour` becomes "Anti-armour");
   - page titles come from the slug (`close-assault-results` becomes "Close assault results"), because the JSON has no human title field.
 - **The reach:** a new table renders with no code change. A test checks that every value on every real table appears on its page. Some tables lack axis meaning, for example that close-assault rows are loss percentages (#221).
 - **Confidence:** medium-high.
