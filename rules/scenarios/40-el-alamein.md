@@ -90,8 +90,8 @@ without the Logistics Game.
 
 ::: spi 63.9 63.91
 
-**The Last Chance.** The Axis wins strategically by occupying any hex of
-Alexandria with at least a brigade's worth of units, whatever its supply.
+**The Last Chance.** The Axis wins strategically by putting units
+equal to a brigade or more into either hex of Alexandria, supplied or not.
 Otherwise each side counts its TOE strength points on the enemy's map (the
 Axis on map E; the Commonwealth on map D, not counting Layforce and SAS);
 the larger total wins a tactical victory.
