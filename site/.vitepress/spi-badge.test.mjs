@@ -22,7 +22,7 @@ test('spi-ref renders without anchors', () => {
 
 test('spi-omit renders reason', () => {
   const html = md.render('::: spi-omit 4.6 — component inventory\n')
-  assert.match(html, /<p class="spi-badge spi-omit">SPI 4\.6 omitted — component inventory<\/p>/)
+  assert.match(html, /<p class="spi-badge spi-omit">Not restated: SPI 4\.6 — component inventory<\/p>/)
 })
 
 test('other ::: lines are untouched', () => {
@@ -39,7 +39,7 @@ test('a badge directly after a prose line terminates the paragraph', () => {
 
 test('an omit reason containing a second em-dash keeps the whole reason', () => {
   const html = md.render('::: spi-omit 4.6 — component inventory — see also 4.7\n')
-  assert.match(html, /SPI 4\.6 omitted — component inventory — see also 4\.7/)
+  assert.match(html, /Not restated: SPI 4\.6 — component inventory — see also 4\.7/)
 })
 
 test('errata badge renders id and paraphrase', () => {

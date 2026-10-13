@@ -76,6 +76,6 @@ export function spiBadgePlugin(md) {
       const links = cases.map(c => `<a href="${BASE}rulings/${esc(c)}">${esc(c)}</a>`).join(', ')
       return `<p class="spi-badge spi-variant">Variant ${links}${tail}</p>\n`
     }
-    return `<p class="spi-badge spi-omit">SPI ${esc(list)} omitted${reason ? ' — ' + esc(reason) : ''}</p>\n`
+    return `<p class="spi-badge spi-omit">Not restated: SPI ${esc(list)}${tail}</p>\n`
   }
 }

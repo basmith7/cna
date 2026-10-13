@@ -1,8 +1,8 @@
 .spi-badge {
   display: inline-block;
   font-size: 0.75rem;
-  line-height: 1.2;
-  padding: 0.15em 0.5em;
+  line-height: 1.5;
+  padding: 0.2em 0.6em;
   border-radius: 4px;
   border: 1px solid var(--vp-c-divider);
   color: var(--vp-c-text-2);
@@ -11,7 +11,7 @@
 }
 .spi-badge.spi-primary { font-weight: 600; }
 .spi-badge.spi-ref::before { content: '↗ '; }
-.spi-badge.spi-omit { text-decoration: line-through; }
+.spi-badge.spi-omit { border-style: dashed; background: transparent; font-style: italic; }
 .spi-badge.spi-errata::before { content: '✎ '; }
 .spi-badge.spi-ruling::before { content: '⚖ '; }
 .spi-badge.spi-variant::before { content: '⑂ '; }
@@ -76,3 +76,6 @@
   .map-hint .hint-mouse { display: none; }
   .map-hint .hint-touch { display: inline; }
 }
+
+/* Rulings register (rulings/register.md): keep ids like R-001 on one line */
+.rulings-register .vp-doc td:first-child { white-space: nowrap; }
