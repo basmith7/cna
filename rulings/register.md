@@ -91,6 +91,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-114](./R-114.md) | Anti-air units with the Air Game and abstract logistics | accepted | 47.0, 32.81, 32.82, 32.83, 32.84 |
 | [R-115](./R-115.md) | Are there rating-5 pilots? | accepted | 40.15, 34.83, 34.88, 34.89 |
 | [R-116](./R-116.md) | Commonwealth squadron size before July 1941 | accepted | 35.23 |
+| [R-117](./R-117.md) | What a swamp hex costs a unit that enters it by railroad | accepted | 8.37, 8.33, 8.47 |
 
 ## Variants
 

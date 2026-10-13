@@ -20,6 +20,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - **E-031** — 8.37: footnote 4 (Alexandria and Cairo are level-three fortifications) belongs to Major City, not Swamp; a track does not cost 1 CP — it halves the hex terrain's cost, as footnote 8 says
 - [R-004](../rulings/R-004.md) — a formation mixing foot and vehicle elements pays the dearer terrain cost and obeys both sets of prohibitions
+- [R-117](../rulings/R-117.md) — a swamp hex entered along a constructed railroad costs the road rate
 - [R-002](../rulings/R-002.md) — road and track stubs that run into a hex without leading anywhere are ignored
 - [R-007](../rulings/R-007.md) — a reacting unit spends CP only on movement and on blowing a dump
 - [R-006](../rulings/R-006.md) — the stacking condition in 8.53a applies to truck convoys only
@@ -296,6 +297,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-114](../rulings/R-114.md) | accepted | 47.0, 32.81, 32.82, 32.83, 32.84 |
 | [R-115](../rulings/R-115.md) | accepted | 40.15, 34.83, 34.88, 34.89 |
 | [R-116](../rulings/R-116.md) | accepted | 35.23 |
+| [R-117](../rulings/R-117.md) | accepted | 8.37, 8.33, 8.47 |
 
 ## Variants register
 

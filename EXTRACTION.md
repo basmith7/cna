@@ -541,3 +541,8 @@ the PR that adds or substantially rewrites the file.
 - **Question:** from the engine (cna-engine #12): the prose bans fire across un-roaded ridges, down slopes and down escarpments, but the chart data marks only the up escarpment prohibited and shifts the rest. Which is 1979?
 - **Source read:** 14.34 (the ban, not 14.35, which is the row-0 floor) and the chart (jp2 69, re-read against the scan). Both printed as we had them; the data matches the chart in every cell. The two do not conflict: the chart's shifts for ridge, slope and down escarpment would never be used if the ban were unconditional, so they are the shifts for the road- or track-crossed case, and 14.34 is the ban for the uncrossed one. No ruling needed.
 - **Changed:** the prose now lists the banned hexsides, says direction is the phasing assault's, adds the up escarpment (chart "P") and states which shifts apply where fire is allowed. A note on the table says the same. No data cell changed.
+
+## data/tables/terrain-effects.json notes; rules/40-movement.md (8.37) — 2026-10-13
+- **Question:** from the engine (cna-engine #13): what a swamp hex costs a unit moving by railroad. The chart prices neither.
+- **Source read:** the chart (jp2 69, re-read against the scan), 8.33 and 8.47 (Clay Stone's Land rules PDF). Swamp row "May enter only on road or railroad"; Railroad row "Same as terrain in hex for all purposes"; notes 10 and 11 treat a railroad as a road for wadi and major-river crossings only. Genuinely silent, so a ruling.
+- **Decided:** R-117, the road rate for the swamp hex (1 non-motorised, ½ motorised, breakdown ½), railroad constructed, hexside features charged as normal. Data cells unchanged; a note on the table points at the ruling.
