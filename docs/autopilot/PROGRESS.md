@@ -52,7 +52,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. Nothing is open after #241. (Runs of 2026-10-13 22:23, 23:23 and 2026-10-14 00:23 UTC: cna-engine's list still shows the six requests answered by #236–#241; they wait for its autopilot to bump `vendor/cna` and clear them, so nothing new to do.)
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. Nothing is open after #241. (Runs of 2026-10-13 22:23 and 23:23 and 2026-10-14 00:23 and 01:23 UTC: cna-engine's list still shows the six requests answered by #236–#241; they wait for its autopilot to bump `vendor/cna` and clear them, so nothing new to do.)
 
 Probably next from cna-engine: the other scenarios still describe some placements only in `constraint` sentences (Rommel's Arrival, Crusader, The Last Chance). The grammar from #236 covers some of them, and the rest need pooled-dump limits and front-line rules.
 
