@@ -25,6 +25,7 @@ jobs:
       - run: python tools/check_data.py
       - run: python tools/map_build.py --check
       - run: python tools/map_render.py --check
+      - run: python tools/gen_architecture.py --check
       - run: python tools/check_overlap.py
       - name: Coverage report
         run: |

@@ -4,6 +4,8 @@ Read by `~/Scripts/claude-autopilot.sh`, which cron launches every few hours
 when the Claude plan has headroom. Each run is a fresh session with no memory
 of the last one; this file plus the journal is the only continuity.
 
+Orient first: read `ARCHITECTURE.md` (codemap, data model, invariants, where to start).
+
 ## The goal
 
 This repo and `basmith7/cna-engine` share one goal, and every mission in
