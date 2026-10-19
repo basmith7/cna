@@ -236,3 +236,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-19 05:23 | 0 | 56→56 | 0→0 | $0.26 | 5 | Nothing to do this run, so it's idle by design: the rulebook is finished, and the standing orders say to stop when there's no request or Feedback. - **Feedback: |
 | 2026-10-19 06:23 | 0 | 56→56 | 0→0 | $0.25 | 4 | This was an idle run: nothing was waiting for this repo, so I did no rules or data work. The rulebook is finished, there's no Feedback, no autopilot PRs are ope |
 | 2026-10-19 07:23 | 0 | 56→56 | 0→0 | $0.25 | 4 | Nothing to do this run. The rulebook is complete, so the standing orders limit this repo to Feedback and cna-engine's requests, and there are none of either: -  |
+| 2026-10-19 08:23 | 0 | 56→56 | 0→0 | $0.25 | 4 | I didn't do any work this run because nothing was asked for. The Feedback section is empty, no autopilot PRs are open, and cna-engine's *Requests for cna* lists |
