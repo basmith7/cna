@@ -249,3 +249,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-19 18:23 | 0 | 63→63 | 14→14 | $0.26 | 5 | Brian, this was an idle run. The only change was updating the "last checked" time in `PROGRESS.md` (a3e187e on main). - **Feedback:** the section is empty, and  |
 | 2026-10-19 19:23 | 0 | 64→64 | 0→0 | $0.29 | 5 | This was an idle run, and nothing in the repo changed except the "last checked" time in `PROGRESS.md` (`93b37e1`, pushed to main). - **Feedback:** empty. - **Op |
 | 2026-10-19 20:23 | 0 | 64→? | 3→? | $0.26 | 5 | Nothing to do this run, so it ended early by design. With the rulebook finished, the standing orders say to stop when nothing is requested. - **Feedback:** empt |
+| 2026-10-19 21:23 | 0 | 65→65 | 12→12 | $0.25 | 4 | This was an idle run: there was no work to pick up. The Feedback section is empty, no autopilot PRs are open, and cna-engine's "Requests for cna" list still hol |
