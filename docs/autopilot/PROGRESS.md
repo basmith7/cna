@@ -262,3 +262,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-20 11:23 | 0 | 69→? | 11→? | $0.25 | 4 | I didn't do any work this run because nothing was waiting: - **Feedback** in `PROGRESS.md` is empty. - **Open autopilot PRs:** none. - **cna-engine's requests:* |
 | 2026-10-20 12:23 | 0 | 70→70 | 14→14 | $0.25 | 4 | This run found nothing to do. The rulebook is complete, your Feedback section is empty, no autopilot PRs are open, and cna-engine's *Requests for cna* still lis |
 | 2026-10-20 13:23 | 0 | 70→70 | 1→1 | $0.26 | 5 | This run had nothing to do, so I stopped. Under the finish-line rule, the repo now only takes Brian's Feedback and cna-engine's requests, and there were neither |
+| 2026-10-20 14:23 | 0 | 70→? | 2→? | $0.25 | 4 | Idle run: there was nothing to do, so I stopped early as AUTOPILOT.md says to once the rulebook is done. - **Feedback:** the section is empty. - **Open autopilo |
