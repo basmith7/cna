@@ -96,6 +96,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 - [R-121](../rulings/R-121.md) — a company-equivalent pays half a battalion-equivalent's ammunition, rounded up per side and combat
 - [R-120](../rulings/R-120.md) — a unit that cannot pay its fuel does not move by land; one that cannot pay its ammunition is out of ammunition
+- [R-124](../rulings/R-124.md) — air lift: division and brigade-equivalent HQs are destinations; the row limit is the farthest division HQ counter
 - [R-123](../rulings/R-123.md) — one motorisation point per TOE strength point of any kind; a unit short of points is not motorised
 
 ## [Air Game — aircraft and squadrons](./air/10-aircraft-and-sgsus.md)
@@ -314,6 +315,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-121](../rulings/R-121.md) | accepted | 32.21, 32.24, 9.28, 20.15 |
 | [R-122](../rulings/R-122.md) | accepted | 15.12, 15.14, 15.15, 15.16, 15.83, 14.21 |
 | [R-123](../rulings/R-123.md) | accepted | 32.51, 32.53, 32.54, 6.17, 8.91, 8.95, 54.2 |
+| [R-124](../rulings/R-124.md) | accepted | 32.37, 9.22, 9.26, 19.73 |
 
 ## Variants register
 
