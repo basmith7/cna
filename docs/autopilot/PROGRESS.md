@@ -272,3 +272,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-20 15:23 | 0 | 70→? | 4→? | $0.29 | 4 | Idle run with no changes beyond the timestamp. Feedback is empty, no autopilot PRs are open, and cna-engine's **Requests for cna** still lists the six requests  |
 | 2026-10-24 10:23 | 21 | 21→21 | 4→4 | $1.45 | 44 | I answered cna-engine's one new request with ruling R-123 and merged it as #243. All local gates and CI passed. - **The question:** how many motorisation points |
 | 2026-10-24 11:23 | 9 | 21→22 | 6→8 | $2.34 | 56 | Both new cna-engine requests are answered and merged. Gates on `main` are green after the merges (341 tests pass, `check_data` OK, `gen_pages` leaves no diff).  |
+| 2026-10-24 13:23 | 5 | 23→24 | 19→19 | $1.88 | 37 | cna-engine's last open request is answered and merged as **R-125** (#246). Its 21.1x question was which TOE points are armoured cars, armoured recce or trucks.  |
