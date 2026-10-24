@@ -22,9 +22,11 @@ The next run reads this section first, acts on it, and moves each item to
 
 - 2026-10-13 (cna-engine, Requests for cna) six more requests → one PR each, all merged 2026-10-13: typed set-up constraints for Graziani's (`region`+`sheets` combine, `west_of`, `together`, `place` lists; #236); R-120, a unit that cannot pay abstract fuel does not move by land and one that cannot pay ammunition is out of ammunition (#237); R-121, a company-equivalent pays half a battalion-equivalent's ammunition (#238); R-122, points held back from a committed defender count in the loss base, a unit withheld whole only in an overrun (#239); supply figures are per unit unless `pooled` (#240); motorisation as data, `from` plus Rommel's printed unattached counts (#241, changes the type of `motorisation`).
 
+- 2026-10-24 (cna-engine, Requests for cna) motorisation points to motorise a foot unit (32.5x) → R-123 (#243, merged): one motorisation point per TOE strength point of any kind (6.17's one-per-point for AA guns over the chart's two); a unit short of points is not motorised (8.91).
+
 ## Status
 
-**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. On 2026-10-13 it answered ten requests (#232–#241), all merged, among them rulings R-117–R-122.
+**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. On 2026-10-13 it answered ten requests (#232–#241), all merged, among them rulings R-117–R-122; on 2026-10-24 one more, R-123 (#243).
 
 | Task | What landed | PRs |
 |---|---|---|
@@ -52,13 +54,13 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. Nothing is open after #241. Idle since 2026-10-14 (last checked 2026-10-20 22:23 UTC): cna-engine's list still shows the six requests answered by #236–#241, and cna-engine itself has had no commit since 2026-10-13 21:43 UTC (its `vendor/cna` is still pre-#236), so its autopilot looks stalled rather than waiting on this repo.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. Nothing is open after #243. cna-engine is active again (Mission 5 slice 3, 2026-10-24); its list still shows the six requests #236–#241 answered, which its autopilot clears itself.
 
 Probably next from cna-engine: the other scenarios still describe some placements only in `constraint` sentences (Rommel's Arrival, Crusader, The Last Chance). The grammar from #236 covers some of them, and the rest need pooled-dump limits and front-line rules.
 
 For Brian (all optional):
 
-- **Dispute anything.** New today: **R-120** (abstract supply: no fuel, no land move; no ammunition, no defence) and **R-122** (reconciles 15.16 with 15.83). Air rulings worth a look: **R-114** (AA units stay with the Air Game) and **R-116** (squadron size: text over chart). Older: R-099, R-108, R-110, R-027, R-071.
+- **Dispute anything.** New today: **R-123** (motorisation points: one per TOE point, all or nothing). From 2026-10-13: **R-120** (abstract supply: no fuel, no land move; no ammunition, no defence) and **R-122** (reconciles 15.16 with 15.83). Air rulings worth a look: **R-114** (AA units stay with the Air Game) and **R-116** (squadron size: text over chart). Older: R-099, R-108, R-110, R-027, R-071.
 - **Questions only your printed copy can answer** (decision board, `copy` group), new: the **Axis Airplane Reinforcement Schedule (34.87)** is in neither scan, so the Axis currently gets no air reinforcements. Still open: the German Tank and Gun chart's three misaligned rows, Axis coastal ship tonnages, German c/d CPA, the el Grein garrison.
 - Vault: the *CNA Living Rules* roadmap row for Mission 7 is yours to flip to done.
 
