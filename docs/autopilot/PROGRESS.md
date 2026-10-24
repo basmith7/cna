@@ -24,9 +24,11 @@ The next run reads this section first, acts on it, and moves each item to
 
 - 2026-10-24 (cna-engine, Requests for cna) motorisation points to motorise a foot unit (32.5x) → R-123 (#243, merged): one motorisation point per TOE strength point of any kind (6.17's one-per-point for AA guns over the chart's two); a unit short of points is not motorised (8.91).
 
+- 2026-10-24 (cna-engine, Requests for cna) two more → one PR each: a Game-Turn calendar, `data/tables/calendar.json` (#244, merged; every month is exactly four turns, weeks I–IV, GT1 = September III 1940, GT111 = January I 1943, read from the 34.84 chart); HQ echelons as data plus R-124 for the air lift (#245): every OA HQ has `echelon`, regiment HQs count as brigades, battle groups and the corps HQ never qualify, and the row limit is the farthest division HQ counter.
+
 ## Status
 
-**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. On 2026-10-13 it answered ten requests (#232–#241), all merged, among them rulings R-117–R-122; on 2026-10-24 one more, R-123 (#243).
+**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. On 2026-10-13 it answered ten requests (#232–#241), among them rulings R-117–R-122; on 2026-10-24 three more: R-123 (#243), the Game-Turn calendar (#244) and HQ echelons with R-124 (#245). Every bullet on cna-engine's list is now answered.
 
 | Task | What landed | PRs |
 |---|---|---|
@@ -54,14 +56,14 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. Nothing is open after #243. cna-engine is active again (Mission 5 slice 3, 2026-10-24); its list still shows the six requests #236–#241 answered, which its autopilot clears itself.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. Nothing is open after #245; cna-engine's autopilot clears its own list.
 
-Probably next from cna-engine: the other scenarios still describe some placements only in `constraint` sentences (Rommel's Arrival, Crusader, The Last Chance). The grammar from #236 covers some of them, and the rest need pooled-dump limits and front-line rules.
+Probably next from cna-engine: the other scenarios still describe some placements only in `constraint` sentences (Rommel's Arrival, Crusader, The Last Chance), and §20 organisation may want more from the new `echelon` field.
 
 For Brian (all optional):
 
-- **Dispute anything.** New today: **R-123** (motorisation points: one per TOE point, all or nothing). From 2026-10-13: **R-120** (abstract supply: no fuel, no land move; no ammunition, no defence) and **R-122** (reconciles 15.16 with 15.83). Air rulings worth a look: **R-114** (AA units stay with the Air Game) and **R-116** (squadron size: text over chart). Older: R-099, R-108, R-110, R-027, R-071.
-- **Questions only your printed copy can answer** (decision board, `copy` group), new: the **Axis Airplane Reinforcement Schedule (34.87)** is in neither scan, so the Axis currently gets no air reinforcements. Still open: the German Tank and Gun chart's three misaligned rows, Axis coastal ship tonnages, German c/d CPA, the el Grein garrison.
+- **Dispute anything.** New today: **R-124** (air lift: regiment HQs count as brigades; the row limit is the farthest division HQ) and **R-123** (motorisation points: one per TOE point, all or nothing). From 2026-10-13: **R-120** and **R-122**. Air rulings worth a look: **R-114** and **R-116**. Older: R-099, R-108, R-110, R-027, R-071.
+- **Questions only your printed copy can answer** (decision board, `copy` group): the **Axis Airplane Reinforcement Schedule (34.87)** is in neither scan, so the Axis currently gets no air reinforcements. Still open: the German Tank and Gun chart's three misaligned rows, Axis coastal ship tonnages, German c/d CPA, the el Grein garrison.
 - Vault: the *CNA Living Rules* roadmap row for Mission 7 is yours to flip to done.
 
 ## Runs and quota
