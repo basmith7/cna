@@ -144,6 +144,15 @@ arrival stage too.
   a friendly division or brigade HQ (not a battle group). The unit stays put
   that stage but may be drawn upon.
 
+::: ruling R-124 — air lift: division and brigade-equivalent HQs are destinations; the row limit is the farthest division HQ counter
+
+**Which HQs count.** A brigade HQ means any brigade-equivalent HQ, so
+regiment HQs qualify; battle-group HQs (Kampfgruppe and Gruppe counters)
+and the Afrika Korps HQ do not. The farthest row "held by a division" is the
+row of the farthest friendly division HQ counter, however little is
+attached to it. Each HQ's level is the `echelon` of its OA entry
+(ruling [R-124](../rulings/R-124.md)).
+
 ::: note
 In the Logistics Game this is replaced by [Trucks and dumps](logistics/40-trucks-and-dumps.md#the-commonwealth-railway).
 :::

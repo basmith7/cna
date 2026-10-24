@@ -98,6 +98,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-121](./R-121.md) | Abstract supply: ammunition for company-equivalents | accepted | 32.21, 32.24, 9.28, 20.15 |
 | [R-122](./R-122.md) | Which withheld defenders count in the loss base? | accepted | 15.12, 15.14, 15.15, 15.16, 15.83, 14.21 |
 | [R-123](./R-123.md) | Abstract supply: motorisation points per unit | accepted | 32.51, 32.53, 32.54, 6.17, 8.91, 8.95, 54.2 |
+| [R-124](./R-124.md) | Abstract supply: which HQs the air lift reads | accepted | 32.37, 9.22, 9.26, 19.73 |
 
 ## Variants
 

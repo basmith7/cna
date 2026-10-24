@@ -42,3 +42,21 @@ def test_every_by_unit_oa_unit_names_its_equivalent():
                 if ((oa["nation"], u["id_code"]) in by_unit) != ("equivalent" in u):
                     wrong.append(u["id"])
     assert wrong == []
+
+
+def test_every_oa_headquarters_and_only_headquarters_has_an_echelon():
+    hq = {(r["nation"], r["id_code"]) for r in TABLE["rows"] if r["unit_type"] == "Headquarters"}
+    wrong, levels = [], Counter()
+    for p in sorted((ROOT / "data" / "oa").glob("*.json")):
+        oa = json.loads(p.read_text())
+        for f in oa["formations"]:
+            for u in f["units"]:
+                if ((oa["nation"], u["id_code"]) in hq) != ("echelon" in u):
+                    wrong.append(u["id"])
+                if "echelon" in u:
+                    levels[u["echelon"]] += 1
+                    # a division HQ is always independent (19.1x), so it never has a parent
+                    if u["echelon"] == "division" and u["parent"]:
+                        wrong.append(u["id"])
+    assert wrong == []
+    assert levels == {"division": 45, "brigade": 140, "battle-group": 6, "corps": 1}
