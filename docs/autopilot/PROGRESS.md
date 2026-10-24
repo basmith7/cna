@@ -266,3 +266,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-20 13:23 | 0 | 70→70 | 1→1 | $0.26 | 5 | This run had nothing to do, so I stopped. Under the finish-line rule, the repo now only takes Brian's Feedback and cna-engine's requests, and there were neither |
 | 2026-10-20 14:23 | 0 | 70→? | 2→? | $0.25 | 4 | Idle run: there was nothing to do, so I stopped early as AUTOPILOT.md says to once the rulebook is done. - **Feedback:** the section is empty. - **Open autopilo |
 | 2026-10-20 15:23 | 0 | 70→? | 4→? | $0.29 | 4 | Idle run with no changes beyond the timestamp. Feedback is empty, no autopilot PRs are open, and cna-engine's **Requests for cna** still lists the six requests  |
+| 2026-10-24 10:23 | 21 | 21→21 | 4→4 | $1.45 | 44 | I answered cna-engine's one new request with ruling R-123 and merged it as #243. All local gates and CI passed. - **The question:** how many motorisation points |
