@@ -442,3 +442,9 @@ Done: six cna-engine requests, all merged: #236 typed Graziani placements (regio
 In flight: none; no open autopilot PRs.
 Next: read cna-engine Requests for cna; if empty, stop. Gotcha: rulings PRs conflict in rules/changes.md and rulings/register.md; take main's copy and rerun gen_pages.
 Blocked: none (copy group unchanged; 34.87 Axis air schedule still missing).
+
+## 2026-10-24 10:45 MST — autopilot/req-motorisation-rate
+Done: cna-engine's new request (motorising foot units, 32.5x) answered as R-123 (#243): one motorisation point per TOE strength point of any kind; short of that, not motorised. Gates green locally; CI gates green.
+In flight: #243 waits on the CI `site` job (stuck in_progress with no steps at 17:45 UTC); merge once green.
+Next: if #243 is still open, rerun its site job / merge; then read cna-engine Requests for cna (the other six bullets there were answered by #236–#241; their autopilot has not cleared them).
+Blocked: none.
