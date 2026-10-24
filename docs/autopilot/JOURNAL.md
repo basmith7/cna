@@ -454,3 +454,9 @@ Done: two new cna-engine requests. #244 (merged) `data/tables/calendar.json`: fo
 In flight: #245 until its CI is green, then merge.
 Next: read cna-engine Requests for cna; every bullet there is now answered (#236-#245). If none new, stop.
 Blocked: none.
+
+## 2026-10-24 13:45 MST — autopilot/req-recce-vehicles
+Done: last open cna-engine request (vehicle class for recce/armoured cars, 21.1x) answered as R-125 (#246, 66207e6): `vehicle` on every OA recon unit; Axis per chart notes, CW split per unit, camels/motorcycles none, IT desert patrols truck. Gates green locally.
+In flight: #246 until CI is green, then merge.
+Next: every bullet on cna-engine's Requests list is now answered (#236-#246). If none new, stop.
+Blocked: none.

@@ -32,6 +32,19 @@ the summary is `data/tables/breakdown-adjustments.json`:
 | armoured recce | none |
 | SP guns, tanks | from 1 left to 2 right, per model on the Tank & Gun Characteristics Charts |
 
+::: ruling R-125 — which reconnaissance units are armoured cars: per unit, Axis by the chart notes, Commonwealth by what the unit was
+
+**Armoured car or armoured recce.** The German ee and ff and Italian vv and
+ww rows are armoured cars. A Commonwealth reconnaissance unit is an armoured
+car unit when it fought as one (the Hussars, Lancers, Royals, King's Dragoon
+Guards, South African armoured car units and the like) and armoured recce
+when it is a division's Recce Regiment, divisional cavalry, or a horse
+regiment on carriers. Camel and motorcycle units never break down; the
+Italian desert patrols break down as trucks. A light tank point added under
+20.5 checks with the tanks at its own rating, and no TOE point is ever a
+unit's own truck. Each unit's class is the `vehicle` of its OA entry
+(ruling [R-125](../rulings/R-125.md)).
+
 Nothing checks for breakdown moving to, from or between the Tripoli–Tunisia
 boxes.
 

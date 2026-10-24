@@ -213,6 +213,7 @@
      "name": "RECo 'Nizza Cavalleria'",
      "abbreviation": "NizCav",
      "id_code": "ww",
+     "vehicle": "armoured-car",
      "parent": "unit:it:ariete-132nd-div-hq",
      "toe": [],
      "arrives": {
@@ -431,6 +432,7 @@
      "name": "RECo 'Lanceria di Novara'",
      "abbreviation": "LancNov",
      "id_code": "vv",
+     "vehicle": "armoured-car",
      "parent": "unit:it:littorio-133rd-div-hq",
      "toe": [],
      "arrives": {
@@ -1190,6 +1192,7 @@
      "name": "III Monferrato Squadrone",
      "abbreviation": "III Monf",
      "id_code": "vv",
+     "vehicle": "armoured-car",
      "parent": "unit:it:16th-pistoia-div-hq",
      "toe": [],
      "arrives": {
@@ -1411,6 +1414,7 @@
      "name": "60th Bersaglieri Mitrg Coy",
      "abbreviation": "60 Brs",
      "id_code": "aaa",
+     "vehicle": "none",
      "parent": "unit:it:60th-sabratha-div-hq",
      "toe": [],
      "arrives": {
@@ -1536,6 +1540,7 @@
      "name": "1 Sahariano Camel Bn",
      "abbreviation": "1Sno/Sno",
      "id_code": "zz",
+     "vehicle": "none",
      "parent": "unit:it:sahariano-camel-regt-hq",
      "toe": [],
      "arrives": "deployed",
@@ -1546,6 +1551,7 @@
      "name": "2 Sahariano Camel Bn",
      "abbreviation": "2Sno/Sno",
      "id_code": "zz",
+     "vehicle": "none",
      "parent": "unit:it:sahariano-camel-regt-hq",
      "toe": [],
      "arrives": "deployed",
@@ -1556,6 +1562,7 @@
      "name": "3 Sahariano Camel Bn",
      "abbreviation": "3Sno/Sno",
      "id_code": "zz",
+     "vehicle": "none",
      "parent": "unit:it:sahariano-camel-regt-hq",
      "toe": [],
      "arrives": "deployed",
@@ -2367,6 +2374,7 @@
      "name": "8th Armored Bersaglieri Bn",
      "abbreviation": "8 ArmBr",
      "id_code": "vv",
+     "vehicle": "armoured-car",
      "parent": "unit:it:101st-trieste-div-hq",
      "toe": [],
      "arrives": {
@@ -3629,6 +3637,7 @@
      "name": "R. Gessi PAI Bn",
      "abbreviation": "PAI",
      "id_code": "vv",
+     "vehicle": "armoured-car",
      "parent": "unit:it:recam-hq",
      "toe": [],
      "arrives": {
@@ -3766,6 +3775,7 @@
      "name": "Meharisiti Camel Cavalry",
      "abbreviation": "Mhrsti",
      "id_code": "yy",
+     "vehicle": "none",
      "parent": "unit:it:saharan-detachment-hq",
      "toe": [],
      "arrives": "deployed",
@@ -5030,6 +5040,7 @@
      "name": "22nd Bersaglieri Mitrg Coy",
      "abbreviation": "22 Brs",
      "id_code": "aaa",
+     "vehicle": "none",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -5044,6 +5055,7 @@
      "name": "5th Desert Patrol",
      "abbreviation": "5 DPtl",
      "id_code": "xx",
+     "vehicle": "truck",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -5062,6 +5074,7 @@
      "name": "23rd Desert Patrol",
      "abbreviation": "23 DPtl",
      "id_code": "xx",
+     "vehicle": "truck",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -5848,6 +5861,7 @@
      "name": "202nd Bersaglieri Mitrg Coy",
      "abbreviation": "202 Brs",
      "id_code": "aaa",
+     "vehicle": "none",
      "parent": "unit:it:2nd-ccnn-div-hq",
      "toe": [],
      "arrives": "deployed",
@@ -6013,6 +6027,7 @@
      "name": "201st Bersaglieri Mitrg Coy",
      "abbreviation": "201 Brs",
      "id_code": "aaa",
+     "vehicle": "none",
      "parent": "unit:it:1st-ccnn-div-hq",
      "toe": [],
      "arrives": "deployed",
@@ -6684,6 +6699,7 @@
      "name": "61st Bersaglieri Mitrg Coy",
      "abbreviation": "61 Brs",
      "id_code": "aaa",
+     "vehicle": "none",
      "parent": "unit:it:61st-sirte-div-hq",
      "toe_mark": "N",
      "arrives": {
@@ -7080,6 +7096,7 @@
      "name": "63rd Bersaglieri Mitrg Coy",
      "abbreviation": "63 Brs",
      "id_code": "aaa",
+     "vehicle": "none",
      "parent": "unit:it:63rd-cirene-div-hq",
      "toe_mark": "N",
      "arrives": "deployed",
