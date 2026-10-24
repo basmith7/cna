@@ -185,6 +185,15 @@ battalions (CPA 8+ and 10+) must all be served first. They never break down
 (other breakdown rules stand), are lost only with their unit (captured with
 it, for the enemy's use), and never suffer a barrage truck result.
 
+::: ruling R-123 — one motorisation point per TOE strength point of any kind; a unit short of points is not motorised
+
+**How many points a unit takes.** One motorisation point for every TOE
+strength point the unit has, infantry, artillery, anti-tank or anti-air
+alike (absorbed anti-tank points included). With that many assigned the
+unit moves at the medium-truck CPA (20 carrying infantry, 15 carrying
+guns); with fewer it is not motorised and moves at its own CPA, and the
+points it has simply ride along (ruling [R-123](../rulings/R-123.md)).
+
 **Abstract losses**: in each month's first naval convoy stage, read the
 Abstract Motorisation Point Loss Chart for the previous month — Commonwealth
 percentage left of the stroke, Axis right — of all the player's points on
