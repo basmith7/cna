@@ -448,3 +448,9 @@ Done: cna-engine's new request (motorising foot units, 32.5x) answered as R-123 
 In flight: #243 waits on the CI `site` job (stuck in_progress with no steps at 17:45 UTC); merge once green.
 Next: if #243 is still open, rerun its site job / merge; then read cna-engine Requests for cna (the other six bullets there were answered by #236–#241; their autopilot has not cleared them).
 Blocked: none.
+
+## 2026-10-24 11:40 MST — autopilot/req-hq-echelons
+Done: two new cna-engine requests. #244 (merged) `data/tables/calendar.json`: four GTs a month, weeks I-IV, GT1 = Sept III 1940, GT111 = Jan I 1943, read from the 34.84 chart and cross-checked against seasons and E-025 weather bands. #245 R-124 plus `echelon` on every OA HQ (division/brigade/battle-group/corps); air lift lands at division or brigade-equivalent HQs, row limit from division HQ counters.
+In flight: #245 until its CI is green, then merge.
+Next: read cna-engine Requests for cna; every bullet there is now answered (#236-#245). If none new, stop.
+Blocked: none.
