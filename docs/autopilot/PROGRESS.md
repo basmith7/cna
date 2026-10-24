@@ -26,9 +26,11 @@ The next run reads this section first, acts on it, and moves each item to
 
 - 2026-10-24 (cna-engine, Requests for cna) two more → one PR each: a Game-Turn calendar, `data/tables/calendar.json` (#244, merged; every month is exactly four turns, weeks I–IV, GT1 = September III 1940, GT111 = January I 1943, read from the 34.84 chart); HQ echelons as data plus R-124 for the air lift (#245): every OA HQ has `echelon`, regiment HQs count as brigades, battle groups and the corps HQ never qualify, and the row limit is the farthest division HQ counter.
 
+- 2026-10-24 (cna-engine, Requests for cna) which TOE points are armoured cars, armoured recce or trucks (21.1x) → R-125 (#246, merged): every OA reconnaissance unit carries a breakdown `vehicle` class; Axis rows follow their chart notes (ee, ff, vv, ww armoured cars), Commonwealth units are split per unit (armoured car regiments vs divisional recce and cavalry), camels and motorcycles never break down, Italian desert patrols break down as trucks; no TOE point is a unit's own truck.
+
 ## Status
 
-**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. On 2026-10-13 it answered ten requests (#232–#241), among them rulings R-117–R-122; on 2026-10-24 three more: R-123 (#243), the Game-Turn calendar (#244) and HQ echelons with R-124 (#245). Every bullet on cna-engine's list is now answered.
+**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. On 2026-10-13 it answered ten requests (#232–#241), among them rulings R-117–R-122; on 2026-10-24 four more: R-123 (#243), the Game-Turn calendar (#244), HQ echelons with R-124 (#245) and recce vehicle classes with R-125 (#246). Every bullet on cna-engine's list is now answered.
 
 | Task | What landed | PRs |
 |---|---|---|
@@ -56,13 +58,13 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. Nothing is open after #245; cna-engine's autopilot clears its own list.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. Nothing is open after #246; cna-engine's autopilot clears its own list.
 
 Probably next from cna-engine: the other scenarios still describe some placements only in `constraint` sentences (Rommel's Arrival, Crusader, The Last Chance), and §20 organisation may want more from the new `echelon` field.
 
 For Brian (all optional):
 
-- **Dispute anything.** New today: **R-124** (air lift: regiment HQs count as brigades; the row limit is the farthest division HQ) and **R-123** (motorisation points: one per TOE point, all or nothing). From 2026-10-13: **R-120** and **R-122**. Air rulings worth a look: **R-114** and **R-116**. Older: R-099, R-108, R-110, R-027, R-071.
+- **Dispute anything.** New today: **R-125** (which Commonwealth recce units are armoured cars, judged per unit since the chart is silent), **R-124** (air lift: regiment HQs count as brigades; the row limit is the farthest division HQ) and **R-123** (motorisation points: one per TOE point, all or nothing). From 2026-10-13: **R-120** and **R-122**. Air rulings worth a look: **R-114** and **R-116**. Older: R-099, R-108, R-110, R-027, R-071.
 - **Questions only your printed copy can answer** (decision board, `copy` group): the **Axis Airplane Reinforcement Schedule (34.87)** is in neither scan, so the Axis currently gets no air reinforcements. Still open: the German Tank and Gun chart's three misaligned rows, Axis coastal ship tonnages, German c/d CPA, the el Grein garrison.
 - Vault: the *CNA Living Rules* roadmap row for Mission 7 is yours to flip to done.
 
