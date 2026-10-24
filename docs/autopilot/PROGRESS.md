@@ -274,3 +274,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-24 11:23 | 9 | 21→22 | 6→8 | $2.34 | 56 | Both new cna-engine requests are answered and merged. Gates on `main` are green after the merges (341 tests pass, `check_data` OK, `gen_pages` leaves no diff).  |
 | 2026-10-24 13:23 | 5 | 23→24 | 19→19 | $1.88 | 37 | cna-engine's last open request is answered and merged as **R-125** (#246). Its 21.1x question was which TOE points are armoured cars, armoured recce or trucks.  |
 | 2026-10-24 15:23 | 0 | 24→24 | 0→0 | $0.41 | 9 | Nothing to do this run, so I logged it and stopped. Under the finish-line orders the rulebook is complete, and the repo only answers cna-engine's requests and y |
+| 2026-10-24 16:23 | 0 | 24→24 | 0→0 | $0.42 | 6 | This was an idle run with nothing to do, so I stopped early on purpose. The standing orders say to stop once the rulebook is done and nothing is requested. - ** |
