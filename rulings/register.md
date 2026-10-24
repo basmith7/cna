@@ -97,6 +97,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-120](./R-120.md) | Abstract supply: a unit that cannot pay its fuel or ammunition | accepted | 32.21, 32.22, 32.23, 32.24, 13.2, 15.15 |
 | [R-121](./R-121.md) | Abstract supply: ammunition for company-equivalents | accepted | 32.21, 32.24, 9.28, 20.15 |
 | [R-122](./R-122.md) | Which withheld defenders count in the loss base? | accepted | 15.12, 15.14, 15.15, 15.16, 15.83, 14.21 |
+| [R-123](./R-123.md) | Abstract supply: motorisation points per unit | accepted | 32.51, 32.53, 32.54, 6.17, 8.91, 8.95, 54.2 |
 
 ## Variants
 
