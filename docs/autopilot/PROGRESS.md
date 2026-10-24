@@ -58,7 +58,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. Nothing is open after #246; cna-engine's autopilot clears its own list.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. Nothing is open after #246; cna-engine's autopilot clears its own list. Checked again 2026-10-24 22:25 UTC: its list still shows nine bullets, every one answered by #236–#246, so nothing to do.
 
 Probably next from cna-engine: the other scenarios still describe some placements only in `constraint` sentences (Rommel's Arrival, Crusader, The Last Chance), and §20 organisation may want more from the new `echelon` field.
 

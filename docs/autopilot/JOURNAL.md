@@ -460,3 +460,9 @@ Done: last open cna-engine request (vehicle class for recce/armoured cars, 21.1x
 In flight: #246 until CI is green, then merge.
 Next: every bullet on cna-engine's Requests list is now answered (#236-#246). If none new, stop.
 Blocked: none.
+
+## 2026-10-24 15:25 MST — main
+Done: idle run. Feedback empty, no open autopilot PRs; cna-engine's Requests list has nine bullets, all answered by #236-#246 (calendar #244, echelons #245, recce #246, withheld loss base R-122 #239, etc.), not yet cleared on their side.
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #236-#246. If none, stop.
+Blocked: none (copy: 34.87 Axis air schedule still missing).
