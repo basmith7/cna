@@ -79,6 +79,10 @@
   "title": "Breakdown",
   "group": "Land Game"
  },
+ "calendar": {
+  "title": "Calendar",
+  "group": "Land Game"
+ },
  "chariot-raid": {
   "title": "Chariot raid",
   "group": "Land Game"

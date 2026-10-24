@@ -22,6 +22,7 @@ For developers: the same values are JSON in `data/tables/`; see the [data conven
 | [Barrage results](/tables/barrage-results) | [Combat](/rules/60-combat) |
 | [Breakdown](/tables/breakdown) | [Special rules](/rules/90-special) |
 | [Breakdown adjustments](/tables/breakdown-adjustments) | [Special rules](/rules/90-special) |
+| [Calendar](/tables/calendar) | [Sequence of play](/rules/20-sequence-of-play) |
 | [Chariot raid](/tables/chariot-raid) | [Special rules](/rules/90-special) |
 | [Close assault results](/tables/close-assault-results) | [Combat](/rules/60-combat) |
 | [Construction](/tables/construction) | [Engineering](/rules/80-engineering) |
