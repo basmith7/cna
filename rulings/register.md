@@ -99,6 +99,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-122](./R-122.md) | Which withheld defenders count in the loss base? | accepted | 15.12, 15.14, 15.15, 15.16, 15.83, 14.21 |
 | [R-123](./R-123.md) | Abstract supply: motorisation points per unit | accepted | 32.51, 32.53, 32.54, 6.17, 8.91, 8.95, 54.2 |
 | [R-124](./R-124.md) | Abstract supply: which HQs the air lift reads | accepted | 32.37, 9.22, 9.26, 19.73 |
+| [R-125](./R-125.md) | Breakdown: which reconnaissance units are armoured cars | accepted | 21.11, 21.13, 21.14, 20.51, 20.52, 8.91 |
 
 ## Variants
 
