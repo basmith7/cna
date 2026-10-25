@@ -280,3 +280,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-24 19:23 | 0 | 25→25 | 6→6 | $0.35 | 5 | There was nothing to do this run, so the only change is the "last checked" time in `docs/autopilot/PROGRESS.md` (commit 4a23035, pushed to `main`). - **Feedback |
 | 2026-10-24 20:23 | 0 | 25→25 | 0→0 | $0.37 | 7 | Nothing to do this run, so I stopped early on purpose. - **Feedback:** the section is empty. - **Open autopilot PRs:** none. - **cna-engine requests:** its list |
 | 2026-10-24 21:23 | 0 | 25→25 | 1→1 | $0.34 | 8 | Nothing to do this run, so I stopped early: the rulebook is finished and there's no new work for it. - **Feedback:** your section in `PROGRESS.md` is empty. - * |
+| 2026-10-24 22:23 | 0 | 25→25 | 2→2 | $0.28 | 4 | Nothing to do this run, so I stopped. The rulebook is finished, and the standing orders allow work only on Feedback or cna-engine's requests: - **Feedback** is  |
