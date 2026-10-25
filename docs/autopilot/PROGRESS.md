@@ -283,3 +283,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-24 22:23 | 0 | 25→25 | 2→2 | $0.28 | 4 | Nothing to do this run, so I stopped. The rulebook is finished, and the standing orders allow work only on Feedback or cna-engine's requests: - **Feedback** is  |
 | 2026-10-24 23:23 | 0 | 25→25 | 3→3 | $0.29 | 5 | Nothing to do this run, so I stopped. The rulebook is complete, and the standing orders say to stop when there's no request and no Feedback. - **Feedback:** emp |
 | 2026-10-25 00:23 | 0 | 25→25 | 3→3 | $0.27 | 3 | This was an idle run, and stopping early is what the standing orders say to do once the rulebook is complete. - **Feedback:** empty. - **Open autopilot PRs:** n |
+| 2026-10-25 01:23 | 0 | 25→25 | 0→0 | $0.31 | 5 | This run was idle on purpose and changed nothing in the rulebook. - **Feedback:** empty. - **Open autopilot PRs:** none. - **cna-engine's Requests for cna:** th |
