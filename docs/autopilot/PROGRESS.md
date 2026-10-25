@@ -287,3 +287,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-25 02:23 | 0 | 25→25 | 0→0 | $0.27 | 3 | Nothing to do this run. Feedback is empty, no autopilot PRs are open, and cna-engine's *Requests for cna* still lists the same ten items, all answered by #236–# |
 | 2026-10-25 03:23 | 0 | 25→25 | 0→0 | $0.33 | 6 | This run had nothing to do, so I stopped early, as the standing orders say to once the rulebook is complete. - **Feedback:** your section in `PROGRESS.md` is em |
 | 2026-10-25 04:23 | 0 | 25→25 | 0→0 | $0.27 | 3 | This was an idle run with nothing to do. There's no Feedback, no open autopilot PRs, and cna-engine's *Requests for cna* still lists the same ten bullets, all a |
+| 2026-10-25 05:23 | 0 | 25→25 | 0→0 | $0.27 | 3 | This run did nothing, which is what the standing orders call for when nothing is asked. The rulebook is complete, the Feedback section is empty, no autopilot PR |
