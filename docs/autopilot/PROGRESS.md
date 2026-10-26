@@ -317,3 +317,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-26 07:23 | 14 | 35→36 | 0→3 | $3.11 | 75 | cna-engine had two open requests this run. I answered both, and each was merged after the local checks and CI passed. - **#262, R-136: set-up areas as hex lists |
 | 2026-10-26 08:23 | 0 | 36→? | 3→? | $0.35 | 6 | Nothing to do this run, so I logged an idle check and stopped. - **Feedback:** empty. - **Open autopilot PRs:** none. - **cna-engine's requests:** its list stil |
 | 2026-10-26 09:23 | 0 | 36→36 | 4→4 | $0.34 | 5 | Nothing to do this run, so it was an idle check. - **Feedback:** empty. - **Open autopilot PRs:** none. - **cna-engine's Requests for cna:** only two bullets, R |
+| 2026-10-26 10:23 | 0 | 36→36 | 8→8 | $0.31 | 4 | There was nothing to do this run, so it was an idle check. The rulebook is complete, so the orders now limit work to Feedback and cna-engine's requests, and nei |
