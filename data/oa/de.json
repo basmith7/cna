@@ -81,6 +81,11 @@
       "note b",
       "TOE printed as '(b)' (see note b)",
       "replaces the 5 Le HQ counter; printed at the same indent as 5 Le"
+     ],
+     "replaces": "unit:de:5le-div-hq",
+     "assigns": [
+      "unit:de:104-schutzen-regt-hq",
+      "unit:de:155-arty-regt-hq"
      ]
     },
     {
@@ -1904,7 +1909,8 @@
      "notes": [
       "note e",
       "TOE and Arrives printed blank (replaces the I/75)"
-     ]
+     ],
+     "replaces": "unit:de:i-75-arty-bn"
     },
     {
      "id": "unit:de:iii-155-arty-bn",
