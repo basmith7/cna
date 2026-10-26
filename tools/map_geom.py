@@ -70,6 +70,25 @@ def corners(cx, cy, size=20.0):
             for i in range(6)]
 
 
+def doubled(hid, sheets):
+    """(x, row) in doubled-width coordinates across sheets A-E, which abut west
+    to east (tools/map_seams.py): x counts half hexes eastward, so every
+    neighbour is (x +/- 2, r) or (x +/- 1, r +/- 1)."""
+    s, r, c = parse_hex_id(hid, sheets)
+    order = [k for k in "ABCDE" if k in sheets]
+    if s not in order:
+        raise ValueError(f"{hid!r} is not on sheets A-E")
+    col = c + sum(sheets[k]["cols"][1] for k in order[:order.index(s)])
+    return 2 * col + (1 if row_shifted_east(r, sheets[s]) else 0), r
+
+
+def distance(a, b, sheets):
+    """Hexes from a to b, across sheet seams."""
+    (xa, ra), (xb, rb) = doubled(a, sheets), doubled(b, sheets)
+    dx, dy = abs(xa - xb), abs(ra - rb)
+    return dy + max(0, (dx - dy) // 2)
+
+
 def country(hex_id: str, regions: dict) -> str | None:
     """'libya' or 'egypt' for a hex, from data/map/regions.json; None for Malta."""
     sheet = hex_id[0]

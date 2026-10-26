@@ -196,3 +196,49 @@ def test_rommels_arrival_road_placements_follow_the_coast_road():
     assert len(listed) == 4
     for hexes in listed:
         assert hexes == path[::-1]
+
+
+def test_between_and_triangle_placements_list_their_hexes():
+    """R-136: "between" two places is every land hex on a shortest path; a triangle is
+    every land hex whose centre is inside or on it. The data lists exactly those."""
+    import math
+    import sys
+
+    sys.path.insert(0, str(ROOT / "tools"))
+    from map_geom import distance, doubled
+
+    sheets = json.loads((ROOT / "data" / "map" / "sheets.json").read_text())["sheets"]
+    land = sorted(h["id"] for h in json.loads((ROOT / "data" / "map" / "hexes.json").read_text())["hexes"]
+                  if h["id"][0] in "ABCDE" and h["terrain"] != "sea")
+
+    def between(a, b):
+        d = distance(a, b, sheets)
+        return [h for h in land if distance(h, a, sheets) + distance(h, b, sheets) == d]
+
+    def xy(h):
+        x, r = doubled(h, sheets)
+        return x * math.sqrt(3) / 2, r * 1.5
+
+    def triangle(*corners):
+        t = [xy(c) for c in corners]
+
+        def inside(p):
+            s = [(t[(i + 1) % 3][0] - t[i][0]) * (p[1] - t[i][1]) - (t[(i + 1) % 3][1] - t[i][1]) * (p[0] - t[i][0])
+                 for i in range(3)]
+            return all(v >= -1e-9 for v in s) or all(v <= 1e-9 for v in s)
+        return [h for h in land if inside(xy(h))]
+
+    ra, oc = load("rommels-arrival"), load("operation-crusader")
+    italians = next(d["placement"] for d in ra["sides"]["axis"]["deployments"]
+                    if d["units"][0]["unit"] == "unit:it:17th-pavia-div-hq")
+    assert italians == {"hexes": between("A2010", "A2703"), "apart": 2}
+    assert len(italians["hexes"]) == 29
+    dumps = [b["placement"]["hexes"] for b in ra["sides"]["axis"]["supply"]
+             if b["kind"] in ("dump", "dummy-dump") and "hexes" in b["placement"]]
+    assert dumps == [between("A1816", "A2703")] * 2
+    aus = next(d["placement"] for d in ra["sides"]["cw"]["deployments"] if d["units"][0]["unit"] == "unit:cw:24-aus")
+    assert aus == {"hexes": triangle("B5501", "A4830", "A4827")}
+    assert {"B5501", "A4830", "A4827"} <= set(aus["hexes"])
+    savona = next(d["placement"] for d in oc["sides"]["axis"]["deployments"]
+                  if d["units"][0]["unit"] == "unit:it:55th-savona-div-hq")
+    assert savona == {"hexes": triangle("C3916", "C3618", "C3922")}

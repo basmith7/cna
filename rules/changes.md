@@ -225,6 +225,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-104](../rulings/R-104.md) — what the Desert Fox campaign scenario consists of
 - [R-103](../rulings/R-103.md) — 5 RTR's tanks with no 5 RTR in the set-up
+- [R-136](../rulings/R-136.md) — set-up areas "between" two places and "inside" a triangle
 - [R-027](../rulings/R-027.md) — Tobruk's efficiency level
 - [R-102](../rulings/R-102.md) — motorisation points when only the Logistics Game is left out
 - [R-101](../rulings/R-101.md) — who wins when the Axis player holds Tobruk alone
@@ -342,6 +343,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-133](../rulings/R-133.md) | accepted | 24.13, 24.14, 24.33, 32.11 |
 | [R-134](../rulings/R-134.md) | accepted | 24.35, 24.17 |
 | [R-135](../rulings/R-135.md) | accepted | 31.0, 27.92, 61.41 |
+| [R-136](../rulings/R-136.md) | accepted | 61.41, 61.44, 61.31, 62.41 |
 
 ## Variants register
 
