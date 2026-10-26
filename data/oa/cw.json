@@ -38,6 +38,11 @@
      "abbreviation": "7",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "armour-division",
+      "armour-division-late"
+     ],
+     "organisation": "armoured-division",
      "parent": null,
      "toe": [
       {
@@ -53,6 +58,11 @@
      "abbreviation": "4",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "tank-brigade",
+      "tank-brigade-late"
+     ],
+     "organisation": "armoured-brigade",
      "parent": "unit:cw:7th-armored-div-hq",
      "toe": [
       {
@@ -96,6 +106,11 @@
      "abbreviation": "7",
      "id_code": "d",
      "echelon": "brigade",
+     "attachment_parent": [
+      "tank-brigade",
+      "tank-brigade-late"
+     ],
+     "organisation": "armoured-brigade",
      "parent": "unit:cw:7th-armored-div-hq",
      "toe": [
       {
@@ -142,6 +157,10 @@
      "abbreviation": "7 Spt",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "support-group",
      "parent": "unit:cw:7th-armored-div-hq",
      "toe": [],
      "arrives": "deployed",
@@ -153,6 +172,10 @@
      "abbreviation": "7 Mtr",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "support-group",
      "parent": "unit:cw:7th-armored-div-hq",
      "toe": [],
      "arrives": {
@@ -246,6 +269,10 @@
      "abbreviation": "4 In",
      "id_code": "a",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "infantry-division",
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -257,6 +284,10 @@
      "abbreviation": "5 In",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:4-in-hq",
      "toe": [],
      "arrives": "deployed",
@@ -298,6 +329,10 @@
      "abbreviation": "7 In",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:4-in-hq",
      "toe": [],
      "arrives": {
@@ -351,6 +386,10 @@
      "abbreviation": "11 In",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:4-in-hq",
      "toe": [],
      "arrives": "deployed",
@@ -462,6 +501,11 @@
      "abbreviation": "",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "matruh-garrison",
+      "selby-force"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "arrives": null,
@@ -491,6 +535,10 @@
      "abbreviation": "70",
      "id_code": "a",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "infantry-division",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -505,6 +553,10 @@
      "abbreviation": "14",
      "id_code": "c",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:70th-infantry-div-hq",
      "toe": [
       {
@@ -579,6 +631,10 @@
      "abbreviation": "16",
      "id_code": "c",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:70th-infantry-div-hq",
      "toe": [
       {
@@ -644,6 +700,10 @@
      "abbreviation": "23",
      "id_code": "c",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:70th-infantry-div-hq",
      "toe": [
       {
@@ -726,6 +786,10 @@
      "abbreviation": "2 NZ",
      "id_code": "a",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "infantry-division",
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -737,6 +801,10 @@
      "abbreviation": "4 NZ",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:2-nz-hq",
      "toe": [],
      "arrives": "deployed",
@@ -778,6 +846,10 @@
      "abbreviation": "5 NZ",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:2-nz-hq",
      "toe": [],
      "arrives": {
@@ -844,6 +916,10 @@
      "abbreviation": "6 NZ",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:2-nz-hq",
      "toe": [],
      "arrives": {
@@ -1017,6 +1093,10 @@
      "abbreviation": "6 Aus",
      "id_code": "a",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "infantry-division",
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -1028,6 +1108,10 @@
      "abbreviation": "16 Aus",
      "id_code": "f",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:6-aus-hq",
      "toe": [],
      "arrives": "deployed",
@@ -1069,6 +1153,10 @@
      "abbreviation": "17 Aus",
      "id_code": "e",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:6-aus-hq",
      "toe": [],
      "arrives": "deployed",
@@ -1113,6 +1201,10 @@
      "abbreviation": "19 Aus",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:6-aus-hq",
      "toe": [],
      "arrives": {
@@ -2838,6 +2930,10 @@
      "abbreviation": "Polish",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade-3sp",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -2974,6 +3070,11 @@
      "abbreviation": "8",
      "id_code": "d",
      "echelon": "division",
+     "attachment_parent": [
+      "armour-division",
+      "armour-division-late"
+     ],
+     "organisation": "armoured-division",
      "parent": null,
      "toe": [
       {
@@ -2992,6 +3093,11 @@
      "abbreviation": "23",
      "id_code": "d",
      "echelon": "brigade",
+     "attachment_parent": [
+      "tank-brigade",
+      "tank-brigade-late"
+     ],
+     "organisation": "armoured-brigade",
      "parent": "unit:cw:8-armd-div-hq",
      "toe": [
       {
@@ -3086,6 +3192,11 @@
      "abbreviation": "24",
      "id_code": "d",
      "echelon": "brigade",
+     "attachment_parent": [
+      "tank-brigade",
+      "tank-brigade-late"
+     ],
+     "organisation": "armoured-brigade",
      "parent": "unit:cw:8-armd-div-hq",
      "toe": [
       {
@@ -3212,6 +3323,10 @@
      "abbreviation": "44",
      "id_code": "a",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "infantry-division",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -3229,6 +3344,10 @@
      "abbreviation": "131",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:44-inf-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -3282,6 +3401,10 @@
      "abbreviation": "132",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:44-inf-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -3335,6 +3458,10 @@
      "abbreviation": "133",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:44-inf-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -3522,6 +3649,11 @@
      "abbreviation": "1",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "armour-division",
+      "armour-division-late"
+     ],
+     "organisation": "armoured-division",
      "parent": null,
      "toe": [
       {
@@ -3540,6 +3672,11 @@
      "abbreviation": "2",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "tank-brigade",
+      "tank-brigade-late"
+     ],
+     "organisation": "armoured-brigade",
      "parent": "unit:cw:1-armd-div-hq",
      "toe": [
       {
@@ -3633,6 +3770,10 @@
      "abbreviation": "1Spt",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "support-group",
      "parent": "unit:cw:1-armd-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -3743,6 +3884,11 @@
      "abbreviation": "2",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "armour-division",
+      "armour-division-late"
+     ],
+     "organisation": "armoured-division",
      "parent": null,
      "toe": [
       {
@@ -3761,6 +3907,11 @@
      "abbreviation": "1",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "tank-brigade",
+      "tank-brigade-late"
+     ],
+     "organisation": "armoured-brigade",
      "parent": "unit:cw:2-armd-div-hq",
      "toe": [
       {
@@ -3820,6 +3971,11 @@
      "abbreviation": "3",
      "id_code": "d",
      "echelon": "brigade",
+     "attachment_parent": [
+      "tank-brigade",
+      "tank-brigade-late"
+     ],
+     "organisation": "armoured-brigade",
      "parent": "unit:cw:2-armd-div-hq",
      "toe": [
       {
@@ -3838,6 +3994,11 @@
      "abbreviation": "32 Army",
      "id_code": "d",
      "echelon": "brigade",
+     "attachment_parent": [
+      "tank-brigade",
+      "tank-brigade-late"
+     ],
+     "organisation": "armoured-brigade",
      "parent": "unit:cw:2-armd-div-hq",
      "toe": [],
      "arrives": {
@@ -3875,6 +4036,10 @@
      "abbreviation": "2 Spt",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "support-group",
      "parent": "unit:cw:2-armd-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -3991,6 +4156,11 @@
      "abbreviation": "10",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "armour-division",
+      "armour-division-late"
+     ],
+     "organisation": "armoured-division",
      "parent": null,
      "toe": [
       {
@@ -4009,6 +4179,11 @@
      "abbreviation": "8",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "tank-brigade",
+      "tank-brigade-late"
+     ],
+     "organisation": "armoured-brigade",
      "parent": "unit:cw:10-armd-div-hq",
      "toe": [
       {
@@ -4086,6 +4261,11 @@
      "abbreviation": "9",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "tank-brigade",
+      "tank-brigade-late"
+     ],
+     "organisation": "armoured-brigade",
      "parent": "unit:cw:10-armd-div-hq",
      "toe": [
       {
@@ -4151,6 +4331,10 @@
      "abbreviation": "50",
      "id_code": "a",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "infantry-division",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -4168,6 +4352,10 @@
      "abbreviation": "69",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:50-inf-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -4221,6 +4409,10 @@
      "abbreviation": "150",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:50-inf-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -4277,6 +4469,10 @@
      "abbreviation": "151",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:50-inf-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -4426,6 +4622,11 @@
      "abbreviation": "1 Army",
      "id_code": "d",
      "echelon": "brigade",
+     "attachment_parent": [
+      "tank-brigade",
+      "tank-brigade-late"
+     ],
+     "organisation": "armoured-brigade",
      "parent": null,
      "toe": [
       {
@@ -4517,6 +4718,10 @@
      "abbreviation": "51",
      "id_code": "a",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "infantry-division",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -4534,6 +4739,10 @@
      "abbreviation": "152",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:51-inf-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -4587,6 +4796,10 @@
      "abbreviation": "153",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:51-inf-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -4643,6 +4856,10 @@
      "abbreviation": "154",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:51-inf-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -4828,6 +5045,11 @@
      "abbreviation": "22",
      "id_code": "d",
      "echelon": "brigade",
+     "attachment_parent": [
+      "tank-brigade",
+      "tank-brigade-late"
+     ],
+     "organisation": "armoured-brigade",
      "parent": null,
      "toe": [
       {
@@ -4933,6 +5155,10 @@
      "abbreviation": "22 Gds",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": null,
      "toe": [],
      "arrives": null,
@@ -4947,6 +5173,10 @@
      "abbreviation": "200 Gds",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": null,
      "toe": [],
      "arrives": null,
@@ -4975,6 +5205,10 @@
      "abbreviation": "9 Aus",
      "id_code": "a",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "infantry-division",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -4989,6 +5223,10 @@
      "abbreviation": "20 Aus",
      "id_code": "f",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:9-aus",
      "toe": [],
      "toe_mark": "N",
@@ -5045,6 +5283,10 @@
      "abbreviation": "24 Aus",
      "id_code": "f",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:9-aus",
      "toe": [],
      "toe_mark": "N",
@@ -5098,6 +5340,10 @@
      "abbreviation": "26 Aus",
      "id_code": "f",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:9-aus",
      "toe": [],
      "toe_mark": "N",
@@ -5297,6 +5543,10 @@
      "abbreviation": "18 Aus",
      "id_code": "f",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade-3sp",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -5444,6 +5694,10 @@
      "abbreviation": "3 In",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -5538,6 +5792,10 @@
      "abbreviation": "5 In",
      "id_code": "a",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "infantry-division",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -5555,6 +5813,10 @@
      "abbreviation": "9 In",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:5-indian-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -5611,6 +5873,10 @@
      "abbreviation": "10 In",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:5-indian-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -5664,6 +5930,10 @@
      "abbreviation": "29 In",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:5-indian-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -5789,6 +6059,10 @@
      "abbreviation": "10 In",
      "id_code": "a",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "infantry-division",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -5806,6 +6080,10 @@
      "abbreviation": "20 In",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:10-indian-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -5856,6 +6134,10 @@
      "abbreviation": "21 In",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:10-indian-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -5919,6 +6201,10 @@
      "abbreviation": "25 In",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:10-indian-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -5994,6 +6280,10 @@
      "abbreviation": "18 In",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -6058,6 +6348,10 @@
      "abbreviation": "161 In",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -6180,6 +6474,10 @@
      "abbreviation": "1 SA",
      "id_code": "a",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "infantry-division",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -6197,6 +6495,10 @@
      "abbreviation": "1 SA",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:1-sa-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -6254,6 +6556,10 @@
      "abbreviation": "2 SA",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:1-sa-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -6311,6 +6617,10 @@
      "abbreviation": "5 SA",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:1-sa-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -6547,6 +6857,10 @@
      "abbreviation": "2 SA",
      "id_code": "a",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "infantry-division",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -6564,6 +6878,10 @@
      "abbreviation": "3 SA",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:2-sa-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -6620,6 +6938,10 @@
      "abbreviation": "4 SA",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:2-sa-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -6676,6 +6998,10 @@
      "abbreviation": "6 SA",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade",
      "parent": "unit:cw:2-sa-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -6865,6 +7191,10 @@
      "abbreviation": "1 FreeFr",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "infantry-brigade-3sp",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -7048,6 +7378,10 @@
      "abbreviation": "2 FreeFr",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "allied-infantry-brigade",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -7123,6 +7457,10 @@
      "abbreviation": "1 Greek",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "other-brigade"
+     ],
+     "organisation": "allied-infantry-brigade",
      "parent": null,
      "toe": [],
      "toe_mark": "N",

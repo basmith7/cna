@@ -51,6 +51,10 @@
      "abbreviation": "Ariete",
      "id_code": "d",
      "echelon": "division",
+     "attachment_parent": [
+      "armour-division-or-tank-group"
+     ],
+     "organisation": "armoured-division",
      "parent": null,
      "toe": [
       {
@@ -69,6 +73,10 @@
      "abbreviation": "132 RC",
      "id_code": "d",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "tank-regiment",
      "parent": "unit:it:ariete-132nd-div-hq",
      "toe": [
       {
@@ -141,6 +149,10 @@
      "abbreviation": "8Brs",
      "id_code": "c",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "bersaglieri-regiment",
      "parent": "unit:it:ariete-132nd-div-hq",
      "toe": [],
      "arrives": {
@@ -295,6 +307,10 @@
      "abbreviation": "Littorio",
      "id_code": "d",
      "echelon": "division",
+     "attachment_parent": [
+      "armour-division-or-tank-group"
+     ],
+     "organisation": "armoured-division",
      "parent": null,
      "toe": [
       {
@@ -313,6 +329,10 @@
      "abbreviation": "133 RC",
      "id_code": "d",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "tank-regiment",
      "parent": "unit:it:littorio-133rd-div-hq",
      "toe": [
       {
@@ -390,6 +410,10 @@
      "abbreviation": "12 Brs",
      "id_code": "c",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "bersaglieri-regiment",
      "parent": "unit:it:littorio-133rd-div-hq",
      "toe": [],
      "arrives": {
@@ -527,6 +551,10 @@
      "abbreviation": "1 Libyan",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "libyan-or-parachute-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -538,6 +566,10 @@
      "abbreviation": "1Libyan",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:1st-libyan-infantry-hq",
      "toe": [
       {
@@ -583,6 +615,10 @@
      "abbreviation": "2 Libyan",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:1st-libyan-infantry-hq",
      "toe": [
       {
@@ -668,6 +704,10 @@
      "abbreviation": "2 Libyan",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "libyan-or-parachute-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -679,6 +719,10 @@
      "abbreviation": "3 Libyan",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:2nd-libyan-infantry-hq",
      "toe": [
       {
@@ -724,6 +768,10 @@
      "abbreviation": "4 Libyan",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:2nd-libyan-infantry-hq",
      "toe": [
       {
@@ -813,6 +861,10 @@
      "abbreviation": "LTC",
      "id_code": "d",
      "echelon": "division",
+     "attachment_parent": [
+      "armour-division-or-tank-group"
+     ],
+     "organisation": "tank-group",
      "parent": null,
      "toe": [
       {
@@ -828,6 +880,10 @@
      "abbreviation": "Aresca",
      "id_code": "d",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "tank-regiment-3sp",
      "parent": "unit:it:libyan-tank-command-hq",
      "toe": [
       {
@@ -908,6 +964,10 @@
      "abbreviation": "Trvli",
      "id_code": "d",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "tank-regiment-3sp",
      "parent": "unit:it:libyan-tank-command-hq",
      "toe": [
       {
@@ -1014,6 +1074,10 @@
      "abbreviation": "16 Pist",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "semi-motorised-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -1028,6 +1092,10 @@
      "abbreviation": "35",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:16th-pistoia-div-hq",
      "toe": [
       {
@@ -1085,6 +1153,10 @@
      "abbreviation": "36",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:16th-pistoia-div-hq",
      "toe": [
       {
@@ -1219,6 +1291,10 @@
      "abbreviation": "60 Sab",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "semi-motorised-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -1233,6 +1309,10 @@
      "abbreviation": "85",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:60th-sabratha-div-hq",
      "toe": [
       {
@@ -1290,6 +1370,10 @@
      "abbreviation": "86",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:60th-sabratha-div-hq",
      "toe": [
       {
@@ -1443,6 +1527,10 @@
      "abbreviation": "Maletti",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "libyan-or-parachute-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -1454,6 +1542,10 @@
      "abbreviation": "1 LbMt",
      "id_code": "f",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:maletti-div-hq",
      "toe": [],
      "arrives": "deployed",
@@ -1495,6 +1587,10 @@
      "abbreviation": "5 Libyan",
      "id_code": "f",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:maletti-div-hq",
      "toe": [],
      "arrives": "deployed",
@@ -1526,6 +1622,10 @@
      "abbreviation": "Sno",
      "id_code": "f",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "cavalry-regiment",
      "parent": "unit:it:maletti-div-hq",
      "toe": [],
      "arrives": "deployed",
@@ -1625,6 +1725,10 @@
      "abbreviation": "17 Pav",
      "id_code": "e",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "semi-motorised-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -1639,6 +1743,10 @@
      "abbreviation": "27",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:17th-pavia-div-hq",
      "toe": [
       {
@@ -1696,6 +1804,10 @@
      "abbreviation": "28",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:17th-pavia-div-hq",
      "toe": [
       {
@@ -1862,6 +1974,10 @@
      "abbreviation": "25 Bol",
      "id_code": "e",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "semi-motorised-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -1876,6 +1992,10 @@
      "abbreviation": "39",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:25th-bologna-div-hq",
      "toe": [
       {
@@ -1933,6 +2053,10 @@
      "abbreviation": "40",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:25th-bologna-div-hq",
      "toe": [
       {
@@ -2083,6 +2207,10 @@
      "abbreviation": "101 Tst",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "motorised-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -2097,6 +2225,10 @@
      "abbreviation": "65",
      "id_code": "j",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:101st-trieste-div-hq",
      "toe": [
       {
@@ -2165,6 +2297,10 @@
      "abbreviation": "66",
      "id_code": "j",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:101st-trieste-div-hq",
      "toe": [
       {
@@ -2247,6 +2383,10 @@
      "abbreviation": "9 Brs",
      "id_code": "c",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "bersaglieri-regiment",
      "parent": "unit:it:101st-trieste-div-hq",
      "toe": [],
      "arrives": {
@@ -2414,6 +2554,10 @@
      "abbreviation": "55 Sav",
      "id_code": "e",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "semi-motorised-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -2428,6 +2572,10 @@
      "abbreviation": "15",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:55th-savona-div-hq",
      "toe": [
       {
@@ -2485,6 +2633,10 @@
      "abbreviation": "16",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:55th-savona-div-hq",
      "toe": [
       {
@@ -2642,6 +2794,10 @@
      "abbreviation": "27 Bre",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "semi-motorised-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -2656,6 +2812,10 @@
      "abbreviation": "19",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:27-brescia-div-hq",
      "toe": [
       {
@@ -2713,6 +2873,10 @@
      "abbreviation": "20",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:27-brescia-div-hq",
      "toe": [
       {
@@ -2870,6 +3034,10 @@
      "abbreviation": "64 Cat",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "semi-motorised-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -2881,6 +3049,10 @@
      "abbreviation": "141",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:64th-catanzaro-div-hq",
      "toe": [
       {
@@ -2926,6 +3098,10 @@
      "abbreviation": "142",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:64th-catanzaro-div-hq",
      "toe": [
       {
@@ -3045,6 +3221,10 @@
      "abbreviation": "102 Trn",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "motorised-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -3059,6 +3239,10 @@
      "abbreviation": "61",
      "id_code": "j",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:102nd-trento-div-hq",
      "toe": [
       {
@@ -3128,6 +3312,10 @@
      "abbreviation": "62",
      "id_code": "j",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:102nd-trento-div-hq",
      "toe": [
       {
@@ -3197,6 +3385,10 @@
      "abbreviation": "7Brs",
      "id_code": "c",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "bersaglieri-regiment",
      "parent": "unit:it:102nd-trento-div-hq",
      "toe": [],
      "arrives": {
@@ -3343,6 +3535,10 @@
      "abbreviation": "136GGFF",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "semi-motorised-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -3357,6 +3553,10 @@
      "abbreviation": "136",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:136th-giovani-fascisti-div-hq",
      "toe": [
       {
@@ -3454,6 +3654,10 @@
      "abbreviation": "185 Folg",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "libyan-or-parachute-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -3468,6 +3672,10 @@
      "abbreviation": "186",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:185th-folgore-div-hq",
      "toe": [
       {
@@ -3525,6 +3733,10 @@
      "abbreviation": "187",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:185th-folgore-div-hq",
      "toe": [
       {
@@ -3617,6 +3829,10 @@
      "abbreviation": "RECAM",
      "id_code": "a",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "recam",
      "parent": null,
      "toe": [
       {
@@ -3707,6 +3923,10 @@
      "abbreviation": "Sahara",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "sahara-detachment",
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -3861,6 +4081,10 @@
      "abbreviation": "31 GaF",
      "id_code": "f",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -3902,6 +4126,10 @@
      "abbreviation": "32 GaF",
      "id_code": "f",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -3943,6 +4171,10 @@
      "abbreviation": "Marines",
      "id_code": "f",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -4204,6 +4436,10 @@
      "abbreviation": "32GaF",
      "id_code": "f",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -4984,6 +5220,10 @@
      "abbreviation": "10 Brs",
      "id_code": "c",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "bersaglieri-regiment",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -5094,6 +5334,10 @@
      "abbreviation": "Libyan",
      "id_code": "f",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -5719,6 +5963,10 @@
      "abbreviation": "2 CCNN",
      "id_code": "g",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "semi-motorised-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -5730,6 +5978,10 @@
      "abbreviation": "238 Lgn",
      "id_code": "g",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:2nd-ccnn-div-hq",
      "toe": [
       {
@@ -5775,6 +6027,10 @@
      "abbreviation": "231 Lgn",
      "id_code": "g",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:2nd-ccnn-div-hq",
      "toe": [
       {
@@ -5885,6 +6141,10 @@
      "abbreviation": "1 CCNN",
      "id_code": "g",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "semi-motorised-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -5896,6 +6156,10 @@
      "abbreviation": "219 Lgn",
      "id_code": "g",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:1st-ccnn-div-hq",
      "toe": [
       {
@@ -5941,6 +6205,10 @@
      "abbreviation": "233 Lgn",
      "id_code": "g",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:1st-ccnn-div-hq",
      "toe": [
       {
@@ -6066,6 +6334,10 @@
      "abbreviation": "250 Lgn",
      "id_code": "g",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -6169,6 +6441,10 @@
      "abbreviation": "4 CCNN",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "semi-motorised-infantry-division",
      "parent": null,
      "toe": [],
      "arrives": "deployed",
@@ -6180,6 +6456,10 @@
      "abbreviation": "240 Lgn",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:4th-ccnn-div-hq",
      "toe": [
       {
@@ -6225,6 +6505,10 @@
      "abbreviation": "270 Lgn",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:4th-ccnn-div-hq",
      "toe": [
       {
@@ -6327,6 +6611,10 @@
      "abbreviation": "7 CCNN",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -6360,6 +6648,10 @@
      "abbreviation": "9 CCNN",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": null,
      "toe": [
       {
@@ -6491,6 +6783,10 @@
      "abbreviation": "61 Srt",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "semi-motorised-infantry-division",
      "parent": null,
      "toe_mark": "N",
      "arrives": {
@@ -6506,6 +6802,10 @@
      "abbreviation": "69",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:61st-sirte-div-hq",
      "toe": [
       {
@@ -6567,6 +6867,10 @@
      "abbreviation": "70",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:61st-sirte-div-hq",
      "toe": [
       {
@@ -6732,6 +7036,10 @@
      "abbreviation": "62 Mrm",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "semi-motorised-infantry-division",
      "parent": null,
      "toe_mark": "N",
      "arrives": "deployed",
@@ -6744,6 +7052,10 @@
      "abbreviation": "115",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:62nd-marmarica-div-hq",
      "toe": [
       {
@@ -6793,6 +7105,10 @@
      "abbreviation": "116",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:62nd-marmarica-div-hq",
      "toe": [
       {
@@ -6927,6 +7243,10 @@
      "abbreviation": "63 Cir",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "semi-motorised-infantry-division",
      "parent": null,
      "toe_mark": "N",
      "arrives": "deployed",
@@ -6939,6 +7259,10 @@
      "abbreviation": "157",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:63rd-cirene-div-hq",
      "toe": [
       {
@@ -6988,6 +7312,10 @@
      "abbreviation": "158",
      "id_code": "h",
      "echelon": "brigade",
+     "attachment_parent": [
+      "brigade-or-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:it:63rd-cirene-div-hq",
      "toe": [
       {
