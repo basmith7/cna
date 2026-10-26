@@ -26,6 +26,7 @@ For developers: the same values are JSON in `data/tables/`; see the [data conven
 | [Chariot raid](/tables/chariot-raid) | [Special rules](/rules/90-special) |
 | [Close assault results](/tables/close-assault-results) | [Combat](/rules/60-combat) |
 | [Construction](/tables/construction) | [Engineering](/rules/80-engineering) |
+| [Convoy lanes](/tables/convoy-lanes) | [Abstract logistics and air](/rules/95-abstract-logistics-and-air), [Ports and shipping](/rules/logistics/50-ports-and-shipping) |
 | [CP costs](/tables/cp-costs) | [Capability points](/rules/30-capability-points), [Trucks and dumps](/rules/logistics/40-trucks-and-dumps) |
 | [CW fleet schedule](/tables/cw-fleet-schedule) | [Special rules](/rules/90-special) |
 | [CW production](/tables/cw-production) | [Organisation](/rules/70-organisation) |

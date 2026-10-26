@@ -259,7 +259,8 @@ With the Air Game this is replaced by [Axis convoys](air/90-abstract-logistics.m
 ::: spi 32.66
 
 The Simple Axis Naval Convoy Bombing Chart is data:
-`data/tables/axis-convoy-bombing.json` — six route columns, ten bomb-point
+`data/tables/axis-convoy-bombing.json` — six route columns, one per
+convoy lane by number (`data/tables/convoy-lanes.json`), ten bomb-point
 bands from 21–40 up to 471+, each cell the westernmost map column a full
 Commonwealth division must have passed for that band to apply; dashes
 where a route can never be hit that hard.
