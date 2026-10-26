@@ -49,7 +49,7 @@ Used in [Group One — the Italians](/rules/scenarios/10-the-italians).
 | axis | 17 | 3 | arrives | unit:it:xxim-tank-bn | — |  |
 | axis | 18 | 1 | arrives | <span class="wrap">unit:it:ariete-132nd-div-hq, unit:it:il-tank-bn, unit:it:iil-tank-bn</span> | Light: 25<br>Medium: 40<br>Heavy: 5 |  |
 | Commonwealth | 19 | 2 | arrives | unit:cw:a | — | Arrives in Alexandria. |
-| axis | 20 | 2 | arrives | unit:de:dak-hq | — |  |
+| axis | 20 | 2 | arrives | unit:de:dak-hq, unit:de:rommel | — | <span class="wrap">Rommel (31.0) is not printed here; his counter arrives with the DAK HQ (R-135).</span> |
 | Commonwealth | 20 | 3 | arrives | <span class="wrap">unit:cw:9-aus, unit:cw:26-aus, unit:cw:2-3-aus-at, unit:cw:22-gds</span> | Light: 10<br>Medium: 25<br>Heavy: 6 | <span class="wrap">OA sheet gives arrival none (blank Arrives) for unit:cw:22-gds</span> |
 | axis | 21 | 1 | arrives | unit:de:3-aufkl-bn, unit:de:39-pzjg-bn | Light: 0<br>Medium: 40<br>Heavy: 0 |  |
 | axis | 21 | 1 | arrives | unit:it:102nd-trento-div-hq | Light: 10<br>Medium: 95<br>Heavy: 15 |  |

@@ -620,6 +620,19 @@
       "Each battalion has 2 light and 6 medium trucks; total shown.",
       "Both battalions arrive in the OA at Game-Turn 55, consistent."
      ]
+    },
+    {
+     "placement": {
+      "stacked_with": "german-unit"
+     },
+     "units": [
+      {
+       "unit": "unit:de:rommel"
+      }
+     ],
+     "notes": [
+      "The set-up does not name Rommel; he is present (arrived 2/20) and starts with any German unit (R-135)."
+     ]
     }
    ],
    "trucks": [

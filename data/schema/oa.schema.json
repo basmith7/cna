@@ -50,6 +50,12 @@
                 "arrives": {"oneOf": [{"$ref": "common.schema.json#/$defs/gameTime"}, {"const": "deployed"}, {"type": "null"}], "description": "Printed arrival (the sheet prints OpStage/Game-Turn); deployed = D, placed before play begins; null where the sheet prints none"},
                 "replaces": {"$ref": "common.schema.json#/$defs/unitId", "description": "A historical reorganisation the sheet prints as one counter replacing another: at this counter's arrives (or, where that is null, when an assigns brings its parent under the replaced counter's top HQ) the replaced counter leaves play and this one takes its hex, TOE points, assigned and attached units (rules/70-organisation.md, replacement counters). A scenario that places this counter (R-096) starts with the replacement made"},
                 "assigns": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/unitId"}, "description": "With replaces: units from other sheets that become assigned to this counter when the replacement is made, with the units under them"},
+                "commander": {"type": "object", "required": ["cpa", "moves_as", "combat_ratings", "stack_morale_bonus", "escort_cpa_bonus", "recall_roll", "initiative_while_recalled"], "additionalProperties": false, "description": "General Rommel's counter only (31.0, R-135): a piece of its own, not an HQ and not a combat unit, that the sheet does not print; id_code is null and these values stand in for a unit-characteristics row",
+                  "properties": {"cpa": {"type": "integer"}, "moves_as": {"enum": ["medium"], "description": "A truck row of tables/truck-characteristics.json, for movement and breakdown (31.0: 4-wheel drive, AM radio only)"},
+                                 "combat_ratings": {"const": false}, "stack_morale_bonus": {"type": "integer", "description": "Added to the morale of every unit in his hex in combat"},
+                                 "escort_cpa_bonus": {"type": "integer", "description": "Added to the CPA of a unit he starts and spends a whole OpStage with"},
+                                 "recall_roll": {"type": "integer", "description": "Two-dice total at the start of a Game-Turn that sends him to Germany for that turn"},
+                                 "initiative_while_recalled": {"type": "integer"}}},
                 "morale": {"type": "integer", "description": "Only where the sheet gives this unit a morale other than the formation's"},
                 "notes": {"type": "array", "items": {"type": "string"}}
               }

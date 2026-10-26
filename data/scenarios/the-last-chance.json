@@ -1444,6 +1444,19 @@
      "notes": [
       "Also any four oasis companies of the Axis player's choice, and every German independent artillery and AA unit not otherwise placed, including the 1st and 2nd African Arty HQs, the 155th and Arko 104 HQs and their units."
      ]
+    },
+    {
+     "placement": {
+      "stacked_with": "german-unit"
+     },
+     "units": [
+      {
+       "unit": "unit:de:rommel"
+      }
+     ],
+     "notes": [
+      "The set-up does not name Rommel; he is present (arrived 2/20) and starts with any German unit (R-135)."
+     ]
     }
    ],
    "trucks": [

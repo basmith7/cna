@@ -1521,6 +1521,30 @@
      }
     },
     {
+     "id": "unit:de:rommel",
+     "name": "General Rommel",
+     "abbreviation": "Rommel",
+     "id_code": null,
+     "parent": null,
+     "toe": [],
+     "arrives": {
+      "game_turn": 20,
+      "opstage": 2
+     },
+     "commander": {
+      "cpa": 60,
+      "moves_as": "medium",
+      "combat_ratings": false,
+      "stack_morale_bonus": 1,
+      "escort_cpa_bonus": 5,
+      "recall_roll": 12,
+      "initiative_while_recalled": 3
+     },
+     "notes": [
+      "Not a row of the sheet: the 31.0 counter, a piece of its own (R-135). Arrives with the Deutsches Afrika Korps HQ, whose counter the sheet abbreviates 'Rommel'."
+     ]
+    },
+    {
      "id": "unit:de:707-schwinf-koy",
      "name": "707 SchwInf Koy",
      "abbreviation": "707",

@@ -40,7 +40,7 @@
   },
   "$defs": {
     "placement": {
-      "description": "Where a block may be placed. At least one locator (hexes, place, box, within, region, sheets, west_of, air_facility); where several are given, a hex must satisfy every one (region with sheets is that country's part of those sheets). A list inside a locator is a choice: any of its hexes, places or sheets. not_within, together and constraint narrow it.",
+      "description": "Where a block may be placed. At least one locator (hexes, place, box, within, region, sheets, west_of, air_facility, stacked_with); where several are given, a hex must satisfy every one (region with sheets is that country's part of those sheets). A list inside a locator is a choice: any of its hexes, places or sheets. not_within, together and constraint narrow it.",
       "type": "object",
       "additionalProperties": false,
       "properties": {
@@ -55,13 +55,14 @@
         "west_of": {"$ref": "common.schema.json#/$defs/hexId", "description": "Hexes west of this one: on an earlier sheet (A-E run west to east), or on its sheet with a lower column CC. A column bound, so a hex in the same column is not west of it"},
         "together": {"type": "boolean", "description": "Every unit, dump or supply unit of the block goes into one hex, chosen by the owner within the placement"},
         "air_facility": {"type": "boolean", "description": "Any friendly air facility"},
+        "stacked_with": {"enum": ["german-unit"], "description": "Any hex holding a unit of this kind once the rest of the side's set-up is placed (R-135, Rommel)"},
         "not_within": {"type": "object", "required": ["of", "hexes"], "additionalProperties": false,
                        "properties": {"of": {"enum": ["enemy-unit"]}, "hexes": {"type": "integer", "minimum": 0}}},
         "constraint": {"type": "string", "description": "Our sentence for what the grammar cannot say; a ruling should follow"}
       },
       "anyOf": [
         {"required": ["hexes"]}, {"required": ["place"]}, {"required": ["box"]}, {"required": ["within"]},
-        {"required": ["region"]}, {"required": ["sheets"]}, {"required": ["west_of"]}, {"required": ["air_facility"]}
+        {"required": ["region"]}, {"required": ["sheets"]}, {"required": ["west_of"]}, {"required": ["air_facility"]}, {"required": ["stacked_with"]}
       ]
     },
     "placeId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
