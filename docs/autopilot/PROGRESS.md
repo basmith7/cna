@@ -34,9 +34,11 @@ The next run reads this section first, acts on it, and moves each item to
 
 - 2026-10-26 (cna-engine, Requests for cna) two more → one PR each: R-131, under abstract supply (§32) 24.9 is off and no dumps are built, real or dummy, so 32.18's one-per-three dummy cap holds (#255, merged); R-132, the Axis prisoner departure point (28.16's "Sirte box", which exists nowhere) is the Tripolitania box, reached by the 8.85 exit from A2802 (#256).
 
+- 2026-10-26 (cna-engine, Requests for cna) construction costs under §32 and the minefield terrain → one PR each: R-133, under abstract supply construction spends no ammunition, fuel, stores or water and needs no supply unit in the hex (#257, merged; 32.11 ignores all supply use); R-134, minefields go in clear, sand/gravel or rough as 24.35 says, the chart's salt marsh read as a misprint (#258).
+
 ## Status
 
-**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. Today (2026-10-26) it answered five requests: convoy lanes as data (#247) with rulings R-126–R-128 (#248–#250); R-129 on surrender with HQs (#252); HQ organisation types on every OA HQ (#253) with R-130 (#254); R-131, no dumps under §32 (#255); R-132, the Sirte box is Tripolitania (#256).
+**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. Today (2026-10-26) it answered five requests: convoy lanes as data (#247) with rulings R-126–R-128 (#248–#250); R-129 on surrender with HQs (#252); HQ organisation types on every OA HQ (#253) with R-130 (#254); R-131, no dumps under §32 (#255); R-132, the Sirte box is Tripolitania (#256); R-133, construction is free of supplies under §32 (#257); R-134, minefield sites follow 24.35 (#258).
 
 **Found:** the Axis Airplane Reinforcement Schedule (34.87), which the decision board said was in neither scan, is printed at the foot of the Axis chart sheet under the wrong number (34.85). It is now data (#251): 28 months, 286 deliveries, two independent reads with 0 differences. The Axis now gets its air reinforcements.
 
@@ -53,11 +55,11 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. After #256, nothing is open from this side: as of 2026-10-26 08:25 UTC (rechecked) every bullet on cna-engine's list (convoy lanes and 32.66, surrender with HQs, HQ organisation types, 24.9 dumps under §32, the Sirte box) is answered by #247–#256; they wait on cna-engine bumping `vendor/cna` and clearing its list.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. After #258, nothing is open from this side: as of 2026-10-26 09:35 UTC every bullet on cna-engine's list is answered by #247–#258; they wait on cna-engine bumping `vendor/cna` and clearing its list.
 
 For Brian (all optional):
 
-- **Dispute anything.** New today: **R-131** (no supply dumps under abstract supply), **R-132** (Axis prisoners leave in the Tripolitania box), **R-126** (a convoy out of the chart's reach is not attacked), **R-127** (a 5 % convoy result hits only motorisation and replacement points), **R-128** (dummies are counted from units that arrive), **R-129** (HQs don't stop an out-of-ammunition hex surrendering), **R-130** (which attachment row unnamed parents use). The HQ organisation mapping in #253 has a few judgment calls listed in its PR (Giovani Fascisti as semi-motorised, 5th Light as an armour division). From 2026-10-24: R-123, R-124, R-125. Older: R-120, R-122, R-114, R-116, R-099, R-108, R-110, R-027, R-071.
+- **Dispute anything.** New today: **R-133** (construction costs no supplies under abstract supply), **R-134** (minefields in rough, not salt marsh), **R-131** (no supply dumps under abstract supply), **R-132** (Axis prisoners leave in the Tripolitania box), **R-126** (a convoy out of the chart's reach is not attacked), **R-127** (a 5 % convoy result hits only motorisation and replacement points), **R-128** (dummies are counted from units that arrive), **R-129** (HQs don't stop an out-of-ammunition hex surrendering), **R-130** (which attachment row unnamed parents use). The HQ organisation mapping in #253 has a few judgment calls listed in its PR (Giovani Fascisti as semi-motorised, 5th Light as an armour division). From 2026-10-24: R-123, R-124, R-125. Older: R-120, R-122, R-114, R-116, R-099, R-108, R-110, R-027, R-071.
 - **Questions only your printed copy can answer** (decision board, `copy` group): the **January 1942 BR20 count** on the Axis air chart is printed as the letter "B" on both scans (probably an 8 or a 6; the engine delivers none until you say). Still open: the German Tank and Gun chart's three misaligned rows, Axis coastal ship tonnages, German c/d CPA, the el Grein garrison.
 - Vault: the *CNA Living Rules* roadmap row for Mission 7 is yours to flip to done.
 
