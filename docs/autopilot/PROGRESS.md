@@ -14,6 +14,8 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Addressed
 
+- 2026-10-26 (cna-engine, Requests for cna) a lone Rommel in an enemy ZOC → R-138 (#264): he may react or retreat before assault first; still alone in an enemy ZOC after that, he is captured (removed for good). On ordinary moves he may not enter an unoccupied enemy-controlled hex.
+
 - 2026-09-19 (Brian) mission 2 orders → acted on 2026-09-20: Part A merged (#17), Part B merged (#18, #20–#26: R-002–R-019 plus the generated `rulings/register.md`); Part C combat CRTs merged (#27, #28). Quoting policy followed as written; three quotes elide NJHarman's own quotation of a printed SPI sentence (noted in each footnote) because the overlap gate flags them.
 
 - 2026-10-08 (cna-engine, Requests for cna) six requests → all merged 2026-10-08: track cost agrees with E-031 (#168); combat wording phasing/non-phasing, probe refund shown in the CP table (#169; `cp-costs.json` was right as printed); stacking `equivalent` per unit type (#170); Land-only victory supply, R-110 (#171); weapon systems 4.47–4.49 as `data/tables/weapon-systems.json` (#172); cross-sheet adjacency `data/map/seams.json` (#173).
@@ -44,7 +46,7 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. Today (2026-10-26) it answered cna-engine's requests with: convoy lanes (#247) with R-126–R-128 (#248–#250); R-129 (#252); HQ organisation types (#253) with R-130 (#254); R-131 (#255); R-132 (#256); R-133 (#257); R-134 (#258); replacement counters (#259); R-135, Rommel (#260); the coast-road hexes (#261); R-136, the "between" and triangle set-up areas (#262); R-137, Rommel's +5 CPA escort (#263, merged).
+**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. Today (2026-10-26) it answered cna-engine's requests with: convoy lanes (#247) with R-126–R-128 (#248–#250); R-129 (#252); HQ organisation types (#253) with R-130 (#254); R-131 (#255); R-132 (#256); R-133 (#257); R-134 (#258); replacement counters (#259); R-135, Rommel (#260); the coast-road hexes (#261); R-136, the "between" and triangle set-up areas (#262); R-137, Rommel's +5 CPA escort (#263); R-138, a lone Rommel in an enemy ZOC (#264, merged).
 
 **Found:** the Axis Airplane Reinforcement Schedule (34.87), which the decision board said was in neither scan, is printed at the foot of the Axis chart sheet under the wrong number (34.85). It is now data (#251): 28 months, 286 deliveries, two independent reads with 0 differences. The Axis now gets its air reinforcements.
 
@@ -61,11 +63,11 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-10-26 17:25 UTC (idle check, nothing new) cna-engine's two open requests (Rommel's Arrival corner-hex placements, Rommel's escort bonus) are answered by #262 and #263; the engine must add the new `apart` placement field when it bumps vendor/cna (its placement parser rejects unknown keys).
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-10-26 18:40 UTC cna-engine's one open request (a lone Rommel in an enemy ZOC) is answered by R-138 (#264); nothing else is open.
 
 For Brian (all optional):
 
-- **Dispute anything.** New today: **R-137** (Rommel's +5 CPA goes to every unit he starts a stage with), **R-136** ("between" two places is a band of land hexes on a shortest path, not just the road), **R-135** (Rommel is a counter of his own, not the DAK HQ), **R-133** (construction costs no supplies under abstract supply), **R-134** (minefields in rough, not salt marsh), **R-131** (no supply dumps under abstract supply), **R-132** (Axis prisoners leave in the Tripolitania box), **R-126** (a convoy out of the chart's reach is not attacked), **R-127** (a 5 % convoy result hits only motorisation and replacement points), **R-128** (dummies are counted from units that arrive), **R-129** (HQs don't stop an out-of-ammunition hex surrendering), **R-130** (which attachment row unnamed parents use). The HQ organisation mapping in #253 has a few judgment calls listed in its PR (Giovani Fascisti as semi-motorised, 5th Light as an armour division). From 2026-10-24: R-123, R-124, R-125. Older: R-120, R-122, R-114, R-116, R-099, R-108, R-110, R-027, R-071.
+- **Dispute anything.** New today: **R-138** (a lone Rommel in an enemy ZOC may react or retreat first, and is captured only if still stuck there), **R-137** (Rommel's +5 CPA goes to every unit he starts a stage with), **R-136** ("between" two places is a band of land hexes on a shortest path, not just the road), **R-135** (Rommel is a counter of his own, not the DAK HQ), **R-133** (construction costs no supplies under abstract supply), **R-134** (minefields in rough, not salt marsh), **R-131** (no supply dumps under abstract supply), **R-132** (Axis prisoners leave in the Tripolitania box), **R-126** (a convoy out of the chart's reach is not attacked), **R-127** (a 5 % convoy result hits only motorisation and replacement points), **R-128** (dummies are counted from units that arrive), **R-129** (HQs don't stop an out-of-ammunition hex surrendering), **R-130** (which attachment row unnamed parents use). The HQ organisation mapping in #253 has a few judgment calls listed in its PR (Giovani Fascisti as semi-motorised, 5th Light as an armour division). From 2026-10-24: R-123, R-124, R-125. Older: R-120, R-122, R-114, R-116, R-099, R-108, R-110, R-027, R-071.
 - **Questions only your printed copy can answer** (decision board, `copy` group): the **January 1942 BR20 count** on the Axis air chart is printed as the letter "B" on both scans (probably an 8 or a 6; the engine delivers none until you say). Still open: the German Tank and Gun chart's three misaligned rows, Axis coastal ship tonnages, German c/d CPA, the el Grein garrison.
 - Vault: the *CNA Living Rules* roadmap row for Mission 7 is yours to flip to done.
 
