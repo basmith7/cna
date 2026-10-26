@@ -77,6 +77,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-016](../rulings/R-016.md) — a tank delivery squadron moves only in the truck convoy phase
 - [R-017](../rulings/R-017.md) — a tank delivery squadron reacts or retreats only with a friendly combat unit
 - [R-018](../rulings/R-018.md) — dump costs follow the charts: real 3 CP + 10 stores, dummy 2 CP
+- [R-131](../rulings/R-131.md) — under abstract supply (§32) no supply dumps are built, real or dummy
 
 ## [Special rules](./90-special.md)
 
@@ -97,6 +98,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-119](../rulings/R-119.md) — supply units, real or dummy, do not count as units in a supply trace
 - [R-128](../rulings/R-128.md) — dummy supply units are counted from real units that arrive, after convoy bombing
+- [R-131](../rulings/R-131.md) — under abstract supply (§32) no supply dumps are built, real or dummy
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 - [R-121](../rulings/R-121.md) — a company-equivalent pays half a battalion-equivalent's ammunition, rounded up per side and combat
 - [R-120](../rulings/R-120.md) — a unit that cannot pay its fuel does not move by land; one that cannot pay its ammunition is out of ammunition
@@ -331,6 +333,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-128](../rulings/R-128.md) | accepted | 32.18, 32.41, 32.64 |
 | [R-129](../rulings/R-129.md) | accepted | 32.21, 15.15, 17.25 |
 | [R-130](../rulings/R-130.md) | accepted | 19.5, 19.41, 9.22 |
+| [R-131](../rulings/R-131.md) | accepted | 24.9, 32.11, 32.12, 32.18 |
 | [R-132](../rulings/R-132.md) | accepted | 28.16, 8.85 |
 
 ## Variants register

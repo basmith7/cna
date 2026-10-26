@@ -105,6 +105,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-128](./R-128.md) | Dummy supply units: counted after convoy bombing | accepted | 32.18, 32.41, 32.64 |
 | [R-129](./R-129.md) | Abstract supply: surrender of a hex whose only armed defenders owe no ammunition | accepted | 32.21, 15.15, 17.25 |
 | [R-130](./R-130.md) | Maximum attachments for parents the chart does not name | accepted | 19.5, 19.41, 9.22 |
+| [R-131](./R-131.md) | Abstract supply: no supply dumps are built | accepted | 24.9, 32.11, 32.12, 32.18 |
 | [R-132](./R-132.md) | The Axis prisoner departure point: the Tripolitania box | accepted | 28.16, 8.85 |
 
 ## Variants
