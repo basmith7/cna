@@ -39,6 +39,10 @@
   "title": "Assault size shifts",
   "group": "Land Game"
  },
+ "axis-air-reinforcement-schedule": {
+  "title": "Axis air reinforcement schedule",
+  "group": "Air Game"
+ },
  "axis-coastal-ships": {
   "title": "Axis coastal ships",
   "group": "Logistics Game"

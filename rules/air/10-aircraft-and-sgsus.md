@@ -217,7 +217,12 @@ Which individual aircraft of a type arrive is up to him. Say a month brings
 
 The Commonwealth schedule (34.86, printed with 34.84) is data:
 [`data/tables/air-reinforcement-schedule.json`](https://github.com/basmith7/cna/blob/main/data/tables/air-reinforcement-schedule.json).
-No Axis schedule (34.87) was found in either scan; see *Engine notes*.
+The Axis schedule (34.87) is data too:
+[`data/tables/axis-air-reinforcement-schedule.json`](https://github.com/basmith7/cna/blob/main/data/tables/axis-air-reinforcement-schedule.json),
+German and Italian aircraft by month from September 1940 (Italian only
+until the Germans' first deliveries in February 1941) to December 1942. The
+chart sits on the Axis chart sheet, misnumbered 34.85. Where it marks a count
+(\* or †), six or twelve of those aircraft fly as torpedo bombers.
 
 ### Commonwealth withdrawals
 
@@ -355,8 +360,9 @@ follow them.
   type in another configuration, picked per mission (34.12).
 - SGSU limits round up: Commonwealth `ceil(on_map / 12) + 2`; German and
   Italian each `ceil(on_map_nation / 10)`.
-- The Axis air reinforcement schedule (34.87) was not found in either
-  scan.
+- The Axis schedule's January 1942 BR20 count is printed as the letter B
+  on both scans (`count: null`); deliver none until a printed copy
+  settles it.
 
 - A squadron needs: nation, class, ready capacity and reserve (by date for
   the Commonwealth), its SGSU (hex, CPA, supplies, attached trucks), its

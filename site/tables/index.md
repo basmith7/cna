@@ -87,6 +87,7 @@ For developers: the same values are JSON in `data/tables/`; see the [data conven
 | [Aircraft characteristics](/tables/aircraft-characteristics) | [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus), [Air Game — flight and maintenance](/rules/air/30-flight-and-maintenance) |
 | [Aircraft refit](/tables/aircraft-refit) | [Air Game — flight and maintenance](/rules/air/30-flight-and-maintenance) |
 | [Anti-aircraft results](/tables/anti-aircraft-results) | [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak) |
+| [Axis air reinforcement schedule](/tables/axis-air-reinforcement-schedule) | [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus) |
 | [Axis Malta availability](/tables/axis-malta-availability) | [Air Game — the Mediterranean bases and Malta](/rules/air/80-mediterranean-and-malta) |
 | [Axis Malta commitment](/tables/axis-malta-commitment) | [Air Game — the Mediterranean bases and Malta](/rules/air/80-mediterranean-and-malta) |
 | [Convoy reconnaissance](/tables/convoy-reconnaissance) | [Air Game — missions](/rules/air/40-missions) |

@@ -125,13 +125,15 @@
       ]
     },
     {
-      "id": "air-axis-reinforcement-schedule",
+      "id": "air-axis-br20-january-1942",
       "group": "copy",
-      "title": "Axis Airplane Reinforcement Schedule (34.87): where is it?",
-      "context": "34.84 says aircraft reinforcements follow a fixed schedule, and 34.87 names an Axis one, but neither the archive.org chart pages nor the community Axis chart PDF shows it; the Commonwealth schedule (34.86) is data. Without it the Axis gets no air reinforcements.",
+      "title": "Axis air reinforcements, January 1942: how many BR20s?",
+      "context": "The Axis Airplane Reinforcement Chart (printed as 34.85 on the Axis chart sheet; now data/tables/axis-air-reinforcement-schedule.json) prints the January 1942 Italian BR20 count as the letter B on both scans. It is probably an 8 or a 6. Until answered the engine delivers none.",
       "options": [
-        "My copy has it (page in a note)",
-        "My copy lacks it too: decide a schedule as a ruling"
+        "My copy says 8",
+        "My copy says 6",
+        "My copy says something else (say what)",
+        "Leave as none"
       ]
     }
   ]
