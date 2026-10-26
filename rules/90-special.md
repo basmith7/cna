@@ -547,6 +547,15 @@ a **12** sends him to Germany for the turn and drops Axis initiative to 3;
 he is back the next turn unless another 12 is rolled. The LRDG may try to
 remove him ([raid on Rommel](#raid-on-rommel)).
 
+::: ruling R-135 — Rommel: his own counter, and where he starts
+
+Rommel is a piece of his own, not the Deutsches Afrika Korps HQ (whose
+counter the OA sheet abbreviates "Rommel"): he arrives with that HQ at 2/20,
+and a scenario that starts later without placing him sets him up in any hex
+holding a German unit ([R-135](../rulings/R-135.md)). In the data he is
+`unit:de:rommel` in `data/oa/de.json`, his `commander` values standing in
+for a unit-characteristics row.
+
 ---
 
 *Drawn on: SPI §21, §27, §28, §29, §30, §31, the §32 addenda to 21.11, 21.63, 21.67, 27.32 and 30.36, and the September 1979 errata (E-023–E-030).*

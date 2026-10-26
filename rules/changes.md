@@ -94,6 +94,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-125](../rulings/R-125.md) — which reconnaissance units are armoured cars: per unit, Axis by the chart notes, Commonwealth by what the unit was
 - [R-132](../rulings/R-132.md) — the Axis departure point for prisoners is the Tripolitania box
 - [R-019](../rulings/R-019.md) — the fleet's western limit is hex row xx29 on map B, where the 100-hex count ends; Derna is out of range
+- [R-135](../rulings/R-135.md) — Rommel: his own counter, and where he starts
 - [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery: torpedo-immune, own AA, may sortie, no port-efficiency penalty (NJHarman)
 
 ## [Abstract logistics and air](./95-abstract-logistics-and-air.md)
@@ -340,6 +341,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-132](../rulings/R-132.md) | accepted | 28.16, 8.85 |
 | [R-133](../rulings/R-133.md) | accepted | 24.13, 24.14, 24.33, 32.11 |
 | [R-134](../rulings/R-134.md) | accepted | 24.35, 24.17 |
+| [R-135](../rulings/R-135.md) | accepted | 31.0, 27.92, 61.41 |
 
 ## Variants register
 

@@ -109,6 +109,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-132](./R-132.md) | The Axis prisoner departure point: the Tripolitania box | accepted | 28.16, 8.85 |
 | [R-133](./R-133.md) | Abstract supply: construction costs no supplies | accepted | 24.13, 24.14, 24.33, 32.11 |
 | [R-134](./R-134.md) | Where minefields may be laid: 24.35's terrain or the chart's | accepted | 24.35, 24.17 |
+| [R-135](./R-135.md) | Rommel: his own counter, and where he starts | accepted | 31.0, 27.92, 61.41 |
 
 ## Variants
 

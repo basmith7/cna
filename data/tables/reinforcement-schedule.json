@@ -536,11 +536,15 @@
    "opstage": 2,
    "kind": "arrives",
    "units": [
-    "unit:de:dak-hq"
+    "unit:de:dak-hq",
+    "unit:de:rommel"
    ],
    "sources": [
     "CNA1979:4.43",
     "scan:p144"
+   ],
+   "notes": [
+    "Rommel (31.0) is not printed here; his counter arrives with the DAK HQ (R-135)."
    ]
   },
   {
