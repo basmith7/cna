@@ -77,6 +77,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-016](../rulings/R-016.md) — a tank delivery squadron moves only in the truck convoy phase
 - [R-017](../rulings/R-017.md) — a tank delivery squadron reacts or retreats only with a friendly combat unit
 - [R-133](../rulings/R-133.md) — under abstract supply (§32) construction spends no supplies
+- [R-134](../rulings/R-134.md) — minefields go in clear, sand/gravel or rough hexes (24.35), not the chart's salt marsh
 - [R-018](../rulings/R-018.md) — dump costs follow the charts: real 3 CP + 10 stores, dummy 2 CP
 - [R-131](../rulings/R-131.md) — under abstract supply (§32) no supply dumps are built, real or dummy
 
@@ -338,6 +339,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-131](../rulings/R-131.md) | accepted | 24.9, 32.11, 32.12, 32.18 |
 | [R-132](../rulings/R-132.md) | accepted | 28.16, 8.85 |
 | [R-133](../rulings/R-133.md) | accepted | 24.13, 24.14, 24.33, 32.11 |
+| [R-134](../rulings/R-134.md) | accepted | 24.35, 24.17 |
 
 ## Variants register
 

@@ -520,3 +520,9 @@ Done: two new cna-engine requests answered: R-131, no dumps under §32 (24.9 off
 In flight: #256 until CI passes (merge if green and still open).
 Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#256. If none, stop.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 02:28 MST — autopilot/ruling-r-134
+Done: cna-engine request "construction costs under §32, and the minefield terrain" answered: R-133, under §32 construction spends no supplies (#257 merged); R-134, minefields go in clear, sand/gravel or rough per 24.35, chart's salt marsh a misprint (#258).
+In flight: #258 until CI passes (merge if green and still open).
+Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#258. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").

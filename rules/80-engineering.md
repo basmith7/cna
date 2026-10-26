@@ -232,12 +232,15 @@ by a raid; unblocking a port costs **50 ammunition + 25 stores** per level
 
 ::: spi 24.31 24.32 24.33 24.34 24.35 24.36 24.37 24.38
 
+::: ruling R-134 — minefields go in clear, sand/gravel or rough hexes (24.35), not the chart's salt marsh
+
 Any engineer unit (or Commonwealth E-HQ) lays one **real** or **dummy**
 minefield per project — the counter's back tells which — taking exactly one
 stage, marked *under construction* and done at the next construction
 segment. A real field costs **15 stores + 15 ammunition** up front; a dummy
 **3 stores**. Sites: clear, sand/gravel or rough, one field per hex, never
-in a major city or an enemy-controlled hex. Effects are in
+in a major city or an enemy-controlled hex; the chart's salt marsh in place
+of rough is a misprint ([R-134](../rulings/R-134.md)). Effects are in
 [minefields](#minefields); removal is as under [engineers](#engineers).
 
 ### Fortifications {#building-fortifications}
