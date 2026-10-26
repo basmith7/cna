@@ -522,11 +522,21 @@
     {
      "placement": {
       "hexes": [
-       "C3916",
        "C3618",
+       "C3718",
+       "C3719",
+       "C3817",
+       "C3818",
+       "C3819",
+       "C3820",
+       "C3916",
+       "C3917",
+       "C3918",
+       "C3919",
+       "C3920",
+       "C3921",
        "C3922"
-      ],
-      "constraint": "any hex inside the triangle with corners C3916, Sidi Omar (C3618) and C3922"
+      ]
      },
      "units": [
       {
@@ -546,7 +556,7 @@
       "heavy": 5
      },
      "notes": [
-      "The corner hexes are anchors; the constraint governs."
+      "62.41: every land hex inside the triangle C3916, Sidi Omar (C3618), C3922, by R-136."
      ]
     },
     {

@@ -100,11 +100,19 @@ March 1941.
   Maaten Groter (A1318) and Magadah (A0817).
 - **Italians:** Ariete within two hexes of El Agheila, not east of it;
   Pavia, Bologna, Brescia and Savona between Ras el Ali (A2010) and Nofilia
-  (A2703), each at least two hexes from the next; Trento, Sabratha and corps
+  (A2703), no two of them less than two hexes apart; Trento, Sabratha and corps
   artillery in Tripoli. Every Italian unit is as its OA sheet shows, except
   the Sabratha Division, which has lost its six infantry battalions
   (rebuildable from replacements) and has its machinegun battalion and
   artillery cut to one TOE point each.
+
+::: ruling R-136 — set-up areas "between" two places and "inside" a triangle
+
+"Between" two places is every land hex on a shortest path from one to the
+other: a band along the coast, not just the road. "Inside" a triangle is
+every land hex whose centre lies inside or on it. The data lists the hexes
+for the Italian divisions, the Axis dumps, the Australians' triangle and,
+in Operation Crusader, the Savona Division's.
 
 ::: spi 61.42 61.43 61.44 61.45
 

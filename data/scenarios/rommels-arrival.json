@@ -281,10 +281,37 @@
     {
      "placement": {
       "hexes": [
+       "A2006",
+       "A2007",
+       "A2008",
+       "A2009",
        "A2010",
-       "A2703"
+       "A2106",
+       "A2107",
+       "A2108",
+       "A2109",
+       "A2110",
+       "A2205",
+       "A2206",
+       "A2207",
+       "A2208",
+       "A2305",
+       "A2306",
+       "A2307",
+       "A2308",
+       "A2404",
+       "A2405",
+       "A2406",
+       "A2504",
+       "A2505",
+       "A2506",
+       "A2603",
+       "A2604",
+       "A2605",
+       "A2703",
+       "A2704"
       ],
-      "constraint": "anywhere between Ras el Ali (A2010) and Nofilia (A2703); no division within two hexes of another (none less than two hexes from another)"
+      "apart": 2
      },
      "units": [
       {
@@ -304,7 +331,7 @@
       }
      ],
      "notes": [
-      "The two endpoint hexes are anchors only; the constraint governs."
+      "61.41: every land hex between Ras el Ali (A2010) and Nofilia (A2703) by R-136; each division at least two hexes from the others."
      ]
     },
     {
@@ -427,10 +454,52 @@
     {
      "placement": {
       "hexes": [
+       "A1807",
+       "A1808",
+       "A1809",
+       "A1810",
+       "A1811",
+       "A1812",
+       "A1813",
+       "A1814",
        "A1816",
-       "A2703"
+       "A1907",
+       "A1908",
+       "A1909",
+       "A1910",
+       "A1911",
+       "A1912",
+       "A2006",
+       "A2007",
+       "A2008",
+       "A2009",
+       "A2010",
+       "A2106",
+       "A2107",
+       "A2108",
+       "A2109",
+       "A2110",
+       "A2205",
+       "A2206",
+       "A2207",
+       "A2208",
+       "A2305",
+       "A2306",
+       "A2307",
+       "A2308",
+       "A2404",
+       "A2405",
+       "A2406",
+       "A2504",
+       "A2505",
+       "A2506",
+       "A2603",
+       "A2604",
+       "A2605",
+       "A2703",
+       "A2704"
       ],
-      "constraint": "anywhere between El Agheila (A1816) and Nofilia (A2703); the side shares out 2500 ammo, 9600 fuel, 950 stores and 1100 water among the three real dumps; no dump may hold more than 50% of any one item"
+      "constraint": "the side shares out 2500 ammo, 9600 fuel, 950 stores and 1100 water among the three real dumps; no dump may hold more than 50% of any one item"
      },
      "kind": "dump",
      "count": 3,
@@ -440,19 +509,64 @@
      "stores": 950,
      "water": 1100,
      "notes": [
+      "61.44: every land hex between El Agheila (A1816) and Nofilia (A2703) by R-136.",
       "Figures are the pool for all three, not each."
      ]
     },
     {
      "placement": {
       "hexes": [
+       "A1807",
+       "A1808",
+       "A1809",
+       "A1810",
+       "A1811",
+       "A1812",
+       "A1813",
+       "A1814",
        "A1816",
-       "A2703"
-      ],
-      "constraint": "anywhere between El Agheila (A1816) and Nofilia (A2703)"
+       "A1907",
+       "A1908",
+       "A1909",
+       "A1910",
+       "A1911",
+       "A1912",
+       "A2006",
+       "A2007",
+       "A2008",
+       "A2009",
+       "A2010",
+       "A2106",
+       "A2107",
+       "A2108",
+       "A2109",
+       "A2110",
+       "A2205",
+       "A2206",
+       "A2207",
+       "A2208",
+       "A2305",
+       "A2306",
+       "A2307",
+       "A2308",
+       "A2404",
+       "A2405",
+       "A2406",
+       "A2504",
+       "A2505",
+       "A2506",
+       "A2603",
+       "A2604",
+       "A2605",
+       "A2703",
+       "A2704"
+      ]
      },
      "kind": "dummy-dump",
-     "count": 2
+     "count": 2,
+     "notes": [
+      "61.44: every land hex between El Agheila (A1816) and Nofilia (A2703) by R-136."
+     ]
     },
     {
      "placement": {
@@ -608,11 +722,24 @@
     {
      "placement": {
       "hexes": [
-       "B5501",
+       "A4827",
+       "A4828",
+       "A4829",
        "A4830",
-       "A4827"
-      ],
-      "constraint": "any hex inside the triangle whose corners are Tocra (B5501), Er Regima (A4830) and Benghazi"
+       "A4929",
+       "A4930",
+       "A4931",
+       "A5029",
+       "A5030",
+       "A5031",
+       "A5131",
+       "A5132",
+       "A5231",
+       "A5232",
+       "A5333",
+       "A5433",
+       "B5501"
+      ]
      },
      "units": [
       {
@@ -636,7 +763,7 @@
       "medium": 35
      },
      "notes": [
-      "The three corner hexes are listed only as anchors; the constraint governs."
+      "61.31: every land hex inside the triangle Tocra (B5501), Er Regima (A4830), Benghazi (A4827), by R-136."
      ]
     },
     {
