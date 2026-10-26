@@ -113,6 +113,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-136](./R-136.md) | Set-up areas "between" two places and "inside" a triangle | accepted | 61.41, 61.44, 61.31, 62.41 |
 | [R-137](./R-137.md) | Rommel's +5 CPA: which units, and what parting costs | accepted | 31.0, 6.21, 8.17 |
 | [R-138](./R-138.md) | A lone Rommel in an enemy ZOC | accepted | 31.0, 10.29, 8.51, 13.2 |
+| [R-141](./R-141.md) | Which organisation-chart components count toward a shell | accepted | 9.26, 9.27, 19.3 |
 
 ## Variants
 
