@@ -111,6 +111,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-134](./R-134.md) | Where minefields may be laid: 24.35's terrain or the chart's | accepted | 24.35, 24.17 |
 | [R-135](./R-135.md) | Rommel: his own counter, and where he starts | accepted | 31.0, 27.92, 61.41 |
 | [R-136](./R-136.md) | Set-up areas "between" two places and "inside" a triangle | accepted | 61.41, 61.44, 61.31, 62.41 |
+| [R-137](./R-137.md) | Rommel's +5 CPA: which units, and what parting costs | accepted | 31.0, 6.21, 8.17 |
 
 ## Variants
 

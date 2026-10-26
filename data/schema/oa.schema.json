@@ -53,7 +53,7 @@
                 "commander": {"type": "object", "required": ["cpa", "moves_as", "combat_ratings", "stack_morale_bonus", "escort_cpa_bonus", "recall_roll", "initiative_while_recalled"], "additionalProperties": false, "description": "General Rommel's counter only (31.0, R-135): a piece of its own, not an HQ and not a combat unit, that the sheet does not print; id_code is null and these values stand in for a unit-characteristics row",
                   "properties": {"cpa": {"type": "integer"}, "moves_as": {"enum": ["medium"], "description": "A truck row of tables/truck-characteristics.json, for movement and breakdown (31.0: 4-wheel drive, AM radio only)"},
                                  "combat_ratings": {"const": false}, "stack_morale_bonus": {"type": "integer", "description": "Added to the morale of every unit in his hex in combat"},
-                                 "escort_cpa_bonus": {"type": "integer", "description": "Added to the CPA of a unit he starts and spends a whole OpStage with"},
+                                 "escort_cpa_bonus": {"type": "integer", "description": "Added to the CPA of every unit in his hex at an OpStage's start, while it stays with him; parting charges the DP it spared (R-137)"},
                                  "recall_roll": {"type": "integer", "description": "Two-dice total at the start of a Game-Turn that sends him to Germany for that turn"},
                                  "initiative_while_recalled": {"type": "integer"}}},
                 "morale": {"type": "integer", "description": "Only where the sheet gives this unit a morale other than the formation's"},
