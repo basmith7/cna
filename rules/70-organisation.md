@@ -92,6 +92,17 @@ never a tank battalion; German divisions take a brigade plus a unit or up to
 four units, never tanks; Italian battalions take nothing. Any division or
 brigade may add two small company-equivalents for free.
 
+Each headquarters in `data/oa/` names its rows: `attachment_parent` lists
+its Maximum Attachment Chart rows (two where the chart splits a type at
+turn 68; the one covering the current turn applies) and `organisation` its
+Formation Organisation Chart row (the type follows the turn the same way),
+or null where the chart has none and the O/A notes govern (battle groups,
+artillery commands, garrisons, the corps). Every battalion-equivalent uses
+its nation's battalion row. Italian infantry divisions are the
+semi-motorised row unless motorised (Trieste, Trento) or Libyan or
+parachute (the two Libyan divisions, Folgore, Gruppo Maletti, which the
+chart names there).
+
 ## Attachment and detachment {#attachment-limits}
 
 ::: spi 19.4 19.41 19.42 19.43 19.44 19.45 19.46 19.47

@@ -42,6 +42,10 @@
      "abbreviation": "5 Le",
      "id_code": "c",
      "echelon": "division",
+     "attachment_parent": [
+      "armour-division"
+     ],
+     "organisation": "5-leichte-panzer-division",
      "parent": null,
      "toe": [
       {
@@ -63,6 +67,10 @@
      "abbreviation": "21",
      "id_code": "c",
      "echelon": "division",
+     "attachment_parent": [
+      "armour-division"
+     ],
+     "organisation": "21-panzer-division",
      "parent": null,
      "toe": [],
      "arrives": {
@@ -81,6 +89,10 @@
      "abbreviation": "5",
      "id_code": "c",
      "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "armoured-regiment",
      "parent": "unit:de:5le-div-hq",
      "toe": [
       {
@@ -334,6 +346,10 @@
      "abbreviation": "288 Son",
      "id_code": "e",
      "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "288-sonderverband",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -443,6 +459,10 @@
      "abbreviation": "15",
      "id_code": "c",
      "echelon": "division",
+     "attachment_parent": [
+      "armour-division"
+     ],
+     "organisation": "15-panzer-division",
      "parent": null,
      "toe": [
       {
@@ -461,6 +481,10 @@
      "abbreviation": "8",
      "id_code": "c",
      "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "armoured-regiment",
      "parent": "unit:de:15-pz-div-hq",
      "toe": [
       {
@@ -529,6 +553,10 @@
      "abbreviation": "200",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:de:15-pz-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -562,6 +590,10 @@
      "abbreviation": "15",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "15-infantry-brigade",
      "parent": "unit:de:15-pz-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -579,6 +611,10 @@
      "abbreviation": "104",
      "id_code": "d",
      "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:de:15-schutzen-bde-hq",
      "toe": [
       {
@@ -626,6 +662,10 @@
      "abbreviation": "115",
      "id_code": "d",
      "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:de:15-schutzen-bde-hq",
      "toe": [
       {
@@ -969,6 +1009,10 @@
      "abbreviation": "164 Le",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "164-leichte-afrika-division",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -986,6 +1030,10 @@
      "abbreviation": "125",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:de:164-le-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -1039,6 +1087,10 @@
      "abbreviation": "382",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:de:164-le-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -1092,6 +1144,10 @@
      "abbreviation": "433",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:de:164-le-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -1179,6 +1235,10 @@
      "abbreviation": "220",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "artillery-brigade-hq"
+     ],
+     "organisation": null,
      "parent": "unit:de:164-le-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -1306,6 +1366,10 @@
      "abbreviation": "Ramcke",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "ramcke-brigade",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -1441,6 +1505,8 @@
      "abbreviation": "Rommel",
      "id_code": "a",
      "echelon": "corps",
+     "attachment_parent": [],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -1535,6 +1601,10 @@
      "abbreviation": "Bach",
      "id_code": "b",
      "echelon": "battle-group",
+     "attachment_parent": [
+      "battle-group"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "arrives": null,
@@ -1548,6 +1618,10 @@
      "abbreviation": "Graf",
      "id_code": "b",
      "echelon": "battle-group",
+     "attachment_parent": [
+      "battle-group"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "arrives": null,
@@ -1561,6 +1635,10 @@
      "abbreviation": "Knabe",
      "id_code": "b",
      "echelon": "battle-group",
+     "attachment_parent": [
+      "battle-group"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "arrives": null,
@@ -1574,6 +1652,10 @@
      "abbreviation": "Marcks",
      "id_code": "b",
      "echelon": "battle-group",
+     "attachment_parent": [
+      "battle-group"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "arrives": null,
@@ -1587,6 +1669,10 @@
      "abbreviation": "Pfeiffer",
      "id_code": "b",
      "echelon": "battle-group",
+     "attachment_parent": [
+      "battle-group"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "arrives": null,
@@ -1600,6 +1686,10 @@
      "abbreviation": "Schwrn",
      "id_code": "b",
      "echelon": "battle-group",
+     "attachment_parent": [
+      "battle-group"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "arrives": null,
@@ -1634,6 +1724,10 @@
      "abbreviation": "1 Afr",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "artillery-brigade-hq"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -1651,6 +1745,10 @@
      "abbreviation": "2 Afr",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "artillery-brigade-hq"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -1668,6 +1766,10 @@
      "abbreviation": "ArKo 104",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "artillery-brigade-hq"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -1759,6 +1861,10 @@
      "abbreviation": "155",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "artillery-brigade-hq"
+     ],
+     "organisation": null,
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -2413,6 +2519,10 @@
      "abbreviation": "90 Le",
      "id_code": "b",
      "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "90-leichte-afrika-division",
      "parent": null,
      "toe": [],
      "toe_mark": "N",
@@ -2430,6 +2540,10 @@
      "abbreviation": "155",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:de:90-le-div-hq",
      "toe": [],
      "toe_mark": "N",
@@ -2486,6 +2600,10 @@
      "abbreviation": "361 Af",
      "id_code": "b",
      "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "361-afrika-regiment",
      "parent": "unit:de:90-le-div-hq",
      "toe": [],
      "toe_mark": "N",
