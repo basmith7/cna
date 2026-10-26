@@ -99,6 +99,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-120](../rulings/R-120.md) — a unit that cannot pay its fuel does not move by land; one that cannot pay its ammunition is out of ammunition
 - [R-124](../rulings/R-124.md) — air lift: division and brigade-equivalent HQs are destinations; the row limit is the farthest division HQ counter
 - [R-123](../rulings/R-123.md) — one motorisation point per TOE strength point of any kind; a unit short of points is not motorised
+- [R-126](../rulings/R-126.md) — a convoy no qualifying division can reach on the chart is not attacked
 
 ## [Air Game — aircraft and squadrons](./air/10-aircraft-and-sgsus.md)
 
@@ -318,6 +319,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-123](../rulings/R-123.md) | accepted | 32.51, 32.53, 32.54, 6.17, 8.91, 8.95, 54.2 |
 | [R-124](../rulings/R-124.md) | accepted | 32.37, 9.22, 9.26, 19.73 |
 | [R-125](../rulings/R-125.md) | accepted | 21.11, 21.13, 21.14, 20.51, 20.52, 8.91 |
+| [R-126](../rulings/R-126.md) | accepted | 32.63, 32.64, 32.66 |
 
 ## Variants register
 
