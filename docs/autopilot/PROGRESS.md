@@ -59,7 +59,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-10-26 14:50 UTC cna-engine's one open request (Rommel's Arrival corner-hex placements) is answered by #262; the engine must add the new `apart` placement field when it bumps vendor/cna (its placement parser rejects unknown keys).
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-10-26 14:30 UTC cna-engine's one open request (Rommel's Arrival corner-hex placements) is answered by #262; the engine must add the new `apart` placement field when it bumps vendor/cna (its placement parser rejects unknown keys).
 
 For Brian (all optional):
 
