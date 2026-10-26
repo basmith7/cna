@@ -188,6 +188,8 @@ file:
 
 ::: spi 24.0 24.11 24.12 24.13 24.14 24.15 24.16
 
+::: ruling R-133 — under abstract supply (§32) construction spends no supplies
+
 All construction starts in the **construction segment** of the organisation
 phase and completes at the start of the construction segment of a later
 stage, after the number of stages on the Construction Chart (the starting
@@ -195,8 +197,9 @@ stage counts). A unit building may spend **no CP** that stage or the stage is
 lost; a unit may run only one project at a time, obeys stacking (but not
 road stacking limits), and may abandon a project freely. Supplies for a
 project must begin the segment in the hex and are spent then, even if the
-builders are later driven off; normal upkeep is paid as well. Weather and
-fire interfere:
+builders are later driven off; normal upkeep is paid as well. Under
+abstract supply (§32) no construction costs supplies, and none need be in
+the hex ([R-133](../rulings/R-133.md)). Weather and fire interfere:
 
 ::: spi 24.21 24.22 24.23 24.24
 

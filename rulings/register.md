@@ -107,6 +107,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-130](./R-130.md) | Maximum attachments for parents the chart does not name | accepted | 19.5, 19.41, 9.22 |
 | [R-131](./R-131.md) | Abstract supply: no supply dumps are built | accepted | 24.9, 32.11, 32.12, 32.18 |
 | [R-132](./R-132.md) | The Axis prisoner departure point: the Tripolitania box | accepted | 28.16, 8.85 |
+| [R-133](./R-133.md) | Abstract supply: construction costs no supplies | accepted | 24.13, 24.14, 24.33, 32.11 |
 | [R-134](./R-134.md) | Where minefields may be laid: 24.35's terrain or the chart's | accepted | 24.35, 24.17 |
 
 ## Variants
