@@ -30,9 +30,11 @@ The next run reads this section first, acts on it, and moves each item to
 
 - 2026-10-26 (cna-engine, Requests for cna) convoy lanes (56.1) and three questions on 32.66 → one PR each, all merged: `data/tables/convoy-lanes.json`, the Axis Naval Convoy Air Distance Chart with each lane's destination port, opening turn and distances (#247; early on only lanes 2, 3 and 6 are open, matching Graziani's 60.37); R-126, a convoy no qualifying division reaches on the chart is not attacked (#248; the 1–20 column would score 0 % on every roll anyway); R-127, a 5 % result hits only motorisation and replacement points, like 10 % (#249; also the Air Game's 47.65 and the Logistics Game's 58.1); R-128, dummy supply units are counted from units that arrive, after bombing (#250).
 
+- 2026-10-26 (cna-engine, Requests for cna) two more, arrived mid-run → merged: R-129, an out-of-ammunition hex surrenders even with HQs in it, when every defender that owes ammunition is out (#252, confirms cna-engine #40); every OA HQ names its Maximum Attachment row (`attachment_parent`) and Formation Organisation row (`organisation`) (#253), with R-130 for the parents the 19.5 chart does not name: German brigades take the regiment row, German artillery regiment HQs the artillery brigade HQ row, Commonwealth army tank brigades the tank brigade rows (#254).
+
 ## Status
 
-**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. Today (2026-10-26) it answered the convoy-lanes request: lanes as data (#247) and rulings R-126–R-128 (#248–#250).
+**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. Today (2026-10-26) it answered three requests: convoy lanes as data (#247) with rulings R-126–R-128 (#248–#250); R-129 on surrender with HQs (#252); HQ organisation types on every OA HQ (#253) with R-130 (#254).
 
 **Found:** the Axis Airplane Reinforcement Schedule (34.87), which the decision board said was in neither scan, is printed at the foot of the Axis chart sheet under the wrong number (34.85). It is now data (#251): 28 months, 286 deliveries, two independent reads with 0 differences. The Axis now gets its air reinforcements.
 
@@ -49,11 +51,11 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. After #251, nothing is open from this side; cna-engine's autopilot clears its own list.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. After #254, nothing is open from this side; cna-engine's autopilot clears its own list.
 
 For Brian (all optional):
 
-- **Dispute anything.** New today: **R-126** (a convoy out of the chart's reach is not attacked), **R-127** (a 5 % convoy result hits only motorisation and replacement points), **R-128** (dummies are counted from units that arrive). From 2026-10-24: R-123, R-124, R-125. Older: R-120, R-122, R-114, R-116, R-099, R-108, R-110, R-027, R-071.
+- **Dispute anything.** New today: **R-126** (a convoy out of the chart's reach is not attacked), **R-127** (a 5 % convoy result hits only motorisation and replacement points), **R-128** (dummies are counted from units that arrive), **R-129** (HQs don't stop an out-of-ammunition hex surrendering), **R-130** (which attachment row unnamed parents use). The HQ organisation mapping in #253 has a few judgment calls listed in its PR (Giovani Fascisti as semi-motorised, 5th Light as an armour division). From 2026-10-24: R-123, R-124, R-125. Older: R-120, R-122, R-114, R-116, R-099, R-108, R-110, R-027, R-071.
 - **Questions only your printed copy can answer** (decision board, `copy` group): the **January 1942 BR20 count** on the Axis air chart is printed as the letter "B" on both scans (probably an 8 or a 6; the engine delivers none until you say). Still open: the German Tank and Gun chart's three misaligned rows, Axis coastal ship tonnages, German c/d CPA, the el Grein garrison.
 - Vault: the *CNA Living Rules* roadmap row for Mission 7 is yours to flip to done.
 
