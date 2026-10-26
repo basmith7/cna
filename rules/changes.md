@@ -94,6 +94,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 ## [Abstract logistics and air](./95-abstract-logistics-and-air.md)
 
 - [R-119](../rulings/R-119.md) — supply units, real or dummy, do not count as units in a supply trace
+- [R-128](../rulings/R-128.md) — dummy supply units are counted from real units that arrive, after convoy bombing
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 - [R-121](../rulings/R-121.md) — a company-equivalent pays half a battalion-equivalent's ammunition, rounded up per side and combat
 - [R-120](../rulings/R-120.md) — a unit that cannot pay its fuel does not move by land; one that cannot pay its ammunition is out of ammunition
@@ -324,6 +325,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-125](../rulings/R-125.md) | accepted | 21.11, 21.13, 21.14, 20.51, 20.52, 8.91 |
 | [R-126](../rulings/R-126.md) | accepted | 32.63, 32.64, 32.66 |
 | [R-127](../rulings/R-127.md) | accepted | 32.64, 32.65, 47.65, 58.1 |
+| [R-128](../rulings/R-128.md) | accepted | 32.18, 32.41, 32.64 |
 
 ## Variants register
 

@@ -64,9 +64,12 @@ spend half the CPA (rounded up) of every unit in the hex and roll one die
 per supply unit; 1–3 destroys it, +1 to the roll if the hex holds 1 SP or
 less. One attempt per unit per sub-segment.
 
+::: ruling R-128 — dummy supply units are counted from real units that arrive, after convoy bombing
+
 **Dummy** supply units: one per three real units received or started with,
-moved like real ones (needing fewer motorisation points), removed when
-found.
+a running total over the game, moved like real ones (needing fewer
+motorisation points), removed when found. An Axis unit counts only when its
+convoy arrives; one sunk by bombing never counts ([R-128](../rulings/R-128.md)).
 
 ## Supply expenditure
 
