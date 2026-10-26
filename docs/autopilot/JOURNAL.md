@@ -502,3 +502,9 @@ Done: idle run. Feedback empty, no open autopilot PRs; cna-engine's PROGRESS.md 
 In flight: none.
 Next: read cna-engine Requests for cna; answer only bullets not covered by #236-#246. If none, stop.
 Blocked: none (copy: 34.87 Axis air schedule still missing).
+
+## 2026-10-25 19:41 MST — autopilot/axis-air-reinforcements
+Done: cna-engine request (convoy lanes + 32.66) answered: lanes data #247 (45c202a), R-126 no attack out of chart reach #248, R-127 5 % acts as 10 % #249, R-128 dummies counted after bombing #250. Found the "missing" Axis air schedule on jp2 176 (misnumbered 34.85): data in #251, two reads 0 diffs; copy question narrowed to Jan 1942 BR20 "B".
+In flight: #251 until its CI passes (merge it if green and still open).
+Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#251. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
