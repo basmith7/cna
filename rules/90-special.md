@@ -312,6 +312,8 @@ per TOE point over twelve stages; an SAS Brigade wholly eliminated is gone.
 
 ::: spi 28.0 28.11 28.12 28.13 28.14 28.15 28.16 28.17 28.18
 
+::: ruling R-132 — the Axis departure point for prisoners is the Tripolitania box
+
 Every surrendering **infantry** TOE point becomes one **prisoner point** —
 guns and tanks are captured equipment ([below](#captured-equipment)), and
 prisoners are never massacred. At the instant of surrender the captor may
@@ -322,7 +324,8 @@ stand still when their guards retreat. At most **40** points per hex; more
 than five standing still may be marked as a detention camp. Every five
 points cost the captor **1 store per stage**, drawn from the nearest dump
 before any other store is spent. Prisoners leave the game for good on
-entering the captor's **departure point** — the Sirte box for the Axis,
+entering the captor's **departure point** — the Tripolitania box for the
+Axis (the rule's "Sirte box" exists nowhere; [R-132](../rulings/R-132.md)),
 Alexandria or Cairo for the Commonwealth. Each camp needs one **guard
 point**; on the move, one guard per **five** prisoners. Trucks may carry
 prisoners if you can spare them.
