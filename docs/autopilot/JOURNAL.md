@@ -538,3 +538,9 @@ Done: idle check. Feedback empty, no open autopilot PRs; cna-engine's Requests f
 In flight: none.
 Next: read cna-engine Requests for cna and Feedback; if both empty, stop.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 05:45 MST — autopilot/req-road-locator
+Done: three cna-engine requests answered: OA `replaces`/`assigns` (21 Pz replaces 5 Le, II/155 replaces I/75, 7 Mtr, 32 Army Tank; #259 merged); R-135, Rommel is `unit:de:rommel`, not the DAK HQ, with a `commander` block and a `stacked_with` placement locator (#260 merged); M-933 coast-road fix and the 20 road hexes for 61.44's supply units (#261).
+In flight: #261 until CI passes (merge if green and still open).
+Next: read cna-engine Requests for cna; answer only bullets not covered by #259-#261. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
