@@ -84,6 +84,8 @@ supporting battalions.
 
 ::: spi 19.5
 
+::: ruling R-130 — parents the attachment chart does not name use the nearest row by size and type
+
 The Maximum Attachment Chart is data: `data/tables/max-attachments.json` —
 per nation and parent type, how many battalion-equivalents may be attached
 and of what kinds. Commonwealth divisions take two (three for an armoured
@@ -98,7 +100,10 @@ turn 68; the one covering the current turn applies) and `organisation` its
 Formation Organisation Chart row (the type follows the turn the same way),
 or null where the chart has none and the O/A notes govern (battle groups,
 artillery commands, garrisons, the corps). Every battalion-equivalent uses
-its nation's battalion row. Italian infantry divisions are the
+its nation's battalion row. Parents the chart does not name take the
+nearest row by size and type: German brigades the regiment row, German
+artillery regiment HQs the artillery brigade HQ row, Commonwealth army tank
+brigades the tank brigade rows ([R-130](../rulings/R-130.md)). Italian infantry divisions are the
 semi-motorised row unless motorised (Trieste, Trento) or Libyan or
 parachute (the two Libyan divisions, Folgore, Gruppo Maletti, which the
 chart names there).

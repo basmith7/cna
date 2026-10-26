@@ -508,3 +508,9 @@ Done: cna-engine request (convoy lanes + 32.66) answered: lanes data #247 (45c20
 In flight: #251 until its CI passes (merge it if green and still open).
 Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#251. If none, stop.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-25 19:52 MST — autopilot/ruling-r-130
+Done: two more cna-engine requests arrived mid-run: R-129 (HQs do not keep an out-of-ammo hex from surrendering, confirms cna-engine #40) #252; every OA HQ now has attachment_parent + organisation (#253); R-130 (unnamed parents use the nearest 19.5 row) #254.
+In flight: #254 until CI passes (merge if green and still open).
+Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#254. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
