@@ -62,6 +62,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-014** — 20.66 note: M 11/39, not 13/39
 - **E-015** — 20.72: plan one month ahead, not two, and read the table for the arrival month
 - **E-016** — 20.83: the reference to 20.75 is void; the strength requirement is 20.82's
+- [R-130](../rulings/R-130.md) — parents the attachment chart does not name use the nearest row by size and type
 - [R-100](../rulings/R-100.md) — the schedule and an OA sheet sometimes give different arrivals
 
 ## [Engineering](./80-engineering.md)
@@ -328,6 +329,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-127](../rulings/R-127.md) | accepted | 32.64, 32.65, 47.65, 58.1 |
 | [R-128](../rulings/R-128.md) | accepted | 32.18, 32.41, 32.64 |
 | [R-129](../rulings/R-129.md) | accepted | 32.21, 15.15, 17.25 |
+| [R-130](../rulings/R-130.md) | accepted | 19.5, 19.41, 9.22 |
 
 ## Variants register
 
