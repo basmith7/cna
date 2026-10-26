@@ -25,6 +25,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-007](../rulings/R-007.md) — a reacting unit spends CP only on movement and on blowing a dump
 - [R-006](../rulings/R-006.md) — the stacking condition in 8.53a applies to truck convoys only
 - [R-008](../rulings/R-008.md) — "in combat" in 8.53d means in contact
+- [R-139](../rulings/R-139.md) — only a ZOC the unit stood in before the mover arrived pins it
 - [R-003](../rulings/R-003.md) — Contact is fixed at the start of every movement segment, either side's
 - [R-005](../rulings/R-005.md) — one rail stack each way may mix units and supplies and change its load en route, within both limits
 
@@ -98,6 +99,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-019](../rulings/R-019.md) — the fleet's western limit is hex row xx29 on map B, where the 100-hex count ends; Derna is out of range
 - [R-137](../rulings/R-137.md) — Rommel's +5 CPA: which units, and what parting costs
 - [R-138](../rulings/R-138.md) — a lone Rommel in an enemy ZOC escapes first, then is captured
+- [R-140](../rulings/R-140.md) — Rommel retreats alone when an assault destroys his stack
 - [R-135](../rulings/R-135.md) — Rommel: his own counter, and where he starts
 - [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery: torpedo-immune, own AA, may sortie, no port-efficiency penalty (NJHarman)
 
@@ -350,6 +352,8 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-136](../rulings/R-136.md) | accepted | 61.41, 61.44, 61.31, 62.41 |
 | [R-137](../rulings/R-137.md) | accepted | 31.0, 6.21, 8.17 |
 | [R-138](../rulings/R-138.md) | accepted | 31.0, 10.29, 8.51, 13.2 |
+| [R-139](../rulings/R-139.md) | accepted | 8.51, 8.53, 8.54 |
+| [R-140](../rulings/R-140.md) | accepted | 31.0, 10.29, 15.82 |
 | [R-141](../rulings/R-141.md) | accepted | 9.26, 9.27, 19.3 |
 
 ## Variants register

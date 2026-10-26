@@ -568,6 +568,15 @@ enters an unoccupied enemy-controlled hex and pays break-off to leave one;
 only his retreats pass through enemy ZOC free
 ([R-138](../rulings/R-138.md)).
 
+::: ruling R-140 — Rommel retreats alone when an assault destroys his stack
+
+If an assault's losses destroy every combat unit in Rommel's hex, he makes a
+**forced retreat** of his own at once, before the next assault and before
+any advance: along the forced-retreat path, at least as far as the result's
+retreat (one hex if none), and on until he reaches a friendly combat unit or
+a hex outside every enemy ZOC, passing through enemy ZOC free. If he cannot
+get there he is captured where he stops ([R-140](../rulings/R-140.md)).
+
 ::: ruling R-135 — Rommel: his own counter, and where he starts
 
 Rommel is a piece of his own, not the Deutsches Afrika Korps HQ (whose
