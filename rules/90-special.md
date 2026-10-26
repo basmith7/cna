@@ -547,6 +547,15 @@ a **12** sends him to Germany for the turn and drops Axis initiative to 3;
 he is back the next turn unless another 12 is rolled. The LRDG may try to
 remove him ([raid on Rommel](#raid-on-rommel)).
 
+::: ruling R-137 — Rommel's +5 CPA: which units, and what parting costs
+
+Every unit in Rommel's hex when an Operations Stage begins has **CPA +5**
+for as long as it stays in his hex. A unit that parts from him, for any
+reason, loses the bonus at once and takes the disorganisation points it had
+been spared (one per CP spent past its own CPA, at most five). The 8.17 cap
+on non-motorised units stays at 150 % of the printed CPA
+([R-137](../rulings/R-137.md)).
+
 ::: ruling R-135 — Rommel: his own counter, and where he starts
 
 Rommel is a piece of his own, not the Deutsches Afrika Korps HQ (whose

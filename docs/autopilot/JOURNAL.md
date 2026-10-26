@@ -550,3 +550,9 @@ Done: cna-engine request "Rommel's Arrival corner-hex placements as hex lists" a
 In flight: #262 until CI passes (merge if green and still open).
 Next: read cna-engine Requests for cna; answer only bullets not covered by #259-#262. If none, stop.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 07:40 MST — autopilot/ruling-r-137
+Done: R-136 (#262) merged. cna-engine request "Rommel's +5 CPA escort (31.0)" answered: R-137, every unit in his hex at stage start has CPA +5 while it stays with him; parting charges the spared DP at once; 8.17 cap and motorised class stay on printed CPA.
+In flight: R-137 PR until CI passes (merge if green and still open).
+Next: read cna-engine Requests for cna; answer only bullets not covered by #259-#263. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
