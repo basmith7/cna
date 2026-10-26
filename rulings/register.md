@@ -115,6 +115,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-138](./R-138.md) | A lone Rommel in an enemy ZOC | accepted | 31.0, 10.29, 8.51, 13.2 |
 | [R-139](./R-139.md) | Whose ZOC pins in 8.53c | accepted | 8.51, 8.53, 8.54 |
 | [R-140](./R-140.md) | Rommel when an assault destroys his stack | accepted | 31.0, 10.29, 15.82 |
+| [R-141](./R-141.md) | Which organisation-chart components count toward a shell | accepted | 9.26, 9.27, 19.3 |
 
 ## Variants
 

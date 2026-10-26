@@ -93,6 +93,9 @@ two armoured brigades and a support group until turn 18, gains an armoured
 car or recce unit from turn 19, slims to one brigade from turn 71 and from
 turn 92 becomes a brigade, an infantry brigade, three artillery units and
 supporting battalions.
+Each component also says whether it counts when the parent is judged a
+shell ([R-141](../rulings/R-141.md)), and each row has one `turns` (a type
+that comes back in a later period is given twice).
 
 ::: spi 19.5
 

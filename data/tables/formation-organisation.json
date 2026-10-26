@@ -10,7 +10,8 @@
  ],
  "notes": [
   "Formation Organisation Charts (SPI 19.31 Commonwealth, 19.32 Italian, 19.33 German): what each parent formation is composed of. Each component is one or more counters of a kind (count), with the stacking-point figure the chart prints beside the symbol (sp; a formation's is in parentheses; null where the chart prints no figure) and the organisation type where the component is itself a formation on the chart; the chart's 'X or Y' is any_of. The counter symbols are named by the slugs in 'units' (our words for the three charts' keys)",
-  "Transcribed from the archive.org scan (jp2 134, 173, 174) and cross-checked symbol by symbol against the 300 dpi community scans (scan:discord:Commonwealth Charts.pdf:p24, scan:discord:Axis Charts.pdf:p31 and p32): 0 of 14 + 12 + 11 rows differ. Clay Stone's errata-integrated Land rules PDF contains no charts. Two soft spots, both read the same in both scans: the second infantry battalion of the 5th Light's row carries a faint '1'; the Ramcke row's first four battalions are read as ordinary parachute battalions and only the fifth as the heavy-weapons battalion"
+  "Transcribed from the archive.org scan (jp2 134, 173, 174) and cross-checked symbol by symbol against the 300 dpi community scans (scan:discord:Commonwealth Charts.pdf:p24, scan:discord:Axis Charts.pdf:p31 and p32): 0 of 14 + 12 + 11 rows differ. Clay Stone's errata-integrated Land rules PDF contains no charts. Two soft spots, both read the same in both scans: the second infantry battalion of the 5th Light's row carries a faint '1'; the Ramcke row's first four battalions are read as ordinary parachute battalions and only the fifth as the heavy-weapons battalion",
+  "counts_for_shell (R-141): whether the component is one of the 'brigade-equivalents' (in a division, 5 SP) or 'battalions' (in a brigade or regiment, 2-3 SP) that 9.26 counts when judging a shell. A division counts its components of 2 SP or more; a brigade or regiment its components of 1 SP or more; a component of 0 SP or with no figure printed never counts. The Commonwealth armoured brigade type II, which applies in two periods (turns 19-70 and 92 on), is given as two rows"
  ],
  "units": {
   "armoured-division": "CW armoured division (5 SP), organisation type I-IV by period; IT armoured division (5 SP)",
@@ -86,13 +87,15 @@
      "count": 2,
      "unit": "armoured-brigade",
      "sp": 2,
-     "type": "I"
+     "type": "I",
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "support-group",
      "sp": 2,
-     "type": "I"
+     "type": "I",
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -114,13 +117,15 @@
      "count": 2,
      "unit": "armoured-brigade",
      "sp": 2,
-     "type": "II"
+     "type": "II",
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "support-group",
      "sp": 2,
-     "type": "II"
+     "type": "II",
+     "counts_for_shell": true
     },
     {
      "count": 1,
@@ -128,7 +133,8 @@
       "armoured-car-unit",
       "armoured-recce-unit"
      ],
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -150,18 +156,21 @@
      "count": 1,
      "unit": "armoured-brigade",
      "sp": 2,
-     "type": "III"
+     "type": "III",
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "support-group",
      "sp": 2,
-     "type": "III"
+     "type": "III",
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "armoured-car-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -183,37 +192,44 @@
      "count": 1,
      "unit": "armoured-brigade",
      "sp": 2,
-     "type": "II"
+     "type": "II",
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "infantry-brigade",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 3,
      "unit": "artillery-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "anti-tank-regiment",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "light-aa-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "machinegun-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "engineer-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
@@ -221,7 +237,8 @@
       "armoured-car-unit",
       "armoured-recce-unit"
      ],
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -237,32 +254,38 @@
     {
      "count": 3,
      "unit": "infantry-brigade",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 3,
      "unit": "artillery-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "anti-tank-regiment",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "anti-tank-unit",
-     "sp": null
+     "sp": null,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "machinegun-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "engineer-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
@@ -270,7 +293,8 @@
       "armoured-car-unit",
       "armoured-recce-unit"
      ],
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -291,7 +315,8 @@
     {
      "count": 3,
      "unit": "tank-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -304,26 +329,50 @@
    "parent": "armoured-brigade",
    "sp": 2,
    "type": "II",
-   "turns_list": [
-    {
-     "from": 19,
-     "to": 70
-    },
-    {
-     "from": 92,
-     "to": null
-    }
-   ],
+   "turns": {
+    "from": 19,
+    "to": 70
+   },
    "components": [
     {
      "count": 3,
      "unit": "tank-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
+    }
+   ],
+   "sources": [
+    "CNA1979:19.31",
+    "scan:p134"
+   ]
+  },
+  {
+   "nation": "cw",
+   "parent": "armoured-brigade",
+   "sp": 2,
+   "type": "II",
+   "turns": {
+    "from": 92,
+    "to": null
+   },
+   "components": [
+    {
+     "count": 3,
+     "unit": "tank-battalion",
+     "sp": 1,
+     "counts_for_shell": true
+    },
+    {
+     "count": 1,
+     "unit": "infantry-battalion",
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -344,17 +393,20 @@
     {
      "count": 3,
      "unit": "tank-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "artillery-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -375,17 +427,20 @@
     {
      "count": 2,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "artillery-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "anti-tank-regiment",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
@@ -393,7 +448,8 @@
       "armoured-car-unit",
       "armoured-recce-unit"
      ],
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -414,17 +470,20 @@
     {
      "count": 1,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "artillery-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "anti-tank-regiment",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -445,12 +504,14 @@
     {
      "count": 3,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "artillery-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -466,17 +527,20 @@
     {
      "count": 3,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "artillery-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "anti-tank-unit",
-     "sp": null
+     "sp": null,
+     "counts_for_shell": false
     },
     {
      "count": 1,
@@ -484,7 +548,8 @@
       "light-aa-unit",
       "machinegun-battalion"
      ],
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
@@ -492,12 +557,14 @@
       "armoured-car-unit",
       "armoured-recce-unit"
      ],
-     "sp": null
+     "sp": null,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "unit",
-     "sp": null
+     "sp": null,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -513,7 +580,8 @@
     {
      "count": 3,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -529,7 +597,8 @@
     {
      "count": 3,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
@@ -537,12 +606,14 @@
       "artillery-unit",
       "anti-tank-unit"
      ],
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "unit",
-     "sp": null
+     "sp": null,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -558,27 +629,32 @@
     {
      "count": 2,
      "unit": "tank-regiment",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 2,
      "unit": "infantry-regiment",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "armoured-car-regiment",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "anti-tank-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "artillery-regiment",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -598,7 +674,8 @@
     {
      "count": 2,
      "unit": "tank-regiment",
-     "sp": 3
+     "sp": 3,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -614,37 +691,44 @@
     {
      "count": 2,
      "unit": "infantry-regiment",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "bersaglieri-regiment",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "anti-tank-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "artillery-regiment",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "anti-aircraft-unit",
-     "sp": null
+     "sp": null,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "machinegun-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "engineer-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -660,27 +744,32 @@
     {
      "count": 2,
      "unit": "infantry-regiment",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "anti-aircraft-unit",
-     "sp": null
+     "sp": null,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "artillery-regiment",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "machinegun-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "engineer-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
@@ -688,7 +777,8 @@
       "bersaglieri-battalion",
       "bersaglieri-motorcycle-recce-company"
      ],
-     "sp": null
+     "sp": null,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -704,17 +794,20 @@
     {
      "count": 2,
      "unit": "infantry-regiment",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "anti-tank-company",
-     "sp": 0
+     "sp": 0,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "artillery-regiment",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -730,7 +823,8 @@
     {
      "count": 5,
      "unit": "tank-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -746,7 +840,8 @@
     {
      "count": 3,
      "unit": "tank-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -762,7 +857,8 @@
     {
      "count": 2,
      "unit": "bersaglieri-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
@@ -770,7 +866,8 @@
       "bersaglieri-motorcycle-battalion",
       "bersaglieri-battalion"
      ],
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -786,7 +883,8 @@
     {
      "count": 3,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -802,7 +900,8 @@
     {
      "count": 3,
      "unit": "cavalry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -818,7 +917,8 @@
     {
      "count": 2,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
@@ -826,22 +926,26 @@
       "infantry-battalion",
       "cavalry-battalion"
      ],
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "machinegun-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "motorised-machinegun-company",
-     "sp": 0
+     "sp": 0,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "artillery-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -857,22 +961,26 @@
     {
      "count": 1,
      "unit": "armoured-car-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "motorised-machinegun-company",
-     "sp": 0
+     "sp": 0,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "artillery-regiment",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "engineer-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -888,47 +996,56 @@
     {
      "count": 1,
      "unit": "armoured-regiment",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 2,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "tank-destroyer-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "anti-tank-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "artillery-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "heavy-aa-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "light-aa-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "armoured-recce-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "engineer-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -944,47 +1061,56 @@
     {
      "count": 1,
      "unit": "armoured-regiment",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "infantry-regiment",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "tank-destroyer-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "anti-tank-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 2,
      "unit": "artillery-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "heavy-aa-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "light-aa-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "armoured-recce-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "engineer-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -1000,32 +1126,38 @@
     {
      "count": 1,
      "unit": "armoured-regiment",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "15-infantry-brigade",
-     "sp": 3
+     "sp": 3,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "tank-destroyer-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "artillery-group",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "armoured-recce-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "engineer-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -1041,32 +1173,38 @@
     {
      "count": 2,
      "unit": "infantry-regiment",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 2,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "anti-tank-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "artillery-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "armoured-recce-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "engineer-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -1082,32 +1220,38 @@
     {
      "count": 3,
      "unit": "infantry-regiment",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "anti-tank-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "artillery-group",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "light-aa-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "armoured-recce-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     },
     {
      "count": 1,
      "unit": "engineer-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -1123,7 +1267,8 @@
     {
      "count": 2,
      "unit": "tank-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -1139,7 +1284,8 @@
     {
      "count": 3,
      "unit": "infantry-regiment",
-     "sp": 2
+     "sp": 2,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -1155,12 +1301,14 @@
     {
      "count": 4,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "heavy-weapons-parachute-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -1176,7 +1324,8 @@
     {
      "count": 3,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [
@@ -1192,17 +1341,20 @@
     {
      "count": 3,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "anti-tank-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "engineer-company",
-     "sp": 0
+     "sp": 0,
+     "counts_for_shell": false
     }
    ],
    "sources": [
@@ -1218,12 +1370,14 @@
     {
      "count": 2,
      "unit": "infantry-battalion",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     },
     {
      "count": 1,
      "unit": "artillery-unit",
-     "sp": 1
+     "sp": 1,
+     "counts_for_shell": true
     }
    ],
    "sources": [

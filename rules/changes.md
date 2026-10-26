@@ -31,6 +31,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Stacking, zones of control and reserve](./50-stacking-and-zoc.md)
 
+- [R-141](../rulings/R-141.md) — a division counts its 2 SP components, a brigade its 1 SP components
 - [R-138](../rulings/R-138.md) — a lone Rommel escapes first, then is captured
 - [R-118](../rulings/R-118.md) — the retreat is paid from the CP the unit has left; the rest is forfeited
 
@@ -353,6 +354,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-138](../rulings/R-138.md) | accepted | 31.0, 10.29, 8.51, 13.2 |
 | [R-139](../rulings/R-139.md) | accepted | 8.51, 8.53, 8.54 |
 | [R-140](../rulings/R-140.md) | accepted | 31.0, 10.29, 15.82 |
+| [R-141](../rulings/R-141.md) | accepted | 9.26, 9.27, 19.3 |
 
 ## Variants register
 

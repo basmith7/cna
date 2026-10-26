@@ -33,7 +33,7 @@ For developers: the same values are JSON in `data/tables/`; see the [data conven
 | [Demolition](/tables/demolition) | [Engineering](/rules/80-engineering) |
 | [Desert raider raids](/tables/desert-raider-raids) | [Special rules](/rules/90-special) |
 | [Destroyed tank repair](/tables/destroyed-tank-repair) | [Engineering](/rules/80-engineering) |
-| [Formation organisation](/tables/formation-organisation) | [Organisation](/rules/70-organisation) |
+| [Formation organisation](/tables/formation-organisation) | [Stacking, zones of control and reserve](/rules/50-stacking-and-zoc), [Organisation](/rules/70-organisation) |
 | [Foul weather location](/tables/foul-weather-location) | [Special rules](/rules/90-special) |
 | [Initiative ratings](/tables/initiative-ratings) | [Sequence of play](/rules/20-sequence-of-play) |
 | [Max attachments](/tables/max-attachments) | [Organisation](/rules/70-organisation) |

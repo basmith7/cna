@@ -580,3 +580,9 @@ Done: R-138 (lone Rommel in enemy ZOC: react/retreat first, then 10.29 captures)
 In flight: none.
 Next: re-read cna-engine Requests for cna; with nothing new, idle.
 Blocked: none.
+
+## 2026-10-26 12:37 MST — autopilot/req-shell-components
+Done: three cna-engine requests answered. R-139 8.53c pin = only a ZOC held before the mover arrived (#265, merged). R-140 Rommel retreats alone when an assault destroys his stack (#266, merged). R-141 counts_for_shell on every 19.3 component + CW armoured brigade II split into two rows, turns_list removed (#267).
+In flight: none once #267 merges.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #264-#267. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
