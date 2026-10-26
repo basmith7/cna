@@ -63,7 +63,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-10-26 18:40 UTC cna-engine's one open request (a lone Rommel in an enemy ZOC) is answered by R-138 (#264); nothing else is open.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-10-26 18:30 UTC cna-engine's one open request (a lone Rommel in an enemy ZOC) is answered by R-138 (#264); nothing else is open.
 
 For Brian (all optional):
 
