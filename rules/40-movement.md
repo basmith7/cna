@@ -229,6 +229,8 @@ wells, demolish, build or take any other action from the CP cost table
 
 ::: ruling R-008 — "in combat" in 8.53d means in contact
 
+::: ruling R-139 — only a ZOC the unit stood in before the mover arrived pins it
+
 A unit may *not* react when:
 
 - it is non-motorised or a squadron ground-support unit, whatever it is
@@ -238,8 +240,10 @@ A unit may *not* react when:
   phasing player declares a close assault against it (it may still retreat
   before assault — [Combat](60-combat.md)); each unit in a stack is judged on
   its own CPA;
-- it is already in an enemy ZOC — this is how faster units **pin** slower
-  ones; or
+- it was already in an enemy ZOC before the moving unit arrived, usually
+  because it could not react to an earlier, faster unit — this is how
+  faster units **pin** slower ones. The ZOC of the unit that has just moved
+  next to it does not count ([R-139](../rulings/R-139.md)); or
 - it is in contact or *engaged* (the "in combat" of the printed case is
   read as contact — [R-008](../rulings/R-008.md)).
 
