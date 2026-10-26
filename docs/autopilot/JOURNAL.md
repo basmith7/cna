@@ -544,3 +544,9 @@ Done: three cna-engine requests answered: OA `replaces`/`assigns` (21 Pz replace
 In flight: #261 until CI passes (merge if green and still open).
 Next: read cna-engine Requests for cna; answer only bullets not covered by #259-#261. If none, stop.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 07:45 MST — autopilot/req-between-hexes
+Done: cna-engine request "Rommel's Arrival corner-hex placements as hex lists" answered: R-136, "between" = land hexes on a shortest path, triangle = land hexes with centre inside; 61.41 divisions (29 hexes, `apart: 2`), 61.44 dumps (44), 61.31 Aus triangle (17), 62.41 Crusader Savona triangle (14); map_geom.distance (2bc7326, #262).
+In flight: #262 until CI passes (merge if green and still open).
+Next: read cna-engine Requests for cna; answer only bullets not covered by #259-#262. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
