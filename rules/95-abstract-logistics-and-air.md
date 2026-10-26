@@ -233,6 +233,8 @@ With the Air Game, drop 32.57 and 32.59: motorisation points can be strafed and 
 
 ::: spi 32.61 32.62 32.63 32.64 32.65
 
+::: ruling R-126 — a convoy no qualifying division can reach on the chart is not attacked
+
 ::: ruling R-127 — a 5 % convoy result is applied like 10 %
 
 An Axis convoy is the turn's supply units, motorisation points and
@@ -244,11 +246,13 @@ Commonwealth attacks each arriving convoy separately, whatever the weather:
 read down the lane's column of the Simple Axis Naval Convoy Bombing Chart to
 the westernmost qualifying Commonwealth division for the bomb points, then
 roll two dice sequentially on the Air Bombardment Table in that column for
-the percentage destroyed. A **5 %** or **10 %** result hits only motorisation
-(fractions down) and replacement points (fractions up)
-([R-127](../rulings/R-127.md)); **20 % or more** hits
-everything, fractions down, but always at least one point of each item and
-one supply unit. Tank and gun losses are a percentage of each nationality's
+the percentage destroyed. If no qualifying division has reached the lane's
+first threshold, the convoy is not attacked and arrives whole
+([R-126](../rulings/R-126.md)); the 1–20 column could not have hurt it.
+A **5 %** or **10 %** result hits only motorisation (fractions down) and
+replacement points (fractions up) ([R-127](../rulings/R-127.md));
+**20 % or more** hits everything, fractions down, but always at least one
+point of each item and one supply unit. Tank and gun losses are a percentage of each nationality's
 total, the Axis choosing the types.
 
 ::: note
