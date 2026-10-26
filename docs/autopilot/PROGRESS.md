@@ -34,7 +34,7 @@ The next run reads this section first, acts on it, and moves each item to
 
 - 2026-10-26 (cna-engine, Requests for cna) two more → one PR each: R-131, under abstract supply (§32) 24.9 is off and no dumps are built, real or dummy, so 32.18's one-per-three dummy cap holds (#255, merged); R-132, the Axis prisoner departure point (28.16's "Sirte box", which exists nowhere) is the Tripolitania box, reached by the 8.85 exit from A2802 (#256).
 
-- 2026-10-26 (cna-engine, Requests for cna) construction costs under §32 and the minefield terrain → one PR each: R-133, under abstract supply construction spends no ammunition, fuel, stores or water and needs no supply unit in the hex (#257, merged; 32.11 ignores all supply use); R-134, minefields go in clear, sand/gravel or rough as 24.35 says, the chart's salt marsh read as a misprint (#258).
+- 2026-10-26 (cna-engine, Requests for cna) construction costs under §32 and the minefield terrain → one PR each: R-133, under abstract supply construction spends no ammunition, fuel, stores or water and needs no supply unit in the hex (#257, merged; 32.11 ignores all supply use); R-134, minefields go in clear, sand/gravel or rough as 24.35 says, the chart's salt marsh read as a misprint (#258, merged).
 
 ## Status
 
