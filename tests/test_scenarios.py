@@ -160,3 +160,39 @@ def test_supply_figures_are_per_unit_unless_pooled():
             elif b["kind"] == "supply-unit" and not any("Depot" in n for n in b.get("notes", [])):
                 # 32.11: a supply unit holds at most 40 ammunition and 60 fuel, so each figure is one unit's load
                 assert b.get("ammo", 0) <= 40 and b.get("fuel", 0) <= 60, (p.name, b)
+
+
+def test_rommels_arrival_road_placements_follow_the_coast_road():
+    """61.44 C/D: the listed hexes are exactly the road from El Agheila to Nofilia on the map."""
+    sides = json.loads((ROOT / "data" / "map" / "hexsides.json").read_text())["hexsides"]
+    road: dict[str, set[str]] = {}
+    for s in sides:
+        if "road" in s["features"] and s["b"]:
+            road.setdefault(s["a"], set()).add(s["b"])
+            road.setdefault(s["b"], set()).add(s["a"])
+    prev, queue = {"A1816": None}, ["A1816"]
+    for h in queue:
+        for n in sorted(road.get(h, ())):
+            if n not in prev:
+                prev[n] = h
+                queue.append(n)
+    path, h = [], "A2703"
+    while h:
+        path.append(h)
+        h = prev[h]
+    assert "A1616" not in path  # the Maaten Groter spur
+    listed = []
+
+    def walk(x):
+        if isinstance(x, dict):
+            if "coast road" in x.get("constraint", ""):
+                listed.append(x["hexes"])
+            for v in x.values():
+                walk(v)
+        elif isinstance(x, list):
+            for v in x:
+                walk(v)
+    walk(load("rommels-arrival"))
+    assert len(listed) == 4
+    for hexes in listed:
+        assert hexes == path[::-1]

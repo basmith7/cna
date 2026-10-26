@@ -164,7 +164,8 @@ On top of [the general rules](00-reading-scenarios.md#abstractions)
   one for one. The Axis starts with 290 unattached motorisation points and
   the Commonwealth with 150 in Alexandria or Cairo and 90 elsewhere. Supply
   units replace the dumps: the Axis ones on the coast road between El
-  Agheila and Nofilia, the Commonwealth ones on the dump sites.
+  Agheila and Nofilia (its 20 hexes, listed in the data; not the spur to
+  Maaten Groter), the Commonwealth ones on the dump sites.
 - **Logistics Game left out, Air Game played:** as for the Land Game only,
   plus supply for the air facilities.
 

@@ -1231,9 +1231,27 @@
        "placement": {
         "hexes": [
          "A1816",
+         "A1716",
+         "A1715",
+         "A1714",
+         "A1813",
+         "A1913",
+         "A1912",
+         "A1911",
+         "A2010",
+         "A2110",
+         "A2109",
+         "A2208",
+         "A2308",
+         "A2307",
+         "A2406",
+         "A2405",
+         "A2505",
+         "A2604",
+         "A2704",
          "A2703"
         ],
-        "constraint": "any road hex from El Agheila (A1816) to Nofilia (A2703) inclusive, within stacking limits, but not on the road from A1716 to Maaten Groter (A1318)"
+        "constraint": "the coast road from El Agheila (A1816) to Nofilia (A2703) inclusive, listed in hexes; the road from A1716 to Maaten Groter (A1318) and the road south from A1816 are left out; within stacking limits"
        },
        "kind": "supply-unit",
        "count": 10,
@@ -1244,9 +1262,27 @@
        "placement": {
         "hexes": [
          "A1816",
+         "A1716",
+         "A1715",
+         "A1714",
+         "A1813",
+         "A1913",
+         "A1912",
+         "A1911",
+         "A2010",
+         "A2110",
+         "A2109",
+         "A2208",
+         "A2308",
+         "A2307",
+         "A2406",
+         "A2405",
+         "A2505",
+         "A2604",
+         "A2704",
          "A2703"
         ],
-        "constraint": "same road hexes as the regular units"
+        "constraint": "the coast road from El Agheila (A1816) to Nofilia (A2703) inclusive, listed in hexes; the road from A1716 to Maaten Groter (A1318) and the road south from A1816 are left out; within stacking limits"
        },
        "kind": "dummy-supply-unit",
        "count": 3
@@ -1383,9 +1419,27 @@
        "placement": {
         "hexes": [
          "A1816",
+         "A1716",
+         "A1715",
+         "A1714",
+         "A1813",
+         "A1913",
+         "A1912",
+         "A1911",
+         "A2010",
+         "A2110",
+         "A2109",
+         "A2208",
+         "A2308",
+         "A2307",
+         "A2406",
+         "A2405",
+         "A2505",
+         "A2604",
+         "A2704",
          "A2703"
         ],
-        "constraint": "any road hex from El Agheila (A1816) to Nofilia (A2703) inclusive, within stacking limits, but not on the road from A1716 to Maaten Groter (A1318)"
+        "constraint": "the coast road from El Agheila (A1816) to Nofilia (A2703) inclusive, listed in hexes; the road from A1716 to Maaten Groter (A1318) and the road south from A1816 are left out; within stacking limits"
        },
        "kind": "supply-unit",
        "count": 10,
@@ -1396,9 +1450,27 @@
        "placement": {
         "hexes": [
          "A1816",
+         "A1716",
+         "A1715",
+         "A1714",
+         "A1813",
+         "A1913",
+         "A1912",
+         "A1911",
+         "A2010",
+         "A2110",
+         "A2109",
+         "A2208",
+         "A2308",
+         "A2307",
+         "A2406",
+         "A2405",
+         "A2505",
+         "A2604",
+         "A2704",
          "A2703"
         ],
-        "constraint": "same road hexes as the regular units"
+        "constraint": "the coast road from El Agheila (A1816) to Nofilia (A2703) inclusive, listed in hexes; the road from A1716 to Maaten Groter (A1318) and the road south from A1816 are left out; within stacking limits"
        },
        "kind": "dummy-supply-unit",
        "count": 3
