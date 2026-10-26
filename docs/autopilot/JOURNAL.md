@@ -532,3 +532,9 @@ Done: idle check. Feedback empty, no open autopilot PRs; cna-engine's six Reques
 In flight: none.
 Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#258. If none, stop.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 04:25 MST — main
+Done: idle check. Feedback empty, no open autopilot PRs; cna-engine's Requests for cna now reads "None open" (vendor/cna bumped to 818fbf6 in cna-engine #51).
+In flight: none.
+Next: read cna-engine Requests for cna and Feedback; if both empty, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
