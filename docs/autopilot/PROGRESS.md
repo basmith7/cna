@@ -294,3 +294,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-25 18:23 | 0 | 29→29 | 10→10 | $0.26 | 3 | Nothing to do this run, so I stopped. There's no Feedback, no open autopilot PRs, and cna-engine's *Requests for cna* list now says "None open" (its `vendor/cna |
 | 2026-10-25 19:23 | 30 | 29→30 | 13→17 | $8.91 | 163 | I answered all three requests from cna-engine and merged everything. I also found the Axis air reinforcement chart that we had recorded as missing from both sca |
 | 2026-10-25 20:23 | 0 | 30→30 | 18→18 | $0.39 | 4 | Nothing to do this run. Feedback is empty and no autopilot PRs are open. cna-engine still lists three requests: convoy lanes with 32.66, surrender with HQs in t |
+| 2026-10-25 21:23 | 0 | 31→31 | 0→0 | $0.34 | 5 | Nothing to do this run, so I stopped. - **Feedback:** the section is empty. - **Open autopilot PRs:** none. - **cna-engine requests:** it still lists three (con |
