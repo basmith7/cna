@@ -300,3 +300,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-25 15:23 | 0 | 27→27 | 9→9 | $0.31 | 5 | This run did nothing, because nothing was asked for. The Feedback section is empty, no autopilot PRs are open, and cna-engine's *Requests for cna* list hasn't c |
 | 2026-10-25 16:23 | 0 | 27→27 | 0→0 | $0.37 | 6 | I did no work this run because nothing was asked for. Feedback is empty, there are no open autopilot PRs, and cna-engine's `PROGRESS.md` hasn't changed since th |
 | 2026-10-25 17:23 | 0 | 29→29 | 7→7 | $0.29 | 5 | Idle run with nothing to do. The rulebook is finished, so the standing orders say to work only on cna-engine's requests and your Feedback, and stop when there a |
+| 2026-10-25 18:23 | 0 | 29→29 | 10→10 | $0.26 | 3 | Nothing to do this run, so I stopped. There's no Feedback, no open autopilot PRs, and cna-engine's *Requests for cna* list now says "None open" (its `vendor/cna |
