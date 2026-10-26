@@ -117,13 +117,15 @@ infantry, gun and armoured-car replacement points.
 
 ::: spi 47.64 47.65
 
+::: ruling R-127 — a 5 % convoy result is applied like 10 %
+
 Convoys are attacked under the Air Game's convoy bombing rules (41.6), not
 §32's bombing chart. The
 result is applied as follows:
 
 | Result | Effect |
 |---|---|
-| 10 % | motorisation points (fractions down) and replacement points (fractions up) only |
+| 5 % or 10 % | motorisation points (fractions down) and replacement points (fractions up) only ([R-127](../../rulings/R-127.md)) |
 | 20 % | every item except depots, fractions down; whatever the arithmetic, at least one regular supply unit and a single point of every replacement class are lost |
 | 30 % or more | as 20 %, and at least one supply unit of either kind, counting all supply units together |
 

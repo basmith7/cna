@@ -101,6 +101,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-124](./R-124.md) | Abstract supply: which HQs the air lift reads | accepted | 32.37, 9.22, 9.26, 19.73 |
 | [R-125](./R-125.md) | Breakdown: which reconnaissance units are armoured cars | accepted | 21.11, 21.13, 21.14, 20.51, 20.52, 8.91 |
 | [R-126](./R-126.md) | Simplified convoys: no qualifying division far enough west | accepted | 32.63, 32.64, 32.66 |
+| [R-127](./R-127.md) | Abstract convoy attacks: what a 5 % result destroys | accepted | 32.64, 32.65, 47.65, 58.1 |
 
 ## Variants
 
