@@ -103,6 +103,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-126](./R-126.md) | Simplified convoys: no qualifying division far enough west | accepted | 32.63, 32.64, 32.66 |
 | [R-127](./R-127.md) | Abstract convoy attacks: what a 5 % result destroys | accepted | 32.64, 32.65, 47.65, 58.1 |
 | [R-128](./R-128.md) | Dummy supply units: counted after convoy bombing | accepted | 32.18, 32.41, 32.64 |
+| [R-129](./R-129.md) | Abstract supply: surrender of a hex whose only armed defenders owe no ammunition | accepted | 32.21, 15.15, 17.25 |
 
 ## Variants
 

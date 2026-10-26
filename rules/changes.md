@@ -98,6 +98,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 - [R-121](../rulings/R-121.md) — a company-equivalent pays half a battalion-equivalent's ammunition, rounded up per side and combat
 - [R-120](../rulings/R-120.md) — a unit that cannot pay its fuel does not move by land; one that cannot pay its ammunition is out of ammunition
+- [R-129](../rulings/R-129.md) — a hex surrenders when every defender that owes ammunition is out; HQs do not hold it
 - [R-124](../rulings/R-124.md) — air lift: division and brigade-equivalent HQs are destinations; the row limit is the farthest division HQ counter
 - [R-123](../rulings/R-123.md) — one motorisation point per TOE strength point of any kind; a unit short of points is not motorised
 - [R-126](../rulings/R-126.md) — a convoy no qualifying division can reach on the chart is not attacked
@@ -326,6 +327,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-126](../rulings/R-126.md) | accepted | 32.63, 32.64, 32.66 |
 | [R-127](../rulings/R-127.md) | accepted | 32.64, 32.65, 47.65, 58.1 |
 | [R-128](../rulings/R-128.md) | accepted | 32.18, 32.41, 32.64 |
+| [R-129](../rulings/R-129.md) | accepted | 32.21, 15.15, 17.25 |
 
 ## Variants register
 

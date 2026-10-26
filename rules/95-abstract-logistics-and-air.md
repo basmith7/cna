@@ -103,6 +103,8 @@ sheets. The fleet and patrolling points need nothing.
 
 ::: ruling R-120 — a unit that cannot pay its fuel does not move by land; one that cannot pay its ammunition is out of ammunition
 
+::: ruling R-129 — a hex surrenders when every defender that owes ammunition is out; HQs do not hold it
+
 A unit that **cannot pay** from a supply unit in range is stopped, not
 excused ([R-120](../rulings/R-120.md)):
 
@@ -112,6 +114,9 @@ excused ([R-120](../rulings/R-120.md)):
 - **No ammunition:** the unit is out of ammunition for that combat. It
   cannot barrage, assault or defend, and a hex whose every defender is out
   of ammunition surrenders when assaulted ([combat](60-combat.md)).
+  Defenders that owe no ammunition, such as HQs, do not hold the hex: it
+  surrenders, with them, when at least one defender owes ammunition and
+  every one that does is out ([R-129](../rulings/R-129.md)).
 
 ::: note
 In the Logistics Game this is replaced by [Ammunition and stores](logistics/20-ammunition-and-stores.md#consumption-rates).
