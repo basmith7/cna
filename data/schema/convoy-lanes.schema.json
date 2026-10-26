@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "convoy-lanes.schema.json",
+  "title": "Axis shipping lanes and the Axis Naval Convoy Air Distance Chart (SPI 56.1)",
+  "type": "object",
+  "required": ["table", "sources", "rally_points", "lanes"],
+  "additionalProperties": false,
+  "$defs": {"distance": {"type": ["integer", "null"], "minimum": 0}},
+  "properties": {
+    "table": {"const": "convoy-lanes"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "rally_points": {
+      "type": "array", "minItems": 7, "maxItems": 7,
+      "description": "The chart's distance columns, in printed order",
+      "items": {
+        "type": "object",
+        "required": ["id", "kind"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string"},
+          "kind": {"enum": ["box", "malta", "place"], "description": "box: planes in that off-map box; malta: planes in any Malta hex; place: a map place (data/map/places.json), the North African rally point"},
+          "hex": {"$ref": "common.schema.json#/$defs/hexId"}
+        }
+      }
+    },
+    "lanes": {
+      "type": "array", "minItems": 6, "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": ["lane", "name", "origin", "destination", "first_game_turn", "activation_roll", "distances", "sources"],
+        "additionalProperties": false,
+        "properties": {
+          "lane": {"type": "integer", "minimum": 1, "maximum": 6, "description": "The chart's Nr.; also the Convoy Route column of axis-convoy-bombing.json"},
+          "name": {"type": "string", "description": "As printed"},
+          "origin": {"enum": ["west-sicily", "italy", "greece"], "description": "Off-map; convoys are never attacked at the origin"},
+          "destination": {
+            "type": "object",
+            "required": ["port"],
+            "additionalProperties": false,
+            "properties": {
+              "port": {"type": "string", "description": "Row id in port-capacity.json"},
+              "box": {"enum": ["tripoli", "tunisia"], "description": "Off-map box holding the port"},
+              "hex": {"$ref": "common.schema.json#/$defs/hexId"}
+            },
+            "oneOf": [{"required": ["box"]}, {"required": ["hex"]}]
+          },
+          "first_game_turn": {"type": ["integer", "null"], "minimum": 1, "description": "First Game-Turn a convoy may sail this lane; null if open from the start"},
+          "activation_roll": {"type": "boolean", "description": "True if the lane also waits for its destination port's activation roll (55.17, Bizerta)"},
+          "distances": {
+            "type": "object",
+            "description": "Hexes from each rally point to the lane; null where the chart prints a dash (out of reach)",
+            "required": ["sicily", "italy", "crete", "malta", "benghazi", "derna", "tobruk"],
+            "additionalProperties": false,
+            "properties": {"sicily": {"$ref": "#/$defs/distance"}, "italy": {"$ref": "#/$defs/distance"}, "crete": {"$ref": "#/$defs/distance"}, "malta": {"$ref": "#/$defs/distance"}, "benghazi": {"$ref": "#/$defs/distance"}, "derna": {"$ref": "#/$defs/distance"}, "tobruk": {"$ref": "#/$defs/distance"}}
+          },
+          "sources": {"$ref": "common.schema.json#/$defs/sources"}
+        }
+      }
+    }
+  }
+}

@@ -95,6 +95,10 @@
   "title": "Construction",
   "group": "Land Game"
  },
+ "convoy-lanes": {
+  "title": "Convoy lanes",
+  "group": "Land Game"
+ },
  "convoy-reconnaissance": {
   "title": "Convoy reconnaissance",
   "group": "Air Game"
