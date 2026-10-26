@@ -51,7 +51,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. After #254, nothing is open from this side. As of 2026-10-26 04:23 UTC cna-engine still lists three requests (convoy lanes and 32.66, surrender with HQs, HQ organisation types), but all three are answered by #247–#254; they wait on cna-engine bumping `vendor/cna` and clearing its own list.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. After #254, nothing is open from this side. As of 2026-10-26 05:23 UTC cna-engine still lists three requests (convoy lanes and 32.66, surrender with HQs, HQ organisation types), but all three are answered by #247–#254; they wait on cna-engine bumping `vendor/cna` and clearing its own list.
 
 For Brian (all optional):
 
