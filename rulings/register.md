@@ -114,6 +114,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-137](./R-137.md) | Rommel's +5 CPA: which units, and what parting costs | accepted | 31.0, 6.21, 8.17 |
 | [R-138](./R-138.md) | A lone Rommel in an enemy ZOC | accepted | 31.0, 10.29, 8.51, 13.2 |
 | [R-139](./R-139.md) | Whose ZOC pins in 8.53c | accepted | 8.51, 8.53, 8.54 |
+| [R-140](./R-140.md) | Rommel when an assault destroys his stack | accepted | 31.0, 10.29, 15.82 |
 
 ## Variants
 
