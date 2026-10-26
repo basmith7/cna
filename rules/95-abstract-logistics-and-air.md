@@ -71,6 +71,12 @@ a running total over the game, moved like real ones (needing fewer
 motorisation points), removed when found. An Axis unit counts only when its
 convoy arrives; one sunk by bombing never counts ([R-128](../rulings/R-128.md)).
 
+::: ruling R-131 — under abstract supply (§32) no supply dumps are built, real or dummy
+
+No supply dump or dummy dump is built under these rules (SPI 24.9 is off):
+supply units come only as [received](#receiving-supply-units), and dummies only
+from this one-per-three allowance ([R-131](../rulings/R-131.md)).
+
 ## Supply expenditure
 
 ::: spi 32.21 32.22 32.23 32.24 32.25

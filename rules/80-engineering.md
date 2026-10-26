@@ -340,6 +340,13 @@ only. These are the Construction Chart's and CP summary's figures, which
 govern over the 24.9 text (ruling [R-018](../rulings/R-018.md)). Supplies may lie in a hex without a dump, tracked by the owner and
 capped by the Logistics Game, but convoy trucks cannot load from such a hex.
 
+::: ruling R-131 — under abstract supply (§32) no supply dumps are built, real or dummy
+
+When the Land Game is played without the Logistics Game, none of this
+applies: supplies exist only as [supply units](95-abstract-logistics-and-air.md#supply-units),
+which arrive by schedule, and dummies only within their one-per-three
+allowance ([R-131](../rulings/R-131.md)).
+
 ## Fortifications {#fortifications}
 
 ::: spi 25.0 25.11 25.12 25.13 25.14 25.15 25.16
