@@ -526,3 +526,9 @@ Done: cna-engine request "construction costs under §32, and the minefield terra
 In flight: #258 until CI passes (merge if green and still open).
 Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#258. If none, stop.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 03:25 MST — main
+Done: idle check. Feedback empty, no open autopilot PRs; cna-engine's six Requests bullets are all answered by #247-#258 (it has not yet bumped vendor/cna or cleared its list).
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#258. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
