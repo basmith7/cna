@@ -208,6 +208,12 @@ may ever voluntarily enter an *unoccupied* enemy-controlled hex, and one that
 is alone in an enemy ZOC during the enemy movement/combat phase with no
 strength of any kind is **captured**.
 
+::: ruling R-138 — a lone Rommel escapes first, then is captured
+
+Rommel is such a unit, but alone in an enemy ZOC he may first react or
+retreat before assault ([Rommel](90-special.md#rommel),
+[R-138](../rulings/R-138.md)).
+
 ### ZOC combat requirement (holding off)
 
 ::: spi 10.31 10.32

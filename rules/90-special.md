@@ -556,6 +556,18 @@ been spared (one per CP spent past its own CPA, at most five). The 8.17 cap
 on non-motorised units stays at 150 % of the printed CPA
 ([R-137](../rulings/R-137.md)).
 
+::: ruling R-138 — a lone Rommel in an enemy ZOC escapes first, then is captured
+
+Alone in an enemy ZOC, Rommel gets his escape before 10.29 applies: when an
+enemy combat unit moves next to him he may react, and when his hex is
+assaulted he may retreat before assault. Still alone in an enemy ZOC after
+that chance (or at the start of an enemy movement/combat phase), he is
+**captured** and removed for good, with no prisoner points. On ordinary
+movement and reaction he keeps the non-combat unit's ZOC limits: he never
+enters an unoccupied enemy-controlled hex and pays break-off to leave one;
+only his retreats pass through enemy ZOC free
+([R-138](../rulings/R-138.md)).
+
 ::: ruling R-135 — Rommel: his own counter, and where he starts
 
 Rommel is a piece of his own, not the Deutsches Afrika Korps HQ (whose
