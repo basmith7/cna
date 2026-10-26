@@ -57,7 +57,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-10-26 12:40 UTC cna-engine's three open requests (5th Light → 21st Panzer, Rommel, road hexes) are answered by #259–#261; it has not yet cleared its list.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-10-26 13:25 UTC cna-engine's three open requests (5th Light → 21st Panzer, Rommel, road hexes) are answered by #259–#261; it has not yet cleared its list.
 
 For Brian (all optional):
 
