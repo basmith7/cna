@@ -219,3 +219,15 @@ def test_oa_parent_and_duplicate_ids(tmp_path):
     errs = check_data.validate_all(d)
     for needle in ("duplicate unit unit:it:a", "parent unit:it:zz", "unit:de:b is not it"):
         assert any(needle in e for e in errs), needle
+
+
+def test_oa_replaces_and_assigns_name_known_units(tmp_path):
+    oa = {"nation": "it", "sources": ["CNA1979:60.31"], "formations": [{
+        "id": "demo", "name": "Demo", "basic_morale": 0, "sources": ["CNA1979:60.31"], "units": [
+            {"id": "unit:it:new", "name": "N", "abbreviation": "N", "id_code": "a", "parent": None, "toe": [],
+             "arrives": None, "replaces": "unit:it:gone", "assigns": ["unit:it:lost"]},
+            {"id": "unit:it:orphan", "name": "O", "abbreviation": "O", "id_code": "a", "parent": None, "toe": [],
+             "arrives": None, "assigns": ["unit:it:new"]}]}]}
+    errs = check_data.validate_all(_scenario_data(tmp_path, {}, oa=oa))
+    for needle in ("unknown unit unit:it:gone", "unknown unit unit:it:lost", "orphan: assigns without replaces"):
+        assert any(needle in e for e in errs), needle

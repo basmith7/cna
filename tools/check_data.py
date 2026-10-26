@@ -130,6 +130,7 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
     case_refs = {f"CNA1979:{k}" for k in known}
     units: dict[str, str] = {}
     parents: list[tuple[str, str, str]] = []
+    others: list[tuple[str, str, str]] = []
     formations: set[str] = set()
     by_unit = {(r["nation"], r["id_code"]) for r in (tables.get("unit-characteristics") or {"rows": []})["rows"]
                if r.get("equivalent") == "by-unit"}
@@ -159,9 +160,16 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
                                   "unit-characteristics row says by-unit")
                 if u["parent"]:
                     parents.append((label, u["id"], u["parent"]))
+                if "assigns" in u and "replaces" not in u:
+                    errors.append(f"{label}: {u['id']}: assigns without replaces")
+                for ref in ([u["replaces"]] if "replaces" in u else []) + u.get("assigns", []):
+                    others.append((label, u["id"], ref))
     for label, uid, parent in parents:
         if parent not in units:
             errors.append(f"{label}: {uid}: unknown parent {parent}")
+    for label, uid, ref in others:
+        if ref not in units:
+            errors.append(f"{label}: {uid}: replaces or assigns unknown unit {ref}")
 
     hexes: set[str] = set()
     places: set[str] = set()

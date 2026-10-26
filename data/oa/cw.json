@@ -185,7 +185,8 @@
      "notes": [
       "replaces the 7th Support Group HQ (sheet note c)"
      ],
-     "toe_mark": "N"
+     "toe_mark": "N",
+     "replaces": "unit:cw:7-spt-hq"
     },
     {
      "id": "unit:cw:1-krrc",
@@ -4008,7 +4009,8 @@
      "notes": [
       "c: on 1 Oct 1941 the 3rd Armored Brigade became the 32nd Army Tank Brigade; replace the 3rd Armored Brigade counter with this one",
       "TOE cell printed as a dash"
-     ]
+     ],
+     "replaces": "unit:cw:3-armd-bde-hq"
     },
     {
      "id": "unit:cw:5-rtr",

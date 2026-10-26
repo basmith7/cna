@@ -48,6 +48,8 @@
                 "parent": {"oneOf": [{"$ref": "common.schema.json#/$defs/unitId"}, {"type": "null"}], "description": "The unit it is assigned to on the sheet; null for the formation's top unit or an unassigned unit"},
                 "toe": {"$ref": "common.schema.json#/$defs/toe"},
                 "arrives": {"oneOf": [{"$ref": "common.schema.json#/$defs/gameTime"}, {"const": "deployed"}, {"type": "null"}], "description": "Printed arrival (the sheet prints OpStage/Game-Turn); deployed = D, placed before play begins; null where the sheet prints none"},
+                "replaces": {"$ref": "common.schema.json#/$defs/unitId", "description": "A historical reorganisation the sheet prints as one counter replacing another: at this counter's arrives (or, where that is null, when an assigns brings its parent under the replaced counter's top HQ) the replaced counter leaves play and this one takes its hex, TOE points, assigned and attached units (rules/70-organisation.md, replacement counters). A scenario that places this counter (R-096) starts with the replacement made"},
+                "assigns": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/unitId"}, "description": "With replaces: units from other sheets that become assigned to this counter when the replacement is made, with the units under them"},
                 "morale": {"type": "integer", "description": "Only where the sheet gives this unit a morale other than the formation's"},
                 "notes": {"type": "array", "items": {"type": "string"}}
               }

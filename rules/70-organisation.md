@@ -60,6 +60,18 @@ An assigned unit occupies its slot in the parent's structure wherever it is.
 - **Historical shifts.** Where the O/A Chart notes a historical change of
   parent (a regiment moving from one panzer division to another), the owner
   may make it in the month named, or never.
+- **Replacement counters.** Where the O/A Chart says one counter replaces
+  another (the 5th Light Panzer Division's HQ becoming the 21st Panzer's at
+  2/58, the 7th Support Group becoming the 7th Motor Brigade, the 3rd
+  Armoured Brigade becoming the 32nd Army Tank Brigade), the change is not
+  optional: when the new counter arrives the old one leaves play and the new
+  one takes its hex, TOE points and every unit assigned or attached to it.
+  The 21st Panzer also takes the 104th Rifle Regiment (from the 15th Panzer)
+  and the 155th Artillery Regiment as assigned units, and the I/75 Artillery
+  Battalion is swapped for the II/155 at the same moment. A scenario that
+  sets up the new counter starts with the change made
+  ([R-096](../rulings/R-096.md)). In `data/oa/` the new counter names the old
+  one in `replaces` and the units it gains in `assigns`.
 - **Commonwealth armour.** The assignment limits of Commonwealth armoured
   divisions and brigades change three times; the owner may fill slots that
   open and must unassign units that a tighter limit excludes.
