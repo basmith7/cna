@@ -77,6 +77,12 @@ No supply dump or dummy dump is built under these rules (SPI 24.9 is off):
 supply units come only as [received](#receiving-supply-units), and dummies only
 from this one-per-three allowance ([R-131](../rulings/R-131.md)).
 
+::: ruling R-133 — under abstract supply (§32) construction spends no supplies
+
+Construction (§24) spends no ammunition, fuel, stores or water from a
+supply unit and needs none in the hex; builders, stages, weather and
+terrain are as usual ([R-133](../rulings/R-133.md)).
+
 ## Supply expenditure
 
 ::: spi 32.21 32.22 32.23 32.24 32.25
