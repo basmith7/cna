@@ -99,6 +99,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-120](../rulings/R-120.md) — a unit that cannot pay its fuel does not move by land; one that cannot pay its ammunition is out of ammunition
 - [R-124](../rulings/R-124.md) — air lift: division and brigade-equivalent HQs are destinations; the row limit is the farthest division HQ counter
 - [R-123](../rulings/R-123.md) — one motorisation point per TOE strength point of any kind; a unit short of points is not motorised
+- [R-127](../rulings/R-127.md) — a 5 % convoy result is applied like 10 %
 
 ## [Air Game — aircraft and squadrons](./air/10-aircraft-and-sgsus.md)
 
@@ -119,6 +120,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Air Game — abstract logistics with the Air Game](./air/90-abstract-logistics.md)
 
+- [R-127](../rulings/R-127.md) — a 5 % convoy result is applied like 10 %
 - [R-114](../rulings/R-114.md) — anti-air units with the Air Game and abstract logistics
 
 ## [Logistics Game — overview and sequence of play](./logistics/00-overview-and-sequence.md)
@@ -182,6 +184,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-032](../rulings/R-032.md) — the abstract convoy attack is made in the convoy bombing segment
 - [R-093](../rulings/R-093.md) — trucks stand in for motorisation points, supplies for supply units
+- [R-127](../rulings/R-127.md) — a 5 % convoy result is applied like 10 %
 - [R-032](../rulings/R-032.md) — fleet strikes are plotted and resolved in the Commonwealth fleet phase
 - [R-090](../rulings/R-090.md) — only convoy fuel from Europe is cut; the loss is rounded up
 - [R-091](../rulings/R-091.md) — the set-up loses 10 % of its Truck Points, rounded up, in proportion by type
@@ -318,6 +321,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-123](../rulings/R-123.md) | accepted | 32.51, 32.53, 32.54, 6.17, 8.91, 8.95, 54.2 |
 | [R-124](../rulings/R-124.md) | accepted | 32.37, 9.22, 9.26, 19.73 |
 | [R-125](../rulings/R-125.md) | accepted | 21.11, 21.13, 21.14, 20.51, 20.52, 8.91 |
+| [R-127](../rulings/R-127.md) | accepted | 32.64, 32.65, 47.65, 58.1 |
 
 ## Variants register
 
