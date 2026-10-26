@@ -514,3 +514,9 @@ Done: two more cna-engine requests arrived mid-run: R-129 (HQs do not keep an ou
 In flight: #254 until CI passes (merge if green and still open).
 Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#254. If none, stop.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-25 23:40 MST — autopilot/req-sirte-box
+Done: two new cna-engine requests answered: R-131, no dumps under §32 (24.9 off; #255 merged); R-132, Axis prisoner departure point is the Tripolitania box (#256).
+In flight: #256 until CI passes (merge if green and still open).
+Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#256. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
