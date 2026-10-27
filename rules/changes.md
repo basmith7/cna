@@ -65,6 +65,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-014** — 20.66 note: M 11/39, not 13/39
 - **E-015** — 20.72: plan one month ahead, not two, and read the table for the arrival month
 - **E-016** — 20.83: the reference to 20.75 is void; the strength requirement is 20.82's
+- [R-142](../rulings/R-142.md) — a counter fills the slots of its own kind and size
 - [R-130](../rulings/R-130.md) — parents the attachment chart does not name use the nearest row by size and type
 - [R-100](../rulings/R-100.md) — the schedule and an OA sheet sometimes give different arrivals
 
@@ -355,6 +356,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-139](../rulings/R-139.md) | accepted | 8.51, 8.53, 8.54 |
 | [R-140](../rulings/R-140.md) | accepted | 31.0, 10.29, 15.82 |
 | [R-141](../rulings/R-141.md) | accepted | 9.26, 9.27, 19.3 |
+| [R-142](../rulings/R-142.md) | accepted | 9.26, 19.2, 19.3 |
 
 ## Variants register
 
