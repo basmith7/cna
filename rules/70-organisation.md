@@ -97,6 +97,21 @@ Each component also says whether it counts when the parent is judged a
 shell ([R-141](../rulings/R-141.md)), and each row has one `turns` (a type
 that comes back in a later period is given twice).
 
+::: ruling R-142 — a counter fills the slots of its own kind and size
+
+Every counter in `data/oa/` says which chart slots it can fill: `fills`
+for those it fills alone, `fills_part` for those it fills only with others
+of its kind. A slot takes a counter of the kind its symbol names (from the
+counter's characteristics row) and the size printed beside it, so a
+company never fills a battalion slot. Three slots take several counters
+(`part_slots`): the German artillery group is an artillery regiment HQ
+with its units or any three 1 SP artillery counters; the Italian artillery
+regiment is a regiment counter or one to three battalions; the Italian
+anti-tank battalion is a battalion or one to three companies. Each counter
+fills one slot at a time. A counter the O/A sheet assigns beyond the chart
+stays assigned but fills no slot, so it never counts toward a shell
+([R-142](../rulings/R-142.md)).
+
 ::: spi 19.5
 
 ::: ruling R-130 — parents the attachment chart does not name use the nearest row by size and type

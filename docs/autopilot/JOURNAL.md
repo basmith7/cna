@@ -610,3 +610,9 @@ Done: idle. Feedback empty, no open PRs; cna-engine's Requests for cna now reads
 In flight: none.
 Next: read cna-engine Requests for cna and Feedback. If both empty, stop.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 19:36 MST — autopilot/req-slot-fills
+Done: cna-engine request "which 19.3 slot each counter fills" → R-142 (#268): `fills`/`fills_part` on every OA counter, `part_slots` in formation-organisation.json, tank-group slots now tank-regiment-3sp. Commits 1966f66, f1c90b5 + docs.
+In flight: #268 awaiting CI, then merge.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #268. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").

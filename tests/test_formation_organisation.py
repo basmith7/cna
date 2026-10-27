@@ -55,7 +55,7 @@ def test_cw_rows():
 def test_it_rows():
     t, by = _t()
     assert sum(r["nation"] == "it" for r in t["rows"]) == 12
-    assert _row(by, "it", "tank-group", None)["turns"] == {"from": 1, "to": 26} and _row(by, "it", "tank-group", None)["components"] == [{"count": 2, "unit": "tank-regiment", "sp": 3}]
+    assert _row(by, "it", "tank-group", None)["turns"] == {"from": 1, "to": 26} and _row(by, "it", "tank-group", None)["components"] == [{"count": 2, "unit": "tank-regiment-3sp", "sp": 3}]
     assert _row(by, "it", "tank-regiment-3sp", None)["components"] == [{"count": 5, "unit": "tank-battalion", "sp": 1}]
     assert _row(by, "it", "libyan-or-parachute-infantry-division", None)["components"][1] == {"count": 1, "unit": "anti-tank-company", "sp": 0}
     assert _row(by, "it", "recam", None)["components"][0] == {"count": 1, "unit": "armoured-car-battalion", "sp": 1}
