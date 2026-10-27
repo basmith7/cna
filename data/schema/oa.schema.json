@@ -32,7 +32,7 @@
             "minItems": 1,
             "items": {
               "type": "object",
-              "required": ["id", "name", "abbreviation", "id_code", "parent", "toe", "arrives"],
+              "required": ["id", "name", "abbreviation", "id_code", "parent", "fills", "toe", "arrives"],
               "additionalProperties": false,
               "properties": {
                 "id": {"$ref": "common.schema.json#/$defs/unitId"},
@@ -46,6 +46,8 @@
                 "equivalent": {"enum": ["battalion", "company"], "description": "Stacking equivalent (SPI 9.22-9.24), given only where the unit's unit-characteristics row says by-unit"},
                 "toe_mark": {"type": "string", "pattern": "^(N|[UO]@[0-9]+)$", "description": "Printed instead of a TOE: N = the maximum TOE for its ID code; U@n / O@n = under / over strength at n points"},
                 "parent": {"oneOf": [{"$ref": "common.schema.json#/$defs/unitId"}, {"type": "null"}], "description": "The unit it is assigned to on the sheet; null for the formation's top unit or an unassigned unit"},
+                "fills": {"type": "array", "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}, "uniqueItems": true, "description": "The units slugs of tables/formation-organisation.json (this nation's rows) that this counter can fill on its own, one slot at a time (R-142); an HQ fills the slot of its own organisation. Empty where it fills none (companies outside the chart, battle groups, the corps, Rommel)"},
+                "fills_part": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}, "uniqueItems": true, "description": "Slots it fills only together with others of its kind, sized by part_slots in tables/formation-organisation.json (R-142)"},
                 "toe": {"$ref": "common.schema.json#/$defs/toe"},
                 "arrives": {"oneOf": [{"$ref": "common.schema.json#/$defs/gameTime"}, {"const": "deployed"}, {"type": "null"}], "description": "Printed arrival (the sheet prints OpStage/Game-Turn); deployed = D, placed before play begins; null where the sheet prints none"},
                 "replaces": {"$ref": "common.schema.json#/$defs/unitId", "description": "A historical reorganisation the sheet prints as one counter replacing another: at this counter's arrives (or, where that is null, when an assigns brings its parent under the replaced counter's top HQ) the replaced counter leaves play and this one takes its hex, TOE points, assigned and attached units (rules/70-organisation.md, replacement counters). A scenario that places this counter (R-096) starts with the replacement made"},

@@ -44,6 +44,9 @@
      ],
      "organisation": "armoured-division",
      "parent": null,
+     "fills": [
+      "armoured-division"
+     ],
      "toe": [
       {
        "weapon": "Mark VI Light",
@@ -64,6 +67,9 @@
      ],
      "organisation": "armoured-brigade",
      "parent": "unit:cw:7th-armored-div-hq",
+     "fills": [
+      "armoured-brigade"
+     ],
      "toe": [
       {
        "weapon": "Mark VI Light",
@@ -78,6 +84,9 @@
      "abbreviation": "6 RTR",
      "id_code": "g",
      "parent": "unit:cw:4th-armored-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Mark VI Lights",
@@ -92,6 +101,9 @@
      "abbreviation": "7 Hus",
      "id_code": "g",
      "parent": "unit:cw:4th-armored-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Mark VI Lights",
@@ -112,6 +124,9 @@
      ],
      "organisation": "armoured-brigade",
      "parent": "unit:cw:7th-armored-div-hq",
+     "fills": [
+      "armoured-brigade"
+     ],
      "toe": [
       {
        "weapon": "A9",
@@ -126,6 +141,9 @@
      "abbreviation": "1 RTR",
      "id_code": "g",
      "parent": "unit:cw:7th-armored-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "A9",
@@ -143,6 +161,9 @@
      "abbreviation": "8 Hus",
      "id_code": "g",
      "parent": "unit:cw:7th-armored-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "A10",
@@ -162,6 +183,9 @@
      ],
      "organisation": "support-group",
      "parent": "unit:cw:7th-armored-div-hq",
+     "fills": [
+      "support-group"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -177,6 +201,9 @@
      ],
      "organisation": "support-group",
      "parent": "unit:cw:7th-armored-div-hq",
+     "fills": [
+      "support-group"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 68,
@@ -194,6 +221,10 @@
      "abbreviation": "1 KRRC",
      "id_code": "n",
      "parent": "unit:cw:7-spt-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -204,6 +235,10 @@
      "abbreviation": "2 RflBde",
      "id_code": "n",
      "parent": "unit:cw:7-spt-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -214,6 +249,11 @@
      "abbreviation": "3 RHA",
      "id_code": "aa",
      "parent": "unit:cw:7-spt-hq",
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounders",
@@ -228,6 +268,10 @@
      "abbreviation": "4 RHA",
      "id_code": "x",
      "parent": "unit:cw:7-spt-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "18/25-pounders",
@@ -243,6 +287,10 @@
      "id_code": "ll",
      "vehicle": "armoured-car",
      "parent": "unit:cw:7-spt-hq",
+     "fills": [
+      "armoured-car-unit",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "notes": [
@@ -275,6 +323,9 @@
      ],
      "organisation": "infantry-division",
      "parent": null,
+     "fills": [
+      "infantry-division"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -290,6 +341,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:4-in-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -300,6 +354,10 @@
      "abbreviation": "1 RFslr",
      "id_code": "p",
      "parent": "unit:cw:5-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -310,6 +368,10 @@
      "abbreviation": "3/1 Pjb",
      "id_code": "p",
      "parent": "unit:cw:5-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -320,6 +382,10 @@
      "abbreviation": "4/6 RajRf",
      "id_code": "p",
      "parent": "unit:cw:5-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -335,6 +401,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:4-in-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 5,
@@ -348,6 +417,10 @@
      "abbreviation": "1 RSsx",
      "id_code": "p",
      "parent": "unit:cw:7-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 5,
@@ -361,6 +434,10 @@
      "abbreviation": "4/11 Skh",
      "id_code": "p",
      "parent": "unit:cw:7-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 5,
@@ -374,6 +451,10 @@
      "abbreviation": "4/16 Pjb",
      "id_code": "p",
      "parent": "unit:cw:7-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 5,
@@ -392,6 +473,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:4-in-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -402,6 +486,10 @@
      "abbreviation": "2 Cmrn",
      "id_code": "p",
      "parent": "unit:cw:11-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -412,6 +500,10 @@
      "abbreviation": "1/6 RajRf",
      "id_code": "p",
      "parent": "unit:cw:11-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -422,6 +514,10 @@
      "abbreviation": "4/7 Rajpt",
      "id_code": "p",
      "parent": "unit:cw:11-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -433,6 +529,10 @@
      "id_code": "ll",
      "vehicle": "armoured-recce",
      "parent": "unit:cw:4-in-hq",
+     "fills": [
+      "armoured-recce-unit",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "notes": [
@@ -446,6 +546,10 @@
      "abbreviation": "1 Fld",
      "id_code": "x",
      "parent": "unit:cw:4-in-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "18/25-pounder",
@@ -463,6 +567,10 @@
      "abbreviation": "25 Fld",
      "id_code": "x",
      "parent": "unit:cw:4-in-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "3.7\" Howitzer",
@@ -477,6 +585,10 @@
      "abbreviation": "31 Fld",
      "id_code": "x",
      "parent": "unit:cw:4-in-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "18-pounder",
@@ -508,6 +620,7 @@
      ],
      "organisation": null,
      "parent": null,
+     "fills": [],
      "toe": [],
      "arrives": null,
      "notes": [
@@ -541,6 +654,9 @@
      ],
      "organisation": "infantry-division",
      "parent": null,
+     "fills": [
+      "infantry-division"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 21,
@@ -559,6 +675,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:70th-infantry-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [
       {
        "weapon": "4.5\" Howitzer",
@@ -576,6 +695,10 @@
      "abbreviation": "1 B&H",
      "id_code": "m",
      "parent": "unit:cw:14th-infantry-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 35,
@@ -589,6 +712,10 @@
      "abbreviation": "2 Y&L",
      "id_code": "m",
      "parent": "unit:cw:14th-infantry-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 35,
@@ -602,6 +729,10 @@
      "abbreviation": "2 BlkWa",
      "id_code": "m",
      "parent": "unit:cw:14th-infantry-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 35,
@@ -615,6 +746,10 @@
      "abbreviation": "14",
      "id_code": "dd",
      "parent": "unit:cw:14th-infantry-bde-hq",
+     "fills": [
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -637,6 +772,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:70th-infantry-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [
       {
        "weapon": "3.7\" Howitzer",
@@ -651,6 +789,10 @@
      "abbreviation": "2 Qns",
      "id_code": "m",
      "parent": "unit:cw:16th-infantry-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -661,6 +803,10 @@
      "abbreviation": "2 Leicst",
      "id_code": "m",
      "parent": "unit:cw:16th-infantry-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -671,6 +817,10 @@
      "abbreviation": "1 A&S",
      "id_code": "m",
      "parent": "unit:cw:16th-infantry-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "notes": [
@@ -684,6 +834,10 @@
      "abbreviation": "16",
      "id_code": "dd",
      "parent": "unit:cw:16th-infantry-bde-hq",
+     "fills": [
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -706,6 +860,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:70th-infantry-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -723,6 +880,10 @@
      "abbreviation": "1 Essex",
      "id_code": "m",
      "parent": "unit:cw:23rd-infantry-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -733,6 +894,10 @@
      "abbreviation": "1 Dur Lt",
      "id_code": "m",
      "parent": "unit:cw:23rd-infantry-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "notes": [
@@ -746,6 +911,10 @@
      "abbreviation": "4 Bord",
      "id_code": "m",
      "parent": "unit:cw:23rd-infantry-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 51,
@@ -759,6 +928,10 @@
      "abbreviation": "23",
      "id_code": "dd",
      "parent": "unit:cw:23rd-infantry-bde-hq",
+     "fills": [
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -792,6 +965,9 @@
      ],
      "organisation": "infantry-division",
      "parent": null,
+     "fills": [
+      "infantry-division"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -807,6 +983,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:2-nz-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -817,6 +996,10 @@
      "abbreviation": "18 NZ",
      "id_code": "m",
      "parent": "unit:cw:4-nz-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -827,6 +1010,10 @@
      "abbreviation": "19 NZ",
      "id_code": "m",
      "parent": "unit:cw:4-nz-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -837,6 +1024,10 @@
      "abbreviation": "20 NZ",
      "id_code": "m",
      "parent": "unit:cw:4-nz-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -852,6 +1043,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:2-nz-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 35,
@@ -865,6 +1059,10 @@
      "abbreviation": "21 NZ",
      "id_code": "m",
      "parent": "unit:cw:5-nz-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 35,
@@ -878,6 +1076,10 @@
      "abbreviation": "22 NZ",
      "id_code": "m",
      "parent": "unit:cw:5-nz-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 35,
@@ -891,6 +1093,10 @@
      "abbreviation": "23 NZ",
      "id_code": "m",
      "parent": "unit:cw:5-nz-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 35,
@@ -904,6 +1110,10 @@
      "abbreviation": "28 Mao",
      "id_code": "k",
      "parent": "unit:cw:5-nz-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 35,
@@ -922,6 +1132,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:2-nz-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 6,
@@ -935,6 +1148,10 @@
      "abbreviation": "24 NZ",
      "id_code": "m",
      "parent": "unit:cw:6-nz-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 6,
@@ -948,6 +1165,10 @@
      "abbreviation": "25 NZ",
      "id_code": "m",
      "parent": "unit:cw:6-nz-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 6,
@@ -961,6 +1182,10 @@
      "abbreviation": "26 NZ",
      "id_code": "m",
      "parent": "unit:cw:6-nz-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 6,
@@ -974,6 +1199,10 @@
      "abbreviation": "27 NZ",
      "id_code": "u",
      "parent": "unit:cw:2-nz-hq",
+     "fills": [
+      "machinegun-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "U@2"
@@ -985,6 +1214,10 @@
      "id_code": "ll",
      "vehicle": "armoured-recce",
      "parent": "unit:cw:2-nz-hq",
+     "fills": [
+      "armoured-recce-unit",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -995,6 +1228,11 @@
      "abbreviation": "7 NZ",
      "id_code": "aa",
      "parent": "unit:cw:2-nz-hq",
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -1012,6 +1250,10 @@
      "abbreviation": "4 NZ Fld",
      "id_code": "x",
      "parent": "unit:cw:2-nz-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "3.7\" Howitzer",
@@ -1026,6 +1268,10 @@
      "abbreviation": "5 NZ Fld",
      "id_code": "x",
      "parent": "unit:cw:2-nz-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -1043,6 +1289,10 @@
      "abbreviation": "6 NZ Fld",
      "id_code": "x",
      "parent": "unit:cw:2-nz-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "18/25-pounder",
@@ -1060,6 +1310,10 @@
      "abbreviation": "14 NZ Lt",
      "id_code": "ee",
      "parent": "unit:cw:2-nz-hq",
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -1099,6 +1353,9 @@
      ],
      "organisation": "infantry-division",
      "parent": null,
+     "fills": [
+      "infantry-division"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1114,6 +1371,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:6-aus-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1124,6 +1384,10 @@
      "abbreviation": "2/1 Aus",
      "id_code": "p",
      "parent": "unit:cw:16-aus-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1134,6 +1398,10 @@
      "abbreviation": "2/2 Aus",
      "id_code": "p",
      "parent": "unit:cw:16-aus-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1144,6 +1412,10 @@
      "abbreviation": "2/3 Aus",
      "id_code": "p",
      "parent": "unit:cw:16-aus-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1159,6 +1431,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:6-aus-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "arrives": "deployed",
      "notes": [
@@ -1172,6 +1447,10 @@
      "abbreviation": "2/5 Aus",
      "id_code": "p",
      "parent": "unit:cw:17-aus-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1182,6 +1461,10 @@
      "abbreviation": "2/6 Aus",
      "id_code": "p",
      "parent": "unit:cw:17-aus-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1192,6 +1475,10 @@
      "abbreviation": "2/7 Aus",
      "id_code": "p",
      "parent": "unit:cw:17-aus-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1207,6 +1494,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:6-aus-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 9,
@@ -1223,6 +1513,10 @@
      "abbreviation": "2/4 Aus",
      "id_code": "p",
      "parent": "unit:cw:19-aus-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 9,
@@ -1236,6 +1530,10 @@
      "abbreviation": "2/8 Aus",
      "id_code": "p",
      "parent": "unit:cw:19-aus-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 9,
@@ -1249,6 +1547,10 @@
      "abbreviation": "2/11 Aus",
      "id_code": "p",
      "parent": "unit:cw:19-aus-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 9,
@@ -1263,6 +1565,10 @@
      "id_code": "ll",
      "vehicle": "armoured-recce",
      "parent": "unit:cw:6-aus-hq",
+     "fills": [
+      "armoured-recce-unit",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1273,6 +1579,10 @@
      "abbreviation": "2/1 AFld",
      "id_code": "x",
      "parent": "unit:cw:6-aus-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -1290,6 +1600,10 @@
      "abbreviation": "2/2 AFld",
      "id_code": "x",
      "parent": "unit:cw:6-aus-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "18-pounder",
@@ -1325,6 +1639,9 @@
      "abbreviation": "3 Hus",
      "id_code": "g",
      "parent": null,
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Mark VI Light",
@@ -1342,6 +1659,9 @@
      "abbreviation": "2 RTR",
      "id_code": "g",
      "parent": null,
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "A13 Cruiser",
@@ -1359,6 +1679,9 @@
      "abbreviation": "7 RTR",
      "id_code": "g",
      "parent": null,
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Matilda",
@@ -1376,6 +1699,9 @@
      "abbreviation": "4 RTR",
      "id_code": "g",
      "parent": null,
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Matilda",
@@ -1394,6 +1720,10 @@
      "id_code": "mm",
      "vehicle": "armoured-car",
      "parent": null,
+     "fills": [
+      "armoured-car-unit",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 84,
@@ -1408,6 +1738,10 @@
      "id_code": "kk",
      "vehicle": "armoured-car",
      "parent": null,
+     "fills": [
+      "armoured-car-unit",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 31,
@@ -1432,6 +1766,10 @@
      "abbreviation": "1 Buffs",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1442,6 +1780,10 @@
      "abbreviation": "3 CldGds",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1452,6 +1794,10 @@
      "abbreviation": "1 Hamp",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1462,6 +1808,10 @@
      "abbreviation": "2 KOR",
      "id_code": "m",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1472,6 +1822,10 @@
      "abbreviation": "1 SoStff",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1482,6 +1836,10 @@
      "abbreviation": "2 SctGds",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1492,6 +1850,10 @@
      "abbreviation": "1 Ches",
      "id_code": "u",
      "parent": null,
+     "fills": [
+      "machinegun-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1502,6 +1864,10 @@
      "abbreviation": "1 RNF",
      "id_code": "u",
      "parent": null,
+     "fills": [
+      "machinegun-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "toe_mark": "N"
@@ -1512,6 +1878,10 @@
      "abbreviation": "\"A\"",
      "id_code": "h",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 19,
@@ -1525,6 +1895,10 @@
      "abbreviation": "SAS",
      "id_code": "j",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 47,
@@ -1538,6 +1912,10 @@
      "abbreviation": "1 Frstrs",
      "id_code": "l",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 65,
@@ -1551,6 +1929,10 @@
      "abbreviation": "RYugGd",
      "id_code": "t",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 70,
@@ -1564,6 +1946,10 @@
      "abbreviation": "14 Frstrs",
      "id_code": "l",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 89,
@@ -1577,6 +1963,10 @@
      "abbreviation": "YrkDrgn",
      "id_code": "l",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 94,
@@ -1604,6 +1994,11 @@
      "abbreviation": "13",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "6-pounders",
@@ -1621,6 +2016,11 @@
      "abbreviation": "65",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounders",
@@ -1635,6 +2035,11 @@
      "abbreviation": "73",
      "id_code": "z",
      "parent": null,
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "18-pounder",
@@ -1656,6 +2061,11 @@
      "abbreviation": "84",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "6-pounder",
@@ -1673,6 +2083,11 @@
      "abbreviation": "95",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -1690,6 +2105,11 @@
      "abbreviation": "102",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -1707,6 +2127,11 @@
      "abbreviation": "149",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -1721,6 +2146,11 @@
      "abbreviation": "106 RHA",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -1752,6 +2182,10 @@
      "abbreviation": "3 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "3.7\" Howitzer",
@@ -1769,6 +2203,10 @@
      "abbreviation": "4 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -1786,6 +2224,10 @@
      "abbreviation": "8 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -1800,6 +2242,10 @@
      "abbreviation": "11 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -1817,6 +2263,10 @@
      "abbreviation": "18 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -1834,6 +2284,10 @@
      "abbreviation": "32 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -1851,6 +2305,10 @@
      "abbreviation": "51 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -1868,6 +2326,10 @@
      "abbreviation": "53 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -1885,6 +2347,10 @@
      "abbreviation": "60 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -1902,6 +2368,10 @@
      "abbreviation": "78 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -1919,6 +2389,10 @@
      "abbreviation": "98 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -1936,6 +2410,10 @@
      "abbreviation": "111 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "3.7\" Howitzer",
@@ -1953,6 +2431,10 @@
      "abbreviation": "121 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -1970,6 +2452,10 @@
      "abbreviation": "146 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -1987,6 +2473,10 @@
      "abbreviation": "154 Fld",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -2004,6 +2494,10 @@
      "abbreviation": "7 Med",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "60-pounder",
@@ -2018,6 +2512,10 @@
      "abbreviation": "8 Med",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "6\" Howitzer",
@@ -2036,6 +2534,10 @@
      "abbreviation": "27 Med",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "4.5\" Gun",
@@ -2053,6 +2555,10 @@
      "abbreviation": "64 Med",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "4.5\" Gun",
@@ -2070,6 +2576,10 @@
      "abbreviation": "67 Med",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "155mm Howitzer",
@@ -2087,6 +2597,10 @@
      "abbreviation": "68 Med",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "4.5\" Gun",
@@ -2104,6 +2618,10 @@
      "abbreviation": "69 Med",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "5.5\" Gun-Howitzer",
@@ -2121,6 +2639,10 @@
      "abbreviation": "1 RHA",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -2138,6 +2660,10 @@
      "abbreviation": "5 RHA",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "105mm Howitzer (SPA)",
@@ -2155,6 +2681,10 @@
      "abbreviation": "11 RHA",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "SP 25-pounder",
@@ -2172,6 +2702,10 @@
      "abbreviation": "104 RHA",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -2189,6 +2723,10 @@
      "abbreviation": "107 RHA",
      "id_code": "x",
      "parent": null,
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -2221,6 +2759,10 @@
      "abbreviation": "1 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2238,6 +2780,10 @@
      "abbreviation": "13 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2255,6 +2801,10 @@
      "abbreviation": "14 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2272,6 +2822,10 @@
      "abbreviation": "15 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2286,6 +2840,10 @@
      "abbreviation": "16 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2303,6 +2861,10 @@
      "abbreviation": "25 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2320,6 +2882,10 @@
      "abbreviation": "27 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2337,6 +2903,10 @@
      "abbreviation": "34 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2354,6 +2924,10 @@
      "abbreviation": "37 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2371,6 +2945,10 @@
      "abbreviation": "42 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2388,6 +2966,10 @@
      "abbreviation": "52 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2405,6 +2987,10 @@
      "abbreviation": "53 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2422,6 +3008,10 @@
      "abbreviation": "56 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2439,6 +3029,10 @@
      "abbreviation": "57 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2453,6 +3047,10 @@
      "abbreviation": "82 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2470,6 +3068,10 @@
      "abbreviation": "2 LAA",
      "id_code": "ee",
      "parent": null,
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2487,6 +3089,9 @@
      "abbreviation": "2 HAA",
      "id_code": "gg",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2504,6 +3109,9 @@
      "abbreviation": "9 HAA",
      "id_code": "gg",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2518,6 +3126,9 @@
      "abbreviation": "57 HAA",
      "id_code": "gg",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2535,6 +3146,9 @@
      "abbreviation": "61 HAA",
      "id_code": "gg",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2552,6 +3166,9 @@
      "abbreviation": "68 HAA",
      "id_code": "gg",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2569,6 +3186,9 @@
      "abbreviation": "69 HAA",
      "id_code": "gg",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2586,6 +3206,9 @@
      "abbreviation": "74 HAA",
      "id_code": "gg",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2603,6 +3226,9 @@
      "abbreviation": "87 HAA",
      "id_code": "gg",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2620,6 +3246,9 @@
      "abbreviation": "88 HAA",
      "id_code": "gg",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2637,6 +3266,9 @@
      "abbreviation": "89 HAA",
      "id_code": "gg",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2654,6 +3286,9 @@
      "abbreviation": "94 HAA",
      "id_code": "gg",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2686,6 +3321,10 @@
      "abbreviation": "1 Wlch",
      "id_code": "m",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": "deployed",
      "notes": [
@@ -2699,6 +3338,10 @@
      "abbreviation": "2/5 Mah",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2712,6 +3355,10 @@
      "abbreviation": "3/10 Bal",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2725,6 +3372,10 @@
      "abbreviation": "1/1 Pjb",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2738,6 +3389,10 @@
      "abbreviation": "1/4 Essx",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2754,6 +3409,10 @@
      "abbreviation": "2/4 Grka",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2767,6 +3426,10 @@
      "abbreviation": "3/9 Jats",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2780,6 +3443,10 @@
      "abbreviation": "1/5 Mah",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2793,6 +3460,10 @@
      "abbreviation": "2/7 Grka",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2806,6 +3477,10 @@
      "abbreviation": "2/8 Grka",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2819,6 +3494,10 @@
      "abbreviation": "6 RajRf",
      "id_code": "u",
      "parent": null,
+     "fills": [
+      "machinegun-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "O@4",
      "arrives": {
@@ -2832,6 +3511,10 @@
      "abbreviation": "3/14 Pjb",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2845,6 +3528,10 @@
      "abbreviation": "1/2 Grka",
      "id_code": "p",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2859,6 +3546,10 @@
      "id_code": "ll",
      "vehicle": "armoured-car",
      "parent": null,
+     "fills": [
+      "armoured-car-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2889,6 +3580,9 @@
      "abbreviation": "\"1\"",
      "id_code": "v",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 65,
@@ -2902,6 +3596,10 @@
      "abbreviation": "11 Czech",
      "id_code": "s",
      "parent": null,
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 8,
@@ -2936,6 +3634,9 @@
      ],
      "organisation": "infantry-brigade-3sp",
      "parent": null,
+     "fills": [
+      "infantry-brigade-3sp"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 1,
@@ -2949,6 +3650,10 @@
      "abbreviation": "1 Pol",
      "id_code": "s",
      "parent": "unit:cw:polish-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 1,
@@ -2965,6 +3670,10 @@
      "abbreviation": "2 Pol",
      "id_code": "s",
      "parent": "unit:cw:polish-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 1,
@@ -2981,6 +3690,10 @@
      "abbreviation": "3 Pol",
      "id_code": "s",
      "parent": "unit:cw:polish-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 1,
@@ -2997,6 +3710,9 @@
      "abbreviation": "Kopnski",
      "id_code": "w",
      "parent": "unit:cw:polish-hq",
+     "fills": [
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 1,
@@ -3011,6 +3727,10 @@
      "id_code": "ss",
      "vehicle": "armoured-recce",
      "parent": "unit:cw:polish-hq",
+     "fills": [
+      "armoured-recce-unit",
+      "unit"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 1,
@@ -3024,6 +3744,10 @@
      "abbreviation": "1 Pol",
      "id_code": "dd",
      "parent": "unit:cw:polish-hq",
+     "fills": [
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -3041,6 +3765,10 @@
      "abbreviation": "1 Pol",
      "id_code": "y",
      "parent": "unit:cw:polish-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "18-pounder",
@@ -3077,6 +3805,9 @@
      ],
      "organisation": "armoured-division",
      "parent": null,
+     "fills": [
+      "armoured-division"
+     ],
      "toe": [
       {
        "weapon": "Crusader Mk II",
@@ -3100,6 +3831,9 @@
      ],
      "organisation": "armoured-brigade",
      "parent": "unit:cw:8-armd-div-hq",
+     "fills": [
+      "armoured-brigade"
+     ],
      "toe": [
       {
        "weapon": "Crusader Mk II",
@@ -3117,6 +3851,9 @@
      "abbreviation": "40 RTR",
      "id_code": "g",
      "parent": "unit:cw:23-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Matilda",
@@ -3138,6 +3875,9 @@
      "abbreviation": "46 RTR",
      "id_code": "g",
      "parent": "unit:cw:23-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Matilda",
@@ -3159,6 +3899,9 @@
      "abbreviation": "50 RTR",
      "id_code": "g",
      "parent": "unit:cw:23-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Matilda",
@@ -3180,6 +3923,10 @@
      "abbreviation": "7 RflBde",
      "id_code": "l",
      "parent": "unit:cw:23-armd-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3199,6 +3946,9 @@
      ],
      "organisation": "armoured-brigade",
      "parent": "unit:cw:8-armd-div-hq",
+     "fills": [
+      "armoured-brigade"
+     ],
      "toe": [
       {
        "weapon": "Crusader Mk II",
@@ -3216,6 +3966,9 @@
      "abbreviation": "41 RTR",
      "id_code": "g",
      "parent": "unit:cw:24-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Matilda",
@@ -3237,6 +3990,9 @@
      "abbreviation": "45 RTR",
      "id_code": "g",
      "parent": "unit:cw:24-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Matilda",
@@ -3258,6 +4014,9 @@
      "abbreviation": "47 RTR",
      "id_code": "g",
      "parent": "unit:cw:24-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Matilda",
@@ -3279,6 +4038,10 @@
      "abbreviation": "11 KRRC",
      "id_code": "l",
      "parent": "unit:cw:24-armd-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3296,6 +4059,10 @@
      "id_code": "hh",
      "vehicle": "armoured-car",
      "parent": "unit:cw:8-armd-div-hq",
+     "fills": [
+      "armoured-car-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3329,6 +4096,9 @@
      ],
      "organisation": "infantry-division",
      "parent": null,
+     "fills": [
+      "infantry-division"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3350,6 +4120,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:44-inf-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3363,6 +4136,10 @@
      "abbreviation": "1/5 Qns",
      "id_code": "m",
      "parent": "unit:cw:131-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3376,6 +4153,10 @@
      "abbreviation": "1/6 Qns",
      "id_code": "m",
      "parent": "unit:cw:131-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3389,6 +4170,10 @@
      "abbreviation": "1/7 Qns",
      "id_code": "m",
      "parent": "unit:cw:131-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3407,6 +4192,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:44-inf-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3420,6 +4208,10 @@
      "abbreviation": "4 RWK",
      "id_code": "m",
      "parent": "unit:cw:132-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3433,6 +4225,10 @@
      "abbreviation": "5 RWK",
      "id_code": "m",
      "parent": "unit:cw:132-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3446,6 +4242,10 @@
      "abbreviation": "2 Buffs",
      "id_code": "m",
      "parent": "unit:cw:132-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3464,6 +4264,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:44-inf-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3480,6 +4283,10 @@
      "abbreviation": "2 RSsx",
      "id_code": "m",
      "parent": "unit:cw:133rd-infantry-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3493,6 +4300,10 @@
      "abbreviation": "4 RSsx",
      "id_code": "m",
      "parent": "unit:cw:133rd-infantry-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3506,6 +4317,10 @@
      "abbreviation": "5 RSsx",
      "id_code": "m",
      "parent": "unit:cw:133rd-infantry-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3519,6 +4334,10 @@
      "abbreviation": "6 Ches",
      "id_code": "u",
      "parent": "unit:cw:44-inf-div-hq",
+     "fills": [
+      "machinegun-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3533,6 +4352,10 @@
      "id_code": "ll",
      "vehicle": "armoured-recce",
      "parent": "unit:cw:44-inf-div-hq",
+     "fills": [
+      "armoured-recce-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3546,6 +4369,11 @@
      "abbreviation": "57",
      "id_code": "aa",
      "parent": "unit:cw:44-inf-div-hq",
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "6-pounders",
@@ -3567,6 +4395,10 @@
      "abbreviation": "57 Fld",
      "id_code": "x",
      "parent": "unit:cw:44-inf-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounders",
@@ -3584,6 +4416,10 @@
      "abbreviation": "58 Fld",
      "id_code": "x",
      "parent": "unit:cw:44-inf-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounders",
@@ -3601,6 +4437,10 @@
      "abbreviation": "65 Fld",
      "id_code": "x",
      "parent": "unit:cw:44-inf-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounders",
@@ -3618,6 +4458,10 @@
      "abbreviation": "30 LAA",
      "id_code": "ee",
      "parent": "unit:cw:44-inf-div-hq",
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -3656,6 +4500,9 @@
      ],
      "organisation": "armoured-division",
      "parent": null,
+     "fills": [
+      "armoured-division"
+     ],
      "toe": [
       {
        "weapon": "Stuart",
@@ -3679,6 +4526,9 @@
      ],
      "organisation": "armoured-brigade",
      "parent": "unit:cw:1-armd-div-hq",
+     "fills": [
+      "armoured-brigade"
+     ],
      "toe": [
       {
        "weapon": "Stuart",
@@ -3696,6 +4546,9 @@
      "abbreviation": "2 Bays",
      "id_code": "g",
      "parent": "unit:cw:2-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Crusader Mk I",
@@ -3720,6 +4573,9 @@
      "abbreviation": "10 Hus",
      "id_code": "g",
      "parent": "unit:cw:2-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Crusader Mk I",
@@ -3741,6 +4597,9 @@
      "abbreviation": "9 Lancr",
      "id_code": "g",
      "parent": "unit:cw:2-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Stuarts",
@@ -3758,6 +4617,10 @@
      "abbreviation": "1 RflBde",
      "id_code": "l",
      "parent": "unit:cw:2-armd-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3776,6 +4639,9 @@
      ],
      "organisation": "support-group",
      "parent": "unit:cw:1-armd-div-hq",
+     "fills": [
+      "support-group"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3789,6 +4655,10 @@
      "abbreviation": "2 KRRC",
      "id_code": "l",
      "parent": "unit:cw:1-spt-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3805,6 +4675,11 @@
      "abbreviation": "76",
      "id_code": "aa",
      "parent": "unit:cw:1-spt-hq",
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounders",
@@ -3822,6 +4697,10 @@
      "abbreviation": "11 RHA",
      "id_code": "x",
      "parent": "unit:cw:1-spt-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounders",
@@ -3839,6 +4718,10 @@
      "abbreviation": "61 LAA",
      "id_code": "ee",
      "parent": "unit:cw:1-spt-hq",
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -3857,6 +4740,10 @@
      "id_code": "ll",
      "vehicle": "armoured-car",
      "parent": "unit:cw:1-armd-div-hq",
+     "fills": [
+      "armoured-car-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -3891,6 +4778,9 @@
      ],
      "organisation": "armoured-division",
      "parent": null,
+     "fills": [
+      "armoured-division"
+     ],
      "toe": [
       {
        "weapon": "Mk VI Lights",
@@ -3914,6 +4804,9 @@
      ],
      "organisation": "armoured-brigade",
      "parent": "unit:cw:2-armd-div-hq",
+     "fills": [
+      "armoured-brigade"
+     ],
      "toe": [
       {
        "weapon": "Mk VI Lights",
@@ -3934,6 +4827,9 @@
      "abbreviation": "4 Hus",
      "id_code": "g",
      "parent": "unit:cw:1-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "A9 Cruisers",
@@ -3955,6 +4851,9 @@
      "abbreviation": "3 RTR",
      "id_code": "g",
      "parent": "unit:cw:1-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Mk VI Lights",
@@ -3978,6 +4877,9 @@
      ],
      "organisation": "armoured-brigade",
      "parent": "unit:cw:2-armd-div-hq",
+     "fills": [
+      "armoured-brigade"
+     ],
      "toe": [
       {
        "weapon": "Crusader Mk I",
@@ -4001,6 +4903,9 @@
      ],
      "organisation": "armoured-brigade",
      "parent": "unit:cw:2-armd-div-hq",
+     "fills": [
+      "armoured-brigade"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 51,
@@ -4018,6 +4923,9 @@
      "abbreviation": "5 RTR",
      "id_code": "g",
      "parent": "unit:cw:3-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "A13 Cruisers",
@@ -4043,6 +4951,9 @@
      ],
      "organisation": "support-group",
      "parent": "unit:cw:2-armd-div-hq",
+     "fills": [
+      "support-group"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4056,6 +4967,10 @@
      "abbreviation": "1 THRf",
      "id_code": "l",
      "parent": "unit:cw:2-spt",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4072,6 +4987,10 @@
      "abbreviation": "1 Ranger",
      "id_code": "l",
      "parent": "unit:cw:2-spt",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4088,6 +5007,10 @@
      "abbreviation": "2 RHA",
      "id_code": "x",
      "parent": "unit:cw:2-spt",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounders",
@@ -4105,6 +5028,11 @@
      "abbreviation": "102(NH)",
      "id_code": "bb",
      "parent": "unit:cw:2-spt",
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounders",
@@ -4127,6 +5055,10 @@
      "id_code": "pp",
      "vehicle": "armoured-car",
      "parent": "unit:cw:2-spt",
+     "fills": [
+      "armoured-car-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4164,6 +5096,9 @@
      ],
      "organisation": "armoured-division",
      "parent": null,
+     "fills": [
+      "armoured-division"
+     ],
      "toe": [
       {
        "weapon": "Stuart",
@@ -4187,6 +5122,9 @@
      ],
      "organisation": "armoured-brigade",
      "parent": "unit:cw:10-armd-div-hq",
+     "fills": [
+      "armoured-brigade"
+     ],
      "toe": [
       {
        "weapon": "Stuart",
@@ -4204,6 +5142,9 @@
      "abbreviation": "NottYeo",
      "id_code": "g",
      "parent": "unit:cw:8-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Grant",
@@ -4221,6 +5162,9 @@
      "abbreviation": "StffYeo",
      "id_code": "g",
      "parent": "unit:cw:8-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Grant",
@@ -4242,6 +5186,9 @@
      "abbreviation": "SctsGry",
      "id_code": "g",
      "parent": "unit:cw:8-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Grant",
@@ -4269,6 +5216,9 @@
      ],
      "organisation": "armoured-brigade",
      "parent": "unit:cw:10-armd-div-hq",
+     "fills": [
+      "armoured-brigade"
+     ],
      "toe": [
       {
        "weapon": "Stuart",
@@ -4286,6 +5236,9 @@
      "abbreviation": "RWiYeo",
      "id_code": "g",
      "parent": "unit:cw:9-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Grant",
@@ -4303,6 +5256,9 @@
      "abbreviation": "WkYeo",
      "id_code": "g",
      "parent": "unit:cw:9-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Grant",
@@ -4338,6 +5294,9 @@
      ],
      "organisation": "infantry-division",
      "parent": null,
+     "fills": [
+      "infantry-division"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4359,6 +5318,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:50-inf-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4372,6 +5334,10 @@
      "abbreviation": "5 EYork",
      "id_code": "m",
      "parent": "unit:cw:69-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4385,6 +5351,10 @@
      "abbreviation": "6 GrnHo",
      "id_code": "m",
      "parent": "unit:cw:69-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4398,6 +5368,10 @@
      "abbreviation": "7 GrnHo",
      "id_code": "m",
      "parent": "unit:cw:69-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4416,6 +5390,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:50-inf-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4432,6 +5409,10 @@
      "abbreviation": "4 EYork",
      "id_code": "m",
      "parent": "unit:cw:150-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4445,6 +5426,10 @@
      "abbreviation": "4 GrnHo",
      "id_code": "m",
      "parent": "unit:cw:150-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4458,6 +5443,10 @@
      "abbreviation": "5 GrnHo",
      "id_code": "m",
      "parent": "unit:cw:150-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4476,6 +5465,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:50-inf-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4489,6 +5481,10 @@
      "abbreviation": "6 DurLt",
      "id_code": "m",
      "parent": "unit:cw:151-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4502,6 +5498,10 @@
      "abbreviation": "8 DurLt",
      "id_code": "m",
      "parent": "unit:cw:151-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4515,6 +5515,10 @@
      "abbreviation": "9 DurLt",
      "id_code": "m",
      "parent": "unit:cw:151-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4528,6 +5532,10 @@
      "abbreviation": "2 Ches",
      "id_code": "u",
      "parent": "unit:cw:50-inf-div-hq",
+     "fills": [
+      "machinegun-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "O@4",
      "arrives": {
@@ -4542,6 +5550,10 @@
      "id_code": "ll",
      "vehicle": "armoured-recce",
      "parent": "unit:cw:50-inf-div-hq",
+     "fills": [
+      "armoured-recce-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "U@6",
      "arrives": {
@@ -4558,6 +5570,10 @@
      "abbreviation": "72 Fld",
      "id_code": "x",
      "parent": "unit:cw:50-inf-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounders",
@@ -4575,6 +5591,10 @@
      "abbreviation": "74 Fld",
      "id_code": "x",
      "parent": "unit:cw:50-inf-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounders",
@@ -4592,6 +5612,10 @@
      "abbreviation": "124 Fld",
      "id_code": "x",
      "parent": "unit:cw:50-inf-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounders",
@@ -4630,6 +5654,9 @@
      ],
      "organisation": "armoured-brigade",
      "parent": null,
+     "fills": [
+      "armoured-brigade"
+     ],
      "toe": [
       {
        "weapon": "A9 Cruiser",
@@ -4650,6 +5677,9 @@
      "abbreviation": "8 RTR",
      "id_code": "g",
      "parent": "unit:cw:1-army",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Matilda",
@@ -4667,6 +5697,9 @@
      "abbreviation": "42 RTR",
      "id_code": "g",
      "parent": "unit:cw:1-army",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Matilda",
@@ -4687,6 +5720,9 @@
      "abbreviation": "44 RTR",
      "id_code": "g",
      "parent": "unit:cw:1-army",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Matilda",
@@ -4725,6 +5761,9 @@
      ],
      "organisation": "infantry-division",
      "parent": null,
+     "fills": [
+      "infantry-division"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4746,6 +5785,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:51-inf-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4759,6 +5801,10 @@
      "abbreviation": "2 Sea",
      "id_code": "m",
      "parent": "unit:cw:152-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4772,6 +5818,10 @@
      "abbreviation": "5 Sea",
      "id_code": "m",
      "parent": "unit:cw:152-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4785,6 +5835,10 @@
      "abbreviation": "5 Cmrn",
      "id_code": "m",
      "parent": "unit:cw:152-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4803,6 +5857,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:51-inf-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4819,6 +5876,10 @@
      "abbreviation": "5 BlkWa",
      "id_code": "m",
      "parent": "unit:cw:153-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4832,6 +5893,10 @@
      "abbreviation": "1 Grdn",
      "id_code": "m",
      "parent": "unit:cw:153-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4845,6 +5910,10 @@
      "abbreviation": "5/7 Grdn",
      "id_code": "m",
      "parent": "unit:cw:153-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4863,6 +5932,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:51-inf-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4876,6 +5948,10 @@
      "abbreviation": "1 BlkWa",
      "id_code": "m",
      "parent": "unit:cw:154-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4889,6 +5965,10 @@
      "abbreviation": "7 BlkWa",
      "id_code": "m",
      "parent": "unit:cw:154-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4902,6 +5982,10 @@
      "abbreviation": "7 A&S",
      "id_code": "m",
      "parent": "unit:cw:154-inf-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4918,6 +6002,10 @@
      "abbreviation": "1/7 Mdlsx",
      "id_code": "u",
      "parent": "unit:cw:51-inf-div-hq",
+     "fills": [
+      "machinegun-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4932,6 +6020,10 @@
      "id_code": "ll",
      "vehicle": "armoured-recce",
      "parent": "unit:cw:51-inf-div-hq",
+     "fills": [
+      "armoured-recce-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -4945,6 +6037,11 @@
      "abbreviation": "61",
      "id_code": "aa",
      "parent": "unit:cw:51-inf-div-hq",
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "6-pounder",
@@ -4966,6 +6063,10 @@
      "abbreviation": "126 Fld",
      "id_code": "x",
      "parent": "unit:cw:51-inf-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -4983,6 +6084,10 @@
      "abbreviation": "127 Fld",
      "id_code": "x",
      "parent": "unit:cw:51-inf-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -5000,6 +6105,10 @@
      "abbreviation": "128 Fld",
      "id_code": "x",
      "parent": "unit:cw:51-inf-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -5017,6 +6126,10 @@
      "abbreviation": "40 LAA",
      "id_code": "ee",
      "parent": "unit:cw:51-inf-div-hq",
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -5053,6 +6166,9 @@
      ],
      "organisation": "armoured-brigade",
      "parent": null,
+     "fills": [
+      "armoured-brigade"
+     ],
      "toe": [
       {
        "weapon": "A10 Cruiser",
@@ -5070,6 +6186,9 @@
      "abbreviation": "2 Hus",
      "id_code": "g",
      "parent": "unit:cw:22-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Crusader I",
@@ -5091,6 +6210,9 @@
      "abbreviation": "3 CLY",
      "id_code": "g",
      "parent": "unit:cw:22-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Crusader I",
@@ -5115,6 +6237,9 @@
      "abbreviation": "4 CLY",
      "id_code": "g",
      "parent": "unit:cw:22-armd-bde-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "Crusader I",
@@ -5162,6 +6287,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": null,
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "arrives": null,
      "notes": [
@@ -5180,6 +6308,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": null,
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "arrives": null,
      "notes": [
@@ -5212,6 +6343,9 @@
      ],
      "organisation": "infantry-division",
      "parent": null,
+     "fills": [
+      "infantry-division"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5230,6 +6364,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:9-aus",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5246,6 +6383,10 @@
      "abbreviation": "2/13 Aus",
      "id_code": "p",
      "parent": "unit:cw:20-aus",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5259,6 +6400,10 @@
      "abbreviation": "2/15 Aus",
      "id_code": "p",
      "parent": "unit:cw:20-aus",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5272,6 +6417,10 @@
      "abbreviation": "2/17 Aus",
      "id_code": "p",
      "parent": "unit:cw:20-aus",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5290,6 +6439,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:9-aus",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5303,6 +6455,10 @@
      "abbreviation": "2/28 Aus",
      "id_code": "p",
      "parent": "unit:cw:24-aus",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5316,6 +6472,10 @@
      "abbreviation": "2/32 Aus",
      "id_code": "p",
      "parent": "unit:cw:24-aus",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5329,6 +6489,10 @@
      "abbreviation": "2/43 Aus",
      "id_code": "p",
      "parent": "unit:cw:24-aus",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5347,6 +6511,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:9-aus",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5360,6 +6527,10 @@
      "abbreviation": "2/23 Aus",
      "id_code": "p",
      "parent": "unit:cw:26-aus",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5373,6 +6544,10 @@
      "abbreviation": "2/24 Aus",
      "id_code": "p",
      "parent": "unit:cw:26-aus",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5386,6 +6561,10 @@
      "abbreviation": "2/48 Aus",
      "id_code": "p",
      "parent": "unit:cw:26-aus",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5400,6 +6579,10 @@
      "id_code": "ll",
      "vehicle": "armoured-recce",
      "parent": "unit:cw:9-aus",
+     "fills": [
+      "armoured-recce-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5413,6 +6596,11 @@
      "abbreviation": "2/3 Aus",
      "id_code": "aa",
      "parent": "unit:cw:9-aus",
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -5430,6 +6618,10 @@
      "abbreviation": "2/2 Aus",
      "id_code": "u",
      "parent": "unit:cw:9-aus",
+     "fills": [
+      "machinegun-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5443,6 +6635,10 @@
      "abbreviation": "2/7 AFld",
      "id_code": "x",
      "parent": "unit:cw:9-aus",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -5460,6 +6656,10 @@
      "abbreviation": "2/8 AFld",
      "id_code": "x",
      "parent": "unit:cw:9-aus",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -5477,6 +6677,10 @@
      "abbreviation": "2/12 AFld",
      "id_code": "x",
      "parent": "unit:cw:9-aus",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "4.5\" Howitzer",
@@ -5494,6 +6698,11 @@
      "abbreviation": "2/1 AusP",
      "id_code": "q",
      "parent": "unit:cw:9-aus",
+     "fills": [
+      "infantry-battalion",
+      "engineer-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5510,6 +6719,10 @@
      "abbreviation": "2/3 LAA",
      "id_code": "ee",
      "parent": "unit:cw:9-aus",
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -5550,6 +6763,9 @@
      ],
      "organisation": "infantry-brigade-3sp",
      "parent": null,
+     "fills": [
+      "infantry-brigade-3sp"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5566,6 +6782,10 @@
      "abbreviation": "2/9 Aus",
      "id_code": "p",
      "parent": "unit:cw:18-aus",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5579,6 +6799,10 @@
      "abbreviation": "2/10 Aus",
      "id_code": "p",
      "parent": "unit:cw:18-aus",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5592,6 +6816,10 @@
      "abbreviation": "2/12 Aus",
      "id_code": "p",
      "parent": "unit:cw:18-aus",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5606,6 +6834,10 @@
      "id_code": "ll",
      "vehicle": "armoured-recce",
      "parent": "unit:cw:18-aus",
+     "fills": [
+      "armoured-recce-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5622,6 +6854,10 @@
      "abbreviation": "2/1 Aus",
      "id_code": "u",
      "parent": "unit:cw:18-aus",
+     "fills": [
+      "machinegun-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5639,6 +6875,11 @@
      "abbreviation": "2/1 Aus",
      "id_code": "aa",
      "parent": "unit:cw:18-aus",
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -5660,6 +6901,10 @@
      "abbreviation": "2/3 AFld",
      "id_code": "x",
      "parent": "unit:cw:18-aus",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -5701,6 +6946,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": null,
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5714,6 +6962,10 @@
      "abbreviation": "2 RLnc",
      "id_code": "l",
      "parent": "unit:cw:3-in",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5730,6 +6982,10 @@
      "abbreviation": "11 PAV",
      "id_code": "l",
      "parent": "unit:cw:3-in",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5746,6 +7002,10 @@
      "abbreviation": "18 KE",
      "id_code": "l",
      "parent": "unit:cw:3-in",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5762,6 +7022,10 @@
      "abbreviation": "2 InFld",
      "id_code": "x",
      "parent": "unit:cw:3-in",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -5799,6 +7063,9 @@
      ],
      "organisation": "infantry-division",
      "parent": null,
+     "fills": [
+      "infantry-division"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5820,6 +7087,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:5-indian-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5833,6 +7103,10 @@
      "abbreviation": "2 WYork",
      "id_code": "p",
      "parent": "unit:cw:9-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5846,6 +7120,10 @@
      "abbreviation": "3/12 FFR",
      "id_code": "p",
      "parent": "unit:cw:9-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5862,6 +7140,10 @@
      "abbreviation": "3/5 Mah",
      "id_code": "p",
      "parent": "unit:cw:9-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5880,6 +7162,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:5-indian-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5893,6 +7178,10 @@
      "abbreviation": "2 Hghlnd",
      "id_code": "p",
      "parent": "unit:cw:10-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5906,6 +7195,10 @@
      "abbreviation": "3/18 RGR",
      "id_code": "p",
      "parent": "unit:cw:10-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5919,6 +7212,10 @@
      "abbreviation": "4/10 Bal",
      "id_code": "p",
      "parent": "unit:cw:10-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5937,6 +7234,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:5-indian-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5953,6 +7253,10 @@
      "abbreviation": "1 Wshire",
      "id_code": "p",
      "parent": "unit:cw:29-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5966,6 +7270,10 @@
      "abbreviation": "3/2 Pjb",
      "id_code": "p",
      "parent": "unit:cw:29-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5979,6 +7287,10 @@
      "abbreviation": "6/13 FFR",
      "id_code": "p",
      "parent": "unit:cw:29-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -5992,6 +7304,10 @@
      "abbreviation": "144 Fld",
      "id_code": "x",
      "parent": "unit:cw:5-indian-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -6012,6 +7328,10 @@
      "abbreviation": "28 Fld",
      "id_code": "x",
      "parent": "unit:cw:5-indian-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -6030,6 +7350,10 @@
      "id_code": "qq",
      "vehicle": "armoured-car",
      "parent": "unit:cw:5-indian-div-hq",
+     "fills": [
+      "armoured-car-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6066,6 +7390,9 @@
      ],
      "organisation": "infantry-division",
      "parent": null,
+     "fills": [
+      "infantry-division"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6087,6 +7414,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:10-indian-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6103,6 +7433,10 @@
      "abbreviation": "1 SWB",
      "id_code": "p",
      "parent": "unit:cw:20-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6116,6 +7450,10 @@
      "abbreviation": "97 Fld",
      "id_code": "x",
      "parent": "unit:cw:20-in-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -6141,6 +7479,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:10-indian-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6157,6 +7498,10 @@
      "abbreviation": "1 DCLI",
      "id_code": "p",
      "parent": "unit:cw:21-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6173,6 +7518,10 @@
      "abbreviation": "4/13 FFR",
      "id_code": "p",
      "parent": "unit:cw:21-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6186,6 +7535,10 @@
      "abbreviation": "157 Fld",
      "id_code": "x",
      "parent": "unit:cw:21-in-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -6208,6 +7561,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:10-indian-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6224,6 +7580,10 @@
      "abbreviation": "1 KOR",
      "id_code": "p",
      "parent": "unit:cw:25-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6237,6 +7597,10 @@
      "abbreviation": "2/11 Skh",
      "id_code": "p",
      "parent": "unit:cw:25-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6250,6 +7614,10 @@
      "abbreviation": "164 Fld",
      "id_code": "x",
      "parent": "unit:cw:25-in-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -6287,6 +7655,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": null,
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6300,6 +7671,10 @@
      "abbreviation": "2/5 Essx",
      "id_code": "p",
      "parent": "unit:cw:18-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6313,6 +7688,10 @@
      "abbreviation": "2/3 Grka",
      "id_code": "p",
      "parent": "unit:cw:18-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6355,6 +7734,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": null,
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6368,6 +7750,10 @@
      "abbreviation": "1/2 Pjb",
      "id_code": "n",
      "parent": "unit:cw:161-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6381,6 +7767,10 @@
      "abbreviation": "3/7 Rajpt",
      "id_code": "n",
      "parent": "unit:cw:161-in-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6410,6 +7800,10 @@
      "id_code": "rr",
      "vehicle": "armoured-car",
      "parent": null,
+     "fills": [
+      "armoured-car-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6427,6 +7821,10 @@
      "id_code": "rr",
      "vehicle": "armoured-car",
      "parent": null,
+     "fills": [
+      "armoured-car-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6444,6 +7842,9 @@
      "id_code": "uu",
      "equivalent": "battalion",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6481,6 +7882,9 @@
      ],
      "organisation": "infantry-division",
      "parent": null,
+     "fills": [
+      "infantry-division"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6502,6 +7906,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:1-sa-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6515,6 +7922,10 @@
      "abbreviation": "RNtlC",
      "id_code": "p",
      "parent": "unit:cw:1-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6528,6 +7939,10 @@
      "abbreviation": "1 TrnsvS",
      "id_code": "p",
      "parent": "unit:cw:1-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6541,6 +7956,10 @@
      "abbreviation": "DEORfl",
      "id_code": "p",
      "parent": "unit:cw:1-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6563,6 +7982,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:1-sa-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6576,6 +7998,10 @@
      "abbreviation": "NtlMRfl",
      "id_code": "p",
      "parent": "unit:cw:2-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6593,6 +8019,10 @@
      "abbreviation": "CpTnHi",
      "id_code": "p",
      "parent": "unit:cw:2-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6606,6 +8036,10 @@
      "abbreviation": "1/2 FF",
      "id_code": "p",
      "parent": "unit:cw:2-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6624,6 +8058,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:1-sa-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6637,6 +8074,10 @@
      "abbreviation": "SAIrish",
      "id_code": "p",
      "parent": "unit:cw:5-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6650,6 +8091,10 @@
      "abbreviation": "2 Botha",
      "id_code": "p",
      "parent": "unit:cw:5-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6663,6 +8108,10 @@
      "abbreviation": "3TrnsvS",
      "id_code": "p",
      "parent": "unit:cw:5-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6676,6 +8125,10 @@
      "abbreviation": "PresStn",
      "id_code": "u",
      "parent": "unit:cw:1-sa-div-hq",
+     "fills": [
+      "machinegun-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6690,6 +8143,10 @@
      "id_code": "jj",
      "vehicle": "armoured-car",
      "parent": "unit:cw:1-sa-div-hq",
+     "fills": [
+      "armoured-car-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6703,6 +8160,11 @@
      "abbreviation": "1 SA",
      "id_code": "z",
      "parent": "unit:cw:1-sa-div-hq",
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -6724,6 +8186,10 @@
      "abbreviation": "3FldTHA",
      "id_code": "x",
      "parent": "unit:cw:1-sa-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "18/25-pounder",
@@ -6744,6 +8210,10 @@
      "abbreviation": "4 SA Fld",
      "id_code": "x",
      "parent": "unit:cw:1-sa-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -6761,6 +8231,10 @@
      "abbreviation": "7 SA Fld",
      "id_code": "x",
      "parent": "unit:cw:1-sa-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -6778,6 +8252,10 @@
      "abbreviation": "1 SA LAA",
      "id_code": "ee",
      "parent": "unit:cw:1-sa-div-hq",
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -6811,6 +8289,9 @@
      "id_code": "uu",
      "equivalent": "company",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6828,6 +8309,9 @@
      "id_code": "uu",
      "equivalent": "company",
      "parent": null,
+     "fills": [
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6864,6 +8348,9 @@
      ],
      "organisation": "infantry-division",
      "parent": null,
+     "fills": [
+      "infantry-division"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6885,6 +8372,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:2-sa-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6898,6 +8388,10 @@
      "abbreviation": "1 ImLtH",
      "id_code": "p",
      "parent": "unit:cw:3-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6914,6 +8408,10 @@
      "abbreviation": "1 RDrbn",
      "id_code": "p",
      "parent": "unit:cw:3-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6927,6 +8425,10 @@
      "abbreviation": "1 RndLt",
      "id_code": "p",
      "parent": "unit:cw:3-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6945,6 +8447,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:2-sa-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6958,6 +8463,10 @@
      "abbreviation": "UMtRf",
      "id_code": "p",
      "parent": "unit:cw:4-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6974,6 +8483,10 @@
      "abbreviation": "2 RDrbn",
      "id_code": "p",
      "parent": "unit:cw:4-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -6987,6 +8500,10 @@
      "abbreviation": "KafrRfl",
      "id_code": "p",
      "parent": "unit:cw:4-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7005,6 +8522,9 @@
      ],
      "organisation": "infantry-brigade",
      "parent": "unit:cw:2-sa-div-hq",
+     "fills": [
+      "infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7018,6 +8538,10 @@
      "abbreviation": "2 TrnsvS",
      "id_code": "p",
      "parent": "unit:cw:6-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7031,6 +8555,10 @@
      "abbreviation": "1 SA Plc",
      "id_code": "p",
      "parent": "unit:cw:6-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7044,6 +8572,10 @@
      "abbreviation": "1 SA Plc",
      "id_code": "p",
      "parent": "unit:cw:6-sa-bde-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7060,6 +8592,10 @@
      "abbreviation": "Midlnd",
      "id_code": "u",
      "parent": "unit:cw:2-sa-div-hq",
+     "fills": [
+      "machinegun-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7074,6 +8610,10 @@
      "id_code": "nn",
      "vehicle": "armoured-recce",
      "parent": "unit:cw:2-sa-div-hq",
+     "fills": [
+      "armoured-recce-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7087,6 +8627,11 @@
      "abbreviation": "2 SA",
      "id_code": "aa",
      "parent": "unit:cw:2-sa-div-hq",
+     "fills": [
+      "anti-tank-regiment",
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -7104,6 +8649,10 @@
      "abbreviation": "1SA CFA",
      "id_code": "x",
      "parent": "unit:cw:2-sa-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -7124,6 +8673,10 @@
      "abbreviation": "2SA NFA",
      "id_code": "x",
      "parent": "unit:cw:2-sa-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",
@@ -7144,6 +8697,10 @@
      "abbreviation": "5 SA Fld",
      "id_code": "x",
      "parent": "unit:cw:2-sa-div-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "4.5\" Howitzer",
@@ -7161,6 +8718,10 @@
      "abbreviation": "2 SA LAA",
      "id_code": "ee",
      "parent": "unit:cw:2-sa-div-hq",
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -7198,6 +8759,9 @@
      ],
      "organisation": "infantry-brigade-3sp",
      "parent": null,
+     "fills": [
+      "infantry-brigade-3sp"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7214,6 +8778,10 @@
      "abbreviation": "2 LgEtr",
      "id_code": "r",
      "parent": "unit:cw:1-freefr-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7230,6 +8798,10 @@
      "abbreviation": "3 LgEtr",
      "id_code": "r",
      "parent": "unit:cw:1-freefr-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7246,6 +8818,10 @@
      "abbreviation": "2 Mrch",
      "id_code": "r",
      "parent": "unit:cw:1-freefr-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7262,6 +8838,10 @@
      "abbreviation": "1 Marine",
      "id_code": "r",
      "parent": "unit:cw:1-freefr-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7278,6 +8858,10 @@
      "abbreviation": "1 Pacf",
      "id_code": "r",
      "parent": "unit:cw:1-freefr-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7291,6 +8875,10 @@
      "abbreviation": "1",
      "id_code": "y",
      "parent": "unit:cw:1-freefr-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "French 149mm (see It. Arty)",
@@ -7308,6 +8896,10 @@
      "abbreviation": "2 NA",
      "id_code": "cc",
      "parent": "unit:cw:1-freefr-hq",
+     "fills": [
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -7328,6 +8920,10 @@
      "abbreviation": "1 Fslrs",
      "id_code": "ff",
      "parent": "unit:cw:1-freefr-hq",
+     "fills": [
+      "light-aa-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -7349,6 +8945,10 @@
      "id_code": "tt",
      "vehicle": "armoured-car",
      "parent": "unit:cw:1-freefr-hq",
+     "fills": [
+      "armoured-car-unit",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7385,6 +8985,9 @@
      ],
      "organisation": "allied-infantry-brigade",
      "parent": null,
+     "fills": [
+      "allied-infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7401,6 +9004,10 @@
      "abbreviation": "5 Mrch",
      "id_code": "s",
      "parent": "unit:cw:2-freefr-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7414,6 +9021,10 @@
      "abbreviation": "11 Mrch",
      "id_code": "s",
      "parent": "unit:cw:2-freefr-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7427,6 +9038,10 @@
      "abbreviation": "23 NA",
      "id_code": "cc",
      "parent": "unit:cw:2-freefr-hq",
+     "fills": [
+      "anti-tank-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "2-pounder",
@@ -7464,6 +9079,9 @@
      ],
      "organisation": "allied-infantry-brigade",
      "parent": null,
+     "fills": [
+      "allied-infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7477,6 +9095,10 @@
      "abbreviation": "1 Greek",
      "id_code": "m",
      "parent": "unit:cw:1-greek-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7493,6 +9115,10 @@
      "abbreviation": "2 Greek",
      "id_code": "m",
      "parent": "unit:cw:1-greek-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7509,6 +9135,10 @@
      "abbreviation": "3 Greek",
      "id_code": "m",
      "parent": "unit:cw:1-greek-hq",
+     "fills": [
+      "infantry-battalion",
+      "unit"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -7525,6 +9155,10 @@
      "abbreviation": "1 GrkFld",
      "id_code": "x",
      "parent": "unit:cw:1-greek-hq",
+     "fills": [
+      "artillery-unit",
+      "unit"
+     ],
      "toe": [
       {
        "weapon": "25-pounder",

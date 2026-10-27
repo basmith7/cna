@@ -22,6 +22,10 @@
     "notes": {"type": "array", "items": {"type": "string"}},
     "units": {"type": "object", "propertyNames": {"pattern": "^[a-z0-9-]+$"}, "additionalProperties": {"type": "string"},
               "description": "Unit slugs used in components, with what each stands for in our words (the chart's symbol key)"},
+    "part_slots": {"type": "object", "propertyNames": {"pattern": "^[a-z0-9-]+$"},
+                   "additionalProperties": {"type": "object", "required": ["parts", "min"], "additionalProperties": false,
+                                            "properties": {"parts": {"type": "integer", "minimum": 2}, "min": {"type": "integer", "minimum": 1}}},
+                   "description": "Slots a counter can fill together with others of its kind (an OA counter's fills_part, R-142): a slot holds up to parts such counters and is filled once min of them are in it; one counter that fills the slot alone (fills) fills it outright"},
     "rows": {"type": "array", "minItems": 1, "items": {
       "type": "object", "required": ["nation", "parent", "sp", "components", "sources"], "additionalProperties": false,
       "properties": {
