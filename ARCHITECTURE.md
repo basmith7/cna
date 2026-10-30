@@ -6,7 +6,7 @@ scenario as validated JSON, and every ambiguity decided as a numbered ruling. It
 rules readers (the VitePress site) and `basmith7/cna-engine`, which consumes `data/` as a
 git submodule. It deliberately holds no engine code and no SPI text, map art or counter art.
 
-Verified against 5289b4b on 2026-10-14.
+Verified against 7f2e5c4 on 2026-10-29.
 
 Setup, licences and the legal posture live in `README.md`; conventions and the
 identifier grammar in `data/README.md`; unattended-run orders in `AUTOPILOT.md`.
@@ -124,12 +124,12 @@ Not in the diagram: a `TABLE` is any `data/tables/<concept>.json` (`table: <conc
 `rows`, `sources`) validated by `<concept>.schema.json`.
 
 <!-- generated:tables -->
-72 concepts: `air-bombardment`, `air-missions`, `air-reconnaissance`, `air-reinforcement-schedule`, `aircraft-characteristics`, `aircraft-refit`, `ammunition-consumption`, `anti-aircraft-results`, `anti-armour-results`, `assault-size-shifts`, `axis-coastal-ships`, `axis-convoy-bombing`, `axis-convoy-capacity`, `axis-convoy-level`, `axis-malta-availability`, `axis-malta-commitment`, `axis-replacement-pool`, `barrage-results`, `breakdown`, `breakdown-adjustments`, `chariot-raid`, `close-assault-results`, `construction`, `convoy-reconnaissance`, `cp-costs`, `cw-fleet-schedule`, `cw-production`, `demolition`, `desert-raider-raids`, `destroyed-tank-repair`, `equivalent-weights`, `formation-organisation`, `foul-weather-location`, `fuel-evaporation`, `harbour-mining`, `initiative-ratings`, `logistics-sequence`, `malta-construction`, `maneuver-adjustment`, `max-attachments`, `morale-modifier`, `motorisation-losses`, `objective-loss`, `off-map-distances`, `patrol-reconnaissance`, `patrol-survival`, `pilot-arrival`, `pilot-plane-recovery`, `port-capacity`, `prisoners-captured`, `raid-on-rommel`, `reinforcement-schedule`, `replacement-conversion`, `replacement-training`, `sas-raid`, `scramble`, `seasons`, `simplified-supply`, `stacking-point-values`, `strafing`, `supply-dump-capacity`, `supply-dump-demolition`, `tacair-kill`, `terrain-effects`, `training`, `truck-characteristics`, `unit-characteristics`, `vehicle-repair`, `water-availability`, `weapon-systems`, `weather`, `well-poisoning`
+75 concepts: `air-bombardment`, `air-missions`, `air-reconnaissance`, `air-reinforcement-schedule`, `aircraft-characteristics`, `aircraft-refit`, `ammunition-consumption`, `anti-aircraft-results`, `anti-armour-results`, `assault-size-shifts`, `axis-air-reinforcement-schedule`, `axis-coastal-ships`, `axis-convoy-bombing`, `axis-convoy-capacity`, `axis-convoy-level`, `axis-malta-availability`, `axis-malta-commitment`, `axis-replacement-pool`, `barrage-results`, `breakdown`, `breakdown-adjustments`, `calendar`, `chariot-raid`, `close-assault-results`, `construction`, `convoy-lanes`, `convoy-reconnaissance`, `cp-costs`, `cw-fleet-schedule`, `cw-production`, `demolition`, `desert-raider-raids`, `destroyed-tank-repair`, `equivalent-weights`, `formation-organisation`, `foul-weather-location`, `fuel-evaporation`, `harbour-mining`, `initiative-ratings`, `logistics-sequence`, `malta-construction`, `maneuver-adjustment`, `max-attachments`, `morale-modifier`, `motorisation-losses`, `objective-loss`, `off-map-distances`, `patrol-reconnaissance`, `patrol-survival`, `pilot-arrival`, `pilot-plane-recovery`, `port-capacity`, `prisoners-captured`, `raid-on-rommel`, `reinforcement-schedule`, `replacement-conversion`, `replacement-training`, `sas-raid`, `scramble`, `seasons`, `simplified-supply`, `stacking-point-values`, `strafing`, `supply-dump-capacity`, `supply-dump-demolition`, `tacair-kill`, `terrain-effects`, `training`, `truck-characteristics`, `unit-characteristics`, `vehicle-repair`, `water-availability`, `weapon-systems`, `weather`, `well-poisoning`
 <!-- /generated:tables -->
 
 Scenarios place units by `unit:` id or by `formation` (`<nation>:<formation id>`), hexes by
 id, `place` or `region`; a scenario may `extends` another and takes the blocks it omits.
-`check_data.py` resolves all of these.
+`check_data.py` resolves all of these, and an OA unit's `replaces`/`assigns` references.
 
 ## Interfaces
 
@@ -162,11 +162,13 @@ id, `place` or `region`; a scenario may `extends` another and takes the blocks i
 - `data/tables/<concept>.json`, `data/oa/<nation>.json`, `data/scenarios/<slug>.json`,
   `data/map/{sheets,hexes,hexsides,places,regions,seams}.json`, `data/errata/E-nnn.json`.
 - Rulings: `rulings/R-nnn.md` with YAML frontmatter (`id`, `status`, `affects`, `sources`);
-  each ruling is a switch in the engine, defaulting by its `status` and Decision.
+  a few rulings are switches in the engine (`crates/cna-rules/src/ruleset.rs`, option
+  numbers as in the ruling, defaulting to its Decision); the rest are listed in the
+  engine's `NOT_SIMULATED.md`.
 
 **What cna-engine consumes**: it vendors this repo at `vendor/cna` and its `cna-data`
 crate (`crates/cna-data/src/*.rs`, one module per table family, plus `oa`, `scenario`,
-`map`, `schedule`, `errata`) deserialises the JSON directly. It never copies prose. So a
+`map`, `schedule`, `calendar`, `errata`) deserialises the JSON directly with serde. It never copies prose. So a
 schema change is a breaking change for the engine: add fields, do not rename or remove,
 and expect a request in cna-engine's `docs/autopilot/PROGRESS.md` (**Requests for cna**)
 when a shape is wrong. Rulings cite the engine's `probes/<id>.json` measurements in their Rationale; the
@@ -232,7 +234,8 @@ flowchart LR
 - Ids are sequential, ours and never reused (`E-`, `R-`, `V-`, `M-`); ruling numbers
   have gaps by design (logistics blocks of ten).
 - Sheet-edge hexsides: both records of a pair must agree on `up`. Map A's numbering is
-  staggered; always use `tools/map_geom.py` for adjacency.
+  staggered; always use `tools/map_geom.py` for adjacency and distance (`is_adjacent`,
+  `distance`, which counts across sheet seams).
 - A new enum value needs a data PR naming the case that introduces it; shared enums live
   only in `common.schema.json`.
 - A PR is green only with: pytest, `check_data`, `check_overlap` (with and without a
