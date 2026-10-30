@@ -211,6 +211,22 @@ unlimited in Europe; only tonnage and ports hold him back.
    Game-Turn of May 1941. Bizerta has its own opening rule
    ([above](#bizerta)).
 
+| Lane | From | To |
+|---|---|---|
+| 1 | West Sicily | Bizerta (Tunisia box) |
+| 2 | West Sicily | Tripoli (Tripoli box) |
+| 3 | Italy | Benghazi |
+| 4 | Greece | Benghazi |
+| 5 | Greece | Tobruk |
+| 6 | Italy | Tobruk |
+
+The Axis Naval Convoy Air Distance Chart is data:
+[`data/tables/convoy-lanes.json`](../../data/tables/convoy-lanes.json),
+each lane's destination port, opening Game-Turn, and its distance in hexes
+from the Sicily, Italy and Crete boxes, from Malta, and from three North
+African rally points (Benghazi, Derna, Tobruk). Until lanes 4 and 5 open
+and Bizerta is activated, only lanes 2, 3 and 6 can sail.
+
 ::: spi 56.13 56.16 56.26
 
 A convoy may be attacked by Commonwealth bombers

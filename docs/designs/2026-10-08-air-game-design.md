@@ -3,9 +3,10 @@
 **Date:** 2026-10-08
 **Sub-project:** 3 of the digital CNA roadmap (Air Game rules).
 **Status:** complete, 2026-10-09: §33–47 restated in `rules/air/` (431
-cases covered), 18 chart files as data, rulings R-111–R-116 accepted. One
-question for a printed copy remains (the Axis Airplane Reinforcement
-Schedule, 34.87, absent from both scans). Written by the autopilot as
+cases covered), 18 chart files as data, rulings R-111–R-116 accepted. The
+Axis Airplane Reinforcement Schedule (34.87), first thought absent from
+both scans, was found misnumbered 34.85 on the Axis chart sheet and added as
+data on 2026-10-26. Written by the autopilot as
 Mission 7 under the delegation of 2026-09-26: every decision below is
 Claude's, is cheap to reverse, and can each be reversed with one PR.
 

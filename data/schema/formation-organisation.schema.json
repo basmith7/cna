@@ -6,13 +6,14 @@
   "$defs": {
     "turns": {"type": "object", "required": ["from", "to"], "additionalProperties": false,
               "properties": {"from": {"type": "integer", "minimum": 1}, "to": {"type": ["integer", "null"], "minimum": 1}}},
-    "component": {"type": "object", "required": ["count", "sp"], "additionalProperties": false,
+    "component": {"type": "object", "required": ["count", "sp", "counts_for_shell"], "additionalProperties": false,
                   "properties": {
                     "count": {"type": "integer", "minimum": 1},
                     "unit": {"type": "string", "pattern": "^[a-z0-9-]+$", "description": "A key of 'units'"},
                     "any_of": {"type": "array", "minItems": 2, "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}, "description": "The chart's 'X or Y': one of these"},
                     "type": {"enum": ["I", "II", "III", "IV"], "description": "Organisation type of a component that is itself a formation on this chart"},
-                    "sp": {"type": ["integer", "null"], "minimum": 0, "description": "Stacking points printed beside each such counter on the chart (a formation's are in parentheses); null where the chart prints the symbol with no figure"}},
+                    "sp": {"type": ["integer", "null"], "minimum": 0, "description": "Stacking points printed beside each such counter on the chart (a formation's are in parentheses); null where the chart prints the symbol with no figure"},
+                    "counts_for_shell": {"type": "boolean", "description": "Whether 9.26 counts this component when judging the parent a shell (R-141): in a division, components of 2 SP or more; in a brigade or regiment, components of 1 SP or more; never a component of 0 SP or with no figure"}},
                   "oneOf": [{"required": ["unit"]}, {"required": ["any_of"]}]}
   },
   "properties": {
@@ -21,6 +22,10 @@
     "notes": {"type": "array", "items": {"type": "string"}},
     "units": {"type": "object", "propertyNames": {"pattern": "^[a-z0-9-]+$"}, "additionalProperties": {"type": "string"},
               "description": "Unit slugs used in components, with what each stands for in our words (the chart's symbol key)"},
+    "part_slots": {"type": "object", "propertyNames": {"pattern": "^[a-z0-9-]+$"},
+                   "additionalProperties": {"type": "object", "required": ["parts", "min"], "additionalProperties": false,
+                                            "properties": {"parts": {"type": "integer", "minimum": 2}, "min": {"type": "integer", "minimum": 1}}},
+                   "description": "Slots a counter can fill together with others of its kind (an OA counter's fills_part, R-142): a slot holds up to parts such counters and is filled once min of them are in it; one counter that fills the slot alone (fills) fills it outright"},
     "rows": {"type": "array", "minItems": 1, "items": {
       "type": "object", "required": ["nation", "parent", "sp", "components", "sources"], "additionalProperties": false,
       "properties": {
@@ -28,8 +33,7 @@
         "parent": {"type": "string", "pattern": "^[a-z0-9-]+$"},
         "sp": {"type": "integer", "minimum": 0, "description": "Stacking points of the parent counter"},
         "type": {"enum": ["I", "II", "III", "IV"], "description": "Organisation type, where the chart splits a formation by period"},
-        "turns": {"$ref": "#/$defs/turns"},
-        "turns_list": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/turns"}, "description": "Where a type applies in two separate periods"},
+        "turns": {"$ref": "#/$defs/turns", "description": "Game-Turns the row applies in; a type that applies in two separate periods is given as two rows"},
         "components": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/component"}},
         "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
   }

@@ -442,3 +442,183 @@ Done: six cna-engine requests, all merged: #236 typed Graziani placements (regio
 In flight: none; no open autopilot PRs.
 Next: read cna-engine Requests for cna; if empty, stop. Gotcha: rulings PRs conflict in rules/changes.md and rulings/register.md; take main's copy and rerun gen_pages.
 Blocked: none (copy group unchanged; 34.87 Axis air schedule still missing).
+
+## 2026-10-24 10:45 MST — autopilot/req-motorisation-rate
+Done: cna-engine's new request (motorising foot units, 32.5x) answered as R-123 (#243): one motorisation point per TOE strength point of any kind; short of that, not motorised. Gates green locally; CI gates green.
+In flight: #243 waits on the CI `site` job (stuck in_progress with no steps at 17:45 UTC); merge once green.
+Next: if #243 is still open, rerun its site job / merge; then read cna-engine Requests for cna (the other six bullets there were answered by #236–#241; their autopilot has not cleared them).
+Blocked: none.
+
+## 2026-10-24 11:40 MST — autopilot/req-hq-echelons
+Done: two new cna-engine requests. #244 (merged) `data/tables/calendar.json`: four GTs a month, weeks I-IV, GT1 = Sept III 1940, GT111 = Jan I 1943, read from the 34.84 chart and cross-checked against seasons and E-025 weather bands. #245 R-124 plus `echelon` on every OA HQ (division/brigade/battle-group/corps); air lift lands at division or brigade-equivalent HQs, row limit from division HQ counters.
+In flight: #245 until its CI is green, then merge.
+Next: read cna-engine Requests for cna; every bullet there is now answered (#236-#245). If none new, stop.
+Blocked: none.
+
+## 2026-10-24 13:45 MST — autopilot/req-recce-vehicles
+Done: last open cna-engine request (vehicle class for recce/armoured cars, 21.1x) answered as R-125 (#246, 66207e6): `vehicle` on every OA recon unit; Axis per chart notes, CW split per unit, camels/motorcycles none, IT desert patrols truck. Gates green locally.
+In flight: #246 until CI is green, then merge.
+Next: every bullet on cna-engine's Requests list is now answered (#236-#246). If none new, stop.
+Blocked: none.
+
+## 2026-10-24 15:25 MST — main
+Done: idle run. Feedback empty, no open autopilot PRs; cna-engine's Requests list has nine bullets, all answered by #236-#246 (calendar #244, echelons #245, recce #246, withheld loss base R-122 #239, etc.), not yet cleared on their side.
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #236-#246. If none, stop.
+Blocked: none (copy: 34.87 Axis air schedule still missing).
+
+## 2026-10-24 16:25 MST — main
+Done: idle run. Feedback empty, no open autopilot PRs; cna-engine's Requests list unchanged (nine bullets, all answered by #236-#246).
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #236-#246. If none, stop.
+Blocked: none (copy: 34.87 Axis air schedule still missing).
+
+## 2026-10-24 21:25 MST — main
+Done: idle run. Feedback empty, no open autopilot PRs; cna-engine's Requests list unchanged (ten bullets, all answered and merged in #236-#246).
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #236-#246. If none, stop.
+Blocked: none (copy: 34.87 Axis air schedule still missing).
+
+## 2026-10-25 09:25 MST — main
+Done: idle run. Feedback empty, no open autopilot PRs; cna-engine's Requests list unchanged since 2026-10-24 18:53Z (ten bullets, all answered and merged in #236-#246).
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #236-#246. If none, stop.
+Blocked: none (copy: 34.87 Axis air schedule still missing).
+
+## 2026-10-25 13:23 MST — main
+Done: idle run. Feedback empty, no open autopilot PRs; cna-engine's Requests list unchanged since 2026-10-24 18:53Z (ten bullets, all answered and merged in #236-#246).
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #236-#246. If none, stop.
+Blocked: none (copy: 34.87 Axis air schedule still missing).
+
+## 2026-10-25 15:23 MST — main
+Done: idle run. Feedback empty, no open autopilot PRs; cna-engine's Requests list unchanged since 2026-10-24 18:53Z (ten bullets, all answered and merged in #236-#246).
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #236-#246. If none, stop.
+Blocked: none (copy: 34.87 Axis air schedule still missing).
+
+## 2026-10-25 16:23 MST — main
+Done: idle run. Feedback empty, no open autopilot PRs; cna-engine's PROGRESS.md unchanged (last commit c905fd1), ten request bullets all answered in #236-#246.
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #236-#246. If none, stop.
+Blocked: none (copy: 34.87 Axis air schedule still missing).
+
+## 2026-10-25 19:41 MST — autopilot/axis-air-reinforcements
+Done: cna-engine request (convoy lanes + 32.66) answered: lanes data #247 (45c202a), R-126 no attack out of chart reach #248, R-127 5 % acts as 10 % #249, R-128 dummies counted after bombing #250. Found the "missing" Axis air schedule on jp2 176 (misnumbered 34.85): data in #251, two reads 0 diffs; copy question narrowed to Jan 1942 BR20 "B".
+In flight: #251 until its CI passes (merge it if green and still open).
+Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#251. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-25 19:52 MST — autopilot/ruling-r-130
+Done: two more cna-engine requests arrived mid-run: R-129 (HQs do not keep an out-of-ammo hex from surrendering, confirms cna-engine #40) #252; every OA HQ now has attachment_parent + organisation (#253); R-130 (unnamed parents use the nearest 19.5 row) #254.
+In flight: #254 until CI passes (merge if green and still open).
+Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#254. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-25 23:40 MST — autopilot/req-sirte-box
+Done: two new cna-engine requests answered: R-131, no dumps under §32 (24.9 off; #255 merged); R-132, Axis prisoner departure point is the Tripolitania box (#256).
+In flight: #256 until CI passes (merge if green and still open).
+Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#256. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 02:28 MST — autopilot/ruling-r-134
+Done: cna-engine request "construction costs under §32, and the minefield terrain" answered: R-133, under §32 construction spends no supplies (#257 merged); R-134, minefields go in clear, sand/gravel or rough per 24.35, chart's salt marsh a misprint (#258).
+In flight: #258 until CI passes (merge if green and still open).
+Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#258. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 03:25 MST — main
+Done: idle check. Feedback empty, no open autopilot PRs; cna-engine's six Requests bullets are all answered by #247-#258 (it has not yet bumped vendor/cna or cleared its list).
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #247-#258. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 04:25 MST — main
+Done: idle check. Feedback empty, no open autopilot PRs; cna-engine's Requests for cna now reads "None open" (vendor/cna bumped to 818fbf6 in cna-engine #51).
+In flight: none.
+Next: read cna-engine Requests for cna and Feedback; if both empty, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 05:45 MST — autopilot/req-road-locator
+Done: three cna-engine requests answered: OA `replaces`/`assigns` (21 Pz replaces 5 Le, II/155 replaces I/75, 7 Mtr, 32 Army Tank; #259 merged); R-135, Rommel is `unit:de:rommel`, not the DAK HQ, with a `commander` block and a `stacked_with` placement locator (#260 merged); M-933 coast-road fix and the 20 road hexes for 61.44's supply units (#261).
+In flight: #261 until CI passes (merge if green and still open).
+Next: read cna-engine Requests for cna; answer only bullets not covered by #259-#261. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 07:45 MST — autopilot/req-between-hexes
+Done: cna-engine request "Rommel's Arrival corner-hex placements as hex lists" answered: R-136, "between" = land hexes on a shortest path, triangle = land hexes with centre inside; 61.41 divisions (29 hexes, `apart: 2`), 61.44 dumps (44), 61.31 Aus triangle (17), 62.41 Crusader Savona triangle (14); map_geom.distance (2bc7326, #262).
+In flight: #262 until CI passes (merge if green and still open).
+Next: read cna-engine Requests for cna; answer only bullets not covered by #259-#262. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 07:40 MST — autopilot/ruling-r-137
+Done: R-136 (#262) merged. cna-engine request "Rommel's +5 CPA escort (31.0)" answered: R-137, every unit in his hex at stage start has CPA +5 while it stays with him; parting charges the spared DP at once; 8.17 cap and motorised class stay on printed CPA.
+In flight: R-137 PR until CI passes (merge if green and still open).
+Next: read cna-engine Requests for cna; answer only bullets not covered by #259-#263. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 08:25 MST — main
+Done: idle check. Feedback empty, no open autopilot PRs; cna-engine's two Requests bullets (Rommel's Arrival placements, +5 CPA escort) are answered by #262 and #263, both merged; it has not yet bumped vendor/cna or cleared its list.
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #259-#263. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 09:25 MST — main
+Done: idle check. Feedback empty, no open autopilot PRs; cna-engine's Requests list still holds only the two bullets answered by #262 and #263 (not yet cleared on its side).
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #259-#263. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 10:25 MST — main
+Done: idle check. Feedback empty, no open autopilot PRs; cna-engine's Requests list still holds only the two bullets answered by #262 and #263 (not yet cleared on its side).
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #259-#263. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 11:27 MST — autopilot/req-rommel-zoc
+Done: R-138 (lone Rommel in enemy ZOC: react/retreat first, then 10.29 captures) e22eaf8, PR #264.
+In flight: none.
+Next: re-read cna-engine Requests for cna; with nothing new, idle.
+Blocked: none.
+
+## 2026-10-26 12:37 MST — autopilot/req-shell-components
+Done: three cna-engine requests answered. R-139 8.53c pin = only a ZOC held before the mover arrived (#265, merged). R-140 Rommel retreats alone when an assault destroys his stack (#266, merged). R-141 counts_for_shell on every 19.3 component + CW armoured brigade II split into two rows, turns_list removed (#267).
+In flight: none once #267 merges.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #264-#267. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 14:25 MST — main
+Done: idle. Feedback empty, no open PRs; cna-engine's three requests already answered (#265–#267), not yet cleared on its side.
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #264-#267. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 15:25 MST — main
+Done: idle. Feedback empty, no open PRs; cna-engine still lists the three requests answered by #265–#267 (not cleared on its side).
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #264–#267. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 17:23 MST — main
+Done: idle. Feedback empty, no open PRs; cna-engine still lists the three requests answered by #265–#267 (not cleared on its side).
+In flight: none.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #264–#267. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 18:23 MST — main
+Done: idle. Feedback empty, no open PRs; cna-engine's Requests for cna now reads "None open".
+In flight: none.
+Next: read cna-engine Requests for cna and Feedback. If both empty, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 19:36 MST — autopilot/req-slot-fills
+Done: cna-engine request "which 19.3 slot each counter fills" → R-142 (#268): `fills`/`fills_part` on every OA counter, `part_slots` in formation-organisation.json, tank-group slots now tank-regiment-3sp. Commits 1966f66, f1c90b5 + docs.
+In flight: #268 awaiting CI, then merge.
+Next: read cna-engine Requests for cna; answer only bullets not covered by #268. If none, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-10-26 20:25 MST — main
+Done: idle. Feedback empty, no open PRs. cna-engine's only request (19.3 slot fills) is already answered by #268 (merged); verified `fills` on every OA counter incl. kopanski-mg.
+In flight: none.
+Next: read cna-engine Requests for cna and Feedback; skip the slot-fills bullet (done in #268). If nothing new, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").

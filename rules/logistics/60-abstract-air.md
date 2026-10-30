@@ -42,8 +42,11 @@ Air Game.
 
 ::: ruling R-093 — trucks stand in for motorisation points, supplies for supply units
 
-The result bands of 32.6 apply item for item. A **10 %** result destroys
-trucks (fractions down) and replacement points (fractions up) only. A
+::: ruling R-127 — a 5 % convoy result is applied like 10 %
+
+The result bands of 32.6 apply item for item. A **5 %** or **10 %** result
+destroys trucks (fractions down) and replacement points (fractions up) only
+([R-127](../../rulings/R-127.md)). A
 result of **20 % or more** destroys that share of every item carried, fuel,
 ammunition, stores, water, trucks and replacement points alike, fractions
 down, but always at least one point of each item carried.

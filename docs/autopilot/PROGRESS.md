@@ -14,6 +14,12 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Addressed
 
+- 2026-10-27 (cna-engine, Requests for cna) which 19.3 slot each counter fills → R-142 (#268, merged): `fills`/`fills_part` on every OA counter, `part_slots` for the German artillery group (three counters), Italian artillery regiment and anti-tank battalion (one to three); 31 counters assigned beyond their parent's chart row fill no slot.
+
+- 2026-10-26 (cna-engine, Requests for cna) three requests → all merged: whose ZOC pins in 8.53c → R-139 (#265): only an enemy ZOC the unit stood in before the mover arrived, never the mover's own; Rommel's stack destroyed in an assault → R-140 (#266): he makes a forced retreat of his own at once, captured only if he can't reach safety; which 19.3 components count toward a shell → R-141 (#267): `counts_for_shell` on every component (divisions count 2+ SP parts, brigades/regiments 1+ SP parts, 0 SP and unfigured slots never), and the CW armoured brigade type II is now two rows with one `turns` each.
+
+- 2026-10-26 (cna-engine, Requests for cna) a lone Rommel in an enemy ZOC → R-138 (#264): he may react or retreat before assault first; still alone in an enemy ZOC after that, he is captured (removed for good). On ordinary moves he may not enter an unoccupied enemy-controlled hex.
+
 - 2026-09-19 (Brian) mission 2 orders → acted on 2026-09-20: Part A merged (#17), Part B merged (#18, #20–#26: R-002–R-019 plus the generated `rulings/register.md`); Part C combat CRTs merged (#27, #28). Quoting policy followed as written; three quotes elide NJHarman's own quotation of a printed SPI sentence (noted in each footnote) because the overlap gate flags them.
 
 - 2026-10-08 (cna-engine, Requests for cna) six requests → all merged 2026-10-08: track cost agrees with E-031 (#168); combat wording phasing/non-phasing, probe refund shown in the CP table (#169; `cp-costs.json` was right as printed); stacking `equivalent` per unit type (#170); Land-only victory supply, R-110 (#171); weapon systems 4.47–4.49 as `data/tables/weapon-systems.json` (#172); cross-sheet adjacency `data/map/seams.json` (#173).
@@ -22,9 +28,31 @@ The next run reads this section first, acts on it, and moves each item to
 
 - 2026-10-13 (cna-engine, Requests for cna) six more requests → one PR each, all merged 2026-10-13: typed set-up constraints for Graziani's (`region`+`sheets` combine, `west_of`, `together`, `place` lists; #236); R-120, a unit that cannot pay abstract fuel does not move by land and one that cannot pay ammunition is out of ammunition (#237); R-121, a company-equivalent pays half a battalion-equivalent's ammunition (#238); R-122, points held back from a committed defender count in the loss base, a unit withheld whole only in an overrun (#239); supply figures are per unit unless `pooled` (#240); motorisation as data, `from` plus Rommel's printed unattached counts (#241, changes the type of `motorisation`).
 
+- 2026-10-24 (cna-engine, Requests for cna) motorisation points to motorise a foot unit (32.5x) → R-123 (#243, merged): one motorisation point per TOE strength point of any kind (6.17's one-per-point for AA guns over the chart's two); a unit short of points is not motorised (8.91).
+
+- 2026-10-24 (cna-engine, Requests for cna) two more → one PR each: a Game-Turn calendar, `data/tables/calendar.json` (#244, merged; every month is exactly four turns, weeks I–IV, GT1 = September III 1940, GT111 = January I 1943, read from the 34.84 chart); HQ echelons as data plus R-124 for the air lift (#245): every OA HQ has `echelon`, regiment HQs count as brigades, battle groups and the corps HQ never qualify, and the row limit is the farthest division HQ counter.
+
+- 2026-10-24 (cna-engine, Requests for cna) which TOE points are armoured cars, armoured recce or trucks (21.1x) → R-125 (#246, merged): every OA reconnaissance unit carries a breakdown `vehicle` class; Axis rows follow their chart notes (ee, ff, vv, ww armoured cars), Commonwealth units are split per unit (armoured car regiments vs divisional recce and cavalry), camels and motorcycles never break down, Italian desert patrols break down as trucks; no TOE point is a unit's own truck.
+
+- 2026-10-26 (cna-engine, Requests for cna) convoy lanes (56.1) and three questions on 32.66 → one PR each, all merged: `data/tables/convoy-lanes.json`, the Axis Naval Convoy Air Distance Chart with each lane's destination port, opening turn and distances (#247; early on only lanes 2, 3 and 6 are open, matching Graziani's 60.37); R-126, a convoy no qualifying division reaches on the chart is not attacked (#248; the 1–20 column would score 0 % on every roll anyway); R-127, a 5 % result hits only motorisation and replacement points, like 10 % (#249; also the Air Game's 47.65 and the Logistics Game's 58.1); R-128, dummy supply units are counted from units that arrive, after bombing (#250).
+
+- 2026-10-26 (cna-engine, Requests for cna) two more, arrived mid-run → merged: R-129, an out-of-ammunition hex surrenders even with HQs in it, when every defender that owes ammunition is out (#252, confirms cna-engine #40); every OA HQ names its Maximum Attachment row (`attachment_parent`) and Formation Organisation row (`organisation`) (#253), with R-130 for the parents the 19.5 chart does not name: German brigades take the regiment row, German artillery regiment HQs the artillery brigade HQ row, Commonwealth army tank brigades the tank brigade rows (#254).
+
+- 2026-10-26 (cna-engine, Requests for cna) two more → one PR each: R-131, under abstract supply (§32) 24.9 is off and no dumps are built, real or dummy, so 32.18's one-per-three dummy cap holds (#255, merged); R-132, the Axis prisoner departure point (28.16's "Sirte box", which exists nowhere) is the Tripolitania box, reached by the 8.85 exit from A2802 (#256).
+
+- 2026-10-26 (cna-engine, Requests for cna) construction costs under §32 and the minefield terrain → one PR each: R-133, under abstract supply construction spends no ammunition, fuel, stores or water and needs no supply unit in the hex (#257, merged; 32.11 ignores all supply use); R-134, minefields go in clear, sand/gravel or rough as 24.35 says, the chart's salt marsh read as a misprint (#258, merged).
+
+- 2026-10-26 (cna-engine, Requests for cna) three more → one PR each: OA `replaces` / `assigns` for counters that replace counters: 21st Panzer HQ replaces 5th Light at 2/58 and takes the 104th and 155th regiments, II/155 replaces I/75, 7th Motor Bde replaces 7th Support Group, 32nd Army Tank Bde replaces 3rd Armoured Bde (#259, merged); R-135, Rommel is his own counter `unit:de:rommel` (not the DAK HQ: 27.92's raid key needs him able to stand without an HQ), arriving with the DAK HQ, placed with any German unit where a set-up leaves him out (#260, merged); the coast road from El Agheila to Nofilia as its 20 hexes for 61.44's supply units, after map fix M-933 (the road was missing on A2109|A2208; #261, merged).
+
+- 2026-10-26 (cna-engine, Requests for cna) Rommel's Arrival's corner-hex placements as hex lists → R-136 (#262, merged): "between" two places is every land hex on a shortest path between them, a triangle every land hex whose centre is inside or on it. The four Italian divisions get 29 hexes and `apart: 2`; the Axis dumps 44; the Australians' Tocra–Er Regima–Benghazi triangle 17; Operation Crusader's Savona triangle (same shape) 14.
+
+- 2026-10-26 (cna-engine, Requests for cna) Rommel's +5 CPA escort (31.0) → R-137 (#263, merged): every unit in his hex when a stage begins has CPA +5 while it stays with him; parting ends it at once and charges the disorganisation it had spared; the 8.17 non-motorised cap stays on the printed CPA.
+
 ## Status
 
-**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. On 2026-10-13 it answered ten requests (#232–#241), all merged, among them rulings R-117–R-122.
+**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. Today (2026-10-26) it answered cna-engine's requests with: convoy lanes (#247) with R-126–R-128 (#248–#250); R-129 (#252); HQ organisation types (#253) with R-130 (#254); R-131 (#255); R-132 (#256); R-133 (#257); R-134 (#258); replacement counters (#259); R-135, Rommel (#260); the coast-road hexes (#261); R-136, the "between" and triangle set-up areas (#262); R-137, Rommel's +5 CPA escort (#263); R-138, a lone Rommel in an enemy ZOC (#264); R-139, whose ZOC pins a reaction (#265); R-140, Rommel when an assault destroys his stack (#266); R-141, which organisation-chart components count toward a shell (#267); R-142, which chart slot each counter fills (#268). All merged.
+
+**Found:** the Axis Airplane Reinforcement Schedule (34.87), which the decision board said was in neither scan, is printed at the foot of the Axis chart sheet under the wrong number (34.85). It is now data (#251): 28 months, 286 deliveries, two independent reads with 0 differences. The Axis now gets its air reinforcements.
 
 | Task | What landed | PRs |
 |---|---|---|
@@ -35,31 +63,16 @@ The next run reads this section first, acts on it, and moves each item to
 | 4. Rulings | R-111–R-116 accepted | #203, #209–#213 |
 | 5. Docs | README, overview, design Status, queue | #214 |
 
-18 air chart files are data, each read twice (the archive.org scan and the community chart PDFs). 0 cells differed except the ones noted in #193 and #198.
-
-Air rulings, one line each:
-
-| Ruling | Decision |
-|---|---|
-| R-111 | flak printed on the map or in a box is heavy; fighters cannot suppress it |
-| R-112 | refit additions follow the aircraft's nation (38.35), not the SGSU's |
-| R-113 | the Flak Adjustment Chart sets the density shift; the results table's notes are not used |
-| R-114 | with the Air Game, §32's anti-air stripping (32.8) does not apply |
-| R-115 | no rating-5 pilots: the arrival tables print 1–4, Marseille is the only 6 |
-| R-116 | Commonwealth squadrons 15+5 to June 1941, 18+6 from July (rules text over the chart) |
-
 Missions 1–6 are complete (PRs #2–#187); their summaries are in the git history of this file and in `docs/designs/`.
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. Nothing is open after #241. (Runs of 2026-10-13 22:23 and 23:23 and 2026-10-14 00:23 and 01:23 UTC: cna-engine's list still shows the six requests answered by #236–#241; they wait for its autopilot to bump `vendor/cna` and clear them, so nothing new to do.)
-
-Probably next from cna-engine: the other scenarios still describe some placements only in `constraint` sentences (Rommel's Arrival, Crusader, The Last Chance). The grammar from #236 covers some of them, and the rest need pooled-dump limits and front-line rules.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-10-27 03:25 UTC the one open request (which 19.3 slot each counter fills) is answered by R-142 (#268, merged 02:33 UTC; `fills` on all 1,021 OA counters); cna-engine has yet to bump `vendor/cna` and clear it. Nothing else is asked.
 
 For Brian (all optional):
 
-- **Dispute anything.** New today: **R-120** (abstract supply: no fuel, no land move; no ammunition, no defence) and **R-122** (reconciles 15.16 with 15.83). Air rulings worth a look: **R-114** (AA units stay with the Air Game) and **R-116** (squadron size: text over chart). Older: R-099, R-108, R-110, R-027, R-071.
-- **Questions only your printed copy can answer** (decision board, `copy` group), new: the **Axis Airplane Reinforcement Schedule (34.87)** is in neither scan, so the Axis currently gets no air reinforcements. Still open: the German Tank and Gun chart's three misaligned rows, Axis coastal ship tonnages, German c/d CPA, the el Grein garrison.
+- **Dispute anything.** New today: **R-142** (a counter fills only chart slots of its own kind and size: the Kopanski MG Company can't hold the Polish brigade's battalion slot, and the 1st Free French's two surplus battalions fill nothing; the Libyan Tank Command's slots now name the 3 SP regiment), **R-139** (a reaction is pinned only by an enemy ZOC the unit was in before the mover arrived — this changes the engine for every unit), **R-140** (Rommel retreats alone, through enemy ZOC, when an assault destroys his stack), **R-141** (shell counts use the chart's printed SP: a division counts its 2 SP parts, a brigade its 1 SP parts, so the 5th Light counts only its armoured regiment), **R-138** (a lone Rommel in an enemy ZOC may react or retreat first, and is captured only if still stuck there), **R-137** (Rommel's +5 CPA goes to every unit he starts a stage with), **R-136** ("between" two places is a band of land hexes on a shortest path, not just the road), **R-135** (Rommel is a counter of his own, not the DAK HQ), **R-133** (construction costs no supplies under abstract supply), **R-134** (minefields in rough, not salt marsh), **R-131** (no supply dumps under abstract supply), **R-132** (Axis prisoners leave in the Tripolitania box), **R-126** (a convoy out of the chart's reach is not attacked), **R-127** (a 5 % convoy result hits only motorisation and replacement points), **R-128** (dummies are counted from units that arrive), **R-129** (HQs don't stop an out-of-ammunition hex surrendering), **R-130** (which attachment row unnamed parents use). The HQ organisation mapping in #253 has a few judgment calls listed in its PR (Giovani Fascisti as semi-motorised, 5th Light as an armour division). From 2026-10-24: R-123, R-124, R-125. Older: R-120, R-122, R-114, R-116, R-099, R-108, R-110, R-027, R-071.
+- **Questions only your printed copy can answer** (decision board, `copy` group): the **January 1942 BR20 count** on the Axis air chart is printed as the letter "B" on both scans (probably an 8 or a 6; the engine delivers none until you say). Still open: the German Tank and Gun chart's three misaligned rows, Axis coastal ship tonnages, German c/d CPA, the el Grein garrison.
 - Vault: the *CNA Living Rules* roadmap row for Mission 7 is yours to flip to done.
 
 ## Runs and quota
@@ -232,3 +245,91 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-10-13 16:23 | 0 | 9→9 | 34→35 | $0.22 | 3 | Nothing to do this run, so I stopped early on purpose. The rulebook is complete, so the standing orders only cover cna-engine requests and your Feedback, and th |
 | 2026-10-13 17:23 | 0 | 9→9 | 35→35 | $0.26 | 3 | I made no changes to the rulebook this run because there was nothing to answer: - **Feedback:** the section is empty. - **Open autopilot PRs:** none. - **cna-en |
 | 2026-10-13 18:23 | 0 | 10→10 | 39→39 | $0.26 | 4 | Nothing to do this run. **Feedback** is empty, and no autopilot PRs are open. cna-engine's *Requests for cna* still lists the same six requests, and #236–#241 a |
+| 2026-10-19 04:23 | 0 | 56→56 | 0→0 | $0.31 | 5 | Nothing to do this run, so I stopped. There's no Feedback, no open autopilot PRs, and nothing new from cna-engine. The rulebook is finished, so under the standi |
+| 2026-10-19 05:23 | 0 | 56→56 | 0→0 | $0.26 | 5 | Nothing to do this run, so it's idle by design: the rulebook is finished, and the standing orders say to stop when there's no request or Feedback. - **Feedback: |
+| 2026-10-19 06:23 | 0 | 56→56 | 0→0 | $0.25 | 4 | This was an idle run: nothing was waiting for this repo, so I did no rules or data work. The rulebook is finished, there's no Feedback, no autopilot PRs are ope |
+| 2026-10-19 07:23 | 0 | 56→56 | 0→0 | $0.25 | 4 | Nothing to do this run. The rulebook is complete, so the standing orders limit this repo to Feedback and cna-engine's requests, and there are none of either: -  |
+| 2026-10-19 08:23 | 0 | 56→56 | 0→0 | $0.25 | 4 | I didn't do any work this run because nothing was asked for. The Feedback section is empty, no autopilot PRs are open, and cna-engine's *Requests for cna* lists |
+| 2026-10-19 09:23 | 0 | 57→57 | 0→0 | $0.28 | 4 | I did nothing this run because there was nothing to do. The rulebook is finished, and my orders now only cover cna-engine's requests and your Feedback. - **Feed |
+| 2026-10-19 10:23 | 0 | 58→58 | 9→9 | $0.25 | 4 | Nothing to do this run, so I stopped early on purpose. The rulebook is complete, and the standing orders say to stop when there are no requests and no feedback. |
+| 2026-10-19 11:23 | 0 | 58→58 | 12→12 | $0.24 | 4 | Nothing to do this run, so it stopped early as the finish-line orders say. There's no Feedback in PROGRESS.md, no open autopilot PRs, and all six items on cna-e |
+| 2026-10-19 12:23 | 0 | 59→59 | 19→19 | $0.25 | 4 | This was an idle run. Feedback was empty, no autopilot PRs were open, and cna-engine's *Requests for cna* still lists only the six requests already answered and |
+| 2026-10-19 13:23 | 0 | 60→60 | 27→27 | $0.25 | 4 | Idle run: there was nothing to do, so I made no changes beyond the progress note. - **Feedback:** the section is empty. - **Open PRs:** no autopilot PRs are ope |
+| 2026-10-19 14:23 | 0 | 61→? | 0→? | $0.25 | 5 | Idle run: there was nothing to work on. The only change is the "last checked" timestamp in `PROGRESS.md` (72048e0, pushed to main). - **Feedback:** empty. - **O |
+| 2026-10-19 15:23 | 0 | 61→61 | 2→2 | $0.25 | 4 | Idle run, nothing to do. The rulebook is finished, and the standing orders limit this repo to cna-engine requests and your Feedback. Neither has anything new: - |
+| 2026-10-19 16:23 | 0 | 62→? | 8→? | $0.25 | 4 | This was an idle run: there was nothing for this repo to do. Feedback is empty, there are no open autopilot PRs, and every item on cna-engine's **Requests for c |
+| 2026-10-19 17:23 | 0 | 62→? | 10→? | $0.25 | 4 | Idle run: there was nothing to do. The Feedback section is empty, no autopilot PRs are open, and cna-engine's *Requests for cna* still lists only the six reques |
+| 2026-10-19 18:23 | 0 | 63→63 | 14→14 | $0.26 | 5 | Brian, this was an idle run. The only change was updating the "last checked" time in `PROGRESS.md` (a3e187e on main). - **Feedback:** the section is empty, and  |
+| 2026-10-19 19:23 | 0 | 64→64 | 0→0 | $0.29 | 5 | This was an idle run, and nothing in the repo changed except the "last checked" time in `PROGRESS.md` (`93b37e1`, pushed to main). - **Feedback:** empty. - **Op |
+| 2026-10-19 20:23 | 0 | 64→? | 3→? | $0.26 | 5 | Nothing to do this run, so it ended early by design. With the rulebook finished, the standing orders say to stop when nothing is requested. - **Feedback:** empt |
+| 2026-10-19 21:23 | 0 | 65→65 | 12→12 | $0.25 | 4 | This was an idle run: there was no work to pick up. The Feedback section is empty, no autopilot PRs are open, and cna-engine's "Requests for cna" list still hol |
+| 2026-10-19 22:23 | 0 | 66→? | 15→? | $0.24 | 4 | Nothing to do this run, so I stopped after the checks, as the standing orders say to once the queue is finished. - **Feedback:** empty. - **Open autopilot PRs:* |
+| 2026-10-19 23:23 | 0 | 67→? | 19→? | $0.25 | 4 | This run had nothing to do, so it stopped early. The standing orders say to do that once the rulebook is complete. - **Feedback:** empty. - **Open autopilot PRs |
+| 2026-10-20 00:23 | 0 | 67→? | 0→? | $0.26 | 4 | This was an idle run: there was no new work, so I stopped, as the finish-line orders say. - **Feedback:** the section is empty. - **Open autopilot PRs:** none.  |
+| 2026-10-20 01:23 | 0 | 68→? | 1→? | $0.25 | 4 | This run had nothing to do, so I only updated the "last checked" time in `PROGRESS.md` (commit 07fdb1d, pushed to `main`). - **Feedback:** the section is empty. |
+| 2026-10-20 02:23 | 0 | 68→? | 3→? | $0.27 | 5 | Nothing to do this run, so I only updated the "last checked" time in `docs/autopilot/PROGRESS.md` (cbd2bf0, pushed to main). - **Feedback:** empty. - **cna-engi |
+| 2026-10-20 03:23 | 0 | 68→? | 3→? | $0.24 | 4 | I did nothing this run because there was nothing to do. Your Feedback section is empty, no autopilot PRs are open, and cna-engine's *Requests for cna* still lis |
+| 2026-10-20 08:23 | 0 | 68→68 | 0→0 | $0.27 | 4 | I did nothing this run because there was nothing to do. The rulebook is complete, so the standing orders limit this repo to Brian's Feedback and cna-engine's re |
+| 2026-10-20 09:23 | 0 | 68→68 | 2→2 | $0.26 | 4 | Nothing to do this run, so it was idle. Feedback is empty, no autopilot PRs are open, and cna-engine's *Requests for cna* still lists only the six requests answ |
+| 2026-10-20 10:23 | 0 | 69→69 | 6→7 | $0.25 | 4 | Idle run with nothing to do. The rulebook is complete, the Feedback section is empty, no autopilot PRs are open, and cna-engine's *Requests for cna* still lists |
+| 2026-10-20 11:23 | 0 | 69→? | 11→? | $0.25 | 4 | I didn't do any work this run because nothing was waiting: - **Feedback** in `PROGRESS.md` is empty. - **Open autopilot PRs:** none. - **cna-engine's requests:* |
+| 2026-10-20 12:23 | 0 | 70→70 | 14→14 | $0.25 | 4 | This run found nothing to do. The rulebook is complete, your Feedback section is empty, no autopilot PRs are open, and cna-engine's *Requests for cna* still lis |
+| 2026-10-20 13:23 | 0 | 70→70 | 1→1 | $0.26 | 5 | This run had nothing to do, so I stopped. Under the finish-line rule, the repo now only takes Brian's Feedback and cna-engine's requests, and there were neither |
+| 2026-10-20 14:23 | 0 | 70→? | 2→? | $0.25 | 4 | Idle run: there was nothing to do, so I stopped early as AUTOPILOT.md says to once the rulebook is done. - **Feedback:** the section is empty. - **Open autopilo |
+| 2026-10-20 15:23 | 0 | 70→? | 4→? | $0.29 | 4 | Idle run with no changes beyond the timestamp. Feedback is empty, no autopilot PRs are open, and cna-engine's **Requests for cna** still lists the six requests  |
+| 2026-10-24 10:23 | 21 | 21→21 | 4→4 | $1.45 | 44 | I answered cna-engine's one new request with ruling R-123 and merged it as #243. All local gates and CI passed. - **The question:** how many motorisation points |
+| 2026-10-24 11:23 | 9 | 21→22 | 6→8 | $2.34 | 56 | Both new cna-engine requests are answered and merged. Gates on `main` are green after the merges (341 tests pass, `check_data` OK, `gen_pages` leaves no diff).  |
+| 2026-10-24 13:23 | 5 | 23→24 | 19→19 | $1.88 | 37 | cna-engine's last open request is answered and merged as **R-125** (#246). Its 21.1x question was which TOE points are armoured cars, armoured recce or trucks.  |
+| 2026-10-24 15:23 | 0 | 24→24 | 0→0 | $0.41 | 9 | Nothing to do this run, so I logged it and stopped. Under the finish-line orders the rulebook is complete, and the repo only answers cna-engine's requests and y |
+| 2026-10-24 16:23 | 0 | 24→24 | 0→0 | $0.42 | 6 | This was an idle run with nothing to do, so I stopped early on purpose. The standing orders say to stop once the rulebook is done and nothing is requested. - ** |
+| 2026-10-24 17:23 | 0 | 24→24 | 5→5 | $0.33 | 5 | Nothing to do this run, so I stopped. - **Feedback:** the section is empty. - **Open autopilot PRs:** none. - **cna-engine's requests:** its list still has the  |
+| 2026-10-24 18:23 | 0 | 25→? | 6→? | $0.27 | 4 | Nothing to do this run. The Feedback section is empty, no autopilot PRs are open, and every item on cna-engine's *Requests for cna* list already has a PR (#236– |
+| 2026-10-24 19:23 | 0 | 25→25 | 6→6 | $0.35 | 5 | There was nothing to do this run, so the only change is the "last checked" time in `docs/autopilot/PROGRESS.md` (commit 4a23035, pushed to `main`). - **Feedback |
+| 2026-10-24 20:23 | 0 | 25→25 | 0→0 | $0.37 | 7 | Nothing to do this run, so I stopped early on purpose. - **Feedback:** the section is empty. - **Open autopilot PRs:** none. - **cna-engine requests:** its list |
+| 2026-10-24 21:23 | 0 | 25→25 | 1→1 | $0.34 | 8 | Nothing to do this run, so I stopped early: the rulebook is finished and there's no new work for it. - **Feedback:** your section in `PROGRESS.md` is empty. - * |
+| 2026-10-24 22:23 | 0 | 25→25 | 2→2 | $0.28 | 4 | Nothing to do this run, so I stopped. The rulebook is finished, and the standing orders allow work only on Feedback or cna-engine's requests: - **Feedback** is  |
+| 2026-10-24 23:23 | 0 | 25→25 | 3→3 | $0.29 | 5 | Nothing to do this run, so I stopped. The rulebook is complete, and the standing orders say to stop when there's no request and no Feedback. - **Feedback:** emp |
+| 2026-10-25 00:23 | 0 | 25→25 | 3→3 | $0.27 | 3 | This was an idle run, and stopping early is what the standing orders say to do once the rulebook is complete. - **Feedback:** empty. - **Open autopilot PRs:** n |
+| 2026-10-25 01:23 | 0 | 25→25 | 0→0 | $0.31 | 5 | This run was idle on purpose and changed nothing in the rulebook. - **Feedback:** empty. - **Open autopilot PRs:** none. - **cna-engine's Requests for cna:** th |
+| 2026-10-25 02:23 | 0 | 25→25 | 0→0 | $0.27 | 3 | Nothing to do this run. Feedback is empty, no autopilot PRs are open, and cna-engine's *Requests for cna* still lists the same ten items, all answered by #236–# |
+| 2026-10-25 03:23 | 0 | 25→25 | 0→0 | $0.33 | 6 | This run had nothing to do, so I stopped early, as the standing orders say to once the rulebook is complete. - **Feedback:** your section in `PROGRESS.md` is em |
+| 2026-10-25 04:23 | 0 | 25→25 | 0→0 | $0.27 | 3 | This was an idle run with nothing to do. There's no Feedback, no open autopilot PRs, and cna-engine's *Requests for cna* still lists the same ten bullets, all a |
+| 2026-10-25 05:23 | 0 | 25→25 | 0→0 | $0.27 | 3 | This run did nothing, which is what the standing orders call for when nothing is asked. The rulebook is complete, the Feedback section is empty, no autopilot PR |
+| 2026-10-25 06:23 | 0 | 25→25 | 0→0 | $0.39 | 5 | This run had nothing to do, so the only change was moving the "checked" time in `PROGRESS.md` to 13:23 UTC (`894701a`, pushed to main). - **Feedback:** empty. - |
+| 2026-10-25 07:23 | 0 | 25→25 | 0→0 | $0.28 | 4 | Nothing to do this run, so I stopped early on purpose. The standing orders say to stop when there is nothing to work on, and that rule outranks using the full t |
+| 2026-10-25 08:23 | 0 | 25→25 | 0→0 | $0.40 | 5 | I made no changes to the rulebook this run because there was nothing to work on. - **Feedback:** the section in `PROGRESS.md` is empty. - **Open autopilot PRs:* |
+| 2026-10-25 09:23 | 0 | 25→25 | 0→0 | $0.38 | 6 | Nothing to do this run, so I stopped after the check. - **Feedback:** the section is empty. - **Open autopilot PRs:** none. - **cna-engine's Requests for cna:** |
+| 2026-10-25 10:23 | 0 | 25→25 | 1→2 | $0.35 | 5 | Idle run: there was nothing to do. - **Feedback:** the section is empty. - **Open autopilot PRs:** none. - **cna-engine's Requests for cna:** it still lists the |
+| 2026-10-25 11:23 | 0 | 26→26 | 1→1 | $0.42 | 6 | Nothing to do this run, so I stopped. - **Feedback:** the section is empty. - **Open autopilot PRs:** none. - **cna-engine's Requests for cna:** the list hasn't |
+| 2026-10-25 12:23 | 0 | 26→26 | 2→2 | $0.34 | 5 | I did nothing this run because there was nothing to do. The rulebook is complete, so the standing orders limit work to your Feedback and cna-engine's requests:  |
+| 2026-10-25 13:23 | 0 | 26→26 | 2→2 | $0.31 | 5 | Nothing to do this run, so I stopped early as the standing orders require once the rulebook is done. - **Feedback:** empty. - **Open autopilot PRs:** none. - ** |
+| 2026-10-25 14:23 | 0 | 26→26 | 3→3 | $0.29 | 4 | Nothing to do this run, so I stopped early. There is no Feedback and no open autopilot PRs. cna-engine's *Requests for cna* still lists the same ten requests, a |
+| 2026-10-25 15:23 | 0 | 27→27 | 9→9 | $0.31 | 5 | This run did nothing, because nothing was asked for. The Feedback section is empty, no autopilot PRs are open, and cna-engine's *Requests for cna* list hasn't c |
+| 2026-10-25 16:23 | 0 | 27→27 | 0→0 | $0.37 | 6 | I did no work this run because nothing was asked for. Feedback is empty, there are no open autopilot PRs, and cna-engine's `PROGRESS.md` hasn't changed since th |
+| 2026-10-25 17:23 | 0 | 29→29 | 7→7 | $0.29 | 5 | Idle run with nothing to do. The rulebook is finished, so the standing orders say to work only on cna-engine's requests and your Feedback, and stop when there a |
+| 2026-10-25 18:23 | 0 | 29→29 | 10→10 | $0.26 | 3 | Nothing to do this run, so I stopped. There's no Feedback, no open autopilot PRs, and cna-engine's *Requests for cna* list now says "None open" (its `vendor/cna |
+| 2026-10-25 19:23 | 30 | 29→30 | 13→17 | $8.91 | 163 | I answered all three requests from cna-engine and merged everything. I also found the Axis air reinforcement chart that we had recorded as missing from both sca |
+| 2026-10-25 20:23 | 0 | 30→30 | 18→18 | $0.39 | 4 | Nothing to do this run. Feedback is empty and no autopilot PRs are open. cna-engine still lists three requests: convoy lanes with 32.66, surrender with HQs in t |
+| 2026-10-25 21:23 | 0 | 31→31 | 0→0 | $0.34 | 5 | Nothing to do this run, so I stopped. - **Feedback:** the section is empty. - **Open autopilot PRs:** none. - **cna-engine requests:** it still lists three (con |
+| 2026-10-25 22:23 | 0 | 31→? | 2→? | $0.33 | 4 | I did no new work this run: there was nothing to act on. Your Feedback section is empty and no autopilot PRs are open. cna-engine still lists three requests (co |
+| 2026-10-25 23:23 | 9 | 32→32 | 7→9 | $1.51 | 38 | I answered both new cna-engine requests with a ruling each, and both are merged with gates and CI green. - **R-131 (#255): no supply dumps under abstract supply |
+| 2026-10-26 00:23 | 0 | 33→33 | 15→15 | $0.41 | 4 | Nothing to do this run, so I made no changes and committed nothing. - **Feedback:** the section in `PROGRESS.md` is empty. - **Open autopilot PRs:** none. #247– |
+| 2026-10-26 01:23 | 0 | 33→33 | 16→16 | $0.35 | 5 | There was nothing new to do this run, so I stopped early under the finish-line rule. - **Feedback:** the section is empty. - **Open autopilot PRs:** none. - **c |
+| 2026-10-26 02:23 | 7 | 34→34 | 0→0 | $1.72 | 44 | cna-engine had one new request this run, on construction costs under abstract supply and where minefields may be laid. I answered it with two rulings, one PR ea |
+| 2026-10-26 03:23 | 0 | 34→? | 3→? | $0.39 | 7 | I made no rule changes this run because nothing new was asked. Your Feedback section is empty, no autopilot PRs are open, and all six bullets on cna-engine's *R |
+| 2026-10-26 04:23 | 0 | 35→? | 7→? | $0.38 | 5 | Nothing to do this run. Your Feedback section is empty, there are no open autopilot PRs, and cna-engine's *Requests for cna* now says "None open": it bumped `ve |
+| 2026-10-26 05:23 | 19 | 35→35 | 9→12 | $4.45 | 100 | All three new cna-engine requests are answered and merged (#259–#261). CI passed on each PR, and every local gate was green before merging. - **#259, 21st Panze |
+| 2026-10-26 06:23 | 0 | 35→? | 12→? | $0.32 | 4 | This run did no work: there was no Feedback and no new requests from cna-engine. - **cna-engine's requests:** its list still shows three: 5th Light → 21st Panze |
+| 2026-10-26 07:23 | 14 | 35→36 | 0→3 | $3.11 | 75 | cna-engine had two open requests this run. I answered both, and each was merged after the local checks and CI passed. - **#262, R-136: set-up areas as hex lists |
+| 2026-10-26 08:23 | 0 | 36→? | 3→? | $0.35 | 6 | Nothing to do this run, so I logged an idle check and stopped. - **Feedback:** empty. - **Open autopilot PRs:** none. - **cna-engine's requests:** its list stil |
+| 2026-10-26 09:23 | 0 | 36→36 | 4→4 | $0.34 | 5 | Nothing to do this run, so it was an idle check. - **Feedback:** empty. - **Open autopilot PRs:** none. - **cna-engine's Requests for cna:** only two bullets, R |
+| 2026-10-26 10:23 | 0 | 36→36 | 8→8 | $0.31 | 4 | There was nothing to do this run, so it was an idle check. The rulebook is complete, so the orders now limit work to Feedback and cna-engine's requests, and nei |
+| 2026-10-26 11:23 | 6 | 37→37 | 12→12 | $0.99 | 24 | I answered cna-engine's one open request, about a lone Rommel in an enemy zone of control, with ruling **R-138**. It's merged as #264, and CI gates and site bot |
+| 2026-10-26 12:23 | 16 | 38→39 | 0→4 | $2.54 | 59 | I answered all three open cna-engine requests with three rulings, and all three PRs are merged. Every gate passed locally and in CI. - **R-139 (#265), whose zon |
+| 2026-10-26 13:23 | 0 | 39→39 | 6→6 | $0.29 | 4 | I did nothing this run because nothing is waiting. The rulebook is complete, there's no **Feedback** for me, and no autopilot PR is open. cna-engine's **Request |
+| 2026-10-26 14:23 | 0 | 39→? | 6→? | $0.31 | 6 | This run did nothing, as intended. The rulebook is finished, and there was no new work from either source: - **Your Feedback** is empty. - **cna-engine's reques |
+| 2026-10-26 15:23 | 0 | 39→? | 6→? | $0.43 | 5 | I did nothing this run because nothing was asked for. Your Feedback section is empty, no autopilot PRs are open, and the three requests cna-engine still lists w |
+| 2026-10-26 17:23 | 0 | 40→40 | 0→0 | $0.33 | 5 | I did nothing this run because there was nothing to do: the Feedback section is empty, no autopilot PRs are open, and the rulebook is complete. cna-engine still |
+| 2026-10-26 18:23 | 0 | 41→? | 7→? | $0.26 | 4 | This run did nothing, because nothing was asked for. Feedback is empty, no autopilot PRs are open, and cna-engine's "Requests for cna" section now says "None op |
+| 2026-10-26 19:23 | 11 | 42→? | 11→? | $3.20 | 54 | I answered cna-engine's one open request, "which 19.3 chart slot each counter fills", with ruling R-142, merged as PR #268. Local gates and CI were green before |
+| 2026-10-26 20:23 | 0 | 42→? | 13→? | $0.39 | 7 | Nothing new to do this run. The rulebook is complete, Feedback is empty and no autopilot PRs are open. cna-engine has one request listed (which 19.3 chart slot  |

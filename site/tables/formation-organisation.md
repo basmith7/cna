@@ -8,7 +8,7 @@ aside: false
 
 # Formation organisation
 
-Used in [Organisation](/rules/70-organisation).
+Used in [Stacking, zones of control and reserve](/rules/50-stacking-and-zoc), [Organisation](/rules/70-organisation).
 
 ## Units
 
@@ -70,6 +70,14 @@ Used in [Organisation](/rules/70-organisation).
 - **288-sonderverband:** DE 288th Sonderverband (2 SP)
 - **361-afrika-regiment:** DE 361st Afrika Regiment (2 SP)
 
+## Part slots
+
+|  | Parts | Min |
+|---|---|---|
+| **Artillery-group** | 3 | 3 |
+| **Artillery-regiment** | 3 | 1 |
+| **Anti-tank-battalion** | 3 | 1 |
+
 ## Table
 
 ### Commonwealth · armoured division · 5 · I
@@ -78,10 +86,10 @@ Used in [Organisation](/rules/70-organisation).
 
 #### Components
 
-| Count | Unit | SP | Type |
-|---|---|---|---|
-| 2 | armoured brigade | 2 | I |
-| 1 | support group | 2 | I |
+| Count | Unit | SP | Type | Counts for shell |
+|---|---|---|---|---|
+| 2 | armoured brigade | 2 | I | yes |
+| 1 | support group | 2 | I | yes |
 
 ### <span class="wrap">Commonwealth · armoured division · 5 · II</span>
 
@@ -89,11 +97,11 @@ Used in [Organisation](/rules/70-organisation).
 
 #### Components
 
-| Count | Unit | SP | Type | Any of |
-|---|---|---|---|---|
-| 2 | armoured brigade | 2 | II | — |
-| 1 | support group | 2 | II | — |
-| 1 | — | 1 | — | armoured car unit, armoured recce unit |
+| Count | Unit | SP | Type | Counts for shell | Any of |
+|---|---|---|---|---|---|
+| 2 | armoured brigade | 2 | II | yes | — |
+| 1 | support group | 2 | II | yes | — |
+| 1 | — | 1 | — | no | armoured car unit, armoured recce unit |
 
 ### <span class="wrap">Commonwealth · armoured division · 5 · III</span>
 
@@ -101,11 +109,11 @@ Used in [Organisation](/rules/70-organisation).
 
 #### Components
 
-| Count | Unit | SP | Type |
-|---|---|---|---|
-| 1 | armoured brigade | 2 | III |
-| 1 | support group | 2 | III |
-| 1 | armoured car unit | 1 | — |
+| Count | Unit | SP | Type | Counts for shell |
+|---|---|---|---|---|
+| 1 | armoured brigade | 2 | III | yes |
+| 1 | support group | 2 | III | yes |
+| 1 | armoured car unit | 1 | — | no |
 
 ### <span class="wrap">Commonwealth · armoured division · 5 · IV</span>
 
@@ -113,30 +121,30 @@ Used in [Organisation](/rules/70-organisation).
 
 #### Components
 
-| Count | Unit | SP | Type | Any of |
-|---|---|---|---|---|
-| 1 | armoured brigade | 2 | II | — |
-| 1 | infantry brigade | 2 | — | — |
-| 3 | artillery unit | 1 | — | — |
-| 1 | anti tank regiment | 1 | — | — |
-| 1 | light aa unit | 1 | — | — |
-| 1 | machinegun battalion | 1 | — | — |
-| 1 | engineer battalion | 1 | — | — |
-| 1 | — | 1 | — | armoured car unit, armoured recce unit |
+| Count | Unit | SP | Type | Counts for shell | Any of |
+|---|---|---|---|---|---|
+| 1 | armoured brigade | 2 | II | yes | — |
+| 1 | infantry brigade | 2 | — | yes | — |
+| 3 | artillery unit | 1 | — | no | — |
+| 1 | anti tank regiment | 1 | — | no | — |
+| 1 | light aa unit | 1 | — | no | — |
+| 1 | machinegun battalion | 1 | — | no | — |
+| 1 | engineer battalion | 1 | — | no | — |
+| 1 | — | 1 | — | no | armoured car unit, armoured recce unit |
 
 ### Commonwealth · infantry division · 5
 
 #### Components
 
-| Count | Unit | SP | Any of |
-|---|---|---|---|
-| 3 | infantry brigade | 2 | — |
-| 3 | artillery unit | 1 | — |
-| 1 | anti tank regiment | 1 | — |
-| 1 | anti tank unit | — | — |
-| 1 | machinegun battalion | 1 | — |
-| 1 | engineer battalion | 1 | — |
-| 1 | — | 1 | armoured car unit, armoured recce unit |
+| Count | Unit | SP | Counts for shell | Any of |
+|---|---|---|---|---|
+| 3 | infantry brigade | 2 | yes | — |
+| 3 | artillery unit | 1 | no | — |
+| 1 | anti tank regiment | 1 | no | — |
+| 1 | anti tank unit | — | no | — |
+| 1 | machinegun battalion | 1 | no | — |
+| 1 | engineer battalion | 1 | no | — |
+| 1 | — | 1 | no | armoured car unit, armoured recce unit |
 
 ### Commonwealth · armoured brigade · 2 · I
 
@@ -144,20 +152,31 @@ Used in [Organisation](/rules/70-organisation).
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 3 | tank battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 3 | tank battalion | 1 | yes |
 
 ### Commonwealth · armoured brigade · 2 · II
 
-- **Turns list:** 19–70, 92+
+- **Turns:** 19–70
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 3 | tank battalion | 1 |
-| 1 | infantry battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 3 | tank battalion | 1 | yes |
+| 1 | infantry battalion | 1 | yes |
+
+### Commonwealth · armoured brigade · 2 · II
+
+- **Turns:** 92+
+
+#### Components
+
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 3 | tank battalion | 1 | yes |
+| 1 | infantry battalion | 1 | yes |
 
 ### <span class="wrap">Commonwealth · armoured brigade · 2 · III</span>
 
@@ -165,11 +184,11 @@ Used in [Organisation](/rules/70-organisation).
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 3 | tank battalion | 1 |
-| 1 | infantry battalion | 1 |
-| 1 | artillery unit | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 3 | tank battalion | 1 | yes |
+| 1 | infantry battalion | 1 | yes |
+| 1 | artillery unit | 1 | yes |
 
 ### Commonwealth · support group · 2 · I
 
@@ -177,12 +196,12 @@ Used in [Organisation](/rules/70-organisation).
 
 #### Components
 
-| Count | Unit | SP | Any of |
-|---|---|---|---|
-| 2 | infantry battalion | 1 | — |
-| 1 | artillery unit | 1 | — |
-| 1 | anti tank regiment | 1 | — |
-| 1 | — | 1 | armoured car unit, armoured recce unit |
+| Count | Unit | SP | Counts for shell | Any of |
+|---|---|---|---|---|
+| 2 | infantry battalion | 1 | yes | — |
+| 1 | artillery unit | 1 | yes | — |
+| 1 | anti tank regiment | 1 | yes | — |
+| 1 | — | 1 | yes | armoured car unit, armoured recce unit |
 
 ### Commonwealth · support group · 2 · II
 
@@ -190,11 +209,11 @@ Used in [Organisation](/rules/70-organisation).
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 1 | infantry battalion | 1 |
-| 1 | artillery unit | 1 |
-| 1 | anti tank regiment | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 1 | infantry battalion | 1 | yes |
+| 1 | artillery unit | 1 | yes |
+| 1 | anti tank regiment | 1 | yes |
 
 ### Commonwealth · support group · 2 · III
 
@@ -202,53 +221,53 @@ Used in [Organisation](/rules/70-organisation).
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 3 | infantry battalion | 1 |
-| 1 | artillery unit | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 3 | infantry battalion | 1 | yes |
+| 1 | artillery unit | 1 | yes |
 
 ### Commonwealth · infantry-brigade-3sp · 3
 
 #### Components
 
-| Count | Unit | SP | Any of |
-|---|---|---|---|
-| 3 | infantry battalion | 1 | — |
-| 1 | artillery unit | 1 | — |
-| 1 | anti tank unit | — | — |
-| 1 | — | 1 | light aa unit, machinegun battalion |
-| 1 | — | — | armoured car unit, armoured recce unit |
-| 1 | unit | — | — |
+| Count | Unit | SP | Counts for shell | Any of |
+|---|---|---|---|---|
+| 3 | infantry battalion | 1 | yes | — |
+| 1 | artillery unit | 1 | yes | — |
+| 1 | anti tank unit | — | no | — |
+| 1 | — | 1 | yes | light aa unit, machinegun battalion |
+| 1 | — | — | no | armoured car unit, armoured recce unit |
+| 1 | unit | — | no | — |
 
 ### Commonwealth · infantry brigade · 2
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 3 | infantry battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 3 | infantry battalion | 1 | yes |
 
 ### <span class="wrap">Commonwealth · allied infantry brigade · 2</span>
 
 #### Components
 
-| Count | Unit | SP | Any of |
-|---|---|---|---|
-| 3 | infantry battalion | 1 | — |
-| 1 | — | 1 | artillery unit, anti tank unit |
-| 1 | unit | — | — |
+| Count | Unit | SP | Counts for shell | Any of |
+|---|---|---|---|---|
+| 3 | infantry battalion | 1 | yes | — |
+| 1 | — | 1 | yes | artillery unit, anti tank unit |
+| 1 | unit | — | no | — |
 
 ### Italian · armoured division · 5
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 2 | tank regiment | 2 |
-| 2 | infantry regiment | 2 |
-| 1 | armoured car regiment | 1 |
-| 1 | anti tank battalion | 1 |
-| 1 | artillery regiment | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 2 | tank regiment | 2 | yes |
+| 2 | infantry regiment | 2 | yes |
+| 1 | armoured car regiment | 1 | no |
+| 1 | anti tank battalion | 1 | no |
+| 1 | artillery regiment | 1 | no |
 
 ### Italian · tank group · 5
 
@@ -256,238 +275,240 @@ Used in [Organisation](/rules/70-organisation).
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 2 | tank regiment | 3 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 2 | tank-regiment-3sp | 3 | yes |
 
 ### <span class="wrap">Italian · motorised infantry division · 5</span>
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 2 | infantry regiment | 2 |
-| 1 | bersaglieri regiment | 2 |
-| 1 | anti tank battalion | 1 |
-| 1 | artillery regiment | 1 |
-| 1 | anti aircraft unit | — |
-| 1 | machinegun battalion | 1 |
-| 1 | engineer battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 2 | infantry regiment | 2 | yes |
+| 1 | bersaglieri regiment | 2 | yes |
+| 1 | anti tank battalion | 1 | no |
+| 1 | artillery regiment | 1 | no |
+| 1 | anti aircraft unit | — | no |
+| 1 | machinegun battalion | 1 | no |
+| 1 | engineer battalion | 1 | no |
 
 ### <span class="wrap">Italian · semi motorised infantry division · 5</span>
 
 #### Components
 
-| Count | Unit | SP | Any of |
-|---|---|---|---|
-| 2 | infantry regiment | 2 | — |
-| 1 | anti aircraft unit | — | — |
-| 1 | artillery regiment | 1 | — |
-| 1 | machinegun battalion | 1 | — |
-| 1 | engineer battalion | 1 | — |
-| 1 | — | — | <span class="wrap">bersaglieri battalion, bersaglieri motorcycle recce company</span> |
+| Count | Unit | SP | Counts for shell | Any of |
+|---|---|---|---|---|
+| 2 | infantry regiment | 2 | yes | — |
+| 1 | anti aircraft unit | — | no | — |
+| 1 | artillery regiment | 1 | no | — |
+| 1 | machinegun battalion | 1 | no | — |
+| 1 | engineer battalion | 1 | no | — |
+| 1 | — | — | no | <span class="wrap">bersaglieri battalion, bersaglieri motorcycle recce company</span> |
 
 ### <span class="wrap">Italian · libyan or parachute infantry division · 5</span>
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 2 | infantry regiment | 2 |
-| 1 | anti tank company | 0 |
-| 1 | artillery regiment | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 2 | infantry regiment | 2 | yes |
+| 1 | anti tank company | 0 | no |
+| 1 | artillery regiment | 1 | no |
 
 ### Italian · tank-regiment-3sp · 3
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 5 | tank battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 5 | tank battalion | 1 | yes |
 
 ### Italian · tank regiment · 2
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 3 | tank battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 3 | tank battalion | 1 | yes |
 
 ### Italian · bersaglieri regiment · 2
 
 #### Components
 
-| Count | Unit | SP | Any of |
-|---|---|---|---|
-| 2 | bersaglieri battalion | 1 | — |
-| 1 | — | 1 | <span class="wrap">bersaglieri motorcycle battalion, bersaglieri battalion</span> |
+| Count | Unit | SP | Counts for shell | Any of |
+|---|---|---|---|---|
+| 2 | bersaglieri battalion | 1 | yes | — |
+| 1 | — | 1 | yes | <span class="wrap">bersaglieri motorcycle battalion, bersaglieri battalion</span> |
 
 ### Italian · infantry regiment · 2
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 3 | infantry battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 3 | infantry battalion | 1 | yes |
 
 ### Italian · cavalry regiment · 2
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 3 | cavalry battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 3 | cavalry battalion | 1 | yes |
 
 ### Italian · sahara detachment · 2
 
 #### Components
 
-| Count | Unit | SP | Any of |
-|---|---|---|---|
-| 2 | infantry battalion | 1 | — |
-| 1 | — | 1 | infantry battalion, cavalry battalion |
-| 1 | machinegun battalion | 1 | — |
-| 1 | motorised machinegun company | 0 | — |
-| 1 | artillery battalion | 1 | — |
+| Count | Unit | SP | Counts for shell | Any of |
+|---|---|---|---|---|
+| 2 | infantry battalion | 1 | yes | — |
+| 1 | — | 1 | yes | infantry battalion, cavalry battalion |
+| 1 | machinegun battalion | 1 | yes | — |
+| 1 | motorised machinegun company | 0 | no | — |
+| 1 | artillery battalion | 1 | yes | — |
 
 ### Italian · recam · 2
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 1 | armoured car battalion | 1 |
-| 1 | motorised machinegun company | 0 |
-| 1 | artillery regiment | 1 |
-| 1 | engineer battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 1 | armoured car battalion | 1 | yes |
+| 1 | motorised machinegun company | 0 | no |
+| 1 | artillery regiment | 1 | yes |
+| 1 | engineer battalion | 1 | yes |
 
 ### German · 5-leichte-panzer-division · 5
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 1 | armoured regiment | 2 |
-| 2 | infantry battalion | 1 |
-| 1 | tank destroyer battalion | 1 |
-| 1 | anti tank battalion | 1 |
-| 1 | artillery unit | 1 |
-| 1 | heavy aa unit | 1 |
-| 1 | light aa unit | 1 |
-| 1 | armoured recce battalion | 1 |
-| 1 | engineer battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 1 | armoured regiment | 2 | yes |
+| 2 | infantry battalion | 1 | no |
+| 1 | tank destroyer battalion | 1 | no |
+| 1 | anti tank battalion | 1 | no |
+| 1 | artillery unit | 1 | no |
+| 1 | heavy aa unit | 1 | no |
+| 1 | light aa unit | 1 | no |
+| 1 | armoured recce battalion | 1 | no |
+| 1 | engineer battalion | 1 | no |
 
 ### German · 21-panzer-division · 5
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 1 | armoured regiment | 2 |
-| 1 | infantry regiment | 2 |
-| 1 | tank destroyer battalion | 1 |
-| 1 | anti tank battalion | 1 |
-| 2 | artillery unit | 1 |
-| 1 | heavy aa unit | 1 |
-| 1 | light aa unit | 1 |
-| 1 | armoured recce battalion | 1 |
-| 1 | engineer battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 1 | armoured regiment | 2 | yes |
+| 1 | infantry regiment | 2 | yes |
+| 1 | tank destroyer battalion | 1 | no |
+| 1 | anti tank battalion | 1 | no |
+| 2 | artillery unit | 1 | no |
+| 1 | heavy aa unit | 1 | no |
+| 1 | light aa unit | 1 | no |
+| 1 | armoured recce battalion | 1 | no |
+| 1 | engineer battalion | 1 | no |
 
 ### German · 15-panzer-division · 5
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 1 | armoured regiment | 2 |
-| 1 | 15-infantry-brigade | 3 |
-| 1 | tank destroyer battalion | 1 |
-| 1 | artillery group | 2 |
-| 1 | armoured recce battalion | 1 |
-| 1 | engineer battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 1 | armoured regiment | 2 | yes |
+| 1 | 15-infantry-brigade | 3 | yes |
+| 1 | tank destroyer battalion | 1 | no |
+| 1 | artillery group | 2 | yes |
+| 1 | armoured recce battalion | 1 | no |
+| 1 | engineer battalion | 1 | no |
 
 ### German · 90-leichte-afrika-division · 5
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 2 | infantry regiment | 2 |
-| 2 | infantry battalion | 1 |
-| 1 | anti tank battalion | 1 |
-| 1 | artillery unit | 1 |
-| 1 | armoured recce battalion | 1 |
-| 1 | engineer battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 2 | infantry regiment | 2 | yes |
+| 2 | infantry battalion | 1 | no |
+| 1 | anti tank battalion | 1 | no |
+| 1 | artillery unit | 1 | no |
+| 1 | armoured recce battalion | 1 | no |
+| 1 | engineer battalion | 1 | no |
 
 ### German · 164-leichte-afrika-division · 5
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 3 | infantry regiment | 2 |
-| 1 | anti tank battalion | 1 |
-| 1 | artillery group | 2 |
-| 1 | light aa unit | 1 |
-| 1 | armoured recce battalion | 1 |
-| 1 | engineer battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 3 | infantry regiment | 2 | yes |
+| 1 | anti tank battalion | 1 | no |
+| 1 | artillery group | 2 | yes |
+| 1 | light aa unit | 1 | no |
+| 1 | armoured recce battalion | 1 | no |
+| 1 | engineer battalion | 1 | no |
 
 ### German · armoured regiment · 2
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 2 | tank battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 2 | tank battalion | 1 | yes |
 
 ### German · 15-infantry-brigade · 3
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 3 | infantry regiment | 2 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 3 | infantry regiment | 2 | yes |
 
 ### German · ramcke brigade · 3
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 4 | infantry battalion | 1 |
-| 1 | heavy weapons parachute battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 4 | infantry battalion | 1 | yes |
+| 1 | heavy weapons parachute battalion | 1 | yes |
 
 ### German · infantry regiment · 2
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 3 | infantry battalion | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 3 | infantry battalion | 1 | yes |
 
 ### German · 288-sonderverband · 2
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 3 | infantry battalion | 1 |
-| 1 | anti tank battalion | 1 |
-| 1 | engineer company | 0 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 3 | infantry battalion | 1 | yes |
+| 1 | anti tank battalion | 1 | yes |
+| 1 | engineer company | 0 | no |
 
 ### German · 361-afrika-regiment · 2
 
 #### Components
 
-| Count | Unit | SP |
-|---|---|---|
-| 2 | infantry battalion | 1 |
-| 1 | artillery unit | 1 |
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 2 | infantry battalion | 1 | yes |
+| 1 | artillery unit | 1 | yes |
 
 ## Notes
 
 - Formation Organisation Charts (SPI 19.31 Commonwealth, 19.32 Italian, 19.33 German): what each parent formation is composed of. Each component is one or more counters of a kind (count), with the stacking-point figure the chart prints beside the symbol (sp; a formation's is in parentheses; null where the chart prints no figure) and the organisation type where the component is itself a formation on the chart; the chart's 'X or Y' is any_of. The counter symbols are named by the slugs in 'units' (our words for the three charts' keys)
 - Transcribed from the archive.org scan (jp2 134, 173, 174) and cross-checked symbol by symbol against the 300 dpi community scans (scan:discord:Commonwealth Charts.pdf:p24, scan:discord:Axis Charts.pdf:p31 and p32): 0 of 14 + 12 + 11 rows differ. Clay Stone's errata-integrated Land rules PDF contains no charts. Two soft spots, both read the same in both scans: the second infantry battalion of the 5th Light's row carries a faint '1'; the Ramcke row's first four battalions are read as ordinary parachute battalions and only the fifth as the heavy-weapons battalion
+- counts_for_shell (R-141): whether the component is one of the 'brigade-equivalents' (in a division, 5 SP) or 'battalions' (in a brigade or regiment, 2-3 SP) that 9.26 counts when judging a shell. A division counts its components of 2 SP or more; a brigade or regiment its components of 1 SP or more; a component of 0 SP or with no figure printed never counts. The Commonwealth armoured brigade type II, which applies in two periods (turns 19-70 and 92 on), is given as two rows
+- Which counters fill which slot (R-142): every counter in data/oa/ lists in fills the units slugs it fills alone, and in fills_part the slugs it fills only with others of its kind; part_slots gives, for those, how many such counters a slot holds (parts) and how many fill it (min): the German artillery group takes any three 1 SP artillery counters, the Italian artillery regiment up to three artillery battalions, the Italian anti-tank battalion up to three anti-tank companies. The Libyan Tank Command's two 3 SP regiments are tank-regiment-3sp
 
 ---
 

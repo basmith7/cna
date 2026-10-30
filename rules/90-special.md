@@ -32,6 +32,19 @@ the summary is `data/tables/breakdown-adjustments.json`:
 | armoured recce | none |
 | SP guns, tanks | from 1 left to 2 right, per model on the Tank & Gun Characteristics Charts |
 
+::: ruling R-125 — which reconnaissance units are armoured cars: per unit, Axis by the chart notes, Commonwealth by what the unit was
+
+**Armoured car or armoured recce.** The German ee and ff and Italian vv and
+ww rows are armoured cars. A Commonwealth reconnaissance unit is an armoured
+car unit when it fought as one (the Hussars, Lancers, Royals, King's Dragoon
+Guards, South African armoured car units and the like) and armoured recce
+when it is a division's Recce Regiment, divisional cavalry, or a horse
+regiment on carriers. Camel and motorcycle units never break down; the
+Italian desert patrols break down as trucks. A light tank point added under
+20.5 checks with the tanks at its own rating, and no TOE point is ever a
+unit's own truck. Each unit's class is the `vehicle` of its OA entry
+(ruling [R-125](../rulings/R-125.md)).
+
 Nothing checks for breakdown moving to, from or between the Tripoli–Tunisia
 boxes.
 
@@ -299,6 +312,8 @@ per TOE point over twelve stages; an SAS Brigade wholly eliminated is gone.
 
 ::: spi 28.0 28.11 28.12 28.13 28.14 28.15 28.16 28.17 28.18
 
+::: ruling R-132 — the Axis departure point for prisoners is the Tripolitania box
+
 Every surrendering **infantry** TOE point becomes one **prisoner point** —
 guns and tanks are captured equipment ([below](#captured-equipment)), and
 prisoners are never massacred. At the instant of surrender the captor may
@@ -309,7 +324,8 @@ stand still when their guards retreat. At most **40** points per hex; more
 than five standing still may be marked as a detention camp. Every five
 points cost the captor **1 store per stage**, drawn from the nearest dump
 before any other store is spent. Prisoners leave the game for good on
-entering the captor's **departure point** — the Sirte box for the Axis,
+entering the captor's **departure point** — the Tripolitania box for the
+Axis (the rule's "Sirte box" exists nowhere; [R-132](../rulings/R-132.md)),
 Alexandria or Cairo for the Commonwealth. Each camp needs one **guard
 point**; on the move, one guard per **five** prisoners. Trucks may carry
 prisoners if you can spare them.
@@ -530,6 +546,45 @@ through enemy ZOC freely. A stack fighting with Rommel in its hex gets
 a **12** sends him to Germany for the turn and drops Axis initiative to 3;
 he is back the next turn unless another 12 is rolled. The LRDG may try to
 remove him ([raid on Rommel](#raid-on-rommel)).
+
+::: ruling R-137 — Rommel's +5 CPA: which units, and what parting costs
+
+Every unit in Rommel's hex when an Operations Stage begins has **CPA +5**
+for as long as it stays in his hex. A unit that parts from him, for any
+reason, loses the bonus at once and takes the disorganisation points it had
+been spared (one per CP spent past its own CPA, at most five). The 8.17 cap
+on non-motorised units stays at 150 % of the printed CPA
+([R-137](../rulings/R-137.md)).
+
+::: ruling R-138 — a lone Rommel in an enemy ZOC escapes first, then is captured
+
+Alone in an enemy ZOC, Rommel gets his escape before 10.29 applies: when an
+enemy combat unit moves next to him he may react, and when his hex is
+assaulted he may retreat before assault. Still alone in an enemy ZOC after
+that chance (or at the start of an enemy movement/combat phase), he is
+**captured** and removed for good, with no prisoner points. On ordinary
+movement and reaction he keeps the non-combat unit's ZOC limits: he never
+enters an unoccupied enemy-controlled hex and pays break-off to leave one;
+only his retreats pass through enemy ZOC free
+([R-138](../rulings/R-138.md)).
+
+::: ruling R-140 — Rommel retreats alone when an assault destroys his stack
+
+If an assault's losses destroy every combat unit in Rommel's hex, he makes a
+**forced retreat** of his own at once, before the next assault and before
+any advance: along the forced-retreat path, at least as far as the result's
+retreat (one hex if none), and on until he reaches a friendly combat unit or
+a hex outside every enemy ZOC, passing through enemy ZOC free. If he cannot
+get there he is captured where he stops ([R-140](../rulings/R-140.md)).
+
+::: ruling R-135 — Rommel: his own counter, and where he starts
+
+Rommel is a piece of his own, not the Deutsches Afrika Korps HQ (whose
+counter the OA sheet abbreviates "Rommel"): he arrives with that HQ at 2/20,
+and a scenario that starts later without placing him sets him up in any hex
+holding a German unit ([R-135](../rulings/R-135.md)). In the data he is
+`unit:de:rommel` in `data/oa/de.json`, his `commander` values standing in
+for a unit-characteristics row.
 
 ---
 

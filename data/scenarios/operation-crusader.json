@@ -237,7 +237,7 @@
        ],
        "notes": [
         "Printed list includes the 104th Rifle Regt (of 15th Pz) made up of II/104, 8th MG Bn and the 708th Heavy Weapons Coy; the 104th regiment HQ is left out as only II/104 is named with it, unconfirmed. The OA's only 708 counter (unit:de:708-schwinf-koy) arrives Game-Turn 76 and is left out.",
-        "OA has 21st Pz Div HQ arriving Game-Turn 58 OpStage 2, after this start; the 5th Light HQ (unit:de:5le-div-hq) is the earlier counter. Needs a ruling."
+        "OA has 21st Pz Div HQ arriving Game-Turn 58 OpStage 2, after this start; placed anyway (R-096), so the scenario starts with it replacing the 5th Light HQ (its replaces field)."
        ]
       }
      ],
@@ -522,11 +522,21 @@
     {
      "placement": {
       "hexes": [
-       "C3916",
        "C3618",
+       "C3718",
+       "C3719",
+       "C3817",
+       "C3818",
+       "C3819",
+       "C3820",
+       "C3916",
+       "C3917",
+       "C3918",
+       "C3919",
+       "C3920",
+       "C3921",
        "C3922"
-      ],
-      "constraint": "any hex inside the triangle with corners C3916, Sidi Omar (C3618) and C3922"
+      ]
      },
      "units": [
       {
@@ -546,7 +556,7 @@
       "heavy": 5
      },
      "notes": [
-      "The corner hexes are anchors; the constraint governs."
+      "62.41: every land hex inside the triangle C3916, Sidi Omar (C3618), C3922, by R-136."
      ]
     },
     {
@@ -619,6 +629,19 @@
      "notes": [
       "Each battalion has 2 light and 6 medium trucks; total shown.",
       "Both battalions arrive in the OA at Game-Turn 55, consistent."
+     ]
+    },
+    {
+     "placement": {
+      "stacked_with": "german-unit"
+     },
+     "units": [
+      {
+       "unit": "unit:de:rommel"
+      }
+     ],
+     "notes": [
+      "The set-up does not name Rommel; he is present (arrived 2/20) and starts with any German unit (R-135)."
      ]
     }
    ],

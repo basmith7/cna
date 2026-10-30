@@ -41,7 +41,15 @@
      "name": "5th Light Panzer Div HQ",
      "abbreviation": "5 Le",
      "id_code": "c",
+     "echelon": "division",
+     "attachment_parent": [
+      "armour-division"
+     ],
+     "organisation": "5-leichte-panzer-division",
      "parent": null,
+     "fills": [
+      "5-leichte-panzer-division"
+     ],
      "toe": [
       {
        "weapon": "PzII",
@@ -61,7 +69,15 @@
      "name": "21st Panzer Div HQ",
      "abbreviation": "21",
      "id_code": "c",
+     "echelon": "division",
+     "attachment_parent": [
+      "armour-division"
+     ],
+     "organisation": "21-panzer-division",
      "parent": null,
+     "fills": [
+      "21-panzer-division"
+     ],
      "toe": [],
      "arrives": {
       "game_turn": 58,
@@ -71,6 +87,11 @@
       "note b",
       "TOE printed as '(b)' (see note b)",
       "replaces the 5 Le HQ counter; printed at the same indent as 5 Le"
+     ],
+     "replaces": "unit:de:5le-div-hq",
+     "assigns": [
+      "unit:de:104-schutzen-regt-hq",
+      "unit:de:155-arty-regt-hq"
      ]
     },
     {
@@ -78,7 +99,15 @@
      "name": "5th Panzer Regt HQ",
      "abbreviation": "5",
      "id_code": "c",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "armoured-regiment",
      "parent": "unit:de:5le-div-hq",
+     "fills": [
+      "armoured-regiment"
+     ],
      "toe": [
       {
        "weapon": "PzII",
@@ -96,6 +125,9 @@
      "abbreviation": "I/5",
      "id_code": "f",
      "parent": "unit:de:5-pz-regt-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "PzI",
@@ -129,6 +161,9 @@
      "abbreviation": "II/5",
      "id_code": "f",
      "parent": "unit:de:5-pz-regt-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "PzII",
@@ -158,6 +193,9 @@
      "abbreviation": "2",
      "id_code": "n",
      "parent": "unit:de:5le-div-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -175,6 +213,9 @@
      "abbreviation": "8",
      "id_code": "n",
      "parent": "unit:de:5le-div-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -191,6 +232,10 @@
      "abbreviation": "39",
      "id_code": "x",
      "parent": "unit:de:5le-div-hq",
+     "fills": [
+      "anti-tank-battalion",
+      "tank-destroyer-battalion"
+     ],
      "toe": [
       {
        "weapon": "3.7cm",
@@ -212,6 +257,9 @@
      "abbreviation": "605",
      "id_code": "y",
      "parent": "unit:de:5le-div-hq",
+     "fills": [
+      "tank-destroyer-battalion"
+     ],
      "toe": [
       {
        "weapon": "Pzjg1",
@@ -232,6 +280,12 @@
      "abbreviation": "I/75",
      "id_code": "v",
      "parent": "unit:de:5le-div-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "10.5cm Med Gun",
@@ -253,6 +307,9 @@
      "abbreviation": "I/33",
      "id_code": "bb",
      "parent": "unit:de:5le-div-hq",
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -270,6 +327,9 @@
      "abbreviation": "606",
      "id_code": "cc",
      "parent": "unit:de:5le-div-hq",
+     "fills": [
+      "heavy-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -286,7 +346,11 @@
      "name": "3rd Aufklarungs Bn",
      "abbreviation": "3",
      "id_code": "ff",
+     "vehicle": "armoured-car",
      "parent": "unit:de:5le-div-hq",
+     "fills": [
+      "armoured-recce-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -301,6 +365,9 @@
      "id_code": "gg",
      "equivalent": "battalion",
      "parent": "unit:de:5le-div-hq",
+     "fills": [
+      "engineer-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -329,7 +396,16 @@
      "name": "Sonderverband 288 HQ",
      "abbreviation": "288 Son",
      "id_code": "e",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "288-sonderverband",
      "parent": null,
+     "fills": [
+      "288-sonderverband",
+      "infantry-regiment"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -346,6 +422,9 @@
      "abbreviation": "2",
      "id_code": "m",
      "parent": "unit:de:288-son-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "U@3",
      "arrives": {
@@ -363,6 +442,9 @@
      "abbreviation": "3",
      "id_code": "p",
      "parent": "unit:de:288-son-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -376,6 +458,9 @@
      "abbreviation": "4",
      "id_code": "q",
      "parent": "unit:de:288-son-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -389,6 +474,10 @@
      "abbreviation": "288",
      "id_code": "y",
      "parent": "unit:de:288-son-hq",
+     "fills": [
+      "anti-tank-battalion",
+      "tank-destroyer-battalion"
+     ],
      "toe": [
       {
        "weapon": "5cm",
@@ -407,6 +496,9 @@
      "id_code": "gg",
      "equivalent": "company",
      "parent": "unit:de:288-son-hq",
+     "fills": [
+      "engineer-company"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -437,7 +529,15 @@
      "name": "15th Panzer Div HQ",
      "abbreviation": "15",
      "id_code": "c",
+     "echelon": "division",
+     "attachment_parent": [
+      "armour-division"
+     ],
+     "organisation": "15-panzer-division",
      "parent": null,
+     "fills": [
+      "15-panzer-division"
+     ],
      "toe": [
       {
        "weapon": "PzIIIH",
@@ -454,7 +554,15 @@
      "name": "8th Panzer Regiment HQ",
      "abbreviation": "8",
      "id_code": "c",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "armoured-regiment",
      "parent": "unit:de:15-pz-div-hq",
+     "fills": [
+      "armoured-regiment"
+     ],
      "toe": [
       {
        "weapon": "PzIIIH",
@@ -472,6 +580,9 @@
      "abbreviation": "I/8",
      "id_code": "f",
      "parent": "unit:de:8-pz-regt-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "PzII",
@@ -497,6 +608,9 @@
      "abbreviation": "II/8",
      "id_code": "f",
      "parent": "unit:de:8-pz-regt-hq",
+     "fills": [
+      "tank-battalion"
+     ],
      "toe": [
       {
        "weapon": "PzII",
@@ -521,7 +635,15 @@
      "name": "200th Schutzen Regt HQ",
      "abbreviation": "200",
      "id_code": "b",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:de:15-pz-div-hq",
+     "fills": [
+      "infantry-regiment"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -538,6 +660,9 @@
      "abbreviation": "15/200",
      "id_code": "g",
      "parent": "unit:de:200-schutzen-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -553,7 +678,15 @@
      "name": "15th Schutzen Bde HQ",
      "abbreviation": "15",
      "id_code": "b",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "15-infantry-brigade",
      "parent": "unit:de:15-pz-div-hq",
+     "fills": [
+      "15-infantry-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -569,7 +702,15 @@
      "name": "104th Schutzen Regt HQ",
      "abbreviation": "104",
      "id_code": "d",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:de:15-schutzen-bde-hq",
+     "fills": [
+      "infantry-regiment"
+     ],
      "toe": [
       {
        "weapon": "7.5cm Lt Inf Gun",
@@ -590,6 +731,9 @@
      "abbreviation": "I/104",
      "id_code": "j",
      "parent": "unit:de:104-schutzen-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -603,6 +747,9 @@
      "abbreviation": "II/104",
      "id_code": "j",
      "parent": "unit:de:104-schutzen-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -615,7 +762,15 @@
      "name": "115th Schutzen Regt HQ",
      "abbreviation": "115",
      "id_code": "d",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:de:15-schutzen-bde-hq",
+     "fills": [
+      "infantry-regiment"
+     ],
      "toe": [
       {
        "weapon": "7.5cm Lt Inf Gun",
@@ -633,6 +788,9 @@
      "abbreviation": "I/115",
      "id_code": "j",
      "parent": "unit:de:115-schutzen-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -646,6 +804,9 @@
      "abbreviation": "II/115",
      "id_code": "j",
      "parent": "unit:de:115-schutzen-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -659,6 +820,10 @@
      "abbreviation": "33",
      "id_code": "x",
      "parent": "unit:de:15-pz-div-hq",
+     "fills": [
+      "anti-tank-battalion",
+      "tank-destroyer-battalion"
+     ],
      "toe": [
       {
        "weapon": "3.7cm",
@@ -680,6 +845,12 @@
      "abbreviation": "33",
      "id_code": "u",
      "parent": "unit:de:15-pz-div-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "15cm Med Inf Gun",
@@ -697,6 +868,12 @@
      "abbreviation": "I/115",
      "id_code": "u",
      "parent": "unit:de:15-pz-div-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "7.5cm Lt Inf Gun",
@@ -714,6 +891,12 @@
      "abbreviation": "140",
      "id_code": "u",
      "parent": "unit:de:15-pz-div-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "15cm Gun",
@@ -730,7 +913,11 @@
      "name": "33rd Aufklarungs Bn",
      "abbreviation": "33",
      "id_code": "ee",
+     "vehicle": "armoured-car",
      "parent": "unit:de:15-pz-div-hq",
+     "fills": [
+      "armoured-recce-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -745,6 +932,9 @@
      "id_code": "gg",
      "equivalent": "battalion",
      "parent": "unit:de:15-pz-div-hq",
+     "fills": [
+      "engineer-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -773,6 +963,7 @@
      "abbreviation": "1",
      "id_code": "r",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -786,6 +977,7 @@
      "abbreviation": "2",
      "id_code": "r",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -799,6 +991,7 @@
      "abbreviation": "3",
      "id_code": "r",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -812,6 +1005,7 @@
      "abbreviation": "4",
      "id_code": "r",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -825,6 +1019,7 @@
      "abbreviation": "5",
      "id_code": "r",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -838,6 +1033,7 @@
      "abbreviation": "6",
      "id_code": "r",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -851,6 +1047,7 @@
      "abbreviation": "7",
      "id_code": "r",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -864,6 +1061,7 @@
      "abbreviation": "8",
      "id_code": "r",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -877,6 +1075,7 @@
      "abbreviation": "9",
      "id_code": "r",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -890,6 +1089,7 @@
      "abbreviation": "10",
      "id_code": "r",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -903,6 +1103,7 @@
      "abbreviation": "11",
      "id_code": "r",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -916,6 +1117,7 @@
      "abbreviation": "12",
      "id_code": "r",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -929,6 +1131,7 @@
      "abbreviation": "13",
      "id_code": "r",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -956,7 +1159,15 @@
      "name": "164th Light Div HQ",
      "abbreviation": "164 Le",
      "id_code": "b",
+     "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "164-leichte-afrika-division",
      "parent": null,
+     "fills": [
+      "164-leichte-afrika-division"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -972,7 +1183,15 @@
      "name": "125th PnzrGrndr Regt HQ",
      "abbreviation": "125",
      "id_code": "b",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:de:164-le-div-hq",
+     "fills": [
+      "infantry-regiment"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -986,6 +1205,9 @@
      "abbreviation": "I/125",
      "id_code": "k",
      "parent": "unit:de:125-pzgren-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -999,6 +1221,9 @@
      "abbreviation": "II/125",
      "id_code": "k",
      "parent": "unit:de:125-pzgren-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1012,6 +1237,9 @@
      "abbreviation": "III/125",
      "id_code": "k",
      "parent": "unit:de:125-pzgren-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1024,7 +1252,15 @@
      "name": "382nd PnzrGrndr Regt HQ",
      "abbreviation": "382",
      "id_code": "b",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:de:164-le-div-hq",
+     "fills": [
+      "infantry-regiment"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1038,6 +1274,9 @@
      "abbreviation": "I/382",
      "id_code": "k",
      "parent": "unit:de:382-pzgren-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "O@8",
      "arrives": {
@@ -1051,6 +1290,9 @@
      "abbreviation": "II/382",
      "id_code": "k",
      "parent": "unit:de:382-pzgren-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "O@8",
      "arrives": {
@@ -1064,6 +1306,9 @@
      "abbreviation": "III/382",
      "id_code": "k",
      "parent": "unit:de:382-pzgren-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "O@8",
      "arrives": {
@@ -1076,7 +1321,15 @@
      "name": "433rd PnzrGrndr Regt HQ",
      "abbreviation": "433",
      "id_code": "b",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:de:164-le-div-hq",
+     "fills": [
+      "infantry-regiment"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1090,6 +1343,9 @@
      "abbreviation": "I/433",
      "id_code": "k",
      "parent": "unit:de:433-pzgren-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1103,6 +1359,9 @@
      "abbreviation": "II/433",
      "id_code": "k",
      "parent": "unit:de:433-pzgren-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1116,6 +1375,9 @@
      "abbreviation": "III/433",
      "id_code": "k",
      "parent": "unit:de:433-pzgren-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1128,7 +1390,11 @@
      "name": "165th Aufklarungs Bn",
      "abbreviation": "164",
      "id_code": "ff",
+     "vehicle": "armoured-car",
      "parent": "unit:de:164-le-div-hq",
+     "fills": [
+      "armoured-recce-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1145,6 +1411,9 @@
      "abbreviation": "609",
      "id_code": "bb",
      "parent": "unit:de:164-le-div-hq",
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -1161,7 +1430,15 @@
      "name": "220th Artillery Regt HQ",
      "abbreviation": "220",
      "id_code": "b",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "artillery-brigade-hq"
+     ],
+     "organisation": null,
      "parent": "unit:de:164-le-div-hq",
+     "fills": [
+      "artillery-group"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1175,6 +1452,12 @@
      "abbreviation": "I/220",
      "id_code": "u",
      "parent": "unit:de:220-arty-regt-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "10.5cm Med Gun",
@@ -1192,6 +1475,12 @@
      "abbreviation": "II/220",
      "id_code": "u",
      "parent": "unit:de:220-arty-regt-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "15cm Med Field Howitzer",
@@ -1209,6 +1498,12 @@
      "abbreviation": "III/220",
      "id_code": "u",
      "parent": "unit:de:220-arty-regt-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "10.5cm Lt Field Howitzer",
@@ -1226,6 +1521,12 @@
      "abbreviation": "IV/220",
      "id_code": "u",
      "parent": "unit:de:220-arty-regt-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "15cm Gun",
@@ -1244,6 +1545,9 @@
      "id_code": "gg",
      "equivalent": "battalion",
      "parent": "unit:de:164-le-div-hq",
+     "fills": [
+      "engineer-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1287,7 +1591,15 @@
      "name": "Ramcke Bde HQ",
      "abbreviation": "Ramcke",
      "id_code": "b",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "ramcke-brigade",
      "parent": null,
+     "fills": [
+      "ramcke-brigade"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1301,6 +1613,9 @@
      "abbreviation": "I Kroh",
      "id_code": "h",
      "parent": "unit:de:ramcke-bde-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [
       {
        "weapon": "7.5cm Lt Gun",
@@ -1322,6 +1637,9 @@
      "abbreviation": "II vdH",
      "id_code": "h",
      "parent": "unit:de:ramcke-bde-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [
       {
        "weapon": "7.5cm Lt Gun",
@@ -1343,6 +1661,9 @@
      "abbreviation": "III Hub",
      "id_code": "h",
      "parent": "unit:de:ramcke-bde-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [
       {
        "weapon": "7.5cm Lt Gun",
@@ -1364,6 +1685,9 @@
      "abbreviation": "IV Sch",
      "id_code": "h",
      "parent": "unit:de:ramcke-bde-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [
       {
        "weapon": "7.5cm Lt Gun",
@@ -1385,6 +1709,9 @@
      "abbreviation": "V Brc",
      "id_code": "h",
      "parent": "unit:de:ramcke-bde-hq",
+     "fills": [
+      "heavy-weapons-parachute-battalion"
+     ],
      "toe": [
       {
        "weapon": "7.5cm Lt Gun",
@@ -1421,7 +1748,11 @@
      "name": "Deutsches Afrika Korps HQ",
      "abbreviation": "Rommel",
      "id_code": "a",
+     "echelon": "corps",
+     "attachment_parent": [],
+     "organisation": null,
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1430,11 +1761,37 @@
      }
     },
     {
+     "id": "unit:de:rommel",
+     "name": "General Rommel",
+     "abbreviation": "Rommel",
+     "id_code": null,
+     "parent": null,
+     "fills": [],
+     "toe": [],
+     "arrives": {
+      "game_turn": 20,
+      "opstage": 2
+     },
+     "commander": {
+      "cpa": 60,
+      "moves_as": "medium",
+      "combat_ratings": false,
+      "stack_morale_bonus": 1,
+      "escort_cpa_bonus": 5,
+      "recall_roll": 12,
+      "initiative_while_recalled": 3
+     },
+     "notes": [
+      "Not a row of the sheet: the 31.0 counter, a piece of its own (R-135). Arrives with the Deutsches Afrika Korps HQ, whose counter the sheet abbreviates 'Rommel'."
+     ]
+    },
+    {
      "id": "unit:de:707-schwinf-koy",
      "name": "707 SchwInf Koy",
      "abbreviation": "707",
      "id_code": "t",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1451,6 +1808,7 @@
      "abbreviation": "708",
      "id_code": "t",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1467,6 +1825,7 @@
      "abbreviation": "13/Bdbg",
      "id_code": "s",
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1481,6 +1840,9 @@
      "id_code": "gg",
      "equivalent": "company",
      "parent": null,
+     "fills": [
+      "engineer-company"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1514,7 +1876,13 @@
      "name": "Gruppe Bach",
      "abbreviation": "Bach",
      "id_code": "b",
+     "echelon": "battle-group",
+     "attachment_parent": [
+      "battle-group"
+     ],
+     "organisation": null,
      "parent": null,
+     "fills": [],
      "toe": [],
      "arrives": null,
      "notes": [
@@ -1526,7 +1894,13 @@
      "name": "Kampfgruppe Graf",
      "abbreviation": "Graf",
      "id_code": "b",
+     "echelon": "battle-group",
+     "attachment_parent": [
+      "battle-group"
+     ],
+     "organisation": null,
      "parent": null,
+     "fills": [],
      "toe": [],
      "arrives": null,
      "notes": [
@@ -1538,7 +1912,13 @@
      "name": "Kampfgruppe Knabe",
      "abbreviation": "Knabe",
      "id_code": "b",
+     "echelon": "battle-group",
+     "attachment_parent": [
+      "battle-group"
+     ],
+     "organisation": null,
      "parent": null,
+     "fills": [],
      "toe": [],
      "arrives": null,
      "notes": [
@@ -1550,7 +1930,13 @@
      "name": "Gruppe Marcks",
      "abbreviation": "Marcks",
      "id_code": "b",
+     "echelon": "battle-group",
+     "attachment_parent": [
+      "battle-group"
+     ],
+     "organisation": null,
      "parent": null,
+     "fills": [],
      "toe": [],
      "arrives": null,
      "notes": [
@@ -1562,7 +1948,13 @@
      "name": "Kampfgruppe Pfeiffer",
      "abbreviation": "Pfeiffer",
      "id_code": "b",
+     "echelon": "battle-group",
+     "attachment_parent": [
+      "battle-group"
+     ],
+     "organisation": null,
      "parent": null,
+     "fills": [],
      "toe": [],
      "arrives": null,
      "notes": [
@@ -1574,7 +1966,13 @@
      "name": "Gruppe Schwerin",
      "abbreviation": "Schwrn",
      "id_code": "b",
+     "echelon": "battle-group",
+     "attachment_parent": [
+      "battle-group"
+     ],
+     "organisation": null,
      "parent": null,
+     "fills": [],
      "toe": [],
      "arrives": null,
      "notes": [
@@ -1607,7 +2005,15 @@
      "name": "1st Afrika Arty Regt HQ",
      "abbreviation": "1 Afr",
      "id_code": "b",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "artillery-brigade-hq"
+     ],
+     "organisation": null,
      "parent": null,
+     "fills": [
+      "artillery-group"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1623,7 +2029,15 @@
      "name": "2nd Afrika Arty Regt HQ",
      "abbreviation": "2 Afr",
      "id_code": "b",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "artillery-brigade-hq"
+     ],
+     "organisation": null,
      "parent": null,
+     "fills": [
+      "artillery-group"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1639,7 +2053,13 @@
      "name": "Artillery Command 104 HQ",
      "abbreviation": "ArKo 104",
      "id_code": "b",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "artillery-brigade-hq"
+     ],
+     "organisation": null,
      "parent": null,
+     "fills": [],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1656,6 +2076,12 @@
      "abbreviation": "149",
      "id_code": "v",
      "parent": "unit:de:arko-104-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "10.5cm Med Gun",
@@ -1676,6 +2102,10 @@
      "abbreviation": "362",
      "id_code": "x",
      "parent": "unit:de:arko-104-hq",
+     "fills": [
+      "anti-tank-battalion",
+      "tank-destroyer-battalion"
+     ],
      "toe": [
       {
        "weapon": "17cm Gun",
@@ -1696,6 +2126,12 @@
      "abbreviation": "408",
      "id_code": "v",
      "parent": "unit:de:arko-104-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "15cm SP Gun",
@@ -1713,6 +2149,12 @@
      "abbreviation": "528",
      "id_code": "v",
      "parent": "unit:de:arko-104-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "155mm (Fr. 1915 short)",
@@ -1729,7 +2171,15 @@
      "name": "155th Artillery Regt HQ",
      "abbreviation": "155",
      "id_code": "b",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "artillery-brigade-hq"
+     ],
+     "organisation": null,
      "parent": null,
+     "fills": [
+      "artillery-group"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -1743,6 +2193,12 @@
      "abbreviation": "I",
      "id_code": "v",
      "parent": "unit:de:155-arty-regt-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "15cm Med Gun",
@@ -1763,12 +2219,19 @@
      "abbreviation": "II",
      "id_code": "v",
      "parent": "unit:de:155-arty-regt-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [],
      "arrives": null,
      "notes": [
       "note e",
       "TOE and Arrives printed blank (replaces the I/75)"
-     ]
+     ],
+     "replaces": "unit:de:i-75-arty-bn"
     },
     {
      "id": "unit:de:iii-155-arty-bn",
@@ -1776,6 +2239,12 @@
      "abbreviation": "III",
      "id_code": "v",
      "parent": "unit:de:155-arty-regt-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "15cm Gun",
@@ -1796,6 +2265,7 @@
      "abbreviation": "364",
      "id_code": "w",
      "parent": null,
+     "fills": [],
      "toe": [
       {
        "weapon": "17cm Gun",
@@ -1813,6 +2283,12 @@
      "abbreviation": "523",
      "id_code": "v",
      "parent": null,
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "155mm (Fr. 1915 short)",
@@ -1833,6 +2309,12 @@
      "abbreviation": "526",
      "id_code": "v",
      "parent": null,
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "10.5cm Med Gun",
@@ -1853,6 +2335,12 @@
      "abbreviation": "529",
      "id_code": "v",
      "parent": null,
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "155mm (Fr. 1915 short)",
@@ -1873,6 +2361,12 @@
      "abbreviation": "532",
      "id_code": "v",
      "parent": null,
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "155mm (Fr. 1915 short)",
@@ -1893,6 +2387,12 @@
      "abbreviation": "533",
      "id_code": "v",
      "parent": null,
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "10.5cm Med Gun",
@@ -1913,6 +2413,12 @@
      "abbreviation": "557",
      "id_code": "v",
      "parent": null,
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "15cm Med Field Howitzer",
@@ -1930,6 +2436,7 @@
      "abbreviation": "I/722*",
      "id_code": "w",
      "parent": null,
+     "fills": [],
      "toe": [
       {
        "weapon": "15cm Med Field Howitzer",
@@ -1950,6 +2457,7 @@
      "abbreviation": "1/902",
      "id_code": "w",
      "parent": null,
+     "fills": [],
      "toe": [
       {
        "weapon": "21cm Howitzer",
@@ -1986,6 +2494,9 @@
      "abbreviation": "30",
      "id_code": "dd",
      "parent": null,
+     "fills": [
+      "heavy-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2003,6 +2514,9 @@
      "abbreviation": "II/5",
      "id_code": "cc",
      "parent": null,
+     "fills": [
+      "heavy-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2020,6 +2534,9 @@
      "abbreviation": "I/6",
      "id_code": "cc",
      "parent": null,
+     "fills": [
+      "heavy-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2037,6 +2554,9 @@
      "abbreviation": "II/12",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2054,6 +2574,9 @@
      "abbreviation": "I/18",
      "id_code": "cc",
      "parent": null,
+     "fills": [
+      "heavy-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2074,6 +2597,9 @@
      "abbreviation": "II/25",
      "id_code": "cc",
      "parent": null,
+     "fills": [
+      "heavy-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2094,6 +2620,9 @@
      "abbreviation": "I/43",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2111,6 +2640,9 @@
      "abbreviation": "II/46",
      "id_code": "bb",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2128,6 +2660,9 @@
      "abbreviation": "I/53",
      "id_code": "bb",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2145,6 +2680,9 @@
      "abbreviation": "I/54",
      "id_code": "bb",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2162,6 +2700,9 @@
      "abbreviation": "114",
      "id_code": "dd",
      "parent": null,
+     "fills": [
+      "heavy-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2179,6 +2720,9 @@
      "abbreviation": "192",
      "id_code": "bb",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2196,6 +2740,9 @@
      "abbreviation": "211",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2213,6 +2760,9 @@
      "abbreviation": "243",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2230,6 +2780,9 @@
      "abbreviation": "329",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2247,6 +2800,9 @@
      "abbreviation": "358",
      "id_code": "bb",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2264,6 +2820,9 @@
      "abbreviation": "368",
      "id_code": "cc",
      "parent": null,
+     "fills": [
+      "heavy-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Heavy AA",
@@ -2281,6 +2840,9 @@
      "abbreviation": "442",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2298,6 +2860,9 @@
      "abbreviation": "612",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2315,6 +2880,9 @@
      "abbreviation": "617",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2332,6 +2900,9 @@
      "abbreviation": "841 Lt",
      "id_code": "bb",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2349,6 +2920,9 @@
      "abbreviation": "860",
      "id_code": "aa",
      "parent": null,
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "Light AA",
@@ -2382,7 +2956,15 @@
      "name": "90th Light Div HQ",
      "abbreviation": "90 Le",
      "id_code": "b",
+     "echelon": "division",
+     "attachment_parent": [
+      "infantry-division"
+     ],
+     "organisation": "90-leichte-afrika-division",
      "parent": null,
+     "fills": [
+      "90-leichte-afrika-division"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2398,7 +2980,15 @@
      "name": "155th Schutzen Regt HQ",
      "abbreviation": "155",
      "id_code": "b",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "infantry-regiment",
      "parent": "unit:de:90-le-div-hq",
+     "fills": [
+      "infantry-regiment"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2412,6 +3002,9 @@
      "abbreviation": "I/155",
      "id_code": "k",
      "parent": "unit:de:155-schutzen-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2425,6 +3018,9 @@
      "abbreviation": "II/155",
      "id_code": "k",
      "parent": "unit:de:155-schutzen-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2441,6 +3037,9 @@
      "abbreviation": "III/155",
      "id_code": "k",
      "parent": "unit:de:155-schutzen-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2453,7 +3052,16 @@
      "name": "361st Afrika Regt HQ",
      "abbreviation": "361 Af",
      "id_code": "b",
+     "echelon": "brigade",
+     "attachment_parent": [
+      "infantry-or-armour-regiment"
+     ],
+     "organisation": "361-afrika-regiment",
      "parent": "unit:de:90-le-div-hq",
+     "fills": [
+      "361-afrika-regiment",
+      "infantry-regiment"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2470,6 +3078,9 @@
      "abbreviation": "I/361",
      "id_code": "l",
      "parent": "unit:de:361-afrika-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "U@3",
      "arrives": {
@@ -2483,6 +3094,9 @@
      "abbreviation": "II/361",
      "id_code": "l",
      "parent": "unit:de:361-afrika-regt-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "U@6",
      "arrives": {
@@ -2496,6 +3110,12 @@
      "abbreviation": "361/361",
      "id_code": "v",
      "parent": "unit:de:361-afrika-regt-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "10.5cm Med Gun",
@@ -2513,6 +3133,9 @@
      "abbreviation": "III/255",
      "id_code": "l",
      "parent": "unit:de:90-le-div-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2529,6 +3152,9 @@
      "abbreviation": "III/347",
      "id_code": "l",
      "parent": "unit:de:90-le-div-hq",
+     "fills": [
+      "infantry-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {
@@ -2545,6 +3171,12 @@
      "abbreviation": "190",
      "id_code": "u",
      "parent": "unit:de:90-le-div-hq",
+     "fills": [
+      "artillery-unit"
+     ],
+     "fills_part": [
+      "artillery-group"
+     ],
      "toe": [
       {
        "weapon": "21cm How",
@@ -2566,6 +3198,9 @@
      "abbreviation": "613",
      "id_code": "z",
      "parent": "unit:de:90-le-div-hq",
+     "fills": [
+      "light-aa-unit"
+     ],
      "toe": [
       {
        "weapon": "7.5cm Lt Gun",
@@ -2587,6 +3222,10 @@
      "abbreviation": "190",
      "id_code": "x",
      "parent": "unit:de:90-le-div-hq",
+     "fills": [
+      "anti-tank-battalion",
+      "tank-destroyer-battalion"
+     ],
      "toe": [
       {
        "weapon": "5cm",
@@ -2603,7 +3242,11 @@
      "name": "580th Aufklarungs Bn",
      "abbreviation": "580",
      "id_code": "ee",
+     "vehicle": "armoured-car",
      "parent": "unit:de:90-le-div-hq",
+     "fills": [
+      "armoured-recce-battalion"
+     ],
      "toe": [],
      "toe_mark": "U@6",
      "arrives": {
@@ -2618,6 +3261,9 @@
      "id_code": "gg",
      "equivalent": "battalion",
      "parent": "unit:de:90-le-div-hq",
+     "fills": [
+      "engineer-battalion"
+     ],
      "toe": [],
      "toe_mark": "N",
      "arrives": {

@@ -25,11 +25,14 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-007](../rulings/R-007.md) — a reacting unit spends CP only on movement and on blowing a dump
 - [R-006](../rulings/R-006.md) — the stacking condition in 8.53a applies to truck convoys only
 - [R-008](../rulings/R-008.md) — "in combat" in 8.53d means in contact
+- [R-139](../rulings/R-139.md) — only a ZOC the unit stood in before the mover arrived pins it
 - [R-003](../rulings/R-003.md) — Contact is fixed at the start of every movement segment, either side's
 - [R-005](../rulings/R-005.md) — one rail stack each way may mix units and supplies and change its load en route, within both limits
 
 ## [Stacking, zones of control and reserve](./50-stacking-and-zoc.md)
 
+- [R-141](../rulings/R-141.md) — a division counts its 2 SP components, a brigade its 1 SP components
+- [R-138](../rulings/R-138.md) — a lone Rommel escapes first, then is captured
 - [R-118](../rulings/R-118.md) — the retreat is paid from the CP the unit has left; the rest is forfeited
 
 ## [Combat](./60-combat.md)
@@ -62,6 +65,8 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-014** — 20.66 note: M 11/39, not 13/39
 - **E-015** — 20.72: plan one month ahead, not two, and read the table for the arrival month
 - **E-016** — 20.83: the reference to 20.75 is void; the strength requirement is 20.82's
+- [R-142](../rulings/R-142.md) — a counter fills the slots of its own kind and size
+- [R-130](../rulings/R-130.md) — parents the attachment chart does not name use the nearest row by size and type
 - [R-100](../rulings/R-100.md) — the schedule and an OA sheet sometimes give different arrivals
 
 ## [Engineering](./80-engineering.md)
@@ -75,7 +80,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-099](../rulings/R-099.md) — a scenario's own list of repair facilities governs it
 - [R-016](../rulings/R-016.md) — a tank delivery squadron moves only in the truck convoy phase
 - [R-017](../rulings/R-017.md) — a tank delivery squadron reacts or retreats only with a friendly combat unit
+- [R-133](../rulings/R-133.md) — under abstract supply (§32) construction spends no supplies
+- [R-134](../rulings/R-134.md) — minefields go in clear, sand/gravel or rough hexes (24.35), not the chart's salt marsh
 - [R-018](../rulings/R-018.md) — dump costs follow the charts: real 3 CP + 10 stores, dummy 2 CP
+- [R-131](../rulings/R-131.md) — under abstract supply (§32) no supply dumps are built, real or dummy
 
 ## [Special rules](./90-special.md)
 
@@ -87,15 +95,29 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-024** — 29.1: the printed Roman numerals are weeks of the month
 - **E-025** — 29.61: the Weather Table's season rows are backwards; the turn bands are swapped with the opposite season's, per the 29.1 calendar
 - **E-030** — 30.5: the supply-by-sea reference is 56.0; 30.55 also admits barraged/bombed units; 30.57 is replaced by the 10 %-per-SP rule; 30.58's reference is 55.2
+- [R-125](../rulings/R-125.md) — which reconnaissance units are armoured cars: per unit, Axis by the chart notes, Commonwealth by what the unit was
+- [R-132](../rulings/R-132.md) — the Axis departure point for prisoners is the Tripolitania box
 - [R-019](../rulings/R-019.md) — the fleet's western limit is hex row xx29 on map B, where the 100-hex count ends; Derna is out of range
+- [R-137](../rulings/R-137.md) — Rommel's +5 CPA: which units, and what parting costs
+- [R-138](../rulings/R-138.md) — a lone Rommel in an enemy ZOC escapes first, then is captured
+- [R-140](../rulings/R-140.md) — Rommel retreats alone when an assault destroys his stack
+- [R-135](../rulings/R-135.md) — Rommel: his own counter, and where he starts
 - [V-001](../rulings/V-001.md) — the San Giorgio as a live gun battery: torpedo-immune, own AA, may sortie, no port-efficiency penalty (NJHarman)
 
 ## [Abstract logistics and air](./95-abstract-logistics-and-air.md)
 
 - [R-119](../rulings/R-119.md) — supply units, real or dummy, do not count as units in a supply trace
+- [R-128](../rulings/R-128.md) — dummy supply units are counted from real units that arrive, after convoy bombing
+- [R-131](../rulings/R-131.md) — under abstract supply (§32) no supply dumps are built, real or dummy
+- [R-133](../rulings/R-133.md) — under abstract supply (§32) construction spends no supplies
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 - [R-121](../rulings/R-121.md) — a company-equivalent pays half a battalion-equivalent's ammunition, rounded up per side and combat
 - [R-120](../rulings/R-120.md) — a unit that cannot pay its fuel does not move by land; one that cannot pay its ammunition is out of ammunition
+- [R-129](../rulings/R-129.md) — a hex surrenders when every defender that owes ammunition is out; HQs do not hold it
+- [R-124](../rulings/R-124.md) — air lift: division and brigade-equivalent HQs are destinations; the row limit is the farthest division HQ counter
+- [R-123](../rulings/R-123.md) — one motorisation point per TOE strength point of any kind; a unit short of points is not motorised
+- [R-126](../rulings/R-126.md) — a convoy no qualifying division can reach on the chart is not attacked
+- [R-127](../rulings/R-127.md) — a 5 % convoy result is applied like 10 %
 
 ## [Air Game — aircraft and squadrons](./air/10-aircraft-and-sgsus.md)
 
@@ -116,6 +138,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Air Game — abstract logistics with the Air Game](./air/90-abstract-logistics.md)
 
+- [R-127](../rulings/R-127.md) — a 5 % convoy result is applied like 10 %
 - [R-114](../rulings/R-114.md) — anti-air units with the Air Game and abstract logistics
 
 ## [Logistics Game — overview and sequence of play](./logistics/00-overview-and-sequence.md)
@@ -179,6 +202,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-032](../rulings/R-032.md) — the abstract convoy attack is made in the convoy bombing segment
 - [R-093](../rulings/R-093.md) — trucks stand in for motorisation points, supplies for supply units
+- [R-127](../rulings/R-127.md) — a 5 % convoy result is applied like 10 %
 - [R-032](../rulings/R-032.md) — fleet strikes are plotted and resolved in the Commonwealth fleet phase
 - [R-090](../rulings/R-090.md) — only convoy fuel from Europe is cut; the loss is rounded up
 - [R-091](../rulings/R-091.md) — the set-up loses 10 % of its Truck Points, rounded up, in proportion by type
@@ -208,6 +232,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-104](../rulings/R-104.md) — what the Desert Fox campaign scenario consists of
 - [R-103](../rulings/R-103.md) — 5 RTR's tanks with no 5 RTR in the set-up
+- [R-136](../rulings/R-136.md) — set-up areas "between" two places and "inside" a triangle
 - [R-027](../rulings/R-027.md) — Tobruk's efficiency level
 - [R-102](../rulings/R-102.md) — motorisation points when only the Logistics Game is left out
 - [R-101](../rulings/R-101.md) — who wins when the Axis player holds Tobruk alone
@@ -312,6 +337,26 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-120](../rulings/R-120.md) | accepted | 32.21, 32.22, 32.23, 32.24, 13.2, 15.15 |
 | [R-121](../rulings/R-121.md) | accepted | 32.21, 32.24, 9.28, 20.15 |
 | [R-122](../rulings/R-122.md) | accepted | 15.12, 15.14, 15.15, 15.16, 15.83, 14.21 |
+| [R-123](../rulings/R-123.md) | accepted | 32.51, 32.53, 32.54, 6.17, 8.91, 8.95, 54.2 |
+| [R-124](../rulings/R-124.md) | accepted | 32.37, 9.22, 9.26, 19.73 |
+| [R-125](../rulings/R-125.md) | accepted | 21.11, 21.13, 21.14, 20.51, 20.52, 8.91 |
+| [R-126](../rulings/R-126.md) | accepted | 32.63, 32.64, 32.66 |
+| [R-127](../rulings/R-127.md) | accepted | 32.64, 32.65, 47.65, 58.1 |
+| [R-128](../rulings/R-128.md) | accepted | 32.18, 32.41, 32.64 |
+| [R-129](../rulings/R-129.md) | accepted | 32.21, 15.15, 17.25 |
+| [R-130](../rulings/R-130.md) | accepted | 19.5, 19.41, 9.22 |
+| [R-131](../rulings/R-131.md) | accepted | 24.9, 32.11, 32.12, 32.18 |
+| [R-132](../rulings/R-132.md) | accepted | 28.16, 8.85 |
+| [R-133](../rulings/R-133.md) | accepted | 24.13, 24.14, 24.33, 32.11 |
+| [R-134](../rulings/R-134.md) | accepted | 24.35, 24.17 |
+| [R-135](../rulings/R-135.md) | accepted | 31.0, 27.92, 61.41 |
+| [R-136](../rulings/R-136.md) | accepted | 61.41, 61.44, 61.31, 62.41 |
+| [R-137](../rulings/R-137.md) | accepted | 31.0, 6.21, 8.17 |
+| [R-138](../rulings/R-138.md) | accepted | 31.0, 10.29, 8.51, 13.2 |
+| [R-139](../rulings/R-139.md) | accepted | 8.51, 8.53, 8.54 |
+| [R-140](../rulings/R-140.md) | accepted | 31.0, 10.29, 15.82 |
+| [R-141](../rulings/R-141.md) | accepted | 9.26, 9.27, 19.3 |
+| [R-142](../rulings/R-142.md) | accepted | 9.26, 19.2, 19.3 |
 
 ## Variants register
 

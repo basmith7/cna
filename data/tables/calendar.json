@@ -1,0 +1,682 @@
+{
+  "table": "calendar",
+  "sources": [
+    "CNA1979:34.84",
+    "CNA1979:29.1",
+    "scan:p142"
+  ],
+  "notes": [
+    "Game-Turn to calendar week. Every month holds exactly four Game-Turns, weeks I-IV (the Roman numerals of 29.1 are weeks of the month, E-024; no month has a week V). Game-Turn 1 is September III, 1940 and Game-Turn 111, the campaign's last, is January I, 1943.",
+    "Read from the Commonwealth Airplane Reinforcement chart (34.84, jp2 142), which prints each period with its Game-Turns: Sept IV = GT 2, Oct I = GT 3, Nov II = GT 8, Dec I = GT 11, then every month of 1941 and 1942 as four Game-Turns (Jan 1941 = GT 15-18 ... Dec 1942 = GT 107-110).",
+    "Agrees with every other printed date: GT 26 is March 1941 (Rommel's Arrival, 61.2), GT 35 is June I, 1941 (the Port Capacity chart, note a), GT 58 is November IV, 1941 (the German OA sheet), GT 110 is the last week of December 1942 (The Long Retreat, 63.2); and with the seasons (29.1): autumn begins September III, so GT 1-12 are autumn, as E-025's corrected Weather Table bands say.",
+    "week is 1-4 for I-IV. A table keyed by month (axis-convoy-level, simplified-supply, motorisation-losses, cw-production, axis-replacement-pool, seasons) is read through this one."
+  ],
+  "rows": [
+    {
+      "game_turn": 1,
+      "year": 1940,
+      "month": 9,
+      "week": 3
+    },
+    {
+      "game_turn": 2,
+      "year": 1940,
+      "month": 9,
+      "week": 4
+    },
+    {
+      "game_turn": 3,
+      "year": 1940,
+      "month": 10,
+      "week": 1
+    },
+    {
+      "game_turn": 4,
+      "year": 1940,
+      "month": 10,
+      "week": 2
+    },
+    {
+      "game_turn": 5,
+      "year": 1940,
+      "month": 10,
+      "week": 3
+    },
+    {
+      "game_turn": 6,
+      "year": 1940,
+      "month": 10,
+      "week": 4
+    },
+    {
+      "game_turn": 7,
+      "year": 1940,
+      "month": 11,
+      "week": 1
+    },
+    {
+      "game_turn": 8,
+      "year": 1940,
+      "month": 11,
+      "week": 2
+    },
+    {
+      "game_turn": 9,
+      "year": 1940,
+      "month": 11,
+      "week": 3
+    },
+    {
+      "game_turn": 10,
+      "year": 1940,
+      "month": 11,
+      "week": 4
+    },
+    {
+      "game_turn": 11,
+      "year": 1940,
+      "month": 12,
+      "week": 1
+    },
+    {
+      "game_turn": 12,
+      "year": 1940,
+      "month": 12,
+      "week": 2
+    },
+    {
+      "game_turn": 13,
+      "year": 1940,
+      "month": 12,
+      "week": 3
+    },
+    {
+      "game_turn": 14,
+      "year": 1940,
+      "month": 12,
+      "week": 4
+    },
+    {
+      "game_turn": 15,
+      "year": 1941,
+      "month": 1,
+      "week": 1
+    },
+    {
+      "game_turn": 16,
+      "year": 1941,
+      "month": 1,
+      "week": 2
+    },
+    {
+      "game_turn": 17,
+      "year": 1941,
+      "month": 1,
+      "week": 3
+    },
+    {
+      "game_turn": 18,
+      "year": 1941,
+      "month": 1,
+      "week": 4
+    },
+    {
+      "game_turn": 19,
+      "year": 1941,
+      "month": 2,
+      "week": 1
+    },
+    {
+      "game_turn": 20,
+      "year": 1941,
+      "month": 2,
+      "week": 2
+    },
+    {
+      "game_turn": 21,
+      "year": 1941,
+      "month": 2,
+      "week": 3
+    },
+    {
+      "game_turn": 22,
+      "year": 1941,
+      "month": 2,
+      "week": 4
+    },
+    {
+      "game_turn": 23,
+      "year": 1941,
+      "month": 3,
+      "week": 1
+    },
+    {
+      "game_turn": 24,
+      "year": 1941,
+      "month": 3,
+      "week": 2
+    },
+    {
+      "game_turn": 25,
+      "year": 1941,
+      "month": 3,
+      "week": 3
+    },
+    {
+      "game_turn": 26,
+      "year": 1941,
+      "month": 3,
+      "week": 4
+    },
+    {
+      "game_turn": 27,
+      "year": 1941,
+      "month": 4,
+      "week": 1
+    },
+    {
+      "game_turn": 28,
+      "year": 1941,
+      "month": 4,
+      "week": 2
+    },
+    {
+      "game_turn": 29,
+      "year": 1941,
+      "month": 4,
+      "week": 3
+    },
+    {
+      "game_turn": 30,
+      "year": 1941,
+      "month": 4,
+      "week": 4
+    },
+    {
+      "game_turn": 31,
+      "year": 1941,
+      "month": 5,
+      "week": 1
+    },
+    {
+      "game_turn": 32,
+      "year": 1941,
+      "month": 5,
+      "week": 2
+    },
+    {
+      "game_turn": 33,
+      "year": 1941,
+      "month": 5,
+      "week": 3
+    },
+    {
+      "game_turn": 34,
+      "year": 1941,
+      "month": 5,
+      "week": 4
+    },
+    {
+      "game_turn": 35,
+      "year": 1941,
+      "month": 6,
+      "week": 1
+    },
+    {
+      "game_turn": 36,
+      "year": 1941,
+      "month": 6,
+      "week": 2
+    },
+    {
+      "game_turn": 37,
+      "year": 1941,
+      "month": 6,
+      "week": 3
+    },
+    {
+      "game_turn": 38,
+      "year": 1941,
+      "month": 6,
+      "week": 4
+    },
+    {
+      "game_turn": 39,
+      "year": 1941,
+      "month": 7,
+      "week": 1
+    },
+    {
+      "game_turn": 40,
+      "year": 1941,
+      "month": 7,
+      "week": 2
+    },
+    {
+      "game_turn": 41,
+      "year": 1941,
+      "month": 7,
+      "week": 3
+    },
+    {
+      "game_turn": 42,
+      "year": 1941,
+      "month": 7,
+      "week": 4
+    },
+    {
+      "game_turn": 43,
+      "year": 1941,
+      "month": 8,
+      "week": 1
+    },
+    {
+      "game_turn": 44,
+      "year": 1941,
+      "month": 8,
+      "week": 2
+    },
+    {
+      "game_turn": 45,
+      "year": 1941,
+      "month": 8,
+      "week": 3
+    },
+    {
+      "game_turn": 46,
+      "year": 1941,
+      "month": 8,
+      "week": 4
+    },
+    {
+      "game_turn": 47,
+      "year": 1941,
+      "month": 9,
+      "week": 1
+    },
+    {
+      "game_turn": 48,
+      "year": 1941,
+      "month": 9,
+      "week": 2
+    },
+    {
+      "game_turn": 49,
+      "year": 1941,
+      "month": 9,
+      "week": 3
+    },
+    {
+      "game_turn": 50,
+      "year": 1941,
+      "month": 9,
+      "week": 4
+    },
+    {
+      "game_turn": 51,
+      "year": 1941,
+      "month": 10,
+      "week": 1
+    },
+    {
+      "game_turn": 52,
+      "year": 1941,
+      "month": 10,
+      "week": 2
+    },
+    {
+      "game_turn": 53,
+      "year": 1941,
+      "month": 10,
+      "week": 3
+    },
+    {
+      "game_turn": 54,
+      "year": 1941,
+      "month": 10,
+      "week": 4
+    },
+    {
+      "game_turn": 55,
+      "year": 1941,
+      "month": 11,
+      "week": 1
+    },
+    {
+      "game_turn": 56,
+      "year": 1941,
+      "month": 11,
+      "week": 2
+    },
+    {
+      "game_turn": 57,
+      "year": 1941,
+      "month": 11,
+      "week": 3
+    },
+    {
+      "game_turn": 58,
+      "year": 1941,
+      "month": 11,
+      "week": 4
+    },
+    {
+      "game_turn": 59,
+      "year": 1941,
+      "month": 12,
+      "week": 1
+    },
+    {
+      "game_turn": 60,
+      "year": 1941,
+      "month": 12,
+      "week": 2
+    },
+    {
+      "game_turn": 61,
+      "year": 1941,
+      "month": 12,
+      "week": 3
+    },
+    {
+      "game_turn": 62,
+      "year": 1941,
+      "month": 12,
+      "week": 4
+    },
+    {
+      "game_turn": 63,
+      "year": 1942,
+      "month": 1,
+      "week": 1
+    },
+    {
+      "game_turn": 64,
+      "year": 1942,
+      "month": 1,
+      "week": 2
+    },
+    {
+      "game_turn": 65,
+      "year": 1942,
+      "month": 1,
+      "week": 3
+    },
+    {
+      "game_turn": 66,
+      "year": 1942,
+      "month": 1,
+      "week": 4
+    },
+    {
+      "game_turn": 67,
+      "year": 1942,
+      "month": 2,
+      "week": 1
+    },
+    {
+      "game_turn": 68,
+      "year": 1942,
+      "month": 2,
+      "week": 2
+    },
+    {
+      "game_turn": 69,
+      "year": 1942,
+      "month": 2,
+      "week": 3
+    },
+    {
+      "game_turn": 70,
+      "year": 1942,
+      "month": 2,
+      "week": 4
+    },
+    {
+      "game_turn": 71,
+      "year": 1942,
+      "month": 3,
+      "week": 1
+    },
+    {
+      "game_turn": 72,
+      "year": 1942,
+      "month": 3,
+      "week": 2
+    },
+    {
+      "game_turn": 73,
+      "year": 1942,
+      "month": 3,
+      "week": 3
+    },
+    {
+      "game_turn": 74,
+      "year": 1942,
+      "month": 3,
+      "week": 4
+    },
+    {
+      "game_turn": 75,
+      "year": 1942,
+      "month": 4,
+      "week": 1
+    },
+    {
+      "game_turn": 76,
+      "year": 1942,
+      "month": 4,
+      "week": 2
+    },
+    {
+      "game_turn": 77,
+      "year": 1942,
+      "month": 4,
+      "week": 3
+    },
+    {
+      "game_turn": 78,
+      "year": 1942,
+      "month": 4,
+      "week": 4
+    },
+    {
+      "game_turn": 79,
+      "year": 1942,
+      "month": 5,
+      "week": 1
+    },
+    {
+      "game_turn": 80,
+      "year": 1942,
+      "month": 5,
+      "week": 2
+    },
+    {
+      "game_turn": 81,
+      "year": 1942,
+      "month": 5,
+      "week": 3
+    },
+    {
+      "game_turn": 82,
+      "year": 1942,
+      "month": 5,
+      "week": 4
+    },
+    {
+      "game_turn": 83,
+      "year": 1942,
+      "month": 6,
+      "week": 1
+    },
+    {
+      "game_turn": 84,
+      "year": 1942,
+      "month": 6,
+      "week": 2
+    },
+    {
+      "game_turn": 85,
+      "year": 1942,
+      "month": 6,
+      "week": 3
+    },
+    {
+      "game_turn": 86,
+      "year": 1942,
+      "month": 6,
+      "week": 4
+    },
+    {
+      "game_turn": 87,
+      "year": 1942,
+      "month": 7,
+      "week": 1
+    },
+    {
+      "game_turn": 88,
+      "year": 1942,
+      "month": 7,
+      "week": 2
+    },
+    {
+      "game_turn": 89,
+      "year": 1942,
+      "month": 7,
+      "week": 3
+    },
+    {
+      "game_turn": 90,
+      "year": 1942,
+      "month": 7,
+      "week": 4
+    },
+    {
+      "game_turn": 91,
+      "year": 1942,
+      "month": 8,
+      "week": 1
+    },
+    {
+      "game_turn": 92,
+      "year": 1942,
+      "month": 8,
+      "week": 2
+    },
+    {
+      "game_turn": 93,
+      "year": 1942,
+      "month": 8,
+      "week": 3
+    },
+    {
+      "game_turn": 94,
+      "year": 1942,
+      "month": 8,
+      "week": 4
+    },
+    {
+      "game_turn": 95,
+      "year": 1942,
+      "month": 9,
+      "week": 1
+    },
+    {
+      "game_turn": 96,
+      "year": 1942,
+      "month": 9,
+      "week": 2
+    },
+    {
+      "game_turn": 97,
+      "year": 1942,
+      "month": 9,
+      "week": 3
+    },
+    {
+      "game_turn": 98,
+      "year": 1942,
+      "month": 9,
+      "week": 4
+    },
+    {
+      "game_turn": 99,
+      "year": 1942,
+      "month": 10,
+      "week": 1
+    },
+    {
+      "game_turn": 100,
+      "year": 1942,
+      "month": 10,
+      "week": 2
+    },
+    {
+      "game_turn": 101,
+      "year": 1942,
+      "month": 10,
+      "week": 3
+    },
+    {
+      "game_turn": 102,
+      "year": 1942,
+      "month": 10,
+      "week": 4
+    },
+    {
+      "game_turn": 103,
+      "year": 1942,
+      "month": 11,
+      "week": 1
+    },
+    {
+      "game_turn": 104,
+      "year": 1942,
+      "month": 11,
+      "week": 2
+    },
+    {
+      "game_turn": 105,
+      "year": 1942,
+      "month": 11,
+      "week": 3
+    },
+    {
+      "game_turn": 106,
+      "year": 1942,
+      "month": 11,
+      "week": 4
+    },
+    {
+      "game_turn": 107,
+      "year": 1942,
+      "month": 12,
+      "week": 1
+    },
+    {
+      "game_turn": 108,
+      "year": 1942,
+      "month": 12,
+      "week": 2
+    },
+    {
+      "game_turn": 109,
+      "year": 1942,
+      "month": 12,
+      "week": 3
+    },
+    {
+      "game_turn": 110,
+      "year": 1942,
+      "month": 12,
+      "week": 4
+    },
+    {
+      "game_turn": 111,
+      "year": 1943,
+      "month": 1,
+      "week": 1
+    }
+  ]
+}

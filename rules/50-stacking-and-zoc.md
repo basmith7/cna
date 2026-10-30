@@ -106,6 +106,15 @@ when too little of it is present:
 | Brigade | fewer than two-thirds of its assignable battalions are attached — but a two-battalion brigade with both attached is not a shell if at least one of them is itself not a shell |
 | Battalion | under 50% of its TOE strength points are attached; artillery units only under 25% |
 
+::: ruling R-141 — a division counts its 2 SP components, a brigade its 1 SP components
+
+Which entries of the [Formation Organisation Chart](70-organisation.md)
+make up the count: a division counts its components of 2 SP or more, a
+brigade or regiment its components of 1 SP or more; companies of 0 SP and
+slots printed with no figure never count. Each component in
+`data/tables/formation-organisation.json` says so in `counts_for_shell`
+([R-141](../rulings/R-141.md)).
+
 A shell attached to a parent does not count toward the parent's quota: a
 three-brigade division with three attached, two of them shells, is itself a
 shell. A shell is treated one level smaller (division as brigade, brigade as
@@ -207,6 +216,12 @@ sits. No non-combat unit (bare HQ, engineer, squadron ground support, etc.)
 may ever voluntarily enter an *unoccupied* enemy-controlled hex, and one that
 is alone in an enemy ZOC during the enemy movement/combat phase with no
 strength of any kind is **captured**.
+
+::: ruling R-138 — a lone Rommel escapes first, then is captured
+
+Rommel is such a unit, but alone in an enemy ZOC he may first react or
+retreat before assault ([Rommel](90-special.md#rommel),
+[R-138](../rulings/R-138.md)).
 
 ### ZOC combat requirement (holding off)
 

@@ -60,6 +60,18 @@ An assigned unit occupies its slot in the parent's structure wherever it is.
 - **Historical shifts.** Where the O/A Chart notes a historical change of
   parent (a regiment moving from one panzer division to another), the owner
   may make it in the month named, or never.
+- **Replacement counters.** Where the O/A Chart says one counter replaces
+  another (the 5th Light Panzer Division's HQ becoming the 21st Panzer's at
+  2/58, the 7th Support Group becoming the 7th Motor Brigade, the 3rd
+  Armoured Brigade becoming the 32nd Army Tank Brigade), the change is not
+  optional: when the new counter arrives the old one leaves play and the new
+  one takes its hex, TOE points and every unit assigned or attached to it.
+  The 21st Panzer also takes the 104th Rifle Regiment (from the 15th Panzer)
+  and the 155th Artillery Regiment as assigned units, and the I/75 Artillery
+  Battalion is swapped for the II/155 at the same moment. A scenario that
+  sets up the new counter starts with the change made
+  ([R-096](../rulings/R-096.md)). In `data/oa/` the new counter names the old
+  one in `replaces` and the units it gains in `assigns`.
 - **Commonwealth armour.** The assignment limits of Commonwealth armoured
   divisions and brigades change three times; the owner may fill slots that
   open and must unassign units that a tighter limit excludes.
@@ -81,8 +93,28 @@ two armoured brigades and a support group until turn 18, gains an armoured
 car or recce unit from turn 19, slims to one brigade from turn 71 and from
 turn 92 becomes a brigade, an infantry brigade, three artillery units and
 supporting battalions.
+Each component also says whether it counts when the parent is judged a
+shell ([R-141](../rulings/R-141.md)), and each row has one `turns` (a type
+that comes back in a later period is given twice).
+
+::: ruling R-142 — a counter fills the slots of its own kind and size
+
+Every counter in `data/oa/` says which chart slots it can fill: `fills`
+for those it fills alone, `fills_part` for those it fills only with others
+of its kind. A slot takes a counter of the kind its symbol names (from the
+counter's characteristics row) and the size printed beside it, so a
+company never fills a battalion slot. Three slots take several counters
+(`part_slots`): the German artillery group is an artillery regiment HQ
+with its units or any three 1 SP artillery counters; the Italian artillery
+regiment is a regiment counter or one to three battalions; the Italian
+anti-tank battalion is a battalion or one to three companies. Each counter
+fills one slot at a time. A counter the O/A sheet assigns beyond the chart
+stays assigned but fills no slot, so it never counts toward a shell
+([R-142](../rulings/R-142.md)).
 
 ::: spi 19.5
+
+::: ruling R-130 — parents the attachment chart does not name use the nearest row by size and type
 
 The Maximum Attachment Chart is data: `data/tables/max-attachments.json` —
 per nation and parent type, how many battalion-equivalents may be attached
@@ -91,6 +123,20 @@ division from turn 68), at most one of them infantry and, before turn 68,
 never a tank battalion; German divisions take a brigade plus a unit or up to
 four units, never tanks; Italian battalions take nothing. Any division or
 brigade may add two small company-equivalents for free.
+
+Each headquarters in `data/oa/` names its rows: `attachment_parent` lists
+its Maximum Attachment Chart rows (two where the chart splits a type at
+turn 68; the one covering the current turn applies) and `organisation` its
+Formation Organisation Chart row (the type follows the turn the same way),
+or null where the chart has none and the O/A notes govern (battle groups,
+artillery commands, garrisons, the corps). Every battalion-equivalent uses
+its nation's battalion row. Parents the chart does not name take the
+nearest row by size and type: German brigades the regiment row, German
+artillery regiment HQs the artillery brigade HQ row, Commonwealth army tank
+brigades the tank brigade rows ([R-130](../rulings/R-130.md)). Italian infantry divisions are the
+semi-motorised row unless motorised (Trieste, Trento) or Libyan or
+parachute (the two Libyan divisions, Folgore, Gruppo Maletti, which the
+chart names there).
 
 ## Attachment and detachment {#attachment-limits}
 

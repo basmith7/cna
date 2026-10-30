@@ -1,0 +1,33 @@
+{
+ "id": "M-933",
+ "target": "hexside",
+ "key": "A2109|A2208",
+ "before": null,
+ "patches": [
+  {
+   "op": "add",
+   "path": "",
+   "value": {
+    "key": "A2109|A2208",
+    "a": "A2109",
+    "b": "A2208",
+    "side": null,
+    "features": [
+     "road"
+    ],
+    "up": null
+   }
+  }
+ ],
+ "seen": {
+  "scan": "scan:p187",
+  "crop": [
+   1450,
+   6600,
+   450,
+   450
+  ],
+  "note": "the coast road (solid double lines) runs unbroken from A2110 past Marble Arch along the A2109/A2209 shore side and into A2208 at the corner it shares with A2109; A2209 is sea, so the road joins A2109 to A2208. Without this the road from El Agheila stopped at A2109 and never reached Nofilia"
+ },
+ "superseded": false
+}

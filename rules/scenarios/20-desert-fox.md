@@ -100,11 +100,19 @@ March 1941.
   Maaten Groter (A1318) and Magadah (A0817).
 - **Italians:** Ariete within two hexes of El Agheila, not east of it;
   Pavia, Bologna, Brescia and Savona between Ras el Ali (A2010) and Nofilia
-  (A2703), each at least two hexes from the next; Trento, Sabratha and corps
+  (A2703), no two of them less than two hexes apart; Trento, Sabratha and corps
   artillery in Tripoli. Every Italian unit is as its OA sheet shows, except
   the Sabratha Division, which has lost its six infantry battalions
   (rebuildable from replacements) and has its machinegun battalion and
   artillery cut to one TOE point each.
+
+::: ruling R-136 — set-up areas "between" two places and "inside" a triangle
+
+"Between" two places is every land hex on a shortest path from one to the
+other: a band along the coast, not just the road. "Inside" a triangle is
+every land hex whose centre lies inside or on it. The data lists the hexes
+for the Italian divisions, the Axis dumps, the Australians' triangle and,
+in Operation Crusader, the Savona Division's.
 
 ::: spi 61.42 61.43 61.44 61.45
 
@@ -164,7 +172,8 @@ On top of [the general rules](00-reading-scenarios.md#abstractions)
   one for one. The Axis starts with 290 unattached motorisation points and
   the Commonwealth with 150 in Alexandria or Cairo and 90 elsewhere. Supply
   units replace the dumps: the Axis ones on the coast road between El
-  Agheila and Nofilia, the Commonwealth ones on the dump sites.
+  Agheila and Nofilia (its 20 hexes, listed in the data; not the spur to
+  Maaten Groter), the Commonwealth ones on the dump sites.
 - **Logistics Game left out, Air Game played:** as for the Land Game only,
   plus supply for the air facilities.
 

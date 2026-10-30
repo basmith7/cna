@@ -22,6 +22,13 @@ time: nearly everything a unit does — moving, fighting, building, training —
 happens inside a stage. A few housekeeping steps run only once per turn,
 before the first stage.
 
+Every month holds exactly **four game turns**, its weeks I to IV; there is
+no fifth week. Game-Turn 1 is the third week of September 1940, so
+Game-Turn 35 is June I, 1941 and the campaign's last, Game-Turn 111, is
+January I, 1943. The full table is `data/tables/calendar.json`; anything
+the charts key by month (convoy levels, supply periods, motorisation
+losses, production, seasons) is looked up through it.
+
 ## Initiative
 
 ::: spi 7.11 7.12 7.13 7.14 7.15 7.16

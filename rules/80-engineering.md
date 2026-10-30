@@ -188,6 +188,8 @@ file:
 
 ::: spi 24.0 24.11 24.12 24.13 24.14 24.15 24.16
 
+::: ruling R-133 — under abstract supply (§32) construction spends no supplies
+
 All construction starts in the **construction segment** of the organisation
 phase and completes at the start of the construction segment of a later
 stage, after the number of stages on the Construction Chart (the starting
@@ -195,8 +197,9 @@ stage counts). A unit building may spend **no CP** that stage or the stage is
 lost; a unit may run only one project at a time, obeys stacking (but not
 road stacking limits), and may abandon a project freely. Supplies for a
 project must begin the segment in the hex and are spent then, even if the
-builders are later driven off; normal upkeep is paid as well. Weather and
-fire interfere:
+builders are later driven off; normal upkeep is paid as well. Under
+abstract supply (§32) no construction costs supplies, and none need be in
+the hex ([R-133](../rulings/R-133.md)). Weather and fire interfere:
 
 ::: spi 24.21 24.22 24.23 24.24
 
@@ -229,12 +232,15 @@ by a raid; unblocking a port costs **50 ammunition + 25 stores** per level
 
 ::: spi 24.31 24.32 24.33 24.34 24.35 24.36 24.37 24.38
 
+::: ruling R-134 — minefields go in clear, sand/gravel or rough hexes (24.35), not the chart's salt marsh
+
 Any engineer unit (or Commonwealth E-HQ) lays one **real** or **dummy**
 minefield per project — the counter's back tells which — taking exactly one
 stage, marked *under construction* and done at the next construction
 segment. A real field costs **15 stores + 15 ammunition** up front; a dummy
 **3 stores**. Sites: clear, sand/gravel or rough, one field per hex, never
-in a major city or an enemy-controlled hex. Effects are in
+in a major city or an enemy-controlled hex; the chart's salt marsh in place
+of rough is a misprint ([R-134](../rulings/R-134.md)). Effects are in
 [minefields](#minefields); removal is as under [engineers](#engineers).
 
 ### Fortifications {#building-fortifications}
@@ -339,6 +345,13 @@ and, in the Logistics Game, **10 stores**; a **dummy dump** costs **2 CP**
 only. These are the Construction Chart's and CP summary's figures, which
 govern over the 24.9 text (ruling [R-018](../rulings/R-018.md)). Supplies may lie in a hex without a dump, tracked by the owner and
 capped by the Logistics Game, but convoy trucks cannot load from such a hex.
+
+::: ruling R-131 — under abstract supply (§32) no supply dumps are built, real or dummy
+
+When the Land Game is played without the Logistics Game, none of this
+applies: supplies exist only as [supply units](95-abstract-logistics-and-air.md#supply-units),
+which arrive by schedule, and dummies only within their one-per-three
+allowance ([R-131](../rulings/R-131.md)).
 
 ## Fortifications {#fortifications}
 

@@ -64,9 +64,24 @@ spend half the CPA (rounded up) of every unit in the hex and roll one die
 per supply unit; 1–3 destroys it, +1 to the roll if the hex holds 1 SP or
 less. One attempt per unit per sub-segment.
 
+::: ruling R-128 — dummy supply units are counted from real units that arrive, after convoy bombing
+
 **Dummy** supply units: one per three real units received or started with,
-moved like real ones (needing fewer motorisation points), removed when
-found.
+a running total over the game, moved like real ones (needing fewer
+motorisation points), removed when found. An Axis unit counts only when its
+convoy arrives; one sunk by bombing never counts ([R-128](../rulings/R-128.md)).
+
+::: ruling R-131 — under abstract supply (§32) no supply dumps are built, real or dummy
+
+No supply dump or dummy dump is built under these rules (SPI 24.9 is off):
+supply units come only as [received](#receiving-supply-units), and dummies only
+from this one-per-three allowance ([R-131](../rulings/R-131.md)).
+
+::: ruling R-133 — under abstract supply (§32) construction spends no supplies
+
+Construction (§24) spends no ammunition, fuel, stores or water from a
+supply unit and needs none in the hex; builders, stages, weather and
+terrain are as usual ([R-133](../rulings/R-133.md)).
 
 ## Supply expenditure
 
@@ -100,6 +115,8 @@ sheets. The fleet and patrolling points need nothing.
 
 ::: ruling R-120 — a unit that cannot pay its fuel does not move by land; one that cannot pay its ammunition is out of ammunition
 
+::: ruling R-129 — a hex surrenders when every defender that owes ammunition is out; HQs do not hold it
+
 A unit that **cannot pay** from a supply unit in range is stopped, not
 excused ([R-120](../rulings/R-120.md)):
 
@@ -109,6 +126,9 @@ excused ([R-120](../rulings/R-120.md)):
 - **No ammunition:** the unit is out of ammunition for that combat. It
   cannot barrage, assault or defend, and a hex whose every defender is out
   of ammunition surrenders when assaulted ([combat](60-combat.md)).
+  Defenders that owe no ammunition, such as HQs, do not hold the hex: it
+  surrenders, with them, when at least one defender owes ammunition and
+  every one that does is out ([R-129](../rulings/R-129.md)).
 
 ::: note
 In the Logistics Game this is replaced by [Ammunition and stores](logistics/20-ammunition-and-stores.md#consumption-rates).
@@ -143,6 +163,15 @@ arrival stage too.
   hex row held by a friendly division, shell or full; only to a hex holding
   a friendly division or brigade HQ (not a battle group). The unit stays put
   that stage but may be drawn upon.
+
+::: ruling R-124 — air lift: division and brigade-equivalent HQs are destinations; the row limit is the farthest division HQ counter
+
+**Which HQs count.** A brigade HQ means any brigade-equivalent HQ, so
+regiment HQs qualify; battle-group HQs (Kampfgruppe and Gruppe counters)
+and the Afrika Korps HQ do not. The farthest row "held by a division" is the
+row of the farthest friendly division HQ counter, however little is
+attached to it. Each HQ's level is the `echelon` of its OA entry
+(ruling [R-124](../rulings/R-124.md)).
 
 ::: note
 In the Logistics Game this is replaced by [Trucks and dumps](logistics/40-trucks-and-dumps.md#the-commonwealth-railway).
@@ -185,6 +214,15 @@ battalions (CPA 8+ and 10+) must all be served first. They never break down
 (other breakdown rules stand), are lost only with their unit (captured with
 it, for the enemy's use), and never suffer a barrage truck result.
 
+::: ruling R-123 — one motorisation point per TOE strength point of any kind; a unit short of points is not motorised
+
+**How many points a unit takes.** One motorisation point for every TOE
+strength point the unit has, infantry, artillery, anti-tank or anti-air
+alike (absorbed anti-tank points included). With that many assigned the
+unit moves at the medium-truck CPA (20 carrying infantry, 15 carrying
+guns); with fewer it is not motorised and moves at its own CPA, and the
+points it has simply ride along (ruling [R-123](../rulings/R-123.md)).
+
 **Abstract losses**: in each month's first naval convoy stage, read the
 Abstract Motorisation Point Loss Chart for the previous month — Commonwealth
 percentage left of the stroke, Axis right — of all the player's points on
@@ -215,6 +253,10 @@ With the Air Game, drop 32.57 and 32.59: motorisation points can be strafed and 
 
 ::: spi 32.61 32.62 32.63 32.64 32.65
 
+::: ruling R-126 — a convoy no qualifying division can reach on the chart is not attacked
+
+::: ruling R-127 — a 5 % convoy result is applied like 10 %
+
 An Axis convoy is the turn's supply units, motorisation points and
 replacement points, split among the convoy lanes (SPI 56.0) with no tonnage
 limit but at most **three supply units and twenty motorisation points per
@@ -224,10 +266,13 @@ Commonwealth attacks each arriving convoy separately, whatever the weather:
 read down the lane's column of the Simple Axis Naval Convoy Bombing Chart to
 the westernmost qualifying Commonwealth division for the bomb points, then
 roll two dice sequentially on the Air Bombardment Table in that column for
-the percentage destroyed. A **10 %** result hits only motorisation (fractions
-down) and replacement points (fractions up); **20 % or more** hits
-everything, fractions down, but always at least one point of each item and
-one supply unit. Tank and gun losses are a percentage of each nationality's
+the percentage destroyed. If no qualifying division has reached the lane's
+first threshold, the convoy is not attacked and arrives whole
+([R-126](../rulings/R-126.md)); the 1–20 column could not have hurt it.
+A **5 %** or **10 %** result hits only motorisation (fractions down) and
+replacement points (fractions up) ([R-127](../rulings/R-127.md));
+**20 % or more** hits everything, fractions down, but always at least one
+point of each item and one supply unit. Tank and gun losses are a percentage of each nationality's
 total, the Axis choosing the types.
 
 ::: note
@@ -241,7 +286,8 @@ With the Air Game this is replaced by [Axis convoys](air/90-abstract-logistics.m
 ::: spi 32.66
 
 The Simple Axis Naval Convoy Bombing Chart is data:
-`data/tables/axis-convoy-bombing.json` — six route columns, ten bomb-point
+`data/tables/axis-convoy-bombing.json` — six route columns, one per
+convoy lane by number (`data/tables/convoy-lanes.json`), ten bomb-point
 bands from 21–40 up to 471+, each cell the westernmost map column a full
 Commonwealth division must have passed for that band to apply; dashes
 where a route can never be hit that hard.

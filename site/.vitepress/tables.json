@@ -39,6 +39,10 @@
   "title": "Assault size shifts",
   "group": "Land Game"
  },
+ "axis-air-reinforcement-schedule": {
+  "title": "Axis air reinforcement schedule",
+  "group": "Air Game"
+ },
  "axis-coastal-ships": {
   "title": "Axis coastal ships",
   "group": "Logistics Game"
@@ -79,6 +83,10 @@
   "title": "Breakdown",
   "group": "Land Game"
  },
+ "calendar": {
+  "title": "Calendar",
+  "group": "Land Game"
+ },
  "chariot-raid": {
   "title": "Chariot raid",
   "group": "Land Game"
@@ -89,6 +97,10 @@
  },
  "construction": {
   "title": "Construction",
+  "group": "Land Game"
+ },
+ "convoy-lanes": {
+  "title": "Convoy lanes",
   "group": "Land Game"
  },
  "convoy-reconnaissance": {

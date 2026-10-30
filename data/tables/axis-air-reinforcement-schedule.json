@@ -1,0 +1,1823 @@
+{
+ "table": "axis-air-reinforcement-schedule",
+ "sources": [
+  "CNA1979:34.84",
+  "scan:p176"
+ ],
+ "notes": [
+  "Axis Airplane Reinforcement Chart, printed as 34.85 at the foot of the Axis chart sheet that also carries the Simple Axis Naval Convoy Bombing Chart (jp2 176). The rules call the Axis schedule 34.87 and give case 34.85 to Commonwealth withdrawals; the chart's own number is a misprint. The rules for spreading a month's aircraft are 34.84's, the same as the Commonwealth schedule (air-reinforcement-schedule.json).",
+  "Read twice, independently: the archive.org scan (jp2 176) and the 300 dpi community Axis chart PDF (Axis Charts.pdf p. 34). 28 entries, 286 arrivals, 0 differ; the integer counts sum to 5,061.",
+  "Printed oddities, normalised here: 'GT63...66' (no space) and 'GF' for GT on the August and September 1942 entries; the June 1941 '15 x 88D' is a Ju88D; February 1942's 'Ju88c' is a Ju88C; hyphens left by line breaks ('12 x -Ju88D') dropped.",
+  "January 1942's BR20 count is printed as the letter B on both scans: count is null and count_as_printed keeps the letter. It is probably an 8 or a 6; docs/autopilot/decisions.json asks for Brian's copy. Until answered, an engine should deliver no BR20s that month rather than guess.",
+  "The marks are as printed. The footnotes speak of S.M.79s, but the † also stands on April 1942's SM84s and the * on May 1942's SM84s; the mark is kept where printed and read as 'that many of these aircraft operate as torpedo bombers' whatever the type.",
+  "aircraft is the name as printed; it is not yet keyed to aircraft-characteristics.json, whose names are fuller (e.g. CR42 here, C.R. 42 Falco there)."
+ ],
+ "marks": {
+  "*": "Six of these S.M.79's were operated as torpedo bombers.",
+  "†": "Twelve of these S.M.79's were operated as torpedo-bombers."
+ },
+ "rows": [
+  {
+   "period": "Sept IV, 1940 (GT 2)",
+   "game_turns": {
+    "from": 2,
+    "to": 2
+   },
+   "arrivals": [
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Ba65"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Oct (GT 3...6)",
+   "game_turns": {
+    "from": 3,
+    "to": 6
+   },
+   "arrivals": [
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Ba65"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Nov (GT 7...10)",
+   "game_turns": {
+    "from": 7,
+    "to": 10
+   },
+   "arrivals": [
+    {
+     "nation": "italian",
+     "count": 16,
+     "aircraft": "CR42"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Dec (GT 11...14)",
+   "game_turns": {
+    "from": 11,
+    "to": 14
+   },
+   "arrivals": [
+    {
+     "nation": "italian",
+     "count": 40,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "Ba65"
+    },
+    {
+     "nation": "italian",
+     "count": 3,
+     "aircraft": "Z501"
+    },
+    {
+     "nation": "italian",
+     "count": 2,
+     "aircraft": "Ro37bis"
+    },
+    {
+     "nation": "italian",
+     "count": 53,
+     "aircraft": "SM79"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Jan, 1941 (GT 15...18)",
+   "game_turns": {
+    "from": 15,
+    "to": 18
+   },
+   "arrivals": [
+    {
+     "nation": "italian",
+     "count": 36,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Ba65"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "SM79"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Feb (GT 19...22)",
+   "game_turns": {
+    "from": 19,
+    "to": 22
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 30,
+     "aircraft": "Bf110"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "FW200C"
+    },
+    {
+     "nation": "german",
+     "count": 30,
+     "aircraft": "Ju87B"
+    },
+    {
+     "nation": "german",
+     "count": 36,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Ba65"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Z501"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Z1007"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Ro37bis"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Mar (GT 23...26)",
+   "game_turns": {
+    "from": 23,
+    "to": 26
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 32,
+     "aircraft": "Bf110"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Hs126"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Ju87B"
+    },
+    {
+     "nation": "italian",
+     "count": 36,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 36,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Ba65"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "BR20"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Z501"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Z1007"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "SM79"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Apr (GT 27...30)",
+   "game_turns": {
+    "from": 27,
+    "to": 30
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 46,
+     "aircraft": "Bf109E"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Bf110"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju52"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Ju87B"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Ba65"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "BR20"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Ro37bis"
+    },
+    {
+     "nation": "italian",
+     "count": 18,
+     "aircraft": "SM79"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "May (GT 31...34)",
+   "game_turns": {
+    "from": 31,
+    "to": 34
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 42,
+     "aircraft": "Bf109E"
+    },
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "Bf110"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "He111"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Ju52"
+    },
+    {
+     "nation": "german",
+     "count": 24,
+     "aircraft": "Ju87B"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "CR42AS"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Ba65"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "BR20"
+    },
+    {
+     "nation": "italian",
+     "count": 18,
+     "aircraft": "Ca311"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Z501"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Ro37bis"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "SM79"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "SM81"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Jun (GT 35...38)",
+   "game_turns": {
+    "from": 35,
+    "to": 38
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 36,
+     "aircraft": "Bf109E"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "He111"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju87B"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 30,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "BR20"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Ca311"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Z501"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "SM79",
+     "mark": "*"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Jul (GT 39...42)",
+   "game_turns": {
+    "from": 39,
+    "to": 42
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 40,
+     "aircraft": "Bf109E"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Bf109F"
+    },
+    {
+     "nation": "german",
+     "count": 6,
+     "aircraft": "Bf110"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Ju52"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 48,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Ba65"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "BR20"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Ca311"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "SM79"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Aug (GT 43...46)",
+   "game_turns": {
+    "from": 43,
+    "to": 46
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 38,
+     "aircraft": "Bf109E"
+    },
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "Bf109F"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Bf110"
+    },
+    {
+     "nation": "german",
+     "count": 24,
+     "aircraft": "Ju87B"
+    },
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "BR20"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Ca311"
+    },
+    {
+     "nation": "italian",
+     "count": 18,
+     "aircraft": "SM79",
+     "mark": "*"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Sept (GT 47...50)",
+   "game_turns": {
+    "from": 47,
+    "to": 50
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 42,
+     "aircraft": "Bf109E"
+    },
+    {
+     "nation": "german",
+     "count": 32,
+     "aircraft": "Bf109F"
+    },
+    {
+     "nation": "german",
+     "count": 28,
+     "aircraft": "Bf110"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "FW200C"
+    },
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "He111"
+    },
+    {
+     "nation": "german",
+     "count": 10,
+     "aircraft": "Ju87B"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "german",
+     "count": 30,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 36,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "CR42AS"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "BR20"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Ca311"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "SM79"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Oct (GT 51...54)",
+   "game_turns": {
+    "from": 51,
+    "to": 54
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 56,
+     "aircraft": "Bf109E"
+    },
+    {
+     "nation": "german",
+     "count": 42,
+     "aircraft": "Bf109F"
+    },
+    {
+     "nation": "german",
+     "count": 28,
+     "aircraft": "Bf110"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Arado196"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "He111"
+    },
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "Ju52"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Re2001"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "BR20"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "SM79"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "SM81"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Nov (GT 55...58)",
+   "game_turns": {
+    "from": 55,
+    "to": 58
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 50,
+     "aircraft": "Bf109E"
+    },
+    {
+     "nation": "german",
+     "count": 30,
+     "aircraft": "Bf109F"
+    },
+    {
+     "nation": "german",
+     "count": 6,
+     "aircraft": "Bf110"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Ju88C"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju52"
+    },
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "CR42AS"
+    },
+    {
+     "nation": "italian",
+     "count": 18,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 60,
+     "aircraft": "C202"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "Re2001"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "BR20"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Ca311"
+    },
+    {
+     "nation": "italian",
+     "count": 36,
+     "aircraft": "SM79",
+     "mark": "†"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Dec (GT 59...62)",
+   "game_turns": {
+    "from": 59,
+    "to": 62
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "Bf109E"
+    },
+    {
+     "nation": "german",
+     "count": 38,
+     "aircraft": "Bf109F"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Bf110"
+    },
+    {
+     "nation": "german",
+     "count": 30,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "german",
+     "count": 6,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 36,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 48,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 60,
+     "aircraft": "C202"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Re2001"
+    },
+    {
+     "nation": "italian",
+     "count": 18,
+     "aircraft": "BR20"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Z506B"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "SM79"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Jan, 1942 (GT 63...66)",
+   "game_turns": {
+    "from": 63,
+    "to": 66
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Bf109E"
+    },
+    {
+     "nation": "german",
+     "count": 48,
+     "aircraft": "Bf109F"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Bf110"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Ju88C"
+    },
+    {
+     "nation": "german",
+     "count": 6,
+     "aircraft": "He111"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju52"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "german",
+     "count": 6,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 40,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 18,
+     "aircraft": "Re2001"
+    },
+    {
+     "nation": "italian",
+     "count": null,
+     "count_as_printed": "B",
+     "aircraft": "BR20"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "SM79"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Feb (GT 67...70)",
+   "game_turns": {
+    "from": 67,
+    "to": 70
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 36,
+     "aircraft": "Bf109E"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Bf109F"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Bf110"
+    },
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "Ju88C"
+    },
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "He111"
+    },
+    {
+     "nation": "german",
+     "count": 30,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 36,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "C202"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Re2001"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "BR20"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Ca311"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Mar (GT 71...74)",
+   "game_turns": {
+    "from": 71,
+    "to": 74
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 9,
+     "aircraft": "Bf109E"
+    },
+    {
+     "nation": "german",
+     "count": 45,
+     "aircraft": "Bf109F"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Bf110"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju52"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "C202"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Re2001"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "SM79",
+     "mark": "*"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Apr (GT 75...78)",
+   "game_turns": {
+    "from": 75,
+    "to": 78
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 36,
+     "aircraft": "Bf109F"
+    },
+    {
+     "nation": "german",
+     "count": 40,
+     "aircraft": "Bf109G"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Bf110"
+    },
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "Ju88C"
+    },
+    {
+     "nation": "german",
+     "count": 6,
+     "aircraft": "Arado196"
+    },
+    {
+     "nation": "german",
+     "count": 6,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "CR42AS"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "C202"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "Re2001"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "BR20"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "SM79"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "SM84",
+     "mark": "†"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "May (GT 79...82)",
+   "game_turns": {
+    "from": 79,
+    "to": 82
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 30,
+     "aircraft": "Bf109F"
+    },
+    {
+     "nation": "german",
+     "count": 36,
+     "aircraft": "Bf109G"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "FW200C"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "He111"
+    },
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "Ju52"
+    },
+    {
+     "nation": "german",
+     "count": 24,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "german",
+     "count": 30,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 36,
+     "aircraft": "C202"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Re2001"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Z1007bis"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "SM79"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "SM84",
+     "mark": "*"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Jun (GT 83...86)",
+   "game_turns": {
+    "from": 83,
+    "to": 86
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Bf109F"
+    },
+    {
+     "nation": "german",
+     "count": 48,
+     "aircraft": "Bf109G"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "He111"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Ju52"
+    },
+    {
+     "nation": "german",
+     "count": 10,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "german",
+     "count": 30,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "CR42AS"
+    },
+    {
+     "nation": "italian",
+     "count": 18,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "C202"
+    },
+    {
+     "nation": "italian",
+     "count": 18,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Re2001"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Ca311"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Z1007bis"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "SM84"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Jul (GT 87...90)",
+   "game_turns": {
+    "from": 87,
+    "to": 90
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 20,
+     "aircraft": "Bf109F"
+    },
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "Bf109G"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju88C"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju52"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "italian",
+     "count": 18,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 36,
+     "aircraft": "C202"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 18,
+     "aircraft": "Re2001"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Z1007bis"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "SM79"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "SM84"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Aug (GT 91...94)",
+   "game_turns": {
+    "from": 91,
+    "to": 94
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 36,
+     "aircraft": "Bf109G"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "german",
+     "count": 15,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 18,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "C202"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "SM79"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "SM84"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Sept (GT 95...98)",
+   "game_turns": {
+    "from": 95,
+    "to": 98
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 45,
+     "aircraft": "Bf109G"
+    },
+    {
+     "nation": "german",
+     "count": 18,
+     "aircraft": "Ju52"
+    },
+    {
+     "nation": "german",
+     "count": 6,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 36,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "CR42AS"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 36,
+     "aircraft": "C202"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "Re2001"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "Z1007bis"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "SM79",
+     "mark": "†"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Oct (GT 99...102)",
+   "game_turns": {
+    "from": 99,
+    "to": 102
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Bf109G"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "He111"
+    },
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "german",
+     "count": 6,
+     "aircraft": "Ju88D"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "CR42AS"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 48,
+     "aircraft": "C202"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "G50"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "SM79"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Nov (GT 103...106)",
+   "game_turns": {
+    "from": 103,
+    "to": 106
+   },
+   "arrivals": [
+    {
+     "nation": "german",
+     "count": 12,
+     "aircraft": "Bf109G"
+    },
+    {
+     "nation": "german",
+     "count": 8,
+     "aircraft": "Ju87D"
+    },
+    {
+     "nation": "italian",
+     "count": 36,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 24,
+     "aircraft": "C202"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  },
+  {
+   "period": "Dec (GT 107...110)",
+   "game_turns": {
+    "from": 107,
+    "to": 110
+   },
+   "arrivals": [
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "CR42"
+    },
+    {
+     "nation": "italian",
+     "count": 6,
+     "aircraft": "C200"
+    },
+    {
+     "nation": "italian",
+     "count": 12,
+     "aircraft": "C202"
+    }
+   ],
+   "sources": [
+    "CNA1979:34.84",
+    "scan:p176"
+   ]
+  }
+ ]
+}

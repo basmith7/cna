@@ -22,16 +22,18 @@ For developers: the same values are JSON in `data/tables/`; see the [data conven
 | [Barrage results](/tables/barrage-results) | [Combat](/rules/60-combat) |
 | [Breakdown](/tables/breakdown) | [Special rules](/rules/90-special) |
 | [Breakdown adjustments](/tables/breakdown-adjustments) | [Special rules](/rules/90-special) |
+| [Calendar](/tables/calendar) | [Sequence of play](/rules/20-sequence-of-play) |
 | [Chariot raid](/tables/chariot-raid) | [Special rules](/rules/90-special) |
 | [Close assault results](/tables/close-assault-results) | [Combat](/rules/60-combat) |
 | [Construction](/tables/construction) | [Engineering](/rules/80-engineering) |
+| [Convoy lanes](/tables/convoy-lanes) | [Abstract logistics and air](/rules/95-abstract-logistics-and-air), [Ports and shipping](/rules/logistics/50-ports-and-shipping) |
 | [CP costs](/tables/cp-costs) | [Capability points](/rules/30-capability-points), [Trucks and dumps](/rules/logistics/40-trucks-and-dumps) |
 | [CW fleet schedule](/tables/cw-fleet-schedule) | [Special rules](/rules/90-special) |
 | [CW production](/tables/cw-production) | [Organisation](/rules/70-organisation) |
 | [Demolition](/tables/demolition) | [Engineering](/rules/80-engineering) |
 | [Desert raider raids](/tables/desert-raider-raids) | [Special rules](/rules/90-special) |
 | [Destroyed tank repair](/tables/destroyed-tank-repair) | [Engineering](/rules/80-engineering) |
-| [Formation organisation](/tables/formation-organisation) | [Organisation](/rules/70-organisation) |
+| [Formation organisation](/tables/formation-organisation) | [Stacking, zones of control and reserve](/rules/50-stacking-and-zoc), [Organisation](/rules/70-organisation) |
 | [Foul weather location](/tables/foul-weather-location) | [Special rules](/rules/90-special) |
 | [Initiative ratings](/tables/initiative-ratings) | [Sequence of play](/rules/20-sequence-of-play) |
 | [Max attachments](/tables/max-attachments) | [Organisation](/rules/70-organisation) |
@@ -85,6 +87,7 @@ For developers: the same values are JSON in `data/tables/`; see the [data conven
 | [Aircraft characteristics](/tables/aircraft-characteristics) | [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus), [Air Game — flight and maintenance](/rules/air/30-flight-and-maintenance) |
 | [Aircraft refit](/tables/aircraft-refit) | [Air Game — flight and maintenance](/rules/air/30-flight-and-maintenance) |
 | [Anti-aircraft results](/tables/anti-aircraft-results) | [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak) |
+| [Axis air reinforcement schedule](/tables/axis-air-reinforcement-schedule) | [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus) |
 | [Axis Malta availability](/tables/axis-malta-availability) | [Air Game — the Mediterranean bases and Malta](/rules/air/80-mediterranean-and-malta) |
 | [Axis Malta commitment](/tables/axis-malta-commitment) | [Air Game — the Mediterranean bases and Malta](/rules/air/80-mediterranean-and-malta) |
 | [Convoy reconnaissance](/tables/convoy-reconnaissance) | [Air Game — missions](/rules/air/40-missions) |

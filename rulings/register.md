@@ -97,6 +97,26 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-120](./R-120.md) | Abstract supply: a unit that cannot pay its fuel or ammunition | accepted | 32.21, 32.22, 32.23, 32.24, 13.2, 15.15 |
 | [R-121](./R-121.md) | Abstract supply: ammunition for company-equivalents | accepted | 32.21, 32.24, 9.28, 20.15 |
 | [R-122](./R-122.md) | Which withheld defenders count in the loss base? | accepted | 15.12, 15.14, 15.15, 15.16, 15.83, 14.21 |
+| [R-123](./R-123.md) | Abstract supply: motorisation points per unit | accepted | 32.51, 32.53, 32.54, 6.17, 8.91, 8.95, 54.2 |
+| [R-124](./R-124.md) | Abstract supply: which HQs the air lift reads | accepted | 32.37, 9.22, 9.26, 19.73 |
+| [R-125](./R-125.md) | Breakdown: which reconnaissance units are armoured cars | accepted | 21.11, 21.13, 21.14, 20.51, 20.52, 8.91 |
+| [R-126](./R-126.md) | Simplified convoys: no qualifying division far enough west | accepted | 32.63, 32.64, 32.66 |
+| [R-127](./R-127.md) | Abstract convoy attacks: what a 5 % result destroys | accepted | 32.64, 32.65, 47.65, 58.1 |
+| [R-128](./R-128.md) | Dummy supply units: counted after convoy bombing | accepted | 32.18, 32.41, 32.64 |
+| [R-129](./R-129.md) | Abstract supply: surrender of a hex whose only armed defenders owe no ammunition | accepted | 32.21, 15.15, 17.25 |
+| [R-130](./R-130.md) | Maximum attachments for parents the chart does not name | accepted | 19.5, 19.41, 9.22 |
+| [R-131](./R-131.md) | Abstract supply: no supply dumps are built | accepted | 24.9, 32.11, 32.12, 32.18 |
+| [R-132](./R-132.md) | The Axis prisoner departure point: the Tripolitania box | accepted | 28.16, 8.85 |
+| [R-133](./R-133.md) | Abstract supply: construction costs no supplies | accepted | 24.13, 24.14, 24.33, 32.11 |
+| [R-134](./R-134.md) | Where minefields may be laid: 24.35's terrain or the chart's | accepted | 24.35, 24.17 |
+| [R-135](./R-135.md) | Rommel: his own counter, and where he starts | accepted | 31.0, 27.92, 61.41 |
+| [R-136](./R-136.md) | Set-up areas "between" two places and "inside" a triangle | accepted | 61.41, 61.44, 61.31, 62.41 |
+| [R-137](./R-137.md) | Rommel's +5 CPA: which units, and what parting costs | accepted | 31.0, 6.21, 8.17 |
+| [R-138](./R-138.md) | A lone Rommel in an enemy ZOC | accepted | 31.0, 10.29, 8.51, 13.2 |
+| [R-139](./R-139.md) | Whose ZOC pins in 8.53c | accepted | 8.51, 8.53, 8.54 |
+| [R-140](./R-140.md) | Rommel when an assault destroys his stack | accepted | 31.0, 10.29, 15.82 |
+| [R-141](./R-141.md) | Which organisation-chart components count toward a shell | accepted | 9.26, 9.27, 19.3 |
+| [R-142](./R-142.md) | Which organisation-chart slot each counter fills | accepted | 9.26, 19.2, 19.3 |
 
 ## Variants
 

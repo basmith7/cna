@@ -173,9 +173,9 @@ def _scenario_data(tmp_path, scenario, oa=None):
         "nation": "it", "sources": ["CNA1979:60.31"], "formations": [{
             "id": "demo", "name": "Demo", "basic_morale": 0, "sources": ["CNA1979:60.31"], "units": [
                 {"id": "unit:it:demo-hq", "name": "Demo HQ", "abbreviation": "Demo", "id_code": "a",
-                 "parent": None, "toe": [], "arrives": None},
+                 "parent": None, "fills": [], "toe": [], "arrives": None},
                 {"id": "unit:it:demo-bn", "name": "Demo Bn", "abbreviation": "I/1", "id_code": "b",
-                 "parent": "unit:it:demo-hq", "toe": [{"weapon": "Infantry", "points": 4}], "arrives": None}]}]}))
+                 "parent": "unit:it:demo-hq", "fills": [], "toe": [{"weapon": "Infantry", "points": 4}], "arrives": None}]}]}))
     for name, body in scenario.items():
         (d / "scenarios" / name).write_text(json.dumps(body))
     return d
@@ -212,10 +212,22 @@ def test_scenario_reference_errors(tmp_path):
 def test_oa_parent_and_duplicate_ids(tmp_path):
     oa = {"nation": "it", "sources": ["CNA1979:60.31"], "formations": [{
         "id": "demo", "name": "Demo", "basic_morale": 0, "sources": ["CNA1979:60.31"], "units": [
-            {"id": "unit:it:a", "name": "A", "abbreviation": "A", "id_code": "a", "parent": "unit:it:zz", "toe": [], "arrives": None},
-            {"id": "unit:it:a", "name": "A2", "abbreviation": "A", "id_code": "a", "parent": None, "toe": [], "arrives": None},
-            {"id": "unit:de:b", "name": "B", "abbreviation": "B", "id_code": "a", "parent": None, "toe": [], "arrives": None}]}]}
+            {"id": "unit:it:a", "name": "A", "abbreviation": "A", "id_code": "a", "parent": "unit:it:zz", "fills": [], "toe": [], "arrives": None},
+            {"id": "unit:it:a", "name": "A2", "abbreviation": "A", "id_code": "a", "parent": None, "fills": [], "toe": [], "arrives": None},
+            {"id": "unit:de:b", "name": "B", "abbreviation": "B", "id_code": "a", "parent": None, "fills": [], "toe": [], "arrives": None}]}]}
     d = _scenario_data(tmp_path, {}, oa=oa)
     errs = check_data.validate_all(d)
     for needle in ("duplicate unit unit:it:a", "parent unit:it:zz", "unit:de:b is not it"):
+        assert any(needle in e for e in errs), needle
+
+
+def test_oa_replaces_and_assigns_name_known_units(tmp_path):
+    oa = {"nation": "it", "sources": ["CNA1979:60.31"], "formations": [{
+        "id": "demo", "name": "Demo", "basic_morale": 0, "sources": ["CNA1979:60.31"], "units": [
+            {"id": "unit:it:new", "name": "N", "abbreviation": "N", "id_code": "a", "parent": None, "fills": [], "toe": [],
+             "arrives": None, "replaces": "unit:it:gone", "assigns": ["unit:it:lost"]},
+            {"id": "unit:it:orphan", "name": "O", "abbreviation": "O", "id_code": "a", "parent": None, "fills": [], "toe": [],
+             "arrives": None, "assigns": ["unit:it:new"]}]}]}
+    errs = check_data.validate_all(_scenario_data(tmp_path, {}, oa=oa))
+    for needle in ("unknown unit unit:it:gone", "unknown unit unit:it:lost", "orphan: assigns without replaces"):
         assert any(needle in e for e in errs), needle

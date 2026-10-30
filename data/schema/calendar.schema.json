@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "calendar.schema.json",
+  "title": "Game-Turn calendar: year, month and week of every Game-Turn (SPI 34.84, 29.1)",
+  "type": "object",
+  "required": ["table", "sources", "rows"],
+  "additionalProperties": false,
+  "properties": {
+    "table": {"const": "calendar"},
+    "sources": {"$ref": "common.schema.json#/$defs/sources"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "rows": {
+      "type": "array", "minItems": 111, "maxItems": 111,
+      "items": {
+        "type": "object",
+        "required": ["game_turn", "year", "month", "week"],
+        "additionalProperties": false,
+        "properties": {
+          "game_turn": {"type": "integer", "minimum": 1, "maximum": 111},
+          "year": {"type": "integer", "minimum": 1940, "maximum": 1943},
+          "month": {"type": "integer", "minimum": 1, "maximum": 12},
+          "week": {"type": "integer", "minimum": 1, "maximum": 4, "description": "Week of the month, I-IV as printed"}
+        }
+      }
+    }
+  }
+}

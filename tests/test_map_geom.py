@@ -70,3 +70,19 @@ def test_country_anchors_from_the_printed_frontier():
     assert [g.country(h, regions) for h in egypt] == ["egypt"] * len(egypt)
     assert [g.country(h, regions) for h in libya] == ["libya"] * len(libya)
     assert sorted(regions["split_sheet"]["first_east_col"], key=int) == [str(r) for r in range(1, 52)]
+
+
+def test_distance_counts_neighbours_and_seams_as_one():
+    import json
+    import pathlib
+    ROOT = pathlib.Path(__file__).resolve().parents[1]
+    sheets = json.loads((ROOT / "data" / "map" / "sheets.json").read_text())["sheets"]
+    seams = json.loads((ROOT / "data" / "map" / "seams.json").read_text())["seams"]
+    for s in seams:
+        for p in s["pairs"]:
+            assert g.distance(p["west"], p["east"], sheets) == 1
+    for h in ("A2010", "B3016", "C4021"):
+        for n in g.neighbours(h, sheets):
+            assert g.distance(h, n, sheets) == 1
+    assert g.distance("A2010", "A2703", sheets) == 11  # 61.41, Ras el Ali to Nofilia
+    assert g.distance("A0133", "B0101", sheets) == 1
