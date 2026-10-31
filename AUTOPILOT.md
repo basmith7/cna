@@ -4,12 +4,17 @@ Read by `~/Scripts/claude-autopilot.sh`, which cron launches every few hours
 when the Claude plan has headroom. Each run is a fresh session with no memory
 of the last one; this file plus the journal is the only continuity.
 
+**This file is also cna-engine's protocol.** **The goal**, **Picking up where the last run
+left off**, **Working rules** and **Handing off** bind both repos' autopilots; everything else
+here is cna's own. cna-engine's `AUTOPILOT.md` adds its missions and specifics and wins where
+the two differ, so edit these four sections with both repos in mind.
+
 Orient first: read `ARCHITECTURE.md` (codemap, data model, invariants, where to start).
 
 ## The goal
 
-This repo and `basmith7/cna-engine` share one goal, and every mission in
-either repo serves it:
+`basmith7/cna` and `basmith7/cna-engine` share one goal, and every mission
+in either repo serves it:
 
 > **An open-source, self-hostable digital *Campaign for North Africa*.**
 > Two players play a scenario, and in the end the full campaign, in a
@@ -18,15 +23,15 @@ either repo serves it:
 
 The two repos split the work:
 
-- **cna (this repo)** is the rulebook: every SPI rule restated in our own
-  words, every chart, map hex, scenario and OA sheet as data, and every
-  ambiguity decided as a ruling. It is done when an engine can build the
-  whole game from it without opening the SPI books. No engine code here.
-- **cna-engine** builds the game from this repo: rules core, game state,
-  turn sequence, then a server and browser client. It reads this repo as a
-  submodule and never copies its prose.
+- **cna** is the rulebook: every SPI rule restated in our own words, every
+  chart, map hex, scenario and OA sheet as data, and every ambiguity
+  decided as a ruling. It is done when an engine can build the whole game
+  from it without opening the SPI books. No engine code there.
+- **cna-engine** builds the game from cna: rules core, game state, turn
+  sequence, then a server and browser client. It reads cna as a submodule
+  and never copies its prose.
 
-The engine is the critical path. Order work here by what it needs next.
+The engine is the critical path. Order work in cna by what it needs next.
 
 ## Mission
 
@@ -40,7 +45,9 @@ The delegation of 2026-09-26 still stands: decide anything cheap to reverse
 yourself. Anything Brian writes in **Feedback** wins. Bring him only
 questions of fact that need his printed copy: add them to the `copy` group
 of `docs/autopilot/decisions.json` and to **Next steps**, and leave the data
-as read.
+as read. Feedback items from the decision board (`tools/decisions_page.py`)
+name a ruling id or a `decisions.json` id: once an answer lands, drop that
+entry from `decisions.json`.
 
 ### Requests from cna-engine come first
 
@@ -149,6 +156,9 @@ diff left over), `npm run test:site`, `npm run site:build`. Never commit
 anything under `build/`. Add `check_coverage.py --sections` for the sections the PR draws on
 (0 uncovered).
 
+Source text: `.venv/bin/python tools/fetch.py sections` populates `~/.cache/cna-scans`
+(needed by the overlap gate). Create `.venv` per the README if missing.
+
 ## Picking up where the last run left off
 
 You are in a dedicated clone owned by the autopilot (not Brian's checkout), on
@@ -156,24 +166,18 @@ You are in a dedicated clone owned by the autopilot (not Brian's checkout), on
 
 1. Read `docs/autopilot/PROGRESS.md`. Its **Feedback** section is Brian's
    voice: act on every item first, then move it to **Addressed** with a
-   one-line reply. If an item changes the mission, it wins over this file.
-   Items from the decision board (`tools/decisions_page.py`) name a ruling
-   id or a `docs/autopilot/decisions.json` id: once an answer lands, drop
-   that entry from `decisions.json`. A new question for Brian goes into
-   `decisions.json` as well as **Next steps**.
+   one-line reply. If an item changes the mission, it wins over the
+   AUTOPILOT files.
 2. `gh pr list --state open --label autopilot` — if an autopilot PR is open,
-   its file is unfinished: check out that branch, read the last entry of
+   its work is unfinished: check out that branch, read the last entry of
    `docs/autopilot/JOURNAL.md` on it, and continue. If its gates and CI
-   already pass, merge it and move on.
+   already pass, merge it (`gh pr merge --merge`) and move on, unless it is
+   labelled `needs-brian` and **Feedback** has not approved it.
 3. Otherwise start the next unfinished part of the mission, in order.
    Branch `autopilot/<part>-<slug>` from `origin/main` (e.g.
-   `autopilot/a-coverage-gap`, `autopilot/b-rulings-combat`,
-   `autopilot/c-terrain-effects`).
+   `autopilot/a-coverage-gap`, `autopilot/b-rulings-combat`).
 4. `docs/autopilot/JOURNAL.md` is the machine-to-machine handoff (below);
    `PROGRESS.md` is for Brian. Keep both.
-
-Source text: `.venv/bin/python tools/fetch.py sections` populates `~/.cache/cna-scans`
-(needed by the overlap gate). Create `.venv` per the README if missing.
 
 ## Working rules
 
@@ -181,11 +185,12 @@ Source text: `.venv/bin/python tools/fetch.py sections` populates `~/.cache/cna-
   stop early because a "natural" checkpoint arrived.
 - Commit small and often, push after every commit. Draft the PR
   (`gh pr create --draft --label autopilot`) as soon as the branch has one commit,
-  then `gh pr ready` only when every review criterion passes locally
-  (`pytest`, `check_data.py`, `check_overlap.py`, `check_coverage.py` for the
-  sections drawn on, `npm run site:build`).
-- Never touch `main` directly, never force-push, never rewrite history.
-- Never commit anything from `~/.cache`, `node_modules/`, `.venv/`, or SPI text.
+  then `gh pr ready` only when the repo's gates (in its `AUTOPILOT.md`) pass
+  locally.
+- Commit to `main` directly only for `docs/autopilot/PROGRESS.md` at hand-off.
+  Never force-push, never rewrite history.
+- SPI text stays out of both repos: restate in our own words and cite case
+  numbers. Never commit anything from `~/.cache`, `node_modules/` or `.venv/`.
 - If a gate fails and you cannot fix it within the budget, leave the PR as a
   draft and say why in the journal.
 - Commit messages end with the attribution trailer the harness gives you.
