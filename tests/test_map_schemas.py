@@ -1,5 +1,6 @@
 import json
 import pathlib
+
 import jsonschema
 import pytest
 from jsonschema import Draft202012Validator

@@ -1,9 +1,9 @@
 import json
 import pathlib
-import pytest
 
 import map_diff as md
 import map_render as mr
+import pytest
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 SHEETS = {"C": {"zone": "Map C", "odd_rows_shift": "west", "rows": [1, 51], "cols": [1, 33]}}

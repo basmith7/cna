@@ -15,7 +15,7 @@ import pathlib
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from map_geom import parse_hex_id, row_shifted_east  # noqa: E402
+from map_geom import parse_hex_id, row_shifted_east
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 MAP = ROOT / "data" / "map"

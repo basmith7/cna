@@ -15,7 +15,6 @@ import html
 import json
 import pathlib
 import re
-import sys
 from datetime import date
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]

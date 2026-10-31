@@ -9,7 +9,6 @@ counts leave build/ (EXTRACTION.md).  Exits 0 with a note when the cache is
 absent so CI never needs it.
 """
 import ast
-import json
 import os
 import pathlib
 import sys

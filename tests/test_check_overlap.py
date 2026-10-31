@@ -1,8 +1,7 @@
 import pathlib
 
-import pytest
-
 import check_overlap as co
+import pytest
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 

@@ -1,10 +1,18 @@
 name: ci
+# Runs on markdown too: the rules are markdown, and the gates check them. Autopilot pushes to main.
 on:
   pull_request:
   push:
     branches: [main]
 
 jobs:
+  # ruff (shared rule set) and pytest, shared: https://github.com/basmith7/workflows
+  check:
+    uses: basmith7/workflows/.github/workflows/python-ci.yml@main
+    permissions:
+      contents: read
+
+  # This repo's own data and prose gates.
   gates:
     runs-on: ubuntu-latest
     permissions:
@@ -12,25 +20,23 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: astral-sh/setup-uv@v10.3.3
         with: { python-version: '3.12' }
-      - run: pip install -r requirements-dev.txt
-      - run: python -m pytest -q
       - name: Cache pinned source text
         uses: actions/cache@v4
         with:
           path: ~/.cache/cna-scans/source
           key: source-${{ hashFiles('tools/sources.json') }}
-      - run: python tools/fetch.py sections > /dev/null
-      - run: python tools/check_data.py
-      - run: python tools/map_build.py --check
-      - run: python tools/map_render.py --check
-      - run: python tools/gen_architecture.py --check
-      - run: python tools/check_overlap.py
+      - run: uv run python tools/fetch.py sections > /dev/null
+      - run: uv run python tools/check_data.py
+      - run: uv run python tools/map_build.py --check
+      - run: uv run python tools/map_render.py --check
+      - run: uv run python tools/gen_architecture.py --check
+      - run: uv run python tools/check_overlap.py
       - name: Coverage report
         run: |
           status=0
-          python tools/check_coverage.py --sections 1-65 --markdown > coverage.md || status=$?
+          uv run python tools/check_coverage.py --sections 1-65 --markdown > coverage.md || status=$?
           cat coverage.md
           exit "$status"
       - if: ${{ always() && github.event_name == 'pull_request' && hashFiles('coverage.md') != '' }}

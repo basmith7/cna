@@ -1,5 +1,0 @@
-pytest>=8
-jsonschema>=4.23
-referencing>=0.35
-Pillow>=10
-numpy>=1.26

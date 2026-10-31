@@ -20,7 +20,15 @@ Usage:
     --debug X0 Y0 W H          also write an overlay crop with hex IDs and classes
     --check                    score village/city detection against known locations
 """
-import argparse, csv, json, math, os, pathlib, re, sys, zipfile
+import argparse
+import csv
+import json
+import math
+import os
+import pathlib
+import re
+import sys
+import zipfile
 from collections import Counter, defaultdict
 
 import numpy as np

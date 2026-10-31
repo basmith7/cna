@@ -16,7 +16,12 @@ Usage: python3 tools/learn_page.py          (then open docs/learn/index.html)
        python3 tools/learn_page.py --site   (writes site/learn.md: Parts A-D, no SPI material;
                                              tests/test_learn_site.py fails when it is stale)
 """
-import html, math, os, pathlib, re, sys
+import html
+import math
+import os
+import pathlib
+import re
+import sys
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -561,7 +566,8 @@ def part_d_region():
 
 
 def part_d_svg():
-    import map_geom, map_render
+    import map_geom
+    import map_render
     data = map_render.MapData.load(ROOT / "data")
     marks = []
     pts = " ".join(f"{x:.2f},{y:.2f}" for x, y in (map_geom.centre(h, data.sheets) for h in PART_D_ADVANCE))

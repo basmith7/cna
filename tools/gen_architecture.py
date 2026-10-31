@@ -120,7 +120,7 @@ def render(text: str, new: dict[str, str]) -> str:
         pat = re.compile(rf"(<!-- generated:{name} -->\n).*?(<!-- /generated:{name} -->)", re.S)
         if not pat.search(text):
             raise SystemExit(f"gen_architecture: missing markers for {name} in {DOC.name}")
-        text = pat.sub(lambda m: m.group(1) + body + "\n" + m.group(2), text)
+        text = pat.sub(lambda m, body=body: m.group(1) + body + "\n" + m.group(2), text)
     return text
 
 

@@ -32,7 +32,8 @@ identifier grammar in `data/README.md`; unattended-run orders in `AUTOPILOT.md`.
   for Brian, `JOURNAL.md` for the next run, `decisions.json` for open questions).
 - `EXTRACTION.md` (per-file log of which cases were read), `ATTRIBUTION.md` (third-party
   text), `specs/site-polish/` (the only spec).
-- `.github/workflows/ci.yml`: `gates` (pytest, `fetch.py`, `check_data`, `map_build --check`,
+- `.github/workflows/ci.yml`: `check` (ruff and pytest, the shared `basmith7/workflows` python-ci),
+  `gates` (`fetch.py`, `check_data`, `map_build --check`,
   `map_render --check`, `gen_architecture --check`, `check_overlap`, coverage report) and
   `site` (node tests, site build, overlap on built HTML). `deploy.yml` publishes the site.
 

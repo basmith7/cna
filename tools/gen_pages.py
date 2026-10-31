@@ -15,8 +15,8 @@ import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-import check_coverage as cc  # noqa: E402
-import tables_page  # noqa: E402
+import check_coverage as cc
+import tables_page
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 ANNOT = re.compile(r"^\s{0,3}:::\s+(errata|ruling|variant)\s+(\S+)(?:\s+(?:—|--)\s+(.*?))?\s*$")
