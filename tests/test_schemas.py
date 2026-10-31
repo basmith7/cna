@@ -41,7 +41,6 @@ def test_spi_cases_schema_accepts_minimal_and_rejects_bad_id():
     ("CNA1979:8", False), ("p96", False), ("CNA1979:8.37a", False),
 ])
 def test_source_ref_grammar(ref, ok):
-    v = validator("common.schema.json")
     schema = {"$ref": "common.schema.json#/$defs/sourceRef"}
     val = Draft202012Validator(schema, registry=registry())
     assert val.is_valid(ref) is ok

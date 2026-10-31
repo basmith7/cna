@@ -3,7 +3,6 @@ import pathlib
 import re
 
 import pytest
-
 import tables_page as tp
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]

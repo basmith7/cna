@@ -1,6 +1,7 @@
 import math
-import pytest
+
 import map_geom as g
+import pytest
 
 SHEETS = {"C": {"odd_rows_shift": "west", "rows": [1, 60], "cols": [1, 40]},
           "X": {"odd_rows_shift": "east", "rows": [1, 10], "cols": [1, 10]}}

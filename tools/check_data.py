@@ -53,7 +53,7 @@ def validate_all(data_dir: pathlib.Path) -> list[str]:
     for p in sorted(schema_dir.glob("*.schema.json")):
         try:
             Draft202012Validator.check_schema(json.loads(p.read_text()))
-        except Exception as e:  # noqa: BLE001 — report any schema problem
+        except Exception as e:  # report any schema problem
             errors.append(f"{p.name}: invalid schema: {e}")
     if errors:
         return errors
@@ -210,7 +210,7 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
             errors.append(f"{label}: unknown case reference {ref}")
         scenarios[doc["id"]] = (label, doc)
         refs(label, doc)
-    for sid, (label, doc) in scenarios.items():
+    for label, doc in scenarios.values():
         if "extends" in doc and doc["extends"] not in {f"scenario:{p.stem}" for p in (data_dir / "scenarios").glob("*.json")}:
             errors.append(f"{label}: extends unknown {doc['extends']}")
     if tables.get("reinforcement-schedule"):

@@ -16,9 +16,8 @@ import pathlib
 import random
 import sys
 
-from PIL import Image
-
 import map_geom
+from PIL import Image
 
 Image.MAX_IMAGE_PIXELS = None
 ROOT = pathlib.Path(__file__).resolve().parents[1]

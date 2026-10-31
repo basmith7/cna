@@ -1,9 +1,9 @@
 import json
 import pathlib
 import shutil
-import pytest
 
 import map_build as mb
+import pytest
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 HEX = {"id": "M0304", "sheet": "M", "terrain": "clear", "settlement": None, "coastal": False}

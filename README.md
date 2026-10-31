@@ -55,7 +55,7 @@ New here, or an agent? Read `ARCHITECTURE.md` first: the five-minute map of the 
 ## Building
 
 ```bash
-python3 -m venv .venv && .venv/bin/pip install -r requirements-dev.txt
+uv sync                                         # .venv with the dev tools in pyproject.toml
 .venv/bin/python -m pytest                      # unit tests
 .venv/bin/python tools/fetch.py sections        # source text → ~/.cache/cna-scans (for the overlap gate)
 .venv/bin/python tools/check_data.py            # gate

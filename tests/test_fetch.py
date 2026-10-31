@@ -1,10 +1,8 @@
 import hashlib
-import json
 import pathlib
 
-import pytest
-
 import fetch
+import pytest
 
 
 def test_load_sources_pins_commit_and_identifier():
