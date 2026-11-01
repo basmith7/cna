@@ -31,7 +31,6 @@ jobs:
       - run: uv run python tools/check_data.py
       - run: uv run python tools/map_build.py --check
       - run: uv run python tools/map_render.py --check
-      - run: uv run python tools/gen_architecture.py --check
       - run: uv run python tools/check_overlap.py
       - name: Coverage report
         run: |

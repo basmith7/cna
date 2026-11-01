@@ -9,7 +9,7 @@ left off**, **Working rules** and **Handing off** bind both repos' autopilots; e
 here is cna's own. cna-engine's `AUTOPILOT.md` adds its missions and specifics and wins where
 the two differ, so edit these four sections with both repos in mind.
 
-Orient first: read `ARCHITECTURE.md` (codemap, data model, invariants, where to start).
+Orient first: read this repo's `AGENTS.md` (invariants and gotchas).
 
 ## The goal
 
