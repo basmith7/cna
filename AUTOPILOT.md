@@ -150,7 +150,8 @@ quota is better spent by cna-engine.
 
 ### Gates for every PR
 
-All green locally before `gh pr ready`: `pytest`, `check_data.py`,
+All green locally before `gh pr ready`: `pytest`,
+`uv run ruff check --config ~/Projects/workflows/ruff.toml .`, `check_data.py`,
 `check_overlap.py` (with and without arguments), `tools/gen_pages.py` (no
 diff left over), `npm run test:site`, `npm run site:build`. Never commit
 anything under `build/`. Add `check_coverage.py --sections` for the sections the PR draws on

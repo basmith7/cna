@@ -57,6 +57,7 @@ New here, or an agent? Read `ARCHITECTURE.md` first: the five-minute map of the 
 ```bash
 uv sync                                         # .venv with the dev tools in pyproject.toml
 .venv/bin/python -m pytest                      # unit tests
+uv run ruff check --config ~/Projects/workflows/ruff.toml .   # lint (the shared rule set CI uses)
 .venv/bin/python tools/fetch.py sections        # source text → ~/.cache/cna-scans (for the overlap gate)
 .venv/bin/python tools/check_data.py            # gate
 .venv/bin/python tools/check_overlap.py         # gate
