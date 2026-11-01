@@ -6,10 +6,11 @@ scenario as validated JSON, and every ambiguity decided as a numbered ruling. It
 rules readers (the VitePress site) and `basmith7/cna-engine`, which consumes `data/` as a
 git submodule. It deliberately holds no engine code and no SPI text, map art or counter art.
 
-Verified against 7f2e5c4 on 2026-10-29.
+Verified against 38cf7b1 on 2026-10-31.
 
 Setup, licences and the legal posture live in `README.md`; conventions and the
-identifier grammar in `data/README.md`; unattended-run orders in `AUTOPILOT.md`.
+identifier grammar in `data/README.md`; unattended-run orders in `AUTOPILOT.md`
+(the autopilot protocol shared with cna-engine).
 
 ## Codemap
 
@@ -26,16 +27,21 @@ identifier grammar in `data/README.md`; unattended-run orders in `AUTOPILOT.md`.
   `$defs`, enums, id patterns). The source of truth for shapes.
 - `tools/`: Python CLIs, listed under Interfaces. Gate: `tools/check_data.py`.
 - `tests/`: pytest, one file per tool or table; `tests/golden/` holds fixtures.
+- `pyproject.toml` + `uv.lock`: a uv project; the dev tools (jsonschema, pytest, ruff, ...)
+  are its `dev` dependency group (add with `uv add --group dev <pkg>`, which updates the
+  lock), and `uv sync` builds `.venv`. No `requirements*.txt`.
 - `site/`: VitePress (`site/.vitepress/config.mts`, Node tests `*.test.mjs`).
   `site/tables/` and `site/map.md` and `site/learn.md` are **generated**.
 - `docs/`: `designs/` and `plans/` (one pair per mission), `autopilot/` (`PROGRESS.md`
   for Brian, `JOURNAL.md` for the next run, `decisions.json` for open questions).
 - `EXTRACTION.md` (per-file log of which cases were read), `ATTRIBUTION.md` (third-party
   text), `specs/site-polish/` (the only spec).
-- `.github/workflows/ci.yml`: `check` (ruff and pytest, the shared `basmith7/workflows` python-ci),
-  `gates` (`fetch.py`, `check_data`, `map_build --check`,
-  `map_render --check`, `gen_architecture --check`, `check_overlap`, coverage report) and
-  `site` (node tests, site build, overlap on built HTML). `deploy.yml` publishes the site.
+- `.github/workflows/ci.yml`: `check` (ruff and pytest via the shared
+  `basmith7/workflows` `python-ci.yml`), this repo's own `gates` (`fetch.py`, `check_data`,
+  `map_build --check`, `map_render --check`, `gen_architecture --check`, `check_overlap`,
+  coverage report) and `site` (node tests, site build, overlap on built HTML).
+  `deploy.yml` re-runs the data and overlap gates, then publishes the site to GitHub Pages
+  on every push to `main`.
 
 ## Data model
 
@@ -134,7 +140,8 @@ id, `place` or `region`; a scenario may `extends` another and takes the blocks i
 
 ## Interfaces
 
-**CLIs** (run with `.venv/bin/python tools/<name>.py`; gates exit non-zero on failure):
+**CLIs** (run with `uv run python tools/<name>.py` or `.venv/bin/python tools/<name>.py`;
+gates exit non-zero on failure):
 
 <!-- generated:tools -->
 | Tool | Does |
@@ -199,7 +206,10 @@ are generated first. Optional "show original" fetches community text in the read
 browser only.
 
 **Autopilot.** Cron launches fresh sessions that work a mission queue and engine
-requests; continuity is `docs/autopilot/PROGRESS.md` and `JOURNAL.md`.
+requests; continuity is `docs/autopilot/PROGRESS.md` and `JOURNAL.md`. `AUTOPILOT.md` is
+the one protocol for both repos: its goal, pick-up, working-rule and hand-off sections bind
+cna-engine too, whose runs read this file from cna's `main` (no copy), and whose own
+`AUTOPILOT.md` adds missions and wins where they differ. The rest is cna's missions and gates.
 
 ## Flows
 
@@ -239,11 +249,17 @@ flowchart LR
   `distance`, which counts across sheet seams).
 - A new enum value needs a data PR naming the case that introduces it; shared enums live
   only in `common.schema.json`.
-- A PR is green only with: pytest, `check_data`, `check_overlap` (with and without a
-  path), `gen_pages` leaving no diff, `npm run test:site`, `npm run site:build`.
+- A PR is green only with: ruff, pytest, `check_data`, `check_overlap` (with and without a
+  path), `gen_pages` leaving no diff, `npm run test:site`, `npm run site:build`. Ruff's
+  rules live in `basmith7/workflows`' `ruff.toml`, copied in by CI; this repo keeps no ruff
+  config, so a bare local `ruff check` uses ruff's defaults and disagrees with CI. Pass
+  `--config` pointing at that shared file.
 - Never commit `build/`, `.venv/`, `~/.cache` contents, or `tools/sources.private.json`.
   Norman Harman's hex database is only a disagreement finder; nothing is copied or cited.
 - No engine code lives here (AUTOPILOT.md): engine needs arrive as requests.
+- `main` takes direct pushes: autopilot hand-offs commit `docs/autopilot/PROGRESS.md` and
+  the cron script's quota rows straight to it, and each push deploys the site. Fetch
+  before branching, and never rewrite `main`.
 
 ## Where to start
 
