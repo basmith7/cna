@@ -10,7 +10,7 @@ export default defineConfig({
   description: 'A free, searchable restatement of the rules of The Campaign for North Africa (SPI, 1979): Land, Logistics and Air Games, tables, map and scenarios',
   base: '/cna/',
   srcDir: '..',
-  srcExclude: ['node_modules/**', 'reference/**', 'docs/**', 'tools/**', 'tests/**', 'site/.vitepress/**', '.venv/**', 'README.md', 'EXTRACTION.md', 'AUTOPILOT.md', 'ARCHITECTURE.md', 'specs/**', 'ATTRIBUTION.md', '.superpowers/**', '.claude/**', '.github/**', 'coverage.md', 'site/public/**'],
+  srcExclude: ['node_modules/**', 'reference/**', 'docs/**', 'tools/**', 'tests/**', 'site/.vitepress/**', '.venv/**', 'README.md', 'EXTRACTION.md', 'AUTOPILOT.md', 'AGENTS.md', 'specs/**', 'ATTRIBUTION.md', '.superpowers/**', '.claude/**', '.github/**', 'coverage.md', 'site/public/**'],
   outDir: './.vitepress/dist',
   cacheDir: './.vitepress/cache',
   // srcDir is the repo root, so point Vite's public dir at site/public (the rendered map SVGs)

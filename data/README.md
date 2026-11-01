@@ -43,9 +43,10 @@ transcribing anything.
 `tables/reinforcement-schedule.json` against `oa/`, every OA `parent`, and
 every hex, `place` and `extends` a scenario names.
 
-Every record in a table carries `sources: ["CNA1979:8.37", "scan:p96"]` —
-at least the case that defines it and, for transcribed values, the page it
-was read from. `tools/check_data.py` rejects unknown cases.
+Every table carries `sources: ["CNA1979:8.37", "scan:p96"]` — at least the
+case that defines it and, for transcribed values, the page it was read from.
+Most rows carry their own `sources` too; whether a row must is up to its
+table's schema. `tools/check_data.py` rejects unknown cases.
 
 ## Hex grid convention
 
@@ -76,7 +77,8 @@ hexside. Malta carries the VASSAL module's numbering (rows 05–13, columns
 
 ## Enumerations
 
-Defined once in `schema/common.schema.json` and `$ref`'d from every table:
+Defined once in `schema/common.schema.json` and `$ref`'d from every table
+(one known exception: `pilot-arrival.schema.json` restates `nation` inline):
 
 | Enum | Values | From |
 |---|---|---|

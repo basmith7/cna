@@ -10,7 +10,7 @@ ruling.
 This is sub-project 1 of an open-source, self-hostable digital CNA. No
 engine, server or UI lives here. Design: `docs/designs/2026-09-18-cna-living-rules-design.md`.
 
-New here, or an agent? Read `ARCHITECTURE.md` first: the five-minute map of the repo.
+Agents: read `AGENTS.md` first, for the invariants and gotchas the code doesn't show.
 
 ## Layout
 
