@@ -67,7 +67,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-02 22:25 UTC both listed requests are answered: 19.3 slot fills (R-142, #268) and 3.61's per-event details (R-143–R-145, #280). Clearing them and bumping `vendor/cna` is cna-engine's move.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-02 21:57 UTC both listed requests are answered: 19.3 slot fills (R-142, #268) and 3.61's per-event details (R-143–R-145, #280). Clearing them and bumping `vendor/cna` is cna-engine's move.
 
 For Brian (all optional):
 
