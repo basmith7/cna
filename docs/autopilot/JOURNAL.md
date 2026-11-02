@@ -622,3 +622,9 @@ Done: idle. Feedback empty, no open PRs. cna-engine's only request (19.3 slot fi
 In flight: none.
 Next: read cna-engine Requests for cna and Feedback; skip the slot-fills bullet (done in #268). If nothing new, stop.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-11-02 14:56 MST — autopilot/req-intel-details
+Done: cna-engine request "3.61's per-event details" → #280: R-143 (combat roll and table cell public; applied losses, DP, cohesion secret), R-144 (convoy bombing: lanes, roll, % only), R-145 (escapee count known to both at escape and recapture, own side's secret between); barrage totals line in the 3.62 table (12.0 express). All gates green locally.
+In flight: #280 awaiting CI, then merge.
+Next: read cna-engine Requests for cna; skip slot-fills (#268) and 3.61 details (#280). If nothing new, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").

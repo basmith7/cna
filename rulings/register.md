@@ -117,6 +117,9 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-140](./R-140.md) | Rommel when an assault destroys his stack | accepted | 31.0, 10.29, 15.82 |
 | [R-141](./R-141.md) | Which organisation-chart components count toward a shell | accepted | 9.26, 9.27, 19.3 |
 | [R-142](./R-142.md) | Which organisation-chart slot each counter fills | accepted | 9.26, 19.2, 19.3 |
+| [R-143](./R-143.md) | What a side learns of the losses it inflicts | accepted | 3.61, 3.62, 6.21, 12.0, 14.0, 15.29 |
+| [R-144](./R-144.md) | What the Commonwealth learns of a bombed Axis convoy | accepted | 3.61, 3.62, 32.63, 32.64, 32.65, 41.6, 56.16 |
+| [R-145](./R-145.md) | Who knows the numbers when prisoners escape | accepted | 3.62, 28.17, 28.23, 28.24, 28.25 |
 
 ## Variants
 
