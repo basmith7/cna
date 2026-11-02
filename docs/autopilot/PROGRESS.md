@@ -67,7 +67,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-10-27 03:25 UTC the one open request (which 19.3 slot each counter fills) is answered by R-142 (#268, merged 02:33 UTC; `fills` on all 1,021 OA counters); cna-engine has yet to bump `vendor/cna` and clear it. Nothing else is asked.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-02 20:55 UTC nothing new is asked: the one listed request (which 19.3 slot each counter fills) was answered by R-142 (#268, merged 2026-10-27), and cna-engine still pins `vendor/cna` at `eafa8a3` (before #268), so bumping it and clearing the request is cna-engine's move.
 
 For Brian (all optional):
 
