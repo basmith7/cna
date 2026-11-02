@@ -360,6 +360,42 @@ available:
 | trucks and replacement points | numbers and types secret |
 | air reconnaissance | less than a patrol |
 | aircraft | makes known in air-to-air combat, pilot ratings secret until it; a land unit without AA points or an SGSU learns only the mission type of planes attacking it |
+| barrage | the target, and the total actual barrage points fired at it (SPI 12.0) — never the units that fired |
+| combat results | the dice and the table result, never what it did ([below](#what-losses-reveal)) |
+| Axis convoy bombing | the lanes in use, the roll and the percentage, never the cargo or what sank ([below](#what-a-convoy-attack-reveals)) |
+| escaped prisoners | their number, to both sides, when they escape and when recaptured ([below](#escaped-prisoners)) |
+
+::: ruling R-143 — both sides see a combat roll and its table result; the losses and disorganisation it causes stay secret
+
+### What losses reveal {#what-losses-reveal}
+
+Combat dice are rolled and read on the printed tables in the open, so both
+sides see the result: a barrage's "lose 2", a close-assault percentage,
+anti-armour damage points. How the owner applies it is the owner's secret: whether
+and which TOE points were lost, from which units, any disorganisation
+points earned and any change of cohesion. A counter that leaves the map is
+seen to be gone, since the map is open ([R-143](../rulings/R-143.md)).
+
+::: ruling R-144 — the Commonwealth learns a bombed convoy's lanes, roll and percentage, never its cargo or losses
+
+### What a convoy attack reveals {#what-a-convoy-attack-reveals}
+
+When it bombs an Axis convoy the Commonwealth learns the lanes in use, its
+own bomb points, the roll and the percentage result (and, in the Logistics
+Game, the convoy's flak total as it is fired). How many supply units,
+motorisation and replacement points sailed, and how many the result sank,
+stay with the Axis: dummies are counted from the real units that arrive,
+and the count would give them away ([R-144](../rulings/R-144.md)).
+
+::: ruling R-145 — both sides learn the number of escaping and recaptured prisoners; in between it is their own side's secret
+
+### Escaped prisoners {#escaped-prisoners}
+
+When prisoner points escape, both sides learn how many: the captor held
+them, and their own side now moves them. From then on their strength,
+thirst losses and the number that rejoins (and returns as replacement
+points) is their own side's secret. A side that recaptures escapees learns
+the number it takes ([R-145](../rulings/R-145.md)).
 
 ---
 

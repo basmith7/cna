@@ -118,6 +118,9 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-123](../rulings/R-123.md) — one motorisation point per TOE strength point of any kind; a unit short of points is not motorised
 - [R-126](../rulings/R-126.md) — a convoy no qualifying division can reach on the chart is not attacked
 - [R-127](../rulings/R-127.md) — a 5 % convoy result is applied like 10 %
+- [R-143](../rulings/R-143.md) — both sides see a combat roll and its table result; the losses and disorganisation it causes stay secret
+- [R-144](../rulings/R-144.md) — the Commonwealth learns a bombed convoy's lanes, roll and percentage, never its cargo or losses
+- [R-145](../rulings/R-145.md) — both sides learn the number of escaping and recaptured prisoners; in between it is their own side's secret
 
 ## [Air Game — aircraft and squadrons](./air/10-aircraft-and-sgsus.md)
 
@@ -357,6 +360,9 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-140](../rulings/R-140.md) | accepted | 31.0, 10.29, 15.82 |
 | [R-141](../rulings/R-141.md) | accepted | 9.26, 9.27, 19.3 |
 | [R-142](../rulings/R-142.md) | accepted | 9.26, 19.2, 19.3 |
+| [R-143](../rulings/R-143.md) | accepted | 3.61, 3.62, 6.21, 12.0, 14.0, 15.29 |
+| [R-144](../rulings/R-144.md) | accepted | 3.61, 3.62, 32.63, 32.64, 32.65, 41.6, 56.16 |
+| [R-145](../rulings/R-145.md) | accepted | 3.62, 28.17, 28.23, 28.24, 28.25 |
 
 ## Variants register
 
