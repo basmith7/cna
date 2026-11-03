@@ -51,6 +51,7 @@ scenario's unit differs from its sheet, it says how:
 | *Det* | `detached` | units of its sheet that start elsewhere; each is listed again where it starts |
 | *Att* | `attached` | units attached to it but not assigned |
 | *Consists of* | `consists_of` | a roster that replaces the sheet's entirely |
+| a brigade inside a *Consists of* roster, with its own roster | `under` | the brigade gets an entry of its own, which names the division it starts in |
 | *HQ:* | `alone` | the headquarters counter only, without its subordinates |
 
 A garrison sheet with no single headquarters is placed whole: the data names

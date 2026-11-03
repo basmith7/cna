@@ -92,6 +92,7 @@
         "detached": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/unitId"}},
         "attached": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/unitId"}},
         "consists_of": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/unitId"}},
+        "under": {"$ref": "common.schema.json#/$defs/unitId", "description": "The unit this entry's head starts under, where that is not its OA sheet's parent: a brigade that a Consists of roster puts in another division, given a roster of its own"},
         "alone": {"type": "boolean", "description": "Only this counter (e.g. 'HQ only'), not its subordinates"},
         "status": {"enum": ["in-training", "broken-down"]},
         "toe": {"$ref": "common.schema.json#/$defs/toe", "description": "Only where the scenario gives a TOE other than the OA sheet's"},

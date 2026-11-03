@@ -386,8 +386,41 @@
      "units": [
       {
        "unit": "unit:cw:7th-armored-div-hq",
+       "consists_of": [
+        "unit:cw:11-hus",
+        "unit:cw:3-rha",
+        "unit:cw:4-fld",
+        "unit:cw:97-fld",
+        "unit:cw:65th-anti-tank-regt",
+        "unit:cw:15-laa"
+       ],
+       "attached": [
+        "unit:cw:2-deryeo",
+        "unit:cw:44-recce"
+       ],
        "notes": [
-        "Consists of: 4th Armd Bde (4/8 Hussars on the 8 Hus counter, Royal Scots Greys, 1 KRRC); 22nd Armd Bde (1 RTR, 5 RTR, 4 CLY, 1 Rifle Bde); 11th Hussars; 3 RHA as a regular artillery unit with 6 TOE of 25-pdrs; 4th and 97th Field; 65th AT; 15th Light AA; attached 2nd Derbyshire Yeomanry at 6 TOE and 44th Recce. The 'consists of' roster could not all be matched to ids in time; unconfirmed."
+        "Printed TOE differences not encoded: the 11th Hussars at 8, the 3rd RHA as a regular artillery unit with 6 TOE of 25-pounders, the 2nd Derbyshire Yeomanry at 6."
+       ]
+      },
+      {
+       "unit": "unit:cw:4th-armored-bde-hq",
+       "consists_of": [
+        "unit:cw:8-hus",
+        "unit:cw:sctsgry",
+        "unit:cw:1-krrc"
+       ],
+       "notes": [
+        "The 4/8 Hussars, formed from the 4th and 8th Hussars, use the 8th Hussars counter (max TOE 10)."
+       ]
+      },
+      {
+       "unit": "unit:cw:22-armd-bde-hq",
+       "under": "unit:cw:7th-armored-div-hq",
+       "consists_of": [
+        "unit:cw:1-rtr",
+        "unit:cw:5-rtr",
+        "unit:cw:4-cly",
+        "unit:cw:1-rflbde"
        ]
       }
      ],
@@ -405,8 +438,41 @@
      "units": [
       {
        "unit": "unit:cw:1-armd-div-hq",
+       "consists_of": [
+        "unit:cw:2-rha",
+        "unit:cw:4-rha",
+        "unit:cw:11-rha",
+        "unit:cw:78-fld",
+        "unit:cw:76-at",
+        "unit:cw:1-rnf",
+        "unit:cw:42-laa",
+        "unit:cw:12-lancr"
+       ],
+       "attached": [
+        "unit:cw:4-sa",
+        "unit:cw:146-fld",
+        "unit:cw:73rd-anti-tank-regt",
+        "unit:cw:56-laa"
+       ],
        "notes": [
-        "Consists of: 2nd Armd Bde less 1 Rifle Bde; 7th Motor Bde (2 and 7 Rifle Bde, 2 KRRC); 2nd, 4th and 11th (SP) RHA; 78th Field; 76th AT; 1st RNF MG; 42nd Light AA; 12th Lancers; attached Hammerforce (4/6 SA Armoured Car Regt at 7 TOE, 146th Field, 73rd AT, 56th Light AA). Ids not all matched; unconfirmed."
+        "The attached four are Hammerforce, an ad hoc brigade-level group with no HQ counter.",
+        "The 4/6 SA Armoured Car Regiment, formed from the 4th and 6th, may use either counter (max TOE 8); the data places the 4th's. Its starting TOE of 7 is not encoded.",
+        "The 11th RHA is its self-propelled counter (unit:cw:11-rha), not the 1st Support Group's towed one."
+       ]
+      },
+      {
+       "unit": "unit:cw:2-armd-bde-hq",
+       "less": [
+        "unit:cw:1-rflbde"
+       ]
+      },
+      {
+       "unit": "unit:cw:7-mtr-hq",
+       "under": "unit:cw:1-armd-div-hq",
+       "consists_of": [
+        "unit:cw:2-rflbde",
+        "unit:cw:7-rflbde",
+        "unit:cw:2-krrc"
        ]
       }
      ],
@@ -452,9 +518,39 @@
      "units": [
       {
        "unit": "unit:cw:10-armd-div-hq",
+       "consists_of": [
+        "unit:cw:1-royals",
+        "unit:cw:1-rha",
+        "unit:cw:104-rha",
+        "unit:cw:98-fld",
+        "unit:cw:5-rha",
+        "unit:cw:84th-anti-tank-regt",
+        "unit:cw:53-laa"
+       ],
        "notes": [
-        "Consists of: 8th Armd Bde less Scots Greys with 3 RTR in their place and 1st Buffs; 24th Armd Bde; 133rd Inf Bde; 1st Royal Dragoons; 1 and 104 RHA; 98th Field; 5th RHA (SP); 84th AT; 53rd Light AA."
+        "The 5th RHA is its self-propelled counter."
        ]
+      },
+      {
+       "unit": "unit:cw:8-armd-bde-hq",
+       "less": [
+        "unit:cw:sctsgry"
+       ],
+       "assigned": [
+        "unit:cw:3-rtr",
+        "unit:cw:1-buffs"
+       ],
+       "notes": [
+        "The 3rd RTR takes the Royal Scots Greys' place."
+       ]
+      },
+      {
+       "unit": "unit:cw:24-armd-bde-hq",
+       "under": "unit:cw:10-armd-div-hq"
+      },
+      {
+       "unit": "unit:cw:133rd-infantry-bde-hq",
+       "under": "unit:cw:10-armd-div-hq"
       }
      ],
      "trucks": {
