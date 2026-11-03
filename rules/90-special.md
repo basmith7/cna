@@ -188,6 +188,14 @@ characteristics row. A raider is formed from a unit of its own nation whose
 A raider a scenario's set-up places starts formed, and no unit gives up a
 TOE point for it ([R-147](../rulings/R-147.md)).
 
+::: ruling R-150 — a raider may be formed from any unit at its assigned basic morale
+
+"Maximum morale through training" means the unit is at its assigned basic
+morale: any unit whose OA entry has no untrained rating qualifies, and one
+that has an untrained rating qualifies once training has lifted it to its
+assigned rating; a unit still below it may not form a raider
+([R-150](../rulings/R-150.md)).
+
 ### Hidden movement
 
 ::: spi 27.31 27.32 27.33 27.34 27.35 27.36 27.37 27.38

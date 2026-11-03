@@ -124,6 +124,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-147](./R-147.md) | Desert raiders are counters of their own; a raider a set-up places starts formed | accepted | 27.11, 27.13, 27.14, 27.2, 61.31 |
 | [R-148](./R-148.md) | Under abstract supply (§32) desert raiders need no supply calls | accepted | 27.35, 27.38, 32.0, 32.11 |
 | [R-149](./R-149.md) | Under abstract supply (§32) a desert raider may raid a supply unit as a supply dump | accepted | 27.55, 27.56, 32.11, 32.18 |
+| [R-150](./R-150.md) | A raider may be formed from any unit at its assigned basic morale | accepted | 27.12, 27.2, 17.31, 17.35 |
 
 ## Variants
 

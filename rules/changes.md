@@ -98,6 +98,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-030** — 30.5: the supply-by-sea reference is 56.0; 30.55 also admits barraged/bombed units; 30.57 is replaced by the 10 %-per-SP rule; 30.58's reference is 55.2
 - [R-125](../rulings/R-125.md) — which reconnaissance units are armoured cars: per unit, Axis by the chart notes, Commonwealth by what the unit was
 - [R-147](../rulings/R-147.md) — desert raiders are counters of their own; a raider a set-up places starts formed
+- [R-150](../rulings/R-150.md) — a raider may be formed from any unit at its assigned basic morale
 - [R-132](../rulings/R-132.md) — the Axis departure point for prisoners is the Tripolitania box
 - [R-019](../rulings/R-019.md) — the fleet's western limit is hex row xx29 on map B, where the 100-hex count ends; Derna is out of range
 - [R-137](../rulings/R-137.md) — Rommel's +5 CPA: which units, and what parting costs
@@ -372,6 +373,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-147](../rulings/R-147.md) | accepted | 27.11, 27.13, 27.14, 27.2, 61.31 |
 | [R-148](../rulings/R-148.md) | accepted | 27.35, 27.38, 32.0, 32.11 |
 | [R-149](../rulings/R-149.md) | accepted | 27.55, 27.56, 32.11, 32.18 |
+| [R-150](../rulings/R-150.md) | accepted | 27.12, 27.2, 17.31, 17.35 |
 
 ## Variants register
 
