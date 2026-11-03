@@ -634,3 +634,9 @@ Done: cna-engine request "armoured divisions from turn 92 and their motor brigad
 In flight: none.
 Next: read cna-engine Requests for cna; skip slot-fills (#268), 3.61 details (#280), turn-92 motor brigades (#281). If nothing new, stop.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-11-03 01:58 MST — autopilot/req-raider-counters
+Done: cna-engine request "raider counters" → R-147: unit:cw:lrdg-1/2, unit:de:dsa with `raider` values (schema field), Rommel's Arrival places lrdg-1 at Jalo. Commit 55275e7. All gates green locally.
+In flight: this PR awaiting CI, then merge; next PR autopilot/req-raiders-abstract (27.35 and 27.55 under §32).
+Next: merge this PR once CI is green; then the abstract-block raider request.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
