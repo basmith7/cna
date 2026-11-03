@@ -1471,6 +1471,10 @@
      "scan:p78",
      "scan:p141"
     ],
+    "first_sail": {
+     "game_turn": 2,
+     "opstage": 1
+    },
     "total": {
      "battleship": 1,
      "cruiser": 3,

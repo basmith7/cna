@@ -74,7 +74,7 @@ before the scenario's second Game-Turn.
 - Repair: temporary facilities at Tobruk and Mersa Matruh, major ones at
   Alexandria and Cairo.
 - The whole fleet starts at Alexandria, armed and undamaged, and may not
-  sail before Game-Turn 27.
+  sail before the first OpStage of Game-Turn 27 (`first_sail`).
 
 ::: spi 61.38
 
