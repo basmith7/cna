@@ -515,6 +515,13 @@ Game-Turn 1, fires only while an Axis land unit shares its hex, and is
 removed at the end of any stage in which a Commonwealth engineer unit and no
 Axis unit is there ([R-151](../rulings/R-151.md)).
 
+::: ruling R-153 — the San Giorgio needs no ammunition
+
+Like the Commonwealth ships' guns, the *San Giorgio*'s barrage, anti-ship
+and AA fire need no ammunition and no supply unit in range, under abstract
+supply and in the Logistics Game alike; it is never out of ammunition
+([R-153](../rulings/R-153.md)).
+
 ::: variant V-001 — the San Giorgio as a live gun battery: torpedo-immune, own AA, may sortie, no port-efficiency penalty (NJHarman)
 
 ### Off-shore bombardment

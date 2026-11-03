@@ -127,6 +127,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-150](./R-150.md) | A raider may be formed from any unit at its assigned basic morale | accepted | 27.12, 27.2, 17.31, 17.35 |
 | [R-151](./R-151.md) | The *San Giorgio*'s values, and when it is on the map | accepted | 30.17, 30.35, 30.39 |
 | [R-152](./R-152.md) | Captured guns and tanks become the captor's replacement points at once | accepted | 28.3, 15.86, 17.51, 22.5, 14.5, 21.5 |
+| [R-153](./R-153.md) | The *San Giorgio* needs no ammunition | accepted | 30.17, 30.39 |
 
 ## Variants
 
