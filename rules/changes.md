@@ -103,6 +103,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-152](../rulings/R-152.md) — captured guns and tanks become the captor's replacement points at once
 - [R-019](../rulings/R-019.md) — the fleet's western limit is hex row xx29 on map B, where the 100-hex count ends; Derna is out of range
 - [R-151](../rulings/R-151.md) — the San Giorgio fires 2 barrage and 6 AA points, has no vulnerability, starts only in the Game-Turn 1 scenarios and goes when Commonwealth engineers hold Tobruk alone
+- [R-153](../rulings/R-153.md) — the San Giorgio needs no ammunition
 - [R-137](../rulings/R-137.md) — Rommel's +5 CPA: which units, and what parting costs
 - [R-138](../rulings/R-138.md) — a lone Rommel in an enemy ZOC escapes first, then is captured
 - [R-140](../rulings/R-140.md) — Rommel retreats alone when an assault destroys his stack
@@ -378,6 +379,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-150](../rulings/R-150.md) | accepted | 27.12, 27.2, 17.31, 17.35 |
 | [R-151](../rulings/R-151.md) | accepted | 30.17, 30.35, 30.39 |
 | [R-152](../rulings/R-152.md) | accepted | 28.3, 15.86, 17.51, 22.5, 14.5, 21.5 |
+| [R-153](../rulings/R-153.md) | accepted | 30.17, 30.39 |
 
 ## Variants register
 

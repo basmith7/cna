@@ -676,3 +676,9 @@ Done: cna-engine request "when the fleet may first sail" → `fleet.first_sail` 
 In flight: none.
 Next: re-read cna-engine's Requests for cna; with nothing new, idle per the finish line.
 Blocked: none
+
+## 2026-11-03 14:55 MST — autopilot/req-san-giorgio-ammo
+Done: R-153 (#289, d0988b8): the San Giorgio needs no ammunition (30.16/30.22), answers the engine's San Giorgio ammunition request.
+In flight: none.
+Next: re-read cna-engine's Requests for cna; with none new and Feedback empty, idle.
+Blocked: none.
