@@ -1047,6 +1047,7 @@
     "sources": [
      "CNA1979:63.36"
     ],
+    "first_sail": null,
     "alexandria": {
      "destroyer": 4,
      "heavy-cruiser": 2,

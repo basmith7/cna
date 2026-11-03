@@ -35,6 +35,8 @@ only; The Long Retreat ends after Game-Turn 110, the last week of December
 The Eighth Army's starting hexes, attachments, first-line trucks and tank
 compositions are in `sides.cw`, with its air force, second- and third-line
 trucks, supply, fleet, Malta, and its reinforcements and replacements.
+The fleet may sail from the first OpStage: 63.36 sets no limit
+(`first_sail` is null).
 
 ## Axis forces {#axis}
 

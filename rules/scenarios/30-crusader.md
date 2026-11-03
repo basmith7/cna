@@ -39,6 +39,8 @@ entry names it only as detached from the division (59.2).
 
 **Air, trucks, supply, Malta, fleet and reinforcements** are in the
 scenario file. Reinforcements and replacements arrive in the normal way.
+The fleet may sail from the first OpStage: 62.37 sets no limit
+(`first_sail` is null).
 
 ::: ruling R-107 — what an inactive dump is
 

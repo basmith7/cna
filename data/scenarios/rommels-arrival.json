@@ -1224,6 +1224,10 @@
      "CNA1979:61.37",
      "scan:p80"
     ],
+    "first_sail": {
+     "game_turn": 27,
+     "opstage": 1
+    },
     "alexandria": "all Commonwealth fleet counters",
     "movement": "None may leave Alexandria before Game-Turn 27 OpStage 1; all start armed and undamaged."
    },

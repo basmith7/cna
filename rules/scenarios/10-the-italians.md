@@ -123,8 +123,8 @@ both hexes of Alexandria.
 - The fleet is one battleship, three cruisers and seven destroyers, started
   as the Commonwealth Fleet Schedule shows for Game-Turn 1 (in Alexandria;
   one cruiser and two destroyers may start at Valletta instead). The ships
-  are armed and undamaged and may not sail before the start of Game-Turn 2
-  (`sides.cw.fleet`).
+  are armed and undamaged and may not sail before the first OpStage of
+  Game-Turn 2 (`sides.cw.fleet`, `first_sail`).
 - Malta has its own planes, pilots, SGSUs and 17 anti-aircraft points to
   spread over its facilities, which can ready five SGSUs between them. Work
   to enlarge them may start in October 1940.

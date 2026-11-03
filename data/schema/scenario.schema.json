@@ -138,7 +138,9 @@
         "repair": {"type": "array", "items": {"type": "object", "required": ["placement", "kind"], "additionalProperties": false,
                    "properties": {"placement": {"$ref": "#/$defs/placement"}, "kind": {"enum": ["major", "temporary"]}}}},
         "air": {"type": "object", "description": "Planes, pilots, SGSUs and air facilities (59.3); typed with the Air Game (Mission 7)"},
-        "fleet": {"type": "object", "description": "Naval units and where they start (30.0)"},
+        "fleet": {"type": "object", "description": "Naval units and where they start (30.0)",
+                  "properties": {"first_sail": {"oneOf": [{"$ref": "common.schema.json#/$defs/gameTime"}, {"type": "null"}],
+                                                "description": "No warship of this side moves before this OpStage; null: the scenario sets no limit. On every Commonwealth fleet block"}}},
         "reinforcements": {"type": "array", "items": {"type": "string"}, "description": "Our sentences: how the schedule is used in this scenario"},
         "special": {"type": "array", "items": {"type": "string"}, "description": "Our sentences: special rules (59.12 h)"}
       }

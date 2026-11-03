@@ -242,3 +242,21 @@ def test_between_and_triangle_placements_list_their_hexes():
     savona = next(d["placement"] for d in oc["sides"]["axis"]["deployments"]
                   if d["units"][0]["unit"] == "unit:it:55th-savona-div-hq")
     assert savona == {"hexes": triangle("C3916", "C3618", "C3922")}
+
+
+def test_every_commonwealth_fleet_states_when_it_may_first_sail():
+    # Every scenario with its own set-up says, as data, when the Commonwealth
+    # warships may first move: Graziani's 60.45 and Rommel's 61.37 set a
+    # turn, Crusader's 62.37 and The Last Chance's 63.36 set none (null).
+    first = {}
+    for path in sorted(SC.glob("*.json")):
+        fleet = json.loads(path.read_text()).get("sides", {}).get("cw", {}).get("fleet")
+        if fleet is not None:
+            assert "first_sail" in fleet, path.name
+            first[path.stem] = fleet["first_sail"]
+    assert first == {
+        "grazianis-offensive": {"game_turn": 2, "opstage": 1},
+        "rommels-arrival": {"game_turn": 27, "opstage": 1},
+        "operation-crusader": None,
+        "the-last-chance": None,
+    }
