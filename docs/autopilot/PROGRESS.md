@@ -365,3 +365,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-11-03 09:52 | 8 | 67→67 | none→none | $2.56 | 58 | I answered cna-engine's one new request, the warship gun and AA ratings, in #286 (merged). The ratings come from the VASSAL module, not a printed counter sheet, |
 | 2026-11-03 10:52 | 8 | 68→68 | none→none | $1.80 | 41 | I answered cna-engine's new **captured equipment** request with ruling R-152 (PR #287), and it's merged. That leaves nothing open for cna, so the run stops here |
 | 2026-11-03 11:52 | 0 | 70→70 | none→none | $0.30 | 5 | I did no work this run because nothing new was asked for. - **Feedback:** empty. - **cna-engine requests:** only one is listed, captured equipment. #287 (R-152) |
+| 2026-11-03 13:52 | 8 | 70→71 | none→none | $1.34 | 40 | This run answered cna-engine's one new request, "When the fleet may first sail, as data", and merged it as **#288**. Every Commonwealth `fleet` block in the sce |
