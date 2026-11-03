@@ -79,7 +79,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-03 18:20 UTC every listed request is answered (latest: #287, captured equipment and R-152). Clearing them and bumping `vendor/cna` is cna-engine's move: #282 changes the `cna-data` OA count test (cw 438, de 150, total 1024), #284 adds the unit-entry field `under`, which `cna-data` must accept (about six lines; the PR describes the patch), and #286 adds fields only (schedule `gun_rating`/`aa_rating`, OA `blockship`); #287 is prose only.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-03 18:00 UTC every listed request is answered (latest: #287, captured equipment and R-152). Clearing them and bumping `vendor/cna` is cna-engine's move: #282 changes the `cna-data` OA count test (cw 438, de 150, total 1024), #284 adds the unit-entry field `under`, which `cna-data` must accept (about six lines; the PR describes the patch), and #286 adds fields only (schedule `gun_rating`/`aa_rating`, OA `blockship`); #287 is prose only.
 
 For Brian (all optional):
 
