@@ -378,8 +378,37 @@ prisoners into the deep desert and abandon them; the rule is for flavour.)
 
 ::: spi 28.3
 
+::: ruling R-152 — captured guns and tanks become the captor's replacement points at once
+
 Captured guns and tanks, once repaired, may be used against their former
-owners.
+owners. Only wrecks need repairing: a captured destroyed-tank marker
+([capture](60-combat.md#capturing-destroyed-tanks)) after a facility repair,
+a captured broken-down vehicle after a field or facility repair
+([Engineering](80-engineering.md)). Every other captured TOE point of a gun
+or vehicle, taken in close assault, by surrender of any kind or by the marsh
+rule, becomes the captor's **replacement points** at once, with no repair
+and no training ([R-152](../rulings/R-152.md)):
+
+- A captured point of an infantry-type unit (heavy weapons included) is a
+  prisoner point (above). A point of an armoured-recce, armoured-car, tank,
+  artillery, anti-tank or anti-air unit gives the replacement points that
+  [20.3's chart](70-organisation.md#replacement-points) charges to rebuild
+  one TOE point of that type (its first alternative): one of its class, two
+  armoured-recce points for an armoured car.
+- They start in the hex of the capturing unit (the captor's pick of hexes
+  where several units captured), are earmarked at once, and from then on are
+  replacement counters of the captor's side, German or Italian alike for the
+  Axis.
+- Any unit that may rebuild with that class may absorb them
+  ([rebuilding](70-organisation.md#rebuilding-depleted-units)), in the reorganisation segment as usual.
+  Absorbed, they are the unit's own TOE points in every respect, within its
+  printed maximum, and fill no 19.3 slot of their own. Until absorbed they
+  are still captured: a separate repair batch, never repaired by the German
+  Mobile Tank Repair Squad, and never used for an Axis ad hoc anti-tank
+  battery. Under §32 the Commonwealth removes captured Axis anti-air points
+  at once ([abstract](95-abstract-logistics-and-air.md)).
+- Guns lost to vulnerability, and every eliminated point outside the
+  captured share, are gone, not captured.
 
 ## Weather
 

@@ -664,3 +664,9 @@ Done: cna-engine request "Warship ratings for the fleet" → #286: gun_rating/aa
 In flight: none.
 Next: re-read cna-engine's Requests for cna; with nothing new, idle per the finish line.
 Blocked: none.
+
+## 2026-11-03 11:10 MST — autopilot/req-captured-equipment
+Done: cna-engine request "Captured equipment" → R-152 (#287): captured gun/tank/recce points become captor's replacement points at once (17.51), no repair/training; only captured wrecks need §22 repair. Gates green locally.
+In flight: #287 awaiting CI, then merge; then PROGRESS.md on main.
+Next: read cna-engine Requests for cna; skip warship ratings (#286) and captured equipment (#287) bullets. If nothing new, stop.
+Blocked: none.
