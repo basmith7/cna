@@ -71,7 +71,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-03 09:15 UTC every listed request is answered (R-146 #281, R-147 #282, R-148/R-149 #283). Clearing them and bumping `vendor/cna` is cna-engine's move; #282 changes the `cna-data` OA count test (cw 438, de 150, total 1024).
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-03 09:03 UTC every listed request is answered (R-146 #281, R-147 #282, R-148/R-149 #283). Clearing them and bumping `vendor/cna` is cna-engine's move; #282 changes the `cna-data` OA count test (cw 438, de 150, total 1024).
 
 For Brian (all optional):
 
