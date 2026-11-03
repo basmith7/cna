@@ -670,3 +670,9 @@ Done: cna-engine request "Captured equipment" → R-152 (#287): captured gun/tan
 In flight: #287 awaiting CI, then merge; then PROGRESS.md on main.
 Next: read cna-engine Requests for cna; skip warship ratings (#286) and captured equipment (#287) bullets. If nothing new, stop.
 Blocked: none.
+
+## 2026-11-03 21:05 UTC — autopilot/req-fleet-first-sail
+Done: cna-engine request "when the fleet may first sail" → `fleet.first_sail` on every CW fleet block (GO 2/1, RA 27/1, Crusader and Last Chance null), schema + test (3bcd624, #288).
+In flight: none.
+Next: re-read cna-engine's Requests for cna; with nothing new, idle per the finish line.
+Blocked: none
