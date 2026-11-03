@@ -19,33 +19,34 @@ Used in [Special rules](/rules/90-special).
 
 ## Table
 
-| Ship | Type | Arrival | Malta option |
-|---|---|---|---|
-| valiant | BB | Turn: 1<br>Stage: 1 | — |
-| arethusa | CL | Turn: 1<br>Stage: 1 | one of cruisers |
-| dido | CLAA | Turn: 1<br>Stage: 1 | one of cruisers |
-| euryalus | CLAA | Turn: 1<br>Stage: 1 | one of cruisers |
-| airedale | DD | Turn: 1<br>Stage: 1 | two of destroyers |
-| bedouin | DD | Turn: 1<br>Stage: 1 | two of destroyers |
-| jervis | DD | Turn: 1<br>Stage: 1 | two of destroyers |
-| lance | DD | Turn: 1<br>Stage: 1 | two of destroyers |
-| ledbury | DD | Turn: 1<br>Stage: 1 | two of destroyers |
-| mohawk | DD | Turn: 1<br>Stage: 1 | two of destroyers |
-| nubian | DD | Turn: 1<br>Stage: 1 | two of destroyers |
-| barham | BB | Turn: 8<br>Stage: 3 | — |
-| york | CA | Turn: 8<br>Stage: 3 | — |
-| ajax | CL | Turn: 8<br>Stage: 3 | — |
-| marne | DD | Turn: 8<br>Stage: 3 | — |
-| partridge | DD | Turn: 8<br>Stage: 3 | — |
-| queen elizabeth | BB | Turn: 33<br>Stage: 1 | — |
-| fiji | CA | Turn: 33<br>Stage: 1 | — |
-| naiad | CLAA | Turn: 33<br>Stage: 1 | — |
+| Ship | Type | Arrival | Gun rating | AA rating | Malta option |
+|---|---|---|---|---|---|
+| valiant | BB | Turn: 1<br>Stage: 1 | 6 | 12 | — |
+| arethusa | CL | Turn: 1<br>Stage: 1 | 3 | 6 | one of cruisers |
+| dido | CLAA | Turn: 1<br>Stage: 1 | 2 | 6 | one of cruisers |
+| euryalus | CLAA | Turn: 1<br>Stage: 1 | 2 | 6 | one of cruisers |
+| airedale | DD | Turn: 1<br>Stage: 1 | 1 | 1 | two of destroyers |
+| bedouin | DD | Turn: 1<br>Stage: 1 | 1 | 3 | two of destroyers |
+| jervis | DD | Turn: 1<br>Stage: 1 | 1 | 2 | two of destroyers |
+| lance | DD | Turn: 1<br>Stage: 1 | 1 | 2 | two of destroyers |
+| ledbury | DD | Turn: 1<br>Stage: 1 | 1 | 2 | two of destroyers |
+| mohawk | DD | Turn: 1<br>Stage: 1 | 1 | 2 | two of destroyers |
+| nubian | DD | Turn: 1<br>Stage: 1 | 1 | 2 | two of destroyers |
+| barham | BB | Turn: 8<br>Stage: 3 | 6 | 12 | — |
+| york | CA | Turn: 8<br>Stage: 3 | 4 | 8 | — |
+| ajax | CL | Turn: 8<br>Stage: 3 | 3 | 6 | — |
+| marne | DD | Turn: 8<br>Stage: 3 | 1 | 3 | — |
+| partridge | DD | Turn: 8<br>Stage: 3 | 1 | 2 | — |
+| queen elizabeth | BB | Turn: 33<br>Stage: 1 | 6 | 12 | — |
+| fiji | CA | Turn: 33<br>Stage: 1 | 4 | 8 | — |
+| naiad | CLAA | Turn: 33<br>Stage: 1 | 2 | 6 | — |
 
 ## Notes
 
 - Commonwealth Fleet Reinforcement Schedule (headed 30.6 on the chart; the rules cite it from 30.59, whose other reference errata E-030 redirects): each warship counter with the game-turn and operations stage it is deployed in. All deploy at Alexandria; of the three cruisers Arethusa, Dido and Euryalus any one may instead start at Valletta, and any two of the seven starting destroyers may (malta_options)
 - On the Commonwealth player's chart set (jp2 141), not the shared sheet. Transcribed from the archive.org scan and cross-checked against the 300 dpi community scan (scan:discord:Commonwealth Charts.pdf:p31): 0 of 19 ships differ. Clay Stone's errata-integrated Land rules PDF contains no charts
+- gun_rating and aa_rating are printed on each counter as gun/AA (30.12), not on the chart. The archive.org scan has no counter sheet; they are read from the VASSAL module (CNAv2.1.0, errata applied), the only source we hold, twice: once from the rendered counters and once by matching the counters' outlined glyph paths, which group the 19 ships the same way. They await a check against a printed counter sheet (decision board, copy group). The type on every counter matches the chart's. 30.33's example calls the Ajax 'a 4' (and 30.21's a heavy cruiser); its counter is a CL 3/6, and the example is read as illustrative
 
 ---
 
-<p class="table-sources">Sources: SPI 30.59 · scan page 141. Data: <a href="https://github.com/basmith7/cna/blob/main/data/tables/cw-fleet-schedule.json">data/tables/cw-fleet-schedule.json</a> (CC0).</p>
+<p class="table-sources">Sources: <span class="wrap">SPI 30.59 · scan page 141 · vassal:CNAv2.1.0</span>. Data: <a href="https://github.com/basmith7/cna/blob/main/data/tables/cw-fleet-schedule.json">data/tables/cw-fleet-schedule.json</a> (CC0).</p>

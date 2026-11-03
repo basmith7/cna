@@ -2,11 +2,13 @@
  "table": "cw-fleet-schedule",
  "sources": [
   "CNA1979:30.59",
-  "scan:p141"
+  "scan:p141",
+  "vassal:CNAv2.1.0"
  ],
  "notes": [
   "Commonwealth Fleet Reinforcement Schedule (headed 30.6 on the chart; the rules cite it from 30.59, whose other reference errata E-030 redirects): each warship counter with the game-turn and operations stage it is deployed in. All deploy at Alexandria; of the three cruisers Arethusa, Dido and Euryalus any one may instead start at Valletta, and any two of the seven starting destroyers may (malta_options)",
-  "On the Commonwealth player's chart set (jp2 141), not the shared sheet. Transcribed from the archive.org scan and cross-checked against the 300 dpi community scan (scan:discord:Commonwealth Charts.pdf:p31): 0 of 19 ships differ. Clay Stone's errata-integrated Land rules PDF contains no charts"
+  "On the Commonwealth player's chart set (jp2 141), not the shared sheet. Transcribed from the archive.org scan and cross-checked against the 300 dpi community scan (scan:discord:Commonwealth Charts.pdf:p31): 0 of 19 ships differ. Clay Stone's errata-integrated Land rules PDF contains no charts",
+  "gun_rating and aa_rating are printed on each counter as gun/AA (30.12), not on the chart. The archive.org scan has no counter sheet; they are read from the VASSAL module (CNAv2.1.0, errata applied), the only source we hold, twice: once from the rendered counters and once by matching the counters' outlined glyph paths, which group the 19 ships the same way. They await a check against a printed counter sheet (decision board, copy group). The type on every counter matches the chart's. 30.33's example calls the Ajax 'a 4' (and 30.21's a heavy cruiser); its counter is a CL 3/6, and the example is read as illustrative"
  ],
  "default_port": "alexandria",
  "malta_options": {
@@ -21,9 +23,12 @@
     "turn": 1,
     "stage": 1
    },
+   "gun_rating": 6,
+   "aa_rating": 12,
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -33,10 +38,13 @@
     "turn": 1,
     "stage": 1
    },
+   "gun_rating": 3,
+   "aa_rating": 6,
    "malta_option": "one-of-cruisers",
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -46,10 +54,13 @@
     "turn": 1,
     "stage": 1
    },
+   "gun_rating": 2,
+   "aa_rating": 6,
    "malta_option": "one-of-cruisers",
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -59,10 +70,13 @@
     "turn": 1,
     "stage": 1
    },
+   "gun_rating": 2,
+   "aa_rating": 6,
    "malta_option": "one-of-cruisers",
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -72,10 +86,13 @@
     "turn": 1,
     "stage": 1
    },
+   "gun_rating": 1,
+   "aa_rating": 1,
    "malta_option": "two-of-destroyers",
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -85,10 +102,13 @@
     "turn": 1,
     "stage": 1
    },
+   "gun_rating": 1,
+   "aa_rating": 3,
    "malta_option": "two-of-destroyers",
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -98,10 +118,13 @@
     "turn": 1,
     "stage": 1
    },
+   "gun_rating": 1,
+   "aa_rating": 2,
    "malta_option": "two-of-destroyers",
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -111,10 +134,13 @@
     "turn": 1,
     "stage": 1
    },
+   "gun_rating": 1,
+   "aa_rating": 2,
    "malta_option": "two-of-destroyers",
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -124,10 +150,13 @@
     "turn": 1,
     "stage": 1
    },
+   "gun_rating": 1,
+   "aa_rating": 2,
    "malta_option": "two-of-destroyers",
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -137,10 +166,13 @@
     "turn": 1,
     "stage": 1
    },
+   "gun_rating": 1,
+   "aa_rating": 2,
    "malta_option": "two-of-destroyers",
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -150,10 +182,13 @@
     "turn": 1,
     "stage": 1
    },
+   "gun_rating": 1,
+   "aa_rating": 2,
    "malta_option": "two-of-destroyers",
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -163,9 +198,12 @@
     "turn": 8,
     "stage": 3
    },
+   "gun_rating": 6,
+   "aa_rating": 12,
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -175,9 +213,12 @@
     "turn": 8,
     "stage": 3
    },
+   "gun_rating": 4,
+   "aa_rating": 8,
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -187,9 +228,12 @@
     "turn": 8,
     "stage": 3
    },
+   "gun_rating": 3,
+   "aa_rating": 6,
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -199,9 +243,12 @@
     "turn": 8,
     "stage": 3
    },
+   "gun_rating": 1,
+   "aa_rating": 3,
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -211,9 +258,12 @@
     "turn": 8,
     "stage": 3
    },
+   "gun_rating": 1,
+   "aa_rating": 2,
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -223,9 +273,12 @@
     "turn": 33,
     "stage": 1
    },
+   "gun_rating": 6,
+   "aa_rating": 12,
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -235,9 +288,12 @@
     "turn": 33,
     "stage": 1
    },
+   "gun_rating": 4,
+   "aa_rating": 8,
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   },
   {
@@ -247,9 +303,12 @@
     "turn": 33,
     "stage": 1
    },
+   "gun_rating": 2,
+   "aa_rating": 6,
    "sources": [
     "CNA1979:30.59",
-    "scan:p141"
+    "scan:p141",
+    "vassal:CNAv2.1.0"
    ]
   }
  ]

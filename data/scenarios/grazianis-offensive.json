@@ -442,7 +442,7 @@
         "unit:it:the-san-giorgio"
        ],
        "notes": [
-        "The San Giorgio is the partly sunk cruiser in Tobruk harbour (a note on the OA sheet), a fixed harbour blockship with no ID code or TOE, not a unit to place."
+        "The San Giorgio is the partly sunk cruiser in Tobruk harbour (a note on the OA sheet), a fixed harbour blockship with no ID code or TOE, not placed with the garrison: its OA entry's `blockship` gives its hex and values, and R-151 puts it in play in every scenario that starts on Game-Turn 1."
        ]
       }
      ],

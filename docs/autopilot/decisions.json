@@ -125,6 +125,17 @@
       ]
     },
     {
+      "id": "oa-warship-ratings",
+      "group": "copy",
+      "title": "Warship counters: gun and AA ratings",
+      "context": "30.12 prints each warship's gun and AA ratings on its counter. We have no scan of the counter sheet; the VASSAL module gives BB 6/12, CA 4/8, CL 3/6 (Ajax, Arethusa), CLAA 2/6 (Dido, Euryalus, Naiad), DD 1/2, except Airedale 1/1 and Bedouin and Marne 1/3, and the San Giorgio CL 2/6. Recorded so in data/tables/cw-fleet-schedule.json and data/oa/it.json.",
+      "options": [
+        "My counters agree",
+        "My counters differ (say how)",
+        "Leave as read"
+      ]
+    },
+    {
       "id": "air-axis-br20-january-1942",
       "group": "copy",
       "title": "Axis air reinforcements, January 1942: how many BR20s?",

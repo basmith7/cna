@@ -5203,6 +5203,17 @@
      "fills": [],
      "toe": [],
      "arrives": null,
+     "blockship": {
+      "gun_rating": 2,
+      "aa_rating": 6,
+      "vulnerability": null,
+      "hex": "C4807",
+      "sources": [
+       "CNA1979:30.17",
+       "CNA1979:30.39",
+       "vassal:CNAv2.1.0"
+      ]
+     },
      "notes": [
       "c: partly sunk cruiser in Tobruk harbour",
       " fires at ships/aircraft, cannot be attacked by land units or refloated",

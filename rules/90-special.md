@@ -476,6 +476,16 @@ Tobruk harbour: it acts as an immobile artillery unit until removed or sunk
 by enemy engineers, firing into adjacent hexes and at Commonwealth ships
 across sea hexsides.
 
+::: ruling R-151 — the San Giorgio fires 2 barrage and 6 AA points, has no vulnerability, starts only in the Game-Turn 1 scenarios and goes when Commonwealth engineers hold Tobruk alone
+
+The *San Giorgio*'s counter gives **2** gun points and **6** AA points,
+which never drop; it has no vulnerability, since nothing on land may attack
+it. Its 2 points go whole onto a ship's Air Bombardment roll, as a fixed
+gun's do. It is in Tobruk (C4807) only in the scenarios that start on
+Game-Turn 1, fires only while an Axis land unit shares its hex, and is
+removed at the end of any stage in which a Commonwealth engineer unit and no
+Axis unit is there ([R-151](../rulings/R-151.md)).
+
 ::: variant V-001 — the San Giorgio as a live gun battery: torpedo-immune, own AA, may sortie, no port-efficiency penalty (NJHarman)
 
 ### Off-shore bombardment
@@ -552,7 +562,10 @@ level by at least a third; one-SP ports lose nothing.
 There is no 30.59 chart as such (errata E-030): the Port Capacity Chart is
 SPI 55.3 (Logistics Game, later spec) and the Commonwealth Fleet
 Reinforcement Schedule is data, `data/tables/cw-fleet-schedule.json` — each
-warship with the turn and stage it appears: eleven ships at the start
+warship with its gun and AA ratings and the turn and stage it appears
+(battleships 6/12, heavy cruisers 4/8, light cruisers 3/6, anti-aircraft
+cruisers 2/6, destroyers 1/2, except *Airedale* 1/1 and *Bedouin* and
+*Marne* 1/3): eleven ships at the start
 (*Valiant*, three cruisers, seven destroyers), five more in stage 3 of turn
 8 (*Barham*, *York*, *Ajax*, two destroyers), and *Queen Elizabeth*, *Fiji*
 and *Naiad* on turn 33. All deploy at Alexandria, except that one of the

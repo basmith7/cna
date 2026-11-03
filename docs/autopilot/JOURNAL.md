@@ -658,3 +658,9 @@ Done: R-150 (raiders form from any unit at its assigned basic morale; `basic_mor
 In flight: none.
 Next: check Feedback and the engine's Requests for cna; with neither, idle.
 Blocked: none
+
+## 2026-11-03 10:00 MST — autopilot/req-warship-ratings
+Done: cna-engine request "Warship ratings for the fleet" → #286: gun_rating/aa_rating on every cw-fleet-schedule row (VASSAL counters, glyph-matched), R-151 the San Giorgio (2/6, no vulnerability, GT1 scenarios only, OA `blockship`), copy item oa-warship-ratings. Raider-morale request was already R-150 (#285).
+In flight: none.
+Next: re-read cna-engine's Requests for cna; with nothing new, idle per the finish line.
+Blocked: none.
