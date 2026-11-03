@@ -646,3 +646,9 @@ Done: R-147 merged (#282). cna-engine request "raiders under the abstract block"
 In flight: this PR awaiting CI, then merge; then PROGRESS.md on main.
 Next: read cna-engine Requests for cna; skip #268, #280, #281, #282 and this PR's two bullets. If nothing new, stop.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-11-03 03:30 MST — autopilot/req-last-chance-rosters
+Done: cna-engine request "The Last Chance's CW armoured rosters" → #284: 1st, 7th and 10th Armd as unit ids (scan p84), each brigade an entry with its GT102 battalions; new unit-entry field `under` (schema + 59.2 table) for brigades in another division. Commit 2eba2a1. Gates green locally; verified in a scratch cna-engine clone with a 6-line `under` patch.
+In flight: #284 awaiting CI, then merge; then PROGRESS.md on main.
+Next: read cna-engine Requests for cna; skip #268, #280–#284 bullets. If nothing new, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
