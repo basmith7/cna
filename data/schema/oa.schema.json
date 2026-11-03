@@ -58,6 +58,12 @@
                                  "escort_cpa_bonus": {"type": "integer", "description": "Added to the CPA of every unit in his hex at an OpStage's start, while it stays with him; parting charges the DP it spared (R-137)"},
                                  "recall_roll": {"type": "integer", "description": "Two-dice total at the start of a Game-Turn that sends him to Germany for that turn"},
                                  "initiative_while_recalled": {"type": "integer"}}},
+                "raider": {"type": "object", "required": ["kind", "cpa", "moves_as", "combat_ratings", "stacking_points", "breaks_down", "formed_from_vehicle", "max_in_play"], "additionalProperties": false, "description": "Desert raider counters only (27.1x, 27.2, R-147): a piece of its own that no OA sheet prints; id_code is null and these values stand in for a unit-characteristics row. Formed in play from one TOE point of a unit of the raider's own nation whose vehicle is listed here (27.13); a raider a set-up places starts formed",
+                  "properties": {"kind": {"enum": ["lrdg", "dsa"], "description": "lrdg: Long Range Desert Group, the only kind that may raid Rommel (27.61); dsa: Sonderkommando Almasy"},
+                                 "cpa": {"type": "integer"}, "moves_as": {"enum": ["recce"], "description": "The ordinary movement rules for a recce unit (27.32): the terrain chart's motorised costs and the recce-type exception for salt marsh (8.37)"},
+                                 "combat_ratings": {"const": false}, "stacking_points": {"const": 0}, "breaks_down": {"const": false},
+                                 "formed_from_vehicle": {"type": "array", "minItems": 1, "items": {"enum": ["armoured-car", "armoured-recce"]}, "description": "Vehicle classes of the units whose TOE point may form it (27.13, 27.2b)"},
+                                 "max_in_play": {"type": "integer", "description": "How many raiders of this kind may be in play at once (27.11, 27.2a)"}}},
                 "morale": {"type": "integer", "description": "Only where the sheet gives this unit a morale other than the formation's"},
                 "notes": {"type": "array", "items": {"type": "string"}}
               }

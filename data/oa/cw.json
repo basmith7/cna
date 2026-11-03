@@ -9175,6 +9175,74 @@
      }
     }
    ]
+  },
+  {
+   "id": "desert-raiders",
+   "name": "Long Range Desert Group (desert raiders)",
+   "basic_morale": null,
+   "sources": [
+    "CNA1979:27.11",
+    "CNA1979:27.14",
+    "scan:p37",
+    "scan:p92"
+   ],
+   "notes": [
+    "Not an OA sheet: the two LRDG counters of 27.11, printed on the counter sheet as 'LRDG 1' and 'LRDG 2' (R-147). Raiders have no combat ratings, so no morale applies."
+   ],
+   "units": [
+    {
+     "id": "unit:cw:lrdg-1",
+     "name": "Long Range Desert Group 1",
+     "abbreviation": "LRDG 1",
+     "id_code": null,
+     "parent": null,
+     "fills": [],
+     "toe": [],
+     "arrives": null,
+     "raider": {
+      "kind": "lrdg",
+      "cpa": 50,
+      "moves_as": "recce",
+      "combat_ratings": false,
+      "stacking_points": 0,
+      "breaks_down": false,
+      "formed_from_vehicle": [
+       "armoured-car",
+       "armoured-recce"
+      ],
+      "max_in_play": 2
+     },
+     "notes": [
+      "Not a row of any OA sheet: a 27.1x desert raider, a piece of its own (R-147). Formed in play from one recce or armoured-car TOE point (27.13); a set-up that places it starts it formed."
+     ]
+    },
+    {
+     "id": "unit:cw:lrdg-2",
+     "name": "Long Range Desert Group 2",
+     "abbreviation": "LRDG 2",
+     "id_code": null,
+     "parent": null,
+     "fills": [],
+     "toe": [],
+     "arrives": null,
+     "raider": {
+      "kind": "lrdg",
+      "cpa": 50,
+      "moves_as": "recce",
+      "combat_ratings": false,
+      "stacking_points": 0,
+      "breaks_down": false,
+      "formed_from_vehicle": [
+       "armoured-car",
+       "armoured-recce"
+      ],
+      "max_in_play": 2
+     },
+     "notes": [
+      "Not a row of any OA sheet: a 27.1x desert raider, a piece of its own (R-147). Formed in play from one recce or armoured-car TOE point (27.13); a set-up that places it starts it formed."
+     ]
+    }
+   ]
   }
  ]
 }

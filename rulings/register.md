@@ -121,6 +121,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-144](./R-144.md) | What the Commonwealth learns of a bombed Axis convoy | accepted | 3.61, 3.62, 32.63, 32.64, 32.65, 41.6, 56.16 |
 | [R-145](./R-145.md) | Who knows the numbers when prisoners escape | accepted | 3.62, 28.17, 28.23, 28.24, 28.25 |
 | [R-146](./R-146.md) | The support group in the turn-92 armoured division | accepted | 9.26, 19.2, 19.3 |
+| [R-147](./R-147.md) | Desert raiders are counters of their own; a raider a set-up places starts formed | accepted | 27.11, 27.13, 27.14, 27.2, 61.31 |
 
 ## Variants
 

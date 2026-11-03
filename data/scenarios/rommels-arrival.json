@@ -770,10 +770,14 @@
      "placement": {
       "place": "jalo"
      },
-     "units": [],
+     "units": [
+      {
+       "unit": "unit:cw:lrdg-1"
+      }
+     ],
      "notes": [
       "Printed as Jalo (B0513).",
-      "One Long Range Desert Group unit; the OA sheets print no LRDG counter."
+      "One Long Range Desert Group unit: LRDG 1, placed formed, at no TOE cost (R-147)."
      ]
     },
     {
