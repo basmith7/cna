@@ -358,3 +358,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-11-03 04:52 | 0 | 61→? | none→? | $0.34 | 4 | I did nothing this run because nothing was requested. Feedback is empty, no autopilot PRs are open, and cna-engine's *Requests for cna* still lists only the thr |
 | 2026-11-03 05:52 | 3 | 62→62 | none→none | $0.94 | 24 | cna-engine had one new request this run, and I answered it with ruling **R-150**, merged as PR #285. No other requests or Feedback were waiting, so per the stan |
 | 2026-11-03 06:52 | 0 | 64→64 | none→none | $0.34 | 3 | Nothing to do this run, so I changed nothing. - **Feedback:** the Feedback section in `PROGRESS.md` is empty. - **Open PRs:** there are no open autopilot PRs. - |
+| 2026-11-03 09:52 | 8 | 67→67 | none→none | $2.56 | 58 | I answered cna-engine's one new request, the warship gun and AA ratings, in #286 (merged). The ratings come from the VASSAL module, not a printed counter sheet, |
