@@ -368,3 +368,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-11-03 10:52 | 8 | 68→68 | none→none | $1.80 | 41 | I answered cna-engine's new **captured equipment** request with ruling R-152 (PR #287), and it's merged. That leaves nothing open for cna, so the run stops here |
 | 2026-11-03 11:52 | 0 | 70→70 | none→none | $0.30 | 5 | I did no work this run because nothing new was asked for. - **Feedback:** empty. - **cna-engine requests:** only one is listed, captured equipment. #287 (R-152) |
 | 2026-11-03 13:52 | 8 | 70→71 | none→none | $1.34 | 40 | This run answered cna-engine's one new request, "When the fleet may first sail, as data", and merged it as **#288**. Every Commonwealth `fleet` block in the sce |
+| 2026-11-03 14:52 | 3 | 71→71 | none→none | $1.00 | 26 | I answered cna-engine's one new request (how much ammunition the *San Giorgio* uses) with ruling R-153, merged as PR #289. No requests are left and Feedback is  |
