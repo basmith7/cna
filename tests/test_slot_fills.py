@@ -137,3 +137,16 @@ def test_italian_part_slots_fill_from_one_counter():
     coy = by["unit:it:60th-anti-tank-coy"]
     assert coy["fills_part"] == ["anti-tank-battalion"]
     assert _counted_filled({"components": [{"count": 1, "unit": "anti-tank-battalion", "sp": 1, "counts_for_shell": True}]}, [coy]) == 1
+
+
+def test_motor_brigades_fill_the_type_iv_infantry_brigade_slot():
+    """R-146: from turn 92 the armoured division's infantry brigade is its support group or motor brigade."""
+    by = _units("cw")
+    groups = [u for u in by.values() if u.get("organisation") == "support-group"]
+    assert sorted(u["id"] for u in groups) == ["unit:cw:1-spt-hq", "unit:cw:2-spt", "unit:cw:7-mtr-hq", "unit:cw:7-spt-hq"]
+    (ad4,) = [r for r in ORG["rows"] if r["parent"] == "armoured-division" and r.get("type") == "IV"]
+    for hq in groups:
+        assert "infantry-brigade" in hq["fills"], hq["id"]
+        assert _counted_filled(ad4, [hq]) == 1
+    (sg,) = [r for r in ORG["rows"] if r["parent"] == "support-group" and r["turns"]["from"] == 92]
+    assert sg["ruling"] == "R-146" and sg["components"] == _row("cw", "infantry-brigade")["components"]

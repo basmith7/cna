@@ -66,6 +66,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-015** — 20.72: plan one month ahead, not two, and read the table for the arrival month
 - **E-016** — 20.83: the reference to 20.75 is void; the strength requirement is 20.82's
 - [R-142](../rulings/R-142.md) — a counter fills the slots of its own kind and size
+- [R-146](../rulings/R-146.md) — from turn 92 the support group fills the armoured division's infantry brigade slot
 - [R-130](../rulings/R-130.md) — parents the attachment chart does not name use the nearest row by size and type
 - [R-100](../rulings/R-100.md) — the schedule and an OA sheet sometimes give different arrivals
 
@@ -363,6 +364,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-143](../rulings/R-143.md) | accepted | 3.61, 3.62, 6.21, 12.0, 14.0, 15.29 |
 | [R-144](../rulings/R-144.md) | accepted | 3.61, 3.62, 32.63, 32.64, 32.65, 41.6, 56.16 |
 | [R-145](../rulings/R-145.md) | accepted | 3.62, 28.17, 28.23, 28.24, 28.25 |
+| [R-146](../rulings/R-146.md) | accepted | 9.26, 19.2, 19.3 |
 
 ## Variants register
 

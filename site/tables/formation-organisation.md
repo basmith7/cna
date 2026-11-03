@@ -16,7 +16,7 @@ Used in [Stacking, zones of control and reserve](/rules/50-stacking-and-zoc), [O
 - **Armoured-brigade:** <span class="wrap">CW armoured brigade (2 SP), type I-III by period</span>
 - **Tank-battalion:** tank battalion (1 SP)
 - **Infantry-division:** CW infantry division (5 SP)
-- **Support-group:** <span class="wrap">CW support group (2 SP; the Motor Brigade Group after turn 70), type I-III by period</span>
+- **Support-group:** <span class="wrap">CW support group (2 SP; the Motor Brigade Group after turn 70), type I-III by period; from turn 92 it fills the armoured division's infantry-brigade slot (R-146)</span>
 - **Infantry-brigade-3sp:** <span class="wrap">CW 3 SP infantry brigade, effectively a battle group: 18th Australian, 1st Free French, Polish</span>
 - **Infantry-brigade:** <span class="wrap">CW 2 SP infantry brigade (also the 3rd Indian and 161st Indian Motor Brigade Groups)</span>
 - **Allied-infantry-brigade:** <span class="wrap">CW: 2nd Free French and 1st Greek brigades</span>
@@ -225,6 +225,16 @@ Used in [Stacking, zones of control and reserve](/rules/50-stacking-and-zoc), [O
 |---|---|---|---|
 | 3 | infantry battalion | 1 | yes |
 | 1 | artillery unit | 1 | yes |
+
+### Commonwealth · support group · 2 · R-146
+
+- **Turns:** 92+
+
+#### Components
+
+| Count | Unit | SP | Counts for shell |
+|---|---|---|---|
+| 3 | infantry battalion | 1 | yes |
 
 ### Commonwealth · infantry-brigade-3sp · 3
 
@@ -509,6 +519,7 @@ Used in [Stacking, zones of control and reserve](/rules/50-stacking-and-zoc), [O
 - Transcribed from the archive.org scan (jp2 134, 173, 174) and cross-checked symbol by symbol against the 300 dpi community scans (scan:discord:Commonwealth Charts.pdf:p24, scan:discord:Axis Charts.pdf:p31 and p32): 0 of 14 + 12 + 11 rows differ. Clay Stone's errata-integrated Land rules PDF contains no charts. Two soft spots, both read the same in both scans: the second infantry battalion of the 5th Light's row carries a faint '1'; the Ramcke row's first four battalions are read as ordinary parachute battalions and only the fifth as the heavy-weapons battalion
 - counts_for_shell (R-141): whether the component is one of the 'brigade-equivalents' (in a division, 5 SP) or 'battalions' (in a brigade or regiment, 2-3 SP) that 9.26 counts when judging a shell. A division counts its components of 2 SP or more; a brigade or regiment its components of 1 SP or more; a component of 0 SP or with no figure printed never counts. The Commonwealth armoured brigade type II, which applies in two periods (turns 19-70 and 92 on), is given as two rows
 - Which counters fill which slot (R-142): every counter in data/oa/ lists in fills the units slugs it fills alone, and in fills_part the slugs it fills only with others of its kind; part_slots gives, for those, how many such counters a slot holds (parts) and how many fill it (min): the German artillery group takes any three 1 SP artillery counters, the Italian artillery regiment up to three artillery battalions, the Italian anti-tank battalion up to three anti-tank companies. The Libyan Tank Command's two 3 SP regiments are tank-regiment-3sp
+- Support groups from turn 92 (R-146): the chart prints no support group after turn 91 and the type IV armoured division has an infantry-brigade slot instead. A support-group or motor brigade HQ fills that slot (its fills lists infantry-brigade) and is itself judged by the infantry-brigade row's composition, given as the support-group row for turns 92 on, marked ruling: R-146. It is not a printed row.
 
 ---
 
