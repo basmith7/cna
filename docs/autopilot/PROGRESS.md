@@ -14,6 +14,8 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Addressed
 
+- 2026-11-03 (cna-engine, Requests for cna) when the fleet may first sail, as data → #288 (merged): `first_sail` on every Commonwealth `fleet` block, a `gameTime` before which no warship moves, or `null` where the scenario sets no limit: Graziani's Offensive GT2/1 (60.45), Rommel's Arrival GT27/1 (61.37), Operation Crusader and The Last Chance `null` (62.37, 63.36); the extending campaign scenarios inherit theirs. Adds a field only, in a block `cna-data` does not parse yet.
+
 - 2026-11-03 (cna-engine, Requests for cna) captured equipment (28.3) → R-152 (#287, merged): captured gun, tank and armoured-recce TOE points become the captor's replacement points at once (17.51), no repair and no training; only captured destroyed-tank markers (22.4) and broken-down vehicles (22.2x/22.3x) need §22 repair first. Infantry-type points (heavy weapons included) are prisoners; others give 20.3's first-alternative points (armoured car = two armoured-recce); they start in the capturing unit's hex, any captor unit that may rebuild with the class absorbs them, then they are ordinary TOE points filling no 19.3 slot. No data change.
 
 - 2026-11-03 (cna-engine, Requests for cna) warship ratings for the fleet → #286 (merged): `gun_rating` and `aa_rating` on every `cw-fleet-schedule.json` row (BB 6/12, CA 4/8, CL 3/6, CLAA 2/6, DD 1/2; *Airedale* 1/1, *Bedouin* and *Marne* 1/3), read from the VASSAL counters and queued for a printed check; R-151, the *San Giorgio* fires 2 barrage and 6 AA points, has no vulnerability (land units cannot attack it), puts its full 2 points on a ship, is in Tobruk only in the Game-Turn 1 scenarios and goes when Commonwealth engineers hold Tobruk alone (OA `blockship`).
@@ -64,7 +66,7 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. Today (2026-11-03) it answered seven: captured equipment, R-152 (#287); warship ratings and the *San Giorgio*, R-151 (#286); raider morale, R-150 (#285); the turn-92 motor brigades, R-146 (#281); the desert raider counters, R-147 (#282); raiders under abstract supply, R-148 and R-149 (#283); The Last Chance's armoured rosters (#284). Earlier: R-143–R-145 (#280, 2026-11-02); R-142 (#268, 2026-10-27); the 2026-10-26 batch #247–#267.
+**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. Today (2026-11-03) it answered eight: when the fleet may first sail, `fleet.first_sail` (#288); captured equipment, R-152 (#287); warship ratings and the *San Giorgio*, R-151 (#286); raider morale, R-150 (#285); the turn-92 motor brigades, R-146 (#281); the desert raider counters, R-147 (#282); raiders under abstract supply, R-148 and R-149 (#283); The Last Chance's armoured rosters (#284). Earlier: R-143–R-145 (#280, 2026-11-02); R-142 (#268, 2026-10-27); the 2026-10-26 batch #247–#267.
 
 | Task | What landed | PRs |
 |---|---|---|
@@ -79,7 +81,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-03 18:55 UTC every listed request is answered (latest: #287, captured equipment and R-152; the engine's list still shows that bullet until it bumps `vendor/cna`), and Feedback is empty. Clearing them and bumping `vendor/cna` is cna-engine's move: #282 changes the `cna-data` OA count test (cw 438, de 150, total 1024), #284 adds the unit-entry field `under`, which `cna-data` must accept (about six lines; the PR describes the patch), and #286 adds fields only (schedule `gun_rating`/`aa_rating`, OA `blockship`); #287 is prose only.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-03 21:10 UTC every listed request is answered (latest: #288, `fleet.first_sail`; the engine's list still shows that bullet and #287's captured equipment until it bumps `vendor/cna`), and Feedback is empty. Clearing them and bumping `vendor/cna` is cna-engine's move: #282 changes the `cna-data` OA count test (cw 438, de 150, total 1024), #284 adds the unit-entry field `under`, which `cna-data` must accept (about six lines; the PR describes the patch), and #286 adds fields only (schedule `gun_rating`/`aa_rating`, OA `blockship`); #287 is prose only; #288 adds `fleet.first_sail`, a field only.
 
 For Brian (all optional):
 
