@@ -83,6 +83,21 @@ Construction (§24) spends no ammunition, fuel, stores or water from a
 supply unit and needs none in the hex; builders, stages, weather and
 terrain are as usual ([R-133](../rulings/R-133.md)).
 
+::: ruling R-148 — under abstract supply (§32) desert raiders need no supply calls
+
+A desert raider makes no weekly call at a dump, oasis or well (27.35): it
+draws no ammunition, fuel or water, never waits for them, is never
+eliminated for want of water, and pays no fuel under the costs below
+([R-148](../rulings/R-148.md)).
+
+::: ruling R-149 — under abstract supply (§32) a desert raider may raid a supply unit as a supply dump
+
+A supply unit, real or dummy, is a supply dump for a desert raider's raid
+(27.55, 27.56): a success destroys 10 % of its ammunition and 10 % of its
+fuel, each rounded up, and a raided dummy is revealed and removed. A raider
+is not a combat unit and never captures a supply unit
+([R-149](../rulings/R-149.md)).
+
 ## Supply expenditure
 
 ::: spi 32.21 32.22 32.23 32.24 32.25

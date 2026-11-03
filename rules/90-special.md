@@ -208,6 +208,10 @@ down.
 
 ::: errata E-027 — 27.36: reaction is allowed after any spotting attempt
 
+::: note
+Under abstract supply (§32) a raider makes no supply call: see [R-148](95-abstract-logistics-and-air.md#supply-units).
+:::
+
 ### Spotting
 
 ::: spi 27.41 27.42 27.43 27.44
@@ -246,6 +250,10 @@ movement; the raider may move on afterwards. Targets behind the lines:
   (defender picks the truck type, raider the cargo). Trucks carrying
   replacement points add 1 to the roll and a 6 eliminates the raider; if
   every truck carries replacements the raider dies and no truck is lost.
+
+::: note
+Under abstract supply (§32) a supply unit is a supply dump for these raids: see [R-149](95-abstract-logistics-and-air.md#supply-units).
+:::
 
 ### Raid on Rommel
 

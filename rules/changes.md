@@ -112,6 +112,8 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-128](../rulings/R-128.md) — dummy supply units are counted from real units that arrive, after convoy bombing
 - [R-131](../rulings/R-131.md) — under abstract supply (§32) no supply dumps are built, real or dummy
 - [R-133](../rulings/R-133.md) — under abstract supply (§32) construction spends no supplies
+- [R-148](../rulings/R-148.md) — under abstract supply (§32) desert raiders need no supply calls
+- [R-149](../rulings/R-149.md) — under abstract supply (§32) a desert raider may raid a supply unit as a supply dump
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 - [R-121](../rulings/R-121.md) — a company-equivalent pays half a battalion-equivalent's ammunition, rounded up per side and combat
 - [R-120](../rulings/R-120.md) — a unit that cannot pay its fuel does not move by land; one that cannot pay its ammunition is out of ammunition
@@ -368,6 +370,8 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-145](../rulings/R-145.md) | accepted | 3.62, 28.17, 28.23, 28.24, 28.25 |
 | [R-146](../rulings/R-146.md) | accepted | 9.26, 19.2, 19.3 |
 | [R-147](../rulings/R-147.md) | accepted | 27.11, 27.13, 27.14, 27.2, 61.31 |
+| [R-148](../rulings/R-148.md) | accepted | 27.35, 27.38, 32.0, 32.11 |
+| [R-149](../rulings/R-149.md) | accepted | 27.55, 27.56, 32.11, 32.18 |
 
 ## Variants register
 
