@@ -36,11 +36,15 @@ Starting hexes, attachments and first-line trucks are in
 `sides.cw.deployments`: the 2nd Armoured Division's fragments near Mersa
 Brega, the 9th Australian Division between Benghazi and Tobruk, the 3rd
 Indian Motor Brigade at El Adem, and in Egypt the 7th Armoured Division,
-22nd Guards Brigade, Layforce and the rest. Neither Layforce nor the Long
-Range Desert Group unit placed at Jalo has a counter on the OA sheets; both
-are noted in the data. The 3rd Armoured Brigade's tank battalions start
+22nd Guards Brigade, Layforce and the rest. Layforce has no counter on the
+OA sheets and is noted in the data. The 3rd Armoured Brigade's tank battalions start
 with fewer tanks than their sheets give, some of them captured Italian
 M13/40s (the data's `special` list gives the figures).
+
+::: ruling R-147 — desert raiders are counters of their own; a raider a set-up places starts formed
+
+The Long Range Desert Group unit at Jalo is `unit:cw:lrdg-1`, in play from
+the start: no unit gives up a TOE point for it ([R-147](../../rulings/R-147.md)).
 
 ::: ruling R-103 — 5 RTR's tanks with no 5 RTR in the set-up
 

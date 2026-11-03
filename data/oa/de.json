@@ -3272,6 +3272,46 @@
      }
     }
    ]
+  },
+  {
+   "id": "desert-raiders",
+   "name": "Sonderkommando Almasy (desert raiders)",
+   "basic_morale": null,
+   "sources": [
+    "CNA1979:27.2",
+    "scan:p37"
+   ],
+   "notes": [
+    "Not an OA sheet: the one DSA counter of 27.2 (R-147). Raiders have no combat ratings, so no morale applies."
+   ],
+   "units": [
+    {
+     "id": "unit:de:dsa",
+     "name": "Sonderkommando Almasy",
+     "abbreviation": "DSA",
+     "id_code": null,
+     "parent": null,
+     "fills": [],
+     "toe": [],
+     "arrives": null,
+     "raider": {
+      "kind": "dsa",
+      "cpa": 50,
+      "moves_as": "recce",
+      "combat_ratings": false,
+      "stacking_points": 0,
+      "breaks_down": false,
+      "formed_from_vehicle": [
+       "armoured-car",
+       "armoured-recce"
+      ],
+      "max_in_play": 1
+     },
+     "notes": [
+      "Not a row of any OA sheet: a 27.1x desert raider, a piece of its own (R-147). Formed in play from one recce or armoured-car TOE point (27.13); a set-up that places it starts it formed. German units only (27.2b)."
+     ]
+    }
+   ]
   }
  ]
 }

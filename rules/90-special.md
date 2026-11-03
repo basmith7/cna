@@ -178,6 +178,16 @@ turn 59, stage 3).
 
 ::: errata E-026 — 27.16: re-formed raiders are made as in 27.13; the example's dates are turns 55 and 59
 
+::: ruling R-147 — desert raiders are counters of their own; a raider a set-up places starts formed
+
+The three raider counters are pieces of their own, on no OA sheet:
+`unit:cw:lrdg-1` and `unit:cw:lrdg-2` ("LRDG 1" and "LRDG 2" on the
+counter sheet) and `unit:de:dsa`, each with `raider` values in place of a
+characteristics row. A raider is formed from a unit of its own nation whose
+`vehicle` is `armoured-car` or `armoured-recce`, the DSA from a German one.
+A raider a scenario's set-up places starts formed, and no unit gives up a
+TOE point for it ([R-147](../rulings/R-147.md)).
+
 ### Hidden movement
 
 ::: spi 27.31 27.32 27.33 27.34 27.35 27.36 27.37 27.38
