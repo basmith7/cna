@@ -640,3 +640,9 @@ Done: cna-engine request "raider counters" → R-147: unit:cw:lrdg-1/2, unit:de:
 In flight: this PR awaiting CI, then merge; next PR autopilot/req-raiders-abstract (27.35 and 27.55 under §32).
 Next: merge this PR once CI is green; then the abstract-block raider request.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-11-03 02:01 MST — autopilot/req-raiders-abstract
+Done: R-147 merged (#282). cna-engine request "raiders under the abstract block" → R-148 (no 27.35 calls under §32), R-149 (a supply unit is a dump for 27.55; 10 % of ammo and fuel, rounded up; dummy removed). Commit 0d8e1b9. Gates green locally.
+In flight: this PR awaiting CI, then merge; then PROGRESS.md on main.
+Next: read cna-engine Requests for cna; skip #268, #280, #281, #282 and this PR's two bullets. If nothing new, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
