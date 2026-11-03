@@ -628,3 +628,9 @@ Done: cna-engine request "3.61's per-event details" → #280: R-143 (combat roll
 In flight: #280 awaiting CI, then merge.
 Next: read cna-engine Requests for cna; skip slot-fills (#268) and 3.61 details (#280). If nothing new, stop.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-11-03 00:57 MST — autopilot/req-motor-brigade-slot
+Done: cna-engine request "armoured divisions from turn 92 and their motor brigades" → R-146 (#281): the four CW support-group HQs also fill infantry-brigade; a ruling-marked support-group row for turns 92+ (3 inf bn); schema allows row `ruling`. Commits d11d3c1 + schema fix. All gates green locally and in CI.
+In flight: none.
+Next: read cna-engine Requests for cna; skip slot-fills (#268), 3.61 details (#280), turn-92 motor brigades (#281). If nothing new, stop.
+Blocked: none (copy: Jan 1942 BR20 count printed "B").
