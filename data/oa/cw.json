@@ -184,7 +184,8 @@
      "organisation": "support-group",
      "parent": "unit:cw:7th-armored-div-hq",
      "fills": [
-      "support-group"
+      "support-group",
+      "infantry-brigade"
      ],
      "toe": [],
      "arrives": "deployed",
@@ -202,7 +203,8 @@
      "organisation": "support-group",
      "parent": "unit:cw:7th-armored-div-hq",
      "fills": [
-      "support-group"
+      "support-group",
+      "infantry-brigade"
      ],
      "toe": [],
      "arrives": {
@@ -4640,7 +4642,8 @@
      "organisation": "support-group",
      "parent": "unit:cw:1-armd-div-hq",
      "fills": [
-      "support-group"
+      "support-group",
+      "infantry-brigade"
      ],
      "toe": [],
      "toe_mark": "N",
@@ -4952,7 +4955,8 @@
      "organisation": "support-group",
      "parent": "unit:cw:2-armd-div-hq",
      "fills": [
-      "support-group"
+      "support-group",
+      "infantry-brigade"
      ],
      "toe": [],
      "toe_mark": "N",

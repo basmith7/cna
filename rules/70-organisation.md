@@ -112,6 +112,15 @@ fills one slot at a time. A counter the O/A sheet assigns beyond the chart
 stays assigned but fills no slot, so it never counts toward a shell
 ([R-142](../rulings/R-142.md)).
 
+::: ruling R-146 — from turn 92 the support group fills the armoured division's infantry brigade slot
+
+The Commonwealth armoured division from turn 92 has an infantry brigade
+where it had a support group. A support group or motor brigade HQ fills
+that slot, and from turn 92 it is itself judged as an infantry brigade:
+three infantry battalions. The data gives it a support group row for turns
+92 on, marked as this ruling's and not printed
+([R-146](../rulings/R-146.md)).
+
 ::: spi 19.5
 
 ::: ruling R-130 — parents the attachment chart does not name use the nearest row by size and type

@@ -33,7 +33,8 @@ def test_every_component_unit_is_keyed():
 
 def test_cw_rows():
     t, by = _t()
-    assert sum(r["nation"] == "cw" for r in t["rows"]) == 15  # 14 printed rows, type II armoured brigade in two periods
+    assert sum(r["nation"] == "cw" for r in t["rows"]) == 16  # 14 printed rows, type II armoured brigade in two periods, R-146's support group
+    assert [r for r in t["rows"] if r.get("ruling")] == [r for r in t["rows"] if r["parent"] == "support-group" and "type" not in r]
     ad1 = _row(by, "cw", "armoured-division", "I")
     assert ad1["sp"] == 5 and ad1["turns"] == {"from": 1, "to": 18}
     assert ad1["components"] == [{"count": 2, "unit": "armoured-brigade", "sp": 2, "type": "I"}, {"count": 1, "unit": "support-group", "sp": 2, "type": "I"}]
