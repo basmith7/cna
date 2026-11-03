@@ -652,3 +652,9 @@ Done: cna-engine request "The Last Chance's CW armoured rosters" → #284: 1st, 
 In flight: #284 awaiting CI, then merge; then PROGRESS.md on main.
 Next: read cna-engine Requests for cna; skip #268, #280–#284 bullets. If nothing new, stop.
 Blocked: none (copy: Jan 1942 BR20 count printed "B").
+
+## 2026-11-03 12:58 UTC — autopilot/req-raider-morale
+Done: R-150 (raiders form from any unit at its assigned basic morale; `basic_morale_alt` is the test), #285, gates green.
+In flight: none.
+Next: check Feedback and the engine's Requests for cna; with neither, idle.
+Blocked: none
