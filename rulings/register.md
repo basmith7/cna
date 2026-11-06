@@ -136,6 +136,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-159](./R-159.md) | What Rommel's Arrival's release schedule counts | accepted | 61.38 |
 | [R-160](./R-160.md) | Where Rommel's Arrival's unattached motorisation points start | accepted | 61.72, 59.63, 59.66 |
 | [R-161](./R-161.md) | Whether a player's set-up fortifications are optional | accepted | 63.75, 61.6 |
+| [R-162](./R-162.md) | Whether works placed at set-up obey the construction site rules | accepted | 24.36, 24.44, 61.6, 63.75, 63.76, 63.77 |
 
 ## Variants
 
