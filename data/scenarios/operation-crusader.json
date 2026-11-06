@@ -166,9 +166,15 @@
    "C3531|C3631",
    "C3430|C3531"
   ],
+  "pipeline_hexes_built": [
+   "C3330",
+   "C3229",
+   "C3130",
+   "C3029"
+  ],
   "notes": [
    "No minefields. Every port at full listed efficiency; no Tobruk level is printed, so R-027 is not engaged here.",
-   "A pipeline runs straight from the railhead (C3430) to Bir Khamsa (C3029).",
+   "pipeline_hexes_built runs from the railhead (C3430, itself railroad pipeline) to Bir Khamsa (C3029), one hex per row, following the track through C3229 where the straight line splits between C3229 and C3230 (R-166).",
    "Each fortification row's count is the place's land neighbours on the map: four round Bardia, three round Tobruk (R-158). No player places them, so the rows have no side.",
    "road_hexsides_built is every unfinished-road hexside except the Siwa track's 21 records from Siwa (C0127) to D2001; the track is built from Mersa Matruh through D2001 (62.36's twenty hexes, D3612 to D2001). railroad_hexsides_built is the line from D3615 to the railhead at C3430."
   ]

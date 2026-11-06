@@ -82,7 +82,14 @@ is available. The Axis player plans his replacements for every November
 three round Tobruk.
 
 - The railway runs on past Mersa Matruh to C3430, and a pipeline continues
-  straight from there to Bir Khamsa (C3029).
+  straight from there to Bir Khamsa (C3029): four hexes, C3330, C3229,
+  C3130 and C3029 (`construction.pipeline_hexes_built`).
+
+::: ruling R-166 — the pipeline's middle hex
+
+The straight line splits evenly between C3229 and C3230; the pipeline
+takes C3229, beside the track from the railhead to the bir.
+
 - Every unfinished road is built, except that the Siwa track is finished
   only as far as D2001.
 

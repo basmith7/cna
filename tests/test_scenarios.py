@@ -418,3 +418,43 @@ def test_rommels_arrival_builds_sollum_to_sidi_barrani_and_round_tobruk():
     hexes = {h for p in pairs for h in p}
     assert {"C4021", "C4130", "C4807", "C4507"} <= hexes  # Sollum, by Sidi Barrani, Tobruk, El Adem
     assert all(h.startswith(("C3", "C4")) for h in hexes)
+
+
+def test_crusader_pipeline_runs_from_the_railhead_to_bir_khamsa():
+    import map_geom
+
+    sheets = json.loads((ROOT / "data" / "map" / "sheets.json").read_text())["sheets"]
+    records = _map_records()
+    c = _construction("operation-crusader")
+    chain = [c["railroad_ends"], *c["pipeline_hexes_built"]]
+    assert chain[0] == "C3430" and chain[-1] == "C3029"
+    assert all(map_geom.is_adjacent(a, b, sheets) for a, b in zip(chain, chain[1:]))
+    # straight: no longer than the shortest route; R-166 takes the middle hex the track runs through
+    assert len(chain) - 1 == map_geom.distance("C3430", "C3029", sheets) == 4
+    assert all("track" in records[map_geom.hexside_key(a, b)]["features"] for a, b in zip(chain, chain[1:]))
+    rail_keys = [k for k, r in records.items() if {"railroad", "unfinished-railroad"} & set(r["features"])]
+    rail = {h for p in _joined(rail_keys, records) for h in p}
+    assert not set(c["pipeline_hexes_built"]) & rail  # railroad hexes are pipeline already (52.22)
+
+
+def test_last_chance_railroad_pipeline_splits_at_the_cut():
+    records = _map_records()
+    c = _construction("the-last-chance")
+    src = c["railroad_pipeline_sources"]
+    places = {p["hex"]: p for p in json.loads((ROOT / "data" / "map" / "places.json").read_text())["places"]}
+    assert src == {"axis": ["C4807"], "cw": ["E3613", "E3714"]}
+    assert all(places[h]["kind"] == "major-city" for hs in src.values() for h in hs)
+    line = {k for k, r in records.items() if "railroad" in r["features"]} | set(c["railroad_hexsides_built"])
+    cut = set(c["railroad_destroyed"])
+    pairs = [p for p in _joined(line, records) if not p & cut]
+    reach, todo = set(src["cw"]), list(src["cw"])
+    while todo:
+        h = todo.pop()
+        for p in pairs:
+            if h in p:
+                (o,) = p - {h}
+                if o not in reach:
+                    reach.add(o)
+                    todo.append(o)
+    # El Alamein drinks from Alexandria; Tobruk's stretch of line lies past the cut
+    assert "E3002" in reach and "C4807" not in reach
