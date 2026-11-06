@@ -83,7 +83,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-06 06:53 UTC every listed request is answered (latest: #289, R-153, the *San Giorgio* needs no ammunition; the engine's list still shows that bullet and #288's `fleet.first_sail` until it bumps `vendor/cna`), and Feedback is empty. Clearing them and bumping `vendor/cna` is cna-engine's move: #282 changes the `cna-data` OA count test (cw 438, de 150, total 1024), #284 adds the unit-entry field `under`, which `cna-data` must accept (about six lines; the PR describes the patch), and #286 adds fields only (schedule `gun_rating`/`aa_rating`, OA `blockship`); #287 is prose only; #288 adds `fleet.first_sail`, a field only; #289 is prose only.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-06 07:53 UTC every listed request is answered (latest: #289, R-153, the *San Giorgio* needs no ammunition; the engine's list still shows that bullet and #288's `fleet.first_sail` until it bumps `vendor/cna`), and Feedback is empty. Clearing them and bumping `vendor/cna` is cna-engine's move: #282 changes the `cna-data` OA count test (cw 438, de 150, total 1024), #284 adds the unit-entry field `under`, which `cna-data` must accept (about six lines; the PR describes the patch), and #286 adds fields only (schedule `gun_rating`/`aa_rating`, OA `blockship`); #287 is prose only; #288 adds `fleet.first_sail`, a field only; #289 is prose only.
 
 For Brian (all optional):
 
