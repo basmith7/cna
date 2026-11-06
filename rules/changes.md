@@ -13,6 +13,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Units and state](./10-units-and-state.md)
 
+- [R-164](../rulings/R-164.md) — a combat unit with no TOE points left is a non-combat unit until rebuilt
 - [R-001](../rulings/R-001.md) — the −26 disorganisation threshold is a cohesion level, not a count of disorganisation points
 - [R-024](../rulings/R-024.md) — Morale Modifier Table, cohesion −4: a reading of 56 gives −2
 
@@ -33,6 +34,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-141](../rulings/R-141.md) — a division counts its 2 SP components, a brigade its 1 SP components
 - [R-138](../rulings/R-138.md) — a lone Rommel escapes first, then is captured
+- [R-164](../rulings/R-164.md) — a combat unit with no TOE points left counts as a non-combat unit here
 - [R-118](../rulings/R-118.md) — the retreat is paid from the CP the unit has left; the rest is forfeited
 
 ## [Combat](./60-combat.md)
@@ -405,6 +407,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-161](../rulings/R-161.md) | accepted | 63.75, 61.6 |
 | [R-162](../rulings/R-162.md) | accepted | 24.36, 24.44, 61.6, 63.75, 63.76, 63.77 |
 | [R-163](../rulings/R-163.md) | accepted | 59.5, 49.14, 50.17 |
+| [R-164](../rulings/R-164.md) | accepted | 3.5, 10.11, 10.15, 10.29, 12.22, 19.62, 21.42 |
 | [R-166](../rulings/R-166.md) | accepted | 62.5, 52.24 |
 
 ## Variants register

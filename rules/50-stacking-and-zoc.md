@@ -223,6 +223,12 @@ Rommel is such a unit, but alone in an enemy ZOC he may first react or
 retreat before assault ([Rommel](90-special.md#rommel),
 [R-138](../rulings/R-138.md)).
 
+::: ruling R-164 — a combat unit with no TOE points left counts as a non-combat unit here
+
+So is a combat unit reduced to zero TOE points by breakdown, until it
+absorbs a replacement point; it exerts no ZOC meanwhile
+([units](10-units-and-state.md#unit-characteristics), [R-164](../rulings/R-164.md)).
+
 ### ZOC combat requirement (holding off)
 
 ::: spi 10.31 10.32
