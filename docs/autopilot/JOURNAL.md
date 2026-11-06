@@ -700,3 +700,9 @@ Done: cna-engine request "Rommel's Arrival's unattached motorisation points as h
 In flight: PR awaiting CI, then merge; then PROGRESS.md on main.
 Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line.
 Blocked: none.
+
+## 2026-11-06 16:20 UTC — autopilot/req-logistics-start-holdings (and three siblings)
+Done: four cna-engine requests, one PR each, run in parallel worktrees: Bardia forts optional → R-161 `up_to` on fortification rows (#294); set-up works vs ZOC → R-162 (#295); pipelines → `construction.pipeline_hexes_built` / `railroad_pipeline_sources`, R-166 (#296); Logistics Game start holdings → R-163 (#297; full tanks, one fire a TOE point, no water/stores).
+In flight: none once #297 merges.
+Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line. R-164/R-165 were reserved, not used.
+Blocked: none.
