@@ -1,0 +1,36 @@
+{
+ "id": "M-936",
+ "target": "hexside",
+ "key": "C4411|C4511",
+ "before": {
+  "key": "C4411|C4511",
+  "a": "C4411",
+  "b": "C4511",
+  "side": null,
+  "features": [
+   "ridge"
+  ],
+  "up": null
+ },
+ "patches": [
+  {
+   "op": "replace",
+   "path": "/features",
+   "value": [
+    "ridge",
+    "unfinished-railroad"
+   ]
+  }
+ ],
+ "seen": {
+  "scan": "scan:p189",
+  "crop": [
+   880,
+   1450,
+   200,
+   150
+  ],
+  "note": "the blue unfinished railway with ties runs from C4511 into C4411 and on to C4412; the extractor read only the ridge, so the Matruh-Capuzzo-Tobruk line stopped at C4411 and never reached Tobruk"
+ },
+ "superseded": false
+}

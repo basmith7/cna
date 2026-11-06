@@ -688,3 +688,9 @@ Done: cna-engine requests both merged: CW withdrawals → #291 (55d809f; R-154�
 In flight: none.
 Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line.
 Blocked: none.
+
+## 2026-11-06 12:00 UTC — autopilot/req-roads-built
+Done: cna-engine request "roads and railroads built at set-up" → #292: construction.road_hexsides_built / railroad_hexsides_built / railroad_destroyed for Crusader, Rommel's Arrival, The Last Chance (a3a70b6); map fixes M-934–M-936 make the unfinished rail beyond Matruh one line D3615–C4807 (d079303).
+In flight: none once #292 merges.
+Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line.
+Blocked: none.
