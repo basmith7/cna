@@ -251,6 +251,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-103](../rulings/R-103.md) — 5 RTR's tanks with no 5 RTR in the set-up
 - [R-159](../rulings/R-159.md) — what the release schedule counts
 - [R-136](../rulings/R-136.md) — set-up areas "between" two places and "inside" a triangle
+- [R-161](../rulings/R-161.md) — whether the Tobruk fortifications are optional
 - [R-027](../rulings/R-027.md) — Tobruk's efficiency level
 - [R-160](../rulings/R-160.md) — where the unattached motorisation points start
 - [R-102](../rulings/R-102.md) — motorisation points when only the Logistics Game is left out
@@ -267,6 +268,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-108](../rulings/R-108.md) — the printed start and end Game-Turns
 - [R-158](../rulings/R-158.md) — the hexes next to Tobruk
+- [R-161](../rulings/R-161.md) — whether the Bardia fortifications are optional
 
 ## [Group Five — the campaign game](./scenarios/50-campaign-game.md)
 
@@ -396,6 +398,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-158](../rulings/R-158.md) | accepted | 62.5, 63.75 |
 | [R-159](../rulings/R-159.md) | accepted | 61.38 |
 | [R-160](../rulings/R-160.md) | accepted | 61.72, 59.63, 59.66 |
+| [R-161](../rulings/R-161.md) | accepted | 63.75, 61.6 |
 
 ## Variants register
 
