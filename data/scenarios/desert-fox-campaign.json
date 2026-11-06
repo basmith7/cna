@@ -103,7 +103,29 @@
    "Occupation points (64.73): a place scores only for a combat unit that meets the end-of-game supply test in rules/scenarios/50-campaign-game.md#victory.",
    "Replacement points (64.74): each side scores one point per Replacement Point allotted on its Production Charts and never used. Aircraft and trucks do not count, nor, for the Commonwealth, infantry.",
    "Withdrawal points (64.75, Commonwealth only): see rules/scenarios/50-campaign-game.md#victory.",
-   "Victory level (64.76) is set by the ratio of the larger total to the smaller: equal totals draw; above 1:1 up to 1.5:1 is a Marginal Victory; above 1.5:1 up to 2.5:1 a Decisive Victory; above 2.5:1 a Smashing Victory. These are ratios, not point margins, so 'margins' is not used."
+   "Victory level (64.76): ratios, read top down: the side with more points wins the first level whose over its total divided by the other's exceeds; equal totals (both zero included) are a draw, and any total against zero is the top level. Marginal is recorded as tactical and Smashing as strategic, as in Rommel's Arrival."
+  ],
+  "ratios": [
+   {
+    "over": 2.5,
+    "level": "strategic",
+    "printed": "Smashing Victory"
+   },
+   {
+    "over": 1.5,
+    "level": "decisive",
+    "printed": "Decisive Victory"
+   },
+   {
+    "over": 1,
+    "level": "tactical",
+    "printed": "Marginal Victory"
+   },
+   {
+    "over": 0,
+    "level": "draw",
+    "printed": "Draw"
+   }
   ]
  }
 }

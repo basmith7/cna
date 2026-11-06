@@ -59,7 +59,8 @@
      "constraint": "Commonwealth places them"
     },
     "level": 1,
-    "count": 4
+    "count": 4,
+    "side": "cw"
    }
   ],
   "roads_built": [
@@ -1243,7 +1244,67 @@
     "The 22nd Guards Brigade counts as a single battalion for the release schedule (61.38).",
     "Cairo and Alexandria hold unlimited supply, as the standard rules give (61.36).",
     "First-line trucks not carrying men or equipment may start loaded with fuel, ammo, stores and water, in addition to the listed supply (61.36)."
-   ]
+   ],
+   "broken_down": [
+    {
+     "units": [
+      "unit:cw:7th-armored-div-hq"
+     ],
+     "all_tanks": true,
+     "repair_from": null,
+     "notes": [
+      "61.38: every tank TOE point of the 7th Armoured Division (its OA maximum) starts broken down with its unit, near Alexandria where the division is placed; repair may begin at once."
+     ]
+    }
+   ],
+   "release": {
+    "from": {
+     "place": [
+      "cairo",
+      "alexandria-east",
+      "alexandria-west"
+     ]
+    },
+    "first": {
+     "game_turn": 27,
+     "opstage": 1
+    },
+    "per_opstage": 1,
+    "counts_as_one": [
+     "unit:cw:22-gds"
+    ],
+    "free": [
+     {
+      "unit": "unit:cw:18-aus",
+      "from": {
+       "game_turn": 27,
+       "opstage": 2
+      }
+     }
+    ],
+    "formations": [
+     {
+      "unit": "unit:cw:7th-armored-div-hq",
+      "from": {
+       "game_turn": 27,
+       "opstage": 1
+      },
+      "tank_battalions": {
+       "per_opstage": 1,
+       "min_repaired": 0.75
+      },
+      "other_battalions": {
+       "per_opstage": 1
+      }
+     }
+    ],
+    "notes": [
+     "61.38 by R-159: no unit in a Cairo or Alexandria hex leaves it in the opening OpStage (Game-Turn 26 OpStage 3). From first on, per_opstage battalions a stage may leave; every land counter other than an HQ counts as one, a counts_as_one unit together with everything attached to it counts as one, and HQs leave freely.",
+     "free: the 18th Australian Brigade lands at Alexandria on Game-Turn 27 OpStage 1 and may move from the next stage outside the limit.",
+     "formations: the 7th Armoured Division has its own allowance on top of per_opstage: one tank battalion a stage once at least 75 % of its tank TOE points are repaired, and one other battalion a stage; its HQs leave freely.",
+     "The limit applies to units in Cairo or Alexandria at the start; units arriving later by the schedule move normally (61.38: reinforcements are taken as they arrive)."
+    ]
+   }
   }
  },
  "abstractions": {

@@ -94,6 +94,15 @@ March 1941.
 3. The 18th Australian Brigade lands at Alexandria in the first stage of
    April 1941 and may move from the next stage, outside the limit.
 
+::: ruling R-159 — what the release schedule counts
+
+The limit counts counters: each land counter other than an HQ is one
+battalion, whatever its size, and every HQ leaves freely. The 7th
+Armoured's tank battalion and other battalion a stage are its own
+allowance, on top of the general one. The schedule is data:
+`sides.cw.release`, and the division's broken-down tanks are
+`sides.cw.broken_down`.
+
 ## Axis forces {#axis}
 
 ::: spi 61.4 61.41

@@ -55,10 +55,10 @@
       "of": "C4807",
       "hexes": 1
      },
-     "constraint": "the four hexes next to Tobruk, one each"
+     "constraint": "every land hex next to Tobruk (C4707, C4708, C4806), one level each; 63.75's 'four' is three on the map (R-158)"
     },
     "level": 1,
-    "count": 4
+    "count": 3
    },
    {
     "placement": {
@@ -66,10 +66,11 @@
       "of": "C4321",
       "hexes": 1
      },
-     "constraint": "Axis player picks three of the four hexes next to Bardia"
+     "constraint": "the Axis player picks three of the four land hexes next to Bardia (C4220, C4221, C4320, C4420), one level each"
     },
     "level": 1,
-    "count": 3
+    "count": 3,
+    "side": "axis"
    }
   ],
   "minefields": [
@@ -103,10 +104,98 @@
    "The whole unfinished railroad network, except that the three railroad hexes just west of el Alamein are destroyed."
   ],
   "notes": [
-   "Minefields D3033 through E2302 (first ten listed) are the Commonwealth's; the Commonwealth also places five more on sheet E as he likes. Of his fifteen, ten are real, five dummy.",
-   "D3233 through D2731 (the last fourteen) belong to the Axis: 11 real, 3 dummy. The Axis may add, near Tobruk (within three hexes), at most 5 real and 2 dummy fields, and on sheets A-C beyond five hexes of Tobruk at most 2 real and 2 dummy.",
+   "minefields lists the printed hexes; minefield_sets says whose each is and how many are real and dummy (63.76-63.77).",
    "All minefields start unrevealed.",
    "Pipeline only along railroad hexes; the Axis draws water from Tobruk, the Commonwealth from Alexandria (63.73)."
+  ],
+  "minefield_sets": [
+   {
+    "side": "cw",
+    "hexes": [
+     "D3033",
+     "E3101",
+     "E2901",
+     "E2801",
+     "E2701",
+     "E2702",
+     "E2601",
+     "E2501",
+     "E2401",
+     "E2302"
+    ],
+    "more": {
+     "count": 5,
+     "placement": {
+      "sheets": [
+       "E"
+      ]
+     }
+    },
+    "real": 10,
+    "dummy": 5,
+    "notes": [
+     "63.76: the ten listed hexes plus five more of the owner's choice on sheet E; of the fifteen, ten real and five dummy, the owner choosing which."
+    ]
+   },
+   {
+    "side": "axis",
+    "hexes": [
+     "D3233",
+     "D3133",
+     "D3032",
+     "D2933",
+     "D2833",
+     "D2733",
+     "D2632",
+     "D2633",
+     "D2533",
+     "D2429",
+     "D2433",
+     "D2831",
+     "D2832",
+     "D2731"
+    ],
+    "real": 11,
+    "dummy": 3,
+    "notes": [
+     "63.77: of the fourteen, eleven real and three dummy, the owner choosing which."
+    ]
+   },
+   {
+    "side": "axis",
+    "placement": {
+     "within": {
+      "of": "C4807",
+      "hexes": 3
+     }
+    },
+    "real": 5,
+    "dummy": 2,
+    "up_to": true,
+    "notes": [
+     "63.77: optional, in eligible hexes (where a minefield could be built, 24.3x) within three hexes of Tobruk."
+    ]
+   },
+   {
+    "side": "axis",
+    "placement": {
+     "sheets": [
+      "A",
+      "B",
+      "C"
+     ]
+    },
+    "beyond": {
+     "of": "C4807",
+     "hexes": 5
+    },
+    "real": 2,
+    "dummy": 2,
+    "up_to": true,
+    "notes": [
+     "63.77: optional, in eligible hexes on sheets A to C more than five hexes from Tobruk."
+    ]
+   }
   ]
  },
  "victory": {
@@ -1875,6 +1964,27 @@
     "Under repair at Tobruk: 3 PzIIIH and 1 PzIVD broken down (63.42).",
     "Upgrades (63.48): armoured cars and armoured recce upgrade free; two of Pistoia, Pavia, Bologna, Brescia swap their 75mm heavy AA for 2 TOE of 90mm; 605th SP has 6 TOE of Marder; 3.7cm AT in 15th and 21st Pz become 5cm, and their 5cm (and 90th Light's) become 7.62cm Pak(R); four Italian and two German brigade HQs become ad hoc AT batteries of 4 TOE (Italian AT guns / 2.8cm); Italian divisional 75/18 become 75/27; Littorio and Ariete SP battalions have 4 TOE of Semovente 75/18 each; the 164th's two III/220 battalions get 3 TOE 15cm K18 and 3 TOE 15cm sFH18; 149, 526 and 533 coastal battalions get 3 TOE of 15cm sIG33, 17cm K18 and 21cm Mrs18 respectively.",
     "The 10th Italian Light Flotilla and Raid on Rommel rules are not used (63.5)."
+   ],
+   "broken_down": [
+    {
+     "placement": {
+      "place": "tobruk"
+     },
+     "weapon": "weapon:de:pz-iii-h",
+     "points": 3,
+     "repair_from": null,
+     "notes": [
+      "63.42: broken down in Tobruk's repair facility, assigned to no unit; no date is printed, so repair may begin at once."
+     ]
+    },
+    {
+     "placement": {
+      "place": "tobruk"
+     },
+     "weapon": "weapon:de:pz-iv-d",
+     "points": 1,
+     "repair_from": null
+    }
    ]
   }
  },

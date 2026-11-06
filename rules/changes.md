@@ -249,6 +249,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-104](../rulings/R-104.md) — what the Desert Fox campaign scenario consists of
 - [R-147](../rulings/R-147.md) — desert raiders are counters of their own; a raider a set-up places starts formed
 - [R-103](../rulings/R-103.md) — 5 RTR's tanks with no 5 RTR in the set-up
+- [R-159](../rulings/R-159.md) — what the release schedule counts
 - [R-136](../rulings/R-136.md) — set-up areas "between" two places and "inside" a triangle
 - [R-027](../rulings/R-027.md) — Tobruk's efficiency level
 - [R-102](../rulings/R-102.md) — motorisation points when only the Logistics Game is left out
@@ -259,10 +260,12 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-105](../rulings/R-105.md) — a counter the set-up places twice (the 7th South African armoured cars)
 - [R-107](../rulings/R-107.md) — what an inactive dump is
 - [R-106](../rulings/R-106.md) — tank strengths for two battalions the set-up never places
+- [R-158](../rulings/R-158.md) — the hexes next to Tobruk
 
 ## [Group Four — El Alamein](./scenarios/40-el-alamein.md)
 
 - [R-108](../rulings/R-108.md) — the printed start and end Game-Turns
+- [R-158](../rulings/R-158.md) — the hexes next to Tobruk
 
 ## [Group Five — the campaign game](./scenarios/50-campaign-game.md)
 
@@ -389,6 +392,8 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-155](../rulings/R-155.md) | accepted | 20.83, 20.84 |
 | [R-156](../rulings/R-156.md) | accepted | 20.82, 20.83, 20.85 |
 | [R-157](../rulings/R-157.md) | accepted | 20.83, 20.84 |
+| [R-158](../rulings/R-158.md) | accepted | 62.5, 63.75 |
+| [R-159](../rulings/R-159.md) | accepted | 61.38 |
 
 ## Variants register
 

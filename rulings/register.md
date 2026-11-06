@@ -132,6 +132,8 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-155](./R-155.md) | When a withdrawal is checked | accepted | 20.83, 20.84 |
 | [R-156](./R-156.md) | The 75 % test for a withdrawing brigade or division | accepted | 20.82, 20.83, 20.85 |
 | [R-157](./R-157.md) | The transport that leaves with a withdrawal | accepted | 20.83, 20.84 |
+| [R-158](./R-158.md) | Fortifications in "the hexes adjacent to" Tobruk | accepted | 62.5, 63.75 |
+| [R-159](./R-159.md) | What Rommel's Arrival's release schedule counts | accepted | 61.38 |
 
 ## Variants
 
