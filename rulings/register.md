@@ -128,6 +128,8 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-151](./R-151.md) | The *San Giorgio*'s values, and when it is on the map | accepted | 30.17, 30.35, 30.39 |
 | [R-152](./R-152.md) | Captured guns and tanks become the captor's replacement points at once | accepted | 28.3, 15.86, 17.51, 22.5, 14.5, 21.5 |
 | [R-153](./R-153.md) | The *San Giorgio* needs no ammunition | accepted | 30.17, 30.39 |
+| [R-158](./R-158.md) | Fortifications in "the hexes adjacent to" Tobruk | accepted | 62.5, 63.75 |
+| [R-159](./R-159.md) | What Rommel's Arrival's release schedule counts | accepted | 61.38 |
 
 ## Variants
 

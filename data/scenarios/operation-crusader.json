@@ -56,10 +56,10 @@
       "of": "C4321",
       "hexes": 1
      },
-     "constraint": "every hex next to Bardia"
+     "constraint": "every land hex next to Bardia (C4220, C4221, C4320, C4420)"
     },
     "level": 1,
-    "count": 6
+    "count": 4
    },
    {
     "placement": {
@@ -67,10 +67,10 @@
       "of": "C4807",
       "hexes": 1
      },
-     "constraint": "every hex next to Tobruk"
+     "constraint": "every land hex next to Tobruk (C4707, C4708, C4806)"
     },
     "level": 2,
-    "count": 6
+    "count": 3
    }
   ],
   "roads_built": [
@@ -79,7 +79,7 @@
   "notes": [
    "No minefields. Every port at full listed efficiency; no Tobruk level is printed, so R-027 is not engaged here.",
    "A pipeline runs straight from the railhead (C3430) to Bir Khamsa (C3029).",
-   "Fortification counts assume six neighbours per hex; coastal hexes may have fewer. Our reading."
+   "Each fortification row's count is the place's land neighbours on the map: four round Bardia, three round Tobruk (R-158). No player places them, so the rows have no side."
   ]
  },
  "victory": {
@@ -1916,6 +1916,86 @@
     "42 RTR gains 7 more Matilda TOE points in Game-Turn 58 OpStage 1 if it does not move in the opening OpStage; otherwise in Game-Turn 58 OpStage 2 (62.32).",
     "Broken down in the Alexandria repair shops (62.32): 3 Crusader I, 15 Crusader II, 18 Stuart, 7 Matilda and 8 Valentine TOE points; repair on them cannot begin before the scenario's second OpStage.",
     "The 42 RTR is printed under 1st Army Tank Bde; 1 RTR, 4 RTR and 7 RTR are marked as of the 32nd Army Tank Bde ('32nd Army, Bde 12' read as such)."
+   ],
+   "broken_down": [
+    {
+     "placement": {
+      "hexes": [
+       "E3613",
+       "E3714"
+      ],
+      "constraint": "either Alexandria hex"
+     },
+     "weapon": "weapon:cw:crusader-mk-i",
+     "points": 3,
+     "repair_from": {
+      "game_turn": 58,
+      "opstage": 1
+     },
+     "notes": [
+      "62.32: broken down in the Alexandria repair shops, assigned to no unit; repair may not begin before the scenario's second OpStage (Game-Turn 58 OpStage 1). Printed 'Crusader I', 'Crusader II', 'Stuart', 'Matilda', 'Valentine'; read as the Mk I, Mk II, M3, Mk II and Mk II rows of the Weapon Systems chart."
+     ]
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E3613",
+       "E3714"
+      ],
+      "constraint": "either Alexandria hex"
+     },
+     "weapon": "weapon:cw:crusader-mk-ii",
+     "points": 15,
+     "repair_from": {
+      "game_turn": 58,
+      "opstage": 1
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E3613",
+       "E3714"
+      ],
+      "constraint": "either Alexandria hex"
+     },
+     "weapon": "weapon:cw:stuart-m3",
+     "points": 18,
+     "repair_from": {
+      "game_turn": 58,
+      "opstage": 1
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E3613",
+       "E3714"
+      ],
+      "constraint": "either Alexandria hex"
+     },
+     "weapon": "weapon:cw:matilda-mk-ii",
+     "points": 7,
+     "repair_from": {
+      "game_turn": 58,
+      "opstage": 1
+     }
+    },
+    {
+     "placement": {
+      "hexes": [
+       "E3613",
+       "E3714"
+      ],
+      "constraint": "either Alexandria hex"
+     },
+     "weapon": "weapon:cw:valentine-mk-ii",
+     "points": 8,
+     "repair_from": {
+      "game_turn": 58,
+      "opstage": 1
+     }
+    }
    ]
   }
  },

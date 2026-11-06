@@ -260,3 +260,68 @@ def test_every_commonwealth_fleet_states_when_it_may_first_sail():
         "operation-crusader": None,
         "the-last-chance": None,
     }
+
+
+def _weapon_ids():
+    doc = json.loads((ROOT / "data" / "tables" / "weapon-systems.json").read_text())
+    return {r["id"] for r in doc["rows"]}
+
+
+def test_broken_down_tanks_are_typed_rows():
+    # 62.32's Alexandria shops, 63.42's Tobruk facility and 61.38's whole
+    # 7th Armoured: weapons that exist, and the printed point totals.
+    weapons = _weapon_ids()
+    crusader = load("operation-crusader")["sides"]["cw"]["broken_down"]
+    assert {r["weapon"]: r["points"] for r in crusader} == {
+        "weapon:cw:crusader-mk-i": 3, "weapon:cw:crusader-mk-ii": 15, "weapon:cw:stuart-m3": 18,
+        "weapon:cw:matilda-mk-ii": 7, "weapon:cw:valentine-mk-ii": 8}
+    assert all(r["repair_from"] == {"game_turn": 58, "opstage": 1} for r in crusader)
+    tobruk = load("the-last-chance")["sides"]["axis"]["broken_down"]
+    assert {r["weapon"]: r["points"] for r in tobruk} == {"weapon:de:pz-iii-h": 3, "weapon:de:pz-iv-d": 1}
+    for r in crusader + tobruk:
+        assert r["weapon"] in weapons
+    (seventh,) = load("rommels-arrival")["sides"]["cw"]["broken_down"]
+    assert seventh["units"] == ["unit:cw:7th-armored-div-hq"] and seventh["all_tanks"] is True
+
+
+def test_rommels_arrival_release_schedule():
+    rel = load("rommels-arrival")["sides"]["cw"]["release"]
+    assert rel["first"] == {"game_turn": 27, "opstage": 1} and rel["per_opstage"] == 1
+    assert rel["counts_as_one"] == ["unit:cw:22-gds"]
+    (f,) = rel["formations"]
+    assert f["tank_battalions"] == {"per_opstage": 1, "min_repaired": 0.75}
+
+
+def test_set_up_fortification_counts_match_land_neighbours():
+    # R-158: a row that fills every land hex next to a place counts them;
+    # a row a player places names the side.
+    import sys
+    sys.path.insert(0, str(ROOT / "tools"))
+    import map_geom
+    sheets = json.loads((ROOT / "data" / "map" / "sheets.json").read_text())["sheets"]
+    hexes = {h["id"]: h for h in json.loads((ROOT / "data" / "map" / "hexes.json").read_text())["hexes"]}
+
+    def land(of):
+        return [n for n in map_geom.neighbours(of, sheets) if hexes[n]["terrain"] != "sea"]
+
+    for slug in ("operation-crusader", "the-last-chance", "rommels-arrival"):
+        for row in load(slug)["construction"]["fortifications"]:
+            w = row["placement"]["within"]
+            if "side" not in row:
+                assert w["hexes"] == 1 and row["count"] == len(land(w["of"])), (slug, row)
+            else:
+                assert row["count"] < len(land(w["of"])) or w["hexes"] > 1, (slug, row)
+
+
+def test_last_chance_minefield_sets_cover_the_printed_hexes():
+    c = load("the-last-chance")["construction"]
+    listed = [h for s in c["minefield_sets"] for h in s.get("hexes", [])]
+    assert sorted(listed) == sorted(c["minefields"])
+    fixed = [(s["side"], s["real"], s["dummy"]) for s in c["minefield_sets"] if "hexes" in s]
+    assert fixed == [("cw", 10, 5), ("axis", 11, 3)]
+
+
+def test_campaign_ratio_levels():
+    for slug in ("campaign-game", "desert-fox-campaign", "short-campaign-game"):
+        r = load(slug)["victory"]["ratios"]
+        assert [(x["over"], x["level"]) for x in r] == [(2.5, "strategic"), (1.5, "decisive"), (1, "tactical"), (0, "draw")]
