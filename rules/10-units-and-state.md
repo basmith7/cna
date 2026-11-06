@@ -129,6 +129,19 @@ One strength point stands for roughly 100–200 men, a platoon of 5–8 armoured
 vehicles, or a battery of four guns. Some Commonwealth units reach their
 printed basic morale only after training ([Organisation](70-organisation.md)).
 
+::: ruling R-164 — a combat unit with no TOE points left is a non-combat unit until rebuilt
+
+A combat unit can stand at zero TOE points without being eliminated when
+breakdown took its last vehicles (19.62); Rommel's Arrival starts the 7th
+Armoured's tank battalions so. Until it absorbs a replacement point it is
+treated as a non-combat unit: it exerts no ZOC and its stacking points do
+not count toward a hex's ZOC (they still count against the stacking
+limit), it is not a barrage target, it neither assaults nor holds off, it
+may not voluntarily enter an unoccupied enemy-controlled hex, and alone in
+an enemy ZOC during the enemy's movement or combat phase it is captured
+([Stacking & ZOC](50-stacking-and-zoc.md), SPI 10.29), giving no prisoner
+points. It keeps its formation slot and CPA ([R-164](../rulings/R-164.md)).
+
 The ratings are charts, and data. Per unit type (CPA, ratings and maximum
 TOE by ID code): `data/tables/unit-characteristics.json` (SPI 4.46). Per
 weapon system, the ratings of one TOE strength point of each tank, gun and

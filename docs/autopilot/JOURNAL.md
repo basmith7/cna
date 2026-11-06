@@ -706,3 +706,9 @@ Done: four cna-engine requests, one PR each, run in parallel worktrees: Bardia f
 In flight: none once #297 merges.
 Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line. R-164/R-165 were reserved, not used.
 Blocked: none.
+
+## 2026-11-06 21:10 UTC — autopilot/req-zero-toe
+Done: cna-engine request "A combat unit at 0 TOE" → R-164 (#298): treated as a non-combat unit until it absorbs a replacement point (no ZOC, no barrage target, no assault/holding off, captured under 10.29 alone in enemy ZOC, no prisoner points). R-164 used the number reserved last run; R-165 stays unused.
+In flight: none once #298 merges.
+Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line.
+Blocked: none.
