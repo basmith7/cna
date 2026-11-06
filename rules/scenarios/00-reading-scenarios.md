@@ -147,6 +147,21 @@ Each scenario lists where each side's supplies start and how much there is.
   not share a hex with an air facility.
 - Axis coastal shipping always starts **empty**.
 
+::: ruling R-163 — what units hold at the start of a Logistics Game
+
+Units also start with supplies of their own, free and on top of the lists,
+the same in every scenario:
+
+- **Fuel:** full tanks. Each fuel-using Strength Point holds its fuel
+  capacity ([R-043](../../rulings/R-043.md)); each truck point holds the
+  fuel capacity of its class on the Truck Characteristics Chart.
+- **Ammunition:** one fire. Each TOE Strength Point holds the highest
+  *Logistics Game Played* rate among the actions it can perform (4 with a
+  barrage rating, else 3 with anti-armour, else 2 with anti-air or a class
+  that pays for close assault, else 0).
+- **Water and stores:** none. Load them onto trucks at set-up (above) or
+  draw them from dumps, wells and oases.
+
 ## Without the Air Game or the Logistics Game {#abstractions}
 
 ::: spi 59.6 59.61 59.62
