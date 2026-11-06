@@ -70,10 +70,16 @@ did historically; players may instead roll for it as usual.
 - Pipelines exist only along the railway: the Axis draws water through it
   from Tobruk, the Commonwealth from Alexandria.
 - Ports are at their listed efficiency except Benghazi (1) and Tobruk (5).
-- Level 1 fortifications stand in the four hexes next to Tobruk, and the
+- Level 1 fortifications stand in the hexes next to Tobruk, and the
   Axis player may add three more among the four next to Bardia.
+
+::: ruling R-158 — the hexes next to Tobruk
+
+The printed "four" hexes next to Tobruk are its three land neighbours on
+the map (C4707, C4708, C4806), one level each; the other three are sea.
+
 - **Minefields**, all starting face up (status unknown), at the hexes the
-  data lists (`construction.minefields`): fifteen Commonwealth sites of
+  data lists (`construction.minefields`; `minefield_sets` gives each side's sites and real and dummy counts): fifteen Commonwealth sites of
   which ten are real, the owner choosing which; fourteen Axis sites of
   which eleven are real; and the Axis may also lay up to five real and two
   dummy fields near Tobruk and two real and two dummy elsewhere on maps A

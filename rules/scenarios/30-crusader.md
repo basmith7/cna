@@ -75,6 +75,12 @@ is available. The Axis player plans his replacements for every November
 - No minefields; every port at its listed efficiency.
 - Every hex next to Bardia holds a level 1 fortification, every hex next
   to Tobruk a level 2 one.
+
+::: ruling R-158 — the hexes next to Tobruk
+
+"Every hex next to" a place means its land neighbours: four round Bardia,
+three round Tobruk.
+
 - The railway runs on past Mersa Matruh to C3430, and a pipeline continues
   straight from there to Bir Khamsa (C3029).
 - Every unfinished road is built, except that the Siwa track is finished
