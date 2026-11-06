@@ -69,7 +69,10 @@ did historically; players may instead roll for it as usual.
   the railway is cut in the three hexes just west of El Alamein (E3001,
   E3101 and, across the sheet edge, D3133).
 - Pipelines exist only along the railway: the Axis draws water through it
-  from Tobruk, the Commonwealth from Alexandria.
+  from Tobruk, the Commonwealth from Alexandria
+  (`construction.railroad_pipeline_sources`). With the cut, each side's
+  water reaches only the railway hexes still joined to its own source
+  ([water pipelines](../logistics/30-water.md#pipelines)).
 - Ports are at their listed efficiency except Benghazi (1) and Tobruk (5).
 - Level 1 fortifications stand in the hexes next to Tobruk, and the
   Axis player may add three more among the four next to Bardia.
@@ -78,6 +81,11 @@ did historically; players may instead roll for it as usual.
 
 The printed "four" hexes next to Tobruk are its three land neighbours on
 the map (C4707, C4708, C4806), one level each; the other three are sea.
+
+::: ruling R-161 — whether the Bardia fortifications are optional
+
+The Bardia three are a ceiling: the Axis player places none, one, two or
+three, no more than one level in any of the four hexes.
 
 - **Minefields**, all starting face up (status unknown), at the hexes the
   data lists (`construction.minefields`; `minefield_sets` gives each side's sites and real and dummy counts): fifteen Commonwealth sites of

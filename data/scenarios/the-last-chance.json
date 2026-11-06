@@ -66,11 +66,12 @@
       "of": "C4321",
       "hexes": 1
      },
-     "constraint": "the Axis player picks three of the four land hexes next to Bardia (C4220, C4221, C4320, C4420), one level each"
+     "constraint": "the Axis player may place up to three, at most one level each, among the four land hexes next to Bardia (C4220, C4221, C4320, C4420) (R-161)"
     },
     "level": 1,
     "count": 3,
-    "side": "axis"
+    "side": "axis",
+    "up_to": true
    }
   ],
   "minefields": [
@@ -252,10 +253,19 @@
    "E3101",
    "D3133"
   ],
+  "railroad_pipeline_sources": {
+   "axis": [
+    "C4807"
+   ],
+   "cw": [
+    "E3613",
+    "E3714"
+   ]
+  },
   "notes": [
    "minefields lists the printed hexes; minefield_sets says whose each is and how many are real and dummy (63.76-63.77).",
    "All minefields start unrevealed.",
-   "Pipeline only along railroad hexes; the Axis draws water from Tobruk, the Commonwealth from Alexandria (63.73).",
+   "railroad_pipeline_sources: the only pipeline is the railroad, and both sides use it, the Axis drawing from Tobruk (C4807), the Commonwealth from either Alexandria hex (63.73); each side's water reaches only the railroad hexes still joined along the line to its source (52.25, R-061).",
    "road_hexsides_built is every unfinished-road hexside and railroad_hexsides_built the whole unfinished line from D3615 to Tobruk (C4807). railroad_destroyed is the three railroad hexes next west of El Alamein (E3002) along the line: E3001, E3101 and D3133 across the sheet seam."
   ],
   "minefield_sets": [
