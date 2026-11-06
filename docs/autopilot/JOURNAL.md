@@ -682,3 +682,9 @@ Done: R-153 (#289, d0988b8): the San Giorgio needs no ammunition (30.16/30.22), 
 In flight: none.
 Next: re-read cna-engine's Requests for cna; with none new and Feedback empty, idle.
 Blocked: none.
+
+## 2026-11-06 09:10 UTC — main (req-cw-withdrawals, req-scenario-setup-typed)
+Done: cna-engine requests both merged: CW withdrawals → #291 (55d809f; R-154–R-157, E-035, schedule fields hq_only/less/pick/transport/transport_from); scenario set-up typed data → #290 (33cb620; R-158, R-159). Branches and worktree removed.
+In flight: none.
+Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line.
+Blocked: none.
