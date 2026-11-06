@@ -317,6 +317,10 @@ def test_set_up_fortification_counts_match_land_neighbours():
                 assert w["hexes"] == 1 and row["count"] == len(land(w["of"])), (slug, row)
             else:
                 assert row["count"] < len(land(w["of"])) or w["hexes"] > 1, (slug, row)
+    # R-161: the rows printed as "may place" are maximums; the filled rows are exact.
+    optional = {(slug, row["side"]) for slug in ("operation-crusader", "the-last-chance", "rommels-arrival")
+                for row in load(slug)["construction"]["fortifications"] if row.get("up_to")}
+    assert optional == {("the-last-chance", "axis"), ("rommels-arrival", "cw")}
 
 
 def test_last_chance_minefield_sets_cover_the_printed_hexes():

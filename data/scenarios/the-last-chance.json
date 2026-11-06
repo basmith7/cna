@@ -66,11 +66,12 @@
       "of": "C4321",
       "hexes": 1
      },
-     "constraint": "the Axis player picks three of the four land hexes next to Bardia (C4220, C4221, C4320, C4420), one level each"
+     "constraint": "the Axis player may place up to three, at most one level each, among the four land hexes next to Bardia (C4220, C4221, C4320, C4420) (R-161)"
     },
     "level": 1,
     "count": 3,
-    "side": "axis"
+    "side": "axis",
+    "up_to": true
    }
   ],
   "minefields": [
