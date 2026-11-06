@@ -67,8 +67,35 @@
    "The unfinished road between Sollum (C4021) and Sidi Barrani (C4131).",
    "The whole unfinished road network around Tobruk."
   ],
+  "road_hexsides_built": [
+   "C3822|C3823",
+   "C3822|C3922",
+   "C3823|C3824",
+   "C3824|C3825",
+   "C3825|C3926",
+   "C3922|C4021",
+   "C3926|C3927",
+   "C3927|C4027",
+   "C4027|C4028",
+   "C4028|C4029",
+   "C4029|C4130",
+   "C4506|C4507",
+   "C4506|C4605",
+   "C4507|C4508",
+   "C4507|C4607",
+   "C4508|C4509",
+   "C4509|C4510",
+   "C4510|C4610",
+   "C4605|C4705",
+   "C4607|C4707",
+   "C4704|C4705",
+   "C4704|C4803",
+   "C4707|C4807",
+   "C4803|C4904"
+  ],
   "notes": [
-   "No minefields; no pipeline beyond the railroad's (61.6). Every other port is at full listed efficiency."
+   "No minefields; no pipeline beyond the railroad's (61.6). Every other port is at full listed efficiency.",
+   "road_hexsides_built is the unfinished road from Sollum (C4021) to Sidi Barrani's road (C4130) and the one unfinished network touching Tobruk, out through El Adem to C4610 and C4904."
   ]
  },
  "victory": {

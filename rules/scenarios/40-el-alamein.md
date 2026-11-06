@@ -66,7 +66,8 @@ did historically; players may instead roll for it as usual.
 ::: spi 63.7 63.71 63.72 63.73 63.74 63.75 63.76 63.77
 
 - Every unfinished road and the whole unfinished railway are built, but
-  the railway is cut in the three hexes just west of El Alamein.
+  the railway is cut in the three hexes just west of El Alamein (E3001,
+  E3101 and, across the sheet edge, D3133).
 - Pipelines exist only along the railway: the Axis draws water through it
   from Tobruk, the Commonwealth from Alexandria.
 - Ports are at their listed efficiency except Benghazi (1) and Tobruk (5).

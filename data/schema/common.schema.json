@@ -18,6 +18,8 @@
     "settlement": {"enum": [null, "major-city", "village", "bir", "oasis"]},
     "hexsideFeature": {"enum": ["escarpment", "ridge", "slope", "wadi", "major-river", "minor-river", "road", "unfinished-road", "railroad", "unfinished-railroad", "track", "coast", "lake"]},
     "hexSide": {"enum": ["E", "SE", "SW", "W", "NW", "NE"]},
+    "hexsideId": {"type": "string", "pattern": "^[A-EM][0-9]{4}\\|([A-EM][0-9]{4}|E|SE|SW|W|NW|NE)$",
+                  "description": "A map/hexsides.json key: a|b with the two hex ids sorted, or a|side at a sheet edge"},
     "hexside": {"type": "object", "required": ["a", "b"], "additionalProperties": false,
                 "properties": {"a": {"$ref": "#/$defs/hexId"}, "b": {"$ref": "#/$defs/hexId"}},
                 "description": "Unordered pair; convention a < b (checked by check_data once a table uses it)"},

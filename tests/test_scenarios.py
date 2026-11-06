@@ -325,3 +325,90 @@ def test_campaign_ratio_levels():
     for slug in ("campaign-game", "desert-fox-campaign", "short-campaign-game"):
         r = load(slug)["victory"]["ratios"]
         assert [(x["over"], x["level"]) for x in r] == [(2.5, "strategic"), (1.5, "decisive"), (1, "tactical"), (0, "draw")]
+
+
+def _map_records():
+    hexsides = json.loads((ROOT / "data" / "map" / "hexsides.json").read_text())["hexsides"]
+    return {x["key"]: x for x in hexsides}
+
+
+def _construction(slug):
+    return load(slug)["construction"]
+
+
+def _joined(keys, records):
+    """Hex pairs the listed records join; a seam's two edge records count as one pair via seams.json."""
+    seams = json.loads((ROOT / "data" / "map" / "seams.json").read_text())["seams"]
+    across = {}
+    for s in seams:
+        for p in s["pairs"]:
+            pair = frozenset((p["west"], p["east"]))
+            across[f"{p['west']}|{p['west_side']}"] = pair
+            across[f"{p['east']}|{p['east_side']}"] = pair
+    pairs = set()
+    for k in keys:
+        r = records[k]
+        if r["b"]:
+            pairs.add(frozenset((r["a"], r["b"])))
+        elif k in across:
+            pairs.add(across[k])
+    return pairs
+
+
+def _ends(pairs):
+    degree = {}
+    for p in pairs:
+        for h in p:
+            degree[h] = degree.get(h, 0) + 1
+    return {h for h, d in degree.items() if d == 1}
+
+
+def test_built_roads_and_railroads_are_unfinished_map_records():
+    records = _map_records()
+    for slug in ("operation-crusader", "rommels-arrival", "the-last-chance"):
+        c = _construction(slug)
+        for field, feature in (("road_hexsides_built", "unfinished-road"), ("railroad_hexsides_built", "unfinished-railroad")):
+            for k in c.get(field, []):
+                assert feature in records[k]["features"], (slug, field, k)
+
+
+def test_last_chance_builds_every_unfinished_road_and_railroad():
+    records = _map_records()
+    c = _construction("the-last-chance")
+    assert set(c["road_hexsides_built"]) == {k for k, r in records.items() if "unfinished-road" in r["features"]}
+    assert set(c["railroad_hexsides_built"]) == {k for k, r in records.items() if "unfinished-railroad" in r["features"]}
+    # one unbroken line from beyond Mersa Matruh to Tobruk (M-934 to M-936)
+    assert _ends(_joined(c["railroad_hexsides_built"], records)) == {"D3615", "C4807"}
+
+
+def test_last_chance_cuts_the_railroad_just_west_of_el_alamein():
+    records = _map_records()
+    rail = {k for k, r in records.items() if "railroad" in r["features"]}
+    on_line = _joined(rail, records)
+    cut = _construction("the-last-chance")["railroad_destroyed"]
+    assert len(cut) == 3
+    chain = ["E3002", *cut]  # each hex next along the railroad from El Alamein
+    assert all(frozenset(p) in on_line for p in zip(chain, chain[1:]))
+
+
+def test_crusader_leaves_the_siwa_track_unbuilt_beyond_d2001():
+    records = _map_records()
+    c = _construction("operation-crusader")
+    unbuilt = {k for k, r in records.items() if "unfinished-road" in r["features"]} - set(c["road_hexsides_built"])
+    pairs = _joined(unbuilt, records)
+    assert _ends(pairs) == {"C0127", "D2001"}  # Siwa to D2001, and nothing else left unbuilt
+    assert frozenset(("D2001", "D2002")) in _joined(c["road_hexsides_built"], records)
+
+
+def test_crusader_builds_the_railroad_to_its_railhead():
+    records = _map_records()
+    c = _construction("operation-crusader")
+    assert _ends(_joined(c["railroad_hexsides_built"], records)) == {"D3615", c["railroad_ends"]}
+
+
+def test_rommels_arrival_builds_sollum_to_sidi_barrani_and_round_tobruk():
+    records = _map_records()
+    pairs = _joined(_construction("rommels-arrival")["road_hexsides_built"], records)
+    hexes = {h for p in pairs for h in p}
+    assert {"C4021", "C4130", "C4807", "C4507"} <= hexes  # Sollum, by Sidi Barrani, Tobruk, El Adem
+    assert all(h.startswith(("C3", "C4")) for h in hexes)
