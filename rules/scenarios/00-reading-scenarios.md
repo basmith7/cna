@@ -77,6 +77,19 @@ the formation (`formation`) instead of a unit.
   headquarters), and names a parent formation the way its counter does. The
   data drops both: the OA sheet already says them.
 
+::: ruling R-162 — works placed at the start are not construction
+
+- **Works at the start.** Fortifications and minefields a scenario puts on
+  the map are already built: they cost nothing and need no builders or
+  stages. In hexes the scenario names they stand as printed, whatever is
+  next to them. Where the owner picks the hex (Rommel's Arrival's four
+  fortifications near Tobruk, The Last Chance's Bardia fortifications and
+  its extra minefields), it must be one where that work could be started
+  under [construction](../80-engineering.md#construction): the terrain
+  limits, never a major city, and no enemy ZOC (fortification) or
+  enemy-controlled hex (minefield), judged once both sides have placed
+  their units.
+
 ## Air forces {#air}
 
 ::: spi 59.3 59.31 59.32 59.33 59.34 59.35 59.36

@@ -259,6 +259,12 @@ may happen in enemy ZOC. Nothing else may be built in a hex while a
 fortification is going up. Once built a fortification cannot be removed;
 only bombing and barrage reduce it.
 
+::: ruling R-162 — works placed at the start are not construction
+
+A scenario's starting fortifications and minefields are placed, not built;
+only those whose hex the owner chooses must meet these site rules,
+enemy ZOC included ([reading a scenario](scenarios/00-reading-scenarios.md#set-up)).
+
 ### Roads
 
 ::: spi 24.51 24.52 24.53 24.54 24.55 24.56

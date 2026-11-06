@@ -88,6 +88,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-017](../rulings/R-017.md) — a tank delivery squadron reacts or retreats only with a friendly combat unit
 - [R-133](../rulings/R-133.md) — under abstract supply (§32) construction spends no supplies
 - [R-134](../rulings/R-134.md) — minefields go in clear, sand/gravel or rough hexes (24.35), not the chart's salt marsh
+- [R-162](../rulings/R-162.md) — works placed at the start are not construction
 - [R-018](../rulings/R-018.md) — dump costs follow the charts: real 3 CP + 10 stores, dummy 2 CP
 - [R-131](../rulings/R-131.md) — under abstract supply (§32) no supply dumps are built, real or dummy
 
@@ -227,6 +228,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 ## [Reading a scenario](./scenarios/00-reading-scenarios.md)
 
 - [R-096](../rulings/R-096.md) — the set-up overrides the OA arrival column
+- [R-162](../rulings/R-162.md) — works placed at the start are not construction
 - [V-006](../rulings/V-006.md) — maintenance allowed in the first Operations Stage
 
 ## [Group One — the Italians](./scenarios/10-the-italians.md)
@@ -396,6 +398,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-158](../rulings/R-158.md) | accepted | 62.5, 63.75 |
 | [R-159](../rulings/R-159.md) | accepted | 61.38 |
 | [R-160](../rulings/R-160.md) | accepted | 61.72, 59.63, 59.66 |
+| [R-162](../rulings/R-162.md) | accepted | 24.36, 24.44, 61.6, 63.75, 63.76, 63.77 |
 
 ## Variants register
 
