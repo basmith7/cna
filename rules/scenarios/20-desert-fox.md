@@ -194,6 +194,14 @@ The printed text of these cases points at the truck cases (61.43, 61.35)
 and at a case 61.62 that does not exist; the supply cases (61.44, 61.36)
 and 61.72 are meant.
 
+::: ruling R-160 — where the unattached motorisation points start
+
+61.72 names no hexes for the Axis 290 or the Commonwealth's 90 "other"
+unattached points. They start with the supply units, divided as the owner
+likes: the Axis on the same twenty coast-road hexes, the Commonwealth in
+Benghazi, Tobruk or the dump sites, so that 59.66 B's groups of 30 can
+start carrying them.
+
 ::: ruling R-102 — motorisation points when only the Logistics Game is left out
 
 With the Air Game played and only the Logistics Game left out, starting

@@ -252,6 +252,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-159](../rulings/R-159.md) — what the release schedule counts
 - [R-136](../rulings/R-136.md) — set-up areas "between" two places and "inside" a triangle
 - [R-027](../rulings/R-027.md) — Tobruk's efficiency level
+- [R-160](../rulings/R-160.md) — where the unattached motorisation points start
 - [R-102](../rulings/R-102.md) — motorisation points when only the Logistics Game is left out
 - [R-101](../rulings/R-101.md) — who wins when the Axis player holds Tobruk alone
 
@@ -394,6 +395,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-157](../rulings/R-157.md) | accepted | 20.83, 20.84 |
 | [R-158](../rulings/R-158.md) | accepted | 62.5, 63.75 |
 | [R-159](../rulings/R-159.md) | accepted | 61.38 |
+| [R-160](../rulings/R-160.md) | accepted | 61.72, 59.63, 59.66 |
 
 ## Variants register
 
