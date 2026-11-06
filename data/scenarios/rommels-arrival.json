@@ -1416,10 +1416,31 @@
       "side": "axis",
       "count": 290,
       "placement": {
-       "region": "libya"
+       "hexes": [
+        "A1816",
+        "A1716",
+        "A1715",
+        "A1714",
+        "A1813",
+        "A1913",
+        "A1912",
+        "A1911",
+        "A2010",
+        "A2110",
+        "A2109",
+        "A2208",
+        "A2308",
+        "A2307",
+        "A2406",
+        "A2405",
+        "A2505",
+        "A2604",
+        "A2704",
+        "A2703"
+       ]
       },
       "notes": [
-       "Placement not printed; read as where the Axis second-line trucks start."
+       "Placement not printed. R-160: the owner divides them freely among the hexes its Axis supply units start in, the coast road from El Agheila to Nofilia (61.44 as 61.72 replaces it)."
       ]
      },
      {
@@ -1437,15 +1458,25 @@
       "side": "cw",
       "count": 90,
       "placement": {
-       "sheets": [
-        "A",
-        "B",
-        "C",
-        "D"
+       "hexes": [
+        "A4827",
+        "C4807",
+        "A2021",
+        "A2629",
+        "A3933",
+        "A3729",
+        "B4004",
+        "B5407",
+        "B5504",
+        "B5501",
+        "B5526",
+        "B4921",
+        "B5229",
+        "B5925"
        ]
       },
       "notes": [
-       "Printed as \"other locations\"; read as where the Commonwealth second-line trucks outside Alexandria and Cairo start."
+       "Printed as \"other locations\". R-160: the owner divides them freely among the hexes its Commonwealth supply units start in outside Alexandria and Cairo: Benghazi, Tobruk and the dump sites."
       ]
      }
     ]

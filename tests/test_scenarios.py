@@ -141,6 +141,12 @@ def test_motorisation_is_typed():
         assert ab["logistics"]["motorisation"]["from"] == ["medium", "heavy"], slug
     unattached = load("rommels-arrival")["abstractions"]["air_and_logistics"]["motorisation"]["unattached"]
     assert [(u["side"], u["count"]) for u in unattached] == [("axis", 290), ("cw", 150), ("cw", 90)]
+    # R-160: points with no printed place start where that side's supply units may.
+    supply = load("rommels-arrival")["abstractions"]["air_and_logistics"]["replaces"]
+    axis_road = set(supply["axis"]["supply"][0]["placement"]["hexes"])
+    cw_sites = {h for row in supply["cw"]["supply"] if "hexes" in row["placement"] for h in row["placement"]["hexes"]}
+    assert set(unattached[0]["placement"]["hexes"]) == axis_road
+    assert set(unattached[2]["placement"]["hexes"]) == cw_sites | {"A4827", "C4807"}  # Benghazi, Tobruk
 def _supply_blocks(o):
     if isinstance(o, dict):
         if "kind" in o and "placement" in o:
