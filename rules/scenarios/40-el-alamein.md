@@ -79,6 +79,11 @@ did historically; players may instead roll for it as usual.
 The printed "four" hexes next to Tobruk are its three land neighbours on
 the map (C4707, C4708, C4806), one level each; the other three are sea.
 
+::: ruling R-161 — whether the Bardia fortifications are optional
+
+The Bardia three are a ceiling: the Axis player places none, one, two or
+three, no more than one level in any of the four hexes.
+
 - **Minefields**, all starting face up (status unknown), at the hexes the
   data lists (`construction.minefields`; `minefield_sets` gives each side's sites and real and dummy counts): fifteen Commonwealth sites of
   which ten are real, the owner choosing which; fourteen Axis sites of

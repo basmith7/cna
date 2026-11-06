@@ -56,11 +56,12 @@
       "of": "C4807",
       "hexes": 2
      },
-     "constraint": "Commonwealth places them"
+     "constraint": "Commonwealth places up to four of them (R-161)"
     },
     "level": 1,
     "count": 4,
-    "side": "cw"
+    "side": "cw",
+    "up_to": true
    }
   ],
   "roads_built": [

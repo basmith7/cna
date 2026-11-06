@@ -162,10 +162,14 @@ Game-Turn 28 it is rolled for.
   beyond the railway.
 - Ports are at their listed efficiency except Benghazi, at **0**, and
   Tobruk, still blocked by the *San Giorgio*.
-- Four level 1 fortifications go to the Commonwealth player, placed no more
-  than two hexes from Tobruk.
+- Up to four level 1 fortifications go to the Commonwealth player, placed
+  no more than two hexes from Tobruk.
 - The unfinished roads between Sollum and Sidi Barrani and all those around
   Tobruk are built.
+
+::: ruling R-161 — whether the Tobruk fortifications are optional
+
+The four are a ceiling: the Commonwealth player may place fewer, or none.
 
 ::: ruling R-027 — Tobruk's efficiency level
 
