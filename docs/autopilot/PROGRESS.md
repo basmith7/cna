@@ -14,6 +14,8 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Addressed
 
+- 2026-11-06 (cna-engine, Requests for cna) roads and railroads built at set-up as hex data → #292 (merged): `construction.road_hexsides_built`, `railroad_hexsides_built` and `railroad_destroyed` as `hexsides.json` keys for Operation Crusader (all but the Siwa track west of D2001; railway to the C3430 railhead), Rommel's Arrival (Sollum–Sidi Barrani and the Tobruk–El Adem network) and The Last Chance (everything; railway cut at E3001, E3101, D3133). Map fixes M-934–M-936 make the unfinished railway beyond Matruh one line to Tobruk (the C/D seam drew it finished; C4411|C4511 had lost it). Fields added only.
+
 - 2026-11-06 (cna-engine, Requests for cna) Commonwealth withdrawals as data → #291 (merged). The schedule's own key settles most of it: "HQ" = the HQ counter alone (`hq_only`), "Less" = without (`less`), `Tpt: a/b` = truck value points (L ½, M 1, H 2) / motorisation points under §32 (`transport`), and "Tpt: See …" returns name their withdrawals (`transport_from`). R-154: a named withdrawal takes its OA-sheet tree still in play, minus `less`; GT97/2 is `pick: 3 × infantry-battalion`. R-155: checked once, after the stated OpStage's last phase. R-156: 75 % summed over the units that go; picks tested alone. R-157: missing transport fails the withdrawal like missing strength. E-035 (errata 4.43a) adds the omitted 42nd RTR arrival (28/2) and the 32nd Army Tank Bde withdrawal (64/2) that the 76/2 return refers to: 280 rows with errata applied, so the `cna-data` row-count test changes.
 
 - 2026-11-06 (cna-engine, Requests for cna) scenario set-up rules as typed data → #290 (merged): `broken_down` rows per side (Crusader's Alexandria shops from GT58/1, The Last Chance's Tobruk, Rommel's Arrival's 7th Armoured); `sides.cw.release` for Rommel's Arrival, R-159 (one non-HQ battalion a stage from GT27/1, the 7th Armoured's own allowance on top); R-158, "four hexes next to Tobruk" are its three land neighbours (and Crusader's fort counts corrected to 4 Bardia, 3 Tobruk); `side` on player-placed fortification rows and `construction.minefield_sets` with real/dummy counts (63.77); `victory.ratios` for 64.76 on the three campaign games. Fields added only, none in `deny_unknown_fields` blocks.
@@ -72,7 +74,7 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Status
 
-**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. Today (2026-11-06) it answered two: Commonwealth withdrawals as data, R-154–R-157 and E-035 (#291); scenario set-up rules as typed data, R-158 and R-159 (#290). Earlier: R-146–R-153 and #284/#286/#288 (2026-11-03); R-143–R-145 (#280, 2026-11-02); R-142 (#268, 2026-10-27); the 2026-10-26 batch #247–#267.
+**Rulebook complete** (Mission 7, the Air Game, finished 2026-10-09; §1–65, 1,736 of 1,736 cases). The repo now answers only cna-engine's *Requests for cna* and your Feedback. Today (2026-11-06) it answered three: roads and railroads built at set-up (#292); Commonwealth withdrawals as data, R-154–R-157 and E-035 (#291); scenario set-up rules as typed data, R-158 and R-159 (#290). Earlier: R-146–R-153 and #284/#286/#288 (2026-11-03); R-143–R-145 (#280, 2026-11-02); R-142 (#268, 2026-10-27); the 2026-10-26 batch #247–#267.
 
 | Task | What landed | PRs |
 |---|---|---|
@@ -87,7 +89,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-06 ~10:55 UTC (rechecked; nothing new) both listed requests are answered (#290, #291); the engine's list still shows them until it bumps `vendor/cna`. At that bump: #291's errata E-035 takes the schedule to 280 rows (the `cna-data` count test says 278), and its new row fields (`hq_only`, `less`, `pick`, `transport`, `transport_from`) are ignored until read; #290 adds fields only. Earlier bumps still pending as before (#282 OA counts, #284 `under`).
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-06 ~12:05 UTC all three of today's requests are answered (#290, #291, #292); the engine's list still shows them until it bumps `vendor/cna`. At that bump: #291's errata E-035 takes the schedule to 280 rows (the `cna-data` count test says 278); #292 changes three hexsides' features (rail beyond Matruh now unfinished across the C/D seam and on C4411|C4511), which any engine test pinning rail feature counts will notice; #290 and #292 otherwise add fields only. Earlier bumps still pending as before (#282 OA counts, #284 `under`).
 
 For Brian (all optional):
 
