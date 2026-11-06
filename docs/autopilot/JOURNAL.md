@@ -694,3 +694,9 @@ Done: cna-engine request "roads and railroads built at set-up" → #292: constru
 In flight: none once #292 merges.
 Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line.
 Blocked: none.
+
+## 2026-11-06 14:05 UTC — autopilot/req-motorisation-hexes
+Done: cna-engine request "Rommel's Arrival's unattached motorisation points as hexes" → R-160: Axis 290 on the 20 El Agheila–Nofilia coast-road hexes, CW 90 in Benghazi, Tobruk or the 12 dump sites, divided freely (placement now `hexes`).
+In flight: PR awaiting CI, then merge; then PROGRESS.md on main.
+Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line.
+Blocked: none.
