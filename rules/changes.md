@@ -265,6 +265,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-107](../rulings/R-107.md) — what an inactive dump is
 - [R-106](../rulings/R-106.md) — tank strengths for two battalions the set-up never places
 - [R-158](../rulings/R-158.md) — the hexes next to Tobruk
+- [R-166](../rulings/R-166.md) — the pipeline's middle hex
 
 ## [Group Four — El Alamein](./scenarios/40-el-alamein.md)
 
@@ -402,6 +403,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-160](../rulings/R-160.md) | accepted | 61.72, 59.63, 59.66 |
 | [R-161](../rulings/R-161.md) | accepted | 63.75, 61.6 |
 | [R-162](../rulings/R-162.md) | accepted | 24.36, 24.44, 61.6, 63.75, 63.76, 63.77 |
+| [R-166](../rulings/R-166.md) | accepted | 62.5, 52.24 |
 
 ## Variants register
 

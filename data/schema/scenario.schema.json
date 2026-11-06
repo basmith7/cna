@@ -221,6 +221,12 @@
                                     "description": "Every unfinished-railroad hexside record that starts the scenario as railroad, in order from the built line outward; a seam hexside is both its edge records. Absent: none"},
         "railroad_destroyed": {"type": "array", "uniqueItems": true, "items": {"$ref": "common.schema.json#/$defs/hexId"},
                                "description": "Railroad hexes that start the scenario destroyed (24.6x)"},
+        "pipeline_hexes_built": {"type": "array", "uniqueItems": true, "items": {"$ref": "common.schema.json#/$defs/hexId"},
+                                 "description": "Water pipeline hexes (52.2x) on the map at set-up, in order outward from the source; railroad hexes acting as pipeline are not listed. Absent: none"},
+        "railroad_pipeline_sources": {"type": "object", "additionalProperties": false, "minProperties": 1,
+                                      "properties": {"axis": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "common.schema.json#/$defs/hexId"}},
+                                                     "cw": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "common.schema.json#/$defs/hexId"}}},
+                                      "description": "Sides whose railroad hexes act as pipeline, each with the railroad hexes its water enters from; a side's railroad pipeline is the railroad hexes joined along the line to one of them. Absent: 52.22, every operating railroad hex is Commonwealth pipeline"},
         "notes": {"type": "array", "items": {"type": "string"}}
       }
     },
