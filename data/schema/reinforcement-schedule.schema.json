@@ -69,8 +69,84 @@
               "$ref": "common.schema.json#/$defs/unitId"
             }
           },
+          "hq_only": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/$defs/unitId"
+            },
+            "description": "Units of this row printed 'HQ': the headquarters counter alone, without the units assigned to it"
+          },
+          "less": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/$defs/unitId"
+            },
+            "description": "Printed 'Less': units under the one named that do not go (or come back) with it"
+          },
+          "pick": {
+            "type": "object",
+            "required": [
+              "count",
+              "fills"
+            ],
+            "additionalProperties": false,
+            "description": "Units the Commonwealth player chooses by type to withdraw with the row (20.81, 20.82; R-154)",
+            "properties": {
+              "count": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "fills": {
+                "type": "string",
+                "description": "A Formation Organisation slot kind (an OA counter's `fills`), e.g. infantry-battalion"
+              }
+            }
+          },
           "trucks": {
             "$ref": "common.schema.json#/$defs/trucks"
+          },
+          "transport": {
+            "type": "object",
+            "required": [
+              "truck_value",
+              "motorisation"
+            ],
+            "additionalProperties": false,
+            "description": "Printed 'Tpt: a/b' on a withdrawal: the truck value points (Light 1/2, Medium 1, Heavy 2) that must leave with it in the Logistics Game, and the motorisation points under abstract logistics (§32); R-154",
+            "properties": {
+              "truck_value": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "motorisation": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          },
+          "transport_from": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "game_turn",
+                "opstage"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "game_turn": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 111
+                },
+                "opstage": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 3
+                }
+              }
+            },
+            "description": "On a return printed 'Tpt: See ...': the withdrawals whose transport comes back with it"
           },
           "notes": {
             "type": "array",

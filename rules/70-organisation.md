@@ -450,6 +450,45 @@ never returns, even where the schedule would later bring it back.
 
 ::: errata E-016 — 20.83: the reference to 20.75 is void; the strength requirement is 20.82's
 
+::: ruling R-154 — a named withdrawal takes its OA sheet's units less those printed after "Less"; "HQ" takes the counter alone
+
+**What goes.** A unit named on the schedule takes every unit printed under
+it on its OA sheet that is still in play, wherever it is now assigned or
+attached, except the units the row lists as `less`; a unit marked `hq_only`
+(printed "HQ") goes alone, and a `pick` adds that many units of the named
+slot kind, chosen by the Commonwealth player (Game-Turn 97: the 22nd Guards
+Brigade HQ and any three infantry battalions). Units attached from other
+formations stay behind (ruling [R-154](../rulings/R-154.md)).
+
+::: ruling R-155 — the check is made once, after the stated Operations Stage's last phase
+
+**When.** Each withdrawal is resolved once, at the end of its stated
+Operations Stage: movement during that stage still counts. Until then the
+units are ordinary units (ruling [R-155](../rulings/R-155.md)).
+
+::: ruling R-156 — a formation passes at 75 % of its combined maximum; a unit picked by type is tested alone
+
+**At strength.** A named formation passes when the units that go hold at
+least 75 % of their combined maximum TOE strength points; a unit picked by
+type is tested on its own. A substitute is a unit of the same slot kind, or a
+formation whose HQ has the same organisation row, at 75 % by the same test. A
+withdrawal that fails is eliminated, every unit in it (ruling
+[R-156](../rulings/R-156.md)).
+
+::: ruling R-157 — the printed transport is part of the requirement and returns with the unit
+
+**Transport.** Each withdrawal prints a transport figure (`Tpt: a/b`): truck
+points worth at least *a* (light ½, medium 1, heavy 2) in the Logistics Game,
+or at least *b* motorisation points under abstract logistics, must be in
+Cairo or Alexandria and leave with the unit; without them it fails as if
+under strength. A return printed with "Tpt: See …" brings back exactly what
+left on those withdrawals; other returns bring the trucks they print.
+Returning units come back at their maximum TOE strength, upgraded where
+eligible, unless the schedule says otherwise (ruling
+[R-157](../rulings/R-157.md)).
+
+::: errata E-035 — 4.43a: two entries were left out of the Commonwealth schedule (42nd RTR arrives 28/2; 32nd Army Tank Brigade withdraws 64/2, and returns at 76/2)
+
 ::: spi 20.9
 
 The Commonwealth player may also withdraw small forces **voluntarily** at any
