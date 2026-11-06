@@ -12,7 +12,8 @@
   "A unit named is the counter on its OA sheet together with the units assigned to it there, as in the scenario set-ups (59.2).",
   "The Axis schedule has no entries before Game-Turn 9.",
   "Read twice (archive.org scan; community 300 dpi chart PDFs): Game-Turns 1-6 agree row for row; Game-Turns 7-38 (109 printed entries) and 39-111 (169) agree apart from how a few lists were split and one truck figure (Game-Turn 75 OpStage 3, settled from the scan: 6 heavy).",
-  "A unit that returns after a withdrawal is an 'arrives' row with a note. Withdrawals print a transport figure (Tpt: a/b) in place of a truck breakdown; it is kept in the row's notes.",
+  "A unit that returns after a withdrawal is an 'arrives' row with a note. Withdrawals print a transport figure (Tpt: a/b) in place of a truck breakdown: per the chart's key, the truck value points (Light 1/2, Medium 1, Heavy 2) and, under the abstract logistics block, the motorisation points that must leave with the unit at least. It is `transport` on the row (the printed text stays in its notes). A return that prints 'Tpt: See ...' comes back with the transport that left on the withdrawals named in `transport_from`.",
+  "Per the chart's key, 'HQ' before a name means the headquarters counter only (`hq_only` lists such units), and 'Less' lists units that do not go with the one named (`less`). Both are carried on every withdrawal and return that prints them; first arrivals need neither, since a parent brings only the units whose own OA arrival date has come (4.42).",
   "Rows that bring only trucks or tank points and no counter: Axis trucks at 27/3, 28/2, 31/1 and 38/2 (OpStage/Game-Turn order reversed here: Game-Turn 27 OpStage 3 and so on), and the Commonwealth Tiger convoy at Game-Turn 32 OpStage 3. They are listed in unplaced.",
   "Where the schedule and a unit's OA sheet print different arrivals (the 5th Panzer Regiment group, the 2 MG Bn, the 102nd Anti-tank Regt, the 22nd Armoured Bde HQ, the 78th Field Regt, and the 22nd Guards Brigade whose sheet prints none) the row keeps the schedule's date and says so; both charts were read twice."
  ],
@@ -25,12 +26,12 @@
    "units": [
     "unit:cw:polish-hq"
    ],
+   "notes": [
+    "The whole brigade: a listed HQ stands for its OA sheet."
+   ],
    "sources": [
     "CNA1979:4.43",
     "scan:p113"
-   ],
-   "notes": [
-    "The whole brigade: a listed HQ stands for its OA sheet."
    ]
   },
   {
@@ -82,16 +83,16 @@
    "units": [
     "unit:cw:7-in-hq"
    ],
-   "sources": [
-    "CNA1979:4.43",
-    "scan:p113"
-   ],
    "trucks": {
     "light": 5,
     "medium": 20
    },
    "notes": [
     "Printed '7 in Bde [4 In]': the 7th Indian Brigade with its OA sheet units; no heavy trucks printed."
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
    ]
   },
   {
@@ -102,10 +103,6 @@
    "units": [
     "unit:cw:6-nz-hq"
    ],
-   "sources": [
-    "CNA1979:4.43",
-    "scan:p113"
-   ],
    "trucks": {
     "light": 25,
     "medium": 85,
@@ -113,6 +110,10 @@
    },
    "notes": [
     "The 6th New Zealand Brigade with its OA sheet units."
+   ],
+   "sources": [
+    "CNA1979:4.43",
+    "scan:p113"
    ]
   },
   {
@@ -345,6 +346,10 @@
    "units": [
     "unit:cw:5-in-hq"
    ],
+   "transport": {
+    "truck_value": 10,
+    "motorisation": 10
+   },
    "notes": [
     "Tpt: 10/10"
    ],
@@ -393,6 +398,10 @@
    "units": [
     "unit:cw:7-in-hq"
    ],
+   "transport": {
+    "truck_value": 23,
+    "motorisation": 20
+   },
    "notes": [
     "Tpt: 23/20"
    ],
@@ -446,6 +455,14 @@
    "units": [
     "unit:cw:4-in-hq"
    ],
+   "less": [
+    "unit:cw:5-in-hq",
+    "unit:cw:7-in-hq"
+   ],
+   "transport": {
+    "truck_value": 16,
+    "motorisation": 12
+   },
    "notes": [
     "Tpt: 16/12"
    ],
@@ -539,12 +556,12 @@
     "unit:de:dak-hq",
     "unit:de:rommel"
    ],
+   "notes": [
+    "Rommel (31.0) is not printed here; his counter arrives with the DAK HQ (R-135)."
+   ],
    "sources": [
     "CNA1979:4.43",
     "scan:p144"
-   ],
-   "notes": [
-    "Rommel (31.0) is not printed here; his counter arrives with the DAK HQ (R-135)."
    ]
   },
   {
@@ -783,6 +800,10 @@
    "units": [
     "unit:cw:1-armd-bde-hq"
    ],
+   "transport": {
+    "truck_value": 40,
+    "motorisation": 30
+   },
    "notes": [
     "Tpt: 40/30"
    ],
@@ -859,6 +880,10 @@
    "units": [
     "unit:cw:4-nz-hq"
    ],
+   "transport": {
+    "truck_value": 10,
+    "motorisation": 10
+   },
    "notes": [
     "Tpt: 10/10"
    ],
@@ -908,6 +933,16 @@
    "units": [
     "unit:cw:2-nz-hq"
    ],
+   "less": [
+    "unit:cw:4-nz-hq",
+    "unit:cw:5-nz-hq",
+    "unit:cw:4-nz-fld",
+    "unit:cw:6-nz-fld"
+   ],
+   "transport": {
+    "truck_value": 25,
+    "motorisation": 15
+   },
    "notes": [
     "Tpt: 25/15"
    ],
@@ -958,6 +993,10 @@
    "units": [
     "unit:cw:16-aus-hq"
    ],
+   "transport": {
+    "truck_value": 20,
+    "motorisation": 20
+   },
    "notes": [
     "Tpt: 20/20"
    ],
@@ -1034,6 +1073,14 @@
    "units": [
     "unit:cw:6-aus-hq"
    ],
+   "less": [
+    "unit:cw:16-aus-hq",
+    "unit:cw:17-aus-hq"
+   ],
+   "transport": {
+    "truck_value": 78,
+    "motorisation": 50
+   },
    "notes": [
     "Tpt: 78/50"
    ],
@@ -1094,6 +1141,10 @@
    "units": [
     "unit:cw:17-aus-hq"
    ],
+   "transport": {
+    "truck_value": 20,
+    "motorisation": 20
+   },
    "notes": [
     "Tpt: 20/20"
    ],
@@ -1109,6 +1160,10 @@
    "kind": "arrives",
    "units": [
     "unit:cw:4-in-hq"
+   ],
+   "less": [
+    "unit:cw:7-in-hq",
+    "unit:cw:11-in-hq"
    ],
    "trucks": {
     "light": 30,
@@ -1347,7 +1402,8 @@
    },
    "notes": [
     "returns after withdrawal",
-    "Trucks come with the 6th NZ Brigade."
+    "Trucks come with the 6th NZ Brigade.",
+    "Its three infantry battalions return with 2 TOE strength points each."
    ],
    "sources": [
     "CNA1979:4.43",
@@ -1361,6 +1417,12 @@
    "kind": "arrives",
    "units": [
     "unit:cw:1-armd-bde-hq"
+   ],
+   "transport_from": [
+    {
+     "game_turn": 23,
+     "opstage": 3
+    }
    ],
    "notes": [
     "returns after withdrawal",
@@ -1588,9 +1650,20 @@
    "units": [
     "unit:cw:2-nz-hq"
    ],
+   "transport_from": [
+    {
+     "game_turn": 25,
+     "opstage": 1
+    },
+    {
+     "game_turn": 25,
+     "opstage": 2
+    }
+   ],
    "notes": [
     "returns after withdrawal",
-    "Tpt: as it left on Game-Turn 25 OpStages 1 and 2"
+    "Tpt: as it left on Game-Turn 25 OpStages 1 and 2",
+    "The rest of the 2nd NZ Division returns; its seven infantry-type units have 2 TOE strength points each."
    ],
    "sources": [
     "CNA1979:4.43",
@@ -1649,6 +1722,10 @@
    "units": [
     "unit:cw:5-in-hq"
    ],
+   "transport": {
+    "truck_value": 32,
+    "motorisation": 30
+   },
    "notes": [
     "Tpt: 32/30"
    ],
@@ -1715,6 +1792,13 @@
     "unit:cw:70th-infantry-div-hq",
     "unit:cw:16th-infantry-bde-hq"
    ],
+   "hq_only": [
+    "unit:cw:70th-infantry-div-hq"
+   ],
+   "transport": {
+    "truck_value": 20,
+    "motorisation": 20
+   },
    "notes": [
     "Tpt: 20/20"
    ],
@@ -1803,6 +1887,10 @@
     "unit:cw:1-essex",
     "unit:cw:1-dur-lt"
    ],
+   "transport": {
+    "truck_value": 15,
+    "motorisation": 15
+   },
    "notes": [
     "Tpt: 15/15"
    ],
@@ -1875,6 +1963,10 @@
    "units": [
     "unit:cw:14th-infantry-bde-hq"
    ],
+   "transport": {
+    "truck_value": 20,
+    "motorisation": 20
+   },
    "notes": [
     "Tpt: 20/20"
    ],
@@ -2043,6 +2135,10 @@
    "units": [
     "unit:cw:150-inf-bde-hq"
    ],
+   "transport": {
+    "truck_value": 38,
+    "motorisation": 32
+   },
    "notes": [
     "Tpt: 38/32"
    ],
@@ -2143,6 +2239,10 @@
    "units": [
     "unit:cw:18-aus"
    ],
+   "transport": {
+    "truck_value": 56,
+    "motorisation": 40
+   },
    "notes": [
     "Tpt: 56/40"
    ],
@@ -2159,6 +2259,14 @@
    "units": [
     "unit:cw:5-indian-div-hq"
    ],
+   "less": [
+    "unit:cw:10-in-hq",
+    "unit:cw:29-in-hq"
+   ],
+   "transport": {
+    "truck_value": 27,
+    "motorisation": 20
+   },
    "notes": [
     "Tpt: 27/20"
    ],
@@ -2216,6 +2324,14 @@
    "units": [
     "unit:cw:9-aus"
    ],
+   "less": [
+    "unit:cw:20-aus",
+    "unit:cw:26-aus"
+   ],
+   "transport": {
+    "truck_value": 67,
+    "motorisation": 47
+   },
    "notes": [
     "Tpt: 67/47"
    ],
@@ -2259,6 +2375,10 @@
    "units": [
     "unit:cw:10-in-hq"
    ],
+   "transport": {
+    "truck_value": 39,
+    "motorisation": 30
+   },
    "notes": [
     "Tpt: 39/30"
    ],
@@ -2287,6 +2407,12 @@
    "kind": "arrives",
    "units": [
     "unit:cw:16th-infantry-bde-hq"
+   ],
+   "transport_from": [
+    {
+     "game_turn": 36,
+     "opstage": 3
+    }
    ],
    "notes": [
     "returns after withdrawal",
@@ -2388,6 +2514,12 @@
     "unit:cw:1-essex",
     "unit:cw:1-dur-lt"
    ],
+   "transport_from": [
+    {
+     "game_turn": 38,
+     "opstage": 2
+    }
+   ],
    "notes": [
     "returns after withdrawal",
     "Tpt: as it left on Game-Turn 38 OpStage 2"
@@ -2457,6 +2589,10 @@
    "units": [
     "unit:cw:26-aus"
    ],
+   "transport": {
+    "truck_value": 33,
+    "motorisation": 21
+   },
    "notes": [
     "Tpt: 33/21"
    ],
@@ -2472,6 +2608,12 @@
    "kind": "arrives",
    "units": [
     "unit:cw:14th-infantry-bde-hq"
+   ],
+   "transport_from": [
+    {
+     "game_turn": 40,
+     "opstage": 1
+    }
    ],
    "notes": [
     "returns after withdrawal",
@@ -2490,6 +2632,10 @@
    "units": [
     "unit:cw:20-aus"
    ],
+   "transport": {
+    "truck_value": 33,
+    "motorisation": 21
+   },
    "notes": [
     "Tpt: 33/21"
    ],
@@ -2629,6 +2775,12 @@
    "kind": "arrives",
    "units": [
     "unit:cw:150-inf-bde-hq"
+   ],
+   "transport_from": [
+    {
+     "game_turn": 44,
+     "opstage": 2
+    }
    ],
    "notes": [
     "returns after withdrawal",
@@ -2817,6 +2969,10 @@
    "units": [
     "unit:cw:polish-hq"
    ],
+   "transport": {
+    "truck_value": 25,
+    "motorisation": 20
+   },
    "notes": [
     "Tpt: 25/20"
    ],
@@ -2937,6 +3093,13 @@
    "units": [
     "unit:cw:7th-armored-bde-hq"
    ],
+   "hq_only": [
+    "unit:cw:7th-armored-bde-hq"
+   ],
+   "transport": {
+    "truck_value": 3,
+    "motorisation": 2
+   },
    "notes": [
     "Tpt: 3/2"
    ],
@@ -3081,6 +3244,13 @@
    "units": [
     "unit:cw:70th-infantry-div-hq"
    ],
+   "less": [
+    "unit:cw:16th-infantry-bde-hq"
+   ],
+   "transport": {
+    "truck_value": 50,
+    "motorisation": 40
+   },
    "notes": [
     "Tpt: 50/40"
    ],
@@ -3156,6 +3326,10 @@
    "units": [
     "unit:cw:2-nz-hq"
    ],
+   "transport": {
+    "truck_value": 107,
+    "motorisation": 90
+   },
    "notes": [
     "Tpt: 107/90"
    ],
@@ -3194,6 +3368,10 @@
    "units": [
     "unit:cw:16th-infantry-bde-hq"
    ],
+   "transport": {
+    "truck_value": 20,
+    "motorisation": 20
+   },
    "notes": [
     "Tpt: 20/20"
    ],
@@ -3267,6 +3445,10 @@
    "units": [
     "unit:cw:7-in-hq"
    ],
+   "transport": {
+    "truck_value": 22,
+    "motorisation": 20
+   },
    "notes": [
     "Tpt: 22/20"
    ],
@@ -3308,6 +3490,9 @@
     "unit:cw:5-indian-div-hq",
     "unit:cw:9-in-hq",
     "unit:cw:144-fld"
+   ],
+   "hq_only": [
+    "unit:cw:5-indian-div-hq"
    ],
    "trucks": {
     "light": 10,
@@ -3606,6 +3791,12 @@
    "units": [
     "unit:cw:2-nz-hq"
    ],
+   "transport_from": [
+    {
+     "game_turn": 72,
+     "opstage": 2
+    }
+   ],
    "notes": [
     "returns after withdrawal",
     "Tpt: as it left on Game-Turn 72 OpStage 2"
@@ -3659,6 +3850,20 @@
    "kind": "arrives",
    "units": [
     "unit:cw:9-aus"
+   ],
+   "transport_from": [
+    {
+     "game_turn": 49,
+     "opstage": 2
+    },
+    {
+     "game_turn": 53,
+     "opstage": 2
+    },
+    {
+     "game_turn": 54,
+     "opstage": 2
+    }
    ],
    "notes": [
     "returns after withdrawal",
@@ -3741,6 +3946,10 @@
    "units": [
     "unit:cw:3-in"
    ],
+   "transport": {
+    "truck_value": 30,
+    "motorisation": 25
+   },
    "notes": [
     "Tpt: 30/25"
    ],
@@ -4076,6 +4285,10 @@
     "unit:cw:42-rtr",
     "unit:cw:44-rtr"
    ],
+   "transport": {
+    "truck_value": 22,
+    "motorisation": 18
+   },
    "notes": [
     "Tpt: 22/18"
    ],
@@ -4295,8 +4508,18 @@
    "units": [
     "unit:cw:22-gds"
    ],
+   "hq_only": [
+    "unit:cw:22-gds"
+   ],
+   "pick": {
+    "count": 3,
+    "fills": "infantry-battalion"
+   },
+   "transport": {
+    "truck_value": 26,
+    "motorisation": 21
+   },
    "notes": [
-    "with any three infantry battalions",
     "Tpt: 26/21"
    ],
    "sources": [
@@ -4358,7 +4581,8 @@
     "heavy": 0
    },
    "notes": [
-    "returns after withdrawal"
+    "returns after withdrawal",
+    "Each returns with 10 TOE strength points of Scorpion mine-clearing tanks."
    ],
    "sources": [
     "CNA1979:4.43",
@@ -4391,6 +4615,10 @@
    "units": [
     "unit:cw:9-in-hq"
    ],
+   "transport": {
+    "truck_value": 40,
+    "motorisation": 30
+   },
    "notes": [
     "Tpt: 40/30"
    ],
@@ -4407,6 +4635,10 @@
    "units": [
     "unit:cw:9-aus"
    ],
+   "transport": {
+    "truck_value": 125,
+    "motorisation": 90
+   },
    "notes": [
     "Tpt: 125/90"
    ],
@@ -4423,6 +4655,13 @@
    "units": [
     "unit:cw:10-armd-div-hq"
    ],
+   "hq_only": [
+    "unit:cw:10-armd-div-hq"
+   ],
+   "transport": {
+    "truck_value": 7,
+    "motorisation": 3
+   },
    "notes": [
     "Tpt: 7/3"
    ],
@@ -4439,6 +4678,10 @@
    "units": [
     "unit:cw:9-armd-bde-hq"
    ],
+   "transport": {
+    "truck_value": 33,
+    "motorisation": 26
+   },
    "notes": [
     "Tpt: 33/26"
    ],

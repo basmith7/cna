@@ -65,10 +65,15 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-014** — 20.66 note: M 11/39, not 13/39
 - **E-015** — 20.72: plan one month ahead, not two, and read the table for the arrival month
 - **E-016** — 20.83: the reference to 20.75 is void; the strength requirement is 20.82's
+- **E-035** — 4.43a: two entries were left out of the Commonwealth schedule (42nd RTR arrives 28/2; 32nd Army Tank Brigade withdraws 64/2, and returns at 76/2)
 - [R-142](../rulings/R-142.md) — a counter fills the slots of its own kind and size
 - [R-146](../rulings/R-146.md) — from turn 92 the support group fills the armoured division's infantry brigade slot
 - [R-130](../rulings/R-130.md) — parents the attachment chart does not name use the nearest row by size and type
 - [R-100](../rulings/R-100.md) — the schedule and an OA sheet sometimes give different arrivals
+- [R-154](../rulings/R-154.md) — a named withdrawal takes its OA sheet's units less those printed after "Less"; "HQ" takes the counter alone
+- [R-155](../rulings/R-155.md) — the check is made once, after the stated Operations Stage's last phase
+- [R-156](../rulings/R-156.md) — a formation passes at 75 % of its combined maximum; a unit picked by type is tested alone
+- [R-157](../rulings/R-157.md) — the printed transport is part of the requirement and returns with the unit
 
 ## [Engineering](./80-engineering.md)
 
@@ -383,6 +388,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-151](../rulings/R-151.md) | accepted | 30.17, 30.35, 30.39 |
 | [R-152](../rulings/R-152.md) | accepted | 28.3, 15.86, 17.51, 22.5, 14.5, 21.5 |
 | [R-153](../rulings/R-153.md) | accepted | 30.17, 30.39 |
+| [R-154](../rulings/R-154.md) | accepted | 20.81, 20.83, 20.84 |
+| [R-155](../rulings/R-155.md) | accepted | 20.83, 20.84 |
+| [R-156](../rulings/R-156.md) | accepted | 20.82, 20.83, 20.85 |
+| [R-157](../rulings/R-157.md) | accepted | 20.83, 20.84 |
 | [R-158](../rulings/R-158.md) | accepted | 62.5, 63.75 |
 | [R-159](../rulings/R-159.md) | accepted | 61.38 |
 

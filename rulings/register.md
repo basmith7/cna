@@ -128,6 +128,10 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-151](./R-151.md) | The *San Giorgio*'s values, and when it is on the map | accepted | 30.17, 30.35, 30.39 |
 | [R-152](./R-152.md) | Captured guns and tanks become the captor's replacement points at once | accepted | 28.3, 15.86, 17.51, 22.5, 14.5, 21.5 |
 | [R-153](./R-153.md) | The *San Giorgio* needs no ammunition | accepted | 30.17, 30.39 |
+| [R-154](./R-154.md) | What leaves with a named withdrawal | accepted | 20.81, 20.83, 20.84 |
+| [R-155](./R-155.md) | When a withdrawal is checked | accepted | 20.83, 20.84 |
+| [R-156](./R-156.md) | The 75 % test for a withdrawing brigade or division | accepted | 20.82, 20.83, 20.85 |
+| [R-157](./R-157.md) | The transport that leaves with a withdrawal | accepted | 20.83, 20.84 |
 | [R-158](./R-158.md) | Fortifications in "the hexes adjacent to" Tobruk | accepted | 62.5, 63.75 |
 | [R-159](./R-159.md) | What Rommel's Arrival's release schedule counts | accepted | 61.38 |
 

@@ -1,0 +1,79 @@
+{
+  "id": "E-035",
+  "table": "reinforcement-schedule",
+  "affects": [
+    "4.43"
+  ],
+  "sources": [
+    "CNA1979:4.43"
+  ],
+  "summary": "4.43a, Commonwealth schedule: two entries were left out, the 42nd RTR arriving at Game-Turn 28 OpStage 2 with 4 medium trucks, and the 32nd Army Tank Brigade withdrawing at Game-Turn 64 OpStage 2 (Tpt 20/15); the 76/2 return's reference to 2/68 means that 64/2 withdrawal",
+  "patches": [
+    {
+      "op": "replace",
+      "path": "/rows/206/notes",
+      "value": [
+        "returns after withdrawal",
+        "Tpt: as it left on Game-Turn 64 OpStage 2"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/rows/206/transport_from",
+      "value": [
+        {
+          "game_turn": 64,
+          "opstage": 2
+        }
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/rows/176",
+      "value": {
+        "side": "cw",
+        "game_turn": 64,
+        "opstage": 2,
+        "kind": "withdraws",
+        "units": [
+          "unit:cw:32-army-tank-bde-hq"
+        ],
+        "transport": {
+          "truck_value": 20,
+          "motorisation": 15
+        },
+        "notes": [
+          "Tpt: 20/15",
+          "Added by the 1979 errata (4.43a); printed 'Bde(2)', of the 2nd Armoured Division."
+        ],
+        "sources": [
+          "CNA1979:4.43"
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/rows/67",
+      "value": {
+        "side": "cw",
+        "game_turn": 28,
+        "opstage": 2,
+        "kind": "arrives",
+        "units": [
+          "unit:cw:42-rtr"
+        ],
+        "trucks": {
+          "light": 0,
+          "medium": 4,
+          "heavy": 0
+        },
+        "notes": [
+          "Added by the 1979 errata (4.43a); printed '42d RTR (1 Army)'."
+        ],
+        "sources": [
+          "CNA1979:4.43"
+        ]
+      }
+    }
+  ]
+}
