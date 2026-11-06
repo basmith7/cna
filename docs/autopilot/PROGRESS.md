@@ -87,7 +87,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-06 ~09:55 UTC (rechecked; nothing new) both listed requests are answered (#290, #291); the engine's list still shows them until it bumps `vendor/cna`. At that bump: #291's errata E-035 takes the schedule to 280 rows (the `cna-data` count test says 278), and its new row fields (`hq_only`, `less`, `pick`, `transport`, `transport_from`) are ignored until read; #290 adds fields only. Earlier bumps still pending as before (#282 OA counts, #284 `under`).
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-06 ~10:55 UTC (rechecked; nothing new) both listed requests are answered (#290, #291); the engine's list still shows them until it bumps `vendor/cna`. At that bump: #291's errata E-035 takes the schedule to 280 rows (the `cna-data` count test says 278), and its new row fields (`hq_only`, `less`, `pick`, `transport`, `transport_from`) are ignored until read; #290 adds fields only. Earlier bumps still pending as before (#282 OA counts, #284 `under`).
 
 For Brian (all optional):
 
