@@ -227,6 +227,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 ## [Reading a scenario](./scenarios/00-reading-scenarios.md)
 
 - [R-096](../rulings/R-096.md) — the set-up overrides the OA arrival column
+- [R-163](../rulings/R-163.md) — what units hold at the start of a Logistics Game
 - [V-006](../rulings/V-006.md) — maintenance allowed in the first Operations Stage
 
 ## [Group One — the Italians](./scenarios/10-the-italians.md)
@@ -396,6 +397,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-158](../rulings/R-158.md) | accepted | 62.5, 63.75 |
 | [R-159](../rulings/R-159.md) | accepted | 61.38 |
 | [R-160](../rulings/R-160.md) | accepted | 61.72, 59.63, 59.66 |
+| [R-163](../rulings/R-163.md) | accepted | 59.5, 49.14, 50.17 |
 
 ## Variants register
 
