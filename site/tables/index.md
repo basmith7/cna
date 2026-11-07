@@ -97,6 +97,7 @@ For developers: the same values are JSON in `data/tables/`; see the [data conven
 | [Maneuver adjustment](/tables/maneuver-adjustment) | [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak) |
 | [Pilot arrival](/tables/pilot-arrival) | [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus) |
 | [Pilot plane recovery](/tables/pilot-plane-recovery) | [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak) |
+| [Printed flak](/tables/printed-flak) | [Air Game — bombing](/rules/air/60-bombing) |
 | [Scramble](/tables/scramble) | [Air Game — fighters](/rules/air/50-fighters) |
 | [Strafing](/tables/strafing) | [Air Game — fighters](/rules/air/50-fighters) |
 | [TacAir kill](/tables/tacair-kill) | [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak) |

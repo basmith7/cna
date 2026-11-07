@@ -211,6 +211,10 @@
   "title": "Port capacity",
   "group": "Logistics Game"
  },
+ "printed-flak": {
+  "title": "Printed flak",
+  "group": "Air Game"
+ },
  "prisoners-captured": {
   "title": "Prisoners captured",
   "group": "Land Game"

@@ -200,6 +200,12 @@ Every
 squadron that tries to refit, successful or not, spends **one stores
 point**, which must be at hand. Refitting is never compulsory.
 
+::: ruling R-174 — refit and repair costs with the Air Game and abstract logistics
+
+With [abstract logistics](90-abstract-logistics.md#upkeep-refits-and-repairs)
+(§47) a refit spends no stores; the SGSU must instead be able to draw
+supplies under 47.11–47.13 ([R-174](../../rulings/R-174.md)).
+
 *Our example.* A Commonwealth SGSU works on six Hurricanes of its own
 squadron and three captured Italian fighters from elsewhere. That is two
 rolls: one for the six with no addition, one for the three at +3 (another
