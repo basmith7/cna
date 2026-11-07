@@ -661,26 +661,31 @@
     "planes": [
      {
       "type": "C.R. 42",
+      "aircraft_id": "aircraft:it:c-r-42-falco",
       "available": 61,
       "refitted": 27
      },
      {
       "type": "G. 50",
+      "aircraft_id": "aircraft:it:g-50-freccia",
       "available": 62,
       "refitted": 33
      },
      {
       "type": "B.R. 20",
+      "aircraft_id": "aircraft:it:b-r-20-cicogna",
       "available": 1,
       "refitted": 0
      },
      {
       "type": "SM 79",
+      "aircraft_id": "aircraft:it:s-m-79-sparviero",
       "available": 30,
       "refitted": 14
      },
      {
       "type": "Z 1007bis",
+      "aircraft_id": "aircraft:it:cant-z-1007bis-alcione",
       "available": 1,
       "refitted": 1
      }
@@ -1347,30 +1352,35 @@
       {
        "place": "benina",
        "type": "Hurricane I",
+       "aircraft_id": "aircraft:cw:hurricane-mk-i",
        "available": 15
       },
       {
        "hex": "A2629",
        "name": "Agedabia",
        "type": "Lysander",
+       "aircraft_id": "aircraft:cw:lysander-mk-i",
        "available": 3
       },
       {
        "hex": "B5410",
        "name": "Maraua",
        "type": "Blenheim IV",
+       "aircraft_id": "aircraft:cw:blenheim-mk-iv",
        "available": 15
       },
       {
        "hex": "B5504",
        "name": "Barce",
        "type": "Lysander",
+       "aircraft_id": "aircraft:cw:lysander-mk-i",
        "available": 9
       },
       {
        "hex": "C4907",
        "name": "Tobruk",
        "type": "Hurricane I",
+       "aircraft_id": "aircraft:cw:hurricane-mk-i",
        "available": 16,
        "notes": [
         "Printed C 4907; Tobruk is C4807 everywhere else."
@@ -1392,22 +1402,27 @@
      "planes": [
       {
        "type": "Hurricane I",
+       "aircraft_id": "aircraft:cw:hurricane-mk-i",
        "count": 24
       },
       {
        "type": "Wellington I",
+       "aircraft_id": "aircraft:cw:wellington-mk-i",
        "count": 12
       },
       {
        "type": "Swordfish",
+       "aircraft_id": "aircraft:cw:swordfish-mk-i",
        "count": 10
       },
       {
        "type": "Sunderland",
+       "aircraft_id": "aircraft:cw:sunderland",
        "count": 5
       },
       {
        "type": "Maryland",
+       "aircraft_id": "aircraft:cw:167-maryland",
        "count": 4
       }
      ],

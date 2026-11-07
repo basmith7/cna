@@ -23,9 +23,9 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| italian | 12 | Ba65 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| italian | 12 | Ba65 | aircraft:it:ba-65 |
 
 ### Oct (GT 3...6)
 
@@ -33,9 +33,9 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| italian | 12 | Ba65 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| italian | 12 | Ba65 | aircraft:it:ba-65 |
 
 ### Nov (GT 7...10)
 
@@ -43,9 +43,9 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| italian | 16 | CR42 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| italian | 16 | CR42 | aircraft:it:c-r-42-falco |
 
 ### Dec (GT 11...14)
 
@@ -53,14 +53,14 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| italian | 40 | CR42 |
-| italian | 24 | G50 |
-| italian | 24 | Ba65 |
-| italian | 3 | Z501 |
-| italian | 2 | Ro37bis |
-| italian | 53 | SM79 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| italian | 40 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 24 | G50 | aircraft:it:g-50-freccia |
+| italian | 24 | Ba65 | aircraft:it:ba-65 |
+| italian | 3 | Z501 | aircraft:it:cant-z-501-gabbiano |
+| italian | 2 | Ro37bis | aircraft:it:ro-37bis |
+| italian | 53 | SM79 | aircraft:it:s-m-79-sparviero |
 
 ### Jan, 1941 (GT 15...18)
 
@@ -68,12 +68,12 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| italian | 36 | CR42 |
-| italian | 12 | G50 |
-| italian | 12 | Ba65 |
-| italian | 12 | SM79 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| italian | 36 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 12 | G50 | aircraft:it:g-50-freccia |
+| italian | 12 | Ba65 | aircraft:it:ba-65 |
+| italian | 12 | SM79 | aircraft:it:s-m-79-sparviero |
 
 ### Feb (GT 19...22)
 
@@ -81,18 +81,18 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| german | 30 | Bf110 |
-| german | 15 | FW200C |
-| german | 30 | Ju87B |
-| german | 36 | Ju88D |
-| italian | 12 | CR42 |
-| italian | 24 | G50 |
-| italian | 6 | Ba65 |
-| italian | 6 | Z501 |
-| italian | 6 | Z1007 |
-| italian | 12 | Ro37bis |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| german | 30 | Bf110 | aircraft:de:bf-110 |
+| german | 15 | FW200C | aircraft:de:fw-200-c |
+| german | 30 | Ju87B | aircraft:de:ju-87b |
+| german | 36 | Ju88D | aircraft:de:ju-88d |
+| italian | 12 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 24 | G50 | aircraft:it:g-50-freccia |
+| italian | 6 | Ba65 | aircraft:it:ba-65 |
+| italian | 6 | Z501 | aircraft:it:cant-z-501-gabbiano |
+| italian | 6 | Z1007 | aircraft:it:cant-z-1007bis-alcione |
+| italian | 12 | Ro37bis | aircraft:it:ro-37bis |
 
 ### Mar (GT 23...26)
 
@@ -100,18 +100,18 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| german | 32 | Bf110 |
-| german | 12 | Hs126 |
-| german | 15 | Ju87B |
-| italian | 36 | CR42 |
-| italian | 36 | G50 |
-| italian | 12 | Ba65 |
-| italian | 12 | BR20 |
-| italian | 6 | Z501 |
-| italian | 6 | Z1007 |
-| italian | 12 | SM79 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| german | 32 | Bf110 | aircraft:de:bf-110 |
+| german | 12 | Hs126 | aircraft:de:hs-126 |
+| german | 15 | Ju87B | aircraft:de:ju-87b |
+| italian | 36 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 36 | G50 | aircraft:it:g-50-freccia |
+| italian | 12 | Ba65 | aircraft:it:ba-65 |
+| italian | 12 | BR20 | aircraft:it:b-r-20-cicogna |
+| italian | 6 | Z501 | aircraft:it:cant-z-501-gabbiano |
+| italian | 6 | Z1007 | aircraft:it:cant-z-1007bis-alcione |
+| italian | 12 | SM79 | aircraft:it:s-m-79-sparviero |
 
 ### Apr (GT 27...30)
 
@@ -119,20 +119,20 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| german | 46 | Bf109E |
-| german | 12 | Bf110 |
-| german | 12 | Ju52 |
-| german | 15 | Ju87B |
-| german | 12 | Ju88D |
-| italian | 6 | CR42 |
-| italian | 6 | C200 |
-| italian | 24 | G50 |
-| italian | 6 | Ba65 |
-| italian | 12 | BR20 |
-| italian | 12 | Ro37bis |
-| italian | 18 | SM79 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| german | 46 | Bf109E | aircraft:de:bf-109e |
+| german | 12 | Bf110 | aircraft:de:bf-110 |
+| german | 12 | Ju52 | aircraft:de:ju-52-3m |
+| german | 15 | Ju87B | aircraft:de:ju-87b |
+| german | 12 | Ju88D | aircraft:de:ju-88d |
+| italian | 6 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 6 | C200 | aircraft:it:c-200-saetta |
+| italian | 24 | G50 | aircraft:it:g-50-freccia |
+| italian | 6 | Ba65 | aircraft:it:ba-65 |
+| italian | 12 | BR20 | aircraft:it:b-r-20-cicogna |
+| italian | 12 | Ro37bis | aircraft:it:ro-37bis |
+| italian | 18 | SM79 | aircraft:it:s-m-79-sparviero |
 
 ### May (GT 31...34)
 
@@ -140,24 +140,24 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| german | 42 | Bf109E |
-| german | 18 | Bf110 |
-| german | 15 | He111 |
-| german | 15 | Ju52 |
-| german | 24 | Ju87B |
-| german | 15 | Ju88D |
-| italian | 12 | CR42 |
-| italian | 12 | CR42AS |
-| italian | 12 | C200 |
-| italian | 6 | Ba65 |
-| italian | 12 | BR20 |
-| italian | 18 | Ca311 |
-| italian | 6 | Z501 |
-| italian | 12 | Ro37bis |
-| italian | 12 | SM79 |
-| italian | 12 | SM81 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| german | 42 | Bf109E | aircraft:de:bf-109e |
+| german | 18 | Bf110 | aircraft:de:bf-110 |
+| german | 15 | He111 | aircraft:de:he-111 |
+| german | 15 | Ju52 | aircraft:de:ju-52-3m |
+| german | 24 | Ju87B | aircraft:de:ju-87b |
+| german | 15 | Ju88D | aircraft:de:ju-88d |
+| italian | 12 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 12 | CR42AS | aircraft:it:c-r-42as-falco |
+| italian | 12 | C200 | aircraft:it:c-200-saetta |
+| italian | 6 | Ba65 | aircraft:it:ba-65 |
+| italian | 12 | BR20 | aircraft:it:b-r-20-cicogna |
+| italian | 18 | Ca311 | aircraft:it:ca-311 |
+| italian | 6 | Z501 | aircraft:it:cant-z-501-gabbiano |
+| italian | 12 | Ro37bis | aircraft:it:ro-37bis |
+| italian | 12 | SM79 | aircraft:it:s-m-79-sparviero |
+| italian | 12 | SM81 | aircraft:it:s-m-81-pipistrello |
 
 ### Jun (GT 35...38)
 
@@ -165,19 +165,19 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft | Mark |
-|---|---|---|---|
-| german | 36 | Bf109E | — |
-| german | 15 | He111 | — |
-| german | 12 | Ju87B | — |
-| german | 15 | Ju88D | — |
-| italian | 12 | CR42 | — |
-| italian | 30 | C200 | — |
-| italian | 24 | G50 | — |
-| italian | 6 | BR20 | — |
-| italian | 12 | Ca311 | — |
-| italian | 6 | Z501 | — |
-| italian | 24 | SM79 | \* |
+| Nation | Count | Aircraft | Aircraft Id | Mark |
+|---|---|---|---|---|
+| german | 36 | Bf109E | aircraft:de:bf-109e | — |
+| german | 15 | He111 | aircraft:de:he-111 | — |
+| german | 12 | Ju87B | aircraft:de:ju-87b | — |
+| german | 15 | Ju88D | aircraft:de:ju-88d | — |
+| italian | 12 | CR42 | aircraft:it:c-r-42-falco | — |
+| italian | 30 | C200 | aircraft:it:c-200-saetta | — |
+| italian | 24 | G50 | aircraft:it:g-50-freccia | — |
+| italian | 6 | BR20 | aircraft:it:b-r-20-cicogna | — |
+| italian | 12 | Ca311 | aircraft:it:ca-311 | — |
+| italian | 6 | Z501 | aircraft:it:cant-z-501-gabbiano | — |
+| italian | 24 | SM79 | aircraft:it:s-m-79-sparviero | \* |
 
 ### Jul (GT 39...42)
 
@@ -185,19 +185,19 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| german | 40 | Bf109E |
-| german | 15 | Bf109F |
-| german | 6 | Bf110 |
-| german | 15 | Ju52 |
-| italian | 24 | CR42 |
-| italian | 48 | C200 |
-| italian | 6 | G50 |
-| italian | 12 | Ba65 |
-| italian | 12 | BR20 |
-| italian | 6 | Ca311 |
-| italian | 12 | SM79 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| german | 40 | Bf109E | aircraft:de:bf-109e |
+| german | 15 | Bf109F | aircraft:de:bf-109f |
+| german | 6 | Bf110 | aircraft:de:bf-110 |
+| german | 15 | Ju52 | aircraft:de:ju-52-3m |
+| italian | 24 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 48 | C200 | aircraft:it:c-200-saetta |
+| italian | 6 | G50 | aircraft:it:g-50-freccia |
+| italian | 12 | Ba65 | aircraft:it:ba-65 |
+| italian | 12 | BR20 | aircraft:it:b-r-20-cicogna |
+| italian | 6 | Ca311 | aircraft:it:ca-311 |
+| italian | 12 | SM79 | aircraft:it:s-m-79-sparviero |
 
 ### Aug (GT 43...46)
 
@@ -205,19 +205,19 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft | Mark |
-|---|---|---|---|
-| german | 38 | Bf109E | — |
-| german | 18 | Bf109F | — |
-| german | 15 | Bf110 | — |
-| german | 24 | Ju87B | — |
-| german | 18 | Ju88D | — |
-| italian | 12 | CR42 | — |
-| italian | 24 | C200 | — |
-| italian | 12 | G50 | — |
-| italian | 24 | BR20 | — |
-| italian | 12 | Ca311 | — |
-| italian | 18 | SM79 | \* |
+| Nation | Count | Aircraft | Aircraft Id | Mark |
+|---|---|---|---|---|
+| german | 38 | Bf109E | aircraft:de:bf-109e | — |
+| german | 18 | Bf109F | aircraft:de:bf-109f | — |
+| german | 15 | Bf110 | aircraft:de:bf-110 | — |
+| german | 24 | Ju87B | aircraft:de:ju-87b | — |
+| german | 18 | Ju88D | aircraft:de:ju-88d | — |
+| italian | 12 | CR42 | aircraft:it:c-r-42-falco | — |
+| italian | 24 | C200 | aircraft:it:c-200-saetta | — |
+| italian | 12 | G50 | aircraft:it:g-50-freccia | — |
+| italian | 24 | BR20 | aircraft:it:b-r-20-cicogna | — |
+| italian | 12 | Ca311 | aircraft:it:ca-311 | — |
+| italian | 18 | SM79 | aircraft:it:s-m-79-sparviero | \* |
 
 ### Sept (GT 47...50)
 
@@ -225,23 +225,23 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| german | 42 | Bf109E |
-| german | 32 | Bf109F |
-| german | 28 | Bf110 |
-| german | 12 | FW200C |
-| german | 18 | He111 |
-| german | 10 | Ju87B |
-| german | 12 | Ju87D |
-| german | 30 | Ju88D |
-| italian | 36 | CR42 |
-| italian | 6 | CR42AS |
-| italian | 24 | C200 |
-| italian | 24 | G50 |
-| italian | 12 | BR20 |
-| italian | 12 | Ca311 |
-| italian | 12 | SM79 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| german | 42 | Bf109E | aircraft:de:bf-109e |
+| german | 32 | Bf109F | aircraft:de:bf-109f |
+| german | 28 | Bf110 | aircraft:de:bf-110 |
+| german | 12 | FW200C | aircraft:de:fw-200-c |
+| german | 18 | He111 | aircraft:de:he-111 |
+| german | 10 | Ju87B | aircraft:de:ju-87b |
+| german | 12 | Ju87D | aircraft:de:ju-87d |
+| german | 30 | Ju88D | aircraft:de:ju-88d |
+| italian | 36 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 6 | CR42AS | aircraft:it:c-r-42as-falco |
+| italian | 24 | C200 | aircraft:it:c-200-saetta |
+| italian | 24 | G50 | aircraft:it:g-50-freccia |
+| italian | 12 | BR20 | aircraft:it:b-r-20-cicogna |
+| italian | 12 | Ca311 | aircraft:it:ca-311 |
+| italian | 12 | SM79 | aircraft:it:s-m-79-sparviero |
 
 ### Oct (GT 51...54)
 
@@ -249,23 +249,23 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| german | 56 | Bf109E |
-| german | 42 | Bf109F |
-| german | 28 | Bf110 |
-| german | 12 | Arado196 |
-| german | 12 | He111 |
-| german | 18 | Ju52 |
-| german | 12 | Ju87D |
-| german | 18 | Ju88D |
-| italian | 24 | CR42 |
-| italian | 12 | C200 |
-| italian | 6 | G50 |
-| italian | 12 | Re2001 |
-| italian | 12 | BR20 |
-| italian | 6 | SM79 |
-| italian | 6 | SM81 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| german | 56 | Bf109E | aircraft:de:bf-109e |
+| german | 42 | Bf109F | aircraft:de:bf-109f |
+| german | 28 | Bf110 | aircraft:de:bf-110 |
+| german | 12 | Arado196 | aircraft:de:ar-196 |
+| german | 12 | He111 | aircraft:de:he-111 |
+| german | 18 | Ju52 | aircraft:de:ju-52-3m |
+| german | 12 | Ju87D | aircraft:de:ju-87d |
+| german | 18 | Ju88D | aircraft:de:ju-88d |
+| italian | 24 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 12 | C200 | aircraft:it:c-200-saetta |
+| italian | 6 | G50 | aircraft:it:g-50-freccia |
+| italian | 12 | Re2001 | aircraft:it:re-2001-falco-ii |
+| italian | 12 | BR20 | aircraft:it:b-r-20-cicogna |
+| italian | 6 | SM79 | aircraft:it:s-m-79-sparviero |
+| italian | 6 | SM81 | aircraft:it:s-m-81-pipistrello |
 
 ### Nov (GT 55...58)
 
@@ -273,24 +273,24 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft | Mark |
-|---|---|---|---|
-| german | 50 | Bf109E | — |
-| german | 30 | Bf109F | — |
-| german | 6 | Bf110 | — |
-| german | 15 | Ju88C | — |
-| german | 12 | Ju52 | — |
-| german | 18 | Ju87D | — |
-| german | 18 | Ju88D | — |
-| italian | 12 | CR42 | — |
-| italian | 6 | CR42AS | — |
-| italian | 18 | C200 | — |
-| italian | 60 | C202 | — |
-| italian | 6 | G50 | — |
-| italian | 24 | Re2001 | — |
-| italian | 12 | BR20 | — |
-| italian | 6 | Ca311 | — |
-| italian | 36 | SM79 | † |
+| Nation | Count | Aircraft | Aircraft Id | Mark |
+|---|---|---|---|---|
+| german | 50 | Bf109E | aircraft:de:bf-109e | — |
+| german | 30 | Bf109F | aircraft:de:bf-109f | — |
+| german | 6 | Bf110 | aircraft:de:bf-110 | — |
+| german | 15 | Ju88C | aircraft:de:ju-88c | — |
+| german | 12 | Ju52 | aircraft:de:ju-52-3m | — |
+| german | 18 | Ju87D | aircraft:de:ju-87d | — |
+| german | 18 | Ju88D | aircraft:de:ju-88d | — |
+| italian | 12 | CR42 | aircraft:it:c-r-42-falco | — |
+| italian | 6 | CR42AS | aircraft:it:c-r-42as-falco | — |
+| italian | 18 | C200 | aircraft:it:c-200-saetta | — |
+| italian | 60 | C202 | aircraft:it:c-202-folgore | — |
+| italian | 6 | G50 | aircraft:it:g-50-freccia | — |
+| italian | 24 | Re2001 | aircraft:it:re-2001-falco-ii | — |
+| italian | 12 | BR20 | aircraft:it:b-r-20-cicogna | — |
+| italian | 6 | Ca311 | aircraft:it:ca-311 | — |
+| italian | 36 | SM79 | aircraft:it:s-m-79-sparviero | † |
 
 ### Dec (GT 59...62)
 
@@ -298,20 +298,20 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| german | 18 | Bf109E |
-| german | 38 | Bf109F |
-| german | 15 | Bf110 |
-| german | 30 | Ju87D |
-| german | 6 | Ju88D |
-| italian | 36 | CR42 |
-| italian | 48 | C200 |
-| italian | 60 | C202 |
-| italian | 6 | Re2001 |
-| italian | 18 | BR20 |
-| italian | 12 | Z506B |
-| italian | 12 | SM79 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| german | 18 | Bf109E | aircraft:de:bf-109e |
+| german | 38 | Bf109F | aircraft:de:bf-109f |
+| german | 15 | Bf110 | aircraft:de:bf-110 |
+| german | 30 | Ju87D | aircraft:de:ju-87d |
+| german | 6 | Ju88D | aircraft:de:ju-88d |
+| italian | 36 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 48 | C200 | aircraft:it:c-200-saetta |
+| italian | 60 | C202 | aircraft:it:c-202-folgore |
+| italian | 6 | Re2001 | aircraft:it:re-2001-falco-ii |
+| italian | 18 | BR20 | aircraft:it:b-r-20-cicogna |
+| italian | 12 | Z506B | aircraft:it:cant-z-506b-airone-35 |
+| italian | 12 | SM79 | aircraft:it:s-m-79-sparviero |
 
 ### Jan, 1942 (GT 63...66)
 
@@ -319,21 +319,21 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft | Count as printed |
-|---|---|---|---|
-| german | 12 | Bf109E | — |
-| german | 48 | Bf109F | — |
-| german | 15 | Bf110 | — |
-| german | 15 | Ju88C | — |
-| german | 6 | He111 | — |
-| german | 12 | Ju52 | — |
-| german | 15 | Ju87D | — |
-| german | 6 | Ju88D | — |
-| italian | 12 | CR42 | — |
-| italian | 40 | C200 | — |
-| italian | 18 | Re2001 | — |
-| italian | — | BR20 | B |
-| italian | 12 | SM79 | — |
+| Nation | Count | Aircraft | Aircraft Id | Count as printed |
+|---|---|---|---|---|
+| german | 12 | Bf109E | aircraft:de:bf-109e | — |
+| german | 48 | Bf109F | aircraft:de:bf-109f | — |
+| german | 15 | Bf110 | aircraft:de:bf-110 | — |
+| german | 15 | Ju88C | aircraft:de:ju-88c | — |
+| german | 6 | He111 | aircraft:de:he-111 | — |
+| german | 12 | Ju52 | aircraft:de:ju-52-3m | — |
+| german | 15 | Ju87D | aircraft:de:ju-87d | — |
+| german | 6 | Ju88D | aircraft:de:ju-88d | — |
+| italian | 12 | CR42 | aircraft:it:c-r-42-falco | — |
+| italian | 40 | C200 | aircraft:it:c-200-saetta | — |
+| italian | 18 | Re2001 | aircraft:it:re-2001-falco-ii | — |
+| italian | — | BR20 | aircraft:it:b-r-20-cicogna | B |
+| italian | 12 | SM79 | aircraft:it:s-m-79-sparviero | — |
 
 ### Feb (GT 67...70)
 
@@ -341,22 +341,22 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| german | 36 | Bf109E |
-| german | 12 | Bf109F |
-| german | 15 | Bf110 |
-| german | 18 | Ju88C |
-| german | 18 | He111 |
-| german | 30 | Ju87D |
-| german | 12 | Ju88D |
-| italian | 24 | CR42 |
-| italian | 36 | C200 |
-| italian | 12 | C202 |
-| italian | 12 | G50 |
-| italian | 12 | Re2001 |
-| italian | 6 | BR20 |
-| italian | 6 | Ca311 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| german | 36 | Bf109E | aircraft:de:bf-109e |
+| german | 12 | Bf109F | aircraft:de:bf-109f |
+| german | 15 | Bf110 | aircraft:de:bf-110 |
+| german | 18 | Ju88C | aircraft:de:ju-88c |
+| german | 18 | He111 | aircraft:de:he-111 |
+| german | 30 | Ju87D | aircraft:de:ju-87d |
+| german | 12 | Ju88D | aircraft:de:ju-88d |
+| italian | 24 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 36 | C200 | aircraft:it:c-200-saetta |
+| italian | 12 | C202 | aircraft:it:c-202-folgore |
+| italian | 12 | G50 | aircraft:it:g-50-freccia |
+| italian | 12 | Re2001 | aircraft:it:re-2001-falco-ii |
+| italian | 6 | BR20 | aircraft:it:b-r-20-cicogna |
+| italian | 6 | Ca311 | aircraft:it:ca-311 |
 
 ### Mar (GT 71...74)
 
@@ -364,20 +364,20 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft | Mark |
-|---|---|---|---|
-| german | 9 | Bf109E | — |
-| german | 45 | Bf109F | — |
-| german | 15 | Bf110 | — |
-| german | 12 | Ju52 | — |
-| german | 15 | Ju87D | — |
-| german | 12 | Ju88D | — |
-| italian | 24 | CR42 | — |
-| italian | 12 | C200 | — |
-| italian | 24 | C202 | — |
-| italian | 12 | G50 | — |
-| italian | 12 | Re2001 | — |
-| italian | 6 | SM79 | \* |
+| Nation | Count | Aircraft | Aircraft Id | Mark |
+|---|---|---|---|---|
+| german | 9 | Bf109E | aircraft:de:bf-109e | — |
+| german | 45 | Bf109F | aircraft:de:bf-109f | — |
+| german | 15 | Bf110 | aircraft:de:bf-110 | — |
+| german | 12 | Ju52 | aircraft:de:ju-52-3m | — |
+| german | 15 | Ju87D | aircraft:de:ju-87d | — |
+| german | 12 | Ju88D | aircraft:de:ju-88d | — |
+| italian | 24 | CR42 | aircraft:it:c-r-42-falco | — |
+| italian | 12 | C200 | aircraft:it:c-200-saetta | — |
+| italian | 24 | C202 | aircraft:it:c-202-folgore | — |
+| italian | 12 | G50 | aircraft:it:g-50-freccia | — |
+| italian | 12 | Re2001 | aircraft:it:re-2001-falco-ii | — |
+| italian | 6 | SM79 | aircraft:it:s-m-79-sparviero | \* |
 
 ### Apr (GT 75...78)
 
@@ -385,22 +385,22 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft | Mark |
-|---|---|---|---|
-| german | 36 | Bf109F | — |
-| german | 40 | Bf109G | — |
-| german | 12 | Bf110 | — |
-| german | 18 | Ju88C | — |
-| german | 6 | Arado196 | — |
-| german | 6 | Ju87D | — |
-| italian | 12 | CR42 | — |
-| italian | 6 | CR42AS | — |
-| italian | 24 | C200 | — |
-| italian | 24 | C202 | — |
-| italian | 24 | Re2001 | — |
-| italian | 6 | BR20 | — |
-| italian | 12 | SM79 | — |
-| italian | 12 | SM84 | † |
+| Nation | Count | Aircraft | Aircraft Id | Mark |
+|---|---|---|---|---|
+| german | 36 | Bf109F | aircraft:de:bf-109f | — |
+| german | 40 | Bf109G | aircraft:de:bf-109g | — |
+| german | 12 | Bf110 | aircraft:de:bf-110 | — |
+| german | 18 | Ju88C | aircraft:de:ju-88c | — |
+| german | 6 | Arado196 | aircraft:de:ar-196 | — |
+| german | 6 | Ju87D | aircraft:de:ju-87d | — |
+| italian | 12 | CR42 | aircraft:it:c-r-42-falco | — |
+| italian | 6 | CR42AS | aircraft:it:c-r-42as-falco | — |
+| italian | 24 | C200 | aircraft:it:c-200-saetta | — |
+| italian | 24 | C202 | aircraft:it:c-202-folgore | — |
+| italian | 24 | Re2001 | aircraft:it:re-2001-falco-ii | — |
+| italian | 6 | BR20 | aircraft:it:b-r-20-cicogna | — |
+| italian | 12 | SM79 | aircraft:it:s-m-79-sparviero | — |
+| italian | 12 | SM84 | aircraft:it:s-m-84 | † |
 
 ### May (GT 79...82)
 
@@ -408,23 +408,23 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft | Mark |
-|---|---|---|---|
-| german | 30 | Bf109F | — |
-| german | 36 | Bf109G | — |
-| german | 12 | FW200C | — |
-| german | 12 | He111 | — |
-| german | 18 | Ju52 | — |
-| german | 24 | Ju87D | — |
-| german | 30 | Ju88D | — |
-| italian | 24 | CR42 | — |
-| italian | 24 | C200 | — |
-| italian | 36 | C202 | — |
-| italian | 12 | G50 | — |
-| italian | 6 | Re2001 | — |
-| italian | 12 | Z1007bis | — |
-| italian | 6 | SM79 | — |
-| italian | 6 | SM84 | \* |
+| Nation | Count | Aircraft | Aircraft Id | Mark |
+|---|---|---|---|---|
+| german | 30 | Bf109F | aircraft:de:bf-109f | — |
+| german | 36 | Bf109G | aircraft:de:bf-109g | — |
+| german | 12 | FW200C | aircraft:de:fw-200-c | — |
+| german | 12 | He111 | aircraft:de:he-111 | — |
+| german | 18 | Ju52 | aircraft:de:ju-52-3m | — |
+| german | 24 | Ju87D | aircraft:de:ju-87d | — |
+| german | 30 | Ju88D | aircraft:de:ju-88d | — |
+| italian | 24 | CR42 | aircraft:it:c-r-42-falco | — |
+| italian | 24 | C200 | aircraft:it:c-200-saetta | — |
+| italian | 36 | C202 | aircraft:it:c-202-folgore | — |
+| italian | 12 | G50 | aircraft:it:g-50-freccia | — |
+| italian | 6 | Re2001 | aircraft:it:re-2001-falco-ii | — |
+| italian | 12 | Z1007bis | aircraft:it:cant-z-1007bis-alcione | — |
+| italian | 6 | SM79 | aircraft:it:s-m-79-sparviero | — |
+| italian | 6 | SM84 | aircraft:it:s-m-84 | \* |
 
 ### Jun (GT 83...86)
 
@@ -432,23 +432,23 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| german | 15 | Bf109F |
-| german | 48 | Bf109G |
-| german | 12 | He111 |
-| german | 15 | Ju52 |
-| german | 10 | Ju87D |
-| german | 30 | Ju88D |
-| italian | 12 | CR42 |
-| italian | 6 | CR42AS |
-| italian | 18 | C200 |
-| italian | 12 | C202 |
-| italian | 18 | G50 |
-| italian | 6 | Re2001 |
-| italian | 6 | Ca311 |
-| italian | 12 | Z1007bis |
-| italian | 6 | SM84 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| german | 15 | Bf109F | aircraft:de:bf-109f |
+| german | 48 | Bf109G | aircraft:de:bf-109g |
+| german | 12 | He111 | aircraft:de:he-111 |
+| german | 15 | Ju52 | aircraft:de:ju-52-3m |
+| german | 10 | Ju87D | aircraft:de:ju-87d |
+| german | 30 | Ju88D | aircraft:de:ju-88d |
+| italian | 12 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 6 | CR42AS | aircraft:it:c-r-42as-falco |
+| italian | 18 | C200 | aircraft:it:c-200-saetta |
+| italian | 12 | C202 | aircraft:it:c-202-folgore |
+| italian | 18 | G50 | aircraft:it:g-50-freccia |
+| italian | 6 | Re2001 | aircraft:it:re-2001-falco-ii |
+| italian | 6 | Ca311 | aircraft:it:ca-311 |
+| italian | 12 | Z1007bis | aircraft:it:cant-z-1007bis-alcione |
+| italian | 6 | SM84 | aircraft:it:s-m-84 |
 
 ### Jul (GT 87...90)
 
@@ -456,21 +456,21 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| german | 20 | Bf109F |
-| german | 18 | Bf109G |
-| german | 12 | Ju88C |
-| german | 12 | Ju52 |
-| german | 12 | Ju87D |
-| italian | 18 | CR42 |
-| italian | 12 | C200 |
-| italian | 36 | C202 |
-| italian | 6 | G50 |
-| italian | 18 | Re2001 |
-| italian | 12 | Z1007bis |
-| italian | 6 | SM79 |
-| italian | 12 | SM84 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| german | 20 | Bf109F | aircraft:de:bf-109f |
+| german | 18 | Bf109G | aircraft:de:bf-109g |
+| german | 12 | Ju88C | aircraft:de:ju-88c |
+| german | 12 | Ju52 | aircraft:de:ju-52-3m |
+| german | 12 | Ju87D | aircraft:de:ju-87d |
+| italian | 18 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 12 | C200 | aircraft:it:c-200-saetta |
+| italian | 36 | C202 | aircraft:it:c-202-folgore |
+| italian | 6 | G50 | aircraft:it:g-50-freccia |
+| italian | 18 | Re2001 | aircraft:it:re-2001-falco-ii |
+| italian | 12 | Z1007bis | aircraft:it:cant-z-1007bis-alcione |
+| italian | 6 | SM79 | aircraft:it:s-m-79-sparviero |
+| italian | 12 | SM84 | aircraft:it:s-m-84 |
 
 ### Aug (GT 91...94)
 
@@ -478,17 +478,17 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| german | 36 | Bf109G |
-| german | 12 | Ju87D |
-| german | 15 | Ju88D |
-| italian | 18 | CR42 |
-| italian | 12 | C200 |
-| italian | 24 | C202 |
-| italian | 6 | G50 |
-| italian | 6 | SM79 |
-| italian | 12 | SM84 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| german | 36 | Bf109G | aircraft:de:bf-109g |
+| german | 12 | Ju87D | aircraft:de:ju-87d |
+| german | 15 | Ju88D | aircraft:de:ju-88d |
+| italian | 18 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 12 | C200 | aircraft:it:c-200-saetta |
+| italian | 24 | C202 | aircraft:it:c-202-folgore |
+| italian | 6 | G50 | aircraft:it:g-50-freccia |
+| italian | 6 | SM79 | aircraft:it:s-m-79-sparviero |
+| italian | 12 | SM84 | aircraft:it:s-m-84 |
 
 ### Sept (GT 95...98)
 
@@ -496,20 +496,20 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft | Mark |
-|---|---|---|---|
-| german | 45 | Bf109G | — |
-| german | 18 | Ju52 | — |
-| german | 6 | Ju87D | — |
-| german | 12 | Ju88D | — |
-| italian | 36 | CR42 | — |
-| italian | 6 | CR42AS | — |
-| italian | 6 | C200 | — |
-| italian | 36 | C202 | — |
-| italian | 12 | G50 | — |
-| italian | 6 | Re2001 | — |
-| italian | 12 | Z1007bis | — |
-| italian | 12 | SM79 | † |
+| Nation | Count | Aircraft | Aircraft Id | Mark |
+|---|---|---|---|---|
+| german | 45 | Bf109G | aircraft:de:bf-109g | — |
+| german | 18 | Ju52 | aircraft:de:ju-52-3m | — |
+| german | 6 | Ju87D | aircraft:de:ju-87d | — |
+| german | 12 | Ju88D | aircraft:de:ju-88d | — |
+| italian | 36 | CR42 | aircraft:it:c-r-42-falco | — |
+| italian | 6 | CR42AS | aircraft:it:c-r-42as-falco | — |
+| italian | 6 | C200 | aircraft:it:c-200-saetta | — |
+| italian | 36 | C202 | aircraft:it:c-202-folgore | — |
+| italian | 12 | G50 | aircraft:it:g-50-freccia | — |
+| italian | 6 | Re2001 | aircraft:it:re-2001-falco-ii | — |
+| italian | 12 | Z1007bis | aircraft:it:cant-z-1007bis-alcione | — |
+| italian | 12 | SM79 | aircraft:it:s-m-79-sparviero | † |
 
 ### Oct (GT 99...102)
 
@@ -517,18 +517,18 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| german | 12 | Bf109G |
-| german | 12 | He111 |
-| german | 12 | Ju87D |
-| german | 6 | Ju88D |
-| italian | 24 | CR42 |
-| italian | 6 | CR42AS |
-| italian | 12 | C200 |
-| italian | 48 | C202 |
-| italian | 6 | G50 |
-| italian | 6 | SM79 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| german | 12 | Bf109G | aircraft:de:bf-109g |
+| german | 12 | He111 | aircraft:de:he-111 |
+| german | 12 | Ju87D | aircraft:de:ju-87d |
+| german | 6 | Ju88D | aircraft:de:ju-88d |
+| italian | 24 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 6 | CR42AS | aircraft:it:c-r-42as-falco |
+| italian | 12 | C200 | aircraft:it:c-200-saetta |
+| italian | 48 | C202 | aircraft:it:c-202-folgore |
+| italian | 6 | G50 | aircraft:it:g-50-freccia |
+| italian | 6 | SM79 | aircraft:it:s-m-79-sparviero |
 
 ### Nov (GT 103...106)
 
@@ -536,12 +536,12 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| german | 12 | Bf109G |
-| german | 8 | Ju87D |
-| italian | 36 | CR42 |
-| italian | 24 | C202 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| german | 12 | Bf109G | aircraft:de:bf-109g |
+| german | 8 | Ju87D | aircraft:de:ju-87d |
+| italian | 36 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 24 | C202 | aircraft:it:c-202-folgore |
 
 ### Dec (GT 107...110)
 
@@ -549,11 +549,11 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Nation | Count | Aircraft |
-|---|---|---|
-| italian | 12 | CR42 |
-| italian | 6 | C200 |
-| italian | 12 | C202 |
+| Nation | Count | Aircraft | Aircraft Id |
+|---|---|---|---|
+| italian | 12 | CR42 | aircraft:it:c-r-42-falco |
+| italian | 6 | C200 | aircraft:it:c-200-saetta |
+| italian | 12 | C202 | aircraft:it:c-202-folgore |
 
 ## Notes
 
@@ -562,7 +562,7 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 - Printed oddities, normalised here: 'GT63...66' (no space) and 'GF' for GT on the August and September 1942 entries; the June 1941 '15 x 88D' is a Ju88D; February 1942's 'Ju88c' is a Ju88C; hyphens left by line breaks ('12 x -Ju88D') dropped.
 - January 1942's BR20 count is printed as the letter B on both scans: count is null and count_as_printed keeps the letter. It is probably an 8 or a 6; docs/autopilot/decisions.json asks for Brian's copy. Until answered, an engine should deliver no BR20s that month rather than guess.
 - The marks are as printed. The footnotes speak of S.M.79s, but the † also stands on April 1942's SM84s and the * on May 1942's SM84s; the mark is kept where printed and read as 'that many of these aircraft operate as torpedo bombers' whatever the type.
-- aircraft is the name as printed; it is not yet keyed to aircraft-characteristics.json, whose names are fuller (e.g. CR42 here, C.R. 42 Falco there).
+- aircraft is the name as printed; aircraft_id is its row in aircraft-characteristics.json, whose names are fuller (CR42 here, C.R. 42 Falco there). The plain Z1007 entries of February and March 1941 take the chart's only Z.1007 row, the 1007bis.
 
 ---
 

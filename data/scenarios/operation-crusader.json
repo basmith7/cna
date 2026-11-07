@@ -1028,31 +1028,37 @@
     "planes": [
      {
       "type": "MC 200",
+      "aircraft_id": "aircraft:it:c-200-saetta",
       "available": 35,
       "refitted": 20
      },
      {
       "type": "CR 42",
+      "aircraft_id": "aircraft:it:c-r-42-falco",
       "available": 23,
       "refitted": 8
      },
      {
       "type": "G 50",
+      "aircraft_id": "aircraft:it:g-50-freccia",
       "available": 28,
       "refitted": 20
      },
      {
       "type": "BR 20",
+      "aircraft_id": "aircraft:it:b-r-20-cicogna",
       "available": 29,
       "refitted": 15
      },
      {
       "type": "Ju 87D (Italian)",
+      "aircraft_id": "aircraft:de:ju-87d",
       "available": 9,
       "refitted": 5
      },
      {
       "type": "SM 79",
+      "aircraft_id": "aircraft:it:s-m-79-sparviero",
       "available": 21,
       "refitted": 10
      }
@@ -1065,31 +1071,37 @@
     "german_planes": [
      {
       "type": "Ju 88D",
+      "aircraft_id": "aircraft:de:ju-88d",
       "available": 83,
       "refitted": 45
      },
      {
       "type": "He 111",
+      "aircraft_id": "aircraft:de:he-111",
       "available": 27,
       "refitted": 15
      },
      {
       "type": "Ju 87D",
+      "aircraft_id": "aircraft:de:ju-87d",
       "available": 94,
       "refitted": 90
      },
      {
       "type": "Bf 109E",
+      "aircraft_id": "aircraft:de:bf-109e",
       "available": 19,
       "refitted": 13
      },
      {
       "type": "Bf 109F",
+      "aircraft_id": "aircraft:de:bf-109f",
       "available": 40,
       "refitted": 27
      },
      {
       "type": "Bf 110C",
+      "aircraft_id": "aircraft:de:bf-110",
       "available": 23,
       "refitted": 13
      }
@@ -2026,51 +2038,61 @@
      "planes": [
       {
        "type": "Hurricane I",
+       "aircraft_id": "aircraft:cw:hurricane-mk-i",
        "available": 82,
        "refitted": 64
       },
       {
        "type": "Hurricane IIA",
+       "aircraft_id": "aircraft:cw:hurricane-mk-iia",
        "available": 66,
        "refitted": 60
       },
       {
        "type": "Hurricane IIB",
+       "aircraft_id": "aircraft:cw:hurricane-mk-iib",
        "available": 42,
        "refitted": 36
       },
       {
        "type": "Blenheim IVF",
+       "aircraft_id": "aircraft:cw:blenheim-mk-ivf",
        "available": 24,
        "refitted": 16
       },
       {
        "type": "Tomahawk",
+       "aircraft_id": "aircraft:cw:p-40-tomahawk",
        "available": 88,
        "refitted": 64
       },
       {
        "type": "Beaufighter",
+       "aircraft_id": "aircraft:cw:beaufighter-mk-if",
        "available": 22,
        "refitted": 16
       },
       {
        "type": "Blenheim IV F (second line)",
+       "aircraft_id": "aircraft:cw:blenheim-mk-iv",
        "available": 142,
        "refitted": 100
       },
       {
        "type": "Wellington IC",
+       "aircraft_id": "aircraft:cw:wellington-mk-i",
        "available": 110,
        "refitted": 80
       },
       {
        "type": "Boston",
+       "aircraft_id": "aircraft:cw:boston-mk-iii",
        "available": 20,
        "refitted": 16
       },
       {
        "type": "Maryland",
+       "aircraft_id": "aircraft:cw:167-maryland",
        "available": 32,
        "refitted": 12
       }
@@ -2084,7 +2106,7 @@
      },
      "sgsu": "as the Air Game rules allow",
      "notes": [
-      "Blenheim IVF appears twice (24/16 and 142/100); the second is likely a different type, perhaps Blenheim IV bombers. Needs a ruling.",
+      "Blenheim IVF is printed twice (24/16 and 142/100); the second entry is the Blenheim IV bomber (R-170).",
       "Abu Seier and Fayid can maintain only one squadron each."
      ]
     },
@@ -2092,31 +2114,37 @@
      "planes": [
       {
        "type": "Swordfish",
+       "aircraft_id": "aircraft:cw:swordfish-mk-i",
        "available": 3,
        "refitted": 3
       },
       {
        "type": "Hurricane IIB",
+       "aircraft_id": "aircraft:cw:hurricane-mk-iib",
        "available": 28,
        "refitted": 24
       },
       {
        "type": "Beaufighter IC",
+       "aircraft_id": "aircraft:cw:beaufighter-mk-if",
        "available": 8,
        "refitted": 6
       },
       {
        "type": "Hurricane I",
+       "aircraft_id": "aircraft:cw:hurricane-mk-i",
        "available": 10,
        "refitted": 9
       },
       {
        "type": "Hurricane IIA",
+       "aircraft_id": "aircraft:cw:hurricane-mk-iia",
        "available": 12,
        "refitted": 11
       },
       {
        "type": "Wellington IC",
+       "aircraft_id": "aircraft:cw:wellington-mk-i",
        "available": 13,
        "refitted": 13
       }

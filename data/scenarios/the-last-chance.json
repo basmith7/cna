@@ -1178,22 +1178,27 @@
       "planes": [
        {
         "type": "Baltimore",
+        "aircraft_id": "aircraft:cw:a-30-baltimore-i",
         "count": 4
        },
        {
         "type": "Hurricane IIA",
+        "aircraft_id": "aircraft:cw:hurricane-mk-iia",
         "count": 12
        },
        {
         "type": "Maryland",
+        "aircraft_id": "aircraft:cw:167-maryland",
         "count": 4
        },
        {
         "type": "Spitfire VB",
+        "aircraft_id": "aircraft:cw:spitfire-mk-vb",
         "count": 18
        },
        {
         "type": "Tomahawk",
+        "aircraft_id": "aircraft:cw:p-40-tomahawk",
         "count": 6
        }
       ]
@@ -1205,6 +1210,7 @@
       "planes": [
        {
         "type": "Maryland",
+        "aircraft_id": "aircraft:cw:167-maryland",
         "count": 12
        }
       ]
@@ -1214,6 +1220,7 @@
       "planes": [
        {
         "type": "Mitchell II",
+        "aircraft_id": "aircraft:cw:b-25-mitchell-ii",
         "count": 39
        }
       ]
@@ -1224,50 +1231,62 @@
       "planes": [
        {
         "type": "Baltimore II",
+        "aircraft_id": "aircraft:cw:a-30-baltimore-i",
         "count": 24
        },
        {
         "type": "Baltimore III",
+        "aircraft_id": "aircraft:cw:a-30-baltimore-i",
         "count": 24
        },
        {
         "type": "Boston III",
+        "aircraft_id": "aircraft:cw:boston-mk-iii",
         "count": 48
        },
        {
         "type": "Hurricane IIB",
+        "aircraft_id": "aircraft:cw:hurricane-mk-iib",
         "count": 48
        },
        {
         "type": "Hurricane IIC",
+        "aircraft_id": "aircraft:cw:hurricane-mk-iic",
         "count": 64
        },
        {
         "type": "Hurricane IID",
+        "aircraft_id": "aircraft:cw:hurricane-mk-iid",
         "count": 32
        },
        {
         "type": "Hurricane IIE",
+        "aircraft_id": "aircraft:cw:hurricane-mk-iid",
         "count": 16
        },
        {
         "type": "Kittyhawk I",
+        "aircraft_id": "aircraft:cw:p-40-kittyhawk-i",
         "count": 56
        },
        {
         "type": "Kittyhawk II",
+        "aircraft_id": "aircraft:cw:p-40-kittyhawk-ii",
         "count": 91
        },
        {
         "type": "Kittyhawk III",
+        "aircraft_id": "aircraft:cw:p-40-kittyhawk-iii",
         "count": 39
        },
        {
         "type": "Spitfire VB",
+        "aircraft_id": "aircraft:cw:spitfire-mk-vb",
         "count": 48
        },
        {
         "type": "Tomahawk",
+        "aircraft_id": "aircraft:cw:p-40-tomahawk",
         "count": 16
        }
       ]
@@ -1279,10 +1298,12 @@
       "planes": [
        {
         "type": "Beaufighter IC",
+        "aircraft_id": "aircraft:cw:beaufighter-mk-if",
         "count": 16
        },
        {
         "type": "Beaufighter VIF",
+        "aircraft_id": "aircraft:cw:beaufighter-mk-vif",
         "count": 16
        }
       ]
@@ -1292,6 +1313,7 @@
       "planes": [
        {
         "type": "Wellington IC",
+        "aircraft_id": "aircraft:cw:wellington-mk-i",
         "count": 32
        }
       ]
@@ -1303,6 +1325,7 @@
       "planes": [
        {
         "type": "Wellington IC",
+        "aircraft_id": "aircraft:cw:wellington-mk-i",
         "count": 32
        }
       ]
@@ -1312,10 +1335,12 @@
       "planes": [
        {
         "type": "Wellington IC",
+        "aircraft_id": "aircraft:cw:wellington-mk-i",
         "count": 16
        },
        {
         "type": "Wellington II",
+        "aircraft_id": "aircraft:cw:wellington-mk-i",
         "count": 16
        }
       ]
@@ -1327,6 +1352,7 @@
       "planes": [
        {
         "type": "Albacore",
+        "aircraft_id": "aircraft:cw:albacore",
         "count": 24
        }
       ],
@@ -1339,10 +1365,12 @@
       "planes": [
        {
         "type": "Bombay",
+        "aircraft_id": "aircraft:cw:bombay-mk-i",
         "count": 22
        },
        {
         "type": "Hudson",
+        "aircraft_id": "aircraft:cw:a-28-hudson",
         "count": 32
        }
       ]
@@ -1365,51 +1393,61 @@
      "planes": [
       {
        "type": "Wellington V",
+       "aircraft_id": "aircraft:cw:wellington-mk-i",
        "count": 5,
        "refitted": 5
       },
       {
        "type": "Baltimore I",
+       "aircraft_id": "aircraft:cw:a-30-baltimore-i",
        "count": 4,
        "refitted": 4
       },
       {
        "type": "Baltimore II",
+       "aircraft_id": "aircraft:cw:a-30-baltimore-i",
        "count": 3,
        "refitted": 3
       },
       {
        "type": "Beaufighter IC",
+       "aircraft_id": "aircraft:cw:beaufighter-mk-if",
        "count": 12,
        "refitted": 5
       },
       {
        "type": "Beaufighter VIF",
+       "aircraft_id": "aircraft:cw:beaufighter-mk-vif",
        "count": 8,
        "refitted": 6
       },
       {
        "type": "Spitfire VB",
+       "aircraft_id": "aircraft:cw:spitfire-mk-vb",
        "count": 54,
        "refitted": 33
       },
       {
        "type": "Spitfire VC",
+       "aircraft_id": "aircraft:cw:spitfire-mk-vc",
        "count": 18,
        "refitted": 10
       },
       {
        "type": "Hurricane IIC",
+       "aircraft_id": "aircraft:cw:hurricane-mk-iic",
        "count": 8,
        "refitted": 8
       },
       {
        "type": "Albacore",
+       "aircraft_id": "aircraft:cw:albacore",
        "count": 3,
        "refitted": 3
       },
       {
        "type": "Swordfish",
+       "aircraft_id": "aircraft:cw:swordfish-mk-i",
        "count": 3,
        "refitted": 3
       }
@@ -2221,26 +2259,31 @@
     "german": [
      {
       "type": "Ju87D",
+      "aircraft_id": "aircraft:de:ju-87d",
       "available": 70,
       "refitted": 44
      },
      {
       "type": "Me Bf109F",
+      "aircraft_id": "aircraft:de:bf-109f",
       "available": 83,
       "refitted": 40
      },
      {
       "type": "Me Bf109G",
+      "aircraft_id": "aircraft:de:bf-109g",
       "available": 90,
       "refitted": 50
      },
      {
       "type": "Me Bf109E",
+      "aircraft_id": "aircraft:de:bf-109e",
       "available": 16,
       "refitted": 6
      },
      {
       "type": "Me Bf110C",
+      "aircraft_id": "aircraft:de:bf-110",
       "available": 16,
       "refitted": 10
      }
@@ -2256,11 +2299,13 @@
     "crete": [
      {
       "type": "Ju88",
+      "aircraft_id": "aircraft:de:ju-88d",
       "available": 75,
       "refitted": 60
      },
      {
       "type": "He111",
+      "aircraft_id": "aircraft:de:he-111",
       "available": 15,
       "refitted": 10
      }
@@ -2268,31 +2313,37 @@
     "planes": [
      {
       "type": "Cant Z.1007",
+      "aircraft_id": "aircraft:it:cant-z-1007bis-alcione",
       "available": 14,
       "refitted": 14
      },
      {
       "type": "Fiat CR42",
+      "aircraft_id": "aircraft:it:c-r-42-falco",
       "available": 125,
       "refitted": 75
      },
      {
       "type": "Fiat G.50",
+      "aircraft_id": "aircraft:it:g-50-freccia",
       "available": 12,
       "refitted": 0
      },
      {
       "type": "Macchi C.200",
+      "aircraft_id": "aircraft:it:c-200-saetta",
       "available": 58,
       "refitted": 40
      },
      {
       "type": "Macchi C.202",
+      "aircraft_id": "aircraft:it:c-202-folgore",
       "available": 139,
       "refitted": 84
      },
      {
       "type": "S.M.79",
+      "aircraft_id": "aircraft:it:s-m-79-sparviero",
       "available": 34,
       "refitted": 24
      }
