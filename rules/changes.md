@@ -140,6 +140,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Air Game — aircraft and squadrons](./air/10-aircraft-and-sgsus.md)
 
+- [R-169](../rulings/R-169.md) — set-up and schedule aircraft the chart has no row for
 - [R-116](../rulings/R-116.md) — Commonwealth squadron size before July 1941
 
 ## [Air Game — flight and maintenance](./air/30-flight-and-maintenance.md)
@@ -265,6 +266,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 ## [Group Three — Operation Crusader](./scenarios/30-crusader.md)
 
 - [R-105](../rulings/R-105.md) — a counter the set-up places twice (the 7th South African armoured cars)
+- [R-170](../rulings/R-170.md) — the second Blenheim IVF line
 - [R-107](../rulings/R-107.md) — what an inactive dump is
 - [R-106](../rulings/R-106.md) — tank strengths for two battalions the set-up never places
 - [R-158](../rulings/R-158.md) — the hexes next to Tobruk
@@ -409,6 +411,8 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-163](../rulings/R-163.md) | accepted | 59.5, 49.14, 50.17 |
 | [R-164](../rulings/R-164.md) | accepted | 3.5, 10.11, 10.15, 10.29, 12.22, 19.62, 21.42 |
 | [R-166](../rulings/R-166.md) | accepted | 62.5, 52.24 |
+| [R-169](../rulings/R-169.md) | accepted | 34.6, 34.84, 62.33, 62.36, 63.33, 63.37, 63.43 |
+| [R-170](../rulings/R-170.md) | accepted | 62.33 |
 
 ## Variants register
 

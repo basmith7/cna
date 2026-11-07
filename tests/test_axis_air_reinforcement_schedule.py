@@ -16,7 +16,7 @@ def test_entries_as_read():
     assert sum(a["count"] for r in rows for a in r["arrivals"] if a["count"] is not None) == 5061  # checksum as read
     first = rows[0]
     assert first["game_turns"] == {"from": 2, "to": 2}
-    assert first["arrivals"] == [{"nation": "italian", "count": 12, "aircraft": "Ba65"}]
+    assert first["arrivals"] == [{"nation": "italian", "count": 12, "aircraft": "Ba65", "aircraft_id": "aircraft:it:ba-65"}]
     # the Germans' first month
     feb41 = next(r for r in rows if r["game_turns"]["from"] == 19)
     assert [(a["count"], a["aircraft"]) for a in feb41["arrivals"] if a["nation"] == "german"] == [
@@ -26,7 +26,8 @@ def test_entries_as_read():
 
 def test_the_one_unreadable_count():
     unread = [(r["game_turns"]["from"], a) for r in _rows() for a in r["arrivals"] if a["count"] is None]
-    assert unread == [(63, {"nation": "italian", "count": None, "count_as_printed": "B", "aircraft": "BR20"})]
+    assert unread == [(63, {"nation": "italian", "count": None, "count_as_printed": "B", "aircraft": "BR20",
+                            "aircraft_id": "aircraft:it:b-r-20-cicogna"})]
 
 
 def test_months_follow_the_calendar_without_gaps():

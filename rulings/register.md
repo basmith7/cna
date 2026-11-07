@@ -140,6 +140,8 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-163](./R-163.md) | What units hold at the start of a Logistics Game | accepted | 59.5, 49.14, 50.17 |
 | [R-164](./R-164.md) | A combat unit with no TOE strength points left | accepted | 3.5, 10.11, 10.15, 10.29, 12.22, 19.62, 21.42 |
 | [R-166](./R-166.md) | Which hexes Operation Crusader's pipeline fills | accepted | 62.5, 52.24 |
+| [R-169](./R-169.md) | Set-up and schedule aircraft the characteristics chart has no row for | accepted | 34.6, 34.84, 62.33, 62.36, 63.33, 63.37, 63.43 |
+| [R-170](./R-170.md) | Crusader's second Blenheim IVF entry | accepted | 62.33 |
 
 ## Variants
 

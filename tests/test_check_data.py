@@ -231,3 +231,19 @@ def test_oa_replaces_and_assigns_name_known_units(tmp_path):
     errs = check_data.validate_all(_scenario_data(tmp_path, {}, oa=oa))
     for needle in ("unknown unit unit:it:gone", "unknown unit unit:it:lost", "orphan: assigns without replaces"):
         assert any(needle in e for e in errs), needle
+
+
+def test_scenario_planes_must_name_a_characteristics_row(tmp_path):
+    good = {"type": "CR 42", "aircraft_id": "aircraft:it:c-r-42-falco", "available": 5}
+    s = _scenario()
+    s["sides"]["axis"]["air"] = {"planes": [good, {"type": "Ba 65", "available": 2}],
+                                 "crete": [{"type": "Ju88", "aircraft_id": "aircraft:de:ju-88", "available": 1}],
+                                 "malta": {"planes": [{"type": "Hurricane IIA", "aircraft_id": "aircraft:cw:hurricane-mk-iia-or1", "count": 3}]}}
+    d = _scenario_data(tmp_path, {"demo.json": s})
+    (d / "tables").mkdir()
+    shutil.copy(ROOT / "data" / "tables" / "aircraft-characteristics.json", d / "tables")
+    errs = check_data.validate_all(d)
+    assert len(errs) == 3, errs
+    for needle in ("'Ba 65' has no aircraft_id", "unknown aircraft_id aircraft:de:ju-88",
+                   "aircraft:cw:hurricane-mk-iia-or1 is an alternative_of row; name aircraft:cw:hurricane-mk-iia"):
+        assert any(needle in e for e in errs), needle

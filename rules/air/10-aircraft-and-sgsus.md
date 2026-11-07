@@ -36,6 +36,17 @@ Characteristics Charts (printed as 4.44, cited as 34.6), which are data:
 one row per type and configuration, id `aircraft:<nation>:<slug>`. Players
 keep the ratings on their squadron sheets.
 
+::: ruling R-169 — set-up and schedule aircraft the chart has no row for
+
+Scenario set-ups and the reinforcement schedules name aircraft in their own
+shorthand; each such entry plays as one chart row. A mark the chart does
+not print plays as its nearest type: the Hurricane IIE as the Hurricane
+IID, the Wellington II and V as the Wellington Mk. I, the Baltimore II and
+III as the Baltimore I, the Beaufighter IC as the Beaufighter Mk. IF. A
+name printed without a mark takes the mark in service at that date
+(Crusader's Beaufighters are Mk. IFs, the March 1941 Wellingtons Mk. Is),
+and The Last Chance's Crete Ju 88s are Ju 88D bombers.
+
 ::: spi 34.11 34.12
 
 - **Range**, in hexes: how far the aircraft may fly *out* to its mission
@@ -357,7 +368,10 @@ follow them.
 
 - An aircraft's ratings come from its row in
   `aircraft-characteristics.json`; a row with `alternative_of` is the same
-  type in another configuration, picked per mission (34.12).
+  type in another configuration, picked per mission (34.12). Every
+  scenario plane entry and schedule arrival names its row in
+  `aircraft_id` (never an `alternative_of` row); `check_data.py` fails on
+  one that is missing or unknown.
 - SGSU limits round up: Commonwealth `ceil(on_map / 12) + 2`; German and
   Italian each `ceil(on_map_nation / 10)`.
 - The Axis schedule's January 1942 BR20 count is printed as the letter B
