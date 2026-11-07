@@ -33,11 +33,35 @@ placed when missions are deployed in each stage's land support air phase;
 strategic ones when the Malta raids and the convoy bombing are resolved
 ([turn outline](00-overview-and-sequence.md#turn-outline)).
 
-The Air Distance Table (37.4) only saves counting: it lists hex distances
-between major places. An engine computes distance from the map
-(`data/map/`, with `seams.json` across sheet edges) and needs no table.
-
 ::: spi 37.4
+
+The Air Distance Table (37.4) saves counting on the map: it lists hex
+distances between major places. An engine computes on-map distance from the
+map (`data/map/`, with `seams.json` across sheet edges). Off the map there
+is nothing to count, and the table's figures are the only measure.
+
+::: ruling R-168 — off-map air distances: shortest path through the charted points; P closes the country nearer the barred place
+
+**Off-map distances.** The chart gives hexes between the western boxes
+(Tripolitania, Tripoli, Gabes, Tunis), Malta, Nofilia and Benghazi, and
+between the Crete, Sicily and Italy boxes or Malta and the coastal towns from
+Nofilia to Alexandria. Each Commonwealth base beyond map E has its own entry
+hex and distance (§36.5). The figures are data:
+[`data/tables/air-off-map-distances.json`](https://github.com/basmith7/cna/blob/main/data/tables/air-off-map-distances.json).
+
+- From an off-map base to a map hex, a flight takes one chart figure to a
+  charted town (or a Commonwealth base's entry hex) and counts on from
+  there on the map; its distance is the shortest such path. A path never
+  runs through a second box or Malta. Between two off-map points only a
+  listed figure, or a path across the map between two of them, counts.
+  *Example:* a plane from Sicily to a hex 10 hexes from
+  Derna and 30 from Benghazi flies 105 + 10 = 115.
+- Every hex of the Malta inset is the point Malta.
+- A **P** on the chart means the area's planes may not fly to that place,
+  nor to any map hex nearer to it than to every place the chart gives that
+  area a figure for. Sicily and Italy reach only the Benghazi–Derna
+  country; Malta nothing nearer Mersa Matruh or Alexandria than Bardia;
+  Crete nothing nearer Nofilia than Benghazi.
 
 ::: spi 37.14
 
@@ -175,6 +199,12 @@ table's own key words it by the SGSU; R-112).
 Every
 squadron that tries to refit, successful or not, spends **one stores
 point**, which must be at hand. Refitting is never compulsory.
+
+::: ruling R-174 — refit and repair costs with the Air Game and abstract logistics
+
+With [abstract logistics](90-abstract-logistics.md#upkeep-refits-and-repairs)
+(§47) a refit spends no stores; the SGSU must instead be able to draw
+supplies under 47.11–47.13 ([R-174](../../rulings/R-174.md)).
 
 *Our example.* A Commonwealth SGSU works on six Hurricanes of its own
 squadron and three captured Italian fighters from elsewhere. That is two

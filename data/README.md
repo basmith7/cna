@@ -18,7 +18,7 @@ transcribing anything.
 | `map/hexes.json`, `map/hexsides.json` | Built by `tools/map_build.py` from raw + corrections; never edited by hand (`--check` in CI). |
 | `map/places.json` | Hand-authored named places (the printed *Summary of Important Locations*, ports, oases, airfields as `feature`). A place that covers several hexes (Cairo, five) adds `hexes`, every hex of it; `hex` stays the primary hex that labels it. A scenario's `place` means every hex of the place. |
 | `map/regions.json` | Which hexes are in Libya and which in Egypt, from the frontier printed on map C; `tools/map_geom.country` reads it. Scenario placements use it (`"region": "libya"`). |
-| `oa/<nation>.json` | The organisation (OA) sheets of one nation (`cw`, `it`, `de`): every counter by formation, with parent, ID code, TOE and arrival, as printed, each HQ's `echelon` (R-124), each reconnaissance unit's breakdown `vehicle` class (R-125), every counter's Formation Organisation Chart slots, `fills` and `fills_part` (R-142), and `replaces` / `assigns` where one counter replaces another. Pieces no sheet prints stand outside the chart rows with their own values: Rommel (`commander`, R-135), the three desert raiders (`raider`, R-147) and the *San Giorgio* (`blockship`, R-151). Schema `oa.schema.json`. |
+| `oa/<nation>.json` | The organisation (OA) sheets of one nation (`cw`, `it`, `de`): every counter by formation, with parent, ID code, TOE and arrival, as printed, each HQ's `echelon` (R-124), each reconnaissance unit's breakdown `vehicle` class (R-125), every counter's Formation Organisation Chart slots, `fills` and `fills_part` (R-142), and `replaces` / `assigns` where one counter replaces another, and `shifts` where a note names a historical change of parent (R-176). Pieces no sheet prints stand outside the chart rows with their own values: Rommel (`commander`, R-135), the three desert raiders (`raider`, R-147) and the *San Giorgio* (`blockship`, R-151). Schema `oa.schema.json`. |
 | `scenarios/<slug>.json` | One scenario (§59–64): length, initiative, construction, victory, and each side's deployments, trucks, supply, air and fleet, plus the abstraction blocks. Schema `scenario.schema.json`; id `scenario:<slug>`. |
 
 ## Identifier grammar
@@ -42,7 +42,8 @@ transcribing anything.
 `check_data.py` resolves every `unit:` id in `scenarios/` and in
 `tables/reinforcement-schedule.json` against `oa/`, every OA `parent`, and
 every hex, `place` and `extends` a scenario names, and every `fixed` air
-facility against `tables/fixed-air-facilities.json`.
+facility against `tables/fixed-air-facilities.json` and the
+`commonwealth_bases` of `tables/air-off-map-distances.json`.
 
 Every table carries `sources: ["CNA1979:8.37", "scan:p96"]` — at least the
 case that defines it and, for transcribed values, the page it was read from.
@@ -142,5 +143,6 @@ values come from the charts and counters (Mission 6, Task 3.6); none is invented
 | Fuel capacity rating | TOE Strength Point of vehicles | `rules/logistics/10-fuel.md` (49.14) | derived, never printed per unit: CPA ÷ 5 (part-block counted whole, R-043) × consumption rate; trucks print theirs (`fuel_capacity`) |
 | Cargo capacity in tons | Axis coastal ship counter | `rules/logistics/50-ports-and-shipping.md` (56.31) | `tables/axis-coastal-ships.json` (from the VASSAL counters; awaiting a printed check) |
 | Gun and AA ratings | Commonwealth warship counter; the *San Giorgio* | `rules/90-special.md` (30.12, 30.17, R-151) | `tables/cw-fleet-schedule.json` `gun_rating`, `aa_rating`; the *San Giorgio*'s `blockship` in `oa/it.json` (from the VASSAL counters; awaiting a printed check) |
-| Standard level | Maltese air facility (Malta inset) | `rules/air/80-mediterranean-and-malta.md` (44.12–44.14, R-165) | `tables/fixed-air-facilities.json` `max_capacity` (from the VASSAL map redraw; awaiting a printed check) |
+| Printed AA points | off-map box (Tunis, Gabes, Tripoli, Tripolitania) | `rules/air/60-bombing.md` (41.85, R-111) | `tables/printed-flak.json` (from the VASSAL map redraw; awaiting a printed check) |
+| Standard level | Maltese air facility (Malta inset) | `rules/air/80-mediterranean-and-malta.md` (44.12–44.14, R-165) | `tables/fixed-air-facilities.json` `max_capacity` (read from the printed Map A inset, jp2 187) |
 

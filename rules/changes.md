@@ -68,6 +68,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-015** — 20.72: plan one month ahead, not two, and read the table for the arrival month
 - **E-016** — 20.83: the reference to 20.75 is void; the strength requirement is 20.82's
 - **E-035** — 4.43a: two entries were left out of the Commonwealth schedule (42nd RTR arrives 28/2; 32nd Army Tank Brigade withdraws 64/2, and returns at 76/2)
+- [R-176](../rulings/R-176.md) — a shift is made in the month its note prints or dates, or never
 - [R-142](../rulings/R-142.md) — a counter fills the slots of its own kind and size
 - [R-146](../rulings/R-146.md) — from turn 92 the support group fills the armoured division's infantry brigade slot
 - [R-130](../rulings/R-130.md) — parents the attachment chart does not name use the nearest row by size and type
@@ -140,11 +141,14 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Air Game — aircraft and squadrons](./air/10-aircraft-and-sgsus.md)
 
+- [R-173](../rulings/R-173.md) — SGSU upkeep with the Air Game and abstract logistics
 - [R-116](../rulings/R-116.md) — Commonwealth squadron size before July 1941
 
 ## [Air Game — flight and maintenance](./air/30-flight-and-maintenance.md)
 
+- [R-168](../rulings/R-168.md) — off-map air distances: shortest path through the charted points; P closes the country nearer the barred place
 - [R-112](../rulings/R-112.md) — whether the refit additions follow the aircraft's nation or the SGSU's
+- [R-174](../rulings/R-174.md) — refit and repair costs with the Air Game and abstract logistics
 
 ## [Air Game — fighters](./air/50-fighters.md)
 
@@ -153,14 +157,20 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Air Game — air combat and flak](./air/70-air-combat-and-flak.md)
 
+- [R-174](../rulings/R-174.md) — refit and repair costs with the Air Game and abstract logistics
 - [R-113](../rulings/R-113.md) — which density shift applies to flak
 
 ## [Air Game — the Mediterranean bases and Malta](./air/80-mediterranean-and-malta.md)
 
+- [R-168](../rulings/R-168.md) — the Air Distance Chart's Malta figures stand for the missing Malta box
 - [R-165](../rulings/R-165.md) — every scenario's Malta capacity counts levels of 18 aircraft
 
 ## [Air Game — abstract logistics with the Air Game](./air/90-abstract-logistics.md)
 
+- [R-173](../rulings/R-173.md) — SGSU upkeep with the Air Game and abstract logistics
+- [R-174](../rulings/R-174.md) — refit and repair costs with the Air Game and abstract logistics
+- [R-171](../rulings/R-171.md) — supply units are supply dumps; motorisation points are first-line trucks when attached to a combat unit, trucks in convoy otherwise
+- [R-172](../rulings/R-172.md) — ports and the water pipeline stay targets; efficiency never limits a §47 convoy, and a cut pipeline has no effect
 - [R-127](../rulings/R-127.md) — a 5 % convoy result is applied like 10 %
 - [R-114](../rulings/R-114.md) — anti-air units with the Air Game and abstract logistics
 
@@ -416,6 +426,12 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-165](../rulings/R-165.md) | accepted | 44.13, 44.14, 60.46, 61.34, 62.36 |
 | [R-166](../rulings/R-166.md) | accepted | 62.5, 52.24 |
 | [R-167](../rulings/R-167.md) | accepted | 63.43 |
+| [R-168](../rulings/R-168.md) | accepted | 37.4, 36.5, 44.11, 37.11 |
+| [R-171](../rulings/R-171.md) | accepted | 47.51, 41.32, 41.35, 40.53, 40.61, 40.62, 40.64, 32.11, 32.32 |
+| [R-172](../rulings/R-172.md) | accepted | 47.0, 41.39, 41.81, 40.66, 40.67, 55.18, 32.11, 32.36, 47.61 |
+| [R-173](../rulings/R-173.md) | accepted | 35.14, 47.0, 47.13 |
+| [R-174](../rulings/R-174.md) | accepted | 38.36, 45.62, 45.64, 47.0, 47.2 |
+| [R-176](../rulings/R-176.md) | accepted | 19.24, 19.21 |
 
 ## Variants register
 

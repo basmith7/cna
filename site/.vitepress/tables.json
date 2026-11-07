@@ -7,6 +7,10 @@
   "title": "Air missions",
   "group": "Air Game"
  },
+ "air-off-map-distances": {
+  "title": "Air off map distances",
+  "group": "Air Game"
+ },
  "air-reconnaissance": {
   "title": "Air reconnaissance",
   "group": "Air Game"
@@ -210,6 +214,10 @@
  "port-capacity": {
   "title": "Port capacity",
   "group": "Logistics Game"
+ },
+ "printed-flak": {
+  "title": "Printed flak",
+  "group": "Air Game"
  },
  "prisoners-captured": {
   "title": "Prisoners captured",

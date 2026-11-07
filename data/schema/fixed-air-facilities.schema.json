@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "fixed-air-facilities.schema.json",
-  "title": "Fixed air facilities: Malta (44.12) and off-map (36.5, 36.53)",
+  "title": "Fixed air facilities: Malta (44.12) and the Axis boxes (36.5, 43.2)",
   "type": "object", "required": ["table", "sources", "rows"], "additionalProperties": false,
   "properties": {
     "table": {"const": "fixed-air-facilities"},
@@ -9,20 +9,18 @@
     "notes": {"type": "array", "items": {"type": "string"}},
     "rows": {"type": "array", "minItems": 1, "items": {
       "type": "object", "required": ["id", "name", "side", "area", "kind", "max_capacity", "sources"], "additionalProperties": false,
-      "oneOf": [{"required": ["hex"]}, {"required": ["entry_hex"]}, {"required": ["box"]}],
+      "oneOf": [{"required": ["hex"]}, {"required": ["box"]}],
       "properties": {
         "id": {"type": "string", "pattern": "^[a-z][a-z-]*$"},
         "name": {"type": "string"},
-        "side": {"enum": ["axis", "cw"], "description": "Whose facility it is; Malta's and the Egyptian off-map bases are always Commonwealth"},
+        "side": {"enum": ["axis", "cw"], "description": "Whose facility it is"},
         "area": {"enum": ["malta", "off-map", "mediterranean"],
-                 "description": "malta: printed on the Malta inset, capacity in levels of 18 aircraft (44.14); off-map: 36.5's rules (unlimited supplies, never destroyed); mediterranean: a holding box across the sea (43.2)"},
+                 "description": "malta: printed on the Malta inset, capacity in levels of 18 aircraft (44.14); off-map: a Tripoli/Tunisia box under 36.5 (unlimited supplies, never destroyed); mediterranean: a holding box across the sea (43.2)"},
         "kind": {"enum": ["airfield", "flying-boat-basin", "flying-boat-alighting-area"]},
         "hex": {"$ref": "common.schema.json#/$defs/hexId", "description": "Malta inset hex"},
-        "entry_hex": {"$ref": "common.schema.json#/$defs/hexId", "description": "The map-edge hex aircraft enter and leave by (36.53)"},
         "box": {"enum": ["tunis", "gabes", "tripoli", "tripolitania", "italy", "sicily", "crete"]},
         "max_capacity": {"oneOf": [{"type": "integer", "minimum": 1}, {"type": "null"}],
-                         "description": "Standard level (Malta, levels) or maximum squadrons (off-map, 36.53); null: none printed"},
-        "available_from": {"$ref": "common.schema.json#/$defs/gameTime", "description": "No plane may be based here earlier"},
+                         "description": "Standard level (Malta, in levels); null: none printed"},
         "notes": {"type": "array", "items": {"type": "string"}},
         "sources": {"$ref": "common.schema.json#/$defs/sources"}}}}
   }

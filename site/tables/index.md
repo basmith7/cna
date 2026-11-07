@@ -82,6 +82,7 @@ For developers: the same values are JSON in `data/tables/`; see the [data conven
 |---|---|
 | [Air bombardment](/tables/air-bombardment) | [Air Game — bombing](/rules/air/60-bombing) |
 | [Air missions](/tables/air-missions) | [Air Game — missions](/rules/air/40-missions) |
+| [Air off map distances](/tables/air-off-map-distances) | [Air Game — air facilities](/rules/air/20-air-facilities), [Air Game — flight and maintenance](/rules/air/30-flight-and-maintenance) |
 | [Air reconnaissance](/tables/air-reconnaissance) | [Air Game — missions](/rules/air/40-missions) |
 | [Air reinforcement schedule](/tables/air-reinforcement-schedule) | [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus) |
 | [Aircraft characteristics](/tables/aircraft-characteristics) | [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus), [Air Game — flight and maintenance](/rules/air/30-flight-and-maintenance) |
@@ -97,6 +98,7 @@ For developers: the same values are JSON in `data/tables/`; see the [data conven
 | [Maneuver adjustment](/tables/maneuver-adjustment) | [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak) |
 | [Pilot arrival](/tables/pilot-arrival) | [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus) |
 | [Pilot plane recovery](/tables/pilot-plane-recovery) | [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak) |
+| [Printed flak](/tables/printed-flak) | [Air Game — bombing](/rules/air/60-bombing) |
 | [Scramble](/tables/scramble) | [Air Game — fighters](/rules/air/50-fighters) |
 | [Strafing](/tables/strafing) | [Air Game — fighters](/rules/air/50-fighters) |
 | [TacAir kill](/tables/tacair-kill) | [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak) |

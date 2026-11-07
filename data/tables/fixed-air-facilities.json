@@ -4,14 +4,13 @@
   "CNA1979:36.5",
   "CNA1979:44.12",
   "CNA1979:44.14",
-  "scan:p70",
-  "vassal:CNAv2.1.0"
+  "vassal:CNAv2.1.0",
+  "scan:p187"
  ],
  "notes": [
-  "Air facilities that are never built, moved or removed: the Maltese bases printed on the Malta inset (44.12), the Commonwealth's off-map facilities of the Allied Off-Map Air Facilities Chart (36.53) and the Axis off-map boxes. Bombing can bring their capacity to zero but never destroys them (36.5, 44.12); the Axis bases in Italy, Sicily and Crete cannot be bombed at all (36.5, 43.2).",
-  "max_capacity counts squadrons for off-map facilities (36.53's 'Maximum Squadrons', also the most SGSUs the facility may hold, 36.5) and levels for Malta, where a level serves up to 18 aircraft of any type and no SGSUs are used (44.14, R-165). null: no limit is printed.",
-  "The off-map rows are transcribed from 36.53 on the rulebook page (jp2 70). The Malta rows are read from the VASSAL map redraw's Malta inset, which prints each facility's standard level beside its symbol; it is not yet checked against a printed map (docs/autopilot/decisions.json, air-malta-facilities). Hal Far's symbol sits in M0505; data/map/places.json puts the Hal Far label at M0504.",
-  "Distances from the off-map facilities to their entry hexes (36.53) belong with the other off-map air distances (37.4) and are not repeated here."
+  "Air facilities that are never built, moved or removed: the Maltese bases printed on the Malta inset (44.12) and the Axis's off-map and Mediterranean boxes. Bombing can bring their capacity to zero but never destroys them (36.5, 44.12); the Axis bases in Italy, Sicily and Crete cannot be bombed at all (36.5, 43.2). The Commonwealth's off-map bases (36.53) are commonwealth_bases in air-off-map-distances.json, with the same kind of id; a scenario's fixed facility names a row of either.",
+  "max_capacity counts levels for Malta, where a level serves up to 18 aircraft of any type and no SGSUs are used (44.14, R-165). null: no limit is printed.",
+  "The Malta rows are read from the printed Map A inset (jp2 187), whose terrain key tells the symbols apart: four airfields, Kalafrana's flying-boat basin and Valletta's alighting area, each with its standard level; the VASSAL redraw agrees. Hal Far's symbol sits in M0505; data/map/places.json puts the Hal Far label at M0504."
  ],
  "rows": [
   {
@@ -24,7 +23,7 @@
    "max_capacity": 6,
    "sources": [
     "CNA1979:44.12",
-    "vassal:CNAv2.1.0"
+    "scan:p187"
    ]
   },
   {
@@ -37,7 +36,7 @@
    "max_capacity": 6,
    "sources": [
     "CNA1979:44.12",
-    "vassal:CNAv2.1.0"
+    "scan:p187"
    ]
   },
   {
@@ -50,7 +49,7 @@
    "max_capacity": 6,
    "sources": [
     "CNA1979:44.12",
-    "vassal:CNAv2.1.0"
+    "scan:p187"
    ]
   },
   {
@@ -63,7 +62,7 @@
    "max_capacity": 6,
    "sources": [
     "CNA1979:44.12",
-    "vassal:CNAv2.1.0"
+    "scan:p187"
    ]
   },
   {
@@ -76,10 +75,7 @@
    "max_capacity": 3,
    "sources": [
     "CNA1979:44.12",
-    "vassal:CNAv2.1.0"
-   ],
-   "notes": [
-    "Printed as a flying-boat symbol (the dark symbol Port Said's box also carries) with level 3, a basin's capacity (36.3)."
+    "scan:p187"
    ]
   },
   {
@@ -92,108 +88,7 @@
    "max_capacity": 1,
    "sources": [
     "CNA1979:44.12",
-    "vassal:CNAv2.1.0"
-   ],
-   "notes": [
-    "Printed as a dark flying-boat symbol of a different shape from Kalafrana's, with level 1; read as an alighting area (capacity 1, 36.4). Awaiting a printed check."
-   ]
-  },
-  {
-   "id": "port-said",
-   "name": "Port Said",
-   "side": "cw",
-   "area": "off-map",
-   "kind": "flying-boat-basin",
-   "entry_hex": "E4033",
-   "max_capacity": 3,
-   "sources": [
-    "CNA1979:36.5",
-    "scan:p70"
-   ]
-  },
-  {
-   "id": "abu-seier",
-   "name": "Abu Seier",
-   "side": "cw",
-   "area": "off-map",
-   "kind": "airfield",
-   "entry_hex": "E3433",
-   "max_capacity": 9,
-   "sources": [
-    "CNA1979:36.5",
-    "scan:p70"
-   ]
-  },
-  {
-   "id": "ismailia",
-   "name": "Ismailia",
-   "side": "cw",
-   "area": "off-map",
-   "kind": "airfield",
-   "entry_hex": "E3433",
-   "max_capacity": 9,
-   "sources": [
-    "CNA1979:36.5",
-    "scan:p70"
-   ]
-  },
-  {
-   "id": "fayid",
-   "name": "Fayid",
-   "side": "cw",
-   "area": "off-map",
-   "kind": "airfield",
-   "entry_hex": "E1833",
-   "max_capacity": 9,
-   "sources": [
-    "CNA1979:36.5",
-    "scan:p70"
-   ]
-  },
-  {
-   "id": "deversoir",
-   "name": "Deversoir",
-   "side": "cw",
-   "area": "off-map",
-   "kind": "airfield",
-   "entry_hex": "E1833",
-   "max_capacity": 9,
-   "sources": [
-    "CNA1979:36.5",
-    "scan:p70"
-   ]
-  },
-  {
-   "id": "kabrit",
-   "name": "Kabrit",
-   "side": "cw",
-   "area": "off-map",
-   "kind": "airfield",
-   "entry_hex": "E1833",
-   "max_capacity": 9,
-   "sources": [
-    "CNA1979:36.5",
-    "scan:p70"
-   ]
-  },
-  {
-   "id": "ethiopia",
-   "name": "Ethiopia",
-   "side": "cw",
-   "area": "off-map",
-   "kind": "airfield",
-   "entry_hex": "E0127",
-   "max_capacity": null,
-   "available_from": {
-    "game_turn": 35,
-    "opstage": 1
-   },
-   "sources": [
-    "CNA1979:36.5",
-    "scan:p70"
-   ],
-   "notes": [
-    "Unlimited capacity; no plane may be based here before the first OpStage of Game-Turn 35 (36.53)."
+    "scan:p187"
    ]
   },
   {

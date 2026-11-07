@@ -158,16 +158,16 @@
     },
     "airFacility": {
       "type": "object", "additionalProperties": false,
-      "description": "One air facility (§36): a kind at a hex, a fixed facility from tables/fixed-air-facilities.json, or so many of a kind the owner places within a placement",
+      "description": "One air facility (§36): a kind at a hex, a fixed facility by id, or so many of a kind the owner places within a placement",
       "oneOf": [{"required": ["kind", "hex"]}, {"required": ["fixed"]}, {"required": ["kind", "count", "placement"]}],
       "properties": {
         "kind": {"enum": ["airfield", "landing-strip", "flying-boat-basin", "flying-boat-alighting-area"]},
         "hex": {"$ref": "common.schema.json#/$defs/hexId"},
-        "fixed": {"type": "string", "pattern": "^[a-z][a-z-]*$", "description": "A tables/fixed-air-facilities.json id"},
+        "fixed": {"type": "string", "pattern": "^[a-z][a-z-]*$", "description": "A tables/fixed-air-facilities.json id or a commonwealth_bases id of tables/air-off-map-distances.json"},
         "count": {"type": "integer", "minimum": 1},
         "placement": {"$ref": "#/$defs/placement"},
         "name": {"type": "string"},
-        "capacity": {"type": "integer", "minimum": 0, "description": "Starting capacity in squadrons when below the facility's maximum (36.0: airfield 6, strip 1, basin 3, alighting area 1; a fixed facility's max_capacity)"},
+        "capacity": {"type": "integer", "minimum": 0, "description": "Starting capacity in squadrons when below the facility's maximum (36.0: airfield 6, strip 1, basin 3, alighting area 1; a fixed facility's printed maximum)"},
         "notes": {"type": "array", "items": {"type": "string"}}
       }
     },

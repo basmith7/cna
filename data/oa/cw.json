@@ -153,6 +153,16 @@
      "arrives": "deployed",
      "notes": [
       "later went to 22nd Armored Bde (sheet note a)"
+     ],
+     "shifts": [
+      {
+       "from": "unit:cw:7th-armored-bde-hq",
+       "to": "unit:cw:22-armd-bde-hq",
+       "month": null,
+       "notes": [
+        "7th Armored Division note a: later assigned to the 22nd Armored Brigade; no month"
+       ]
+      }
      ]
     },
     {
@@ -348,7 +358,17 @@
      ],
      "toe": [],
      "arrives": "deployed",
-     "toe_mark": "N"
+     "toe_mark": "N",
+     "shifts": [
+      {
+       "from": "unit:cw:4-in-hq",
+       "to": "unit:cw:10-indian-div-hq",
+       "month": "1942-06",
+       "notes": [
+        "10th Indian Division notes a and b: took the place of the 20th Brigade Group, destroyed June 1942"
+       ]
+      }
+     ]
     },
     {
      "id": "unit:cw:1-rfslr",
@@ -376,7 +396,17 @@
      ],
      "toe": [],
      "arrives": "deployed",
-     "toe_mark": "N"
+     "toe_mark": "N",
+     "shifts": [
+      {
+       "from": "unit:cw:5-in-hq",
+       "to": "unit:cw:25-in-hq",
+       "month": "1942-05",
+       "notes": [
+        "10th Indian Division note f: assigned to the 25th Brigade when the 25th arrived (2/82, May 1942)"
+       ]
+      }
+     ]
     },
     {
      "id": "unit:cw:4-6-rajrf",
@@ -828,7 +858,17 @@
      "notes": [
       "uncertain: arrives printed lower-case \"d\", read as D"
      ],
-     "toe_mark": "N"
+     "toe_mark": "N",
+     "shifts": [
+      {
+       "from": "unit:cw:16th-infantry-bde-hq",
+       "to": "unit:cw:21-in-hq",
+       "month": null,
+       "notes": [
+        "10th Indian Division note d: served in the 21st Brigade's British battalion slot; no month"
+       ]
+      }
+     ]
     },
     {
      "id": "unit:cw:16th-bde-anti-tank-coy",
@@ -1749,7 +1789,17 @@
       "game_turn": 31,
       "opstage": 1
      },
-     "toe_mark": "N"
+     "toe_mark": "N",
+     "shifts": [
+      {
+       "from": null,
+       "to": "unit:cw:10-armd-div-hq",
+       "month": null,
+       "notes": [
+        "10th Armored Division note a: assigned when the division became operable; no month"
+       ]
+      }
+     ]
     }
    ]
   },
@@ -2197,7 +2247,17 @@
      "arrives": {
       "game_turn": 80,
       "opstage": 2
-     }
+     },
+     "shifts": [
+      {
+       "from": null,
+       "to": "unit:cw:5-indian-div-hq",
+       "month": null,
+       "notes": [
+        "5th Indian Division note a: eventually assigned; no month"
+       ]
+      }
+     ]
     },
     {
      "id": "unit:cw:4-fld",
@@ -2218,7 +2278,17 @@
      "arrives": {
       "game_turn": 33,
       "opstage": 1
-     }
+     },
+     "shifts": [
+      {
+       "from": null,
+       "to": "unit:cw:5-indian-div-hq",
+       "month": null,
+       "notes": [
+        "5th Indian Division note a: eventually assigned; no month"
+       ]
+      }
+     ]
     },
     {
      "id": "unit:cw:8-fld",
@@ -3560,6 +3630,16 @@
      },
      "notes": [
       "b: 13th Duke of Connaught's Own Lancers; arrived attached to the 18th Indian Brigade"
+     ],
+     "shifts": [
+      {
+       "from": null,
+       "to": "unit:cw:3-in",
+       "month": null,
+       "notes": [
+        "18th Indian Brigade note b: eventually part of the 3rd Indian Motor Brigade; no month"
+       ]
+      }
      ]
     }
    ],
@@ -6182,7 +6262,17 @@
      "arrives": {
       "game_turn": 20,
       "opstage": 3
-     }
+     },
+     "shifts": [
+      {
+       "from": null,
+       "to": "unit:cw:7th-armored-div-hq",
+       "month": null,
+       "notes": [
+        "1st Armored Division historical note: meant for the 1st Armored, went to the 7th; no month"
+       ]
+      }
+     ]
     },
     {
      "id": "unit:cw:2-hus",
@@ -6299,6 +6389,24 @@
      "notes": [
       "no unit table; counter abbreviation from sheet text (two counters, 22 Gds and 200 Gds)",
       "arrival not printed in a table; sheet text says formed Feb 1941 (3/21)"
+     ],
+     "shifts": [
+      {
+       "from": null,
+       "to": "unit:cw:70th-infantry-div-hq",
+       "month": "1941-02",
+       "notes": [
+        "sheet text: assigned to the 70th Infantry Division from February 1941 (2/21)"
+       ]
+      },
+      {
+       "from": "unit:cw:70th-infantry-div-hq",
+       "to": null,
+       "month": "1941-04",
+       "notes": [
+        "sheet text: assigned to the 70th Infantry Division until April 1941 (1/29); leaves it independent"
+       ]
+      }
      ]
     },
     {
@@ -7746,7 +7854,17 @@
      "arrives": {
       "game_turn": 73,
       "opstage": 3
-     }
+     },
+     "shifts": [
+      {
+       "from": null,
+       "to": "unit:cw:5-indian-div-hq",
+       "month": "1942-08",
+       "notes": [
+        "161st Indian Motor Brigade note a: came under the 5th Indian Division on arrival in August; the sheet's arrival (3/73) is March 1942, so August 1942"
+       ]
+      }
+     ]
     },
     {
      "id": "unit:cw:1-2-pjb",

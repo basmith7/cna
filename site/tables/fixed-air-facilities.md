@@ -12,36 +12,28 @@ Used in [Air Game — air facilities](/rules/air/20-air-facilities), [Air Game �
 
 ## Table
 
-| Id | Name | Side | Area | Kind | Hex | Max capacity | Entry hex | Available from | Box | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| takali | Takali | Commonwealth | malta | airfield | M0802 | 6 | — | — | — |  |
-| luqa | Luqa | Commonwealth | malta | airfield | M0704 | 6 | — | — | — |  |
-| safi | Safi | Commonwealth | malta | airfield | M0604 | 6 | — | — | — |  |
-| hal far | Hal Far | Commonwealth | malta | airfield | M0505 | 6 | — | — | — |  |
-| kalafrana | Kalafrana | Commonwealth | malta | flying boat basin | M0506 | 3 | — | — | — | <span class="wrap">Printed as a flying-boat symbol (the dark symbol Port Said's box also carries) with level 3, a basin's capacity (36.3).</span> |
-| valletta | Valletta | Commonwealth | malta | flying boat alighting area | M0805 | 1 | — | — | — | <span class="wrap">Printed as a dark flying-boat symbol of a different shape from Kalafrana's, with level 1; read as an alighting area (capacity 1, 36.4). Awaiting a printed check.</span> |
-| port said | Port Said | Commonwealth | off map | flying boat basin | — | 3 | E4033 | — | — |  |
-| abu seier | Abu Seier | Commonwealth | off map | airfield | — | 9 | E3433 | — | — |  |
-| ismailia | Ismailia | Commonwealth | off map | airfield | — | 9 | E3433 | — | — |  |
-| fayid | Fayid | Commonwealth | off map | airfield | — | 9 | E1833 | — | — |  |
-| deversoir | Deversoir | Commonwealth | off map | airfield | — | 9 | E1833 | — | — |  |
-| kabrit | Kabrit | Commonwealth | off map | airfield | — | 9 | E1833 | — | — |  |
-| ethiopia | Ethiopia | Commonwealth | off map | airfield | — | — | E0127 | Game turn: 35<br>Op stage: 1 | — | <span class="wrap">Unlimited capacity; no plane may be based here before the first OpStage of Game-Turn 35 (36.53).</span> |
-| tunis | Tunis | axis | off map | airfield | — | — | — | — | tunis | <span class="wrap">One of 60.5's four Tripoli/Tunisia boxes; no capacity is printed on the box. Same box ids as off-map-distances.json.</span> |
-| gabes | Gabes | axis | off map | airfield | — | — | — | — | gabes | <span class="wrap">One of 60.5's four Tripoli/Tunisia boxes; no capacity is printed on the box. Same box ids as off-map-distances.json.</span> |
-| tripoli | Tripoli | axis | off map | airfield | — | — | — | — | tripoli | <span class="wrap">One of 60.5's four Tripoli/Tunisia boxes; no capacity is printed on the box. Same box ids as off-map-distances.json.</span> |
-| tripolitania | Tripolitania | axis | off map | airfield | — | — | — | — | tripolitania | <span class="wrap">One of 60.5's four Tripoli/Tunisia boxes; no capacity is printed on the box. Same box ids as off-map-distances.json.</span> |
-| italy | Italy | axis | mediterranean | airfield | — | — | — | — | italy | <span class="wrap">A Mediterranean holding box: German bombers based here need no SGSUs (43.21) and it cannot be bombed (36.5); how many planes may be based here is set by 43.1 and each scenario, not by a capacity.</span> |
-| sicily | Sicily | axis | mediterranean | airfield | — | — | — | — | sicily | <span class="wrap">A Mediterranean holding box: German bombers based here need no SGSUs (43.21) and it cannot be bombed (36.5); how many planes may be based here is set by 43.1 and each scenario, not by a capacity.</span> |
-| crete | Crete | axis | mediterranean | airfield | — | — | — | — | crete | <span class="wrap">A Mediterranean holding box: German bombers based here need no SGSUs (43.21) and it cannot be bombed (36.5); how many planes may be based here is set by 43.1 and each scenario, not by a capacity.</span> |
+| Id | Name | Side | Area | Kind | Hex | Max capacity | Box | Notes |
+|---|---|---|---|---|---|---|---|---|
+| takali | Takali | Commonwealth | malta | airfield | M0802 | 6 | — |  |
+| luqa | Luqa | Commonwealth | malta | airfield | M0704 | 6 | — |  |
+| safi | Safi | Commonwealth | malta | airfield | M0604 | 6 | — |  |
+| hal far | Hal Far | Commonwealth | malta | airfield | M0505 | 6 | — |  |
+| kalafrana | Kalafrana | Commonwealth | malta | flying boat basin | M0506 | 3 | — |  |
+| valletta | Valletta | Commonwealth | malta | flying boat alighting area | M0805 | 1 | — |  |
+| tunis | Tunis | axis | off map | airfield | — | — | tunis | <span class="wrap">One of 60.5's four Tripoli/Tunisia boxes; no capacity is printed on the box. Same box ids as off-map-distances.json.</span> |
+| gabes | Gabes | axis | off map | airfield | — | — | gabes | <span class="wrap">One of 60.5's four Tripoli/Tunisia boxes; no capacity is printed on the box. Same box ids as off-map-distances.json.</span> |
+| tripoli | Tripoli | axis | off map | airfield | — | — | tripoli | <span class="wrap">One of 60.5's four Tripoli/Tunisia boxes; no capacity is printed on the box. Same box ids as off-map-distances.json.</span> |
+| tripolitania | Tripolitania | axis | off map | airfield | — | — | tripolitania | <span class="wrap">One of 60.5's four Tripoli/Tunisia boxes; no capacity is printed on the box. Same box ids as off-map-distances.json.</span> |
+| italy | Italy | axis | mediterranean | airfield | — | — | italy | <span class="wrap">A Mediterranean holding box: German bombers based here need no SGSUs (43.21) and it cannot be bombed (36.5); how many planes may be based here is set by 43.1 and each scenario, not by a capacity.</span> |
+| sicily | Sicily | axis | mediterranean | airfield | — | — | sicily | <span class="wrap">A Mediterranean holding box: German bombers based here need no SGSUs (43.21) and it cannot be bombed (36.5); how many planes may be based here is set by 43.1 and each scenario, not by a capacity.</span> |
+| crete | Crete | axis | mediterranean | airfield | — | — | crete | <span class="wrap">A Mediterranean holding box: German bombers based here need no SGSUs (43.21) and it cannot be bombed (36.5); how many planes may be based here is set by 43.1 and each scenario, not by a capacity.</span> |
 
 ## Notes
 
-- Air facilities that are never built, moved or removed: the Maltese bases printed on the Malta inset (44.12), the Commonwealth's off-map facilities of the Allied Off-Map Air Facilities Chart (36.53) and the Axis off-map boxes. Bombing can bring their capacity to zero but never destroys them (36.5, 44.12); the Axis bases in Italy, Sicily and Crete cannot be bombed at all (36.5, 43.2).
-- max_capacity counts squadrons for off-map facilities (36.53's 'Maximum Squadrons', also the most SGSUs the facility may hold, 36.5) and levels for Malta, where a level serves up to 18 aircraft of any type and no SGSUs are used (44.14, R-165). null: no limit is printed.
-- The off-map rows are transcribed from 36.53 on the rulebook page (jp2 70). The Malta rows are read from the VASSAL map redraw's Malta inset, which prints each facility's standard level beside its symbol; it is not yet checked against a printed map (docs/autopilot/decisions.json, air-malta-facilities). Hal Far's symbol sits in M0505; data/map/places.json puts the Hal Far label at M0504.
-- Distances from the off-map facilities to their entry hexes (36.53) belong with the other off-map air distances (37.4) and are not repeated here.
+- Air facilities that are never built, moved or removed: the Maltese bases printed on the Malta inset (44.12) and the Axis's off-map and Mediterranean boxes. Bombing can bring their capacity to zero but never destroys them (36.5, 44.12); the Axis bases in Italy, Sicily and Crete cannot be bombed at all (36.5, 43.2). The Commonwealth's off-map bases (36.53) are commonwealth_bases in air-off-map-distances.json, with the same kind of id; a scenario's fixed facility names a row of either.
+- max_capacity counts levels for Malta, where a level serves up to 18 aircraft of any type and no SGSUs are used (44.14, R-165). null: no limit is printed.
+- The Malta rows are read from the printed Map A inset (jp2 187), whose terrain key tells the symbols apart: four airfields, Kalafrana's flying-boat basin and Valletta's alighting area, each with its standard level; the VASSAL redraw agrees. Hal Far's symbol sits in M0505; data/map/places.json puts the Hal Far label at M0504.
 
 ---
 
-<p class="table-sources">Sources: <span class="wrap">SPI 36.5 · SPI 44.12 · SPI 44.14 · scan page 70 · vassal:CNAv2.1.0</span>. Data: <a href="https://github.com/basmith7/cna/blob/main/data/tables/fixed-air-facilities.json">data/tables/fixed-air-facilities.json</a> (CC0).</p>
+<p class="table-sources">Sources: <span class="wrap">SPI 36.5 · SPI 44.12 · SPI 44.14 · vassal:CNAv2.1.0 · scan page 187</span>. Data: <a href="https://github.com/basmith7/cna/blob/main/data/tables/fixed-air-facilities.json">data/tables/fixed-air-facilities.json</a> (CC0).</p>

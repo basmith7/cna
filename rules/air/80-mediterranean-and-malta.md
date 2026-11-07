@@ -67,14 +67,18 @@ Malta are always given a particular hex.
 
 ::: spi 44.11 44.12
 
-The Malta inset on map A is not at the map's scale or in its true place;
-its box lists how far it is by air to key places in Africa. Of what it shows,
+::: ruling R-168 — the Air Distance Chart's Malta figures stand for the missing Malta box
+
+The Malta inset on map A is not at the map's scale or in its true place.
+The rules put its air distances to Africa in a box on the inset; the printed
+inset has none, and the Air Distance Chart's Malta figures serve instead
+([flight](30-flight-and-maintenance.md#how-aircraft-fly), §37.4). Of what it shows,
 only the air facilities and the port of Valletta matter. The air facilities
 are printed on the map, permanent and fixed: none may be added, and bombing
 can reduce them to nothing but never remove them. The inset prints each
 one's standard level: airfields at Takali, Luqa, Safi and Hal Far (6 each),
-a flying-boat basin at Kalafrana (3) and, by our reading, an alighting area
-at Valletta (1), in
+a flying-boat basin at Kalafrana (3) and an alighting area at Valletta
+(1), in
 [`data/tables/fixed-air-facilities.json`](https://github.com/basmith7/cna/blob/main/data/tables/fixed-air-facilities.json).
 
 ::: spi 44.13 44.5

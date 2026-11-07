@@ -164,12 +164,21 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
                     errors.append(f"{label}: {u['id']}: assigns without replaces")
                 for ref in ([u["replaces"]] if "replaces" in u else []) + u.get("assigns", []):
                     others.append((label, u["id"], ref))
+                held = [u["parent"]]
+                for sh in u.get("shifts", []):
+                    if sh["from"] not in held:
+                        errors.append(f"{label}: {u['id']}: shift leaves {sh['from']}, "
+                                      "neither its sheet parent nor an earlier shift's to")
+                    if sh["from"] == sh["to"]:
+                        errors.append(f"{label}: {u['id']}: shift from {sh['from']} to itself")
+                    others.extend((label, u["id"], ref) for ref in (sh["from"], sh["to"]) if ref)
+                    held.append(sh["to"])
     for label, uid, parent in parents:
         if parent not in units:
             errors.append(f"{label}: {uid}: unknown parent {parent}")
     for label, uid, ref in others:
         if ref not in units:
-            errors.append(f"{label}: {uid}: replaces or assigns unknown unit {ref}")
+            errors.append(f"{label}: {uid}: replaces, assigns or shifts unknown unit {ref}")
 
     hexes: set[str] = set()
     places: set[str] = set()
@@ -179,7 +188,8 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
     if (m / "places.json").exists():
         places = {pl["id"] for pl in (_load_json(m / "places.json", "map/places.json", []) or {"places": []})["places"]}
 
-    fixed_air = {r["id"] for r in (tables.get("fixed-air-facilities") or {"rows": []})["rows"]}
+    fixed_air = {r["id"] for r in (tables.get("fixed-air-facilities") or {"rows": []})["rows"]} \
+        | {b["id"] for b in (tables.get("air-off-map-distances") or {}).get("commonwealth_bases", [])}
 
     def refs(label: str, doc) -> None:
         for k, v in _walk(doc):
