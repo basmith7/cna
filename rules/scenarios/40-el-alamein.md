@@ -120,6 +120,14 @@ Otherwise each side counts its TOE strength points on the enemy's map (the
 Axis on map E; the Commonwealth on map D, not counting Layforce and SAS);
 the larger total wins a tactical victory.
 
+::: ruling R-183 — what the tactical count of TOE points includes
+
+Every TOE strength point of a side's land units on that sheet at the end
+counts, guns and an HQ's own points included; broken-down tank points
+waiting for repair do not. Layforce is the "A" Battalion, Special Service
+Brigade. Equal totals give no victory (`victory.toe_on_sheet`; ruling
+[R-183](../../rulings/R-183.md)).
+
 ::: spi 63.92
 
 **The Long Retreat.** The Axis scores points for each place it occupies at
