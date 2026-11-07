@@ -25,6 +25,7 @@
   "Italian notes: from 1/39 'ww' recon may upgrade (Case 20.5); from 1/75 Italian battle groups and some HQs may add anti-tank SP (Case 19.8); vv = Autoblinda 41, ww = Autoblinda 40, both Breakdown Adjustment Rating 1 Left; units with heavy AA SP have 75/46 guns; 't' has armour protection only when carried by truck/motorization points (counts as halftracks, Case 14.88).",
   "German chart printed twice: p136 and p170. They differ only in the mark on HQ c and d CPA: p136 prints '30**', p170 prints '30†'. The key defines '**' (keeps CPA regardless of assigned SP) and no '†', so '30**' is recorded.",
   "German '*' after ID codes b and e (recorded as plain 'b','e'): this HQ may be eligible to add anti-tank TOE SP (Case 19.8). German '**' after CPA: keeps that CPA regardless of the SP assigned. German '‡' on j CPA: when carried by truck/motorization points the unit counts as halftracks (Case 14.88); otherwise it has no armour protection, and motorizing changes more than CPA.",
+  "halftrack: true types the chart's halftrack notes on Italian t and German j (the notes above cite Case 14.88; the halftrack rule is 14.48): armour_protection is kept as printed but applies only while the unit is wholly carried by truck or motorisation points (R-177).",
   "German notes: from 1/39 'ff' recon may upgrade (Case 20.5); from 1/75 German battle groups and some HQs may add anti-tank SP (Case 19.8); ee and ff have Breakdown Adjustment Rating 1 Left.",
   "German dd row prints no dashes at all on its rating line (blank cells); recorded as null like the dashes.",
   "German 'Heavy Anti-air' label prints on the cc row and 'Bn-Eq' on the dd row; both recorded as 'Heavy Anti-air Bn-Eq'.",
@@ -1251,6 +1252,7 @@
    "close_assault_defence": 2,
    "max_toe": 7,
    "assign_note": null,
+   "halftrack": true,
    "sources": [
     "CNA1979:4.46",
     "scan:p168"
@@ -2071,6 +2073,7 @@
    "close_assault_defence": 2,
    "max_toe": 7,
    "assign_note": null,
+   "halftrack": true,
    "sources": [
     "CNA1979:4.46",
     "scan:p170"

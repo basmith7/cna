@@ -150,6 +150,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-173](./R-173.md) | SGSU upkeep with the Air Game and abstract logistics | accepted | 35.14, 47.0, 47.13 |
 | [R-174](./R-174.md) | Refit and repair costs with the Air Game and abstract logistics | accepted | 38.36, 45.62, 45.64, 47.0, 47.2 |
 | [R-176](./R-176.md) | Which O/A notes are historical shifts, and in which month | accepted | 19.24, 19.21 |
+| [R-177](./R-177.md) | What a halftrack unit is in combat | accepted | 14.48, 12.43, 15.11, 32.51 |
 
 ## Variants
 
