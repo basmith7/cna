@@ -95,7 +95,7 @@ Missions 1–6 are complete (PRs #2–#187); their summaries are in the git hist
 
 ## Next steps
 
-For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. With neither, do nothing and say so. As of 2026-11-07 ~01:55 UTC all nine of today's requests are answered (#290–#298), the engine's list is empty and nothing new has arrived. #298 (R-164) changes no data, but the engine should stop zero-TOE units exerting ZOC or being barraged, and capture them only when alone in an enemy ZOC. At that bump: #294 adds `up_to` to fortification rows (engine still demands all three Bardia forts until it reads it); #296 adds `construction.pipeline_hexes_built` and `railroad_pipeline_sources`; #295 and #297 change no data, but R-162 needs the engine's site check on owner-chosen `placed_works` and R-163 sets units' water to zero (not one stage). From earlier: #291's errata E-035 takes the schedule to 280 rows (the `cna-data` count test says 278); #292 changes three hexsides' rail features; #293 swaps two `unattached` placements to hex lists; #282 OA counts, #284 `under`.
+For the autopilot: only cna-engine's **Requests for cna** and Brian's Feedback. Run of 2026-11-07 ~02:55 UTC found seven new Mission 7 requests from cna-engine and is answering them one PR each in parallel (branches `autopilot/req-air-facilities`, `-air-offmap-distances`, `-aircraft-keys`, `-air-targets-p47`, `-sgsu-upkeep-p47`, `-printed-flak`, `-parent-shifts`; rulings R-165, R-167–R-176 reserved). Any still open as drafts next run: merge origin/main into it, finish gates, merge.
 
 For Brian (all optional):
 

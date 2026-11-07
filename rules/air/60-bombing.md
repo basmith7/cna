@@ -275,6 +275,11 @@ only the aircraft losses apply, not the facility's. Each box's flak is
 printed in it, fixed and indestructible. Axis CAP over a box covers every
 target in it. The port of Tripoli may be bombed by night.
 
+The printed AA points are data:
+[`data/tables/printed-flak.json`](https://github.com/basmith7/cna/blob/main/data/tables/printed-flak.json)
+(Tunis 15, Gabes 10, Tripoli 25, Tripolitania 10). They are the only flak
+printed on the map; it counts as heavy (R-111), so fighters cannot suppress it.
+
 ## Pinned by bombing {#pinned-by-bombing}
 
 ::: spi 41.9

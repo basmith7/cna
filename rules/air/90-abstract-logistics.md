@@ -50,6 +50,27 @@ supply units, combat units or other motorisation points.
 These replace the per-aircraft costs of the full Air Game
 ([maintenance](30-flight-and-maintenance.md#maintenance)).
 
+### Upkeep, refits and repairs {#upkeep-refits-and-repairs}
+
+::: ruling R-173 — SGSU upkeep with the Air Game and abstract logistics
+
+::: ruling R-174 — refit and repair costs with the Air Game and abstract logistics
+
+Nothing else in the Air Game spends supplies here (§32 ignores every other
+supply cost, 32.11):
+
+| Full Air Game cost | With abstract logistics |
+|---|---|
+| SGSU upkeep, 1 fuel and 1 water a stage and 1 stores a turn (35.14) | nothing ([R-173](../../rulings/R-173.md)) |
+| 1 stores per squadron refit roll (38.36) | nothing ([R-174](../../rulings/R-174.md)) |
+| 1 stores and 1 fuel per repaired aircraft (45.62, 45.64) | nothing ([R-174](../../rulings/R-174.md)) |
+
+What these supplies were a condition for still holds: an SGSU may refit
+or repair aircraft only while it can draw supplies under 47.11–47.13, at
+an off-map air facility, in or within reach of Cairo or Alexandria
+(Commonwealth only), or within 15 CP of a friendly supply unit, depots
+included. Rolls, limits and delays are as printed.
+
 ## Moving supply units
 
 ::: spi 47.3 47.31 47.32 47.33 47.34
@@ -101,6 +122,63 @@ play, motorisation points arrive as truck replacements do: one point for
 each medium or heavy truck point the side could bring in, from the Axis
 truck production chart of the replacement pool or the Commonwealth truck
 production table.
+
+## Bombing and strafing targets {#air-targets}
+
+::: spi-ref 47.51 41.32 41.35 41.39 40.62 40.64 40.66 40.67
+
+Every land support target of [bombing](60-bombing.md#targets) and
+[strafing](50-fighters.md#resolving-a-strafing-attack) stays. Where §32 has
+replaced what a target stands for, it is read as follows.
+
+::: ruling R-171 — supply units are supply dumps; motorisation points are first-line trucks when attached to a combat unit, trucks in convoy otherwise
+
+**Supply dumps.** Every supply unit, regular or depot, real or dummy, is a
+supply dump ([R-171](../../rulings/R-171.md)).
+
+- A **supply dump bombing** (41.35) names a hex and hits every supply unit
+  in it. **Dump strafing** (40.64) is per aircraft (40.53): the attacker
+  shares his aircraft among the supply units in the hex.
+- A percentage result destroys that share of each unit's ammunition and of
+  its fuel, each rounded up. A unit left with neither is removed (32.11); a
+  depot left with 60 fuel or less becomes a regular unit (47.14).
+- A dummy supply unit that is bombed or strafed is revealed and removed,
+  whatever the roll (as a dummy dump, 54.12).
+- 41.35's "unattached trucks" are the hex's motorisation points not
+  attached to a combat unit: one point lost per full 10 %.
+
+**Trucks.** Motorisation points are trucks (47.51), and which kind depends
+on what they are attached to:
+
+| Motorisation points | Target | Bombing (41.32) | Strafing (40.62) |
+|---|---|---|---|
+| attached to a combat unit | its first-line trucks | D-capable aircraft only | name the parent unit |
+| carrying a supply unit, or detached | trucks in convoy | any bomber | one column right |
+
+A truck result removes motorisation points only: a supply unit's contents
+are not carried point by point, so nothing else is lost. A supply unit left
+with fewer points than it needs to move (30 regular, 6 dummy, 50 depot)
+stays put until made up in an organisation phase. A combat unit left with
+fewer points than its TOE strength points is no longer motorised
+([R-123](../../rulings/R-123.md)). Infantry losses to strafing (40.61) take
+one motorisation point per TOE strength point lost from a motorised unit.
+
+::: ruling R-172 — ports and the water pipeline stay targets; efficiency never limits a §47 convoy, and a cut pipeline has no effect
+
+**Ports** are bombed, strafed, torpedoed and mined as printed
+([R-172](../../rulings/R-172.md)). A port's current efficiency level
+starts where the scenario sets it (the maximum on the
+[Port Capacity Chart](../logistics/50-ports-and-shipping.md#port-capacity-chart)
+unless the scenario says otherwise), recovers a level in any stage it is not bombed (55.18), and has mines or
+blocked levels cleared by engineers (55.26), spending no supplies
+([R-133](../../rulings/R-133.md)). The level limits only what the Land Game
+and §32 already read from it: the Commonwealth's supply unit by sea (32.36,
+50 % or better) and the Axis diversion to Benghazi (level 3 or better). It
+never limits an Axis convoy, which has no tonnage limit here (47.61).
+
+**The water pipeline** may be strafed and cut as printed (40.67), and the
+cut is recorded, but with water ignored (32.11) it has no effect under
+abstract logistics.
 
 ## Axis convoys {#axis-convoys}
 

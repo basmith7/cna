@@ -146,6 +146,17 @@
         "My copy says something else (say what)",
         "Leave as none"
       ]
+    },
+    {
+      "id": "printed-flak-boxes",
+      "group": "copy",
+      "title": "Flak printed in the Tunis, Gabes, Tripoli and Tripolitania boxes",
+      "context": "41.85 says each west-edge box prints its own constant AA points. No scan of the SPI map is in hand, so data/tables/printed-flak.json reads them from the VASSAL redraw: Tunis 15, Gabes 10, Tripoli 25, Tripolitania 10. One community database has Tripoli at 26. Until answered the engine uses the redraw's values.",
+      "options": [
+        "My copy matches (15, 10, 25, 10)",
+        "My copy has Tripoli at 26, the rest match",
+        "My copy differs elsewhere (say which)"
+      ]
     }
   ]
 }
