@@ -53,7 +53,7 @@ For developers: the same values are JSON in `data/tables/`; see the [data conven
 | [Stacking point values](/tables/stacking-point-values) | [Stacking, zones of control and reserve](/rules/50-stacking-and-zoc) |
 | [Terrain effects](/tables/terrain-effects) | [Movement](/rules/40-movement), [Stacking, zones of control and reserve](/rules/50-stacking-and-zoc), [Combat](/rules/60-combat) |
 | [Training](/tables/training) | [Units and state](/rules/10-units-and-state) |
-| [Unit characteristics](/tables/unit-characteristics) | [Units and state](/rules/10-units-and-state), [Stacking, zones of control and reserve](/rules/50-stacking-and-zoc), [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak) |
+| [Unit characteristics](/tables/unit-characteristics) | [Units and state](/rules/10-units-and-state), [Stacking, zones of control and reserve](/rules/50-stacking-and-zoc), [Combat](/rules/60-combat), [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak) |
 | [Vehicle repair](/tables/vehicle-repair) | [Engineering](/rules/80-engineering) |
 | [Weapon systems](/tables/weapon-systems) | [Units and state](/rules/10-units-and-state), [Fuel](/rules/logistics/10-fuel), [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak) |
 | [Weather](/tables/weather) | [Special rules](/rules/90-special) |

@@ -34,6 +34,7 @@
           "close_assault_offence": {"$ref": "#/$defs/cell"},
           "close_assault_defence": {"$ref": "#/$defs/cell"},
           "max_toe": {"$ref": "#/$defs/cell"},
+          "halftrack": {"type": "boolean", "description": "true: the unit counts as halftracks (SPI 14.48) and has its armour_protection only while wholly carried by truck or motorisation points; not so carried it has none. Absent means false. R-177"},
           "assign_note": {"type": ["string", "null"], "description": "Our words for the chart's attachment note (what TOE of another kind the unit may take)"},
           "sources": {"$ref": "common.schema.json#/$defs/sources"}
         }

@@ -52,6 +52,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-009](../rulings/R-009.md) — barrage terrain shifts protect the target of either side's barrage, not only the non-phasing player
 - [R-010](../rulings/R-010.md) — retreat before assault may go in any direction; 15.82's direction rules do not apply
 - [R-015](../rulings/R-015.md) — terrain shifts only the phasing side's anti-armour fire; the non-phasing side fires unshifted
+- [R-177](../rulings/R-177.md) — halftracks are infantry class, never withheld, armoured only while carried; a loss takes one motorisation point or one infantry point's trucks
 - [R-014](../rulings/R-014.md) — only a battalion-size or larger combat unit can capture destroyed tanks, as for broken-down vehicles
 - [R-013](../rulings/R-013.md) — pinned units spend no ammunition in a close assault
 - [R-122](../rulings/R-122.md) — points held back from a committed defender always count in the loss base; a unit withheld whole counts only in an overrun
@@ -436,6 +437,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-173](../rulings/R-173.md) | accepted | 35.14, 47.0, 47.13 |
 | [R-174](../rulings/R-174.md) | accepted | 38.36, 45.62, 45.64, 47.0, 47.2 |
 | [R-176](../rulings/R-176.md) | accepted | 19.24, 19.21 |
+| [R-177](../rulings/R-177.md) | accepted | 14.48, 12.43, 15.11, 32.51 |
 
 ## Variants register
 

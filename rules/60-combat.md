@@ -408,6 +408,8 @@ hexside the chart shifts that is open to fire without a road or track.
 
 ::: spi 14.4 14.41 14.42 14.43 14.44 14.45 14.46 14.47 14.48
 
+::: ruling R-177 — halftracks are infantry class, never withheld, armoured only while carried; a loss takes one motorisation point or one infantry point's trucks
+
 The table yields **damage points**. Each armoured TOE point absorbs damage
 equal to its armour protection rating before it is destroyed; the owner must
 remove enough points to absorb *at least* the damage rolled, from any unit
@@ -422,11 +424,20 @@ nothing else.
 - Self-propelled guns absorb by armour protection like any other armoured
   point. An SP gun barraging from a *back* position is outside anti-armour
   fire altogether: it neither absorbs damage nor suffers it.
+- **Halftracks** are the German `j` and Italian `t` infantry battalions
+  (`halftrack: true` in `data/tables/unit-characteristics.json`). They have
+  their printed armour protection only while the whole unit is carried by
+  truck or motorisation points; on foot they have none and anti-armour fire
+  cannot touch them. In every other respect they are infantry: the infantry
+  column of the barrage table, and never withheld from assault.
 - If the only points in the hex that anti-armour fire could touch are
-  **halftracks** (some Axis motorised infantry), their protection is doubled
-  and no more than **two** halftrack points can be lost to anti-armour fire
-  in one segment. A halftrack loss removes the infantry point and its
-  carrying truck points.
+  halftracks, their protection is doubled. Whatever else is in the hex, no
+  more than **two** halftrack points can be lost to anti-armour fire in one
+  segment. A halftrack loss removes the infantry point and the trucks that
+  carried it: one motorisation point under §32; in the full game, truck
+  points of the owner's choice from the unit's own with room for at least
+  one infantry point (one medium, one heavy or two light)
+  ([R-177](../rulings/R-177.md)).
 
 ::: errata E-003 — 14.47 as printed (protection plus vulnerability) is withdrawn; SP guns use protection only, and a back SP gun is untouched
 

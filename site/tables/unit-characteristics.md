@@ -8,136 +8,136 @@ aside: false
 
 # Unit characteristics
 
-Used in [Units and state](/rules/10-units-and-state), [Stacking, zones of control and reserve](/rules/50-stacking-and-zoc), [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak).
+Used in [Units and state](/rules/10-units-and-state), [Stacking, zones of control and reserve](/rules/50-stacking-and-zoc), [Combat](/rules/60-combat), [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak).
 
 ## Table
 
-| Nation | Id code | Unit type | Equivalent | CPA | Anti-air | Barrage | Anti-armour | Vulnerability | Armour protection | Close assault offence | Close assault defence | Max TOE | Assign note |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Commonwealth | a | Headquarters | hq | 30 | — | — | — | — | — | — | — | — | — |
-| Commonwealth | b | Headquarters | hq | 30\* | — | — | — | — | — | — | — | (1) | may assign one tank SP |
-| Commonwealth | c | Headquarters | hq | 30 | — | — | — | — | — | — | — | 3 | may assign up to three artillery SP |
-| Commonwealth | d | Headquarters | hq | 20\* | — | — | — | — | — | — | — | (1) | may assign one tank SP |
-| Commonwealth | e | Headquarters | hq | 20 | — | — | 1 | 1 | — | 0 | 1 | 1 | — |
-| Commonwealth | f | Headquarters | hq | 20 | — | — | 2 | 1 | — | 0 | 1 | 1 | — |
-| Commonwealth | g | Tank Bn-Eq | battalion | 25 | — | — | — | — | — | — | — | 10† | may assign up to ten tank SP |
-| Commonwealth | h | Infantry Bn-Eq | battalion | 15 | — | — | — | — | — | 2 | 2 | 5 | — |
-| Commonwealth | j | Infantry Bn-Eq | battalion | 15 | — | — | — | — | — | 2 | 2 | 4 | — |
-| Commonwealth | k | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 2 | 2 | 7 | — |
-| Commonwealth | l | Infantry Bn-Eq | battalion | 10+ | — | — | — | — | — | 2 | 2 | 6 | — |
-| Commonwealth | m | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 2 | 2 | 6 | — |
-| Commonwealth | n | Infantry Bn-Eq | battalion | 10+ | — | — | — | — | — | 1 | 2 | 6 | — |
-| Commonwealth | p | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 2 | 6 | — |
-| Commonwealth | q | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 1 | 6 | — |
-| Commonwealth | r | Infantry Bn-Eq | battalion | 10 | — | — | 1 | — | — | 1 | 2 | 5 | — |
-| Commonwealth | s | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 2 | 5 | — |
-| Commonwealth | t | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 1 | 3 | — |
-| Commonwealth | u | Infantry Bn-Eq | battalion | 8 | — | — | — | — | — | 4 | 6 | 3 | — |
-| Commonwealth | v | Infantry Company-Eq | company | 10+ | — | — | — | — | — | 1 | 1 | 1 | — |
-| Commonwealth | w | Infantry Company-Eq | company | 8 | — | — | — | — | — | 4 | 6 | 2 | — |
-| Commonwealth | x | Artillery Battalion-Eq | battalion | 20 | — | — | — | — | — | — | — | 6 | may assign up to six artillery SP |
-| Commonwealth | y | Artillery Battalion-Eq | battalion | 20 | — | — | — | — | — | — | — | 4 | may assign up to four artillery SP |
-| Commonwealth | z | Anti-tank Battalion-Eq | battalion | 15 | — | — | — | — | — | — | — | 11 | <span class="wrap">may assign up to eight anti-tank SP and three artillery SP</span> |
-| Commonwealth | aa | Anti-tank Battalion-Eq | battalion | 15 | — | — | — | — | — | — | — | 8 | may assign up to eight anti-tank SP |
-| Commonwealth | bb | Anti-tank Battalion-Eq | battalion | 15 | — | — | — | — | — | — | — | 6 | <span class="wrap">may assign up to four anti-tank SP and two light AA SP</span> |
-| Commonwealth | cc | Anti-tank Company-Eq | company | 15 | — | — | — | — | — | — | — | 4 | may assign up to four anti-tank SP |
-| Commonwealth | dd | Anti-tank Company-Eq | company | 15 | — | — | — | — | — | — | — | 2 | may assign up to two anti-tank SP |
-| Commonwealth | ee | Light Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 6 | may assign up to six light AA SP |
-| Commonwealth | ff | Light Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 4 | may assign up to four light AA SP |
-| Commonwealth | gg | Heavy Anti-air Battalion-Eq | battalion | 15 | — | — | — | — | — | — | — | 2 | may assign up to two heavy AA SP |
-| Commonwealth | hh | Reconnaissance Battalion-Eq | battalion | 45 | — | — | 1 | — | 2 | 3 | 3 | 8 | — |
-| Commonwealth | jj | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 2 | 3 | 3 | 8 | — |
-| Commonwealth | kk | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 2 | 2 | 3 | 8 | — |
-| Commonwealth | ll | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 1 | 2 | 3 | 8 | — |
-| Commonwealth | mm | Reconnaissance Battalion-Eq | battalion | 45 | — | — | 1 | — | 2 | 3 | 3 | 6 | — |
-| Commonwealth | nn | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 1 | 3 | 3 | 6 | — |
-| Commonwealth | pp | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 2 | 2 | 3 | 6 | — |
-| Commonwealth | qq | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 1 | 2 | 3 | 6 | — |
-| Commonwealth | rr | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 2 | 3 | 3 | 4 | — |
-| Commonwealth | ss | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 1 | 1 | 2 | 4 | — |
-| Commonwealth | tt | Reconnaissance Battalion-Eq | battalion | 35 | 1 | — | 2 | — | 3 | 4 | 4 | 3 | — |
-| Commonwealth | uu | Construction (Road/RR) | by unit | 25 | — | — | — | — | — | 0 | (1) | (1) | — |
-| Italian | a | Headquarters | hq | 45 | — | — | — | — | — | — | — | (1) | may assign one reconnaissance SP |
-| Italian | b | Headquarters | hq | 30 | — | — | — | — | — | 0 | (1) | (1) | — |
-| Italian | c | Headquarters | hq | 30\* | — | — | (1) | — | (1) | (3) | (2) | (1) | — |
-| Italian | d | Headquarters | hq | 30\* | — | — | — | — | — | — | — | (1) | may assign one tank SP |
-| Italian | e | Headquarters | hq | 30\* | 1 | — | — | — | — | 0 | (1) | 4 | — |
-| Italian | f | Headquarters | hq | 20 | — | — | — | — | — | 0 | (1) | (1) | — |
-| Italian | g | Headquarters | hq | 20 | — | — | — | — | — | — | — | 1 | may assign one artillery SP |
-| Italian | h | Headquarters | hq | 20\* | — | — | — | — | — | — | — | 1 | may assign one artillery SP |
-| Italian | j | Headquarters | hq | 20\* | — | — | — | — | — | — | — | 2 | may assign up to two artillery SP |
-| Italian | k | Tank Bn-Eq | battalion | 30 | — | — | — | — | — | — | — | 9 | may assign up to nine tank SP |
-| Italian | l | Tank Bn-Eq | battalion | 30 | — | — | — | — | — | — | — | 7 | may assign up to seven tank SP |
-| Italian | m | Infantry Bde-Eq | brigade | 10 | — | — | — | — | — | 1 | 1 | 10 | — |
-| Italian | n | Infantry Bn-Eq | battalion | 25 | — | — | — | — | — | 4 | 3 | 6 | — |
-| Italian | p | Infantry Bn-Eq | battalion | 15 | 2 | 2 | 5 | 1 | — | 2 | 3 | 4 | — |
-| Italian | q | Infantry Bn-Eq | battalion | 15 | 1 | 6 | 4 | 4 | — | 3 | 3 | 3 | — |
-| Italian | r | Infantry Bn-Eq | battalion | 15 | 1 | 6 | 4 | 4 | — | 1 | 2 | 3 | — |
-| Italian | s | Infantry Bn-Eq | battalion | 10 | — | — | 2 | — | — | 3 | 3 | 7 | — |
-| Italian | t | Infantry Bn-Eq | battalion | 10+ | — | — | 1 | — | 1 | 3 | 2 | 7 | — |
-| Italian | u | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 1 | 7 | — |
-| Italian | v | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 1 | 6 | — |
-| Italian | w | Infantry Bn-Eq | battalion | 10+ | — | — | — | — | — | 1 | 1 | 5 | — |
-| Italian | x | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 1 | 5 | — |
-| Italian | y | Infantry Bn-Eq | battalion | 8 | — | — | — | — | — | 4 | 6 | 6 | — |
-| Italian | z | Infantry Bn-Eq | battalion | 8 | — | — | — | — | — | 2 | 7 | 5 | — |
-| Italian | aa | Infantry Bn-Eq | battalion | 8 | — | — | — | — | — | 2 | 3 | 3 | — |
-| Italian | bb | Infantry Bn-Eq | battalion | 8 | — | — | — | — | — | 5 | 7 | 2 | — |
-| Italian | cc | Infantry Coy-Eq | company | 25 | — | — | — | — | — | 5 | 7 | 1 | — |
-| Italian | dd | Infantry Coy-Eq | company | 15 | 1 | 5 | 1 | 2 | — | 2 | 2 | 1 | — |
-| Italian | ee | Infantry Coy-Eq | company | 15 | 1 | — | 4 | — | — | 2 | 2 | 1 | — |
-| Italian | ff | Infantry Coy-Eq | company | 15 | 2 | — | 5 | — | — | 1 | 1 | 1 | — |
-| Italian | gg | Infantry Coy-Eq | company | 10 | — | — | — | — | — | 1 | 1 | 1 | — |
-| Italian | hh | Infantry Coy-Eq | company | 8+ | — | — | — | — | — | 5 | 7 | 1 | — |
-| Italian | jj | Artillery Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 12 | may assign up to twelve artillery SP |
-| Italian | kk | Artillery Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 9+3 | <span class="wrap">may assign up to nine artillery SP plus up to three heavy AA or up to three light AA SP</span> |
-| Italian | ll | Artillery Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 9 | may assign up to nine artillery SP |
-| Italian | mm | Artillery Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 4 | may assign up to four artillery SP |
-| Italian | nn | Artillery Coy-Eq | company | 15 | — | — | — | — | — | — | — | 1 | may assign one artillery SP |
-| Italian | pp | Artillery Coy-Eq | company | 0 | — | — | — | — | — | — | — | 8AA | <span class="wrap">may assign the emplaced guns, and up to eight anti-air SP</span> |
-| Italian | qq | Anti-tank Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 6 | may assign up to six anti-tank SP |
-| Italian | rr | Anti-tank Coy-Eq | company | 15 | — | — | — | — | — | — | — | 2 | may assign up to two anti-tank SP |
-| Italian | ss | Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 8 | may assign up to eight light AA SP |
-| Italian | tt | Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 6 | may assign up to six anti-air SP |
-| Italian | uu | Anti-air Coy-Eq | company | 15 | — | — | — | — | — | — | — | 3 | may assign up to three anti-air SP |
-| Italian | vv | Recce Bn-Eq | battalion | 45 | — | — | 1 | — | 1 | 3 | 2 | 6 | — |
-| Italian | ww | Recce Bn-Eq | battalion | 45 | — | — | — | — | 1 | 3 | 2 | 6 | — |
-| Italian | xx | Recce Bn-Eq | battalion | 35 | — | — | — | — | — | 1 | 2 | 3 | — |
-| Italian | yy | Recce Bn-Eq | battalion | 15 | — | — | — | — | — | 1 | 1 | 5 | — |
-| Italian | zz | Recce Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 1 | 5 | — |
-| Italian | aaa | Reconnaissance Company-Eq | company | 25 | — | — | — | — | — | 4 | 3 | 1 | — |
-| Italian | bbb | Engineer Battalion-Eq | battalion | 25 | — | — | — | — | — | 0 | (1) | (1) | — |
-| German | a | Headquarters | hq | 60 | — | — | — | — | — | — | — | — | — |
-| German | b | Headquarters | hq | 30 | — | — | — | — | — | — | — | — | — |
-| German | c | Headquarters | hq | 30† | — | — | — | — | — | — | — | (1) | may assign one tank SP |
-| German | d | Headquarters | hq | 30† | — | — | — | — | — | — | — | 1 | may assign one artillery SP |
-| German | e | Headquarters | hq | 30 | 1 | — | — | — | — | 0 | (1) | 3 | — |
-| German | f | Tank Bn-Eq | battalion | 25 | — | — | — | — | — | — | — | 15 | may assign up to fifteen tank SP |
-| German | g | Infantry Bn-Eq | battalion | 25 | — | — | — | — | — | 3 | 2 | 7 | — |
-| German | h | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 3 | 5 | 7 | <span class="wrap">may assign one paradroppable artillery SP</span> |
-| German | j | Infantry Bn-Eq | battalion | 10+‡ | — | — | 1 | — | 1 | 2 | 2 | 7 | — |
-| German | k | Infantry Bn-Eq | battalion | 10+ | — | — | — | — | — | 2 | 2 | 7 | — |
-| German | l | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 2 | 7 | — |
-| German | m | Infantry Bn-Eq | battalion | 10+ | — | — | — | — | — | 2 | 2 | 4 | — |
-| German | n | Infantry Bn-Eq | battalion | 8+ | — | — | — | — | — | 4 | 6 | 9 | — |
-| German | p | Infantry Bn-Eq | battalion | 8+ | 1 | — | 1 | — | — | 5 | 7 | 4 | — |
-| German | q | Infantry Bn-Eq | battalion | 8+ | — | — | — | — | — | 4 | 6 | 4 | — |
-| German | r | Infantry Coy-Eq | company | 25 | — | — | — | — | — | 1 | 1 | 1 | — |
-| German | s | Infantry Coy-Eq | company | 10 | — | — | — | — | — | 2 | 2 | 2 | — |
-| German | t | Infantry Coy-Eq | company | 8 | 1 | — | — | — | — | 5 | 7 | 1 | — |
-| German | u | Artillery Bn-Eq | battalion | 20 | — | — | — | — | — | — | — | 6 | may assign up to six artillery SP |
-| German | v | Artillery Bn-Eq | battalion | 20 | — | — | — | — | — | \* | — | 3 | may assign up to three artillery SP |
-| German | w | Artillery Coy-Eq | company | 20 | — | — | — | — | — | — | — | 1 | may assign one artillery SP |
-| German | x | Anti-tank Bn-Eq | battalion | 20 | — | — | — | — | — | — | — | 8 | may assign up to eight anti-tank SP |
-| German | y | Anti-tank Bn-Eq | battalion | 20 | — | — | — | — | — | — | — | 6 | may assign up to six anti-tank SP |
-| German | z | Light Anti-air Bn-Eq | battalion | 15\*\* | — | — | — | — | — | — | — | 6 | <span class="wrap">may assign up to three light AA SP and three artillery SP</span> |
-| German | aa | Light Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 12 | may assign up to twelve light AA SP |
-| German | bb | Light Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 6 | may assign up to six light AA SP |
-| German | cc | Heavy Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 4 | may assign up to four heavy AA SP |
-| German | dd | Heavy Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 2 | may assign up to two heavy AA SP |
-| German | ee | Reconnaissance Battalion-Eq | battalion | 45 | — | — | 1 | — | 2 | 3 | 3 | 8 | — |
-| German | ff | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 1 | 3 | 2 | 8 | — |
-| German | gg | Engineer Bn/Coy-Eq | by unit | 25 | — | — | — | — | — | 0 | (1) | (1) | — |
+| Nation | Id code | Unit type | Equivalent | CPA | Anti-air | Barrage | Anti-armour | Vulnerability | Armour protection | Close assault offence | Close assault defence | Max TOE | Assign note | Halftrack |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Commonwealth | a | Headquarters | hq | 30 | — | — | — | — | — | — | — | — | — | — |
+| Commonwealth | b | Headquarters | hq | 30\* | — | — | — | — | — | — | — | (1) | may assign one tank SP | — |
+| Commonwealth | c | Headquarters | hq | 30 | — | — | — | — | — | — | — | 3 | may assign up to three artillery SP | — |
+| Commonwealth | d | Headquarters | hq | 20\* | — | — | — | — | — | — | — | (1) | may assign one tank SP | — |
+| Commonwealth | e | Headquarters | hq | 20 | — | — | 1 | 1 | — | 0 | 1 | 1 | — | — |
+| Commonwealth | f | Headquarters | hq | 20 | — | — | 2 | 1 | — | 0 | 1 | 1 | — | — |
+| Commonwealth | g | Tank Bn-Eq | battalion | 25 | — | — | — | — | — | — | — | 10† | may assign up to ten tank SP | — |
+| Commonwealth | h | Infantry Bn-Eq | battalion | 15 | — | — | — | — | — | 2 | 2 | 5 | — | — |
+| Commonwealth | j | Infantry Bn-Eq | battalion | 15 | — | — | — | — | — | 2 | 2 | 4 | — | — |
+| Commonwealth | k | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 2 | 2 | 7 | — | — |
+| Commonwealth | l | Infantry Bn-Eq | battalion | 10+ | — | — | — | — | — | 2 | 2 | 6 | — | — |
+| Commonwealth | m | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 2 | 2 | 6 | — | — |
+| Commonwealth | n | Infantry Bn-Eq | battalion | 10+ | — | — | — | — | — | 1 | 2 | 6 | — | — |
+| Commonwealth | p | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 2 | 6 | — | — |
+| Commonwealth | q | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 1 | 6 | — | — |
+| Commonwealth | r | Infantry Bn-Eq | battalion | 10 | — | — | 1 | — | — | 1 | 2 | 5 | — | — |
+| Commonwealth | s | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 2 | 5 | — | — |
+| Commonwealth | t | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 1 | 3 | — | — |
+| Commonwealth | u | Infantry Bn-Eq | battalion | 8 | — | — | — | — | — | 4 | 6 | 3 | — | — |
+| Commonwealth | v | Infantry Company-Eq | company | 10+ | — | — | — | — | — | 1 | 1 | 1 | — | — |
+| Commonwealth | w | Infantry Company-Eq | company | 8 | — | — | — | — | — | 4 | 6 | 2 | — | — |
+| Commonwealth | x | Artillery Battalion-Eq | battalion | 20 | — | — | — | — | — | — | — | 6 | may assign up to six artillery SP | — |
+| Commonwealth | y | Artillery Battalion-Eq | battalion | 20 | — | — | — | — | — | — | — | 4 | may assign up to four artillery SP | — |
+| Commonwealth | z | Anti-tank Battalion-Eq | battalion | 15 | — | — | — | — | — | — | — | 11 | <span class="wrap">may assign up to eight anti-tank SP and three artillery SP</span> | — |
+| Commonwealth | aa | Anti-tank Battalion-Eq | battalion | 15 | — | — | — | — | — | — | — | 8 | may assign up to eight anti-tank SP | — |
+| Commonwealth | bb | Anti-tank Battalion-Eq | battalion | 15 | — | — | — | — | — | — | — | 6 | <span class="wrap">may assign up to four anti-tank SP and two light AA SP</span> | — |
+| Commonwealth | cc | Anti-tank Company-Eq | company | 15 | — | — | — | — | — | — | — | 4 | may assign up to four anti-tank SP | — |
+| Commonwealth | dd | Anti-tank Company-Eq | company | 15 | — | — | — | — | — | — | — | 2 | may assign up to two anti-tank SP | — |
+| Commonwealth | ee | Light Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 6 | may assign up to six light AA SP | — |
+| Commonwealth | ff | Light Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 4 | may assign up to four light AA SP | — |
+| Commonwealth | gg | Heavy Anti-air Battalion-Eq | battalion | 15 | — | — | — | — | — | — | — | 2 | may assign up to two heavy AA SP | — |
+| Commonwealth | hh | Reconnaissance Battalion-Eq | battalion | 45 | — | — | 1 | — | 2 | 3 | 3 | 8 | — | — |
+| Commonwealth | jj | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 2 | 3 | 3 | 8 | — | — |
+| Commonwealth | kk | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 2 | 2 | 3 | 8 | — | — |
+| Commonwealth | ll | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 1 | 2 | 3 | 8 | — | — |
+| Commonwealth | mm | Reconnaissance Battalion-Eq | battalion | 45 | — | — | 1 | — | 2 | 3 | 3 | 6 | — | — |
+| Commonwealth | nn | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 1 | 3 | 3 | 6 | — | — |
+| Commonwealth | pp | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 2 | 2 | 3 | 6 | — | — |
+| Commonwealth | qq | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 1 | 2 | 3 | 6 | — | — |
+| Commonwealth | rr | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 2 | 3 | 3 | 4 | — | — |
+| Commonwealth | ss | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 1 | 1 | 2 | 4 | — | — |
+| Commonwealth | tt | Reconnaissance Battalion-Eq | battalion | 35 | 1 | — | 2 | — | 3 | 4 | 4 | 3 | — | — |
+| Commonwealth | uu | Construction (Road/RR) | by unit | 25 | — | — | — | — | — | 0 | (1) | (1) | — | — |
+| Italian | a | Headquarters | hq | 45 | — | — | — | — | — | — | — | (1) | may assign one reconnaissance SP | — |
+| Italian | b | Headquarters | hq | 30 | — | — | — | — | — | 0 | (1) | (1) | — | — |
+| Italian | c | Headquarters | hq | 30\* | — | — | (1) | — | (1) | (3) | (2) | (1) | — | — |
+| Italian | d | Headquarters | hq | 30\* | — | — | — | — | — | — | — | (1) | may assign one tank SP | — |
+| Italian | e | Headquarters | hq | 30\* | 1 | — | — | — | — | 0 | (1) | 4 | — | — |
+| Italian | f | Headquarters | hq | 20 | — | — | — | — | — | 0 | (1) | (1) | — | — |
+| Italian | g | Headquarters | hq | 20 | — | — | — | — | — | — | — | 1 | may assign one artillery SP | — |
+| Italian | h | Headquarters | hq | 20\* | — | — | — | — | — | — | — | 1 | may assign one artillery SP | — |
+| Italian | j | Headquarters | hq | 20\* | — | — | — | — | — | — | — | 2 | may assign up to two artillery SP | — |
+| Italian | k | Tank Bn-Eq | battalion | 30 | — | — | — | — | — | — | — | 9 | may assign up to nine tank SP | — |
+| Italian | l | Tank Bn-Eq | battalion | 30 | — | — | — | — | — | — | — | 7 | may assign up to seven tank SP | — |
+| Italian | m | Infantry Bde-Eq | brigade | 10 | — | — | — | — | — | 1 | 1 | 10 | — | — |
+| Italian | n | Infantry Bn-Eq | battalion | 25 | — | — | — | — | — | 4 | 3 | 6 | — | — |
+| Italian | p | Infantry Bn-Eq | battalion | 15 | 2 | 2 | 5 | 1 | — | 2 | 3 | 4 | — | — |
+| Italian | q | Infantry Bn-Eq | battalion | 15 | 1 | 6 | 4 | 4 | — | 3 | 3 | 3 | — | — |
+| Italian | r | Infantry Bn-Eq | battalion | 15 | 1 | 6 | 4 | 4 | — | 1 | 2 | 3 | — | — |
+| Italian | s | Infantry Bn-Eq | battalion | 10 | — | — | 2 | — | — | 3 | 3 | 7 | — | — |
+| Italian | t | Infantry Bn-Eq | battalion | 10+ | — | — | 1 | — | 1 | 3 | 2 | 7 | — | yes |
+| Italian | u | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 1 | 7 | — | — |
+| Italian | v | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 1 | 6 | — | — |
+| Italian | w | Infantry Bn-Eq | battalion | 10+ | — | — | — | — | — | 1 | 1 | 5 | — | — |
+| Italian | x | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 1 | 5 | — | — |
+| Italian | y | Infantry Bn-Eq | battalion | 8 | — | — | — | — | — | 4 | 6 | 6 | — | — |
+| Italian | z | Infantry Bn-Eq | battalion | 8 | — | — | — | — | — | 2 | 7 | 5 | — | — |
+| Italian | aa | Infantry Bn-Eq | battalion | 8 | — | — | — | — | — | 2 | 3 | 3 | — | — |
+| Italian | bb | Infantry Bn-Eq | battalion | 8 | — | — | — | — | — | 5 | 7 | 2 | — | — |
+| Italian | cc | Infantry Coy-Eq | company | 25 | — | — | — | — | — | 5 | 7 | 1 | — | — |
+| Italian | dd | Infantry Coy-Eq | company | 15 | 1 | 5 | 1 | 2 | — | 2 | 2 | 1 | — | — |
+| Italian | ee | Infantry Coy-Eq | company | 15 | 1 | — | 4 | — | — | 2 | 2 | 1 | — | — |
+| Italian | ff | Infantry Coy-Eq | company | 15 | 2 | — | 5 | — | — | 1 | 1 | 1 | — | — |
+| Italian | gg | Infantry Coy-Eq | company | 10 | — | — | — | — | — | 1 | 1 | 1 | — | — |
+| Italian | hh | Infantry Coy-Eq | company | 8+ | — | — | — | — | — | 5 | 7 | 1 | — | — |
+| Italian | jj | Artillery Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 12 | may assign up to twelve artillery SP | — |
+| Italian | kk | Artillery Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 9+3 | <span class="wrap">may assign up to nine artillery SP plus up to three heavy AA or up to three light AA SP</span> | — |
+| Italian | ll | Artillery Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 9 | may assign up to nine artillery SP | — |
+| Italian | mm | Artillery Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 4 | may assign up to four artillery SP | — |
+| Italian | nn | Artillery Coy-Eq | company | 15 | — | — | — | — | — | — | — | 1 | may assign one artillery SP | — |
+| Italian | pp | Artillery Coy-Eq | company | 0 | — | — | — | — | — | — | — | 8AA | <span class="wrap">may assign the emplaced guns, and up to eight anti-air SP</span> | — |
+| Italian | qq | Anti-tank Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 6 | may assign up to six anti-tank SP | — |
+| Italian | rr | Anti-tank Coy-Eq | company | 15 | — | — | — | — | — | — | — | 2 | may assign up to two anti-tank SP | — |
+| Italian | ss | Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 8 | may assign up to eight light AA SP | — |
+| Italian | tt | Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 6 | may assign up to six anti-air SP | — |
+| Italian | uu | Anti-air Coy-Eq | company | 15 | — | — | — | — | — | — | — | 3 | may assign up to three anti-air SP | — |
+| Italian | vv | Recce Bn-Eq | battalion | 45 | — | — | 1 | — | 1 | 3 | 2 | 6 | — | — |
+| Italian | ww | Recce Bn-Eq | battalion | 45 | — | — | — | — | 1 | 3 | 2 | 6 | — | — |
+| Italian | xx | Recce Bn-Eq | battalion | 35 | — | — | — | — | — | 1 | 2 | 3 | — | — |
+| Italian | yy | Recce Bn-Eq | battalion | 15 | — | — | — | — | — | 1 | 1 | 5 | — | — |
+| Italian | zz | Recce Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 1 | 5 | — | — |
+| Italian | aaa | Reconnaissance Company-Eq | company | 25 | — | — | — | — | — | 4 | 3 | 1 | — | — |
+| Italian | bbb | Engineer Battalion-Eq | battalion | 25 | — | — | — | — | — | 0 | (1) | (1) | — | — |
+| German | a | Headquarters | hq | 60 | — | — | — | — | — | — | — | — | — | — |
+| German | b | Headquarters | hq | 30 | — | — | — | — | — | — | — | — | — | — |
+| German | c | Headquarters | hq | 30† | — | — | — | — | — | — | — | (1) | may assign one tank SP | — |
+| German | d | Headquarters | hq | 30† | — | — | — | — | — | — | — | 1 | may assign one artillery SP | — |
+| German | e | Headquarters | hq | 30 | 1 | — | — | — | — | 0 | (1) | 3 | — | — |
+| German | f | Tank Bn-Eq | battalion | 25 | — | — | — | — | — | — | — | 15 | may assign up to fifteen tank SP | — |
+| German | g | Infantry Bn-Eq | battalion | 25 | — | — | — | — | — | 3 | 2 | 7 | — | — |
+| German | h | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 3 | 5 | 7 | <span class="wrap">may assign one paradroppable artillery SP</span> | — |
+| German | j | Infantry Bn-Eq | battalion | 10+‡ | — | — | 1 | — | 1 | 2 | 2 | 7 | — | yes |
+| German | k | Infantry Bn-Eq | battalion | 10+ | — | — | — | — | — | 2 | 2 | 7 | — | — |
+| German | l | Infantry Bn-Eq | battalion | 10 | — | — | — | — | — | 1 | 2 | 7 | — | — |
+| German | m | Infantry Bn-Eq | battalion | 10+ | — | — | — | — | — | 2 | 2 | 4 | — | — |
+| German | n | Infantry Bn-Eq | battalion | 8+ | — | — | — | — | — | 4 | 6 | 9 | — | — |
+| German | p | Infantry Bn-Eq | battalion | 8+ | 1 | — | 1 | — | — | 5 | 7 | 4 | — | — |
+| German | q | Infantry Bn-Eq | battalion | 8+ | — | — | — | — | — | 4 | 6 | 4 | — | — |
+| German | r | Infantry Coy-Eq | company | 25 | — | — | — | — | — | 1 | 1 | 1 | — | — |
+| German | s | Infantry Coy-Eq | company | 10 | — | — | — | — | — | 2 | 2 | 2 | — | — |
+| German | t | Infantry Coy-Eq | company | 8 | 1 | — | — | — | — | 5 | 7 | 1 | — | — |
+| German | u | Artillery Bn-Eq | battalion | 20 | — | — | — | — | — | — | — | 6 | may assign up to six artillery SP | — |
+| German | v | Artillery Bn-Eq | battalion | 20 | — | — | — | — | — | \* | — | 3 | may assign up to three artillery SP | — |
+| German | w | Artillery Coy-Eq | company | 20 | — | — | — | — | — | — | — | 1 | may assign one artillery SP | — |
+| German | x | Anti-tank Bn-Eq | battalion | 20 | — | — | — | — | — | — | — | 8 | may assign up to eight anti-tank SP | — |
+| German | y | Anti-tank Bn-Eq | battalion | 20 | — | — | — | — | — | — | — | 6 | may assign up to six anti-tank SP | — |
+| German | z | Light Anti-air Bn-Eq | battalion | 15\*\* | — | — | — | — | — | — | — | 6 | <span class="wrap">may assign up to three light AA SP and three artillery SP</span> | — |
+| German | aa | Light Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 12 | may assign up to twelve light AA SP | — |
+| German | bb | Light Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 6 | may assign up to six light AA SP | — |
+| German | cc | Heavy Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 4 | may assign up to four heavy AA SP | — |
+| German | dd | Heavy Anti-air Bn-Eq | battalion | 15 | — | — | — | — | — | — | — | 2 | may assign up to two heavy AA SP | — |
+| German | ee | Reconnaissance Battalion-Eq | battalion | 45 | — | — | 1 | — | 2 | 3 | 3 | 8 | — | — |
+| German | ff | Reconnaissance Battalion-Eq | battalion | 45 | — | — | — | — | 1 | 3 | 2 | 8 | — | — |
+| German | gg | Engineer Bn/Coy-Eq | by unit | 25 | — | — | — | — | — | 0 | (1) | (1) | — | — |
 
 ## Notes
 
@@ -157,6 +157,7 @@ Used in [Units and state](/rules/10-units-and-state), [Stacking, zones of contro
 - Italian notes: from 1/39 'ww' recon may upgrade (Case 20.5); from 1/75 Italian battle groups and some HQs may add anti-tank SP (Case 19.8); vv = Autoblinda 41, ww = Autoblinda 40, both Breakdown Adjustment Rating 1 Left; units with heavy AA SP have 75/46 guns; 't' has armour protection only when carried by truck/motorization points (counts as halftracks, Case 14.88).
 - German chart printed twice: p136 and p170. They differ only in the mark on HQ c and d CPA: p136 prints '30**', p170 prints '30†'. The key defines '**' (keeps CPA regardless of assigned SP) and no '†', so '30**' is recorded.
 - German '*' after ID codes b and e (recorded as plain 'b','e'): this HQ may be eligible to add anti-tank TOE SP (Case 19.8). German '**' after CPA: keeps that CPA regardless of the SP assigned. German '‡' on j CPA: when carried by truck/motorization points the unit counts as halftracks (Case 14.88); otherwise it has no armour protection, and motorizing changes more than CPA.
+- halftrack: true types the chart's halftrack notes on Italian t and German j (the notes above cite Case 14.88; the halftrack rule is 14.48): armour_protection is kept as printed but applies only while the unit is wholly carried by truck or motorisation points (R-177).
 - German notes: from 1/39 'ff' recon may upgrade (Case 20.5); from 1/75 German battle groups and some HQs may add anti-tank SP (Case 19.8); ee and ff have Breakdown Adjustment Rating 1 Left.
 - German dd row prints no dashes at all on its rating line (blank cells); recorded as null like the dashes.
 - German 'Heavy Anti-air' label prints on the cc row and 'Bn-Eq' on the dd row; both recorded as 'Heavy Anti-air Bn-Eq'.
