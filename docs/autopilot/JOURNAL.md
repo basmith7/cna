@@ -736,3 +736,9 @@ Done: engine request "18th Australian Brigade's landing as data" → R-181 + `si
 In flight: none; PR merges once CI passes.
 Next: nothing requested; idle per the finish line.
 Blocked: none
+
+## 2026-11-07 17:10 UTC — main (req-* branches, two parallel workers)
+Done: all four new cna-engine requests merged: #311 R-182 (blind barrage numbered by class), #312 R-183 (`victory.toe_on_sheet`), #313 R-184/R-185 (`margins[].side`, `victory.cut_off`, `$defs/supplyTrace`), #314 R-186/R-187 (`victory.points_supply`, objective `count`/`place_kinds`/`counted_once`). Worktrees removed.
+In flight: none.
+Next: re-read cna-engine's Requests for cna (it still listed all four at 17:08, before its own run cleared them); with nothing new and Feedback empty, idle. Next free ruling id R-188.
+Blocked: none.
