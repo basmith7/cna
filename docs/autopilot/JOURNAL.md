@@ -718,3 +718,9 @@ Done: all seven cna-engine Mission 7 requests merged: #299 SGSU upkeep (R-173/17
 In flight: none. Eighth request (halftracks) → #306 merged (R-177; `halftrack` on unit-characteristics rows).
 Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line. Next free ruling id R-178.
 Blocked: none (copy group gained Tripoli box flak 25 vs 26).
+
+## 2026-11-07 00:54 MST — autopilot/req-dummy-tanks
+Done: R-178 (87074df): under §32 a dummy tank battalion costs no stores and needs no supply unit; 16.43 limits stand. Answers cna-engine's last open request (dummy tank formations, 16.4).
+In flight: none once this PR merges.
+Next: re-read cna-engine's Requests for cna; with nothing new, idle per the finish line.
+Blocked: none

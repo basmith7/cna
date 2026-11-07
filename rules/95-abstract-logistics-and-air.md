@@ -83,6 +83,13 @@ Construction (§24) spends no ammunition, fuel, stores or water from a
 supply unit and needs none in the hex; builders, stages, weather and
 terrain are as usual ([R-133](../rulings/R-133.md)).
 
+::: ruling R-178 — under abstract supply (§32) a dummy tank battalion costs no stores
+
+A [dummy tank battalion](60-combat.md#dummy-tank-formations) (16.4) is placed
+in the construction segment with no stores and no supply unit in its hex;
+its limits and everything else about it are unchanged
+([R-178](../rulings/R-178.md)).
+
 ::: ruling R-148 — under abstract supply (§32) desert raiders need no supply calls
 
 A desert raider makes no weekly call at a dump, oasis or well (27.35): it
