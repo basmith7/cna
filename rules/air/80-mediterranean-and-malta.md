@@ -71,7 +71,11 @@ The Malta inset on map A is not at the map's scale or in its true place;
 its box lists how far it is by air to key places in Africa. Of what it shows,
 only the air facilities and the port of Valletta matter. The air facilities
 are printed on the map, permanent and fixed: none may be added, and bombing
-can reduce them to nothing but never remove them.
+can reduce them to nothing but never remove them. The inset prints each
+one's standard level: airfields at Takali, Luqa, Safi and Hal Far (6 each),
+a flying-boat basin at Kalafrana (3) and, by our reading, an alighting area
+at Valletta (1), in
+[`data/tables/fixed-air-facilities.json`](https://github.com/basmith7/cna/blob/main/data/tables/fixed-air-facilities.json).
 
 ::: spi 44.13 44.5
 
@@ -89,6 +93,14 @@ of any type, so a six-level airfield takes 108; group them as squadrons for
 convenience all the same. At the start of an Operations Stage, before any
 mission, the Commonwealth may shift aircraft between Maltese facilities
 without flying them, noting it on his sheets and telling the Axis nothing.
+
+::: ruling R-165 — every scenario's Malta capacity counts levels of 18 aircraft
+
+A scenario's starting capacity for Malta is a number of these levels,
+whatever word its set-up uses (SGSUs, squadrons, or a plain total): the
+Commonwealth divides it among the Maltese facilities, none above its
+standard level. Graziani's Offensive's SGSU figures for its Malta planes
+say how many levels each group fills; no SGSUs go to the island.
 
 ::: spi 44.16 44.17
 

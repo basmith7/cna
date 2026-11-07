@@ -148,7 +148,9 @@ by the Fleet Schedule.
 Every air facility on the map exists at the start, and whoever controls one
 may use it. Egypt's belong to the Commonwealth and Libya's to the Italians,
 along with the four off-map Tripoli and Tunisia boxes. There are more
-landing strips than counters; use blanks.
+landing strips than counters; use blanks. The list is typed per side in
+`sides.*.air.facilities`, split at the frontier. Amiriya is printed E2212;
+it is E3212.
 
 ## Initiative {#initiative}
 

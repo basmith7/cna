@@ -118,6 +118,16 @@ on-map facilities except that:
 The Axis bases across the Mediterranean, in Italy and the Aegean, cannot be
 bombed at all (§43).
 
+The Commonwealth's off-map facilities are on the Allied Off-Map Air
+Facilities Chart: the flying-boat basin at Port Said holds **3** squadrons;
+the airfields at Abu Seier, Ismailia, Fayid, Deversoir and Kabrit hold
+**9** each; Ethiopia's has no limit but takes no planes before Game-Turn 35.
+No capacity is printed for the Axis's Tripoli and Tunisia boxes. These, the
+Maltese bases and the Mediterranean boxes are data:
+[`data/tables/fixed-air-facilities.json`](https://github.com/basmith7/cna/blob/main/data/tables/fixed-air-facilities.json).
+Each scenario's starting facilities, fixed and placed, are
+`sides.*.air.facilities` in `data/scenarios/`.
+
 ## Engine notes
 
 - A facility needs: kind, hex (or box), owner by occupation, current

@@ -1047,6 +1047,128 @@
      "scan:p84",
      "scan:p85"
     ],
+    "facilities": [
+     {
+      "kind": "airfield",
+      "count": 6,
+      "placement": {
+       "within": {
+        "of": "E3212",
+        "hexes": 1
+       }
+      },
+      "name": "Amiriya complex"
+     },
+     {
+      "kind": "airfield",
+      "hex": "E3109",
+      "name": "Burg el Arab"
+     },
+     {
+      "kind": "airfield",
+      "count": 1,
+      "placement": {
+       "place": [
+        "alexandria-west",
+        "alexandria-east"
+       ]
+      },
+      "name": "Alexandria"
+     },
+     {
+      "kind": "airfield",
+      "count": 1,
+      "placement": {
+       "place": "cairo"
+      },
+      "name": "Cairo"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "E2418",
+      "name": "Wadi Natrun"
+     },
+     {
+      "kind": "airfield",
+      "count": 2,
+      "placement": {
+       "sheets": [
+        "E"
+       ],
+       "not_within": {
+        "of": "enemy-unit",
+        "hexes": 5
+       },
+       "constraint": "Not in the Qattara Depression"
+      },
+      "notes": [
+       "63.33 prints one; SPI's errata to 63.3 gives two."
+      ]
+     },
+     {
+      "kind": "landing-strip",
+      "count": 3,
+      "placement": {
+       "sheets": [
+        "E"
+       ],
+       "not_within": {
+        "of": "enemy-unit",
+        "hexes": 5
+       },
+       "constraint": "Not in the Qattara Depression"
+      }
+     },
+     {
+      "kind": "flying-boat-basin",
+      "count": 1,
+      "placement": {
+       "sheets": [
+        "E"
+       ],
+       "not_within": {
+        "of": "enemy-unit",
+        "hexes": 5
+       },
+       "constraint": "Not in the Qattara Depression"
+      }
+     },
+     {
+      "kind": "flying-boat-alighting-area",
+      "count": 1,
+      "placement": {
+       "sheets": [
+        "E"
+       ],
+       "not_within": {
+        "of": "enemy-unit",
+        "hexes": 5
+       },
+       "constraint": "Not in the Qattara Depression"
+      }
+     },
+     {
+      "fixed": "port-said"
+     },
+     {
+      "fixed": "abu-seier"
+     },
+     {
+      "fixed": "ismailia"
+     },
+     {
+      "fixed": "fayid"
+     },
+     {
+      "fixed": "deversoir"
+     },
+     {
+      "fixed": "kabrit"
+     },
+     {
+      "fixed": "ethiopia"
+     }
+    ],
     "all_refitted": true,
     "squadrons": [
      {
@@ -1201,12 +1323,15 @@
      {
       "hex": "E3512",
       "name": "Degheila",
-      "sgsu": 2,
+      "sgsu": 1,
       "planes": [
        {
         "type": "Albacore",
         "count": 24
        }
+      ],
+      "notes": [
+       "Printed with 2 SGSUs; SPI's errata to 63.3 gives Degheila one."
       ]
      },
      {
@@ -1229,9 +1354,8 @@
      "2": 22,
      "1": 31
     },
-    "facilities": "Six airfields within one hex of Amiriya; airfields at Burg el Arab (E3109), Alexandria and Cairo; a landing strip at Wadi Natrun (E2418); plus one airfield, three strips, one flying-boat basin and one alighting area anywhere on sheet E, not within five hexes of the enemy nor in the Qattara Depression. The seven off-map facilities are undamaged.",
     "malta": {
-     "all_facilities_full": true,
+     "facility_levels": "standard",
      "aa_points": 48,
      "pilots": {
       "3": 1,
@@ -2020,6 +2144,80 @@
      "CNA1979:63.46",
      "scan:p85"
     ],
+    "facilities": [
+     {
+      "kind": "airfield",
+      "count": 9,
+      "placement": {
+       "sheets": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ]
+      }
+     },
+     {
+      "kind": "landing-strip",
+      "count": 8,
+      "placement": {
+       "sheets": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ]
+      },
+      "notes": [
+       "R-167."
+      ]
+     },
+     {
+      "kind": "flying-boat-basin",
+      "count": 1,
+      "placement": {
+       "sheets": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ]
+      }
+     },
+     {
+      "kind": "flying-boat-alighting-area",
+      "count": 1,
+      "placement": {
+       "sheets": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ]
+      }
+     },
+     {
+      "fixed": "tunis"
+     },
+     {
+      "fixed": "gabes"
+     },
+     {
+      "fixed": "tripoli"
+     },
+     {
+      "fixed": "tripolitania"
+     },
+     {
+      "fixed": "crete"
+     },
+     {
+      "fixed": "italy"
+     },
+     {
+      "fixed": "sicily"
+     }
+    ],
     "german": [
      {
       "type": "Ju87D",
@@ -2106,7 +2304,6 @@
      "2": 20,
      "1": 18
     },
-    "facilities": "Nine airfields, one flying-boat basin and one alighting area anywhere on sheets A-D.",
     "placement": "At most 10% of the air force in Italy/Sicily; strategic attacks on Malta only in The Long Retreat."
    },
    "fleet": {

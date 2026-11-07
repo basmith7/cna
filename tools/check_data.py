@@ -179,6 +179,8 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
     if (m / "places.json").exists():
         places = {pl["id"] for pl in (_load_json(m / "places.json", "map/places.json", []) or {"places": []})["places"]}
 
+    fixed_air = {r["id"] for r in (tables.get("fixed-air-facilities") or {"rows": []})["rows"]}
+
     def refs(label: str, doc) -> None:
         for k, v in _walk(doc):
             if isinstance(v, str) and UNIT_REF.match(v) and v not in units:
@@ -187,6 +189,10 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
                 errors.extend(f"{label}: unknown hex {h}" for h in v if isinstance(h, str) and hexes and h not in hexes)
             if k in ("of", "railroad_ends", "west_of") and isinstance(v, str) and hexes and re.match(r"^[A-EM][0-9]{4}$", v) and v not in hexes:
                 errors.append(f"{label}: unknown hex {v}")
+            if k in ("hex", "entry_hex") and isinstance(v, str) and hexes and re.match(r"^[A-EM][0-9]{4}$", v) and v not in hexes:
+                errors.append(f"{label}: unknown hex {v}")
+            if k == "fixed" and isinstance(v, str) and v not in fixed_air:
+                errors.append(f"{label}: unknown fixed air facility {v}")
             if k == "formation" and isinstance(v, str) and v not in formations:
                 errors.append(f"{label}: unknown formation {v}")
             if k == "place" and isinstance(v, str) and places and v not in places:

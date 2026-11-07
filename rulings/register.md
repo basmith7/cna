@@ -139,7 +139,9 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-162](./R-162.md) | Whether works placed at set-up obey the construction site rules | accepted | 24.36, 24.44, 61.6, 63.75, 63.76, 63.77 |
 | [R-163](./R-163.md) | What units hold at the start of a Logistics Game | accepted | 59.5, 49.14, 50.17 |
 | [R-164](./R-164.md) | A combat unit with no TOE strength points left | accepted | 3.5, 10.11, 10.15, 10.29, 12.22, 19.62, 21.42 |
+| [R-165](./R-165.md) | What Malta's starting capacity counts | accepted | 44.13, 44.14, 60.46, 61.34, 62.36 |
 | [R-166](./R-166.md) | Which hexes Operation Crusader's pipeline fills | accepted | 62.5, 52.24 |
+| [R-167](./R-167.md) | The Last Chance's Axis air facilities | accepted | 63.43 |
 
 ## Variants
 

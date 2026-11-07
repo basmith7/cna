@@ -54,8 +54,10 @@ the start: no unit gives up a TOE point for it ([R-147](../../rulings/R-147.md))
 ::: spi 61.33 61.34
 
 **Air.** Squadrons start, all refitted, at the airfields and strips the
-scenario lists (`sides.cw.air`), and the Commonwealth player may add three
-landing strips anywhere. Malta has a facility capacity of 8 and 26
+scenario lists (`sides.cw.air.facilities`), and the Commonwealth player may
+add three landing strips anywhere. 61.33 counts the off-map airfields as
+four, every one except Ethiopia's; the chart (36.53) has five besides
+Ethiopia, and all five are in. Malta has a facility capacity of 8 levels ([R-165](../../rulings/R-165.md)) and 26
 anti-aircraft points to share out; work on its facilities may not start
 before the scenario's second Game-Turn.
 

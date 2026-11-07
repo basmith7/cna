@@ -155,6 +155,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-113](../rulings/R-113.md) — which density shift applies to flak
 
+## [Air Game — the Mediterranean bases and Malta](./air/80-mediterranean-and-malta.md)
+
+- [R-165](../rulings/R-165.md) — every scenario's Malta capacity counts levels of 18 aircraft
+
 ## [Air Game — abstract logistics with the Air Game](./air/90-abstract-logistics.md)
 
 - [R-127](../rulings/R-127.md) — a 5 % convoy result is applied like 10 %
@@ -273,6 +277,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 ## [Group Four — El Alamein](./scenarios/40-el-alamein.md)
 
 - [R-108](../rulings/R-108.md) — the printed start and end Game-Turns
+- [R-167](../rulings/R-167.md) — the Axis's stray "eight" is eight landing strips
 - [R-158](../rulings/R-158.md) — the hexes next to Tobruk
 - [R-161](../rulings/R-161.md) — whether the Bardia fortifications are optional
 
@@ -408,7 +413,9 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-162](../rulings/R-162.md) | accepted | 24.36, 24.44, 61.6, 63.75, 63.76, 63.77 |
 | [R-163](../rulings/R-163.md) | accepted | 59.5, 49.14, 50.17 |
 | [R-164](../rulings/R-164.md) | accepted | 3.5, 10.11, 10.15, 10.29, 12.22, 19.62, 21.42 |
+| [R-165](../rulings/R-165.md) | accepted | 44.13, 44.14, 60.46, 61.34, 62.36 |
 | [R-166](../rulings/R-166.md) | accepted | 62.5, 52.24 |
+| [R-167](../rulings/R-167.md) | accepted | 63.43 |
 
 ## Variants register
 

@@ -623,6 +623,40 @@
      "CNA1979:61.42",
      "scan:p80"
     ],
+    "facilities": [
+     {
+      "kind": "airfield",
+      "count": 1,
+      "placement": {
+       "west_of": "A1816"
+      }
+     },
+     {
+      "kind": "landing-strip",
+      "count": 1,
+      "placement": {
+       "west_of": "A1816"
+      }
+     },
+     {
+      "fixed": "tunis"
+     },
+     {
+      "fixed": "gabes"
+     },
+     {
+      "fixed": "tripoli"
+     },
+     {
+      "fixed": "tripolitania"
+     },
+     {
+      "fixed": "italy"
+     },
+     {
+      "fixed": "sicily"
+     }
+    ],
     "german": "Every German plane due on the Axis Airplane Reinforcement Chart before Game-Turn 26 OpStage 3, all refitted.",
     "planes": [
      {
@@ -659,8 +693,7 @@
     "german_pilots": "one roll, as for March 1941, for the number of rated ONE to FOUR pilots",
     "sgsu": 13,
     "german_sgsu": "as the Air Game rules allow",
-    "placement": "any portion may base in Italy/Sicily within the German minimum of 43.1; Crete is British",
-    "new_facilities": "one airfield and one landing strip, each anywhere west of El Agheila (A1816)"
+    "placement": "any portion may base in Italy/Sicily within the German minimum of 43.1; Crete is British"
    },
    "reinforcements": [
     "All Axis reinforcements are taken as they appear on the track (61.45)."
@@ -1136,6 +1169,177 @@
      "CNA1979:61.34",
      "scan:p79"
     ],
+    "facilities": [
+     {
+      "kind": "flying-boat-basin",
+      "hex": "E3614",
+      "name": "Alexandria"
+     },
+     {
+      "fixed": "port-said"
+     },
+     {
+      "kind": "airfield",
+      "hex": "A4829",
+      "name": "Benina"
+     },
+     {
+      "kind": "airfield",
+      "hex": "B5504",
+      "name": "Barce"
+     },
+     {
+      "kind": "airfield",
+      "hex": "B5925",
+      "name": "Derna"
+     },
+     {
+      "kind": "airfield",
+      "hex": "B5526",
+      "name": "Martuba"
+     },
+     {
+      "kind": "airfield",
+      "hex": "C4507",
+      "name": "El Adem"
+     },
+     {
+      "kind": "airfield",
+      "hex": "D3714",
+      "name": "Mersa Matruh"
+     },
+     {
+      "kind": "airfield",
+      "hex": "E3212",
+      "name": "Amiriya"
+     },
+     {
+      "kind": "airfield",
+      "hex": "E3512",
+      "name": "Dekheila"
+     },
+     {
+      "kind": "airfield",
+      "hex": "E3613",
+      "name": "Alexandria"
+     },
+     {
+      "kind": "airfield",
+      "hex": "E3714",
+      "name": "Alexandria"
+     },
+     {
+      "kind": "airfield",
+      "hex": "E2132",
+      "name": "Abbassia"
+     },
+     {
+      "kind": "airfield",
+      "hex": "E3815",
+      "name": "Aboukir"
+     },
+     {
+      "kind": "airfield",
+      "hex": "E2133",
+      "name": "Almaza"
+     },
+     {
+      "fixed": "abu-seier",
+      "notes": [
+       "61.33 says 'the four off-map fields to the east' and then 'all except Ethiopia'; 36.53 has five such airfields, and all five are listed."
+      ]
+     },
+     {
+      "fixed": "ismailia"
+     },
+     {
+      "fixed": "fayid"
+     },
+     {
+      "fixed": "deversoir"
+     },
+     {
+      "fixed": "kabrit"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "A2629",
+      "name": "Agedabia"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "A3233",
+      "name": "Antelat"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "B4004",
+      "name": "Msus"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "B4901",
+      "name": "El Abiar"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "B5410",
+      "name": "Maraua"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "B4933",
+      "name": "Gazala"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C4807",
+      "name": "Tobruk"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C4414",
+      "name": "Gambut"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C4131",
+      "name": "Sidi Barrani"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3516",
+      "name": "Gerawla"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3418",
+      "name": "Sidi Haneish"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3520",
+      "name": "Maaten Baggush"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3323",
+      "name": "Fuka"
+     },
+     {
+      "kind": "landing-strip",
+      "count": 3,
+      "placement": {
+       "sheets": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+       ]
+      }
+     }
+    ],
     "north_africa": {
      "all_refitted": true,
      "one_sgsu_per_squadron": true,
@@ -1176,47 +1380,10 @@
      "pilots": {
       "2": 1,
       "1": 4
-     },
-     "flying_boat_basins": [
-      "E3614 (Alexandria)",
-      "E4033 (Port Said, off-map)"
-     ],
-     "flying_boat_alighting_areas": [],
-     "airfields": [
-      "A4829",
-      "B5504",
-      "B5925",
-      "B5526",
-      "C4507",
-      "D3714",
-      "E3212",
-      "E3512",
-      "E3613",
-      "E3714",
-      "E3815",
-      "E2132",
-      "E2133",
-      "the four off-map airfields east of the map (every one except Ethiopia)"
-     ],
-     "landing_strips": [
-      "A2629",
-      "A3233",
-      "B4004",
-      "B4901",
-      "B5410",
-      "B4933",
-      "C4807",
-      "C4414",
-      "C4131",
-      "D3516",
-      "D3418",
-      "D3520",
-      "D3323"
-     ],
-     "extra_landing_strips": "three more, anywhere on the map"
+     }
     },
     "malta": {
-     "facility_capacity_total": 8,
+     "facility_levels": 8,
      "aa_points": 26,
      "pilots": {
       "2": 2,

@@ -146,6 +146,17 @@
         "My copy says something else (say what)",
         "Leave as none"
       ]
+    },
+    {
+      "id": "air-malta-facilities",
+      "group": "copy",
+      "title": "Malta inset: which air facilities, at what standard level?",
+      "context": "No rulebook page lists Malta's bases; data/tables/fixed-air-facilities.json reads them off the VASSAL map redraw's Malta inset: airfields Takali, Luqa, Safi and Hal Far at 6, a flying-boat symbol at Kalafrana at 3, and a different dark symbol at Valletta with a 1, read as a flying-boat alighting area. Hal Far's symbol is in M0505, not M0504 where places.json labels it.",
+      "options": [
+        "My map matches",
+        "Valletta's 1 is not an air facility (say what it is)",
+        "Different facilities or levels (see note)"
+      ]
     }
   ]
 }
