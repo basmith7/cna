@@ -50,6 +50,27 @@ supply units, combat units or other motorisation points.
 These replace the per-aircraft costs of the full Air Game
 ([maintenance](30-flight-and-maintenance.md#maintenance)).
 
+### Upkeep, refits and repairs {#upkeep-refits-and-repairs}
+
+::: ruling R-173 — SGSU upkeep with the Air Game and abstract logistics
+
+::: ruling R-174 — refit and repair costs with the Air Game and abstract logistics
+
+Nothing else in the Air Game spends supplies here (§32 ignores every other
+supply cost, 32.11):
+
+| Full Air Game cost | With abstract logistics |
+|---|---|
+| SGSU upkeep, 1 fuel and 1 water a stage and 1 stores a turn (35.14) | nothing ([R-173](../../rulings/R-173.md)) |
+| 1 stores per squadron refit roll (38.36) | nothing ([R-174](../../rulings/R-174.md)) |
+| 1 stores and 1 fuel per repaired aircraft (45.62, 45.64) | nothing ([R-174](../../rulings/R-174.md)) |
+
+What these supplies were a condition for still holds: an SGSU may refit
+or repair aircraft only while it can draw supplies under 47.11–47.13, at
+an off-map air facility, in or within reach of Cairo or Alexandria
+(Commonwealth only), or within 15 CP of a friendly supply unit, depots
+included. Rolls, limits and delays are as printed.
+
 ## Moving supply units
 
 ::: spi 47.3 47.31 47.32 47.33 47.34
