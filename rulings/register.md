@@ -152,6 +152,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-176](./R-176.md) | Which O/A notes are historical shifts, and in which month | accepted | 19.24, 19.21 |
 | [R-177](./R-177.md) | What a halftrack unit is in combat | accepted | 14.48, 12.43, 15.11, 32.51 |
 | [R-178](./R-178.md) | Abstract supply: dummy tank battalions cost no stores | accepted | 16.41, 16.42, 16.43, 32.11 |
+| [R-180](./R-180.md) | A substitute stops being one when the unit it stands for arrives | accepted | 19.45, 19.21, 19.25, 19.62 |
 
 ## Variants
 
