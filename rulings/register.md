@@ -157,6 +157,8 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-181](./R-181.md) | How the 18th Australian Brigade arrives in Rommel's Arrival | accepted | 61.38, 59.2 |
 | [R-182](./R-182.md) | Blind barrage targets are numbered by class, not picked off the map | accepted | 3.61, 3.62, 12.22, 12.23, 12.24 |
 | [R-183](./R-183.md) | What The Last Chance's tactical count of TOE points includes | accepted | 63.91 |
+| [R-184](./R-184.md) | What level the Commonwealth wins in The Long Retreat | accepted | 63.92 |
+| [R-185](./R-185.md) | The Italian Campaign's levels and its cut-off test | accepted | 60.82, 32.16 |
 
 ## Variants
 

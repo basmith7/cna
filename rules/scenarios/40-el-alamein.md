@@ -136,3 +136,9 @@ Game-Turn's stores, ammunition to fire every weapon twice, and fuel to move
 20 CP. Ten or more points is an Axis strategic victory, 4 to 9 a
 substantive one, 1 to 3 a marginal one; none at all is a Commonwealth
 victory.
+
+::: ruling R-184 — the Commonwealth's win at zero points is tactical
+
+With no Axis points the Commonwealth wins a tactical victory; the margins
+row for zero names the Commonwealth as its winner (`victory.margins`;
+ruling [R-184](../../rulings/R-184.md)).

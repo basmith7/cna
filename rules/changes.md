@@ -266,6 +266,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-027](../rulings/R-027.md) — Tobruk's efficiency level
 - [R-110](../rulings/R-110.md) — what the supply condition means when only the Land Game is played
 - [R-119](../rulings/R-119.md) — supply units, real or dummy, do not count as units in a supply trace
+- [R-185](../rulings/R-185.md) — the plain victory is tactical; the cut-off test is R-110's route to Nofilia
 - [V-007](../rulings/V-007.md) — some Italian squadrons start in Sicily
 - [V-008](../rulings/V-008.md) — Mussolini's requirements on the Italian advance
 
@@ -299,6 +300,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-158](../rulings/R-158.md) — the hexes next to Tobruk
 - [R-161](../rulings/R-161.md) — whether the Bardia fortifications are optional
 - [R-183](../rulings/R-183.md) — what the tactical count of TOE points includes
+- [R-184](../rulings/R-184.md) — the Commonwealth's win at zero points is tactical
 
 ## [Group Five — the campaign game](./scenarios/50-campaign-game.md)
 
@@ -450,6 +452,8 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-181](../rulings/R-181.md) | accepted | 61.38, 59.2 |
 | [R-182](../rulings/R-182.md) | accepted | 3.61, 3.62, 12.22, 12.23, 12.24 |
 | [R-183](../rulings/R-183.md) | accepted | 63.91 |
+| [R-184](../rulings/R-184.md) | accepted | 63.92 |
+| [R-185](../rulings/R-185.md) | accepted | 60.82, 32.16 |
 
 ## Variants register
 
