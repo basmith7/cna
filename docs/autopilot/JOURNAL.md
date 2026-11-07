@@ -716,5 +716,6 @@ Blocked: none.
 ## 2026-11-07 03:15 UTC — main (seven req-* branches, parallel workers)
 Done: all seven cna-engine Mission 7 requests merged: #299 SGSU upkeep (R-173/174), #300 printed flak, #301 §47 targets (R-171/172), #302 parent shifts (R-176), #303 aircraft_id keys (R-169/170), #304 off-map air distances (R-168), #305 air facilities (R-165/167). Worktrees and branches removed.
 In flight: none.
-Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line. Next free ruling id R-177.
+In flight (03:13): eighth request (halftracks, 14.48/E-004) on autopilot/req-halftracks, R-177/R-178 reserved; if still a draft, merge origin/main, finish gates, merge.
+Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line. Next free ruling id R-179.
 Blocked: none (copy group gained Tripoli box flak 25 vs 26).
