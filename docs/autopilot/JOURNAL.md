@@ -712,3 +712,9 @@ Done: cna-engine request "A combat unit at 0 TOE" → R-164 (#298): treated as a
 In flight: none once #298 merges.
 Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line.
 Blocked: none.
+
+## 2026-11-07 03:15 UTC — main (seven req-* branches, parallel workers)
+Done: all seven cna-engine Mission 7 requests merged: #299 SGSU upkeep (R-173/174), #300 printed flak, #301 §47 targets (R-171/172), #302 parent shifts (R-176), #303 aircraft_id keys (R-169/170), #304 off-map air distances (R-168), #305 air facilities (R-165/167). Worktrees and branches removed.
+In flight: none.
+Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line. Next free ruling id R-177.
+Blocked: none (copy group gained Tripoli box flak 25 vs 26).
