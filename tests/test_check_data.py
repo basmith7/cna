@@ -231,3 +231,27 @@ def test_oa_replaces_and_assigns_name_known_units(tmp_path):
     errs = check_data.validate_all(_scenario_data(tmp_path, {}, oa=oa))
     for needle in ("unknown unit unit:it:gone", "unknown unit unit:it:lost", "orphan: assigns without replaces"):
         assert any(needle in e for e in errs), needle
+
+
+def test_oa_shifts_chain_from_the_sheet_parent_to_known_units(tmp_path):
+    def unit(uid, parent=None, **kw):
+        return {"id": uid, "name": "U", "abbreviation": "U", "id_code": "a", "parent": parent, "fills": [], "toe": [],
+                "arrives": None, **kw}
+
+    def shift(frm, to, month=None):
+        return {"from": frm, "to": to, "month": month, "notes": ["n"]}
+
+    oa = {"nation": "it", "sources": ["CNA1979:19.24"], "formations": [{
+        "id": "demo", "name": "Demo", "basic_morale": 0, "sources": ["CNA1979:19.24"], "units": [
+            unit("unit:it:a"), unit("unit:it:b"),
+            # Leaves its sheet parent, then the parent it joined, then goes independent: clean.
+            unit("unit:it:ok", "unit:it:a", shifts=[shift("unit:it:a", "unit:it:b", "1941-12"),
+                                                    shift("unit:it:b", None, "1942-01")]),
+            unit("unit:it:wrongfrom", "unit:it:a", shifts=[shift("unit:it:b", "unit:it:a")]),
+            unit("unit:it:nowhere", None, shifts=[shift(None, "unit:it:gone")]),
+            unit("unit:it:stays", "unit:it:a", shifts=[shift("unit:it:a", "unit:it:a")])]}]}
+    errs = check_data.validate_all(_scenario_data(tmp_path, {}, oa=oa))
+    assert not [e for e in errs if "unit:it:ok" in e]
+    for needle in ("wrongfrom: shift leaves unit:it:b", "nowhere: replaces, assigns or shifts unknown unit unit:it:gone",
+                   "stays: shift from unit:it:a to itself"):
+        assert any(needle in e for e in errs), needle

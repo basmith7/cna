@@ -205,6 +205,24 @@
      "notes": [
       "note c",
       "uncertain: parent (indent only slightly right of the HQ)"
+     ],
+     "shifts": [
+      {
+       "from": "unit:de:5le-div-hq",
+       "to": "unit:de:200-schutzen-regt-hq",
+       "month": null,
+       "notes": [
+        "5th Light note c: served with the 200th Regiment at times; no month"
+       ]
+      },
+      {
+       "from": "unit:de:5le-div-hq",
+       "to": "unit:de:104-schutzen-regt-hq",
+       "month": null,
+       "notes": [
+        "5th Light note c: served with the 104th Regiment at times; no month"
+       ]
+      }
      ]
     },
     {
@@ -224,6 +242,24 @@
      },
      "notes": [
       "note c"
+     ],
+     "shifts": [
+      {
+       "from": "unit:de:5le-div-hq",
+       "to": "unit:de:200-schutzen-regt-hq",
+       "month": null,
+       "notes": [
+        "5th Light note c: served with the 200th Regiment at times; no month"
+       ]
+      },
+      {
+       "from": "unit:de:5le-div-hq",
+       "to": "unit:de:104-schutzen-regt-hq",
+       "month": null,
+       "notes": [
+        "5th Light note c: served with the 104th Regiment at times; no month"
+       ]
+      }
      ]
     },
     {
@@ -652,6 +688,16 @@
      },
      "notes": [
       "note a"
+     ],
+     "shifts": [
+      {
+       "from": "unit:de:15-pz-div-hq",
+       "to": "unit:de:5le-div-hq",
+       "month": null,
+       "notes": [
+        "15th Panzer note a: served with the 5th Light, then the 21st Panzer (which takes it by replaces); no month"
+       ]
+      }
      ]
     },
     {
@@ -3144,6 +3190,16 @@
      },
      "notes": [
       "note c"
+     ],
+     "shifts": [
+      {
+       "from": "unit:de:90-le-div-hq",
+       "to": "unit:de:200-schutzen-regt-hq",
+       "month": null,
+       "notes": [
+        "90th Light note c: later part of the 200th Regiment; no month"
+       ]
+      }
      ]
     },
     {
@@ -3163,6 +3219,16 @@
      },
      "notes": [
       "note c"
+     ],
+     "shifts": [
+      {
+       "from": "unit:de:90-le-div-hq",
+       "to": "unit:de:200-schutzen-regt-hq",
+       "month": null,
+       "notes": [
+        "90th Light note c: later part of the 200th Regiment; no month"
+       ]
+      }
      ]
     },
     {
