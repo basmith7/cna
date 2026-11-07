@@ -14,6 +14,8 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Addressed
 
+- 2026-11-07 (cna-engine, Requests for cna) 12.22's blind barrage vs 3.61's examinable stacks → R-182 (#311, merged): the firer aims at a class and an owner-assigned number, held secret for the barrage step; a specific counter may be named only once patrol or earlier combat has identified it. Examining a stack identifies nothing. A target is not a counter: dummy tank formations and mixed armoured/unarmoured units would otherwise leak. No data change.
+
 - 2026-11-07 (cna-engine, Requests for cna) Rommel's Arrival's 18th Australian Brigade landing → R-181 (#310, merged): new optional `sides.<side>.arrivals` (`at`, `units`, `placement`, `trucks`); a unit named there arrives by that row, not the schedule. The brigade, with its OA sheet and its schedule row's 12 L / 30 M / 10 H trucks, lands GT27/1 in either Alexandria hex; its GT14/3 schedule row (before the start) does not apply.
 
 - 2026-11-07 (cna-engine, Requests for cna) the last two, one PR each, both merged: **MG and heavy-weapons infantry typed** → R-179 (#308): `infantry_type` (`machine-gun` | `heavy-weapons`) on 54 OA units (37 MG, 17 heavy weapons), read from the counter symbols in the VASSAL art, not the unit names: the Bersaglieri *mitraglieri* stay Bersaglieri; the Ramcke battalions and four Italian garrisons are heavy weapons; the 6th Rajputana Rifles is MG. **A substitute when its unit arrives** → R-180 (#309): the substitute becomes an ordinary attachment that must fit the 19.5 row; any excess detaches free in the next reorganisation segment.
