@@ -1240,6 +1240,7 @@
      "name": "27th New Zealand MG Bn",
      "abbreviation": "27 NZ",
      "id_code": "u",
+     "infantry_type": "machine-gun",
      "parent": "unit:cw:2-nz-hq",
      "fills": [
       "machinegun-battalion",
@@ -1901,6 +1902,7 @@
      "name": "1st Cheshire MG Bn",
      "abbreviation": "1 Ches",
      "id_code": "u",
+     "infantry_type": "machine-gun",
      "parent": null,
      "fills": [
       "machinegun-battalion",
@@ -1915,6 +1917,7 @@
      "name": "1st RNF MG Bn",
      "abbreviation": "1 RNF",
      "id_code": "u",
+     "infantry_type": "machine-gun",
      "parent": null,
      "fills": [
       "machinegun-battalion",
@@ -3565,6 +3568,7 @@
      "name": "6th Rajputana Rifles Bn",
      "abbreviation": "6 RajRf",
      "id_code": "u",
+     "infantry_type": "machine-gun",
      "parent": null,
      "fills": [
       "machinegun-battalion",
@@ -3791,6 +3795,7 @@
      "name": "Kopanski MG Coy",
      "abbreviation": "Kopnski",
      "id_code": "w",
+     "infantry_type": "machine-gun",
      "parent": "unit:cw:polish-hq",
      "fills": [
       "unit"
@@ -4415,6 +4420,7 @@
      "name": "6th Cheshire MG Bn",
      "abbreviation": "6 Ches",
      "id_code": "u",
+     "infantry_type": "machine-gun",
      "parent": "unit:cw:44-inf-div-hq",
      "fills": [
       "machinegun-battalion",
@@ -5615,6 +5621,7 @@
      "name": "2nd Cheshire MG Bn",
      "abbreviation": "2 Ches",
      "id_code": "u",
+     "infantry_type": "machine-gun",
      "parent": "unit:cw:50-inf-div-hq",
      "fills": [
       "machinegun-battalion",
@@ -6085,6 +6092,7 @@
      "name": "1/7 Middlesex MG Bn",
      "abbreviation": "1/7 Mdlsx",
      "id_code": "u",
+     "infantry_type": "machine-gun",
      "parent": "unit:cw:51-inf-div-hq",
      "fills": [
       "machinegun-battalion",
@@ -6729,6 +6737,7 @@
      "name": "2/2 Aus MG Bn",
      "abbreviation": "2/2 Aus",
      "id_code": "u",
+     "infantry_type": "machine-gun",
      "parent": "unit:cw:9-aus",
      "fills": [
       "machinegun-battalion",
@@ -6965,6 +6974,7 @@
      "name": "2/1 Aus MG Bn",
      "abbreviation": "2/1 Aus",
      "id_code": "u",
+     "infantry_type": "machine-gun",
      "parent": "unit:cw:18-aus",
      "fills": [
       "machinegun-battalion",
@@ -8246,6 +8256,7 @@
      "name": "Regt Presid'nt Steyn MG Bn",
      "abbreviation": "PresStn",
      "id_code": "u",
+     "infantry_type": "machine-gun",
      "parent": "unit:cw:1-sa-div-hq",
      "fills": [
       "machinegun-battalion",
@@ -8713,6 +8724,7 @@
      "name": "Die Middellandse MG Regt",
      "abbreviation": "Midlnd",
      "id_code": "u",
+     "infantry_type": "machine-gun",
      "parent": "unit:cw:2-sa-div-hq",
      "fills": [
       "machinegun-battalion",

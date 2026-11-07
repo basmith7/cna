@@ -157,6 +157,17 @@
         "My copy has Tripoli at 26, the rest match",
         "My copy differs elsewhere (say which)"
       ]
+    },
+    {
+      "id": "oa-40-9-heavy-weapons",
+      "group": "copy",
+      "title": "Is the 40/9 Bersaglieri battalion a heavy-weapons unit?",
+      "context": "R-179 types machine-gun and heavy-weapons units by their counter symbol, read from the VASSAL art. The Italian 40/9 Bersaglieri battalion is named a heavy-weapons battalion on the OA sheet and has ID code p (like III/65 and the 101st heavy-weapons battalions), but its VASSAL counter shows motorised infantry. It is recorded as heavy weapons.",
+      "options": [
+        "My counter shows heavy weapons: keep it",
+        "My counter shows motorised infantry: drop its infantry_type",
+        "Something else (see note)"
+      ]
     }
   ]
 }

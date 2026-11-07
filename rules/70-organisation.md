@@ -160,6 +160,16 @@ semi-motorised row unless motorised (Trieste, Trento) or Libyan or
 parachute (the two Libyan divisions, Folgore, Gruppo Maletti, which the
 chart names there).
 
+::: ruling R-179 — machine-gun and heavy-weapons units are known by their counter symbol
+
+The chart's infantry limit leaves out machine-gun and heavy-weapons units,
+motorised or not: they count toward a parent's total but never toward its
+infantry allowance. A unit is one of these when its counter carries the
+machine-gun or heavy-weapons symbol, recorded as `infantry_type` on its OA
+entry; a name alone does not make it one, so the Bersaglieri *mitraglieri*
+battalions are Bersaglieri, and the Ramcke Brigade's battalions and four
+Italian garrisons are heavy weapons ([R-179](../rulings/R-179.md)).
+
 ## Attachment and detachment {#attachment-limits}
 
 ::: spi 19.4 19.41 19.42 19.43 19.44 19.45 19.46 19.47

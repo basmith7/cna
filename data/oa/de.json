@@ -192,6 +192,7 @@
      "name": "2nd Machinegewehr Bn",
      "abbreviation": "2",
      "id_code": "n",
+     "infantry_type": "machine-gun",
      "parent": "unit:de:5le-div-hq",
      "fills": [
       "infantry-battalion"
@@ -230,6 +231,7 @@
      "name": "8th Machinegewehr Bn",
      "abbreviation": "8",
      "id_code": "n",
+     "infantry_type": "machine-gun",
      "parent": "unit:de:5le-div-hq",
      "fills": [
       "infantry-battalion"
@@ -477,6 +479,7 @@
      "name": "3/288 SchwInf Bn",
      "abbreviation": "3",
      "id_code": "p",
+     "infantry_type": "heavy-weapons",
      "parent": "unit:de:288-son-hq",
      "fills": [
       "infantry-battalion"
@@ -493,6 +496,7 @@
      "name": "4/288 Machinegewehr",
      "abbreviation": "4",
      "id_code": "q",
+     "infantry_type": "machine-gun",
      "parent": "unit:de:288-son-hq",
      "fills": [
       "infantry-battalion"
@@ -1658,6 +1662,7 @@
      "name": "I Bn (Kroh)",
      "abbreviation": "I Kroh",
      "id_code": "h",
+     "infantry_type": "heavy-weapons",
      "parent": "unit:de:ramcke-bde-hq",
      "fills": [
       "infantry-battalion"
@@ -1682,6 +1687,7 @@
      "name": "II Bn (von der Heydte)",
      "abbreviation": "II vdH",
      "id_code": "h",
+     "infantry_type": "heavy-weapons",
      "parent": "unit:de:ramcke-bde-hq",
      "fills": [
       "infantry-battalion"
@@ -1706,6 +1712,7 @@
      "name": "III Bn (Hubner)",
      "abbreviation": "III Hub",
      "id_code": "h",
+     "infantry_type": "heavy-weapons",
      "parent": "unit:de:ramcke-bde-hq",
      "fills": [
       "infantry-battalion"
@@ -1730,6 +1737,7 @@
      "name": "IV Bn (Schweiger)",
      "abbreviation": "IV Sch",
      "id_code": "h",
+     "infantry_type": "heavy-weapons",
      "parent": "unit:de:ramcke-bde-hq",
      "fills": [
       "infantry-battalion"
@@ -1754,6 +1762,7 @@
      "name": "V Bn (Burchardt)",
      "abbreviation": "V Brc",
      "id_code": "h",
+     "infantry_type": "heavy-weapons",
      "parent": "unit:de:ramcke-bde-hq",
      "fills": [
       "heavy-weapons-parachute-battalion"
@@ -1836,6 +1845,7 @@
      "name": "707 SchwInf Koy",
      "abbreviation": "707",
      "id_code": "t",
+     "infantry_type": "heavy-weapons",
      "parent": null,
      "fills": [],
      "toe": [],
@@ -1853,6 +1863,7 @@
      "name": "708 SchwInf Koy",
      "abbreviation": "708",
      "id_code": "t",
+     "infantry_type": "heavy-weapons",
      "parent": null,
      "fills": [],
      "toe": [],

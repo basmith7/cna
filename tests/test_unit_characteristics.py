@@ -81,3 +81,30 @@ def test_every_reconnaissance_unit_and_only_those_has_a_vehicle_class():
         assert by_row[key] == {"armoured-car"}
     # only the Commonwealth chart leaves the split to the unit (R-125)
     assert {k for k, v in by_row.items() if len(v) > 1} == {("cw", "ll")}
+
+
+def test_infantry_types_sit_on_infantry_rows_and_cover_every_mg_counter():
+    infantry = {(r["nation"], r["id_code"]) for r in TABLE["rows"] if r["unit_type"].startswith("Infantry")}
+    typed, wrong = {}, []
+    for p in sorted((ROOT / "data" / "oa").glob("*.json")):
+        oa = json.loads(p.read_text())
+        for f in oa["formations"]:
+            for u in f["units"]:
+                if "infantry_type" in u:
+                    typed[u["id"]] = u["infantry_type"]
+                    if (oa["nation"], u["id_code"]) not in infantry:
+                        wrong.append(u["id"])
+    assert wrong == []
+    # every unit the 19.3 chart slots as a machine-gun battalion is one (R-179)
+    for p in sorted((ROOT / "data" / "oa").glob("*.json")):
+        for f in json.loads(p.read_text())["formations"]:
+            for u in f["units"]:
+                if "machinegun-battalion" in u["fills"]:
+                    assert typed.get(u["id"]) == "machine-gun", u["id"]
+    # the German MG battalions fill infantry slots but are still MG; Ramcke is heavy weapons
+    assert typed["unit:de:2-mg-bn"] == "machine-gun"
+    assert typed["unit:de:i-kroh-bn"] == "heavy-weapons"
+    # Bersaglieri mitraglieri carry the Bersaglieri symbol, not the MG one
+    assert "unit:it:3rd-bersaglieri-mitrg-bn" not in typed
+    assert sum(v == "machine-gun" for v in typed.values()) == 37
+    assert sum(v == "heavy-weapons" for v in typed.values()) == 17
