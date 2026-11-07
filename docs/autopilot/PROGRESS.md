@@ -410,3 +410,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-11-07 05:53 | 0 | 15→? | none→? | $0.38 | 4 | Nothing to do this run, so I changed nothing and committed nothing. - **Feedback:** the section in `/home/basmith7/.local/state/claude-autopilot/work/cna/docs/a |
 | 2026-11-07 06:52 | 0 | 15→? | none→? | $0.40 | 5 | This run made no changes: there was nothing new to work on. - **Feedback:** empty. - **Open autopilot PRs:** none. - **Engine requests:** cna-engine lists one,  |
 | 2026-11-07 07:52 | 0 | 16→? | none→? | $0.40 | 5 | Nothing was waiting, so this run did no work. The rulebook is complete, and cna-engine's **Requests for cna** list says "(none open)". The **Feedback** section  |
+| 2026-11-07 08:52 | 0 | 16→? | none→? | $0.38 | 5 | I did no work this run because nothing was requested. Your Feedback section is empty, no autopilot PRs are open, and cna-engine's *Requests for cna* list says " |
