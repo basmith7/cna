@@ -226,6 +226,14 @@ map has a route, as in R-110, to Nofilia (A2703), where the off-map line
 to Tripoli meets the map (`victory.cut_off`; ruling
 [R-185](../../rulings/R-185.md)).
 
+::: ruling R-186 — under abstract supply the holders need R-110's route home
+
+Played with abstract supply (§32), a holding unit's supply trace is
+R-110's route, of any length, to Nofilia for the Italians or to any hex of
+Cairo for the Commonwealth; the one-Game-Turn limit and the dump or city
+on the way drop out (`victory.points_supply`; ruling
+[R-186](../../rulings/R-186.md)).
+
 ## Without the Air or Logistics Game {#abstractions}
 
 ::: spi 60.9 60.91 60.92 60.93

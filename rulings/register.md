@@ -159,6 +159,8 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-183](./R-183.md) | What The Last Chance's tactical count of TOE points includes | accepted | 63.91 |
 | [R-184](./R-184.md) | What level the Commonwealth wins in The Long Retreat | accepted | 63.92 |
 | [R-185](./R-185.md) | The Italian Campaign's levels and its cut-off test | accepted | 60.82, 32.16 |
+| [R-186](./R-186.md) | Points places' supply conditions under abstract supply | accepted | 62.8, 63.92, 60.82, 32.16 |
+| [R-187](./R-187.md) | "Any two villages or cities in Egypt" in Rommel's Arrival | accepted | 61.8 |
 
 ## Variants
 

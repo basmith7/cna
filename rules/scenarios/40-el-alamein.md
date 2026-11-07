@@ -142,3 +142,10 @@ victory.
 With no Axis points the Commonwealth wins a tactical victory; the margins
 row for zero names the Commonwealth as its winner (`victory.margins`;
 ruling [R-184](../../rulings/R-184.md)).
+
+::: ruling R-186 — under abstract supply the holders must be able to draw on a supply unit
+
+Played with abstract supply (§32), the stores, ammunition and fuel test
+becomes 32.16's: at the end every combat unit in the place is within half
+its CPA of a friendly supply unit (`victory.points_supply`; ruling
+[R-186](../../rulings/R-186.md)).

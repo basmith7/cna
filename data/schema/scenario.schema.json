@@ -270,8 +270,14 @@
       "type": "object", "required": ["hold"], "additionalProperties": false,
       "properties": {
         "hold": {"$ref": "#/$defs/placement"},
-        "any_hex": {"type": "boolean", "description": "Holding any one hex of the place is enough"}
-      }
+        "any_hex": {"type": "boolean", "description": "Holding any one hex of the place is enough"},
+        "count": {"type": "integer", "minimum": 1, "description": "Hold at least this many whole places of place_kinds inside hold (R-187)"},
+        "place_kinds": {"type": "array", "minItems": 1, "items": {"enum": ["village", "major-city", "oasis", "bir", "feature"]},
+                        "description": "The data/map/places.json kinds that count toward count"},
+        "counted_once": {"type": "array", "items": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/placeId"}},
+                         "description": "Places in one list count once toward count, held if any of them is"}
+      },
+      "dependentRequired": {"count": ["place_kinds"], "place_kinds": ["count"], "counted_once": ["count"]}
     },
     "supplyTrace": {"type": "object", "additionalProperties": false, "minProperties": 1,
                     "description": "Land-only reading of a supply line (R-110): a route of any length a medium truck could follow from the unit's hex to any one of these, free of enemy units and of enemy ZOC unless a friendly unit is in the hex",
@@ -306,6 +312,14 @@
                     "description": "Judged at the end, before the points: if no combat unit of side on the map has this trace, winner wins this level (R-185, 60.82)",
                     "properties": {"side": {"$ref": "common.schema.json#/$defs/side"}, "winner": {"$ref": "common.schema.json#/$defs/side"},
                                    "level": {"enum": ["tactical", "decisive", "strategic"]}, "trace": {"$ref": "#/$defs/supplyTrace"}}},
+        "points_supply": {"type": "object", "additionalProperties": false, "minProperties": 1,
+                          "description": "Under abstract supply (§32), the test each scoring side's holding units meet at the end (R-186); with the Logistics Game the printed condition stands",
+                          "properties": {"axis": {"type": "object", "additionalProperties": false, "minProperties": 1, "maxProperties": 1,
+                                         "properties": {"draw": {"const": true, "description": "Each holding combat unit is within 32.16 reach of a friendly supply unit at the end"},
+                                                        "trace": {"$ref": "#/$defs/supplyTrace"}}},
+                                         "cw": {"type": "object", "additionalProperties": false, "minProperties": 1, "maxProperties": 1,
+                                         "properties": {"draw": {"const": true, "description": "Each holding combat unit is within 32.16 reach of a friendly supply unit at the end"},
+                                                        "trace": {"$ref": "#/$defs/supplyTrace"}}}}},
         "toe_on_sheet": {"type": "object", "required": ["level", "sheets"], "additionalProperties": false,
                          "description": "Failing every levels row, each side totals the TOE strength points of its land units in hexes of its named sheet at the end; the larger total wins this level (R-183, 63.91)",
                          "properties": {

@@ -242,3 +242,10 @@ holding Tobruk, Bardia and Benghazi.
 The levels are a ladder: Tobruk alone is an Axis victory. An Axis player
 who does not hold Tobruk at the end has lost, even if no Commonwealth unit
 holds it either. No supply condition applies to any holding.
+
+::: ruling R-187 — which places count as "two villages or cities in Egypt"
+
+Any two Egyptian places of kind village or major city count, each held
+whole; oases do not, and Alexandria's two hexes are one city, held if
+either is (the objective's `count`, `place_kinds` and `counted_once`;
+ruling [R-187](../../rulings/R-187.md)).
