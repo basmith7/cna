@@ -377,9 +377,24 @@
     ]
    }
   ],
+  "toe_on_sheet": {
+   "level": "tactical",
+   "sheets": {
+    "axis": "E",
+    "cw": "D"
+   },
+   "exclude": [
+    "unit:cw:a",
+    "unit:cw:sas"
+   ],
+   "hq": true,
+   "guns": true,
+   "broken_down": false,
+   "tie": "draw"
+  },
   "notes": [
    "Strategic needs at least a brigade-equivalent in one Alexandria hex; supply does not matter.",
-   "Otherwise each side totals its TOE points on the enemy's sheet (Axis on sheet E, Commonwealth on sheet D, not counting Layforce or SAS); the higher total wins a tactical victory. The schema cannot express this comparison."
+   "Failing that, each side totals the TOE strength points of its land units on the enemy's sheet (toe_on_sheet, R-183): the larger total is a tactical victory, equal totals none."
   ]
  },
  "sides": {

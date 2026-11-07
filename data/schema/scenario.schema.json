@@ -300,6 +300,17 @@
                    "items": {"type": "object", "required": ["over", "level"], "additionalProperties": false,
                              "properties": {"over": {"type": "number", "minimum": 0}, "level": {"enum": ["draw", "tactical", "decisive", "strategic"]},
                                             "printed": {"type": "string", "description": "The level's printed name"}}}},
+        "toe_on_sheet": {"type": "object", "required": ["level", "sheets"], "additionalProperties": false,
+                         "description": "Failing every levels row, each side totals the TOE strength points of its land units in hexes of its named sheet at the end; the larger total wins this level (R-183, 63.91)",
+                         "properties": {
+                           "level": {"enum": ["tactical", "decisive", "strategic"]},
+                           "sheets": {"type": "object", "required": ["axis", "cw"], "additionalProperties": false,
+                                      "properties": {"axis": {"enum": ["A", "B", "C", "D", "E"]}, "cw": {"enum": ["A", "B", "C", "D", "E"]}}},
+                           "exclude": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/unitId"}, "description": "OA units whose points are not counted"},
+                           "hq": {"type": "boolean", "description": "An HQ's own TOE points count"},
+                           "guns": {"type": "boolean", "description": "Gun TOE points (artillery, anti-tank, anti-aircraft) count beside infantry and armour"},
+                           "broken_down": {"type": "boolean", "description": "Broken-down tank points on the sheet, assigned to no unit, count for their owner"},
+                           "tie": {"enum": ["draw", "axis", "cw"], "description": "Equal totals: no victory (draw), or this side wins the level"}}},
         "notes": {"type": "array", "items": {"type": "string"}}
       }
     },

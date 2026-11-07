@@ -495,3 +495,11 @@ def test_last_chance_railroad_pipeline_splits_at_the_cut():
                     todo.append(o)
     # El Alamein drinks from Alexandria; Tobruk's stretch of line lies past the cut
     assert "E3002" in reach and "C4807" not in reach
+
+
+def test_last_chance_toe_count_excludes_layforce_and_sas():
+    t = load("the-last-chance")["victory"]["toe_on_sheet"]
+    assert t["sheets"] == {"axis": "E", "cw": "D"}
+    oa = json.loads((ROOT / "data" / "oa" / "cw.json").read_text())
+    names = {u["id"]: u["name"] for f in oa["formations"] for u in f["units"]}
+    assert [names[i] for i in t["exclude"]] == ['"A" Bn, Special Service Bde', "Special Air Service Bde"]

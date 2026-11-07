@@ -297,6 +297,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-167](../rulings/R-167.md) — the Axis's stray "eight" is eight landing strips
 - [R-158](../rulings/R-158.md) — the hexes next to Tobruk
 - [R-161](../rulings/R-161.md) — whether the Bardia fortifications are optional
+- [R-183](../rulings/R-183.md) — what the tactical count of TOE points includes
 
 ## [Group Five — the campaign game](./scenarios/50-campaign-game.md)
 
@@ -446,6 +447,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-179](../rulings/R-179.md) | accepted | 19.5, 20.3, 15.4 |
 | [R-180](../rulings/R-180.md) | accepted | 19.45, 19.21, 19.25, 19.62 |
 | [R-181](../rulings/R-181.md) | accepted | 61.38, 59.2 |
+| [R-183](../rulings/R-183.md) | accepted | 63.91 |
 
 ## Variants register
 
