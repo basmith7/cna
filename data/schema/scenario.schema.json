@@ -153,7 +153,20 @@
         "special": {"type": "array", "items": {"type": "string"}, "description": "Our sentences: special rules (59.12 h)"},
         "broken_down": {"type": "array", "items": {"$ref": "#/$defs/brokenDown"},
                         "description": "Tank TOE points that start the scenario broken down (21.x), as rows"},
-        "release": {"$ref": "#/$defs/release"}
+        "release": {"$ref": "#/$defs/release"},
+        "arrivals": {"type": "array", "items": {"$ref": "#/$defs/arrival"},
+                     "description": "Arrivals this scenario sets in place of the Reinforcement Schedule's (R-181): a unit named here comes by this row, and its schedule arrives rows do not apply in this scenario"}
+      }
+    },
+    "arrival": {
+      "type": "object", "required": ["at", "units", "placement"], "additionalProperties": false,
+      "description": "Units that enter play at an OpStage in the placement's hexes, each with its OA sheet as in a set-up (59.2), in the arrival phase like a schedule row",
+      "properties": {
+        "at": {"$ref": "common.schema.json#/$defs/gameTime"},
+        "units": {"type": "array", "minItems": 1, "items": {"$ref": "common.schema.json#/$defs/unitId"}},
+        "placement": {"$ref": "#/$defs/placement"},
+        "trucks": {"$ref": "common.schema.json#/$defs/trucks", "description": "First-line trucks that come with them"},
+        "notes": {"type": "array", "items": {"type": "string"}}
       }
     },
     "airFacility": {

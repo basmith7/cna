@@ -105,6 +105,13 @@ allowance, on top of the general one. The schedule is data:
 `sides.cw.release`, and the division's broken-down tanks are
 `sides.cw.broken_down`.
 
+::: ruling R-181 — how the 18th Australian Brigade arrives
+
+The brigade lands as its schedule row would, with its OA sheet and the
+row's 12 light, 30 medium and 10 heavy trucks, but in the first stage of
+April 1941 and in either Alexandria hex; its earlier schedule turn does
+not apply. The landing is data: `sides.cw.arrivals`.
+
 ## Axis forces {#axis}
 
 ::: spi 61.4 61.41

@@ -1514,7 +1514,32 @@
      "formations: the 7th Armoured Division has its own allowance on top of per_opstage: one tank battalion a stage once at least 75 % of its tank TOE points are repaired, and one other battalion a stage; its HQs leave freely.",
      "The limit applies to units in Cairo or Alexandria at the start; units arriving later by the schedule move normally (61.38: reinforcements are taken as they arrive)."
     ]
-   }
+   },
+   "arrivals": [
+    {
+     "at": {
+      "game_turn": 27,
+      "opstage": 1
+     },
+     "units": [
+      "unit:cw:18-aus"
+     ],
+     "placement": {
+      "place": [
+       "alexandria-east",
+       "alexandria-west"
+      ]
+     },
+     "trucks": {
+      "light": 12,
+      "medium": 30,
+      "heavy": 10
+     },
+     "notes": [
+      "61.38 by R-181: the brigade lands in Alexandria in the first OpStage of April 1941 instead of on its schedule turn (Game-Turn 14 OpStage 3, before this scenario starts), with the trucks its schedule row lists; release.free lets it move from the next OpStage."
+     ]
+    }
+   ]
   }
  },
  "abstractions": {

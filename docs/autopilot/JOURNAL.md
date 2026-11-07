@@ -730,3 +730,9 @@ Done: cna-engine's two open requests. R-179 (#308, merged 9ea4633): `infantry_ty
 In flight: none once #309 merges.
 Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line. Next free ruling id R-181.
 Blocked: none.
+
+## 2026-11-07 11:15 UTC — autopilot/req-scenario-arrivals
+Done: engine request "18th Australian Brigade's landing as data" → R-181 + `sides.<side>.arrivals` (schema, Rommel's Arrival row, test).
+In flight: none; PR merges once CI passes.
+Next: nothing requested; idle per the finish line.
+Blocked: none
