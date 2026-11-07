@@ -183,6 +183,12 @@ lives; on **2** the pilot baled out and lives but the fighter is lost; on
 1 stores and 1 fuel, no roll needed. A surviving pilot, wherever he came
 down, flies again three Operations Stages later.
 
+::: ruling R-174 — refit and repair costs with the Air Game and abstract logistics
+
+With [abstract logistics](90-abstract-logistics.md#upkeep-refits-and-repairs)
+(§47) neither repair spends stores or fuel; the SGSU must instead be able
+to draw supplies under 47.11–47.13 ([R-174](../../rulings/R-174.md)).
+
 ::: spi 45.65
 
 Fighters recovered this way do not count as kills for making aces (40.18).
