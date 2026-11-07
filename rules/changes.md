@@ -146,6 +146,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Air Game — flight and maintenance](./air/30-flight-and-maintenance.md)
 
+- [R-168](../rulings/R-168.md) — off-map air distances: shortest path through the charted points; P closes the country nearer the barred place
 - [R-112](../rulings/R-112.md) — whether the refit additions follow the aircraft's nation or the SGSU's
 - [R-174](../rulings/R-174.md) — refit and repair costs with the Air Game and abstract logistics
 
@@ -158,6 +159,10 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-174](../rulings/R-174.md) — refit and repair costs with the Air Game and abstract logistics
 - [R-113](../rulings/R-113.md) — which density shift applies to flak
+
+## [Air Game — the Mediterranean bases and Malta](./air/80-mediterranean-and-malta.md)
+
+- [R-168](../rulings/R-168.md) — the Air Distance Chart's Malta figures stand for the missing Malta box
 
 ## [Air Game — abstract logistics with the Air Game](./air/90-abstract-logistics.md)
 
@@ -418,6 +423,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-163](../rulings/R-163.md) | accepted | 59.5, 49.14, 50.17 |
 | [R-164](../rulings/R-164.md) | accepted | 3.5, 10.11, 10.15, 10.29, 12.22, 19.62, 21.42 |
 | [R-166](../rulings/R-166.md) | accepted | 62.5, 52.24 |
+| [R-168](../rulings/R-168.md) | accepted | 37.4, 36.5, 44.11, 37.11 |
 | [R-169](../rulings/R-169.md) | accepted | 34.6, 34.84, 62.33, 62.36, 63.33, 63.37, 63.43 |
 | [R-170](../rulings/R-170.md) | accepted | 62.33 |
 | [R-171](../rulings/R-171.md) | accepted | 47.51, 41.32, 41.35, 40.53, 40.61, 40.62, 40.64, 32.11, 32.32 |
