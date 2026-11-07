@@ -57,9 +57,22 @@ An assigned unit occupies its slot in the parent's structure wherever it is.
   independent. If an assigned unit is eliminated, its slot is free.
 - Some units carry an asterisk: their parent never reached Africa, and they
   may not be reassigned except under the Commonwealth shuffle rule.
-- **Historical shifts.** Where the O/A Chart notes a historical change of
-  parent (a regiment moving from one panzer division to another), the owner
-  may make it in the month named, or never.
+
+::: ruling R-176 — a shift is made in the month its note prints or dates, or never
+
+**Historical shifts.** Where an O/A note describes a unit changing parent,
+the owner may make that change in the note's month or never, and only
+within the rules above: the unit must be attached to its new parent, which
+needs a free slot. The note's month is the one it prints or, where it ties
+the move to an event the sheets date (an arrival, a reorganisation, a
+destruction), that event's month; a note that says only "later" gives no
+month, and its shift cannot be made this way. A shift may also take a unit
+out of its parent and leave it independent. In `data/oa/` the moving unit
+lists each shift in `shifts`: the parent it leaves, the parent it joins
+(null for independent) and the month (null where the note gives none)
+([R-176](../rulings/R-176.md)). A unit already independent can be assigned
+whenever the rules above allow, so its shift only records history.
+
 - **Replacement counters.** Where the O/A Chart says one counter replaces
   another (the 5th Light Panzer Division's HQ becoming the 21st Panzer's at
   2/58, the 7th Support Group becoming the 7th Motor Brigade, the 3rd

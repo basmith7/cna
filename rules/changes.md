@@ -68,6 +68,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-015** — 20.72: plan one month ahead, not two, and read the table for the arrival month
 - **E-016** — 20.83: the reference to 20.75 is void; the strength requirement is 20.82's
 - **E-035** — 4.43a: two entries were left out of the Commonwealth schedule (42nd RTR arrives 28/2; 32nd Army Tank Brigade withdraws 64/2, and returns at 76/2)
+- [R-176](../rulings/R-176.md) — a shift is made in the month its note prints or dates, or never
 - [R-142](../rulings/R-142.md) — a counter fills the slots of its own kind and size
 - [R-146](../rulings/R-146.md) — from turn 92 the support group fills the armoured division's infantry brigade slot
 - [R-130](../rulings/R-130.md) — parents the attachment chart does not name use the nearest row by size and type
@@ -426,6 +427,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-172](../rulings/R-172.md) | accepted | 47.0, 41.39, 41.81, 40.66, 40.67, 55.18, 32.11, 32.36, 47.61 |
 | [R-173](../rulings/R-173.md) | accepted | 35.14, 47.0, 47.13 |
 | [R-174](../rulings/R-174.md) | accepted | 38.36, 45.62, 45.64, 47.0, 47.2 |
+| [R-176](../rulings/R-176.md) | accepted | 19.24, 19.21 |
 
 ## Variants register
 

@@ -145,6 +145,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-172](./R-172.md) | Ports and the water pipeline as air targets under abstract logistics (§47) | accepted | 47.0, 41.39, 41.81, 40.66, 40.67, 55.18, 32.11, 32.36, 47.61 |
 | [R-173](./R-173.md) | SGSU upkeep with the Air Game and abstract logistics | accepted | 35.14, 47.0, 47.13 |
 | [R-174](./R-174.md) | Refit and repair costs with the Air Game and abstract logistics | accepted | 38.36, 45.62, 45.64, 47.0, 47.2 |
+| [R-176](./R-176.md) | Which O/A notes are historical shifts, and in which month | accepted | 19.24, 19.21 |
 
 ## Variants
 
