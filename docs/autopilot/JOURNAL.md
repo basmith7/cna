@@ -742,3 +742,4 @@ Done: all four new cna-engine requests merged: #311 R-182 (blind barrage numbere
 In flight: none.
 Next: re-read cna-engine's Requests for cna (it still listed all four at 17:08, before its own run cleared them); with nothing new and Feedback empty, idle. Next free ruling id R-188.
 Blocked: none.
+Note: Pages deploy for 8e35bab was blocked ~30 min by a stuck 9a55bd7 deployment ("in progress deployment"); `gh api -X POST repos/basmith7/cna/pages/deployments/<sha>/cancel` plus reruns cleared it at 17:39 UTC; site live with R-187.
