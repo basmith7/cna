@@ -7,6 +7,10 @@
   "title": "Air missions",
   "group": "Air Game"
  },
+ "air-off-map-distances": {
+  "title": "Air off map distances",
+  "group": "Air Game"
+ },
  "air-reconnaissance": {
   "title": "Air reconnaissance",
   "group": "Air Game"

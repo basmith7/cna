@@ -82,6 +82,7 @@ For developers: the same values are JSON in `data/tables/`; see the [data conven
 |---|---|
 | [Air bombardment](/tables/air-bombardment) | [Air Game — bombing](/rules/air/60-bombing) |
 | [Air missions](/tables/air-missions) | [Air Game — missions](/rules/air/40-missions) |
+| [Air off map distances](/tables/air-off-map-distances) | [Air Game — air facilities](/rules/air/20-air-facilities), [Air Game — flight and maintenance](/rules/air/30-flight-and-maintenance) |
 | [Air reconnaissance](/tables/air-reconnaissance) | [Air Game — missions](/rules/air/40-missions) |
 | [Air reinforcement schedule](/tables/air-reinforcement-schedule) | [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus) |
 | [Aircraft characteristics](/tables/aircraft-characteristics) | [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus), [Air Game — flight and maintenance](/rules/air/30-flight-and-maintenance) |

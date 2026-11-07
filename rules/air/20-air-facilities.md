@@ -118,6 +118,16 @@ on-map facilities except that:
 The Axis bases across the Mediterranean, in Italy and the Aegean, cannot be
 bombed at all (§43).
 
+The Commonwealth's bases beyond map E (Port Said's flying boat basin, Abu
+Seier, Ismailia, Fayid, Deversoir, Kabrit and, from Game-Turn 35, Ethiopia)
+each have an entry hex on map E's edge, a distance in hexes from the base
+to it, and a most-squadrons limit (Ethiopia's is unlimited). A flight from
+one counts that distance plus the hexes on the map from its entry hex
+([flight](30-flight-and-maintenance.md#how-aircraft-fly)). The chart is
+data:
+[`data/tables/air-off-map-distances.json`](https://github.com/basmith7/cna/blob/main/data/tables/air-off-map-distances.json)
+(`commonwealth_bases`).
+
 ## Engine notes
 
 - A facility needs: kind, hex (or box), owner by occupation, current
