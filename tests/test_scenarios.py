@@ -503,3 +503,27 @@ def test_last_chance_toe_count_excludes_layforce_and_sas():
     oa = json.loads((ROOT / "data" / "oa" / "cw.json").read_text())
     names = {u["id"]: u["name"] for f in oa["formations"] for u in f["units"]}
     assert [names[i] for i in t["exclude"]] == ['"A" Bn, Special Service Bde', "Special Air Service Bde"]
+
+
+def _margin_winner(victory, axis, cw):
+    """The side and level a margins ladder gives, read top down."""
+    lead = abs(axis - cw)
+    for row in victory["margins"]:
+        if lead >= row["min"]:
+            return row.get("side", "axis" if axis > cw else "cw" if cw > axis else None), row["level"]
+    return None, None
+
+
+def test_long_retreat_zero_points_is_a_commonwealth_tactical_win():
+    v = load("the-long-retreat")["victory"]
+    assert _margin_winner(v, 0, 0) == ("cw", "tactical")
+    assert _margin_winner(v, 1, 0) == ("axis", "tactical")
+    assert _margin_winner(v, 10, 0) == ("axis", "strategic")
+
+
+def test_italian_campaign_levels_and_cut_off_trace():
+    v = load("italian-campaign")["victory"]
+    assert _margin_winner(v, 50, 50)[1] == "draw"
+    assert _margin_winner(v, 0, 25) == ("cw", "tactical")
+    places = {p["id"] for p in json.loads((ROOT / "data" / "map" / "places.json").read_text())["places"]}
+    assert v["cut_off"]["side"] == "axis" and set(v["cut_off"]["trace"]["places"]) <= places

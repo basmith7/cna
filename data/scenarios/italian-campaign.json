@@ -64,9 +64,29 @@
     "cw": 50
    }
   ],
+  "margins": [
+   {
+    "min": 1,
+    "level": "tactical"
+   },
+   {
+    "min": 0,
+    "level": "draw"
+   }
+  ],
+  "cut_off": {
+   "side": "axis",
+   "winner": "cw",
+   "level": "strategic",
+   "trace": {
+    "places": [
+     "nofilia"
+    ]
+   }
+  },
   "notes": [
    "A place scores for the side holding it with a combat unit (non-parenthesised Close Assault rating) that can trace supply of at most one Game-Turn to a dump or city whose line leads back to Cairo (CW) or Tripoli (Italian).",
-   "If no Italian combat unit on the map can trace a supply line, the Commonwealth wins a Strategic Victory; otherwise the side with more points wins a plain Victory.",
+   "If at the end no Italian combat unit on the map can trace a supply line, the Commonwealth wins a strategic victory (cut_off: R-110's route to Nofilia, the map end of the off-map line to Tripoli; R-185); otherwise most points wins the printed plain 'Victory', recorded as tactical, and equal totals are a draw.",
    "Agedabia is printed 'Agadabia (A2629)'."
   ]
  }

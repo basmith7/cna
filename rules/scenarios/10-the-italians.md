@@ -217,6 +217,15 @@ back to Cairo or Tripoli. Each place scores for whichever side holds it
 (`victory.points`); most points wins. If no Italian combat unit on the map
 can trace a supply line, the Commonwealth wins outright.
 
+::: ruling R-185 — the plain victory is tactical; the cut-off test is R-110's route to Nofilia
+
+Most points is a tactical victory and equal totals a draw
+(`victory.margins`). The Commonwealth's outright win is a strategic
+victory, judged at the end: it happens when no Italian combat unit on the
+map has a route, as in R-110, to Nofilia (A2703), where the off-map line
+to Tripoli meets the map (`victory.cut_off`; ruling
+[R-185](../../rulings/R-185.md)).
+
 ## Without the Air or Logistics Game {#abstractions}
 
 ::: spi 60.9 60.91 60.92 60.93
