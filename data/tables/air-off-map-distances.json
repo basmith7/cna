@@ -1,0 +1,679 @@
+{
+ "table": "air-off-map-distances",
+ "sources": [
+  "CNA1979:37.4",
+  "CNA1979:36.5",
+  "CNA1979:44.11",
+  "scan:p70"
+ ],
+ "notes": [
+  "Air Distance Chart (SPI 37.4), parts A (Axis off-map North African areas) and B (North Mediterranean off-map areas), and the Allied Off-Map Air Facilities Chart (printed as 36.53, a case number the rules index does not list; it belongs to 36.5): hexes of flight between places the map cannot measure. One row per unordered pair, stored with a < b; `part` names the chart part. hexes null is the chart's P (prohibited: no direct flight between the two). A pair the chart does not list has no row.",
+  "44.11 says Malta's air distances to Africa are in a box on the Malta inset; the printed Map A inset (jp2 187) has no such box, only the Italy and Sicily holding boxes. The chart's Malta figures (part A's Malta row, part B's Malta column and row) are those distances (R-168).",
+  "places: kind box is an off-map holding box, malta is every hex of the Malta inset, place is a map location at the listed hexes (places.json; Alexandria is two hexes, either one). How a figure reaches an arbitrary map hex, and what P forbids beyond the named place, is R-168.",
+  "Both charts are on rulebook page jp2 70 (with 8.89 and 56.26). Transcribed from the archive.org scan and cross-checked against the community's converted scan of the same rulebook (scan:discord:CampaignNorthAfrica - converted.pdf:p71, rendered at 150 dpi): 0 of 49 chart cells and 0 of 21 base-chart cells differ. The djvu OCR text kept none of 37.4's numbers. Cross-checks against the map (tools/map_geom.distance): 37.4's example 2, Agedabia to Ismailia, is 140 hexes to E3433 plus 36.53's 9, the printed 149; Crete-Tobruk 48 is exactly Crete-Derna 27 plus Derna-Tobruk 21; Gabes-Nofilia 104 is exactly Gabes-Tripoli 40 plus Tripoli-Nofilia 64. The one figure longer than a path through another charted point is Malta-Bardia 144 against Malta-Tobruk 126 plus Tobruk-Bardia 16 (142); kept as printed, R-168 lets the shorter path stand.",
+  "commonwealth_bases (36.53): each Allied off-map air facility, the map-E edge hex its planes enter and leave by, the hexes from the facility to that hex, and the most squadrons it may base (null: unlimited). Port Said is a flying boat basin. No planes may be based in Ethiopia before the first Operations Stage of Game-Turn 35."
+ ],
+ "places": [
+  {
+   "id": "tunis",
+   "kind": "box"
+  },
+  {
+   "id": "gabes",
+   "kind": "box"
+  },
+  {
+   "id": "tripoli",
+   "kind": "box"
+  },
+  {
+   "id": "tripolitania",
+   "kind": "box"
+  },
+  {
+   "id": "malta",
+   "kind": "malta"
+  },
+  {
+   "id": "crete",
+   "kind": "box"
+  },
+  {
+   "id": "sicily",
+   "kind": "box"
+  },
+  {
+   "id": "italy",
+   "kind": "box"
+  },
+  {
+   "id": "nofilia",
+   "kind": "place",
+   "hexes": [
+    "A2703"
+   ]
+  },
+  {
+   "id": "benghazi",
+   "kind": "place",
+   "hexes": [
+    "A4827"
+   ]
+  },
+  {
+   "id": "derna",
+   "kind": "place",
+   "hexes": [
+    "B5925"
+   ]
+  },
+  {
+   "id": "tobruk",
+   "kind": "place",
+   "hexes": [
+    "C4807"
+   ]
+  },
+  {
+   "id": "bardia",
+   "kind": "place",
+   "hexes": [
+    "C4321"
+   ]
+  },
+  {
+   "id": "mersa-matruh",
+   "kind": "place",
+   "hexes": [
+    "D3714"
+   ]
+  },
+  {
+   "id": "alexandria",
+   "kind": "place",
+   "hexes": [
+    "E3613",
+    "E3714"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "part": "A",
+   "a": "benghazi",
+   "b": "gabes",
+   "hexes": 124,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "benghazi",
+   "b": "tripoli",
+   "hexes": 88,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "benghazi",
+   "b": "tripolitania",
+   "hexes": 44,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "benghazi",
+   "b": "tunis",
+   "hexes": 136,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "gabes",
+   "b": "malta",
+   "hexes": 58,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "gabes",
+   "b": "nofilia",
+   "hexes": 104,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "gabes",
+   "b": "tripoli",
+   "hexes": 40,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "gabes",
+   "b": "tripolitania",
+   "hexes": 68,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "gabes",
+   "b": "tunis",
+   "hexes": 40,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "malta",
+   "b": "tripoli",
+   "hexes": 42,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "malta",
+   "b": "tripolitania",
+   "hexes": 60,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "malta",
+   "b": "tunis",
+   "hexes": 52,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "nofilia",
+   "b": "tripoli",
+   "hexes": 64,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "nofilia",
+   "b": "tripolitania",
+   "hexes": 32,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "nofilia",
+   "b": "tunis",
+   "hexes": 120,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "tripoli",
+   "b": "tripolitania",
+   "hexes": 32,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "tripoli",
+   "b": "tunis",
+   "hexes": 60,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "A",
+   "a": "tripolitania",
+   "b": "tunis",
+   "hexes": 91,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "alexandria",
+   "b": "crete",
+   "hexes": 84,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "alexandria",
+   "b": "italy",
+   "hexes": null,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "alexandria",
+   "b": "malta",
+   "hexes": null,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "alexandria",
+   "b": "sicily",
+   "hexes": null,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "bardia",
+   "b": "crete",
+   "hexes": 50,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "bardia",
+   "b": "italy",
+   "hexes": null,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "bardia",
+   "b": "malta",
+   "hexes": 144,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "bardia",
+   "b": "sicily",
+   "hexes": null,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "benghazi",
+   "b": "crete",
+   "hexes": 62,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "benghazi",
+   "b": "italy",
+   "hexes": 138,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "benghazi",
+   "b": "malta",
+   "hexes": 84,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "benghazi",
+   "b": "sicily",
+   "hexes": 96,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "crete",
+   "b": "derna",
+   "hexes": 27,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "crete",
+   "b": "malta",
+   "hexes": 105,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "crete",
+   "b": "mersa-matruh",
+   "hexes": 66,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "crete",
+   "b": "nofilia",
+   "hexes": null,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "crete",
+   "b": "tobruk",
+   "hexes": 48,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "derna",
+   "b": "italy",
+   "hexes": 147,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "derna",
+   "b": "malta",
+   "hexes": 108,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "derna",
+   "b": "sicily",
+   "hexes": 105,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "italy",
+   "b": "malta",
+   "hexes": 72,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "italy",
+   "b": "mersa-matruh",
+   "hexes": null,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "italy",
+   "b": "nofilia",
+   "hexes": null,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "italy",
+   "b": "tobruk",
+   "hexes": null,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "malta",
+   "b": "mersa-matruh",
+   "hexes": null,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "malta",
+   "b": "nofilia",
+   "hexes": 80,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "malta",
+   "b": "sicily",
+   "hexes": 24,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "malta",
+   "b": "tobruk",
+   "hexes": 126,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "mersa-matruh",
+   "b": "sicily",
+   "hexes": null,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "nofilia",
+   "b": "sicily",
+   "hexes": null,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  },
+  {
+   "part": "B",
+   "a": "sicily",
+   "b": "tobruk",
+   "hexes": null,
+   "sources": [
+    "CNA1979:37.4",
+    "scan:p70"
+   ]
+  }
+ ],
+ "commonwealth_bases": [
+  {
+   "id": "port-said",
+   "name": "Port Said",
+   "flying_boat_basin": true,
+   "entry_hex": "E4033",
+   "hexes": 12,
+   "max_squadrons": 3,
+   "sources": [
+    "CNA1979:36.5",
+    "scan:p70"
+   ]
+  },
+  {
+   "id": "abu-seier",
+   "name": "Abu Seier",
+   "flying_boat_basin": false,
+   "entry_hex": "E3433",
+   "hexes": 7,
+   "max_squadrons": 9,
+   "sources": [
+    "CNA1979:36.5",
+    "scan:p70"
+   ]
+  },
+  {
+   "id": "ismailia",
+   "name": "Ismailia",
+   "flying_boat_basin": false,
+   "entry_hex": "E3433",
+   "hexes": 9,
+   "max_squadrons": 9,
+   "sources": [
+    "CNA1979:36.5",
+    "scan:p70"
+   ]
+  },
+  {
+   "id": "fayid",
+   "name": "Fayid",
+   "flying_boat_basin": false,
+   "entry_hex": "E1833",
+   "hexes": 11,
+   "max_squadrons": 9,
+   "sources": [
+    "CNA1979:36.5",
+    "scan:p70"
+   ]
+  },
+  {
+   "id": "deversoir",
+   "name": "Deversoir",
+   "flying_boat_basin": false,
+   "entry_hex": "E1833",
+   "hexes": 12,
+   "max_squadrons": 9,
+   "sources": [
+    "CNA1979:36.5",
+    "scan:p70"
+   ]
+  },
+  {
+   "id": "kabrit",
+   "name": "Kabrit",
+   "flying_boat_basin": false,
+   "entry_hex": "E1833",
+   "hexes": 13,
+   "max_squadrons": 9,
+   "sources": [
+    "CNA1979:36.5",
+    "scan:p70"
+   ]
+  },
+  {
+   "id": "ethiopia",
+   "name": "Ethiopia",
+   "flying_boat_basin": false,
+   "entry_hex": "E0127",
+   "hexes": 60,
+   "max_squadrons": null,
+   "first_game_turn": 35,
+   "sources": [
+    "CNA1979:36.5",
+    "scan:p70"
+   ]
+  }
+ ]
+}

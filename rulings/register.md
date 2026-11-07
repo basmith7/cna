@@ -140,6 +140,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-163](./R-163.md) | What units hold at the start of a Logistics Game | accepted | 59.5, 49.14, 50.17 |
 | [R-164](./R-164.md) | A combat unit with no TOE strength points left | accepted | 3.5, 10.11, 10.15, 10.29, 12.22, 19.62, 21.42 |
 | [R-166](./R-166.md) | Which hexes Operation Crusader's pipeline fills | accepted | 62.5, 52.24 |
+| [R-168](./R-168.md) | How far an off-map air base is from a map hex | accepted | 37.4, 36.5, 44.11, 37.11 |
 | [R-171](./R-171.md) | Supply units and motorisation points as air targets under abstract logistics (§47) | accepted | 47.51, 41.32, 41.35, 40.53, 40.61, 40.62, 40.64, 32.11, 32.32 |
 | [R-172](./R-172.md) | Ports and the water pipeline as air targets under abstract logistics (§47) | accepted | 47.0, 41.39, 41.81, 40.66, 40.67, 55.18, 32.11, 32.36, 47.61 |
 | [R-173](./R-173.md) | SGSU upkeep with the Air Game and abstract logistics | accepted | 35.14, 47.0, 47.13 |
