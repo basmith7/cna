@@ -155,6 +155,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-179](./R-179.md) | Machine-gun and heavy-weapons units are known by their counter symbol | accepted | 19.5, 20.3, 15.4 |
 | [R-180](./R-180.md) | A substitute stops being one when the unit it stands for arrives | accepted | 19.45, 19.21, 19.25, 19.62 |
 | [R-181](./R-181.md) | How the 18th Australian Brigade arrives in Rommel's Arrival | accepted | 61.38, 59.2 |
+| [R-182](./R-182.md) | Blind barrage targets are numbered by class, not picked off the map | accepted | 3.61, 3.62, 12.22, 12.23, 12.24 |
 
 ## Variants
 

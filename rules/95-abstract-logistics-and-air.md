@@ -371,7 +371,7 @@ available:
 
 | Occasion | Revealed |
 |---|---|
-| map | any stack may be examined; not what the counters contain |
+| map | any stack may be examined; not what the counters contain, and not which unit a blind barrage target is ([R-182](../rulings/R-182.md)) |
 | anti-armour fire | the tank and SP-gun types, and whether armoured recce or halftracks took part in the assault — not numbers, origin hexes, or which points absorbed damage |
 | close assault | the unit types that took part (or were overrun) — not numbers or which weapons were lost |
 | prisoners | nothing; they cannot be questioned |
