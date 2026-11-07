@@ -298,6 +298,39 @@ def test_rommels_arrival_release_schedule():
     assert f["tank_battalions"] == {"per_opstage": 1, "min_repaired": 0.75}
 
 
+def test_scenario_arrivals_replace_the_schedule_rows_before_the_start():
+    # R-181: a scenario arrival brings a unit the schedule cannot (its row is
+    # before the start), once, unplaced at set-up, with its schedule trucks.
+    sched = json.loads((ROOT / "data" / "tables" / "reinforcement-schedule.json").read_text())["rows"]
+    for path in sorted((ROOT / "data" / "scenarios").glob("*.json")):
+        doc = json.loads(path.read_text())
+        for s in doc.get("sides", {}).values():
+            placed = set(_walk_strings(s.get("deployments", [])))
+            for a in s.get("arrivals", []):
+                assert (a["at"]["game_turn"], a["at"]["opstage"]) >= (doc["start"]["game_turn"], doc["start"]["opstage"])
+                for u in a["units"]:
+                    assert u not in placed, (path.name, u)
+                    rows = [r for r in sched if r["kind"] == "arrives" and u in r["units"]]
+                    assert rows, (path.name, u)
+    (a,) = load("rommels-arrival")["sides"]["cw"]["arrivals"]
+    assert a["at"] == {"game_turn": 27, "opstage": 1} and a["units"] == ["unit:cw:18-aus"]
+    (row,) = [r for r in sched if r["kind"] == "arrives" and r["units"] == ["unit:cw:18-aus"]]
+    assert a["trucks"] == row["trucks"]
+    (free,) = load("rommels-arrival")["sides"]["cw"]["release"]["free"]
+    assert free["unit"] == "unit:cw:18-aus" and free["from"] == {"game_turn": 27, "opstage": 2}
+
+
+def _walk_strings(obj):
+    if isinstance(obj, dict):
+        for v in obj.values():
+            yield from _walk_strings(v)
+    elif isinstance(obj, list):
+        for v in obj:
+            yield from _walk_strings(v)
+    elif isinstance(obj, str):
+        yield obj
+
+
 def test_set_up_fortification_counts_match_land_neighbours():
     # R-158: a row that fills every land hex next to a place counts them;
     # a row a player places names the side.

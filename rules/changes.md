@@ -274,6 +274,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-147](../rulings/R-147.md) — desert raiders are counters of their own; a raider a set-up places starts formed
 - [R-103](../rulings/R-103.md) — 5 RTR's tanks with no 5 RTR in the set-up
 - [R-159](../rulings/R-159.md) — what the release schedule counts
+- [R-181](../rulings/R-181.md) — how the 18th Australian Brigade arrives
 - [R-136](../rulings/R-136.md) — set-up areas "between" two places and "inside" a triangle
 - [R-161](../rulings/R-161.md) — whether the Tobruk fortifications are optional
 - [R-027](../rulings/R-027.md) — Tobruk's efficiency level
@@ -444,6 +445,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-178](../rulings/R-178.md) | accepted | 16.41, 16.42, 16.43, 32.11 |
 | [R-179](../rulings/R-179.md) | accepted | 19.5, 20.3, 15.4 |
 | [R-180](../rulings/R-180.md) | accepted | 19.45, 19.21, 19.25, 19.62 |
+| [R-181](../rulings/R-181.md) | accepted | 61.38, 59.2 |
 
 ## Variants register
 
