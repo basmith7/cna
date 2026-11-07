@@ -406,3 +406,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-11-06 19:52 | 29 | 12→13 | none→none | $19.97 | 6 | Brian, this run answered all eight new cna-engine requests, one PR each, all merged (#299–#306). CI and the site deploy on `main` passed. Nothing else is open,  |
 | 2026-11-07 00:52 | 3 | 14→14 | none→none | $0.91 | 20 | I answered cna-engine's last open request, dummy tank formations under §32 (16.4), with ruling R-178. It's merged as #307. When the Land Game is played with abs |
 | 2026-11-07 01:52 | 10 | 14→14 | none→none | $3.44 | 71 | Brian, the last two open requests from cna-engine are answered and merged. Nothing else is open, so the repo goes back to idle, as the finish line says. - **Mac |
+| 2026-11-07 03:52 | 8 | 15→15 | none→none | $1.46 | 34 | I answered the one engine request still open: the 18th Australian Brigade now lands in Rommel's Arrival. That went in as R-181 in PR #310, which is merged, and  |
