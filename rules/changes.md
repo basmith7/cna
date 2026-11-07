@@ -140,11 +140,13 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Air Game — aircraft and squadrons](./air/10-aircraft-and-sgsus.md)
 
+- [R-173](../rulings/R-173.md) — SGSU upkeep with the Air Game and abstract logistics
 - [R-116](../rulings/R-116.md) — Commonwealth squadron size before July 1941
 
 ## [Air Game — flight and maintenance](./air/30-flight-and-maintenance.md)
 
 - [R-112](../rulings/R-112.md) — whether the refit additions follow the aircraft's nation or the SGSU's
+- [R-174](../rulings/R-174.md) — refit and repair costs with the Air Game and abstract logistics
 
 ## [Air Game — fighters](./air/50-fighters.md)
 
@@ -153,10 +155,13 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Air Game — air combat and flak](./air/70-air-combat-and-flak.md)
 
+- [R-174](../rulings/R-174.md) — refit and repair costs with the Air Game and abstract logistics
 - [R-113](../rulings/R-113.md) — which density shift applies to flak
 
 ## [Air Game — abstract logistics with the Air Game](./air/90-abstract-logistics.md)
 
+- [R-173](../rulings/R-173.md) — SGSU upkeep with the Air Game and abstract logistics
+- [R-174](../rulings/R-174.md) — refit and repair costs with the Air Game and abstract logistics
 - [R-171](../rulings/R-171.md) — supply units are supply dumps; motorisation points are first-line trucks when attached to a combat unit, trucks in convoy otherwise
 - [R-172](../rulings/R-172.md) — ports and the water pipeline stay targets; efficiency never limits a §47 convoy, and a cut pipeline has no effect
 - [R-127](../rulings/R-127.md) — a 5 % convoy result is applied like 10 %
@@ -413,6 +418,8 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-166](../rulings/R-166.md) | accepted | 62.5, 52.24 |
 | [R-171](../rulings/R-171.md) | accepted | 47.51, 41.32, 41.35, 40.53, 40.61, 40.62, 40.64, 32.11, 32.32 |
 | [R-172](../rulings/R-172.md) | accepted | 47.0, 41.39, 41.81, 40.66, 40.67, 55.18, 32.11, 32.36, 47.61 |
+| [R-173](../rulings/R-173.md) | accepted | 35.14, 47.0, 47.13 |
+| [R-174](../rulings/R-174.md) | accepted | 38.36, 45.62, 45.64, 47.0, 47.2 |
 
 ## Variants register
 

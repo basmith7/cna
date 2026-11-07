@@ -142,6 +142,8 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-166](./R-166.md) | Which hexes Operation Crusader's pipeline fills | accepted | 62.5, 52.24 |
 | [R-171](./R-171.md) | Supply units and motorisation points as air targets under abstract logistics (§47) | accepted | 47.51, 41.32, 41.35, 40.53, 40.61, 40.62, 40.64, 32.11, 32.32 |
 | [R-172](./R-172.md) | Ports and the water pipeline as air targets under abstract logistics (§47) | accepted | 47.0, 41.39, 41.81, 40.66, 40.67, 55.18, 32.11, 32.36, 47.61 |
+| [R-173](./R-173.md) | SGSU upkeep with the Air Game and abstract logistics | accepted | 35.14, 47.0, 47.13 |
+| [R-174](./R-174.md) | Refit and repair costs with the Air Game and abstract logistics | accepted | 38.36, 45.62, 45.64, 47.0, 47.2 |
 
 ## Variants
 
