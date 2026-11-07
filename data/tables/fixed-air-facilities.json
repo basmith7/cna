@@ -1,0 +1,214 @@
+{
+ "table": "fixed-air-facilities",
+ "sources": [
+  "CNA1979:36.5",
+  "CNA1979:44.12",
+  "CNA1979:44.14",
+  "vassal:CNAv2.1.0",
+  "scan:p187"
+ ],
+ "notes": [
+  "Air facilities that are never built, moved or removed: the Maltese bases printed on the Malta inset (44.12) and the Axis's off-map and Mediterranean boxes. Bombing can bring their capacity to zero but never destroys them (36.5, 44.12); the Axis bases in Italy, Sicily and Crete cannot be bombed at all (36.5, 43.2). The Commonwealth's off-map bases (36.53) are commonwealth_bases in air-off-map-distances.json, with the same kind of id; a scenario's fixed facility names a row of either.",
+  "max_capacity counts levels for Malta, where a level serves up to 18 aircraft of any type and no SGSUs are used (44.14, R-165). null: no limit is printed.",
+  "The Malta rows are read from the printed Map A inset (jp2 187), whose terrain key tells the symbols apart: four airfields, Kalafrana's flying-boat basin and Valletta's alighting area, each with its standard level; the VASSAL redraw agrees. Hal Far's symbol sits in M0505; data/map/places.json puts the Hal Far label at M0504."
+ ],
+ "rows": [
+  {
+   "id": "takali",
+   "name": "Takali",
+   "side": "cw",
+   "area": "malta",
+   "kind": "airfield",
+   "hex": "M0802",
+   "max_capacity": 6,
+   "sources": [
+    "CNA1979:44.12",
+    "scan:p187"
+   ]
+  },
+  {
+   "id": "luqa",
+   "name": "Luqa",
+   "side": "cw",
+   "area": "malta",
+   "kind": "airfield",
+   "hex": "M0704",
+   "max_capacity": 6,
+   "sources": [
+    "CNA1979:44.12",
+    "scan:p187"
+   ]
+  },
+  {
+   "id": "safi",
+   "name": "Safi",
+   "side": "cw",
+   "area": "malta",
+   "kind": "airfield",
+   "hex": "M0604",
+   "max_capacity": 6,
+   "sources": [
+    "CNA1979:44.12",
+    "scan:p187"
+   ]
+  },
+  {
+   "id": "hal-far",
+   "name": "Hal Far",
+   "side": "cw",
+   "area": "malta",
+   "kind": "airfield",
+   "hex": "M0505",
+   "max_capacity": 6,
+   "sources": [
+    "CNA1979:44.12",
+    "scan:p187"
+   ]
+  },
+  {
+   "id": "kalafrana",
+   "name": "Kalafrana",
+   "side": "cw",
+   "area": "malta",
+   "kind": "flying-boat-basin",
+   "hex": "M0506",
+   "max_capacity": 3,
+   "sources": [
+    "CNA1979:44.12",
+    "scan:p187"
+   ]
+  },
+  {
+   "id": "valletta",
+   "name": "Valletta",
+   "side": "cw",
+   "area": "malta",
+   "kind": "flying-boat-alighting-area",
+   "hex": "M0805",
+   "max_capacity": 1,
+   "sources": [
+    "CNA1979:44.12",
+    "scan:p187"
+   ]
+  },
+  {
+   "id": "tunis",
+   "name": "Tunis",
+   "side": "axis",
+   "area": "off-map",
+   "kind": "airfield",
+   "box": "tunis",
+   "max_capacity": null,
+   "sources": [
+    "CNA1979:36.5",
+    "CNA1979:60.5",
+    "scan:p78"
+   ],
+   "notes": [
+    "One of 60.5's four Tripoli/Tunisia boxes; no capacity is printed on the box. Same box ids as off-map-distances.json."
+   ]
+  },
+  {
+   "id": "gabes",
+   "name": "Gabes",
+   "side": "axis",
+   "area": "off-map",
+   "kind": "airfield",
+   "box": "gabes",
+   "max_capacity": null,
+   "sources": [
+    "CNA1979:36.5",
+    "CNA1979:60.5",
+    "scan:p78"
+   ],
+   "notes": [
+    "One of 60.5's four Tripoli/Tunisia boxes; no capacity is printed on the box. Same box ids as off-map-distances.json."
+   ]
+  },
+  {
+   "id": "tripoli",
+   "name": "Tripoli",
+   "side": "axis",
+   "area": "off-map",
+   "kind": "airfield",
+   "box": "tripoli",
+   "max_capacity": null,
+   "sources": [
+    "CNA1979:36.5",
+    "CNA1979:60.5",
+    "scan:p78"
+   ],
+   "notes": [
+    "One of 60.5's four Tripoli/Tunisia boxes; no capacity is printed on the box. Same box ids as off-map-distances.json."
+   ]
+  },
+  {
+   "id": "tripolitania",
+   "name": "Tripolitania",
+   "side": "axis",
+   "area": "off-map",
+   "kind": "airfield",
+   "box": "tripolitania",
+   "max_capacity": null,
+   "sources": [
+    "CNA1979:36.5",
+    "CNA1979:60.5",
+    "scan:p78"
+   ],
+   "notes": [
+    "One of 60.5's four Tripoli/Tunisia boxes; no capacity is printed on the box. Same box ids as off-map-distances.json."
+   ]
+  },
+  {
+   "id": "italy",
+   "name": "Italy",
+   "side": "axis",
+   "area": "mediterranean",
+   "kind": "airfield",
+   "box": "italy",
+   "max_capacity": null,
+   "sources": [
+    "CNA1979:43.1",
+    "CNA1979:43.21",
+    "vassal:CNAv2.1.0"
+   ],
+   "notes": [
+    "A Mediterranean holding box: German bombers based here need no SGSUs (43.21) and it cannot be bombed (36.5); how many planes may be based here is set by 43.1 and each scenario, not by a capacity."
+   ]
+  },
+  {
+   "id": "sicily",
+   "name": "Sicily",
+   "side": "axis",
+   "area": "mediterranean",
+   "kind": "airfield",
+   "box": "sicily",
+   "max_capacity": null,
+   "sources": [
+    "CNA1979:43.1",
+    "CNA1979:43.21",
+    "vassal:CNAv2.1.0"
+   ],
+   "notes": [
+    "A Mediterranean holding box: German bombers based here need no SGSUs (43.21) and it cannot be bombed (36.5); how many planes may be based here is set by 43.1 and each scenario, not by a capacity."
+   ]
+  },
+  {
+   "id": "crete",
+   "name": "Crete",
+   "side": "axis",
+   "area": "mediterranean",
+   "kind": "airfield",
+   "box": "crete",
+   "max_capacity": null,
+   "sources": [
+    "CNA1979:43.1",
+    "CNA1979:43.21",
+    "vassal:CNAv2.1.0"
+   ],
+   "notes": [
+    "A Mediterranean holding box: German bombers based here need no SGSUs (43.21) and it cannot be bombed (36.5); how many planes may be based here is set by 43.1 and each scenario, not by a capacity."
+   ]
+  }
+ ]
+}

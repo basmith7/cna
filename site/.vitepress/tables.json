@@ -139,6 +139,10 @@
   "title": "Equivalent weights",
   "group": "Logistics Game"
  },
+ "fixed-air-facilities": {
+  "title": "Fixed air facilities",
+  "group": "Air Game"
+ },
  "formation-organisation": {
   "title": "Formation organisation",
   "group": "Land Game"

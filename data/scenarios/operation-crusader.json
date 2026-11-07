@@ -936,6 +936,95 @@
      "CNA1979:62.43",
      "scan:p82"
     ],
+    "facilities": [
+     {
+      "kind": "airfield",
+      "hex": "A4829",
+      "name": "Benina"
+     },
+     {
+      "kind": "airfield",
+      "hex": "B5925",
+      "name": "Derna"
+     },
+     {
+      "kind": "airfield",
+      "hex": "B5229",
+      "name": "Tmimi"
+     },
+     {
+      "kind": "airfield",
+      "hex": "B4933",
+      "name": "Gazala"
+     },
+     {
+      "kind": "airfield",
+      "hex": "C4414",
+      "name": "Gambut"
+     },
+     {
+      "kind": "airfield",
+      "hex": "B5526",
+      "name": "Martuba"
+     },
+     {
+      "kind": "airfield",
+      "hex": "A4827",
+      "name": "Benghazi"
+     },
+     {
+      "kind": "airfield",
+      "hex": "B5504",
+      "name": "Barce"
+     },
+     {
+      "kind": "airfield",
+      "hex": "B5410",
+      "name": "Maraua"
+     },
+     {
+      "kind": "landing-strip",
+      "count": 3,
+      "placement": {
+       "sheets": [
+        "A",
+        "B",
+        "C"
+       ]
+      }
+     },
+     {
+      "kind": "flying-boat-basin",
+      "count": 1,
+      "placement": {
+       "sheets": [
+        "A",
+        "B"
+       ]
+      }
+     },
+     {
+      "fixed": "tunis"
+     },
+     {
+      "fixed": "gabes"
+     },
+     {
+      "fixed": "tripoli"
+     },
+     {
+      "fixed": "tripolitania"
+     },
+     {
+      "fixed": "crete"
+     },
+     {
+      "fixed": "italy"
+     },
+     {
+      "fixed": "sicily"
+     }
+    ],
     "planes": [
      {
       "type": "MC 200",
@@ -1025,21 +1114,6 @@
      "1": 12
     },
     "german_sgsu": 33,
-    "airfields": [
-     "A4829",
-     "B5925",
-     "B5229",
-     "B4933",
-     "C4414",
-     "B5526",
-     "A4827",
-     "B5504",
-     "B5410"
-    ],
-    "landing_strips": "three, anywhere on sheets A to C",
-    "flying_boat_basins": [
-     "one anywhere on sheet A or B"
-    ],
     "placement": "may also base in Crete, Italy or Sicily within 43.1"
    },
    "fleet": {
@@ -1880,6 +1954,86 @@
      "scan:p81",
      "scan:p82"
     ],
+    "facilities": [
+     {
+      "kind": "flying-boat-basin",
+      "count": 1,
+      "placement": {
+       "sheets": [
+        "D",
+        "E"
+       ]
+      }
+     },
+     {
+      "fixed": "port-said"
+     },
+     {
+      "kind": "airfield",
+      "hex": "D3520",
+      "name": "Maaten Baggush"
+     },
+     {
+      "kind": "airfield",
+      "hex": "D3323",
+      "name": "Fuka"
+     },
+     {
+      "kind": "airfield",
+      "hex": "E3212",
+      "name": "Amiriya"
+     },
+     {
+      "kind": "airfield",
+      "hex": "C4807",
+      "name": "Tobruk"
+     },
+     {
+      "fixed": "kabrit"
+     },
+     {
+      "kind": "landing-strip",
+      "count": 2,
+      "placement": {
+       "place": [
+        "giarabub",
+        "giarabub-oasis-north",
+        "giarabub-oasis-south"
+       ]
+      },
+      "notes": [
+       "62.33: any two hexes of the Giarabub Oasis complex (C1014)."
+      ]
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3516",
+      "name": "Gerawla"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3418",
+      "name": "Sidi Haneish"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3329",
+      "name": "El Daba"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3227",
+      "name": "Qotafiya"
+     },
+     {
+      "fixed": "abu-seier",
+      "capacity": 1
+     },
+     {
+      "fixed": "fayid",
+      "capacity": 1
+     }
+    ],
     "north_africa": {
      "planes": [
       {
@@ -1951,27 +2105,6 @@
       "1": 20
      },
      "sgsu": "as the Air Game rules allow",
-     "flying_boat_basins": [
-      "one anywhere on sheet D or E",
-      "Port Said (off-map)"
-     ],
-     "flying_boat_alighting_areas": [],
-     "airfields": [
-      "D3520",
-      "D3323",
-      "E3212",
-      "C4807",
-      "Kabrit (off-map)"
-     ],
-     "landing_strips": [
-      "two hexes of the Giarabub Oasis complex (C1014)",
-      "D3516",
-      "D3418",
-      "D3329",
-      "D3227",
-      "Abu Seier (off-map)",
-      "Fayid (off-map)"
-     ],
      "notes": [
       "Blenheim IVF is printed twice (24/16 and 142/100); the second entry is the Blenheim IV bomber (R-170).",
       "Abu Seier and Fayid can maintain only one squadron each."
@@ -2016,7 +2149,7 @@
        "refitted": 13
       }
      ],
-     "facility_capacity_total": 14,
+     "facility_levels": 14,
      "aa_points": 24,
      "pilots": {
       "3": 1,

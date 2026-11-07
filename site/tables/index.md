@@ -92,6 +92,7 @@ For developers: the same values are JSON in `data/tables/`; see the [data conven
 | [Axis Malta availability](/tables/axis-malta-availability) | [Air Game — the Mediterranean bases and Malta](/rules/air/80-mediterranean-and-malta) |
 | [Axis Malta commitment](/tables/axis-malta-commitment) | [Air Game — the Mediterranean bases and Malta](/rules/air/80-mediterranean-and-malta) |
 | [Convoy reconnaissance](/tables/convoy-reconnaissance) | [Air Game — missions](/rules/air/40-missions) |
+| [Fixed air facilities](/tables/fixed-air-facilities) | [Air Game — air facilities](/rules/air/20-air-facilities), [Air Game — the Mediterranean bases and Malta](/rules/air/80-mediterranean-and-malta) |
 | [Harbour mining](/tables/harbour-mining) | [Air Game — bombing](/rules/air/60-bombing) |
 | [Malta construction](/tables/malta-construction) | [Air Game — the Mediterranean bases and Malta](/rules/air/80-mediterranean-and-malta) |
 | [Maneuver adjustment](/tables/maneuver-adjustment) | [Air Game — air combat and flak](/rules/air/70-air-combat-and-flak) |

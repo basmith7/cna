@@ -908,6 +908,148 @@
      "CNA1979:60.32",
      "scan:p77"
     ],
+    "facilities": [
+     {
+      "kind": "airfield",
+      "hex": "B5504",
+      "name": "Barce"
+     },
+     {
+      "kind": "airfield",
+      "hex": "A4829",
+      "name": "Benina"
+     },
+     {
+      "kind": "airfield",
+      "hex": "C4507",
+      "name": "El Adem"
+     },
+     {
+      "kind": "airfield",
+      "hex": "A4728",
+      "name": "El Berca"
+     },
+     {
+      "kind": "airfield",
+      "hex": "C3019",
+      "name": "Ft. Maddalena"
+     },
+     {
+      "kind": "airfield",
+      "hex": "B5526",
+      "name": "Martuba"
+     },
+     {
+      "kind": "airfield",
+      "hex": "A4130",
+      "name": "Soluch"
+     },
+     {
+      "kind": "airfield",
+      "hex": "B5825"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "B0707",
+      "name": "Augila"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C4321",
+      "name": "Bardia"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C4108",
+      "name": "Bir el Gubi"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "A1816",
+      "name": "El Agheila"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C4020",
+      "name": "Ft. Capuzzo"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C4414",
+      "name": "Gambut"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "B4933",
+      "name": "Gazala"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C1014",
+      "name": "Giarabub"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "B5410",
+      "name": "Maraua"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "B4921",
+      "name": "Mechili"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C4419",
+      "name": "Menastir"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C4218",
+      "name": "Sidi Azeiz"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "B5229",
+      "name": "Tmimi"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C4807",
+      "name": "Tobruk"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "B5917",
+      "name": "Ztert"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C4119"
+     },
+     {
+      "kind": "flying-boat-basin",
+      "hex": "B5331",
+      "name": "Bomba"
+     },
+     {
+      "kind": "flying-boat-alighting-area",
+      "hex": "B5925",
+      "name": "Derna"
+     },
+     {
+      "fixed": "tunis"
+     },
+     {
+      "fixed": "gabes"
+     },
+     {
+      "fixed": "tripoli"
+     },
+     {
+      "fixed": "tripolitania"
+     }
+    ],
     "placement": "any Italian air facility within capacity; none in Italy/Sicily; Crete is not available",
     "planes": [
      {
@@ -1502,6 +1644,145 @@
      "scan:p77",
      "scan:p78"
     ],
+    "facilities": [
+     {
+      "kind": "airfield",
+      "hex": "E2132",
+      "name": "Abbassia"
+     },
+     {
+      "kind": "airfield",
+      "hex": "E3815",
+      "name": "Aboukir"
+     },
+     {
+      "kind": "airfield",
+      "hex": "E3613",
+      "name": "Alexandria"
+     },
+     {
+      "kind": "airfield",
+      "hex": "E3714",
+      "name": "Alexandria"
+     },
+     {
+      "kind": "airfield",
+      "hex": "E2133",
+      "name": "Almaza"
+     },
+     {
+      "kind": "airfield",
+      "hex": "E3212",
+      "name": "Amiriya",
+      "notes": [
+       "Printed E2212; Amiriya is E3212 (data/map/places.json, 61.33, 62.33)."
+      ]
+     },
+     {
+      "kind": "airfield",
+      "hex": "E3512",
+      "name": "Dekheila"
+     },
+     {
+      "kind": "airfield",
+      "hex": "D3714",
+      "name": "Mersa Matruh"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "E3109",
+      "name": "Burg el Arab"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C3926",
+      "name": "Buq Buq"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "E3007",
+      "name": "El Hamman"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3323",
+      "name": "Fuka"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3520",
+      "name": "Maaten Baggush"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3227",
+      "name": "Qotafiya"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C4131",
+      "name": "Sidi Barrani"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3418",
+      "name": "Sidi Haneish"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C3618",
+      "name": "Sidi Omar"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C4021",
+      "name": "Sollum"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "C0127",
+      "name": "Siwa"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3231"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3416"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3516"
+     },
+     {
+      "kind": "landing-strip",
+      "hex": "D3903"
+     },
+     {
+      "kind": "flying-boat-basin",
+      "hex": "E3614",
+      "name": "Alexandria"
+     },
+     {
+      "fixed": "abu-seier"
+     },
+     {
+      "fixed": "deversoir"
+     },
+     {
+      "fixed": "fayid"
+     },
+     {
+      "fixed": "ismailia"
+     },
+     {
+      "fixed": "kabrit"
+     },
+     {
+      "fixed": "port-said"
+     }
+    ],
     "north_africa": {
      "placement": "any Commonwealth North African air facility within capacity",
      "planes": [
@@ -1589,28 +1870,28 @@
        "type": "Hurricane Mk I",
        "aircraft_id": "aircraft:cw:hurricane-mk-i",
        "count": 15,
-       "sgsu": 2,
+       "levels": 2,
        "ready": 12
       },
       {
        "type": "Swordfish",
        "aircraft_id": "aircraft:cw:swordfish-mk-i",
        "count": 12,
-       "sgsu": 1,
+       "levels": 1,
        "ready": 9
       },
       {
        "type": "Gladiator",
        "aircraft_id": "aircraft:cw:gladiator-mk-ii",
        "count": 3,
-       "sgsu": 1,
+       "levels": 1,
        "ready": 3
       },
       {
        "type": "Sea Gladiator",
        "aircraft_id": "aircraft:cw:sea-gladiator",
        "count": 1,
-       "sgsu": 1,
+       "levels": 1,
        "ready": 1
       }
      ],
@@ -1619,7 +1900,7 @@
       "1": 6
      },
      "aa_points": 17,
-     "facility_capacity_sgsu": 5,
+     "facility_levels": 5,
      "construction_from": "October 1940"
     }
    },

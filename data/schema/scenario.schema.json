@@ -137,7 +137,15 @@
         "supply": {"type": "array", "items": {"$ref": "#/$defs/supplyBlock"}},
         "repair": {"type": "array", "items": {"type": "object", "required": ["placement", "kind"], "additionalProperties": false,
                    "properties": {"placement": {"$ref": "#/$defs/placement"}, "kind": {"enum": ["major", "temporary"]}}}},
-        "air": {"type": "object", "description": "Planes, pilots, SGSUs and air facilities (59.3); typed with the Air Game (Mission 7). Each plane entry (a list item with a type) carries aircraft_id, its tables/aircraft-characteristics.json row; check_data.py resolves it"},
+        "air": {"type": "object", "description": "Planes, pilots, SGSUs and air facilities (59.3); typed with the Air Game (Mission 7). Each plane entry (a list item with a type) carries aircraft_id, its tables/aircraft-characteristics.json row; check_data.py resolves it",
+                "properties": {
+                  "facilities": {"type": "array", "items": {"$ref": "#/$defs/airFacility"},
+                                 "description": "Every air facility the side has at the start outside Malta: on the map, in its off-map boxes, and the ones it places"},
+                  "malta": {"type": "object", "properties": {
+                    "facility_levels": {"oneOf": [{"type": "integer", "minimum": 0}, {"const": "standard"}],
+                                        "description": "Malta's starting capacity in levels of 18 aircraft (44.14, R-165): a total the Commonwealth divides among the Maltese facilities (none above its standard level), or every facility at its standard level"},
+                    "planes": {"type": "array", "items": {"type": "object", "properties": {
+                      "levels": {"type": "integer", "minimum": 1, "description": "Facility levels this group fills, as printed in Graziani's SGSU column (R-165)"}}}}}}}},
         "fleet": {"type": "object", "description": "Naval units and where they start (30.0)",
                   "properties": {"first_sail": {"oneOf": [{"$ref": "common.schema.json#/$defs/gameTime"}, {"type": "null"}],
                                                 "description": "No warship of this side moves before this OpStage; null: the scenario sets no limit. On every Commonwealth fleet block"}}},
@@ -146,6 +154,21 @@
         "broken_down": {"type": "array", "items": {"$ref": "#/$defs/brokenDown"},
                         "description": "Tank TOE points that start the scenario broken down (21.x), as rows"},
         "release": {"$ref": "#/$defs/release"}
+      }
+    },
+    "airFacility": {
+      "type": "object", "additionalProperties": false,
+      "description": "One air facility (§36): a kind at a hex, a fixed facility by id, or so many of a kind the owner places within a placement",
+      "oneOf": [{"required": ["kind", "hex"]}, {"required": ["fixed"]}, {"required": ["kind", "count", "placement"]}],
+      "properties": {
+        "kind": {"enum": ["airfield", "landing-strip", "flying-boat-basin", "flying-boat-alighting-area"]},
+        "hex": {"$ref": "common.schema.json#/$defs/hexId"},
+        "fixed": {"type": "string", "pattern": "^[a-z][a-z-]*$", "description": "A tables/fixed-air-facilities.json id or a commonwealth_bases id of tables/air-off-map-distances.json"},
+        "count": {"type": "integer", "minimum": 1},
+        "placement": {"$ref": "#/$defs/placement"},
+        "name": {"type": "string"},
+        "capacity": {"type": "integer", "minimum": 0, "description": "Starting capacity in squadrons when below the facility's maximum (36.0: airfield 6, strip 1, basin 3, alighting area 1; a fixed facility's printed maximum)"},
+        "notes": {"type": "array", "items": {"type": "string"}}
       }
     },
     "brokenDown": {

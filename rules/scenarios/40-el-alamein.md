@@ -36,7 +36,9 @@ The Eighth Army's starting hexes, attachments, first-line trucks and tank
 compositions are in `sides.cw`, with its air force, second- and third-line
 trucks, supply, fleet, Malta, and its reinforcements and replacements.
 The fleet may sail from the first OpStage: 63.36 sets no limit
-(`first_sail` is null).
+(`first_sail` is null). SPI's errata to 63.3 gives the Commonwealth two
+airfields to place on map E, not one, and Degheila one SGSU, not two. Both
+sides' air facilities are typed in `sides.*.air.facilities`.
 
 ## Axis forces {#axis}
 
@@ -46,6 +48,11 @@ The Panzerarmee's starting hexes, attachments, trucks, tank compositions,
 air force (in Africa and across the Mediterranean), supply, reinforcements
 and replacements are in `sides.axis`, together with the equipment upgrades
 63.48 allows.
+
+::: ruling R-167 — the Axis's stray "eight" is eight landing strips
+
+Besides its nine airfields, basin and alighting area, the Axis places
+eight landing strips anywhere on maps A to D.
 
 ## Special rules {#special}
 

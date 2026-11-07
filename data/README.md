@@ -42,7 +42,9 @@ transcribing anything.
 
 `check_data.py` resolves every `unit:` id in `scenarios/` and in
 `tables/reinforcement-schedule.json` against `oa/`, every OA `parent`, and
-every hex, `place` and `extends` a scenario names.
+every hex, `place` and `extends` a scenario names, and every `fixed` air
+facility against `tables/fixed-air-facilities.json` and the
+`commonwealth_bases` of `tables/air-off-map-distances.json`.
 
 Every table carries `sources: ["CNA1979:8.37", "scan:p96"]` — at least the
 case that defines it and, for transcribed values, the page it was read from.
@@ -143,4 +145,5 @@ values come from the charts and counters (Mission 6, Task 3.6); none is invented
 | Cargo capacity in tons | Axis coastal ship counter | `rules/logistics/50-ports-and-shipping.md` (56.31) | `tables/axis-coastal-ships.json` (from the VASSAL counters; awaiting a printed check) |
 | Gun and AA ratings | Commonwealth warship counter; the *San Giorgio* | `rules/90-special.md` (30.12, 30.17, R-151) | `tables/cw-fleet-schedule.json` `gun_rating`, `aa_rating`; the *San Giorgio*'s `blockship` in `oa/it.json` (from the VASSAL counters; awaiting a printed check) |
 | Printed AA points | off-map box (Tunis, Gabes, Tripoli, Tripolitania) | `rules/air/60-bombing.md` (41.85, R-111) | `tables/printed-flak.json` (from the VASSAL map redraw; awaiting a printed check) |
+| Standard level | Maltese air facility (Malta inset) | `rules/air/80-mediterranean-and-malta.md` (44.12–44.14, R-165) | `tables/fixed-air-facilities.json` `max_capacity` (read from the printed Map A inset, jp2 187) |
 

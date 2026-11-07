@@ -128,6 +128,13 @@ data:
 [`data/tables/air-off-map-distances.json`](https://github.com/basmith7/cna/blob/main/data/tables/air-off-map-distances.json)
 (`commonwealth_bases`).
 
+No capacity is printed for the Axis's Tripoli and Tunisia boxes. Those
+boxes, the Mediterranean holding boxes and Malta's printed bases are
+[`data/tables/fixed-air-facilities.json`](https://github.com/basmith7/cna/blob/main/data/tables/fixed-air-facilities.json).
+Each scenario's starting facilities are `sides.*.air.facilities` in
+`data/scenarios/`: a facility at a hex, a fixed one by id (from either
+table), or so many the owner places.
+
 ## Engine notes
 
 - A facility needs: kind, hex (or box), owner by occupation, current
