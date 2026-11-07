@@ -49,6 +49,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - **E-008** — 15.79: defender losses, +4 column, 10 % row, read 34–45 (the printed 24–45 overlapped the 15 % row)
 - **E-009** — 15.88 clarified against 6.26: −17 surrenders when assaulted, −26 when approached
 - **E-010** — 16.11 addition: L/6, Stuarts and mechanised infantry join the patrol list
+- [R-182](../rulings/R-182.md) — blind barrage targets are a class and a number the owner assigns for the step; seeing a stack on the map identifies no unit
 - [R-009](../rulings/R-009.md) — barrage terrain shifts protect the target of either side's barrage, not only the non-phasing player
 - [R-010](../rulings/R-010.md) — retreat before assault may go in any direction; 15.82's direction rules do not apply
 - [R-015](../rulings/R-015.md) — terrain shifts only the phasing side's anti-armour fire; the non-phasing side fires unshifted
@@ -446,6 +447,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-179](../rulings/R-179.md) | accepted | 19.5, 20.3, 15.4 |
 | [R-180](../rulings/R-180.md) | accepted | 19.45, 19.21, 19.25, 19.62 |
 | [R-181](../rulings/R-181.md) | accepted | 61.38, 59.2 |
+| [R-182](../rulings/R-182.md) | accepted | 3.61, 3.62, 12.22, 12.23, 12.24 |
 
 ## Variants register
 

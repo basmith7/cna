@@ -188,6 +188,8 @@ for that purpose.
 
 ::: spi 12.2 12.21 12.22 12.23 12.24
 
+::: ruling R-182 — blind barrage targets are a class and a number the owner assigns for the step; seeing a stack on the map identifies no unit
+
 Targets are the individual battalion- or company-sized counters that make up
 a formation. Every counter in the hex with a stacking-point value is a
 target, attached or not, engineers included; trucks, squadron ground support
@@ -200,8 +202,13 @@ The firing player names the hexes he fires from. The owner answers with how
 many targets sit in each adjacent hex and the **class** of each (gun, armour
 or infantry) — not their strength, exact type or identity. The firer then
 shoots blind at "infantry no. 2", "gun no. 1" and so on; the owner numbers
-each class for the step. Only a unit already identified (by patrol or earlier
-combat) may be named as a specific target.
+each class when he announces the targets, keeps secret which unit carries
+which number, and holds the numbering for the whole barrage step. A target
+is not a counter: a dummy tank formation has no counter yet is a target,
+and a mixed artillery unit is two. Examining a stack on the map
+([limited intelligence](95-abstract-logistics-and-air.md#limited-intelligence))
+identifies nothing: only a unit whose designation patrol or earlier combat
+has revealed may be named as a specific target ([R-182](../rulings/R-182.md)).
 
 ### Terrain and other limits
 
