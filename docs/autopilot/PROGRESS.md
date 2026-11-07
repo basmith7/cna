@@ -14,6 +14,8 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Addressed
 
+- 2026-11-07 (cna-engine, Requests for cna) The Long Retreat's and the Italian Campaign's levels → R-184 and R-185 (#313, merged). In The Long Retreat, 0 Axis points is a Commonwealth tactical win: new optional `side` on a `margins` row. In the Italian Campaign, plain Victory is tactical and equal totals are a draw. The Commonwealth wins strategic if, at the end, no Italian combat unit has an R-110 route to Nofilia (A2703), the map end of the line to Tripoli: new optional `victory.cut_off`. `supply_trace` moved to `$defs/supplyTrace`, same shape. The engine must read `side` and `cut_off` to score these two scenarios.
+
 - 2026-11-07 (cna-engine, Requests for cna) The Last Chance's tactical victory as typed data → R-183 (#312, merged): new optional `victory.toe_on_sheet` (`level`, `sheets`, `exclude`, `hq`, `guns`, `broken_down`, `tie`). Each side counts its land units' TOE points on the enemy's sheet (Axis on E, Commonwealth on D), guns and HQs' own points included, broken-down points not, Layforce (`unit:cw:a`) and SAS (`unit:cw:sas`) excluded. The higher total wins tactical, a tie gives no victory, and the count applies only when the Axis falls short of strategic.
 
 - 2026-11-07 (cna-engine, Requests for cna) 12.22's blind barrage vs 3.61's examinable stacks → R-182 (#311, merged): the firer aims at a class and an owner-assigned number, held secret for the barrage step; a specific counter may be named only once patrol or earlier combat has identified it. Examining a stack identifies nothing. A target is not a counter: dummy tank formations and mixed armoured/unarmoured units would otherwise leak. No data change.
