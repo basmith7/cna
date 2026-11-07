@@ -142,4 +142,5 @@ values come from the charts and counters (Mission 6, Task 3.6); none is invented
 | Fuel capacity rating | TOE Strength Point of vehicles | `rules/logistics/10-fuel.md` (49.14) | derived, never printed per unit: CPA ÷ 5 (part-block counted whole, R-043) × consumption rate; trucks print theirs (`fuel_capacity`) |
 | Cargo capacity in tons | Axis coastal ship counter | `rules/logistics/50-ports-and-shipping.md` (56.31) | `tables/axis-coastal-ships.json` (from the VASSAL counters; awaiting a printed check) |
 | Gun and AA ratings | Commonwealth warship counter; the *San Giorgio* | `rules/90-special.md` (30.12, 30.17, R-151) | `tables/cw-fleet-schedule.json` `gun_rating`, `aa_rating`; the *San Giorgio*'s `blockship` in `oa/it.json` (from the VASSAL counters; awaiting a printed check) |
+| Printed AA points | off-map box (Tunis, Gabes, Tripoli, Tripolitania) | `rules/air/60-bombing.md` (41.85, R-111) | `tables/printed-flak.json` (from the VASSAL map redraw; awaiting a printed check) |
 

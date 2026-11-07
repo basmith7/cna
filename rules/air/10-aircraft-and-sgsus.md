@@ -284,6 +284,12 @@ costs fuel and ammunition on top
 ([maintenance](30-flight-and-maintenance.md#maintenance)). Trucks may be
 attached to an SGSU as its first-line transport, to carry what it needs.
 
+::: ruling R-173 — SGSU upkeep with the Air Game and abstract logistics
+
+With [abstract logistics](90-abstract-logistics.md#upkeep-refits-and-repairs)
+(§47) an SGSU spends no upkeep; it has its supplies while it can draw them
+under 47.11–47.13 ([R-173](../../rulings/R-173.md)).
+
 ::: spi 35.16 35.17
 
 SGSUs may build landing strips and flying-boat alighting areas
