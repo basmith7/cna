@@ -161,6 +161,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-185](./R-185.md) | The Italian Campaign's levels and its cut-off test | accepted | 60.82, 32.16 |
 | [R-186](./R-186.md) | Points places' supply conditions under abstract supply | accepted | 62.8, 63.92, 60.82, 32.16 |
 | [R-187](./R-187.md) | "Any two villages or cities in Egypt" in Rommel's Arrival | accepted | 61.8 |
+| [R-188](./R-188.md) | A blind barrage may betray a dummy tank formation | accepted | 3.62, 12.23, 16.42, 16.45 |
 
 ## Variants
 

@@ -749,3 +749,9 @@ Done: nothing; Feedback empty, no open autopilot PRs, engine's Requests for cna 
 In flight: none.
 Next: re-read cna-engine's Requests for cna; idle unless new. Next free ruling id R-188.
 Blocked: none.
+
+## 2026-11-07 19:10 UTC — autopilot/req-r182-dummies
+Done: R-188 (#315), the engine's "R-182 vs dummy tank formations" request: option 3, as printed (faces visible, dummy announced, inference stands).
+In flight: none once #315 merges.
+Next: re-read cna-engine's Requests for cna; idle unless new. Next free ruling id R-189.
+Blocked: none.

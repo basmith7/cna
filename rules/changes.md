@@ -60,6 +60,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-012](../rulings/R-012.md) — a defender who commits nothing retreats under the normal retreat rule and may stop short at 10 % per hex
 - [R-023](../rulings/R-023.md) — close assault, defender +2 column: readings 34–36 inflict 5 %
 - [R-011](../rulings/R-011.md) — each side's percentage is taken of its own raw points, not the combined total
+- [R-188](../rulings/R-188.md) — a blind barrage may betray a dummy tank formation; the firer keeps what he can infer
 
 ## [Organisation](./70-organisation.md)
 
@@ -460,6 +461,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-185](../rulings/R-185.md) | accepted | 60.82, 32.16 |
 | [R-186](../rulings/R-186.md) | accepted | 62.8, 63.92, 60.82, 32.16 |
 | [R-187](../rulings/R-187.md) | accepted | 61.8 |
+| [R-188](../rulings/R-188.md) | accepted | 3.62, 12.23, 16.42, 16.45 |
 
 ## Variants register
 
