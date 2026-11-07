@@ -19,10 +19,10 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 3 | Fulmar |
-| 2 | Hurricane I |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 3 | Fulmar | aircraft:cw:fulmar-mk-ii |
+| 2 | Hurricane I | aircraft:cw:hurricane-mk-i |
 
 ### Oct I (GT 3)
 
@@ -30,10 +30,10 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 30 | Blenheim I |
-| 6 | Skua II |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 30 | Blenheim I | aircraft:cw:blenheim-mk-i |
+| 6 | Skua II | aircraft:cw:skua-mk-ii |
 
 #### Withdrawals
 
@@ -47,9 +47,9 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 4 | B17D |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 4 | B17D | aircraft:cw:b-17-d-flying-fortress |
 
 #### Withdrawals
 
@@ -64,10 +64,10 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 12 | Blenheim IV |
-| 40 | Wellington I |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 12 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 40 | Wellington I | aircraft:cw:wellington-mk-i |
 
 #### Withdrawals
 
@@ -81,11 +81,11 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 44 | Hurricane I |
-| 12 | Blenheim I |
-| 1 | Wellington I |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 44 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 12 | Blenheim I | aircraft:cw:blenheim-mk-i |
+| 1 | Wellington I | aircraft:cw:wellington-mk-i |
 
 #### Withdrawals
 
@@ -100,13 +100,13 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 30 | Hurricane I |
-| 24 | Blenheim I |
-| 14 | Blenheim IV |
-| 2 | Maryland |
-| 2 | Wellington I |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 30 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 24 | Blenheim I | aircraft:cw:blenheim-mk-i |
+| 14 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 2 | Maryland | aircraft:cw:167-maryland |
+| 2 | Wellington I | aircraft:cw:wellington-mk-i |
 
 #### Withdrawals
 
@@ -120,15 +120,15 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 14 | Blenheim IVF |
-| 13 | Hurricane I |
-| 2 | Tomahawk |
-| 21 | Blenheim I |
-| 6 | Maryland |
-| 6 | Lysander |
-| 16 | Wellington |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 14 | Blenheim IVF | aircraft:cw:blenheim-mk-ivf |
+| 13 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 2 | Tomahawk | aircraft:cw:p-40-tomahawk |
+| 21 | Blenheim I | aircraft:cw:blenheim-mk-i |
+| 6 | Maryland | aircraft:cw:167-maryland |
+| 6 | Lysander | aircraft:cw:lysander-mk-i |
+| 16 | Wellington | aircraft:cw:wellington-mk-i |
 
 #### Withdrawals
 
@@ -142,16 +142,16 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 66 | Hurricane I |
-| 25 | Tomahawk |
-| 18 | Blenheim I |
-| 10 | Blenheim IV |
-| 6 | Maryland |
-| 6 | Lysander I |
-| 13 | Wellington I |
-| 14 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 66 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 25 | Tomahawk | aircraft:cw:p-40-tomahawk |
+| 18 | Blenheim I | aircraft:cw:blenheim-mk-i |
+| 10 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 6 | Maryland | aircraft:cw:167-maryland |
+| 6 | Lysander I | aircraft:cw:lysander-mk-i |
+| 13 | Wellington I | aircraft:cw:wellington-mk-i |
+| 14 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 #### Withdrawals
 
@@ -166,15 +166,15 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 16 | Beaufighter IF |
-| 65 | Hurricane I |
-| 21 | Tomahawk |
-| 20 | Blenheim I |
-| 9 | Blenheim IV |
-| 7 | Maryland |
-| 15 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 16 | Beaufighter IF | aircraft:cw:beaufighter-mk-if |
+| 65 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 21 | Tomahawk | aircraft:cw:p-40-tomahawk |
+| 20 | Blenheim I | aircraft:cw:blenheim-mk-i |
+| 9 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 7 | Maryland | aircraft:cw:167-maryland |
+| 15 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 ### Jun (GT 35...38)
 
@@ -182,18 +182,18 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 5 | Beaufighter IF |
-| 15 | Blenheim IVF |
-| 5 | Gladiator II |
-| 136 | Hurricane I |
-| 41 | Tomahawk |
-| 10 | Blenheim I |
-| 10 | Blenheim IV |
-| 6 | Maryland |
-| 12 | Lysander I |
-| 6 | Wellington I |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 5 | Beaufighter IF | aircraft:cw:beaufighter-mk-if |
+| 15 | Blenheim IVF | aircraft:cw:blenheim-mk-ivf |
+| 5 | Gladiator II | aircraft:cw:gladiator-mk-ii |
+| 136 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 41 | Tomahawk | aircraft:cw:p-40-tomahawk |
+| 10 | Blenheim I | aircraft:cw:blenheim-mk-i |
+| 10 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 6 | Maryland | aircraft:cw:167-maryland |
+| 12 | Lysander I | aircraft:cw:lysander-mk-i |
+| 6 | Wellington I | aircraft:cw:wellington-mk-i |
 
 #### Withdrawals
 
@@ -208,18 +208,18 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 3 | Gladiator II |
-| 32 | Hurricane I |
-| 20 | Tomahawk |
-| 15 | Wildcat |
-| 12 | Albacore |
-| 35 | Blenheim I |
-| 50 | Blenheim IV |
-| 12 | Maryland |
-| 10 | Wellington I |
-| 16 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 3 | Gladiator II | aircraft:cw:gladiator-mk-ii |
+| 32 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 20 | Tomahawk | aircraft:cw:p-40-tomahawk |
+| 15 | Wildcat | aircraft:cw:f4f-wildcat-marlet-i |
+| 12 | Albacore | aircraft:cw:albacore |
+| 35 | Blenheim I | aircraft:cw:blenheim-mk-i |
+| 50 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 12 | Maryland | aircraft:cw:167-maryland |
+| 10 | Wellington I | aircraft:cw:wellington-mk-i |
+| 16 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 #### Withdrawals
 
@@ -233,17 +233,17 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 4 | Beaufighter IF |
-| 2 | Gladiator II |
-| 27 | Hurricane I |
-| 67 | Tomahawk |
-| 7 | Beaufort I |
-| 22 | Blenheim I |
-| 44 | Blenheim IV |
-| 30 | Maryland |
-| 14 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 4 | Beaufighter IF | aircraft:cw:beaufighter-mk-if |
+| 2 | Gladiator II | aircraft:cw:gladiator-mk-ii |
+| 27 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 67 | Tomahawk | aircraft:cw:p-40-tomahawk |
+| 7 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 22 | Blenheim I | aircraft:cw:blenheim-mk-i |
+| 44 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 30 | Maryland | aircraft:cw:167-maryland |
+| 14 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 #### Withdrawals
 
@@ -257,18 +257,18 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 3 | Beaufighter IF |
-| 13 | Blenheim IVF |
-| 140 | Hurricane I |
-| 20 | Hurricane IIA |
-| 23 | Tomahawk |
-| 2 | Beaufort I |
-| 15 | Blenheim I |
-| 10 | Blenheim IV |
-| 3 | Maryland |
-| 13 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 3 | Beaufighter IF | aircraft:cw:beaufighter-mk-if |
+| 13 | Blenheim IVF | aircraft:cw:blenheim-mk-ivf |
+| 140 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 20 | Hurricane IIA | aircraft:cw:hurricane-mk-iia |
+| 23 | Tomahawk | aircraft:cw:p-40-tomahawk |
+| 2 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 15 | Blenheim I | aircraft:cw:blenheim-mk-i |
+| 10 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 3 | Maryland | aircraft:cw:167-maryland |
+| 13 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 #### Withdrawals
 
@@ -283,19 +283,19 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 8 | Beaufighter IF |
-| 15 | Fulmar |
-| 81 | Hurricane I |
-| 16 | Tomahawk |
-| 3 | B17D |
-| 3 | Beaufort I |
-| 10 | Blenheim I |
-| 26 | Blenheim IV |
-| 7 | Boston III |
-| 2 | Maryland |
-| 15 | Wellington I |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 8 | Beaufighter IF | aircraft:cw:beaufighter-mk-if |
+| 15 | Fulmar | aircraft:cw:fulmar-mk-ii |
+| 81 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 16 | Tomahawk | aircraft:cw:p-40-tomahawk |
+| 3 | B17D | aircraft:cw:b-17-d-flying-fortress |
+| 3 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 10 | Blenheim I | aircraft:cw:blenheim-mk-i |
+| 26 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 7 | Boston III | aircraft:cw:boston-mk-iii |
+| 2 | Maryland | aircraft:cw:167-maryland |
+| 15 | Wellington I | aircraft:cw:wellington-mk-i |
 
 ### Nov (GT 55...58)
 
@@ -304,20 +304,20 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 1 | Beaufighter IF |
-| 40 | Hurricane I |
-| 20 | Hurricane IIA |
-| 62 | Kittyhawk I |
-| 1 | B17D |
-| 4 | Baltimore I |
-| 4 | Beaufort I |
-| 16 | Blenheim IV |
-| 1 | Bombay |
-| 23 | Boston III |
-| 2 | Maryland |
-| 17 | Wellington I |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 1 | Beaufighter IF | aircraft:cw:beaufighter-mk-if |
+| 40 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 20 | Hurricane IIA | aircraft:cw:hurricane-mk-iia |
+| 62 | Kittyhawk I | aircraft:cw:p-40-kittyhawk-i |
+| 1 | B17D | aircraft:cw:b-17-d-flying-fortress |
+| 4 | Baltimore I | aircraft:cw:a-30-baltimore-i |
+| 4 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 16 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 1 | Bombay | aircraft:cw:bombay-mk-i |
+| 23 | Boston III | aircraft:cw:boston-mk-iii |
+| 2 | Maryland | aircraft:cw:167-maryland |
+| 17 | Wellington I | aircraft:cw:wellington-mk-i |
 
 ### Dec (GT 59...62)
 
@@ -325,22 +325,22 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 32 | Beaufighter IF |
-| 61 | Hurricane I |
-| 32 | Hurricane IIA |
-| 90 | Kittyhawk I |
-| 45 | Kittyhawk II |
-| 9 | Baltimore I |
-| 1 | Beaufort I |
-| 40 | Blenheim I |
-| 20 | Blenheim IV |
-| 32 | Boston III |
-| 3 | Maryland |
-| 1 | Tiger Moth II |
-| 10 | Wellington I |
-| 9 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 32 | Beaufighter IF | aircraft:cw:beaufighter-mk-if |
+| 61 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 32 | Hurricane IIA | aircraft:cw:hurricane-mk-iia |
+| 90 | Kittyhawk I | aircraft:cw:p-40-kittyhawk-i |
+| 45 | Kittyhawk II | aircraft:cw:p-40-kittyhawk-ii |
+| 9 | Baltimore I | aircraft:cw:a-30-baltimore-i |
+| 1 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 40 | Blenheim I | aircraft:cw:blenheim-mk-i |
+| 20 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 32 | Boston III | aircraft:cw:boston-mk-iii |
+| 3 | Maryland | aircraft:cw:167-maryland |
+| 1 | Tiger Moth II | aircraft:cw:tiger-moth-mk-ii |
+| 10 | Wellington I | aircraft:cw:wellington-mk-i |
+| 9 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 #### Withdrawals
 
@@ -355,27 +355,27 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 3 | Beaufighter IF |
-| 15 | Blenheim IVF |
-| 96 | Hurricane I |
-| 54 | Hurricane IIA |
-| 36 | Hurricane IIB |
-| 56 | Kittyhawk I |
-| 45 | Kittyhawk II |
-| 15 | Kittyhawk III |
-| 4 | Tomahawk |
-| 1 | Caudron |
-| 4 | B17D |
-| 4 | B24 |
-| 15 | Baltimore I |
-| 2 | Beaufort I |
-| 37 | Blenheim IV |
-| 7 | Boston III |
-| 3 | Hudson |
-| 3 | Lysander |
-| 18 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 3 | Beaufighter IF | aircraft:cw:beaufighter-mk-if |
+| 15 | Blenheim IVF | aircraft:cw:blenheim-mk-ivf |
+| 96 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 54 | Hurricane IIA | aircraft:cw:hurricane-mk-iia |
+| 36 | Hurricane IIB | aircraft:cw:hurricane-mk-iib |
+| 56 | Kittyhawk I | aircraft:cw:p-40-kittyhawk-i |
+| 45 | Kittyhawk II | aircraft:cw:p-40-kittyhawk-ii |
+| 15 | Kittyhawk III | aircraft:cw:p-40-kittyhawk-iii |
+| 4 | Tomahawk | aircraft:cw:p-40-tomahawk |
+| 1 | Caudron | aircraft:cw:c-714 |
+| 4 | B17D | aircraft:cw:b-17-d-flying-fortress |
+| 4 | B24 | aircraft:cw:b-24-pb4y-liberator-iii |
+| 15 | Baltimore I | aircraft:cw:a-30-baltimore-i |
+| 2 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 37 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 7 | Boston III | aircraft:cw:boston-mk-iii |
+| 3 | Hudson | aircraft:cw:a-28-hudson |
+| 3 | Lysander | aircraft:cw:lysander-mk-i |
+| 18 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 #### Withdrawals
 
@@ -389,22 +389,22 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 21 | Beaufighter IF |
-| 7 | Blenheim IVF |
-| 15 | Hurricane I |
-| 36 | Hurricane IIA |
-| 21 | Hurricane IIB |
-| 16 | Hurricane IIC |
-| 30 | Kittyhawk II |
-| 12 | Kittyhawk III |
-| 30 | Baltimore I |
-| 6 | Beaufort I |
-| 4 | Boston III |
-| 2 | Maryland |
-| 2 | Wellington I |
-| 30 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 21 | Beaufighter IF | aircraft:cw:beaufighter-mk-if |
+| 7 | Blenheim IVF | aircraft:cw:blenheim-mk-ivf |
+| 15 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 36 | Hurricane IIA | aircraft:cw:hurricane-mk-iia |
+| 21 | Hurricane IIB | aircraft:cw:hurricane-mk-iib |
+| 16 | Hurricane IIC | aircraft:cw:hurricane-mk-iic |
+| 30 | Kittyhawk II | aircraft:cw:p-40-kittyhawk-ii |
+| 12 | Kittyhawk III | aircraft:cw:p-40-kittyhawk-iii |
+| 30 | Baltimore I | aircraft:cw:a-30-baltimore-i |
+| 6 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 4 | Boston III | aircraft:cw:boston-mk-iii |
+| 2 | Maryland | aircraft:cw:167-maryland |
+| 2 | Wellington I | aircraft:cw:wellington-mk-i |
+| 30 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 #### Withdrawals
 
@@ -420,25 +420,25 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 25 | Beaufighter IF |
-| 18 | Hurricane I |
-| 3 | Hurricane IIA |
-| 38 | Hurricane IIB |
-| 22 | Hurricane IIC |
-| 30 | Kittyhawk I |
-| 48 | Kittyhawk II |
-| 30 | Kittyhawk III |
-| 35 | Spitfire VB |
-| 12 | Anson I |
-| 46 | Baltimore I |
-| 12 | Beaufort I |
-| 10 | Boston III |
-| 10 | Hudson |
-| 1 | Sunderland |
-| 30 | Wellington I |
-| 60 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 25 | Beaufighter IF | aircraft:cw:beaufighter-mk-if |
+| 18 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 3 | Hurricane IIA | aircraft:cw:hurricane-mk-iia |
+| 38 | Hurricane IIB | aircraft:cw:hurricane-mk-iib |
+| 22 | Hurricane IIC | aircraft:cw:hurricane-mk-iic |
+| 30 | Kittyhawk I | aircraft:cw:p-40-kittyhawk-i |
+| 48 | Kittyhawk II | aircraft:cw:p-40-kittyhawk-ii |
+| 30 | Kittyhawk III | aircraft:cw:p-40-kittyhawk-iii |
+| 35 | Spitfire VB | aircraft:cw:spitfire-mk-vb |
+| 12 | Anson I | aircraft:cw:anson-mk-i |
+| 46 | Baltimore I | aircraft:cw:a-30-baltimore-i |
+| 12 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 10 | Boston III | aircraft:cw:boston-mk-iii |
+| 10 | Hudson | aircraft:cw:a-28-hudson |
+| 1 | Sunderland | aircraft:cw:sunderland |
+| 30 | Wellington I | aircraft:cw:wellington-mk-i |
+| 60 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 ### Apr (GT 75...78)
 
@@ -447,24 +447,24 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 13 | Beaufighter IF |
-| 5 | Beaufighter VI |
-| 15 | Hurricane IIA |
-| 60 | Hurricane IIB |
-| 36 | Hurricane IIC |
-| 11 | Kittyhawk II |
-| 61 | Spitfire VB |
-| 2 | Caudron |
-| 4 | Anson I |
-| 50 | Baltimore I |
-| 5 | Beaufort I |
-| 2 | Boston III |
-| 13 | Hudson |
-| 2 | Potez |
-| 16 | Wellington I |
-| 45 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 13 | Beaufighter IF | aircraft:cw:beaufighter-mk-if |
+| 5 | Beaufighter VI | aircraft:cw:beaufighter-mk-vif |
+| 15 | Hurricane IIA | aircraft:cw:hurricane-mk-iia |
+| 60 | Hurricane IIB | aircraft:cw:hurricane-mk-iib |
+| 36 | Hurricane IIC | aircraft:cw:hurricane-mk-iic |
+| 11 | Kittyhawk II | aircraft:cw:p-40-kittyhawk-ii |
+| 61 | Spitfire VB | aircraft:cw:spitfire-mk-vb |
+| 2 | Caudron | aircraft:cw:c-714 |
+| 4 | Anson I | aircraft:cw:anson-mk-i |
+| 50 | Baltimore I | aircraft:cw:a-30-baltimore-i |
+| 5 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 2 | Boston III | aircraft:cw:boston-mk-iii |
+| 13 | Hudson | aircraft:cw:a-28-hudson |
+| 2 | Potez | aircraft:cw:63-11 |
+| 16 | Wellington I | aircraft:cw:wellington-mk-i |
+| 45 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 ### May (GT 79...82)
 
@@ -472,25 +472,25 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 3 | Beaufighter IF |
-| 17 | Beaufighter VI |
-| 13 | Hurricane IID |
-| 16 | Kittyhawk I |
-| 40 | Kittyhawk III |
-| 96 | Spitfire VB |
-| 3 | Tomahawk |
-| 2 | Dewoitine |
-| 22 | Anson I |
-| 25 | B17D |
-| 25 | B24 |
-| 42 | Baltimore I |
-| 10 | Beaufort I |
-| 23 | Blenheim IV |
-| 42 | Hudson |
-| 1 | Maryland |
-| 57 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 3 | Beaufighter IF | aircraft:cw:beaufighter-mk-if |
+| 17 | Beaufighter VI | aircraft:cw:beaufighter-mk-vif |
+| 13 | Hurricane IID | aircraft:cw:hurricane-mk-iid |
+| 16 | Kittyhawk I | aircraft:cw:p-40-kittyhawk-i |
+| 40 | Kittyhawk III | aircraft:cw:p-40-kittyhawk-iii |
+| 96 | Spitfire VB | aircraft:cw:spitfire-mk-vb |
+| 3 | Tomahawk | aircraft:cw:p-40-tomahawk |
+| 2 | Dewoitine | aircraft:cw:d-520 |
+| 22 | Anson I | aircraft:cw:anson-mk-i |
+| 25 | B17D | aircraft:cw:b-17-d-flying-fortress |
+| 25 | B24 | aircraft:cw:b-24-pb4y-liberator-iii |
+| 42 | Baltimore I | aircraft:cw:a-30-baltimore-i |
+| 10 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 23 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 42 | Hudson | aircraft:cw:a-28-hudson |
+| 1 | Maryland | aircraft:cw:167-maryland |
+| 57 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 #### Withdrawals
 
@@ -505,21 +505,21 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 31 | Beaufighter VI |
-| 18 | Hurricane IIA |
-| 36 | Hurricane IIB |
-| 50 | Hurricane IIC |
-| 16 | Kittyhawk II |
-| 35 | Kittyhawk III |
-| 59 | Spitfire VB |
-| 14 | Spitfire VC |
-| 26 | Baltimore I |
-| 42 | Blenheim IV |
-| 4 | Beaufort I |
-| 5 | Boston III |
-| 4 | Hudson |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 31 | Beaufighter VI | aircraft:cw:beaufighter-mk-vif |
+| 18 | Hurricane IIA | aircraft:cw:hurricane-mk-iia |
+| 36 | Hurricane IIB | aircraft:cw:hurricane-mk-iib |
+| 50 | Hurricane IIC | aircraft:cw:hurricane-mk-iic |
+| 16 | Kittyhawk II | aircraft:cw:p-40-kittyhawk-ii |
+| 35 | Kittyhawk III | aircraft:cw:p-40-kittyhawk-iii |
+| 59 | Spitfire VB | aircraft:cw:spitfire-mk-vb |
+| 14 | Spitfire VC | aircraft:cw:spitfire-mk-vc |
+| 26 | Baltimore I | aircraft:cw:a-30-baltimore-i |
+| 42 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 4 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 5 | Boston III | aircraft:cw:boston-mk-iii |
+| 4 | Hudson | aircraft:cw:a-28-hudson |
 
 ### Jul (GT 87...90)
 
@@ -528,25 +528,25 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 4 | Beaufighter IF |
-| 28 | Beaufighter VI |
-| 18 | Hurricane IIA |
-| 30 | Hurricane IIB |
-| 30 | Hurricane IIC |
-| 23 | Kittyhawk I |
-| 22 | Spitfire VB |
-| 59 | Spitfire VC |
-| 4 | Anson I |
-| 2 | B24 |
-| 8 | Baltimore I |
-| 12 | Beaufort I |
-| 136 | Blenheim IV |
-| 24 | Halifax II |
-| 42 | Hudson |
-| 6 | Wellington I |
-| 18 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 4 | Beaufighter IF | aircraft:cw:beaufighter-mk-if |
+| 28 | Beaufighter VI | aircraft:cw:beaufighter-mk-vif |
+| 18 | Hurricane IIA | aircraft:cw:hurricane-mk-iia |
+| 30 | Hurricane IIB | aircraft:cw:hurricane-mk-iib |
+| 30 | Hurricane IIC | aircraft:cw:hurricane-mk-iic |
+| 23 | Kittyhawk I | aircraft:cw:p-40-kittyhawk-i |
+| 22 | Spitfire VB | aircraft:cw:spitfire-mk-vb |
+| 59 | Spitfire VC | aircraft:cw:spitfire-mk-vc |
+| 4 | Anson I | aircraft:cw:anson-mk-i |
+| 2 | B24 | aircraft:cw:b-24-pb4y-liberator-iii |
+| 8 | Baltimore I | aircraft:cw:a-30-baltimore-i |
+| 12 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 136 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 24 | Halifax II | aircraft:cw:halifax-mk-ii |
+| 42 | Hudson | aircraft:cw:a-28-hudson |
+| 6 | Wellington I | aircraft:cw:wellington-mk-i |
+| 18 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 ### Aug (GT 91...94)
 
@@ -554,27 +554,27 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 49 | Beaufighter VI |
-| 35 | Hurricane IIA |
-| 12 | Hurricane IIB |
-| 36 | Hurricane IIC |
-| 36 | Kittyhawk II |
-| 43 | Kittyhawk III |
-| 30 | Spitfire VB |
-| 42 | Spitfire VC |
-| 1 | Dewoitine |
-| 10 | Anson I |
-| 15 | B24 |
-| 57 | B25 |
-| 19 | B26 |
-| 22 | Beaufort I |
-| 101 | Blenheim IV |
-| 2 | Halifax II |
-| 83 | Hudson |
-| 1 | Tiger Moth II |
-| 35 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 49 | Beaufighter VI | aircraft:cw:beaufighter-mk-vif |
+| 35 | Hurricane IIA | aircraft:cw:hurricane-mk-iia |
+| 12 | Hurricane IIB | aircraft:cw:hurricane-mk-iib |
+| 36 | Hurricane IIC | aircraft:cw:hurricane-mk-iic |
+| 36 | Kittyhawk II | aircraft:cw:p-40-kittyhawk-ii |
+| 43 | Kittyhawk III | aircraft:cw:p-40-kittyhawk-iii |
+| 30 | Spitfire VB | aircraft:cw:spitfire-mk-vb |
+| 42 | Spitfire VC | aircraft:cw:spitfire-mk-vc |
+| 1 | Dewoitine | aircraft:cw:d-520 |
+| 10 | Anson I | aircraft:cw:anson-mk-i |
+| 15 | B24 | aircraft:cw:b-24-pb4y-liberator-iii |
+| 57 | B25 | aircraft:cw:b-25-mitchell-ii |
+| 19 | B26 | aircraft:cw:b-26-marauder |
+| 22 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 101 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 2 | Halifax II | aircraft:cw:halifax-mk-ii |
+| 83 | Hudson | aircraft:cw:a-28-hudson |
+| 1 | Tiger Moth II | aircraft:cw:tiger-moth-mk-ii |
+| 35 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 #### Withdrawals
 
@@ -590,30 +590,30 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 1 | Beaufighter IF |
-| 51 | Beaufighter VI |
-| 20 | Hurricane I |
-| 45 | Hurricane IIA |
-| 40 | Hurricane IIB |
-| 58 | Hurricane IIC |
-| 30 | Kittyhawk I |
-| 67 | Kittyhawk II |
-| 50 | Kittyhawk III |
-| 15 | Spitfire VB |
-| 35 | Spitfire VC |
-| 2 | Caudron |
-| 12 | Anson I |
-| 1 | B24 |
-| 30 | B26 |
-| 9 | Baltimore I |
-| 11 | Beaufort I |
-| 51 | Blenheim IV |
-| 40 | Hudson |
-| 1 | Maryland |
-| 2 | Wellington I |
-| 30 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 1 | Beaufighter IF | aircraft:cw:beaufighter-mk-if |
+| 51 | Beaufighter VI | aircraft:cw:beaufighter-mk-vif |
+| 20 | Hurricane I | aircraft:cw:hurricane-mk-i |
+| 45 | Hurricane IIA | aircraft:cw:hurricane-mk-iia |
+| 40 | Hurricane IIB | aircraft:cw:hurricane-mk-iib |
+| 58 | Hurricane IIC | aircraft:cw:hurricane-mk-iic |
+| 30 | Kittyhawk I | aircraft:cw:p-40-kittyhawk-i |
+| 67 | Kittyhawk II | aircraft:cw:p-40-kittyhawk-ii |
+| 50 | Kittyhawk III | aircraft:cw:p-40-kittyhawk-iii |
+| 15 | Spitfire VB | aircraft:cw:spitfire-mk-vb |
+| 35 | Spitfire VC | aircraft:cw:spitfire-mk-vc |
+| 2 | Caudron | aircraft:cw:c-714 |
+| 12 | Anson I | aircraft:cw:anson-mk-i |
+| 1 | B24 | aircraft:cw:b-24-pb4y-liberator-iii |
+| 30 | B26 | aircraft:cw:b-26-marauder |
+| 9 | Baltimore I | aircraft:cw:a-30-baltimore-i |
+| 11 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 51 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 40 | Hudson | aircraft:cw:a-28-hudson |
+| 1 | Maryland | aircraft:cw:167-maryland |
+| 2 | Wellington I | aircraft:cw:wellington-mk-i |
+| 30 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 ### Oct (GT 99...102)
 
@@ -622,22 +622,22 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 36 | Beaufighter VI |
-| 30 | Hurricane IIB |
-| 18 | Hurricane IIC |
-| 15 | Hurricane IID |
-| 18 | Kittyhawk II |
-| 40 | Kittyhawk III |
-| 15 | Spitfire VB |
-| 15 | Spitfire VC |
-| 6 | Anson I |
-| 26 | B25 |
-| 3 | Beaufort I |
-| 15 | Blenheim IV |
-| 12 | Hudson |
-| 18 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 36 | Beaufighter VI | aircraft:cw:beaufighter-mk-vif |
+| 30 | Hurricane IIB | aircraft:cw:hurricane-mk-iib |
+| 18 | Hurricane IIC | aircraft:cw:hurricane-mk-iic |
+| 15 | Hurricane IID | aircraft:cw:hurricane-mk-iid |
+| 18 | Kittyhawk II | aircraft:cw:p-40-kittyhawk-ii |
+| 40 | Kittyhawk III | aircraft:cw:p-40-kittyhawk-iii |
+| 15 | Spitfire VB | aircraft:cw:spitfire-mk-vb |
+| 15 | Spitfire VC | aircraft:cw:spitfire-mk-vc |
+| 6 | Anson I | aircraft:cw:anson-mk-i |
+| 26 | B25 | aircraft:cw:b-25-mitchell-ii |
+| 3 | Beaufort I | aircraft:cw:beaufort-mk-i |
+| 15 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 12 | Hudson | aircraft:cw:a-28-hudson |
+| 18 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 ### Nov (GT 103...106)
 
@@ -645,19 +645,19 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 21 | Beaufighter VI |
-| 6 | Hurricane IIB |
-| 12 | Hurricane IIC |
-| 15 | Hurricane IID |
-| 12 | Kittyhawk III |
-| 30 | Spitfire VC |
-| 6 | Anson I |
-| 10 | B25 |
-| 18 | B26 |
-| 15 | Blenheim IV |
-| 5 | Hudson |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 21 | Beaufighter VI | aircraft:cw:beaufighter-mk-vif |
+| 6 | Hurricane IIB | aircraft:cw:hurricane-mk-iib |
+| 12 | Hurricane IIC | aircraft:cw:hurricane-mk-iic |
+| 15 | Hurricane IID | aircraft:cw:hurricane-mk-iid |
+| 12 | Kittyhawk III | aircraft:cw:p-40-kittyhawk-iii |
+| 30 | Spitfire VC | aircraft:cw:spitfire-mk-vc |
+| 6 | Anson I | aircraft:cw:anson-mk-i |
+| 10 | B25 | aircraft:cw:b-25-mitchell-ii |
+| 18 | B26 | aircraft:cw:b-26-marauder |
+| 15 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 5 | Hudson | aircraft:cw:a-28-hudson |
 
 #### Withdrawals
 
@@ -672,21 +672,21 @@ Used in [Air Game — aircraft and squadrons](/rules/air/10-aircraft-and-sgsus).
 
 #### Arrivals
 
-| Count | Aircraft |
-|---|---|
-| 2 | Beaufighter VI |
-| 24 | Hurricane IIB |
-| 18 | Hurricane IIC |
-| 12 | Kittyhawk III |
-| 15 | Spitfire VC |
-| 15 | Blenheim IV |
-| 8 | Wellington IV |
+| Count | Aircraft | Aircraft Id |
+|---|---|---|
+| 2 | Beaufighter VI | aircraft:cw:beaufighter-mk-vif |
+| 24 | Hurricane IIB | aircraft:cw:hurricane-mk-iib |
+| 18 | Hurricane IIC | aircraft:cw:hurricane-mk-iic |
+| 12 | Kittyhawk III | aircraft:cw:p-40-kittyhawk-iii |
+| 15 | Spitfire VC | aircraft:cw:spitfire-mk-vc |
+| 15 | Blenheim IV | aircraft:cw:blenheim-mk-iv |
+| 8 | Wellington IV | aircraft:cw:wellington-mk-iv |
 
 ## Notes
 
 - Commonwealth Airplane Reinforcement and Squadron Withdrawal chart, printed as 34.84 (jp2 142). Read twice, from the archive.org scan and the community chart PDFs (Commonwealth Charts.pdf p. 32): 28 entries, 84 cells, 0 differ after normalising spacing and the multiplication sign (some entries print a letter X). No Axis counterpart was found on either source's pages searched.
 - period as printed; game_turns is the printed Game-Turn or range. A month's aircraft arrive spread as evenly as possible over its four Game-Turns unless the entry names one Game-Turn.
-- aircraft is the name as printed on this chart; it is not yet keyed to data/tables/aircraft-characteristics.json, whose names are fuller (e.g. B17D here, B-17/D Flying Fortress there).
+- aircraft is the name as printed on this chart; aircraft_id is its row in aircraft-characteristics.json, whose names are fuller (B17D here, B-17/D Flying Fortress there). An unmarked name takes the chart's first mark of that type in service by the entry's date (the March 1941 Wellingtons are Mk. I, R-169).
 - withdrawals: squadrons removed at the start of the month (the November 1940 entry excepted), each of at least 12 aircraft, from anywhere including Malta and the Commonwealth off-map airfields; role: able to fly combat air patrol (cap), bombing or reconnaissance. Marks: * one of the squadrons must be at least 12 Beaufighters of any mark; ** two squadrons each of at least 12 aircraft able to carry 9 or more bomb points; ‡ one squadron must be of aircraft with 9 or more bomb points; † (both squadrons Beaufighters) is in the key but used by no entry.
 
 ---

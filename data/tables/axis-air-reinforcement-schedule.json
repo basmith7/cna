@@ -10,7 +10,7 @@
   "Printed oddities, normalised here: 'GT63...66' (no space) and 'GF' for GT on the August and September 1942 entries; the June 1941 '15 x 88D' is a Ju88D; February 1942's 'Ju88c' is a Ju88C; hyphens left by line breaks ('12 x -Ju88D') dropped.",
   "January 1942's BR20 count is printed as the letter B on both scans: count is null and count_as_printed keeps the letter. It is probably an 8 or a 6; docs/autopilot/decisions.json asks for Brian's copy. Until answered, an engine should deliver no BR20s that month rather than guess.",
   "The marks are as printed. The footnotes speak of S.M.79s, but the † also stands on April 1942's SM84s and the * on May 1942's SM84s; the mark is kept where printed and read as 'that many of these aircraft operate as torpedo bombers' whatever the type.",
-  "aircraft is the name as printed; it is not yet keyed to aircraft-characteristics.json, whose names are fuller (e.g. CR42 here, C.R. 42 Falco there)."
+  "aircraft is the name as printed; aircraft_id is its row in aircraft-characteristics.json, whose names are fuller (CR42 here, C.R. 42 Falco there). The plain Z1007 entries of February and March 1941 take the chart's only Z.1007 row, the 1007bis."
  ],
  "marks": {
   "*": "Six of these S.M.79's were operated as torpedo bombers.",
@@ -27,7 +27,8 @@
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Ba65"
+     "aircraft": "Ba65",
+     "aircraft_id": "aircraft:it:ba-65"
     }
    ],
    "sources": [
@@ -45,7 +46,8 @@
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Ba65"
+     "aircraft": "Ba65",
+     "aircraft_id": "aircraft:it:ba-65"
     }
    ],
    "sources": [
@@ -63,7 +65,8 @@
     {
      "nation": "italian",
      "count": 16,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     }
    ],
    "sources": [
@@ -81,32 +84,38 @@
     {
      "nation": "italian",
      "count": 40,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "Ba65"
+     "aircraft": "Ba65",
+     "aircraft_id": "aircraft:it:ba-65"
     },
     {
      "nation": "italian",
      "count": 3,
-     "aircraft": "Z501"
+     "aircraft": "Z501",
+     "aircraft_id": "aircraft:it:cant-z-501-gabbiano"
     },
     {
      "nation": "italian",
      "count": 2,
-     "aircraft": "Ro37bis"
+     "aircraft": "Ro37bis",
+     "aircraft_id": "aircraft:it:ro-37bis"
     },
     {
      "nation": "italian",
      "count": 53,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     }
    ],
    "sources": [
@@ -124,22 +133,26 @@
     {
      "nation": "italian",
      "count": 36,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Ba65"
+     "aircraft": "Ba65",
+     "aircraft_id": "aircraft:it:ba-65"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     }
    ],
    "sources": [
@@ -157,52 +170,62 @@
     {
      "nation": "german",
      "count": 30,
-     "aircraft": "Bf110"
+     "aircraft": "Bf110",
+     "aircraft_id": "aircraft:de:bf-110"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "FW200C"
+     "aircraft": "FW200C",
+     "aircraft_id": "aircraft:de:fw-200-c"
     },
     {
      "nation": "german",
      "count": 30,
-     "aircraft": "Ju87B"
+     "aircraft": "Ju87B",
+     "aircraft_id": "aircraft:de:ju-87b"
     },
     {
      "nation": "german",
      "count": 36,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Ba65"
+     "aircraft": "Ba65",
+     "aircraft_id": "aircraft:it:ba-65"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Z501"
+     "aircraft": "Z501",
+     "aircraft_id": "aircraft:it:cant-z-501-gabbiano"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Z1007"
+     "aircraft": "Z1007",
+     "aircraft_id": "aircraft:it:cant-z-1007bis-alcione"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Ro37bis"
+     "aircraft": "Ro37bis",
+     "aircraft_id": "aircraft:it:ro-37bis"
     }
    ],
    "sources": [
@@ -220,52 +243,62 @@
     {
      "nation": "german",
      "count": 32,
-     "aircraft": "Bf110"
+     "aircraft": "Bf110",
+     "aircraft_id": "aircraft:de:bf-110"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Hs126"
+     "aircraft": "Hs126",
+     "aircraft_id": "aircraft:de:hs-126"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Ju87B"
+     "aircraft": "Ju87B",
+     "aircraft_id": "aircraft:de:ju-87b"
     },
     {
      "nation": "italian",
      "count": 36,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 36,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Ba65"
+     "aircraft": "Ba65",
+     "aircraft_id": "aircraft:it:ba-65"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "BR20"
+     "aircraft": "BR20",
+     "aircraft_id": "aircraft:it:b-r-20-cicogna"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Z501"
+     "aircraft": "Z501",
+     "aircraft_id": "aircraft:it:cant-z-501-gabbiano"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Z1007"
+     "aircraft": "Z1007",
+     "aircraft_id": "aircraft:it:cant-z-1007bis-alcione"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     }
    ],
    "sources": [
@@ -283,62 +316,74 @@
     {
      "nation": "german",
      "count": 46,
-     "aircraft": "Bf109E"
+     "aircraft": "Bf109E",
+     "aircraft_id": "aircraft:de:bf-109e"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Bf110"
+     "aircraft": "Bf110",
+     "aircraft_id": "aircraft:de:bf-110"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju52"
+     "aircraft": "Ju52",
+     "aircraft_id": "aircraft:de:ju-52-3m"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Ju87B"
+     "aircraft": "Ju87B",
+     "aircraft_id": "aircraft:de:ju-87b"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Ba65"
+     "aircraft": "Ba65",
+     "aircraft_id": "aircraft:it:ba-65"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "BR20"
+     "aircraft": "BR20",
+     "aircraft_id": "aircraft:it:b-r-20-cicogna"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Ro37bis"
+     "aircraft": "Ro37bis",
+     "aircraft_id": "aircraft:it:ro-37bis"
     },
     {
      "nation": "italian",
      "count": 18,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     }
    ],
    "sources": [
@@ -356,82 +401,98 @@
     {
      "nation": "german",
      "count": 42,
-     "aircraft": "Bf109E"
+     "aircraft": "Bf109E",
+     "aircraft_id": "aircraft:de:bf-109e"
     },
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "Bf110"
+     "aircraft": "Bf110",
+     "aircraft_id": "aircraft:de:bf-110"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "He111"
+     "aircraft": "He111",
+     "aircraft_id": "aircraft:de:he-111"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Ju52"
+     "aircraft": "Ju52",
+     "aircraft_id": "aircraft:de:ju-52-3m"
     },
     {
      "nation": "german",
      "count": 24,
-     "aircraft": "Ju87B"
+     "aircraft": "Ju87B",
+     "aircraft_id": "aircraft:de:ju-87b"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "CR42AS"
+     "aircraft": "CR42AS",
+     "aircraft_id": "aircraft:it:c-r-42as-falco"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Ba65"
+     "aircraft": "Ba65",
+     "aircraft_id": "aircraft:it:ba-65"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "BR20"
+     "aircraft": "BR20",
+     "aircraft_id": "aircraft:it:b-r-20-cicogna"
     },
     {
      "nation": "italian",
      "count": 18,
-     "aircraft": "Ca311"
+     "aircraft": "Ca311",
+     "aircraft_id": "aircraft:it:ca-311"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Z501"
+     "aircraft": "Z501",
+     "aircraft_id": "aircraft:it:cant-z-501-gabbiano"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Ro37bis"
+     "aircraft": "Ro37bis",
+     "aircraft_id": "aircraft:it:ro-37bis"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "SM81"
+     "aircraft": "SM81",
+     "aircraft_id": "aircraft:it:s-m-81-pipistrello"
     }
    ],
    "sources": [
@@ -449,57 +510,68 @@
     {
      "nation": "german",
      "count": 36,
-     "aircraft": "Bf109E"
+     "aircraft": "Bf109E",
+     "aircraft_id": "aircraft:de:bf-109e"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "He111"
+     "aircraft": "He111",
+     "aircraft_id": "aircraft:de:he-111"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju87B"
+     "aircraft": "Ju87B",
+     "aircraft_id": "aircraft:de:ju-87b"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 30,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "BR20"
+     "aircraft": "BR20",
+     "aircraft_id": "aircraft:it:b-r-20-cicogna"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Ca311"
+     "aircraft": "Ca311",
+     "aircraft_id": "aircraft:it:ca-311"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Z501"
+     "aircraft": "Z501",
+     "aircraft_id": "aircraft:it:cant-z-501-gabbiano"
     },
     {
      "nation": "italian",
      "count": 24,
      "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero",
      "mark": "*"
     }
    ],
@@ -518,57 +590,68 @@
     {
      "nation": "german",
      "count": 40,
-     "aircraft": "Bf109E"
+     "aircraft": "Bf109E",
+     "aircraft_id": "aircraft:de:bf-109e"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Bf109F"
+     "aircraft": "Bf109F",
+     "aircraft_id": "aircraft:de:bf-109f"
     },
     {
      "nation": "german",
      "count": 6,
-     "aircraft": "Bf110"
+     "aircraft": "Bf110",
+     "aircraft_id": "aircraft:de:bf-110"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Ju52"
+     "aircraft": "Ju52",
+     "aircraft_id": "aircraft:de:ju-52-3m"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 48,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Ba65"
+     "aircraft": "Ba65",
+     "aircraft_id": "aircraft:it:ba-65"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "BR20"
+     "aircraft": "BR20",
+     "aircraft_id": "aircraft:it:b-r-20-cicogna"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Ca311"
+     "aircraft": "Ca311",
+     "aircraft_id": "aircraft:it:ca-311"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     }
    ],
    "sources": [
@@ -586,57 +669,68 @@
     {
      "nation": "german",
      "count": 38,
-     "aircraft": "Bf109E"
+     "aircraft": "Bf109E",
+     "aircraft_id": "aircraft:de:bf-109e"
     },
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "Bf109F"
+     "aircraft": "Bf109F",
+     "aircraft_id": "aircraft:de:bf-109f"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Bf110"
+     "aircraft": "Bf110",
+     "aircraft_id": "aircraft:de:bf-110"
     },
     {
      "nation": "german",
      "count": 24,
-     "aircraft": "Ju87B"
+     "aircraft": "Ju87B",
+     "aircraft_id": "aircraft:de:ju-87b"
     },
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "BR20"
+     "aircraft": "BR20",
+     "aircraft_id": "aircraft:it:b-r-20-cicogna"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Ca311"
+     "aircraft": "Ca311",
+     "aircraft_id": "aircraft:it:ca-311"
     },
     {
      "nation": "italian",
      "count": 18,
      "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero",
      "mark": "*"
     }
    ],
@@ -655,77 +749,92 @@
     {
      "nation": "german",
      "count": 42,
-     "aircraft": "Bf109E"
+     "aircraft": "Bf109E",
+     "aircraft_id": "aircraft:de:bf-109e"
     },
     {
      "nation": "german",
      "count": 32,
-     "aircraft": "Bf109F"
+     "aircraft": "Bf109F",
+     "aircraft_id": "aircraft:de:bf-109f"
     },
     {
      "nation": "german",
      "count": 28,
-     "aircraft": "Bf110"
+     "aircraft": "Bf110",
+     "aircraft_id": "aircraft:de:bf-110"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "FW200C"
+     "aircraft": "FW200C",
+     "aircraft_id": "aircraft:de:fw-200-c"
     },
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "He111"
+     "aircraft": "He111",
+     "aircraft_id": "aircraft:de:he-111"
     },
     {
      "nation": "german",
      "count": 10,
-     "aircraft": "Ju87B"
+     "aircraft": "Ju87B",
+     "aircraft_id": "aircraft:de:ju-87b"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "german",
      "count": 30,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 36,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "CR42AS"
+     "aircraft": "CR42AS",
+     "aircraft_id": "aircraft:it:c-r-42as-falco"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "BR20"
+     "aircraft": "BR20",
+     "aircraft_id": "aircraft:it:b-r-20-cicogna"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Ca311"
+     "aircraft": "Ca311",
+     "aircraft_id": "aircraft:it:ca-311"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     }
    ],
    "sources": [
@@ -743,77 +852,92 @@
     {
      "nation": "german",
      "count": 56,
-     "aircraft": "Bf109E"
+     "aircraft": "Bf109E",
+     "aircraft_id": "aircraft:de:bf-109e"
     },
     {
      "nation": "german",
      "count": 42,
-     "aircraft": "Bf109F"
+     "aircraft": "Bf109F",
+     "aircraft_id": "aircraft:de:bf-109f"
     },
     {
      "nation": "german",
      "count": 28,
-     "aircraft": "Bf110"
+     "aircraft": "Bf110",
+     "aircraft_id": "aircraft:de:bf-110"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Arado196"
+     "aircraft": "Arado196",
+     "aircraft_id": "aircraft:de:ar-196"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "He111"
+     "aircraft": "He111",
+     "aircraft_id": "aircraft:de:he-111"
     },
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "Ju52"
+     "aircraft": "Ju52",
+     "aircraft_id": "aircraft:de:ju-52-3m"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Re2001"
+     "aircraft": "Re2001",
+     "aircraft_id": "aircraft:it:re-2001-falco-ii"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "BR20"
+     "aircraft": "BR20",
+     "aircraft_id": "aircraft:it:b-r-20-cicogna"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "SM81"
+     "aircraft": "SM81",
+     "aircraft_id": "aircraft:it:s-m-81-pipistrello"
     }
    ],
    "sources": [
@@ -831,82 +955,98 @@
     {
      "nation": "german",
      "count": 50,
-     "aircraft": "Bf109E"
+     "aircraft": "Bf109E",
+     "aircraft_id": "aircraft:de:bf-109e"
     },
     {
      "nation": "german",
      "count": 30,
-     "aircraft": "Bf109F"
+     "aircraft": "Bf109F",
+     "aircraft_id": "aircraft:de:bf-109f"
     },
     {
      "nation": "german",
      "count": 6,
-     "aircraft": "Bf110"
+     "aircraft": "Bf110",
+     "aircraft_id": "aircraft:de:bf-110"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Ju88C"
+     "aircraft": "Ju88C",
+     "aircraft_id": "aircraft:de:ju-88c"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju52"
+     "aircraft": "Ju52",
+     "aircraft_id": "aircraft:de:ju-52-3m"
     },
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "CR42AS"
+     "aircraft": "CR42AS",
+     "aircraft_id": "aircraft:it:c-r-42as-falco"
     },
     {
      "nation": "italian",
      "count": 18,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 60,
-     "aircraft": "C202"
+     "aircraft": "C202",
+     "aircraft_id": "aircraft:it:c-202-folgore"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "Re2001"
+     "aircraft": "Re2001",
+     "aircraft_id": "aircraft:it:re-2001-falco-ii"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "BR20"
+     "aircraft": "BR20",
+     "aircraft_id": "aircraft:it:b-r-20-cicogna"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Ca311"
+     "aircraft": "Ca311",
+     "aircraft_id": "aircraft:it:ca-311"
     },
     {
      "nation": "italian",
      "count": 36,
      "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero",
      "mark": "†"
     }
    ],
@@ -925,62 +1065,74 @@
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "Bf109E"
+     "aircraft": "Bf109E",
+     "aircraft_id": "aircraft:de:bf-109e"
     },
     {
      "nation": "german",
      "count": 38,
-     "aircraft": "Bf109F"
+     "aircraft": "Bf109F",
+     "aircraft_id": "aircraft:de:bf-109f"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Bf110"
+     "aircraft": "Bf110",
+     "aircraft_id": "aircraft:de:bf-110"
     },
     {
      "nation": "german",
      "count": 30,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "german",
      "count": 6,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 36,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 48,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 60,
-     "aircraft": "C202"
+     "aircraft": "C202",
+     "aircraft_id": "aircraft:it:c-202-folgore"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Re2001"
+     "aircraft": "Re2001",
+     "aircraft_id": "aircraft:it:re-2001-falco-ii"
     },
     {
      "nation": "italian",
      "count": 18,
-     "aircraft": "BR20"
+     "aircraft": "BR20",
+     "aircraft_id": "aircraft:it:b-r-20-cicogna"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Z506B"
+     "aircraft": "Z506B",
+     "aircraft_id": "aircraft:it:cant-z-506b-airone-35"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     }
    ],
    "sources": [
@@ -998,68 +1150,81 @@
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Bf109E"
+     "aircraft": "Bf109E",
+     "aircraft_id": "aircraft:de:bf-109e"
     },
     {
      "nation": "german",
      "count": 48,
-     "aircraft": "Bf109F"
+     "aircraft": "Bf109F",
+     "aircraft_id": "aircraft:de:bf-109f"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Bf110"
+     "aircraft": "Bf110",
+     "aircraft_id": "aircraft:de:bf-110"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Ju88C"
+     "aircraft": "Ju88C",
+     "aircraft_id": "aircraft:de:ju-88c"
     },
     {
      "nation": "german",
      "count": 6,
-     "aircraft": "He111"
+     "aircraft": "He111",
+     "aircraft_id": "aircraft:de:he-111"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju52"
+     "aircraft": "Ju52",
+     "aircraft_id": "aircraft:de:ju-52-3m"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "german",
      "count": 6,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 40,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 18,
-     "aircraft": "Re2001"
+     "aircraft": "Re2001",
+     "aircraft_id": "aircraft:it:re-2001-falco-ii"
     },
     {
      "nation": "italian",
      "count": null,
      "count_as_printed": "B",
-     "aircraft": "BR20"
+     "aircraft": "BR20",
+     "aircraft_id": "aircraft:it:b-r-20-cicogna"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     }
    ],
    "sources": [
@@ -1077,72 +1242,86 @@
     {
      "nation": "german",
      "count": 36,
-     "aircraft": "Bf109E"
+     "aircraft": "Bf109E",
+     "aircraft_id": "aircraft:de:bf-109e"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Bf109F"
+     "aircraft": "Bf109F",
+     "aircraft_id": "aircraft:de:bf-109f"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Bf110"
+     "aircraft": "Bf110",
+     "aircraft_id": "aircraft:de:bf-110"
     },
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "Ju88C"
+     "aircraft": "Ju88C",
+     "aircraft_id": "aircraft:de:ju-88c"
     },
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "He111"
+     "aircraft": "He111",
+     "aircraft_id": "aircraft:de:he-111"
     },
     {
      "nation": "german",
      "count": 30,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 36,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "C202"
+     "aircraft": "C202",
+     "aircraft_id": "aircraft:it:c-202-folgore"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Re2001"
+     "aircraft": "Re2001",
+     "aircraft_id": "aircraft:it:re-2001-falco-ii"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "BR20"
+     "aircraft": "BR20",
+     "aircraft_id": "aircraft:it:b-r-20-cicogna"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Ca311"
+     "aircraft": "Ca311",
+     "aircraft_id": "aircraft:it:ca-311"
     }
    ],
    "sources": [
@@ -1160,62 +1339,74 @@
     {
      "nation": "german",
      "count": 9,
-     "aircraft": "Bf109E"
+     "aircraft": "Bf109E",
+     "aircraft_id": "aircraft:de:bf-109e"
     },
     {
      "nation": "german",
      "count": 45,
-     "aircraft": "Bf109F"
+     "aircraft": "Bf109F",
+     "aircraft_id": "aircraft:de:bf-109f"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Bf110"
+     "aircraft": "Bf110",
+     "aircraft_id": "aircraft:de:bf-110"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju52"
+     "aircraft": "Ju52",
+     "aircraft_id": "aircraft:de:ju-52-3m"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "C202"
+     "aircraft": "C202",
+     "aircraft_id": "aircraft:it:c-202-folgore"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Re2001"
+     "aircraft": "Re2001",
+     "aircraft_id": "aircraft:it:re-2001-falco-ii"
     },
     {
      "nation": "italian",
      "count": 6,
      "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero",
      "mark": "*"
     }
    ],
@@ -1234,72 +1425,86 @@
     {
      "nation": "german",
      "count": 36,
-     "aircraft": "Bf109F"
+     "aircraft": "Bf109F",
+     "aircraft_id": "aircraft:de:bf-109f"
     },
     {
      "nation": "german",
      "count": 40,
-     "aircraft": "Bf109G"
+     "aircraft": "Bf109G",
+     "aircraft_id": "aircraft:de:bf-109g"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Bf110"
+     "aircraft": "Bf110",
+     "aircraft_id": "aircraft:de:bf-110"
     },
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "Ju88C"
+     "aircraft": "Ju88C",
+     "aircraft_id": "aircraft:de:ju-88c"
     },
     {
      "nation": "german",
      "count": 6,
-     "aircraft": "Arado196"
+     "aircraft": "Arado196",
+     "aircraft_id": "aircraft:de:ar-196"
     },
     {
      "nation": "german",
      "count": 6,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "CR42AS"
+     "aircraft": "CR42AS",
+     "aircraft_id": "aircraft:it:c-r-42as-falco"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "C202"
+     "aircraft": "C202",
+     "aircraft_id": "aircraft:it:c-202-folgore"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "Re2001"
+     "aircraft": "Re2001",
+     "aircraft_id": "aircraft:it:re-2001-falco-ii"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "BR20"
+     "aircraft": "BR20",
+     "aircraft_id": "aircraft:it:b-r-20-cicogna"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     },
     {
      "nation": "italian",
      "count": 12,
      "aircraft": "SM84",
+     "aircraft_id": "aircraft:it:s-m-84",
      "mark": "†"
     }
    ],
@@ -1318,77 +1523,92 @@
     {
      "nation": "german",
      "count": 30,
-     "aircraft": "Bf109F"
+     "aircraft": "Bf109F",
+     "aircraft_id": "aircraft:de:bf-109f"
     },
     {
      "nation": "german",
      "count": 36,
-     "aircraft": "Bf109G"
+     "aircraft": "Bf109G",
+     "aircraft_id": "aircraft:de:bf-109g"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "FW200C"
+     "aircraft": "FW200C",
+     "aircraft_id": "aircraft:de:fw-200-c"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "He111"
+     "aircraft": "He111",
+     "aircraft_id": "aircraft:de:he-111"
     },
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "Ju52"
+     "aircraft": "Ju52",
+     "aircraft_id": "aircraft:de:ju-52-3m"
     },
     {
      "nation": "german",
      "count": 24,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "german",
      "count": 30,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 36,
-     "aircraft": "C202"
+     "aircraft": "C202",
+     "aircraft_id": "aircraft:it:c-202-folgore"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Re2001"
+     "aircraft": "Re2001",
+     "aircraft_id": "aircraft:it:re-2001-falco-ii"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Z1007bis"
+     "aircraft": "Z1007bis",
+     "aircraft_id": "aircraft:it:cant-z-1007bis-alcione"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     },
     {
      "nation": "italian",
      "count": 6,
      "aircraft": "SM84",
+     "aircraft_id": "aircraft:it:s-m-84",
      "mark": "*"
     }
    ],
@@ -1407,77 +1627,92 @@
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Bf109F"
+     "aircraft": "Bf109F",
+     "aircraft_id": "aircraft:de:bf-109f"
     },
     {
      "nation": "german",
      "count": 48,
-     "aircraft": "Bf109G"
+     "aircraft": "Bf109G",
+     "aircraft_id": "aircraft:de:bf-109g"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "He111"
+     "aircraft": "He111",
+     "aircraft_id": "aircraft:de:he-111"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Ju52"
+     "aircraft": "Ju52",
+     "aircraft_id": "aircraft:de:ju-52-3m"
     },
     {
      "nation": "german",
      "count": 10,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "german",
      "count": 30,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "CR42AS"
+     "aircraft": "CR42AS",
+     "aircraft_id": "aircraft:it:c-r-42as-falco"
     },
     {
      "nation": "italian",
      "count": 18,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "C202"
+     "aircraft": "C202",
+     "aircraft_id": "aircraft:it:c-202-folgore"
     },
     {
      "nation": "italian",
      "count": 18,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Re2001"
+     "aircraft": "Re2001",
+     "aircraft_id": "aircraft:it:re-2001-falco-ii"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Ca311"
+     "aircraft": "Ca311",
+     "aircraft_id": "aircraft:it:ca-311"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Z1007bis"
+     "aircraft": "Z1007bis",
+     "aircraft_id": "aircraft:it:cant-z-1007bis-alcione"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "SM84"
+     "aircraft": "SM84",
+     "aircraft_id": "aircraft:it:s-m-84"
     }
    ],
    "sources": [
@@ -1495,67 +1730,80 @@
     {
      "nation": "german",
      "count": 20,
-     "aircraft": "Bf109F"
+     "aircraft": "Bf109F",
+     "aircraft_id": "aircraft:de:bf-109f"
     },
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "Bf109G"
+     "aircraft": "Bf109G",
+     "aircraft_id": "aircraft:de:bf-109g"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju88C"
+     "aircraft": "Ju88C",
+     "aircraft_id": "aircraft:de:ju-88c"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju52"
+     "aircraft": "Ju52",
+     "aircraft_id": "aircraft:de:ju-52-3m"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "italian",
      "count": 18,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 36,
-     "aircraft": "C202"
+     "aircraft": "C202",
+     "aircraft_id": "aircraft:it:c-202-folgore"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 18,
-     "aircraft": "Re2001"
+     "aircraft": "Re2001",
+     "aircraft_id": "aircraft:it:re-2001-falco-ii"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Z1007bis"
+     "aircraft": "Z1007bis",
+     "aircraft_id": "aircraft:it:cant-z-1007bis-alcione"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "SM84"
+     "aircraft": "SM84",
+     "aircraft_id": "aircraft:it:s-m-84"
     }
    ],
    "sources": [
@@ -1573,47 +1821,56 @@
     {
      "nation": "german",
      "count": 36,
-     "aircraft": "Bf109G"
+     "aircraft": "Bf109G",
+     "aircraft_id": "aircraft:de:bf-109g"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "german",
      "count": 15,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 18,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "C202"
+     "aircraft": "C202",
+     "aircraft_id": "aircraft:it:c-202-folgore"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "SM84"
+     "aircraft": "SM84",
+     "aircraft_id": "aircraft:it:s-m-84"
     }
    ],
    "sources": [
@@ -1631,62 +1888,74 @@
     {
      "nation": "german",
      "count": 45,
-     "aircraft": "Bf109G"
+     "aircraft": "Bf109G",
+     "aircraft_id": "aircraft:de:bf-109g"
     },
     {
      "nation": "german",
      "count": 18,
-     "aircraft": "Ju52"
+     "aircraft": "Ju52",
+     "aircraft_id": "aircraft:de:ju-52-3m"
     },
     {
      "nation": "german",
      "count": 6,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 36,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "CR42AS"
+     "aircraft": "CR42AS",
+     "aircraft_id": "aircraft:it:c-r-42as-falco"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 36,
-     "aircraft": "C202"
+     "aircraft": "C202",
+     "aircraft_id": "aircraft:it:c-202-folgore"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "Re2001"
+     "aircraft": "Re2001",
+     "aircraft_id": "aircraft:it:re-2001-falco-ii"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "Z1007bis"
+     "aircraft": "Z1007bis",
+     "aircraft_id": "aircraft:it:cant-z-1007bis-alcione"
     },
     {
      "nation": "italian",
      "count": 12,
      "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero",
      "mark": "†"
     }
    ],
@@ -1705,52 +1974,62 @@
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Bf109G"
+     "aircraft": "Bf109G",
+     "aircraft_id": "aircraft:de:bf-109g"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "He111"
+     "aircraft": "He111",
+     "aircraft_id": "aircraft:de:he-111"
     },
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "german",
      "count": 6,
-     "aircraft": "Ju88D"
+     "aircraft": "Ju88D",
+     "aircraft_id": "aircraft:de:ju-88d"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "CR42AS"
+     "aircraft": "CR42AS",
+     "aircraft_id": "aircraft:it:c-r-42as-falco"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 48,
-     "aircraft": "C202"
+     "aircraft": "C202",
+     "aircraft_id": "aircraft:it:c-202-folgore"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "G50"
+     "aircraft": "G50",
+     "aircraft_id": "aircraft:it:g-50-freccia"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "SM79"
+     "aircraft": "SM79",
+     "aircraft_id": "aircraft:it:s-m-79-sparviero"
     }
    ],
    "sources": [
@@ -1768,22 +2047,26 @@
     {
      "nation": "german",
      "count": 12,
-     "aircraft": "Bf109G"
+     "aircraft": "Bf109G",
+     "aircraft_id": "aircraft:de:bf-109g"
     },
     {
      "nation": "german",
      "count": 8,
-     "aircraft": "Ju87D"
+     "aircraft": "Ju87D",
+     "aircraft_id": "aircraft:de:ju-87d"
     },
     {
      "nation": "italian",
      "count": 36,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 24,
-     "aircraft": "C202"
+     "aircraft": "C202",
+     "aircraft_id": "aircraft:it:c-202-folgore"
     }
    ],
    "sources": [
@@ -1801,17 +2084,20 @@
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "CR42"
+     "aircraft": "CR42",
+     "aircraft_id": "aircraft:it:c-r-42-falco"
     },
     {
      "nation": "italian",
      "count": 6,
-     "aircraft": "C200"
+     "aircraft": "C200",
+     "aircraft_id": "aircraft:it:c-200-saetta"
     },
     {
      "nation": "italian",
      "count": 12,
-     "aircraft": "C202"
+     "aircraft": "C202",
+     "aircraft_id": "aircraft:it:c-202-folgore"
     }
    ],
    "sources": [

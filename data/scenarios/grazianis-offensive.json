@@ -912,46 +912,55 @@
     "planes": [
      {
       "type": "CR 42",
+      "aircraft_id": "aircraft:it:c-r-42-falco",
       "available": 65,
       "refitted": 25
      },
      {
       "type": "CR 32",
+      "aircraft_id": "aircraft:it:c-r-32",
       "available": 70,
       "refitted": 28
      },
      {
       "type": "Ba 65",
+      "aircraft_id": "aircraft:it:ba-65",
       "available": 10,
       "refitted": 2
      },
      {
       "type": "Ba 88",
+      "aircraft_id": "aircraft:it:ba-88-lince",
       "available": 24,
       "refitted": 6
      },
      {
       "type": "SM 79",
+      "aircraft_id": "aircraft:it:s-m-79-sparviero",
       "available": 133,
       "refitted": 35
      },
      {
       "type": "SM 81",
+      "aircraft_id": "aircraft:it:s-m-81-pipistrello",
       "available": 17,
       "refitted": 4
      },
      {
       "type": "Ca 309",
+      "aircraft_id": "aircraft:it:ca-309-ghibli",
       "available": 56,
       "refitted": 12
      },
      {
       "type": "Ro37Bis",
+      "aircraft_id": "aircraft:it:ro-37bis",
       "available": 10,
       "refitted": 6
      },
      {
       "type": "Z501",
+      "aircraft_id": "aircraft:it:cant-z-501-gabbiano",
       "available": 9,
       "refitted": 9
      }
@@ -1498,56 +1507,67 @@
      "planes": [
       {
        "type": "Lysander",
+       "aircraft_id": "aircraft:cw:lysander-mk-i",
        "available": 12,
        "refitted": 8
       },
       {
        "type": "Bombay",
+       "aircraft_id": "aircraft:cw:bombay-mk-i",
        "available": 15,
        "refitted": 12
       },
       {
        "type": "Sunderland",
+       "aircraft_id": "aircraft:cw:sunderland",
        "available": 18,
        "refitted": 11
       },
       {
        "type": "Blenheim Mk. I",
+       "aircraft_id": "aircraft:cw:blenheim-mk-i",
        "available": 26,
        "refitted": 18
       },
       {
        "type": "Blenheim Mk. IV",
+       "aircraft_id": "aircraft:cw:blenheim-mk-iv",
        "available": 12,
        "refitted": 12
       },
       {
        "type": "Blenheim Mk. IVF",
+       "aircraft_id": "aircraft:cw:blenheim-mk-ivf",
        "available": 9,
        "refitted": 5
       },
       {
        "type": "Gladiator",
+       "aircraft_id": "aircraft:cw:gladiator-mk-ii",
        "available": 36,
        "refitted": 30
       },
       {
        "type": "Hurricane Mk. I",
+       "aircraft_id": "aircraft:cw:hurricane-mk-i",
        "available": 6,
        "refitted": 4
       },
       {
        "type": "Morane 406",
+       "aircraft_id": "aircraft:cw:ms406",
        "available": 4,
        "refitted": 2
       },
       {
        "type": "Potez 63/11",
+       "aircraft_id": "aircraft:cw:63-11",
        "available": 2,
        "refitted": 2
       },
       {
        "type": "Valentia",
+       "aircraft_id": "aircraft:cw:valentia",
        "available": 3,
        "refitted": 1
       }
@@ -1567,24 +1587,28 @@
      "planes": [
       {
        "type": "Hurricane Mk I",
+       "aircraft_id": "aircraft:cw:hurricane-mk-i",
        "count": 15,
        "sgsu": 2,
        "ready": 12
       },
       {
        "type": "Swordfish",
+       "aircraft_id": "aircraft:cw:swordfish-mk-i",
        "count": 12,
        "sgsu": 1,
        "ready": 9
       },
       {
        "type": "Gladiator",
+       "aircraft_id": "aircraft:cw:gladiator-mk-ii",
        "count": 3,
        "sgsu": 1,
        "ready": 3
       },
       {
        "type": "Sea Gladiator",
+       "aircraft_id": "aircraft:cw:sea-gladiator",
        "count": 1,
        "sgsu": 1,
        "ready": 1

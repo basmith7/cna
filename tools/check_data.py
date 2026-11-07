@@ -224,6 +224,37 @@ def validate_units(data_dir: pathlib.Path, reg: Registry, known: set[str], table
             errors.append(f"{label}: extends unknown {doc['extends']}")
     if tables.get("reinforcement-schedule"):
         refs("tables/reinforcement-schedule.json", tables["reinforcement-schedule"])
+    errors += validate_aircraft(scenarios, tables)
+    return errors
+
+
+def validate_aircraft(scenarios: dict[str, tuple[str, dict]], tables: dict) -> list[str]:
+    """Every plane entry of a scenario's air blocks (a list item with a `type`) and every
+    air reinforcement arrival names its aircraft-characteristics row in `aircraft_id`:
+    a row that exists and is not an `alternative_of` (another configuration of a plane)."""
+    errors: list[str] = []
+    chart = tables.get("aircraft-characteristics")
+    rows = {r["id"]: r for r in chart["rows"]} if chart else {}
+
+    def check(label: str, entry: dict, name_key: str) -> None:
+        what = f"{label}: plane {entry.get(name_key)!r}"
+        ref = entry.get("aircraft_id")
+        if ref is None:
+            errors.append(f"{what} has no aircraft_id")
+        elif rows and ref not in rows:
+            errors.append(f"{what}: unknown aircraft_id {ref}")
+        elif rows and "alternative_of" in rows[ref]:
+            errors.append(f"{what}: aircraft_id {ref} is an alternative_of row; name {rows[ref]['alternative_of']}")
+
+    for label, doc in scenarios.values():
+        for side in doc.get("sides", {}).values():
+            for k, v in _walk(side.get("air", {})):
+                if k == "" and isinstance(v, dict) and "type" in v:
+                    check(label, v, "type")
+    for name in ("air-reinforcement-schedule", "axis-air-reinforcement-schedule"):
+        for row in (tables.get(name) or {"rows": []})["rows"]:
+            for arrival in row.get("arrivals", []):
+                check(f"tables/{name}.json {row.get('period')}", arrival, "aircraft")
     return errors
 
 

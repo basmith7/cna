@@ -17,12 +17,13 @@
         "game_turns": {"type": "object", "required": ["from", "to"], "additionalProperties": false,
                        "properties": {"from": {"type": "integer", "minimum": 1}, "to": {"type": "integer", "minimum": 1}}},
         "arrivals": {"type": "array", "minItems": 1, "items": {
-          "type": "object", "required": ["nation", "count", "aircraft"], "additionalProperties": false,
+          "type": "object", "required": ["nation", "count", "aircraft", "aircraft_id"], "additionalProperties": false,
           "properties": {
             "nation": {"enum": ["german", "italian"]},
             "count": {"type": ["integer", "null"], "minimum": 1, "description": "null where the printed count is not a number; see count_as_printed"},
             "count_as_printed": {"type": "string"},
             "aircraft": {"type": "string", "minLength": 1},
+            "aircraft_id": {"type": "string", "pattern": "^aircraft:(cw|it|de):[a-z0-9][a-z0-9-]*$", "description": "The tables/aircraft-characteristics.json row this entry is (never an alternative_of row: those are the same plane in another configuration); names with no row of their own follow R-169"},
             "mark": {"type": "string", "pattern": "^[*†]$"}
           }}},
         "sources": {"$ref": "common.schema.json#/$defs/sources"}

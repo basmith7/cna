@@ -42,6 +42,11 @@ scenario file. Reinforcements and replacements arrive in the normal way.
 The fleet may sail from the first OpStage: 62.37 sets no limit
 (`first_sail` is null).
 
+::: ruling R-170 — the second Blenheim IVF line
+
+The Commonwealth air force's second Blenheim line (142 planes, 100
+refitted) is Blenheim IV bombers, not more IVF fighters.
+
 ::: ruling R-107 — what an inactive dump is
 
 Of six Commonwealth forward dump sites, four are real, sharing the
