@@ -51,8 +51,8 @@ and replacements are in `sides.axis`, together with the equipment upgrades
 
 ::: ruling R-167 — the Axis's stray "eight" is eight landing strips
 
-The Axis places nine airfields, eight landing strips, one flying-boat
-basin and one alighting area anywhere on maps A to D.
+Besides its nine airfields, basin and alighting area, the Axis places
+eight landing strips anywhere on maps A to D.
 
 ## Special rules {#special}
 
