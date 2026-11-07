@@ -150,9 +150,19 @@
      },
      {
       "hold": {
-       "region": "egypt",
-       "constraint": "any two villages or cities in Egypt"
-      }
+       "region": "egypt"
+      },
+      "count": 2,
+      "place_kinds": [
+       "village",
+       "major-city"
+      ],
+      "counted_once": [
+       [
+        "alexandria-east",
+        "alexandria-west"
+       ]
+      ]
      }
     ]
    },
@@ -190,7 +200,8 @@
    }
   ],
   "notes": [
-   "Judged at the end of the scenario. SPI names no levels except Decisive and Strategic (Axis) and 'Smashing' (Commonwealth); holding Tobruk alone is recorded as tactical for whichever side holds it. The Commonwealth 'Smashing Victory' is recorded as strategic (the schema has no 'smashing'); its 'all the above' is read as Tobruk, Bardia and Benghazi (the Egyptian villages are already Commonwealth). R-101: the levels are a ladder; an Axis player not holding Tobruk has lost, whoever holds it; no supply condition is printed or added."
+   "Judged at the end of the scenario. SPI names no levels except Decisive and Strategic (Axis) and 'Smashing' (Commonwealth); holding Tobruk alone is recorded as tactical for whichever side holds it. The Commonwealth 'Smashing Victory' is recorded as strategic (the schema has no 'smashing'); its 'all the above' is read as Tobruk, Bardia and Benghazi (the Egyptian villages are already Commonwealth). R-101: the levels are a ladder; an Axis player not holding Tobruk has lost, whoever holds it; no supply condition is printed or added.",
+   "R-187: the two Egyptian places are any two of kind village or major city (not oases), each held whole; Alexandria's two hexes count as one city, held if either is."
   ]
  },
  "sides": {

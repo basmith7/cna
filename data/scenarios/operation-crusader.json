@@ -230,12 +230,6 @@
     "cw": 1
    }
   ],
-  "notes": [
-   "Each side totals its points; the higher subtracts the lower. The margin sets the level (see margins).",
-   "A place counts only if a friendly combat unit of any strength occupies it with supply to exist for a month and ammunition for a week (one round per OpStage).",
-   "Halfaya Pass is printed as '(both hexes)' with no hex numbers and is not in places.json; C3922 is the hex 60.8 uses. The second hex is unknown; the points are read as one award for the pass, unconfirmed.",
-   "SPI suggests players may adjust the level by comparing losses; not an official condition."
-  ],
   "margins": [
    {
     "min": 10,
@@ -253,6 +247,20 @@
     "min": 0,
     "level": "draw"
    }
+  ],
+  "points_supply": {
+   "axis": {
+    "draw": true
+   },
+   "cw": {
+    "draw": true
+   }
+  },
+  "notes": [
+   "Each side totals its points; the higher subtracts the lower. The margin sets the level (see margins).",
+   "A place counts only if a friendly combat unit of any strength occupies it with supply to exist for a month and ammunition for a week (one round per OpStage). Under abstract supply: a friendly supply unit within 32.16 reach at the end (points_supply, R-186).",
+   "Halfaya Pass is printed as '(both hexes)' with no hex numbers and is not in places.json; C3922 is the hex 60.8 uses. The second hex is unknown; the points are read as one award for the pass, unconfirmed.",
+   "SPI suggests players may adjust the level by comparing losses; not an official condition."
   ]
  },
  "sides": {

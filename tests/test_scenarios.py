@@ -527,3 +527,22 @@ def test_italian_campaign_levels_and_cut_off_trace():
     assert _margin_winner(v, 0, 25) == ("cw", "tactical")
     places = {p["id"] for p in json.loads((ROOT / "data" / "map" / "places.json").read_text())["places"]}
     assert v["cut_off"]["side"] == "axis" and set(v["cut_off"]["trace"]["places"]) <= places
+
+
+def test_points_supply_tests_under_abstract_supply():
+    places = {p["id"] for p in json.loads((ROOT / "data" / "map" / "places.json").read_text())["places"]}
+    tests = {s: load(s)["victory"]["points_supply"] for s in ("operation-crusader", "the-long-retreat", "italian-campaign")}
+    # stocks on hand become 32.16's draw; the Italian Campaign's line home becomes R-110's route (R-186)
+    assert tests["operation-crusader"] == {"axis": {"draw": True}, "cw": {"draw": True}}
+    assert tests["the-long-retreat"] == {"axis": {"draw": True}}
+    ic = tests["italian-campaign"]
+    assert {ic["axis"]["trace"]["places"][0], ic["cw"]["trace"]["places"][0]} == {"nofilia", "cairo"} <= places
+
+
+def test_rommels_arrival_two_egyptian_villages_or_cities():
+    v = load("rommels-arrival")["victory"]
+    strat = next(lv for lv in v["levels"] if lv["side"] == "axis" and lv["level"] == "strategic")
+    (obj,) = [o for o in strat["all_of"] if "count" in o]
+    assert obj["hold"] == {"region": "egypt"} and obj["count"] == 2
+    kinds = {p["id"]: p["kind"] for p in json.loads((ROOT / "data" / "map" / "places.json").read_text())["places"]}
+    assert all(kinds[i] in obj["place_kinds"] for group in obj["counted_once"] for i in group)

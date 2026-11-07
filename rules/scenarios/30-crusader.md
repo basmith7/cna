@@ -131,3 +131,10 @@ friendly combat unit holds it with enough supply to last a month and
 ammunition for a week. The side with more points subtracts the other's
 total; the margin gives the result (`victory.margins`): 10 or more a
 strategic victory, 6 to 9 decisive, 1 to 5 tactical, 0 a draw.
+
+::: ruling R-186 — under abstract supply the holder must be able to draw on a supply unit
+
+Played with abstract supply (§32), the month's supply and week's
+ammunition become 32.16's test: at the end the holding combat unit is
+within half its CPA of a friendly supply unit (`victory.points_supply`;
+ruling [R-186](../../rulings/R-186.md)).

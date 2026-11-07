@@ -267,6 +267,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-110](../rulings/R-110.md) — what the supply condition means when only the Land Game is played
 - [R-119](../rulings/R-119.md) — supply units, real or dummy, do not count as units in a supply trace
 - [R-185](../rulings/R-185.md) — the plain victory is tactical; the cut-off test is R-110's route to Nofilia
+- [R-186](../rulings/R-186.md) — under abstract supply the holders need R-110's route home
 - [V-007](../rulings/V-007.md) — some Italian squadrons start in Sicily
 - [V-008](../rulings/V-008.md) — Mussolini's requirements on the Italian advance
 
@@ -283,6 +284,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-160](../rulings/R-160.md) — where the unattached motorisation points start
 - [R-102](../rulings/R-102.md) — motorisation points when only the Logistics Game is left out
 - [R-101](../rulings/R-101.md) — who wins when the Axis player holds Tobruk alone
+- [R-187](../rulings/R-187.md) — which places count as "two villages or cities in Egypt"
 
 ## [Group Three — Operation Crusader](./scenarios/30-crusader.md)
 
@@ -292,6 +294,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-106](../rulings/R-106.md) — tank strengths for two battalions the set-up never places
 - [R-158](../rulings/R-158.md) — the hexes next to Tobruk
 - [R-166](../rulings/R-166.md) — the pipeline's middle hex
+- [R-186](../rulings/R-186.md) — under abstract supply the holder must be able to draw on a supply unit
 
 ## [Group Four — El Alamein](./scenarios/40-el-alamein.md)
 
@@ -301,6 +304,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-161](../rulings/R-161.md) — whether the Bardia fortifications are optional
 - [R-183](../rulings/R-183.md) — what the tactical count of TOE points includes
 - [R-184](../rulings/R-184.md) — the Commonwealth's win at zero points is tactical
+- [R-186](../rulings/R-186.md) — under abstract supply the holders must be able to draw on a supply unit
 
 ## [Group Five — the campaign game](./scenarios/50-campaign-game.md)
 
@@ -454,6 +458,8 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-183](../rulings/R-183.md) | accepted | 63.91 |
 | [R-184](../rulings/R-184.md) | accepted | 63.92 |
 | [R-185](../rulings/R-185.md) | accepted | 60.82, 32.16 |
+| [R-186](../rulings/R-186.md) | accepted | 62.8, 63.92, 60.82, 32.16 |
+| [R-187](../rulings/R-187.md) | accepted | 61.8 |
 
 ## Variants register
 
