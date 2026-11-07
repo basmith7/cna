@@ -14,6 +14,8 @@ The next run reads this section first, acts on it, and moves each item to
 
 ## Addressed
 
+- 2026-11-07 (cna-engine, Requests for cna) The Last Chance's tactical victory as typed data → R-183 (#312, merged): new optional `victory.toe_on_sheet` (`level`, `sheets`, `exclude`, `hq`, `guns`, `broken_down`, `tie`). Each side counts its land units' TOE points on the enemy's sheet (Axis on E, Commonwealth on D), guns and HQs' own points included, broken-down points not, Layforce (`unit:cw:a`) and SAS (`unit:cw:sas`) excluded. The higher total wins tactical, a tie gives no victory, and the count applies only when the Axis falls short of strategic.
+
 - 2026-11-07 (cna-engine, Requests for cna) 12.22's blind barrage vs 3.61's examinable stacks → R-182 (#311, merged): the firer aims at a class and an owner-assigned number, held secret for the barrage step; a specific counter may be named only once patrol or earlier combat has identified it. Examining a stack identifies nothing. A target is not a counter: dummy tank formations and mixed armoured/unarmoured units would otherwise leak. No data change.
 
 - 2026-11-07 (cna-engine, Requests for cna) Rommel's Arrival's 18th Australian Brigade landing → R-181 (#310, merged): new optional `sides.<side>.arrivals` (`at`, `units`, `placement`, `trucks`); a unit named there arrives by that row, not the schedule. The brigade, with its OA sheet and its schedule row's 12 L / 30 M / 10 H trucks, lands GT27/1 in either Alexandria hex; its GT14/3 schedule row (before the start) does not apply.
