@@ -724,3 +724,9 @@ Done: R-178 (87074df): under §32 a dummy tank battalion costs no stores and nee
 In flight: none once this PR merges.
 Next: re-read cna-engine's Requests for cna; with nothing new, idle per the finish line.
 Blocked: none
+
+## 2026-11-07 09:35 UTC — autopilot/req-substitute-arrival (and req-infantry-type)
+Done: cna-engine's two open requests. R-179 (#308, merged 9ea4633): `infantry_type` machine-gun|heavy-weapons on 54 OA units, read from the VASSAL counter art (`Type` path in the vmod SVGs); 40/9 Brs conflict queued in decisions.json `copy`. R-180 (#309, 395278c): a 19.45 substitute becomes an ordinary attachment when its missing unit arrives; excess detached free next reorganisation segment.
+In flight: none once #309 merges.
+Next: re-read cna-engine's Requests for cna; with nothing new and Feedback empty, idle per the finish line. Next free ruling id R-181.
+Blocked: none.

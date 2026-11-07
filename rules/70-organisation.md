@@ -212,6 +212,17 @@ and so is not placed, unless the scenario says otherwise.
 - **Detach-and-pair.** Units detached from the same parent may attach to one
   another at no cost beyond the detachment itself.
 
+::: ruling R-180 — a substitute stops being one when the unit it stands for arrives
+
+**When the missing unit arrives.** A substitute stands in only while the
+unit it replaces is missing. Once that unit is in play and assigned to the
+parent again (a reinforcement arriving, a 19.66 reassignment undone, a
+recreated small unit returning to its slot), the substitute is an ordinary
+non-assigned attachment and counts against the parent's Maximum Attachment
+row. Whatever no longer fits is detached in the owner's next reorganisation
+segment, free of CP, into the parent's hex; until then nothing more may be
+attached to that parent beyond its rows ([R-180](../rulings/R-180.md)).
+
 ## Rebuilding depleted units
 
 ::: spi 19.6 19.61 19.62 19.63 19.64 19.65 19.66 19.67 19.68

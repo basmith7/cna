@@ -74,6 +74,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 - [R-146](../rulings/R-146.md) — from turn 92 the support group fills the armoured division's infantry brigade slot
 - [R-130](../rulings/R-130.md) — parents the attachment chart does not name use the nearest row by size and type
 - [R-179](../rulings/R-179.md) — machine-gun and heavy-weapons units are known by their counter symbol
+- [R-180](../rulings/R-180.md) — a substitute stops being one when the unit it stands for arrives
 - [R-100](../rulings/R-100.md) — the schedule and an OA sheet sometimes give different arrivals
 - [R-154](../rulings/R-154.md) — a named withdrawal takes its OA sheet's units less those printed after "Less"; "HQ" takes the counter alone
 - [R-155](../rulings/R-155.md) — the check is made once, after the stated Operations Stage's last phase
@@ -442,6 +443,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-177](../rulings/R-177.md) | accepted | 14.48, 12.43, 15.11, 32.51 |
 | [R-178](../rulings/R-178.md) | accepted | 16.41, 16.42, 16.43, 32.11 |
 | [R-179](../rulings/R-179.md) | accepted | 19.5, 20.3, 15.4 |
+| [R-180](../rulings/R-180.md) | accepted | 19.45, 19.21, 19.25, 19.62 |
 
 ## Variants register
 

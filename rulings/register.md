@@ -153,6 +153,7 @@ cases it touches; [how rulings work](./README.md) explains how to propose or dis
 | [R-177](./R-177.md) | What a halftrack unit is in combat | accepted | 14.48, 12.43, 15.11, 32.51 |
 | [R-178](./R-178.md) | Abstract supply: dummy tank battalions cost no stores | accepted | 16.41, 16.42, 16.43, 32.11 |
 | [R-179](./R-179.md) | Machine-gun and heavy-weapons units are known by their counter symbol | accepted | 19.5, 20.3, 15.4 |
+| [R-180](./R-180.md) | A substitute stops being one when the unit it stands for arrives | accepted | 19.45, 19.21, 19.25, 19.62 |
 
 ## Variants
 
