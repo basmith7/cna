@@ -1701,6 +1701,7 @@
      "name": "60th Machinegun Bn",
      "abbreviation": "60",
      "id_code": "bb",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:60th-sabratha-div-hq",
      "fills": [
       "machinegun-battalion"
@@ -2228,6 +2229,7 @@
      "name": "17th Machinegun Bn",
      "abbreviation": "17",
      "id_code": "bb",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:17th-pavia-div-hq",
      "fills": [
       "machinegun-battalion"
@@ -2519,6 +2521,7 @@
      "name": "25th Machinegun Bn",
      "abbreviation": "25",
      "id_code": "bb",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:25th-bologna-div-hq",
      "fills": [
       "machinegun-battalion"
@@ -2713,6 +2716,7 @@
      "name": "III/65 Heavy Wpns Bn",
      "abbreviation": "III/65",
      "id_code": "p",
+     "infantry_type": "heavy-weapons",
      "parent": "unit:it:65th-regt-mtr-hq",
      "fills": [
       "infantry-battalion"
@@ -2817,6 +2821,7 @@
      "name": "IV/66 Support Coy",
      "abbreviation": "IV/66",
      "id_code": "ff",
+     "infantry_type": "heavy-weapons",
      "parent": "unit:it:66th-regt-mtr-hq",
      "fills": [],
      "toe": [],
@@ -2901,6 +2906,7 @@
      "name": "40th Heavy Wpns Bn",
      "abbreviation": "40/9 Brs",
      "id_code": "p",
+     "infantry_type": "heavy-weapons",
      "parent": "unit:it:9th-bersaglieri-regt-hq",
      "fills": [
       "infantry-battalion"
@@ -2910,13 +2916,17 @@
       "game_turn": 50,
       "opstage": 3
      },
-     "toe_mark": "N"
+     "toe_mark": "N",
+     "notes": [
+      "infantry_type: the VASSAL counter draws a motorised infantry symbol; the OA sheet's name and ID code p (shared with III/65 and the 101st) say heavy weapons (R-179)"
+     ]
     },
     {
      "id": "unit:it:101st-heavy-wpns-bn",
      "name": "101st Heavy Wpns Bn",
      "abbreviation": "101",
      "id_code": "p",
+     "infantry_type": "heavy-weapons",
      "parent": "unit:it:101st-trieste-div-hq",
      "fills": [
       "infantry-battalion"
@@ -3200,6 +3210,7 @@
      "name": "55th Machinegun Bn",
      "abbreviation": "55",
      "id_code": "bb",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:55th-savona-div-hq",
      "fills": [
       "machinegun-battalion"
@@ -3482,6 +3493,7 @@
      "name": "27th Machinegun Bn",
      "abbreviation": "27",
      "id_code": "bb",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:27-brescia-div-hq",
      "fills": [
       "machinegun-battalion"
@@ -3737,6 +3749,7 @@
      "name": "64th Machinegun Bn",
      "abbreviation": "64",
      "id_code": "bb",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:64th-catanzaro-div-hq",
      "fills": [
       "machinegun-battalion"
@@ -4087,6 +4100,7 @@
      "name": "551st Machinegun Bn",
      "abbreviation": "551",
      "id_code": "bb",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:102nd-trento-div-hq",
      "fills": [
       "machinegun-battalion"
@@ -4273,6 +4287,7 @@
      "name": "III/136 Heavy Wpns Bn",
      "abbreviation": "III/136",
      "id_code": "s",
+     "infantry_type": "heavy-weapons",
      "parent": "unit:it:136th-fanteria-regt-hq",
      "fills": [
       "infantry-battalion"
@@ -4582,6 +4597,7 @@
      "name": "I/Santamaria Machinegun Coy",
      "abbreviation": "I/Snta",
      "id_code": "cc",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:recam-hq",
      "fills": [
       "motorised-machinegun-company"
@@ -4690,6 +4706,7 @@
      "name": "Sahara Machinegun Bn",
      "abbreviation": "Sahara",
      "id_code": "z",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:saharan-detachment-hq",
      "fills": [
       "machinegun-battalion"
@@ -4703,6 +4720,7 @@
      "name": "Sahara Mtr Machinegun Coy",
      "abbreviation": "SahMtr",
      "id_code": "hh",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:saharan-detachment-hq",
      "fills": [
       "motorised-machinegun-company"
@@ -5315,6 +5333,7 @@
      "name": "VEC Machinegun Bn",
      "abbreviation": "VEC",
      "id_code": "aa",
+     "infantry_type": "machine-gun",
      "parent": null,
      "fills": [
       "machinegun-battalion"
@@ -5558,6 +5577,7 @@
      "name": "Giariabub Oasis Mtr MG Bn",
      "abbreviation": "Grbub",
      "id_code": "hh",
+     "infantry_type": "machine-gun",
      "parent": null,
      "fills": [
       "motorised-machinegun-company"
@@ -5582,6 +5602,7 @@
      "name": "Giariabub Oasis MG Bn",
      "abbreviation": "Grbub",
      "id_code": "y",
+     "infantry_type": "machine-gun",
      "parent": null,
      "fills": [
       "machinegun-battalion"
@@ -5667,6 +5688,7 @@
      "name": "Sceferzen Oasis Garrison Bn",
      "abbreviation": "Scfzrn",
      "id_code": "dd",
+     "infantry_type": "heavy-weapons",
      "parent": null,
      "fills": [],
      "toe": [],
@@ -5678,6 +5700,7 @@
      "name": "Fort Maddalenna Garrison Bn",
      "abbreviation": "FtMad",
      "id_code": "q",
+     "infantry_type": "heavy-weapons",
      "parent": null,
      "fills": [
       "infantry-battalion"
@@ -5691,6 +5714,7 @@
      "name": "EGUG Garrison Bn",
      "abbreviation": "EGUG",
      "id_code": "ee",
+     "infantry_type": "heavy-weapons",
      "parent": null,
      "fills": [],
      "toe": [],
@@ -5719,6 +5743,7 @@
      "name": "Mechili Garrison Bn",
      "abbreviation": "Mechili",
      "id_code": "r",
+     "infantry_type": "heavy-weapons",
      "parent": null,
      "fills": [
       "infantry-battalion"
@@ -6402,6 +6427,7 @@
      "name": "IV Genoa Machinegun Bn",
      "abbreviation": "IV Gen",
      "id_code": "y",
+     "infantry_type": "machine-gun",
      "parent": null,
      "fills": [
       "machinegun-battalion"
@@ -6419,6 +6445,7 @@
      "name": "VI Aosta Machinegun Bn",
      "abbreviation": "VI Aos",
      "id_code": "y",
+     "infantry_type": "machine-gun",
      "parent": null,
      "fills": [
       "machinegun-battalion"
@@ -7253,6 +7280,7 @@
      "name": "202nd Machinegun Bn",
      "abbreviation": "202",
      "id_code": "bb",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:2nd-ccnn-div-hq",
      "fills": [
       "machinegun-battalion"
@@ -7470,6 +7498,7 @@
      "name": "201st Machinegun Bn",
      "abbreviation": "201",
      "id_code": "bb",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:1st-ccnn-div-hq",
      "fills": [
       "machinegun-battalion"
@@ -7622,6 +7651,7 @@
      "name": "203rd Machinegun Bn",
      "abbreviation": "203",
      "id_code": "bb",
+     "infantry_type": "machine-gun",
      "parent": null,
      "fills": [
       "machinegun-battalion"
@@ -7830,6 +7860,7 @@
      "name": "204th Machinegun Bn",
      "abbreviation": "204",
      "id_code": "bb",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:4th-ccnn-div-hq",
      "fills": [
       "machinegun-battalion"
@@ -8271,6 +8302,7 @@
      "name": "61st Machinegun Bn",
      "abbreviation": "61",
      "id_code": "bb",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:61st-sirte-div-hq",
      "fills": [
       "machinegun-battalion"
@@ -8542,6 +8574,7 @@
      "name": "62nd Machinegun Bn",
      "abbreviation": "62",
      "id_code": "bb",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:62nd-marmarica-div-hq",
      "fills": [
       "machinegun-battalion"
@@ -8791,6 +8824,7 @@
      "name": "63rd Machinegun Bn",
      "abbreviation": "63",
      "id_code": "bb",
+     "infantry_type": "machine-gun",
      "parent": "unit:it:63rd-cirene-div-hq",
      "fills": [
       "machinegun-battalion"
