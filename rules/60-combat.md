@@ -912,6 +912,8 @@ Both sides check for losses, at different moments.
 
 ::: spi 16.4 16.41 16.42 16.43 16.44 16.45 16.46 16.47
 
+::: ruling R-188 — a blind barrage may betray a dummy tank formation; the firer keeps what he can infer
+
 A **dummy tank formation** is the size of a tank battalion, is worth nothing
 in combat and has CPA 0. There is no counter: it is created in the
 construction segment by spending **10 stores** present in the hex, and it
@@ -925,7 +927,13 @@ tell until he attacks. It dies as soon as its formation is close-assaulted,
 or when the formation takes anti-armour fire while holding no real armour
 (or after losing all of it). Anti-armour fire aimed at dummies cannot be
 diverted to close assault under the "no armour" rule when the only armour
-was the dummy. (The Household Cavalry Regiment, which ran the Commonwealth
+was the dummy. A dummy is an armour-class barrage target like any other,
+so the owner counts it when he announces a hex's targets. If that count
+outruns the armour the firer can see on the stack's counter faces, or a
+pinned result lands on a target with no counter to mark, the firer may draw
+his own conclusion: the dummy's secret holds only until it is attacked, and
+a barrage is an attack ([R-188](../rulings/R-188.md)). A pinned dummy takes
+no marker and loses nothing. (The Household Cavalry Regiment, which ran the Commonwealth
 dummies, is not on the OA sheets for this reason.)
 
 ### What a patrol learns
