@@ -162,6 +162,8 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 - [R-173](../rulings/R-173.md) — SGSU upkeep with the Air Game and abstract logistics
 - [R-174](../rulings/R-174.md) — refit and repair costs with the Air Game and abstract logistics
+- [R-171](../rulings/R-171.md) — supply units are supply dumps; motorisation points are first-line trucks when attached to a combat unit, trucks in convoy otherwise
+- [R-172](../rulings/R-172.md) — ports and the water pipeline stay targets; efficiency never limits a §47 convoy, and a cut pipeline has no effect
 - [R-127](../rulings/R-127.md) — a 5 % convoy result is applied like 10 %
 - [R-114](../rulings/R-114.md) — anti-air units with the Air Game and abstract logistics
 
@@ -414,6 +416,8 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-163](../rulings/R-163.md) | accepted | 59.5, 49.14, 50.17 |
 | [R-164](../rulings/R-164.md) | accepted | 3.5, 10.11, 10.15, 10.29, 12.22, 19.62, 21.42 |
 | [R-166](../rulings/R-166.md) | accepted | 62.5, 52.24 |
+| [R-171](../rulings/R-171.md) | accepted | 47.51, 41.32, 41.35, 40.53, 40.61, 40.62, 40.64, 32.11, 32.32 |
+| [R-172](../rulings/R-172.md) | accepted | 47.0, 41.39, 41.81, 40.66, 40.67, 55.18, 32.11, 32.36, 47.61 |
 | [R-173](../rulings/R-173.md) | accepted | 35.14, 47.0, 47.13 |
 | [R-174](../rulings/R-174.md) | accepted | 38.36, 45.62, 45.64, 47.0, 47.2 |
 
