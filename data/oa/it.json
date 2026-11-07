@@ -586,6 +586,16 @@
       "d: early Semovente 75/18 SP guns",
       " stripped to Ariete, later replaced by DLIV and DLVI Articelere Bns",
       "listed under the heading '3rd Articelere Regt', which has no counter"
+     ],
+     "shifts": [
+      {
+       "from": null,
+       "to": "unit:it:ariete-132nd-div-hq",
+       "month": "1941-12",
+       "notes": [
+        "133rd Littorio note d: assigned to the Ariete as soon as it arrived (3/62, December 1941)"
+       ]
+      }
      ]
     },
     {
@@ -614,6 +624,16 @@
       "d: early Semovente 75/18 SP guns",
       " stripped to Ariete, later replaced by DLIV and DLVI Articelere Bns",
       "listed under the heading '3rd Articelere Regt', which has no counter"
+     ],
+     "shifts": [
+      {
+       "from": null,
+       "to": "unit:it:ariete-132nd-div-hq",
+       "month": "1941-12",
+       "notes": [
+        "133rd Littorio note d: assigned to the Ariete as soon as it arrived (3/62, December 1941)"
+       ]
+      }
      ]
     }
    ]
@@ -5846,6 +5866,16 @@
      },
      "notes": [
       "c: assigned to 133rd RC (Littorio) to replace units sent to Ariete"
+     ],
+     "shifts": [
+      {
+       "from": null,
+       "to": "unit:it:133rd-regt-corazzata-hq",
+       "month": null,
+       "notes": [
+        "Unassigned Armored Units note c: assigned to the 133rd RC to replace units sent to the Ariete; no month"
+       ]
+      }
      ]
     },
     {
@@ -5938,6 +5968,16 @@
      },
      "notes": [
       "c: assigned to 133rd RC (Littorio) to replace units sent to Ariete"
+     ],
+     "shifts": [
+      {
+       "from": null,
+       "to": "unit:it:133rd-regt-corazzata-hq",
+       "month": null,
+       "notes": [
+        "Unassigned Armored Units note c: assigned to the 133rd RC to replace units sent to the Ariete; no month"
+       ]
+      }
      ]
     },
     {
@@ -6562,6 +6602,16 @@
      "morale": 0,
      "notes": [
       "a: fast artillery sent to 133rd RC (Littorio) to replace units stripped to Ariete"
+     ],
+     "shifts": [
+      {
+       "from": null,
+       "to": "unit:it:133rd-regt-corazzata-hq",
+       "month": null,
+       "notes": [
+        "Unassigned Gun Units note a: sent to the 133rd RC to replace the battalions stripped to the Ariete; no month"
+       ]
+      }
      ]
     },
     {
@@ -6589,6 +6639,16 @@
      "morale": 0,
      "notes": [
       "a: fast artillery sent to 133rd RC (Littorio) to replace units stripped to Ariete"
+     ],
+     "shifts": [
+      {
+       "from": null,
+       "to": "unit:it:133rd-regt-corazzata-hq",
+       "month": null,
+       "notes": [
+        "Unassigned Gun Units note a: sent to the 133rd RC to replace the battalions stripped to the Ariete; no month"
+       ]
+      }
      ]
     },
     {
