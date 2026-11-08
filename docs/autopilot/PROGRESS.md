@@ -426,3 +426,4 @@ Weekly and 5-hour figures are plan utilisation (%) as reported by the usage endp
 | 2026-11-07 11:52 | 37 | 18→18 | none→none | $1.81 | 5 | I answered cna-engine's one new request with ruling R-188, merged as PR #315. The site is live with it. **R-188 (the engine's question on R-182 and dummy tank f |
 | 2026-11-07 12:52 | 0 | 19→19 | none→none | $0.38 | 5 | This run did nothing, because there was nothing to do. The rulebook is finished, so the standing orders only allow work on Feedback or on cna-engine's requests, |
 | 2026-11-07 18:52 | 0 | 27→27 | none→none | $0.40 | 5 | Nothing to do this run, so it stopped early on purpose. The standing orders say that once the rulebook is finished, an idle run stops when nothing has been requ |
+| 2026-11-07 19:52 | 0 | 27→27 | none→none | $0.41 | 5 | I did no work this run because nothing was asked for. The rulebook is done (Mission 7 finished on 2026-10-09), and the standing orders say to stop when there's  |
