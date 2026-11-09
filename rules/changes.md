@@ -32,6 +32,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Stacking, zones of control and reserve](./50-stacking-and-zoc.md)
 
+- [R-189](../rulings/R-189.md) — a set-up stack over the ceiling may stay but may not grow
 - [R-141](../rulings/R-141.md) — a division counts its 2 SP components, a brigade its 1 SP components
 - [R-138](../rulings/R-138.md) — a lone Rommel escapes first, then is captured
 - [R-164](../rulings/R-164.md) — a combat unit with no TOE points left counts as a non-combat unit here
@@ -250,6 +251,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 
 ## [Reading a scenario](./scenarios/00-reading-scenarios.md)
 
+- [R-189](../rulings/R-189.md) — a set-up stack over the ceiling may stay but may not grow
 - [R-096](../rulings/R-096.md) — the set-up overrides the OA arrival column
 - [R-162](../rulings/R-162.md) — works placed at the start are not construction
 - [R-163](../rulings/R-163.md) — what units hold at the start of a Logistics Game
@@ -462,6 +464,7 @@ do not adopt (`V-nnn`, also in `rulings/`). Generated from the `::: errata`,
 | [R-186](../rulings/R-186.md) | accepted | 62.8, 63.92, 60.82, 32.16 |
 | [R-187](../rulings/R-187.md) | accepted | 61.8 |
 | [R-188](../rulings/R-188.md) | accepted | 3.62, 12.23, 16.42, 16.45 |
+| [R-189](../rulings/R-189.md) | accepted | 9.14, 59.65 |
 
 ## Variants register
 
