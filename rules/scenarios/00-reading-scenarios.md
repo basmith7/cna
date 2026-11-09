@@ -65,6 +65,15 @@ the formation (`formation`) instead of a unit.
 - **Over the limits.** A unit that starts larger than its formation limits
   allow may operate as it is. It may not take on any new unit, and once a
   unit leaves it, it may not take on another that would break the limits.
+
+::: ruling R-189 — a set-up stack over the ceiling may stay but may not grow
+
+- **Over the stacking limit.** A place of several hexes (Cairo) counts as
+  several hexes for the first rule above. Only where the set-up
+  leaves no choice may a hex start over its stacking ceiling: it may stay
+  so, but may never regain stacking points it loses, and once it is within
+  the ceiling the normal limit applies, as for supply units below.
+
 ::: ruling R-096 — the set-up overrides the OA arrival column
 
 - **Placed before its arrival.** A unit the set-up places starts on the

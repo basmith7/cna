@@ -37,6 +37,15 @@ Each terrain type has a stacking ceiling, given on the Terrain Effects Chart
 (SPI 8.37, `data/tables/terrain-effects.json`). The ceiling is enforced at the
 end of every movement segment.
 
+::: ruling R-189 — a set-up stack over the ceiling may stay but may not grow
+
+A stack the printed set-up forces over its hex's ceiling is legal as
+placed. At each end-of-segment check it may hold no more stacking points
+than it held at the previous check (at first, its set-up total), and once
+it is at or under the ceiling the normal limit applies for good. Where the
+set-up lets the owner choose among hexes, he must choose within the
+ceiling ([R-189](../rulings/R-189.md)).
+
 ::: spi 4.26
 
 A few hexes routinely hold more counters than fit on the map. Each has a
