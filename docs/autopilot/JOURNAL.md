@@ -755,3 +755,9 @@ Done: R-188 (#315), the engine's "R-182 vs dummy tank formations" request: optio
 In flight: none once #315 merges.
 Next: re-read cna-engine's Requests for cna; idle unless new. Next free ruling id R-189.
 Blocked: none.
+
+## 2026-11-09 ~19:20 UTC — autopilot/req-setup-overstack
+Done: R-189 (06c9f81, #316): set-up stacks over 9.14; owner choices within ceiling (59.2), forced overfill legal, never regains SP, normal once within (59.65 read across). No data change.
+In flight: none.
+Next: re-read cna-engine's Requests for cna; next free ruling id R-190.
+Blocked: none.
